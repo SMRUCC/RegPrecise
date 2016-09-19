@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Ruminococcus lactaris ATCC 29176" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor (activator)">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47487" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="RUMLAC_00505" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6094864&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4785" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RUMLAC_00572" Name="argG" Position="-204" Score="5.2">
+          <Sequence>TTGTATTTTTATGCAT</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_00572" Name="argG" Position="-194" Score="4.8">
+          <Sequence>ATGCATATATTTGCAT</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_00572" Name="argG" Position="-142" Score="5.4">
+          <Sequence>TTGCATAATTATAAAA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_00579" Name="argC" Position="-200" Score="5.4">
+          <Sequence>ATGTATTATTATGCAA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_01975" Name="carA" Position="-142" Score="5.2">
+          <Sequence>CTTTATAATTATACAT</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6094938" LocusId="RUMLAC_00579" Name="argC" Function="N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)" />
+          <Members vimssId="6094939" LocusId="RUMLAC_00580" Name="GNAT" Function="Acetyltransferase, GNAT family (EC 2.3.1.-)" />
+          <Members vimssId="6094940" LocusId="RUMLAC_00581" Name="argJ" Function="Glutamate N-acetyltransferase (EC 2.3.1.35) / N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="6094941" LocusId="RUMLAC_00582" Name="argB" Function="Acetylglutamate kinase (EC 2.7.2.8)" />
+          <Members vimssId="6094942" LocusId="RUMLAC_00583" Name="argD" Function="Acetylornithine aminotransferase (EC 2.6.1.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6096334" LocusId="RUMLAC_01975" Name="carA" Function="Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)" />
+          <Members vimssId="6096335" LocusId="RUMLAC_01976" Name="carB" Function="Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6094931" LocusId="RUMLAC_00572" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4785</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57906" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="RUMLAC_00057" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6094416&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5929" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RUMLAC_00062" Name="bioB" Position="-135" Score="8.6">
+          <Sequence>ATGTAAAC---------------GTTGACAA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_01841" Name="bioY" Position="-102" Score="9">
+          <Sequence>TTGTTAAC---------------GTTGACAA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6096200" LocusId="RUMLAC_01841" Name="bioY" Function="Substrate-specific component BioY of biotin ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6094421" LocusId="RUMLAC_00062" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5929</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62764" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="RUMLAC_01085" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6095444&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6458" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RUMLAC_00863" Name="PF12672" Position="-26" Score="5.3">
+          <Sequence>AATGAGAAAAGTTCTCAAA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_00863" Name="PF12672" Position="-1" Score="5.3">
+          <Sequence>ATTGAAAATCATTCTCAAG</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_00863" Name="PF12672" Position="36" Score="5.4">
+          <Sequence>ATTGAAAATCATTCTCAAA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_01088" Name="PF10087" Position="-141" Score="5.5">
+          <Sequence>ATTGAGAAAAAATATCAAC</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_01088" Name="PF10087" Position="-115" Score="5.2">
+          <Sequence>ATTGATAACCATTCTCATG</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_01521" Name="feoB2" Position="-95" Score="5.6">
+          <Sequence>AATGGTAAAAATTATCAAT</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_01079" Name="BACPEC_02635" Position="-97" Score="5.9">
+          <Sequence>AATGAAAAAAATTATCAAT</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_01079" Name="BACPEC_02635" Position="-68" Score="4.6">
+          <Sequence>GATGATTTTCAATCTCATT</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_01086" Name="BACPEC_03058" Position="-102" Score="5.5">
+          <Sequence>GTTGATAAAATTTATCAGT</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6095880" LocusId="RUMLAC_01521" Name="feoB2" Function="Ferrous iron transport protein B" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6095222" LocusId="RUMLAC_00863" Name="PF12672" Function="Protein of unknown function (DUF3793)" />
+          <Members vimssId="6095223" LocusId="RUMLAC_00864" Name="PF00258" Function="Flavodoxins" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6095447" LocusId="RUMLAC_01088" Name="PF10087" Function="Uncharacterized protein conserved in bacteria (DUF2325)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6095445" LocusId="RUMLAC_01086" Name="BACPEC_03058" Function="hypothetical protein" />
+          <Members vimssId="6095446" LocusId="RUMLAC_01087" Name="COG2217" Function="Cation transporting ATPase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6095438" LocusId="RUMLAC_01079" Name="BACPEC_02635" Function="hypothetical protein" />
+          <Members vimssId="6095439" LocusId="RUMLAC_01080" Name="feoA" Function="Ferrous iron transport protein A" />
+          <Members vimssId="6095440" LocusId="RUMLAC_01081" Name="feoB" Function="Ferrous iron transport protein B" />
+          <Members vimssId="6095441" LocusId="RUMLAC_01082" Name="null" Function="hypothetical protein" />
+          <Members vimssId="6095442" LocusId="RUMLAC_01083" Name="null" Function="hypothetical protein" />
+          <Members vimssId="6095443" LocusId="RUMLAC_01084" Name="BACPEC_02991" Function="hypothetical protein" />
+          <Members vimssId="6095444" LocusId="RUMLAC_01085" Name="fur" Function="Transcriptional regulator for iron transport and metabolism, Fur family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6458</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TrpR" RegulationMode="repressor">
+      <Regulator Key="HisR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=54596" />
+      <Effector>Histidine</Effector>
+      <Pathway>Histidine biosynthesis</Pathway>
+      <LocusTag Key="RUMLAC_00772" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6095131&amp;disp=0" />
+      <BiologicalProcess>Histidine biosynthesis</BiologicalProcess>
+      <Regulog Key="HisR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5569" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RUMLAC_00772" Name="hisR" Position="-59" Score="5.6">
+          <Sequence>AAATTTAGTGTGCTAAAATG</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_01337" Name="hisX" Position="-70" Score="4.6">
+          <Sequence>GACTTTACCATGGTGCAGTG</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_00416" Name="hisZ" Position="-40" Score="4.9">
+          <Sequence>CGTATTAGCAGACTAAAGTG</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6095131" LocusId="RUMLAC_00772" Name="hisR" Function="Predicted histidine repressor, TrpR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6095696" LocusId="RUMLAC_01337" Name="hisX" Function="Histidine ABC transporter, histidine-binding protein (TC 3.A.1)" />
+          <Members vimssId="6095697" LocusId="RUMLAC_01338" Name="hisY" Function="Histidine ABC transporter, permease protein" />
+          <Members vimssId="6095698" LocusId="RUMLAC_01339" Name="hisZ" Function="Histidine ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6094775" LocusId="RUMLAC_00416" Name="hisZ" Function="ATP phosphoribosyltransferase regulatory subunit (EC 2.4.2.17)" />
+          <Members vimssId="6094776" LocusId="RUMLAC_00417" Name="hisG" Function="ATP phosphoribosyltransferase catalytic subunit (EC 2.4.2.17)" />
+          <Members vimssId="6094777" LocusId="RUMLAC_00418" Name="hisD" Function="Histidinol dehydrogenase (EC 1.1.1.23)" />
+          <Members vimssId="6094778" LocusId="RUMLAC_00419" Name="hisB" Function="Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)" />
+          <Members vimssId="6094779" LocusId="RUMLAC_00420" Name="hisIE" Function="Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19) / Phosphoribosyl-ATP pyrophosphatase (EC 3.6.1.31)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5569</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47501" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="RUMLAC_02656" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6097015&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4786" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RUMLAC_00300" Name="htpG" Position="-96" Score="7.4">
+          <Sequence>TTAGCACTCTATTTAAAAGAGTGCTAA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_02470" Name="groES" Position="-54" Score="7.2">
+          <Sequence>TTAGCACTCAAGTGAAAAGAGTGCTAA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_02471" Name="groEL" Position="-372" Score="7.2">
+          <Sequence>TTAGCACTCAAGTGAAAAGAGTGCTAA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_02656" Name="hrcA" Position="-68" Score="7.1">
+          <Sequence>TTAGCACTCAAAAGCAGGGAGTGCTAA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_01519" Name="hsp20" Position="-196" Score="6.7">
+          <Sequence>TTGGCACTCAACACTTTACAGTGCTAA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_01141" Name="clpB" Position="-95" Score="7.2">
+          <Sequence>TTAGCACTCAACTCTTTACAGTGCTAA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6095500" LocusId="RUMLAC_01141" Name="clpB" Function="ATP-dependent Clp protease ATP-binding subunit ClpB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6095878" LocusId="RUMLAC_01519" Name="hsp20" Function="Heat shock protein Hsp20" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6096830" LocusId="RUMLAC_02471" Name="groEL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6096829" LocusId="RUMLAC_02470" Name="groES" Function="Heat shock protein 60 family co-chaperone GroES" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6094659" LocusId="RUMLAC_00300" Name="htpG" Function="Heat shock chaperone protein 90" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6097015" LocusId="RUMLAC_02656" Name="hrcA" Function="heat-inducible transcription repressor HrcA" />
+          <Members vimssId="6097014" LocusId="RUMLAC_02655" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="6097013" LocusId="RUMLAC_02654" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="6097012" LocusId="RUMLAC_02653" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4786</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="IdeR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63063" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="RUMLAC_02635" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6096994&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="IdeR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6500" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RUMLAC_02635" Name="ideR" Position="-139" Score="4.1">
+          <Sequence>AATTATAACATAATCTATCAAT</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_01079" Name="" Position="-132" Score="6">
+          <Sequence>CACGTTAGCGTATACTAACTAA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_01088" Name="PF10087" Position="-77" Score="5">
+          <Sequence>TGAGTTAGAAAAGACTAACTAA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_01886" Name="eno" Position="-107" Score="5.7">
+          <Sequence>ATGGTTAGTTAATACTAACTAT</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6095438" LocusId="RUMLAC_01079" Name="null" Function="hypothetical protein" />
+          <Members vimssId="6095439" LocusId="RUMLAC_01080" Name="feoA" Function="Ferrous iron transport protein A" />
+          <Members vimssId="6095440" LocusId="RUMLAC_01081" Name="feoB" Function="Ferrous iron transport protein B" />
+          <Members vimssId="6095441" LocusId="RUMLAC_01082" Name="null" Function="hypothetical protein" />
+          <Members vimssId="6095442" LocusId="RUMLAC_01083" Name="null" Function="hypothetical protein" />
+          <Members vimssId="6095443" LocusId="RUMLAC_01084" Name="null" Function="hypothetical protein" />
+          <Members vimssId="6095444" LocusId="RUMLAC_01085" Name="fur" Function="Transcriptional regulator for iron transport and metabolism, Fur family" />
+          <Members vimssId="6095445" LocusId="RUMLAC_01086" Name="null" Function="hypothetical protein" />
+          <Members vimssId="6095446" LocusId="RUMLAC_01087" Name="COG2217" Function="Cation transporting ATPase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6096994" LocusId="RUMLAC_02635" Name="ideR" Function="Predicted iron-dependent repressor, DtxR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6096245" LocusId="RUMLAC_01886" Name="eno" Function="Enolase (EC 4.2.1.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6095447" LocusId="RUMLAC_01088" Name="PF10087" Function="Uncharacterized protein conserved in bacteria" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6500</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47459" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="RUMLAC_00443" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6094802&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4783" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RUMLAC_01907" Name="recA" Position="-32" Score="5.1">
+          <Sequence>ACGAACAACTGTTCGA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_00443" Name="lexA" Position="-170" Score="4.5">
+          <Sequence>GAGAACGTATGTTCAT</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_00443" Name="lexA" Position="-129" Score="5.1">
+          <Sequence>CCGAACAGATGTTTGT</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_00443" Name="lexA" Position="-92" Score="5">
+          <Sequence>TCGAACATATTTTCGC</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_00163" Name="umuC" Position="-130" Score="5">
+          <Sequence>AAGAACATACGTTCTA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_02126" Name="COG4277" Position="-59" Score="4.6">
+          <Sequence>GAGAACGTTTGTTCTA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_00444" Name="PF01476" Position="-118" Score="5">
+          <Sequence>GCGAAAATATGTTCGA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_00444" Name="PF01476" Position="-81" Score="5.1">
+          <Sequence>ACAAACATCTGTTCGG</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_00444" Name="PF01476" Position="-40" Score="4.5">
+          <Sequence>ATGAACATACGTTCTC</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6094802" LocusId="RUMLAC_00443" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6096266" LocusId="RUMLAC_01907" Name="recA" Function="Recombination protein A" />
+          <Members vimssId="6096267" LocusId="RUMLAC_01908" Name="recX" Function="regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6094522" LocusId="RUMLAC_00163" Name="umuC" Function="DNA polymerase V involved in DNA-repair" />
+          <Members vimssId="6094521" LocusId="RUMLAC_00162" Name="BACPEC_01776" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6096485" LocusId="RUMLAC_02126" Name="COG4277" Function="Predicted DNA-binding protein with the Helix-hairpin-helix motif" />
+          <Members vimssId="6096486" LocusId="RUMLAC_02127" Name="BACPEC_02112" Function="Uracil-DNA glycosylase, family 1" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6094803" LocusId="RUMLAC_00444" Name="PF01476" Function="Peptidoglycan-binding lysin domain" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4783</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NiaR" RegulationMode="repressor">
+      <Regulator Key="NiaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47445" />
+      <Effector>Niacin</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="RUMLAC_00639" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6094998&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NiaR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4782" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RUMLAC_00642" Name="nadA" Position="-57" Score="6.2">
+          <Sequence>AACATCTGTCTTGTCACCTGTA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6095001" LocusId="RUMLAC_00642" Name="nadA" Function="Quinolinate synthetase (EC 4.1.99.-)" />
+          <Members vimssId="6095000" LocusId="RUMLAC_00641" Name="nadB" Function="L-aspartate oxidase (EC 1.4.3.16)" />
+          <Members vimssId="6094999" LocusId="RUMLAC_00640" Name="nadC" Function="Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)" />
+          <Members vimssId="6094998" LocusId="RUMLAC_00639" Name="niaR" Function="NAD biosynthesis transcription regulator, HTH_11 family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4782</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=64325" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="RUMLAC_02322" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6096681&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6635" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RUMLAC_00868" Name="nrdD" Position="19" Score="5.5">
+          <Sequence>ATACTATATTTTGTAT</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_00868" Name="nrdD" Position="48" Score="4.1">
+          <Sequence>AGACAATATCTTGAAA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6095227" LocusId="RUMLAC_00868" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+          <Members vimssId="6095228" LocusId="RUMLAC_00869" Name="nrdG" Function="anaerobic ribonucleoside-triphosphate reductase activating protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6635</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61486" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine biosynthesis</Pathway>
+      <LocusTag Key="RUMLAC_01873" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6096232&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine biosynthesis</BiologicalProcess>
+      <Regulog Key="PdxR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6312" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RUMLAC_01874" Name="pdxS" Position="-132" Score="10.4">
+          <Sequence>TTCTGACCT-(15)-AATTGAATA-(8)-TAGTCACAA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_01106" Name="pdxU" Position="-93" Score="8.8">
+          <Sequence>ATCTGACCT-(15)-AATTGACCA-(8)-GGTTCACAT</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6096233" LocusId="RUMLAC_01874" Name="pdxS" Function="Pyridoxine biosynthesis glutamine amidotransferase, synthase subunit (EC 2.4.2.-)" />
+          <Members vimssId="6096234" LocusId="RUMLAC_01875" Name="pdxT" Function="Pyridoxine biosynthesis glutamine amidotransferase, glutaminase subunit (EC 2.4.2.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6095465" LocusId="RUMLAC_01106" Name="pdxU" Function="Substrate-specific component PdxU of predicted pyridoxin-related ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6312</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47473" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="RUMLAC_02084" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6096443&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4784" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RUMLAC_02580" Name="adhE" Position="-63" Score="5.4">
+          <Sequence>GTGTTAAATTATTAACAA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_02580" Name="adhE" Position="-37" Score="4.9">
+          <Sequence>TTGACAATTTATTAACGA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_02581" Name="stpK" Position="-157" Score="5.5">
+          <Sequence>ATGTTAAAAAAATAACAA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_01918" Name="gap" Position="-96" Score="4.6">
+          <Sequence>TTGATGAATTCTTAACAA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_00614" Name="ladH" Position="-67" Score="4.7">
+          <Sequence>TTGTTAAAATAAAGACAT</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_00224" Name="aroE" Position="-111" Score="4.8">
+          <Sequence>TTGTTTGATAATTAACAA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_02728" Name="pfkA" Position="-61" Score="4.9">
+          <Sequence>TTGATAAAAAATAGACAA</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RUMLAC_01487" Name="por" Position="-179" Score="5.1">
+          <Sequence>TTGTGAAAAAATTATCAT</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6096940" LocusId="RUMLAC_02581" Name="stpK" Function="Mn2+-dependent serine/threonine protein kinase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6096939" LocusId="RUMLAC_02580" Name="adhE" Function="Alcohol dehydrogenase (EC 1.1.1.1), Fe-dependent; Acetaldehyde dehydrogenase (EC 1.2.1.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6095846" LocusId="RUMLAC_01487" Name="por" Function="Pyruvate-flavodoxin oxidoreductase (EC 1.2.7.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6097087" LocusId="RUMLAC_02728" Name="pfkA" Function="6-phosphofructokinase (EC 2.7.1.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6094583" LocusId="RUMLAC_00224" Name="aroE" Function="Shikimate/quinate 5-dehydrogenase I beta (EC 1.1.1.282)" />
+          <Members vimssId="6094582" LocusId="RUMLAC_00223" Name="kefA" Function="potassium efflux system KefA" />
+          <Members vimssId="6094581" LocusId="RUMLAC_00222" Name="aroD" Function="3-dehydroquinate dehydratase I (EC 4.2.1.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6094973" LocusId="RUMLAC_00614" Name="ladH" Function="Lactaldehyde reductase (EC 1.1.1.77)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6096277" LocusId="RUMLAC_01918" Name="gap" Function="NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4784</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48828" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RUMLAC_02357" Name="ribU" Position="-312" Score="92.5">
+          <Sequence>GTAATCTTCGGGGTCGGGTGAAAGTCCCAACCGGCGGTATAGTCCGCGACCCGCAGTATCTGCGGCTGAACCGGTGACTTTTCTGTGCAAAGGATGCATGGCAGGGGATTCCGGTACCGACAGTAAAGTCTGGATGAGAGAAGAAGGTTCG</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6096716" LocusId="RUMLAC_02357" Name="ribU" Function="Substrate-specific component RibU of riboflavin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48842" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RUMLAC_00295" Name="thiW" Position="-183" Score="44.4">
+          <Sequence>CGATGAAGAAGGGGAGCTGGCTGAAGCCGGCTGAGAGGAGACTGACTGGTTTCGACCCGCAACCTGATTTGGATAATGCCAACGTAGGGAAATAGCGAAAAAGCAGCAG</Sequence>
+          <Bacteria>Ruminococcus lactaris ATCC 29176</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6094654" LocusId="RUMLAC_00295" Name="thiW" Function="Substrate-specific component ThiW of predicted thiazole ECF transporter" />
+          <Members vimssId="6094655" LocusId="thiMED" Name="null" Function="Hydroxyethylthiazole kinase (EC 2.7.1.50) / Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3) / Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+          <Members vimssId="6094656" LocusId="RUMLAC_00297" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

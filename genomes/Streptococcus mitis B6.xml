@@ -1,0 +1,2475 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Streptococcus mitis B6" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="MarR" RegulationMode="repressor">
+      <Regulator Key="AdcR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35842" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="smi_2027" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10163730&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="AdcR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3633" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1143" Name="lmb3" Position="-24" Score="5">
+          <Sequence>AATTAAATAGTTAAGG</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1141" Name="phtD2" Position="-106" Score="5.1">
+          <Sequence>TATTTACTGGTTAATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_2027" Name="adcR" Position="-77" Score="5.9">
+          <Sequence>AATTAACCAGTAAATA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0203" Name="adhA2" Position="-114" Score="5.2">
+          <Sequence>ACTTTACCGGTAAATA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10163730" LocusId="smi_2027" Name="adcR" Function="Zinc homeostasis trancsriptional regulator AdcR, MarR family" />
+          <Members vimssId="10163729" LocusId="smi_2026" Name="adcC" Function="Zinc ABC transporter, ATP-binding protein" />
+          <Members vimssId="10163728" LocusId="smi_2025" Name="adcB" Function="Zinc ABC transporter, permease protein" />
+          <Members vimssId="10163727" LocusId="smi_2024" Name="adcA" Function="Zinc ABC transporter, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10161895" LocusId="smi_0203" Name="adhA2" Function="Alcohol dehydrogenase, zinc-containing" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162840" LocusId="smi_1143" Name="lmb3" Function="Laminin-binding surface lipoprotein" />
+          <Members vimssId="10162839" LocusId="smi_1142" Name="phtB" Function="Histidine triad protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162838" LocusId="smi_1141" Name="phtD2" Function="Histidine triad protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3633</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="AgaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46324" />
+      <Effector>N-acetylgalactosamine</Effector>
+      <Pathway>N-acetylgalactosamine utilization</Pathway>
+      <LocusTag Key="smi_0078" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10161769&amp;disp=0" />
+      <BiologicalProcess>N-acetylgalactosamine utilization</BiologicalProcess>
+      <Regulog Key="AgaR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4687" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0079" Name="bgaC" Position="-56" Score="5.5">
+          <Sequence>ATATTTAATATATCAACAAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0078" Name="agaR" Position="-282" Score="5.5">
+          <Sequence>TTTGTTGATATATTAAATAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10161769" LocusId="smi_0078" Name="agaR" Function="N-acetylgalactosamine utilization transcriptional regulator AgaR, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10161770" LocusId="smi_0079" Name="bgaC" Function="Beta-galactosidase (EC 3.2.1.23)" />
+          <Members vimssId="10161771" LocusId="smi_0080" Name="gadV" Function="Predicted galactosamine disaccharide-specific PTS system, IIB component (EC 2.7.1.69)" />
+          <Members vimssId="10161772" LocusId="smi_0081" Name="gadW" Function="Predicted galactosamine disaccharide-specific PTS system, IIC component (EC 2.7.1.69)" />
+          <Members vimssId="10161773" LocusId="smi_0082" Name="gadE" Function="Predicted galactosamine disaccharide-specific PTS system, IID component (EC 2.7.1.69)" />
+          <Members vimssId="10161774" LocusId="smi_0083" Name="gadF" Function="Predicted galactosamine disaccharide-specific PTS system, IIA component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4687</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor, activator">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34823" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis; Arginine degradation</Pathway>
+      <LocusTag Key="smi_1000" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10162697&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis; Arginine degradation</BiologicalProcess>
+      <Regulog Key="ArgR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3559" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0151" Name="argR1" Position="-30" Score="4.4">
+          <Sequence>TAGTTATAAATATGCATA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1969" Name="artP" Position="-93" Score="4.5">
+          <Sequence>ATTGAAAAATTTTTCAAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1144" Name="aapA" Position="-71" Score="4.9">
+          <Sequence>ATTTTATAAATATTCACA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0150" Name="argS" Position="-105" Score="4.2">
+          <Sequence>ATTTTATAACTATATTAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0867" Name="artQ" Position="-45" Score="4">
+          <Sequence>ATGTTATAATCATACAGT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1969" Name="artP" Position="-28" Score="4.1">
+          <Sequence>AAAGAATAAACATAAAGG</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10161843" LocusId="smi_0151" Name="argR1" Function="Arginine metabolism transcriptional regulator ArgR, ArgR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10161842" LocusId="smi_0150" Name="argS" Function="Arginyl-tRNA synthetase (EC 6.1.1.19)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163672" LocusId="smi_1969" Name="artP" Function="Arginine ABC transporter, substrate-binding protein" />
+          <Members vimssId="10163671" LocusId="smi_1968" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+          <Members vimssId="10163670" LocusId="smi_1967" Name="argH" Function="Argininosuccinate lyase (EC 4.3.2.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162563" LocusId="smi_0867" Name="artQ" Function="Arginine ABC transporter, permease protein" />
+          <Members vimssId="10162564" LocusId="smi_0868" Name="artM" Function="Arginine ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162841" LocusId="smi_1144" Name="aapA" Function="Predicted amino acid permease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3559</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46486" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="smi_0511" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10162203&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4700" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0834" Name="bioY" Position="-87" Score="8.3">
+          <Sequence>TTTGTTACC----------------GTTGACAAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0834" Name="bioY" Position="-35" Score="8.2">
+          <Sequence>ATAGTTACT----------------GTTAACTAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162530" LocusId="smi_0834" Name="bioY" Function="Substrate-specific component BioY of biotin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4700</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="CcpA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35144" />
+      <Effector>Fructose-1,6-bisphosphate; HPr, phosphocarrier protein</Effector>
+      <Pathway>Global catabolite repression</Pathway>
+      <LocusTag Key="smi_0284" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10161976&amp;disp=0" />
+      <BiologicalProcess>Global catabolite repression</BiologicalProcess>
+      <Regulog Key="CcpA - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3584" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1160" Name="yuel" Position="-55" Score="4.7">
+          <Sequence>AAGTAATCGCTTTCTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1534" Name="lacZ" Position="-33" Score="4.8">
+          <Sequence>AAGTAAACGCTTACTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0275" Name="adhB1" Position="-130" Score="4.1">
+          <Sequence>TGGAAAAGGCTTTCTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1410" Name="acuB" Position="-68" Score="4.3">
+          <Sequence>ATGTAAGCGTTTGATA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0602" Name="nanE" Position="-63" Score="4.5">
+          <Sequence>TTGAAAGCGCTTCATA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0603" Name="nanU" Position="-70" Score="4.8">
+          <Sequence>ATGAAAACGTATACAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0608" Name="nanA" Position="-88" Score="4.8">
+          <Sequence>TTGAAAGCGTTTTTTA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0792" Name="nanR" Position="-32" Score="5">
+          <Sequence>ATGTAAACGTTTACTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1800" Name="natA" Position="-56" Score="4.3">
+          <Sequence>TTGTAAAGGCTATCAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0695" Name="fbaA" Position="-137" Score="4.6">
+          <Sequence>TAGAAAGGGTTTACAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0079" Name="bgaC" Position="-37" Score="4.3">
+          <Sequence>ATGAAAGCGTAAACTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1415" Name="livJ" Position="-103" Score="4.5">
+          <Sequence>AGGAAAACGTTATCAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1051" Name="dhaK" Position="-41" Score="4.1">
+          <Sequence>ATGAAAGCGAAAACAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1051" Name="dhaK" Position="-120" Score="3.9">
+          <Sequence>AAAAAAATGTTTTAAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0576" Name="lrgA" Position="-109" Score="4.1">
+          <Sequence>TTGTATGCCCTTTCTA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0134" Name="malM" Position="-107" Score="4.3">
+          <Sequence>TTAAAACCGCTTGCAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1391" Name="apbE" Position="-116" Score="4">
+          <Sequence>GTGAAAACGCTGACTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1390" Name="naoX" Position="-67" Score="4.4">
+          <Sequence>TTGTAAACGCTAACAG</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0203" Name="adh" Position="-59" Score="4.7">
+          <Sequence>TTGAAAAGGCTTACAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1347" Name="glpF2" Position="-104" Score="4">
+          <Sequence>ATAAAACCGCTTTCTC</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1001" Name="pepX" Position="-4" Score="4.1">
+          <Sequence>TTTTATGCGTTTTAAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0304" Name="pflA" Position="-29" Score="4.9">
+          <Sequence>TATAAAACGTTTTCAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1616" Name="scrB" Position="-176" Score="4">
+          <Sequence>TTAAAAGGGTTTTATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0157" Name="pgi" Position="-44" Score="4">
+          <Sequence>AAGTAAGCGTTATGAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1478" Name="glcK" Position="-44" Score="4.3">
+          <Sequence>CTGTAAGCATTTTCAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1036" Name="lacT" Position="-181" Score="3.9">
+          <Sequence>tcGtAAGgGtTTaCAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1995" Name="msmX" Position="-69" Score="4.6">
+          <Sequence>ATGTAATCGTTATCAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1022" Name="gatA" Position="-123" Score="4.1">
+          <Sequence>ATTAAATCGTTTAAAG</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1022" Name="gatA" Position="-44" Score="4.6">
+          <Sequence>TTGACAACGATTTCAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0133" Name="malX" Position="-98" Score="4.2">
+          <Sequence>TTGCAACCGCTTTCTG</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0133" Name="malX" Position="-151" Score="4">
+          <Sequence>GATAAAGCGTTTACTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1815" Name="pfl" Position="-82" Score="4.2">
+          <Sequence>TTGAAATCGGTTACTG</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1166" Name="glgB" Position="-30" Score="4.8">
+          <Sequence>TAGAAAACGCTTACAG</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1045" Name="ptsH" Position="-196" Score="4.2">
+          <Sequence>TATAAATCGTTTTTAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1182" Name="yjbM" Position="-106" Score="4.2">
+          <Sequence>ATGAAAGCGGATTATA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0345" Name="hexA" Position="-50" Score="4.3">
+          <Sequence>AGTTAAGCGCTTTCTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0284" Name="ccpA" Position="-113" Score="4.6">
+          <Sequence>TTGAAAGTGTTTACAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_2056" Name="raiA" Position="-57" Score="4.7">
+          <Sequence>ATGAAAGCGTTATAAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1183" Name="yjbK" Position="-38" Score="4.2">
+          <Sequence>TATAATCCGCTTTCAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1720" Name="shetA" Position="-52" Score="4.6">
+          <Sequence>ATTTAAGCGCTTTTAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0713" Name="queA" Position="-92" Score="4.2">
+          <Sequence>GTGAAAACGATTTAAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0520" Name="galK" Position="-54" Score="4.2">
+          <Sequence>AAGAAAACGATTACAC</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1159" Name="eno" Position="-124" Score="4.7">
+          <Sequence>AAGAAAGCGATTACTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0231" Name="adhE" Position="-95" Score="4.4">
+          <Sequence>ATGAAACTGTTTACAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0231" Name="adhE" Position="-73" Score="3.7">
+          <Sequence>AATAATGCGTTATAAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1004" Name="pfk" Position="-102" Score="4.1">
+          <Sequence>ATGAAAACGATTTATC</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0214" Name="ackA" Position="-90" Score="5">
+          <Sequence>ATGAAAACGCTTAAAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1404" Name="ptsG" Position="-103" Score="4.4">
+          <Sequence>ATAAAAGCCTTTACAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1435" Name="lctO" Position="-33" Score="4.5">
+          <Sequence>AAGCAAACGCTTACTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1009" Name="yrhG" Position="-68" Score="3.9">
+          <Sequence>CGGAAAACGCTTCCTA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1818" Name="SPy0278" Position="-64" Score="3.9">
+          <Sequence>AGGTAAGCCCTTACTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1173" Name="pgm" Position="-40" Score="4.5">
+          <Sequence>ATGTAAACGATTAAAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0219" Name="sgaT" Position="-60" Score="4.4">
+          <Sequence>TTGTTTACGCTTTCAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1848" Name="pulA" Position="-70" Score="4.2">
+          <Sequence>GAGAAAACGCTTGCAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_2036" Name="hcaR" Position="-16" Score="4.1">
+          <Sequence>ATGAAAGGGGTAACAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1315" Name="atpE" Position="-93" Score="4.5">
+          <Sequence>CATTAAACGCTTTCAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_2035" Name="glpK" Position="-76" Score="4.8">
+          <Sequence>AAGAAAGCGCTTTATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0673" Name="phnA" Position="-111" Score="3.9">
+          <Sequence>TTGATATCGGTTTTTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0274" Name="manL" Position="-124" Score="4.2">
+          <Sequence>ATTTAAATGTTTTCTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0274" Name="manL" Position="-77" Score="4.6">
+          <Sequence>ATGAAAACGGTTTATA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0883" Name="coaA" Position="-64" Score="4.5">
+          <Sequence>AAGAAACCGCTTTATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0519" Name="galR" Position="-125" Score="4.2">
+          <Sequence>GTGTAATCGTTTTCTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1592" Name="msmK" Position="-55" Score="4.5">
+          <Sequence>TGTAAAGCGTTTTCAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1615" Name="scrA" Position="-52" Score="4.8">
+          <Sequence>ATAAAATCGCTTTCAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10161906" LocusId="smi_0214" Name="ackA" Function="Acetate kinase (EC 2.7.2.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162212" LocusId="smi_0520" Name="galK" Function="Galactokinase (EC 2.7.1.6)" />
+          <Members vimssId="10162213" LocusId="smi_0521" Name="galT" Function="Galactose-1-phosphate uridylyltransferase (EC 2.7.7.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162407" LocusId="smi_0713" Name="queA" Function="S-adenosylmethionine:tRNA ribosyltransferase-isomerase (EC 5.-.-.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163520" LocusId="smi_1818" Name="SPy0278" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163419" LocusId="smi_1720" Name="shetA" Function="Exfoliative toxin A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10161923" LocusId="smi_0231" Name="adhE" Function="Alcohol dehydrogenase (EC 1.1.1.1); Acetaldehyde dehydrogenase (EC 1.2.1.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163011" LocusId="smi_1315" Name="atpE" Function="ATP synthase C chain (EC 3.6.3.14)" />
+          <Members vimssId="10163010" LocusId="smi_1314" Name="atpB" Function="ATP synthase A chain (EC 3.6.3.14)" />
+          <Members vimssId="10163009" LocusId="smi_1313" Name="atpF" Function="ATP synthase B chain (EC 3.6.3.14)" />
+          <Members vimssId="10163008" LocusId="smi_1312" Name="atpH" Function="ATP synthase delta chain (EC 3.6.3.14)" />
+          <Members vimssId="10163007" LocusId="smi_1311" Name="atpA" Function="ATP synthase alpha chain (EC 3.6.3.14)" />
+          <Members vimssId="10163006" LocusId="smi_1310" Name="atpG" Function="ATP synthase gamma chain (EC 3.6.3.14)" />
+          <Members vimssId="10163005" LocusId="smi_1309" Name="atpD" Function="ATP synthase beta chain (EC 3.6.3.14)" />
+          <Members vimssId="10163004" LocusId="smi_1308" Name="atpC" Function="ATP synthase epsilon chain (EC 3.6.3.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163313" LocusId="smi_1615" Name="scrA" Function="Sucrose-specific PTS system, IIABC component (EC 2.7.1.69)" />
+          <Members vimssId="10163312" LocusId="smi_1614" Name="scrK" Function="Fructokinase (EC 2.7.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162701" LocusId="smi_1004" Name="pfk" Function="6-phosphofructokinase (EC 2.7.1.11)" />
+          <Members vimssId="10162702" LocusId="smi_1005" Name="pyk" Function="Pyruvate kinase (EC 2.7.1.40)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10161966" LocusId="smi_0274" Name="manL" Function="PTS system, mannose-specific IIAB components" />
+          <Members vimssId="10161965" LocusId="smi_0273" Name="manM" Function="PTS system, mannose-specific IIC component (EC 2.7.1.69)" />
+          <Members vimssId="10161964" LocusId="smi_0272" Name="manN" Function="PTS system, mannose-specific IID component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162719" LocusId="smi_1022" Name="gatA" Function="PTS system, galactose-specific IIA component (EC 2.7.1.69)" />
+          <Members vimssId="10162720" LocusId="smi_1023" Name="gatB" Function="PTS system, galactose-specific IIB component (EC 2.7.1.69)" />
+          <Members vimssId="10162721" LocusId="smi_1024" Name="gatC" Function="PTS system, galactose-specific IIC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163738" LocusId="smi_2035" Name="glpK" Function="Glycerol kinase (EC 2.7.1.30)" />
+          <Members vimssId="10163737" LocusId="smi_2034" Name="glpD" Function="Alpha-glycerophosphate oxidase (EC 1.1.3.21)" />
+          <Members vimssId="10163736" LocusId="smi_2033" Name="glpF" Function="Glycerol uptake facilitator protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162367" LocusId="smi_0673" Name="phnA" Function="Zn-ribbon-containing protein involved in phosphonate metabolism" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162879" LocusId="smi_1182" Name="yjbM" Function="GTP pyrophosphokinase (EC 2.7.6.5)" />
+          <Members vimssId="10162878" LocusId="smi_1181" Name="ppnK" Function="Predicted inorganic polyphosphate/ATP-NAD kinase" />
+          <Members vimssId="10162877" LocusId="smi_1180" Name="yjbO" Function="Similar to ribosomal large subunit pseudouridine synthase D, Bacillus subtilis YjbO type" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163231" LocusId="smi_1534" Name="lacZ" Function="Beta-galactosidase (EC 3.2.1.23)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163101" LocusId="smi_1404" Name="ptsG" Function="PTS system glucose-specific EIICBA component (EC 2.7.1.69)" />
+          <Members vimssId="10163100" LocusId="smi_1403" Name="rgfB" Function="Exodeoxyribonuclease III (EC 3.1.11.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162389" LocusId="smi_0695" Name="fbaA" Function="Fructose-bisphosphate aldolase class II (EC 4.1.2.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163107" LocusId="smi_1410" Name="acuB" Function="Acetoin utilization protein AcuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10161825" LocusId="smi_0133" Name="malX" Function="Maltose/maltodextrin ABC transporter, substrate-binding protein" />
+          <Members vimssId="10161824" LocusId="smi_0132" Name="malC" Function="Maltose/maltodextrin ABC transporter, permease protein 1" />
+          <Members vimssId="10161823" LocusId="smi_0131" Name="malD" Function="Maltose/maltodextrin ABC transporter, permease protein 2" />
+          <Members vimssId="10161822" LocusId="smi_0130" Name="malA" Function="Maltodextrose utilization protein MalA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10161976" LocusId="smi_0284" Name="ccpA" Function="Carbon catabolism global transcriptional regulator CcpA, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162270" LocusId="smi_0576" Name="lrgA" Function="Antiholin-like protein LrgA" />
+          <Members vimssId="10162271" LocusId="smi_0577" Name="lrgB" Function="LrgA-associated membrane protein LrgB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163087" LocusId="smi_1391" Name="apbE" Function="Predicted thiamine biosynthesis lipoprotein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163175" LocusId="smi_1478" Name="glcK" Function="Glucokinase (EC 2.7.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163290" LocusId="smi_1592" Name="msmK" Function="Multiple sugar ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162748" LocusId="smi_1051" Name="dhaK" Function="Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), dihydroxyacetone binding subunit DhaK" />
+          <Members vimssId="10162749" LocusId="smi_1052" Name="dhaL" Function="Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), ADP-binding subunit DhaL" />
+          <Members vimssId="10162750" LocusId="smi_1053" Name="dhaM" Function="Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), subunit DhaM; DHA-specific IIA component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163760" LocusId="smi_2056" Name="raiA" Function="Ribosome-associated protein Y" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163112" LocusId="smi_1415" Name="livJ" Function="Branched-chain amino acid ABC transporter, substrate-binding protein" />
+          <Members vimssId="10163111" LocusId="smi_1414" Name="livH" Function="Branched-chain amino acid ABC transporter, permease protein 1" />
+          <Members vimssId="10163110" LocusId="smi_1413" Name="livM" Function="Branched-chain amino acid ABC transporter, permease protein 2" />
+          <Members vimssId="10163109" LocusId="smi_1412" Name="livG" Function="Branched-chain amino acid ABC transporter, ATP-binding protein 1" />
+          <Members vimssId="10163108" LocusId="smi_1411" Name="livF" Function="Branched-chain amino acid ABC transporter, ATP-binding protein 2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10161826" LocusId="smi_0134" Name="malM" Function="4-alpha-glucanotransferase (amylomaltase) (EC 2.4.1.25)" />
+          <Members vimssId="10161827" LocusId="smi_0135" Name="malP" Function="Maltodextrin phosphorylase (EC 2.4.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162870" LocusId="smi_1173" Name="pgm" Function="Phosphoglucomutase (EC 5.4.2.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10161967" LocusId="smi_0275" Name="adhB1" Function="Alcohol dehydrogenase (EC 1.1.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10161770" LocusId="smi_0079" Name="bgaC" Function="Beta-galactosidase (EC 3.2.1.23)" />
+          <Members vimssId="10161771" LocusId="smi_0080" Name="agaB" Function="Predicted galactosamine-specific PTS, EIIB component (EC 2.7.1.69)" />
+          <Members vimssId="10161772" LocusId="smi_0081" Name="agaC" Function="Predicted galactosamine-specific PTS, EIIC component (EC 2.7.1.69)" />
+          <Members vimssId="10161773" LocusId="smi_0082" Name="agaD" Function="Predicted galactosamine-specific PTS, EIID component (EC 2.7.1.69)" />
+          <Members vimssId="10161774" LocusId="smi_0083" Name="agaE" Function="Predicted galactosamine-specific PTS, EIIA component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163517" LocusId="smi_1815" Name="pfl" Function="Pyruvate formate-lyase (EC 2.3.1.54)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162880" LocusId="smi_1183" Name="yjbK" Function="Adenylate cyclase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163739" LocusId="smi_2036" Name="hcaR" Function="Predicted NADH peroxidase transcriptional regulator" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163314" LocusId="smi_1616" Name="scrB" Function="Sucrose-6-phosphate hydrolase (EC 3.2.1.26)" />
+          <Members vimssId="10163315" LocusId="smi_1617" Name="scrR" Function="Sucrose operon repressor ScrR, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162863" LocusId="smi_1166" Name="glgB" Function="1,4-alpha-glucan (glycogen) branching enzyme, GH-13-type (EC 2.4.1.18)" />
+          <Members vimssId="10162862" LocusId="smi_1165" Name="glgC" Function="Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27)" />
+          <Members vimssId="10162861" LocusId="smi_1164" Name="glgD" Function="Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27)" />
+          <Members vimssId="10162860" LocusId="smi_1163" Name="glgA" Function="Glycogen synthase, ADP-glucose transglucosylase (EC 2.4.1.21)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163043" LocusId="smi_1347" Name="glpF2" Function="Glycerol uptake facilitator protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162742" LocusId="smi_1045" Name="ptsH" Function="Phosphotransferase system, HPr-related protein" />
+          <Members vimssId="10162743" LocusId="smi_1046" Name="ptsI" Function="Phosphoenolpyruvate-protein kinase, PTS system component (EC 2.7.3.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10161849" LocusId="smi_0157" Name="pgi" Function="Glucose-6-phosphate isomerase (EC 5.3.1.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10161996" LocusId="smi_0304" Name="pflA" Function="Pyruvate formate-lyase activating enzyme (EC 1.97.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162037" LocusId="smi_0345" Name="hexA" Function="Endo-beta-N-acetylglucosaminidase (EC 3.2.1.96)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163086" LocusId="smi_1390" Name="naoX" Function="Predicted NADH oxidase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10161895" LocusId="smi_0203" Name="adh" Function="Alcohol dehydrogenase, Zn-dependent (EC 1.1.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162698" LocusId="smi_1001" Name="pepX" Function="Xaa-Pro dipeptidyl-peptidase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162211" LocusId="smi_0519" Name="galR" Function="Galactose utilization transcriptional regulator GalR, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10161911" LocusId="smi_0219" Name="sgaT" Function="Ascorbate-specific PTS system, IIC component" />
+          <Members vimssId="10161912" LocusId="smi_0220" Name="sgaB" Function="Ascorbate-specific PTS system, IIB component (EC 2.7.1.69)" />
+          <Members vimssId="10161913" LocusId="smi_0221" Name="sgaC" Function="Ascorbate-specific PTS system, IIA component (EC 2.7.1.-)" />
+          <Members vimssId="10161914" LocusId="smi_0222" Name="sgaH" Function="3-keto-L-gulonate 6-phosphate decarboxylase (EC 4.1.1.85)" />
+          <Members vimssId="10161915" LocusId="smi_0223" Name="sgaU" Function="L-xylulose 5-phosphate 3-epimerase (EC 5.1.3.-)" />
+          <Members vimssId="10161916" LocusId="smi_0224" Name="sgaE" Function="L-ribulose-5-phosphate 4-epimerase (EC 5.1.3.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162487" LocusId="smi_0792" Name="nanR" Function="Sialic acid utilization transcriptional regulator NanR, RpiR family" />
+          <Members vimssId="10162488" LocusId="smi_0793" Name="nanE" Function="N-acetylmannosamine-6-phosphate 2-epimerase (EC 5.1.3.9)" />
+          <Members vimssId="10162489" LocusId="smi_0794" Name="nanA2" Function="N-acetylneuraminate lyase (EC 4.1.3.3)" />
+          <Members vimssId="10162490" LocusId="smi_0795" Name="nanT" Function="Predicted sialic acid transporter" />
+          <Members vimssId="10162491" LocusId="smi_0796" Name="yjgK" Function="Conserved hypothetical protein" />
+          <Members vimssId="10162492" LocusId="smi_0797" Name="yjhC" Function="Predicted oxidoreductase (EC 1.1.1.-)" />
+          <Members vimssId="10162493" LocusId="smi_0798" Name="nanK" Function="N-acetylmannosamine kinase (EC 2.7.1.60)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162302" LocusId="smi_0608" Name="nanA" Function="N-acetylneuraminate lyase (EC 4.1.3.3)" />
+          <Members vimssId="10162303" LocusId="smi_0609" Name="nanK" Function="N-acetylmannosamine kinase (EC 2.7.1.60)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162297" LocusId="smi_0603" Name="nanU" Function="N-acetylneuraminate ABC transporter, substrate-binding protein" />
+          <Members vimssId="10162298" LocusId="smi_0604" Name="nanV" Function="N-acetylneuraminate ABC transporter, permease protein 1" />
+          <Members vimssId="10162299" LocusId="smi_0605" Name="nanW" Function="N-acetylneuraminate ABC transporter, permease protein 2" />
+          <Members vimssId="10162300" LocusId="smi_0606" Name="yjgK" Function="Conserved hypothetical protein" />
+          <Members vimssId="10162301" LocusId="smi_0607" Name="SPy0256" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162296" LocusId="smi_0602" Name="nanE" Function="N-acetylmannosamine-6-phosphate 2-epimerase (EC 5.1.3.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162856" LocusId="smi_1159" Name="eno" Function="Enolase (EC 4.2.1.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162857" LocusId="smi_1160" Name="yuel" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163132" LocusId="smi_1435" Name="lctO" Function="Lactate 2-monooxygenase (EC 1.13.12.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162706" LocusId="smi_1009" Name="yrhG" Function="Predicted permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163500" LocusId="smi_1800" Name="natA" Function="Na+ export ABC transporter, ATP-binding protein" />
+          <Members vimssId="10163499" LocusId="smi_1799" Name="natB" Function="Na+ export ABC transporter, permease protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163550" LocusId="smi_1848" Name="pulA" Function="Pullulanase (EC 3.2.1.41)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162733" LocusId="smi_1036" Name="lacT" Function="Predicted transcription antiterminator LacT, BglG family" />
+          <Members vimssId="10162734" LocusId="smi_1037" Name="lacF" Function="Lactose-specific PTS system, IIA component (EC 2.7.1.69)" />
+          <Members vimssId="10162735" LocusId="smi_1038" Name="lacE" Function="Lactose-specific PTS system, IIBC component (EC 2.7.1.69)" />
+          <Members vimssId="10162736" LocusId="smi_1039" Name="lacG" Function="6-phospho-beta-galactosidase (EC 3.2.1.85)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163698" LocusId="smi_1995" Name="msmX" Function="Multiple sugar ABC transporter, membrane-spanning permease protein MsmF" />
+          <Members vimssId="10163697" LocusId="smi_1994" Name="msmY" Function="Multiple sugar ABC transporter, membrane-spanning permease protein MsmG" />
+          <Members vimssId="10163696" LocusId="smi_1993" Name="msmZ" Function="Multiple sugar ABC transporter, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162579" LocusId="smi_0883" Name="coaA" Function="Pantothenate kinase (EC 2.7.1.33)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3584</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor (activator)">
+      <Regulator Key="CmbR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42383" />
+      <Effector>O-acetyl-L-serine</Effector>
+      <Pathway>Cysteine metabolism</Pathway>
+      <LocusTag Key="smi_0930" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10162626&amp;disp=0" />
+      <BiologicalProcess>Cysteine metabolism</BiologicalProcess>
+      <Regulog Key="CmbR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4369" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_2060" Name="cysK" Position="-98" Score="5.3">
+          <Sequence>GATATAAAAAAATCCTATCAC</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1946" Name="gshT" Position="-99" Score="5.1">
+          <Sequence>GCCATAAAGAAAACCTATCAC</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1579" Name="gshT" Position="-101" Score="5.1">
+          <Sequence>ATGATTAAGTTTTTTTATCAC</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1382" Name="tcyB" Position="-164" Score="4.7">
+          <Sequence>GAGATAGTTTTTACTTATCTC</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1382" Name="tcyB" Position="-142" Score="5">
+          <Sequence>TTGATAGATAAAATATATAGC</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1436" Name="str1582" Position="-80" Score="4.4">
+          <Sequence>GCAATAAAAAATAGATATTAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1436" Name="str1582" Position="-102" Score="5.5">
+          <Sequence>ATGATAAAAAATCCTTATAAC</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1945" Name="gshT" Position="-99" Score="5.1">
+          <Sequence>GCCATAAAGAAAACCTATCAC</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10163764" LocusId="smi_2060" Name="cysK" Function="Cysteine synthase (EC 2.5.1.47)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163133" LocusId="smi_1436" Name="str1582" Function="Predicted polar amino acid ABC transporter, permease protein 1" />
+          <Members vimssId="10163134" LocusId="smi_1437" Name="str1581" Function="Predicted polar amino acid ABC transporter, permease protein 2" />
+          <Members vimssId="10163135" LocusId="smi_1438" Name="str1580" Function="Predicted polar amino acid ABC transporter, ATP-binding protein" />
+          <Members vimssId="10163136" LocusId="smi_1439" Name="str1579" Function="Predicted polar amino acid ABC transporter, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163078" LocusId="smi_1382" Name="tcyB" Function="Cystine ABC transporter, permease protein" />
+          <Members vimssId="10163077" LocusId="smi_1381" Name="tcyC" Function="Cystine ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163277" LocusId="smi_1579" Name="gshT" Function="Predicted glutathione ABC transporter, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163649" LocusId="smi_1946" Name="gshT" Function="Predicted glutathione ABC transporter, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163648" LocusId="smi_1945" Name="gshT" Function="Predicted glutathione ABC transporter, substrate-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4369</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CodY" RegulationMode="repressor (activator)">
+      <Regulator Key="CodY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45106" />
+      <Effector>Guanosine triphosphate; Branched-chain amino acids</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="smi_0687" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10162381&amp;disp=0" />
+      <BiologicalProcess>Amino acid metabolism</BiologicalProcess>
+      <Regulog Key="CodY - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4653" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0193" Name="thrC" Position="-57" Score="5.4">
+          <Sequence>AATTTTCTGAAAAAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0687" Name="codY" Position="-71" Score="5.6">
+          <Sequence>AATTTTCAGATAATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1825" Name="ilvB" Position="-93" Score="5.3">
+          <Sequence>AAAATTCAGAAAATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0322" Name="oppA2" Position="-83" Score="5.6">
+          <Sequence>AATATTCTGAAAATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1758" Name="oppA2" Position="-71" Score="5.3">
+          <Sequence>AAAATTCAGAAAATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0906" Name="ilvE" Position="-88" Score="5.8">
+          <Sequence>AATTTTCTGAAAATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0814" Name="gdhA" Position="-95" Score="5.5">
+          <Sequence>AATTTTTAGAAAATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1436" Name="str1582" Position="-124" Score="5.3">
+          <Sequence>AAATTTCAGAAATTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1218" Name="leuA" Position="-259" Score="5.3">
+          <Sequence>AATTTTCAGAAAATA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1568" Name="ubiE" Position="-56" Score="4.7">
+          <Sequence>AATTGTCAGATAATA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0683" Name="nrgA" Position="-93" Score="5.2">
+          <Sequence>AATTATCAAAAAATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1847" Name="rpoB" Position="-113" Score="5">
+          <Sequence>AAGATTCTGAAAATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1415" Name="livK" Position="-61" Score="5.6">
+          <Sequence>AATTTTCTGATAATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1133" Name="asd" Position="-31" Score="5.5">
+          <Sequence>AATTTTTAGAAAATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0113" Name="ilvD" Position="-85" Score="5.8">
+          <Sequence>AATTTTCTGAAAATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1398" Name="scpC" Position="-57" Score="5.6">
+          <Sequence>AATTTTCAGATAATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1278" Name="efeO" Position="-92" Score="5.4">
+          <Sequence>AATTTTCTGACAATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1950" Name="mutR" Position="-69" Score="4.6">
+          <Sequence>AAGTGTCAGAATATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0773" Name="hom" Position="-56" Score="5.2">
+          <Sequence>AATTTTCACAAAATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1779" Name="dtpT" Position="-64" Score="5.4">
+          <Sequence>ATTTTTCAGAAAATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1990" Name="ymdE" Position="4" Score="5.3">
+          <Sequence>AAAATTCTGAAAATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1410" Name="acuB" Position="-92" Score="4.7">
+          <Sequence>ACTTTTCTGAATTTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162509" LocusId="smi_0814" Name="gdhA" Function="NADP-specific glutamate dehydrogenase (EC 1.4.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162377" LocusId="smi_0683" Name="nrgA" Function="Ammonium transporter" />
+          <Members vimssId="10162378" LocusId="smi_0684" Name="nrgB" Function="Nitrogen regulatory protein P-II" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162381" LocusId="smi_0687" Name="codY" Function="Nutrient limitation global transcriptional regulator CodY, CodY family" />
+          <Members vimssId="10162382" LocusId="smi_0688" Name="pncA" Function="Nicotinamidase (EC 3.5.1.19)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163266" LocusId="smi_1568" Name="ubiE" Function="SAM-dependent methyltransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162915" LocusId="smi_1218" Name="leuA" Function="2-isopropylmalate synthase (EC 2.3.3.13)" />
+          <Members vimssId="10162914" LocusId="smi_1217" Name="leuB" Function="3-isopropylmalate dehydrogenase (EC 1.1.1.85)" />
+          <Members vimssId="10162913" LocusId="smi_1216" Name="ygaE" Function="Predicted transmembrane protein" />
+          <Members vimssId="10162912" LocusId="smi_1215" Name="leuC" Function="3-isopropylmalate dehydratase large subunit (EC 4.2.1.33)" />
+          <Members vimssId="10162911" LocusId="smi_1214" Name="leuD" Function="3-isopropylmalate dehydratase small subunit (EC 4.2.1.33)" />
+          <Members vimssId="10162910" LocusId="smi_1213" Name="yfjA" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162014" LocusId="smi_0322" Name="oppA2" Function="Oligopeptide ABC transporter, substrate-binding protein (TC 3.A.1.5.1)" />
+          <Members vimssId="10162015" LocusId="smi_0323" Name="oppB2" Function="Oligopeptide ABC transporter, permease protein 1 (TC 3.A.1.5.1)" />
+          <Members vimssId="10162016" LocusId="smi_0324" Name="oppC2" Function="Oligopeptide ABC transporter, permease protein 2 (TC 3.A.1.5.1)" />
+          <Members vimssId="10162017" LocusId="smi_0325" Name="oppD2" Function="Oligopeptide ABC transporter, ATP-binding protein 1 (TC 3.A.1.5.1)" />
+          <Members vimssId="10162018" LocusId="smi_0326" Name="oppF2" Function="Oligopeptide ABC transporter, ATP-binding protein 2 (TC 3.A.1.5.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163457" LocusId="smi_1758" Name="oppA2" Function="Oligopeptide ABC transporter, substrate-binding protein (TC 3.A.1.5.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10161885" LocusId="smi_0193" Name="thrC" Function="Threonine synthase (EC 4.2.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162602" LocusId="smi_0906" Name="ilvE" Function="Branched-chain amino acid aminotransferase (EC 2.6.1.42)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163527" LocusId="smi_1825" Name="ilvB" Function="Acetolactate synthase large subunit (EC 2.2.1.6)" />
+          <Members vimssId="10163526" LocusId="smi_1824" Name="ilvN" Function="Acetolactate synthase small subunit (EC 2.2.1.6)" />
+          <Members vimssId="10163525" LocusId="smi_1823" Name="ilvC" Function="Ketol-acid reductoisomerase (EC 1.1.1.86)" />
+          <Members vimssId="10163524" LocusId="smi_1822" Name="ilvA" Function="Threonine dehydratase (EC 4.3.1.19)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10161805" LocusId="smi_0113" Name="ilvD" Function="Dihydroxy-acid dehydratase (EC 4.2.1.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163107" LocusId="smi_1410" Name="acuB" Function="Acetoin utilization protein AcuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163653" LocusId="smi_1950" Name="mutR" Function="Predicted transcriptional regulator, Xre family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162468" LocusId="smi_0773" Name="hom" Function="Homoserine dehydrogenase (EC 1.1.1.3)" />
+          <Members vimssId="10162469" LocusId="smi_0774" Name="thrB" Function="Homoserine kinase (EC 2.7.1.39)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162975" LocusId="smi_1278" Name="efeO" Function="Ferrous iron transport periplasmic protein EfeO, contains peptidase-M75 domain and (frequently) cupredoxin-like domain" />
+          <Members vimssId="10162974" LocusId="smi_1277" Name="efeB" Function="Ferrous iron transport peroxidase EfeB" />
+          <Members vimssId="10162973" LocusId="smi_1276" Name="efeU" Function="Ferrous iron transport permease EfeU" />
+          <Members vimssId="10162972" LocusId="smi_1275" Name="tatC" Function="Twin-arginine translocation protein TatC" />
+          <Members vimssId="10162971" LocusId="smi_1274" Name="tatA" Function="Twin-arginine translocation protein TatA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163095" LocusId="smi_1398" Name="scpC" Function="Serine endopeptidase ScpC (EC 3.4.21.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163693" LocusId="smi_1990" Name="ymdE" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163478" LocusId="smi_1779" Name="dtpT" Function="Di- and tripeptide permease DtpT" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163133" LocusId="smi_1436" Name="str1582" Function="Predicted amino acid ABC transporter, permease protein 1" />
+          <Members vimssId="10163134" LocusId="smi_1437" Name="str1581" Function="Predicted amino acid ABC transporter, permease protein 2" />
+          <Members vimssId="10163135" LocusId="smi_1438" Name="str1580" Function="Predicted amino acid ABC transporter, ATP-binding protein" />
+          <Members vimssId="10163136" LocusId="smi_1439" Name="str1579" Function="Predicted amino acid ABC transporter, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163112" LocusId="smi_1415" Name="livK" Function="Branched-chain amino acids ABC transporter, substrate-binding protein (TC 3.A.1.4.1)" />
+          <Members vimssId="10163111" LocusId="smi_1414" Name="livH" Function="Branched-chain amino acids ABC transporter, permease protein 1 (TC 3.A.1.4.1)" />
+          <Members vimssId="10163110" LocusId="smi_1413" Name="livM" Function="Branched-chain amino acids ABC transporter, permease protein 2 (TC 3.A.1.4.1)" />
+          <Members vimssId="10163109" LocusId="smi_1412" Name="livG" Function="Branched-chain amino acids ABC transporter, ATP-binding protein 1 (TC 3.A.1.4.1)" />
+          <Members vimssId="10163108" LocusId="smi_1411" Name="livF" Function="Branched-chain amino acids ABC transporter, ATP-binding protein 2 (TC 3.A.1.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163549" LocusId="smi_1847" Name="rpoB" Function="DNA-directed RNA polymerase beta subunit (EC 2.7.7.6)" />
+          <Members vimssId="10163548" LocusId="smi_1846" Name="rpoC" Function="DNA-directed RNA polymerase beta' subunit (EC 2.7.7.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162830" LocusId="smi_1133" Name="asd" Function="Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11)" />
+          <Members vimssId="10162829" LocusId="smi_1132" Name="dapA" Function="Dihydrodipicolinate synthase (EC 4.2.1.52)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4653</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CopY" RegulationMode="repressor">
+      <Regulator Key="CopR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34793" />
+      <Effector>Copper ion, (Cu2+)</Effector>
+      <Pathway>Copper homeostasis</Pathway>
+      <LocusTag Key="smi_1434" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10163131&amp;disp=0" />
+      <BiologicalProcess>Copper homeostasis</BiologicalProcess>
+      <Regulog Key="CopR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3557" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1434" Name="copR" Position="-33" Score="6">
+          <Sequence>TAATTGACAAATGTAGATTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1434" Name="copR" Position="-73" Score="6">
+          <Sequence>TAGTTGACAAATGTAGATTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10163131" LocusId="smi_1434" Name="copR" Function="Copper transport transcriptional regulator CopR, CopY family" />
+          <Members vimssId="10163130" LocusId="smi_1433" Name="copA2" Function="Copper-exporting ATPase (EC 3.6.3.4)" />
+          <Members vimssId="10163129" LocusId="smi_1432" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3557</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CtsR" RegulationMode="repressor">
+      <Regulator Key="CtsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45246" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="smi_2046" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10163749&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="CtsR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4665" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1765" Name="clpL" Position="-276" Score="6.3">
+          <Sequence>AAATCCTTGACCTTTTCTGACTAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0865" Name="clpE" Position="-62" Score="6.3">
+          <Sequence>TAGAATTTGACTATTTTTGACCTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0481" Name="groS" Position="-102" Score="6.8">
+          <Sequence>TTTTTCTTGACTATTTCTGACCAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1417" Name="clpP" Position="-89" Score="6.8">
+          <Sequence>AAAAATTTGACCTTTTTTGACCAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_2046" Name="ctsR" Position="-44" Score="0.4">
+          <Sequence>ATAGTCAAAGATAGTCAAGGTTTA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10163749" LocusId="smi_2046" Name="ctsR" Function="Stress and heat shock response transcriptional regulator CtsR, CtsR family" />
+          <Members vimssId="10163748" LocusId="smi_2045" Name="clpC" Function="ATP-dependent Clp protease ATP-binding subunit ClpC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162561" LocusId="smi_0865" Name="clpE" Function="ATP-dependent Clp protease, ATP-binding subunit ClpE" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163464" LocusId="smi_1765" Name="clpL" Function="ATP-dependent Clp protease, ATP-binding subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162173" LocusId="smi_0481" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="10162174" LocusId="smi_0482" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163114" LocusId="smi_1417" Name="clpP" Function="ATP-dependent Clp protease proteolytic subunit (EC 3.4.21.92)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4665</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MarR" RegulationMode="repressor">
+      <Regulator Key="FabT" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34964" />
+      <Effector>Long-chain acyl-ACP</Effector>
+      <Pathway>Fatty acid biosynthesis</Pathway>
+      <LocusTag Key="smi_1685" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10163383&amp;disp=0" />
+      <BiologicalProcess>Fatty acid biosynthesis</BiologicalProcess>
+      <Regulog Key="FabT - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3571" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1686" Name="fabM" Position="-157" Score="4.8">
+          <Sequence>ACTTTGAAAATAAAATA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1682" Name="fabK" Position="-63" Score="6">
+          <Sequence>AGTTTGATTTTCAAATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1685" Name="fabT" Position="-41" Score="5.3">
+          <Sequence>GTTTTGATTGTGAAAGT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1686" Name="fabM" Position="-51" Score="5.1">
+          <Sequence>AATTTGATTTTCGAAGA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10163384" LocusId="smi_1686" Name="fabM" Function="enoyl-CoA hydratase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163380" LocusId="smi_1682" Name="fabK" Function="Enoyl-[acyl-carrier-protein] reductase [FMN] (EC 1.3.1.9)" />
+          <Members vimssId="10163379" LocusId="smi_1681" Name="fabD" Function="Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)" />
+          <Members vimssId="10163378" LocusId="smi_1680" Name="fabG" Function="3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)" />
+          <Members vimssId="10163377" LocusId="smi_1679" Name="fabF" Function="3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)" />
+          <Members vimssId="10163376" LocusId="smi_1678" Name="accB" Function="Biotin carboxyl carrier protein of acetyl-CoA carboxylase (EC 6.4.1.2)" />
+          <Members vimssId="10163375" LocusId="smi_1677" Name="fabZ" Function="(3R)-hydroxymyristoyl-[acyl carrier protein] dehydratase (EC 4.2.1.-)" />
+          <Members vimssId="10163374" LocusId="smi_1676" Name="accC" Function="Biotin carboxylase of acetyl-CoA carboxylase (EC 6.3.4.14)" />
+          <Members vimssId="10163373" LocusId="smi_1675" Name="accD" Function="Acetyl-coenzyme A carboxyl transferase beta chain (EC 6.4.1.2)" />
+          <Members vimssId="10163372" LocusId="smi_1674" Name="accA" Function="Acetyl-coenzyme A carboxyl transferase alpha chain (EC 6.4.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163383" LocusId="smi_1685" Name="fabT" Function="Fatty acid biosynthesis transcriptional regulator FabT, MarR family" />
+          <Members vimssId="10163382" LocusId="smi_1684" Name="fabH" Function="3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)" />
+          <Members vimssId="10163381" LocusId="smi_1683" Name="acpP" Function="Acyl carrier protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3571</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DeoR" RegulationMode="repressor">
+      <Regulator Key="FruR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45205" />
+      <Effector>Fructose-6-phosphate</Effector>
+      <Pathway>Fructose utilization</Pathway>
+      <LocusTag Key="smi_1359" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10163055&amp;disp=0" />
+      <BiologicalProcess>Fructose utilization</BiologicalProcess>
+      <Regulog Key="FruR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4662" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1359" Name="fruR" Position="-73" Score="5.5">
+          <Sequence>TGATAAAAAATGCTTGACTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1359" Name="fruR" Position="-83" Score="5.4">
+          <Sequence>TGAAAGAAAATGATAAAAAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1359" Name="fruR" Position="-93" Score="5.8">
+          <Sequence>TGATAGATTTTGAAAGAAAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10163055" LocusId="smi_1359" Name="fruR" Function="Fructose utilization transcriptional regulator FruR, DeoR family" />
+          <Members vimssId="10163054" LocusId="smi_1358" Name="fruB" Function="1-phosphofructokinase (EC 2.7.1.56)" />
+          <Members vimssId="10163053" LocusId="smi_1357" Name="fruA" Function="Fructose-specific PTS, EIIABC component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4662</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="GalR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42174" />
+      <Effector>Galactose</Effector>
+      <Pathway>Galactose utilization</Pathway>
+      <LocusTag Key="smi_0519" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10162211&amp;disp=0" />
+      <BiologicalProcess>Galactose utilization</BiologicalProcess>
+      <Regulog Key="GalR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4350" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0520" Name="galK" Position="-115" Score="5.5">
+          <Sequence>GATAGTTTAGTAAAAGTTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0519" Name="galR" Position="-67" Score="5.4">
+          <Sequence>AAACTTTTACTAAACTATC</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162212" LocusId="smi_0520" Name="galK" Function="Galactokinase (EC 2.7.1.6)" />
+          <Members vimssId="10162213" LocusId="smi_0521" Name="galT" Function="Galactose-1-phosphate uridylyltransferase (EC 2.7.7.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162211" LocusId="smi_0519" Name="galR" Function="Galactose utilization transcriptional regulator GalR, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4350</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="GlnR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34866" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="smi_0348" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10162040&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="GlnR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3563" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0348" Name="glnR" Position="-77" Score="5.9">
+          <Sequence>ATGTTACATTTTATAACAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1203" Name="glnP" Position="-92" Score="5.8">
+          <Sequence>ATGTTATATTTTCTGACAC</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0683" Name="nrgA" Position="-47" Score="6">
+          <Sequence>ATGTTATATTATCTAACAC</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1588" Name="gluQ" Position="-33" Score="6">
+          <Sequence>ATGTTATAAAATCTAACAC</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162377" LocusId="smi_0683" Name="nrgA" Function="Ammonium transporter" />
+          <Members vimssId="10162378" LocusId="smi_0684" Name="nrgB" Function="Nitrogen regulatory protein PII" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162040" LocusId="smi_0348" Name="glnR" Function="Nitrogen metabolism transcriptional regulator GlnR, MerR family" />
+          <Members vimssId="10162041" LocusId="smi_0349" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162900" LocusId="smi_1203" Name="glnP" Function="Glutamine ABC transporter, permease and substrate-binding protein" />
+          <Members vimssId="10162901" LocusId="smi_1204" Name="glnQ" Function="Glutamine ABC transporter, ATP-binding protein" />
+          <Members vimssId="10162902" LocusId="smi_1205" Name="zwf" Function="Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163286" LocusId="smi_1588" Name="gluQ" Function="Glutamate ABC transporter, ATP-binding protein" />
+          <Members vimssId="10163287" LocusId="smi_1589" Name="gluH" Function="Glutamate ABC transporter, substrate-binding protein" />
+          <Members vimssId="10163288" LocusId="smi_1590" Name="gluM" Function="Glutamate ABC transporter, permease protein 1" />
+          <Members vimssId="10163289" LocusId="smi_1591" Name="gluP" Function="Glutamate ABC transporter, permease protein 2" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3563</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="activator">
+      <Regulator Key="HomR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=43964" />
+      <Effector>O-acetyl-L-serine</Effector>
+      <Pathway>Methionine metabolism; Cysteine metabolism</Pathway>
+      <LocusTag Key="" Value="" />
+      <BiologicalProcess>Methionine metabolism; Cysteine metabolism</BiologicalProcess>
+      <Regulog Key="HomR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4544" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1600" Name="metE" Position="-101" Score="4.8">
+          <Sequence>GATATAGTTTCAAACTATATC</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10163298" LocusId="smi_1600" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+          <Members vimssId="10163297" LocusId="smi_1599" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4544</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38789" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="smi_0353" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10162045&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3960" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0481" Name="groS" Position="-57" Score="7.7">
+          <Sequence>TTAGCACTCATCTATAAAGAGTGCTAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0353" Name="hrcA" Position="-53" Score="6.5">
+          <Sequence>TTAGCACTTGAGTGCATCGAGTGCTAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0353" Name="hrcA" Position="-136" Score="7.5">
+          <Sequence>TTAGCACTCTTGATGAAAGAGTGCTAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162045" LocusId="smi_0353" Name="hrcA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="10162046" LocusId="smi_0354" Name="grpE" Function="Heat shock protein GrpE" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162173" LocusId="smi_0481" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="10162174" LocusId="smi_0482" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3960</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DeoR" RegulationMode="repressor">
+      <Regulator Key="LacR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46552" />
+      <Effector>D-galactose-6-phosphate</Effector>
+      <Pathway>Lactose utilization; Galactose utilization</Pathway>
+      <LocusTag Key="smi_1041" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10162738&amp;disp=0" />
+      <BiologicalProcess>Lactose utilization; Galactose utilization</BiologicalProcess>
+      <Regulog Key="LacR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4707" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1041" Name="lacR" Position="-76" Score="-2.3">
+          <Sequence>TTGTTTTCT-TTGTTTTTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1022" Name="gatA" Position="-79" Score="8">
+          <Sequence>TATAAATAA-AATAAACAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1026" Name="lacA" Position="-281" Score="8.1">
+          <Sequence>AAAACACAA-AACAAACAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162723" LocusId="smi_1026" Name="lacA" Function="Galactose-6-phosphate isomerase, LacA subunit (EC 5.3.1.26)" />
+          <Members vimssId="10162724" LocusId="smi_1027" Name="lacB" Function="Galactose-6-phosphate isomerase, LacB subunit (EC 5.3.1.26)" />
+          <Members vimssId="10162725" LocusId="smi_1028" Name="lacC" Function="Tagatose-6-phosphate kinase (EC 2.7.1.144)" />
+          <Members vimssId="10162726" LocusId="smi_1029" Name="lacD" Function="Tagatose 1,6-diphosphate aldolase (EC 4.1.2.40)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162719" LocusId="smi_1022" Name="gatA" Function="Galactose-specific PTS, EIIA component (EC 2.7.1.69)" />
+          <Members vimssId="10162720" LocusId="smi_1023" Name="gatB" Function="Galactose-specific PTS, EIIB component (EC 2.7.1.69)" />
+          <Members vimssId="10162721" LocusId="smi_1024" Name="gatC" Function="Galactose-specific PTS, EIIC component (EC 2.7.1.69)" />
+          <Members vimssId="10162722" LocusId="smi_1025" Name="lacX" Function="Predicted aldose 1-epimerase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162738" LocusId="smi_1041" Name="lacR" Function="Lactose utilization transcriptional regulator LacR, DeoR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4707</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="MalR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34881" />
+      <Effector>Maltose</Effector>
+      <Pathway>Maltose utilization; Maltodextrin utilization</Pathway>
+      <LocusTag Key="smi_0129" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10161821&amp;disp=0" />
+      <BiologicalProcess>Maltose utilization; Maltodextrin utilization</BiologicalProcess>
+      <Regulog Key="MalR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3564" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1761" Name="dexB" Position="-75" Score="6.1">
+          <Sequence>TTAGGCAAACGCTTGCATAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1404" Name="ptsG" Position="-54" Score="5.9">
+          <Sequence>AAGTGCAAACGTTTTCGTAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0750" Name="amyA2" Position="-74" Score="5.9">
+          <Sequence>TTACGCAAACGTTTGAGTAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1848" Name="pulA" Position="-72" Score="4.9">
+          <Sequence>TCGAGAAAACGCTTGCATAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0134" Name="malM" Position="-273" Score="5">
+          <Sequence>TTGAGAAAACGATTGCCTAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0134" Name="malM" Position="-63" Score="6">
+          <Sequence>TAACGCAAACGTTTGCGTTC</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1104" Name="nepU" Position="-51" Score="6.3">
+          <Sequence>TTATGAAAACGTTTGCGTAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0133" Name="malX" Position="-61" Score="5.5">
+          <Sequence>AAAGGAAAACGTTTGCGTTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10163101" LocusId="smi_1404" Name="ptsG" Function="PTS system glucose-specific EIICBA component (EC 2.7.1.69)" />
+          <Members vimssId="10163100" LocusId="smi_1403" Name="rgfB" Function="Exodeoxyribonuclease III (EC 3.1.11.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163460" LocusId="smi_1761" Name="dexB" Function="Glucan 1,6-alpha-glucosidase (EC 3.2.1.70)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162444" LocusId="smi_0750" Name="amyA2" Function="Cytoplasmic alpha-amylase (EC 3.2.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163550" LocusId="smi_1848" Name="pulA" Function="Pullulanase (EC 3.2.1.41)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10161825" LocusId="smi_0133" Name="malX" Function="Maltose/maltodextrin ABC transporter, substrate-binding protein" />
+          <Members vimssId="10161824" LocusId="smi_0132" Name="malC" Function="Maltose/maltodextrin ABC transporter, permease protein 1" />
+          <Members vimssId="10161823" LocusId="smi_0131" Name="malD" Function="Maltose/maltodextrin ABC transporter, permease protein 2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162801" LocusId="smi_1104" Name="nepU" Function="Neopullulanase (EC 3.2.1.135)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10161826" LocusId="smi_0134" Name="malM" Function="4-alpha-glucanotransferase (amylomaltase) (EC 2.4.1.25)" />
+          <Members vimssId="10161827" LocusId="smi_0135" Name="malP" Function="Maltodextrin phosphorylase (EC 2.4.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3564</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="MntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37926" />
+      <Effector>Manganese ion, (Mn2+)</Effector>
+      <Pathway>Manganese homeostasis</Pathway>
+      <LocusTag Key="smi_0645" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10162339&amp;disp=0" />
+      <BiologicalProcess>Manganese homeostasis</BiologicalProcess>
+      <Regulog Key="MntR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3843" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0705" Name="prtA" Position="-194" Score="5.6">
+          <Sequence>AAAATTAACCAGCCTTAATTTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1232" Name="mntH" Position="-164" Score="5.2">
+          <Sequence>AAAATTAACCAATATTAATAAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0636" Name="mntB" Position="-62" Score="6.1">
+          <Sequence>AAAATTAACTTGACTTAACTTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162929" LocusId="smi_1232" Name="mntH" Function="Manganese transport protein MntH" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162399" LocusId="smi_0705" Name="prtA" Function="C5a peptidase precursor (EC 3.4.21.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162330" LocusId="smi_0636" Name="mntB" Function="Manganese ABC transporter, ATP-binding protein" />
+          <Members vimssId="10162329" LocusId="smi_0635" Name="mntC" Function="Manganese ABC transporter, permease protein" />
+          <Members vimssId="10162328" LocusId="smi_0634" Name="mntA" Function="Manganese ABC transporter, substrate-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3843</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor">
+      <Regulator Key="MtaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35649" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="smi_1461" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10163158&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="MtaR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3620" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0869" Name="folD" Position="-35" Score="6.2">
+          <Sequence>TATAGTTTGAAACTATA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1944" Name="metQ" Position="-99" Score="6.2">
+          <Sequence>TATAGCTTTAAACTATA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1508" Name="metB" Position="-93" Score="6.2">
+          <Sequence>TATAGTTTGAAACTATA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1192" Name="fhs" Position="-157" Score="6.4">
+          <Sequence>TATAGTTTCAAACTATA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1812" Name="COG1912" Position="-91" Score="4.6">
+          <Sequence>TATAAGGTAAAACTATA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1600" Name="metE" Position="-99" Score="6.4">
+          <Sequence>TATAGTTTCAAACTATA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10163647" LocusId="smi_1944" Name="metQ" Function="Methionine ABC transporter, substrate-binding protein" />
+          <Members vimssId="10163646" LocusId="smi_1943" Name="hmrB" Function="N-acyl-L-amino acid amidohydrolase (EC 3.5.1.14)" />
+          <Members vimssId="10163645" LocusId="smi_1942" Name="metN" Function="Methionine ABC transporter, ATP-binding protein" />
+          <Members vimssId="10163644" LocusId="smi_1941" Name="metP" Function="Methionine ABC transporter, permease protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163205" LocusId="smi_1508" Name="metB" Function="Cystathionine gamma-synthase (EC 2.5.1.48)" />
+          <Members vimssId="10163204" LocusId="smi_1507" Name="csd" Function="Cysteine desulfurase (EC 2.8.1.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163514" LocusId="smi_1812" Name="COG1912" Function="Conserved hypothetical protein" />
+          <Members vimssId="10163513" LocusId="smi_1811" Name="mtsA" Function="Substrate-specific component MtsA of methionine-regulated ECF transporter" />
+          <Members vimssId="10163512" LocusId="smi_1810" Name="mtsB" Function="Duplicated ATPase component MtsB of energizing module of methionine-regulated ECF transporter" />
+          <Members vimssId="10163511" LocusId="smi_1809" Name="mtsC" Function="Transmembrane component MtsC of energizing module of methionine-regulated ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162565" LocusId="smi_0869" Name="folD" Function="Methylenetetrahydrofolate dehydrogenase (NADP+) (EC 1.5.1.5) / Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162889" LocusId="smi_1192" Name="fhs" Function="Formate--tetrahydrofolate ligase (EC 6.3.4.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163298" LocusId="smi_1600" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+          <Members vimssId="10163297" LocusId="smi_1599" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3620</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="NagR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35377" />
+      <Effector>N-acetylglucosamine-6-phosphate</Effector>
+      <Pathway>N-acetylglucosamine utilization</Pathway>
+      <LocusTag Key="smi_1343" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10163039&amp;disp=0" />
+      <BiologicalProcess>N-acetylglucosamine utilization</BiologicalProcess>
+      <Regulog Key="NagR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3602" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0714" Name="nagB" Position="-51" Score="6.5">
+          <Sequence>AAATTGGTCTATACCATATA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0202" Name="nagA" Position="-95" Score="6.4">
+          <Sequence>AAATAGGTCTATACCATTTA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1850" Name="glmS" Position="-136" Score="5.8">
+          <Sequence>AATTTGAACTATACCAATTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1850" Name="glmS" Position="-96" Score="4.9">
+          <Sequence>AAACAAGTATATACTGTTTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1850" Name="glmS" Position="-57" Score="5.9">
+          <Sequence>GAATTAGACTATACCAATTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162408" LocusId="smi_0714" Name="nagB" Function="Glucosamine-6-phosphate deaminase (EC 3.5.99.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10161894" LocusId="smi_0202" Name="nagA" Function="N-acetylglucosamine-6-phosphate deacetylase (EC 3.5.1.25)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163552" LocusId="smi_1850" Name="glmS" Function="Glucosamine--fructose-6-phosphate aminotransferase [isomerizing] (EC 2.6.1.16)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3602</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor">
+      <Regulator Key="NanR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38598" />
+      <Effector>N-acetylneuraminic acid</Effector>
+      <Pathway>Sialic acid utilization</Pathway>
+      <LocusTag Key="smi_0612" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10162306&amp;disp=0" />
+      <BiologicalProcess>Sialic acid utilization</BiologicalProcess>
+      <Regulog Key="NanR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3941" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0792" Name="nanR" Position="-96" Score="5.7">
+          <Sequence>TTGGAAACTAGTTTCTAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0602" Name="nanE" Position="-135" Score="6.3">
+          <Sequence>TCTGAAACTACTTTCAGA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0608" Name="nanA" Position="-160" Score="6.2">
+          <Sequence>TCTGAAACTACTTTCAAG</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162487" LocusId="smi_0792" Name="nanR" Function="Sialic acid utilization transcriptional regulator NanR, RpiR family" />
+          <Members vimssId="10162488" LocusId="smi_0793" Name="nanE2" Function="N-acetylmannosamine-6-phosphate 2-epimerase (EC 5.1.3.9)" />
+          <Members vimssId="10162489" LocusId="smi_0794" Name="nanA2" Function="N-acetylneuraminate lyase (EC 4.1.3.3)" />
+          <Members vimssId="10162490" LocusId="smi_0795" Name="nanT" Function="Predicted sialic acid transporter" />
+          <Members vimssId="10162491" LocusId="smi_0796" Name="SP_1327" Function="Hypothetical protein" />
+          <Members vimssId="10162492" LocusId="smi_0797" Name="SP_1325" Function="Predcted oxidoreductase, GFO/IDH/MOCA family" />
+          <Members vimssId="10162493" LocusId="smi_0798" Name="nanK2" Function="N-acetylmannosamine kinase (EC 2.7.1.60)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162302" LocusId="smi_0608" Name="nanA" Function="N-acetylneuraminate lyase (EC 4.1.3.3)" />
+          <Members vimssId="10162303" LocusId="smi_0609" Name="nanK" Function="N-acetylmannosamine kinase (EC 2.7.1.60)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162296" LocusId="smi_0602" Name="nanE" Function="N-acetylmannosamine-6-phosphate 2-epimerase (EC 5.1.3.9)" />
+          <Members vimssId="10162297" LocusId="smi_0603" Name="nanU" Function="Predicted N-acetylneuraminate ABC transporter, substrat-binding protein" />
+          <Members vimssId="10162298" LocusId="smi_0604" Name="nanV" Function="Predicted N-acetylneuraminate ABC transporter, permease protein 1" />
+          <Members vimssId="10162299" LocusId="smi_0605" Name="nanW" Function="Predicted N-acetylneuraminate ABC transporter, permease protein 2" />
+          <Members vimssId="10162300" LocusId="smi_0606" Name="yjgK" Function="Conserved hypothetical protein" />
+          <Members vimssId="10162301" LocusId="smi_0607" Name="SDEG_1954" Function="Predicted membrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3941</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NiaR" RegulationMode="repressor">
+      <Regulator Key="NiaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34191" />
+      <Effector>Niacin</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="smi_1197" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10162894&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NiaR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3495" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1196" Name="niaX" Position="-33" Score="6.5">
+          <Sequence>TACTAGTGTATATACAGTTAAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162893" LocusId="smi_1196" Name="niaX" Function="Substrate-specific component NiaX of predicted niacin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3495</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42264" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="smi_0582" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10162276&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4356" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1044" Name="ndrH" Position="-188" Score="4.8">
+          <Sequence>ACACAGGATATAGTTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1044" Name="ndrH" Position="-126" Score="5.4">
+          <Sequence>ACACTACATATTGTGT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1912" Name="nrdD" Position="-69" Score="5.3">
+          <Sequence>CCACAAGATATTGATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1912" Name="nrdD" Position="-110" Score="5.4">
+          <Sequence>AATCAATATCTTGTGT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10163614" LocusId="smi_1912" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+          <Members vimssId="10163613" LocusId="smi_1911" Name="SDEG_2077" Function="Conserved hypothetical protein" />
+          <Members vimssId="10163612" LocusId="smi_1910" Name="SAG2083" Function="Predicted acetyltransferase (EC 2.3.1.-)" />
+          <Members vimssId="10163611" LocusId="smi_1909" Name="nrdG" Function="Ribonucleotide reductase of class III (anaerobic), activating protein (EC 1.97.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162741" LocusId="smi_1044" Name="ndrH" Function="Glutaredoxin-like protein NrdH" />
+          <Members vimssId="10162740" LocusId="smi_1043" Name="nrdE" Function="Ribonucleotide reductase of class Ib (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="10162739" LocusId="smi_1042" Name="nrdF" Function="Ribonucleotide reductase of class Ib (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4356</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrtR" RegulationMode="repressor">
+      <Regulator Key="NrtR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35314" />
+      <Effector>Adenosine diphosphate ribose</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="smi_2042" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10163745&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NrtR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3597" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_2044" Name="nadR" Position="-47" Score="6.9">
+          <Sequence>ATAGTTTATAATAAAAATATC</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_2044" Name="nadR" Position="-84" Score="4.9">
+          <Sequence>ATAAAAAATAATAAAAACCTA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10163747" LocusId="smi_2044" Name="nadR" Function="Nicotinamide-nucleotide adenylyltransferase, NadR family (EC 2.7.7.1) / Ribosylnicotinamide kinase (EC 2.7.1.22)" />
+          <Members vimssId="10163746" LocusId="smi_2043" Name="pnuC" Function="Ribosyl nicotinamide transporter, PnuC-like" />
+          <Members vimssId="10163745" LocusId="smi_2042" Name="nrtR" Function="NAD biosynthesis transcriptional regulator NrtR, NrtR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3597</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="">
+      <Regulator Key="PipR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35499" />
+      <Effector />
+      <Pathway>Phage infection protein</Pathway>
+      <LocusTag Key="smi_2080" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10163784&amp;disp=0" />
+      <BiologicalProcess>Phage infection protein</BiologicalProcess>
+      <Regulog Key="PipR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3610" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_2080" Name="pipR" Position="-38" Score="5.5">
+          <Sequence>TTTAGACATATGGTCTAAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_2080" Name="pipR" Position="-115" Score="5.9">
+          <Sequence>TTTAAACATATTGTCTAAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_2079" Name="pip" Position="-108" Score="5.5">
+          <Sequence>ATTAGACCATATGTCTAAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_2079" Name="pip" Position="-31" Score="5.9">
+          <Sequence>TTTAGACAATATGTTTAAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10163784" LocusId="smi_2080" Name="pipR" Function="Transcriptional regulator, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163783" LocusId="smi_2079" Name="pip" Function="Phage infection protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3610</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="PurR" RegulationMode="repressor">
+      <Regulator Key="PurR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38053" />
+      <Effector>5-phosphoribosyl 1-pyrophosphate</Effector>
+      <Pathway>Purine metabolism</Pathway>
+      <LocusTag Key="smi_0302" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10161994&amp;disp=0" />
+      <BiologicalProcess>Purine metabolism</BiologicalProcess>
+      <Regulog Key="PurR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3857" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0066" Name="purC" Position="155" Score="4.3">
+          <Sequence>AAAGGCGAACTTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0022" Name="purA" Position="-216" Score="4.3">
+          <Sequence>ATTTCCGAACAAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1192" Name="fhs" Position="-90" Score="4.2">
+          <Sequence>TTTTACGAACGTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1212" Name="guaC" Position="-141" Score="4.9">
+          <Sequence>AAATCCGAACGAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0073" Name="purD" Position="-56" Score="4.6">
+          <Sequence>TAAAACGAACGTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10161708" LocusId="smi_0022" Name="purA" Function="Adenylosuccinate synthetase (EC 6.3.4.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162909" LocusId="smi_1212" Name="guaC" Function="GMP reductase (EC 1.7.1.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10161764" LocusId="smi_0073" Name="purD" Function="Phosphoribosylamine--glycine ligase (EC 6.3.4.13)" />
+          <Members vimssId="10161765" LocusId="smi_0074" Name="purE" Function="Phosphoribosylaminoimidazole carboxylase catalytic subunit (EC 4.1.1.21)" />
+          <Members vimssId="10161766" LocusId="smi_0075" Name="purK" Function="Phosphoribosylaminoimidazole carboxylase ATPase subunit (EC 4.1.1.21)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162889" LocusId="smi_1192" Name="fhs" Function="Formate--tetrahydrofolate ligase (EC 6.3.4.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10161757" LocusId="smi_0066" Name="purC" Function="Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6)" />
+          <Members vimssId="10161758" LocusId="smi_0067" Name="purL" Function="Phosphoribosylformylglycinamidine synthase, synthetase subunit (EC 6.3.5.3) / Phosphoribosylformylglycinamidine synthase, glutamine amidotransferase subunit (EC 6.3.5.3)" />
+          <Members vimssId="10161759" LocusId="smi_0068" Name="purF" Function="Amidophosphoribosyltransferase (EC 2.4.2.14)" />
+          <Members vimssId="10161760" LocusId="smi_0069" Name="purM" Function="Phosphoribosylformylglycinamidine cyclo-ligase (EC 6.3.3.1)" />
+          <Members vimssId="10161761" LocusId="smi_0070" Name="purN" Function="Phosphoribosylglycinamide formyltransferase (EC 2.1.2.2)" />
+          <Members vimssId="10161762" LocusId="smi_0071" Name="smi_0071" Function="Acetyltransferase, putative" />
+          <Members vimssId="10161763" LocusId="smi_0072" Name="purH" Function="IMP cyclohydrolase (EC 3.5.4.10) / Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3857</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29837" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="smi_1188" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10162885&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3113" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0231" Name="adhE" Position="-191" Score="5.1">
+          <Sequence>TTGAAATAATTTTCACAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0231" Name="adhE" Position="-209" Score="4.5">
+          <Sequence>TTGTGAAATAAAAAATAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1492" Name="pncB" Position="-114" Score="4.3">
+          <Sequence>TTGTTACTCTTTTCTCAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1009" Name="forT" Position="-41" Score="4.3">
+          <Sequence>TTGTGATATAATTATCAG</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1138" Name="hemH" Position="-28" Score="5.1">
+          <Sequence>TTGATAAAAACATCACAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0203" Name="adhB2" Position="-95" Score="5">
+          <Sequence>AAGTTAAAAAAATCACAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0231" Name="adhE" Position="-141" Score="5.4">
+          <Sequence>ATGAGAAAAATTTCACAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0231" Name="adhE" Position="-97" Score="4.6">
+          <Sequence>TTATGAAACTGTTTACAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0231" Name="adhE" Position="-53" Score="5.8">
+          <Sequence>TTGTGAAAAAATTAACAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0695" Name="fba" Position="-62" Score="4.5">
+          <Sequence>AAGTGATAAAATGAACAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1006" Name="ldh" Position="-62" Score="4.2">
+          <Sequence>AAGTGATAAAATTAAAAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0275" Name="adhB1" Position="-114" Score="5.1">
+          <Sequence>TTGTGATATACTTCACAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1188" Name="rex" Position="-57" Score="5">
+          <Sequence>TTGTTGATTTTTTCACAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162885" LocusId="smi_1188" Name="rex" Function="Redox-sensitive transcriptional regulator Rex, Rex family" />
+          <Members vimssId="10162886" LocusId="smi_1189" Name="guaA" Function="Glutamine amidotransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162706" LocusId="smi_1009" Name="forT" Function="Formate/nitrite family of transporters" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162703" LocusId="smi_1006" Name="ldh" Function="L-lactate dehydrogenase (EC 1.1.1.27)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162389" LocusId="smi_0695" Name="fba" Function="Fructose-bisphosphate aldolase class II (EC 4.1.2.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10161895" LocusId="smi_0203" Name="adhB2" Function="Alcohol dehydrogenase (EC 1.1.1.1), Zn-dependent" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162835" LocusId="smi_1138" Name="hemH" Function="Ferrochelatase, protoheme ferro-lyase (EC 4.99.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163189" LocusId="smi_1492" Name="pncB" Function="Nicotinate phosphoribosyltransferase (EC 2.4.2.11)" />
+          <Members vimssId="10163188" LocusId="smi_1491" Name="nadE" Function="NAD synthetase (EC 6.3.1.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10161967" LocusId="smi_0275" Name="adhB1" Function="Alcohol dehydrogenase (EC 1.1.1.1), Zn-dependent" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10161923" LocusId="smi_0231" Name="adhE" Function="Alcohol dehydrogenase (EC 1.1.1.1), Fe-dependent; Acetaldehyde dehydrogenase (EC 1.2.1.10)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3113</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="XRE" RegulationMode="activator">
+      <Regulator Key="Rgg" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37988" />
+      <Effector />
+      <Pathway>Cell wall metabolism</Pathway>
+      <LocusTag Key="smi_0116" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10161808&amp;disp=0" />
+      <BiologicalProcess>Cell wall metabolism</BiologicalProcess>
+      <Regulog Key="Rgg - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3849" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0117" Name="dsg" Position="-201" Score="6.1">
+          <Sequence>TGTTGCATATATTCAAAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10161809" LocusId="smi_0117" Name="dsg" Function="Predicted sugar efflux protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3849</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="SPy1285" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35812" />
+      <Effector />
+      <Pathway>Transport</Pathway>
+      <LocusTag Key="smi_0581" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10162275&amp;disp=0" />
+      <BiologicalProcess>Transport</BiologicalProcess>
+      <Regulog Key="SPy1285 - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3631" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0839" Name="SPy0836" Position="-153" Score="6.5">
+          <Sequence>GTGTATTATATATCTAGTACAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0581" Name="SPy1285" Position="-46" Score="6.7">
+          <Sequence>TTGTATTATTTAATTAAGACAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162535" LocusId="smi_0839" Name="SPy0836" Function="Predicted ABC transporter, periplasmic protein" />
+          <Members vimssId="10162536" LocusId="smi_0840" Name="SPy0837" Function="Predicted ABC transporter, ATP-binding protein" />
+          <Members vimssId="10162537" LocusId="smi_0841" Name="SPy0838" Function="Predicted ABC transporter, permease protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162275" LocusId="smi_0581" Name="SPy1285" Function="Predicted transcriptional regulator, GntR family" />
+          <Members vimssId="10162274" LocusId="smi_0580" Name="SPy1286" Function="Predicted ABC transporter, ATP-binding protein 1" />
+          <Members vimssId="10162273" LocusId="smi_0579" Name="SPy1287" Function="Predicted ABC transporter, ATP-binding protein 2" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3631</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="ScrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34979" />
+      <Effector>Sucrose-6-phosphate</Effector>
+      <Pathway>Sucrose utilization</Pathway>
+      <LocusTag Key="smi_1617" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10163315&amp;disp=0" />
+      <BiologicalProcess>Sucrose utilization</BiologicalProcess>
+      <Regulog Key="ScrR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3572" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1615" Name="scrA" Position="-108" Score="6.2">
+          <Sequence>TCTGCAAAACGCTTGACATA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1616" Name="scrB" Position="-108" Score="6">
+          <Sequence>TATGATAAACGTTTGACAGT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10163313" LocusId="smi_1615" Name="scrA" Function="Sucrose-specific PTS system, EIIABC component (EC 2.7.1.69)" />
+          <Members vimssId="10163312" LocusId="smi_1614" Name="scrK" Function="Fructokinase (EC 2.7.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163314" LocusId="smi_1616" Name="scrB" Function="Sucrose-6-phosphate hydrolase (EC 3.2.1.26)" />
+          <Members vimssId="10163315" LocusId="smi_1617" Name="scrR" Function="Sucrose utilization regulator ScrR, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3572</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="SczA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35009" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc resistance</Pathway>
+      <LocusTag Key="smi_0517" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10162209&amp;disp=0" />
+      <BiologicalProcess>Zinc resistance</BiologicalProcess>
+      <Regulog Key="SczA - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3574" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0517" Name="sczA" Position="-35" Score="5.8">
+          <Sequence>TATTCAGTTCTGAACA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0518" Name="czcD" Position="-113" Score="5.8">
+          <Sequence>TGTTCAGAACTGAATA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162210" LocusId="smi_0518" Name="czcD" Function="Cobalt-zinc-cadmium resistance protein CzcD" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162209" LocusId="smi_0517" Name="sczA" Function="Zinc stress response transcriptional regulator SczA, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3574</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BglG" RegulationMode="repressor">
+      <Regulator Key="SgaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=44837" />
+      <Effector>HPr, phosphocarrier protein; SgaB, ascorbate-specific PTS system EIIB component</Effector>
+      <Pathway>Ascorbate utilization</Pathway>
+      <LocusTag Key="smi_0225" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10161917&amp;disp=0" />
+      <BiologicalProcess>Ascorbate utilization</BiologicalProcess>
+      <Regulog Key="SgaR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4631" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0226" Name="sgaG" Position="-94" Score="5.7">
+          <Sequence>AACACAAACCTGTGTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10161918" LocusId="smi_0226" Name="sgaG" Function="Predicted L-ascorbate-6-phosphate lactonase (EC 3.1.1.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4631</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BglG" RegulationMode="">
+      <Regulator Key="SgaR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=44976" />
+      <Effector>SgaB2, ascorbate-specific PTS system, EIIB component; HPr, phosphocarrier protein</Effector>
+      <Pathway>Ascorbate utilization</Pathway>
+      <LocusTag Key="smi_0108" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10161800&amp;disp=0" />
+      <BiologicalProcess>Ascorbate utilization</BiologicalProcess>
+      <Regulog Key="SgaR2 - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4642" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0108" Name="sgaR2" Position="-69" Score="5.2">
+          <Sequence>ATATTGTGCTCAAATA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10161800" LocusId="smi_0108" Name="sgaR2" Function="Ascorbate utilization transcriptional regulator SgaR2, BglG family" />
+          <Members vimssId="10161801" LocusId="smi_0109" Name="sgaB2" Function="Ascorbate-specific PTS system, EIIB component (EC 2.7.1.69)" />
+          <Members vimssId="10161802" LocusId="smi_0110" Name="sgaT2" Function="Ascorbate-specific PTS, EIIC component" />
+          <Members vimssId="10161803" LocusId="smi_0111" Name="tktN" Function="Transketolase, N-terminal section (EC 2.2.1.1)" />
+          <Members vimssId="10161804" LocusId="smi_0112" Name="tktC" Function="Transketolase, C-terminal section (EC 2.2.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4642</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MarR" RegulationMode="">
+      <Regulator Key="YjdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35782" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="smi_1836" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10163538&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance</BiologicalProcess>
+      <Regulog Key="YjdR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3629" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1836" Name="yjdR" Position="-117" Score="6">
+          <Sequence>ATAGTTCTCTAGGAAACTTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1836" Name="yjdR" Position="-66" Score="6.2">
+          <Sequence>ATAGTTCTCATGGAAACTTA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10163538" LocusId="smi_1836" Name="yjdR" Function="Predicted multidrug resistance transcriptional regulator, MarR family" />
+          <Members vimssId="10163537" LocusId="smi_1835" Name="yfiB" Function="Predicted ABC multidrug transporter, ATP-binding and permease protein" />
+          <Members vimssId="10163536" LocusId="smi_1834" Name="yfiC" Function="Predicted ABC multidrug transporter, ATP-binding and permease protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3629</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="PadR" RegulationMode="repressor">
+      <Regulator Key="YwzG" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46758" />
+      <Effector />
+      <Pathway>Transport</Pathway>
+      <LocusTag Key="smi_1985" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10163688&amp;disp=0" />
+      <BiologicalProcess>Transport</BiologicalProcess>
+      <Regulog Key="YwzG - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4724" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1985" Name="ywzG" Position="-110" Score="6.5">
+          <Sequence>TATATAAAAATTTTACACA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10163688" LocusId="smi_1985" Name="ywzG" Function="Predicted transcriptional regulator, PadR family" />
+          <Members vimssId="10163689" LocusId="smi_1986" Name="lp_3217" Function="Predicted integral membrane protein" />
+          <Members vimssId="10163690" LocusId="smi_1987" Name="lp_3218" Function="Conserved hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4724</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28936" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1807" Name="ribU" Position="-250" Score="52">
+          <Sequence>TCCTTCTCTTTAAAGAAGTCCGCGAGCGCAAGCTGATGTGGTGAGATTCCACAACCGACAGTATAGTCTGGATGGGAGAAGACGAAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10163508" LocusId="smi_1807" Name="ribU" Function="Substrate-specific component RibU of riboflavin ECF transporter" />
+          <Members vimssId="10163507" LocusId="smi_1806" Name="SP_0489" Function="Membrane-associated phospholipid phosphatase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00504" RegulationMode="RF00504">
+      <Regulator Key="Glycine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29046" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="Glycine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1722" Name="glyP" Position="-180" Score="57.7">
+          <Sequence>TGGACGGAACTCTGGAGAGACCGTGAAGGCACCGAAGGGGCAAGGCAGGCAACTGCTCAAACTCTCAGGTAAAAGGACAGAGCTAGGATA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10163421" LocusId="smi_1722" Name="glyP" Function="Sodium/glycine symporter GlyP" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00557" RegulationMode="RF00557">
+      <Regulator Key="L10_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28841" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L10_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0783" Name="rplJ" Position="-173" Score="77">
+          <Sequence>ACGGTTTGAAAAAACTGCCTAAGACAGTAGGGGAGCTCGACTCATAAGTATCCTACCGAGGACAAAACGTATCATGTAAAAAGAAGCGTATTGTACTTTCGTGTCTAGGTTTGGGCGCGTTTTTCTTTTGGAAAAAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162478" LocusId="smi_0783" Name="rplJ" Function="LSU ribosomal protein L10p (P0)" />
+          <Members vimssId="10162479" LocusId="smi_0784" Name="rplL" Function="LSU ribosomal protein L7/L12 (P1/P2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00555" RegulationMode="RF00555">
+      <Regulator Key="L13_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29106" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L13_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1797" Name="rplM" Position="-108" Score="56">
+          <Sequence>CGGTATTGTTTACCCCATTTGAAAGGCCCCGGAACCTTCCAAATACTTTTCGATGGGAAGGAACACCCATCACCGTAAACAAAAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10163497" LocusId="smi_1797" Name="rplM" Function="LSU ribosomal protein L13p (L13Ae)" />
+          <Members vimssId="10163496" LocusId="smi_1796" Name="rpsI" Function="SSU ribosomal protein S9p (S16e)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00556" RegulationMode="RF00556">
+      <Regulator Key="L19_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29136" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L19_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1265" Name="rplS" Position="-54" Score="30">
+          <Sequence>ACAGTTTATCCGCTGAGGAGGGTGCCTCAAGATTGACAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162962" LocusId="smi_1265" Name="rplS" Function="LSU ribosomal protein L19p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00558" RegulationMode="RF00558">
+      <Regulator Key="L20_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29166" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L20_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0959" Name="infC" Position="-119" Score="66.6">
+          <Sequence>GAGAAAAGCAGAAGTGAGAGCTTCTCGCCTTGTGACATTAAGTTGCCTGGCCCTACGGATGAAAAGTTTCTAAGAAACGCTATCATAACGTGCGGGCTTGTATTATTACGAGTCCGTTATTGTTTTTCTCTAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162655" LocusId="smi_0959" Name="infC" Function="Translation initiation factor 3" />
+          <Members vimssId="10162656" LocusId="smi_0960" Name="rpmI" Function="LSU ribosomal protein L35p" />
+          <Members vimssId="10162657" LocusId="smi_0961" Name="rplT" Function="LSU ribosomal protein L20p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00559" RegulationMode="RF00559">
+      <Regulator Key="L21_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29206" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L21_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0926" Name="rplU" Position="-123" Score="43.3">
+          <Sequence>ATCCTGTGCAACCGCACGAACATCGTTGCTTGATTATTCAAGTTTAAGTGGTTCGTCCCACGATGCTAGGCGAGTCTTCACAAAAAAAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162622" LocusId="smi_0926" Name="rplU" Function="LSU ribosomal protein L21p" />
+          <Members vimssId="10162623" LocusId="smi_0927" Name="ysxB" Function="hypothetical protein" />
+          <Members vimssId="10162624" LocusId="smi_0928" Name="rpmA" Function="LSU ribosomal protein L27p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00167" RegulationMode="RF00167">
+      <Regulator Key="Purine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29386" />
+      <Effector>Adenine; Guanine</Effector>
+      <Pathway>Purine metabolism</Pathway>
+      <LocusTag Key="Purine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0528" Name="xpt" Position="-219" Score="52.1">
+          <Sequence>TAAAATTGAATATCATTTTACTTGTTTATGTCGTGAATTGGCACGACGTTTCTACAAGGTGCCGGAACACCTAACAATAAGTAAGTCAGAGTGAGGT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162220" LocusId="smi_0528" Name="xpt" Function="Xanthine phosphoribosyltransferase (EC 2.4.2.22)" />
+          <Members vimssId="10162219" LocusId="smi_0527" Name="pbuX" Function="Xanthine/uracil permease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00515" RegulationMode="RF00515">
+      <Regulator Key="PyrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28966" />
+      <Effector>PyrR</Effector>
+      <Pathway>Pyrimidine metabolism</Pathway>
+      <LocusTag Key="PyrR" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1446" Name="pyrF" Position="-156" Score="59.4">
+          <Sequence>GAAAACCTTTAAAGCAGTCCAGAGAGGCAGCTAAGGTTAGACGGTGAAAGGGTGGAGACTACCCATTTTTCGTGGAACCTTGCTGTTGGCAGGTTCCTTTTTTCGT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_0964" Name="pyrK" Position="-175" Score="48.6">
+          <Sequence>TAACCTTTAAGGGGAGTCCAGAGAGACTCACAAGGTGTCAGATAAAAGAATAGTACAATTTTCTAGAGGAGACTTTTTGAGTGTGCTCTCTTGTCTTGTACGATTTTAACTGAGGCCTTGCACTAGCAAGGTCTTTTCTTTGTCT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1236" Name="pyrR" Position="-145" Score="68.5">
+          <Sequence>ATATTCCTTTAAACCTGTCCCGTGAGGCAGGCAAGGAGCGTGATAAAGTAGAAGGGTAAAGTCTATACTGTTTGCAGTAGGGCTCGCTTGGCTATATATTTCAAGTCTCCTTGTTTAAGGAGACTTTTCTTTTT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1233" Name="carB" Position="-315" Score="18.6">
+          <Sequence>GAATTTATTTAATGGCAACCTGAGAGTTGCCGAATAGAAAGACAGGTCGTTTCTTTTAGTCGCTATCAGGCGAACTAAAAACTCCCTGCACTAGATTTTTTATCGAAAAATATCGTTTCTCT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="smi_1244" Name="pyrP" Position="-109" Score="37.5">
+          <Sequence>AGGTTTTTAATGTCATCCCGTGAGGTGACGAAGACGTAGAAATATTTGAAACTCTTTAAAGTCTAGATTTTAAAGAAGTCTTACTCTGAGGGCCTATTGCTGTAAAATAATGGGCTCTTTTTTGATA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162660" LocusId="smi_0964" Name="pyrK" Function="Dihydroorotate dehydrogenase electron transfer subunit (EC 1.3.3.1)" />
+          <Members vimssId="10162661" LocusId="smi_0965" Name="pyrD" Function="Dihydroorotate dehydrogenase, catalytic subunit (EC 1.3.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10163143" LocusId="smi_1446" Name="pyrF" Function="Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23)" />
+          <Members vimssId="10163142" LocusId="smi_1445" Name="pyrE" Function="Orotate phosphoribosyltransferase (EC 2.4.2.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162941" LocusId="smi_1244" Name="pyrP" Function="Xanthine/uracil permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162930" LocusId="smi_1233" Name="carB" Function="Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10162933" LocusId="smi_1236" Name="pyrR" Function="Uracil phosphoribosyltransferase (EC 2.4.2.9) / Pyrimidine operon regulatory protein PyrR" />
+          <Members vimssId="10162932" LocusId="smi_1235" Name="pyrB" Function="Aspartate carbamoyltransferase (EC 2.1.3.2)" />
+          <Members vimssId="10162931" LocusId="smi_1234" Name="carA" Function="Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00114" RegulationMode="RF00114">
+      <Regulator Key="S15" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29450" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="S15" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0656" Name="rpsO" Position="-59" Score="27.4">
+          <Sequence>TTGGTTACAGGCATGCCAACCTGTCACTCGGATGAAGCCAAATAAAAAGGAGAAACATCATGGCAATCTCAAAAGAGAAAAAAAATGAAATCATCGCACAATATGCACGTCACGAAGG</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162350" LocusId="smi_0656" Name="rpsO" Function="SSU ribosomal protein S15p (S13e)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ala)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30417" />
+      <Effector>Ala-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0748" Name="COG4894" Position="-198" Score="57.4">
+          <Sequence>AGAAAGTTGAGAATTGATTTTCACTTGTCTTAGTCCAGAGAAATGGCGGTGCTGCGAGCCATCTAAGCTAGGAAGTCATGCTACTCAATTTAACAATTGCATAAGAATAAGAGAATGACAAGTTCATTGAATGAAGGTGGTACCGCGGTTTTTCGCCCTTCGTGA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162442" LocusId="smi_0748" Name="COG4894" Function="hypothetical protein" />
+          <Members vimssId="10162443" LocusId="smi_0749" Name="alaS" Function="Alanyl-tRNA synthetase (EC 6.1.1.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Gly)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30617" />
+      <Effector>Gly-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1397" Name="" Position="-231" Score="42">
+          <Sequence>GTCAGCAGGAAAGAAAGTCTTATGGCGTTCTTCAAGCGAGCTTGGGATAGTGGGAGCCAAGTAGGGCAAAATAAAGAACTGGCGCTTTCTGTAGTATTTTCAAAAGTAATGAAGTAATAAATTAGGGTGGAACCGCGTTTCTGACGCCCCTAGG</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10163093" LocusId="smi_1397" Name="null" Function="hypothetical protein" />
+          <Members vimssId="10163092" LocusId="smi_1396" Name="glyQ" Function="Glycyl-tRNA synthetase alpha chain (EC 6.1.1.14)" />
+          <Members vimssId="10163091" LocusId="smi_1395" Name="glyS" Function="Glycyl-tRNA synthetase beta chain (EC 6.1.1.14)" />
+          <Members vimssId="10163090" LocusId="smi_1394" Name="ylaC" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ile)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30677" />
+      <Effector>Ile-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0627" Name="ileS" Position="-250" Score="89.7">
+          <Sequence>AATATTCTGAGAACAATATCTTATCCTTATATTTCCAGCGAGCAGGAGATGGTGTGAGTCCTGTAATCTCTATTGATAAGATTATCCTCTCAAAAACTCAAGTCTGAATGAAGTAAGATTTGACGTTCCCCACGTTACGGGATAAGAGGGAGAAAGACTAAATCTTTTTCCGAATAAAGGTGGTACCACGATTTTCGTCCTTTTTGG</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162321" LocusId="smi_0627" Name="ileS" Function="Isoleucyl-tRNA synthetase (EC 6.1.1.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Phe)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33180" />
+      <Effector>Phe-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1803" Name="pheS" Position="-139" Score="58.5">
+          <Sequence>AGGAATCCGCAAGACTAGTAACTCAAGGGAAGTATATCAGGGAGGAGAGCCGTGACTGCAAGCTCTCTATATGAAAGCTGGGTGAATTCACTTGCGCATGGATTTAGAAATGAAGGTCTGACTTGTCAGATGAAAACGGATGGTACCGCGTGTCAACGCTCCGAGT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10163503" LocusId="smi_1803" Name="pheS" Function="Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)" />
+          <Members vimssId="10163502" LocusId="smi_1802" Name="paiA" Function="acetyltransferase, GNAT family" />
+          <Members vimssId="10163501" LocusId="smi_1801" Name="pheT" Function="Phenylalanyl-tRNA synthetase beta chain (EC 6.1.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ser)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33290" />
+      <Effector>Ser-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1689" Name="serS" Position="-204" Score="60.2">
+          <Sequence>TATAATCATAGCAACGGATAAGTAGGTTATCTTCTTCTTTCAGAAAGTCTGCGGGTGCTGCGAGCAGATAGGAGGGATAGGTGAAATTCTACCGTTAGTAACAATTACATACACAATCAAGTGCACACCTGTGAAGTTGGATGGAACCGTGGCCCTGCCACTCCAACGCT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10163388" LocusId="smi_1689" Name="serS" Function="Seryl-tRNA synthetase (EC 6.1.1.11)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Thr)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33345" />
+      <Effector>Thr-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0653" Name="thrS" Position="-304" Score="86.6">
+          <Sequence>TATAATAATCCATAGAGACAAGTCACTTAGTCCCTTTCTACTAGAGAGTGCGTGGTTGCTGGAAACGCATAGGAAGCCTAAACTGATACTACTCTTGACTTTTTTATGAAAACATAAAACGGTGGCCACGTTAGAGCCAATCAGAGGTGTCCCTCTTTTTTGAGGAACATAAATGAAGGTGGAACCACGTTGCGACGTCCTTTTG</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162347" LocusId="smi_0653" Name="thrS" Function="Threonyl-tRNA synthetase (EC 6.1.1.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Trp)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33400" />
+      <Effector>Trp-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0988" Name="trpX" Position="-328" Score="104.9">
+          <Sequence>TAACCATTCAGAAAAGTAATCATATAAACTTTTTAGAGAGTCTGTGGTAGCTGAAAACAGATAAGTGCTGATGATGAAAATTGGGCTGAATGTTATTTAGAATTTGAAATCATAAAAATTCGGTGAGCACACCTTACAGTGCATCTCGTTATTGCGAGACAGAGCGATAGGGAAATTCCCTATAATTGAGGTGGTACCGCGCATCGACGTCCTCACACA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162685" LocusId="smi_0988" Name="trpX" Function="Predicted ABC transporter for tryptophane, substrate-binding protein TrpX" />
+          <Members vimssId="10162686" LocusId="smi_0989" Name="trpY" Function="Predicted ABC transporter for tryptophane, permease protein TrpY" />
+          <Members vimssId="10162687" LocusId="smi_0990" Name="trpZ" Function="Predicted ABC transporter for tryptophane, ATP-binding protein TrpZ" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Val)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33510" />
+      <Effector>Val-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_0386" Name="SP_0565" Position="-243" Score="55.8">
+          <Sequence>ATAGAGCCATTAGAGGTGTTTTGAATCCCACATTTTACAGAAAGTGGCAGTGCTGAGAAGTCCACAAATGTGTCAAAACTGGTTGCTAATGGATGAAAAAATGAAATAAAAGTGTCTTTTTGTTTTAAAGACGAGAGTTGCGGGCAACTGCCCGAAATTGGGTGGTACCGCGGATAAATACATTCGTCCCTGTCAT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162079" LocusId="smi_0386" Name="SP_0565" Function="Conserved protein/domain typically associated with flavoprotein oxygenases, DIM6/NTAB family, putative" />
+          <Members vimssId="10162080" LocusId="smi_0387" Name="rimL" Function="Acetyltransferase (EC 2.3.1.-)" />
+          <Members vimssId="10162081" LocusId="smi_0388" Name="SP_0567" Function="Shikimate kinase" />
+          <Members vimssId="10162082" LocusId="smi_0389" Name="valS" Function="Valyl-tRNA synthetase (EC 6.1.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28886" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_2050" Name="COG0011" Position="-172" Score="50">
+          <Sequence>CTATATAATATATGGGAGTCTGTGTACAGTCTGAGAGGAAGTGTTAAACTTCGACCGCACCTGATCTGGGTAATGCCAGCGTAGGGAACGATACTTAGTCTATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10163753" LocusId="smi_2050" Name="COG0011" Function="Cytoplasmic thiamin-binding component of thiamin ABC transporter, COG0011 family" />
+          <Members vimssId="10163752" LocusId="smi_2049" Name="thiX" Function="Thiamin ABC transporter, transmembrane component" />
+          <Members vimssId="10163751" LocusId="smi_2048" Name="thiY" Function="Thiamin ABC transporter, substrate-binding component" />
+          <Members vimssId="10163750" LocusId="smi_2047" Name="thiZ" Function="Thiamin ABC transporter, ATPase component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01054" RegulationMode="RF01054">
+      <Regulator Key="preQ1-II" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30024" />
+      <Effector>Pre-queuosine</Effector>
+      <Pathway>Queuosine biosynthesis</Pathway>
+      <LocusTag Key="preQ1-II" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1135" Name="queT" Position="-95" Score="95.8">
+          <Sequence>TTGTGCTATACTAGTAAGGTTGATTGAATCAACCCTTGGTGCTTAGCTTCTTTCACCAAGCATATTACACGCGGGAAACCGCCAAAGGAGAAAACATG</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10162832" LocusId="smi_1135" Name="queT" Function="Substrate-specific component QueT (COG4708) of predicted queuosine-regulated ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00380" RegulationMode="RF00380">
+      <Regulator Key="ykoK" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30264" />
+      <Effector>Magnesium ion, (Mg2+)</Effector>
+      <Pathway>Magnesium homeostasis</Pathway>
+      <LocusTag Key="ykoK" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1923" Name="mgtB" Position="-346" Score="64.4">
+          <Sequence>GAAAACGGTAGGTGAGGCTACCATAGGGATACGGATGACTACCGCAAAGCAGTGGAGACACTACTCGTTGGTCAACAGTCCTGGTCGCGAAGGCCAAGACTAAGCTCATTACATTGCCCTATGGAGTTAAAGCTTGAACGAAAAACAGATAA</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10163625" LocusId="smi_1923" Name="mgtB" Function="Mg(2+) transport ATPase, P-type (EC 3.6.3.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30324" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="smi_1543" Name="atcL" Position="-198" Score="45.9">
+          <Sequence>AGTACTACTCAAGGGGAGTAGCTGGCAGAAACCTGTGATAGTGTCGTCATTCCGAATTTTATACTGAAAAGTATGCTTTCCGGCCCTATCTTAAACAGCGAGACTTGTTAGGATT</Sequence>
+          <Bacteria>Streptococcus mitis B6</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10163240" LocusId="smi_1543" Name="atcL" Function="Calcium-transporting ATPase (EC 3.6.3.8)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

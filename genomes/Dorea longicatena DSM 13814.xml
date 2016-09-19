@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Dorea longicatena DSM 13814" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor (activator)">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47482" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="DORLON_00442" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4192950&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4785" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORLON_01501" Name="argG" Position="-199" Score="5">
+          <Sequence>ATGCATATTTTTGCAT</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_01501" Name="argG" Position="-147" Score="5.4">
+          <Sequence>TTGCATAATTATAAAA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_01497" Name="argC" Position="-157" Score="5.1">
+          <Sequence>ATGTATACTTATGCAA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_01497" Name="argC" Position="-38" Score="4.8">
+          <Sequence>ATTTATAAAAATTCAA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4194007" LocusId="DORLON_01497" Name="argC" Function="N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)" />
+          <Members vimssId="4194006" LocusId="DORLON_01496" Name="GNAT" Function="Acetyltransferase, GNAT family (EC 2.3.1.-)" />
+          <Members vimssId="4194005" LocusId="DORLON_01495" Name="argJ" Function="Glutamate N-acetyltransferase (EC 2.3.1.35) / N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="4194004" LocusId="DORLON_01494" Name="argB" Function="Acetylglutamate kinase (EC 2.7.2.8)" />
+          <Members vimssId="4194003" LocusId="DORLON_01493" Name="argD" Function="Acetylornithine aminotransferase (EC 2.6.1.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4194011" LocusId="DORLON_01501" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4785</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57901" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="DORLON_00878" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4193388&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5929" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORLON_02721" Name="bioB" Position="-65" Score="8.6">
+          <Sequence>ATGTTAAC---------------GTTAACAA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_01236" Name="bioY" Position="-88" Score="8.9">
+          <Sequence>TTGTAAAC---------------GTTGACAA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_00987" Name="bioY" Position="-123" Score="8.7">
+          <Sequence>TTGTTAAC---------------GTTGACAT</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4193498" LocusId="DORLON_00987" Name="bioY" Function="Substrate-specific component BioY of biotin ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4193746" LocusId="DORLON_01236" Name="bioY" Function="Substrate-specific component BioY of biotin ECF transporter" />
+          <Members vimssId="4193745" LocusId="DORLON_01235" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4195232" LocusId="DORLON_02721" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5929</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="CzrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62651" />
+      <Effector>Zinc ion, (Zn2+); Silver ion, (Ag+); Nickel ion, (Ni2+); Copper ion, (Cu2+); Cobalt ion, (Co2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Zinc resistance; Nickel resistance; Copper resistance; Cobalt resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="DORLON_02325" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4194836&amp;disp=0" />
+      <BiologicalProcess>Zinc resistance; Nickel resistance; Copper resistance; Cobalt resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CzrA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6446" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORLON_02327" Name="PF00403" Position="-62" Score="7.3">
+          <Sequence>CATATGAATAACTGTTCATATA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4194838" LocusId="DORLON_02327" Name="PF00403" Function="Heavy-metal-associated domain" />
+          <Members vimssId="4194837" LocusId="DORLON_02326" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5); Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="4194836" LocusId="DORLON_02325" Name="czrA" Function="Cadmium-dependent transcriptuin regulator, ArsR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6446</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="DtxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62589" />
+      <Effector>New effector</Effector>
+      <Pathway>Metal homeostasis</Pathway>
+      <LocusTag Key="DORLON_00214" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4192722&amp;disp=0" />
+      <BiologicalProcess>Metal homeostasis</BiologicalProcess>
+      <Regulog Key="DtxR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6440" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORLON_00209" Name="PF09605" Position="-60" Score="5.7">
+          <Sequence>GGTTAGAACACTCTAACC</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4192717" LocusId="DORLON_00209" Name="PF09605" Function="Hypothetical bacterial integral membrane protein (Trep_Strep)" />
+          <Members vimssId="4192718" LocusId="DORLON_00210" Name="COG0619" Function="ABC-type cobalt transport system, permease component CbiQ and related transporters" />
+          <Members vimssId="4192719" LocusId="DORLON_00211" Name="COG1123" Function="ATPase components of various ABC-type transport systems, contain duplicated ATPase" />
+          <Members vimssId="4192720" LocusId="DORLON_00212" Name="COG1132" Function="ABC-type multidrug transport system, ATPase and permease components" />
+          <Members vimssId="4192721" LocusId="DORLON_00213" Name="COG2274" Function="ABC-type bacteriocin/lantibiotic exporters, contain an N-terminal double-glycine peptidase domain" />
+          <Members vimssId="4192722" LocusId="DORLON_00214" Name="dtxR" Function="Putative metal-dependent transcriptional regulator, DtxR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6440</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62759" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="DORLON_00352" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4192860&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6458" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORLON_00357" Name="PF12672" Position="-125" Score="4.6">
+          <Sequence>AATGAGGATTTATGTCATT</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_00403" Name="PF10087" Position="-104" Score="5.6">
+          <Sequence>ATTGAGAAAAGTTTTCAAT</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_02935" Name="feoB2" Position="-113" Score="4.9">
+          <Sequence>GTTGACAAAAATTATCGAT</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_02935" Name="feoB2" Position="-73" Score="5.4">
+          <Sequence>GTTGAGAAATATTATCAGT</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_00346" Name="BACPEC_02635" Position="-88" Score="5.5">
+          <Sequence>AATGAAAACATTTATCATT</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_00353" Name="BACPEC_03058" Position="-148" Score="5.9">
+          <Sequence>GTTGATAAAATTTATCAAT</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4195446" LocusId="DORLON_02935" Name="feoB2" Function="Ferrous iron transport protein B" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4192865" LocusId="DORLON_00357" Name="PF12672" Function="Protein of unknown function (DUF3793)" />
+          <Members vimssId="4192866" LocusId="DORLON_00358" Name="PF00258" Function="Flavodoxins" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4192911" LocusId="DORLON_00403" Name="PF10087" Function="Uncharacterized protein conserved in bacteria (DUF2325)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4192854" LocusId="DORLON_00346" Name="BACPEC_02635" Function="hypothetical protein" />
+          <Members vimssId="4192855" LocusId="DORLON_00347" Name="feoA" Function="Ferrous iron transport protein A" />
+          <Members vimssId="4192856" LocusId="DORLON_00348" Name="feoB" Function="Ferrous iron transport protein B" />
+          <Members vimssId="4192857" LocusId="DORLON_00349" Name="null" Function="hypothetical protein" />
+          <Members vimssId="4192858" LocusId="DORLON_00350" Name="null" Function="hypothetical protein" />
+          <Members vimssId="4192859" LocusId="DORLON_00351" Name="BACPEC_02991" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4192861" LocusId="DORLON_00353" Name="BACPEC_03058" Function="hypothetical protein" />
+          <Members vimssId="4192862" LocusId="DORLON_00354" Name="COG2217" Function="Cation transporting ATPase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6458</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TrpR" RegulationMode="repressor">
+      <Regulator Key="HisR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=54591" />
+      <Effector>Histidine</Effector>
+      <Pathway>Histidine biosynthesis</Pathway>
+      <LocusTag Key="DORLON_01427" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4193937&amp;disp=0" />
+      <BiologicalProcess>Histidine biosynthesis</BiologicalProcess>
+      <Regulog Key="HisR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5569" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORLON_01427" Name="hisR" Position="24" Score="5.3">
+          <Sequence>GAATTTAGTGTGTTAAAATG</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_00748" Name="hisX" Position="-94" Score="5.2">
+          <Sequence>GATTTTAGTGTGATAAAGTA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_00474" Name="hisZ" Position="-50" Score="5">
+          <Sequence>CATGGTAGCACACTAAAGTA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4193937" LocusId="DORLON_01427" Name="hisR" Function="Predicted histidine repressor, TrpR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4193258" LocusId="DORLON_00748" Name="hisX" Function="Histidine ABC transporter, histidine-binding protein (TC 3.A.1)" />
+          <Members vimssId="4193257" LocusId="DORLON_00747" Name="hisY" Function="Histidine ABC transporter, permease protein" />
+          <Members vimssId="4193256" LocusId="DORLON_00746" Name="hisZ" Function="Histidine ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4192982" LocusId="DORLON_00474" Name="hisZ" Function="ATP phosphoribosyltransferase regulatory subunit (EC 2.4.2.17)" />
+          <Members vimssId="4192983" LocusId="DORLON_00475" Name="hisG" Function="ATP phosphoribosyltransferase catalytic subunit (EC 2.4.2.17)" />
+          <Members vimssId="4192984" LocusId="DORLON_00476" Name="hisD" Function="Histidinol dehydrogenase (EC 1.1.1.23)" />
+          <Members vimssId="4192985" LocusId="DORLON_00477" Name="null" Function="hypothetical protein" />
+          <Members vimssId="4192986" LocusId="DORLON_00478" Name="hisB" Function="Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)" />
+          <Members vimssId="4192987" LocusId="DORLON_00479" Name="hisIE" Function="Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19) / Phosphoribosyl-ATP pyrophosphatase (EC 3.6.1.31)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5569</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47496" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="DORLON_01874" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4194385&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4786" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORLON_02814" Name="htpG" Position="-171" Score="7.4">
+          <Sequence>TTAGCACTCTTTTTAAAAGAGTGCTAA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_01663" Name="groEL" Position="-383" Score="7">
+          <Sequence>TCAGCACTCTCTTTTGTTGAGTGCTAA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_01664" Name="groES" Position="-59" Score="7">
+          <Sequence>TCAGCACTCTCTTTTGTTGAGTGCTAA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_01874" Name="hrcA" Position="-74" Score="7.2">
+          <Sequence>TTAGCACTCAGATAAAAAGAGTGCTAA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_00596" Name="hsp20" Position="-163" Score="7.4">
+          <Sequence>TTAGCACTCACTATTGACGAGTGCTAA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_02781" Name="hsp20" Position="-207" Score="7.3">
+          <Sequence>TTAGCACTCACCTATTGACAGTGCTAA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_02510" Name="hsp20" Position="-184" Score="7.3">
+          <Sequence>TTAGCACTCACCTCTAGACAGTGCTAA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_02511" Name="clpB" Position="-84" Score="6.5">
+          <Sequence>TTAGCACTCGGGGGTTGACAGTGCTAA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4195022" LocusId="DORLON_02511" Name="clpB" Function="ATP-dependent Clp protease ATP-binding subunit ClpB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4195021" LocusId="DORLON_02510" Name="hsp20" Function="Heat shock protein Hsp20" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4195292" LocusId="DORLON_02781" Name="hsp20" Function="Heat shock protein Hsp20" />
+          <Members vimssId="4195291" LocusId="DORLON_02780" Name="dnaJ2" Function="Chaperone protein DnaJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4193104" LocusId="DORLON_00596" Name="hsp20" Function="Heat shock protein Hsp20" />
+          <Members vimssId="4193103" LocusId="DORLON_00595" Name="hsp20" Function="Heat shock protein Hsp20" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4194174" LocusId="DORLON_01663" Name="groEL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4194175" LocusId="DORLON_01664" Name="groES" Function="Heat shock protein 60 family co-chaperone GroES" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4195325" LocusId="DORLON_02814" Name="htpG" Function="Heat shock chaperone protein 90" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4194385" LocusId="DORLON_01874" Name="hrcA" Function="heat-inducible transcription repressor HrcA" />
+          <Members vimssId="4194384" LocusId="DORLON_01873" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="4194383" LocusId="DORLON_01872" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="4194382" LocusId="DORLON_01871" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4786</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="IdeR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63068" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="DORLON_00345" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4192853&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="IdeR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6500" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORLON_00345" Name="ideR" Position="-156" Score="6.3">
+          <Sequence>ATAGTTAGTATATGCTAACGTT</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_00346" Name="" Position="-120" Score="6.7">
+          <Sequence>AACGTTAGCATATACTAACTAT</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_00403" Name="PF10087" Position="-48" Score="4.9">
+          <Sequence>TTAGTTAGATAAAGCTAACTAA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_00359" Name="eno" Position="-108" Score="4.4">
+          <Sequence>AAAGATATGATATGCTGACGAT</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_00359" Name="eno" Position="-88" Score="6.4">
+          <Sequence>ATAGTTAGAATAATCTAACTAT</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4192854" LocusId="DORLON_00346" Name="null" Function="hypothetical protein" />
+          <Members vimssId="4192855" LocusId="DORLON_00347" Name="feoA" Function="Ferrous iron transport protein A" />
+          <Members vimssId="4192856" LocusId="DORLON_00348" Name="feoB" Function="Ferrous iron transport protein B" />
+          <Members vimssId="4192857" LocusId="DORLON_00349" Name="null" Function="hypothetical protein" />
+          <Members vimssId="4192858" LocusId="DORLON_00350" Name="null" Function="hypothetical protein" />
+          <Members vimssId="4192859" LocusId="DORLON_00351" Name="null" Function="hypothetical protein" />
+          <Members vimssId="4192860" LocusId="DORLON_00352" Name="null" Function="hypothetical protein" />
+          <Members vimssId="4192861" LocusId="DORLON_00353" Name="null" Function="hypothetical protein" />
+          <Members vimssId="4192862" LocusId="DORLON_00354" Name="COG2217" Function="Cation transporting ATPase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4192853" LocusId="DORLON_00345" Name="ideR" Function="Predicted iron-dependent repressor, DtxR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4192867" LocusId="DORLON_00359" Name="eno" Function="Enolase (EC 4.2.1.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4192911" LocusId="DORLON_00403" Name="PF10087" Function="Uncharacterized protein conserved in bacteria" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6500</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47454" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="DORLON_00532" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4193040&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4783" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORLON_02453" Name="recA" Position="-38" Score="4.8">
+          <Sequence>ACGAACACTCGTTCGA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_00532" Name="lexA" Position="-178" Score="4.6">
+          <Sequence>ACGAACATGTGTTCCT</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_00532" Name="lexA" Position="-142" Score="5">
+          <Sequence>TCGAACACATGTTTGT</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_00532" Name="lexA" Position="-105" Score="4.9">
+          <Sequence>TCGAACATATTTTCTA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_02750" Name="COG4277" Position="-58" Score="5.1">
+          <Sequence>AAGAACGAATGTTCGA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_02750" Name="COG4277" Position="-27" Score="4.7">
+          <Sequence>AAGAACACTTGTTTGT</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4193040" LocusId="DORLON_00532" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4194964" LocusId="DORLON_02453" Name="recA" Function="Recombination protein A" />
+          <Members vimssId="4194963" LocusId="DORLON_02452" Name="recX" Function="regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4195261" LocusId="DORLON_02750" Name="COG4277" Function="Predicted DNA-binding protein with the Helix-hairpin-helix motif" />
+          <Members vimssId="4195260" LocusId="DORLON_02749" Name="BACPEC_02112" Function="Uracil-DNA glycosylase, family 1" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4783</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NiaR" RegulationMode="repressor">
+      <Regulator Key="NiaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47440" />
+      <Effector>Niacin</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="DORLON_01087" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4193597&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NiaR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4782" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORLON_01089" Name="nadB" Position="-123" Score="6.1">
+          <Sequence>AACAATTGTCTTGTCACATGTA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_02159" Name="niaY" Position="-98" Score="6.4">
+          <Sequence>GACATGTGACAAGACACATGTA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4193599" LocusId="DORLON_01089" Name="nadB" Function="L-aspartate oxidase (EC 1.4.3.16)" />
+          <Members vimssId="4193598" LocusId="DORLON_01088" Name="nadC" Function="Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)" />
+          <Members vimssId="4193597" LocusId="DORLON_01087" Name="niaR" Function="NAD biosynthesis transcription regulator, HTH_11 family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4194670" LocusId="DORLON_02159" Name="niaY" Function="Predicted nicotinate-regulated transporter NiaY" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4782</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=64320" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="DORLON_01175" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4193685&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6635" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORLON_00953" Name="nrdD" Position="-102" Score="4.6">
+          <Sequence>GCACAATATCTTGTGC</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_00953" Name="nrdD" Position="-70" Score="5">
+          <Sequence>AAACAATATTTAGTAG</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_01167" Name="COG0345" Position="-74" Score="3.8">
+          <Sequence>ACATAACAGATTGTTT</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4193677" LocusId="DORLON_01167" Name="COG0345" Function="Pyrroline-5-carboxylate reductase (EC 1.5.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4193463" LocusId="DORLON_00953" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6635</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61481" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine biosynthesis</Pathway>
+      <LocusTag Key="DORLON_02845" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4195356&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine biosynthesis</BiologicalProcess>
+      <Regulog Key="PdxR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6312" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORLON_00259" Name="pdxS" Position="-56" Score="12.1">
+          <Sequence>AACTGGTAT-(15)-AACTGGATG-(8)-ATACCAGAT</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_00405" Name="pdxU" Position="-63" Score="10.2">
+          <Sequence>AACTGGTAT-(15)-AACTGGCTC-(8)-ATGCCACTA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_01651" Name="pdxU" Position="-142" Score="10.8">
+          <Sequence>AACTGGCCT-(15)-AACTGGCTG-(8)-CATCCACTT</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4194162" LocusId="DORLON_01651" Name="pdxU" Function="Substrate-specific component PdxU of predicted pyridoxin-related ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4192913" LocusId="DORLON_00405" Name="pdxU" Function="Substrate-specific component PdxU of predicted pyridoxin-related ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4192767" LocusId="DORLON_00259" Name="pdxS" Function="Pyridoxine biosynthesis glutamine amidotransferase, synthase subunit (EC 2.4.2.-)" />
+          <Members vimssId="4192768" LocusId="DORLON_00260" Name="pdxT" Function="Pyridoxine biosynthesis glutamine amidotransferase, glutaminase subunit (EC 2.4.2.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6312</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47468" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="DORLON_00639" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4193147&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4784" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORLON_02221" Name="adhE" Position="-117" Score="5.3">
+          <Sequence>ATGTTAAAAAAATATCAA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_02221" Name="adhE" Position="-97" Score="4.9">
+          <Sequence>ATGTGAAAAAAATATCAA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_02221" Name="adhE" Position="-72" Score="4.8">
+          <Sequence>TTGACAAAGAATTAACAA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_02222" Name="stpK" Position="-144" Score="5.5">
+          <Sequence>ATGTTAAAAAAATAACAA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_02222" Name="stpK" Position="-106" Score="4.7">
+          <Sequence>TAGTGAAAAAAATATCAA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_00585" Name="bdh" Position="-110" Score="4.5">
+          <Sequence>ATATTAAAAAAATCACAA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_00585" Name="bdh" Position="-44" Score="4.5">
+          <Sequence>GTGTTAAAAGATTAACAC</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_02552" Name="ladH" Position="-231" Score="5">
+          <Sequence>AAGTTATTTATATAACAA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_02552" Name="ladH" Position="-102" Score="4.7">
+          <Sequence>TTGTTAAAATAAAGACAT</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_00700" Name="aroE" Position="-53" Score="4.8">
+          <Sequence>TTGTTAAAATATAAGCAA</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4194733" LocusId="DORLON_02222" Name="stpK" Function="Mn2+-dependent serine/threonine protein kinase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4194732" LocusId="DORLON_02221" Name="adhE" Function="Alcohol dehydrogenase (EC 1.1.1.1), Fe-dependent; Acetaldehyde dehydrogenase (EC 1.2.1.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4193208" LocusId="DORLON_00700" Name="aroE" Function="Shikimate/quinate 5-dehydrogenase I beta (EC 1.1.1.282)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4195063" LocusId="DORLON_02552" Name="ladH" Function="Lactaldehyde reductase (EC 1.1.1.77)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4193093" LocusId="DORLON_00585" Name="bdh" Function="Butanol dehydrogenase; Butyraldehyde dehydrogenase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4784</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48825" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORLON_02764" Name="ribD" Position="-280" Score="111.5">
+          <Sequence>ACGAAATCTTCAGGGCAGGGTGCGATTCCCTACCGGCGGTAAAGCCCGCGGGCCGAGAGGCATGATCCGGTGTGATTCCGGAGCCGACAGTATAGTCTGGATGAAAGAAGATGATG</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_02252" Name="ribU" Position="-315" Score="101.3">
+          <Sequence>AGATTCTTCGGGGCAGGGTGTGATTCCCAACCGGCGGTAAAGTCCGCGAACTGGTCATTTGAAGAATTTCTGGTCAGAGATATCTGAACAGATGTTATCAATGTGATGATCAGCCGATTTGGTGAGATTCCAGAACCGACAGTAAAGTCTGGATGAGAGAAGGATGATAC</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4194763" LocusId="DORLON_02252" Name="ribU" Function="Substrate-specific component RibU of riboflavin ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4195275" LocusId="DORLON_02764" Name="ribD" Function="Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26) / 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)" />
+          <Members vimssId="4195274" LocusId="DORLON_02763" Name="ribE" Function="Riboflavin synthase alpha chain (EC 2.5.1.9)" />
+          <Members vimssId="4195273" LocusId="DORLON_02762" Name="ribBA" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase / GTP cyclohydrolase II (EC 3.5.4.25)" />
+          <Members vimssId="4195272" LocusId="DORLON_02761" Name="ribH" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48839" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORLON_02556" Name="thiM" Position="-280" Score="36.4">
+          <Sequence>GAAAAGGGGAGTCCGTAATCTGAGCGGGCTGAGAGTAGACTAAAGATGTCTTGACCCGGGAAACTGATTTGGATCATGCCAACGTAGGGAAAGAAAAGTTGCCGACAGG</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_00841" Name="thiW" Position="-445" Score="55.3">
+          <Sequence>TATAAACAGGGGGGAGCTGGAGAAAACCGGCTGAGAGGAAGCGTAATTCCGTTTCGACCCTTTACCTGATTTGGATAATGCCAACGGAGGGATTCATACCATGTATTGATT</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORLON_01209" Name="thiS" Position="-327" Score="67.3">
+          <Sequence>TAGATAAAACACGGGGAGCTTGTGTACCAGGCTGAGAGGAAGTTAAGAACTTCGACCCATATACCTGATTTGGATAATGCCAACGTAGGAATGTATAACGTAGATTTT</Sequence>
+          <Bacteria>Dorea longicatena DSM 13814</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4193719" LocusId="DORLON_01209" Name="thiS" Function="Thiamine biosynthesis protein ThiS" />
+          <Members vimssId="4193718" LocusId="DORLON_01208" Name="thiF" Function="Sulfur carrier protein adenylyltransferase ThiF" />
+          <Members vimssId="4193717" LocusId="DORLON_01207" Name="thiG" Function="Thiazole biosynthesis protein ThiG" />
+          <Members vimssId="4193716" LocusId="DORLON_01206" Name="thiH" Function="Thiazole biosynthesis protein ThiH" />
+          <Members vimssId="4193715" LocusId="DORLON_01205" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4195067" LocusId="DORLON_02556" Name="thiM" Function="Hydroxyethylthiazole kinase (EC 2.7.1.50)" />
+          <Members vimssId="4195068" LocusId="DORLON_02557" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+          <Members vimssId="4195069" LocusId="DORLON_02558" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4193352" LocusId="DORLON_00841" Name="thiW" Function="Substrate-specific component ThiW of predicted thiazole ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

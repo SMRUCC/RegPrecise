@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Rhodospirillum rubrum ATCC 11170" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51377" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="Rru_A1026" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1143501&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5209" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Rru_A1027" Name="cadA" Position="-66" Score="6.2">
+          <Sequence>ATCCTCTAGTCGCTAGAGATT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1143502" LocusId="Rru_A1027" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5209</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator (repressor)">
+      <Regulator Key="FnrN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63391" />
+      <Effector>Oxygen</Effector>
+      <Pathway>Oxidative stress response; Nitrogen fixation</Pathway>
+      <LocusTag Key="Rru_A3322" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1145835&amp;disp=0" />
+      <BiologicalProcess>Oxidative stress response; Nitrogen fixation</BiologicalProcess>
+      <Regulog Key="FnrN - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6532" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Rru_A3332" Name="ccoN" Position="-324" Score="5.7">
+          <Sequence>GATTTGATCTAAATCAATGG</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A3322" Name="fnrN" Position="-119" Score="4.6">
+          <Sequence>GGTTTGACCTGGATCAAAAT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1145835" LocusId="Rru_A3322" Name="fnrN" Function="Nitrogen fixation and oxygen response transcriptional regulator FnrN, Crp family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1145845" LocusId="Rru_A3332" Name="ccoN" Function="Cytochrome c oxidase subunit CcoN (EC 1.9.3.1)" />
+          <Members vimssId="1145844" LocusId="Rru_A3331" Name="ccoO" Function="Cytochrome c oxidase subunit CcoO (EC 1.9.3.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6532</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="FruR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=55315" />
+      <Effector>Fructose-1-phosphate</Effector>
+      <Pathway>Fructose utilization</Pathway>
+      <LocusTag Key="Rru_A1973" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1144458&amp;disp=0" />
+      <BiologicalProcess>Fructose utilization</BiologicalProcess>
+      <Regulog Key="FruR2 - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5640" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Rru_A1972" Name="fruB" Position="-142" Score="5.4">
+          <Sequence>TTGTGAAATCGTTTTCACTC</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A1973" Name="fruR2" Position="-106" Score="5.4">
+          <Sequence>GAGTGAAAACGATTTCACAA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1144457" LocusId="Rru_A1972" Name="fruB" Function="PTS system, fructose-specific IIA component (EC 2.7.1.69) / Phosphotransferase system, phosphocarrier protein HPr / Phosphoenolpyruvate-protein phosphotransferase of PTS system (EC 2.7.3.9)" />
+          <Members vimssId="1144456" LocusId="Rru_A1971" Name="fruK" Function="1-phosphofructokinase (EC 2.7.1.56)" />
+          <Members vimssId="1144455" LocusId="Rru_A1970" Name="fruA" Function="PTS system, fructose-specific IIB component (EC 2.7.1.69) / PTS system, fructose-specific IIC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1144458" LocusId="Rru_A1973" Name="fruR2" Function="Transcriptional regulator for fructose utilization, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5640</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor (activator)">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19536" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="Rru_A3767" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1146285&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2111" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Rru_A3164" Name="mntX" Position="-74" Score="4.7">
+          <Sequence>ATTAAGAATGAATTGCATA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A2395" Name="omp13" Position="-53" Score="5">
+          <Sequence>CATGCGAACAAGTCGCATT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A1456" Name="" Position="-113" Score="4.5">
+          <Sequence>CATGAGACGCATTTTCATT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A2397" Name="fecI3" Position="-103" Score="4.9">
+          <Sequence>AATGATAGTCGTTCGCAAA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A2372" Name="fecI2" Position="19" Score="4.9">
+          <Sequence>AATGCGAAGCGTTTGCATT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A0845" Name="omp11" Position="-130" Score="4.2">
+          <Sequence>TATGATAATAAGAAGCATT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A1438" Name="fecI" Position="-58" Score="5.2">
+          <Sequence>TTTGCGAATAATTCTCAAA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A0841" Name="" Position="-179" Score="4.6">
+          <Sequence>AACGATAATTAATATCATT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A2799" Name="" Position="-194" Score="5.6">
+          <Sequence>AATGAAAGTCATTCGCAAT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A0769" Name="" Position="-76" Score="4.5">
+          <Sequence>TCTGCGTTTCATTCTCAAT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A0879" Name="" Position="-98" Score="5.4">
+          <Sequence>ATTGCAAATGACTTGCAAT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A1054" Name="" Position="-118" Score="4.2">
+          <Sequence>AACGATTATCAATAGCATT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A1053" Name="mcp2" Position="-126" Score="4.2">
+          <Sequence>AATGCTATTGATAATCGTT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A0880" Name="omp10" Position="-169" Score="4.7">
+          <Sequence>AACGAGACTTATTAGCAAT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A0838" Name="omp10" Position="-104" Score="4">
+          <Sequence>CATGCGATTGAGACGCGAT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A2321" Name="mcp" Position="-58" Score="4.4">
+          <Sequence>AATGCTATTGAATATCGAT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A2809" Name="mtr1" Position="-61" Score="3.8">
+          <Sequence>AATGAAAATGCATGGCTTT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A2763" Name="" Position="-97" Score="5.4">
+          <Sequence>AATGAGAGTGATTCTCATG</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A2597" Name="efeU" Position="-41" Score="5.3">
+          <Sequence>ATTGATAATTAATCTCATT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A2196" Name="bfd" Position="-75" Score="5.2">
+          <Sequence>AATGCGATTGACTTGCAAA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A2155" Name="exbB" Position="-197" Score="4.6">
+          <Sequence>ATTAATAGTCAATTGCATT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1144684" LocusId="Rru_A2196" Name="bfd" Function="Bacterioferritin-associated ferredoxin" />
+          <Members vimssId="1144683" LocusId="Rru_A2195" Name="bfr" Function="Bacterioferritin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1143318" LocusId="Rru_A0845" Name="omp11" Function="TonB-dependent siderophore receptor" />
+          <Members vimssId="1143319" LocusId="Rru_A0846" Name="ftpB" Function="Hypothetical protein FtpB in pyochelin gene cluster" />
+          <Members vimssId="1143320" LocusId="Rru_A0847" Name="null" Function="PepSY-associated TM helix domain protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1143314" LocusId="Rru_A0841" Name="null" Function="Transcriptional Regulator, AraC family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1143236" LocusId="Rru_A0769" Name="null" Function="Ferric iron ABC transporter, iron-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1143352" LocusId="Rru_A0879" Name="null" Function="Transcriptional regulator, AraC family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1143529" LocusId="Rru_A1054" Name="null" Function="Membrane protein involved in colicin uptake" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1143528" LocusId="Rru_A1053" Name="mcp2" Function="Methyl-accepting chemotaxis protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1144810" LocusId="Rru_A2321" Name="mcp" Function="Methyl-accepting chemotaxis protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1143353" LocusId="Rru_A0880" Name="omp10" Function="TonB-dependent siderophore receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1143311" LocusId="Rru_A0838" Name="omp10" Function="TonB-dependent siderophore receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1143932" LocusId="Rru_A1456" Name="null" Function="Transcriptional regulator, AraC family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1143914" LocusId="Rru_A1438" Name="fecI" Function="DNA-directed RNA polymerase specialized sigma subunit, sigma24 homolog" />
+          <Members vimssId="1143915" LocusId="Rru_A1439" Name="fecR" Function="Fe2+-dicitrate sensor, membrane component" />
+          <Members vimssId="1143916" LocusId="Rru_A1440" Name="omp18" Function="TonB-dependent siderophore receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1145300" LocusId="Rru_A2799" Name="null" Function="Cation transport ATPase" />
+          <Members vimssId="1145299" LocusId="Rru_A2798" Name="null" Function="ABC-type phosphate transport system, permease component" />
+          <Members vimssId="1145298" LocusId="Rru_A2797" Name="null" Function="Hypothetical protein" />
+          <Members vimssId="1145297" LocusId="Rru_A2796" Name="null" Function="Probable cation-transporting P-type ATPase C (EC 3.6.3.-) (Metal-transporting ATPase Mta72)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1144867" LocusId="Rru_A2372" Name="fecI2" Function="DNA-directed RNA polymerase specialized sigma subunit, sigma24 homolog" />
+          <Members vimssId="1144868" LocusId="Rru_A2373" Name="fecR2" Function="Fe2+-dicitrate sensor, membrane component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1145671" LocusId="Rru_A3164" Name="mntX" Function="Predicted manganese transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1144890" LocusId="Rru_A2395" Name="omp13" Function="TonB-dependent siderophore receptor" />
+          <Members vimssId="1144889" LocusId="Rru_A2394" Name="null" Function="PepSY-associated TM helix domain protein" />
+          <Members vimssId="1144888" LocusId="Rru_A2393" Name="null" Function="Hypothetical protein" />
+          <Members vimssId="1144887" LocusId="Rru_A2392" Name="null" Function="Hypothetical protein" />
+          <Members vimssId="1144886" LocusId="Rru_A2391" Name="null" Function="Hypothetical protein" />
+          <Members vimssId="1144885" LocusId="Rru_A2390" Name="null" Function="Manganese-binding protein" />
+          <Members vimssId="1144884" LocusId="Rru_A2389" Name="null" Function="ABC transporter ATP-binding protein" />
+          <Members vimssId="1144883" LocusId="Rru_A2388" Name="mntB" Function="Manganese transport system membrane protein mntB" />
+          <Members vimssId="1144882" LocusId="Rru_A2387" Name="null" Function="ABC-type metal ion transport system, periplasmic component/surface adhesin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1145264" LocusId="Rru_A2763" Name="null" Function="Sensory box/GGDEF family protein" />
+          <Members vimssId="1145263" LocusId="Rru_A2762" Name="Rru_A2762" Function="High-affinity Fe2+/Pb2+ permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1145310" LocusId="Rru_A2809" Name="mtr1" Function="High-affinity Fe2+/Pb2+ permease" />
+          <Members vimssId="1145309" LocusId="Rru_A2808" Name="COG3470" Function="Uncharacterized protein probably involved in high-affinity Fe2+ transport" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1145093" LocusId="Rru_A2597" Name="efeU" Function="Ferrous iron transport permease EfeU" />
+          <Members vimssId="1145094" LocusId="Rru_A2598" Name="efeO" Function="Ferrous iron transport periplasmic protein EfeO, contains peptidase-M75 domain and (frequently) cupredoxin-like domain" />
+          <Members vimssId="1145095" LocusId="Rru_A2599" Name="efeB" Function="Ferrous iron transport peroxidase EfeB" />
+          <Members vimssId="1145096" LocusId="Rru_A2600" Name="efeO2" Function="Ferrous iron transport periplasmic protein EfeO, contains peptidase-M75 domain and (frequently) cupredoxin-like domain" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1144643" LocusId="Rru_A2155" Name="exbB" Function="biopolymer transport ExbB protein" />
+          <Members vimssId="1144642" LocusId="Rru_A2154" Name="exbD" Function="biopolymer transport ExbD protein" />
+          <Members vimssId="1144641" LocusId="Rru_A2153" Name="tonB" Function="Ferric siderophore transport system, periplasmic binding protein TonB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1144892" LocusId="Rru_A2397" Name="fecI3" Function="DNA-directed RNA polymerase specialized sigma subunit, sigma24 homolog" />
+          <Members vimssId="1144891" LocusId="Rru_A2396" Name="fecR3" Function="Fe2+-dicitrate sensor, membrane component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2111</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49754" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Rru_A3642" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1146159&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5038" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Rru_A0586" Name="groS" Position="-94" Score="7.4">
+          <Sequence>TTAGCACTCGCCGGGTGGGAGTGCTAA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1143052" LocusId="Rru_A0586" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="1143053" LocusId="Rru_A0587" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5038</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="HutC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17412" />
+      <Effector>cis-Urocanic acid</Effector>
+      <Pathway>Histidine utilization</Pathway>
+      <LocusTag Key="Rru_A1294" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1143770&amp;disp=0" />
+      <BiologicalProcess>Histidine utilization</BiologicalProcess>
+      <Regulog Key="HutC - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1878" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Rru_A1303" Name="hutI" Position="-92" Score="3.9">
+          <Sequence>TCTTATTATAGACAAGCT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A1303" Name="hutI" Position="-82" Score="3.2">
+          <Sequence>GACAAGCTTATACAAGAT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A1302" Name="hutF" Position="-29" Score="3.1">
+          <Sequence>AGCTTGTCTATAATAAGA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A1294" Name="hutC" Position="-42" Score="4.7">
+          <Sequence>GTCCTGTATAGACAAGAG</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1143778" LocusId="Rru_A1302" Name="hutF" Function="Formiminoglutamic iminohydrolase (EC 3.5.3.13)" />
+          <Members vimssId="1143777" LocusId="Rru_A1301" Name="hutH" Function="Histidine ammonia-lyase (EC 4.3.1.3)" />
+          <Members vimssId="1143776" LocusId="Rru_A1300" Name="hutG" Function="N-formylglutamate deformylase (EC 3.5.1.68)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1143779" LocusId="Rru_A1303" Name="hutI" Function="Imidazolonepropionase (EC 3.5.2.7)" />
+          <Members vimssId="1143780" LocusId="Rru_A1304" Name="hutU" Function="Urocanate hydratase (EC 4.2.1.49)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1143770" LocusId="Rru_A1294" Name="hutC" Function="Histidine utilization repressor, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1878</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="activator (repressor)">
+      <Regulator Key="HypR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17788" />
+      <Effector>Proline; 4-hydroxyproline</Effector>
+      <Pathway>Proline and 4-hydrohyproline utilization</Pathway>
+      <LocusTag Key="Rru_A2063" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1144550&amp;disp=0" />
+      <BiologicalProcess>Proline and 4-hydrohyproline utilization</BiologicalProcess>
+      <Regulog Key="HypR - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1920" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Rru_A2064" Name="hypO" Position="-48" Score="4.1">
+          <Sequence>TTTGGATCCAAT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1144551" LocusId="Rru_A2064" Name="hypO" Function="D-amino acid dehydrogenase (EC 1.4.99.1) family protein in hydroxy-L-proline catabolic cluster" />
+          <Members vimssId="1144552" LocusId="Rru_A2065" Name="hypE" Function="Proline racemase /4-hydroxyproline epimerase (EC 5.1.1.8)" />
+          <Members vimssId="1144553" LocusId="Rru_A2066" Name="hypD" Function="1-pyrroline-4-hydroxy-2-carboxylate deaminase (EC 3.5.4.22) # predicted" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1920</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Irr" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=18360" />
+      <Effector>Heme</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="Rru_A3788" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1146306&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Irr - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1983" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Rru_A1789" Name="ccpA" Position="-96" Score="4.3">
+          <Sequence>TTCCTAGAGCAATTCCAATAT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A2196" Name="bfd" Position="-43" Score="4.8">
+          <Sequence>GGTTTTGAGTGGTTTTAATCT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1144684" LocusId="Rru_A2196" Name="bfd" Function="bacterioferritin-associated ferredoxin" />
+          <Members vimssId="1144683" LocusId="Rru_A2195" Name="bfr" Function="Bacterioferritin (cytochrome b1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1144272" LocusId="Rru_A1789" Name="ccpA" Function="Cytochrome c551 peroxidase (EC 1.11.1.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1983</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17956" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="Rru_A2028" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1144515&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1939" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Rru_A2029" Name="cysE" Position="-116" Score="7">
+          <Sequence>ATTCTTGACCGATTTTCTCGGACAC</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1144516" LocusId="Rru_A2029" Name="cysE" Function="Serine acetyltransferase (EC 2.3.1.30)" />
+          <Members vimssId="1144515" LocusId="Rru_A2028" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="1144514" LocusId="Rru_A2027" Name="iscS2" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+          <Members vimssId="1144513" LocusId="Rru_A2026" Name="fdx" Function="ferredoxin, 2Fe-2S type, ISC system" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1939</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34655" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="Rru_A2574" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1145070&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR2 - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3536" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Rru_A2574" Name="iscR2" Position="-45" Score="5.7">
+          <Sequence>AAAGAGTACCAATTTAGTCCTGATA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1145070" LocusId="Rru_A2574" Name="iscR2" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="1145069" LocusId="Rru_A2573" Name="sufB" Function="Iron-sulfur cluster assembly protein SufB" />
+          <Members vimssId="1145068" LocusId="Rru_A2572" Name="sufC" Function="Iron-sulfur cluster assembly ATPase protein SufC" />
+          <Members vimssId="1145067" LocusId="Rru_A2571" Name="sufD" Function="Iron-sulfur (Fe-S) assembly protein SufD" />
+          <Members vimssId="1145066" LocusId="Rru_A2570" Name="sufS" Function="cysteine desulfurase SufS" />
+          <Members vimssId="1145065" LocusId="Rru_A2569" Name="sufT" Function="Iron sulfur cluster assembly protein SufT" />
+          <Members vimssId="1145064" LocusId="Rru_A2568" Name="sufA" Function="Iron binding protein SufA for iron-sulfur cluster assembly" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3536</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28398" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="Rru_A1898" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1144383&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2987" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Rru_A1898" Name="lexA" Position="-114" Score="0.9">
+          <Sequence>GAACCAAAGTAGAAC</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A2819" Name="recA" Position="-68" Score="1">
+          <Sequence>GAACAAAAAGAGTAC</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A3530" Name="dinB" Position="-54" Score="1.6">
+          <Sequence>GAACATTTAGGGTAC</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A2819" Name="recA" Position="-104" Score="4.4">
+          <Sequence>GATCTTGTTCTGTTC</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1145320" LocusId="Rru_A2819" Name="recA" Function="Recombinase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1144383" LocusId="Rru_A1898" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1146046" LocusId="Rru_A3530" Name="dinB" Function="DNA polymerase IV (EC 2.7.7.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2987</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="LiuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28594" />
+      <Effector />
+      <Pathway>Branched-chain amino acid degradation</Pathway>
+      <LocusTag Key="Rru_A1994" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1144479&amp;disp=0" />
+      <BiologicalProcess>Branched-chain amino acid degradation</BiologicalProcess>
+      <Regulog Key="LiuR - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3008" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Rru_A1948" Name="liuA" Position="-194" Score="5.8">
+          <Sequence>TTTGACGTTTACGTAAAC</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A1948" Name="liuA" Position="-188" Score="5">
+          <Sequence>GTTTACGTAAACGGAAGA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A1835" Name="ivdC" Position="-132" Score="5.8">
+          <Sequence>TTTGACGTTTACGTAAAC</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A1835" Name="ivdC" Position="-126" Score="4.7">
+          <Sequence>GTTTACGTAAACGGAAGT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A3510" Name="livG" Position="-108" Score="5.7">
+          <Sequence>CTTTACGTTTGCGTTAAG</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A1994" Name="liuR2" Position="-26" Score="5.2">
+          <Sequence>CTTGCCCTTTACGTAAAG</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1144433" LocusId="Rru_A1948" Name="liuA" Function="Isovaleryl-CoA dehydrogenase (EC 1.3.99.10); Butyryl-CoA dehydrogenase (EC 1.3.99.2)" />
+          <Members vimssId="1144432" LocusId="Rru_A1947" Name="null" Function="nucleotidyltransferase-like" />
+          <Members vimssId="1144431" LocusId="Rru_A1946" Name="ivdA" Function="Acetyl-CoA C-acyltransferase (EC 2.3.1.16) @ Acetyl-CoA acetyltransferase (EC 2.3.1.9)" />
+          <Members vimssId="1144430" LocusId="Rru_A1945" Name="csgA" Function="Short-chain dehydrogenase/reductase SDR( EC:1.1.1.184 )" />
+          <Members vimssId="1144429" LocusId="Rru_A1944" Name="Rru_A1944" Function="2-hydroxychromene-2-carboxylate isomerase (EC 5.3.99.-)" />
+          <Members vimssId="1144428" LocusId="Rru_A1943" Name="liuD" Function="Methylcrotonyl-CoA carboxylase carboxyl transferase subunit (EC 6.4.1.4)" />
+          <Members vimssId="1144427" LocusId="Rru_A1942" Name="liuC" Function="Methylglutaconyl-CoA hydratase (EC 4.2.1.18)" />
+          <Members vimssId="1144426" LocusId="Rru_A1941" Name="liuB" Function="Methylcrotonyl-CoA carboxylase biotin-containing subunit (EC 6.4.1.4)" />
+          <Members vimssId="1144425" LocusId="Rru_A1940" Name="liuE" Function="Hydroxymethylglutaryl-CoA lyase (EC 4.1.3.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1144320" LocusId="Rru_A1835" Name="ivdC" Function="Branched-chain acyl-CoA dehydrogenase (EC 1.3.99.12)" />
+          <Members vimssId="1144319" LocusId="Rru_A1834" Name="ivdE" Function="Enoyl-CoA hydratase [valine degradation] (EC 4.2.1.17)" />
+          <Members vimssId="1144318" LocusId="Rru_A1833" Name="ivdF" Function="3-hydroxyisobutyrate dehydrogenase (EC 1.1.1.31)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1146025" LocusId="Rru_A3510" Name="livG" Function="Branched-chain amino acid transport ATP-binding protein LivG (TC 3.A.1.4.1)" />
+          <Members vimssId="1146024" LocusId="Rru_A3509" Name="fadD" Function="Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)" />
+          <Members vimssId="1146023" LocusId="Rru_A3508" Name="livH" Function="High-affinity branched-chain amino acid transport system permease protein LivH (TC 3.A.1.4.1)" />
+          <Members vimssId="1146022" LocusId="Rru_A3507" Name="livM" Function="Branched-chain amino acid transport system permease protein LivM (TC 3.A.1.4.1)" />
+          <Members vimssId="1146021" LocusId="Rru_A3506" Name="livK" Function="ABC-type branched-chain amino acid transport systems, periplasmic component" />
+          <Members vimssId="1146020" LocusId="Rru_A3505" Name="livF" Function="Branched-chain amino acid transport ATP-binding protein LivF (TC 3.A.1.4.1)" />
+          <Members vimssId="1146019" LocusId="Rru_A3504" Name="paaK" Function="Phenylacetate-coenzyme A ligase (EC 6.2.1.30)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1144479" LocusId="Rru_A1994" Name="liuR2" Function="Predicted transcriptional regulator LiuR of leucine degradation pathway, MerR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3008</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="LldR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16676" />
+      <Effector>L-lactate</Effector>
+      <Pathway>Lactate utilization</Pathway>
+      <LocusTag Key="Rru_A1414" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1143890&amp;disp=0" />
+      <BiologicalProcess>Lactate utilization</BiologicalProcess>
+      <Regulog Key="LldR - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1796" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Rru_A1414" Name="lldR" Position="-164" Score="5.9">
+          <Sequence>TTGGTCAAGAAGTATGACCAC</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A1413" Name="lldE" Position="-241" Score="6">
+          <Sequence>GTGGTCATACTTCTTGACCAA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1143890" LocusId="Rru_A1414" Name="lldR" Function="Lactate-responsive regulator LldR, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1143889" LocusId="Rru_A1413" Name="lldE" Function="L-lactate dehydrogenase, Fe-S oxidoreductase subunit LldE" />
+          <Members vimssId="1143888" LocusId="Rru_A1412" Name="lldF" Function="L-lactate dehydrogenase, Iron-sulfur cluster-binding subunit LldF" />
+          <Members vimssId="1143887" LocusId="Rru_A1411" Name="lldG" Function="L-lactate dehydrogenase, subunit LldG" />
+          <Members vimssId="1143886" LocusId="Rru_A1410" Name="dld" Function="D-lactate dehydrogenase" />
+          <Members vimssId="1143885" LocusId="Rru_A1409" Name="lldP" Function="L-lactate permease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1796</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NadQ" RegulationMode="repressor">
+      <Regulator Key="NadQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15254" />
+      <Effector />
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="Rru_A2601" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1145097&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NadQ - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1636" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Rru_A1434" Name="nadA" Position="-78" Score="6.1">
+          <Sequence>ATTTGCTCACTTTGAGCATAA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1143910" LocusId="Rru_A1434" Name="nadA" Function="Quinolinate synthetase (EC 4.1.99.-)" />
+          <Members vimssId="1143909" LocusId="Rru_A1433" Name="nadB" Function="L-aspartate oxidase (EC 1.4.3.16)" />
+          <Members vimssId="1143908" LocusId="Rru_A1432" Name="nadC" Function="Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1636</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator">
+      <Regulator Key="NifA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63806" />
+      <Effector />
+      <Pathway>Nitrogen fixation</Pathway>
+      <LocusTag Key="Rru_A0993" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1143468&amp;disp=0" />
+      <BiologicalProcess>Nitrogen fixation</BiologicalProcess>
+      <Regulog Key="NifA - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6584" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Rru_A2271" Name="iscN" Position="-125" Score="4.9">
+          <Sequence>TGTCGGAAAGGCGCCA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A1009" Name="draT" Position="-182" Score="5.7">
+          <Sequence>TGTCGCAAACCCGACA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A1009" Name="draT" Position="-152" Score="5.1">
+          <Sequence>TGTCGCGGACCCAACA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A2897" Name="ahpC" Position="-119" Score="4.4">
+          <Sequence>GGTCTGCTACCCGACA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A2271" Name="iscN" Position="-173" Score="5.5">
+          <Sequence>TGTCGGCTTTCCGACA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A0994" Name="nifB" Position="-130" Score="4">
+          <Sequence>TGTCGTAGACTCTACA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A0994" Name="nifB" Position="-169" Score="4.2">
+          <Sequence>TGTCGATATCCCGACC</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A1010" Name="nifH" Position="-192" Score="5.7">
+          <Sequence>TGTCGGGTTTGCGACA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A1010" Name="nifH" Position="-222" Score="5.1">
+          <Sequence>TGTTGGGTCCGCGACA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A2286" Name="nifE" Position="-175" Score="5.4">
+          <Sequence>TGTCGTAAACCCGACA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A2286" Name="nifE" Position="-217" Score="4.4">
+          <Sequence>TGTCCGGCTTGCGCCA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1144760" LocusId="Rru_A2271" Name="iscN" Function="Fe-S cofactor nitrogenase synthesis protein IscN" />
+          <Members vimssId="1144759" LocusId="Rru_A2270" Name="iscU" Function="Nitrogen fixation protein IscU" />
+          <Members vimssId="1144758" LocusId="Rru_A2269" Name="nifV" Function="Homocitrate synthase (EC 2.3.3.14)" />
+          <Members vimssId="1144757" LocusId="Rru_A2268" Name="nifW" Function="Nitrogenase-stabilizing/protective protein nifW" />
+          <Members vimssId="1144756" LocusId="Rru_A2267" Name="fixB" Function="Electron transfer flavoprotein, beta subunit" />
+          <Members vimssId="1144755" LocusId="Rru_A2266" Name="fixA" Function="Electron transfer flavoprotein, alpha subunit" />
+          <Members vimssId="1144754" LocusId="Rru_A2265" Name="fixC" Function="Electron-transferring-flavoprotein dehydrogenase" />
+          <Members vimssId="1144753" LocusId="Rru_A2264" Name="fixX" Function="Ferredoxin-like protein, FixX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1143484" LocusId="Rru_A1009" Name="draT" Function="NAD(+)--dinitrogen-reductase ADP-D-ribosyltransferase (EC 2.4.2.37)" />
+          <Members vimssId="1143483" LocusId="Rru_A1008" Name="draG" Function="ADP-ribosylglycohydrolase (EC 3.2.-.-)" />
+          <Members vimssId="1143482" LocusId="Rru_A1007" Name="PF03960" Function="Nitrogenase-associated protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1143469" LocusId="Rru_A0994" Name="nifB" Function="Nitrogenase FeMo-cofactor synthesis FeS core scaffold and assembly protein NifB" />
+          <Members vimssId="1143470" LocusId="Rru_A0995" Name="fdxN" Function="4Fe-4S ferredoxin, nitrogenase-associated" />
+          <Members vimssId="1143471" LocusId="Rru_A0996" Name="PF01816" Function="Leucine-rich FeS4 cluster domain protein" />
+          <Members vimssId="1143472" LocusId="Rru_A0997" Name="nifZ" Function="Nitrogen fixation protein NifZ" />
+          <Members vimssId="1143473" LocusId="Rru_A0998" Name="nifT" Function="Nitrogen fixation protein nifT" />
+          <Members vimssId="1143474" LocusId="Rru_A0999" Name="sir2" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1145399" LocusId="Rru_A2897" Name="ahpC" Function="Alkyl hydroperoxide reductase protein C (EC 1.6.4.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1144775" LocusId="Rru_A2286" Name="nifE" Function="Nitrogenase FeMo-cofactor scaffold and assembly protein NifE" />
+          <Members vimssId="1144774" LocusId="Rru_A2285" Name="nifN" Function="Nitrogenase FeMo-cofactor scaffold and assembly protein NifN" />
+          <Members vimssId="1144773" LocusId="Rru_A2284" Name="nifX" Function="Nitrogenase FeMo-cofactor carrier protein NifX" />
+          <Members vimssId="1144772" LocusId="Rru_A2283" Name="PF03270" Function="Conserved hypothetical protein, probably related to nitrogen fixation protein" />
+          <Members vimssId="1144771" LocusId="Rru_A2282" Name="fdxB" Function="Nitrogenase specific ferredoxin III protein FdxB" />
+          <Members vimssId="1144770" LocusId="Rru_A2281" Name="nifQ" Function="Nitrogenase FeMo-cofactor synthesis molybdenum delivery protein NifQ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1143485" LocusId="Rru_A1010" Name="nifH" Function="Nitrogenase (molybdenum-iron) reductase and maturation protein NifH" />
+          <Members vimssId="1143486" LocusId="Rru_A1011" Name="nifD" Function="Nitrogenase (molybdenum-iron) alpha chain (EC 1.18.6.1)" />
+          <Members vimssId="1143487" LocusId="Rru_A1012" Name="nifK" Function="Nitrogenase (molybdenum-iron) beta chain (EC 1.18.6.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6584</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15608" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Rru_A1826" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1144311&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1676" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Rru_A2441" Name="nrdJ" Position="-195" Score="4.7">
+          <Sequence>AAGCTAGATCTTGTGG</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A1444" Name="nrdA" Position="-259" Score="4.7">
+          <Sequence>CCACAATATCCGGGGC</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1144936" LocusId="Rru_A2441" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1143920" LocusId="Rru_A1444" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="1143921" LocusId="Rru_A1445" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1676</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19378" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="Rru_A1678" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1144159&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2093" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Rru_A2048" Name="potA" Position="-114" Score="3.8">
+          <Sequence>CGCCCGTATTTAAGGCA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A2048" Name="potA" Position="-153" Score="4.5">
+          <Sequence>TGCAAAAATAATGGGCA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A1129" Name="amtB" Position="-160" Score="3.9">
+          <Sequence>TGCCCGCTTTACGGGCA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A2085" Name="glnB" Position="-194" Score="4.7">
+          <Sequence>TGCCTATATTTCGGGCA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A1676" Name="nifR3" Position="-162" Score="4.6">
+          <Sequence>TGCCTAATATTTAACCA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1144157" LocusId="Rru_A1676" Name="nifR3" Function="Nitrogen assimilation transcriptional regulator NtrX, Fis family" />
+          <Members vimssId="1144158" LocusId="Rru_A1677" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="1144159" LocusId="Rru_A1678" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+          <Members vimssId="1144160" LocusId="Rru_A1679" Name="ntrY" Function="Nitrogen regulation protein NtrY, sensor kinase (EC 2.7.3.-)" />
+          <Members vimssId="1144161" LocusId="Rru_A1680" Name="ntrX" Function="Nitrogen assimilation transcriptional regulator NtrX, Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1143604" LocusId="Rru_A1129" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1144535" LocusId="Rru_A2048" Name="potA" Function="Putrescine ABC transporter, ATP-binding component (TC_3.A.1.11.1)" />
+          <Members vimssId="1144534" LocusId="Rru_A2047" Name="potD" Function="Putrescine ABC transporter, substrate-binding component (TC_3.A.1.11.1)" />
+          <Members vimssId="1144533" LocusId="Rru_A2046" Name="potB" Function="Putrescine ABC transporter, transmembrane component 1 (TC_3.A.1.11.1)" />
+          <Members vimssId="1144532" LocusId="Rru_A2045" Name="potC" Function="Putrescine ABC transporter, transmembrane component 2 (TC_3.A.1.11.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1144573" LocusId="Rru_A2085" Name="glnB" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="1144574" LocusId="Rru_A2086" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2093</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60341" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="Rru_A1925" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1144410&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxQ - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6197" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Rru_A1926" Name="pdxO" Position="-104" Score="11.1">
+          <Sequence>AAGTGGACCCA-(13)-GGCTGGATCTT-(2)-CGCGACCACCT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1144411" LocusId="Rru_A1926" Name="pdxO" Function="Pyridoxamine 5'-phosphate oxidase-related, FMN-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6197</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxQ2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59456" />
+      <Effector />
+      <Pathway>Metabolite transport; Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="Rru_A3041" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1145548&amp;disp=0" />
+      <BiologicalProcess>Metabolite transport; Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxQ2 - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6102" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Rru_A3041" Name="pdxQ2" Position="-43" Score="7.6">
+          <Sequence>TAGATTGTCACGTAACAATTTA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A3040" Name="" Position="-105" Score="7.6">
+          <Sequence>TAAATTGTTACGTGACAATCTA</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A3759" Name="PF01810" Position="-35" Score="7.7">
+          <Sequence>CAAAGTGTCCTATGACAGGTTG</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A3760" Name="pdxQ2" Position="-191" Score="7.7">
+          <Sequence>CAACCTGTCATAGGACACTTTG</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1145547" LocusId="Rru_A3040" Name="null" Function="Cysteine desulfurase (EC 2.8.1.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1146278" LocusId="Rru_A3760" Name="pdxQ2" Function="Transcriptional regulator, GntR/MocR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1146277" LocusId="Rru_A3759" Name="PF01810" Function="Transporter, LysE family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1145548" LocusId="Rru_A3041" Name="pdxQ2" Function="Transcriptional regulator, GntR/MocR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6102</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60491" />
+      <Effector />
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="Rru_A1143" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1143618&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxR - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6213" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Rru_A1142" Name="glyA" Position="-151" Score="12.8">
+          <Sequence>AAATGGTCTG-(13)-AAATGGCAGG-(6)-CAGACCATCT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A1144" Name="PF03594" Position="-115" Score="13.9">
+          <Sequence>AAATGGTCTG-(13)-AAGTGGCTGG-(6)-CAGGCCATTC</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1143619" LocusId="Rru_A1144" Name="PF03594" Function="Putative pyridoxine transport protein" />
+          <Members vimssId="1143620" LocusId="Rru_A1145" Name="pdxK" Function="Pyridoxal kinase (EC 2.7.1.35)" />
+          <Members vimssId="1143621" LocusId="Rru_A1146" Name="PF00155" Function="Pyridoxal phosphate-dependent transferase" />
+          <Members vimssId="1143622" LocusId="Rru_A1147" Name="PF00202" Function="Pyridoxal phosphate-dependent transferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1143617" LocusId="Rru_A1142" Name="glyA" Function="Serine hydroxymethyltransferase (EC 2.1.2.1)" />
+          <Members vimssId="1143616" LocusId="Rru_A1141" Name="PF01168" Function="PLP-binding protein involved in PLP homeostasis" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6213</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SahR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15810" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="Rru_A1529" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1144005&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SahR - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1698" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Rru_A3444" Name="ahcY" Position="-70" Score="7.2">
+          <Sequence>ATATAAAGATATCTTTATAT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A1718" Name="metE" Position="-377" Score="6.8">
+          <Sequence>ATATAAAGATATCTTCATAT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Rru_A1529" Name="sahR" Position="-88" Score="7.2">
+          <Sequence>ATATAAAGATATCTTTATAT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1144005" LocusId="Rru_A1529" Name="sahR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+          <Members vimssId="1144006" LocusId="Rru_A1530" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+          <Members vimssId="1144007" LocusId="Rru_A1531" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1145957" LocusId="Rru_A3444" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1144200" LocusId="Rru_A1718" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1698</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16148" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="Rru_A1911" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1144396&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1736" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Rru_A3702" Name="znuC" Position="-199" Score="6">
+          <Sequence>AAAATGTGATGTTATAACGTTTT</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1146219" LocusId="Rru_A3702" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="1146220" LocusId="Rru_A3703" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+          <Members vimssId="1146221" LocusId="Rru_A3704" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1736</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48772" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Rru_A2197" Name="ribB" Position="-304" Score="110.1">
+          <Sequence>CTTGTTCTCAGGGCAGGGTGAAACTCCCGACCGGCGGTAATCCTTCCCTTTCACGGGGGGGACAGCCCGCGAGCGCCCTTTGCCGGTGGTGAAGGGGTCCAGCAGATCCGGTGCGAAGCCGGAGCCGACGGTATAGTCCGGATGGAAGAGAACGAGGTG</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1144685" LocusId="Rru_A2197" Name="ribB" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48781" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Rru_A2008" Name="thiC" Position="-205" Score="56.4">
+          <Sequence>ACCTGTTCCAGGGGGGCCCCGGCAAGGGGCTGAGATACCGATGGCTGAAGGGGGCTTTCCCCGAGGGCGCGCGGTGACCCTTCGAACCTGATCCGGGTCATGCCGGCGAAGGGACGGAACGCGGGCCGGCGCAC</Sequence>
+          <Bacteria>Rhodospirillum rubrum ATCC 11170</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1144494" LocusId="Rru_A2008" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

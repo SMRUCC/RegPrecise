@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Mycobacterium abscessus ATCC 19977" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="TetR" RegulationMode="">
+      <Regulator Key="AcnR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63615" />
+      <Effector>Citrate</Effector>
+      <Pathway>Tricarboxylic acid cycle</Pathway>
+      <LocusTag Key="MAB_2731" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3345882&amp;disp=0" />
+      <BiologicalProcess>Tricarboxylic acid cycle</BiologicalProcess>
+      <Regulog Key="AcnR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6561" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_4095c" Name="aceA" Position="-259" Score="5.3">
+          <Sequence>CAGTACGAGCGTTCTG</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_2730" Name="acnA" Position="-44" Score="5.4">
+          <Sequence>CGGGACAAGCGTACTG</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3347252" LocusId="MAB_4095c" Name="aceA" Function="Isocitrate lyase (EC 4.1.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3345881" LocusId="MAB_2730" Name="acnA" Function="Aconitate hydratase (EC 4.2.1.3)" />
+          <Members vimssId="3345882" LocusId="MAB_2731" Name="acnR" Function="Aconitase gene transcriptional regulator AcnR, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6561</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="AmtR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62446" />
+      <Effector>GlnK-AMP, signal transduction protein</Effector>
+      <Pathway>Nitrogen metabolism</Pathway>
+      <LocusTag Key="MAB_4089c" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3347246&amp;disp=0" />
+      <BiologicalProcess>Nitrogen metabolism</BiologicalProcess>
+      <Regulog Key="AmtR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6423" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_4090" Name="uctT" Position="-101" Score="5.9">
+          <Sequence>TTTACCTATCGCCTGACAGATATT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_4089c" Name="amtR" Position="-183" Score="5.9">
+          <Sequence>AATATCTGTCAGGCGATAGGTAAA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3347247" LocusId="MAB_4090" Name="uctT" Function="Urea carboxylase-related transporter, Amino acid permease family" />
+          <Members vimssId="3347248" LocusId="MAB_4091" Name="amt1" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="3347249" LocusId="MAB_4092" Name="amt2" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="3347250" LocusId="MAB_4093" Name="ucaA" Function="Urea carboxylase (EC 6.3.4.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3347246" LocusId="MAB_4089c" Name="amtR" Function="Transcriptional regulator of urea utilization, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6423</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor (activator)">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58986" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="MAB_2341" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3345492&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6046" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_2336" Name="argC" Position="-37" Score="5.1">
+          <Sequence>TTTGCGCTCTTGTGCATA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3345487" LocusId="MAB_2336" Name="argC" Function="N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)" />
+          <Members vimssId="3345488" LocusId="MAB_2337" Name="argJ" Function="Glutamate N-acetyltransferase (EC 2.3.1.35) / N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="3345489" LocusId="MAB_2338" Name="argB" Function="Acetylglutamate kinase (EC 2.7.2.8)" />
+          <Members vimssId="3345490" LocusId="MAB_2339" Name="argD" Function="Acetylornithine aminotransferase (EC 2.6.1.11)" />
+          <Members vimssId="3345491" LocusId="MAB_2340" Name="argF" Function="Ornithine carbamoyltransferase (EC 2.1.3.3)" />
+          <Members vimssId="3345492" LocusId="MAB_2341" Name="argR" Function="Arginine metabolism transcriptional regulator ArgR, ArgR family" />
+          <Members vimssId="3345493" LocusId="MAB_2342" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+          <Members vimssId="3345494" LocusId="MAB_2343" Name="argH" Function="Argininosuccinate lyase (EC 4.3.2.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6046</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="ArsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62564" />
+      <Effector>Arsenite; Arsenate</Effector>
+      <Pathway>Arsenic resistance</Pathway>
+      <LocusTag Key="MAB_4862" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3348015&amp;disp=0" />
+      <BiologicalProcess>Arsenic resistance</BiologicalProcess>
+      <Regulog Key="ArsR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6437" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_2566" Name="PF00903" Position="-83" Score="4.6">
+          <Sequence>GTTTGACATATGTCAAAG</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_4862" Name="arsR" Position="-9" Score="4.9">
+          <Sequence>TATCGATGTATGTCGAAT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3348015" LocusId="MAB_4862" Name="arsR" Function="Arsenic resistance transcriptional regulator ArsR, ArsR family" />
+          <Members vimssId="3348016" LocusId="MAB_4863" Name="arsB" Function="Arsenite efflux membrane protein" />
+          <Members vimssId="3348017" LocusId="MAB_4864" Name="arsC" Function="Arsenate reductase (EC 1.20.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3345718" LocusId="MAB_2566" Name="PF00903" Function="Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily" />
+          <Members vimssId="3345719" LocusId="MAB_2567" Name="arsB" Function="Arsenite efflux membrane protein" />
+          <Members vimssId="3345720" LocusId="MAB_2568" Name="arsC" Function="Arsenate reductase (EC 1.20.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6437</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="BioQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62725" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="MAB_2685" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3345837&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BioQ - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6454" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_2684c" Name="bioB" Position="-54" Score="5.7">
+          <Sequence>CCTGAACACCGTTCAGG</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_2685" Name="bioQ" Position="-24" Score="6.2">
+          <Sequence>CCTGAACGGTGTTCAGG</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_2687c" Name="bioF" Position="-24" Score="6.2">
+          <Sequence>CCTGAACACCGTTCAGG</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3345837" LocusId="MAB_2685" Name="bioQ" Function="Biotin repressor, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3345839" LocusId="MAB_2687c" Name="bioF" Function="8-amino-7-oxononanoate synthase (EC 2.3.1.47)" />
+          <Members vimssId="3345838" LocusId="MAB_2686c" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3345836" LocusId="MAB_2684c" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="3345835" LocusId="MAB_2683c" Name="MAB_2683c" Function="hypothetical protein" />
+          <Members vimssId="3345834" LocusId="MAB_2682c" Name="MAB_2682c" Function="hypothetical protein Rv1591" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6454</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LuxR" RegulationMode="activator">
+      <Regulator Key="DosR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10947" />
+      <Effector>Oxygen; Carbon monoxide; Nitric oxide</Effector>
+      <Pathway>Dormancy</Pathway>
+      <LocusTag Key="MAB_3891c" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3347045&amp;disp=0" />
+      <BiologicalProcess>Dormancy</BiologicalProcess>
+      <Regulog Key="DosR - Actinomycetales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1189" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_3902c" Name="Rv2004c" Position="-96" Score="3.9">
+          <Sequence>AGGGGCCCGAAGTCACCG</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_3902c" Name="Rv2004c" Position="-117" Score="4.5">
+          <Sequence>CAGGGCCCTTGGTCACCG</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_2489" Name="MSMEG_3940" Position="-108" Score="3.9">
+          <Sequence>TATGGCCGAAAGTCACCA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_2489" Name="MSMEG_3940" Position="-182" Score="3.8">
+          <Sequence>CTGGGCCTTGGGTCCCAA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_3903" Name="acg" Position="-161" Score="3.7">
+          <Sequence>GTGGGACCGAAGTCACCA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_3903" Name="acg" Position="-96" Score="3.9">
+          <Sequence>CGGTGACTTCGGGCCCCT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_3903" Name="acg" Position="-75" Score="4.5">
+          <Sequence>CGGTGACCAAGGGCCCTG</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_3902c" Name="Rv2004c" Position="-31" Score="3.7">
+          <Sequence>TGGTGACTTCGGTCCCAC</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_3354" Name="desA" Position="-96" Score="4.6">
+          <Sequence>GAGGGACCTTCGTCACTA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_3891c" Name="dosR" Position="-132" Score="4.5">
+          <Sequence>TAGGGACCAAAGACCGTA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3347045" LocusId="MAB_3891c" Name="dosR" Function="two component transcriptional regulator, DosR" />
+          <Members vimssId="3347044" LocusId="MAB_3890c" Name="dosS" Function="two-component sensor histidine kinase, DosS" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3347060" LocusId="MAB_3903" Name="acg" Function="nitroreductase" />
+          <Members vimssId="3347061" LocusId="MAB_3904" Name="usp" Function="universal stress protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3347059" LocusId="MAB_3902c" Name="Rv2004c" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3345641" LocusId="MAB_2489" Name="MSMEG_3940" Function="universal stress protein family protein" />
+          <Members vimssId="3345642" LocusId="MAB_2490" Name="null" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3346508" LocusId="MAB_3354" Name="desA" Function="fatty acid desaturase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1189</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58672" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="MAB_1665" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3344814&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6006" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_1084c" Name="COG2331" Position="-63" Score="6.6">
+          <Sequence>CTAGCACTCCAAGCGGTAGAGTGCTAG</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_0650" Name="groL2" Position="-131" Score="6.5">
+          <Sequence>TTGGCACTCACGACCGGTGAGTGCTAG</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_0650" Name="groL2" Position="-166" Score="6.7">
+          <Sequence>CTTGCACTCGCCATGGCCGAGTGCTAA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_3732c" Name="groS" Position="-162" Score="6.9">
+          <Sequence>CTAGCACTCTCATGTATAGAGTGCTAG</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3344225" LocusId="MAB_1084c" Name="COG2331" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3343793" LocusId="MAB_0650" Name="groL2" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3346886" LocusId="MAB_3732c" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="3346885" LocusId="MAB_3731c" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6006</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="HspR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=64837" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="MAB_4270c" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3347427&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HspR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6696" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_4402" Name="hsp" Position="-74" Score="4.9">
+          <Sequence>TTAAGCGCACGGCACTCAA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_4265c" Name="clpB" Position="-73" Score="5.6">
+          <Sequence>TTGAGCGGAACAGACTCAA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_4273c" Name="dnaK" Position="-105" Score="5.2">
+          <Sequence>TTGAGTCACATTGACTCAA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_4273c" Name="dnaK" Position="-51" Score="5.2">
+          <Sequence>TTGAGCGGATCTCACTGAA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3347557" LocusId="MAB_4402" Name="hsp" Function="Heat shock protein Hsp20" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3347430" LocusId="MAB_4273c" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="3347429" LocusId="MAB_4272c" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="3347428" LocusId="MAB_4271c" Name="dnaJ" Function="Chaperone protein DnaJ" />
+          <Members vimssId="3347427" LocusId="MAB_4270c" Name="hspR" Function="Heat shock response transcriptional regulator HspR, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3347422" LocusId="MAB_4265c" Name="clpB" Function="ATP-dependent chaperone ClpB" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6696</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58753" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="MAB_3038" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3346192&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6020" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_2868c" Name="splB" Position="-24" Score="5.3">
+          <Sequence>TCGAACATATGTTCGC</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_4752" Name="PF02720" Position="-8" Score="5.3">
+          <Sequence>TCAAACGCATGTTCGA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_3713c" Name="Rv3395c" Position="-41" Score="5.6">
+          <Sequence>TCGAACATATGTTCTA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_2884c" Name="ruvC" Position="-82" Score="5.4">
+          <Sequence>TCGAACAACTGTTCTA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_3703c" Name="dnaE2" Position="-73" Score="5.9">
+          <Sequence>TCGAACAAATGTTCGA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_1120c" Name="alkB" Position="-28" Score="5.5">
+          <Sequence>TCGAACGTATGTGCGA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_3060c" Name="recA" Position="-143" Score="5.2">
+          <Sequence>TCGAACAGATGTTCGC</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_3038" Name="lexA" Position="-48" Score="5.6">
+          <Sequence>TCGAACACATGTTTGA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_3038" Name="lexA" Position="-169" Score="5.5">
+          <Sequence>TCGATCATGTGTTCGA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_3038" Name="lexA" Position="-150" Score="5.1">
+          <Sequence>CCGAACATGTGATCGA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3347905" LocusId="MAB_4752" Name="PF02720" Function="HNH endonuclease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3346019" LocusId="MAB_2868c" Name="splB" Function="DNA repair photolyase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3346857" LocusId="MAB_3703c" Name="dnaE2" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3346035" LocusId="MAB_2884c" Name="ruvC" Function="Crossover junction endodeoxyribonuclease RuvC (EC 3.1.22.4)" />
+          <Members vimssId="3346034" LocusId="MAB_2883c" Name="ruvA" Function="Holliday junction DNA helicase RuvA" />
+          <Members vimssId="3346033" LocusId="MAB_2882c" Name="ruvB" Function="Holliday junction DNA helicase RuvB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3346867" LocusId="MAB_3713c" Name="Rv3395c" Function="Recombinase-like hypothetical protein" />
+          <Members vimssId="3346866" LocusId="MAB_3712c" Name="COG0389" Function="DNA polymerase-like protein PA0670" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3346192" LocusId="MAB_3038" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3346214" LocusId="MAB_3060c" Name="recA" Function="Recombinase A" />
+          <Members vimssId="3346213" LocusId="MAB_3059c" Name="recX" Function="Regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3344260" LocusId="MAB_1120c" Name="alkB" Function="DNA repair system specific for alkylated DNA" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6020</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="IclR" RegulationMode="repressor">
+      <Regulator Key="LtbR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62999" />
+      <Effector />
+      <Pathway>Leucine biosynthesis</Pathway>
+      <LocusTag Key="MAB_3295" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3346447&amp;disp=0" />
+      <BiologicalProcess>Leucine biosynthesis</BiologicalProcess>
+      <Regulog Key="LtbR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6494" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_3294c" Name="leuC" Position="-39" Score="4.6">
+          <Sequence>CGTTCCAAATATTGAGACG</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_3295" Name="ltbR" Position="-11" Score="4.3">
+          <Sequence>AGTATCGTTACGTGAGACA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_3294c" Name="leuC" Position="-60" Score="4.3">
+          <Sequence>TGTCTCACGTAACGATACT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_3295" Name="ltbR" Position="-32" Score="4.6">
+          <Sequence>CGTCTCAATATTTGGAACG</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3346447" LocusId="MAB_3295" Name="ltbR" Function="Leucine and tryptophan biosynthesis transcriptional regulator LtbR, IclR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3346446" LocusId="MAB_3294c" Name="leuC" Function="3-isopropylmalate dehydratase large subunit (EC 4.2.1.33)" />
+          <Members vimssId="3346445" LocusId="MAB_3293c" Name="leuD" Function="3-isopropylmalate dehydratase small subunit (EC 4.2.1.33)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6494</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="MSMEG_4140" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60083" />
+      <Effector />
+      <Pathway>Metabolite transport</Pathway>
+      <LocusTag Key="MAB_0196c" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3343334&amp;disp=0" />
+      <BiologicalProcess>Metabolite transport</BiologicalProcess>
+      <Regulog Key="MSMEG_4140 - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6170" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_0197" Name="pcaC" Position="-69" Score="9.5">
+          <Sequence>GAATTGGCCCAC------------GAATTGAACCAT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3343335" LocusId="MAB_0197" Name="pcaC" Function="4-carboxymuconolactone decarboxylase domain/alkylhydroperoxidase AhpD family core domain protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6170</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="Mce2R" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56960" />
+      <Effector />
+      <Pathway>Fatty acid metabolism</Pathway>
+      <LocusTag Key="MAB_3018" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3346172&amp;disp=0" />
+      <BiologicalProcess>Fatty acid metabolism</BiologicalProcess>
+      <Regulog Key="Mce2R - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5824" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_3018" Name="mce2R" Position="-52" Score="5.9">
+          <Sequence>TAAATTGGTCAGACCACTAGA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3346172" LocusId="MAB_3018" Name="mce2R" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="3346173" LocusId="MAB_3019" Name="fah" Function="Fatty acid hydroxylase FAH1P" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5824</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="MntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62742" />
+      <Effector>Manganese ion, (Mn2+)</Effector>
+      <Pathway>Manganese homeostasis</Pathway>
+      <LocusTag Key="MAB_3110" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3346263&amp;disp=0" />
+      <BiologicalProcess>Manganese homeostasis</BiologicalProcess>
+      <Regulog Key="MntR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6455" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_1031c" Name="mntH" Position="-53" Score="5.4">
+          <Sequence>AGTTTCGGCTACTCTAACTT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3344172" LocusId="MAB_1031c" Name="mntH" Function="Manganese transport protein MntH" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6455</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41978" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="MAB_3036c" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3346190&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4336" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_3404c" Name="nrdF" Position="-73" Score="4.8">
+          <Sequence>CCCCTAGGGGTAGTGT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_3415c" Name="nrdH" Position="-188" Score="5.2">
+          <Sequence>ACACTAGGTGTAGTGT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_3415c" Name="nrdH" Position="-220" Score="4.9">
+          <Sequence>TCAGAACATCTTGTAT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_3404c" Name="nrdF" Position="-105" Score="4.8">
+          <Sequence>CCACAACACGTTGTGT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3346569" LocusId="MAB_3415c" Name="nrdH" Function="Glutaredoxin-like protein NrdH, required for reduction of Ribonucleotide reductase class Ib" />
+          <Members vimssId="3346568" LocusId="MAB_3414c" Name="nrdI" Function="Ribonucleotide reduction protein NrdI" />
+          <Members vimssId="3346567" LocusId="MAB_3413c" Name="nrdE" Function="Ribonucleotide reductase of class Ib (aerobic), alpha subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3346558" LocusId="MAB_3404c" Name="nrdF" Function="Ribonucleotide reductase of class Ib (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4336</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrtR" RegulationMode="repressor">
+      <Regulator Key="NrtR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42056" />
+      <Effector>Adenosine diphosphate ribose</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="MAB_2675" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3345827&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NrtR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4341" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_2675" Name="nrtR" Position="-23" Score="7.1">
+          <Sequence>GTTTTCGACTTATGATCGAAAAC</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_2674c" Name="nadA" Position="-82" Score="7.1">
+          <Sequence>GTTTTCGATCATAAGTCGAAAAC</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3345827" LocusId="MAB_2675" Name="nrtR" Function="Nudix-related transcriptional regulator NrtR" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3345826" LocusId="MAB_2674c" Name="nadA" Function="Quinolinate synthetase (EC 4.1.99.-)" />
+          <Members vimssId="3345825" LocusId="MAB_2673c" Name="nadB" Function="L-aspartate oxidase (EC 1.4.3.16)" />
+          <Members vimssId="3345824" LocusId="MAB_2672c" Name="nadC" Function="Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4341</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PaaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38484" />
+      <Effector>Phenylacetyl-CoA</Effector>
+      <Pathway>Phenylacetic acid degradation</Pathway>
+      <LocusTag Key="MAB_0901c" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3344045&amp;disp=0" />
+      <BiologicalProcess>Phenylacetic acid degradation</BiologicalProcess>
+      <Regulog Key="PaaR - Actinobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3927" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_0901c" Name="paaR" Position="-92" Score="5.9">
+          <Sequence>AATAACCGATCGTTCGGTCGGT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_0900c" Name="paaZ" Position="-35" Score="5.4">
+          <Sequence>ACCGAACGAATGGACGGTTGGT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_0902" Name="paaJ" Position="-44" Score="6.2">
+          <Sequence>ACCGACCGAACGATCGGTTATT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_0906" Name="paaA" Position="-37" Score="6.2">
+          <Sequence>AATAACCGAACATTCGGTCGGT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3344050" LocusId="MAB_0906" Name="paaA" Function="Phenylacetate-CoA oxygenase, PaaA subunit" />
+          <Members vimssId="3344051" LocusId="MAB_0907" Name="paaB" Function="Phenylacetate-CoA oxygenase, PaaB subunit" />
+          <Members vimssId="3344052" LocusId="MAB_0908" Name="paaC" Function="Phenylacetate-CoA oxygenase, PaaC subunit" />
+          <Members vimssId="3344053" LocusId="MAB_0909" Name="paaD" Function="Phenylacetate-CoA oxygenase, PaaD subunit" />
+          <Members vimssId="3344054" LocusId="MAB_0910" Name="paaE" Function="Probable phenylacetic acid degradation NADH oxidoreductase paaE (EC 1.-.-.-)" />
+          <Members vimssId="3344055" LocusId="MAB_0911" Name="paaK" Function="Phenylacetate-coenzyme A ligase (EC 6.2.1.30)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3344046" LocusId="MAB_0902" Name="paaJ" Function="Beta-ketoadipyl CoA thiolase (EC 2.3.1.-)" />
+          <Members vimssId="3344047" LocusId="MAB_0903" Name="paaF" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+          <Members vimssId="3344048" LocusId="MAB_0904" Name="paaH" Function="3-hydroxybutyryl-CoA dehydrogenase (EC 1.1.1.157)" />
+          <Members vimssId="3344049" LocusId="MAB_0905" Name="paaG" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3344044" LocusId="MAB_0900c" Name="paaZ" Function="Aldehyde dehydrogenase (EC 1.2.1.3), PaaZ" />
+          <Members vimssId="3344043" LocusId="MAB_0899c" Name="ethD" Function="Possible ethyl tert-butyl ether degradation protein EthD" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3344045" LocusId="MAB_0901c" Name="paaR" Function="Transcriptional regulator of phenylacetic acid degradation, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3927</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PaaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63738" />
+      <Effector>Phenylacetyl-CoA</Effector>
+      <Pathway>Phenylacetic acid degradation</Pathway>
+      <LocusTag Key="MAB_0901c" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3344045&amp;disp=0" />
+      <BiologicalProcess>Phenylacetic acid degradation</BiologicalProcess>
+      <Regulog Key="PaaR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6579" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_0902" Name="paaJ" Position="-48" Score="4.7">
+          <Sequence>GACAACCGACCGAACGATCGGT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_0902" Name="paaJ" Position="-44" Score="6.2">
+          <Sequence>ACCGACCGAACGATCGGTTATT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_0901c" Name="paaR" Position="-92" Score="6.2">
+          <Sequence>AATAACCGATCGTTCGGTCGGT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_0901c" Name="paaR" Position="-88" Score="4.7">
+          <Sequence>ACCGATCGTTCGGTCGGTTGTC</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_0906" Name="paaA" Position="-37" Score="6.1">
+          <Sequence>AATAACCGAACATTCGGTCGGT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_0906" Name="paaA" Position="-33" Score="4.5">
+          <Sequence>ACCGAACATTCGGTCGGTAATC</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_0900c" Name="paaZ" Position="-108" Score="4.9">
+          <Sequence>ACTGACCGTTCGGTCGGCCACA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_0900c" Name="paaZ" Position="-35" Score="5.4">
+          <Sequence>ACCGAACGAATGGACGGTTGGT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3344045" LocusId="MAB_0901c" Name="paaR" Function="Transcriptional regulator of phenylacetic acid degradation, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3344046" LocusId="MAB_0902" Name="paaJ" Function="Beta-ketoadipyl CoA thiolase (EC 2.3.1.-)" />
+          <Members vimssId="3344047" LocusId="MAB_0903" Name="paaF" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+          <Members vimssId="3344048" LocusId="MAB_0904" Name="paaH" Function="3-hydroxybutyryl-CoA dehydrogenase (EC 1.1.1.157)" />
+          <Members vimssId="3344049" LocusId="MAB_0905" Name="paaG" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3344044" LocusId="MAB_0900c" Name="paaZ" Function="Aldehyde dehydrogenase (EC 1.2.1.3), PaaZ" />
+          <Members vimssId="3344043" LocusId="MAB_0899c" Name="ethD" Function="Possible ethyl tert-butyl ether degradation protein EthD" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3344050" LocusId="MAB_0906" Name="paaA" Function="Phenylacetate-CoA oxygenase, PaaA subunit" />
+          <Members vimssId="3344051" LocusId="MAB_0907" Name="paaB" Function="Phenylacetate-CoA oxygenase, PaaB subunit" />
+          <Members vimssId="3344052" LocusId="MAB_0908" Name="paaC" Function="Phenylacetate-CoA oxygenase, PaaC subunit" />
+          <Members vimssId="3344053" LocusId="MAB_0909" Name="paaD" Function="Phenylacetate-CoA oxygenase, PaaD subunit" />
+          <Members vimssId="3344054" LocusId="MAB_0910" Name="paaE" Function="Probable phenylacetic acid degradation NADH oxidoreductase paaE (EC 1.-.-.-)" />
+          <Members vimssId="3344055" LocusId="MAB_0911" Name="paaK" Function="Phenylacetate-coenzyme A ligase (EC 6.2.1.30)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6579</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59343" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine/pyridoxal homeostasis; Metabolite transport</Pathway>
+      <LocusTag Key="MAB_0810c" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3343955&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis; Metabolite transport</BiologicalProcess>
+      <Regulog Key="PdxQ - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6090" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_0810c" Name="pdxQ" Position="-46" Score="9">
+          <Sequence>AGCGCTACTAT---------------ATGGTAGCAGT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_0811" Name="PF00892" Position="-40" Score="9">
+          <Sequence>ACTGCTACCAT---------------ATAGTAGCGCT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3343956" LocusId="MAB_0811" Name="PF00892" Function="Permease of the drug/metabolite transporter (DMT) superfamily" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3343955" LocusId="MAB_0810c" Name="pdxQ" Function="Transcriptional regulator, GntR/MocR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6090</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxQ3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60892" />
+      <Effector />
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="MAB_3582" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3346737&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxQ3 - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6254" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_3581c" Name="COG2050" Position="-55" Score="11.5">
+          <Sequence>ATTGTAAT-(1)-AGGACAAT-(6)-ATTGCACT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3346736" LocusId="MAB_3581c" Name="COG2050" Function="Uncharacterized protein, possibly involved in aromatic compounds catabolism" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6254</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61922" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="MAB_1353c" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3344495&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxR2 - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6361" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_1356" Name="pdxO" Position="-68" Score="12.6">
+          <Sequence>ACTGGACTGG-(14)-TGTGGTCTGT-(25)-ATGTGTCACA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3344496" LocusId="MAB_1356" Name="pdxO" Function="Pyridoxamine 5'-phosphate oxidase-related, FMN-binding" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6361</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=64271" />
+      <Effector />
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="MAB_3387" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3346541&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxR3 - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6630" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_3386c" Name="COG2364" Position="-61" Score="14.6">
+          <Sequence>AAAGCCAGTGT-(4)-CAACTGGCTAT-(7)-CAAGCCAGTTG</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3346540" LocusId="MAB_3386c" Name="COG2364" Function="putative integral membrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6630</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="PhnF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56825" />
+      <Effector />
+      <Pathway>Phosphonate utilization; 2-aminoethylphosphonate utilization</Pathway>
+      <LocusTag Key="MAB_1498c" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3344643&amp;disp=0" />
+      <BiologicalProcess>Phosphonate utilization; 2-aminoethylphosphonate utilization</BiologicalProcess>
+      <Regulog Key="PhnF - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5808" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_1499" Name="COG0665" Position="-32" Score="6.4">
+          <Sequence>ATTGGTCTAGACCAAT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_1499" Name="COG0665" Position="-79" Score="6.4">
+          <Sequence>ATTGGTCTATACCAAT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_1498c" Name="phnF" Position="-151" Score="6.4">
+          <Sequence>ATTGGTATAGACCAAT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_1498c" Name="phnF" Position="-198" Score="6.4">
+          <Sequence>ATTGGTCTAGACCAAT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3344643" LocusId="MAB_1498c" Name="phnF" Function="Transcriptional regulator for phosphonate utilization, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3344644" LocusId="MAB_1499" Name="COG0665" Function="Putative FAD dependent oxidoreductase" />
+          <Members vimssId="3344645" LocusId="MAB_1500" Name="phnX" Function="Phosphonoacetaldehyde hydrolase (EC 3.11.1.1)" />
+          <Members vimssId="3344646" LocusId="MAB_1501" Name="phnS" Function="Probable 2-aminoethylphosphonate ABC transporter, periplasmic protein" />
+          <Members vimssId="3344647" LocusId="MAB_1502" Name="phnT" Function="Probable 2-aminoethylphosphonate ABC transporter, ATP-binding protein" />
+          <Members vimssId="3344648" LocusId="MAB_1503" Name="phnU" Function="Probable 2-aminoethylphosphonate ABC transporter, permease protein 1" />
+          <Members vimssId="3344649" LocusId="MAB_1504" Name="phnV" Function="Probable 2-aminoethylphosphonate ABC transporter, permease protein 2" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5808</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42007" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="MAB_1678c" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3344827&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4338" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_1046c" Name="yciC2" Position="-19" Score="4.7">
+          <Sequence>TAATGGTTATCATTATCATGT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_0577c" Name="znuA" Position="-43" Score="6.5">
+          <Sequence>TAATGAAAATCGTTTTCATTA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_0334c" Name="rpmB1" Position="-35" Score="5.3">
+          <Sequence>TGTCGAAAATGATTCCCATTA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_0334c" Name="rpmB1" Position="-90" Score="5.8">
+          <Sequence>AAATGCAAACGATTTTCATTA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_1046c" Name="yciC2" Position="-25" Score="6.1">
+          <Sequence>TAATGATAATGGTTATCATTA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_0335" Name="yciC" Position="-106" Score="5.3">
+          <Sequence>TAATGGGAATCATTTTCGACA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_0335" Name="yciC" Position="-51" Score="5.8">
+          <Sequence>TAATGAAAATCGTTTGCATTT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3344187" LocusId="MAB_1046c" Name="yciC2" Function="Putative metal chaperone, involved in Zn homeostasis, GTPase of COG0523 family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3343720" LocusId="MAB_0577c" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+          <Members vimssId="3343719" LocusId="MAB_0576c" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="3343718" LocusId="MAB_0575c" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+          <Members vimssId="3343717" LocusId="MAB_0574c" Name="lamB" Function="Conserved hypothetical protein (LamB/YcsF)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3343477" LocusId="MAB_0335" Name="yciC" Function="Putative metal chaperone, involved in Zn homeostasis, GTPase of COG0523 family" />
+          <Members vimssId="3343478" LocusId="MAB_0336" Name="rpmE2" Function="50S ribosomal protein L31" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3343476" LocusId="MAB_0334c" Name="rpmB1" Function="50S ribosomal protein L28" />
+          <Members vimssId="3343475" LocusId="MAB_0333c" Name="rpmG1" Function="50S ribosomal protein L33" />
+          <Members vimssId="3343474" LocusId="MAB_0332c" Name="rpsN2" Function="SSU ribosomal protein S14p" />
+          <Members vimssId="3343473" LocusId="MAB_0331c" Name="rpsR1" Function="30S ribosomal protein S18" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4338</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39690" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_0549c" Name="btuC3" Position="-325" Score="98.1">
+          <Sequence>ATAGTTTTGGCGCCGCGTTGGTTTCTCCGAAGCACCGAGGAATGCTTCCGGGGATCGCAAGAGGGAATCCGGTGTGAATCCGGAGCTGCCCCGCAGCGGTGAGTGGAAACGACGGCGGCACGTATTGCACTGGGCCCAGGCCCGGGAAGCAGCCGCTGGTAGGTGAGGCGTGCGACGCCTCGTGTCCACGAGTCCGAAGACCTGCCACCGCGGCCGTACCACCA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_4623c" Name="metE" Position="-350" Score="85.7">
+          <Sequence>GCCGTTGTCAGCATCGAGTGGCGGGCCCTACGGGGGCCGGCACAAGAGGGAACCCGGTGAGAATCCGGGACTGTCCCGCAGCGGTATGCAGGAACGATCGCCGTCATAAGCACTGGGAATGCCACCAACGCTCCTGGGAAGCGACGGCCCGTAGGAAAACCTGAGCCCGGGTAATGCCTGTAAGTCCGAAGACCTGCCAGTTGTGTCGGATGCGCC</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3343693" LocusId="MAB_0549c" Name="btuC3" Function="Vitamin B12 ABC transporter, permease component" />
+          <Members vimssId="3343692" LocusId="MAB_0548c" Name="btuD3" Function="Vitamin B12 ABC transporter, ATPase component" />
+          <Members vimssId="3343691" LocusId="MAB_0547c" Name="btuF3" Function="Vitamin B12 ABC transporter, B12-binding component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3347777" LocusId="MAB_4623c" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00504" RegulationMode="RF00504">
+      <Regulator Key="Glycine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39618" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="Glycine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_2407" Name="gcvB" Position="-12" Score="44.7">
+          <Sequence>CGGGAGAGTGTCATGACGGCCAGTCATGACCGCCGAAGGAGCAACACCTCTCCGTCAATCTCTCAGGCCCCCGAACCGCCT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3345559" LocusId="MAB_2407" Name="gcvB" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P protein) (EC 1.4.4.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00557" RegulationMode="RF00557">
+      <Regulator Key="L10_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39474" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L10_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_3877c" Name="rplJ" Position="-235" Score="16.7">
+          <Sequence>GTAACCTAATCCAGCTCCACCGAAGACCGTCGGTCACCTCGTCAGAGGTTGAAGGTTCAGGATTCGTCCTGACGGCCCACGCAGGAGGACGAGGTACGACCTGTGGATCAAAAGTCCGTAGTTCTTCACGCCCCGACCTGTCTGCGTCGGGGCGTTTGTCGTTTCAGAT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3347031" LocusId="MAB_3877c" Name="rplJ" Function="LSU ribosomal protein L10p (P0)" />
+          <Members vimssId="3347030" LocusId="MAB_3876c" Name="rplL" Function="LSU ribosomal protein L7/L12 (P1/P2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00515" RegulationMode="RF00515">
+      <Regulator Key="PyrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39312" />
+      <Effector>PyrR</Effector>
+      <Pathway>Pyrimidine metabolism</Pathway>
+      <LocusTag Key="PyrR" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_2832c" Name="pyrR" Position="-113" Score="30">
+          <Sequence>GACATCCTTTAACGATCCGTCCAGTGAGGCGGAGAAGGAGGTCTCGCGTAAGCGTGGGCGCATCATCTGACT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3345983" LocusId="MAB_2832c" Name="pyrR" Function="Uracil phosphoribosyltransferase (EC 2.4.2.9) / Pyrimidine operon regulatory protein PyrR" />
+          <Members vimssId="3345982" LocusId="MAB_2831c" Name="pyrB" Function="Aspartate carbamoyltransferase (EC 2.1.3.2)" />
+          <Members vimssId="3345981" LocusId="MAB_2830c" Name="pyrC" Function="Dihydroorotase (EC 3.5.2.3)" />
+          <Members vimssId="3345980" LocusId="MAB_2829c" Name="null" Function="Integral membrane protein" />
+          <Members vimssId="3345979" LocusId="MAB_2828c" Name="carA" Function="Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)" />
+          <Members vimssId="3345978" LocusId="MAB_2827c" Name="carB" Function="Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)" />
+          <Members vimssId="3345977" LocusId="MAB_2826c" Name="pyrF" Function="Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01057" RegulationMode="RF01057">
+      <Regulator Key="SAH_riboswitch" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39762" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="SAH_riboswitch" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_2129" Name="metH" Position="-95" Score="22.7">
+          <Sequence>TGGTCGAGAGGCGTTGCAACGGTTCGGGGATCACAGCCCCGTGACCGCCACGCTCGGCAGAGTTAAGGACGCCTTCCGCTCTG</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3345279" LocusId="MAB_2129" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase, MetH" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00634" RegulationMode="RF00634">
+      <Regulator Key="SAM-IV" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39330" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Sulfur metabolism</Pathway>
+      <LocusTag Key="SAM-IV" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_3687" Name="metY" Position="-319" Score="88.7">
+          <Sequence>GTCATGAGTACCAGCGTCAAGCCCCGGCTCGCTGGTCGGCAACCCTCCAACCGCGGTGGGGTGCCCCGGGTGATGACCAGGTTGAGTAGCCGACTGGGCTGTCAGAGGTTGATGAC</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_0512" Name="MAB_0512" Position="-144" Score="103.2">
+          <Sequence>GTCATGAGAACCAGCGACAAGCCCTGGCTAGCTGGTCGGCAACCCTCCACCACGGTGGGGTGCTCCAGGTGACGACCTGGCCGCGCTCAACCGTGCGTGGCAAGCGTGGACTCG</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3343656" LocusId="MAB_0512" Name="MAB_0512" Function="Probable aminotransferase/cysteine desulfurase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3346841" LocusId="MAB_3687" Name="metY" Function="O-acetylhomoserine sulfhydrylase (EC 2.5.1.49) / O-succinylhomoserine sulfhydrylase (EC 2.5.1.48)" />
+          <Members vimssId="3346842" LocusId="MAB_3688" Name="metX" Function="Homoserine O-acetyltransferase (EC 2.3.1.31)" />
+          <Members vimssId="3346843" LocusId="MAB_3689" Name="null" Function="Methyltransferase (EC 2.1.1.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ile)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39744" />
+      <Effector>Ile-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_2705c" Name="ileS" Position="-224" Score="31.9">
+          <Sequence>CATATCAACGCACCCGAATAGAATCGCTGTTACCGATACTGATCCGGCTATCACCGGGGAGTCTCCGGAAGAAATGCGTGAGCAGAGTAGAACCGGACGGGTAGGCCCGTCACAGCCGTTGCGAGAGGCCCCGGCCAGGTCGGGGCAAGCGGGGTGGTACCGCGGAGGTACGCCGACGGCGTCCCATCGTCCCCGTG</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3345856" LocusId="MAB_2705c" Name="ileS" Function="Isoleucyl-tRNA synthetase (EC 6.1.1.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39546" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_4218c" Name="thiO" Position="-113" Score="55.1">
+          <Sequence>GTGTAAGTAACGCGGGAGCCCCGGGATGTCGGGGCTGAGAGTGGGCCAAGGACTCCGGCCCTGACCGTCGTACCTGATCCGGGTCATGCCGGCGAAGGGAGTTGGCTCCGATTGTGA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MAB_4196" Name="thiC" Position="-103" Score="55.7">
+          <Sequence>CCCACAAACACGGGAGCACGCACCAGCGTGCTGAGAGGACGGCTAGGGCCGTCGACCGTATGAACCTGACCGGGTAATGCCGGCGTAGGGAGGAGAATTAAGCATGT</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3347375" LocusId="MAB_4218c" Name="thiO" Function="Glycine oxidase ThiO (EC 1.4.3.19)" />
+          <Members vimssId="3347374" LocusId="MAB_4217c" Name="thiS" Function="Sulfur carrier protein ThiS" />
+          <Members vimssId="3347373" LocusId="MAB_4216c" Name="thiG" Function="Thiazole biosynthesis protein ThiG" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3347353" LocusId="MAB_4196" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+          <Members vimssId="3347354" LocusId="MAB_4197" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00379" RegulationMode="RF00379">
+      <Regulator Key="ydaO-yuaA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39348" />
+      <Effector />
+      <Pathway>Osmotic stress response; Cell wall metabolism</Pathway>
+      <LocusTag Key="ydaO-yuaA" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_0869c" Name="rpfA" Position="-217" Score="54">
+          <Sequence>CCATACCCGCGCACCGAGCTCCGTCCCTCGGGTGTGGACCGCGTCGGAAGACCAAGGGACGGAGACGGGGGACCCATCCGCCGGAGATCCACCCGATCTCCAGCACGAACCTTGATGGTTCTTGGGGTGAAGCCCGGGCAACCGGGCCGAGCGACCTCTTGCTCGAACCCGACAGCTGACCTCGCAGGTGCGTCACAGAGAGGAACA</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3344013" LocusId="MAB_0869c" Name="rpfA" Function="Probable resuscitation-promoting factor RpfA" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00380" RegulationMode="RF00380">
+      <Regulator Key="ykoK" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39627" />
+      <Effector>Magnesium ion, (Mg2+)</Effector>
+      <Pathway>Magnesium homeostasis</Pathway>
+      <LocusTag Key="ykoK" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_4716c" Name="COG1914" Position="-536" Score="137">
+          <Sequence>GTCAGCACCTCGCTAGGCGAGGCTCCTGCACGAACACAGGCCACTGATCCGACGACGTCGAGAGACGCCCAGGGTTAGGACAGATCTCCCCGGCTTAAGGGGTGATCCGAGGTGGCTTCCCGTCCAGGGATTACGTCGTGCAGTGCCGAAGCTCTGACGAGAGAGGTGGTCG</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3347869" LocusId="MAB_4716c" Name="COG1914" Function="Divalent cation-transport integral membrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39447" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MAB_0511c" Name="ykoY" Position="-136" Score="52">
+          <Sequence>ACTGACTACTGGAGGGGAGTATTCCTTCGCTGCGGTGTCGTCATCACATCGGCCATTGGCGGTCCGGTCGGTGCCGCGGGCCGGCCATCTGCCGGCGGAAGAGACCTCCGGCGTTTTG</Sequence>
+          <Bacteria>Mycobacterium abscessus ATCC 19977</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3343655" LocusId="MAB_0511c" Name="ykoY" Function="Membrane protein TerC, possibly involved in tellurium resistance" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

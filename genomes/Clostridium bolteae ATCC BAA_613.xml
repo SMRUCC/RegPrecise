@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Clostridium bolteae ATCC BAA-613" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor (activator)">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47478" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="CLOBOL_03166" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4582143&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4785" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_01168" Name="argG" Position="-10" Score="5.2">
+          <Sequence>TTGTATATTTATGAAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_01168" Name="argG" Position="-93" Score="5.5">
+          <Sequence>TTTCATAATTATACAT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_01170" Name="argC" Position="-211" Score="5.2">
+          <Sequence>TTTCATAAATATACAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_01170" Name="argC" Position="-128" Score="5.5">
+          <Sequence>ATGTATAATTATGAAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_06058" Name="argF" Position="-38" Score="5">
+          <Sequence>ATGCATAAAGATGCAT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_06058" Name="argF" Position="-28" Score="5.5">
+          <Sequence>ATGCATAAATATAAAT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4585035" LocusId="CLOBOL_06058" Name="argF" Function="Ornithine carbamoyltransferase (EC 2.1.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4580147" LocusId="CLOBOL_01170" Name="argC" Function="N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)" />
+          <Members vimssId="4580148" LocusId="CLOBOL_01171" Name="GNAT" Function="Acetyltransferase, GNAT family (EC 2.3.1.-)" />
+          <Members vimssId="4580149" LocusId="CLOBOL_01172" Name="argJ" Function="Glutamate N-acetyltransferase (EC 2.3.1.35) / N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="4580150" LocusId="CLOBOL_01173" Name="argB" Function="Acetylglutamate kinase (EC 2.7.2.8)" />
+          <Members vimssId="4580151" LocusId="CLOBOL_01174" Name="argD" Function="Acetylornithine aminotransferase (EC 2.6.1.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4580145" LocusId="CLOBOL_01168" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4785</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57897" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="CLOBOL_06056" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4585033&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5929" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_00883" Name="SSF54637" Position="-66" Score="9">
+          <Sequence>TTGTTAAC----------------GTTGACAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4579860" LocusId="CLOBOL_00883" Name="SSF54637" Function="Thioesterase/thiol ester dehydrase-isomerase" />
+          <Members vimssId="4579861" LocusId="CLOBOL_00884" Name="bioY2" Function="Substrate-specific component BioY of biotin ECF transporter" />
+          <Members vimssId="4579862" LocusId="CLOBOL_00885" Name="yhfS" Function="Acetyl-CoA acetyltransferase (EC 2.3.1.9)" />
+          <Members vimssId="4579863" LocusId="CLOBOL_00886" Name="yhfT" Function="Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5929</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="CLOBOL_00921" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59535" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="CLOBOL_00921" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4579898&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="CLOBOL_00921 - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6111" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_00921" Name="CLOBOL_00921" Position="-102" Score="8.7">
+          <Sequence>GAATTGTAT---AGACAATTT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_00922" Name="CLOBOL_00922" Position="-105" Score="8.7">
+          <Sequence>AAATTGTCT---ATACAATTC</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4579899" LocusId="CLOBOL_00922" Name="CLOBOL_00922" Function="Pyridoxal phosphate-dependent transferase, major region, subdomain 1" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4579898" LocusId="CLOBOL_00921" Name="CLOBOL_00921" Function="Transcriptional regulator, GntR family domain / Aspartate aminotransferase (EC 2.6.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6111</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="CzrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62647" />
+      <Effector>Zinc ion, (Zn2+); Silver ion, (Ag+); Nickel ion, (Ni2+); Copper ion, (Cu2+); Cobalt ion, (Co2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Zinc resistance; Nickel resistance; Copper resistance; Cobalt resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="CLOBOL_01424" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4580401&amp;disp=0" />
+      <BiologicalProcess>Zinc resistance; Nickel resistance; Copper resistance; Cobalt resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CzrA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6446" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_01424" Name="czrA" Position="-55" Score="6.2">
+          <Sequence>CATATGAACAATCATTCATATG</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4580401" LocusId="CLOBOL_01424" Name="czrA" Function="Cadmium-dependent transcriptuin regulator, ArsR family" />
+          <Members vimssId="4580400" LocusId="CLOBOL_01423" Name="PF00403" Function="Heavy-metal-associated domain" />
+          <Members vimssId="4580399" LocusId="CLOBOL_01422" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5); Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6446</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62755" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="CLOBOL_05844" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4584821&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6458" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_03816" Name="PF12672" Position="-289" Score="5.3">
+          <Sequence>AATGAGAAAAAAACTCAAT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_05489" Name="PF10087" Position="-113" Score="4.9">
+          <Sequence>CATGATAAACTTTCTCATG</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_00281" Name="feoB" Position="-36" Score="6.2">
+          <Sequence>ATTGATAAATTTTCTCAAT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_05591" Name="BACPEC_03058" Position="-186" Score="5.9">
+          <Sequence>ATTGAGAAAAAATATCAAT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4582793" LocusId="CLOBOL_03816" Name="PF12672" Function="Protein of unknown function (DUF3793)" />
+          <Members vimssId="4582792" LocusId="CLOBOL_03815" Name="PF00258" Function="Flavodoxins" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4584466" LocusId="CLOBOL_05489" Name="PF10087" Function="Uncharacterized protein conserved in bacteria (DUF2325)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4579258" LocusId="CLOBOL_00281" Name="feoB" Function="Ferrous iron transport protein B" />
+          <Members vimssId="4579257" LocusId="CLOBOL_00280" Name="BACPEC_03058" Function="hypothetical protein" />
+          <Members vimssId="4579256" LocusId="CLOBOL_00279" Name="COG2217" Function="Cation transporting ATPase" />
+          <Members vimssId="4579255" LocusId="CLOBOL_00278" Name="null" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4584568" LocusId="CLOBOL_05591" Name="BACPEC_03058" Function="hypothetical protein" />
+          <Members vimssId="4584567" LocusId="CLOBOL_05590" Name="COG2217" Function="Cation transporting ATPase" />
+          <Members vimssId="4584566" LocusId="CLOBOL_05589" Name="fur" Function="Transcriptional regulator for iron transport and metabolism, Fur family" />
+          <Members vimssId="4584565" LocusId="CLOBOL_05588" Name="BACPEC_02991" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6458</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TrpR" RegulationMode="repressor">
+      <Regulator Key="HisR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=54587" />
+      <Effector>Histidine</Effector>
+      <Pathway>Histidine biosynthesis</Pathway>
+      <LocusTag Key="CLOBOL_07128" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4586105&amp;disp=0" />
+      <BiologicalProcess>Histidine biosynthesis</BiologicalProcess>
+      <Regulog Key="HisR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5569" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_07128" Name="hisR" Position="-113" Score="5.5">
+          <Sequence>GACTTTAATATGCTAAAATG</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_01668" Name="hisX" Position="-25" Score="5.3">
+          <Sequence>CGCTTTAGTGTGCTAATATG</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_03939" Name="hisZ" Position="-63" Score="4.8">
+          <Sequence>CACTTTACCATAGAAAAGCA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4580645" LocusId="CLOBOL_01668" Name="hisX" Function="Histidine ABC transporter, histidine-binding protein (TC 3.A.1)" />
+          <Members vimssId="4580646" LocusId="CLOBOL_01669" Name="hisY" Function="Histidine ABC transporter, permease protein" />
+          <Members vimssId="4580647" LocusId="CLOBOL_01670" Name="hisZ" Function="Histidine ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4582916" LocusId="CLOBOL_03939" Name="hisZ" Function="ATP phosphoribosyltransferase regulatory subunit (EC 2.4.2.17)" />
+          <Members vimssId="4582915" LocusId="CLOBOL_03938" Name="hisG" Function="ATP phosphoribosyltransferase catalytic subunit (EC 2.4.2.17)" />
+          <Members vimssId="4582914" LocusId="CLOBOL_03937" Name="hisD" Function="Histidinol dehydrogenase (EC 1.1.1.23)" />
+          <Members vimssId="4582913" LocusId="CLOBOL_03936" Name="hisB" Function="Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)" />
+          <Members vimssId="4582912" LocusId="CLOBOL_03935" Name="hisA" Function="Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase (EC 5.3.1.16)" />
+          <Members vimssId="4582911" LocusId="CLOBOL_03934" Name="hisIE" Function="Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19) / Phosphoribosyl-ATP pyrophosphatase (EC 3.6.1.31)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4586105" LocusId="CLOBOL_07128" Name="hisR" Function="Predicted histidine repressor, TrpR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5569</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47492" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="CLOBOL_02018" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4580995&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4786" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_06802" Name="groES" Position="-124" Score="7.2">
+          <Sequence>TTAGCACTCAACTCTTGACAGTGCTAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_06029" Name="htpG" Position="-130" Score="7.5">
+          <Sequence>TTAGCACTCAACAAAAATGAGTGCTAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_02018" Name="hrcA" Position="-16" Score="6.9">
+          <Sequence>TTAGCACTCCCGAACGTTGAGTGCTAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_03752" Name="hsp20" Position="-167" Score="6.1">
+          <Sequence>TTAGCACTCGACTCTTGACTTTGCTAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_01718" Name="clpB" Position="-149" Score="7">
+          <Sequence>TTAGCACTCGACCCTTGACAGTGCTAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_03574" Name="hsp20" Position="-75" Score="7.2">
+          <Sequence>TTAGCACTCACCTCTTGACAGTGCTAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4582551" LocusId="CLOBOL_03574" Name="hsp20" Function="Heat shock protein Hsp20" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4580695" LocusId="CLOBOL_01718" Name="clpB" Function="ATP-dependent Clp protease ATP-binding subunit ClpB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4580995" LocusId="CLOBOL_02018" Name="hrcA" Function="heat-inducible transcription repressor HrcA" />
+          <Members vimssId="4580994" LocusId="CLOBOL_02017" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="4580993" LocusId="CLOBOL_02016" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="4580992" LocusId="CLOBOL_02015" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4585779" LocusId="CLOBOL_06802" Name="groES" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="4585778" LocusId="CLOBOL_06801" Name="groEL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4585006" LocusId="CLOBOL_06029" Name="htpG" Function="Heat shock chaperone protein 90" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4582729" LocusId="CLOBOL_03752" Name="hsp20" Function="Heat shock protein Hsp20" />
+          <Members vimssId="4582730" LocusId="CLOBOL_03753" Name="hsp20" Function="Heat shock protein Hsp20" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4786</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="IdeR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63060" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="CLOBOL_00284" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4579261&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="IdeR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6500" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_01420" Name="ideR" Position="-91" Score="4.3">
+          <Sequence>CAGATTAGCACTTTCTAACTCT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_05596" Name="ideR" Position="-140" Score="5.2">
+          <Sequence>ATGTTTAGTGTATGCTATCTTT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_00284" Name="ideR" Position="-193" Score="4.4">
+          <Sequence>AAAGTTATGGTATCCTAACTGC</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_05595" Name="" Position="-210" Score="4.8">
+          <Sequence>GATGTTAGAAAAATATAACTAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_05595" Name="" Position="-104" Score="5.7">
+          <Sequence>AAAGATAGCATACACTAAACAT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_05594" Name="feoB" Position="-51" Score="5">
+          <Sequence>ATAGTTAGCGAAAGCTAATGAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_05594" Name="feoB" Position="-31" Score="4.3">
+          <Sequence>AAAATAAGAAAAATATAACAAG</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_00283" Name="" Position="-81" Score="4.3">
+          <Sequence>GCAGTTAGGATACCATAACTTT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_00460" Name="COG0426" Position="-107" Score="5.4">
+          <Sequence>ATTATTAGTGTACACTAATTTA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4579437" LocusId="CLOBOL_00460" Name="COG0426" Function="flavodoxin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4584571" LocusId="CLOBOL_05594" Name="feoB" Function="Ferrous iron transport protein B" />
+          <Members vimssId="4584570" LocusId="CLOBOL_05593" Name="null" Function="hypothetical protein" />
+          <Members vimssId="4584569" LocusId="CLOBOL_05592" Name="fur" Function="Transcriptional regulator for iron transport and metabolism, Fur family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4584572" LocusId="CLOBOL_05595" Name="null" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4579261" LocusId="CLOBOL_00284" Name="ideR" Function="Predicted iron-dependent repressor, DtxR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4584573" LocusId="CLOBOL_05596" Name="ideR" Function="Predicted iron-dependent repressor, DtxR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4580397" LocusId="CLOBOL_01420" Name="ideR" Function="Predicted iron-dependent repressor, DtxR family" />
+          <Members vimssId="4580398" LocusId="CLOBOL_01421" Name="PF00881" Function="Putative nitroreductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4579260" LocusId="CLOBOL_00283" Name="null" Function="hypothetical protein" />
+          <Members vimssId="4579259" LocusId="CLOBOL_00282" Name="feoA" Function="Ferrous iron transport protein A" />
+          <Members vimssId="4579258" LocusId="CLOBOL_00281" Name="feoB" Function="Ferrous iron transport protein B" />
+          <Members vimssId="4579257" LocusId="CLOBOL_00280" Name="null" Function="hypothetical protein" />
+          <Members vimssId="4579256" LocusId="CLOBOL_00279" Name="COG2217" Function="Cation transporting ATPase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6500</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47450" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="CLOBOL_03828" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4582805&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4783" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_02320" Name="recA" Position="-8" Score="4.9">
+          <Sequence>GAGAACATTTGTTCGC</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_03828" Name="lexA" Position="-46" Score="4.5">
+          <Sequence>CAGAACGTCTGTTCTT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_03828" Name="lexA" Position="-8" Score="5.1">
+          <Sequence>CAGAACAAATGTTTGT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_00438" Name="umuC" Position="-122" Score="5.3">
+          <Sequence>AAGAACAAATGTTCGA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_04661" Name="COG4277" Position="-8" Score="5.2">
+          <Sequence>AAGAACAAATGTTCTT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_04661" Name="COG4277" Position="50" Score="4.7">
+          <Sequence>GCAAACATACGTTCTG</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_03827" Name="PF01476" Position="-160" Score="5.1">
+          <Sequence>ACAAACATTTGTTCTG</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_03827" Name="PF01476" Position="-122" Score="4.5">
+          <Sequence>AAGAACAGACGTTCTG</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_06773" Name="GNAT" Position="-8" Score="5.1">
+          <Sequence>ACAAACAAATGTTCTG</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_04045" Name="PS51257" Position="-34" Score="5.1">
+          <Sequence>TAGAACATATGTTCTG</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4582805" LocusId="CLOBOL_03828" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4583638" LocusId="CLOBOL_04661" Name="COG4277" Function="Predicted DNA-binding protein with the Helix-hairpin-helix motif" />
+          <Members vimssId="4583637" LocusId="CLOBOL_04660" Name="BACPEC_02112" Function="Uracil-DNA glycosylase, family 1" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4581297" LocusId="CLOBOL_02320" Name="recA" Function="Recombination protein A" />
+          <Members vimssId="4581296" LocusId="CLOBOL_02319" Name="recX" Function="regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4579415" LocusId="CLOBOL_00438" Name="umuC" Function="DNA polymerase V involved in DNA-repair" />
+          <Members vimssId="4579414" LocusId="CLOBOL_00437" Name="BACPEC_01776" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4582804" LocusId="CLOBOL_03827" Name="PF01476" Function="Peptidoglycan-binding lysin domain" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4585750" LocusId="CLOBOL_06773" Name="GNAT" Function="GCN5-related N-acetyltransferase" />
+          <Members vimssId="4585748" LocusId="CLOBOL_06771" Name="COG4422" Function="Bacteriophage protein gp37" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4583022" LocusId="CLOBOL_04045" Name="PS51257" Function="hypothetical protein" />
+          <Members vimssId="4583021" LocusId="CLOBOL_04044" Name="unuC2" Function="DNA polymerase V involved in DNA-repair" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4783</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NiaR" RegulationMode="repressor">
+      <Regulator Key="NiaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47436" />
+      <Effector>Niacin</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="CLOBOL_03917" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4582894&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NiaR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4782" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_03914" Name="nadA" Position="-108" Score="5.1">
+          <Sequence>CCTATATGTCTTGTCACATGTA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4582891" LocusId="CLOBOL_03914" Name="nadA" Function="Quinolinate synthetase (EC 4.1.99.-)" />
+          <Members vimssId="4582892" LocusId="CLOBOL_03915" Name="nadB" Function="L-aspartate oxidase (EC 1.4.3.16)" />
+          <Members vimssId="4582893" LocusId="CLOBOL_03916" Name="nadC" Function="Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)" />
+          <Members vimssId="4582894" LocusId="CLOBOL_03917" Name="niaR" Function="NAD biosynthesis transcription regulator, HTH_11 family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4782</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=64316" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="CLOBOL_00526" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4579503&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6635" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_02823" Name="nrdD" Position="-171" Score="4">
+          <Sequence>ATACATCTTATCGTAT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_02823" Name="nrdD" Position="-140" Score="5">
+          <Sequence>ACACAACATTTAGTGG</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4581800" LocusId="CLOBOL_02823" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+          <Members vimssId="4581799" LocusId="CLOBOL_02822" Name="nrdG" Function="anaerobic ribonucleoside-triphosphate reductase activating protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6635</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61477" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine biosynthesis</Pathway>
+      <LocusTag Key="CLOBOL_06805" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4585782&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine biosynthesis</BiologicalProcess>
+      <Regulog Key="PdxR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6312" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_05306" Name="pdxU" Position="-104" Score="10.4">
+          <Sequence>ATCTGGACT-(15)-AACTGGATA-(8)-AGTCCACCT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_04694" Name="pdxU" Position="-124" Score="11.4">
+          <Sequence>AACTGGACT-(15)-AACTGGATA-(8)-ATTCCACTT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4584283" LocusId="CLOBOL_05306" Name="pdxU" Function="Substrate-specific component PdxU of predicted pyridoxin-related ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4583671" LocusId="CLOBOL_04694" Name="pdxU" Function="Substrate-specific component PdxU of predicted pyridoxin-related ECF transporter" />
+          <Members vimssId="4583670" LocusId="CLOBOL_04693" Name="pdxK" Function="Pyridoxal kinase (EC 2.7.1.35)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6312</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29868" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="CLOBOL_04148" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4583125&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Clostridiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3116" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_01027" Name="hydC" Position="-99" Score="4.5">
+          <Sequence>TCGTTAGAATTTTCACAT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_03318" Name="fucO" Position="-92" Score="5.6">
+          <Sequence>TTGTTATAATATTAACAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_05634" Name="PF01257" Position="-84" Score="5">
+          <Sequence>TTGATATAAATATCACAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_05631" Name="phf1" Position="-61" Score="5.4">
+          <Sequence>TTGATATAATTTTAACAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_06541" Name="adhE" Position="-135" Score="4.7">
+          <Sequence>TTGACATTTTTTTAACGA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_06541" Name="adhE" Position="-93" Score="5.6">
+          <Sequence>TTGTTAATTAATTATCAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_05214" Name="gap" Position="-54" Score="5.4">
+          <Sequence>TTGATTAATATTTAACAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_02749" Name="fba" Position="-37" Score="5.4">
+          <Sequence>TAGTTAATAAAATAACAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4582294" LocusId="CLOBOL_03318" Name="fucO" Function="Lactaldehyde reductase (EC 1.1.1.77)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4584191" LocusId="CLOBOL_05214" Name="gap" Function="NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)" />
+          <Members vimssId="4584192" LocusId="CLOBOL_05215" Name="pgk" Function="Phosphoglycerate kinase (EC 2.7.2.3)" />
+          <Members vimssId="4584193" LocusId="CLOBOL_05216" Name="tpi" Function="Triosephosphate isomerase (EC 5.3.1.1)" />
+          <Members vimssId="4584194" LocusId="CLOBOL_05217" Name="pgm" Function="Phosphoglycerate mutase (EC 5.4.2.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4585518" LocusId="CLOBOL_06541" Name="adhE" Function="Alcohol dehydrogenase (EC 1.1.1.1), Fe-dependent; Acetaldehyde dehydrogenase (EC 1.2.1.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4584608" LocusId="CLOBOL_05631" Name="phf1" Function="Fe-hydrogenase (EC 1.12.7.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4584611" LocusId="CLOBOL_05634" Name="PF01257" Function="Fe-hydrogenase, thioredoxin subunit, 2Fe-2S cluster binding protein" />
+          <Members vimssId="4584610" LocusId="CLOBOL_05633" Name="phf2" Function="Fe-hydrogenase (EC 1.12.7.2)" />
+          <Members vimssId="4584609" LocusId="CLOBOL_05632" Name="PF07228" Function="Protein phosphatase 2C-related" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4580004" LocusId="CLOBOL_01027" Name="hydC" Function="NAD-reducing Fe-hydrogenase, subunit HydC (EC 1.12.7.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4581726" LocusId="CLOBOL_02749" Name="fba" Function="Fructose-bisphosphate aldolase class II (EC 4.1.2.13)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3116</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47464" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="CLOBOL_04148" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4583125&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4784" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_06541" Name="adhE" Position="-135" Score="4.8">
+          <Sequence>TTGACATTTTTTTAACGA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_00811" Name="stpK" Position="-119" Score="5.2">
+          <Sequence>ACGTTAAAAATTTATCAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_06541" Name="adhE" Position="-93" Score="5.6">
+          <Sequence>TTGTTAATTAATTATCAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_05214" Name="gap" Position="-54" Score="5.3">
+          <Sequence>TTGATTAATATTTAACAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_03318" Name="ladH" Position="-92" Score="5.7">
+          <Sequence>TTGTTATAATATTAACAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_02749" Name="fba" Position="-37" Score="5.2">
+          <Sequence>TAGTTAATAAAATAACAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_05631" Name="phf1" Position="-61" Score="5.6">
+          <Sequence>TTGATATAATTTTAACAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_06020" Name="pncB" Position="-141" Score="5.5">
+          <Sequence>TTGTTAAATTTTTATCAT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_05166" Name="pgpB" Position="-81" Score="5.4">
+          <Sequence>TTGTTAAAATATTAACAG</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_02457" Name="COG1959" Position="-33" Score="5.4">
+          <Sequence>TTGTTACAATTTTAACAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_00463" Name="asrA" Position="-133" Score="4.6">
+          <Sequence>ATGATAAAAATTTATTAT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_00463" Name="asrA" Position="-75" Score="5.4">
+          <Sequence>TTGTTATAATAATAACAT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_04148" Name="rex" Position="-79" Score="4.3">
+          <Sequence>TTGACATTTTTTTGACGT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4583125" LocusId="CLOBOL_04148" Name="rex" Function="Redox-sensitive transcriptional regulator (AT-rich DNA-binding protein)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4579440" LocusId="CLOBOL_00463" Name="asrA" Function="anaerobic sulfite reductase, A subunit" />
+          <Members vimssId="4579439" LocusId="CLOBOL_00462" Name="asrB" Function="anaerobic sulfite reductase subunit B" />
+          <Members vimssId="4579438" LocusId="CLOBOL_00461" Name="asrC" Function="anaerobic sulfite reductase subunit C" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4581434" LocusId="CLOBOL_02457" Name="COG1959" Function="Predicted transcriptional regulator, Rrf2 family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4584143" LocusId="CLOBOL_05166" Name="pgpB" Function="putative phosphatidylglycerophosphatase B" />
+          <Members vimssId="4584144" LocusId="CLOBOL_05167" Name="COG491" Function="Zn-dependent hydrolase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4584997" LocusId="CLOBOL_06020" Name="pncB" Function="Nicotinate phosphoribosyltransferase (EC 2.4.2.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4584608" LocusId="CLOBOL_05631" Name="phf1" Function="[Fe] hydrogenase (EC 1.12.7.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4581726" LocusId="CLOBOL_02749" Name="fba" Function="Fructose-bisphosphate aldolase class II (EC 4.1.2.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4582294" LocusId="CLOBOL_03318" Name="ladH" Function="Lactaldehyde reductase (EC 1.1.1.77)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4584191" LocusId="CLOBOL_05214" Name="gap" Function="NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)" />
+          <Members vimssId="4584192" LocusId="CLOBOL_05215" Name="pgk" Function="Phosphoglycerate kinase (EC 2.7.2.3)" />
+          <Members vimssId="4584193" LocusId="CLOBOL_05216" Name="tpi" Function="Triosephosphate isomerase (EC 5.3.1.1)" />
+          <Members vimssId="4584194" LocusId="CLOBOL_05217" Name="pgm" Function="Phosphoglycerate mutase (EC 5.4.2.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4579788" LocusId="CLOBOL_00811" Name="stpK" Function="Mn2+-dependent serine/threonine protein kinase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4585518" LocusId="CLOBOL_06541" Name="adhE" Function="Alcohol dehydrogenase (EC 1.1.1.1), Fe-dependent; Acetaldehyde dehydrogenase (EC 1.2.1.10)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4784</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="TreR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57148" />
+      <Effector>Trehalose-6-phosphate</Effector>
+      <Pathway>Trehalose utilization</Pathway>
+      <LocusTag Key="CLOBOL_05032" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4584009&amp;disp=0" />
+      <BiologicalProcess>Trehalose utilization</BiologicalProcess>
+      <Regulog Key="TreR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5844" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_05033" Name="treP" Position="-89" Score="5.3">
+          <Sequence>AACTTGTTTAAACAAGAT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_05033" Name="treP" Position="-54" Score="4.9">
+          <Sequence>TACTTGTTTAAACAAGAT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4584010" LocusId="CLOBOL_05033" Name="treP" Function="Trehalose-specific PTS system, EIIABC component (EC 2.7.1.69)" />
+          <Members vimssId="4584011" LocusId="CLOBOL_05034" Name="treA" Function="Trehalose-6-phosphate hydrolase (EC 3.2.1.93)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5844</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="UxuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63046" />
+      <Effector />
+      <Pathway>Glucuronate utilization</Pathway>
+      <LocusTag Key="CLOBOL_01979" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4580956&amp;disp=0" />
+      <BiologicalProcess>Glucuronate utilization</BiologicalProcess>
+      <Regulog Key="UxuR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6499" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_06887" Name="uxaB2" Position="-42" Score="6.3">
+          <Sequence>AAATGTAAGCACTTACAAAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_06887" Name="uxaB2" Position="-139" Score="5.8">
+          <Sequence>AAATGTAAATACTTACAAAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_01311" Name="pfkA" Position="-37" Score="6.4">
+          <Sequence>TTTTGTAAGCGCTTACAATT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_01978" Name="uxaA" Position="-89" Score="6.3">
+          <Sequence>AATTGTAAGCACTTACAAAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_01978" Name="uxaA" Position="-192" Score="5.8">
+          <Sequence>TTCTGTAAGCGCTTACAAGC</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_01979" Name="uxuR" Position="-137" Score="6.3">
+          <Sequence>TTTTGTAAGTGCTTACAATT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_01979" Name="uxuR" Position="-34" Score="5.8">
+          <Sequence>GCTTGTAAGCGCTTACAGAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4585864" LocusId="CLOBOL_06887" Name="uxaB2" Function="Altronate oxidoreductase (EC 1.1.1.58)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4580955" LocusId="CLOBOL_01978" Name="uxaA" Function="Altronate hydrolase (EC 4.2.1.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4580288" LocusId="CLOBOL_01311" Name="pfkA" Function="6-phosphofructokinase (EC 2.7.1.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4580956" LocusId="CLOBOL_01979" Name="uxuR" Function="Predicted transcription regulator for glucuronate utilization, LacI family" />
+          <Members vimssId="4580957" LocusId="CLOBOL_01980" Name="uxaC" Function="Uronate isomerase (EC 5.3.1.12)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6499</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="YtrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57197" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux; Antibiotic resistance</Pathway>
+      <LocusTag Key="CLOBOL_00493" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4579470&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux; Antibiotic resistance</BiologicalProcess>
+      <Regulog Key="YtrA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5849" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_00493" Name="ytrA" Position="-65" Score="6.2">
+          <Sequence>AACTGTATTAATATACTTAATACAGAT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4579470" LocusId="CLOBOL_00493" Name="ytrA" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="4579469" LocusId="CLOBOL_00492" Name="ytrB" Function="ABC-type multidrug transport system, ATPase component" />
+          <Members vimssId="4579468" LocusId="CLOBOL_00491" Name="ytrD" Function="ABC-type transport system, permease component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5849</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30680" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_07302" Name="nikA" Position="-325" Score="104.9">
+          <Sequence>CGAACATAACCGTATCAGGTCACCTTTGGGTTTAACAGCTGCAAAGGGTGAAAAGGGAATCAGGTGAAAATCCTGAGCGAACCGGTCACTGTAAATGTGGAGAAACCTCCGGACAGACCATTGCATATATTTGCGAGAAGGTGGGGGGATTGAAGATGCATAAGCCAGGAGACCTGCCTGATAGGAAAAACGGCGGCG</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4586279" LocusId="CLOBOL_07302" Name="nikA" Function="nickel ABC transporter, periplasmic nickel-binding protein" />
+          <Members vimssId="4586280" LocusId="CLOBOL_07303" Name="nikB" Function="nickel ABC transporter, permease subunit NikB" />
+          <Members vimssId="4586281" LocusId="CLOBOL_07304" Name="nikC" Function="nickel ABC transporter, permease subunit NikC" />
+          <Members vimssId="4586282" LocusId="CLOBOL_07305" Name="dppD" Function="oligopeptide transport ATP-binding protein OppD" />
+          <Members vimssId="4586283" LocusId="CLOBOL_07306" Name="dppD" Function="oligopeptide transport ATP-binding protein OppD" />
+          <Members vimssId="4586284" LocusId="CLOBOL_07307" Name="metE" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30700" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_02256" Name="ribU" Position="-352" Score="114.4">
+          <Sequence>TAAAGTTCTTCGGGGCAGGGTGTGATTCCCTACCGGCGGTAATAGTCCGCGACCCGCTACGGCGGCTGATCTGGTGTGATTCCAGAACCGACAGTATAGTCTGGATGAGAGAAGAAGGTG</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4581233" LocusId="CLOBOL_02256" Name="ribU" Function="Substrate-specific component RibU of riboflavin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48833" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_02805" Name="ribD" Position="-688" Score="117.1">
+          <Sequence>AATATCTTCAGGGCAGGGTGCAATTCCCTACCGGTGGTACAGCCCACGAGCCGCAAGGCATGATTCGGTGAAACTCCGAAGCCGACAGTACAGTCTGGATGAAAGAAGATGGAACG</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_02256" Name="ribU" Position="-352" Score="114.4">
+          <Sequence>TAAAGTTCTTCGGGGCAGGGTGTGATTCCCTACCGGCGGTAATAGTCCGCGACCCGCTACGGCGGCTGATCTGGTGTGATTCCAGAACCGACAGTATAGTCTGGATGAGAGAAGAAGGTG</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4581782" LocusId="CLOBOL_02805" Name="ribD" Function="Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26) / 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)" />
+          <Members vimssId="4581783" LocusId="CLOBOL_02806" Name="ribE" Function="Riboflavin synthase alpha chain (EC 2.5.1.9)" />
+          <Members vimssId="4581784" LocusId="CLOBOL_02807" Name="ribBA" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase / GTP cyclohydrolase II (EC 3.5.4.25)" />
+          <Members vimssId="4581785" LocusId="CLOBOL_02808" Name="ribH" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4581233" LocusId="CLOBOL_02256" Name="ribU" Function="Substrate-specific component RibU of riboflavin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01051" RegulationMode="RF01051">
+      <Regulator Key="GEMM_RNA_motif" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32263" />
+      <Effector>Cyclic diguanylate</Effector>
+      <Pathway>Second messenger response</Pathway>
+      <LocusTag Key="GEMM_RNA_motif" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_00225" Name="" Position="-394" Score="53.7">
+          <Sequence>AAAAAATAATTAGCAAAACTGGTGAAAGCTAGTGACGCAAAGCTACAGGGATTTCTCTCTAAAAAGAGGTGTCAGCCAGCTGCATGA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_04793" Name="NT01CX_2393" Position="-376" Score="34.5">
+          <Sequence>TATATTCAGGTAGCAAAGTAGTTGAAAGTCTATGACGCAAAGCTAAAAGGCCTGTGAAATGGTAGCCAGTTGCACGT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_00226" Name="" Position="-182" Score="53.7">
+          <Sequence>AAAAAATAATTAGCAAAACTGGTGAAAGCTAGTGACGCAAAGCTACAGGGATTTCTCTCTAAAAAGAGGTGTCAGCCAGCTGCATGA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_00697" Name="" Position="-138" Score="50.3">
+          <Sequence>GTAAATATTGGGGCAAAGCACGTGAAAACGTGTGACGCAAAACTAGAGGGCCTGTAAGATGGCAGCCAGTTGCATTT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4579674" LocusId="CLOBOL_00697" Name="null" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4579203" LocusId="CLOBOL_00226" Name="null" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4579202" LocusId="CLOBOL_00225" Name="null" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4583770" LocusId="CLOBOL_04793" Name="NT01CX_2393" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00504" RegulationMode="RF00504">
+      <Regulator Key="Glycine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32288" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="Glycine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_01537" Name="gcvT" Position="-125" Score="39.8">
+          <Sequence>CGGACGATACTCTGGAGAGCATAGCACCGAAGAAGCCAAATCTTTCAGGTCCAAGGACAGAGCGCATGAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_01537" Name="gcvT" Position="-265" Score="39.7">
+          <Sequence>GAAGATGGATTCGGGAGAGACTGACCAAAATGTATGAAAGATACAGAATACGCTTGATATAGCGTATCCGTGTATTATCAGCATACAGAACACAGCGCCGAAGGGGAAGCGGAAAACTCTCAGGCAAAAGGACCGGATACC</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_05294" Name="glyA2" Position="-349" Score="47.8">
+          <Sequence>TGATGGATTCGGGAGAGACTGCACAGGCAGCGCCGAAGGGGAAGCGAAGAACTCTCAGGCAAAAGAACCGGATACTGG</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_05294" Name="glyA2" Position="-272" Score="34">
+          <Sequence>GACGAAACTCTGGAAAGCGATAGCACCGACGAAGCCAAATCTTTCAGGTACAAAGACAGAGCGCATGAACA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_00277" Name="pfoR" Position="-386" Score="49.2">
+          <Sequence>CGGACGGGACTCTGGAGAAGGTCACTAAAATGTGAATACCGATGAAGCAACCGGCGGCATAGCAGCAACCGCGTCAGGGAAACTTTCAGGTAAAAGGACAGAGGCAGACAT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_00277" Name="pfoR" Position="-463" Score="49.8">
+          <Sequence>GTTGATGAATTCGGGAGAGATTACCGCCAGGTAACGCCGAAGGGGATGCGCAAACTCTCAGGCAAAAGAATCGAATTC</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4579253" LocusId="CLOBOL_00277" Name="pfoR" Function="Perfringolysin O regulator protein PfoR" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4584271" LocusId="CLOBOL_05294" Name="glyA2" Function="Serine hydroxymethyltransferase (EC 2.1.2.1)" />
+          <Members vimssId="4584272" LocusId="CLOBOL_05295" Name="gcvT" Function="Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10)" />
+          <Members vimssId="4584273" LocusId="CLOBOL_05296" Name="gcvH" Function="Glycine cleavage system H protein" />
+          <Members vimssId="4584274" LocusId="CLOBOL_05297" Name="gcvP1" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P1 protein) (EC 1.4.4.2)" />
+          <Members vimssId="4584275" LocusId="CLOBOL_05298" Name="gcvP2" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P2 protein) (EC 1.4.4.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4580514" LocusId="CLOBOL_01537" Name="gcvT" Function="Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10)" />
+          <Members vimssId="4580513" LocusId="CLOBOL_01536" Name="gcvH" Function="Glycine cleavage system H protein" />
+          <Members vimssId="4580512" LocusId="CLOBOL_01535" Name="gcvP1" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P1 protein) (EC 1.4.4.2)" />
+          <Members vimssId="4580511" LocusId="CLOBOL_01534" Name="gcvP2" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P2 protein) (EC 1.4.4.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00557" RegulationMode="RF00557">
+      <Regulator Key="L10_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32338" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L10_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_06829" Name="rplJ" Position="-334" Score="66.2">
+          <Sequence>ATACCACAGTATTGAATGCCCTGAGACAGCAGGTACCGTAAGGTGTAAGGCGAAAACGCCTGCCGAGGAACATACAAAACTCTGATTATTTATGATGAGATTTTGCGAACCTCTCTGTCTTTACGGCGGAGAGGTTTTTTGTCCGGTCT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4585806" LocusId="CLOBOL_06829" Name="rplJ" Function="LSU ribosomal protein L10p (P0)" />
+          <Members vimssId="4585805" LocusId="CLOBOL_06828" Name="rplL" Function="LSU ribosomal protein L7/L12 (P1/P2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00558" RegulationMode="RF00558">
+      <Regulator Key="L20_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32413" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L20_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_05438" Name="infC" Position="-240" Score="16">
+          <Sequence>GACAGGAAAGCAGGTATCCGCCTCACCCTGGCACGAACATGTGACCCGGGTTCATAGATGAAACGATGTGCTGTATTATTTCA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4584415" LocusId="CLOBOL_05438" Name="infC" Function="Translation initiation factor 3" />
+          <Members vimssId="4584414" LocusId="CLOBOL_05437" Name="rpmI" Function="LSU ribosomal protein L35p" />
+          <Members vimssId="4584413" LocusId="CLOBOL_05436" Name="rplT" Function="LSU ribosomal protein L20p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00168" RegulationMode="RF00168">
+      <Regulator Key="Lysine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32488" />
+      <Effector>Lysine</Effector>
+      <Pathway>Lysine biosynthesis</Pathway>
+      <LocusTag Key="Lysine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_04168" Name="dapA" Position="-328" Score="98">
+          <Sequence>ATCATAGAGTAGAGGTTGCGTTGATCATGAGTAGATAAGCCGGATGTGGCAGGCACAGGTGATGGCTTAGGGAAAGGGAGAAACGCCGAAGAGGAAGCGTTCCGTGTTCACGCCCCCTCTGGGCATATGGTTAAGAGCCGTATGACTGTCATCCGGGTGGATGGAGAGCTACCAAAGAA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_04690" Name="alsT" Position="-338" Score="79.9">
+          <Sequence>AGGATGCGATAGAGGCGCAGTAAGCATTAGTATCTGTGTGATAATGGATGCCATCCCCAGGGTGGCGGACAGAGGGGATTTTGTCCCGGAGGCCGGCGGGCCGGAGCACACAGGGAAAGGGATTACTGCCGAAACGGATTCTGTCTGCCGGCGGAATGTGTTGGGATGCAGTCTAACAGGCTGCGTACTCTCACTTTTTAAAGTGGTGGCGCTATTGGCTGG</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4583145" LocusId="CLOBOL_04168" Name="dapA" Function="Dihydrodipicolinate synthase (EC 4.2.1.52)" />
+          <Members vimssId="4583144" LocusId="CLOBOL_04167" Name="dapB" Function="Dihydrodipicolinate reductase (EC 1.3.1.26)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4583667" LocusId="CLOBOL_04690" Name="alsT" Function="Na+/alanine symporter family transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00522" RegulationMode="RF00522">
+      <Regulator Key="PreQ1" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32563" />
+      <Effector>Pre-queuosine1</Effector>
+      <Pathway>Queuosine biosynthesis</Pathway>
+      <LocusTag Key="PreQ1" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_02330" Name="queT" Position="-57" Score="19.8">
+          <Sequence>GACCGGTGTGTTCGAGACCTTCCACACCTAAAACAAAACTAAAGGAGA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4581307" LocusId="CLOBOL_02330" Name="queT" Function="Substrate-specific component QueT (COG4708) of predicted queuosine-regulated ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00167" RegulationMode="RF00167">
+      <Regulator Key="Purine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32588" />
+      <Effector>Adenine; Guanine</Effector>
+      <Pathway>Purine metabolism</Pathway>
+      <LocusTag Key="Purine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_03369" Name="guaD" Position="-253" Score="57.4">
+          <Sequence>AGAAGTATAAGTATTCAAAACTTATATATGCTCAAGATAGGTTGAGCGTTTCTACCAACTACCGTAATAGTTGACTATAAGTTTTCACATCAGGTAC</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_04589" Name="COG2509" Position="-153" Score="46.5">
+          <Sequence>ACTATAACCGTTGTGATGCCTGTATAAGTTCATGATTGGATGAACGTTTCTACCAGCTACCGGAATAGTTGACTACATGCTTCTATTTTGTATACTG</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4583566" LocusId="CLOBOL_04589" Name="COG2509" Function="NAD(FAD)-utilizing dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4582346" LocusId="CLOBOL_03369" Name="guaD" Function="Guanine deaminase (EC 3.5.4.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00114" RegulationMode="RF00114">
+      <Regulator Key="S15" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32638" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="S15" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_05362" Name="rpsO" Position="-62" Score="20.5">
+          <Sequence>CTGGTGACTCCAGCCGGCAGCCTGGTTTTTGGTGAGATGAATAATATTAAGGAGGAAACACCATGATTTCAAAGGAAAAGAAAGCACAGATTATCGCAGAGTATGGCCGTAAGCCAGG</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4584339" LocusId="CLOBOL_05362" Name="rpsO" Function="SSU ribosomal protein S15p (S13e)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00162" RegulationMode="RF00162">
+      <Regulator Key="SAM" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32688" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="SAM" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_06841" Name="metK" Position="-215" Score="46">
+          <Sequence>TCCCTTATTCAGAGTGATGGAGGTACAAAGGACCTGTGAAGTCACGGCAACCCCGGTTGAGTATATCAGCAAGATATGCGAAAGGGCCGGAAGGTGCCAGCCTGAGCGAGGAGTATGCTATGGAGCATACTTGGTCGAGCAATAAGAG</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4585818" LocusId="CLOBOL_06841" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Asn)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32813" />
+      <Effector>Asn-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_01137" Name="aspS2" Position="-419" Score="56">
+          <Sequence>CAACAGCAATGAAAGAGACTCTGGCCTGAGAAATGTGACAGGAAGGGGGCGTCACCGACTGAGAGCGCCGCCGGGCAGGACTGGGCTAAGGGAACACTCTGGAGCTGGTATATCGAAGCGGCCAGGACACGGCTGATAGTAGGTATATCCGTTGTACACGTTACGTACATAGAGAGGGGAGCTGGAAGCGCAGGGCAGTCTGCTGCGGGACCAGGTCTCAATGCGGGTGGTACCGCGGGAAATGTCTGAATTGAATCCCGTCCCGGAATG</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4580114" LocusId="CLOBOL_01137" Name="aspS2" Function="Aspartyl-tRNA synthetase (EC 6.1.1.12)" />
+          <Members vimssId="4580115" LocusId="CLOBOL_01138" Name="gatC" Function="Aspartyl-tRNA(Asn) amidotransferase subunit C (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit C (EC 6.3.5.7)" />
+          <Members vimssId="4580116" LocusId="CLOBOL_01139" Name="gatA" Function="Aspartyl-tRNA(Asn) amidotransferase subunit A (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit A (EC 6.3.5.7)" />
+          <Members vimssId="4580117" LocusId="CLOBOL_01140" Name="gatB" Function="Aspartyl-tRNA(Asn) amidotransferase subunit B (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit B (EC 6.3.5.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ile)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32963" />
+      <Effector>Ile-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_06015" Name="ileS" Position="-303" Score="64.8">
+          <Sequence>GAAAAAGGCATAGATGGAGACAGTAGGCCTGCAGGAACGCCTCAGAGAGCCGGAGATGGTGGAAACCGGTGCAAGTAATGCAGAACTGAAGATCACTCCGGAGCTGTCCGGCTGAAGGGATGCGTCAGCAGCGCATGATAGGCCGGGACGCGTTTCCCGCGTTAAGGGAACTCATATGATGGTATGCAGTAATAGGTGGTTAAACGAAGCGGTTTATGGCTTTCGTCCTGTTC</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4584992" LocusId="CLOBOL_06015" Name="ileS" Function="Isoleucyl-tRNA synthetase (EC 6.1.1.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Leu)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33018" />
+      <Effector>Leu-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_01934" Name="leuS" Position="-364" Score="98.1">
+          <Sequence>TGCAAATACGCAGATAGGGAAGAGTAGATAACCGGATGGATGCAGAGAGCCGGCGGCTGGTGAAAGCCGGTGACGGATGGTTGTTGAACTGGCCCTGGAGTAGCCTGTCCCAACGAGGAAGGGCCGCCGGAAACGGGGGACCGGGAACCAGTAGGTCAGGACGGAGACCTTACCGTTATAAGAGGATTAAGTGCATGCGTCAGACAGCATGAACCAGAGTGGTACCGCGCGGGGATTTTTAAGCCTTGCGTCTCTAGC</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4580911" LocusId="CLOBOL_01934" Name="leuS" Function="Leucyl-tRNA synthetase (EC 6.1.1.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Phe)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33183" />
+      <Effector>Phe-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_02009" Name="pheS" Position="-276" Score="90.4">
+          <Sequence>ATCAAAAGCGATGAAGGTGCATAGTAGACGTTTATTTTCCATCAGAGAGGGGAGGCCACCGGCTGAAAGCCTGCCCGGGTTCAGATAGACGGTTGAAATTCCCACCGGAGCTGTACGGGCAAAAGGATGCTTTCGCCAATCCGTGAAAGGATTCCGGTAGTCTGTGACGCAGGCACACGTTACGTGCATCAAGTGTCTGTATACTCCAGTTATAGGTTCTGGGGTGATACAGGAAGCAGGGTGGTACCGCGAGTTTACAGTCTCGTCCCTTCA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4580986" LocusId="CLOBOL_02009" Name="pheS" Function="Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)" />
+          <Members vimssId="4580985" LocusId="CLOBOL_02008" Name="pheT" Function="Phenylalanyl-tRNA synthetase beta chain (EC 6.1.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Pro)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33238" />
+      <Effector>Pro-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_06453" Name="proS2" Position="-309" Score="95.7">
+          <Sequence>AGATATGACATGGAAAGGGAACAGTAAGCGTGATTGCACGTCACAGAGAGAGGGCCGCAGGTGAGAGGTCCTTACGGTTGGCAGATGCTGAACCCACCCTGGAGTCCTGTATGATGAATGCAGCGTATGTCCGGCGTTAACGGATGATGAGAGAACCATAAGGGCGGCTTAAGCCCGAAGGTTAATAAGGGTGGTACCGCCGAGTCATTCGGTCCCTTGT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4585430" LocusId="CLOBOL_06453" Name="proS2" Function="Prolyl-tRNA synthetase (EC 6.1.1.15) ## Archaeal type" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Thr)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33348" />
+      <Effector>Thr-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_01887" Name="thrZ" Position="-234" Score="60.9">
+          <Sequence>AGCAAAGGCATTGAGGGAAGCAGTAGTCAGTGGGAAGTATCCAGAGAGCAGGCCGGTTGGTGGAATGGCCGCATACCAAAGATTGACGAATACCAGTCCTGAGCCGCGTCAGGGATGTCCGGACATGTGTTACAGCATAAAGAAGGATGGGAAATGGCGCCGTACCCCGCGTTAAGGGATAAATGAGTGAAAATCAAGGTGGAACCGTGTGAATGCACCCTTGGA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4580864" LocusId="CLOBOL_01887" Name="thrZ" Function="Threonyl-tRNA synthetase (EC 6.1.1.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Trp)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33403" />
+      <Effector>Trp-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_01967" Name="trpX" Position="-370" Score="107.9">
+          <Sequence>TTAAACCGTAGAGAAAGAGGAGTAAGCTATCAAAGCTTTAACACAGAGAGCCGCAGGCGGTGGGATTGCGGTATGGGGCTGGCAGCTGAATGGACTTTTGAGGGCGGTCTTGAAGGATTGTTTTATCTGTAGGGACCGACGGATTCCGCAACCGTTATACATGTGGCGCATATGTTGGTATGTGTAAAGTGGACTTTTTAGTCAATTTGAGTGGCACCGCGGATTTCATTCGTCTCAATCGT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_04492" Name="trpE" Position="-486" Score="68.9">
+          <Sequence>TAAAAAACTGTTGAGCAGGAGTAAGTAAGATTGTAATTCCAGGCGCAGAGAGCTTCCGGCCGGTGTAAGGGAGCATTGGATTAGAGTCTGAATGGACCTGCGAGGGCAGCTGGAAACCAGGGTCATAGAGATATGTCTGATGGGAGTATGGGCTGACGGGTATCCCACCGTTACCAGGGAGAACGCATGATGGTGCGTTGCAGAGCGGGCGTATTTTATTTCTTTGTTCGATGACACAGCATCAGGTTAATTTTAACTTGATGCTTTTTTAATTCCCAGACCGGAGAATGGCGGGGAGAGTGCAGGACATGGAAAGCGCCAACCAGGGTGGTACCGCAGAAGCCGGAAGAAGCTTTTGTCCCTGCT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4580944" LocusId="CLOBOL_01967" Name="trpX" Function="ABC transporter substrate-binding protein" />
+          <Members vimssId="4580945" LocusId="CLOBOL_01968" Name="trpY" Function="ABC transporter integral membrane protein" />
+          <Members vimssId="4580946" LocusId="CLOBOL_01969" Name="trpZ" Function="ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4583469" LocusId="CLOBOL_04492" Name="trpE" Function="Anthranilate synthase, aminase component (EC 4.1.3.27) # TrpAa" />
+          <Members vimssId="4583468" LocusId="CLOBOL_04491" Name="trpG" Function="Anthranilate synthase, amidotransferase component (EC 4.1.3.27) @ Para-aminobenzoate synthase, amidotransferase component (EC 2.6.1.85) # TrpAb@PabAb" />
+          <Members vimssId="4583467" LocusId="CLOBOL_04490" Name="trpD" Function="Anthranilate phosphoribosyltransferase (EC 2.4.2.18)" />
+          <Members vimssId="4583466" LocusId="CLOBOL_04489" Name="trpC" Function="Indole-3-glycerol phosphate synthase (EC 4.1.1.48)" />
+          <Members vimssId="4583465" LocusId="CLOBOL_04488" Name="trpF" Function="Phosphoribosylanthranilate isomerase (EC 5.3.1.24)" />
+          <Members vimssId="4583464" LocusId="CLOBOL_04487" Name="trpB" Function="Tryptophan synthase beta chain (EC 4.2.1.20)" />
+          <Members vimssId="4583463" LocusId="CLOBOL_04486" Name="trpA" Function="Tryptophan synthase alpha chain (EC 4.2.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Tyr)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33458" />
+      <Effector>Tyr-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_06297" Name="tyrS" Position="-284" Score="117.8">
+          <Sequence>AAAGAATGCCATGAAGGAGAACAGTAGTACAGAGGCTTTTCTTACAGAGAGCGCCCGGTTGGTGGAAGGACGCAGGAAAGACTGTATGAATACGCTCCGGAGCAGCAGCCTGAAGGTTTTAGTAGGGTTTGACGGGAACGCCCGATACAGCGTGAGAGTGTTGACAGACACTCGATGAGGAATGTTCTGTGAAGGACATTCAAGTACAGAGGTGGTACCGCATAACCTGCCCTCTGC</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_03268" Name="tyrS" Position="-448" Score="70.2">
+          <Sequence>TGAATTGGCTATGACGGGAACAAGTAGTAGCCTGCAGGAACAGACAGAAAGCAGCCGGATGATGAGAGGCGCATGGAAAGCAGGTCATGAATACATCCCTGAGCTTCGCACCCAACAGCGCTGCTTCATATAACAGCCTTAGTAGGCTGCGACGGGTCCTGCATCCGTTATCGTGCTAGAGTATACGGGCGTTTGGCCAGAGCCTGGCGCCAGTACTCGAAGAGGCAGGCAGCGTGAGCTGTCTGTGAACATCAGGTGGTAACACGGGGCTTACGGGCTTCGTCCTTTTG</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4585274" LocusId="CLOBOL_06297" Name="tyrS" Function="Tyrosyl-tRNA synthetase (EC 6.1.1.1) ## cluster 1" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4582244" LocusId="CLOBOL_03268" Name="tyrS" Function="Tyrosyl-tRNA synthetase (EC 6.1.1.1) ## cluster 1" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01831" RegulationMode="RF01831">
+      <Regulator Key="THF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47233" />
+      <Effector>Tetrahydrofolate</Effector>
+      <Pathway>Folate metabolism</Pathway>
+      <LocusTag Key="THF" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_05170" Name="folT" Position="-346" Score="86.3">
+          <Sequence>GCAGAGTAGGTATATGTGCGTTAAGTGCCGGCTGGACAGGGAGTTGTCAGCTGGACGAAAGAGGATTCCCAAAGGGAAACTGTCTGCGGTACATATGCCGCATCCCGCTGCAAC</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4584147" LocusId="CLOBOL_05170" Name="folT" Function="Substrate-specific component FolT of folate ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33563" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_02869" Name="thiD" Position="-253" Score="51.8">
+          <Sequence>TTGTAAATAAACGGGGAGCTCACTTAAGTGGGCTGAGAGTAAGCTGTTCATGCTTAGACCCATTACCTGATTTGGATAATGCCAACGTAGGGACCATAACGGACGATTGCC</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_04495" Name="thiW" Position="-118" Score="60.6">
+          <Sequence>CTAAATGACAACAGGGAGCTTGTGAAGCAGGCTGAGAGGAAGTAATCGAACTTCGACCTATCGCACCTGATTTGGGTAATGCCAACGTAGGGAAATATGAGACATGTATGT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_05155" Name="COG0011" Position="-189" Score="61">
+          <Sequence>ACAATGAAAAGGGGTGCTGGAGTGGAATCCGGCTGAGATGGAATATGTTCTGAACCCTGATACCTGATCTGGATAATGCCAGCGTAGGAAGCCTGCAGAAGATGTGAATTT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4584132" LocusId="CLOBOL_05155" Name="COG0011" Function="Cytoplasmic thiamin-binding component of thiamin ABC transporter, COG0011 family" />
+          <Members vimssId="4584133" LocusId="CLOBOL_05156" Name="thiX" Function="Thiamin ABC transporter, transmembrane component" />
+          <Members vimssId="4584134" LocusId="CLOBOL_05157" Name="thiY" Function="Thiamin ABC transporter, substrate-binding component" />
+          <Members vimssId="4584135" LocusId="CLOBOL_05158" Name="thiZ" Function="Thiamin ABC transporter, ATPase component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4583472" LocusId="CLOBOL_04495" Name="thiW" Function="Substrate-specific component ThiW of predicted thiazole ECF transporter" />
+          <Members vimssId="4583471" LocusId="CLOBOL_04494" Name="thiM" Function="Hydroxyethylthiazole kinase (EC 2.7.1.50)" />
+          <Members vimssId="4583470" LocusId="CLOBOL_04493" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4581846" LocusId="CLOBOL_02869" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48847" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_02869" Name="thiD" Position="-253" Score="51.8">
+          <Sequence>TTGTAAATAAACGGGGAGCTCACTTAAGTGGGCTGAGAGTAAGCTGTTCATGCTTAGACCCATTACCTGATTTGGATAATGCCAACGTAGGGACCATAACGGACGATTGCC</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_04495" Name="thiW" Position="-118" Score="60.6">
+          <Sequence>CTAAATGACAACAGGGAGCTTGTGAAGCAGGCTGAGAGGAAGTAATCGAACTTCGACCTATCGCACCTGATTTGGGTAATGCCAACGTAGGGAAATATGAGACATGTATGT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4583472" LocusId="CLOBOL_04495" Name="thiW" Function="Substrate-specific component ThiW of predicted thiazole ECF transporter" />
+          <Members vimssId="4583471" LocusId="CLOBOL_04494" Name="thiM" Function="Hydroxyethylthiazole kinase (EC 2.7.1.50)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4581846" LocusId="CLOBOL_02869" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+          <Members vimssId="4581845" LocusId="CLOBOL_02868" Name="cytX" Function="Predicted hydroxymethylpyrimidine transporter CytX" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00234" RegulationMode="RF00234">
+      <Regulator Key="glmS" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33538" />
+      <Effector>Glucosamine-6-phosphate</Effector>
+      <Pathway>Amino sugar metabolism</Pathway>
+      <LocusTag Key="glmS" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_03730" Name="glmS" Position="-328" Score="53.3">
+          <Sequence>ATAGCAAAGCTAAGCGCCATGCACCTTTTAGCGGGTACGTGAACAGCAGGAACGTCTGCTGCCGTTTATAAGGTTAACGAGGTGGAGAGAGAATCGAGAAATTCGGCGGGTGCTCTCCCATGCTGTCCGGGCGTGTTGCATACTGGAAAATATGCGGGTAACTGCAAAACAAAGCCAGTGTGACCGGATGTA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4582707" LocusId="CLOBOL_03730" Name="glmS" Function="Glucosamine--fructose-6-phosphate aminotransferase [isomerizing] (EC 2.6.1.16)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00379" RegulationMode="RF00379">
+      <Regulator Key="ydaO-yuaA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33813" />
+      <Effector />
+      <Pathway>Cell wall metabolism; Osmotic stress response</Pathway>
+      <LocusTag Key="ydaO-yuaA" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_01252" Name="COG0591" Position="-327" Score="79.8">
+          <Sequence>TCACCAAGTCGCTTAATGCTGCTATGCAGCAGTGGGAGAACCGATTTTTAGGGGTGTATTCATCCGTCTGAGCCTGTCGCGGCTCCCGGATGATAGGGAACCTTTCTTTCCCGAACCCGGCAGCTAATCTCATAGGCGGAAGAGGGACAGGGACA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4580229" LocusId="CLOBOL_01252" Name="COG0591" Function="Na+/proline symporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33913" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOBOL_01900" Name="" Position="-214" Score="43.1">
+          <Sequence>CAGTTCCAATAAAAGGGAGTAGCGAACCACCAGAAGGTGGATTTTAAATCGTCATCTCGGTGCCGGAGGCACCCGTATAAAATGAAATGTGCAAGACTTTTATTGTGGCA</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_04443" Name="atcL" Position="-268" Score="33.8">
+          <Sequence>GGAACAGCTCGAAAGGGAGTAGTTTAGATATATTGTCAACAACCTCGGTTCCAACGGAACCTGGCAATATATGCCTTTATGGTTACAAGACTTTTATGCGTGGT</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOBOL_03265" Name="COG1971" Position="-186" Score="49.7">
+          <Sequence>AGCAAGTGATAAGGGAGTAATTGGCATGCCCCGCCCTGCCGGGCATGTAATAAGGTCAACATACTGATAGTTTCTATCTGGCTTTATTTGAAACAATGAGACTTATCTACAGCATTC</Sequence>
+          <Bacteria>Clostridium bolteae ATCC BAA-613</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4582242" LocusId="CLOBOL_03265" Name="COG1971" Function="Putative membrane protein, COG1971" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4580877" LocusId="CLOBOL_01900" Name="null" Function="hypothetical protein" />
+          <Members vimssId="4580876" LocusId="CLOBOL_01899" Name="CPF_0680" Function="conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4583420" LocusId="CLOBOL_04443" Name="atcL" Function="Calcium-transporting ATPase (EC 3.6.3.8)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

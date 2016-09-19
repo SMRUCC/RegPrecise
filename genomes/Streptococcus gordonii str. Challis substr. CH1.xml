@@ -1,0 +1,2799 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Streptococcus gordonii str. Challis substr. CH1" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="MarR" RegulationMode="repressor">
+      <Regulator Key="AdcR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35841" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="SGO_1939" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3790253&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="AdcR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3633" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1939" Name="adcR" Position="-35" Score="5.2">
+          <Sequence>CATTAACTGGTTAAGT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1314" Name="lmb2" Position="-98" Score="5.2">
+          <Sequence>AATAAACCAGTTAAGA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3790253" LocusId="SGO_1939" Name="adcR" Function="Zinc homeostasis trancsriptional regulator AdcR, MarR family" />
+          <Members vimssId="3790252" LocusId="SGO_1938" Name="adcC" Function="Zinc ABC transporter, ATP-binding protein" />
+          <Members vimssId="3790251" LocusId="SGO_1937" Name="adcB" Function="Zinc ABC transporter, permease protein" />
+          <Members vimssId="3790250" LocusId="SGO_1936" Name="adcA" Function="Zinc ABC transporter, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789627" LocusId="SGO_1314" Name="lmb2" Function="Laminin-binding surface lipoprotein" />
+          <Members vimssId="3789626" LocusId="SGO_1313" Name="phtD2" Function="Histidine triad protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3633</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="AgaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46323" />
+      <Effector>N-acetylgalactosamine</Effector>
+      <Pathway>N-acetylgalactosamine utilization</Pathway>
+      <LocusTag Key="SGO_0042" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3788357&amp;disp=0" />
+      <BiologicalProcess>N-acetylgalactosamine utilization</BiologicalProcess>
+      <Regulog Key="AgaR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4687" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0043" Name="bgaC" Position="-67" Score="5.6">
+          <Sequence>AATGTTATTATATTAATTAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0042" Name="agaR" Position="-107" Score="5.6">
+          <Sequence>TTAATTAATATAATAACATT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3788357" LocusId="SGO_0042" Name="agaR" Function="N-acetylgalactosamine utilization transcriptional regulator AgaR, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788358" LocusId="SGO_0043" Name="bgaC" Function="Beta-galactosidase (EC 3.2.1.23)" />
+          <Members vimssId="3788359" LocusId="SGO_0044" Name="gadV" Function="Predicted galactosamine disaccharide-specific PTS system, IIB component (EC 2.7.1.69)" />
+          <Members vimssId="3788360" LocusId="SGO_0045" Name="gadW" Function="Predicted galactosamine disaccharide-specific PTS system, IIC component (EC 2.7.1.69)" />
+          <Members vimssId="3788361" LocusId="SGO_0046" Name="gadE" Function="Predicted galactosamine disaccharide-specific PTS system, IID component (EC 2.7.1.69)" />
+          <Members vimssId="3788362" LocusId="SGO_0047" Name="gadF" Function="Predicted galactosamine disaccharide-specific PTS system, IIA component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4687</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor, activator">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34822" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis; Arginine degradation</Pathway>
+      <LocusTag Key="SGO_1588" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3789901&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis; Arginine degradation</BiologicalProcess>
+      <Regulog Key="ArgR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3559" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_2057" Name="argR1" Position="-31" Score="5.5">
+          <Sequence>AGAGTATAAATATACAAC</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_2058" Name="argS" Position="-115" Score="4.1">
+          <Sequence>GTTGTATATTTATACTCT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1569" Name="argC" Position="-87" Score="5.5">
+          <Sequence>TTTGTATAAAAATACAAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1593" Name="arcA" Position="-221" Score="4.1">
+          <Sequence>ATTTTATAAAAAAATAAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0175" Name="argG" Position="-42" Score="5">
+          <Sequence>AATGTTTAAAAATACAAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3788489" LocusId="SGO_0175" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+          <Members vimssId="3788490" LocusId="SGO_0176" Name="argH" Function="Argininosuccinate lyase (EC 4.3.2.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3790372" LocusId="SGO_2058" Name="argS" Function="Arginyl-tRNA synthetase (EC 6.1.1.19)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789882" LocusId="SGO_1569" Name="argC" Function="N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)" />
+          <Members vimssId="3789881" LocusId="SGO_1568" Name="argJ" Function="Glutamate N-acetyltransferase (EC 2.3.1.35) / N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="3789880" LocusId="SGO_1567" Name="argB" Function="Acetylglutamate kinase (EC 2.7.2.8)" />
+          <Members vimssId="3789879" LocusId="SGO_1566" Name="argD" Function="Acetylornithine aminotransferase (EC 2.6.1.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3790371" LocusId="SGO_2057" Name="argR1" Function="Arginine metabolism transcriptional regulator ArgR, ArgR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789906" LocusId="SGO_1593" Name="arcA" Function="Arginine deiminase (EC 3.5.3.6)" />
+          <Members vimssId="3789905" LocusId="SGO_1592" Name="arcB" Function="Ornithine carbamoyltransferase (EC 2.1.3.3)" />
+          <Members vimssId="3789904" LocusId="SGO_1591" Name="arcC" Function="Carbamate kinase (EC 2.7.2.2)" />
+          <Members vimssId="3789903" LocusId="SGO_1590" Name="arcD" Function="Arginine/ornithine antiporter" />
+          <Members vimssId="3789902" LocusId="SGO_1589" Name="arcT" Function="acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3559</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="BfrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=44380" />
+      <Effector />
+      <Pathway>Fructooligosaccharides utilization</Pathway>
+      <LocusTag Key="SGO_1306" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3789619&amp;disp=0" />
+      <BiologicalProcess>Fructooligosaccharides utilization</BiologicalProcess>
+      <Regulog Key="BfrR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4597" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1305" Name="bfrE" Position="-88" Score="6.5">
+          <Sequence>AAAATGAAACGTTTCAAAAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1305" Name="bfrE" Position="-30" Score="6.5">
+          <Sequence>AAAATGAAACGTTTCAAAAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789618" LocusId="SGO_1305" Name="bfrE" Function="Fructooligosaccharides ABC transporter, substrate-binding protein" />
+          <Members vimssId="3789617" LocusId="SGO_1304" Name="bfrF" Function="Fructooligosaccharides ABC transporter, permease protein 1" />
+          <Members vimssId="3789616" LocusId="SGO_1303" Name="bfrG" Function="Fructooligosaccharides ABC transporter, permease protein 2" />
+          <Members vimssId="3789615" LocusId="SGO_1302" Name="bfrA" Function="Beta-fructosidases (EC 3.2.1.26)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4597</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46485" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="SGO_0903" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3789217&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4700" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0746" Name="bioY" Position="-35" Score="8.6">
+          <Sequence>ATAGTTACC----------------GTTTACTAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789060" LocusId="SGO_0746" Name="bioY" Function="Substrate-specific component BioY of biotin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4700</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="CcpA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35143" />
+      <Effector>Fructose-1,6-bisphosphate; HPr, phosphocarrier protein</Effector>
+      <Pathway>Global catabolite repression</Pathway>
+      <LocusTag Key="SGO_0773" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3789087&amp;disp=0" />
+      <BiologicalProcess>Global catabolite repression</BiologicalProcess>
+      <Regulog Key="CcpA - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3584" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1427" Name="yuel" Position="-107" Score="4.2">
+          <Sequence>AAATAAGCGTTTTTTT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1486" Name="lacZ" Position="-29" Score="4.4">
+          <Sequence>TTGGAAGCGGTTACTT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1486" Name="lacZ" Position="-119" Score="4.4">
+          <Sequence>ATGAAAACGGCTTCAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0297" Name="ascB" Position="-68" Score="4.2">
+          <Sequence>AAGAAAAGGTTTACAG</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1590" Name="arcD" Position="-80" Score="3.9">
+          <Sequence>AAATAAACATTTTCTT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1625" Name="acuB" Position="-70" Score="4.6">
+          <Sequence>ATGAAAGCGTTTGAAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1548" Name="atpE" Position="-96" Score="4.6">
+          <Sequence>TTAAAATCGCTTACAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0127" Name="nanR" Position="-35" Score="4.7">
+          <Sequence>ATAAAAACGCTTACTA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0118" Name="nanE" Position="-76" Score="5.1">
+          <Sequence>TTGAAAGCGCTTTAAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1283" Name="merA" Position="-122" Score="3.8">
+          <Sequence>CTCAAAACGTATACAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0724" Name="pepD2" Position="-125" Score="4.5">
+          <Sequence>TTGGAAACGCTTGCAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1580" Name="celB" Position="-61" Score="4.3">
+          <Sequence>TTGATGGCGTTTTCAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1381" Name="cas5-2" Position="-85" Score="4">
+          <Sequence>CAGAAACCCCTTACAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1791" Name="celX" Position="-41" Score="3.8">
+          <Sequence>AAATAAACGTTGTTAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1791" Name="celX" Position="-64" Score="5.1">
+          <Sequence>ATAAAAGCGCTTTCAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1745" Name="fbaA" Position="-107" Score="4.1">
+          <Sequence>GAGAAAGCGTTTTATA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0043" Name="bgaC" Position="-48" Score="4.5">
+          <Sequence>ATGAAAGAGTTTTCTT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1630" Name="livJ" Position="-109" Score="4.5">
+          <Sequence>AGGAAAACGTTATCAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1232" Name="ldh" Position="-116" Score="4.6">
+          <Sequence>CTAAAAACGTTTACAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1168" Name="apbE" Position="31" Score="4">
+          <Sequence>ATGAAAATGCTGACTT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1168" Name="apbE" Position="-100" Score="4.1">
+          <Sequence>GTGAAAACGTTGTCTT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0307" Name="pabB" Position="-48" Score="4">
+          <Sequence>AAGAAAACGATTATTG</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0307" Name="pabB" Position="-98" Score="4.8">
+          <Sequence>ATAAAACCGTTTTCAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1167" Name="naoX" Position="-67" Score="4.3">
+          <Sequence>TTGAAACCGCTAACAG</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1649" Name="pflA" Position="-33" Score="4.6">
+          <Sequence>TATAAAACGTTTTCAG</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1858" Name="scrB" Position="-53" Score="4.6">
+          <Sequence>CAGAAAACGTTTACTA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1858" Name="scrB" Position="-163" Score="4.8">
+          <Sequence>TTGAAAGCGATTTTAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0154" Name="pgi" Position="-44" Score="3.8">
+          <Sequence>CGTAAAGCGTTATCAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0154" Name="pgi" Position="-85" Score="4.6">
+          <Sequence>TTGGAAGCGTTTTAAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1077" Name="coaA" Position="-74" Score="4.1">
+          <Sequence>TGTAAATCGTTTACAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1265" Name="rpiA" Position="-120" Score="4.3">
+          <Sequence>AGGAAAATGCTTTCAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1526" Name="lacA1" Position="-54" Score="4.4">
+          <Sequence>AAGAAAGCGTTTTACT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1222" Name="yjbM" Position="-82" Score="4.3">
+          <Sequence>TTGAAAACGATTTATG</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1556" Name="ptsH" Position="-55" Score="4.3">
+          <Sequence>TTGTAAGGGTTATCAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0247" Name="pfl" Position="-115" Score="4.6">
+          <Sequence>AAGAAAAGGCTTACAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0247" Name="pfl" Position="-83" Score="4.1">
+          <Sequence>GTGTAAACGATTACTA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1554" Name="glgB" Position="-28" Score="5.1">
+          <Sequence>TAGAAAACGCTTACAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1133" Name="acoA" Position="-63" Score="4.4">
+          <Sequence>TTGACAGGGTTTTCAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1111" Name="fruR" Position="-27" Score="4">
+          <Sequence>ATGTAAGCTGTTTCAG</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0610" Name="raiA" Position="-63" Score="4.7">
+          <Sequence>ATGAAAGCGTTATAAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0208" Name="hexA" Position="-92" Score="4.1">
+          <Sequence>ATGTAAGCGATTACTC</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1223" Name="yjbK" Position="-36" Score="4.3">
+          <Sequence>CATAAATCGTTTTCAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1556" Name="ptsH" Position="-90" Score="4.4">
+          <Sequence>TTGAAAAAGATTTCAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0162" Name="pepD" Position="-95" Score="4.9">
+          <Sequence>TTGAAAGCGTTTGCAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0721" Name="pepD" Position="-125" Score="4.8">
+          <Sequence>TTGTAAACGCTTGCAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1426" Name="eno" Position="-63" Score="4.2">
+          <Sequence>AAAAAAACGCTTATTT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1653" Name="treP" Position="-89" Score="4.1">
+          <Sequence>TTGGTATCGTTTACAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0771" Name="pepQ" Position="-142" Score="4.5">
+          <Sequence>AAAATAACGTTTTCAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0771" Name="pepQ" Position="-98" Score="4.3">
+          <Sequence>TTGGAAACACTTTCAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1340" Name="pfk" Position="-92" Score="4.1">
+          <Sequence>ATGAAAACGATTTATC</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1594" Name="arcR" Position="-14" Score="3.8">
+          <Sequence>ATAAAAGGGTTATTAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1594" Name="arcR" Position="-51" Score="4.4">
+          <Sequence>TTGTAAGCGTATTTAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0669" Name="typA" Position="-97" Score="4">
+          <Sequence>ATGAAAACATTTACAC</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1582" Name="bglA" Position="-145" Score="4.9">
+          <Sequence>TTGAAAGCGTTGTCAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0388" Name="SUB1370" Position="-63" Score="5">
+          <Sequence>TTGAAAACGATTACAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0773" Name="ccpA" Position="-82" Score="4.3">
+          <Sequence>TTGAAAGTGTTTCCAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0773" Name="ccpA" Position="-38" Score="4.5">
+          <Sequence>ATGAAAACGTTATTTT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0633" Name="hcaR" Position="-16" Score="4.2">
+          <Sequence>TTGAAAGGGTTTTCGT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0505" Name="ptsG" Position="-47" Score="4.7">
+          <Sequence>ATGCAAACGATTTCAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0505" Name="ptsG" Position="-96" Score="4">
+          <Sequence>ATGAAAACCCTTTACA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1654" Name="treR" Position="-106" Score="4.1">
+          <Sequence>TTGTAAACGATACCAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0042" Name="manR" Position="-122" Score="4.5">
+          <Sequence>AAGAAAACTCTTTCAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1137" Name="yrhG" Position="-69" Score="4.3">
+          <Sequence>AAGAAAACGATTTCGT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0292" Name="spxB" Position="-54" Score="4.3">
+          <Sequence>ATGGAAATGTTTTCAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0932" Name="galK" Position="-48" Score="4.8">
+          <Sequence>AAGAAAACGATTACAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0477" Name="gbp" Position="-36" Score="4.8">
+          <Sequence>ATGAAAGCGTATACAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0478" Name="gbp" Position="-37" Score="4.8">
+          <Sequence>ATGAAAGCGTATACAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1215" Name="pgm" Position="-83" Score="4.4">
+          <Sequence>ATGAAAGCGATTAGAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1916" Name="ackA" Position="-26" Score="4.6">
+          <Sequence>CTGAAAACGCTTAAAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0292" Name="spxB" Position="-76" Score="4.3">
+          <Sequence>CTTGAAGCGTTTTCAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1582" Name="bglA" Position="-57" Score="4.2">
+          <Sequence>AAAACAGCGCTTTCTT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0405" Name="hexB" Position="-53" Score="4.8">
+          <Sequence>AAGAAACCGTTTACAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0813" Name="fbp" Position="8" Score="3.9">
+          <Sequence>ATATAAGCGTATTTTA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0440" Name="idlD" Position="-49" Score="4.7">
+          <Sequence>ATGAAAAGGCTTACAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0632" Name="glpK" Position="-74" Score="4.8">
+          <Sequence>AAGAAAGCGTTTTATT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0150" Name="fucA" Position="-39" Score="4.9">
+          <Sequence>AAGAAAGCGTTTTAAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1679" Name="manL" Position="-80" Score="4.6">
+          <Sequence>CTGAAAACGTTTTATA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1515" Name="lacT" Position="-176" Score="4.5">
+          <Sequence>AAGTAAGGGTTTACAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0429" Name="aspC" Position="-229" Score="4.7">
+          <Sequence>TTGTAAACCTTTTCAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1744" Name="drrA" Position="-154" Score="3.9">
+          <Sequence>AGGCAAACGCTTGCAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1857" Name="scrA" Position="-162" Score="4.6">
+          <Sequence>TAGTAAACGTTTTCTG</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1857" Name="scrA" Position="-52" Score="4.8">
+          <Sequence>ATAAAATCGCTTTCAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0352" Name="msmK" Position="-51" Score="4.9">
+          <Sequence>TATAAAACGCTTTCAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1593" Name="arcA" Position="-168" Score="4.5">
+          <Sequence>AAGAAAACGCTTCAAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3788611" LocusId="SGO_0297" Name="ascB" Function="6-phospho-beta-glucosidase (EC 3.2.1.86)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3790104" LocusId="SGO_1791" Name="celX" Function="Cellobiose-specific PTS system, IIA component (EC 2.7.1.69)" />
+          <Members vimssId="3790103" LocusId="SGO_1790" Name="celY" Function="Cellobiose-specific PTS system, cellobiose-specific IIB component (EC 2.7.1.69)" />
+          <Members vimssId="3790102" LocusId="SGO_1789" Name="celZ" Function="Cellobiose-specific PTS system, IIC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789245" LocusId="SGO_0932" Name="galK" Function="Galactokinase (EC 2.7.1.6)" />
+          <Members vimssId="3789246" LocusId="SGO_0933" Name="galT" Function="Galactose-1-phosphate uridylyltransferase (EC 2.7.7.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788464" LocusId="SGO_0150" Name="fucA" Function="Alpha-L-fucosidase (EC 3.2.1.51)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788743" LocusId="SGO_0429" Name="aspC" Function="Aspartate aminotransferase (EC 2.6.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789127" LocusId="SGO_0813" Name="fbp" Function="Fructose-1,6-bisphosphatase, Bacillus type (EC 3.1.3.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788357" LocusId="SGO_0042" Name="manR" Function="Predicted N-acetylgalactosamine utilization transcriptional regulator ManR, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788719" LocusId="SGO_0405" Name="hexB" Function="Beta-hexosaminidase (EC 3.2.1.52)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789895" LocusId="SGO_1582" Name="bglA" Function="6-phospho-beta-glucosidase (EC 3.2.1.86)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788702" LocusId="SGO_0388" Name="SUB1370" Function="Hypothetical protein / zinc carboxypeptidase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3790171" LocusId="SGO_1857" Name="scrA" Function="Sucrose-specific PTS system, IIABC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3790057" LocusId="SGO_1744" Name="drrA" Function="Daunorubicin resistance ATP-binding protein drrA" />
+          <Members vimssId="3790056" LocusId="SGO_1743" Name="drrB" Function="Daunorubicin resistance transmembrane protein drrB" />
+          <Members vimssId="3790055" LocusId="SGO_1742" Name="drrC" Function="Daunorubicin resistance transmembrane protein drrC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788946" LocusId="SGO_0632" Name="glpK" Function="Glycerol kinase (EC 2.7.1.30)" />
+          <Members vimssId="3788945" LocusId="SGO_0631" Name="glpD" Function="Alpha-glycerophosphate oxidase (EC 1.1.3.21)" />
+          <Members vimssId="3788944" LocusId="SGO_0630" Name="glpF" Function="Glycerol uptake facilitator protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788754" LocusId="SGO_0440" Name="idlD" Function="L-iditol 2-dehydrogenase (EC 1.1.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789839" LocusId="SGO_1526" Name="lacA1" Function="Galactose-6-phosphate isomerase, LacA subunit (EC 5.3.1.26)" />
+          <Members vimssId="3789838" LocusId="SGO_1525" Name="lacB1" Function="Galactose-6-phosphate isomerase, LacB subunit (EC 5.3.1.26)" />
+          <Members vimssId="3789837" LocusId="SGO_1524" Name="lacC1" Function="Putative tagatose-6-phosphate kinase" />
+          <Members vimssId="3789836" LocusId="SGO_1523" Name="lacD1" Function="Tagatose 1,6-diphosphate aldolase (EC 4.1.2.40)" />
+          <Members vimssId="3789835" LocusId="SGO_1522" Name="gatA" Function="PTS system, galactose-specific IIA component (EC 2.7.1.69)" />
+          <Members vimssId="3789834" LocusId="SGO_1521" Name="gatB" Function="PTS system, galactose-specific IIB component (EC 2.7.1.69)" />
+          <Members vimssId="3789833" LocusId="SGO_1520" Name="gatC" Function="PTS system, galactose-specific IIC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789085" LocusId="SGO_0771" Name="pepQ" Function="Xaa-Pro dipeptidase (EC 3.4.13.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789966" LocusId="SGO_1653" Name="treP" Function="Trehalose-specific PTS system, IIABC components (EC 2.7.1.69)" />
+          <Members vimssId="3789965" LocusId="SGO_1652" Name="treA" Function="Trehalose-6-phosphate hydrolase (EC 3.2.1.93)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789446" LocusId="SGO_1133" Name="acoA" Function="Acetoin dehydrogenase E1 component alpha-subunit (EC 1.2.4.-)" />
+          <Members vimssId="3789445" LocusId="SGO_1132" Name="acoB" Function="Acetoin dehydrogenase E1 component beta-subunit (EC 1.2.4.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788983" LocusId="SGO_0669" Name="typA" Function="GTP-binding protein TypA/BipA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789907" LocusId="SGO_1594" Name="arcR" Function="Arginine catabolism (ADI pathway) transcriptional regulator ArcR, Crp-Fnr family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789653" LocusId="SGO_1340" Name="pfk" Function="6-phosphofructokinase (EC 2.7.1.11)" />
+          <Members vimssId="3789652" LocusId="SGO_1339" Name="pyk" Function="Pyruvate kinase (EC 2.7.1.40)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789992" LocusId="SGO_1679" Name="manL" Function="PTS system, mannose-specific IIAB components" />
+          <Members vimssId="3789993" LocusId="SGO_1680" Name="manM" Function="PTS system, mannose-specific IIC component (EC 2.7.1.69)" />
+          <Members vimssId="3789994" LocusId="SGO_1681" Name="manN" Function="PTS system, mannose-specific IID component (EC 2.7.1.69)" />
+          <Members vimssId="3789995" LocusId="SGO_1682" Name="manO" Function="Putative regulator of the mannose operon, ManO" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788947" LocusId="SGO_0633" Name="hcaR" Function="Predicted NADH peroxidase transcriptional regulator" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789038" LocusId="SGO_0724" Name="pepD2" Function="Dipeptidase (EC 3.4.-.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789545" LocusId="SGO_1232" Name="ldh" Function="L-lactate dehydrogenase (EC 1.1.1.27)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789799" LocusId="SGO_1486" Name="lacZ" Function="Beta-galactosidase (EC 3.2.1.23)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789535" LocusId="SGO_1222" Name="yjbM" Function="GTP pyrophosphokinase (EC 2.7.6.5)" />
+          <Members vimssId="3789534" LocusId="SGO_1221" Name="ppnK" Function="Predicted inorganic polyphosphate/ATP-NAD kinase" />
+          <Members vimssId="3789533" LocusId="SGO_1220" Name="yjbO" Function="Similar to ribosomal large subunit pseudouridine synthase D, Bacillus subtilis YjbO type" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789861" LocusId="SGO_1548" Name="atpE" Function="ATP synthase C chain (EC 3.6.3.14)" />
+          <Members vimssId="3789860" LocusId="SGO_1547" Name="atpB" Function="ATP synthase A chain (EC 3.6.3.14)" />
+          <Members vimssId="3789859" LocusId="SGO_1546" Name="atpF" Function="ATP synthase B chain (EC 3.6.3.14)" />
+          <Members vimssId="3789858" LocusId="SGO_1545" Name="atpH" Function="ATP synthase delta chain (EC 3.6.3.14)" />
+          <Members vimssId="3789857" LocusId="SGO_1544" Name="atpA" Function="ATP synthase alpha chain (EC 3.6.3.14)" />
+          <Members vimssId="3789856" LocusId="SGO_1543" Name="atpG" Function="ATP synthase gamma chain (EC 3.6.3.14)" />
+          <Members vimssId="3789855" LocusId="SGO_1542" Name="atpD" Function="ATP synthase beta chain (EC 3.6.3.14)" />
+          <Members vimssId="3789854" LocusId="SGO_1541" Name="atpC" Function="ATP synthase epsilon chain (EC 3.6.3.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789938" LocusId="SGO_1625" Name="acuB" Function="Acetoin utilization protein AcuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789903" LocusId="SGO_1590" Name="arcD" Function="Arginine/ornithine antiporter" />
+          <Members vimssId="3789902" LocusId="SGO_1589" Name="arcT" Function="Xaa-His dipeptidase (EC 3.4.13.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788819" LocusId="SGO_0505" Name="ptsG" Function="PTS system glucose-specific EIICBA component (EC 2.7.1.69)" />
+          <Members vimssId="3788820" LocusId="SGO_0506" Name="rgfB" Function="Exodeoxyribonuclease III (EC 3.1.11.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3790058" LocusId="SGO_1745" Name="fbaA" Function="Fructose-bisphosphate aldolase class II (EC 4.1.2.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789967" LocusId="SGO_1654" Name="treR" Function="Trehalose utilization transcriptional regulator TreR, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789087" LocusId="SGO_0773" Name="ccpA" Function="Carbon catabolism global transcriptional regulator CcpA, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789481" LocusId="SGO_1168" Name="apbE" Function="Predicted thiamine biosynthesis lipoprotein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3790230" LocusId="SGO_1916" Name="ackA" Function="Acetate kinase (EC 2.7.2.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788358" LocusId="SGO_0043" Name="bgaC" Function="Beta-galactosidase (EC 3.2.1.23)" />
+          <Members vimssId="3788359" LocusId="SGO_0044" Name="agaB" Function="Predicted galactosamine-specific PTS, EIIB component (EC 2.7.1.69)" />
+          <Members vimssId="3788360" LocusId="SGO_0045" Name="agaC" Function="Predicted galactosamine-specific PTS, EIIC component (EC 2.7.1.69)" />
+          <Members vimssId="3788361" LocusId="SGO_0046" Name="agaD" Function="Predicted galactosamine-specific PTS, EIID component (EC 2.7.1.69)" />
+          <Members vimssId="3788362" LocusId="SGO_0047" Name="agaE" Function="Predicted galactosamine-specific PTS, EIIA component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788924" LocusId="SGO_0610" Name="raiA" Function="Ribosome-associated protein Y" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789943" LocusId="SGO_1630" Name="livJ" Function="Branched-chain amino acid ABC transporter, substrate-binding protein" />
+          <Members vimssId="3789942" LocusId="SGO_1629" Name="livH" Function="Branched-chain amino acid ABC transporter, permease protein 1" />
+          <Members vimssId="3789941" LocusId="SGO_1628" Name="livM" Function="Branched-chain amino acid ABC transporter, permease protein 2" />
+          <Members vimssId="3789940" LocusId="SGO_1627" Name="livG" Function="Branched-chain amino acid ABC transporter, ATP-binding protein 1" />
+          <Members vimssId="3789939" LocusId="SGO_1626" Name="livF" Function="Branched-chain amino acid ABC transporter, ATP-binding protein 2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789528" LocusId="SGO_1215" Name="pgm" Function="Phosphoglucomutase (EC 5.4.2.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788561" LocusId="SGO_0247" Name="pfl" Function="Pyruvate formate-lyase (EC 2.3.1.54)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789867" LocusId="SGO_1554" Name="glgB" Function="1,4-alpha-glucan (glycogen) branching enzyme, GH-13-type (EC 2.4.1.18)" />
+          <Members vimssId="3789866" LocusId="SGO_1553" Name="glgC" Function="Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27)" />
+          <Members vimssId="3789865" LocusId="SGO_1552" Name="glgD" Function="Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27)" />
+          <Members vimssId="3789864" LocusId="SGO_1551" Name="glgA" Function="Glycogen synthase, ADP-glucose transglucosylase (EC 2.4.1.21)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789536" LocusId="SGO_1223" Name="yjbK" Function="Adenylate cyclase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788606" LocusId="SGO_0292" Name="spxB" Function="Pyruvate oxidase (EC 1.2.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788621" LocusId="SGO_0307" Name="pabB" Function="Para-aminobenzoate synthase component I (EC 4.1.3.-); Anthranilate/para-aminobenzoate synthases component I/ Chorismate binding enzyme, putative" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789480" LocusId="SGO_1167" Name="naoX" Function="Predicted NADH oxidase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789869" LocusId="SGO_1556" Name="ptsH" Function="Phosphotransferase system, HPr-related protein" />
+          <Members vimssId="3789868" LocusId="SGO_1555" Name="ptsI" Function="Phosphoenolpyruvate-protein kinase, PTS system component (EC 2.7.3.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788468" LocusId="SGO_0154" Name="pgi" Function="Glucose-6-phosphate isomerase (EC 5.3.1.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789893" LocusId="SGO_1580" Name="celB" Function="Cellobiose-specific PTS, component EIIB" />
+          <Members vimssId="3789892" LocusId="SGO_1579" Name="celR" Function="Cellobiose utilization transcriptional regulator CelR, BglG family" />
+          <Members vimssId="3789891" LocusId="SGO_1578" Name="celA" Function="Cellobiose-specific PTS, component EIIA" />
+          <Members vimssId="3789890" LocusId="SGO_1577" Name="SP_0309" Function="Conserved hypothetical protein" />
+          <Members vimssId="3789889" LocusId="SGO_1576" Name="celD" Function="Cellobiose-specific PTS, component EIIC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789424" LocusId="SGO_1111" Name="fruR" Function="Fructose utilization transcriptional regulator FruR, DeoR family" />
+          <Members vimssId="3789425" LocusId="SGO_1112" Name="fruB" Function="1-phosphofructokinase (EC 2.7.1.56)" />
+          <Members vimssId="3789426" LocusId="SGO_1113" Name="fruA" Function="Fructose-specific PTS system, IIABC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3790172" LocusId="SGO_1858" Name="scrB" Function="Sucrose-6-phosphate hydrolase (EC 3.2.1.26)" />
+          <Members vimssId="3790173" LocusId="SGO_1859" Name="scrR" Function="Sucrose operon repressor ScrR, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789962" LocusId="SGO_1649" Name="pflA" Function="Pyruvate formate-lyase activating enzyme (EC 1.97.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788522" LocusId="SGO_0208" Name="hexA" Function="Endo-beta-N-acetylglucosaminidase (EC 3.2.1.96)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788442" LocusId="SGO_0127" Name="nanR" Function="Sialic acid utilization transcriptional regulator NanR, RpiR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788433" LocusId="SGO_0118" Name="nanE" Function="N-acetylmannosamine-6-phosphate 2-epimerase (EC 5.1.3.9)" />
+          <Members vimssId="3788434" LocusId="SGO_0119" Name="yjgK" Function="Conserved hypothetical protein" />
+          <Members vimssId="3788435" LocusId="SGO_0120" Name="nanU" Function="N-acetylneuraminate ABC transporter, substrate-binding protein" />
+          <Members vimssId="3788436" LocusId="SGO_0121" Name="nanV" Function="N-acetylneuraminate ABC transporter, permease protein 1" />
+          <Members vimssId="3788437" LocusId="SGO_0122" Name="nanW" Function="N-acetylneuraminate ABC transporter, permease protein 2" />
+          <Members vimssId="3788438" LocusId="SGO_0123" Name="yjhC" Function="Predicted oxidoreductase (EC 1.1.1.-)" />
+          <Members vimssId="3788439" LocusId="SGO_0124" Name="nanA" Function="N-acetylneuraminate lyase (EC 4.1.3.3)" />
+          <Members vimssId="3788440" LocusId="SGO_0125" Name="nanK" Function="N-acetylmannosamine kinase (EC 2.7.1.60)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789739" LocusId="SGO_1426" Name="eno" Function="Enolase (EC 4.2.1.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789740" LocusId="SGO_1427" Name="yuel" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788476" LocusId="SGO_0162" Name="pepD" Function="Dipeptidase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789450" LocusId="SGO_1137" Name="yrhG" Function="Predicted permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789596" LocusId="SGO_1283" Name="merA" Function="Mercuric ion reductase (EC 1.16.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789694" LocusId="SGO_1381" Name="cas5-2" Function="CRISPR/Cas system-associated protein Cas9" />
+          <Members vimssId="3789693" LocusId="SGO_1380" Name="cas1" Function="CRISPR/Cas system-associated protein Cas1" />
+          <Members vimssId="3789692" LocusId="SGO_1379" Name="cas2" Function="CRISPR/Cas system-associated protein Cas2" />
+          <Members vimssId="3789691" LocusId="SGO_1378" Name="str0660" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789035" LocusId="SGO_0721" Name="pepD" Function="Dipeptidase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789828" LocusId="SGO_1515" Name="lacT" Function="Predicted transcription antiterminator LacT, BglG family" />
+          <Members vimssId="3789827" LocusId="SGO_1514" Name="lacF" Function="Lactose-specific PTS system, IIA component (EC 2.7.1.69)" />
+          <Members vimssId="3789826" LocusId="SGO_1513" Name="lacE" Function="Lactose-specific PTS system, IIBC component (EC 2.7.1.69)" />
+          <Members vimssId="3789825" LocusId="SGO_1512" Name="lacG" Function="6-phospho-beta-galactosidase (EC 3.2.1.85)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788791" LocusId="SGO_0477" Name="gbp" Function="Glucan binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788792" LocusId="SGO_0478" Name="gbp" Function="Glucan binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789578" LocusId="SGO_1265" Name="rpiA" Function="Ribose 5-phosphate isomerase A (EC 5.3.1.6)" />
+          <Members vimssId="3789577" LocusId="SGO_1264" Name="deoB" Function="Phosphopentomutase (EC 5.4.2.7)" />
+          <Members vimssId="3789576" LocusId="SGO_1263" Name="punA" Function="Purine nucleoside phosphorylase (EC 2.4.2.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789906" LocusId="SGO_1593" Name="arcA" Function="Arginine deiminase (EC 3.5.3.6)" />
+          <Members vimssId="3789905" LocusId="SGO_1592" Name="arcB" Function="Ornithine carbamoyltransferase (EC 2.1.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788666" LocusId="SGO_0352" Name="msmK" Function="Multiple sugar ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789390" LocusId="SGO_1077" Name="coaA" Function="Pantothenate kinase (EC 2.7.1.33)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3584</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CcpN" RegulationMode="repressor">
+      <Regulator Key="CcpN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=44851" />
+      <Effector />
+      <Pathway>Gluconeogenesis</Pathway>
+      <LocusTag Key="SGO_0811" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3789125&amp;disp=0" />
+      <BiologicalProcess>Gluconeogenesis</BiologicalProcess>
+      <Regulog Key="CcpN - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4633" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0810" Name="ppdK" Position="-39" Score="5.7">
+          <Sequence>TTTTAATATAACACATATTAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0811" Name="yqfL" Position="-216" Score="5.7">
+          <Sequence>TTAATATGTGTTATATTAAAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789124" LocusId="SGO_0810" Name="ppdK" Function="Pyruvate phosphate dikinase (EC 2.7.9.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789125" LocusId="SGO_0811" Name="yqfL" Function="Predicted phosphotransferase" />
+          <Members vimssId="3789126" LocusId="SGO_0812" Name="ccpN" Function="Gluconeogenesis transcriptional regulator CcpN, CcpN family" />
+          <Members vimssId="3789127" LocusId="SGO_0813" Name="fbp" Function="Fructose-1,6-bisphosphatase, Bacillus type (EC 3.1.3.11)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4633</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BglG" RegulationMode="repressor">
+      <Regulator Key="CelR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=44893" />
+      <Effector>CelB, cellobiose-specific PTS component EIIB; HPr, phosphocarrier protein</Effector>
+      <Pathway>Cellobiose utilization</Pathway>
+      <LocusTag Key="SGO_1579" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3789892&amp;disp=0" />
+      <BiologicalProcess>Cellobiose utilization</BiologicalProcess>
+      <Regulog Key="CelR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4636" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1582" Name="bglA" Position="-89" Score="5.9">
+          <Sequence>TTTCCGTTTCGATATGGAAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1580" Name="celB" Position="-96" Score="6.3">
+          <Sequence>TTTCCGTTTCGATACGGAAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789895" LocusId="SGO_1582" Name="bglA" Function="6-phospho-beta-glucosidase (EC 3.2.1.86)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789893" LocusId="SGO_1580" Name="celB" Function="Cellobiose-specific PTS, component EIIB" />
+          <Members vimssId="3789892" LocusId="SGO_1579" Name="celR" Function="Cellobiose utilization transcriptional regulator CelR, BglG family" />
+          <Members vimssId="3789891" LocusId="SGO_1578" Name="celA" Function="Cellobiose-specific PTS, component EIIA" />
+          <Members vimssId="3789890" LocusId="SGO_1577" Name="PF06570" Function="Hypothetical membrane protein, PF06570 family" />
+          <Members vimssId="3789889" LocusId="SGO_1576" Name="celD" Function="Cellobiose-specific PTS, component EIIC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4636</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor (activator)">
+      <Regulator Key="CmbR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42382" />
+      <Effector>O-acetyl-L-serine</Effector>
+      <Pathway>Cysteine metabolism</Pathway>
+      <LocusTag Key="SGO_1088" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3789401&amp;disp=0" />
+      <BiologicalProcess>Cysteine metabolism</BiologicalProcess>
+      <Regulog Key="CmbR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4369" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0985" Name="str1582" Position="-139" Score="5.2">
+          <Sequence>CTTATAAATTTTTTCTATCAG</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0985" Name="str1582" Position="-117" Score="4.9">
+          <Sequence>CCGATAAAATATACATATTAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0578" Name="tcyB" Position="-170" Score="4.7">
+          <Sequence>GTCATAAAATTTGCTTATACC</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0578" Name="tcyB" Position="-148" Score="4.3">
+          <Sequence>TTGATAAATAATTTATACTGT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0167" Name="yvdE" Position="-97" Score="5.5">
+          <Sequence>TTGATAAAAAATTTTTATAAG</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0457" Name="gshT" Position="-85" Score="4.7">
+          <Sequence>GCAATAAATAAAATTTATACC</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0310" Name="metE" Position="-182" Score="4.2">
+          <Sequence>GTTATAGTTTTTGATTATACC</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3788892" LocusId="SGO_0578" Name="tcyB" Function="Cystine ABC transporter, permease protein" />
+          <Members vimssId="3788893" LocusId="SGO_0579" Name="tcyC" Function="Cystine ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789298" LocusId="SGO_0985" Name="str1582" Function="Predicted polar amino acid ABC transporter, permease protein 1" />
+          <Members vimssId="3789297" LocusId="SGO_0984" Name="str1581" Function="Predicted polar amino acid ABC transporter, permease protein 2" />
+          <Members vimssId="3789296" LocusId="SGO_0983" Name="str1580" Function="Predicted polar amino acid ABC transporter, ATP-binding protein" />
+          <Members vimssId="3789295" LocusId="SGO_0982" Name="str1579" Function="Predicted polar amino acid ABC transporter, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788624" LocusId="SGO_0310" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+          <Members vimssId="3788625" LocusId="SGO_0311" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788481" LocusId="SGO_0167" Name="yvdE" Function="Predicted glutamine amidotransferase, class I" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788771" LocusId="SGO_0457" Name="gshT" Function="Predicted glutathione ABC transporter, substrate-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4369</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CodY" RegulationMode="repressor (activator)">
+      <Regulator Key="CodY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45105" />
+      <Effector>Guanosine triphosphate; Branched-chain amino acids</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="SGO_0431" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3788745&amp;disp=0" />
+      <BiologicalProcess>Amino acid metabolism</BiologicalProcess>
+      <Regulog Key="CodY - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4653" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0565" Name="adhB1" Position="-282" Score="5.4">
+          <Sequence>AATTGTCTGAAAATT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0431" Name="codY" Position="-71" Score="5.6">
+          <Sequence>AATTTTCAGATAATT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0139" Name="thrC" Position="-57" Score="5.2">
+          <Sequence>AATTTTCTGATAAAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0526" Name="ilvB" Position="-249" Score="5.8">
+          <Sequence>AATTTTCTGAAAATT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0526" Name="ilvB" Position="-27" Score="5.1">
+          <Sequence>AATTTTTTGACAATT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1712" Name="oppA2" Position="-90" Score="5.2">
+          <Sequence>AATATTCTGACAATT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0276" Name="gdhA" Position="-95" Score="5.8">
+          <Sequence>AATTTTCAGAAAATT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1506" Name="SMU.1109" Position="-102" Score="4.8">
+          <Sequence>TATTTTCCGAAAATT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1506" Name="SMU.1109" Position="-42" Score="5.6">
+          <Sequence>AATTATCTGAAAATT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1238" Name="ilvE" Position="-99" Score="5.8">
+          <Sequence>AATTTTCTGAAAATT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0226" Name="ubiE" Position="-60" Score="5.2">
+          <Sequence>AAATGTCAGAAAATT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1927" Name="rpoB" Position="-222" Score="5.4">
+          <Sequence>ATTTTTCTGAAAATT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1630" Name="livK" Position="-66" Score="5.6">
+          <Sequence>AATTTTCTGATAATT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1701" Name="thrA" Position="-38" Score="4.5">
+          <Sequence>AATTGTTTGAATAAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0985" Name="str1582" Position="-248" Score="4.8">
+          <Sequence>TATTTTCAGAATAAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1206" Name="asd" Position="-29" Score="5.5">
+          <Sequence>AATTTTTAGAAAATT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_2064" Name="ilvD" Position="-95" Score="5.3">
+          <Sequence>AAAATTCTGAAAATT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0566" Name="scpC" Position="-55" Score="5.4">
+          <Sequence>AATTTTCAGACAATT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1165" Name="efeO" Position="-83" Score="5.2">
+          <Sequence>AATTATCTGACAATT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0911" Name="yfjA" Position="-87" Score="5.1">
+          <Sequence>TATATTCAGAAAATT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0476" Name="ymdE" Position="-42" Score="5.3">
+          <Sequence>AAAATTCAGAAAATT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0342" Name="pepF" Position="22" Score="4.5">
+          <Sequence>AATTTCCAGAAAATG</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1625" Name="acuB" Position="-173" Score="4.8">
+          <Sequence>AATTTTTAGAAACTT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3788745" LocusId="SGO_0431" Name="codY" Function="Nutrient limitation global transcriptional regulator CodY, CodY family" />
+          <Members vimssId="3788746" LocusId="SGO_0432" Name="pncA" Function="Nicotinamidase (EC 3.5.1.19)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788590" LocusId="SGO_0276" Name="gdhA" Function="NADP-specific glutamate dehydrogenase (EC 1.4.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789551" LocusId="SGO_1238" Name="ilvE" Function="Branched-chain amino acid aminotransferase (EC 2.6.1.42)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3790025" LocusId="SGO_1712" Name="oppA2" Function="Oligopeptide ABC transporter, substrate-binding protein (TC 3.A.1.5.1)" />
+          <Members vimssId="3790024" LocusId="SGO_1711" Name="oppB2" Function="Oligopeptide ABC transporter, permease protein 1 (TC 3.A.1.5.1)" />
+          <Members vimssId="3790023" LocusId="SGO_1710" Name="oppC2" Function="Oligopeptide ABC transporter, permease protein 2 (TC 3.A.1.5.1)" />
+          <Members vimssId="3790022" LocusId="SGO_1709" Name="oppD2" Function="Oligopeptide ABC transporter, ATP-binding protein 1 (TC 3.A.1.5.1)" />
+          <Members vimssId="3790021" LocusId="SGO_1708" Name="oppF2" Function="Oligopeptide ABC transporter, ATP-binding protein 2 (TC 3.A.1.5.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789819" LocusId="SGO_1506" Name="SMU.1109" Function="Predicted Mn2+/Fe2+ transporter, NRAMP family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788540" LocusId="SGO_0226" Name="ubiE" Function="SAM-dependent methyltransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788454" LocusId="SGO_0139" Name="thrC" Function="Threonine synthase (EC 4.2.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788879" LocusId="SGO_0565" Name="adhB1" Function="Alcohol dehydrogenase (EC 1.1.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788840" LocusId="SGO_0526" Name="ilvB" Function="Acetolactate synthase large subunit (EC 2.2.1.6)" />
+          <Members vimssId="3788841" LocusId="SGO_0527" Name="ilvN" Function="Acetolactate synthase small subunit (EC 2.2.1.6)" />
+          <Members vimssId="3788842" LocusId="SGO_0528" Name="ilvC" Function="Ketol-acid reductoisomerase (EC 1.1.1.86)" />
+          <Members vimssId="3788843" LocusId="SGO_0529" Name="ilvA" Function="Threonine dehydratase (EC 4.3.1.19)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3790241" LocusId="SGO_1927" Name="rpoB" Function="DNA-directed RNA polymerase beta subunit (EC 2.7.7.6)" />
+          <Members vimssId="3790240" LocusId="SGO_1926" Name="rpoC" Function="DNA-directed RNA polymerase beta' subunit (EC 2.7.7.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3790378" LocusId="SGO_2064" Name="ilvD" Function="Dihydroxy-acid dehydratase (EC 4.2.1.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789519" LocusId="SGO_1206" Name="asd" Function="Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11)" />
+          <Members vimssId="3789518" LocusId="SGO_1205" Name="dapA" Function="Dihydrodipicolinate synthase (EC 4.2.1.52)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789938" LocusId="SGO_1625" Name="acuB" Function="Acetoin utilization protein AcuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788656" LocusId="SGO_0342" Name="pepF" Function="Oligoendopeptidase F" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789225" LocusId="SGO_0911" Name="yfjA" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789478" LocusId="SGO_1165" Name="efeO" Function="Ferrous iron transport periplasmic protein EfeO, contains peptidase-M75 domain and (frequently) cupredoxin-like domain" />
+          <Members vimssId="3789477" LocusId="SGO_1164" Name="efeB" Function="Ferrous iron transport peroxidase EfeB" />
+          <Members vimssId="3789476" LocusId="SGO_1163" Name="efeU" Function="Ferrous iron transport permease EfeU" />
+          <Members vimssId="3789475" LocusId="SGO_1162" Name="tatC" Function="Twin-arginine translocation protein TatC" />
+          <Members vimssId="3789474" LocusId="SGO_1161" Name="tatA" Function="Twin-arginine translocation protein TatA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788880" LocusId="SGO_0566" Name="scpC" Function="Serine endopeptidase ScpC (EC 3.4.21.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788790" LocusId="SGO_0476" Name="ymdE" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789298" LocusId="SGO_0985" Name="str1582" Function="Predicted amino acid ABC transporter, permease protein 1" />
+          <Members vimssId="3789297" LocusId="SGO_0984" Name="str1581" Function="Predicted amino acid ABC transporter, permease protein 2" />
+          <Members vimssId="3789296" LocusId="SGO_0983" Name="str1580" Function="Predicted amino acid ABC transporter, ATP-binding protein" />
+          <Members vimssId="3789295" LocusId="SGO_0982" Name="str1579" Function="Predicted amino acid ABC transporter, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789943" LocusId="SGO_1630" Name="livK" Function="Branched-chain amino acids ABC transporter, substrate-binding protein (TC 3.A.1.4.1)" />
+          <Members vimssId="3789942" LocusId="SGO_1629" Name="livH" Function="Branched-chain amino acids ABC transporter, permease protein 1 (TC 3.A.1.4.1)" />
+          <Members vimssId="3789941" LocusId="SGO_1628" Name="livM" Function="Branched-chain amino acids ABC transporter, permease protein 2 (TC 3.A.1.4.1)" />
+          <Members vimssId="3789940" LocusId="SGO_1627" Name="livG" Function="Branched-chain amino acids ABC transporter, ATP-binding protein 1 (TC 3.A.1.4.1)" />
+          <Members vimssId="3789939" LocusId="SGO_1626" Name="livF" Function="Branched-chain amino acids ABC transporter, ATP-binding protein 2 (TC 3.A.1.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3790014" LocusId="SGO_1701" Name="thrA" Function="Aspartokinase (EC 2.7.2.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4653</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CopY" RegulationMode="repressor">
+      <Regulator Key="CopR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34792" />
+      <Effector>Copper ion, (Cu2+)</Effector>
+      <Pathway>Copper homeostasis</Pathway>
+      <LocusTag Key="SGO_1935" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3790249&amp;disp=0" />
+      <BiologicalProcess>Copper homeostasis</BiologicalProcess>
+      <Regulog Key="CopR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3557" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0289" Name="copR" Position="-75" Score="6.1">
+          <Sequence>TTGTTTACAAATGTAAATGT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0289" Name="copR" Position="-34" Score="6">
+          <Sequence>AGATTTACAAATGTAGATTT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1935" Name="copR" Position="-66" Score="5.7">
+          <Sequence>GCGATTACAAATGTAAACTA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1935" Name="copR" Position="-37" Score="5.9">
+          <Sequence>TGAATTACAAATGTAAATAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3790249" LocusId="SGO_1935" Name="copR" Function="Copper transport transcriptional regulator CopR, CopY family" />
+          <Members vimssId="3790248" LocusId="SGO_1934" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="3790247" LocusId="SGO_1933" Name="copZ" Function="Copper chaperone" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788603" LocusId="SGO_0289" Name="copR" Function="Copper transport transcriptional regulator CopR, CopY family" />
+          <Members vimssId="3788604" LocusId="SGO_0290" Name="copA2" Function="Copper-exporting ATPase (EC 3.6.3.4)" />
+          <Members vimssId="3788605" LocusId="SGO_0291" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3557</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CtsR" RegulationMode="repressor">
+      <Regulator Key="CtsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45245" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="SGO_1999" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3790313&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="CtsR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4665" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0688" Name="clpE" Position="-65" Score="6.9">
+          <Sequence>TAAAGTTTGACTATTTTTGACCAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1886" Name="groS" Position="-96" Score="6.9">
+          <Sequence>TTTTTCTTGACTATTTTTGACCAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1632" Name="clpP" Position="-103" Score="6.6">
+          <Sequence>AAAAATTTGACCTTTATTGACCAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1999" Name="ctsR" Position="-110" Score="0.5">
+          <Sequence>TTAGTCAAAGATAGTCAATGTCAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3790313" LocusId="SGO_1999" Name="ctsR" Function="Stress and heat shock response transcriptional regulator CtsR, CtsR family" />
+          <Members vimssId="3790312" LocusId="SGO_1998" Name="clpC" Function="ATP-dependent Clp protease ATP-binding subunit ClpC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789002" LocusId="SGO_0688" Name="clpE" Function="ATP-dependent Clp protease, ATP-binding subunit ClpE" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3790200" LocusId="SGO_1886" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="3790199" LocusId="SGO_1885" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789945" LocusId="SGO_1632" Name="clpP" Function="ATP-dependent Clp protease proteolytic subunit (EC 3.4.21.92)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4665</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MarR" RegulationMode="repressor">
+      <Regulator Key="FabT" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34963" />
+      <Effector>Long-chain acyl-ACP</Effector>
+      <Pathway>Fatty acid biosynthesis</Pathway>
+      <LocusTag Key="SGO_1699" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3790012&amp;disp=0" />
+      <BiologicalProcess>Fatty acid biosynthesis</BiologicalProcess>
+      <Regulog Key="FabT - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3571" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1700" Name="fabM" Position="-64" Score="4.6">
+          <Sequence>TATTTGACATTCAAAAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1695" Name="fabK" Position="-81" Score="6.1">
+          <Sequence>AGTTTGACTGTCAAAGT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1699" Name="fabT" Position="-126" Score="5.8">
+          <Sequence>AATTTGATAGTCAAATG</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3790013" LocusId="SGO_1700" Name="fabM" Function="enoyl-CoA hydratase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3790008" LocusId="SGO_1695" Name="fabK" Function="Enoyl-[acyl-carrier-protein] reductase [FMN] (EC 1.3.1.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3790012" LocusId="SGO_1699" Name="fabT" Function="Fatty acid biosynthesis transcriptional regulator FabT, MarR family" />
+          <Members vimssId="3790011" LocusId="SGO_1698" Name="fabH" Function="3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)" />
+          <Members vimssId="3790010" LocusId="SGO_1697" Name="acpP" Function="Acyl carrier protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3571</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DeoR" RegulationMode="repressor">
+      <Regulator Key="FruR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45204" />
+      <Effector>Fructose-6-phosphate</Effector>
+      <Pathway>Fructose utilization</Pathway>
+      <LocusTag Key="SGO_1111" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3789424&amp;disp=0" />
+      <BiologicalProcess>Fructose utilization</BiologicalProcess>
+      <Regulog Key="FruR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4662" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1111" Name="fruR" Position="-73" Score="6">
+          <Sequence>TGAAAGAAAATGCTTGACTT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1111" Name="fruR" Position="-83" Score="5.9">
+          <Sequence>TGATAGAAAATGAAAGAAAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789424" LocusId="SGO_1111" Name="fruR" Function="Fructose utilization transcriptional regulator FruR, DeoR family" />
+          <Members vimssId="3789425" LocusId="SGO_1112" Name="fruB" Function="1-phosphofructokinase (EC 2.7.1.56)" />
+          <Members vimssId="3789426" LocusId="SGO_1113" Name="fruA" Function="Fructose-specific PTS, EIIABC component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4662</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="GalR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42173" />
+      <Effector>Galactose</Effector>
+      <Pathway>Galactose utilization</Pathway>
+      <LocusTag Key="SGO_0904" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3789218&amp;disp=0" />
+      <BiologicalProcess>Galactose utilization</BiologicalProcess>
+      <Regulog Key="GalR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4350" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0932" Name="galK" Position="-109" Score="5.4">
+          <Sequence>GATTGTTTAGTAAAACTTT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0904" Name="galR" Position="-82" Score="5.1">
+          <Sequence>GATGTTTTACTAAATTCTA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789245" LocusId="SGO_0932" Name="galK" Function="Galactokinase (EC 2.7.1.6)" />
+          <Members vimssId="3789246" LocusId="SGO_0933" Name="galT" Function="Galactose-1-phosphate uridylyltransferase (EC 2.7.7.10)" />
+          <Members vimssId="3789247" LocusId="SGO_0934" Name="galE" Function="UDP-glucose 4-epimerase (EC 5.1.3.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789218" LocusId="SGO_0904" Name="galR" Function="Galactose utilization transcriptional regulator GalR, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4350</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="GlnR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34865" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="SGO_0214" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3788528&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="GlnR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3563" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1715" Name="aliB" Position="-173" Score="5.7">
+          <Sequence>ATGTAATGTTTTCTGACAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0276" Name="gdhA" Position="-35" Score="5.7">
+          <Sequence>ATGTAATAAAATATAACAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0214" Name="glnR" Position="-286" Score="5.5">
+          <Sequence>ATGTCAGAAAAAGTAACAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1613" Name="citB" Position="-99" Score="5.6">
+          <Sequence>ATGTCAGAAAATATAACGT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1037" Name="glnP" Position="-91" Score="6">
+          <Sequence>ATGTCATATAACCTAACAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3790028" LocusId="SGO_1715" Name="aliB" Function="ABC transporter substrate-binding lipoprotein-oligopeptide transport" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788528" LocusId="SGO_0214" Name="glnR" Function="Nitrogen metabolism transcriptional regulator GlnR, MerR family" />
+          <Members vimssId="3788529" LocusId="SGO_0215" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789926" LocusId="SGO_1613" Name="citB" Function="Aconitate hydratase (EC 4.2.1.3)" />
+          <Members vimssId="3789925" LocusId="SGO_1612" Name="citZ" Function="Citrate synthase (EC 2.3.3.1)" />
+          <Members vimssId="3789924" LocusId="SGO_1611" Name="icd" Function="Isocitrate dehydrogenase [NADP] (EC 1.1.1.42)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788590" LocusId="SGO_0276" Name="gdhA" Function="Glutamate dehydrogenase, NADP-specific (EC 1.4.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789350" LocusId="SGO_1037" Name="glnP" Function="Glutamine ABC transporter, permease and substrate-binding protein" />
+          <Members vimssId="3789349" LocusId="SGO_1036" Name="glnQ" Function="Glutamine ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3563</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="activator">
+      <Regulator Key="HomR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=43963" />
+      <Effector>O-acetyl-L-serine</Effector>
+      <Pathway>Methionine metabolism; Cysteine metabolism</Pathway>
+      <LocusTag Key="" Value="" />
+      <BiologicalProcess>Methionine metabolism; Cysteine metabolism</BiologicalProcess>
+      <Regulog Key="HomR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4544" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0310" Name="metE" Position="-99" Score="4.6">
+          <Sequence>GATATAGTTTTTGGCTATATC</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0310" Name="metE" Position="-182" Score="5.2">
+          <Sequence>GTTATAGTTTTTGATTATACC</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3788624" LocusId="SGO_0310" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+          <Members vimssId="3788625" LocusId="SGO_0311" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4544</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38788" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="SGO_0400" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3788714&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3960" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0400" Name="hrcA" Position="-59" Score="6.3">
+          <Sequence>TTAGCACTCAAAGTGGTCGAGTGCTAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0400" Name="hrcA" Position="-142" Score="7.9">
+          <Sequence>TTAGCACTCTTGCAAAAAGAGTGCTAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1886" Name="groS" Position="-50" Score="7.3">
+          <Sequence>TTAGCACTCGATAGACGAGAGTGCTAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3788714" LocusId="SGO_0400" Name="hrcA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="3788715" LocusId="SGO_0401" Name="grpE" Function="Heat shock protein GrpE" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3790200" LocusId="SGO_1886" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="3790199" LocusId="SGO_1885" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3960</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DeoR" RegulationMode="repressor">
+      <Regulator Key="LacR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46551" />
+      <Effector>D-galactose-6-phosphate</Effector>
+      <Pathway>Lactose utilization; Galactose utilization</Pathway>
+      <LocusTag Key="SGO_1527" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3789840&amp;disp=0" />
+      <BiologicalProcess>Lactose utilization; Galactose utilization</BiologicalProcess>
+      <Regulog Key="LacR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4707" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1526" Name="lacA" Position="-117" Score="6.5">
+          <Sequence>GAAAAAAAC-AACAAATAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789839" LocusId="SGO_1526" Name="lacA" Function="Galactose-6-phosphate isomerase, LacA subunit (EC 5.3.1.26)" />
+          <Members vimssId="3789838" LocusId="SGO_1525" Name="lacB" Function="Galactose-6-phosphate isomerase, LacB subunit (EC 5.3.1.26)" />
+          <Members vimssId="3789837" LocusId="SGO_1524" Name="lacC" Function="Tagatose-6-phosphate kinase (EC 2.7.1.144)" />
+          <Members vimssId="3789836" LocusId="SGO_1523" Name="lacD" Function="Tagatose 1,6-diphosphate aldolase (EC 4.1.2.40)" />
+          <Members vimssId="3789835" LocusId="SGO_1522" Name="gatA" Function="Galactose-specific PTS, EIIA component (EC 2.7.1.69)" />
+          <Members vimssId="3789834" LocusId="SGO_1521" Name="gatB" Function="Galactose-specific PTS, EIIB component (EC 2.7.1.69)" />
+          <Members vimssId="3789833" LocusId="SGO_1520" Name="gatC" Function="Galactose-specific PTS, EIIC component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4707</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="MalR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34880" />
+      <Effector>Maltose</Effector>
+      <Pathway>Maltose utilization; Maltodextrin utilization</Pathway>
+      <LocusTag Key="SGO_0100" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3788415&amp;disp=0" />
+      <BiologicalProcess>Maltose utilization; Maltodextrin utilization</BiologicalProcess>
+      <Regulog Key="MalR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3564" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1351" Name="nepU" Position="-52" Score="5.7">
+          <Sequence>TTATGAAAACGTTTGCTTTA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0105" Name="malM" Position="-278" Score="5.7">
+          <Sequence>TTACGCAAACGTTTTCTTAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0105" Name="malM" Position="-64" Score="5.4">
+          <Sequence>CTACGCAAACGTTTTCGTTG</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0505" Name="ptsG" Position="-49" Score="5.6">
+          <Sequence>CAATGCAAACGATTTCATAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0505" Name="ptsG" Position="-290" Score="5.3">
+          <Sequence>TCACGCAATCGTTTGCTTAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1075" Name="amyA2" Position="-105" Score="5.2">
+          <Sequence>CGACGCAAACGTTTGCGTCC</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0104" Name="malX" Position="-280" Score="5.5">
+          <Sequence>CAACGAAAACGTTTGCGTAG</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0104" Name="malX" Position="-66" Score="6">
+          <Sequence>TTAAGAAAACGTTTGCGTAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789664" LocusId="SGO_1351" Name="nepU" Function="Neopullulanase (EC 3.2.1.135)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789388" LocusId="SGO_1075" Name="amyA2" Function="Cytoplasmic alpha-amylase (EC 3.2.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788419" LocusId="SGO_0104" Name="malX" Function="Maltose/maltodextrin ABC transporter, substrate-binding protein" />
+          <Members vimssId="3788418" LocusId="SGO_0103" Name="malC" Function="Maltose/maltodextrin ABC transporter, permease protein 1" />
+          <Members vimssId="3788417" LocusId="SGO_0102" Name="malD" Function="Maltose/maltodextrin ABC transporter, permease protein 2" />
+          <Members vimssId="3788416" LocusId="SGO_0101" Name="malA" Function="Maltodextrose utilization protein MalA" />
+          <Members vimssId="3788415" LocusId="SGO_0100" Name="malR" Function="Maltose utilization transcriptional regulator MalR, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788420" LocusId="SGO_0105" Name="malM" Function="4-alpha-glucanotransferase (amylomaltase) (EC 2.4.1.25)" />
+          <Members vimssId="3788421" LocusId="SGO_0106" Name="malP" Function="Maltodextrin phosphorylase (EC 2.4.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788819" LocusId="SGO_0505" Name="ptsG" Function="PTS system glucose-specific EIICBA component (EC 2.7.1.69)" />
+          <Members vimssId="3788820" LocusId="SGO_0506" Name="rgfB" Function="Exodeoxyribonuclease III (EC 3.1.11.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3564</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="activator">
+      <Regulator Key="MleR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46933" />
+      <Effector>L-malate</Effector>
+      <Pathway>Malate utilization</Pathway>
+      <LocusTag Key="SGO_0370" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3788684&amp;disp=0" />
+      <BiologicalProcess>Malate utilization</BiologicalProcess>
+      <Regulog Key="MleR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4736" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0370" Name="mleR" Position="-63" Score="5.2">
+          <Sequence>ATCAAATTTATTTAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0372" Name="mleS" Position="-302" Score="5.3">
+          <Sequence>TTAAATGATATTTAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3788686" LocusId="SGO_0372" Name="mleS" Function="Malolactic enzyme" />
+          <Members vimssId="3788687" LocusId="SGO_0373" Name="mleP" Function="Malate permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788684" LocusId="SGO_0370" Name="mleR" Function="Malate utilization transcrtional regulator MleR, LysR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4736</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="MntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37925" />
+      <Effector>Manganese ion, (Mn2+)</Effector>
+      <Pathway>Manganese homeostasis</Pathway>
+      <LocusTag Key="SGO_1816" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3790129&amp;disp=0" />
+      <BiologicalProcess>Manganese homeostasis</BiologicalProcess>
+      <Regulog Key="MntR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3843" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1800" Name="mntB" Position="-60" Score="6.4">
+          <Sequence>AAAATTAACTTGACTTAATTTT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3790113" LocusId="SGO_1800" Name="mntB" Function="Manganese ABC transporter, ATP-binding protein" />
+          <Members vimssId="3790114" LocusId="SGO_1801" Name="mntC" Function="Manganese ABC transporter, permease protein" />
+          <Members vimssId="3790115" LocusId="SGO_1802" Name="mntA" Function="Manganese ABC transporter, substrate-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3843</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor">
+      <Regulator Key="MtaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35648" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="SGO_1257" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3789570&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="MtaR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3620" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1002" Name="metA" Position="-63" Score="5.4">
+          <Sequence>TATAATTGAAAACTATA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1002" Name="metA" Position="-97" Score="5.6">
+          <Sequence>CATAGTTTCAGGCTATA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0747" Name="metE2" Position="-152" Score="6.3">
+          <Sequence>TATAGTTATAAACTATA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1636" Name="metB" Position="-101" Score="6.1">
+          <Sequence>TATAGTTTCAGACTATA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0468" Name="COG1912" Position="-30" Score="4.5">
+          <Sequence>TAAAGTTCAGGACTATA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0310" Name="metE" Position="-180" Score="5.4">
+          <Sequence>TATAGTTTTTGATTATA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0987" Name="metK" Position="-158" Score="5.8">
+          <Sequence>TATAGTTTATGTCTATA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0310" Name="metE" Position="-97" Score="5.9">
+          <Sequence>TATAGTTTTTGGCTATA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1210" Name="fhs" Position="-42" Score="4.8">
+          <Sequence>TTTTGTTATAATCTATA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789949" LocusId="SGO_1636" Name="metB" Function="Cystathionine gamma-synthase (EC 2.5.1.48)" />
+          <Members vimssId="3789948" LocusId="SGO_1635" Name="csd" Function="Cysteine desulfurase (EC 2.8.1.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789300" LocusId="SGO_0987" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789523" LocusId="SGO_1210" Name="fhs" Function="Formate--tetrahydrofolate ligase (EC 6.3.4.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788782" LocusId="SGO_0468" Name="COG1912" Function="Conserved hypothetical protein" />
+          <Members vimssId="3788783" LocusId="SGO_0469" Name="mtsA" Function="Substrate-specific component MtsA of methionine-regulated ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789061" LocusId="SGO_0747" Name="metE2" Function="Methionine synthase II, vitamin-B12 independent (EC 2.1.1.14)" />
+          <Members vimssId="3789062" LocusId="SGO_0748" Name="COG1878" Function="Metal-dependent hydrolase (EC 3.-.-.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788624" LocusId="SGO_0310" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+          <Members vimssId="3788625" LocusId="SGO_0311" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789315" LocusId="SGO_1002" Name="metA" Function="Homoserine O-succinyltransferase (EC 2.3.1.46)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3620</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="NagR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35376" />
+      <Effector>N-acetylglucosamine-6-phosphate</Effector>
+      <Pathway>N-acetylglucosamine utilization</Pathway>
+      <LocusTag Key="SGO_1121" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3789434&amp;disp=0" />
+      <BiologicalProcess>N-acetylglucosamine utilization</BiologicalProcess>
+      <Regulog Key="NagR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3602" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1757" Name="glmS" Position="-65" Score="5.8">
+          <Sequence>AAATCAGACTATACCAATTT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1586" Name="nagB" Position="-52" Score="6.5">
+          <Sequence>AAATTGGTCTATACCATATA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0549" Name="nagA" Position="-118" Score="6.4">
+          <Sequence>AAATAGGTCTATACCATTTA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789899" LocusId="SGO_1586" Name="nagB" Function="Glucosamine-6-phosphate deaminase (EC 3.5.99.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788863" LocusId="SGO_0549" Name="nagA" Function="N-acetylglucosamine-6-phosphate deacetylase (EC 3.5.1.25)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3790070" LocusId="SGO_1757" Name="glmS" Function="Glucosamine--fructose-6-phosphate aminotransferase [isomerizing] (EC 2.6.1.16)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3602</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor">
+      <Regulator Key="NanR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38597" />
+      <Effector>N-acetylneuraminic acid</Effector>
+      <Pathway>Sialic acid utilization</Pathway>
+      <LocusTag Key="SGO_0127" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3788442&amp;disp=0" />
+      <BiologicalProcess>Sialic acid utilization</BiologicalProcess>
+      <Regulog Key="NanR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3941" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0118" Name="nanE" Position="-147" Score="6.3">
+          <Sequence>TCTGAAACTACTTTCAGA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3788433" LocusId="SGO_0118" Name="nanE" Function="N-acetylmannosamine-6-phosphate 2-epimerase (EC 5.1.3.9)" />
+          <Members vimssId="3788434" LocusId="SGO_0119" Name="SGO_0119" Function="Predicted beta-D-galactosidase" />
+          <Members vimssId="3788435" LocusId="SGO_0120" Name="nanU" Function="Predicted N-acetylneuraminate ABC transporter, substrat-binding protein" />
+          <Members vimssId="3788436" LocusId="SGO_0121" Name="nanV" Function="Predicted N-acetylneuraminate ABC transporter, permease protein 1" />
+          <Members vimssId="3788437" LocusId="SGO_0122" Name="nanW" Function="Predicted N-acetylneuraminate ABC transporter, permease protein 2" />
+          <Members vimssId="3788438" LocusId="SGO_0123" Name="yjhC" Function="Predicted oxidoreductase (EC 1.1.1.-)" />
+          <Members vimssId="3788439" LocusId="SGO_0124" Name="nanA" Function="N-acetylneuraminate lyase (EC 4.1.3.3)" />
+          <Members vimssId="3788440" LocusId="SGO_0125" Name="nanK" Function="N-acetylmannosamine kinase (EC 2.7.1.60)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3941</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NiaR" RegulationMode="repressor">
+      <Regulator Key="NiaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34190" />
+      <Effector>Niacin</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="SGO_1045" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3789358&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NiaR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3495" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1046" Name="niaX" Position="-32" Score="6.2">
+          <Sequence>TACTACTGTATATACACATAAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789359" LocusId="SGO_1046" Name="niaX" Function="Substrate-specific component NiaX of predicted niacin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3495</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42263" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="SGO_0508" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3788822&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4356" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1557" Name="ndrH" Position="-132" Score="5">
+          <Sequence>ACACCATATCTTGTAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1557" Name="ndrH" Position="-90" Score="4.6">
+          <Sequence>ACACAATATTTAGTCT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_2033" Name="nrdD" Position="-106" Score="5">
+          <Sequence>TATCAATATCTTGTGT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_2033" Name="nrdD" Position="-65" Score="5.6">
+          <Sequence>ACACAAGATATTGATT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789870" LocusId="SGO_1557" Name="ndrH" Function="Glutaredoxin-like protein NrdH" />
+          <Members vimssId="3789871" LocusId="SGO_1558" Name="nrdE" Function="Ribonucleotide reductase of class Ib (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="3789872" LocusId="SGO_1559" Name="nrdF" Function="Ribonucleotide reductase of class Ib (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3790347" LocusId="SGO_2033" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+          <Members vimssId="3790346" LocusId="SGO_2032" Name="SDEG_2077" Function="Conserved hypothetical protein" />
+          <Members vimssId="3790345" LocusId="SGO_2031" Name="SAG2083" Function="Predicted acetyltransferase (EC 2.3.1.-)" />
+          <Members vimssId="3790344" LocusId="SGO_2030" Name="SAG2083" Function="Predicted acetyltransferase (EC 2.3.1.-)" />
+          <Members vimssId="3790343" LocusId="SGO_2029" Name="nrdG" Function="Ribonucleotide reductase of class III (anaerobic), activating protein (EC 1.97.1.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4356</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrtR" RegulationMode="repressor">
+      <Regulator Key="NrtR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35313" />
+      <Effector>Adenosine diphosphate ribose</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="SGO_1995" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3790309&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NrtR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3597" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1997" Name="nadR" Position="-121" Score="4.7">
+          <Sequence>ATATTTGAGTTTAAAAATATT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1997" Name="nadR" Position="-60" Score="7.2">
+          <Sequence>ATAGTTTATAATAAAAACATA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3790311" LocusId="SGO_1997" Name="nadR" Function="Nicotinamide-nucleotide adenylyltransferase, NadR family (EC 2.7.7.1) / Ribosylnicotinamide kinase (EC 2.7.1.22)" />
+          <Members vimssId="3790310" LocusId="SGO_1996" Name="pnuC" Function="Ribosyl nicotinamide transporter, PnuC-like" />
+          <Members vimssId="3790309" LocusId="SGO_1995" Name="nrtR" Function="NAD biosynthesis transcriptional regulator NrtR, NrtR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3597</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46443" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine biosynthesis</Pathway>
+      <LocusTag Key="SGO_0963" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3789276&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine biosynthesis</BiologicalProcess>
+      <Regulog Key="PdxR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4696" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0963" Name="pdxR" Position="62" Score="9.2">
+          <Sequence>TATTGTA------------------TACAATA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0964" Name="pdxK" Position="-71" Score="9.2">
+          <Sequence>TATTGTA------------------TACAATA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789277" LocusId="SGO_0964" Name="pdxK" Function="Pyridoxal kinase (EC 2.7.1.35)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789276" LocusId="SGO_0963" Name="pdxR" Function="Pyridoxine biosynthesis transcriptional regulator PdxR, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4696</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="PerR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35796" />
+      <Effector>Iron ion, (Fe2+); Manganese ion, (Mn2+); Hydrogen peroxide</Effector>
+      <Pathway>Iron homeostasis; Manganese homeostasis; Oxidative stress response</Pathway>
+      <LocusTag Key="SGO_0703" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3789017&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis; Manganese homeostasis; Oxidative stress response</BiologicalProcess>
+      <Regulog Key="PerR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3630" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0581" Name="trxB" Position="-38" Score="5.4">
+          <Sequence>TTAGAATAATTATTA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0665" Name="mgrA" Position="-73" Score="5.3">
+          <Sequence>TTAGAAGCATTATAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0665" Name="mgrA" Position="-37" Score="5.9">
+          <Sequence>TTAGAATGATTATAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0703" Name="perR" Position="-74" Score="5">
+          <Sequence>TTACAATCATTCTTA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1772" Name="pcl" Position="-41" Score="5.9">
+          <Sequence>TTATAATGATTATAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3788979" LocusId="SGO_0665" Name="mgrA" Function="Non-specific DNA-binding protein / Iron-binding ferritin-like antioxidant protein / Ferroxidase (EC 1.16.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3790085" LocusId="SGO_1772" Name="pcl" Function="Predicted membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789017" LocusId="SGO_0703" Name="perR" Function="Peroxide stress response transcriptional regulator PerR, Fur family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788895" LocusId="SGO_0581" Name="trxB" Function="Thioredoxin reductase (EC 1.8.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3630</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DeoR" RegulationMode="repressor">
+      <Regulator Key="PflR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35438" />
+      <Effector />
+      <Pathway>Formate metabolism</Pathway>
+      <LocusTag Key="SGO_1793" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3790106&amp;disp=0" />
+      <BiologicalProcess>Formate metabolism</BiologicalProcess>
+      <Regulog Key="PflR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3606" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1794" Name="pflA" Position="-60" Score="5.2">
+          <Sequence>TCGTAATTGTATTTATTGCGT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1793" Name="pflR" Position="-79" Score="5.8">
+          <Sequence>ACGCAATAAATACAATTACGA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1788" Name="pflB" Position="-39" Score="5.6">
+          <Sequence>AAGAAATAAAAATAATTTCAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3790107" LocusId="SGO_1794" Name="pflA" Function="Pyruvate formate-lyase activating enzyme (EC 1.97.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3790101" LocusId="SGO_1788" Name="pflB" Function="Pyruvate formate-lyase (EC 2.3.1.54)" />
+          <Members vimssId="3790100" LocusId="SGO_1787" Name="tal" Function="transaldolase family protein" />
+          <Members vimssId="3790099" LocusId="SGO_1786" Name="gldA" Function="Glycerol dehydrogenase (EC 1.1.1.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3790106" LocusId="SGO_1793" Name="pflR" Function="Pyruvate-formate lyase operon transcriptional regulator, DeoR family" />
+          <Members vimssId="3790105" LocusId="SGO_1792" Name="SPy2053" Function="Predicted transcriptional regulator, DeoR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3606</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="">
+      <Regulator Key="PipR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35498" />
+      <Effector />
+      <Pathway>Phage infection protein</Pathway>
+      <LocusTag Key="SGO_0090" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3788405&amp;disp=0" />
+      <BiologicalProcess>Phage infection protein</BiologicalProcess>
+      <Regulog Key="PipR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3610" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0090" Name="pipR" Position="-41" Score="5.4">
+          <Sequence>ATTGGACATACTGTGCAAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0090" Name="pipR" Position="-118" Score="5.8">
+          <Sequence>ATTATACATAATGTCTAAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0091" Name="pip" Position="-111" Score="5.4">
+          <Sequence>TTTGCACAGTATGTCCAAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0091" Name="pip" Position="-34" Score="5.8">
+          <Sequence>TTTAGACATTATGTATAAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3788405" LocusId="SGO_0090" Name="pipR" Function="Transcriptional regulator, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788406" LocusId="SGO_0091" Name="pip" Function="Phage infection protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3610</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="PurR" RegulationMode="repressor">
+      <Regulator Key="PurR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38052" />
+      <Effector>5-phosphoribosyl 1-pyrophosphate</Effector>
+      <Pathway>Purine metabolism</Pathway>
+      <LocusTag Key="SGO_0202" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3788516&amp;disp=0" />
+      <BiologicalProcess>Purine metabolism</BiologicalProcess>
+      <Regulog Key="PurR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3857" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0202" Name="purR" Position="-85" Score="4.6">
+          <Sequence>AAAAACGAGCATT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1210" Name="fhs" Position="-95" Score="4.8">
+          <Sequence>AAACACGAACAAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1159" Name="guaC" Position="-146" Score="4.7">
+          <Sequence>ATTTCCGAACGTT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_2092" Name="purD" Position="-121" Score="4.5">
+          <Sequence>TAAAACGAACGAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0034" Name="purC" Position="-16" Score="4.8">
+          <Sequence>AAAGGCGAACATT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3788349" LocusId="SGO_0034" Name="purC" Function="Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6)" />
+          <Members vimssId="3788350" LocusId="SGO_0035" Name="purL" Function="Phosphoribosylformylglycinamidine synthase, synthetase subunit (EC 6.3.5.3) / Phosphoribosylformylglycinamidine synthase, glutamine amidotransferase subunit (EC 6.3.5.3)" />
+          <Members vimssId="3788351" LocusId="SGO_0036" Name="purF" Function="Amidophosphoribosyltransferase (EC 2.4.2.14)" />
+          <Members vimssId="3788352" LocusId="SGO_0037" Name="purM" Function="Phosphoribosylformylglycinamidine cyclo-ligase (EC 6.3.3.1)" />
+          <Members vimssId="3788353" LocusId="SGO_0038" Name="purN" Function="Phosphoribosylglycinamide formyltransferase (EC 2.1.2.2)" />
+          <Members vimssId="3788354" LocusId="SGO_0039" Name="SGO_0039" Function="Hypothetical protein" />
+          <Members vimssId="3788355" LocusId="SGO_0040" Name="purH" Function="IMP cyclohydrolase (EC 3.5.4.10) / Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789472" LocusId="SGO_1159" Name="guaC" Function="GMP reductase (EC 1.7.1.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789523" LocusId="SGO_1210" Name="fhs" Function="Formate--tetrahydrofolate ligase (EC 6.3.4.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3790406" LocusId="SGO_2092" Name="purD" Function="Phosphoribosylamine--glycine ligase (EC 6.3.4.13)" />
+          <Members vimssId="3790405" LocusId="SGO_2091" Name="carB2" Function="Carbamoyl-phosphate synthase large subunit (EC 6.3.5.5) paralog" />
+          <Members vimssId="3790404" LocusId="SGO_2090" Name="purE" Function="Phosphoribosylaminoimidazole carboxylase catalytic subunit (EC 4.1.1.21)" />
+          <Members vimssId="3790403" LocusId="SGO_2089" Name="purK" Function="Phosphoribosylaminoimidazole carboxylase ATPase subunit (EC 4.1.1.21)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788516" LocusId="SGO_0202" Name="purR" Function="Purine metabolism transcriptional regulator PurR, PurR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3857</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29836" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="SGO_1228" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3789541&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3113" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1137" Name="forT" Position="-40" Score="3.8">
+          <Sequence>ATGATATATTGGTCATAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1745" Name="fba" Position="-61" Score="4.6">
+          <Sequence>AAGTGATAAAATAAACAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0565" Name="adhB1" Position="-52" Score="5.2">
+          <Sequence>TTGTGATATAATTAACAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0113" Name="adhE" Position="-140" Score="5.1">
+          <Sequence>TTGAAATATATTTCACAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0113" Name="adhE" Position="-51" Score="5.8">
+          <Sequence>TTGTGAAAAAATTAACAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0209" Name="pgk" Position="-46" Score="4.7">
+          <Sequence>TTGTGATATAATTATCAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0762" Name="tpi" Position="-89" Score="4.5">
+          <Sequence>TTGATAAAAACTTAGCAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1232" Name="ldh" Position="-118" Score="3.8">
+          <Sequence>TTCTAAAAACGTTTACAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0207" Name="gap" Position="-158" Score="4">
+          <Sequence>ATTTGAAAGAATGAACAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1228" Name="rex" Position="-54" Score="4.7">
+          <Sequence>TAGTTGATTTTTTCACAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3788521" LocusId="SGO_0207" Name="gap" Function="NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788879" LocusId="SGO_0565" Name="adhB1" Function="Alcohol dehydrogenase (EC 1.1.1.1), Zn-dependent" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789076" LocusId="SGO_0762" Name="tpi" Function="Triosephosphate isomerase (EC 5.3.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788523" LocusId="SGO_0209" Name="pgk" Function="Phosphoglycerate kinase (EC 2.7.2.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789450" LocusId="SGO_1137" Name="forT" Function="Formate/nitrite family of transporters" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789545" LocusId="SGO_1232" Name="ldh" Function="L-lactate dehydrogenase (EC 1.1.1.27)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3790058" LocusId="SGO_1745" Name="fba" Function="Fructose-bisphosphate aldolase class II (EC 4.1.2.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788428" LocusId="SGO_0113" Name="adhE" Function="Alcohol dehydrogenase (EC 1.1.1.1), Fe-dependent; Acetaldehyde dehydrogenase (EC 1.2.1.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789541" LocusId="SGO_1228" Name="rex" Function="Redox-sensitive transcriptional regulator Rex, Rex family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3113</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="XRE" RegulationMode="activator">
+      <Regulator Key="Rgg" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37987" />
+      <Effector />
+      <Pathway>Cell wall metabolism</Pathway>
+      <LocusTag Key="SGO_0496" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3788810&amp;disp=0" />
+      <BiologicalProcess>Cell wall metabolism</BiologicalProcess>
+      <Regulog Key="Rgg - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3849" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0497" Name="gtfG" Position="-91" Score="5.6">
+          <Sequence>AGTTGCAGATTTGCAAAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0496" Name="rgg" Position="-23" Score="5.8">
+          <Sequence>TATTACATATATGCAAGT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0498" Name="dsg" Position="-235" Score="6">
+          <Sequence>CGTTGAATATATGCAACA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3788812" LocusId="SGO_0498" Name="dsg" Function="Predicted sugar efflux protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788810" LocusId="SGO_0496" Name="rgg" Function="Glucosyltransferase transcriptional regulator, MutR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788811" LocusId="SGO_0497" Name="gtfG" Function="Glucosyltransferase G" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3849</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MarR" RegulationMode="repressor">
+      <Regulator Key="SAG1910" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=44806" />
+      <Effector />
+      <Pathway>unknown</Pathway>
+      <LocusTag Key="SGO_1299" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3789612&amp;disp=0" />
+      <BiologicalProcess>unknown</BiologicalProcess>
+      <Regulog Key="SAG1910 - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4629" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1300" Name="SDEG_0249" Position="-85" Score="5.3">
+          <Sequence>AATTGCTAATTAGTAACA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1299" Name="SAG1910" Position="-22" Score="5.3">
+          <Sequence>TAATACTATTTATTGATA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789613" LocusId="SGO_1300" Name="SDEG_0249" Function="Predicted NADPH-dependent FMN reductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789612" LocusId="SGO_1299" Name="SAG1910" Function="Predicted transcriptional regulator, MarR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4629</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="SPy1285" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35811" />
+      <Effector />
+      <Pathway>Transport</Pathway>
+      <LocusTag Key="" Value="" />
+      <BiologicalProcess>Transport</BiologicalProcess>
+      <Regulog Key="SPy1285 - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3631" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0798" Name="SAG0280" Position="-42" Score="4.1">
+          <Sequence>ATATATAATAAATATATTATAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789112" LocusId="SGO_0798" Name="SAG0280" Function="ABC-type multidrug transport system, ATPase component" />
+          <Members vimssId="3789113" LocusId="SGO_0799" Name="SAG0281" Function="ABC transporter permease protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3631</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="ScrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34978" />
+      <Effector>Sucrose-6-phosphate</Effector>
+      <Pathway>Sucrose utilization</Pathway>
+      <LocusTag Key="SGO_1859" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3790173&amp;disp=0" />
+      <BiologicalProcess>Sucrose utilization</BiologicalProcess>
+      <Regulog Key="ScrR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3572" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1857" Name="scrA" Position="-108" Score="6.2">
+          <Sequence>TCTGCAAAACGCTTGACATA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1858" Name="scrB" Position="-111" Score="6.2">
+          <Sequence>TATGTCAAGCGTTTTGCAGA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3790171" LocusId="SGO_1857" Name="scrA" Function="Sucrose-specific PTS system, EIIABC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3790172" LocusId="SGO_1858" Name="scrB" Function="Sucrose-6-phosphate hydrolase (EC 3.2.1.26)" />
+          <Members vimssId="3790173" LocusId="SGO_1859" Name="scrR" Function="Sucrose utilization regulator ScrR, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3572</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="SczA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35008" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc resistance</Pathway>
+      <LocusTag Key="SGO_0088" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3788403&amp;disp=0" />
+      <BiologicalProcess>Zinc resistance</BiologicalProcess>
+      <Regulog Key="SczA - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3574" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0088" Name="sczA" Position="-119" Score="4.3">
+          <Sequence>TATTCAAAAGCAAACA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0930" Name="czcD" Position="-113" Score="5.7">
+          <Sequence>TGTTCAGAACTGTACA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0929" Name="sczA" Position="76" Score="5.7">
+          <Sequence>TGTACAGTTCTGAACA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0089" Name="" Position="-56" Score="4.3">
+          <Sequence>TGTTTGCTTTTGAATA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3788404" LocusId="SGO_0089" Name="null" Function="Cobalt-zinc-cadmium resistance protein CzcD" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788403" LocusId="SGO_0088" Name="sczA" Function="Zinc stress response transcriptional regulator SczA, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789242" LocusId="SGO_0929" Name="sczA" Function="Zinc stress response transcriptional regulator SczA, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789243" LocusId="SGO_0930" Name="czcD" Function="Cobalt-zinc-cadmium resistance protein CzcD" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3574</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="TreR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38725" />
+      <Effector>Trehalose-6-phosphate</Effector>
+      <Pathway>Trehalose utilization</Pathway>
+      <LocusTag Key="SGO_1654" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3789967&amp;disp=0" />
+      <BiologicalProcess>Trehalose utilization</BiologicalProcess>
+      <Regulog Key="TreR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3955" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1653" Name="treP" Position="-106" Score="5.4">
+          <Sequence>ACATCTTGCATACACGTTTG</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1654" Name="treR" Position="-93" Score="5.4">
+          <Sequence>CAAACGTGTATGCAAGATGT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789967" LocusId="SGO_1654" Name="treR" Function="Trehalose utilization transcriptional regulator TreR, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789966" LocusId="SGO_1653" Name="treP" Function="Trehalose-specific PTS system, EIIABC component (EC 2.7.1.69)" />
+          <Members vimssId="3789965" LocusId="SGO_1652" Name="treA" Function="Trehalose-6-phosphate hydrolase (EC 3.2.1.93)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3955</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MarR" RegulationMode="">
+      <Regulator Key="YjdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35781" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="SGO_1752" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3790065&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance</BiologicalProcess>
+      <Regulog Key="YjdR - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3629" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1752" Name="yjdR" Position="-37" Score="5.9">
+          <Sequence>TTTGTTCTCAAGAGAACTAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1752" Name="yjdR" Position="-57" Score="6.1">
+          <Sequence>ATAGTTCTCACGGTAACTTA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3790065" LocusId="SGO_1752" Name="yjdR" Function="Predicted multidrug resistance transcriptional regulator, MarR family" />
+          <Members vimssId="3790064" LocusId="SGO_1751" Name="yfiB" Function="Predicted ABC multidrug transporter, ATP-binding and permease protein" />
+          <Members vimssId="3790063" LocusId="SGO_1750" Name="yfiC" Function="Predicted ABC multidrug transporter, ATP-binding and permease protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3629</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="PadR" RegulationMode="repressor">
+      <Regulator Key="YwzG" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46757" />
+      <Effector />
+      <Pathway>Transport</Pathway>
+      <LocusTag Key="SGO_0052" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3788367&amp;disp=0" />
+      <BiologicalProcess>Transport</BiologicalProcess>
+      <Regulog Key="YwzG - Streptococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4724" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0052" Name="ywzG" Position="-110" Score="7.1">
+          <Sequence>TATATAAAATTTTTATATA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3788367" LocusId="SGO_0052" Name="ywzG" Function="Predicted transcriptional regulator, PadR family" />
+          <Members vimssId="3788366" LocusId="SGO_0051" Name="lp_3217" Function="Predicted integral membrane protein" />
+          <Members vimssId="3788365" LocusId="SGO_0050" Name="lp_3218" Function="Conserved hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4724</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28934" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1664" Name="ribU" Position="-283" Score="111.3">
+          <Sequence>AAAGAGTCTTCAGGGCAGGGTGAGATTCCCGACCGGCGGTAATTTTTGGATTGGAAATGTTTTTTTCTCAATGCCAAATCAAGTCCGCGAGCGCAAGCTGATGTGGTGAGATTCCACAACCGACAGTATAGTCTGGATGGGAGAAGACGAAG</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789977" LocusId="SGO_1664" Name="ribU" Function="Substrate-specific component RibU of riboflavin ECF transporter" />
+          <Members vimssId="3789976" LocusId="SGO_1663" Name="SP_0489" Function="Membrane-associated phospholipid phosphatase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00557" RegulationMode="RF00557">
+      <Regulator Key="L10_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28839" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L10_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1192" Name="rplJ" Position="-175" Score="79.9">
+          <Sequence>CAATGGTTTGAAAAAACTGCCTAAGACAGTAGGGGAGCTTGACTCATAAAGATCCTACCGAGGACAAAACGTATCATGTAAAAAGAAGCGTATTGTACTTTCGTGTCTAGGTTTGGGCGCGTTTTTCTTTTGGAAAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789505" LocusId="SGO_1192" Name="rplJ" Function="LSU ribosomal protein L10p (P0)" />
+          <Members vimssId="3789504" LocusId="SGO_1191" Name="rplL" Function="LSU ribosomal protein L7/L12 (P1/P2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00555" RegulationMode="RF00555">
+      <Regulator Key="L13_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29104" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L13_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0358" Name="rplM" Position="-101" Score="56.5">
+          <Sequence>GTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATAACTTGCGGACCGGAACATCCGCCCTGTAAACAAAAACG</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3788672" LocusId="SGO_0358" Name="rplM" Function="LSU ribosomal protein L13p (L13Ae)" />
+          <Members vimssId="3788673" LocusId="SGO_0359" Name="rpsI" Function="SSU ribosomal protein S9p (S16e)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00558" RegulationMode="RF00558">
+      <Regulator Key="L20_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29164" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L20_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1032" Name="infC" Position="-244" Score="76.9">
+          <Sequence>GAGAAAAGCAGAAGTGAGAGCTTCTCGCCTTGCGACTAACGTTGTCTGGCTCTACGGATTAAGTTTCAGTAATGAAATACTATCATGTAGTGCGGGCTTGCGTTAGCAAGTCCGCTCTTGTTTTTCTCGAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789345" LocusId="SGO_1032" Name="infC" Function="Translation initiation factor 3" />
+          <Members vimssId="3789346" LocusId="SGO_1033" Name="rpmI" Function="LSU ribosomal protein L35p" />
+          <Members vimssId="3789347" LocusId="SGO_1034" Name="rplT" Function="LSU ribosomal protein L20p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00559" RegulationMode="RF00559">
+      <Regulator Key="L21_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29204" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L21_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0818" Name="rplU" Position="-124" Score="41.5">
+          <Sequence>TTCCTGTGCAACCGCACGAACATCGTTGCTCACATAGTGAGTATAAAGTGGTTCGTCCCACGATGCTAGGCGAGTCTTCACAAAAATAC</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789132" LocusId="SGO_0818" Name="rplU" Function="LSU ribosomal protein L21p" />
+          <Members vimssId="3789133" LocusId="SGO_0819" Name="ysxB" Function="FIG139598: Potential ribosomal protein" />
+          <Members vimssId="3789134" LocusId="SGO_0820" Name="rpmA" Function="LSU ribosomal protein L27p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00167" RegulationMode="RF00167">
+      <Regulator Key="Purine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29384" />
+      <Effector>Adenine; Guanine</Effector>
+      <Pathway>Purine metabolism</Pathway>
+      <LocusTag Key="Purine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1158" Name="xpt" Position="-183" Score="41.3">
+          <Sequence>TAAATTATAATAAAGAAAAGCTTATTTATCTTGCTAATGATTGGGGCAAGGTCTCTACAAGATGCCAAACATCTAACAATAAGTGAGTCTTACAAGTTT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789471" LocusId="SGO_1158" Name="xpt" Function="Xanthine phosphoribosyltransferase (EC 2.4.2.22)" />
+          <Members vimssId="3789470" LocusId="SGO_1157" Name="pbuX" Function="Xanthine/uracil permease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00515" RegulationMode="RF00515">
+      <Regulator Key="PyrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28964" />
+      <Effector>PyrR</Effector>
+      <Pathway>Pyrimidine metabolism</Pathway>
+      <LocusTag Key="PyrR" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1254" Name="pyrF" Position="-198" Score="56">
+          <Sequence>TATAACCTTTAAAGAAGTCCAGAGAGGCTACTAAGGATCATACGTTTGAATGGCAAATTCTGCCACATTTTCGTGTAACCTTGCTCTCAGGCAAGGTTTTTTCTAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0990" Name="SAG2058" Position="-171" Score="29.1">
+          <Sequence>ATGACTTTAAACATGTTCCGTGAGACATGAAAGTGCTAAAATGATACTAGCAATTGCTATGCTCTAATTTTCTGTAAACTTTTAGAGGTTGGGAACAGTATTTCCAACCTCTTTTTAAGGC</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1256" Name="pyrK" Position="-126" Score="51.4">
+          <Sequence>TTAAACCTTTAATCAAGTCCAGTGAGGCTGCAAGGTAGGAAAAACGATATAAGAGGCAATTGACTGCCTTGTTTTTTGCGAAACCTTGCTGTGGCGAGGTTTTTTCTTGT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1102" Name="pyrR" Position="-154" Score="48.8">
+          <Sequence>AATCCTTTAATTCTATCCAGAGAGATAGACAAGGAGCGAGTGAAAAGATGGGTGGAGTGTAAGCAAGTGCGTCTTGTTTTAGTTTGCCTGACTAAATTTTTCTAAAGTCTCCTTGTAAATAGGGGGACTTTTTCTGTTGT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1103" Name="carA" Position="-485" Score="48.8">
+          <Sequence>AATCCTTTAATTCTATCCAGAGAGATAGACAAGGAGCGAGTGAAAAGATGGGTGGAGTGTAAGCAAGTGCGTCTTGTTTTAGTTTGCCTGACTAAATTTTTCTAAAGTCTCCTTGTAAATAGGGGGACTTTTTCTGTTGT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_1107" Name="pyrR" Position="-147" Score="52.9">
+          <Sequence>AATCCTTTAATTCTATCCAGAGAGGTAGACAAGGAGCAAGTAGAAATTGGGTTGAGCATATACAGGTGCGTCTTGTTTGCACACCCAGCAAATTATTCTGTAGTCTCCTTGAAAAAGGAGACTTTTTTATTG</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789567" LocusId="SGO_1254" Name="pyrF" Function="Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23)" />
+          <Members vimssId="3789566" LocusId="SGO_1253" Name="pyrE" Function="Orotate phosphoribosyltransferase (EC 2.4.2.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789569" LocusId="SGO_1256" Name="pyrK" Function="Dihydroorotate dehydrogenase electron transfer subunit (EC 1.3.3.1)" />
+          <Members vimssId="3789568" LocusId="SGO_1255" Name="pyrD" Function="Dihydroorotate dehydrogenase, catalytic subunit (EC 1.3.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789415" LocusId="SGO_1102" Name="pyrR" Function="Uracil phosphoribosyltransferase (EC 2.4.2.9) / Pyrimidine operon regulatory protein PyrR" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789416" LocusId="SGO_1103" Name="carA" Function="Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)" />
+          <Members vimssId="3789417" LocusId="SGO_1104" Name="carB" Function="Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789420" LocusId="SGO_1107" Name="pyrR" Function="Uracil phosphoribosyltransferase (EC 2.4.2.9) / Pyrimidine operon regulatory protein PyrR" />
+          <Members vimssId="3789421" LocusId="SGO_1108" Name="pyrP" Function="Xanthine/uracil permease" />
+          <Members vimssId="3789422" LocusId="SGO_1109" Name="pyrB" Function="Aspartate carbamoyltransferase (EC 2.1.3.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789303" LocusId="SGO_0990" Name="SAG2058" Function="Predicted pyrimidine transporter, MFS superfamily" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00114" RegulationMode="RF00114">
+      <Regulator Key="S15" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29448" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="S15" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0333" Name="rpsO" Position="-60" Score="27.8">
+          <Sequence>TTGGTTGCAGGCCATGCCAAACCTGCCACTCGGATGAAGCGTAAAGAAAAGGAGTATATCATGGCAATCTCAAAAGAGAAAAAAAATGAAATCATTGCACAATACGCACGTCACGAAGG</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3788647" LocusId="SGO_0333" Name="rpsO" Function="SSU ribosomal protein S15p (S13e)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ala)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30415" />
+      <Effector>Ala-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1571" Name="COG4894" Position="-200" Score="53.6">
+          <Sequence>ATGAAATGGTGAGAATTGATTTTTCAAGTTCTTAGTTCAGAGAATTGGCGGTGCTGCAAGCCATCTGAGACGAAAAATCATGCTACTCATCCGACAAAATTGAATACGAAATGAGAATGACAAGTTCATTGAATGAAGGTGGTACCGCGGTTTTTCGCCCTTCGT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789884" LocusId="SGO_1571" Name="COG4894" Function="hypothetical protein" />
+          <Members vimssId="3789883" LocusId="SGO_1570" Name="alaS" Function="Alanyl-tRNA synthetase (EC 6.1.1.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Asn)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30445" />
+      <Effector>Asn-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0434" Name="aspS2" Position="-402" Score="83.5">
+          <Sequence>TAAAAGTAAAAGAGAAGCAGAGTAGGTTTGCTAACTTGCACAGAGAGCGCTGGAAGCTGAGAGCAGCGCCAAGAAGGCAAAATCCGAAGAACATGTTTCATAATCTTTTGCGTGATAAAGCGCAAACGTTGCTCACGTTACGAGCTTAGAGGCTACCTTCTTAGGTGGCAAATAACAGTGGTACCACGGTTTTCGTCTGTTTTAC</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3788748" LocusId="SGO_0434" Name="aspS2" Function="Aspartyl-tRNA synthetase (EC 6.1.1.12)" />
+          <Members vimssId="3788749" LocusId="SGO_0435" Name="gatC" Function="Aspartyl-tRNA(Asn) amidotransferase subunit C (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit C (EC 6.3.5.7)" />
+          <Members vimssId="3788750" LocusId="SGO_0436" Name="gatA" Function="Aspartyl-tRNA(Asn) amidotransferase subunit A (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit A (EC 6.3.5.7)" />
+          <Members vimssId="3788751" LocusId="SGO_0437" Name="gatB" Function="Aspartyl-tRNA(Asn) amidotransferase subunit B (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit B (EC 6.3.5.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Gly)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30615" />
+      <Effector>Gly-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0568" Name="glyQ" Position="-255" Score="47.5">
+          <Sequence>TAATCTTTTTTAGAAAGAAATCTCTTTGTCTACTTTTTAGCGAGTCTGGGATAGTGTGAGCCAGATAGGGAAGCAGAGCAGATGGCGCTTTTGGTTAACATTTTTAAACGTAATGAAGTAATAAATTAGGGTGGAACCGCGTTTTTGACGCCCCTAGGTC</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3788882" LocusId="SGO_0568" Name="glyQ" Function="Glycyl-tRNA synthetase alpha chain (EC 6.1.1.14)" />
+          <Members vimssId="3788883" LocusId="SGO_0569" Name="glyS" Function="Glycyl-tRNA synthetase beta chain (EC 6.1.1.14)" />
+          <Members vimssId="3788884" LocusId="SGO_0570" Name="ylaC" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(His)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30645" />
+      <Effector>His-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1411" Name="hisC" Position="-386" Score="69.9">
+          <Sequence>ATCGAAAGCGATGAGAGAAAAAGTCTAAGACAAGAAACAGAGAGTGCTTAATGGTGAGACGGCATCCAATCCTTAGACGACACATTCTTGAGTGCGGGTGCGAAATCTGTCAGTAGACCGAGACTAGTGCTCGACGGCTGATTACCGTTATCAATCTGGAGTCCCGTACTCCCAGAGGGTCCTCAGGCGACTGAGGGCTAAATAAAGGTGGAACCGCGTGTCAACGTCCTTGCA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0637" Name="" Position="-314" Score="51.7">
+          <Sequence>TATGTTCATCAGAGGTGTTTTGAGTCAAGCATTTTACAGAAAGTGGCGGTGCTGAGAAGTCCACAAATGTGTCAAAACTGGTTGCTGATGAGATGAAAAATTGAAATAAAAGTGTCTTTTTGTTTCCTTTTAGGACTAGGCAAGGAGTTGTAGGTTATACTAGCGTATGCCAAAGCGAGTTAACGACGTCATAAAAGAGAAAGAAGAGAAAAGTTGCGGGCATCTGCCCGAAATTGGGTGGTACCGCGGATAAACACATTCGTCCCTGTCAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789724" LocusId="SGO_1411" Name="hisC" Function="Histidinol-phosphate aminotransferase (EC 2.6.1.9)" />
+          <Members vimssId="3789723" LocusId="SGO_1410" Name="hisZ" Function="ATP phosphoribosyltransferase regulatory subunit (EC 2.4.2.17)" />
+          <Members vimssId="3789722" LocusId="SGO_1409" Name="hisG" Function="ATP phosphoribosyltransferase catalytic subunit (EC 2.4.2.17)" />
+          <Members vimssId="3789721" LocusId="SGO_1408" Name="hisD" Function="Histidinol dehydrogenase (EC 1.1.1.23)" />
+          <Members vimssId="3789720" LocusId="SGO_1407" Name="hisB" Function="Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)" />
+          <Members vimssId="3789719" LocusId="SGO_1406" Name="hisH" Function="Imidazole glycerol phosphate synthase amidotransferase subunit (EC 2.4.2.-)" />
+          <Members vimssId="3789718" LocusId="SGO_1405" Name="hisA" Function="Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase (EC 5.3.1.16)" />
+          <Members vimssId="3789717" LocusId="SGO_1404" Name="hisF" Function="Imidazole glycerol phosphate synthase cyclase subunit (EC 4.1.3.-)" />
+          <Members vimssId="3789716" LocusId="SGO_1403" Name="hisI" Function="Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19)" />
+          <Members vimssId="3789715" LocusId="SGO_1402" Name="hisE" Function="Phosphoribosyl-ATP pyrophosphatase (EC 3.6.1.31)" />
+          <Members vimssId="3789714" LocusId="SGO_1401" Name="hisK" Function="Histidinol-phosphatase (EC 3.1.3.15)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788951" LocusId="SGO_0637" Name="null" Function="Acetyltransferase (EC 2.3.1.-)" />
+          <Members vimssId="3788952" LocusId="SGO_0638" Name="null" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ile)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30675" />
+      <Effector>Ile-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0681" Name="ileS" Position="-261" Score="93.7">
+          <Sequence>GAACTGTAAAAACACAAATTAACCAATATATTCCTAGCGAGCAAGTGGTGGTGTAAGACTTGCAATCCCTATTAGTTGATTTATCATTTTACAATATCGTATTTGAAATTAGTAAAATACGACGTTTCTTCCACGTTACGGAAAAAGAGGGATAGAAATAGTTAGTGGCTATTTTCTATCTAAACAAAGGTGGTACCACGATTTTCGTCCTTTTTGC</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3788995" LocusId="SGO_0681" Name="ileS" Function="Isoleucyl-tRNA synthetase (EC 6.1.1.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Phe)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33178" />
+      <Effector>Phe-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0859" Name="pheS" Position="-199" Score="49">
+          <Sequence>AATCCGCAAGACCAGTAACCTAGGGGAAGTTTAACAGGGAGGGGAGCCATCGACTGAAAGCTCTCTAGATGAAAGCTAGGCGAATTCACTTGCTCTAGGATTGATAAGTAAGGTCTGGCTTGCCAGATAAAAAACGGATGGTACCGCGTGTCAACGCTCCGCTTAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789173" LocusId="SGO_0859" Name="pheS" Function="Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)" />
+          <Members vimssId="3789174" LocusId="SGO_0860" Name="paiA" Function="acetyltransferase, GNAT family" />
+          <Members vimssId="3789175" LocusId="SGO_0861" Name="pheT" Function="Phenylalanyl-tRNA synthetase beta chain (EC 6.1.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ser)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33288" />
+      <Effector>Ser-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1683" Name="serS" Position="-202" Score="73.2">
+          <Sequence>TATAATCTAGGAAACGGATAAGTACTATTGGACACTTTTCAGAAAGTCTGCGGTGGCTGTGAGCAGATAAGGAGAAAATAGGAAATTCTACCGTTAGTTTAAAAATGAATAATTAAGCAAGTGCACTTTTGTGAAGTTGGATGGAACCGTGGCTCTGCCACTCCAACAGT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789996" LocusId="SGO_1683" Name="serS" Function="Seryl-tRNA synthetase (EC 6.1.1.11)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Thr)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33343" />
+      <Effector>Thr-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0777" Name="" Position="-300" Score="63.7">
+          <Sequence>TGTTTCCTAGAGACATATCACCTGCAGGAAATCTTTTAGAGAGCGCGTGGAGCTGGAAATCGCGTAGAGGATGTAGTTGGGACTACTCTACTGGATTTTATGAAAACATAAAACGGTGGCTACGTTAGAGCCAATCAGAGGTGTCCCTCTTTTTTGAGGAACATAAATGAAGGTGGAACCACGTTGCGACGTCCTTTCGAG</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789091" LocusId="SGO_0777" Name="null" Function="hypothetical protein" />
+          <Members vimssId="3789092" LocusId="SGO_0778" Name="thrS" Function="Threonyl-tRNA synthetase (EC 6.1.1.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Trp)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33398" />
+      <Effector>Trp-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0656" Name="trpB2" Position="-289" Score="101.5">
+          <Sequence>TAAATCATCAGAAAAGTAATAATTTTTTCTACTTTCAGGGAGCCTGTGGTTGGTGGAAACAGGTAGTGGAAGATTATGAAGTGGGCTGATGTAAAAAATGAATTTGAAGCAATAAAAATTCGGTGAGCACACCTTACAGTGCAACTTGTTGTTAGACAAGACAGAGATATGGAGGCAGTCTATACTTTGCTCCATAACTGAGGTGGCACCGCGATTTTACGCCCTCACACA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0657" Name="trpE" Position="-402" Score="79.1">
+          <Sequence>AATACCCAGCAGAAGAGTAGTAACATCCCTCCTTTCAGAGAGTCTGTGGTTGCTGTAAACAGGCAGGAGAAGTTATGAAATGGGCTGTTGGAGTCAACATTTTGTCCTTTAGTTGAACTTTTATTACTTTGTTAGCTTACTTTGCTGTAAACCAGTATGCTGACTTGAACTAAAAGGGATCTAAATGACTGTAAATAAGTAAATGAGATGTGGAGCCTGAAGACTCCATAACTGAGGTGGCACCGCGATGATACGCCCTCACAGG</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SGO_0856" Name="trpX" Position="-278" Score="39.4">
+          <Sequence>GTAATTTACTGATAAGCTAAAAGAATAAATGAATTCGAAACAATAAGAATTCGGTTGGCACACCTTACAGTGCAACTTGTTGGTAGACAAGGCAGAGATATGGGAGAATGCTATTTATTTTTCCATAATTGAGGTGGCACCGCGATTTACGCCCTCACACA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3788971" LocusId="SGO_0657" Name="trpE" Function="Anthranilate synthase, aminase component (EC 4.1.3.27) # TrpAa" />
+          <Members vimssId="3788972" LocusId="SGO_0658" Name="trpG" Function="Anthranilate synthase, amidotransferase component (EC 4.1.3.27) @ Para-aminobenzoate synthase, amidotransferase component (EC 2.6.1.85) # TrpAb@PabAb" />
+          <Members vimssId="3788973" LocusId="SGO_0659" Name="trpD" Function="Anthranilate phosphoribosyltransferase (EC 2.4.2.18)" />
+          <Members vimssId="3788974" LocusId="SGO_0660" Name="trpC" Function="Indole-3-glycerol phosphate synthase (EC 4.1.1.48)" />
+          <Members vimssId="3788975" LocusId="SGO_0661" Name="trpF" Function="Phosphoribosylanthranilate isomerase (EC 5.3.1.24)" />
+          <Members vimssId="3788976" LocusId="SGO_0662" Name="trpB" Function="Tryptophan synthase beta chain (EC 4.2.1.20)" />
+          <Members vimssId="3788977" LocusId="SGO_0663" Name="trpA" Function="Tryptophan synthase alpha chain (EC 4.2.1.20)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3789170" LocusId="SGO_0856" Name="trpX" Function="Predicted ABC transporter for tryptophane, substrate-binding protein TrpX" />
+          <Members vimssId="3789171" LocusId="SGO_0857" Name="trpY" Function="Predicted ABC transporter for tryptophane, permease protein TrpY" />
+          <Members vimssId="3789172" LocusId="SGO_0858" Name="trpZ" Function="Predicted ABC transporter for tryptophane, ATP-binding protein TrpZ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3788970" LocusId="SGO_0656" Name="trpB2" Function="Tryptophan synthase beta chain (EC 4.2.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Val)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33508" />
+      <Effector>Val-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_0637" Name="SGO_0637" Position="-314" Score="51.7">
+          <Sequence>TATGTTCATCAGAGGTGTTTTGAGTCAAGCATTTTACAGAAAGTGGCGGTGCTGAGAAGTCCACAAATGTGTCAAAACTGGTTGCTGATGAGATGAAAAATTGAAATAAAAGTGTCTTTTTGTTTCCTTTTAGGACTAGGCAAGGAGTTGTAGGTTATACTAGCGTATGCCAAAGCGAGTTAACGACGTCATAAAAGAGAAAGAAGAGAAAAGTTGCGGGCATCTGCCCGAAATTGGGTGGTACCGCGGATAAACACATTCGTCCCTGTCAT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3788951" LocusId="SGO_0637" Name="SGO_0637" Function="Ribosomal-protein-serine acetyltransferase (EC 2.3.1.-)" />
+          <Members vimssId="3788952" LocusId="SGO_0638" Name="null" Function="hypothetical protein" />
+          <Members vimssId="3788953" LocusId="SGO_0639" Name="valS" Function="Valyl-tRNA synthetase (EC 6.1.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28884" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_2102" Name="COG0011" Position="-327" Score="51.9">
+          <Sequence>AATATACATATATGGGAGTCTGTGTACAGTCTGAGAGGAAGTGTAAACTTCGACCGCACCTGATCTGGGTAATGCCAGCGTAGGGAAAAGTATTTGTAAAAAC</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3790416" LocusId="SGO_2102" Name="COG0011" Function="Cytoplasmic thiamin-binding component of thiamin ABC transporter, COG0011 family" />
+          <Members vimssId="3790415" LocusId="SGO_2101" Name="thiX" Function="Thiamin ABC transporter, transmembrane component" />
+          <Members vimssId="3790414" LocusId="SGO_2100" Name="thiY" Function="Thiamin ABC transporter, substrate-binding component" />
+          <Members vimssId="3790413" LocusId="SGO_2099" Name="thiZ" Function="Thiamin ABC transporter, ATPase component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01054" RegulationMode="RF01054">
+      <Regulator Key="preQ1-II" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30022" />
+      <Effector>Pre-queuosine</Effector>
+      <Pathway>Queuosine biosynthesis</Pathway>
+      <LocusTag Key="preQ1-II" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1391" Name="queT" Position="-133" Score="75">
+          <Sequence>TTATGCTATACTAGTTGAGTTGCCGAGTTTGTAAGGGAAAGGCATGTCTTTCTTCTTATTCCTAGCAACCCTTGGCTCTTAGCTTCTTTCGCCAAGCATATTACACGCGGTAAAACCGCCAAAGGAGAATTTGATG</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789704" LocusId="SGO_1391" Name="queT" Function="Substrate-specific component QueT (COG4708) of predicted queuosine-regulated ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00380" RegulationMode="RF00380">
+      <Regulator Key="ykoK" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30262" />
+      <Effector>Magnesium ion, (Mg2+)</Effector>
+      <Pathway>Magnesium homeostasis</Pathway>
+      <LocusTag Key="ykoK" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1634" Name="mgtB" Position="-430" Score="65.4">
+          <Sequence>AATGGAAAATCGGTAGGTGAGGCTACCATAAGGATACGGGTGACTACCGCAAAGCAGTGGAGACACTACTCGTTGGTCAACAGTCCTGATCGCCAAGGTCAAGACTAAGCTCATTTCATTGCCTTATGGAGTTAAAGCTTGAACGGTAAATACTTGCT</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789947" LocusId="SGO_1634" Name="mgtB" Function="Mg(2+) transport ATPase, P-type (EC 3.6.3.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30322" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SGO_1619" Name="atcL" Position="-153" Score="66.7">
+          <Sequence>GATAAACAACTCAAGGGAGTAGCTAACGGAATAACCGTTACATGGTCGTCAATACGAAAGCAATTTCCGGCCTTGTATGAAATAGCGAGACTTGTTTAATAA</Sequence>
+          <Bacteria>Streptococcus gordonii str. Challis substr. CH1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3789932" LocusId="SGO_1619" Name="atcL" Function="Calcium-transporting ATPase (EC 3.6.3.8)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

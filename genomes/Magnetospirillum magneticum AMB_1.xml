@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Magnetospirillum magneticum AMB-1" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="CueR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50987" />
+      <Effector>Copper ion, (Cu+)</Effector>
+      <Pathway>Copper resistance</Pathway>
+      <LocusTag Key="amb1808" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1102733&amp;disp=0" />
+      <BiologicalProcess>Copper resistance</BiologicalProcess>
+      <Regulog Key="CueR - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5167" />
+      <RegulatorySites>
+        <FastaObject LocusTag="amb1807" Name="copA" Position="-26" Score="5.9">
+          <Sequence>ACCTTCCCGTTGCTGGAAGGT</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb1810" Name="copZ" Position="-61" Score="5.2">
+          <Sequence>ACCTTCCATGGGCTGGAAGGT</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1102735" LocusId="amb1810" Name="copZ" Function="Copper chaperone" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1102732" LocusId="amb1807" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="1102733" LocusId="amb1808" Name="cueR" Function="Copper-responsive transcriptional regulator, MerR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5167</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator (repressor)">
+      <Regulator Key="FnrN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63388" />
+      <Effector>Oxygen</Effector>
+      <Pathway>Oxidative stress response; Nitrogen fixation</Pathway>
+      <LocusTag Key="amb4369" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1105294&amp;disp=0" />
+      <BiologicalProcess>Oxidative stress response; Nitrogen fixation</BiologicalProcess>
+      <Regulog Key="FnrN - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6532" />
+      <RegulatorySites>
+        <FastaObject LocusTag="amb0883" Name="cycA" Position="-78" Score="5.9">
+          <Sequence>GACTTGACCTTGCTCAATGC</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1101804" LocusId="amb0883" Name="cycA" Function="Cytochrome c4 precursor" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6532</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor (activator)">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19538" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="amb1009" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1101932&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2111" />
+      <RegulatorySites>
+        <FastaObject LocusTag="amb0936" Name="mtr1" Position="-40" Score="4.7">
+          <Sequence>AATTCGAGTCATTAGCAAA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb4411" Name="COG3470" Position="-197" Score="5.2">
+          <Sequence>ATTGCGATCAACTCTCATT</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb4411" Name="COG3470" Position="-1" Score="5.6">
+          <Sequence>AATGCGAGTCACTTGCATT</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb1681" Name="mtr2" Position="-71" Score="5.3">
+          <Sequence>AATGCGAGCTATTTGCAAT</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb3018" Name="mtrB" Position="-40" Score="4.8">
+          <Sequence>ATTGCGATTACGTCTCATT</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb1811" Name="" Position="-36" Score="5.9">
+          <Sequence>ATTGCGAGTCATTCGCATT</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb1019" Name="" Position="-83" Score="4.8">
+          <Sequence>ATTGCGTATGATTATCATA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb1662" Name="irr2" Position="-32" Score="5.3">
+          <Sequence>GTTGCGAGTAAATCGCAAT</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb1008" Name="" Position="-72" Score="4.5">
+          <Sequence>ATTGACAATGAGTGGCAAT</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb1682" Name="phnP" Position="-84" Score="5.3">
+          <Sequence>ATTGCAAATAGCTCGCATT</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb1018" Name="" Position="-132" Score="4.8">
+          <Sequence>TATGATAATCATACGCAAT</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1101941" LocusId="amb1018" Name="null" Function="Methyl-accepting chemotaxis protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1102604" LocusId="amb1681" Name="mtr2" Function="High-affinity Fe2+/Pb2+ permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1102605" LocusId="amb1682" Name="phnP" Function="Hemerythrin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1102736" LocusId="amb1811" Name="null" Function="Hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1105336" LocusId="amb4411" Name="COG3470" Function="Uncharacterized protein probably involved in high-affinity Fe2+ transport" />
+          <Members vimssId="1105337" LocusId="amb4412" Name="oprB" Function="Carbohydrate-selective porin OprB" />
+          <Members vimssId="1105338" LocusId="amb4413" Name="COG0348" Function="Polyferredoxin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1101859" LocusId="amb0936" Name="mtr1" Function="High-affinity Fe2+/Pb2+ permease" />
+          <Members vimssId="1101860" LocusId="amb0937" Name="mtr2" Function="High-affinity Fe2+/Pb2+ permease" />
+          <Members vimssId="1101861" LocusId="amb0938" Name="COG0348" Function="Polyferredoxin" />
+          <Members vimssId="1101862" LocusId="amb0939" Name="COG3470" Function="Uncharacterized protein probably involved in high-affinity Fe2+ transport" />
+          <Members vimssId="1101863" LocusId="amb0940" Name="COG3470" Function="Uncharacterized protein probably involved in high-affinity Fe2+ transport" />
+          <Members vimssId="1101864" LocusId="amb0941" Name="oprB" Function="Carbohydrate-selective porin OprB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1101942" LocusId="amb1019" Name="null" Function="Hypothetical protein" />
+          <Members vimssId="1101943" LocusId="amb1020" Name="null" Function="ATPase components of ABC transporters with duplicated ATPase domains" />
+          <Members vimssId="1101944" LocusId="amb1021" Name="null" Function="Serine/threonine protein kinase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1103943" LocusId="amb3018" Name="mtrB" Function="Decahaem-associated outer membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1101931" LocusId="amb1008" Name="null" Function="Hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1102585" LocusId="amb1662" Name="irr2" Function="Iron-responsive regulator Irr" />
+          <Members vimssId="1102586" LocusId="amb1663" Name="bfr1" Function="Bacterioferritin" />
+          <Members vimssId="1102587" LocusId="amb1664" Name="bfr2" Function="Bacterioferritin (cytochrome b1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2111</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49756" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="amb4497" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1105422&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5038" />
+      <RegulatorySites>
+        <FastaObject LocusTag="amb0203" Name="groL" Position="-388" Score="7.3">
+          <Sequence>TTGGCACTCGTCGCCGGAGAGTGCTAA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1101124" LocusId="amb0203" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5038</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Irr" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=18362" />
+      <Effector>Heme</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="amb4306" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1105231&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Irr - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1983" />
+      <RegulatorySites>
+        <FastaObject LocusTag="amb2822" Name="ccpA" Position="-164" Score="5.1">
+          <Sequence>GAGTTAGAAGAATTCTAAATA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1103747" LocusId="amb2822" Name="ccpA" Function="Cytochrome c551 peroxidase (EC 1.11.1.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1983</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17958" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="amb3030" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1103955&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1939" />
+      <RegulatorySites>
+        <FastaObject LocusTag="amb3031" Name="cysE" Position="-117" Score="7.3">
+          <Sequence>AATCTTGACTGGCCTTGTCGGACAT</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1103956" LocusId="amb3031" Name="cysE" Function="Serine acetyltransferase (EC 2.3.1.30)" />
+          <Members vimssId="1103955" LocusId="amb3030" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="1103954" LocusId="amb3029" Name="iscS2" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+          <Members vimssId="1103953" LocusId="amb3028" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+          <Members vimssId="1103952" LocusId="amb3027" Name="iscU" Function="Iron-sulfur cluster assembly scaffold protein IscU" />
+          <Members vimssId="1103951" LocusId="amb3026" Name="iscA" Function="Iron binding protein IscA for iron-sulfur cluster assembly" />
+          <Members vimssId="1103950" LocusId="amb3025" Name="hscB" Function="Chaperone protein HscB" />
+          <Members vimssId="1103949" LocusId="amb3024" Name="hscA" Function="Chaperone protein HscA" />
+          <Members vimssId="1103948" LocusId="amb3023" Name="fdx" Function="ferredoxin, 2Fe-2S type, ISC system" />
+          <Members vimssId="1103947" LocusId="amb3022" Name="yfhJ" Function="putative Fe-S cluster assembly protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1939</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28400" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="amb2866" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1103791&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2987" />
+      <RegulatorySites>
+        <FastaObject LocusTag="amb3608" Name="yoaA" Position="-33" Score="3.9">
+          <Sequence>GTGCACCAATCGTTC</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb2866" Name="lexA" Position="-118" Score="-0.6">
+          <Sequence>AAACAAAACGGAATC</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb0622" Name="recA" Position="-110" Score="1.1">
+          <Sequence>GAACTGAAATGGAAC</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb0623" Name="dinB" Position="4" Score="2.3">
+          <Sequence>GAACATATGGTGATC</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb2866" Name="lexA" Position="-46" Score="4.6">
+          <Sequence>GTTTGTTCTTTGTTC</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb4124" Name="rmuC" Position="16" Score="5">
+          <Sequence>GTTCCCGTAATGTTC</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1105049" LocusId="amb4124" Name="rmuC" Function="DNA recombination protein RmuC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1104533" LocusId="amb3608" Name="yoaA" Function="DinG family ATP-dependent helicase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1101543" LocusId="amb0622" Name="recA" Function="Recombinase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1103791" LocusId="amb2866" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1101544" LocusId="amb0623" Name="dinB" Function="DNA polymerase IV (EC 2.7.7.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2987</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="LldR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16678" />
+      <Effector>L-lactate</Effector>
+      <Pathway>Lactate utilization</Pathway>
+      <LocusTag Key="amb0238" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1101159&amp;disp=0" />
+      <BiologicalProcess>Lactate utilization</BiologicalProcess>
+      <Regulog Key="LldR - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1796" />
+      <RegulatorySites>
+        <FastaObject LocusTag="amb4129" Name="lldE" Position="-50" Score="5.8">
+          <Sequence>TTGGCAAAATAATTTTACCAC</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb4128" Name="lldP" Position="-197" Score="6.3">
+          <Sequence>GTGGTAAAATTATTTTGCCAA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb0238" Name="lldR" Position="-118" Score="4.3">
+          <Sequence>CTGGATAAAACTTTTTACCAC</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1105054" LocusId="amb4129" Name="lldE" Function="L-lactate dehydrogenase, Fe-S oxidoreductase subunit LldE" />
+          <Members vimssId="1105055" LocusId="amb4130" Name="lldF" Function="L-lactate dehydrogenase, Iron-sulfur cluster-binding subunit LldF" />
+          <Members vimssId="1105056" LocusId="amb4131" Name="lldG" Function="L-lactate dehydrogenase, subunit LldG" />
+          <Members vimssId="1105057" LocusId="amb4132" Name="dld" Function="D-lactate dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1105053" LocusId="amb4128" Name="lldP" Function="L-lactate permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1101159" LocusId="amb0238" Name="lldR" Function="Lactate-responsive regulator LldR, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1796</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="MdcY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61715" />
+      <Effector />
+      <Pathway>Malonate metabolism</Pathway>
+      <LocusTag Key="amb3585" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1104510&amp;disp=0" />
+      <BiologicalProcess>Malonate metabolism</BiologicalProcess>
+      <Regulog Key="MdcY - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6339" />
+      <RegulatorySites>
+        <FastaObject LocusTag="amb3585" Name="mdcY" Position="-107" Score="4.1">
+          <Sequence>TTGTATACGT</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb3585" Name="mdcY" Position="-41" Score="3.9">
+          <Sequence>ATGTATACTC</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb3584" Name="matB" Position="25" Score="4.4">
+          <Sequence>TTGGATACAA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1104509" LocusId="amb3584" Name="matB" Function="Malonyl-CoA synthase" />
+          <Members vimssId="1104508" LocusId="amb3583" Name="amb2561" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+          <Members vimssId="1104507" LocusId="amb3582" Name="fadB" Function="Dehydrogenase with different specificities" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1104510" LocusId="amb3585" Name="mdcY" Function="Transcriptional regulator of malonate metabolism, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6339</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57761" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdopterin biosynthesis</Pathway>
+      <LocusTag Key="amb2949" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1103874&amp;disp=0" />
+      <BiologicalProcess>Molybdopterin biosynthesis</BiologicalProcess>
+      <Regulog Key="ModE - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5915" />
+      <RegulatorySites>
+        <FastaObject LocusTag="amb2951" Name="modA" Position="-47" Score="7">
+          <Sequence>TCGCTATATACATGAACTACATTTCGA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb2949" Name="modE" Position="-39" Score="5.5">
+          <Sequence>TCGTCATATAGTGCGCATACATGACGA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb2950" Name="modX" Position="-289" Score="7">
+          <Sequence>TCGAAATGTAGTTCATGTATATAGCGA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1103875" LocusId="amb2950" Name="modX" Function="Predicted molibdenum binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1103874" LocusId="amb2949" Name="modE" Function="Molybdate-responsive transcriptional regulator ModE" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1103876" LocusId="amb2951" Name="modA" Function="Molybdenum ABC transporter, periplasmic molybdenum-binding protein ModA (TC 3.A.1.8.1)" />
+          <Members vimssId="1103877" LocusId="amb2952" Name="modQ2" Function="Predicted molybdenum delivery protein" />
+          <Members vimssId="1103878" LocusId="amb2953" Name="modD" Function="Molybdenum transport system protein ModD" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5915</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator">
+      <Regulator Key="NifA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63805" />
+      <Effector />
+      <Pathway>Nitrogen fixation</Pathway>
+      <LocusTag Key="amb3464" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1104389&amp;disp=0" />
+      <BiologicalProcess>Nitrogen fixation</BiologicalProcess>
+      <Regulog Key="NifA - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6584" />
+      <RegulatorySites>
+        <FastaObject LocusTag="amb1583" Name="nifB" Position="-115" Score="5.5">
+          <Sequence>TGTCGGGGATGCGACA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb1575" Name="draT" Position="-139" Score="5">
+          <Sequence>TGTGCGGAATCCGACA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb1575" Name="draT" Position="-109" Score="4.6">
+          <Sequence>TGTTGCAACCCCAACA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb1563" Name="iscN" Position="-110" Score="4">
+          <Sequence>TGTCGGATTCCCCTCC</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb2611" Name="rnfX" Position="-324" Score="5">
+          <Sequence>TGTCGTACTTGCGACA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb1583" Name="nifB" Position="-135" Score="4.9">
+          <Sequence>TGTCGCGTCCCCGACC</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb1569" Name="nifE" Position="-118" Score="5.4">
+          <Sequence>TGTCGCATGTCCGACA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb1574" Name="nifH" Position="-193" Score="5">
+          <Sequence>TGTCGGATTCCGCACA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb1574" Name="nifH" Position="-223" Score="4.6">
+          <Sequence>TGTTGGGGTTGCAACA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb1563" Name="iscN" Position="-127" Score="4.9">
+          <Sequence>TGTCGCAAAGTCGACA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1102506" LocusId="amb1583" Name="nifB" Function="Nitrogenase FeMo-cofactor synthesis FeS core scaffold and assembly protein NifB" />
+          <Members vimssId="1102505" LocusId="amb1582" Name="nifZ" Function="Nitrogen fixation protein NifZ" />
+          <Members vimssId="1102504" LocusId="amb1581" Name="nifT" Function="Nitrogen fixation protein nifT" />
+          <Members vimssId="1102503" LocusId="amb1580" Name="sir2" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1102498" LocusId="amb1575" Name="draT" Function="NAD(+)--dinitrogen-reductase ADP-D-ribosyltransferase (EC 2.4.2.37)" />
+          <Members vimssId="1102499" LocusId="amb1576" Name="draG" Function="ADP-ribosylglycohydrolase (EC 3.2.-.-)" />
+          <Members vimssId="1102500" LocusId="amb1577" Name="PF03960" Function="Nitrogenase-associated protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1102497" LocusId="amb1574" Name="nifH" Function="Nitrogenase (molybdenum-iron) reductase and maturation protein NifH" />
+          <Members vimssId="1102496" LocusId="amb1573" Name="nifD" Function="Nitrogenase (molybdenum-iron) alpha chain (EC 1.18.6.1)" />
+          <Members vimssId="1102495" LocusId="amb1572" Name="nifK" Function="Nitrogenase (molybdenum-iron) beta chain (EC 1.18.6.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1102492" LocusId="amb1569" Name="nifE" Function="Nitrogenase FeMo-cofactor scaffold and assembly protein NifE" />
+          <Members vimssId="1102491" LocusId="amb1568" Name="nifN" Function="Nitrogenase FeMo-cofactor scaffold and assembly protein NifN" />
+          <Members vimssId="1102490" LocusId="amb1567" Name="nifX" Function="Nitrogenase FeMo-cofactor carrier protein NifX" />
+          <Members vimssId="1102489" LocusId="amb1566" Name="PF03270" Function="Conserved hypothetical protein, probably related to nitrogen fixation protein" />
+          <Members vimssId="1102488" LocusId="amb1565" Name="fdxB" Function="Nitrogenase specific ferredoxin III protein FdxB" />
+          <Members vimssId="1102487" LocusId="amb1564" Name="nifQ" Function="Nitrogenase FeMo-cofactor synthesis molybdenum delivery protein NifQ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1103536" LocusId="amb2611" Name="rnfX" Function="Periplasmic protein, probably involved in maturation of Rnf complex" />
+          <Members vimssId="1103537" LocusId="amb2612" Name="rseC" Function="Sigma factor RpoE regulatory protein RseC" />
+          <Members vimssId="1103538" LocusId="amb2613" Name="rnfA" Function="Electron transport complex protein RnfA" />
+          <Members vimssId="1103539" LocusId="amb2614" Name="rnfB" Function="Electron transport complex protein RnfB" />
+          <Members vimssId="1103540" LocusId="amb2615" Name="rnfC" Function="Electron transport complex protein RnfC" />
+          <Members vimssId="1103541" LocusId="amb2616" Name="rnfD" Function="Electron transport complex protein RnfD" />
+          <Members vimssId="1103542" LocusId="amb2617" Name="rnfG" Function="Electron transport complex protein RnfG" />
+          <Members vimssId="1103543" LocusId="amb2618" Name="rnfE" Function="Electron transport complex protein RnfE" />
+          <Members vimssId="1103544" LocusId="amb2619" Name="rnfH" Function="Electron transport complex protein RnfH" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1102486" LocusId="amb1563" Name="iscN" Function="Fe-S cofactor nitrogenase synthesis protein IscN" />
+          <Members vimssId="1102485" LocusId="amb1562" Name="nifV" Function="Homocitrate synthase (EC 2.3.3.14)" />
+          <Members vimssId="1102484" LocusId="amb1561" Name="nifW" Function="Nitrogenase-stabilizing/protective protein nifW" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6584</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15610" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="amb0919" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1101842&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1676" />
+      <RegulatorySites>
+        <FastaObject LocusTag="amb2746" Name="nrdJ" Position="-131" Score="4.1">
+          <Sequence>ACACAATATGATGTGA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb2746" Name="nrdJ" Position="-47" Score="5.5">
+          <Sequence>CCACTAGATATTGTGG</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1103671" LocusId="amb2746" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1676</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19380" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="amb2367" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1103292&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2093" />
+      <RegulatorySites>
+        <FastaObject LocusTag="amb0014" Name="amtB" Position="-189" Score="4.3">
+          <Sequence>TGCCCAAAACTTCATCA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb0014" Name="amtB" Position="-220" Score="4.2">
+          <Sequence>AGCACAAAATTTGACCA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb0013" Name="glnK" Position="-241" Score="4.2">
+          <Sequence>CGCTCAAGATTCGTGCG</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb1969" Name="amtB2" Position="-205" Score="4.2">
+          <Sequence>TGCTCAAATATTCACCA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb1969" Name="amtB2" Position="-177" Score="4.3">
+          <Sequence>AGCTTATTAATTAAGCA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb1969" Name="amtB2" Position="-125" Score="4.3">
+          <Sequence>CGCCCACTTAATGTGCA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb0537" Name="nrtA" Position="-297" Score="4.3">
+          <Sequence>CGATTAAATTTTAAGCA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb0534" Name="nrtA2" Position="-289" Score="4.2">
+          <Sequence>TGTTTATTTTTTAGGCA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb0695" Name="glnB" Position="-120" Score="4.3">
+          <Sequence>TGCCCAGGAAATAGGCG</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb2365" Name="nifR3" Position="-110" Score="4.6">
+          <Sequence>TGCATAATAAATACGCA</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1102894" LocusId="amb1969" Name="amtB2" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1103290" LocusId="amb2365" Name="nifR3" Function="Nitrogen assimilation transcriptional regulator NtrX, Fis family" />
+          <Members vimssId="1103291" LocusId="amb2366" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="1103292" LocusId="amb2367" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+          <Members vimssId="1103293" LocusId="amb2368" Name="ntrY" Function="Nitrogen regulation protein NtrY, sensor kinase (EC 2.7.3.-)" />
+          <Members vimssId="1103294" LocusId="amb2369" Name="ntrX" Function="Nitrogen assimilation transcriptional regulator NtrX, Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1100935" LocusId="amb0014" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1100934" LocusId="amb0013" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1101458" LocusId="amb0537" Name="nrtA" Function="Nitrate ABC transporter, substrate-binding component" />
+          <Members vimssId="1101457" LocusId="amb0536" Name="nrtB" Function="Nitrate ABC transporter, permease component" />
+          <Members vimssId="1101456" LocusId="amb0535" Name="nrtC" Function="Nitrate ABC transporter, ATP-binding component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1101455" LocusId="amb0534" Name="nrtA2" Function="Nitrate ABC transporter, substrate-binding component" />
+          <Members vimssId="1101454" LocusId="amb0533" Name="nasD" Function="Nitrite reductase, large subunit (EC 1.7.1.4)" />
+          <Members vimssId="1101453" LocusId="amb0532" Name="nasE" Function="Nitrite reductase, small subunit (EC 1.7.1.4)" />
+          <Members vimssId="1101452" LocusId="amb0531" Name="nasA" Function="Assimilatory nitrate reductase large subunit (EC:1.7.99.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1101616" LocusId="amb0695" Name="glnB" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="1101617" LocusId="amb0696" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2093</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxW" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61396" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="amb1376" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1102299&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxW - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6305" />
+      <RegulatorySites>
+        <FastaObject LocusTag="amb1377" Name="pdxO" Position="-241" Score="14.5">
+          <Sequence>AAGTGGCTC-(14)-AAGTGGATC-(8)-GAGCCACTT</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1102300" LocusId="amb1377" Name="pdxO" Function="Pyridoxamine 5'-phosphate oxidase-related, FMN-binding" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6305</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SahR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15812" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="amb0432" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1101353&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SahR - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1698" />
+      <RegulatorySites>
+        <FastaObject LocusTag="amb4391" Name="ahcY" Position="-89" Score="7.1">
+          <Sequence>ACATAAAGATATCTTTATAT</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb0432" Name="sahR" Position="-18" Score="6.6">
+          <Sequence>GCATAAAGATATGTTTATAT</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1101353" LocusId="amb0432" Name="sahR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1105316" LocusId="amb4391" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1698</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16150" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="amb2309" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1103234&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1736" />
+      <RegulatorySites>
+        <FastaObject LocusTag="amb2308" Name="znuA3" Position="-53" Score="6.4">
+          <Sequence>GATTTGTTATATTATAACATTCC</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="amb2309" Name="zur" Position="-36" Score="6.4">
+          <Sequence>GGAATGTTATAATATAACAAATC</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1103234" LocusId="amb2309" Name="zur" Function="Zinc uptake regulation protein Zur" />
+          <Members vimssId="1103235" LocusId="amb2310" Name="znuC3" Function="ABC-type Mn/Zn transport systems, ATPase component" />
+          <Members vimssId="1103236" LocusId="amb2311" Name="znuB3" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1103233" LocusId="amb2308" Name="znuA3" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1736</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48783" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="amb0221" Name="thiC" Position="-63" Score="73.8">
+          <Sequence>CATCTTTCCGAAGGGGAGCCCCGTTCAAGGGGCTGAGAGGCCGGTCACAGGCGCCGGCGACCCTTGGAACCTGATCCGGGTCATTCCGGCGAAGGGATCGGAACCCATCGGTGC</Sequence>
+          <Bacteria>Magnetospirillum magneticum AMB-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1101142" LocusId="amb0221" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Gloeobacter violaceus PCC 7421" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor">
+      <Regulator Key="CcmR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13212" />
+      <Effector />
+      <Pathway>Carbon dioxide fixation</Pathway>
+      <LocusTag Key="gll1001" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=523080&amp;disp=0" />
+      <BiologicalProcess>Carbon dioxide fixation</BiologicalProcess>
+      <Regulog Key="CcmR - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1419" />
+      <RegulatorySites>
+        <FastaObject LocusTag="gvip279" Name="cmpA" Position="-136" Score="5">
+          <Sequence>ATCGACTTTTCTCTAT</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="gvip279" Name="cmpA" Position="-168" Score="5.6">
+          <Sequence>ATAGATTAATATCTAT</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="gll1001" Name="ccmR" Position="-34" Score="5.2">
+          <Sequence>ATAGAACTATGTCTAT</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="gvip132" Name="ndhF3" Position="-139" Score="5">
+          <Sequence>ATCTACTTTTATCTAT</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="523080" LocusId="gll1001" Name="ccmR" Function="Carbon assimilation transcriptional regulator, LysR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="523082" LocusId="gvip132" Name="ndhF3" Function="NADH dehydrogenase subunit F" />
+          <Members vimssId="523083" LocusId="gvip133" Name="ndhD3" Function="NADH dehydrogenase subunit D" />
+          <Members vimssId="523084" LocusId="gvip134" Name="cupA" Function="CO2 uptake protein" />
+          <Members vimssId="523085" LocusId="glr1006" Name="cupS" Function="CO2 uptake transporter, small subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="524180" LocusId="gvip279" Name="cmpA" Function="Bicarbontate ABC transporter, substrate-binding protein" />
+          <Members vimssId="524181" LocusId="gvip280" Name="cmpB" Function="Bicarbontate ABC transporter, permease protein" />
+          <Members vimssId="524182" LocusId="gvip281" Name="ecaB" Function="Periplasmic carbonic anhydrase" />
+          <Members vimssId="524183" LocusId="gvip282" Name="cmpC" Function="Bicarbontate ABC transporter, ATP-binding protein 1" />
+          <Members vimssId="524184" LocusId="gvip283" Name="cmpD" Function="Bicarbontate ABC transporter, ATP-binding protein 2" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1419</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10653" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="glr3304" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=525415&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1162" />
+      <RegulatorySites>
+        <FastaObject LocusTag="gvip470" Name="psaA" Position="-195" Score="2.2">
+          <Sequence>TTTTTAAAAATTGTTAAGT</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="glr3733" Name="perR" Position="-58" Score="4.2">
+          <Sequence>AATTAGATCTATTCTAAAT</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="gll1014" Name="afuA" Position="-64" Score="3.7">
+          <Sequence>ATTGACAATTAATTGCAGC</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="525552" LocusId="gvip470" Name="psaA" Function="Photosystem I P700 chlorophyll A apoprotein A1" />
+          <Members vimssId="525553" LocusId="gvip471" Name="psaB" Function="Photosystem I P700 chlorophyll A apoprotein A2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="525851" LocusId="glr3733" Name="perR" Function="Predicted peroxide stress response regulator, Fur family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="523093" LocusId="gll1014" Name="afuA" Function="Predicted Fe(3+) ABC transport system, substrate-binding protein" />
+          <Members vimssId="523092" LocusId="gll1013" Name="afuB" Function="Predicted Fe(3+) ABC transport system, permease protein" />
+          <Members vimssId="523091" LocusId="gll1012" Name="afuC" Function="Predicted Fe(3+) ABC transport system, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1162</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13353" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="gll2271" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=524368&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1432" />
+      <RegulatorySites>
+        <FastaObject LocusTag="gvip139" Name="groES" Position="-92" Score="9.6">
+          <Sequence>TTAGCACTC---------CAGTGCTAA</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="gvip396" Name="groES" Position="-66" Score="9.6">
+          <Sequence>TTAGCACTT---------GAGTGCTAA</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="525002" LocusId="gvip396" Name="groES" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="525003" LocusId="gvip397" Name="groEL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="523107" LocusId="gvip139" Name="groES" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="523106" LocusId="gvip138" Name="groEL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1432</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10667" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="" Value="" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1163" />
+      <RegulatorySites>
+        <FastaObject LocusTag="gll1134" Name="SYNPCC7002_A0856" Position="-45" Score="4.2">
+          <Sequence>ACTACGGCTATACT</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="523214" LocusId="gll1134" Name="SYNPCC7002_A0856" Function="Conserved hypothetical protein, no COGs" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1163</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10681" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="gll0143" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=522213&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1164" />
+      <RegulatorySites>
+        <FastaObject LocusTag="gll3966" Name="nrdJ" Position="-70" Score="3.6">
+          <Sequence>GATCTACCCATGGTGT</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="gll3966" Name="nrdJ" Position="-40" Score="4">
+          <Sequence>CCACAGTCGGCAGTTG</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="526085" LocusId="gll3966" Name="nrdJ" Function="ribonucleotide reductase (Class II)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1164</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="NtcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10709" />
+      <Effector>2-oxoglutarate</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="gvip454" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=525396&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtcA - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1166" />
+      <RegulatorySites>
+        <FastaObject LocusTag="gvip146" Name="glnA" Position="-116" Score="4">
+          <Sequence>CGTATCTCAGACTACA</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="gvip212" Name="nirA" Position="-146" Score="4">
+          <Sequence>TGTATCTGGGGTTACG</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="gvip454" Name="ntcA" Position="-77" Score="3.9">
+          <Sequence>AGTAGTCCCTAATACA</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="gvip213" Name="ntcB" Position="-46" Score="4">
+          <Sequence>CGTAACCCCAGATACA</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="glr3304" Name="fur" Position="-116" Score="3.9">
+          <Sequence>TGTAACAAATTGTAGA</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="gll0880" Name="trxA" Position="-379" Score="3.6">
+          <Sequence>TGTATCTAGAACTAGC</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="523131" LocusId="gvip146" Name="glnA" Function="glutamine synthetase, type I" />
+        </Operon>
+        <Operon>
+          <Members vimssId="523647" LocusId="gvip212" Name="nirA" Function="Nitrite reductase, ferredoxin dependent" />
+        </Operon>
+        <Operon>
+          <Members vimssId="525396" LocusId="gvip454" Name="ntcA" Function="Global nitrogen transcription regulator, Crp family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="523648" LocusId="gvip213" Name="ntcB" Function="Nitrogen assimilation transcriptional activator, LysR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="525415" LocusId="glr3304" Name="fur" Function="Ferric uptake regulator, Fur family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="522959" LocusId="gll0880" Name="trxA" Function="Thioredoxin-1" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1166</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="activator (repressor)">
+      <Regulator Key="NtcB" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10723" />
+      <Effector>Nitrite</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="gvip213" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=523648&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtcB - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1167" />
+      <RegulatorySites>
+        <FastaObject LocusTag="gvip111" Name="psbL" Position="-36" Score="3.9">
+          <Sequence>ATGCAGTTTATCCAG</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="522937" LocusId="gvip111" Name="psbL" Function="photosystem II protein L" />
+          <Members vimssId="522938" LocusId="gvip112" Name="psbJ" Function="photosystem II protein J" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1167</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="PerR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13432" />
+      <Effector>Manganese ion, (Mn2+)</Effector>
+      <Pathway>Peroxide stress response</Pathway>
+      <LocusTag Key="glr3733" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=525851&amp;disp=0" />
+      <BiologicalProcess>Peroxide stress response</BiologicalProcess>
+      <Regulog Key="PerR - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1440" />
+      <RegulatorySites>
+        <FastaObject LocusTag="glr3734" Name="rub" Position="-62" Score="4.4">
+          <Sequence>ATAGAACGATTCTTA</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="glr3734" Name="rub" Position="-45" Score="4.6">
+          <Sequence>TAAGACTTGTTCTAG</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="glr3733" Name="perR" Position="-56" Score="4.9">
+          <Sequence>TTAGATCTATTCTAA</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="525851" LocusId="glr3733" Name="perR" Function="Peroxide stress response transcriptional regulator, Fur family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="525852" LocusId="glr3734" Name="rub" Function="Predicted rubrerythrin" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1440</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10737" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="glr0783" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=522861&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1168" />
+      <RegulatorySites>
+        <FastaObject LocusTag="glr1694" Name="cce_1484" Position="-6" Score="5.3">
+          <Sequence>TCTAGAATGAGAATCATTCTTGA</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="gll1693" Name="cce_1486" Position="-56" Score="5.3">
+          <Sequence>TCAAGAATGATTCTCATTCTAGA</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="glr0533" Name="glr0533" Position="-40" Score="5.6">
+          <Sequence>TTGAGAACGACTATCATTGTTAT</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="523786" LocusId="glr1694" Name="cce_1484" Function="Predicted Mn/Zn chelate ABC transporter, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="523785" LocusId="gll1693" Name="cce_1486" Function="Predicted Mn/Zn chelate ABC transporter, permease protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="522607" LocusId="glr0533" Name="glr0533" Function="Predicted metal transporter" />
+          <Members vimssId="522608" LocusId="glr0534" Name="yciC2" Function="Putative zinc chaperone, COG0523 family" />
+          <Members vimssId="522609" LocusId="glr0535" Name="COG2319" Function="WD-40 repeat-containing protein, COG2319 family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1168</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14123" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="gll4193" Name="cbiX" Position="-122" Score="30.3">
+          <Sequence>CCCGCGCCTTGCAGCGCAGGGTGATAACCTGTTGAGGTCCAAAAGCGGGAAAGTCCGGTGCGATCCCGGTACTGTGCCGCAGCTGTAATGGGCTTCCCAAGTCAGAATGCCGCCTTTGGACGTTGCCTCCGG</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="glr1973" Name="btuB" Position="15" Score="41.9">
+          <Sequence>ACAATCGAATGGCTTTGGGAGCCCGGGGGATCAGCCCGGGCTGAAAGGGGAAAGTCCGGTGCGAGTCCGGCGCTGTGCCGCAGCTGTGATGGCTTGAGAGCAAGCCTCAGTCAGAATGCCCGTCCCACAAAAGCCGCATTCCAC</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="526314" LocusId="gll4193" Name="cbiX" Function="Sirohydrochlorin cobaltochelatase (EC 4.99.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="524066" LocusId="glr1973" Name="btuB" Function="Outer membrane vitamin B12 receptor BtuB" />
+          <Members vimssId="524067" LocusId="glr1974" Name="cbiW" Function="Putative ferredoxin" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00557" RegulationMode="RF00557">
+      <Regulator Key="L10_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=24938" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L10_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="gvip225" Name="rplJ" Position="-160" Score="65.9">
+          <Sequence>TTCAACCGAATCCGCGACCGAAGACAGCAGGGGCCTTGACGCTTAATCAGCCTGCCGAGGTTGGCACATGGGAAGTACGCCTCCAGGCTTTTTCCCTTTGCGCCTCGCTTCGAATATCGGCGGGGCGATTTTTTTGCCCAACCCA</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="523692" LocusId="gvip225" Name="rplJ" Function="50S ribosomal protein L10" />
+          <Members vimssId="523693" LocusId="gvip226" Name="rplL" Function="ribosomal protein L7/L12" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00162" RegulationMode="RF00162">
+      <Regulator Key="SAM" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21549" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="SAM" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="gll2577" Name="metK" Position="-183" Score="78.5">
+          <Sequence>TGACTTATCCAGAGCAGGCGTAGGGAACAGGCCCGGTGACGCCACGGCAACCGCCCACTAGCAACGGGAAAAGGTGCCAATTCCTGCGGTTCCTCACGAACCGGAAGATAAGTC</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="524679" LocusId="gll2577" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13957" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="gvip148" Name="thiC" Position="-105" Score="55.5">
+          <Sequence>GTTCACGCTGGGGGTGCGGACGGTCCGCACGATCGCTTCGCTGAGATCACACCCCTTGAACCTGATCCGGTTCGTACCGGCGAGAGGGAAGCCAAAGGAGTCACTATG</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="523198" LocusId="gvip148" Name="thiC" Function="Phosphomethylpyrimidine synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01068" RegulationMode="RF01068">
+      <Regulator Key="mini-ykkC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=24119" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="mini-ykkC" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="gll2987" Name="ykkC" Position="-68" Score="46.5">
+          <Sequence>ACGGTGGGGACGACCCCACCCTTCGCAAAGTTTCGCGGGGACGACCCCG</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="525093" LocusId="gll2987" Name="ykkC" Function="Quaternary ammonium compound-resistance protein sugE" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00442" RegulationMode="RF00442">
+      <Regulator Key="ykkC-yxkD" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=23875" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="ykkC-yxkD" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="gll0960" Name="amt1" Position="-177" Score="76.8">
+          <Sequence>AAAAACTGGCTTCTAGGGTTCCGGTCCCGCTCCTGTGGTGGGACGGCTGGTCCGAGAGAAGCAGCCGGTCCGACAGCAGGGCCGGTCACACGGCGGGAGAAAAGCCCGGGAGAG</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="523039" LocusId="gll0960" Name="amt1" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="523038" LocusId="gll0959" Name="amt2" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="523037" LocusId="gll0958" Name="ucaA" Function="Urea carboxylase (EC 6.3.4.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=23641" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="glr4409" Name="ykoY" Position="-125" Score="52.6">
+          <Sequence>TAGAGATGGATGGGGAGTAGCCGCCCGCGCTTGCGGGGCAGTCGGTCGTCAACCCGAAGCGTTTGCTTCCGGTCGATTGCATGTGCCGAGGCACGATTGGCGAGACCACCACGACGAAAAC</Sequence>
+          <Bacteria>Gloeobacter violaceus PCC 7421</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="526530" LocusId="glr4409" Name="ykoY" Function="Membrane protein TerC, possibly involved in tellurium resistance" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

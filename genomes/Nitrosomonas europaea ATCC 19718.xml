@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Nitrosomonas europaea ATCC 19718" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15013" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="NE2460" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=369099&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Various betaproteobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1611" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NE2300" Name="bioB" Position="-96" Score="7.6">
+          <Sequence>CTGTTTAAT--------------AATTGACAA</Sequence>
+          <Bacteria>Nitrosomonas europaea ATCC 19718</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="368945" LocusId="NE2300" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="368944" LocusId="NE2299" Name="bioF" Function="8-amino-7-oxononanoate synthase (EC 2.3.1.47)" />
+          <Members vimssId="368943" LocusId="NE2298" Name="bioH" Function="Biotin synthesis protein bioH" />
+          <Members vimssId="368942" LocusId="NE2297" Name="bioC" Function="Biotin synthesis protein bioC" />
+          <Members vimssId="368941" LocusId="NE2296" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1611</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor (activator)">
+      <Regulator Key="GlcC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19165" />
+      <Effector>Glycolate</Effector>
+      <Pathway>Glycolate utilization</Pathway>
+      <LocusTag Key="" Value="" />
+      <BiologicalProcess>Glycolate utilization</BiologicalProcess>
+      <Regulog Key="GlcC - Various betaproteobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2070" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NE0674" Name="glcE" Position="-118" Score="3.6">
+          <Sequence>ACTGCTCAATCCAGG</Sequence>
+          <Bacteria>Nitrosomonas europaea ATCC 19718</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="367402" LocusId="NE0675" Name="glcD" Function="Glycolate dehydrogenase (EC 1.1.99.14), subunit GlcD" />
+          <Members vimssId="367401" LocusId="NE0674" Name="glcE" Function="Glycolate dehydrogenase (EC 1.1.99.14), FAD-binding subunit GlcE" />
+          <Members vimssId="367400" LocusId="NE0673" Name="glcF" Function="Glycolate dehydrogenase (EC 1.1.99.14), iron-sulfur subunit GlcF" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2070</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49715" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="NE1477" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=368166&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Various betaproteobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5035" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NE0027" Name="groS" Position="-128" Score="7.4">
+          <Sequence>TTAGCACTCGTTGCTGTTGAGTGCTAA</Sequence>
+          <Bacteria>Nitrosomonas europaea ATCC 19718</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NE0584" Name="rpoH" Position="-85" Score="7">
+          <Sequence>TTAGCACTCATGAACTAAGAGTGCTAG</Sequence>
+          <Bacteria>Nitrosomonas europaea ATCC 19718</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="367316" LocusId="NE0584" Name="rpoH" Function="Heat shock response RNA polymerase sigma factor RpoH (Sigma 32)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="366776" LocusId="NE0027" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="366777" LocusId="NE0028" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5035</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17917" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="NE1452" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=368141&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Various betaproteobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1936" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NE1452" Name="iscR" Position="-100" Score="6.7">
+          <Sequence>ATAGTTGACTAATATTGTCGGGTAT</Sequence>
+          <Bacteria>Nitrosomonas europaea ATCC 19718</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="368141" LocusId="NE1452" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="368140" LocusId="NE1451" Name="iscA" Function="Iron binding protein IscA for iron-sulfur cluster assembly" />
+          <Members vimssId="368139" LocusId="NE1450" Name="sufB" Function="Iron-sulfur cluster assembly protein SufB" />
+          <Members vimssId="368138" LocusId="NE1449" Name="sufC" Function="Iron-sulfur cluster assembly ATPase protein SufC" />
+          <Members vimssId="368137" LocusId="NE1448" Name="sufD" Function="Iron-sulfur cluster assembly protein SufD" />
+          <Members vimssId="368136" LocusId="NE1447" Name="sufS" Function="Cysteine desulfurase (EC 2.8.1.7), SufS subfamily" />
+          <Members vimssId="368135" LocusId="NE1446" Name="sufE2" Function="Sulfur acceptor protein SufE for iron-sulfur cluster assembly" />
+          <Members vimssId="368134" LocusId="NE1445" Name="sufE3" Function="Sulfur acceptor protein SufE for iron-sulfur cluster assembly" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1936</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="MerR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51142" />
+      <Effector>Mercury ion, (Hg2+)</Effector>
+      <Pathway>Mercury resistance</Pathway>
+      <LocusTag Key="NE0843" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=367565&amp;disp=0" />
+      <BiologicalProcess>Mercury resistance</BiologicalProcess>
+      <Regulog Key="MerR - Various betaproteobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5185" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NE0842" Name="merT" Position="-63" Score="6.1">
+          <Sequence>ACTCCGTACATGACTACGGAAG</Sequence>
+          <Bacteria>Nitrosomonas europaea ATCC 19718</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="367564" LocusId="NE0842" Name="merT" Function="Mercury uptake inner membane protein" />
+          <Members vimssId="367563" LocusId="NE0841" Name="merP" Function="Periplasmic mercury (+2) binding protein" />
+          <Members vimssId="367562" LocusId="NE0840" Name="merC" Function="Mercury uptake inner membane protein" />
+          <Members vimssId="367561" LocusId="NE0839" Name="merA" Function="Mercuric ion reductase (EC 1.16.1.1)" />
+          <Members vimssId="367560" LocusId="NE0838" Name="merD" Function="Mercuric resistance operon coregulator" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5185</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor (activator)">
+      <Regulator Key="MetR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56686" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="NE1435" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=368124&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetR - Various betaproteobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5792" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NE1435" Name="metR" Position="-17" Score="5.4">
+          <Sequence>ATGAATAATTTTCAT</Sequence>
+          <Bacteria>Nitrosomonas europaea ATCC 19718</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NE1436" Name="metE" Position="-98" Score="5.4">
+          <Sequence>ATGAAAATTATTCAT</Sequence>
+          <Bacteria>Nitrosomonas europaea ATCC 19718</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="368125" LocusId="NE1436" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="368124" LocusId="NE1435" Name="metR" Function="Homocysteine-responsive transcriptional regulator of methionine metabolism, LysR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5792</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15569" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="NE1432" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=368121&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Various betaproteobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1673" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NE2423" Name="nrdA" Position="-116" Score="5.7">
+          <Sequence>ACACAATATATTGTGT</Sequence>
+          <Bacteria>Nitrosomonas europaea ATCC 19718</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="369065" LocusId="NE2423" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="369064" LocusId="NE2422" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1673</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="repressor">
+      <Regulator Key="NsrR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14645" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="NE0928" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=367650&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="NsrR2 - Various betaproteobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1569" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NE0927" Name="nirK" Position="-94" Score="3.1">
+          <Sequence>GATATATTAATAATATATC</Sequence>
+          <Bacteria>Nitrosomonas europaea ATCC 19718</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NE0927" Name="nirK" Position="-1" Score="4">
+          <Sequence>GATGTATCTAATATACACC</Sequence>
+          <Bacteria>Nitrosomonas europaea ATCC 19718</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NE0928" Name="nsrR" Position="-218" Score="4">
+          <Sequence>GGTGTATATTAGATACATC</Sequence>
+          <Bacteria>Nitrosomonas europaea ATCC 19718</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NE0928" Name="nsrR" Position="-125" Score="3.1">
+          <Sequence>GATATATTATTAATATATC</Sequence>
+          <Bacteria>Nitrosomonas europaea ATCC 19718</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="367650" LocusId="NE0928" Name="nsrR" Function="Nitrite-sensitive transcriptional repressor NsrR" />
+        </Operon>
+        <Operon>
+          <Members vimssId="367649" LocusId="NE0927" Name="nirK" Function="Copper-containing nitrite reductase (EC 1.7.2.1)" />
+          <Members vimssId="367648" LocusId="NE0926" Name="null" Function="Cytochrome c, class I" />
+          <Members vimssId="367647" LocusId="NE0925" Name="cccA" Function="Cytochrome c, class I" />
+          <Members vimssId="367646" LocusId="NE0924" Name="nirK2" Function="Copper-containing nitrite reductase (EC 1.7.2.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1569</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16109" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="NE1722" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=368402&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Various betaproteobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1733" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NE1721" Name="omr2" Position="-193" Score="6.4">
+          <Sequence>TAATTGCAACAATGTTGCGGCTA</Sequence>
+          <Bacteria>Nitrosomonas europaea ATCC 19718</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NE1721" Name="omr2" Position="-233" Score="6.6">
+          <Sequence>TAATTGCAACATAGTTGCGTTTT</Sequence>
+          <Bacteria>Nitrosomonas europaea ATCC 19718</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="368401" LocusId="NE1721" Name="omr2" Function="Predicted zinc-related TonB-dependent outer membrane transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1733</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01057" RegulationMode="RF01057">
+      <Regulator Key="SAH_riboswitch" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53969" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="SAH_riboswitch" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NE0660" Name="ahcY" Position="-93" Score="46.2">
+          <Sequence>GGTACCGAGGAGCGCTGCAGCGGTCAATTCCGTGAGGCTCGTACCAATGGACAACCCAACAACGGCGCTCTTTCACTTT</Sequence>
+          <Bacteria>Nitrosomonas europaea ATCC 19718</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="367389" LocusId="NE0660" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+          <Members vimssId="367390" LocusId="NE0661" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48703" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NE0038" Name="thiC" Position="-138" Score="51.7">
+          <Sequence>GCTGTGGCTAGGGGTCCGCATTTGCAGTTTTCTGCAAATGCCGGTGAGAGAGTCCCTTAATACCTGATGCGGATAACGCCGCCGGAGGGAAGCCAGGAGTCACTCTCCT</Sequence>
+          <Bacteria>Nitrosomonas europaea ATCC 19718</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="366787" LocusId="NE0038" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

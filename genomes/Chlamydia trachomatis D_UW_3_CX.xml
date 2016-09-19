@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Chlamydia trachomatis D/UW-3/CX" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58717" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="CT394" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=403&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Chlamydiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6013" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CT394" Name="hcrA" Position="-72" Score="6">
+          <Sequence>CTAGCACTCTTTAGTTGCGAGCGCTAA</Sequence>
+          <Bacteria>Chlamydia trachomatis D/UW-3/CX</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CT111" Name="groS" Position="-161" Score="6.1">
+          <Sequence>ATAGCAGTTGATCATGCCAACTGCTAA</Sequence>
+          <Bacteria>Chlamydia trachomatis D/UW-3/CX</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="403" LocusId="CT394" Name="hcrA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="404" LocusId="CT395" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="405" LocusId="CT396" Name="dnaK" Function="Chaperone protein DnaK" />
+        </Operon>
+        <Operon>
+          <Members vimssId="113" LocusId="CT111" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="112" LocusId="CT110" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6013</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41962" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="CT406" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=415&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Chlamydiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4333" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CT827" Name="nrdA" Position="-201" Score="5.4">
+          <Sequence>CTTCTATATATGGTAT</Sequence>
+          <Bacteria>Chlamydia trachomatis D/UW-3/CX</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CT827" Name="nrdA" Position="-169" Score="5.2">
+          <Sequence>TCACAATATCTTGGGT</Sequence>
+          <Bacteria>Chlamydia trachomatis D/UW-3/CX</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="847" LocusId="CT827" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="848" LocusId="CT828" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4333</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TrpR" RegulationMode="repressor">
+      <Regulator Key="TrpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59484" />
+      <Effector>Tryptophan</Effector>
+      <Pathway>Tryptophan biosynthesis</Pathway>
+      <LocusTag Key="CT169" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=171&amp;disp=0" />
+      <BiologicalProcess>Tryptophan biosynthesis</BiologicalProcess>
+      <Regulog Key="TrpR - Chlamydiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6106" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CT169" Name="trpR" Position="-32" Score="6.8">
+          <Sequence>TGTAATATTATAGCATTACA</Sequence>
+          <Bacteria>Chlamydia trachomatis D/UW-3/CX</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="171" LocusId="CT169" Name="trpR" Function="trp operon repressor" />
+          <Members vimssId="172" LocusId="CT170" Name="trpB" Function="Tryptophan synthase beta chain (EC 4.2.1.20)" />
+          <Members vimssId="173" LocusId="CT171" Name="trpA" Function="Tryptophan synthase alpha chain (EC 4.2.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6106</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

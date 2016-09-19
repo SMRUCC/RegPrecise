@@ -1,0 +1,1175 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Sulfitobacter sp. EE-36" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="BioR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53149" />
+      <Effector />
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="EE36_13903" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2607290&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BioR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5422" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_13898" Name="bioY" Position="-83" Score="4.8">
+          <Sequence>TTATCTATAA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_13903" Name="bioR" Position="-61" Score="4.4">
+          <Sequence>CTATCTATAA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2607290" LocusId="EE36_13903" Name="bioR" Function="Biotin metabolism regulatory protein BioR, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2607289" LocusId="EE36_13898" Name="bioY" Function="Core component BioY of biotin ECF transporter" />
+          <Members vimssId="2607288" LocusId="EE36_13893" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5422</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51371" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="EE36_00815" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2607412&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5208" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_00940" Name="" Position="-61" Score="4.8">
+          <Sequence>AAGCTACAGTTGCTGTAGGTC</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2607437" LocusId="EE36_00940" Name="null" Function="cation-transporting P-type ATPase" />
+          <Members vimssId="2607438" LocusId="EE36_00945" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3)" />
+          <Members vimssId="2607439" LocusId="EE36_00950" Name="copG" Function="Predicted metal binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5208</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="CceR (GapR)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=54582" />
+      <Effector>6-phosphogluconate</Effector>
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="EE36_07953" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2606145&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="CceR (GapR) - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5568" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_09240" Name="edd" Position="-74" Score="5.6">
+          <Sequence>ATAAGTTAGCGCTAACATAC</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_08598" Name="pykA" Position="-128" Score="5">
+          <Sequence>AAGTGTTAACGCTAACACAT</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_08598" Name="pykA" Position="-112" Score="5">
+          <Sequence>ACATGTTAACGCTAACTTAT</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_04888" Name="pckA" Position="-158" Score="4.8">
+          <Sequence>GACAGTTTCCGCAAACAGTT</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_04888" Name="pckA" Position="-138" Score="4.8">
+          <Sequence>ACATGGTGGCGCTAACTGCG</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_13588" Name="gapA" Position="-129" Score="4.6">
+          <Sequence>GAGGGTTATCGCTAACACGA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_13588" Name="gapA" Position="-110" Score="4.5">
+          <Sequence>AATATTTATCGCTAACATAC</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_13578" Name="gapB" Position="-35" Score="5.3">
+          <Sequence>CGATGTTAGCGCTATCAAAT</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_13593" Name="yedI" Position="-83" Score="4.6">
+          <Sequence>TCGTGTTAGCGATAACCCTC</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_13593" Name="yedI" Position="-102" Score="4.5">
+          <Sequence>GTATGTTAGCGATAAATATT</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_15917" Name="eno" Position="-148" Score="4.7">
+          <Sequence>CTATGTTGGCGCAACCATCA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_15792" Name="zwf" Position="-66" Score="5.6">
+          <Sequence>GTATGTTTGCGCTAACATCA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2608435" LocusId="EE36_09240" Name="edd" Function="Phosphogluconate dehydratase (EC 4.2.1.12)" />
+          <Members vimssId="2608436" LocusId="EE36_09245" Name="eda" Function="2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2606518" LocusId="EE36_15792" Name="zwf" Function="Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)" />
+          <Members vimssId="2606517" LocusId="EE36_15787" Name="pgl" Function="6-phosphogluconolactonase (EC 3.1.1.31), eukaryotic type" />
+          <Members vimssId="2606516" LocusId="EE36_15782" Name="pgi" Function="Glucose-6-phosphate isomerase (EC 5.3.1.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2607226" LocusId="EE36_13588" Name="gapA" Function="Gllyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2605518" LocusId="EE36_04888" Name="pckA" Function="Phosphoenolpyruvate carboxykinase (EC 4.1.1.49)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2608307" LocusId="EE36_08598" Name="pykA" Function="Pyruvate kinase (EC 2.7.1.40)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2606543" LocusId="EE36_15917" Name="eno" Function="Enolase (EC 4.2.1.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2607227" LocusId="EE36_13593" Name="yedI" Function="conserved inner membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2607224" LocusId="EE36_13578" Name="gapB" Function="Glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.13)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5568</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="OmpR" RegulationMode="">
+      <Regulator Key="Chvl" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=54611" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="EE36_04883" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2605517&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="Chvl - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5570" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_04883" Name="chvI" Position="-95" Score="8.2">
+          <Sequence>GATTCG------------GATTCG</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2605517" LocusId="EE36_04883" Name="chvI" Function="DNA-binding response regulator ChvI" />
+          <Members vimssId="2605516" LocusId="EE36_04878" Name="chvG" Function="Sensor histidine kinase ChvG (EC 2.7.3.-)" />
+          <Members vimssId="2605515" LocusId="EE36_04873" Name="Jann_0538" Function="HPr kinase/phosphorylase (EC 2.7.1.-) (EC 2.7.4.-)" />
+          <Members vimssId="2605514" LocusId="EE36_04868" Name="manX" Function="Uncharacterized P-loop ATPase protein UPF0042" />
+          <Members vimssId="2605513" LocusId="EE36_04863" Name="null" Function="PTS system IIA component, mannose/fructose/sorbose (Man) family" />
+          <Members vimssId="2605512" LocusId="EE36_04858" Name="phbH" Function="Phosphocarrier protein HPr EC=2.7.11.-" />
+          <Members vimssId="2605511" LocusId="EE36_04853" Name="null" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5570</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="CueR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50979" />
+      <Effector>Copper ion, (Cu+)</Effector>
+      <Pathway>Copper resistance</Pathway>
+      <LocusTag Key="EE36_05433" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2605628&amp;disp=0" />
+      <BiologicalProcess>Copper resistance</BiologicalProcess>
+      <Regulog Key="CueR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5166" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_05438" Name="copA" Position="-114" Score="5">
+          <Sequence>ACCTTCCATTAACTGGAAGCC</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2605629" LocusId="EE36_05438" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="2605628" LocusId="EE36_05433" Name="cueR" Function="Copper-responsive transcriptional regulator, MerR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5166</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="">
+      <Regulator Key="EutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63662" />
+      <Effector>Ethanolamine</Effector>
+      <Pathway>Ethanolamine utilization</Pathway>
+      <LocusTag Key="EE36_04408" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2605420&amp;disp=0" />
+      <BiologicalProcess>Ethanolamine utilization</BiologicalProcess>
+      <Regulog Key="EutR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6568" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_04403" Name="eutA" Position="-83" Score="4.8">
+          <Sequence>TGTGAAGCAAAGATTACAGA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_04408" Name="eutR" Position="-51" Score="4.8">
+          <Sequence>TCTGTAATCTTTGCTTCACA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2605419" LocusId="EE36_04403" Name="eutA" Function="COG3931: Predicted N-formylglutamate amidohydrolase" />
+          <Members vimssId="2605418" LocusId="EE36_04398" Name="eutQ" Function="TRAP-type ethanolamine transport system, small permease component" />
+          <Members vimssId="2605417" LocusId="EE36_04393" Name="eutM" Function="TRAP-type ethanolamine transport system, large permease component" />
+          <Members vimssId="2605416" LocusId="EE36_04388" Name="eutP" Function="TRAP-type ethanolamine transport system, periplasmic component" />
+          <Members vimssId="2605415" LocusId="EE36_04383" Name="eutB" Function="glutamine synthetase family protein" />
+          <Members vimssId="2605414" LocusId="EE36_04378" Name="eutX" Function="Aldehyde dehydrogenase (EC 1.2.1.3)" />
+          <Members vimssId="2605413" LocusId="EE36_04373" Name="eutY" Function="Alcohol dehydrogenase (EC 1.1.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2605420" LocusId="EE36_04408" Name="eutR" Function="Transcriptional regulator of ethanolamine utilization, RpiR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6568</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="EutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63928" />
+      <Effector />
+      <Pathway>Ectoine utilization</Pathway>
+      <LocusTag Key="EE36_14882" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2606331&amp;disp=0" />
+      <BiologicalProcess>Ectoine utilization</BiologicalProcess>
+      <Regulog Key="EutR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6596" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_14882" Name="eutR" Position="-79" Score="6.9">
+          <Sequence>ATTGTATTGACACAAT</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_14882" Name="eutR" Position="-6" Score="7.4">
+          <Sequence>ATTGTAATGGTACAAT</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_14877" Name="yjjS" Position="-35" Score="6.9">
+          <Sequence>ATTGTGTCAATACAAT</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_14877" Name="yjjS" Position="-109" Score="7.4">
+          <Sequence>ATTGTACCATTACAAT</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2606330" LocusId="EE36_14877" Name="yjjS" Function="Uncharacterized conserved small protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2606331" LocusId="EE36_14882" Name="eutR" Function="Ectoine utilization regulator, GntR/MocR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6596</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator (repressor)">
+      <Regulator Key="FnrN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63378" />
+      <Effector>Oxygen</Effector>
+      <Pathway>Oxidative stress response; Nitrogen fixation</Pathway>
+      <LocusTag Key="EE36_11304" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2607816&amp;disp=0" />
+      <BiologicalProcess>Oxidative stress response; Nitrogen fixation</BiologicalProcess>
+      <Regulog Key="FnrN - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6530" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_02238" Name="ccoN" Position="-72" Score="5.7">
+          <Sequence>CATTTGATCTAGATCAAGGC</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_02218" Name="ccoG" Position="-74" Score="5.6">
+          <Sequence>TGTTTGATGCAGATCAAAGC</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2608128" LocusId="EE36_02218" Name="ccoG" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoG, involved in Cu oxidation" />
+          <Members vimssId="2608127" LocusId="EE36_02213" Name="ccoH" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoH" />
+          <Members vimssId="2608126" LocusId="EE36_02208" Name="ccoI" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoI; Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="2608125" LocusId="EE36_02203" Name="ccoS" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoS, involved in heme b insertion" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2608132" LocusId="EE36_02238" Name="ccoN" Function="Cytochrome c oxidase subunit CcoN (EC 1.9.3.1)" />
+          <Members vimssId="2608131" LocusId="EE36_02233" Name="ccoO" Function="Cytochrome c oxidase subunit CcoO (EC 1.9.3.1)" />
+          <Members vimssId="2608130" LocusId="EE36_02228" Name="ccoQ" Function="Cytochrome c oxidase subunit CcoQ (EC 1.9.3.1)" />
+          <Members vimssId="2608129" LocusId="EE36_02223" Name="ccoP" Function="Cytochrome c oxidase subunit CcoP (EC 1.9.3.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6530</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49748" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="EE36_07363" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2606020&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5037" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_03888" Name="groS" Position="-92" Score="7.6">
+          <Sequence>TTAGCACTCGGCAGGGCTGAGTGCTAA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2605316" LocusId="EE36_03888" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="2605315" LocusId="EE36_03883" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5037</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Irr" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=18354" />
+      <Effector>Heme</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="EE36_03493" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2605237&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Irr - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1982" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_11399" Name="katG" Position="-111" Score="4.5">
+          <Sequence>ctgTTAGAAcAATTCcAgAaa</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_14302" Name="iscR" Position="-116" Score="5.9">
+          <Sequence>AGTTTAGAACGGTTCTAACTT</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_09510" Name="fssA" Position="-76" Score="5.5">
+          <Sequence>AACTTAGAATCGTTCCAAACC</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_01790" Name="dps" Position="-116" Score="6.3">
+          <Sequence>AGTTTAGAATAATTCCAAAAA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2606211" LocusId="EE36_14302" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="2606212" LocusId="EE36_14307" Name="sufS" Function="Cysteine desulfurase (EC 2.8.1.7)" />
+          <Members vimssId="2606213" LocusId="EE36_14312" Name="sufB" Function="Iron-sulfur assembly protein SufB" />
+          <Members vimssId="2606214" LocusId="EE36_14317" Name="null" Function="hypothetical protein" />
+          <Members vimssId="2606215" LocusId="EE36_14322" Name="PF04230" Function="ExoV domain protein" />
+          <Members vimssId="2606216" LocusId="EE36_14327" Name="sufC" Function="Iron-sulfur cluster assembly ATPase protein SufC" />
+          <Members vimssId="2606217" LocusId="EE36_14332" Name="sufD" Function="Iron-sulfur cluster assembly protein SufD" />
+          <Members vimssId="2606218" LocusId="EE36_14337" Name="PF04893" Function="hypothetical protein" />
+          <Members vimssId="2606219" LocusId="EE36_14342" Name="PF04893" Function="hypothetical protein" />
+          <Members vimssId="2606220" LocusId="EE36_14347" Name="sufS2" Function="Cysteine desulfurase (EC 2.8.1.7), SufS subfamily" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2607889" LocusId="EE36_09510" Name="fssA" Function="putative nifU-like iron-sulphur cluster scaffold protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2607607" LocusId="EE36_01790" Name="dps" Function="Non-specific DNA-binding protein Dps / Iron-binding ferritin-like antioxidant protein / Ferroxidase (EC 1.16.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2607835" LocusId="EE36_11399" Name="katG" Function="Catalase (EC 1.11.1.6) / Peroxidase (EC 1.11.1.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1982</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="repressor (activator)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17950" />
+      <Effector>Iron-sulfur cluster redox state; Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis; Iron homeostasis</Pathway>
+      <LocusTag Key="EE36_14302" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2606211&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis; Iron homeostasis</BiologicalProcess>
+      <Regulog Key="IscR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1938" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_01780" Name="fhuA2" Position="-30" Score="4.9">
+          <Sequence>TCCGACTAAAACAGTAAGG</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_01780" Name="fhuA2" Position="-251" Score="3.8">
+          <Sequence>TCTTACTTTATTTATAGGG</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_10454" Name="EE36_10454" Position="-82" Score="4.3">
+          <Sequence>CTTGATTGTTTTTATCAGC</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_01780" Name="fhuA2" Position="-72" Score="3.7">
+          <Sequence>CCTTACTATTTCAGTTTGA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_01535" Name="hmuR" Position="-256" Score="4.3">
+          <Sequence>GTTGACACTTTTAGTCGGT</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_12993" Name="Mlr1156" Position="-167" Score="4.4">
+          <Sequence>GTTGATTGTTAAAGTCAGG</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_08018" Name="araX" Position="-113" Score="5.2">
+          <Sequence>TCCGAGTAAATTTGTCAGA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_08023" Name="fhuA" Position="-44" Score="4.6">
+          <Sequence>ACTGAGTTAAATACTCGGA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_14302" Name="iscR" Position="-136" Score="3.6">
+          <Sequence>GTTGACGAATTCGCTAGGG</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_10464" Name="hemP" Position="-274" Score="5">
+          <Sequence>TCCGACTAAAACTGTCGGA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_10464" Name="hemP" Position="-247" Score="4.1">
+          <Sequence>CCCTATAATTTCAATCAGG</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_02713" Name="irpA" Position="-140" Score="4.8">
+          <Sequence>TCTTACTAAAATTGTCGGG</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_16412" Name="fbpC" Position="-32" Score="4.1">
+          <Sequence>CCCGAGCGAATTGATCGGA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_05618" Name="fbpB" Position="-28" Score="5.1">
+          <Sequence>TCCGACTGAATTAGTCGAA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_05613" Name="fbpA" Position="-91" Score="4.4">
+          <Sequence>TCCTATTAATTCACTCAAG</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_05613" Name="fbpA" Position="-42" Score="3.7">
+          <Sequence>TCTTACTGTTTTTATAGGT</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2607644" LocusId="EE36_10454" Name="EE36_10454" Function="Ferrichrome-iron receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2607106" LocusId="EE36_12993" Name="Mlr1156" Function="Mlr1156 protein" />
+          <Members vimssId="2607107" LocusId="EE36_12998" Name="exbB" Function="Ferric siderophore transport system, biopolymer transport protein ExbB" />
+          <Members vimssId="2607108" LocusId="EE36_13003" Name="exbD1" Function="Ferric siderophore transport system, periplasmic binding protein ExbD" />
+          <Members vimssId="2607109" LocusId="EE36_13008" Name="exbD2" Function="Ferric siderophore transport system, periplasmic binding protein ExbD" />
+          <Members vimssId="2607110" LocusId="EE36_13013" Name="tonB" Function="Ferric siderophore transport system, periplasmic binding protein TonB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2607556" LocusId="EE36_01535" Name="hmuR" Function="TonB-dependent hemin , ferrichrome receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2607605" LocusId="EE36_01780" Name="fhuA2" Function="Ferrichrome-iron receptor" />
+          <Members vimssId="2607604" LocusId="EE36_01775" Name="null" Function="AmpG permease" />
+          <Members vimssId="2607603" LocusId="EE36_01770" Name="mxcB2" Function="Siderophore-interacting protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2606159" LocusId="EE36_08018" Name="araX" Function="Iron-regulated transcriptional regulator, AraC family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2606160" LocusId="EE36_08023" Name="fhuA" Function="Ferric hydroxamate outer membrane receptor FhuA" />
+          <Members vimssId="2606161" LocusId="EE36_08028" Name="fhuD" Function="Ferric hydroxamate ABC transporter (TC 3.A.1.14.3), periplasmic substrate binding protein FhuD" />
+          <Members vimssId="2606162" LocusId="EE36_08033" Name="fhuB" Function="Ferric hydroxamate ABC transporter (TC 3.A.1.14.3), permease component FhuB" />
+          <Members vimssId="2606163" LocusId="EE36_08038" Name="fhuC" Function="Ferric hydroxamate ABC transporter (TC 3.A.1.14.3), ATP-binding protein FhuC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2606645" LocusId="EE36_16412" Name="fbpC" Function="Ferric iron ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2605670" LocusId="EE36_05618" Name="fbpB" Function="Ferric iron ABC transporter, permease protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2608227" LocusId="EE36_02713" Name="irpA" Function="Iron-regulated protein A precursor" />
+          <Members vimssId="2608226" LocusId="EE36_02708" Name="hmuX" Function="hypothetical porin" />
+          <Members vimssId="2608225" LocusId="EE36_02703" Name="COG3488" Function="Probable thiol oxidoreductase with 2 cytochrome c heme-binding sites" />
+          <Members vimssId="2608224" LocusId="EE36_02698" Name="COG3489" Function="Predicted periplasmic lipoprotein" />
+          <Members vimssId="2608223" LocusId="EE36_02693" Name="COG3490" Function="Uncharacterised conserved protein UCP028101" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2607646" LocusId="EE36_10464" Name="hemP" Function="Hemin uptake protein HemP" />
+          <Members vimssId="2607645" LocusId="EE36_10459" Name="null" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2606211" LocusId="EE36_14302" Name="iscR" Function="Iron-sulfur cluster regulator IscR, Rrf2 family" />
+          <Members vimssId="2606212" LocusId="EE36_14307" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7)" />
+          <Members vimssId="2606213" LocusId="EE36_14312" Name="sufB" Function="Iron-sulfur cluster assembly protein SufB" />
+          <Members vimssId="2606214" LocusId="EE36_14317" Name="null" Function="hypothetical protein" />
+          <Members vimssId="2606215" LocusId="EE36_14322" Name="Jann_2361" Function="ExoV domain protein" />
+          <Members vimssId="2606216" LocusId="EE36_14327" Name="sufC" Function="Iron-sulfur cluster assembly ATPase protein SufC" />
+          <Members vimssId="2606217" LocusId="EE36_14332" Name="sufD" Function="Iron-sulfur cluster assembly protein SufD" />
+          <Members vimssId="2606218" LocusId="EE36_14337" Name="RSP_0433" Function="hypothetical protein" />
+          <Members vimssId="2606219" LocusId="EE36_14342" Name="null" Function="hypothetical protein" />
+          <Members vimssId="2606220" LocusId="EE36_14347" Name="sufS" Function="Cysteine desulfurase (EC 2.8.1.7), SufS subfamily" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2605669" LocusId="EE36_05613" Name="fbpA" Function="Ferric iron ABC transporter, iron-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1938</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28392" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="EE36_16202" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2606603&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2986" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_13253" Name="umuD" Position="-154" Score="1.4">
+          <Sequence>GAACACATAGAGAAC</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_17037" Name="uvrD" Position="-55" Score="2.1">
+          <Sequence>GAACATTTTGCGAAC</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_16202" Name="lexA" Position="-56" Score="-0.3">
+          <Sequence>ACACAAAACAGGAAC</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_14243" Name="recA" Position="-82" Score="1.1">
+          <Sequence>GAACATAGAAAGAAC</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_09705" Name="ruvC" Position="-56" Score="5.2">
+          <Sequence>GTTCGCGTTTCGTGC</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_13533" Name="uvrA" Position="-78" Score="5.1">
+          <Sequence>GTTCCCCTTGTGTTC</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_15677" Name="PF04055" Position="-27" Score="5">
+          <Sequence>GTTCCTAATTTGTTC</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_14243" Name="recA" Position="-104" Score="5.1">
+          <Sequence>GTTCTCATTTTGATC</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_02883" Name="PF06319" Position="-26" Score="4.7">
+          <Sequence>GTTCATGAATTGTTC</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_16347" Name="radA" Position="-29" Score="4.7">
+          <Sequence>GTTTCCCCTTTGTTC</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2607159" LocusId="EE36_13253" Name="umuD" Function="DNA polymerase V, subunit UmuD" />
+          <Members vimssId="2607160" LocusId="EE36_13258" Name="umuC" Function="DNA polymerase V, subunit UmuC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2606770" LocusId="EE36_17037" Name="uvrD" Function="ATP-dependent DNA helicase II" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2606603" LocusId="EE36_16202" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2607929" LocusId="EE36_09705" Name="ruvC" Function="Crossover junction endodeoxyribonuclease RuvC (EC 3.1.22.4)" />
+          <Members vimssId="2607930" LocusId="EE36_09710" Name="ruvA" Function="Holliday junction DNA helicase RuvA" />
+          <Members vimssId="2607931" LocusId="EE36_09715" Name="ruvB" Function="Holliday junction DNA helicase RuvB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2607215" LocusId="EE36_13533" Name="uvrA" Function="Excinuclease ABC subunit A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2606494" LocusId="EE36_15677" Name="PF04055" Function="Radical SAM domain protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2608519" LocusId="EE36_14243" Name="recA" Function="Recombinase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2605113" LocusId="EE36_02883" Name="PF06319" Function="Transcription elongation factor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2606632" LocusId="EE36_16347" Name="radA" Function="DNA repair protein RadA" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2986</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor (activator)">
+      <Regulator Key="MetR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56719" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="EE36_03123" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2605162&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5794" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_03128" Name="metF" Position="-64" Score="4.9">
+          <Sequence>ATGAGTTTGTTTCAC</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_03123" Name="metR" Position="-47" Score="4.9">
+          <Sequence>GTGAAACAAACTCAT</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2605163" LocusId="EE36_03128" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2605162" LocusId="EE36_03123" Name="metR" Function="Homocysteine-responsive transcriptional regulator of methionine metabolism, LysR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5794</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Mur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19530" />
+      <Effector>Manganese ion, (Mn2+)</Effector>
+      <Pathway>Manganese homeostasis</Pathway>
+      <LocusTag Key="EE36_12413" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2606987&amp;disp=0" />
+      <BiologicalProcess>Manganese homeostasis</BiologicalProcess>
+      <Regulog Key="Mur - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2110" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_12418" Name="sitA" Position="-110" Score="5">
+          <Sequence>TATGCGACTAATTCGCATT</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_12413" Name="mur" Position="-109" Score="5">
+          <Sequence>AATGCGAATTAGTCGCATA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2606987" LocusId="EE36_12413" Name="mur" Function="Manganese uptake regulation protein Mur" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2606988" LocusId="EE36_12418" Name="sitA" Function="Manganese ABC transporter, periplasmic-binding protein SitA" />
+          <Members vimssId="2606989" LocusId="EE36_12423" Name="sitB" Function="Manganese ABC transporter, ATP-binding protein SitB" />
+          <Members vimssId="2606990" LocusId="EE36_12428" Name="sitC" Function="Manganese ABC transporter, inner membrane permease protein SitC" />
+          <Members vimssId="2606991" LocusId="EE36_12433" Name="sitD" Function="Manganese ABC transporter, inner membrane permease protein SitD" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2110</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15602" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="EE36_02943" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2605125&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1675" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_16117" Name="nrdJ" Position="-190" Score="5">
+          <Sequence>CCACTACATCTGGTGA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2606585" LocusId="EE36_16117" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1675</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19372" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="EE36_15007" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2606356&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2092" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_08503" Name="ureD" Position="-93" Score="5.2">
+          <Sequence>TGCTCAAATATTAGGCA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_14997" Name="nifR3" Position="-111" Score="5.3">
+          <Sequence>TGCCTAAATTTTAGGCA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_14997" Name="nifR3" Position="-18" Score="4.5">
+          <Sequence>TGCACAAGGATTAAGCG</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_08228" Name="glnK" Position="-164" Score="5.1">
+          <Sequence>CGCCCAATAATTGGGCA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_08228" Name="glnK" Position="-135" Score="4.8">
+          <Sequence>CGCCCAATAATCAGGCA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_12708" Name="glnB" Position="-158" Score="3.9">
+          <Sequence>TGCACAGATTTTAATCG</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_07968" Name="nasT" Position="-90" Score="3.9">
+          <Sequence>TGCTCACTGTTTGGGCT</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_02983" Name="gdhA" Position="-130" Score="4.6">
+          <Sequence>TGATTAAAATTTGTGCG</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_10385" Name="urtA" Position="-252" Score="3.9">
+          <Sequence>TGCCAAAAAATGAGGCG</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2608066" LocusId="EE36_10385" Name="urtA" Function="Urea ABC transporter, substrate-binding component" />
+          <Members vimssId="2608067" LocusId="EE36_10390" Name="urtB" Function="Urea ABC transporter, permease component 1" />
+          <Members vimssId="2608068" LocusId="EE36_10395" Name="urtB" Function="Urea ABC transporter, permease component 2" />
+          <Members vimssId="2608069" LocusId="EE36_10400" Name="urtD" Function="Urea ABC transporter, ATP-binding component 1" />
+          <Members vimssId="2608070" LocusId="EE36_10405" Name="urtE" Function="Urea ABC transporter, ATP-binding component 1" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2605133" LocusId="EE36_02983" Name="gdhA" Function="NADP-specific glutamate dehydrogenase (EC 1.4.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2607046" LocusId="EE36_12708" Name="glnB" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="2607044" LocusId="EE36_12698" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2606354" LocusId="EE36_14997" Name="nifR3" Function="Predicted oxidoreductase, FAD binding" />
+          <Members vimssId="2606355" LocusId="EE36_15002" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="2606356" LocusId="EE36_15007" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+          <Members vimssId="2606357" LocusId="EE36_15012" Name="ntrY" Function="Nitrogen regulation protein NtrY, sensor kinase (EC 2.7.3.-)" />
+          <Members vimssId="2606358" LocusId="EE36_15017" Name="ntrX" Function="Nitrogen assimilation transcriptional regulator NtrX, Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2608287" LocusId="EE36_08503" Name="ureD" Function="Urease accessory protein, UreD" />
+          <Members vimssId="2608286" LocusId="EE36_08498" Name="ureA" Function="Urease, gamma subunit (EC 3.5.1.5)" />
+          <Members vimssId="2608284" LocusId="EE36_08488" Name="ureB" Function="Urease, beta subunit (EC 3.5.1.5)" />
+          <Members vimssId="2608283" LocusId="EE36_08483" Name="ureC" Function="Urease, alpha subunit (EC 3.5.1.5)" />
+          <Members vimssId="2608282" LocusId="EE36_08478" Name="ureE" Function="Urease accessory protein, UreE" />
+          <Members vimssId="2608281" LocusId="EE36_08473" Name="ureF" Function="Urease accessory protein, UreF" />
+          <Members vimssId="2608280" LocusId="EE36_08468" Name="ureG" Function="Urease accessory protein, UreG" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2606149" LocusId="EE36_07968" Name="nasT" Function="Nitrogen assimilation attenuator protein NasT" />
+          <Members vimssId="2606150" LocusId="EE36_07973" Name="nrtA2" Function="Nitrate ABC transporter, substrate-binding component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2606201" LocusId="EE36_08228" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="2606200" LocusId="EE36_08223" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2092</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PhnF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31691" />
+      <Effector />
+      <Pathway>Phosphonate utilization</Pathway>
+      <LocusTag Key="EE36_08868" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2608361&amp;disp=0" />
+      <BiologicalProcess>Phosphonate utilization</BiologicalProcess>
+      <Regulog Key="PhnF - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3275" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_08873" Name="phnG" Position="-37" Score="6.2">
+          <Sequence>TTGTCTAGTTGTATAGACAA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_08868" Name="phnF" Position="-76" Score="6">
+          <Sequence>TTGTCTATACAACTAGACAA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2608362" LocusId="EE36_08873" Name="phnG" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnG" />
+          <Members vimssId="2608363" LocusId="EE36_08878" Name="phnH" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnH" />
+          <Members vimssId="2608364" LocusId="EE36_08883" Name="phnI" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnI" />
+          <Members vimssId="2608365" LocusId="EE36_08888" Name="phnJ" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnJ" />
+          <Members vimssId="2608366" LocusId="EE36_08893" Name="phnK" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnK" />
+          <Members vimssId="2608367" LocusId="EE36_08898" Name="phnL" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnL" />
+          <Members vimssId="2608368" LocusId="EE36_08903" Name="phnN" Function="Ribose 1,5-bisphosphokinase activity (phosphoribosyl diphosphate forming)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2608361" LocusId="EE36_08868" Name="phnF" Function="Transcriptional regulator for phosphonate utilization, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3275</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30919" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="EE36_09053" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2608398&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3193" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_09043" Name="pydX" Position="-72" Score="6.1">
+          <Sequence>ATTTTACCAGTTGATAAAAA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_09053" Name="rutR" Position="-128" Score="5.7">
+          <Sequence>TTTTTACCATTTGGTAAATC</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_09058" Name="pydC" Position="-61" Score="5.8">
+          <Sequence>GATTTACCAAATGGTAAAAA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2608398" LocusId="EE36_09053" Name="rutR" Function="Transcriptional regulator RutR of pyrimidine catabolism, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2608396" LocusId="EE36_09043" Name="pydX" Function="Pyridine nucleotide-disulphide oxidoreductase associated with reductive pyrimidine catabolism" />
+          <Members vimssId="2608397" LocusId="EE36_09048" Name="pydA" Function="Dihydropyrimidine dehydrogenase [NADP+] (EC 1.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2608399" LocusId="EE36_09058" Name="pydC" Function="Beta-ureidopropionase (EC 3.5.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3193</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="SPOA0336" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=55305" />
+      <Effector />
+      <Pathway>Sugar utilization</Pathway>
+      <LocusTag Key="EE36_06243" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2605796&amp;disp=0" />
+      <BiologicalProcess>Sugar utilization</BiologicalProcess>
+      <Regulog Key="SPOA0336 - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5639" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_06243" Name="SPOA0336" Position="-64" Score="5.5">
+          <Sequence>TAATGACAGCGCTGTCATCT</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_06248" Name="SPOA0335" Position="-74" Score="5.5">
+          <Sequence>AGATGACAGCGCTGTCATTA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2605797" LocusId="EE36_06248" Name="SPOA0335" Function="TRAP dicarboxylate family transporter, DctP subunit" />
+          <Members vimssId="2605798" LocusId="EE36_06253" Name="SPOA0334" Function="TRAP dicarboxylate family transporter, DctQ subunit" />
+          <Members vimssId="2605799" LocusId="EE36_06258" Name="SPOA0333" Function="TRAP dicarboxylate family transporter, DctM subunit" />
+          <Members vimssId="2605800" LocusId="EE36_06263" Name="COG0129" Function="L-arabinonate dehydratase" />
+          <Members vimssId="2605801" LocusId="EE36_06268" Name="kdgK" Function="2-dehydro-3-deoxygluconate kinase (EC 2.7.1.45)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2605796" LocusId="EE36_06243" Name="SPOA0336" Function="Transcriptional regulator, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5639</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="SmoR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50314" />
+      <Effector>Sorbitol</Effector>
+      <Pathway>Sorbitol utilization; Mannitol utilization</Pathway>
+      <LocusTag Key="EE36_14657" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2606286&amp;disp=0" />
+      <BiologicalProcess>Sorbitol utilization; Mannitol utilization</BiologicalProcess>
+      <Regulog Key="SmoR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5092" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_14657" Name="smoR" Position="-89" Score="4.3">
+          <Sequence>TATTTACCGCGCGACAAGTA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_14652" Name="smoE" Position="-85" Score="5.8">
+          <Sequence>AACTAGACGCGCGTAAAATT</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2606285" LocusId="EE36_14652" Name="smoE" Function="Various polyols ABC transporter, substrate-binding protein" />
+          <Members vimssId="2606284" LocusId="EE36_14647" Name="smoF" Function="Various polyols ABC transporter, inner membrane component 1" />
+          <Members vimssId="2606283" LocusId="EE36_14642" Name="smoG" Function="ABC sorbitol/mannitol transporter, inner membrane component 2" />
+          <Members vimssId="2606282" LocusId="EE36_14637" Name="smoK" Function="Various polyols ABC transporter, ATP-binding component" />
+          <Members vimssId="2606281" LocusId="EE36_14632" Name="mtlK" Function="Mannitol dehydrogenase (EC 1.1.1.67)" />
+          <Members vimssId="2606280" LocusId="EE36_14627" Name="mtlZ" Function="Fructokinase (EC 2.7.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2606286" LocusId="EE36_14657" Name="smoR" Function="Transcriptional regulator for sorbitol and mannitol utilization, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5092</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="SoxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50643" />
+      <Effector>Paraquat</Effector>
+      <Pathway>Superoxide stress response</Pathway>
+      <LocusTag Key="EE36_04103" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2605359&amp;disp=0" />
+      <BiologicalProcess>Superoxide stress response</BiologicalProcess>
+      <Regulog Key="SoxR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5128" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_04103" Name="soxR" Position="-38" Score="6">
+          <Sequence>TTCTAAACCTAAGTTTAGGT</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_04108" Name="PF00903" Position="-69" Score="6">
+          <Sequence>ACCTAAACTTAGGTTTAGAA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2605360" LocusId="EE36_04108" Name="PF00903" Function="Glyoxalase/bleomycin resistance protein/dioxygenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2605359" LocusId="EE36_04103" Name="soxR" Function="Redox-sensitive transcriptional activator, MerR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5128</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16142" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="EE36_13033" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2607115&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1735" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_13038" Name="znuA" Position="-64" Score="5.3">
+          <Sequence>GTGTTGATATGTTATAACGTGTG</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_11254" Name="zinT" Position="-54" Score="6.1">
+          <Sequence>GTTACGTTATAACATAACGAATC</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_13033" Name="zur" Position="-47" Score="5.5">
+          <Sequence>CACACGTTATAACATATCAACAC</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2607806" LocusId="EE36_11254" Name="zinT" Function="Candidate zinc-binding lipoprotein ZinT" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2607116" LocusId="EE36_13038" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2607115" LocusId="EE36_13033" Name="zur" Function="Zinc uptake regulation protein Zur" />
+          <Members vimssId="2607114" LocusId="EE36_13028" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="2607113" LocusId="EE36_13023" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1735</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45516" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_10479" Name="bluB" Position="-227" Score="104.6">
+          <Sequence>GCCCAATGGCCGGGTCTGGTGTCCGCCTCGCGGAAGAATCGGGAAGCTGGTGAAACTCCGGCACGTGCCCAACGCTGTAATGGGGATGGTTTGCGCATAGGCCACTGGAATATTCCGGGAAGGCGCGCGGACCAGACGACCCTAAGTCAGAAGACCGGCCAGACAGTACAGCTTGCCCCG</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_05358" Name="cfrX" Position="-311" Score="88.9">
+          <Sequence>AATGCAGGGCGTATGTTGGTTCCTGTCCCAGACAGGCGAAGAGGGAACGCGATACGCATTGATCCAGCCTTGGGTCAGCGCCAAGCGCAGCCGCCCCCGCGACCGTGACCGGAGAGAGCTTTCAACCACTGGCCCGCAGGCTGGGAAGGTGAAGGTTCGCAAGGCAAGCTGCCTTAGATCCGCAAGCCGGGAGACCTGCCAGCATAGTTTGTAACGGGCG</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_05423" Name="cbtC" Position="-288" Score="110.7">
+          <Sequence>GACCACCTATTCCGGACGGTTCCCCGTGCGCCTTCGGGCAATCGGGGTGAAAAGGGAATACGGTGCGGTGCCAAAGCAAAGGTGCCAAATCCGGAACTGCCCCCGCACCTGTAAGTGAAGAGCAACCCGCATTGCCACTGGGCCACACCGCCTGGGAAGGCGCGGCACGCATGGACGCACAAAGTCAGGAGACCTGCCGTCATGGGGATGATCCCCGA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_12323" Name="btuF" Position="-344" Score="118.9">
+          <Sequence>CTGTCATCGAAACCGGGTCGGTTTCCTTCGGGAAATAATAGGGAATTCGCCATCCGCCCTTTGGTGTGGATGAACCGGAACTGCCCCCGCAACTGTAGACGGTGAGCTACCTCCATCATGCCACTGGGCCTAAAGGTCCGGGAAGGCGGGGACAGCCGCGATCCGTCAGTCAGGAGACCTGCCGACACTGAACCTGAAACA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2605613" LocusId="EE36_05358" Name="cfrX" Function="Predicted metal-binding protein" />
+          <Members vimssId="2605614" LocusId="EE36_05363" Name="cobW" Function="CobW GTPase involved in cobalt insertion for B12 biosynthesis" />
+          <Members vimssId="2605615" LocusId="EE36_05368" Name="cobN" Function="CobN component of cobalt chelatase involved in B12 biosynthesis" />
+          <Members vimssId="2605616" LocusId="EE36_05373" Name="cobG" Function="Cobalamin biosynthesis protein CobG" />
+          <Members vimssId="2605617" LocusId="EE36_05378" Name="cbiC" Function="Cobalt-precorrin-8x methylmutase (EC 5.4.1.2)" />
+          <Members vimssId="2605618" LocusId="EE36_05383" Name="cbiL" Function="Cobalt-precorrin-2 C20-methyltransferase (EC 2.1.1.130)" />
+          <Members vimssId="2605619" LocusId="EE36_05388" Name="cbiH" Function="Cobalt-precorrin-3b C17-methyltransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2607649" LocusId="EE36_10479" Name="bluB" Function="Cobalamin biosynthesis protein BluB @ 5,6-dimethylbenzimidazole synthase, flavin destructase family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2606969" LocusId="EE36_12323" Name="btuF" Function="ABC transporter (iron.B12.siderophore.hemin) , periplasmic substrate-binding component" />
+          <Members vimssId="2606968" LocusId="EE36_12318" Name="btuC" Function="ABC transporter (iron.B12.siderophore.hemin) , permease component" />
+          <Members vimssId="2606967" LocusId="EE36_12313" Name="btuD" Function="ABC transporter (iron.B12.siderophore.hemin) , ATP-binding component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2605626" LocusId="EE36_05423" Name="cbtC" Function="Predicted cobalt transporter CbtC" />
+          <Members vimssId="2605627" LocusId="EE36_05428" Name="cobF" Function="Precorrin-6A synthase (EC 2.1.1.152)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46011" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_07868" Name="ribH2" Position="-240" Score="99.5">
+          <Sequence>TCCCTATTCTCAGGGCGGGGCGCAATTCCCCACCGGCGGTATGTGGCCCCAGTGCCACGAGCCCGCGAGCGCTGGCGACATCCCTTCGGGATGCGCCGGGTCAGCAGATCTGGTGAGATGCCAGAGCCGACGGTCATAGTCCGGATGAAAGAGAATGCGT</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2606127" LocusId="EE36_07868" Name="ribH2" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00504" RegulationMode="RF00504">
+      <Regulator Key="Glycine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46251" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="Glycine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_09003" Name="gcvT" Position="-154" Score="48.7">
+          <Sequence>CTAACAACTCTGGAGAGTGACGCGACAGCGTCCGCCGAAGGGATAACGATCTCAGGCGAAAGGACAGAGGGGGCATTTG</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_09003" Name="gcvT" Position="-239" Score="45.2">
+          <Sequence>ACACCGTTACGGGAGAACTGGCGCAAGCCGGTGCCGAAGGAGCAACCGCCCCGGAAACTCTCAGGCCAAAGGACCGCAACGGGA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2608388" LocusId="EE36_09003" Name="gcvT" Function="Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10)" />
+          <Members vimssId="2608389" LocusId="EE36_09008" Name="gcvH" Function="Glycine cleavage system H protein" />
+          <Members vimssId="2608390" LocusId="EE36_09013" Name="gcvP" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P protein) (EC 1.4.4.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00114" RegulationMode="RF00114">
+      <Regulator Key="S15" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45621" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="S15" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_05853" Name="rpsO" Position="-62" Score="20">
+          <Sequence>GCCTGTGCTGGACGACATCCCGGCCTGTGCCATCACTTTAACCTTTCGAAAAGGAGACCCCGATGTCGATTACGCAAGAAGAAAAAGCACGCGTCATGAAAGAATTCGGCACCAAAGAAGG</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2605717" LocusId="EE36_05853" Name="rpsO" Function="SSU ribosomal protein S15p (S13e)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01727" RegulationMode="RF01727">
+      <Regulator Key="SAM-SAH" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47283" />
+      <Effector>S-adenosylmethionine; S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="SAM-SAH" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_03448" Name="metK" Position="-53" Score="55.9">
+          <Sequence>TAATCGGCCACAACGGCTTCCTGACGTGGCTAAGAAATCTATTGGAGCA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2605228" LocusId="EE36_03448" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00521" RegulationMode="RF00521">
+      <Regulator Key="SAM_alpha" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45696" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="SAM_alpha" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_17182" Name="metY" Position="-147" Score="24.6">
+          <Sequence>ACGTGGCGATTTGATACCGGATTGCGGGCCACG</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2606799" LocusId="EE36_17182" Name="metY" Function="O-succinylhomoserine sulfhydrylase (EC 2.5.1.48) / O-acetylhomoserine sulfhydrylase (EC 2.5.1.49)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45741" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_13848" Name="thiD" Position="-169" Score="79.6">
+          <Sequence>CATCTATCCGTCGGGGTGCCCTAGGCGGCTGAGAGGTGCGTGCACCGACCCGTCGAACCTGATCCGGGCAATACCGGCGTAGGGAACGGGTATCTTTGTGCA</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EE36_07818" Name="thiB" Position="-135" Score="81.1">
+          <Sequence>ATAAGATACCTCGGGGGGCCTGACAGGCTGAGATGTGCGCGCACGGACCCGTTGAACCTGAACCGGTTAACACCGGCGGAGGGAAGGTCTGGATACACCTC</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2606117" LocusId="EE36_07818" Name="thiB" Function="Thiamin ABC transporter, substrate-binding component" />
+          <Members vimssId="2606116" LocusId="EE36_07813" Name="thiP" Function="Thiamin ABC transporter, transmembrane component" />
+          <Members vimssId="2606115" LocusId="EE36_07808" Name="thiQ" Function="Thiamin ABC transporter, ATPase component / Thiamine transport ATP-binding protein thiQ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2607279" LocusId="EE36_13848" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+          <Members vimssId="2607278" LocusId="EE36_13843" Name="thiO" Function="Glycine oxidase ThiO (EC 1.4.3.19)" />
+          <Members vimssId="2607277" LocusId="EE36_13838" Name="thiS" Function="Sulfur carrier protein ThiS" />
+          <Members vimssId="2607276" LocusId="EE36_13833" Name="thiG" Function="Thiazole biosynthesis protein ThiG" />
+          <Members vimssId="2607275" LocusId="EE36_13828" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+          <Members vimssId="2607274" LocusId="EE36_13823" Name="thiF" Function="Thiamine biosynthesis protein ThiF" />
+          <Members vimssId="2607273" LocusId="EE36_13818" Name="thiY" Function="Hydroxymethylpyrimidine ABC transporter, substrate-binding component" />
+          <Members vimssId="2607272" LocusId="EE36_13813" Name="tenA" Function="Thiaminase II (EC 3.5.99.2)" />
+          <Members vimssId="2607271" LocusId="EE36_13808" Name="thiZ" Function="Hydroxymethylpyrimidine ABC transporter, ATPase component" />
+          <Members vimssId="2607270" LocusId="EE36_13803" Name="thiX" Function="Hydroxymethylpyrimidine ABC transporter, transmembrane component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01068" RegulationMode="RF01068">
+      <Regulator Key="mini-ykkC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45471" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="mini-ykkC" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_10819" Name="COG4125" Position="-67" Score="33.7">
+          <Sequence>AGTGTGAGGACGACCTCCCCTGAATGGAAAACTGTCGGGACGACCCGG</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2607718" LocusId="EE36_10819" Name="COG4125" Function="Predicted membrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00517" RegulationMode="RF00517">
+      <Regulator Key="serC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45666" />
+      <Effector />
+      <Pathway>Serine biosynthesis</Pathway>
+      <LocusTag Key="serC" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EE36_05463" Name="serC" Position="-50" Score="65.2">
+          <Sequence>CGTGGGACACCCTTCCCCAACGAAGGGCGCTTATCTGAAAGGGTAGCTACATG</Sequence>
+          <Bacteria>Sulfitobacter sp. EE-36</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2605634" LocusId="EE36_05463" Name="serC" Function="Phosphoserine aminotransferase (EC 2.6.1.52)" />
+          <Members vimssId="2605635" LocusId="EE36_05468" Name="serA" Function="D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

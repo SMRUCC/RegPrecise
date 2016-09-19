@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Nitrobacter winogradskyi Nb-255" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51359" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="Nwi_3133" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1120488&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5207" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Nwi_3134" Name="cadA" Position="-59" Score="5.1">
+          <Sequence>ACCCTATAGTTACTACAGGGT</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1120489" LocusId="Nwi_3134" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5207</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LuxR" RegulationMode="activator">
+      <Regulator Key="FixJ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63326" />
+      <Effector>Oxygen</Effector>
+      <Pathway>Oxidative stress response</Pathway>
+      <LocusTag Key="Nwi_1029" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1118352&amp;disp=0" />
+      <BiologicalProcess>Oxidative stress response</BiologicalProcess>
+      <Regulog Key="FixJ - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6526" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Nwi_1036" Name="fixK" Position="-102" Score="4.6">
+          <Sequence>CTCCGTAAGACCCCTTAG</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_1036" Name="fixK" Position="-88" Score="4">
+          <Sequence>TTAGGAGGCTGCCCTTAG</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1118359" LocusId="Nwi_1036" Name="fixK" Function="Nitrogen fixation and oxygen response transcriptional regulator FixK, Crp family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6526</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="repressor (activator)">
+      <Regulator Key="FnrN/FixK/AadR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63111" />
+      <Effector>Oxygen</Effector>
+      <Pathway>Oxidative stress response; Nitrogen fixation</Pathway>
+      <LocusTag Key="Nwi_1036" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1118359&amp;disp=0" />
+      <BiologicalProcess>Oxidative stress response; Nitrogen fixation</BiologicalProcess>
+      <Regulog Key="FnrN/FixK/AadR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6503" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Nwi_0761" Name="ctaC" Position="-196" Score="4.5">
+          <Sequence>TGTTTGATACAGCGCAAAGA</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_0242" Name="hemA" Position="-141" Score="4.3">
+          <Sequence>CATTTGCGCCAGAGCAAATT</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_1034" Name="blr6062" Position="-139" Score="5.3">
+          <Sequence>CGATTGATCCAAATCAAGAT</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_1034" Name="blr6062" Position="-77" Score="5.1">
+          <Sequence>GCCTTGACCTAAGTCAACGA</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1118357" LocusId="Nwi_1034" Name="blr6062" Function="Putative cytochrome C6 precursor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1117547" LocusId="Nwi_0242" Name="hemA" Function="5-aminolevulinate synthase (EC 2.3.1.37)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1118082" LocusId="Nwi_0761" Name="ctaC" Function="Cytochrome c oxidase polypeptide II (EC 1.9.3.1)" />
+          <Members vimssId="1118083" LocusId="Nwi_0762" Name="ctaD" Function="Cytochrome c oxidase polypeptide I (EC 1.9.3.1)" />
+          <Members vimssId="1118084" LocusId="Nwi_0763" Name="ctaB" Function="Heme O synthase, protoheme IX farnesyltransferase (EC 2.5.1.-) COX10-CtaB" />
+          <Members vimssId="1118085" LocusId="Nwi_0764" Name="ctaX" Function="Hypothetical protein in cta gene cluster" />
+          <Members vimssId="1118086" LocusId="Nwi_0765" Name="ctaG" Function="Cytochrome oxidase biogenesis protein Cox11-CtaG, copper delivery to Cox1" />
+          <Members vimssId="1118087" LocusId="Nwi_0766" Name="ctaE" Function="Cytochrome c oxidase polypeptide III (EC 1.9.3.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6503</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49736" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Nwi_0194" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1117498&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5036" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Nwi_2114" Name="groS" Position="-144" Score="5.8">
+          <Sequence>TTGGCGCTCCAGGGCGCGGAGTGCCAA</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_2573" Name="groS" Position="-117" Score="6">
+          <Sequence>GTGGCACTCTCGCAATACGATTGCCAA</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_2191" Name="groS" Position="-70" Score="5.8">
+          <Sequence>CTGGCACTCGCTGGTATTGACTGCCAG</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1119923" LocusId="Nwi_2573" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="1119924" LocusId="Nwi_2574" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1119535" LocusId="Nwi_2191" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="1119536" LocusId="Nwi_2192" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1119457" LocusId="Nwi_2114" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="1119456" LocusId="Nwi_2113" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5036</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Irr" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=18342" />
+      <Effector>Heme</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="Nwi_0035" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1117336&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Irr - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1981" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Nwi_0035" Name="" Position="-112" Score="4.6">
+          <Sequence>AGTTTTGAGCCATTCTAGTTG</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_2475" Name="bfr" Position="-81" Score="5.9">
+          <Sequence>GATTTAGAAGTATTCTAAATT</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_2476" Name="bfd" Position="-100" Score="5.1">
+          <Sequence>AGTTTGGAATAGCTTGAAACA</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1119825" LocusId="Nwi_2475" Name="bfr" Function="Bacterioferritin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1119826" LocusId="Nwi_2476" Name="bfd" Function="[2Fe-2S]-binding protein, bacterioferritin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1117336" LocusId="Nwi_0035" Name="null" Function="Iron-responsive regulator Irr" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1981</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28380" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="Nwi_1841" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1119177&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2985" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Nwi_1280" Name="recA" Position="-106" Score="1.6">
+          <Sequence>GAACATATTGCGAAC</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_1841" Name="lexA" Position="-108" Score="5.2">
+          <Sequence>GTTCATGATTTGTTT</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_1568" Name="uvrA" Position="-122" Score="4.5">
+          <Sequence>GTTCTATCTACGTTC</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_0118" Name="yifB" Position="-67" Score="4.6">
+          <Sequence>GTTCTCTTAATGTTC</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_2600" Name="PF04055" Position="-38" Score="5.6">
+          <Sequence>GTTCTTGCTTTGTTC</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_1860" Name="dnaE" Position="-294" Score="0.5">
+          <Sequence>GAACAAATAGGGAAC</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_2257" Name="imuA" Position="-61" Score="1.4">
+          <Sequence>GAACATATAGTGAAC</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_1280" Name="recA" Position="-88" Score="0.7">
+          <Sequence>GAACAAATGGGGTAC</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_1566" Name="ssb" Position="-199" Score="1.1">
+          <Sequence>GAACAAATATAGAAC</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1119601" LocusId="Nwi_2257" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="1119600" LocusId="Nwi_2256" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+          <Members vimssId="1119599" LocusId="Nwi_2255" Name="dnaE2" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1119177" LocusId="Nwi_1841" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1118898" LocusId="Nwi_1568" Name="uvrA" Function="Excinuclease ABC subunit A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1119950" LocusId="Nwi_2600" Name="PF04055" Function="Radical SAM domain protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1119196" LocusId="Nwi_1860" Name="dnaE" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1118604" LocusId="Nwi_1280" Name="recA" Function="Recombinase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1117420" LocusId="Nwi_0118" Name="yifB" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1118896" LocusId="Nwi_1566" Name="ssb" Function="Single-stranded DNA-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2985</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Mur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19518" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Manganese homeostasis</Pathway>
+      <LocusTag Key="Nwi_0013" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1117314&amp;disp=0" />
+      <BiologicalProcess>Manganese homeostasis</BiologicalProcess>
+      <Regulog Key="Mur - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2109" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Nwi_0035" Name="irr1" Position="-95" Score="4.6">
+          <Sequence>GTTGCGAAAAACTTGCATC</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_1912" Name="mntH" Position="-53" Score="5.8">
+          <Sequence>TTTGCAAATGAGTTGCAAT</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_3051" Name="" Position="-64" Score="5">
+          <Sequence>CTTGCGAGGCATTCGCAAC</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1120405" LocusId="Nwi_3051" Name="null" Function="TonB-dependent receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1119251" LocusId="Nwi_1912" Name="mntH" Function="Manganese transport protein MntH" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1117336" LocusId="Nwi_0035" Name="irr1" Function="Iron-responsive regulator Irr paralog" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2109</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NadQ" RegulationMode="repressor">
+      <Regulator Key="NadQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15236" />
+      <Effector />
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="Nwi_2423" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1119769&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NadQ - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1634" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Nwi_2424" Name="nadA" Position="-46" Score="6.3">
+          <Sequence>TTATACTCAATATCAGTATAA</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1119770" LocusId="Nwi_2424" Name="nadA" Function="Quinolinate synthetase (EC 4.1.99.-)" />
+          <Members vimssId="1119771" LocusId="Nwi_2425" Name="nadB" Function="L-aspartate oxidase (EC 1.4.3.16)" />
+          <Members vimssId="1119772" LocusId="Nwi_2426" Name="nadC" Function="Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1634</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator">
+      <Regulator Key="NifA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63770" />
+      <Effector />
+      <Pathway>Nitrogen fixation</Pathway>
+      <LocusTag Key="" Value="" />
+      <BiologicalProcess>Nitrogen fixation</BiologicalProcess>
+      <Regulog Key="NifA - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6581" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Nwi_1312" Name="grlA" Position="-112" Score="3.6">
+          <Sequence>TGTGACAACCCCGGCA</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1118636" LocusId="Nwi_1312" Name="grlA" Function="Glutaredoxin-related protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6581</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15590" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Nwi_1726" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1119058&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1674" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Nwi_2888" Name="nrdA" Position="-337" Score="4.8">
+          <Sequence>CTACTAAATATAGTGG</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_1571" Name="nrdJ" Position="-532" Score="5.5">
+          <Sequence>CCACCATATTTAGTGT</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1118901" LocusId="Nwi_1571" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1120240" LocusId="Nwi_2888" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="1120239" LocusId="Nwi_2887" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1674</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19360" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="Nwi_1445" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1118771&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2091" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Nwi_1443" Name="nifR3" Position="-47" Score="4.7">
+          <Sequence>TGCCTAATAAATAAGCT</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_1903" Name="glnB" Position="-298" Score="4.5">
+          <Sequence>CGCACAAAAATTGAACA</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1119242" LocusId="Nwi_1903" Name="glnB" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="1119243" LocusId="Nwi_1904" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1118769" LocusId="Nwi_1443" Name="nifR3" Function="Predicted oxidoreductase, FAD binding" />
+          <Members vimssId="1118770" LocusId="Nwi_1444" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="1118771" LocusId="Nwi_1445" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2091</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61123" />
+      <Effector />
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="Nwi_0881" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1118203&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxR2 - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6278" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Nwi_0882" Name="PF00596" Position="-263" Score="14.2">
+          <Sequence>ACCGGCCTA-(14)-ACTGGCACT-(6)-TAGGCCGGT</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1118204" LocusId="Nwi_0882" Name="PF00596" Function="class II aldolase/adducin" />
+          <Members vimssId="1118205" LocusId="Nwi_0883" Name="PF00701" Function="Dihydrodipicolinate synthase (EC 4.2.1.52)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6278</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16130" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="Nwi_0493" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1117805&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1734" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Nwi_2630" Name="PF11162" Position="-65" Score="5.3">
+          <Sequence>CAGGCGTTATATTATAACATCCG</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_0914" Name="znuC" Position="-252" Score="5.5">
+          <Sequence>GTGATGTTATAATATAACGGTCG</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1119980" LocusId="Nwi_2630" Name="PF11162" Function="Conserved hypothetical protein" />
+          <Members vimssId="1119981" LocusId="Nwi_2631" Name="omr" Function="Predicted zinc-regulated TonB-dependent outer membrane transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1118236" LocusId="Nwi_0914" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="1118237" LocusId="Nwi_0915" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+          <Members vimssId="1118238" LocusId="Nwi_0916" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+          <Members vimssId="1118239" LocusId="Nwi_0917" Name="yciC" Function="Putative zinc chaperone, COG0523 family" />
+          <Members vimssId="1118240" LocusId="Nwi_0918" Name="PF00400" Function="Conserved hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1734</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35996" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Nwi_2888" Name="nrdA" Position="-336" Score="118">
+          <Sequence>TACTAAATATAGTGGCCAAGGTCTCTCGAGTCGCAACACCGAGAGCTAAGAGGGAAGCCGGTGCGTCTCGGTCCGTGATCCGGGCAAGGCCGGCGCTGCCCCCGCAACTGTAAGCGGCGAGCCGAAGTCCACTTGAGTGTCACTGGGGCTGCAAGGCTCTGGGAAGACCGGACCGATGCCTGGACCCGCAAGTCAGTAGACCTGCCGTGGCAAAAAAAGAATGT</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_2890" Name="metE" Position="-338" Score="131.9">
+          <Sequence>ATAGGATGGGGGGTCGAGGTTCTCCGGGACGATTCACGCCCGGAGCTAAGAGGGAAGCCGGTGTGTCTTCGGATAAAGCCGGCGCTGCCCCCGCAACTGTAAGCGGTGAGCCGTGGTCCATCATGCCACTGGGTGTTGTCCCGGGAAGGCCGGACCAAAGCTGAGACCCGCGAGCCAGGAGACCTGCCCCGGCAACATAGTCGTCCTC</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_2219" Name="btuB" Position="-324" Score="132.6">
+          <Sequence>CCAAACAGATCGGCGACGGTTCTCCCTTGGGAGATCAAAAGGGAACGTGGTGCGGGATCATCCTAACACCGGGATCATTCCAACGCCACGGCTGCCCCCGCAACTGTAAGCGGCGAATCTGCGTCACACGCCACTGGGACATCTCGGCCCCGGGAAGGCGACGTCAGGTAACGACCCGCGAGCCAGGAGACCTGCCGTCAACCCGTGGTCACACGC</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1120242" LocusId="Nwi_2890" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1120240" LocusId="Nwi_2888" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="1120239" LocusId="Nwi_2887" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1119563" LocusId="Nwi_2219" Name="btuB" Function="Outer membrane vitamin B12 receptor BtuB" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00504" RegulationMode="RF00504">
+      <Regulator Key="Glycine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37486" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="Glycine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Nwi_1286" Name="gcvT" Position="-144" Score="38.8">
+          <Sequence>ACTGGTTACATCTGGAAAGAGACCCTTGCGGACCGGCGGTCCGTACAGGGTCCGCCGACGGGATAATACTCTCAGGCACAGCGACAGATGGGGTCTC</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_1286" Name="gcvT" Position="-246" Score="48.3">
+          <Sequence>GTTTAGTCGCGCCGGGAGAGATCGGCCGCTTTCCGGATGAGGAAGCAGGCTGGCGCCGAAGGAGCAACCGCCCCGGAAACTCTCAGGCAAACGGACCGCGCGA</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1118610" LocusId="Nwi_1286" Name="gcvT" Function="Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10)" />
+          <Members vimssId="1118609" LocusId="Nwi_1285" Name="gcvH" Function="Glycine cleavage system H protein" />
+          <Members vimssId="1118608" LocusId="Nwi_1284" Name="gcvP" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P1 protein) (EC 1.4.4.2) / Glycine dehydrogenase [decarboxylating] (glycine cleavage system P2 protein) (EC 1.4.4.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00521" RegulationMode="RF00521">
+      <Regulator Key="SAM_alpha" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37546" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="SAM_alpha" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Nwi_0585" Name="metX" Position="-171" Score="81.9">
+          <Sequence>TCCTGTTCCGTGGTCATTTGAGCCGGCCGGCTTGCAGCCACGTTAAACAACTCGCTAAACAGGCCGGGGACAGCGAAATCC</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Nwi_0139" Name="metY" Position="-152" Score="86.3">
+          <Sequence>ATACGTCTCCCGTGGTGATTTGAGCCGGCCGGCTTGCAGCCACGTTAAACAAGTCGCTAAACAGGCCGGGGACAATGTGAT</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1117441" LocusId="Nwi_0139" Name="metY" Function="O-succinylhomoserine sulfhydrylase (EC 2.5.1.48) / O-acetylhomoserine sulfhydrylase (EC 2.5.1.49)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1117903" LocusId="Nwi_0585" Name="metX" Function="Homoserine O-acetyltransferase (EC 2.3.1.31)" />
+          <Members vimssId="1117904" LocusId="Nwi_0586" Name="metW" Function="Methionine biosynthesis protein MetW" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37246" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Nwi_2464" Name="thiO" Position="-122" Score="68.6">
+          <Sequence>GATGTTCCGAGGGGTGCTCCGTCAGGGAGCTGAGATACCGCAAGCGCGCAATCCAAGGCGGATTGCAAGGACCGCGGTGACCCTTTGAACCTGATCCGGGTCATGCCGGCGAAGGGACAGGGATGCTTCATAAGAC</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1119814" LocusId="Nwi_2464" Name="thiO" Function="Glycine oxidase ThiO (EC 1.4.3.19)" />
+          <Members vimssId="1119815" LocusId="Nwi_2465" Name="thiS" Function="Thiamine biosynthesis protein ThiS" />
+          <Members vimssId="1119816" LocusId="Nwi_2466" Name="thiG" Function="Thiazole biosynthesis protein ThiG" />
+          <Members vimssId="1119817" LocusId="Nwi_2467" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+          <Members vimssId="1119818" LocusId="Nwi_2468" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01068" RegulationMode="RF01068">
+      <Regulator Key="mini-ykkC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37051" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="mini-ykkC" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Nwi_2028" Name="ykkc" Position="-55" Score="38.1">
+          <Sequence>CGGAAGGACGACCTTTCGTATCCCACACAACCACGCGCGGGGACGGCCCTGCC</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1119368" LocusId="Nwi_2028" Name="ykkc" Function="Quaternary ammonium compound-resistance protein sugE" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00517" RegulationMode="RF00517">
+      <Regulator Key="serC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37381" />
+      <Effector />
+      <Pathway>Serine biosynthesis</Pathway>
+      <LocusTag Key="serC" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Nwi_2969" Name="serC" Position="-52" Score="63.6">
+          <Sequence>GCGGCGGGACACCTCCCCCCAACGGGAGGCTTGCTATCTGGAAGGATAGATCAT</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1120322" LocusId="Nwi_2969" Name="serC" Function="Phosphoserine aminotransferase (EC 2.6.1.52)" />
+          <Members vimssId="1120321" LocusId="Nwi_2968" Name="serA" Function="D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00518" RegulationMode="RF00518">
+      <Regulator Key="speF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37411" />
+      <Effector />
+      <Pathway>Ornithine degradation</Pathway>
+      <LocusTag Key="speF" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Nwi_0924" Name="speF" Position="-485" Score="168.8">
+          <Sequence>TACTGCCCAATTTCGCACGTGCCTGTGGTCGTGTGTCAGTCGGTAGGTATCCGGACAAGAGGCCGGACAGCCGCCAAGGGTGAAGCAGCCGAGGGTCGCTCAGATCGATCGAGACTCAAATCGATTGAAGATGAGAGGCCAGCATCTCTCTCCAGGGATGCCAATGAAGGCGCTTTACTTCTTGCAACCGTGACTGGCAGCCGGAGGCGAACCGGCGCACCCCGCTCTCAACGGGGGACGCGACTTAAAGCAACGACGGATCGGGCTTTTTTGGTCTCTACCGGCCTTCCACCGCCGGCGCGGGCTACTGAAAAGGCTTGTCCTTCATTGCCAGGTGTGCGGGCGGGATTCATCCCAACCAATCCACGGCAGCACAGTTGATCTGAACGCAAGGCGTCGTCGCGTCTCCATCGTGCGACGGCTCCGGAACGTTCAG</Sequence>
+          <Bacteria>Nitrobacter winogradskyi Nb-255</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1118246" LocusId="Nwi_0924" Name="speF" Function="Ornithine decarboxylase (EC 4.1.1.17) / Arginine decarboxylase (EC 4.1.1.19)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

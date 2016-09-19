@@ -1,0 +1,2305 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Pseudomonas fluorescens Pf-5" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14973" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="PFL_5601" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=876237&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1605" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_5693" Name="bioB" Position="-128" Score="8.8">
+          <Sequence>ATGTAAACC---------------GGTTGACAG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_5694" Name="COG1040" Position="5" Score="8.8">
+          <Sequence>CTGTCAACC---------------GGTTTACAT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="876330" LocusId="PFL_5694" Name="COG1040" Function="Competence protein F homolog, phosphoribosyltransferase domain; protein YhgH required for utilization of DNA as sole source of carbon and energy" />
+        </Operon>
+        <Operon>
+          <Members vimssId="876329" LocusId="PFL_5693" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="876328" LocusId="PFL_5692" Name="bioF" Function="8-amino-7-oxononanoate synthase (EC 2.3.1.47)" />
+          <Members vimssId="876327" LocusId="PFL_5691" Name="bioH" Function="hypothetical protein" />
+          <Members vimssId="876326" LocusId="PFL_5690" Name="bioC" Function="Biotin synthesis protein bioC" />
+          <Members vimssId="876325" LocusId="PFL_5689" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1605</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51304" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="PFL_5893" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=876529&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5201" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_3147" Name="czcR" Position="-71" Score="5.8">
+          <Sequence>ACCCTATAGCTACTACAGACT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="873782" LocusId="PFL_3147" Name="czcR" Function="DNA-binding heavy metal response regulator" />
+          <Members vimssId="873783" LocusId="PFL_3148" Name="PF00512" Function="Heavy metal sensor histidine kinase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5201</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="CueR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50912" />
+      <Effector>Copper ion, (Cu+)</Effector>
+      <Pathway>Copper resistance</Pathway>
+      <LocusTag Key="PFL_0709" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=871346&amp;disp=0" />
+      <BiologicalProcess>Copper resistance</BiologicalProcess>
+      <Regulog Key="CueR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5159" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_0712" Name="copZ" Position="-56" Score="5.5">
+          <Sequence>ACCTTGCCACGGTGGCAAGGA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_0710" Name="copA" Position="-56" Score="5.3">
+          <Sequence>ACCTTGCCTGCGTGGCAAGGT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="871347" LocusId="PFL_0710" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="871346" LocusId="PFL_0709" Name="cueR" Function="Copper-responsive transcriptional regulator, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="871349" LocusId="PFL_0712" Name="copZ" Function="Copper chaperone" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5159</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="DesT" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14437" />
+      <Effector>Unsaturated acyl-CoA; Unsaturated acyl-ACP</Effector>
+      <Pathway>Fatty acid biosynthesis</Pathway>
+      <LocusTag Key="PFL_0610" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=871247&amp;disp=0" />
+      <BiologicalProcess>Fatty acid biosynthesis</BiologicalProcess>
+      <Regulog Key="DesT - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1544" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_1737" Name="fabA" Position="-150" Score="5.9">
+          <Sequence>AGTGCACAAGTGTACATT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_1839" Name="plsC" Position="-51" Score="5.4">
+          <Sequence>AGTGCACATCCGTACACT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="872372" LocusId="PFL_1737" Name="fabA" Function="3-hydroxydecanoyl-[acyl-carrier-protein] dehydratase (EC 4.2.1.60)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="872474" LocusId="PFL_1839" Name="plsC" Function="1-acyl-sn-glycerol-3-phosphate acyltransferase (EC 2.3.1.51)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1544</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="">
+      <Regulator Key="EutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63693" />
+      <Effector>Ethanolamine</Effector>
+      <Pathway>Ethanolamine utilization</Pathway>
+      <LocusTag Key="PFL_2247" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=872882&amp;disp=0" />
+      <BiologicalProcess>Ethanolamine utilization</BiologicalProcess>
+      <Regulog Key="EutR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6572" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_2247" Name="eutR" Position="-77" Score="5.5">
+          <Sequence>CATGTAGCGTCTATTACATA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2247" Name="eutR" Position="-38" Score="4.4">
+          <Sequence>TATGAAATAAAAACGACATC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="872882" LocusId="PFL_2247" Name="eutR" Function="Transcriptional regulator of ethanolamine utilization, RpiR family" />
+          <Members vimssId="872881" LocusId="PFL_2246" Name="COG1335" Function="Amidases related to nicotinamidase" />
+          <Members vimssId="872880" LocusId="PFL_2245" Name="eutB" Function="glutamine synthetase family protein" />
+          <Members vimssId="872879" LocusId="PFL_2244" Name="eutA" Function="putative N-formylglutamate amidohydrolase family protein" />
+          <Members vimssId="872878" LocusId="PFL_2243" Name="eutT" Function="Ethanolamine permease, APC family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6572</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="FruR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=20698" />
+      <Effector>Fructose-1-phosphate; Fructose-1,6-diphosphate</Effector>
+      <Pathway>Fructose utilization</Pathway>
+      <LocusTag Key="PFL_0858" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=871495&amp;disp=0" />
+      <BiologicalProcess>Fructose utilization</BiologicalProcess>
+      <Regulog Key="FruR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2239" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_0858" Name="fruR" Position="-160" Score="4.8">
+          <Sequence>GCTGAAACGTTTAATC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_0859" Name="fruB" Position="-157" Score="4.5">
+          <Sequence>GATTAAACGTTTCAGC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="871496" LocusId="PFL_0859" Name="fruB" Function="Fructose-specific phosphocarrier protein HPr (EC 2.7.1.69) / PTS system, fructose-specific IIA component (EC 2.7.1.69)" />
+          <Members vimssId="871497" LocusId="PFL_0860" Name="fruK" Function="1-phosphofructokinase (EC 2.7.1.56)" />
+          <Members vimssId="871498" LocusId="PFL_0861" Name="fruA" Function="PTS system, fructose-specific IIB component (EC 2.7.1.69) / PTS system, fructose-specific IIC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="871495" LocusId="PFL_0858" Name="fruR" Function="Fructose operon transcriptional regulator FruR, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2239</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TyrR" RegulationMode="activator">
+      <Regulator Key="GcvR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60191" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="PFL_4639" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=875274&amp;disp=0" />
+      <BiologicalProcess>Glycine metabolism</BiologicalProcess>
+      <Regulog Key="GcvR - Pseudomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6180" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_4640" Name="gcvH" Position="-280" Score="5">
+          <Sequence>CTGTACTGAAAGCGCTACAG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4640" Name="gcvH" Position="-261" Score="5.7">
+          <Sequence>GTGGAACGATTTCGCTACAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4640" Name="gcvH" Position="-180" Score="5.5">
+          <Sequence>CTGTAGCGTTTTCGCTACGG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="875275" LocusId="PFL_4640" Name="gcvH" Function="Glycine cleavage system H protein" />
+          <Members vimssId="875276" LocusId="PFL_4641" Name="gcvP" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P protein) (EC 1.4.4.2)" />
+          <Members vimssId="875277" LocusId="PFL_4642" Name="sdaA" Function="L-serine dehydratase (EC 4.3.1.17)" />
+          <Members vimssId="875278" LocusId="PFL_4643" Name="gcvT" Function="Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6180</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="activator (repressor)">
+      <Regulator Key="GlcC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19125" />
+      <Effector>Glycolate</Effector>
+      <Pathway>Glycolate utilization</Pathway>
+      <LocusTag Key="PFL_2270" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=872905&amp;disp=0" />
+      <BiologicalProcess>Glycolate utilization</BiologicalProcess>
+      <Regulog Key="GlcC - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2064" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_2269" Name="glcD" Position="-222" Score="4.3">
+          <Sequence>CACTGGTATGACCAGCC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2269" Name="glcD" Position="-115" Score="4.6">
+          <Sequence>AAGTGGTTCGACCACTG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2270" Name="glcC" Position="-133" Score="4">
+          <Sequence>CAGTGGTCGAACCACTT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2270" Name="glcC" Position="-26" Score="5.5">
+          <Sequence>GGCTGGTCATACCAGTG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="872905" LocusId="PFL_2270" Name="glcC" Function="Glycolate utilization operon transcriptional activator GlcC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="872904" LocusId="PFL_2269" Name="glcD" Function="Glycolate dehydrogenase (EC 1.1.99.14), subunit GlcD" />
+          <Members vimssId="872903" LocusId="PFL_2268" Name="glcE" Function="Glycolate dehydrogenase (EC 1.1.99.14), FAD-binding subunit GlcE" />
+          <Members vimssId="872902" LocusId="PFL_2267" Name="glcF" Function="Glycolate dehydrogenase (EC 1.1.99.14), iron-sulfur subunit GlcF" />
+          <Members vimssId="872901" LocusId="PFL_2266" Name="glcG" Function="Hypothetical protein GlcG in glycolate utilization operon" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2064</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="GntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49849" />
+      <Effector>Gluconate</Effector>
+      <Pathway>Gluconate utilization</Pathway>
+      <LocusTag Key="PFL_4581" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=875216&amp;disp=0" />
+      <BiologicalProcess>Gluconate utilization</BiologicalProcess>
+      <Regulog Key="GntR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5049" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_4580" Name="gntK" Position="-185" Score="5.6">
+          <Sequence>CTAAGGTAGCGCTGTCCTGA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4580" Name="gntK" Position="-34" Score="5.5">
+          <Sequence>CGAAGGTAGCGCTGTCTGCG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4581" Name="gntR" Position="-201" Score="5.5">
+          <Sequence>CGCAGACAGCGCTACCTTCG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4581" Name="gntR" Position="-50" Score="5.6">
+          <Sequence>TCAGGACAGCGCTACCTTAG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4579" Name="gntT" Position="-72" Score="5.5">
+          <Sequence>AAAAGGTAGCGCTATCCCAC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="875214" LocusId="PFL_4579" Name="gntT" Function="High-affinity H+/gluconate symporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="875216" LocusId="PFL_4581" Name="gntR" Function="Gluconate utilization transcriptional regulator GntR, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="875215" LocusId="PFL_4580" Name="gntK" Function="Thermoresistant gluconokinase (EC 2.7.1.12)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5049</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor (activator)">
+      <Regulator Key="HexR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=20494" />
+      <Effector>2-keto-3-deoxy-6-phosphogluconate</Effector>
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="PFL_4611" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=875246&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="HexR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2219" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_4622" Name="edd" Position="-138" Score="7">
+          <Sequence>ATtTTGT-------ACAACga</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4610" Name="zwf" Position="-85" Score="7.8">
+          <Sequence>ATGTTGT-------ACTACAT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4622" Name="edd" Position="-201" Score="7.5">
+          <Sequence>TTGTTGT-------ACAAGAT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4611" Name="hexR" Position="-239" Score="7.8">
+          <Sequence>ATGTAGT-------ACAACAT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4623" Name="gapA" Position="-105" Score="7">
+          <Sequence>TCGTTGT-------ACAAAAT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4623" Name="gapA" Position="-43" Score="7.5">
+          <Sequence>ATCTTGT-------ACAACAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="875257" LocusId="PFL_4622" Name="edd" Function="Phosphogluconate dehydratase (EC 4.2.1.12)" />
+          <Members vimssId="875256" LocusId="PFL_4621" Name="glk" Function="Glucokinase (EC 2.7.1.2)" />
+          <Members vimssId="875255" LocusId="PFL_4620" Name="gltR" Function="DNA-binding response regulator GltR, controls specific porins for the entry of glucose" />
+          <Members vimssId="875254" LocusId="PFL_4619" Name="gltS" Function="Integral membrane sensor signal transduction histidine kinase (EC 2.7.13.3), glucose catabolism cluster" />
+        </Operon>
+        <Operon>
+          <Members vimssId="875258" LocusId="PFL_4623" Name="gapA" Function="NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="875246" LocusId="PFL_4611" Name="hexR" Function="Central carbohydrate metabolism transcription regulator HexR, RpiR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="875245" LocusId="PFL_4610" Name="zwf" Function="Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)" />
+          <Members vimssId="875244" LocusId="PFL_4609" Name="pgl" Function="6-phosphogluconolactonase (EC 3.1.1.31), eukaryotic type" />
+          <Members vimssId="875243" LocusId="PFL_4608" Name="eda" Function="4-Hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16) / 2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2219</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor (activator)">
+      <Regulator Key="HexR1" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14809" />
+      <Effector>2-keto-3-deoxy-6-phosphogluconate</Effector>
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="PFL_6160" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=876796&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="HexR1 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1586" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_6160" Name="hexR1" Position="-63" Score="6.2">
+          <Sequence>CTGTAGTATAACTACAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_0509" Name="aceE" Position="-178" Score="5.4">
+          <Sequence>CTGTAGTTTTACTACTC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_0509" Name="aceE" Position="-126" Score="6.2">
+          <Sequence>TTGTAGTAAAACTACAC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="871146" LocusId="PFL_0509" Name="aceE" Function="Pyruvate dehydrogenase E1 component (EC 1.2.4.1)" />
+          <Members vimssId="871145" LocusId="PFL_0508" Name="aceF" Function="Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex (EC 2.3.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="876796" LocusId="PFL_6160" Name="hexR1" Function="Central carbohydrate metabolism transcription regulator HexR, RpiR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1586</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="IclR" RegulationMode="repressor">
+      <Regulator Key="HmgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60207" />
+      <Effector>Homogentisate</Effector>
+      <Pathway>Tyrosine degradation</Pathway>
+      <LocusTag Key="PFL_0966" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=871602&amp;disp=0" />
+      <BiologicalProcess>Tyrosine degradation</BiologicalProcess>
+      <Regulog Key="HmgR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6182" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_0966" Name="hmgR" Position="-70" Score="5">
+          <Sequence>AACGTAATTTGATTGCCCA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_0966" Name="hmgR" Position="-90" Score="6.3">
+          <Sequence>ATCGTAATCCAATTACGCA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_0967" Name="hmgA" Position="-96" Score="6.3">
+          <Sequence>TGCGTAATTGGATTACGAT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="871602" LocusId="PFL_0966" Name="hmgR" Function="Tyrosine degradation transcriptional regulator, IclR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="871603" LocusId="PFL_0967" Name="hmgA" Function="Homogentisate 1,2-dioxygenase (EC 1.13.11.5)" />
+          <Members vimssId="871604" LocusId="PFL_0968" Name="hmgC" Function="Fumarylacetoacetase (EC 3.7.1.2)" />
+          <Members vimssId="871605" LocusId="PFL_0969" Name="hmgB" Function="Maleylacetoacetate isomerase (EC 5.2.1.2)" />
+          <Members vimssId="871606" LocusId="PFL_0970" Name="COG2814" Function="Predicted tyrosine transporter, COG2814 family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6182</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="HutC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17333" />
+      <Effector>cis-Urocanic acid</Effector>
+      <Pathway>Histidine utilization</Pathway>
+      <LocusTag Key="PFL_0399" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=871036&amp;disp=0" />
+      <BiologicalProcess>Histidine utilization</BiologicalProcess>
+      <Regulog Key="HutC - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1869" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_0398" Name="hutF" Position="-42" Score="5.4">
+          <Sequence>GTATATGTATATACAAATAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_0401" Name="hutU" Position="-86" Score="6.1">
+          <Sequence>ATGCTTGTATGTACAAGTAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_0401" Name="hutU" Position="-96" Score="4.6">
+          <Sequence>TTGATTGCATATGCTTGTAT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_0399" Name="hutC" Position="-85" Score="5.4">
+          <Sequence>TTATTTGTATATACATATAC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="871036" LocusId="PFL_0399" Name="hutC" Function="Histidine utilization repressor, GntR family" />
+          <Members vimssId="871037" LocusId="PFL_0400" Name="hutD" Function="Conserved hypothetical protein related to histidine degradation" />
+        </Operon>
+        <Operon>
+          <Members vimssId="871035" LocusId="PFL_0398" Name="hutF" Function="Formiminoglutamic iminohydrolase (EC 3.5.3.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="871038" LocusId="PFL_0401" Name="hutU" Function="Urocanate hydratase (EC 4.2.1.49)" />
+          <Members vimssId="871039" LocusId="PFL_0402" Name="COG1457 (CodB)" Function="Permease, cytosine/purines, uracil, thiamine, allantoin family protein" />
+          <Members vimssId="871040" LocusId="PFL_0403" Name="hutX" Function="Histidine ABC transporter, histidine-binding protein (TC 3.A.1)" />
+          <Members vimssId="871041" LocusId="PFL_0404" Name="hutW" Function="Histidine ABC transporter, permease protein (TC 3.A.1)" />
+          <Members vimssId="871042" LocusId="PFL_0405" Name="hutV" Function="Histidine ABC transporter, ATP-binding protein" />
+          <Members vimssId="871043" LocusId="PFL_0406" Name="hutH2" Function="Histidine ammonia-lyase (EC 4.3.1.3)" />
+          <Members vimssId="871044" LocusId="PFL_0407" Name="hutH" Function="Histidine ammonia-lyase (EC 4.3.1.3)" />
+          <Members vimssId="871045" LocusId="PFL_0408" Name="hisT" Function="Histidine transport protein (permease)" />
+          <Members vimssId="871046" LocusId="PFL_0409" Name="hutI" Function="Imidazolonepropionase (EC 3.5.2.7)" />
+          <Members vimssId="871047" LocusId="PFL_0410" Name="hutG" Function="N-formylglutamate deformylase (EC 3.5.1.68)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1869</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17877" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="PFL_4966" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=875602&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1930" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_4966" Name="iscR" Position="-66" Score="7">
+          <Sequence>ATAGTTGACCTGATTACTCGGGTAT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_5610" Name="erpA" Position="-81" Score="6.7">
+          <Sequence>ATAGTTGACCGCTTTTCTGGGAGAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="876246" LocusId="PFL_5610" Name="erpA" Function="ErpA, essential respiratory protein A / probable iron binding protein from the HesB_IscA_SufA family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="875602" LocusId="PFL_4966" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="875601" LocusId="PFL_4965" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+          <Members vimssId="875600" LocusId="PFL_4964" Name="iscU" Function="Iron-sulfur cluster assembly scaffold protein IscU" />
+          <Members vimssId="875599" LocusId="PFL_4963" Name="iscA" Function="Iron binding protein IscA for iron-sulfur cluster assembly" />
+          <Members vimssId="875598" LocusId="PFL_4962" Name="hscB" Function="Chaperone protein HscB" />
+          <Members vimssId="875597" LocusId="PFL_4961" Name="hscA" Function="Chaperone protein HscA" />
+          <Members vimssId="875596" LocusId="PFL_4960" Name="fdx" Function="ferredoxin, 2Fe-2S type, ISC system" />
+          <Members vimssId="875595" LocusId="PFL_4959" Name="yfhJ" Function="putative Fe-S cluster assembly protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1930</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28325" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="PFL_1949" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=872584&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2979" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_0825" Name="recN" Position="-41" Score="5.9">
+          <Sequence>ACTGTATAAATAACCAGA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_1949" Name="lexA" Position="-46" Score="5.5">
+          <Sequence>ACTGTATATAATCCCAGT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_1949" Name="lexA" Position="-27" Score="5.7">
+          <Sequence>ACTGTATAAAAAGACAGA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_0975" Name="PF07130" Position="-111" Score="5.3">
+          <Sequence>CCTGTATATAGATACAGT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_1279" Name="dinG" Position="-39" Score="5.2">
+          <Sequence>ACTGAAAATTTATCCAGC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4225" Name="PFL_4225" Position="-35" Score="5.8">
+          <Sequence>ACTGTATGCATATACAGC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_0975" Name="yebG" Position="-111" Score="5.3">
+          <Sequence>CCTGTATATAGATACAGT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_1231" Name="recA" Position="-57" Score="4.8">
+          <Sequence>ACTGGCTACTTATACAGG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_0057" Name="PF04055" Position="-32" Score="5.5">
+          <Sequence>ACTGTATGTGCATACAGT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2524" Name="PSEEN2356" Position="-32" Score="6">
+          <Sequence>ACTGTATATAAAAACAGT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_3199" Name="PF08774" Position="-37" Score="5.4">
+          <Sequence>TCTGTATGCATAACCAGT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2098" Name="PF07867" Position="-5" Score="5.3">
+          <Sequence>ACTGTATGCACGTACAGC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4691" Name="umuD" Position="-9" Score="5.2">
+          <Sequence>ACTGTATTTTTGTACAGT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="871915" LocusId="PFL_1279" Name="dinG" Function="ATP-dependent helicase DinG/Rad3" />
+        </Operon>
+        <Operon>
+          <Members vimssId="871611" LocusId="PFL_0975" Name="yebG" Function="SOS regulon DNA damage-inducible protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="875327" LocusId="PFL_4691" Name="umuD" Function="DNA polymerase V, subunit UmuD" />
+          <Members vimssId="875328" LocusId="PFL_4692" Name="umuC" Function="DNA polymerase V, subunit UmuC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="871867" LocusId="PFL_1231" Name="recA" Function="Recombinase A" />
+          <Members vimssId="871868" LocusId="PFL_1232" Name="recX" Function="Regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="870694" LocusId="PFL_0057" Name="PF04055" Function="DNA repair photolyase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="874860" LocusId="PFL_4225" Name="PFL_4225" Function="Hypothetical protein, putative peptidase" />
+          <Members vimssId="874859" LocusId="PFL_4224" Name="PA0922" Function="Predicted replication protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="872733" LocusId="PFL_2098" Name="PF07867" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="873834" LocusId="PFL_3199" Name="PF08774" Function="Hypothetical protein, restriction endonuclease-like VRR-NUC domain" />
+          <Members vimssId="873833" LocusId="PFL_3198" Name="COG1199" Function="Rad3-related DNA helicases" />
+        </Operon>
+        <Operon>
+          <Members vimssId="872584" LocusId="PFL_1949" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+          <Members vimssId="872583" LocusId="PFL_1948" Name="sulA" Function="Cell division inhibitor sulA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="871462" LocusId="PFL_0825" Name="recN" Function="DNA repair protein RecN" />
+        </Operon>
+        <Operon>
+          <Members vimssId="873159" LocusId="PFL_2524" Name="PSEEN2356" Function="Radical SAM domain protein" />
+          <Members vimssId="873160" LocusId="PFL_2525" Name="PSEEN2355" Function="Domain often clustered or fused with uracil-DNA glycosylase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="871611" LocusId="PFL_0975" Name="PF07130" Function="Conserved hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2979</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28725" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="PFL_3700" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=874335&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA2 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3022" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_3700" Name="lexA2" Position="-17" Score="6.8">
+          <Sequence>GAGTACAAATGTACTC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="874335" LocusId="PFL_3700" Name="lexA2" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+          <Members vimssId="874334" LocusId="PFL_3699" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="874333" LocusId="PFL_3698" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+          <Members vimssId="874332" LocusId="PFL_3697" Name="dnaE2" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3022</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="LiuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28521" />
+      <Effector />
+      <Pathway>Branched-chain amino acid degradation</Pathway>
+      <LocusTag Key="PFL_3933" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=874568&amp;disp=0" />
+      <BiologicalProcess>Branched-chain amino acid degradation</BiologicalProcess>
+      <Regulog Key="LiuR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3000" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_3935" Name="aacS" Position="-115" Score="6">
+          <Sequence>CTTTACGTAAACGTCAAC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_3935" Name="aacS" Position="-158" Score="6.5">
+          <Sequence>CTTTACGTTAACGTAAAC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_3933" Name="liuR" Position="-59" Score="5.5">
+          <Sequence>CTTGACGTATACGTCAAC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_3936" Name="liuA" Position="-88" Score="6.5">
+          <Sequence>GTTTACGTTAACGTAAAG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_3936" Name="liuA" Position="-131" Score="6">
+          <Sequence>GTTGACGTTTACGTAAAG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="874570" LocusId="PFL_3935" Name="aacS" Function="Acetoacetyl-CoA synthetase (EC 6.2.1.16)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="874571" LocusId="PFL_3936" Name="liuA" Function="Isovaleryl-CoA dehydrogenase (EC 1.3.99.10)" />
+          <Members vimssId="874572" LocusId="PFL_3937" Name="liuB" Function="Methylcrotonyl-CoA carboxylase carboxyl transferase subunit (EC 6.4.1.4)" />
+          <Members vimssId="874573" LocusId="PFL_3938" Name="liuC" Function="Methylglutaconyl-CoA hydratase (EC 4.2.1.18)" />
+          <Members vimssId="874574" LocusId="PFL_3939" Name="liuD" Function="Methylcrotonyl-CoA carboxylase biotin-containing subunit (EC 6.4.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="874568" LocusId="PFL_3933" Name="liuR" Function="Predicted transcriptional regulator LiuR of leucine degradation pathway, MerR family" />
+          <Members vimssId="874569" LocusId="PFL_3934" Name="liuE" Function="Hydroxymethylglutaryl-CoA lyase (EC 4.1.3.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3000</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="LldR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16597" />
+      <Effector>L-lactate</Effector>
+      <Pathway>Lactate utilization</Pathway>
+      <LocusTag Key="PFL_0818" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=871455&amp;disp=0" />
+      <BiologicalProcess>Lactate utilization</BiologicalProcess>
+      <Regulog Key="LldR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1787" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_0817" Name="lldP" Position="-68" Score="6.5">
+          <Sequence>AATTGGTCTTACCAATT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_0818" Name="lldR" Position="-210" Score="6.1">
+          <Sequence>AATTGGTAAGACCAATT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="871455" LocusId="PFL_0818" Name="lldR" Function="Lactate-responsive regulator LldR in Enterobacteria, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="871454" LocusId="PFL_0817" Name="lldP" Function="L-lactate permease" />
+          <Members vimssId="871453" LocusId="PFL_0816" Name="lldE" Function="L-lactate dehydrogenase, Fe-S oxidoreductase subunit LldE" />
+          <Members vimssId="871452" LocusId="PFL_0815" Name="lldF" Function="L-lactate dehydrogenase, iron-sulfur cluster-binding subunit LldF" />
+          <Members vimssId="871451" LocusId="PFL_0814" Name="lldG" Function="L-lactate dehydrogenase, subunit LldG" />
+          <Members vimssId="871450" LocusId="PFL_0813" Name="dld" Function="D-Lactate dehydrogenase (EC 1.1.2.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1787</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor (activator)">
+      <Regulator Key="MetR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56652" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="PFL_4890" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=875526&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5787" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_3662" Name="metH" Position="-96" Score="4.9">
+          <Sequence>CATGAGCGATATTCATG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_3510" Name="PF08908" Position="-190" Score="4.4">
+          <Sequence>CATGAATGTGACTAAAG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_3510" Name="PF08908" Position="-169" Score="4.1">
+          <Sequence>GGTGAAATCAATTCATT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2404" Name="metE" Position="-69" Score="4.8">
+          <Sequence>AATGAGTTTGTCTCACC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4890" Name="metR" Position="-26" Score="3.8">
+          <Sequence>CACAAAATTTACTCATG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4890" Name="metR" Position="-57" Score="5.2">
+          <Sequence>CATGAGACAAACTCAAC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="874145" LocusId="PFL_3510" Name="PF08908" Function="Protein of unknown function DUF1852" />
+          <Members vimssId="874146" LocusId="PFL_3511" Name="metE2" Function="Methionine synthase II, vitamin-B12 independent (EC 2.1.1.14)" />
+          <Members vimssId="874147" LocusId="PFL_3512" Name="PF01613" Function="Flavin reductase-like, FMN-binding" />
+        </Operon>
+        <Operon>
+          <Members vimssId="874297" LocusId="PFL_3662" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase, B12-dependent (EC 2.1.1.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="875526" LocusId="PFL_4890" Name="metR" Function="Homocysteine-responsive transcriptional regulator of methionine metabolism, LysR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="873039" LocusId="PFL_2404" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5787</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21220" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdenum homeostasis</Pathway>
+      <LocusTag Key="PFL_5695" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=876331&amp;disp=0" />
+      <BiologicalProcess>Molybdenum homeostasis</BiologicalProcess>
+      <Regulog Key="ModE - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2298" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_3412" Name="modA" Position="-101" Score="6.4">
+          <Sequence>CGCTATATATTCCGCTATATAGCG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="874047" LocusId="PFL_3412" Name="modA" Function="Molybdate ABC transporter, substrate-binding protein" />
+          <Members vimssId="874048" LocusId="PFL_3413" Name="modB" Function="Molybdate ABC transporter, permease protein" />
+          <Members vimssId="874049" LocusId="PFL_3414" Name="modC" Function="Molybdate ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2298</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="NagQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=18673" />
+      <Effector>N-acetylglucosamine</Effector>
+      <Pathway>N-acetylglucosamine utilization</Pathway>
+      <LocusTag Key="PFL_1082" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=871718&amp;disp=0" />
+      <BiologicalProcess>N-acetylglucosamine utilization</BiologicalProcess>
+      <Regulog Key="NagQ - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2017" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_1082" Name="nagQ" Position="-86" Score="4.6">
+          <Sequence>TGGCGTTGACATGGTATC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_1082" Name="nagQ" Position="-75" Score="5.5">
+          <Sequence>TGGTATCTAAGTGGTATT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="871718" LocusId="PFL_1082" Name="nagQ" Function="Predicted transcriptional regulator of N-Acetylglucosamine utilization, GntR family" />
+          <Members vimssId="871717" LocusId="PFL_1081" Name="nagA" Function="N-acetylglucosamine-6-phosphate deacetylase (EC 3.5.1.25)" />
+          <Members vimssId="871716" LocusId="PFL_1080" Name="nagB2" Function="Glucosamine-6-phosphate deaminase [isomerizing], alternative (EC 3.5.99.6)" />
+          <Members vimssId="871715" LocusId="PFL_1079" Name="ptsI" Function="PTS system, glucose-specific IIA component (EC 2.7.1.69) / Phosphocarrier protein of PTS system / Phosphoenolpyruvate-protein phosphotransferase of PTS system (EC 2.7.3.9)" />
+          <Members vimssId="871714" LocusId="PFL_1078" Name="nagE" Function="PTS system, N-acetylglucosamine-specific IIA component (EC 2.7.1.69) / PTS system, N-acetylglucosamine-specific IIB component (EC 2.7.1.69) / PTS system, N-acetylglucosamine-specific IIC component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2017</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NorR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16967" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="PFL_5041" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=875677&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="NorR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1828" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_5041" Name="norR" Position="-10" Score="5.9">
+          <Sequence>TGGAGTCATTATGACTGCA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_5041" Name="norR" Position="-55" Score="4.9">
+          <Sequence>TATAGTCATAAAGACACTC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_5041" Name="norR" Position="-29" Score="5.3">
+          <Sequence>TATAGTCATTAAGACACCA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_5040" Name="hmp" Position="-165" Score="5.9">
+          <Sequence>TGCAGTCATAATGACTCCA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_5040" Name="hmp" Position="-146" Score="5.3">
+          <Sequence>TGGTGTCTTAATGACTATA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_5040" Name="hmp" Position="-120" Score="4.9">
+          <Sequence>GAGTGTCTTTATGACTATA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_3310" Name="" Position="-157" Score="5.5">
+          <Sequence>TGCAGTCATATTGACTGCG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_3310" Name="" Position="-136" Score="4.9">
+          <Sequence>GGCGGTCTTTATGACTTCT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_3310" Name="" Position="-111" Score="4.7">
+          <Sequence>TCTGGTCATAAAGACTCTT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="875677" LocusId="PFL_5041" Name="norR" Function="anaerobic nitric oxide reductase transcription regulator, Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="873945" LocusId="PFL_3310" Name="null" Function="hypothetical protein" />
+          <Members vimssId="873944" LocusId="PFL_3309" Name="nnrS" Function="NnrS protein involved in response to NO" />
+        </Operon>
+        <Operon>
+          <Members vimssId="875676" LocusId="PFL_5040" Name="hmp" Function="Flavohemoprotein (Hemoglobin-like protein) (Flavohemoglobin) (Nitric oxide dioxygenase) (EC 1.14.12.17)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1828</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15529" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="PFL_5523" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=876159&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1667" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_1942" Name="topA" Position="-72" Score="5.7">
+          <Sequence>CCACTATATATAGCGG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4524" Name="nrdB" Position="-434" Score="4.1">
+          <Sequence>ACACAACATCTAGTAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4476" Name="nrdA" Position="-375" Score="4.6">
+          <Sequence>TCCCTATATCTAGGGT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="875111" LocusId="PFL_4476" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="875159" LocusId="PFL_4524" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="872577" LocusId="PFL_1942" Name="topA" Function="DNA topoisomerase I (EC 5.99.1.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1667</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrtR" RegulationMode="repressor">
+      <Regulator Key="NrtR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15361" />
+      <Effector>Adenosine diphosphate ribose</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="PFL_2464" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=873099&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NrtR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1648" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_2466" Name="pncA" Position="-48" Score="5.5">
+          <Sequence>AAAGTACATGACATATACTTT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2465" Name="nadD" Position="-35" Score="5.4">
+          <Sequence>AAGGTACACGTCATGTACCAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2465" Name="nadD" Position="-156" Score="5.5">
+          <Sequence>AAAGTATATGTCATGTACTTT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2466" Name="pncA" Position="-169" Score="5.4">
+          <Sequence>TTGGTACATGACGTGTACCTT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="873101" LocusId="PFL_2466" Name="pncA" Function="Nicotinamidase (EC 3.5.1.19)" />
+          <Members vimssId="873102" LocusId="PFL_2467" Name="pncB" Function="Nicotinate phosphoribosyltransferase (EC 2.4.2.11)" />
+          <Members vimssId="873103" LocusId="PFL_2468" Name="nadE" Function="NAD synthetase (EC 6.3.1.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="873100" LocusId="PFL_2465" Name="nadD" Function="Nicotinate-nucleotide adenylyltransferase (EC 2.7.7.18) ## bacterial NadD family" />
+          <Members vimssId="873099" LocusId="PFL_2464" Name="nrtR" Function="Nudix-related transcriptional regulator NrtR" />
+          <Members vimssId="873098" LocusId="PFL_2463" Name="null" Function="ADP-ribose pyrophosphatase (EC 3.6.1.13)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1648</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19299" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="PFL_0377" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=871014&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2084" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_6139" Name="alsT" Position="-210" Score="4.8">
+          <Sequence>CGCACCGGTATAGTGCG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4230" Name="amtB2" Position="-54" Score="4.6">
+          <Sequence>CGCGCCAAAACGGTTCA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2518" Name="ybdK" Position="-283" Score="4.5">
+          <Sequence>TGCACCGATTCTGTTCG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_0386" Name="glnA" Position="-235" Score="4.5">
+          <Sequence>TGCACCAAAACGGGTCA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_0378" Name="ntrB" Position="-246" Score="5.4">
+          <Sequence>TGCACTATATTGGTGCA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_6020" Name="glnK" Position="-347" Score="4.5">
+          <Sequence>TGCACGTTTTTCGCGCA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_6020" Name="glnK" Position="-314" Score="5.3">
+          <Sequence>CGCACCGTTTTTGTGCG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="874865" LocusId="PFL_4230" Name="amtB2" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="876656" LocusId="PFL_6020" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="876655" LocusId="PFL_6019" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="876775" LocusId="PFL_6139" Name="alsT" Function="Predicted alanin/sodium symporter" />
+          <Members vimssId="876776" LocusId="PFL_6140" Name="ansA" Function="L-asparaginase I (EC 3.5.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="871023" LocusId="PFL_0386" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="873153" LocusId="PFL_2518" Name="ybdK" Function="Carboxylate-amine ligase" />
+          <Members vimssId="873154" LocusId="PFL_2519" Name="PF04168" Function="Conserved hypothetical protein" />
+          <Members vimssId="873155" LocusId="PFL_2520" Name="PF01841" Function="Transglutaminase-like protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="871015" LocusId="PFL_0378" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="871014" LocusId="PFL_0377" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2084</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="PA1520" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57457" />
+      <Effector />
+      <Pathway>Xanthine utilization; Allantoin utilization</Pathway>
+      <LocusTag Key="PFL_1883" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=872518&amp;disp=0" />
+      <BiologicalProcess>Xanthine utilization; Allantoin utilization</BiologicalProcess>
+      <Regulog Key="PA1520 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5879" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_1701" Name="gcl" Position="-175" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_1701" Name="gcl" Position="-36" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4366" Name="PA1517" Position="-96" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_1853" Name="PA0476" Position="-428" Score="4.6">
+          <Sequence>CTGTACACAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_1853" Name="PA0476" Position="-168" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2039" Name="PA2938" Position="12" Score="4.1">
+          <Sequence>ATGTGTACAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4364" Name="PA1519" Position="-146" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_1883" Name="PA1520" Position="-104" Score="4.8">
+          <Sequence>TTGTGTACAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_1702" Name="PA1503" Position="-22" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_1702" Name="PA1503" Position="-161" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4366" Name="PA1517" Position="-291" Score="4.8">
+          <Sequence>TTGTACACAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4365" Name="PA1518" Position="-142" Score="4.8">
+          <Sequence>TTGTGTACAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4365" Name="PA1518" Position="-337" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="874999" LocusId="PFL_4364" Name="PA1519" Function="Xanthine/uracil/thiamine/ascorbate permease family protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="872518" LocusId="PFL_1883" Name="PA1520" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="872336" LocusId="PFL_1701" Name="gcl" Function="Glyoxylate carboligase (EC 4.1.1.47)" />
+          <Members vimssId="872335" LocusId="PFL_1700" Name="hyi" Function="Hydroxypyruvate isomerase (EC 5.3.1.22)" />
+          <Members vimssId="872334" LocusId="PFL_1699" Name="garR" Function="2-hydroxy-3-oxopropionate reductase (EC 1.1.1.60)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="875000" LocusId="PFL_4365" Name="PA1518" Function="5-hydroxyisourate hydrolase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="875001" LocusId="PFL_4366" Name="PA1517" Function="putative uricase" />
+          <Members vimssId="875002" LocusId="PFL_4367" Name="uraO" Function="Urate oxidase (EC 1.7.3.3)" />
+          <Members vimssId="875003" LocusId="PFL_4368" Name="alc" Function="Allantoicase (EC 3.5.3.4)" />
+          <Members vimssId="875004" LocusId="PFL_4369" Name="allA" Function="Ureidoglycolate hydrolase (EC 3.5.3.19)" />
+          <Members vimssId="875005" LocusId="PFL_4370" Name="PA1513" Function="conserved hypothetical membrane protein, paralogue of Y20848" />
+          <Members vimssId="875006" LocusId="PFL_4371" Name="PA1507" Function="Xanthine/uracil permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="872337" LocusId="PFL_1702" Name="PA1503" Function="GlcG protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="872674" LocusId="PFL_2039" Name="PA2938" Function="Xanthine/uracil permease family protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="872488" LocusId="PFL_1853" Name="PA0476" Function="Hydantoin permease" />
+          <Members vimssId="872487" LocusId="PFL_1852" Name="PSEEN1659" Function="Hydantoin racemase (EC 5.1.99.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5879</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PA2100" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63897" />
+      <Effector />
+      <Pathway>Multidrug efflux</Pathway>
+      <LocusTag Key="PFL_1867" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=872502&amp;disp=0" />
+      <BiologicalProcess>Multidrug efflux</BiologicalProcess>
+      <Regulog Key="PA2100 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6593" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_1866)" Name="COG697 (RhaT" Position="-128" Score="13.7">
+          <Sequence>ATTGACAC-(1)-GTGTCAAT-(6)-TTTGACAG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="872501" LocusId="PFL_1866" Name="COG697 (RhaT)" Function="Permease of the drug/metabolite transporter (DMT) superfamily" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6593</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="PFL_0254" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51684" />
+      <Effector />
+      <Pathway>Sugar utilization</Pathway>
+      <LocusTag Key="PFL_0254" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=870891&amp;disp=0" />
+      <BiologicalProcess>Sugar utilization</BiologicalProcess>
+      <Regulog Key="PFL_0254 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5243" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_0254" Name="PFL_0254" Position="-105" Score="6.8">
+          <Sequence>CTTTGTTAGCGCTAACATCG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_0255" Name="omp" Position="-24" Score="6.8">
+          <Sequence>CGATGTTAGCGCTAACAAAG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="870891" LocusId="PFL_0254" Name="PFL_0254" Function="Transcriptional regulator, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="870892" LocusId="PFL_0255" Name="omp" Function="Hypothetical sugar outer membrane transporter, TonB-dependent" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5243</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PFL_2191" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60291" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="PFL_2191" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=872826&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="PFL_2191 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6193" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_2190" Name="PF00583" Position="-91" Score="12.2">
+          <Sequence>TCATGGCCTAGT-(12)-TTTTGGCCCTGT-(2)-CTTAAGCCATTG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="872825" LocusId="PFL_2190" Name="PF00583" Function="GCN5-related N-acetyltransferase" />
+          <Members vimssId="872824" LocusId="PFL_2189" Name="PF02525" Function="FMN-dependent NADH-azoreductase" />
+          <Members vimssId="872823" LocusId="PFL_2188" Name="PF02627" Function="Carboxymuconolactone decarboxylase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6193</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PP0486" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63889" />
+      <Effector />
+      <Pathway>Metabolite transport</Pathway>
+      <LocusTag Key="PFL_4913" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=875549&amp;disp=0" />
+      <BiologicalProcess>Metabolite transport</BiologicalProcess>
+      <Regulog Key="PP0486 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6592" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_4914" Name="benE" Position="-1" Score="6.5">
+          <Sequence>ATTGAATCGATTCAAT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4913" Name="" Position="-277" Score="4.7">
+          <Sequence>ATTGAGTCGATTGTGT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4913" Name="" Position="-234" Score="6.5">
+          <Sequence>ATTGAATCGATTCAAT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="875550" LocusId="PFL_4914" Name="benE" Function="Benzoate transport protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="875549" LocusId="PFL_4913" Name="null" Function="Transcriptional regulator, GntR family domain / Aspartate aminotransferase (EC 2.6.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6592</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="PSPTO5027" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56882" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="PFL_4301" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=874936&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="PSPTO5027 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5816" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_4301" Name="PSPTO5027" Position="-27" Score="5.5">
+          <Sequence>AATTGTTGAACAATC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="874936" LocusId="PFL_4301" Name="PSPTO5027" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5816</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxQ3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58769" />
+      <Effector />
+      <Pathway>Metabolite transport; Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="PFL_2406" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=873041&amp;disp=0" />
+      <BiologicalProcess>Metabolite transport; Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxQ3 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6022" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_2405" Name="PF00892" Position="-104" Score="12.7">
+          <Sequence>GCTGTATC-(1)-ATGACAAT-(6)-ATTGTGCT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4111" Name="PF01810" Position="-75" Score="10.3">
+          <Sequence>TGTGTATC-(1)-AGAACACT-(6)-TTTGTATC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="874746" LocusId="PFL_4111" Name="PF01810" Function="Lysine-type exporter protein (LYSE/YGGA)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="873040" LocusId="PFL_2405" Name="PF00892" Function="Permease of the drug/metabolite transporter (DMT) superfamily" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6022</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61088" />
+      <Effector />
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="PFL_0754" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=871391&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6275" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_0755" Name="PF03594" Position="-116" Score="10.1">
+          <Sequence>AAGTGGTCTG-(13)-ATGTGGCTCG-(6)-TAGTCCATCC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2438" Name="PF00583" Position="-118" Score="9.4">
+          <Sequence>AAGTGGTCTG-(13)-AATTGGCCTG-(6)-TCCGCCACTC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="873073" LocusId="PFL_2438" Name="PF00583" Function="acetyltransferase, GNAT family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="871392" LocusId="PFL_0755" Name="PF03594" Function="Putative pyridoxine transport protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6275</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxW2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66443" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine biosynthesis</Pathway>
+      <LocusTag Key="PFL_6148" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=876784&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine biosynthesis</BiologicalProcess>
+      <Regulog Key="PdxW2 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6865" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_6149" Name="pdxO2" Position="-88" Score="12.8">
+          <Sequence>ATTGGACCC-(15)-GATGGCTCT-(5)-CGAACCATT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="876785" LocusId="PFL_6149" Name="pdxO2" Function="Pyridoxamine 5'-phosphate oxidase-related, FMN-binding" />
+          <Members vimssId="876786" LocusId="PFL_6150" Name="COG456 (RimI), PF00583" Function="GCN5-related N-acetyltransferase (GNAT) domain" />
+          <Members vimssId="876787" LocusId="PFL_6151" Name="COG1670 (RimL), PF00583" Function="GCN5-related N-acetyltransferase (GNAT) domain" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6865</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TyrR" RegulationMode="activator (repressor)">
+      <Regulator Key="PhhR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=11145" />
+      <Effector>Tyrosine; Phenylalanine</Effector>
+      <Pathway>Aromatic amino acid metabolism</Pathway>
+      <LocusTag Key="PFL_1612" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=872247&amp;disp=0" />
+      <BiologicalProcess>Aromatic amino acid metabolism</BiologicalProcess>
+      <Regulog Key="PhhR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1210" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_1612" Name="phhR" Position="-194" Score="5.5">
+          <Sequence>TTGTAAAGTAAACGTTACGA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_1612" Name="phhR" Position="-120" Score="5.3">
+          <Sequence>CTGTCACATAATCTTGACGA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_1611" Name="phhA" Position="-207" Score="5.3">
+          <Sequence>TCGTCAAGATTATGTGACAG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_1611" Name="phhA" Position="-133" Score="5.5">
+          <Sequence>TCGTAACGTTTACTTTACAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="872247" LocusId="PFL_1612" Name="phhR" Function="Phenylalanine degradation transcriptional activator, TyrR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="872246" LocusId="PFL_1611" Name="phhA" Function="Phenylalanine-4-hydroxylase (EC 1.14.16.1)" />
+          <Members vimssId="872245" LocusId="PFL_1610" Name="phhB" Function="Pterin-4-alpha-carbinolamine dehydratase (EC 4.2.1.96)" />
+          <Members vimssId="872244" LocusId="PFL_1609" Name="phhC" Function="Aromatic-amino-acid aminotransferase (EC 2.6.1.57)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1210</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PhnR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31820" />
+      <Effector />
+      <Pathway>Phosphonate utilization; 2-aminoethylphosphonate utilization</Pathway>
+      <LocusTag Key="PFL_4386" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=875021&amp;disp=0" />
+      <BiologicalProcess>Phosphonate utilization; 2-aminoethylphosphonate utilization</BiologicalProcess>
+      <Regulog Key="PhnR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3289" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_4386" Name="phnR" Position="-305" Score="4.1">
+          <Sequence>TGGTCTAGGTCA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4386" Name="phnR" Position="-26" Score="5.3">
+          <Sequence>TGGTCTAGTCCA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4387" Name="phnS" Position="-348" Score="5.4">
+          <Sequence>TGGACTAGACCA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4387" Name="phnS" Position="-69" Score="5.3">
+          <Sequence>TGACCTAGACCA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="875021" LocusId="PFL_4386" Name="phnR" Function="2-aminoethylphosphonate uptake and metabolism regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="875022" LocusId="PFL_4387" Name="phnS" Function="2-aminoethylphosphonate ABC transporter, periplasmic binding component (TC 3.A.1.9.1)" />
+          <Members vimssId="875023" LocusId="PFL_4388" Name="PF01663" Function="type I phosphodiesterase" />
+          <Members vimssId="875024" LocusId="PFL_4389" Name="phnU" Function="2-aminoethylphosphonate ABC transporter, permease protein I (TC 3.A.1.9.1)" />
+          <Members vimssId="875025" LocusId="PFL_4390" Name="phnV" Function="2-aminoethylphosphonate ABC transporter, permease protein II (TC 3.A.1.9.1)" />
+          <Members vimssId="875026" LocusId="PFL_4391" Name="phnT" Function="2-aminoethylphosphonate ABC transporter, ATP-binding protein (TC 3.A.1.9.1)" />
+          <Members vimssId="875027" LocusId="PFL_4392" Name="COG0560" Function="Phosphoserine phosphatase (EC 3.1.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3289</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="PhrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66402" />
+      <Effector>Blue light; Adenosylcobalamin</Effector>
+      <Pathway>Light-dependent DNA repair</Pathway>
+      <LocusTag Key="PFL_5146" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=875782&amp;disp=0" />
+      <BiologicalProcess>Light-dependent DNA repair</BiologicalProcess>
+      <Regulog Key="PhrR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6859" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_5142" Name="COG1090" Position="-147" Score="5.6">
+          <Sequence>TGTACAATATTGTTTTTTGGTATA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_5143" Name="COG3380" Position="-71" Score="5.7">
+          <Sequence>TATACCAAAAAACAATATTGTACA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2258" Name="folE" Position="-229" Score="4.3">
+          <Sequence>TGTACAGATAAAAAGTATTGAATC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2258" Name="folE" Position="-190" Score="4.8">
+          <Sequence>TGTACAAGTATTTGGGCTTATAAG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2258" Name="folE" Position="-145" Score="4.4">
+          <Sequence>TGTACAAAAAATTAAATTGTCGTA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2328" Name="mcp3" Position="-134" Score="6.1">
+          <Sequence>TGTACATGAAACTTTTTTTGTACA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_5145" Name="COG3272" Position="-97" Score="6.5">
+          <Sequence>TATACAAATAATTTGACTTGTACA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="875781" LocusId="PFL_5145" Name="COG3272" Function="COG1683: Uncharacterized conserved protein / COG3272: Hypothetical protein YbgA" />
+          <Members vimssId="875782" LocusId="PFL_5146" Name="phrR" Function="Transcriptional regulator, MerR family, associated with photolyase" />
+          <Members vimssId="875783" LocusId="PFL_5147" Name="phr" Function="Deoxyribodipyrimidine photolyase (EC 4.1.99.3)" />
+          <Members vimssId="875784" LocusId="PFL_5148" Name="PF07366" Function="Protein of unknown function DUF1486" />
+          <Members vimssId="875785" LocusId="PFL_5149" Name="PF00106" Function="Oxidoreductase, short-chain dehydrogenase/reductase family (EC 1.1.1.-)" />
+          <Members vimssId="875786" LocusId="PFL_5150" Name="PF01593" Function="Flavin containing amine oxidoreductase" />
+          <Members vimssId="875787" LocusId="PFL_5151" Name="PF07103" Function="Protein of unknown function DUF1365" />
+          <Members vimssId="875788" LocusId="PFL_5152" Name="PF02353" Function="S-adenosyl-L-methionine dependent methyltransferase, similar to cyclopropane-fatty-acyl-phospholipid synthase" />
+          <Members vimssId="875789" LocusId="PFL_5153" Name="PF11086" Function="Protein of unknown function DUF2878" />
+        </Operon>
+        <Operon>
+          <Members vimssId="875778" LocusId="PFL_5142" Name="COG1090" Function="Predicted nucleoside-diphosphate sugar epimerase" />
+          <Members vimssId="875777" LocusId="PFL_5141" Name="hemH" Function="Ferrochelatase, protoheme ferro-lyase (EC 4.99.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="872963" LocusId="PFL_2328" Name="mcp3" Function="Methyl-accepting chemotaxis protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="872893" LocusId="PFL_2258" Name="folE" Function="GTP cyclohydrolase I (EC 3.5.4.16) type 1" />
+          <Members vimssId="872894" LocusId="PFL_2259" Name="PSEEN2737" Function="FIG026291: Hypothetical periplasmic protein" />
+          <Members vimssId="872895" LocusId="PFL_2260" Name="PF12915" Function="Protein of unknown function (DUF3833)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="875779" LocusId="PFL_5143" Name="COG3380" Function="Predicted NAD/FAD-dependent oxidoreductase" />
+          <Members vimssId="875780" LocusId="PFL_5144" Name="PF09493" Function="Tryptophan-rich protein (DUF2389)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6859</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PrpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17153" />
+      <Effector>2-methylcitrate</Effector>
+      <Pathway>Methylcitrate utilization</Pathway>
+      <LocusTag Key="PFL_1860" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=872495&amp;disp=0" />
+      <BiologicalProcess>Methylcitrate utilization</BiologicalProcess>
+      <Regulog Key="PrpR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1849" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_1860" Name="prpR" Position="-12" Score="4.8">
+          <Sequence>GGTGTCGACAAT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_1860" Name="prpR" Position="-85" Score="5.8">
+          <Sequence>ATTGTCGACAAT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2633" Name="acnB" Position="-113" Score="4.4">
+          <Sequence>ATTGTCGGTAAT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="872495" LocusId="PFL_1860" Name="prpR" Function="Propionate catabolism transcriptional regulator, GntR family" />
+          <Members vimssId="872496" LocusId="PFL_1861" Name="prpB" Function="Methylisocitrate lyase (EC 4.1.3.30)" />
+          <Members vimssId="872497" LocusId="PFL_1862" Name="prpC" Function="2-methylcitrate synthase (EC 2.3.3.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="873268" LocusId="PFL_2633" Name="acnB" Function="Aconitate hydratase 2 (EC 4.2.1.3) @ 2-methylisocitrate dehydratase (EC 4.2.1.99)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1849</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PsrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29692" />
+      <Effector>Oleate</Effector>
+      <Pathway>Fatty acid degradation</Pathway>
+      <LocusTag Key="PFL_1950" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=872585&amp;disp=0" />
+      <BiologicalProcess>Fatty acid degradation</BiologicalProcess>
+      <Regulog Key="PsrA - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3098" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_1950" Name="psrA" Position="-45" Score="4.7">
+          <Sequence>CCTGAAACGTATGTTTCAAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_1950" Name="psrA" Position="-32" Score="5.8">
+          <Sequence>TTTCAAACAAGTGTTTGTCA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_1826" Name="" Position="-76" Score="4.5">
+          <Sequence>TTTTAAACGGCTGTTTTAGC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_1940" Name="fadB" Position="-180" Score="5.7">
+          <Sequence>AATCAAACGGGCGTATGAAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_1819" Name="etfB" Position="-393" Score="5.6">
+          <Sequence>ATACAAACGTTTGTTTGAAT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_3668" Name="" Position="-88" Score="5.7">
+          <Sequence>TTTCAAACAAGCGTATGTTT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_1818" Name="etfD" Position="-176" Score="5.9">
+          <Sequence>ATTCAAACAAACGTTTGTAT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_1207" Name="rpoS" Position="-429" Score="5.1">
+          <Sequence>CTTCAAACGGTAGTTTGAAT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_5997" Name="algQ" Position="-183" Score="5.1">
+          <Sequence>GATTAAACGCTTGTATGAAC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_5687" Name="acdH1" Position="-78" Score="5.7">
+          <Sequence>TTTCAAACAACTGTTTGACC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="872461" LocusId="PFL_1826" Name="null" Function="Proteinase inhibitor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="872575" LocusId="PFL_1940" Name="fadB" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+          <Members vimssId="872576" LocusId="PFL_1941" Name="fadA" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="876323" LocusId="PFL_5687" Name="acdH1" Function="probable acyl-CoA dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="872454" LocusId="PFL_1819" Name="etfB" Function="Electron transfer flavoprotein, beta subunit" />
+          <Members vimssId="872455" LocusId="PFL_1820" Name="etfA" Function="Electron transfer flavoprotein, alpha subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="872453" LocusId="PFL_1818" Name="etfD" Function="Electron transfer flavoprotein-ubiquinone oxidoreductase (EC 1.5.5.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="874303" LocusId="PFL_3668" Name="null" Function="Phosphoglycerate mutase family protein" />
+          <Members vimssId="874304" LocusId="PFL_3669" Name="scp" Function="Sterol-binding domain protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="876633" LocusId="PFL_5997" Name="algQ" Function="Regulator of RNA polymerase sigma(70) subunit, Rsd/AlgQ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="871843" LocusId="PFL_1207" Name="rpoS" Function="RNA polymerase sigma factor RpoS" />
+        </Operon>
+        <Operon>
+          <Members vimssId="872585" LocusId="PFL_1950" Name="psrA" Function="Predicted transcriptional regulator for fatty acid degradation PsrA, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3098</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="PtxS" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52083" />
+      <Effector>2-keto-D-gluconate</Effector>
+      <Pathway>2-ketogluconate utilization</Pathway>
+      <LocusTag Key="PFL_2721" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=873356&amp;disp=0" />
+      <BiologicalProcess>2-ketogluconate utilization</BiologicalProcess>
+      <Regulog Key="PtxS - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5297" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_2721" Name="ptxS" Position="-59" Score="6.5">
+          <Sequence>TCCTGAAACCGGTTTCAGCG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2720" Name="kguE" Position="-2" Score="6.5">
+          <Sequence>AAATGAAACCGGTTTCAGAG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="873356" LocusId="PFL_2721" Name="ptxS" Function="2-ketogluconate utilization repressor PtxS, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="873355" LocusId="PFL_2720" Name="kguE" Function="Epimerase KguE" />
+          <Members vimssId="873354" LocusId="PFL_2719" Name="kguK" Function="2-ketogluconate kinase (EC 2.7.1.13)" />
+          <Members vimssId="873353" LocusId="PFL_2718" Name="kguT" Function="2-ketogluconate transporter" />
+          <Members vimssId="873352" LocusId="PFL_2717" Name="kguD" Function="2-ketogluconate 6-phosphate reductase (EC 1.1.1.43)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5297</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="RbsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21062" />
+      <Effector>Ribose</Effector>
+      <Pathway>Ribose utilization</Pathway>
+      <LocusTag Key="PFL_2104" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=872739&amp;disp=0" />
+      <BiologicalProcess>Ribose utilization</BiologicalProcess>
+      <Regulog Key="RbsR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2280" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_2101" Name="rbsB" Position="-140" Score="6.3">
+          <Sequence>TTACGCAAACGTTTGCGCGG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="872736" LocusId="PFL_2101" Name="rbsB" Function="Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)" />
+          <Members vimssId="872737" LocusId="PFL_2102" Name="rbsA" Function="Ribose ABC transport system, ATP-binding protein RbsA (TC 3.A.1.2.1)" />
+          <Members vimssId="872738" LocusId="PFL_2103" Name="rbsC" Function="Ribose ABC transport system, permease protein RbsC (TC 3.A.1.2.1)" />
+          <Members vimssId="872739" LocusId="PFL_2104" Name="rbsR" Function="Transcriptional repressor of ribose utilization, LacI family" />
+          <Members vimssId="872740" LocusId="PFL_2105" Name="rbsK" Function="Ribokinase (EC 2.7.1.15)" />
+          <Members vimssId="872741" LocusId="PFL_2106" Name="rbsD" Function="D-ribose pyranase (D-ribose mutarotase) (EC 5.5.1.n1)" />
+          <Members vimssId="872742" LocusId="PFL_2107" Name="uriH" Function="Inosine-uridine preferring nucleoside hydrolase (EC 3.2.2.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2280</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30852" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="PFL_0730" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=871367&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3186" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_4366" Name="COG0726" Position="-189" Score="5.7">
+          <Sequence>AGCTGACCATCCAGGCAAGT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_0731" Name="pbuT" Position="-22" Score="5.3">
+          <Sequence>ACCTGAGCACCTGGACAGCT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4372" Name="tsx" Position="-253" Score="5.4">
+          <Sequence>ACCTGACCCAAGAGCCAACT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_0728" Name="ppuA" Position="-22" Score="5.4">
+          <Sequence>TCCTGACCCACTGGCCAGGA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="875007" LocusId="PFL_4372" Name="tsx" Function="Nucleoside-binding outer membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="875001" LocusId="PFL_4366" Name="COG0726" Function="putative polysaccharide deacetylase family protein" />
+          <Members vimssId="875002" LocusId="PFL_4367" Name="pucL" Function="Uricase (EC 1.7.3.3)" />
+          <Members vimssId="875003" LocusId="PFL_4368" Name="allC" Function="Allantoicase (EC 3.5.3.4)" />
+          <Members vimssId="875004" LocusId="PFL_4369" Name="allA" Function="Ureidoglycolate hydrolase (EC 3.5.3.19)" />
+          <Members vimssId="875005" LocusId="PFL_4370" Name="COG3748" Function="hypothetical protein, COG3748" />
+          <Members vimssId="875006" LocusId="PFL_4371" Name="pbuT2" Function="Xanthine/uracil permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="871365" LocusId="PFL_0728" Name="ppuA" Function="Predicted ABC transporter, ATP-binding protein" />
+          <Members vimssId="871364" LocusId="PFL_0727" Name="ppuC" Function="Predicted ABC transporter, permease protein" />
+          <Members vimssId="871363" LocusId="PFL_0726" Name="ppuD" Function="Predicted ABC transporter, inner membrane protein precursor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="871368" LocusId="PFL_0731" Name="pbuT" Function="Xanthine/uracil permease" />
+          <Members vimssId="871367" LocusId="PFL_0730" Name="rutR" Function="Transcriptional regulator RutR of pyrimidine catabolism, TetR family" />
+          <Members vimssId="871366" LocusId="PFL_0729" Name="COG1739" Function="hypothetical protein, COG1739" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3186</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34745" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="PFL_2545" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=873180&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR2 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3552" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_2548" Name="pydB" Position="-94" Score="6.5">
+          <Sequence>TCCTGTCACCGATGACAGGA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2549" Name="pydP" Position="-547" Score="6.6">
+          <Sequence>TCCTGTCATCGGTGACAGGA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="873184" LocusId="PFL_2549" Name="pydP" Function="Pyrimidine permease in reductive pathway" />
+          <Members vimssId="873185" LocusId="PFL_2550" Name="pydC" Function="Beta-ureidopropionase (EC 3.5.1.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="873183" LocusId="PFL_2548" Name="pydB" Function="Dihydropyrimidinase (EC 3.5.2.2)" />
+          <Members vimssId="873182" LocusId="PFL_2547" Name="pydX" Function="Pyridine nucleotide-disulphide oxidoreductase associated with reductive pyrimidine catabolism" />
+          <Members vimssId="873181" LocusId="PFL_2546" Name="pydA" Function="Dihydropyrimidine dehydrogenase [NADP+] (EC 1.3.1.2); Dihydroorotate dehydrogenase (EC 1.3.3.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3552</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34758" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="PFL_2447" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=873082&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR3 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3554" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_1889" Name="xdhA" Position="-76" Score="5.1">
+          <Sequence>CATTGACCGAAAAGTCAGAC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_1889" Name="xdhA" Position="-99" Score="4.7">
+          <Sequence>TCCTGACCTTGAAGTCAGAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4364" Name="pbuT" Position="-114" Score="5.2">
+          <Sequence>TCTTGACCCACAGGTCAACA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="872524" LocusId="PFL_1889" Name="xdhA" Function="Xanthine dehydrogenase, iron-sulfur cluster and FAD-binding subunit A (1.17.1.4)" />
+          <Members vimssId="872523" LocusId="PFL_1888" Name="xdhB" Function="Xanthine dehydrogenase, molybdenum binding subunit (EC 1.17.1.4)" />
+          <Members vimssId="872522" LocusId="PFL_1887" Name="xdhC" Function="XdhC protein (assists in molybdopterin insertion into xanthine dehydrogenase)" />
+          <Members vimssId="872521" LocusId="PFL_1886" Name="guaD" Function="Guanine deaminase (EC 3.5.4.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="874999" LocusId="PFL_4364" Name="pbuT" Function="Xanthine/uracil permease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3554</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SahR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15731" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="PFL_5787" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=876423&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SahR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1689" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_5787" Name="sahR" Position="-35" Score="7.2">
+          <Sequence>ATATCAAAACTTTTTGATAT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="876423" LocusId="PFL_5787" Name="sahR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+          <Members vimssId="876424" LocusId="PFL_5788" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1689</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="ScrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52785" />
+      <Effector>Sucrose</Effector>
+      <Pathway>Sucrose utilization</Pathway>
+      <LocusTag Key="PFL_3236" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=873871&amp;disp=0" />
+      <BiologicalProcess>Sucrose utilization</BiologicalProcess>
+      <Regulog Key="ScrR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5383" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_3238" Name="cscB" Position="-42" Score="5.6">
+          <Sequence>CGATGTTAACGTTAACCTAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_3239" Name="scrY" Position="-185" Score="5.6">
+          <Sequence>TTAGGTTAACGTTAACATCG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="873874" LocusId="PFL_3239" Name="scrY" Function="Sucrose-specific outer membrane porin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="873873" LocusId="PFL_3238" Name="cscB" Function="Sucrose permease, major facilitator superfamily" />
+          <Members vimssId="873872" LocusId="PFL_3237" Name="cscA" Function="Sucrose-6-phosphate hydrolase (EC 3.2.1.26)" />
+          <Members vimssId="873871" LocusId="PFL_3236" Name="scrR" Function="Sucrose utilization transcriptional regulator, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5383</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="SdaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57515" />
+      <Effector />
+      <Pathway>Glucarate utilization; Galactarate utilization</Pathway>
+      <LocusTag Key="PFL_2433" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=873068&amp;disp=0" />
+      <BiologicalProcess>Glucarate utilization; Galactarate utilization</BiologicalProcess>
+      <Regulog Key="SdaR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5886" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_2433" Name="sdaR" Position="-40" Score="4.9">
+          <Sequence>CTATTGTCTGACAACCT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2432" Name="COG579" Position="-61" Score="5.2">
+          <Sequence>AGTTAGTCTGACAACCT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="873067" LocusId="PFL_2432" Name="COG579" Function="2-hydroxyglutarate dehydrogenase" />
+          <Members vimssId="873066" LocusId="PFL_2431" Name="sdaP" Function="Predicted glucarate/galactarate transporter, MFS superfamily" />
+        </Operon>
+        <Operon>
+          <Members vimssId="873068" LocusId="PFL_2433" Name="sdaR" Function="Predicted regulator of D-glucarate/D-galactarate utilization, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5886</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="SdaR" RegulationMode="activator">
+      <Regulator Key="SdaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63643" />
+      <Effector>D-glycerate</Effector>
+      <Pathway>Glycerate utilization</Pathway>
+      <LocusTag Key="PFL_3379" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=874014&amp;disp=0" />
+      <BiologicalProcess>Glycerate utilization</BiologicalProcess>
+      <Regulog Key="SdaR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6567" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_3379" Name="sdaR" Position="-106" Score="5.6">
+          <Sequence>CTTTGTGCCGGCGCACAGCG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_3379" Name="sdaR" Position="-74" Score="5.3">
+          <Sequence>CCCTGTGCCACTGAACAACG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_3380" Name="grtT" Position="-2" Score="5.3">
+          <Sequence>CGTTGTTCAGTGGCACAGGG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_3380" Name="grtT" Position="30" Score="5.6">
+          <Sequence>CGCTGTGCGCCGGCACAAAG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="874015" LocusId="PFL_3380" Name="grtT" Function="Predicted D-glycerate transporter, MFS family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="874014" LocusId="PFL_3379" Name="sdaR" Function="Glycerate utilization transcriptional regulator SdaR, SdaR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6567</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="SoxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50576" />
+      <Effector>Paraquat</Effector>
+      <Pathway>Superoxide stress response</Pathway>
+      <LocusTag Key="PFL_4160" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=874795&amp;disp=0" />
+      <BiologicalProcess>Superoxide stress response</BiologicalProcess>
+      <Regulog Key="SoxR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5121" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_4160" Name="soxR" Position="-50" Score="6.1">
+          <Sequence>ACCTCTAGTTAAGTCAAGGT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4159" Name="PF03992" Position="-78" Score="6.1">
+          <Sequence>ACCTTGACTTAACTAGAGGT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="874795" LocusId="PFL_4160" Name="soxR" Function="Redox-sensitive transcriptional activator, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="874794" LocusId="PFL_4159" Name="PF03992" Function="Monooxygenase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5121</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="TreR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57160" />
+      <Effector>Trehalose-6-phosphate</Effector>
+      <Pathway>Trehalose utilization</Pathway>
+      <LocusTag Key="PFL_4935" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=875571&amp;disp=0" />
+      <BiologicalProcess>Trehalose utilization</BiologicalProcess>
+      <Regulog Key="TreR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5845" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_4935" Name="treR" Position="-150" Score="5.1">
+          <Sequence>AACTCGTACAGACGAGTT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4934" Name="treP" Position="-71" Score="4.7">
+          <Sequence>AACTCGTACAGACGAGTA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4934" Name="treP" Position="-97" Score="5.1">
+          <Sequence>AACTCGTCTGTACGAGTT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4935" Name="treR" Position="-176" Score="4.7">
+          <Sequence>TACTCGTCTGTACGAGTT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="875570" LocusId="PFL_4934" Name="treP" Function="Trehalose-specific PTS system, EIIABC component (EC 2.7.1.69)" />
+          <Members vimssId="875569" LocusId="PFL_4933" Name="treA" Function="Trehalose-6-phosphate hydrolase (EC 3.2.1.93)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="875571" LocusId="PFL_4935" Name="treR" Function="Trehalose utilization transcriptional regulator TreR, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5845</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="UreR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57210" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="PFL_5348" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=875984&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="UreR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5850" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_5347" Name="dctA" Position="-85" Score="4.8">
+          <Sequence>ACCGGTAAGACCACA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_5347" Name="dctA" Position="-94" Score="4.8">
+          <Sequence>ACTGGACATACCGGT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_5347" Name="dctA" Position="-170" Score="5.7">
+          <Sequence>ACTGGTCAGACCGGT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="875983" LocusId="PFL_5347" Name="dctA" Function="C4-dicarboxylate transport protein" />
+          <Members vimssId="875984" LocusId="PFL_5348" Name="ureR" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5850</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="VanR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31428" />
+      <Effector>Vanillate</Effector>
+      <Pathway>Vanillate utilization</Pathway>
+      <LocusTag Key="PFL_3473" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=874108&amp;disp=0" />
+      <BiologicalProcess>Vanillate utilization</BiologicalProcess>
+      <Regulog Key="VanR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3247" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_3480" Name="vanK" Position="-203" Score="4.8">
+          <Sequence>TGTGGATCCATT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_3471" Name="vanA" Position="-44" Score="5.3">
+          <Sequence>AATGGATCCATT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_3471" Name="vanA" Position="-150" Score="5">
+          <Sequence>AATGGATCCATA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_3471" Name="vanA" Position="-128" Score="4.7">
+          <Sequence>ACTGGATCCAAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="874115" LocusId="PFL_3480" Name="vanK" Function="4-hydroxybenzoate/vanillate transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="874106" LocusId="PFL_3471" Name="vanA" Function="Vanillate O-demethylase oxygenase subunit (EC 1.14.13.82)" />
+          <Members vimssId="874107" LocusId="PFL_3472" Name="vanB" Function="Flavodoxin reductases (ferredoxin-NADPH reductases) family 1; Vanillate O-demethylase oxidoreductase (EC 1.14.13.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3247</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YdcR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59701" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="PFL_2868" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=873503&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="YdcR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6128" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_2834" Name="ccoN" Position="-120" Score="8.1">
+          <Sequence>ATCTGATCCGTATTA---------TTCTGAGCCTGTTTT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2869" Name="COG0348" Position="-97" Score="9.4">
+          <Sequence>ATCTGATCCGGTTTT---------ACCTGAGTCTGTTAT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2835" Name="cysI" Position="-118" Score="7.1">
+          <Sequence>GGCTGATATGGTTTT---------ACCTGAATCTGTAAC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_0053" Name="gadh3" Position="-203" Score="7.8">
+          <Sequence>AGCTGATCCGCTTTT---------TTCTGATCTTTTTTT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="870690" LocusId="PFL_0053" Name="gadh3" Function="Gluconate 2-dehydrogenase (EC 1.1.99.3), membrane-bound, gamma subunit" />
+          <Members vimssId="870691" LocusId="PFL_0054" Name="gadh1" Function="Gluconate 2-dehydrogenase (EC 1.1.99.3), membrane-bound, flavoprotein" />
+          <Members vimssId="870692" LocusId="PFL_0055" Name="gadh2" Function="Gluconate 2-dehydrogenase (EC 1.1.99.3), membrane-bound, cytochrome c" />
+        </Operon>
+        <Operon>
+          <Members vimssId="873469" LocusId="PFL_2834" Name="ccoN" Function="Cytochrome c oxidase subunit CcoN (EC 1.9.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="873504" LocusId="PFL_2869" Name="COG0348" Function="Polyferredoxin" />
+          <Members vimssId="873503" LocusId="PFL_2868" Name="ydcR" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="873470" LocusId="PFL_2835" Name="cysI" Function="Sulfite reductase [NADPH] hemoprotein beta-component (EC 1.8.1.2)" />
+          <Members vimssId="873471" LocusId="PFL_2836" Name="COG3749" Function="Oxidoreductase probably involved in sulfite reduction" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6128</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YjiR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61776" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="PFL_6043" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=876679&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="YjiR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6345" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_6042" Name="yjiS" Position="-146" Score="15.1">
+          <Sequence>TACAGAT-(17)-TTCAGCA-(13)-AACTGTA-(23)-GTCTGTA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="876678" LocusId="PFL_6042" Name="yjiS" Function="putative cytoplasmic protein of unknown function DUF1127" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6345</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16069" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="PFL_0078" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=870715&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1727" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_0079" Name="znuA" Position="-36" Score="4.6">
+          <Sequence>GAGACGTTATTATGTTACCCGTT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_0078" Name="zur" Position="-44" Score="3.7">
+          <Sequence>AACGGGTAACATAATAACGTCTC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4912" Name="omr" Position="-113" Score="5.2">
+          <Sequence>GAGATGTTATATTGTATCAATCA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_6174" Name="dksA2" Position="-48" Score="5.9">
+          <Sequence>GTGTTGTTATAATATAACATAAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_6175" Name="PA5537" Position="-96" Score="5.4">
+          <Sequence>TTTATGTTATATTATAACAACAC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_6177" Name="folE2" Position="-50" Score="5.1">
+          <Sequence>GCATTGTTATAATATAACATGTG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4896" Name="rpmE2" Position="-51" Score="5.3">
+          <Sequence>GATATGTTATTGTATAACGCATC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_6176" Name="amiA" Position="-102" Score="5.6">
+          <Sequence>CACATGTTATATTATAACAATGC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_5528" Name="zbp" Position="-54" Score="5.5">
+          <Sequence>CGATTGTTATAAGATCACATAAC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_3806" Name="rpmJ" Position="-47" Score="4.8">
+          <Sequence>AATATGATATGTTATTACATTAG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="875548" LocusId="PFL_4912" Name="omr" Function="Zinc-regulated outer membrane receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="876810" LocusId="PFL_6174" Name="dksA2" Function="C4-type zinc finger protein, DksA/TraR family" />
+          <Members vimssId="876809" LocusId="PFL_6173" Name="yciC" Function="Putative metal chaperone, GTPase of COG0523 family" />
+          <Members vimssId="876808" LocusId="PFL_6172" Name="PF08856" Function="hypothetical protein" />
+          <Members vimssId="876807" LocusId="PFL_6171" Name="yciC2" Function="Putative metal chaperone, GTPase of COG0523 family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="876811" LocusId="PFL_6175" Name="PA5537" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="876813" LocusId="PFL_6177" Name="folE2" Function="GTP cyclohydrolase I (EC 3.5.4.16) type 2" />
+          <Members vimssId="876814" LocusId="PFL_6178" Name="znuC2" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="876815" LocusId="PFL_6179" Name="znuB2" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+          <Members vimssId="876816" LocusId="PFL_6180" Name="znuA2" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+          <Members vimssId="876817" LocusId="PFL_6181" Name="hisI2" Function="Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19)" />
+          <Members vimssId="876818" LocusId="PFL_6182" Name="can" Function="Carbonic anhydrase (EC 4.2.1.1)" />
+          <Members vimssId="876819" LocusId="PFL_6183" Name="pyrC2" Function="Dihydroorotase (EC 3.5.2.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="876164" LocusId="PFL_5528" Name="zbp" Function="Predicted zinc-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="876812" LocusId="PFL_6176" Name="amiA" Function="N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="875532" LocusId="PFL_4896" Name="rpmE2" Function="LSU ribosomal protein L31p" />
+        </Operon>
+        <Operon>
+          <Members vimssId="870715" LocusId="PFL_0078" Name="zur" Function="Zinc uptake regulation protein ZUR" />
+          <Members vimssId="870714" LocusId="PFL_0077" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="870713" LocusId="PFL_0076" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="870716" LocusId="PFL_0079" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="874441" LocusId="PFL_3806" Name="rpmJ" Function="LSU ribosomal protein L36p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1727</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41286" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_3655" Name="" Position="-98" Score="94.9">
+          <Sequence>CGTAGCCTTGCGCTTTCGAGGTTCTTCGGCCACGGGTCGAAGCTAAGAAGGGAACGCGGTCGATGCCGCGGCTGCCCCCGCAACTGTGAAGGGTTCGATTGCTGCAAGGCCACTGCATGGGCGTCGACGACGCCGGTGGGAAGGCGCAGCAATCGCCGGTCCGACGACTGGCAAGCCCTCAGCCAGGAGACCTGCCTCGATCCCAGATTCTCAC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2240" Name="btuB2" Position="-189" Score="126.2">
+          <Sequence>CATATGCCGCCCAGTTTCAGGTGCCTCCTGCCGCCGTGCAGGAGGTGAAACGGGAAACCGGTGCGCCCCTTTTCGGGCAAGTCCGGTGCTGCCCCCGCAACGGTAAGCGAGTGCTGCATTCAACAGGCCACTGTACCCAAGGTATGGGAAGGCGAATGCCGCCAGACTCGCAAGCCCGGAGACCGGCCTGTGACGTCTGTTTGGCA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_4431" Name="btuR" Position="-315" Score="105.6">
+          <Sequence>ACCTTCGCGACTTGTTTCAGGTGCTCTGTGGCCCGTGGCCGACAGAGTGAAACAGGGAAGCCGGTCAGGGTCTGTTCCAGTGATGGAGCCGACGACGATTCCGGCGCTGCCCCCGCAACGGTAGATGAGTCAAGACTGCGCCTGACGCCACTGTGTCAATGACACGGGAAGGCGCGCAGTCCGGCAGCCATGCCGCTCATGAGCCCGGAGACCGGCCTGATCCATCCAACGGCAT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_3656" Name="cbtB" Position="-156" Score="105.3">
+          <Sequence>CTACACACCTTGTTACGGGTGCCCCTTACAGGGTGAAACGGGAAACCGGTGAATCACGTGCTTAACTAAAAAGCCGTGGCCAGTCCGGTGCTGCCCCCGCAACGGTAAGCGAGCGAAGTGTCAGATCCACTGTGCCAAGGCATGGGAAGGCGACACTTGCTGGCACGGCATGACACAGCCCTGCCCCTCGCAAGCCCGGAGACCGGCCCGCAACACTTACATAACAAC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_2970" Name="btuB" Position="-154" Score="123">
+          <Sequence>CATATGCGCGCCAGTTTCAGGTGTCCCATGCCGCCGTGCATGGGGTTAAACGGGAAGCCGGTGCGTCATTTCGATGATCAGTCCGGCGCTGCCCCCGCAACGGTAAGCGAGCGAAGCATTCGACAGACCACTGTGCCAAGGCATGGGAAGGTGAATGCCTCATGACCCTCGCAAGCCCGGAGACCGGCCTGCAACTTCGTTTGACAA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="873605" LocusId="PFL_2970" Name="btuB" Function="Outer membrane vitamin B12 receptor BtuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="874290" LocusId="PFL_3655" Name="null" Function="CobW GTPase involved in cobalt insertion for B12 biosynthesis" />
+          <Members vimssId="874289" LocusId="PFL_3654" Name="null" Function="CobN component of cobalt chelatase involved in B12 biosynthesis" />
+          <Members vimssId="874288" LocusId="PFL_3653" Name="chII" Function="ChlI component of cobalt chelatase involved in B12 biosynthesis" />
+          <Members vimssId="874287" LocusId="PFL_3652" Name="chlD" Function="ChlD component of cobalt chelatase involved in B12 biosynthesis" />
+        </Operon>
+        <Operon>
+          <Members vimssId="872875" LocusId="PFL_2240" Name="btuB2" Function="Outer membrane vitamin B12 receptor BtuB" />
+          <Members vimssId="872874" LocusId="PFL_2239" Name="cbiW" Function="Putative 2Fe-2S ferredoxin CbiW involved in B12 biosynthesis" />
+          <Members vimssId="872873" LocusId="PFL_2238" Name="btuF2" Function="Vitamin B12 ABC transporter, B12-binding  component BtuF" />
+        </Operon>
+        <Operon>
+          <Members vimssId="875066" LocusId="PFL_4431" Name="btuR" Function="Cob(I)alamin adenosyltransferase (EC 2.5.1.17)" />
+          <Members vimssId="875065" LocusId="PFL_4430" Name="cbiA" Function="Cobyrinic acid A,C-diamide synthase" />
+          <Members vimssId="875064" LocusId="PFL_4429" Name="bluB" Function="Cobalamin biosynthesis protein BluB @ 5,6-dimethylbenzimidazole synthase, flavin destructase family" />
+          <Members vimssId="875063" LocusId="PFL_4428" Name="cbiB" Function="Adenosylcobinamide-phosphate synthase" />
+          <Members vimssId="875062" LocusId="PFL_4427" Name="cobD" Function="L-threonine 3-O-phosphate decarboxylase (EC 4.1.1.81)" />
+          <Members vimssId="875061" LocusId="PFL_4426" Name="cbiP" Function="Cobyric acid synthase" />
+          <Members vimssId="875060" LocusId="PFL_4425" Name="cobU" Function="Adenosylcobinamide-phosphate guanylyltransferase (EC 2.7.7.62)" />
+          <Members vimssId="875059" LocusId="PFL_4424" Name="cobT" Function="Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase (EC 2.4.2.21)" />
+          <Members vimssId="875058" LocusId="PFL_4423" Name="cobC" Function="Alpha-ribazole-5'-phosphate phosphatase (EC 3.1.3.73)" />
+          <Members vimssId="875057" LocusId="PFL_4422" Name="cobS" Function="Cobalamin synthase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="874291" LocusId="PFL_3656" Name="cbtB" Function="hypothetical protein" />
+          <Members vimssId="874292" LocusId="PFL_3657" Name="cbtA" Function="Predicted cobalt transporter CbtA" />
+          <Members vimssId="874293" LocusId="PFL_3658" Name="cobE" Function="Cobalamin biosynthesis protein CobE" />
+          <Members vimssId="874294" LocusId="PFL_3659" Name="cbiF" Function="Cobalt-precorrin-4 C11-methyltransferase (EC 2.1.1.133)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41318" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_4508" Name="ribH2" Position="-291" Score="104.6">
+          <Sequence>AACGTTCTCAGGGCGGGGTGCAATTCCCCACCGGCGGTAATTGCGTGCAATGCGCATAGCCCGCGAGCGCTTGGCGAGACCGGTGGCTTGGCCACAGGTGACGACAAGGTCAGCAGACCCGGTGTGATTCCGGGGCCGACGGTCATAGTCCGGATGAAGAGAGAACGGGATT</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="875143" LocusId="PFL_4508" Name="ribH2" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00114" RegulationMode="RF00114">
+      <Regulator Key="S15" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41262" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="S15" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_0847" Name="rpsO" Position="-45" Score="50.8">
+          <Sequence>GTTGAAACTGTTCTTGAACAGTTTCCTGATATAAGGATTGCCCACATGGCACTCAGCGTTGAAGAAAAAGCTCAGATCGTAACCGACTACCAGCAAGCTGTTGG</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="871484" LocusId="PFL_0847" Name="rpsO" Function="SSU ribosomal protein S15p (S13e)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01057" RegulationMode="RF01057">
+      <Regulator Key="SAH_riboswitch" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40982" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="SAH_riboswitch" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_5798" Name="ahcY" Position="-127" Score="58.8">
+          <Sequence>TGTCCGAGGGGCGCTGCAGCAGGCATGACCTGTCAGGCTCGGATGGGGCGTTGTTGGTACAGGGCTCCCTGTATGGACACTAAACGCACAACGGCGCCCATTCGCACA</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="876434" LocusId="PFL_5798" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+          <Members vimssId="876435" LocusId="PFL_5799" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40966" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_0538" Name="thiC" Position="-267" Score="86.4">
+          <Sequence>GGTTCTTGTCGGGGTGCCTTGCTATGAGGCTGAGATCGGATAATCCGGATCCCGTTGAACCTGATCAGGTTAGCGCCTGCGTAGGGAACAAGATTTCTCGTCACCC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="871175" LocusId="PFL_0538" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+          <Members vimssId="871176" LocusId="PFL_0539" Name="cytX" Function="Predicted hydroxymethylpyrimidine transporter CytX" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01068" RegulationMode="RF01068">
+      <Regulator Key="mini-ykkC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41030" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="mini-ykkC" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_4408" Name="ykkC1" Position="-71" Score="42.9">
+          <Sequence>CGCGAGGACGACCTCGCGACTCATTCGAGCGATCAATTCCGGGGACGACCCCATC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="875043" LocusId="PFL_4408" Name="ykkC1" Function="Quaternary ammonium compound-resistance protein sugE" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40926" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PFL_2642" Name="COG1971" Position="-175" Score="53.7">
+          <Sequence>CGCGCCTCTTTGGGGAGTAGCCTGCCACCGCGCCCTGCGGTGGCGCCCGTATCAACATTCTCGGCAACCTGCCGTGGTACGGGCACCGTTTCGGTTGGTGAGACCATCGACATACCTGC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PFL_5123" Name="COG2119" Position="-210" Score="44.8">
+          <Sequence>GCTCCGTCCTAGGGGAGTAGTCTCCCACGAGCGCCACGCTCGTCCGGCATGCGTCAACATACTTGGTCAACAGACCATGGCGCATGCGACCCAAGAGTCCGCACAGACGGACCGCAGGGTTTGACAAGACCTATGACACGCACAC</Sequence>
+          <Bacteria>Pseudomonas fluorescens Pf-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="875759" LocusId="PFL_5123" Name="COG2119" Function="Probable transmembrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="873277" LocusId="PFL_2642" Name="COG1971" Function="Integral membrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

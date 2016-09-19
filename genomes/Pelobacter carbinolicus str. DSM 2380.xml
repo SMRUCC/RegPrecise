@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Pelobacter carbinolicus str. DSM 2380" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15079" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="Pcar_1971" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1910840&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1617" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pcar_1666" Name="bioW" Position="-62" Score="8.2">
+          <Sequence>ATGTCAACC--------------TGTTGACAA</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pcar_1458" Name="bioB" Position="-137" Score="8.4">
+          <Sequence>TTGTCAACC--------------TGTTGACAA</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1910294" LocusId="Pcar_1458" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="1910295" LocusId="Pcar_1459" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+          <Members vimssId="1910296" LocusId="Pcar_1460" Name="bioA" Function="Adenosylmethionine-8-amino-7-oxononanoate aminotransferase (EC 2.6.1.62)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1910514" LocusId="Pcar_1666" Name="bioW" Function="Pimeloyl-CoA synthase (EC 6.2.1.14)" />
+          <Members vimssId="1910513" LocusId="Pcar_1665" Name="bioF" Function="8-amino-7-oxononanoate synthase (EC 2.3.1.47)" />
+          <Members vimssId="1910512" LocusId="Pcar_1664" Name="bioH" Function="Biotin synthesis protein bioH" />
+          <Members vimssId="1910511" LocusId="Pcar_1663" Name="bioC" Function="Biotin synthesis protein bioC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1617</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor (activator)">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19563" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="Pcar_1952" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1910821&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2114" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pcar_1952" Name="fur" Position="-27" Score="5.2">
+          <Sequence>TTGATATTCAATTTCAC</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pcar_1337" Name="PF10087" Position="-115" Score="5.4">
+          <Sequence>TTGAAAACGGTTTTCAT</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pcar_0068" Name="Gmet_2833" Position="-45" Score="4.9">
+          <Sequence>TTGAAAACGAAAGTCAA</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pcar_0883" Name="feoA" Position="-132" Score="5.1">
+          <Sequence>TTGAAAACGATAGTCAA</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pcar_0883" Name="feoA" Position="-77" Score="5.6">
+          <Sequence>ATGAAATTCGTTTTCAA</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1910821" LocusId="Pcar_1952" Name="fur" Function="Ferric uptake regulation protein FUR" />
+          <Members vimssId="1910820" LocusId="Pcar_1951" Name="feoB1" Function="Ferrous iron transport protein B" />
+          <Members vimssId="1910819" LocusId="Pcar_3335" Name="Gura_3000" Function="hypothetical protein" />
+          <Members vimssId="1910818" LocusId="Pcar_1950" Name="ideR" Function="iron (metal) dependent repressor, DtxR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1909683" LocusId="Pcar_0883" Name="feoA" Function="Ferrous iron transport protein A" />
+          <Members vimssId="1909682" LocusId="Pcar_0882" Name="feoB" Function="Ferrous iron transport protein B" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1908773" LocusId="Pcar_0068" Name="Gmet_2833" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1910161" LocusId="Pcar_1337" Name="PF10087" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2114</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="Gbem_0803" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60942" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Pcar_1599" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1910442&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="Gbem_0803 - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6258" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pcar_1599" Name="Gbem_0803" Position="-135" Score="10.8">
+          <Sequence>CACAGTTT-(17)-AACAGTTA-(11)-ATCTGTTA</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pcar_1600" Name="" Position="-148" Score="11.6">
+          <Sequence>AACAGTTG-(17)-AACAGATG-(11)-AACTGTTA</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1910442" LocusId="Pcar_1599" Name="Gbem_0803" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1910443" LocusId="Pcar_1600" Name="null" Function="MoxR-like ATPases" />
+          <Members vimssId="1910444" LocusId="Pcar_1601" Name="null" Function="Sll7028 protein" />
+          <Members vimssId="1910445" LocusId="Pcar_3306" Name="null" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6258</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="HcpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62686" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="Pcar_2562" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1911468&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="HcpR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6450" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pcar_1702" Name="frdX1" Position="-91" Score="4.7">
+          <Sequence>TCTTGACAGGAATCAAGG</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1910551" LocusId="Pcar_1702" Name="frdX1" Function="Ferredoxin fused to uncharacterized domain" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6450</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49781" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Pcar_0109" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1908816&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5041" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pcar_0109" Name="hrcA" Position="-42" Score="7.4">
+          <Sequence>TTAGCACTCAATAAGCTAGAGTGCTAA</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pcar_2382" Name="rpoH" Position="-59" Score="7.1">
+          <Sequence>TTAGCACTCGCCATCAACGAGTGCTAA</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pcar_2771" Name="groS" Position="-159" Score="7.2">
+          <Sequence>TTAGCACTCATGTAAACCGAGTGCTAA</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1908816" LocusId="Pcar_0109" Name="hrcA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="1908815" LocusId="Pcar_0108" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="1908814" LocusId="Pcar_0107" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="1908813" LocusId="Pcar_0106" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1911682" LocusId="Pcar_2771" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="1911681" LocusId="Pcar_2770" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1911274" LocusId="Pcar_2382" Name="rpoH" Function="Heat shock response RNA polymerase sigma factor RpoH (Sigma 32)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5041</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17983" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="Pcar_1861" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1910728&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1942" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pcar_1862" Name="cysE" Position="-76" Score="6.5">
+          <Sequence>ATAGTTGACAAAAATGATCAGGCAT</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1910729" LocusId="Pcar_1862" Name="cysE" Function="Serine acetyltransferase (EC 2.3.1.30)" />
+          <Members vimssId="1910728" LocusId="Pcar_1861" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="1910727" LocusId="Pcar_1860" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1942</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28425" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="Pcar_1739" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1910590&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2990" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pcar_1739" Name="lexA" Position="-32" Score="5">
+          <Sequence>GGCAGGCATAAGATAACC</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pcar_0121" Name="Gura_0162" Position="-115" Score="4.8">
+          <Sequence>CGTTGTCACATGCTATCC</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1910590" LocusId="Pcar_1739" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1908828" LocusId="Pcar_0121" Name="Gura_0162" Function="Predicted restriction-modification system" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2990</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21326" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdenum homeostasis</Pathway>
+      <LocusTag Key="Pcar_0662" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1909442&amp;disp=0" />
+      <BiologicalProcess>Molybdenum homeostasis</BiologicalProcess>
+      <Regulog Key="ModE - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2310" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pcar_2397" Name="omp_mod" Position="-128" Score="5.4">
+          <Sequence>CTTCGCTATATTGCGGCGATGATAACGATT</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pcar_2396" Name="Dace2069" Position="-107" Score="5.3">
+          <Sequence>GTTCGCTATATTCCGCGATTAACAACGTAT</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pcar_2087" Name="modA" Position="-115" Score="5.2">
+          <Sequence>ATTCGTTATATTTTCCCGGAGATAGCGCCC</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1910963" LocusId="Pcar_2087" Name="modA" Function="Molybdenum ABC transporter, periplasmic molybdenum-binding protein ModA (TC 3.A.1.8.1)" />
+          <Members vimssId="1910962" LocusId="Pcar_2086" Name="modB" Function="Molybdenum transport system permease protein ModB (TC 3.A.1.8.1)" />
+          <Members vimssId="1910961" LocusId="Pcar_2085" Name="modC" Function="Molybdenum transport ATP-binding protein ModC (TC 3.A.1.8.1)" />
+          <Members vimssId="1910960" LocusId="Pcar_2084" Name="modA" Function="Molybdenum ABC transporter, periplasmic molybdenum-binding protein ModA (TC 3.A.1.8.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1911291" LocusId="Pcar_2396" Name="Dace2069" Function="Duplicated ATPase component Dace2069 of energizing module of predicted ECF transporter" />
+          <Members vimssId="1911290" LocusId="Pcar_2395" Name="Dace_2068" Function="Transmembrane component Dace_2068 of energizing module of predicted ECF transporter" />
+          <Members vimssId="1911289" LocusId="Pcar_2394" Name="Dace_2067" Function="Core component Dace_2067 of predicted ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1911292" LocusId="Pcar_2397" Name="omp_mod" Function="predicted TonB-dependent outer memberane transporter for molybdate" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2310</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15635" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Pcar_1444" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1910280&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1679" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pcar_1852" Name="nrdJ" Position="-95" Score="4.8">
+          <Sequence>ACCCAAGATATTGTGG</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1910719" LocusId="Pcar_1852" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1679</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19405" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="Pcar_1994" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1910866&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2096" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pcar_2589" Name="amtB" Position="-263" Score="4.7">
+          <Sequence>TGCCTCCATTATGGGCA</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pcar_2589" Name="amtB" Position="-242" Score="4.5">
+          <Sequence>TGCCTATTTTGGAAGCA</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pcar_1021" Name="glnK2" Position="-241" Score="4.4">
+          <Sequence>TGCTCAAAATTTAAGCC</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pcar_1500" Name="glnB" Position="-306" Score="4.1">
+          <Sequence>TGTTTAAATAATAGTCA</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pcar_1500" Name="glnB" Position="-274" Score="4.9">
+          <Sequence>TGTCTAAATATTGGGCA</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1909833" LocusId="Pcar_1021" Name="glnK2" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="1909834" LocusId="Pcar_1022" Name="amtB2" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1911495" LocusId="Pcar_2589" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1910336" LocusId="Pcar_1500" Name="glnB" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="1910337" LocusId="Pcar_1501" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2096</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SahR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15837" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="Pcar_1925" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1910793&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SahR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1701" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pcar_1925" Name="sahR" Position="-43" Score="6.1">
+          <Sequence>ATATCAAGAAAAGTTGATAT</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1910793" LocusId="Pcar_1925" Name="sahR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+          <Members vimssId="1910792" LocusId="Pcar_1924" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1701</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48811" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pcar_0884" Name="ribB" Position="-244" Score="105.7">
+          <Sequence>GTAAAGTTCTCAGGGCGGGGTGAAAGTCCCCACCGGCGGTGATGTTGCCATCGAGCAAACAAGCCCGCGAGCGCCTGCCGTATAGCAGGGCCAGCAGACCCGGTTGGAATCCGGGGCCGACGGTTAGAGTCCGGACGAGAGAGAATGCTT</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1909687" LocusId="Pcar_0884" Name="ribB" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01055" RegulationMode="RF01055">
+      <Regulator Key="MOCO_RNA_motif" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=55443" />
+      <Effector>Molybdenum</Effector>
+      <Pathway>Molybdopterin biosynthesis; Tungsten homeostasis; Molybdenum homeostasis</Pathway>
+      <LocusTag Key="MOCO_RNA_motif" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pcar_2514" Name="aor2" Position="-151" Score="75.3">
+          <Sequence>GTACAGAACACGTCTCCGAGTCTTAAGCCTAAAAGGATGGACCTCATGGCTGACGGGCCGGCAGGGTTTCGCTGGAAACGGCGGAGCCTCCCTTTCGGAAAGGAGATATTTGCATTTTGAG</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pcar_2782" Name="modA" Position="-157" Score="21.2">
+          <Sequence>CCTATGTGTTCCTCCATGTGCTGCGTTTTGGCGGATACTCCTGTGAGCGTGGCACCGATAGGGGACTTCGGAAACGAAGTCCCCTTCCGCGTGTCATGATGGGAAAATGTCAGAGCTCG</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pcar_0456" Name="aor" Position="-156" Score="73.2">
+          <Sequence>CAATACTACCAATCTCCGAGCCTCGCTGCCTACTGGGAAGGTCCTTATGGCGACAGGCCGACGGGTTCCGCTGGAAACAGTGGCGCCTCCCTTTTTGGAAAGGAGATTTTACCCGGAACCA</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pcar_0256" Name="moeA" Position="-461" Score="73.6">
+          <Sequence>CAAGAATGCGCCTCCGAGCCTGATGCCCTAAAAGAGATTTTATCTCTCAGGGGCGTCGGGCCGATGGGTTTCGCCGGAAACAGCGGAGCCTCCCTGTTTTCGGAAAGGAGACCATTGCCTTGGGCTGT</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pcar_0665" Name="aor" Position="-156" Score="75.2">
+          <Sequence>TGCGCGGCAGTCTCCGAGCCAGGTCCGCCTAAGGGGATGGTCTTCAGGGCGTCTGGCCAAAGGGTTTCGCTGGAAACGGCGATGCCTCCCGCGTTTGGAAAGGAGATAATCCCGGAGTTCCGT</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1909445" LocusId="Pcar_0665" Name="aor" Function="Tungsten-containing aldehyde ferredoxin oxidoreductase (EC 1.2.7.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1908982" LocusId="Pcar_0256" Name="moeA" Function="Molybdopterin biosynthesis protein MoeA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1909206" LocusId="Pcar_0456" Name="aor" Function="Tungsten-containing aldehyde ferredoxin oxidoreductase (EC 1.2.7.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1911417" LocusId="Pcar_2514" Name="aor2" Function="Tungsten-containing aldehyde:ferredoxin oxidoreductase (EC 1.2.7.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1911693" LocusId="Pcar_2782" Name="modA" Function="Molybdenum ABC transporter, periplasmic molybdenum-binding protein ModA (TC 3.A.1.8.1)" />
+          <Members vimssId="1911694" LocusId="Pcar_2783" Name="modB" Function="Molybdenum transport system permease protein ModB (TC 3.A.1.8.1)" />
+          <Members vimssId="1911695" LocusId="Pcar_2784" Name="modC" Function="Molybdenum transport ATP-binding protein ModC (TC 3.A.1.8.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48820" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pcar_2235" Name="thiED" Position="-169" Score="70.7">
+          <Sequence>ATAACCGCTAGGGGCGTCATTCTGTACTGAGAGTTTCGCATAAGCGCAACAACCCTTGGAACCTGACCCGGATCATACCGGCGTAGGGAAGCGGTGTCGCAAGGCAGT</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pcar_0611" Name="thiF" Position="-164" Score="71.1">
+          <Sequence>AGATAGGCCCTGGGGGAGTTTGCAAAACTGAGAGTCCTGCGCATGCGGGACAACCCTTTGAACCTGATCCGGGTCATTCCGGCGTAGGGAAGCGGCGCAAATGCAGA</Sequence>
+          <Bacteria>Pelobacter carbinolicus str. DSM 2380</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1909388" LocusId="Pcar_0611" Name="thiF" Function="Sulfur carrier protein adenylyltransferase ThiF" />
+          <Members vimssId="1909387" LocusId="Pcar_0610" Name="thiS" Function="Thiamine biosynthesis protein ThiS" />
+          <Members vimssId="1909386" LocusId="Pcar_0609" Name="thiG" Function="Thiazole synthase" />
+          <Members vimssId="1909385" LocusId="Pcar_0608" Name="thiH" Function="Thiazole biosynthesis ThiH" />
+          <Members vimssId="1909384" LocusId="Pcar_0607" Name="thiE" Function="Thiamine monophosphate synthase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1911115" LocusId="Pcar_2235" Name="thiED" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3) / Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+          <Members vimssId="1911116" LocusId="Pcar_2236" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

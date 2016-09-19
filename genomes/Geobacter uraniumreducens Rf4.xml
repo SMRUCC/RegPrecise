@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Geobacter uraniumreducens Rf4" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15074" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="Gura_2817" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3528306&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1617" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gura_2242" Name="bioB" Position="-74" Score="8.4">
+          <Sequence>TCGTCAACC--------------GGTTGACAA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_3246" Name="bioF" Position="-94" Score="7.7">
+          <Sequence>TTGTTAACC--------------GGTTGACGA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3527721" LocusId="Gura_2242" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="3527722" LocusId="Gura_2243" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+          <Members vimssId="3527723" LocusId="Gura_2244" Name="bioA" Function="Adenosylmethionine-8-amino-7-oxononanoate aminotransferase (EC 2.6.1.62)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3528736" LocusId="Gura_3246" Name="bioF" Function="8-amino-7-oxononanoate synthase (EC 2.3.1.47)" />
+          <Members vimssId="3528735" LocusId="Gura_3245" Name="bioH" Function="Biotin synthesis protein bioH" />
+          <Members vimssId="3528734" LocusId="Gura_3244" Name="bioC" Function="Biotin synthesis protein bioC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1617</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor (activator)">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19558" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="Gura_3002" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3528491&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2114" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gura_3002" Name="fur" Position="0" Score="5.7">
+          <Sequence>GTGAAAATCACTTTCAA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_3001" Name="feoB1" Position="-51" Score="5.3">
+          <Sequence>ATGAAAGTGATAATCAA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_0930" Name="psp" Position="-225" Score="5.6">
+          <Sequence>TTGAAAAAGACTTTCAA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_0930" Name="psp" Position="-130" Score="5.2">
+          <Sequence>ATGAAAGTGGATATCAA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3528490" LocusId="Gura_3001" Name="feoB1" Function="Ferrous iron transport protein B" />
+          <Members vimssId="3528489" LocusId="Gura_3000" Name="Gura_3000" Function="hypothetical protein" />
+          <Members vimssId="3528488" LocusId="Gura_2999" Name="ideR" Function="iron (metal) dependent repressor, DtxR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3528491" LocusId="Gura_3002" Name="fur" Function="Ferric uptake regulation protein FUR" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3526386" LocusId="Gura_0930" Name="psp" Function="Iron-regulated porin, similar to phosphate-selective porin" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2114</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="Gbem_0803" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60945" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Gura_2450" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3527933&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="Gbem_0803 - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6258" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gura_2449" Name="Geob_2471" Position="-170" Score="11.9">
+          <Sequence>TACAGTTT-(17)-AACAGTCT-(12)-AACTGTTA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3527932" LocusId="Gura_2449" Name="Geob_2471" Function="alkylhydroperoxidase like protein, AhpD family" />
+          <Members vimssId="3527931" LocusId="Gura_2448" Name="null" Function="MFS transporter" />
+          <Members vimssId="3527930" LocusId="Gura_2447" Name="null" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6258</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="HcpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62685" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="Gura_0851" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3526307&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="HcpR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6450" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gura_0663" Name="hcp" Position="-223" Score="4.9">
+          <Sequence>TATTGACTTTGATCAAGG</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_1364" Name="hcp" Position="-269" Score="5.5">
+          <Sequence>ACTTGACCAAGGTCAAAG</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_4255" Name="PF02085" Position="-75" Score="5.1">
+          <Sequence>ATTTGACTTTAGTCAAGG</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_0432" Name="dnrN" Position="-269" Score="5.3">
+          <Sequence>ATTTGACCTACATCAAGG</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_0769" Name="SSF140683" Position="-72" Score="5.3">
+          <Sequence>TTTTGACCCACGTCATAA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_0293" Name="ygbA" Position="-50" Score="4.8">
+          <Sequence>TTTTGACTTTTGTCATGT</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_0346" Name="COG1917" Position="-277" Score="5.2">
+          <Sequence>CCTTGACCTGCGTCAATT</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3526830" LocusId="Gura_1364" Name="hcp" Function="Hydroxylamine reductase (EC 1.7.-.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3526225" LocusId="Gura_0769" Name="SSF140683" Function="SP0561-like superfamily hypothetical protein" />
+          <Members vimssId="3526226" LocusId="Gura_0770" Name="frdX2" Function="Ferredoxin fused to uncharacterized domain" />
+          <Members vimssId="3526227" LocusId="Gura_0771" Name="COG3945" Function="Hemerythrin HHE cation binding domain hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3529755" LocusId="Gura_4255" Name="PF02085" Function="cytochrome c family protein, putative" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3525746" LocusId="Gura_0293" Name="ygbA" Function="hypothetical protein involved in nitrosative stress" />
+          <Members vimssId="3525747" LocusId="Gura_0294" Name="frdX1" Function="Ferredoxin fused to uncharacterized domain" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3525886" LocusId="Gura_0432" Name="dnrN" Function="Nitric oxide-dependent regulator DnrN or NorA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3525800" LocusId="Gura_0346" Name="COG1917" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3526119" LocusId="Gura_0663" Name="hcp" Function="Hydroxylamine reductase (EC 1.7.-.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6450</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49776" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Gura_0209" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3525658&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5041" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gura_3950" Name="rpoH" Position="-92" Score="6.8">
+          <Sequence>TTAGCACTCTTAACTTGAGAGTGCCAA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_4306" Name="groS" Position="-85" Score="7.2">
+          <Sequence>TTAGCACTCGGCAGCTTGGAGTGCTAA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_0209" Name="hrcA" Position="-47" Score="7.4">
+          <Sequence>TTAGCACTCGAATTCCTTGAGTGCTAA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3529807" LocusId="Gura_4306" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="3529808" LocusId="Gura_4307" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3529448" LocusId="Gura_3950" Name="rpoH" Function="Heat shock response RNA polymerase sigma factor RpoH (Sigma 32)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3525658" LocusId="Gura_0209" Name="hrcA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="3525659" LocusId="Gura_0210" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="3525660" LocusId="Gura_0211" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="3525661" LocusId="Gura_0212" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5041</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17978" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="Gura_1494" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3526961&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1942" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gura_1495" Name="cysE" Position="-75" Score="7.1">
+          <Sequence>ATAATTGACTAAAATAGTAAGGTAT</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3526962" LocusId="Gura_1495" Name="cysE" Function="Serine acetyltransferase (EC 2.3.1.30)" />
+          <Members vimssId="3526961" LocusId="Gura_1494" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="3526960" LocusId="Gura_1493" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1942</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28420" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="Gura_1142" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3526608&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2990" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gura_1142" Name="lexA" Position="-30" Score="5.6">
+          <Sequence>GGTTATCATTTGACAACT</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_0162" Name="Gura_0162" Position="-168" Score="4.8">
+          <Sequence>GGTTTTCTGATAAAAACC</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3526608" LocusId="Gura_1142" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+          <Members vimssId="3526607" LocusId="Gura_1141" Name="Gmet_1440" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3525611" LocusId="Gura_0162" Name="Gura_0162" Function="Predicted restriction-modification system" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2990</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="LldR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16698" />
+      <Effector>L-lactate</Effector>
+      <Pathway>Lactate utilization</Pathway>
+      <LocusTag Key="Gura_2197" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3527673&amp;disp=0" />
+      <BiologicalProcess>Lactate utilization</BiologicalProcess>
+      <Regulog Key="LldR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1799" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gura_0153" Name="lldG" Position="-231" Score="3.7">
+          <Sequence>ATGTGGTTATACATTTT</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_2200" Name="lldP" Position="-195" Score="5.2">
+          <Sequence>AAATGGTAATACCAACA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_2200" Name="lldP" Position="-303" Score="4.7">
+          <Sequence>AAATTGTAATACCATAT</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_0154" Name="lldP" Position="-233" Score="3.7">
+          <Sequence>AAAATGTATAACCACAT</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_0154" Name="lldP" Position="-125" Score="5.6">
+          <Sequence>AATTGGTAATACAACTT</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_0153" Name="lldG" Position="-339" Score="5.6">
+          <Sequence>AAGTTGTATTACCAATT</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3525602" LocusId="Gura_0153" Name="lldG" Function="L-lactate dehydrogenase, hypothetical protein subunit LldG" />
+          <Members vimssId="3525601" LocusId="Gura_0152" Name="lldEF" Function="L-lactate dehydrogenase, Fe-S oxidoreductase subunit LldE / L-lactate dehydrogenase, Iron-sulfur cluster-binding subunit LldF" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3527676" LocusId="Gura_2200" Name="lldP" Function="L-lactate permease" />
+          <Members vimssId="3527675" LocusId="Gura_2199" Name="glcD" Function="Predicted glycolate dehydrogenase, 2-subunit type (EC 1.1.99.14), iron-sulfur subunit GlcD" />
+          <Members vimssId="3527674" LocusId="Gura_2198" Name="glcF" Function="Predicted glycolate dehydrogenase, 2-subunit type (EC 1.1.99.14), iron-sulfur subunit GlcF" />
+          <Members vimssId="3527673" LocusId="Gura_2197" Name="lldR" Function="Lactate-responsive regulator LldR, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3525603" LocusId="Gura_0154" Name="lldP" Function="L-lactate permease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1799</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21321" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdenum homeostasis</Pathway>
+      <LocusTag Key="" Value="" />
+      <BiologicalProcess>Molybdenum homeostasis</BiologicalProcess>
+      <Regulog Key="ModE - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2310" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gura_3323" Name="modA" Position="-261" Score="5.4">
+          <Sequence>ATGCGTTATAATGTGCAAACTATAACGCTT</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3528817" LocusId="Gura_3323" Name="modA" Function="Molybdenum ABC transporter, periplasmic molybdenum-binding protein ModA (TC 3.A.1.8.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2310</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NikR" RegulationMode="repressor">
+      <Regulator Key="NikR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15996" />
+      <Effector>Nickel ion, (Ni2+)</Effector>
+      <Pathway>Nickel homeostasis</Pathway>
+      <LocusTag Key="Gura_0772" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3526228&amp;disp=0" />
+      <BiologicalProcess>Nickel homeostasis</BiologicalProcess>
+      <Regulog Key="NikR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1720" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gura_2762" Name="nikMN" Position="-67" Score="6.5">
+          <Sequence>GTGTTAC-------------GTGCTAC</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_0780" Name="nikMN" Position="-48" Score="6.6">
+          <Sequence>GTGCTAC-------------GTGTTAC</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3528250" LocusId="Gura_2762" Name="nikMN" Function="Substrate-specific component NikM of nickel ECF transporter / Additional substrate-specific component NikN of nickel ECF transporter" />
+          <Members vimssId="3528249" LocusId="Gura_2761" Name="nikQ" Function="Transmembrane component NikQ of energizing module of nickel ECF transporter" />
+          <Members vimssId="3528248" LocusId="Gura_2760" Name="nikO" Function="ATPase component NikO of energizing module of nickel ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3526236" LocusId="Gura_0780" Name="nikMN" Function="Substrate-specific component NikM of nickel ECF transporter / Additional substrate-specific component NikN of nickel ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1720</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15630" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Gura_2184" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3527660&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1679" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gura_2259" Name="nrdJ" Position="-100" Score="5.1">
+          <Sequence>GCCATACATGTTGTGG</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_2259" Name="nrdJ" Position="-68" Score="4.3">
+          <Sequence>CCACAAAATGTGGTAT</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3527742" LocusId="Gura_2259" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1679</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19400" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="Gura_0916" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3526372&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2096" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gura_0914" Name="nifR" Position="9" Score="5.3">
+          <Sequence>TGCCCAAAAAATAGGCA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_2800" Name="gdhA" Position="-168" Score="4.4">
+          <Sequence>TGCTTAATATTTAAGCT</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_2800" Name="gdhA" Position="-118" Score="5">
+          <Sequence>TGCCTATTTATGGTGCA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_1201" Name="nifEN" Position="-228" Score="5.3">
+          <Sequence>TGCCCAATAATTGGGCA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_2229" Name="glnB" Position="-266" Score="4.2">
+          <Sequence>TGCCCATCCATTGGGCA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_2229" Name="glnB" Position="-234" Score="4.3">
+          <Sequence>TGCTCAATTTATAAGCT</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3526667" LocusId="Gura_1201" Name="nifEN" Function="Nitrogenase FeMo-cofactor scaffold and assembly protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3527706" LocusId="Gura_2229" Name="glnB" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="3527705" LocusId="Gura_2228" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3526370" LocusId="Gura_0914" Name="nifR" Function="Predicted oxidoreductase, FAD binding" />
+          <Members vimssId="3526371" LocusId="Gura_0915" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="3526372" LocusId="Gura_0916" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3528289" LocusId="Gura_2800" Name="gdhA" Function="NADP-specific glutamate dehydrogenase (EC 1.4.1.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2096</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SahR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15832" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="Gura_3006" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3528495&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SahR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1701" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gura_3006" Name="sahR" Position="-41" Score="5.5">
+          <Sequence>AAATCAAGAAAAACTGATAT</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3528495" LocusId="Gura_3006" Name="sahR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+          <Members vimssId="3528494" LocusId="Gura_3005" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1701</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="SdhR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62173" />
+      <Effector />
+      <Pathway>Tricarboxylic acid cycle</Pathway>
+      <LocusTag Key="Gura_4161" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3529661&amp;disp=0" />
+      <BiologicalProcess>Tricarboxylic acid cycle</BiologicalProcess>
+      <Regulog Key="SdhR2 - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6389" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gura_3257" Name="sdhC" Position="-274" Score="6.2">
+          <Sequence>TAGTATACAGTATACAA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_3640" Name="sfrB" Position="-101" Score="6.5">
+          <Sequence>TTGCATACTGTATACAA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_1576" Name="gltA" Position="-218" Score="5.1">
+          <Sequence>TTGTATACAGTATATTT</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_2194" Name="icd" Position="-230" Score="6.8">
+          <Sequence>TTGTATACTGTATACAA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_4245" Name="hemL" Position="-200" Score="6.2">
+          <Sequence>TCGTATACTGTATACAA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_4244" Name="nuoA-1" Position="-115" Score="6.2">
+          <Sequence>TTGTATACAGTATACGA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_4161" Name="sdhR2" Position="-43" Score="6.5">
+          <Sequence>GTGTATACTGTATACAA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_4160" Name="Gura_4160" Position="-133" Score="6.5">
+          <Sequence>TTGTATACAGTATACAC</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_1939" Name="acnB" Position="-109" Score="5.9">
+          <Sequence>TTGTATACAGTATGCGA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3529745" LocusId="Gura_4245" Name="hemL" Function="Glutamate-1-semialdehyde aminotransferase (EC 5.4.3.8)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3527409" LocusId="Gura_1939" Name="acnB" Function="Aconitate hydratase 2 (EC 4.2.1.3) / 2-methylisocitrate dehydratase (EC 4.2.1.99)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3527043" LocusId="Gura_1576" Name="gltA" Function="Citrate synthase (si) (EC 2.3.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3528752" LocusId="Gura_3257" Name="sdhC" Function="Succinate dehydrogenase cytochrome b558 subunit" />
+          <Members vimssId="3528751" LocusId="Gura_3256" Name="sdhA" Function="Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1)" />
+          <Members vimssId="3528750" LocusId="Gura_3255" Name="frdB" Function="Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3529136" LocusId="Gura_3640" Name="sfrB" Function="Fe(III) reductase, beta subunit" />
+          <Members vimssId="3529135" LocusId="Gura_3639" Name="sfrA" Function="Fe(III) reductase, alpha subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3527670" LocusId="Gura_2194" Name="icd" Function="Isocitrate dehydrogenase [NADP] (EC 1.1.1.42); Monomeric isocitrate dehydrogenase [NADP] (EC 1.1.1.42)" />
+          <Members vimssId="3527669" LocusId="Gura_2193" Name="mdh" Function="Malate dehydrogenase (EC 1.1.1.37)" />
+          <Members vimssId="3527668" LocusId="Gura_2192" Name="Gura_2192" Function="2-oxoglutarate oxidoreductase, delta subunit, putative (EC 1.2.7.3)" />
+          <Members vimssId="3527667" LocusId="Gura_2191" Name="Gura_2191" Function="2-oxoglutarate oxidoreductase, alpha subunit (EC 1.2.7.3)" />
+          <Members vimssId="3527666" LocusId="Gura_2190" Name="Gura_2190" Function="2-oxoglutarate oxidoreductase, beta subunit (EC 1.2.7.3)" />
+          <Members vimssId="3527665" LocusId="Gura_2189" Name="Gura_2189" Function="2-oxoglutarate oxidoreductase, gamma subunit (EC 1.2.7.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3529661" LocusId="Gura_4161" Name="sdhR2" Function="Transcriptional regulator of central carbohydrate metabolism, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3529744" LocusId="Gura_4244" Name="nuoA-1" Function="NADH ubiquinone oxidoreductase chain A (EC 1.6.5.3)" />
+          <Members vimssId="3529743" LocusId="Gura_4243" Name="nuoB" Function="NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)" />
+          <Members vimssId="3529742" LocusId="Gura_4242" Name="nuoC" Function="NADH-ubiquinone oxidoreductase chain C (EC 1.6.5.3)" />
+          <Members vimssId="3529741" LocusId="Gura_4241" Name="nouD" Function="NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)" />
+          <Members vimssId="3529740" LocusId="Gura_4240" Name="nuoE-1" Function="NADH-ubiquinone oxidoreductase chain E (EC 1.6.5.3)" />
+          <Members vimssId="3529739" LocusId="Gura_4239" Name="nouF" Function="NADH-ubiquinone oxidoreductase chain F (EC 1.6.5.3)" />
+          <Members vimssId="3529738" LocusId="Gura_4238" Name="Gura_4238" Function="NADH-ubiquinone oxidoreductase chain G (EC 1.6.5.3)" />
+          <Members vimssId="3529737" LocusId="Gura_4237" Name="nuoH-1" Function="NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)" />
+          <Members vimssId="3529736" LocusId="Gura_4236" Name="nuoI-1" Function="NADH-ubiquinone oxidoreductase chain I (EC 1.6.5.3)" />
+          <Members vimssId="3529735" LocusId="Gura_4235" Name="nuoJ" Function="NADH-ubiquinone oxidoreductase chain J (EC 1.6.5.3)" />
+          <Members vimssId="3529734" LocusId="Gura_4234" Name="nuoK" Function="NADH-ubiquinone oxidoreductase chain K (EC 1.6.5.3)" />
+          <Members vimssId="3529733" LocusId="Gura_4233" Name="nuoL-1" Function="NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)" />
+          <Members vimssId="3529732" LocusId="Gura_4232" Name="nuoM-1" Function="NADH-ubiquinone oxidoreductase chain M (EC 1.6.5.3)" />
+          <Members vimssId="3529731" LocusId="Gura_4231" Name="nuoN-2" Function="NADH-ubiquinone oxidoreductase chain N (EC 1.6.5.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3529660" LocusId="Gura_4160" Name="Gura_4160" Function="K+ transport systems, NAD-binding component" />
+          <Members vimssId="3529659" LocusId="Gura_4159" Name="Gura_4159" Function="Sugar phosphate isomerases/epimerases" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6389</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16170" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="Gura_0045" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3525492&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1739" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gura_0045" Name="zur" Position="-217" Score="7.9">
+          <Sequence>TAAAAAGAAATGATTTCTATTTA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3525492" LocusId="Gura_0045" Name="zur" Function="Zinc uptake regulation protein Zur" />
+          <Members vimssId="3525493" LocusId="Gura_0046" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+          <Members vimssId="3525494" LocusId="Gura_0047" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="3525495" LocusId="Gura_0048" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1739</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01055" RegulationMode="RF01055">
+      <Regulator Key="MOCO_RNA_motif" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=55442" />
+      <Effector>Molybdenum</Effector>
+      <Pathway>Molybdopterin biosynthesis; Tungsten homeostasis; Molybdenum homeostasis</Pathway>
+      <LocusTag Key="MOCO_RNA_motif" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gura_3550" Name="aor3" Position="-155" Score="68.6">
+          <Sequence>CACACCTGTTTTTCTCCGAGCCTCCTCACCTACAGGGCATCCCCCCAAGGAAAGAGGCCAACGGGTTTCGCGGGAAACTGCGACGCCTCCCTTTGGAAAGGAGAATTAACGTGGCTTGA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_3545" Name="moaE" Position="-210" Score="71.3">
+          <Sequence>GAAACTGACGCTCTCCGAGCTGTAGCGCCTAAAAGGTTTGTACCTGATGGCGCACGGCCTATGGGTTCTGCCGGAAACGGCAGCGCCTCCCTTTTGGAAAGGAGAAACCGCAGCGTTGCA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_2421" Name="aor" Position="-149" Score="73.7">
+          <Sequence>AAACACATCATCTCCGAGCCTTTCAGCCTAAAAGGATAAACCTCATGGCGCCCGGCCAACGGGTTTCGCTGGAAACAGCGGAGCCTCCCTTTCGGAAAGGAGACCTATCCGCTCAGCGGA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3527904" LocusId="Gura_2421" Name="aor" Function="Tungsten-containing aldehyde ferredoxin oxidoreductase (EC 1.2.7.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3529041" LocusId="Gura_3545" Name="moaE" Function="Molybdenum cofactor biosynthesis protein MoaE" />
+          <Members vimssId="3529040" LocusId="Gura_3544" Name="tupB" Function="ABC-type tungstate transport system, periplasmic binding protein" />
+          <Members vimssId="3529039" LocusId="Gura_3543" Name="tupA" Function="ABC-type tungstate transport system, permease protein" />
+          <Members vimssId="3529038" LocusId="Gura_3542" Name="tupC" Function="ABC-type tungstate transport system, ATP-binding protein" />
+          <Members vimssId="3529037" LocusId="Gura_3541" Name="moeA" Function="Molybdopterin biosynthesis protein MoeA" />
+          <Members vimssId="3529036" LocusId="Gura_3540" Name="moaC" Function="Molybdenum cofactor biosynthesis protein MoaC" />
+          <Members vimssId="3529035" LocusId="Gura_3539" Name="moaB" Function="Molybdenum cofactor biosynthesis protein MoaB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3529046" LocusId="Gura_3550" Name="aor3" Function="Tungsten-containing aldehyde:ferredoxin oxidoreductase (EC 1.2.7.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48815" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gura_3851" Name="thiED" Position="-188" Score="78.6">
+          <Sequence>TTGCCAGCTAGGGGAGTTCGCAAGAACTGAGATGGGCCTTGCCCAAACCCTTTGAACCTGATCCGGTTGATCCCGGCGTAGGAAAGCGGCCAGAGTGAGACTC</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gura_3658" Name="thiS" Position="-177" Score="72.6">
+          <Sequence>TACATCGCTGGGGGAGTTCGCAAGAACTGAGATCCGTCTTAACCGGAAACCCTTTGAACCTGATCCGGCTGATCCCGGCGGAGGGAAGCGCACTATTTAGGTCCA</Sequence>
+          <Bacteria>Geobacter uraniumreducens Rf4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3529154" LocusId="Gura_3658" Name="thiS" Function="Thiamine biosynthesis protein ThiS" />
+          <Members vimssId="3529155" LocusId="Gura_3659" Name="thiG" Function="Thiazole synthase" />
+          <Members vimssId="3529156" LocusId="Gura_3660" Name="thiE" Function="Thiamine monophosphate synthase" />
+          <Members vimssId="3529157" LocusId="Gura_3661" Name="COG1242" Function="Predicted Fe-S oxidoreductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3529348" LocusId="Gura_3851" Name="thiED" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3) / Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+          <Members vimssId="3529349" LocusId="Gura_3852" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

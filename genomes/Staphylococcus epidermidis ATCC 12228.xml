@@ -1,0 +1,3202 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Staphylococcus epidermidis ATCC 12228" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="LytTR" RegulationMode="activator">
+      <Regulator Key="AgrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6512" />
+      <Effector />
+      <Pathway>Virulence; Quorum sensing</Pathway>
+      <LocusTag Key="SE1638" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=314430&amp;disp=0" />
+      <BiologicalProcess>Virulence; Quorum sensing</BiologicalProcess>
+      <Regulog Key="AgrA - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=656" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1635" Name="agrB" Position="-92" Score="8.7">
+          <Sequence>ACACTTAGG------------ACAGTTAGG</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314427" LocusId="SE1635" Name="agrB" Function="quorum sensig autoregualated system, secretory protein for the AgrD export and processing" />
+          <Members vimssId="314428" LocusId="SE1636" Name="agrD" Function="quorum sensig autoregualated system, signaling peptide" />
+          <Members vimssId="314429" LocusId="SE1637" Name="agrC" Function="quorum sensig autoregualated system, two-component system sensor kinase" />
+          <Members vimssId="314430" LocusId="SE1638" Name="agrA" Function="quorum sensig autoregualated system, response regulator" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=656</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="ArcR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6519" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine degradation</Pathway>
+      <LocusTag Key="SE2214" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=315006&amp;disp=0" />
+      <BiologicalProcess>Arginine degradation</BiologicalProcess>
+      <Regulog Key="ArcR - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=657" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE0106" Name="arcA2" Position="-76" Score="5.6">
+          <Sequence>TTGTGAATTAAATCACAC</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2217" Name="arcA" Position="-76" Score="5.4">
+          <Sequence>ATGTGATAATCATCACGA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="315009" LocusId="SE2217" Name="arcA" Function="arginine deiminase" />
+          <Members vimssId="315008" LocusId="SE2216" Name="arcB" Function="ornithine carbamoyltransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="312898" LocusId="SE0106" Name="arcA2" Function="arginine deiminase" />
+          <Members vimssId="312897" LocusId="SE0105" Name="arcD2" Function="arginine/ornithine antiporter" />
+          <Members vimssId="312896" LocusId="SE0104" Name="arcR2" Function="transcription regulator of arginine catabolism, Crp/Fnr family" />
+          <Members vimssId="312895" LocusId="SE0103" Name="arcB2" Function="ornithine carbamoyltransferase" />
+          <Members vimssId="312894" LocusId="SE0102" Name="arcC" Function="carbamate kinase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=657</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6526" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis; Arginine degradation</Pathway>
+      <LocusTag Key="SE1201" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=313993&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis; Arginine degradation</BiologicalProcess>
+      <Regulog Key="ArgR - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=658" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1212" Name="argC" Position="-40" Score="4.7">
+          <Sequence>ATGTATATAATTACAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1212" Name="argC" Position="-50" Score="4.5">
+          <Sequence>ATTAATAAATATGTAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2168" Name="cudT" Position="-26" Score="3.7">
+          <Sequence>ATAAATTAATATTAGG</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2168" Name="cudT" Position="-103" Score="4.2">
+          <Sequence>TTGCATTATTATTAAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2168" Name="cudT" Position="-148" Score="4.7">
+          <Sequence>TTATATAATTATTCAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1541" Name="artPQ" Position="-31" Score="5.1">
+          <Sequence>ATGTATAATTATTAAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1541" Name="artPQ" Position="-41" Score="4.6">
+          <Sequence>ATGTATAATAATGTAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1541" Name="artPQ" Position="-45" Score="4">
+          <Sequence>ATTTATGTATAATAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1201" Name="argR" Position="-24" Score="5.3">
+          <Sequence>ATGTATAAATATTCGT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1201" Name="argR" Position="-38" Score="3.7">
+          <Sequence>ATGTGTTAAAATCAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0657" Name="argG" Position="-96" Score="4.5">
+          <Sequence>ATGAATATTTATGTAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2215" Name="arcD" Position="-72" Score="4.5">
+          <Sequence>ATCTATATATATGCAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2217" Name="arcA" Position="-267" Score="3.8">
+          <Sequence>TTCAATAAATATGAGT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314004" LocusId="SE1212" Name="argC" Function="N-acetylglutamate gamma-semialdehyde dehydrogenase" />
+          <Members vimssId="314003" LocusId="SE1211" Name="argJ" Function="glutamate N-acetyltransferase" />
+          <Members vimssId="314002" LocusId="SE1210" Name="argB" Function="N-acetylglutamate 5-phosphotransferase" />
+          <Members vimssId="314001" LocusId="SE1209" Name="rocD" Function="ornithine aminotransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314960" LocusId="SE2168" Name="cudT" Function="choline transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314333" LocusId="SE1541" Name="artPQ" Function="Arginine ABC transporter, substrate-binding and permease protein" />
+          <Members vimssId="314332" LocusId="SE1540" Name="artM" Function="Arginine ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313993" LocusId="SE1201" Name="argR" Function="arginine repressor" />
+          <Members vimssId="313992" LocusId="SE1200" Name="recN" Function="DNA repair protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313449" LocusId="SE0657" Name="argG" Function="argininosuccinate synthase" />
+          <Members vimssId="313448" LocusId="SE0656" Name="argH" Function="argininosuccinate lyase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="315007" LocusId="SE2215" Name="arcD" Function="arginine/ornithine antiporter" />
+          <Members vimssId="315006" LocusId="SE2214" Name="arcR" Function="transcription regulator of arginine catabolism, Crp/Fnr family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="315009" LocusId="SE2217" Name="arcA" Function="arginine deiminase" />
+          <Members vimssId="315008" LocusId="SE2216" Name="arcB" Function="ornithine carbamoyltransferase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=658</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="ArsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6533" />
+      <Effector>Arsenate; Arsenite</Effector>
+      <Pathway>Arsenic resistance</Pathway>
+      <LocusTag Key="SE0136" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=312928&amp;disp=0" />
+      <BiologicalProcess>Arsenic resistance</BiologicalProcess>
+      <Regulog Key="ArsR - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=659" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE0138" Name="arsD" Position="-49" Score="6.4">
+          <Sequence>TATATAGATGTTAGTCTATAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0138" Name="arsD" Position="-65" Score="5.9">
+          <Sequence>AACATAGACATTAATCTATATA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0139" Name="arsR3" Position="-332" Score="4.8">
+          <Sequence>AATATATATATTGATTTATATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0139" Name="arsR3" Position="-477" Score="5.9">
+          <Sequence>TATATAGATTAATGTCTATGTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0139" Name="arsR3" Position="-493" Score="6.4">
+          <Sequence>ATTATAGACTAACATCTATATA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="312931" LocusId="SE0139" Name="arsR3" Function="arsenical resistance operon repressor-like protein" />
+          <Members vimssId="312932" LocusId="SE0140" Name="SE0140" Function="putative permease" />
+          <Members vimssId="312933" LocusId="SE0141" Name="SE0141" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="312930" LocusId="SE0138" Name="arsD" Function="arsenical resistance operon trans-acting ArsD" />
+          <Members vimssId="312929" LocusId="SE0137" Name="arsA" Function="arsenite-transporting ATPase" />
+          <Members vimssId="312928" LocusId="SE0136" Name="arsR" Function="arsenical resistance operon repressor" />
+          <Members vimssId="312927" LocusId="SE0135" Name="arsB" Function="arsenic efflux pump protein" />
+          <Members vimssId="312926" LocusId="SE0134" Name="arsC" Function="arsenate reductase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=659</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6540" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="SE1144" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=313936&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=660" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE0344" Name="yhfT" Position="-44" Score="7.1">
+          <Sequence>AATGTAAACATAATTATATAAAGTGTTTACAAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1856" Name="bioY" Position="-70" Score="6.9">
+          <Sequence>ATTGTAAACTTTCCATTCATAAAAGTTTACAAG</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0234" Name="bioB" Position="-110" Score="7.9">
+          <Sequence>AATGTAAACTTATAAATATATAAAGTTTACAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0179" Name="bioD" Position="-55" Score="7.7">
+          <Sequence>AATGTAAACTTTAAAATGTAATAAGTTTACATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314648" LocusId="SE1856" Name="bioY" Function="biotin transporter BioY" />
+          <Members vimssId="314647" LocusId="SE1855" Name="SA2076" Function="putative acetyltransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313026" LocusId="SE0234" Name="bioB" Function="biotin synthase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="312971" LocusId="SE0179" Name="bioD" Function="dethiobiotin synthetase" />
+          <Members vimssId="312972" LocusId="SE0180" Name="bioA" Function="adenosylmethionine-8-amino-7-oxononanoate aminotransferase" />
+          <Members vimssId="312973" LocusId="SE0181" Name="bioF" Function="8-amino-7-oxononanoate synthase" />
+          <Members vimssId="312974" LocusId="SE0182" Name="bioW" Function="6-carboxyhexanoate--CoA ligase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313136" LocusId="SE0344" Name="yhfT" Function="putative long chain fatty acid-CoA ligase" />
+          <Members vimssId="313137" LocusId="SE0345" Name="null" Function="hypothetical protein" />
+          <Members vimssId="313138" LocusId="SE0346" Name="yhfS" Function="putative acetyl-CoA c-acetyltransferase" />
+          <Members vimssId="313139" LocusId="SE0347" Name="SA0535" Function="hypothetical protein" />
+          <Members vimssId="313140" LocusId="SE0348" Name="SA0536" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=660</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MarR" RegulationMode="repressor">
+      <Regulator Key="BlaI" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6547" />
+      <Effector>BlaR, sensor histidine kinase (beta-lactam antibiotics)</Effector>
+      <Pathway>Beta-lactam resistance</Pathway>
+      <LocusTag Key="SE1606" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=314398&amp;disp=0" />
+      <BiologicalProcess>Beta-lactam resistance</BiologicalProcess>
+      <Regulog Key="BlaI - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=661" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1608" Name="blaZ" Position="-31" Score="6.7">
+          <Sequence>AAATTACAACTGTAATAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1608" Name="blaZ" Position="-62" Score="7">
+          <Sequence>ATATTACAATTGTAATAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE_p507" Name="blaR1" Position="-62" Score="7">
+          <Sequence>ATATTACAATTGTAATAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE_p507" Name="blaR1" Position="-93" Score="6.7">
+          <Sequence>ATATTACAGTTGTAATTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314400" LocusId="SE1608" Name="blaZ" Function="beta-lactamase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2149665" LocusId="SE_p507" Name="blaR1" Function="bla regulator protein blaR1" />
+          <Members vimssId="2149666" LocusId="SE_p508" Name="blaI" Function="beta-lactamase repressor" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=661</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor (activator)">
+      <Regulator Key="CcpA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6554" />
+      <Effector>HPr, phosphocarrier protein; Fructose-1,6-diphosphate</Effector>
+      <Pathway>Carbon catabolism</Pathway>
+      <LocusTag Key="SE1409" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=314201&amp;disp=0" />
+      <BiologicalProcess>Carbon catabolism</BiologicalProcess>
+      <Regulog Key="CcpA - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=662" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE0164" Name="uhpT" Position="-61" Score="4.7">
+          <Sequence>TATTAAGCGCTTACAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1944" Name="SE1944" Position="-245" Score="4.4">
+          <Sequence>ATTAAAGCGCTTTCTC</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0247" Name="SE0247" Position="2" Score="4.3">
+          <Sequence>GTTGAAACGCTTTCAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0840" Name="sdhC" Position="-270" Score="4.7">
+          <Sequence>ATGGAAGCGTTTTCTA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1959" Name="scrA" Position="-58" Score="4.4">
+          <Sequence>TTGGAACCGGTTACAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1763" Name="SAS074" Position="-15" Score="4">
+          <Sequence>AAGGAAGTGTTTTCAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1763" Name="SAS074" Position="-62" Score="4.7">
+          <Sequence>TTGAAAACGATTACAC</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1885" Name="SA2105" Position="-130" Score="5">
+          <Sequence>TTGTAAGCGTTTTCTA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1762" Name="SA1975" Position="-130" Score="4.7">
+          <Sequence>GTGTAATCGTTTTCAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1007" Name="SA1162" Position="-29" Score="4.4">
+          <Sequence>GTGAAAGCGCTTGCTA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0715" Name="SA0873" Position="-62" Score="4.4">
+          <Sequence>AAGTAACGGTTTTCAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0653" Name="rocD" Position="-180" Score="5">
+          <Sequence>ATGTAAGGGCTTACAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2116" Name="rocA" Position="-149" Score="4.9">
+          <Sequence>ATGTAAGCGTTTGCAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2088" Name="rbsU" Position="-87" Score="4.6">
+          <Sequence>GTGTAAGCGTATACAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1437" Name="putA" Position="-80" Score="5.1">
+          <Sequence>ATGTAAACGCTTTCTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1403" Name="ptaA" Position="-131" Score="4.6">
+          <Sequence>AATTAAGCGTTTACAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2082" Name="pfoR" Position="-68" Score="4.8">
+          <Sequence>TTGAAATCGCTTTCTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0214" Name="pflB" Position="-37" Score="4.8">
+          <Sequence>TTGAAAACGTTAACAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1374" Name="pfkA" Position="-152" Score="4.8">
+          <Sequence>TTTAAAACGTTTACAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1459" Name="pckA" Position="-41" Score="5">
+          <Sequence>ATGTAAGGGCTTACAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0283" Name="nupC" Position="-63" Score="4.2">
+          <Sequence>ATGTTAGCGTGTTCAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2110" Name="mvaS" Position="-123" Score="4.3">
+          <Sequence>TGTAAAGCGCTTACAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2109" Name="mvaA" Position="-137" Score="4.3">
+          <Sequence>ATGTAAGCGCTTTACA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1943" Name="mqo" Position="-81" Score="4.4">
+          <Sequence>GAGAAAGCGCTTTAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2227" Name="manR" Position="-45" Score="4.3">
+          <Sequence>ATTAAAGCGTTTTCTC</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2228" Name="manP" Position="-45" Score="4.9">
+          <Sequence>ATGTATGCGTTTACAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1191" Name="" Position="-117" Score="4.7">
+          <Sequence>ATGTAAACGTTTTCTC</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2056" Name="gudP" Position="-164" Score="4.6">
+          <Sequence>TTGTAACCGTTTACAC</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0654" Name="gudB" Position="-41" Score="4.3">
+          <Sequence>ATGAAAGCGAAATCAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0654" Name="gudB" Position="-74" Score="4.1">
+          <Sequence>TTTAAAATGCTTTCAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2046" Name="gntR" Position="-83" Score="4.7">
+          <Sequence>AAGAAAGCGCTTGCAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1898" Name="glvR" Position="-109" Score="5">
+          <Sequence>TAGTAAACGCTTACAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1897" Name="glvC" Position="-104" Score="5">
+          <Sequence>ATGTAAGCGTTTACTA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1924" Name="gltS" Position="-71" Score="4.1">
+          <Sequence>TTTATAAGGTTTACAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2047" Name="glpT" Position="-85" Score="4.5">
+          <Sequence>TTGACAACGCTTACTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0977" Name="glpF" Position="-130" Score="4.7">
+          <Sequence>TTGACAACGCTTACAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2102" Name="glcA" Position="-178" Score="4.6">
+          <Sequence>TTGTAAACGCTTTATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2063" Name="fbp" Position="-66" Score="4.3">
+          <Sequence>ATGTAAGCGCATTATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1723" Name="fbaA" Position="-143" Score="4.4">
+          <Sequence>ATGTATTCGCTTCCAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0235" Name="SE0235" Position="-146" Score="4.6">
+          <Sequence>TTGAAAGCGTATACTA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1371" Name="citZ" Position="-43" Score="4.7">
+          <Sequence>TTGAAAGCCATTTCAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1032" Name="citB" Position="-103" Score="4.4">
+          <Sequence>AATAAAGCGTTTTCTA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1409" Name="ccpA" Position="-71" Score="4.6">
+          <Sequence>AATAAAACGTTTACAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0106" Name="arcA2" Position="-50" Score="4.6">
+          <Sequence>TTGAAAGCGTTTTATA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2217" Name="arcA" Position="-304" Score="4.3">
+          <Sequence>tgGtAAGCGtaTaCAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1914" Name="" Position="-101" Score="4.6">
+          <Sequence>TTGTAAACACTTACAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2071" Name="aldA" Position="-68" Score="5.1">
+          <Sequence>AaGtAAaCGCTTaCAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0253" Name="acoL" Position="-37" Score="5.1">
+          <Sequence>AAGAAAGCGCTTACAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2004" Name="aapA" Position="-41" Score="5.1">
+          <Sequence>AAGTAAACGCTTTCAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314855" LocusId="SE2063" Name="fbp" Function="fructose-bisphosphatase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314515" LocusId="SE1723" Name="fbaA" Function="fructose-bisphosphate aldolase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314839" LocusId="SE2047" Name="glpT" Function="glycerol-3-phosphate transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313769" LocusId="SE0977" Name="glpF" Function="glycerol uptake facilitator" />
+          <Members vimssId="313770" LocusId="SE0978" Name="glpK" Function="glycerol kinase" />
+          <Members vimssId="313771" LocusId="SE0979" Name="glpD" Function="aerobic glycerol-3-phosphate dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314894" LocusId="SE2102" Name="glcA" Function="glucose-specific PTS enzyme IIABC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314690" LocusId="SE1898" Name="glvR" Function="transcriptional regulator of maltose utilization, RpiR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314689" LocusId="SE1897" Name="glvC" Function="maltose-specific enzyme IICB of PTS system" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314716" LocusId="SE1924" Name="gltS" Function="sodium/glutamate symporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314848" LocusId="SE2056" Name="gudP" Function="glucarate transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313446" LocusId="SE0654" Name="gudB" Function="NAD-specific glutamate dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314838" LocusId="SE2046" Name="gntR" Function="gluconate operon transcriptional repressor" />
+          <Members vimssId="314837" LocusId="SE2045" Name="gntK" Function="gluconokinase" />
+          <Members vimssId="314836" LocusId="SE2044" Name="gntP" Function="gluconate permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="315019" LocusId="SE2227" Name="manR" Function="antiterminator for mannose operon, BglG family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="315020" LocusId="SE2228" Name="manP" Function="PTS system mannose-specific EIIBCA component" />
+          <Members vimssId="315021" LocusId="SE2229" Name="manA" Function="mannose-6-phosphate isomerase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313983" LocusId="SE1191" Name="null" Function="alpha-D-1,4-glucosidase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314902" LocusId="SE2110" Name="mvaS" Function="3-hydroxy-3-methylglutaryl CoA synthase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314901" LocusId="SE2109" Name="mvaA" Function="hydroxymethylglutaryl-CoA reductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314735" LocusId="SE1943" Name="mqo" Function="malate:quinone oxidoreductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313006" LocusId="SE0214" Name="pflB" Function="Pyruvate formate lyase" />
+          <Members vimssId="313007" LocusId="SE0215" Name="pflA" Function="Pyruvate formate lyase activating enzyme" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314166" LocusId="SE1374" Name="pfkA" Function="6-phosphofructokinase" />
+          <Members vimssId="314165" LocusId="SE1373" Name="pykA" Function="pyruvate kinase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314251" LocusId="SE1459" Name="pckA" Function="phosphoenolpyruvate carboxykinase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313075" LocusId="SE0283" Name="nupC" Function="pyrimidine nucleoside transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314880" LocusId="SE2088" Name="rbsU" Function="ribose transporter RbsU" />
+          <Members vimssId="314879" LocusId="SE2087" Name="rbsD" Function="ribose permease" />
+          <Members vimssId="314878" LocusId="SE2086" Name="rbsK" Function="ribokinase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314229" LocusId="SE1437" Name="putA" Function="proline dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314195" LocusId="SE1403" Name="ptaA" Function="PTS system N-acetylglucosamine-specific IIBC component" />
+          <Members vimssId="314194" LocusId="SE1402" Name="SE1402" Function="hypothetical hydrolase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314874" LocusId="SE2082" Name="pfoR" Function="putative PTS transporter" />
+          <Members vimssId="314873" LocusId="SE2081" Name="sdaAB" Function="L-serine dehydratase beta chain" />
+          <Members vimssId="314872" LocusId="SE2080" Name="sdaAA" Function="L-serine dehydratase alpha chain" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313445" LocusId="SE0653" Name="rocD" Function="ornithine aminotransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314908" LocusId="SE2116" Name="rocA" Function="1-pyrroline-5-carboxylate dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314554" LocusId="SE1762" Name="SA1975" Function="predicted membrane-bound hydrolase" />
+          <Members vimssId="314553" LocusId="SE1761" Name="SA1974" Function="UDP-N-acetylglucosamine pyrophosphorylase" />
+          <Members vimssId="314552" LocusId="SE1760" Name="SA1973" Function="hemolysin III" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313799" LocusId="SE1007" Name="SA1162" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313507" LocusId="SE0715" Name="SA0873" Function="DJ-1/PfpI family protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314555" LocusId="SE1763" Name="SAS074" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314677" LocusId="SE1885" Name="SA2105" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314751" LocusId="SE1959" Name="scrA" Function="PTS system sucrose-specific IIBC component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313039" LocusId="SE0247" Name="SE0247" Function="bicyclomycin resistance protein TcaB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313632" LocusId="SE0840" Name="sdhC" Function="succinate dehydrogenase cytochrome b subunit" />
+          <Members vimssId="313633" LocusId="SE0841" Name="sdhA" Function="succinate dehydrogenase flavoprotein subunit" />
+          <Members vimssId="313634" LocusId="SE0842" Name="sdhB" Function="succinate dehydrogenase iron-sulfur protein subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314736" LocusId="SE1944" Name="SE1944" Function="putative glycosyltransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="312956" LocusId="SE0164" Name="uhpT" Function="hexose phosphate transport protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313027" LocusId="SE0235" Name="SE0235" Function="glycerol dehydrogenase" />
+          <Members vimssId="313028" LocusId="SE0236" Name="dhaK" Function="dihydroxyacetone kinase, DhaK subunit" />
+          <Members vimssId="313029" LocusId="SE0237" Name="dhaL" Function="dihydroxyacetone kinase, DhaL subunit" />
+          <Members vimssId="313030" LocusId="SE0238" Name="SA0607" Function="conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314163" LocusId="SE1371" Name="citZ" Function="citrate synthase" />
+          <Members vimssId="314162" LocusId="SE1370" Name="citC" Function="isocitrate dehyrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313824" LocusId="SE1032" Name="citB" Function="aconitate hydratase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314201" LocusId="SE1409" Name="ccpA" Function="catabolite control protein A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="312898" LocusId="SE0106" Name="arcA2" Function="arginine deiminase" />
+          <Members vimssId="312897" LocusId="SE0105" Name="arcD2" Function="arginine/ornithine antiporter" />
+          <Members vimssId="312896" LocusId="SE0104" Name="arcR2" Function="transcription regulator of arginine catabolism, Crp/Fnr family" />
+          <Members vimssId="312895" LocusId="SE0103" Name="arcB2" Function="ornithine carbamoyltransferase" />
+          <Members vimssId="312894" LocusId="SE0102" Name="arcC" Function="carbamate kinase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="315009" LocusId="SE2217" Name="arcA" Function="arginine deiminase" />
+          <Members vimssId="315008" LocusId="SE2216" Name="arcB" Function="ornithine carbamoyltransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314706" LocusId="SE1914" Name="null" Function="putative L-ribulokinase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314863" LocusId="SE2071" Name="aldA" Function="aldehyde dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313045" LocusId="SE0253" Name="acoL" Function="dihydrolipoamide dehydrogenase" />
+          <Members vimssId="313046" LocusId="SE0254" Name="acoA" Function="acetoin dehydrogenase E1 subunit alpha" />
+          <Members vimssId="313047" LocusId="SE0255" Name="acoB" Function="acetoin dehydrogenase E1 subunit beta" />
+          <Members vimssId="313048" LocusId="SE0256" Name="acoC" Function="acetoin dehydrogenase E2 component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314796" LocusId="SE2004" Name="aapA" Function="D-serine/D-alanine/glycine transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=662</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="SorC" RegulationMode="repressor">
+      <Regulator Key="CggR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6561" />
+      <Effector>Fructose-1,6-diphosphate</Effector>
+      <Pathway>Glycolysis</Pathway>
+      <LocusTag Key="SE0556" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=313348&amp;disp=0" />
+      <BiologicalProcess>Glycolysis</BiologicalProcess>
+      <Regulog Key="CggR - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=663" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE0556" Name="cggR" Position="-91" Score="6.7">
+          <Sequence>TTTTGTCCCAGGTGGGACTTAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="313348" LocusId="SE0556" Name="cggR" Function="Transcriptional regulator of central glycolytic gene, SorC family" />
+          <Members vimssId="313349" LocusId="SE0557" Name="gap" Function="NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)" />
+          <Members vimssId="313350" LocusId="SE0558" Name="pgk" Function="Phosphoglycerate kinase (EC 2.7.2.3)" />
+          <Members vimssId="313351" LocusId="SE0559" Name="tpiA" Function="Triosephosphate isomerase (EC 5.3.1.1)" />
+          <Members vimssId="313352" LocusId="SE0560" Name="pgm" Function="2,3-bisphosphoglycerate-independent phosphoglycerate mutase (EC 5.4.2.1)" />
+          <Members vimssId="313353" LocusId="SE0561" Name="eno" Function="Enolase (EC 4.2.1.11)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=663</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CodY" RegulationMode="repressor">
+      <Regulator Key="CodY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6568" />
+      <Effector>Branched-chain amino acids</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="SE0931" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=313723&amp;disp=0" />
+      <BiologicalProcess>Amino acid metabolism</BiologicalProcess>
+      <Regulog Key="CodY - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=664" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1047" Name="tyrA" Position="-35" Score="4.4">
+          <Sequence>GTTATTCTGAAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1047" Name="tyrA" Position="-242" Score="4.6">
+          <Sequence>ATTTTTCTAATTATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1047" Name="tyrA" Position="-251" Score="4.4">
+          <Sequence>AATTATCTGATTTTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1048" Name="trpE" Position="-422" Score="4.4">
+          <Sequence>AAAAATCAGATAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1048" Name="trpE" Position="-431" Score="4.6">
+          <Sequence>AATAATTAGAAAAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0509" Name="tppB" Position="-98" Score="5.2">
+          <Sequence>AATTTTTTGAAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1008" Name="thrA" Position="-33" Score="4.7">
+          <Sequence>AATTTTCTGATTTTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0509" Name="tppB" Position="-107" Score="4">
+          <Sequence>CTTTTTTTAAATTTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1240" Name="sodA" Position="-101" Score="4.4">
+          <Sequence>AATAATTTAATAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2356" Name="SE2356" Position="-32" Score="5.1">
+          <Sequence>AATTTTCAGATAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0996" Name="SAS040" Position="-179" Score="5">
+          <Sequence>AAATTTCTGAATATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0357" Name="SE0357" Position="-139" Score="4.8">
+          <Sequence>AATTTTAAAAAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0420" Name="SA0601" Position="-197" Score="4.1">
+          <Sequence>AATATTTAAATTTAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0420" Name="SA0601" Position="-206" Score="5">
+          <Sequence>AAAATTCAGAATATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2355" Name="SA0367" Position="-114" Score="5.1">
+          <Sequence>AATTATCTGAAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1015" Name="rocC" Position="-112" Score="4.6">
+          <Sequence>AAATATCAGAAAAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1015" Name="rocC" Position="-103" Score="4.1">
+          <Sequence>AAAAATTTAACAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2378" Name="SA0348" Position="-210" Score="5.1">
+          <Sequence>ATTTTTCTGAAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0729" Name="SA0883" Position="-82" Score="4.7">
+          <Sequence>AAATGTCAGAATATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1217" Name="SA1363" Position="-108" Score="4.6">
+          <Sequence>ATTTATCAAAATATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1218" Name="SA1364" Position="-66" Score="4.6">
+          <Sequence>AATATTTTGATAAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1400" Name="SA1544" Position="-54" Score="5">
+          <Sequence>AATATTCAGAATTTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1892" Name="SA2109" Position="-98" Score="4.4">
+          <Sequence>AATTGTAAAAATATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2010" Name="SA2233" Position="-246" Score="5.2">
+          <Sequence>AATTTTCTAAAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2032" Name="SA2260" Position="-218" Score="4.6">
+          <Sequence>ATTTTTCTGAAATAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2129" Name="SA2357" Position="-172" Score="5.1">
+          <Sequence>AATTTTCAGAAAAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2147" Name="SA2396" Position="-165" Score="4.8">
+          <Sequence>ATTTTTCAGAATTTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2147" Name="SA2396" Position="-156" Score="4.2">
+          <Sequence>AATTTTTAGACAAAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2150" Name="SA2398" Position="-125" Score="4.6">
+          <Sequence>TATTTTCTGATAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2150" Name="SA2398" Position="-116" Score="4.6">
+          <Sequence>ATAATTTAGAATATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0813" Name="pycA" Position="-31" Score="4.9">
+          <Sequence>ATTATTTAGAAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0813" Name="pycA" Position="-40" Score="4.1">
+          <Sequence>TATTATCTAATTATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0747" Name="patA" Position="-59" Score="4.1">
+          <Sequence>ACTATTTAAACAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0222" Name="opuCA" Position="-43" Score="4">
+          <Sequence>TATTTTTTAACAAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2018" Name="opuCA" Position="-80" Score="4.1">
+          <Sequence>ATTTGTTTAACAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0680" Name="oppB" Position="-63" Score="4.9">
+          <Sequence>ATATTTCTGAAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2122" Name="mtnE" Position="-52" Score="4.5">
+          <Sequence>AAAATTCTAACTATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2122" Name="mtnE" Position="-61" Score="4.4">
+          <Sequence>TTATTTCAGAAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0011" Name="metX" Position="-224" Score="4.5">
+          <Sequence>AAAATTTAGACTATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0011" Name="metX" Position="-233" Score="4.8">
+          <Sequence>AATAATTAGAAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1902" Name="metT" Position="-294" Score="4.7">
+          <Sequence>AATATTTAAAATAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1902" Name="metT" Position="-303" Score="4.2">
+          <Sequence>TATTATTAAAATATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0600" Name="metN" Position="-266" Score="4.4">
+          <Sequence>AAAATTTAAAATAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0600" Name="metN" Position="-275" Score="4.6">
+          <Sequence>ATTTGTTAGAAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2379" Name="metI" Position="-533" Score="5.1">
+          <Sequence>AATTTTCAGAAAAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1074" Name="asd" Position="-46" Score="5.2">
+          <Sequence>AATTTTCTAAAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0995" Name="ltaE" Position="-149" Score="5">
+          <Sequence>AATATTCAGAAATTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1016" Name="katA" Position="-133" Score="4.6">
+          <Sequence>ATTTTTCTGATATTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1016" Name="katA" Position="-142" Score="4.1">
+          <Sequence>AATTGTTAAATTTTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0318" Name="ilvE" Position="-90" Score="5.2">
+          <Sequence>AATATTTAGAAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0318" Name="ilvE" Position="-99" Score="4.1">
+          <Sequence>TCTATTTTGAATATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1657" Name="ilvC" Position="-50" Score="4.9">
+          <Sequence>ATTATTTTGAAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1654" Name="ilvD" Position="-321" Score="4.1">
+          <Sequence>AAAATTCTAAATTTA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1654" Name="ilvD" Position="-330" Score="5.2">
+          <Sequence>AATTTTTAGAAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1009" Name="hom" Position="-170" Score="4.7">
+          <Sequence>AAAAATCAGAAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1731" Name="hmrA" Position="-102" Score="4.2">
+          <Sequence>AATTGTGTAAAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1731" Name="hmrA" Position="-113" Score="4.6">
+          <Sequence>AATTGTAAGAAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0270" Name="hisZ" Position="-115" Score="5.1">
+          <Sequence>AATTTTCTGAAAAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2313" Name="gltC" Position="-171" Score="5">
+          <Sequence>AATTTTCTGACAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2312" Name="gltB" Position="-35" Score="5">
+          <Sequence>AATTGTCAGAAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0986" Name="glnR" Position="-185" Score="4.7">
+          <Sequence>AAAATTTTAAAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0986" Name="glnR" Position="-194" Score="4.8">
+          <Sequence>AAATGTCTGAAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2148" Name="gabT" Position="-155" Score="4.6">
+          <Sequence>AATTATCAGAAAATA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2148" Name="gabT" Position="-164" Score="4.6">
+          <Sequence>AATATTCTAAATTAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2181" Name="cysH" Position="-69" Score="4.7">
+          <Sequence>ATTATTCTGACAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0731" Name="comK" Position="-147" Score="4.7">
+          <Sequence>AATATTCTGACATTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0217" Name="brnQ1" Position="-173" Score="4.4">
+          <Sequence>AATATTAAAAATTTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1090" Name="braB" Position="-87" Score="5.1">
+          <Sequence>AATTTTCTGAAATTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2219" Name="aur" Position="-69" Score="4.9">
+          <Sequence>ACTTTTCAGAAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1155" Name="aroC" Position="-138" Score="4">
+          <Sequence>TCTTTTTTAAATATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0657" Name="argG" Position="-171" Score="4.3">
+          <Sequence>AAATTTTAAAATATA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0657" Name="argG" Position="-180" Score="4.5">
+          <Sequence>AATTTACAGAAATTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2004" Name="aapA" Position="-93" Score="4.9">
+          <Sequence>ATATTTCTGAAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314810" LocusId="SE2018" Name="opuCA" Function="glycine betaine/carnitine/choline ABC transporter opuCA" />
+          <Members vimssId="314809" LocusId="SE2017" Name="opuCB" Function="glycine betaine/carnitine/choline ABC transporter opuCB" />
+          <Members vimssId="314808" LocusId="SE2016" Name="opuCC" Function="glycine betaine/carnitine/choline ABC transporter opuCC" />
+          <Members vimssId="314807" LocusId="SE2015" Name="opuCD" Function="glycine betaine/carnitine/choline ABC transporter opuCD" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313472" LocusId="SE0680" Name="oppB" Function="oligopeptide ABC transporter permease protein OppB" />
+          <Members vimssId="313473" LocusId="SE0681" Name="oppC" Function="oligopeptide transport system permease protein OppC" />
+          <Members vimssId="313474" LocusId="SE0682" Name="oppD" Function="oligopeptide ABC transporter ATP-binding protein OppD" />
+          <Members vimssId="313475" LocusId="SE0683" Name="oppF" Function="oligopeptide ABC transporter ATP-binding protein OppF" />
+          <Members vimssId="313476" LocusId="SE0684" Name="oppA" Function="oligopeptide ABC transporter OppA oligopeptide-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314914" LocusId="SE2122" Name="mtnE" Function="transaminase MtnE involved in methionine biosynthesis via salvage pathway" />
+          <Members vimssId="314913" LocusId="SE2121" Name="ddh2" Function="D-lactate dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="312803" LocusId="SE0011" Name="metX" Function="homoserine-o-acetyltransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314694" LocusId="SE1902" Name="metT" Function="methionine transporter MetT" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313392" LocusId="SE0600" Name="metN" Function="Methionine ABC transporter, ATP-binding protein" />
+          <Members vimssId="313393" LocusId="SE0601" Name="metP" Function="Methionine ABC transporter, permease protein" />
+          <Members vimssId="313394" LocusId="SE0602" Name="metQ" Function="Methionine ABC transporter, methionine-binding lipoprotein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="315171" LocusId="SE2379" Name="metI" Function="cystathionine gamma-synthase" />
+          <Members vimssId="315172" LocusId="SE2380" Name="metC" Function="cystathionine beta-lyase" />
+          <Members vimssId="315173" LocusId="SE2381" Name="metF" Function="5,10-methylenetetrahydrofolate reductase protein" />
+          <Members vimssId="315174" LocusId="SE2382" Name="metE" Function="5-methyltetrahydropteroyltriglutamate-homocysteine methyltransferase" />
+          <Members vimssId="315175" LocusId="SE2383" Name="mdh" Function="hypothetical metal-dependent hydrolase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313866" LocusId="SE1074" Name="asd" Function="aspartate semialdehyde dehydrogenase" />
+          <Members vimssId="313867" LocusId="SE1075" Name="dapA" Function="dihydrodipicolinate synthase" />
+          <Members vimssId="313868" LocusId="SE1076" Name="dapB" Function="dihydrodipicolinate reductase" />
+          <Members vimssId="313869" LocusId="SE1077" Name="dapD" Function="tetrahydrodipicolinate acetyltransferase" />
+          <Members vimssId="313870" LocusId="SE1078" Name="ykuR" Function="hippurate hydrolase" />
+          <Members vimssId="313871" LocusId="SE1079" Name="dapX" Function="putative alanine racemase" />
+          <Members vimssId="313872" LocusId="SE1080" Name="lysA" Function="diaminopimelate decarboxylase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313787" LocusId="SE0995" Name="ltaE" Function="low specificity L-threonine aldolase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313808" LocusId="SE1016" Name="katA" Function="catalase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313110" LocusId="SE0318" Name="ilvE" Function="branched-chain amino acid aminotroansferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314449" LocusId="SE1657" Name="ilvC" Function="alpha-keto-beta-hydroxylacil reductoisomerase" />
+          <Members vimssId="314450" LocusId="SE1658" Name="leuA" Function="2-isopropylmalate synthase" />
+          <Members vimssId="314451" LocusId="SE1659" Name="leuB" Function="3-isopropylmalate dehydrogenase" />
+          <Members vimssId="314452" LocusId="SE1660" Name="leuC" Function="3-isopropylmalate dehydratase large subunit" />
+          <Members vimssId="314453" LocusId="SE1661" Name="leuD" Function="3-isopropylmalate dehydratase small subunit" />
+          <Members vimssId="314454" LocusId="SE1662" Name="ilvA" Function="thereonine dehydratase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314446" LocusId="SE1654" Name="ilvD" Function="dihydroxy-acid dehydratase" />
+          <Members vimssId="314447" LocusId="SE1655" Name="ilvB" Function="acetolactate synthase large subunit" />
+          <Members vimssId="314448" LocusId="SE1656" Name="ilvH" Function="acetolactate synthase small subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313801" LocusId="SE1009" Name="hom" Function="homoserine dehydrogenase" />
+          <Members vimssId="313802" LocusId="SE1010" Name="thrC" Function="threonine synthase" />
+          <Members vimssId="313803" LocusId="SE1011" Name="thrB" Function="homoserine kinase" />
+          <Members vimssId="313804" LocusId="SE1012" Name="SA1167" Function="putative hydrolase of the HAD superfamily" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314523" LocusId="SE1731" Name="hmrA" Function="N-acyl-L-amino acid amidohydrolase" />
+          <Members vimssId="314522" LocusId="SE1730" Name="SA1934" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313062" LocusId="SE0270" Name="hisZ" Function="ATP phosphoribosyltransferase regulatory subunit" />
+          <Members vimssId="313063" LocusId="SE0271" Name="hisG" Function="ATP phosphoribosyltransferase" />
+          <Members vimssId="313064" LocusId="SE0272" Name="hisD" Function="histidinol dehydrogenase" />
+          <Members vimssId="313065" LocusId="SE0273" Name="hisB" Function="imidazoleglycerol-phosphate dehydratase" />
+          <Members vimssId="313066" LocusId="SE0274" Name="hisH" Function="imidazole glycerol phosphate synthase glutamine amidotransferase subunit" />
+          <Members vimssId="313067" LocusId="SE0275" Name="hisA" Function="phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase" />
+          <Members vimssId="313068" LocusId="SE0276" Name="hisF" Function="imidazoleglycerol-phosphate synthase" />
+          <Members vimssId="313069" LocusId="SE0277" Name="hisI" Function="histidine biosynthesis bifunctional protein HisIE" />
+        </Operon>
+        <Operon>
+          <Members vimssId="315105" LocusId="SE2313" Name="gltC" Function="transcription activator of glutamate synthase operon" />
+        </Operon>
+        <Operon>
+          <Members vimssId="315104" LocusId="SE2312" Name="gltB" Function="glutamate synthase large subunit" />
+          <Members vimssId="315103" LocusId="SE2311" Name="gltD" Function="NNADPH-dependent glutamate synthase beta subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313778" LocusId="SE0986" Name="glnR" Function="HTH-type transcriptional regulator GlnR" />
+          <Members vimssId="313779" LocusId="SE0987" Name="glnA" Function="glutamine synthetase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314940" LocusId="SE2148" Name="gabT" Function="4-aminobutyrate aminotransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314973" LocusId="SE2181" Name="cysH" Function="3'-phosphoadenosine 5'-phosphosulfate sulfotransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313523" LocusId="SE0731" Name="comK" Function="competence transcription factor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313009" LocusId="SE0217" Name="brnQ1" Function="branched-chain amino acid transport system" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313882" LocusId="SE1090" Name="braB" Function="branched-chain amino acid transport system" />
+        </Operon>
+        <Operon>
+          <Members vimssId="315011" LocusId="SE2219" Name="aur" Function="zinc metalloproteinase aureolysin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313947" LocusId="SE1155" Name="aroC" Function="chorismate synthase" />
+          <Members vimssId="313946" LocusId="SE1154" Name="aroB" Function="3-dehydroquinate synthase" />
+          <Members vimssId="313945" LocusId="SE1153" Name="aroA" Function="3-phosphoshikimate 1-carboxyvinyltransferase" />
+          <Members vimssId="313944" LocusId="SE1152" Name="SA1296" Function="hypothetical protein" />
+          <Members vimssId="313943" LocusId="SE1151" Name="SA1295" Function="hypothetical protein" />
+          <Members vimssId="313942" LocusId="SE1150" Name="SA1294" Function="hypothetical protein" />
+          <Members vimssId="313941" LocusId="SE1149" Name="null" Function="hypothetical protein" />
+          <Members vimssId="313940" LocusId="SE1148" Name="SA1293" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313449" LocusId="SE0657" Name="argG" Function="argininosuccinate synthase" />
+          <Members vimssId="313448" LocusId="SE0656" Name="argH" Function="argininosuccinate lyase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314796" LocusId="SE2004" Name="aapA" Function="D-serine/D-alanine/glycine transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313839" LocusId="SE1047" Name="tyrA" Function="prephenate dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313840" LocusId="SE1048" Name="trpE" Function="anthranilate synthase component I" />
+          <Members vimssId="313841" LocusId="SE1049" Name="trpG" Function="anthranilate synthase component II" />
+          <Members vimssId="313842" LocusId="SE1050" Name="trpD" Function="anthranilate phosphoribosyltransferase" />
+          <Members vimssId="313843" LocusId="SE1051" Name="trpC" Function="indole-3-glycerol phosphate synthase" />
+          <Members vimssId="313844" LocusId="SE1052" Name="trpF" Function="phosphoriborylanthranilate isomerase" />
+          <Members vimssId="313845" LocusId="SE1053" Name="trpB" Function="tryptophan synthase beta subunit" />
+          <Members vimssId="313846" LocusId="SE1054" Name="trpA" Function="tryptophan synthase alpha subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313301" LocusId="SE0509" Name="tppB" Function="di-tripepride ABC transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313800" LocusId="SE1008" Name="thrA" Function="aspartokinase III" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314032" LocusId="SE1240" Name="sodA" Function="superoxide dismutase SodA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="315148" LocusId="SE2356" Name="SE2356" Function="2-oxo-hepta-3-ene-1,7-dioate hydratase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313788" LocusId="SE0996" Name="SAS040" Function="conserved hypothetical protein" />
+          <Members vimssId="313789" LocusId="SE0997" Name="SA1155" Function="putative cardiolipin synthetase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313149" LocusId="SE0357" Name="SE0357" Function="hypothetical protein" />
+          <Members vimssId="313148" LocusId="SE0356" Name="SE0356" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314942" LocusId="SE2150" Name="SA2398" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314939" LocusId="SE2147" Name="SA2396" Function="putative amino acid transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314921" LocusId="SE2129" Name="SA2357" Function="putative regulatory protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314824" LocusId="SE2032" Name="SA2260" Function="putative short chain dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314802" LocusId="SE2010" Name="SA2233" Function="integral membrane efflux protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314684" LocusId="SE1892" Name="SA2109" Function="probable amino-acid or metabolite transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314192" LocusId="SE1400" Name="SA1544" Function="putative phosphoserine transaminase" />
+          <Members vimssId="314193" LocusId="SE1401" Name="serA" Function="D-3-phosphoglycerate dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314010" LocusId="SE1218" Name="SA1364" Function="putative sulfurtransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314009" LocusId="SE1217" Name="SA1363" Function="Lipoate-protein ligase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313521" LocusId="SE0729" Name="SA0883" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313212" LocusId="SE0420" Name="SA0601" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="315147" LocusId="SE2355" Name="SA0367" Function="putative NADPH-flavin oxidoreductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="315170" LocusId="SE2378" Name="SA0348" Function="putative transcriptional regulator" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313807" LocusId="SE1015" Name="rocC" Function="amino acid permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313605" LocusId="SE0813" Name="pycA" Function="pyruvate carboxylase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313539" LocusId="SE0747" Name="patA" Function="putative aminotransferase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313014" LocusId="SE0222" Name="opuCA" Function="glycine betaine/carnitine/choline ABC transporter opuCA" />
+          <Members vimssId="313015" LocusId="SE0223" Name="opuCB" Function="glycine betaine/carnitine/choline ABC transporter opuCB" />
+          <Members vimssId="313016" LocusId="SE0224" Name="opuCC" Function="glycine betaine/carnitine/choline ABC transporter opuCC" />
+          <Members vimssId="313017" LocusId="SE0225" Name="opuCD" Function="glycine betaine/carnitine/choline ABC transporter opuCD" />
+          <Members vimssId="313018" LocusId="SE0226" Name="SE0226" Function="putative esterase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=664</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CtsR" RegulationMode="repressor">
+      <Regulator Key="CtsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6575" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="SE0284" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=313076&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="CtsR - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=665" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1631" Name="SA1838" Position="-105" Score="5.1">
+          <Sequence>AATCAAAATTGGTCAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1269" Name="hrcA" Position="-73" Score="5.7">
+          <Sequence>ATTGACTTACTTTGACC</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1630" Name="groES" Position="-87" Score="5.4">
+          <Sequence>ATTGACCAATTTTGATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0284" Name="ctsR" Position="-33" Score="6.1">
+          <Sequence>AGTCAAAGAAGGTCAAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0284" Name="ctsR" Position="-56" Score="5.6">
+          <Sequence>GGTCAAAGATGGTCATA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0551" Name="clpP" Position="-63" Score="5.9">
+          <Sequence>TTTGACCATTTTTGACT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0674" Name="clpB" Position="-72" Score="6.1">
+          <Sequence>GGTCAAAGAAAGTCAAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314423" LocusId="SE1631" Name="SA1838" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314061" LocusId="SE1269" Name="hrcA" Function="heat-inducible transcriptional repressor HrcA" />
+          <Members vimssId="314060" LocusId="SE1268" Name="grpE" Function="heat shock molecular chaperone protein GrpE" />
+          <Members vimssId="314059" LocusId="SE1267" Name="dnaK" Function="chaperone protein DnaK" />
+          <Members vimssId="314058" LocusId="SE1266" Name="dnaJ" Function="chaperone protein DnaJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314422" LocusId="SE1630" Name="groES" Function="GroES protein" />
+          <Members vimssId="314421" LocusId="SE1629" Name="groEL" Function="GroEL protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313076" LocusId="SE0284" Name="ctsR" Function="transcriptional regulator CtsR" />
+          <Members vimssId="313077" LocusId="SE0285" Name="SA0481" Function="UvrB/UvrC domain protein" />
+          <Members vimssId="313078" LocusId="SE0286" Name="SA0482" Function="putative ATP:guanido phosphotransferase" />
+          <Members vimssId="313079" LocusId="SE0287" Name="clpC" Function="putative stress response-related Clp ATPas" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313343" LocusId="SE0551" Name="clpP" Function="ATP-dependent protease proteolytic subunit ClpP" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313466" LocusId="SE0674" Name="clpB" Function="clpB protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=665</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="repressor">
+      <Regulator Key="CymR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6582" />
+      <Effector>O-acetyl-L-serine; CysK, cysteine synthetase</Effector>
+      <Pathway>Cysteine metabolism</Pathway>
+      <LocusTag Key="SE1308" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=314100&amp;disp=0" />
+      <BiologicalProcess>Cysteine metabolism</BiologicalProcess>
+      <Regulog Key="CymR - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=666" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1993" Name="tcyA" Position="-40" Score="6.2">
+          <Sequence>TTATTCCGATTAGAATAATAAGAATAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1858" Name="SA2080" Position="-65" Score="4.4">
+          <Sequence>TAAAGTCGAGTGTTAAACTATGAATAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1646" Name="SA1850" Position="-35" Score="4.6">
+          <Sequence>AATACCTTAGTATTTATATCGGAAAAG</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2322" Name="metN2" Position="-42" Score="5.3">
+          <Sequence>ATATTCAGATAATTTTAATCGGAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1732" Name="luxS" Position="-182" Score="5.6">
+          <Sequence>TAATTATTACTTATTTTATCGGATTTA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2324" Name="mccA" Position="-96" Score="5.7">
+          <Sequence>TAATTCATATCTGATAAGTAAGAATTA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2270" Name="cysK" Position="-58" Score="4.8">
+          <Sequence>TATATCCGATAGAAAAACTAAGTATTG</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2180" Name="cysJ" Position="-273" Score="4.7">
+          <Sequence>CAAAACATAGTATTCCGATAAGAAATA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2181" Name="cysH" Position="-68" Score="5">
+          <Sequence>TTATTCTGACAATTCTGATATGTTTTG</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2354" Name="tcyP" Position="-56" Score="5.3">
+          <Sequence>TTATTCTTATTACATATGTCGGAATAC</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="315146" LocusId="SE2354" Name="tcyP" Function="L-cystine uptake protein tcyP" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314785" LocusId="SE1993" Name="tcyA" Function="L-cystine uptake ABC transporter, L-cystine-binding protein TcyA" />
+          <Members vimssId="314784" LocusId="SE1992" Name="tcyB" Function="L-cystine uptake ABC transporter, permease protein TcyB" />
+          <Members vimssId="314783" LocusId="SE1991" Name="tcyC" Function="L-cystine uptake ABC transporter, ATP-binding protein TcyC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314650" LocusId="SE1858" Name="SA2080" Function="putative acyl-CoA dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314438" LocusId="SE1646" Name="SA1850" Function="putative transporter for thiosulphate" />
+        </Operon>
+        <Operon>
+          <Members vimssId="315114" LocusId="SE2322" Name="metN2" Function="methionine ABC transporter paralog, ATP-binding protein MetN2" />
+          <Members vimssId="315113" LocusId="SE2321" Name="metP2" Function="methionine ABC transporter paralog, permease protein MetP2" />
+          <Members vimssId="315112" LocusId="SE2320" Name="metQ2" Function="methionine ABC transporter paralog, substrate-binding protein MetQ2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314524" LocusId="SE1732" Name="luxS" Function="S-ribosylhomocysteinase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="315116" LocusId="SE2324" Name="mccA" Function="cystathionine beta-synthase" />
+          <Members vimssId="315115" LocusId="SE2323" Name="mccB" Function="cystathionine gamma-lyase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="315062" LocusId="SE2270" Name="cysK" Function="cysteine synthase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314972" LocusId="SE2180" Name="cysJ" Function="sulfite reductase [NADPH] flavoprotein, alpha-component" />
+          <Members vimssId="314971" LocusId="SE2179" Name="cysI" Function="sulfite reductase (NADPH) hemoprotein, beta-component" />
+          <Members vimssId="314970" LocusId="SE2178" Name="cysG" Function="uroporphyrin-III C-methyltransferase" />
+          <Members vimssId="314969" LocusId="SE2177" Name="sirC" Function="Precorrin-2 dehydrogenase" />
+          <Members vimssId="314968" LocusId="SE2176" Name="ytnM" Function="conserved membrane protein YtnM" />
+          <Members vimssId="314967" LocusId="SE2175" Name="cysD" Function="sulfate adenylyltransferase" />
+          <Members vimssId="314966" LocusId="SE2174" Name="cysC" Function="adenylylsulfate kinase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314973" LocusId="SE2181" Name="cysH" Function="phosphoadenosine phosphosulfate reductase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=666</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="CzrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6589" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc resistance</Pathway>
+      <LocusTag Key="SE1746" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=314538&amp;disp=0" />
+      <BiologicalProcess>Zinc resistance</BiologicalProcess>
+      <Regulog Key="CzrA - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=667" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1746" Name="czrA" Position="-21" Score="7.7">
+          <Sequence>AATATATGAACAAATATTCATATGTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314538" LocusId="SE1746" Name="czrA" Function="zinc resistance repressor" />
+          <Members vimssId="314539" LocusId="SE1747" Name="czrB" Function="zinc resistance efflux pump" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=667</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FapR" RegulationMode="repressor">
+      <Regulator Key="FapR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6596" />
+      <Effector>Malonyl-CoA; Malonyl-ACP</Effector>
+      <Pathway>Fatty acid biosynthesis</Pathway>
+      <LocusTag Key="SE0903" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=313695&amp;disp=0" />
+      <BiologicalProcess>Fatty acid biosynthesis</BiologicalProcess>
+      <Regulog Key="FapR - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=668" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1545" Name="perR" Position="-48" Score="5.4">
+          <Sequence>ATTAATATTAAGTAATAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0903" Name="fapR" Position="17" Score="6">
+          <Sequence>TTTAAGACTTGGTACTAAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0712" Name="fabI" Position="-109" Score="5.8">
+          <Sequence>TTTATTATCAGGTACTAAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0677" Name="fabH" Position="-43" Score="6.3">
+          <Sequence>ATTAATACCTGGTATTAAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314337" LocusId="SE1545" Name="perR" Function="peroxide-responsive repressor PerR" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313695" LocusId="SE0903" Name="fapR" Function="transcriptional regulator of fatty acid biosynthesis" />
+          <Members vimssId="313696" LocusId="SE0904" Name="plsX" Function="fatty acid/phospholipid synthesis protein PlsX" />
+          <Members vimssId="313697" LocusId="SE0905" Name="fabD" Function="malonyl CoA-acyl carrier protein transacylase" />
+          <Members vimssId="313698" LocusId="SE0906" Name="fabG" Function="3-oxoacyl-(acyl-carrier protein) reductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313504" LocusId="SE0712" Name="fabI" Function="enoyl-(acyl carrier protein) reductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313469" LocusId="SE0677" Name="fabH" Function="3-oxoacyl-[acyl-carrier-protein] synthase III" />
+          <Members vimssId="313470" LocusId="SE0678" Name="fabF" Function="3-oxoacyl-[acyl-carrier-protein] synthase II" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=668</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DeoR" RegulationMode="repressor">
+      <Regulator Key="FruR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6603" />
+      <Effector>Fructose-6-phosphate</Effector>
+      <Pathway>Fructose utilization</Pathway>
+      <LocusTag Key="SE0470" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=313262&amp;disp=0" />
+      <BiologicalProcess>Fructose utilization</BiologicalProcess>
+      <Regulog Key="FruR - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=669" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE0470" Name="fruR" Position="-88" Score="6.4">
+          <Sequence>TGATTGTTTTTGATTGAAAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0470" Name="fruR" Position="-68" Score="5.5">
+          <Sequence>TGGAAGATTTTGATTGAAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="313262" LocusId="SE0470" Name="fruR" Function="Transcriptional repressor of the fructose operon, DeoR family" />
+          <Members vimssId="313263" LocusId="SE0471" Name="fruB" Function="1-phosphofructokinase (EC 2.7.1.56)" />
+          <Members vimssId="313264" LocusId="SE0472" Name="fruA" Function="PTS system, fructose-specific IIA component (EC 2.7.1.69) / PTS system, fructose-specific IIB component (EC 2.7.1.69) / PTS system, fructose-specific IIC component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=669</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6610" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="SE1182" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=313974&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=670" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE2115" Name="feoA" Position="-36" Score="6.4">
+          <Sequence>AATGATAATGATTATTAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1032" Name="citB" Position="-198" Score="6.1">
+          <Sequence>ATTGATAACCATTCTCAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1101" Name="" Position="61" Score="6.2">
+          <Sequence>ATTGATAATGATTgTCAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1101" Name="" Position="28" Score="6.5">
+          <Sequence>ATTGATAATCATTtTCAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1768" Name="yfmC" Position="-52" Score="6.1">
+          <Sequence>ATTGAGAATCGTTATCAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0515" Name="sstA" Position="-78" Score="6.7">
+          <Sequence>AATGATAATCATTATCATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1771" Name="SA1982" Position="-40" Score="6.6">
+          <Sequence>AATGATAATTATTATCAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0593" Name="SA0757" Position="-44" Score="6">
+          <Sequence>ATTGATAATGGTTATCATG</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1772" Name="iucB" Position="-81" Score="6.6">
+          <Sequence>ATTGATAATAATTATCATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0421" Name="fhuA" Position="-119" Score="6.2">
+          <Sequence>TGTGATAATGATTATCAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1578" Name="ftnA" Position="-128" Score="5.2">
+          <Sequence>AATTAGAATAATTATTAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="313824" LocusId="SE1032" Name="citB" Function="aconitate hydratase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313893" LocusId="SE1101" Name="null" Function="hypothetical protein" />
+          <Members vimssId="313892" LocusId="SE1100" Name="arlR" Function="response regulator ArlR" />
+          <Members vimssId="313891" LocusId="SE1099" Name="arlS" Function="signal transduction histidine kinase ArlS" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314560" LocusId="SE1768" Name="yfmC" Function="iron(III) dicitrate ABC transporter binding protein" />
+          <Members vimssId="314559" LocusId="SE1767" Name="yfmD" Function="iron(III) dicitrate ABC transporter permease component" />
+          <Members vimssId="314558" LocusId="SE1766" Name="yfmE" Function="iron(III) dicitrate ABC transporter permease component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313307" LocusId="SE0515" Name="sstA" Function="putative siderophore ABC transporter permease" />
+          <Members vimssId="313308" LocusId="SE0516" Name="sstB" Function="putative siderophore ABC transporter permease" />
+          <Members vimssId="313309" LocusId="SE0517" Name="sstC" Function="putative siderophore ABC transporter ATP-binding protein" />
+          <Members vimssId="313310" LocusId="SE0518" Name="sstD" Function="putative siderophore ABC transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314563" LocusId="SE1771" Name="SA1982" Function="putative permease of the major facilitator superfamily" />
+          <Members vimssId="314562" LocusId="SE1770" Name="iucC" Function="putative aerobactin biosynthesis protein, IucA/IucC family" />
+          <Members vimssId="314561" LocusId="SE1769" Name="SA1980" Function="putative amino acid racemase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313385" LocusId="SE0593" Name="SA0757" Function="putative NAD(P)H nitroreductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314564" LocusId="SE1772" Name="iucB" Function="putative aerobactin biosynthesis protein, IucA/IucC family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314370" LocusId="SE1578" Name="ftnA" Function="ferritin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313213" LocusId="SE0421" Name="fhuA" Function="ferrichrome transport ATP-binding protein FhuA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314907" LocusId="SE2115" Name="feoA" Function="putative ferrous iron transport protein A" />
+          <Members vimssId="314906" LocusId="SE2114" Name="feoB" Function="ferrous iron transport protein B" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=670</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="GlnR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6617" />
+      <Effector>Feedback-inhibited GlnA, glutamine synthetase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="SE0986" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=313778&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="GlnR - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=671" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE0986" Name="glnR" Position="-88" Score="5.9">
+          <Sequence>ATGTCAGAAAACCTTACAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1644" Name="nrgA" Position="-96" Score="5.3">
+          <Sequence>ATGTAACTTAAAGTGACAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1644" Name="nrgA" Position="-74" Score="4.5">
+          <Sequence>GTGTAACATGACCTTACCT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314436" LocusId="SE1644" Name="nrgA" Function="ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313778" LocusId="SE0986" Name="glnR" Function="HTH-type transcriptional regulator GlnR" />
+          <Members vimssId="313779" LocusId="SE0987" Name="glnA" Function="glutamine synthetase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=671</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="activator">
+      <Regulator Key="GltC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6624" />
+      <Effector>2-oxoglutarate; Glutamate</Effector>
+      <Pathway>Glutamate metabolism</Pathway>
+      <LocusTag Key="SE2313" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=315105&amp;disp=0" />
+      <BiologicalProcess>Glutamate metabolism</BiologicalProcess>
+      <Regulog Key="GltC - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=672" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE2312" Name="gltB" Position="-94" Score="5">
+          <Sequence>ATCTAATTTATATAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2312" Name="gltB" Position="-116" Score="5.5">
+          <Sequence>TTCTAATAATTAGAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2313" Name="gltC" Position="-112" Score="5">
+          <Sequence>ATATATAAATTAGAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2313" Name="gltC" Position="-90" Score="5.5">
+          <Sequence>ATCTAATTATTAGAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="315105" LocusId="SE2313" Name="gltC" Function="transcription activator of glutamate synthase operon" />
+        </Operon>
+        <Operon>
+          <Members vimssId="315104" LocusId="SE2312" Name="gltB" Function="glutamate synthase large subunit" />
+          <Members vimssId="315103" LocusId="SE2311" Name="gltD" Function="glutamate synthase small subunit" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=672</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="activator">
+      <Regulator Key="GlvR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6631" />
+      <Effector>Maltose-6-phosphate</Effector>
+      <Pathway>Maltose utilization</Pathway>
+      <LocusTag Key="SE1898" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=314690&amp;disp=0" />
+      <BiologicalProcess>Maltose utilization</BiologicalProcess>
+      <Regulog Key="GlvR - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=673" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1897" Name="glvC" Position="-181" Score="7.6">
+          <Sequence>TGAAAATATTTTCTTTATATGAAAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314689" LocusId="SE1897" Name="glvC" Function="maltose-specific PTS system, IIBC component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=673</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="GntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6638" />
+      <Effector>Gluconate</Effector>
+      <Pathway>Gluconate utilization</Pathway>
+      <LocusTag Key="SE2046" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=314838&amp;disp=0" />
+      <BiologicalProcess>Gluconate utilization</BiologicalProcess>
+      <Regulog Key="GntR - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=674" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE2046" Name="gntR" Position="-46" Score="6.9">
+          <Sequence>ATACTTGTATACAAGTAG</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314838" LocusId="SE2046" Name="gntR" Function="gluconate operon transcriptional repressor" />
+          <Members vimssId="314837" LocusId="SE2045" Name="gntK" Function="gluconokinase" />
+          <Members vimssId="314836" LocusId="SE2044" Name="gntP" Function="gluconate permease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=674</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TrpR" RegulationMode="repressor">
+      <Regulator Key="HisR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6813" />
+      <Effector>Histidine</Effector>
+      <Pathway>Histidine biosynthesis</Pathway>
+      <LocusTag Key="SE1592" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=314384&amp;disp=0" />
+      <BiologicalProcess>Histidine biosynthesis</BiologicalProcess>
+      <Regulog Key="HisR - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=699" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE0637" Name="yuiF" Position="-37" Score="4.9">
+          <Sequence>TACTTTAGTTCGATAGAGTG</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2326" Name="SA0417" Position="-108" Score="5.6">
+          <Sequence>CACTTTAGCGCTTTAAAGGG</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0270" Name="hisZ" Position="-56" Score="3.9">
+          <Sequence>TACTTTAATGTATTATCGAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1592" Name="hisR" Position="-60" Score="5">
+          <Sequence>CACTTTAACGAATTAGTAAG</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="313429" LocusId="SE0637" Name="yuiF" Function="Histidine permease" />
+          <Members vimssId="313430" LocusId="SE0638" Name="SA0805" Function="putative esterase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="315118" LocusId="SE2326" Name="SA0417" Function="putative sodium-dependent transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313062" LocusId="SE0270" Name="hisZ" Function="ATP phosphoribosyltransferase regulatory subunit (EC 2.4.2.17)" />
+          <Members vimssId="313063" LocusId="SE0271" Name="hisG" Function="ATP phosphoribosyltransferase catalytic subunit (EC 2.4.2.17)" />
+          <Members vimssId="313064" LocusId="SE0272" Name="hisD" Function="Histidinol dehydrogenase (EC 1.1.1.23)" />
+          <Members vimssId="313065" LocusId="SE0273" Name="hisB" Function="Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)" />
+          <Members vimssId="313066" LocusId="SE0274" Name="hisH" Function="Imidazole glycerol phosphate synthase amidotransferase subunit (EC 2.4.2.-)" />
+          <Members vimssId="313067" LocusId="SE0275" Name="hisA" Function="Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase (EC 5.3.1.16)" />
+          <Members vimssId="313068" LocusId="SE0276" Name="hisF" Function="Imidazole glycerol phosphate synthase cyclase subunit (EC 4.1.3.-)" />
+          <Members vimssId="313069" LocusId="SE0277" Name="hisIE" Function="Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19) / Phosphoribosyl-ATP pyrophosphatase (EC 3.6.1.31)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314384" LocusId="SE1592" Name="hisR" Function="Predicted histidine repressor, TrpR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=699</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6645" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="SE1269" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=314061&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=675" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1630" Name="groES" Position="-54" Score="7.1">
+          <Sequence>TTAGCACTCTATATATCAAAGTGCTAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1269" Name="hrcA" Position="-38" Score="7.2">
+          <Sequence>TTAGCACTTGAGATAAAAGAGTGCTAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314061" LocusId="SE1269" Name="hrcA" Function="heat-inducible transcription repressor HrcA" />
+          <Members vimssId="314060" LocusId="SE1268" Name="grpE" Function="heat shock molecular chaperone protein GrpE" />
+          <Members vimssId="314059" LocusId="SE1267" Name="dnaK" Function="chaperone protein DnaK" />
+          <Members vimssId="314058" LocusId="SE1266" Name="dnaJ" Function="chaperone protein dnaJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314422" LocusId="SE1630" Name="groES" Function="chaperonin GroES protein" />
+          <Members vimssId="314421" LocusId="SE1629" Name="groEL" Function="chaperonin GroEL protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=675</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="OmpR" RegulationMode="activator">
+      <Regulator Key="HssR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6652" />
+      <Effector>HssS, sensor histidine kinase (heme)</Effector>
+      <Pathway>Heme efflux</Pathway>
+      <LocusTag Key="SE1941" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=314733&amp;disp=0" />
+      <BiologicalProcess>Heme efflux</BiologicalProcess>
+      <Regulog Key="HssR - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=676" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1940" Name="hrtB" Position="-63" Score="10.1">
+          <Sequence>GTTCATATT--GTTCATATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314732" LocusId="SE1940" Name="hrtB" Function="heme ABC transporter, permease protein" />
+          <Members vimssId="314731" LocusId="SE1939" Name="hrtA" Function="heme ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=676</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DeoR" RegulationMode="repressor">
+      <Regulator Key="LacR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6673" />
+      <Effector>Galactose-6-phosphate</Effector>
+      <Pathway>Lactose utilization</Pathway>
+      <LocusTag Key="SE1788" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=314580&amp;disp=0" />
+      <BiologicalProcess>Lactose utilization</BiologicalProcess>
+      <Regulog Key="LacR - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=679" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1787" Name="lacA" Position="-97" Score="3.7">
+          <Sequence>TGTTTAAATATGTTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314579" LocusId="SE1787" Name="lacA" Function="galactose-6-phosphate isomerase LacA subunit" />
+          <Members vimssId="314578" LocusId="SE1786" Name="lacB" Function="galactose-6-phosphate isomerase LacB subunit" />
+          <Members vimssId="314577" LocusId="SE1785" Name="lacC" Function="tagatose-6-phosphate kinase" />
+          <Members vimssId="314576" LocusId="SE1784" Name="lacD" Function="tagatose 1,6-diphosphate aldolase" />
+          <Members vimssId="314575" LocusId="SE1783" Name="lacF" Function="PTS system, lactose-specific IIA component" />
+          <Members vimssId="314574" LocusId="SE1782" Name="lacE" Function="PTS system, lactose-specific IIBC component" />
+          <Members vimssId="314573" LocusId="SE1781" Name="lacG" Function="6-phospho-beta-galactosidase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=679</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6680" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="SE1022" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=313814&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=680" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1046" Name="uvrX" Position="-77" Score="5.7">
+          <Sequence>ATAAGAACAAATGTTCTTAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1046" Name="uvrX" Position="-48" Score="4.7">
+          <Sequence>AATAGAACACGTGTTCTTAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1605" Name="" Position="-52" Score="5.6">
+          <Sequence>AACAGAACAAATGTTCGTAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0541" Name="uvrB" Position="-130" Score="5.7">
+          <Sequence>AAGCGAACAAATGTTTGTAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1028" Name="sbcD" Position="-33" Score="5.7">
+          <Sequence>AAACGAACAAACGTTCTTAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1762" Name="SA1975" Position="-66" Score="5.1">
+          <Sequence>GTACGAAAGTATGTTCGCAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0963" Name="recA" Position="-102" Score="5.4">
+          <Sequence>ATACGAACAAATATTCGCAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0511" Name="SA0684" Position="-116" Score="5.9">
+          <Sequence>AAGCGAACATTTGTTCGTTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1627" Name="SA1749" Position="-127" Score="5.1">
+          <Sequence>AACAGAACGTATGTTCTGTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0963" Name="recA" Position="-145" Score="5.1">
+          <Sequence>ATAAGTACGTTTGTTCGTTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1036" Name="parE" Position="-33" Score="5.2">
+          <Sequence>TAACGAACGTACGTTTGTAG</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1022" Name="lexA" Position="-517" Score="4.9">
+          <Sequence>cctaGAACATtTGTTtGTAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1022" Name="lexA" Position="-459" Score="5.5">
+          <Sequence>tTACGAACAaATGTTtGTta</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314397" LocusId="SE1605" Name="null" Function="SPBc2 prophage-derived uncharacterized protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313838" LocusId="SE1046" Name="uvrX" Function="Putative UV-damage repair protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313828" LocusId="SE1036" Name="parE" Function="DNA topoisomerase IV subunit B" />
+          <Members vimssId="313829" LocusId="SE1037" Name="parC" Function="DNA topoisomerase IV subunit A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313814" LocusId="SE1022" Name="lexA" Function="SOS regulatory LexA protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313755" LocusId="SE0963" Name="recA" Function="recombinase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313333" LocusId="SE0541" Name="uvrB" Function="excinuclease ABC subunit B" />
+          <Members vimssId="313334" LocusId="SE0542" Name="uvrA" Function="exinuclease ABC subunit A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313820" LocusId="SE1028" Name="sbcD" Function="exonuclease SbcD" />
+          <Members vimssId="313821" LocusId="SE1029" Name="sbcC" Function="exonuclease SbcC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314554" LocusId="SE1762" Name="SA1975" Function="predicted membrane-bound hydrolase" />
+          <Members vimssId="314553" LocusId="SE1761" Name="SA1974" Function="UDP-N-acetylglucosamine pyrophosphorylase" />
+          <Members vimssId="314552" LocusId="SE1760" Name="SA1973" Function="hemolysin III" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314419" LocusId="SE1627" Name="SA1749" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313303" LocusId="SE0511" Name="SA0684" Function="putative permease" />
+          <Members vimssId="313302" LocusId="SE0510" Name="SA0683" Function="7-cyano-7-deazaguanine reductase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=680</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BglG" RegulationMode="activator">
+      <Regulator Key="ManR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6694" />
+      <Effector>ManP, mannose-specific enzyme IIBCA PTS component; HPr, phosphocarrier protein</Effector>
+      <Pathway>Mannose utilization</Pathway>
+      <LocusTag Key="SE2227" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=315019&amp;disp=0" />
+      <BiologicalProcess>Mannose utilization</BiologicalProcess>
+      <Regulog Key="ManR - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=682" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE2228" Name="manP" Position="-85" Score="6.7">
+          <Sequence>ATTGCCACTATTGACGGCAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="315020" LocusId="SE2228" Name="manP" Function="PTS system, mannose-specific IIB component (EC 2.7.1.69) / PTS system, mannose-specific IIC component (EC 2.7.1.69) / PTS system, mannose-specific IIA component (EC 2.7.1.69)" />
+          <Members vimssId="315021" LocusId="SE2229" Name="manA" Function="Mannose-6-phosphate isomerase (EC 5.3.1.8)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=682</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="MntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6715" />
+      <Effector>Manganese ion, (Mn2+)</Effector>
+      <Pathway>Manganese homeostasis</Pathway>
+      <LocusTag Key="SE0408" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=313200&amp;disp=0" />
+      <BiologicalProcess>Manganese homeostasis</BiologicalProcess>
+      <Regulog Key="MntR - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=685" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE0407" Name="mntA" Position="-42" Score="6.4">
+          <Sequence>AAATTAGGTTAACCTAAACT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0803" Name="mntH" Position="-51" Score="6.3">
+          <Sequence>TTTTTAGGTTGACCTAATAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0803" Name="mntH" Position="-29" Score="4.6">
+          <Sequence>TATTTAGGTTAATATATTCT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="313595" LocusId="SE0803" Name="mntH" Function="Mn2+/Fe2+ transporter, NRAMP family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313199" LocusId="SE0407" Name="mntA" Function="manganese ABC transport system ATPase component MntA" />
+          <Members vimssId="313198" LocusId="SE0406" Name="mntB" Function="manganese ABC transport system membrane protein MntB" />
+          <Members vimssId="313197" LocusId="SE0405" Name="mntC" Function="manganese ABC transport system substrate-binding protein MntC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=685</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor">
+      <Regulator Key="MurR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6729" />
+      <Effector>N-acetylmuramate-6-phosphate</Effector>
+      <Pathway>N-acetylmuramate utilization</Pathway>
+      <LocusTag Key="SE1891" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=314683&amp;disp=0" />
+      <BiologicalProcess>N-acetylmuramate utilization</BiologicalProcess>
+      <Regulog Key="MurR - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=687" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1888" Name="SA0184" Position="-66" Score="5.3">
+          <Sequence>AATTGTAAACTTGTTGCAATA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314680" LocusId="SE1888" Name="SA0184" Function="Outer surface protein of unknown function, N-acetylmuramate-related" />
+          <Members vimssId="314681" LocusId="SE1889" Name="murQ" Function="N-acetylmuramic acid 6-phosphate etherase (EC 4.2.-.-)" />
+          <Members vimssId="314682" LocusId="SE1890" Name="murT" Function="predicted N-acetylmuramate PTS system, IIBC components" />
+          <Members vimssId="314683" LocusId="SE1891" Name="murR" Function="predicted N-acetylmuramate-6-phosphate-responsive transcriptional regulator, RpiR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=687</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6736" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="SE1360" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=314152&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=688" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE2172" Name="nrdD" Position="-58" Score="5.9">
+          <Sequence>ATACTATATATAGTAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2172" Name="nrdD" Position="-26" Score="5">
+          <Sequence>ACACTATATATAGCGA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0512" Name="nrdI" Position="-366" Score="4.7">
+          <Sequence>ACACAGAATATAGTAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0512" Name="nrdI" Position="-334" Score="6.1">
+          <Sequence>ACACTATATATAGTGT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0512" Name="nrdI" Position="-182" Score="5.6">
+          <Sequence>CCACTATATATTGTGG</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="313304" LocusId="SE0512" Name="nrdI" Function="NrdI protein involved in ribonucleotide reduction" />
+          <Members vimssId="313305" LocusId="SE0513" Name="nrdE" Function="ribonucleotide-diphosphate reductase alpha subunit" />
+          <Members vimssId="313306" LocusId="SE0514" Name="nrdF" Function="ribonucleotide-diphosphate reductase beta subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314964" LocusId="SE2172" Name="nrdD" Function="anaerobic ribonucleoside-triphosphate reductase" />
+          <Members vimssId="314963" LocusId="SE2171" Name="nrdG" Function="anaerobic ribonucleoside-triphosphate reductase activating protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=688</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="OmpR" RegulationMode="activator">
+      <Regulator Key="NreC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6743" />
+      <Effector>NreB, sensor histidine kinase (Nitrate, Nitrite)</Effector>
+      <Pathway>Nitrate and nitrite respiration</Pathway>
+      <LocusTag Key="SE1969" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=314761&amp;disp=0" />
+      <BiologicalProcess>Nitrate and nitrite respiration</BiologicalProcess>
+      <Regulog Key="NreC - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=689" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1978" Name="nasD" Position="-174" Score="5.8">
+          <Sequence>ATTAGGGAAATCCCCGAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1968" Name="narK" Position="-165" Score="5">
+          <Sequence>ATCAGGGTATGTCCTTAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1975" Name="narG" Position="-113" Score="5.9">
+          <Sequence>ATTAGGACATTCCCTAAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314760" LocusId="SE1968" Name="narK" Function="nitrate-nitrite antiporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314767" LocusId="SE1975" Name="narG" Function="respiratory nitrate reductase alpha chain" />
+          <Members vimssId="314766" LocusId="SE1974" Name="narH" Function="respiratory nitrate reductase beta chain" />
+          <Members vimssId="314765" LocusId="SE1973" Name="narJ" Function="respiratory nitrate reductase molybdenum cofactor assembly chaperone" />
+          <Members vimssId="314764" LocusId="SE1972" Name="narI" Function="respiratory nitrate reductase gamma chain" />
+          <Members vimssId="314763" LocusId="SE1971" Name="nreA" Function="nitrate reduction control protein, certain function is unclear" />
+          <Members vimssId="314762" LocusId="SE1970" Name="nreB" Function="nitrate respiration regulation two-component system, sensor histidine kinase" />
+          <Members vimssId="314761" LocusId="SE1969" Name="nreC" Function="nitrate respiration regulation two-component system, response regulator" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314770" LocusId="SE1978" Name="nasD" Function="assimilatory nitrite reductase, large subunit" />
+          <Members vimssId="314769" LocusId="SE1977" Name="nasE" Function="assimilatory nitrite reductase, small subunit" />
+          <Members vimssId="314768" LocusId="SE1976" Name="nasF" Function="uroporphyrin-III C-methyltransferase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=689</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="activator">
+      <Regulator Key="PdxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60448" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine biosynthesis</Pathway>
+      <LocusTag Key="SE2263" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=315055&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine biosynthesis</BiologicalProcess>
+      <Regulog Key="PdxR - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6208" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE2262" Name="pdxS" Position="-93" Score="11.3">
+          <Sequence>ACTGACCC-(16)-ATTGAACC-(7)-ATATCAGT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="315054" LocusId="SE2262" Name="pdxS" Function="Pyridoxine biosynthesis glutamine amidotransferase, synthase subunit (EC 2.4.2.-)" />
+          <Members vimssId="315053" LocusId="SE2261" Name="pdxT" Function="Pyridoxine biosynthesis glutamine amidotransferase, glutaminase subunit (EC 2.4.2.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6208</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="PerR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6757" />
+      <Effector>Hydrogen peroxide; Manganese ion, (Mn2+); Iron ion, (Fe2+)</Effector>
+      <Pathway>Oxidative stress response</Pathway>
+      <LocusTag Key="SE1545" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=314337&amp;disp=0" />
+      <BiologicalProcess>Oxidative stress response</BiologicalProcess>
+      <Regulog Key="PerR - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=691" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE0606" Name="sufC" Position="-55" Score="5.7">
+          <Sequence>TTAAAATTATTATAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1545" Name="perR" Position="-36" Score="5.6">
+          <Sequence>TAATAATAATTATTA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1182" Name="fur" Position="-40" Score="5.5">
+          <Sequence>TTAAAATGATTATAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1578" Name="ftnA" Position="-84" Score="5.6">
+          <Sequence>TTAGAATAATTATTA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1578" Name="ftnA" Position="-126" Score="5.6">
+          <Sequence>TTAGAATAATTATTA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1738" Name="dps" Position="-58" Score="5.8">
+          <Sequence>TTAGAATTATTATAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2357" Name="ahpC" Position="-75" Score="5.8">
+          <Sequence>TTAGAATTATTATAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="315149" LocusId="SE2357" Name="ahpC" Function="alkyl hydroperoxide reductase subunit C" />
+          <Members vimssId="315150" LocusId="SE2358" Name="ahpF" Function="alkyl hydroperoxide reductase subunit F" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314370" LocusId="SE1578" Name="ftnA" Function="ferritin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314530" LocusId="SE1738" Name="dps" Function="metalloregulation DNA-binding stress protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313974" LocusId="SE1182" Name="fur" Function="iron uptake regulatory protein Fur" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314337" LocusId="SE1545" Name="perR" Function="peroxide-responsive repressor PerR" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313398" LocusId="SE0606" Name="sufC" Function="ABC transporter (ATP-binding protein)" />
+          <Members vimssId="313399" LocusId="SE0607" Name="sufD" Function="conserved hypothetical protein" />
+          <Members vimssId="313400" LocusId="SE0608" Name="sufS" Function="aminotransferase NifS-like protein" />
+          <Members vimssId="313401" LocusId="SE0609" Name="nifU" Function="nitrogen fixation protein NifU" />
+          <Members vimssId="313402" LocusId="SE0610" Name="sufB" Function="conserved hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=691</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="PurR" RegulationMode="repressor">
+      <Regulator Key="PurR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6764" />
+      <Effector>5-phosphoribosyl 1-pyrophosphate</Effector>
+      <Pathway>Purine metabolism</Pathway>
+      <LocusTag Key="SE2287" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=315079&amp;disp=0" />
+      <BiologicalProcess>Purine metabolism</BiologicalProcess>
+      <Regulog Key="PurR - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=692" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE0762" Name="purE" Position="-137" Score="9.3">
+          <Sequence>AAAAGACGTAAATT------------------AAAGTTCGATTTTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1593" Name="" Position="-84" Score="7.9">
+          <Sequence>TAGAAACGAACTTT------------------AATGTACAGTTTTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0761" Name="folD" Position="-113" Score="9.2">
+          <Sequence>AAAAATCGAACTTT------------------AATTTACGTCTTTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="313554" LocusId="SE0762" Name="purE" Function="phosphoribosylaminoimidazole carboxylase catalytic subunit" />
+          <Members vimssId="313555" LocusId="SE0763" Name="purK" Function="phosphoribosylaminoimidazole carboxylase (EC:4.1.1.21)" />
+          <Members vimssId="313556" LocusId="SE0764" Name="purC" Function="phosphoribosylaminoimidazole-succinocarboxamide synthase (EC:6.3.2.6)" />
+          <Members vimssId="313557" LocusId="SE0765" Name="purS" Function="phosphoribosylformylglycinamidine synthase, PurS protein" />
+          <Members vimssId="313558" LocusId="SE0766" Name="purQ" Function="phosphoribosylformylglycinamidine synthase I (EC:6.3.5.3)" />
+          <Members vimssId="313559" LocusId="SE0767" Name="purL" Function="phosphoribosylformylglycinamidine synthase II (EC:6.3.5.3)" />
+          <Members vimssId="313560" LocusId="SE0768" Name="purF" Function="amidophosphoribosyltransferase (EC:2.4.2.14)" />
+          <Members vimssId="313561" LocusId="SE0769" Name="purM" Function="phosphoribosylformylglycinamidine cyclo-ligase (EC:6.3.3.1)" />
+          <Members vimssId="313562" LocusId="SE0770" Name="purN" Function="phosphoribosylglycinamide formyltransferase (EC:2.1.2.2)" />
+          <Members vimssId="313563" LocusId="SE0771" Name="purH" Function="phosphoribosylaminoimidazolecarboxamide formyltransferase (EC:2.1.2.3), IMP cyclohydrolase (EC:3.5.4.10)" />
+          <Members vimssId="313564" LocusId="SE0772" Name="purD" Function="phosphoribosylamine--glycine ligase (EC:6.3.4.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314385" LocusId="SE1593" Name="null" Function="adenylosuccinate lyase (EC:4.3.2.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313553" LocusId="SE0761" Name="folD" Function="methylenetetrahydrofolate dehydrogenase (EC:1.5.1.5), methenyltetrahydrofolate cyclohydrolase (EC:3.5.4.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=692</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="RbsR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6778" />
+      <Effector>Ribose</Effector>
+      <Pathway>Ribose utilization</Pathway>
+      <LocusTag Key="" Value="" />
+      <BiologicalProcess>Ribose utilization</BiologicalProcess>
+      <Regulog Key="RbsR2 - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=694" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE2088" Name="rbsU" Position="-270" Score="4.7">
+          <Sequence>GTAGGTAACCGTTAAAATAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314880" LocusId="SE2088" Name="rbsU" Function="Putative ribose uptake protein RbsU, GRP transporter family (TC 2.A.7.5)" />
+          <Members vimssId="314879" LocusId="SE2087" Name="rbsD" Function="D-ribose pyranase (D-ribose mutarotase) (EC 5.5.1.n1)" />
+          <Members vimssId="314878" LocusId="SE2086" Name="rbsK" Function="Ribokinase (EC 2.7.1.15)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=694</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6785" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="SE1647" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=314439&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=695" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE2074" Name="ddh" Position="-56" Score="4.9">
+          <Sequence>TTGTGAATGTTTTTACTA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2074" Name="ddh" Position="-100" Score="5.5">
+          <Sequence>TAGTGAATTAAATCACAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0106" Name="arcA" Position="-76" Score="5.5">
+          <Sequence>TTGTGAATTAAATCACAC</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2217" Name="arcA" Position="-76" Score="4.8">
+          <Sequence>ATGTGATAATCATCACGA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0506" Name="adhE" Position="-38" Score="6.1">
+          <Sequence>TTGTGAATTATTTCACAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2098" Name="adhB" Position="-37" Score="5.4">
+          <Sequence>TTGCGAAAAATTTCACAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1176" Name="srrA" Position="-104" Score="4.9">
+          <Sequence>TTGATATTTTTTTCACAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2038" Name="" Position="-91" Score="5.7">
+          <Sequence>TTGTGAAATGTATCACAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0214" Name="pflB" Position="-74" Score="5.8">
+          <Sequence>ATGTGAAATTAATCACAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1978" Name="nasD" Position="-145" Score="5.6">
+          <Sequence>ATGTGAATTACATCACAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1968" Name="narK" Position="-149" Score="4.9">
+          <Sequence>ATGTTCATATTTTCACAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1975" Name="narG" Position="-86" Score="5.5">
+          <Sequence>TTGTGAAAAAATGTACAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2073" Name="frp" Position="-164" Score="5.3">
+          <Sequence>ATGTGATTTAATTCACTA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2073" Name="frp" Position="-208" Score="4.9">
+          <Sequence>TAGTAAAAACATTCACAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314865" LocusId="SE2073" Name="frp" Function="NAD(P)H-flavin oxidoreductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314866" LocusId="SE2074" Name="ddh" Function="D-lactate dehydrogenase (EC 1.1.1.28)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="312898" LocusId="SE0106" Name="arcA" Function="Arginine deiminase (EC 3.5.3.6)" />
+          <Members vimssId="312897" LocusId="SE0105" Name="arcD" Function="Arginine/ornithine antiporter ArcD" />
+          <Members vimssId="312896" LocusId="SE0104" Name="arcR2" Function="Transcriptional regulator ArcR essential for anaerobic expression of the ADI pathway, Crp/Fnr family" />
+          <Members vimssId="312895" LocusId="SE0103" Name="arcB" Function="Ornithine carbamoyltransferase (EC 2.1.3.3)" />
+          <Members vimssId="312894" LocusId="SE0102" Name="arcC" Function="Carbamate kinase (EC 2.7.2.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="315009" LocusId="SE2217" Name="arcA" Function="Arginine deiminase (EC 3.5.3.6)" />
+          <Members vimssId="315008" LocusId="SE2216" Name="arcB" Function="Ornithine carbamoyltransferase (EC 2.1.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313298" LocusId="SE0506" Name="adhE" Function="Alcohol dehydrogenase (EC 1.1.1.1), Fe-dependent; Acetaldehyde dehydrogenase (EC 1.2.1.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314890" LocusId="SE2098" Name="adhB" Function="Alcohol dehydrogenase (EC 1.1.1.1), Zn-dependent" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313968" LocusId="SE1176" Name="srrA" Function="Staphylococcal respiratory response protein SrrA" />
+          <Members vimssId="313967" LocusId="SE1175" Name="srrB" Function="Staphylococcal respiratory response protein SrrB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314830" LocusId="SE2038" Name="null" Function="conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313006" LocusId="SE0214" Name="pflB" Function="Pyruvate formate-lyase (EC 2.3.1.54)" />
+          <Members vimssId="313007" LocusId="SE0215" Name="pflA" Function="Pyruvate formate-lyase activating enzyme (EC 1.97.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314770" LocusId="SE1978" Name="nasD" Function="Nitrite reductase [NAD(P)H] large subunit (EC 1.7.1.4)" />
+          <Members vimssId="314769" LocusId="SE1977" Name="nasE" Function="Nitrite reductase [NAD(P)H] small subunit (EC 1.7.1.4)" />
+          <Members vimssId="314768" LocusId="SE1976" Name="nasF" Function="Uroporphyrinogen-III methyltransferase (EC 2.1.1.107)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314760" LocusId="SE1968" Name="narK" Function="nitrate-nitrite antiporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314767" LocusId="SE1975" Name="narG" Function="Respiratory nitrate reductase alpha chain (EC 1.7.99.4)" />
+          <Members vimssId="314766" LocusId="SE1974" Name="narH" Function="Respiratory nitrate reductase beta chain (EC 1.7.99.4)" />
+          <Members vimssId="314765" LocusId="SE1973" Name="narJ" Function="Respiratory nitrate reductase delta chain (EC 1.7.99.4)" />
+          <Members vimssId="314764" LocusId="SE1972" Name="narI" Function="Respiratory nitrate reductase gamma chain (EC 1.7.99.4)" />
+          <Members vimssId="314763" LocusId="SE1971" Name="nreA" Function="control of nitrate reduction protein NreA" />
+          <Members vimssId="314762" LocusId="SE1970" Name="nreB" Function="nitrate respiration regulation two-component system, sensor histidine kinase NreB" />
+          <Members vimssId="314761" LocusId="SE1969" Name="nreC" Function="two-component response regulator NreC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=695</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="OmpR" RegulationMode="activator">
+      <Regulator Key="SaeR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6792" />
+      <Effector>SaeS, sensor histidine kinase</Effector>
+      <Pathway>Virulence</Pathway>
+      <LocusTag Key="SE0479" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=313271&amp;disp=0" />
+      <BiologicalProcess>Virulence</BiologicalProcess>
+      <Regulog Key="SaeR - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=696" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE0481" Name="saeP" Position="-79" Score="5.9">
+          <Sequence>GTTAAGAAATAGTTAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2396" Name="SE2396" Position="-288" Score="5.1">
+          <Sequence>TTTAATAATAAATTAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2396" Name="SE2396" Position="-65" Score="5.3">
+          <Sequence>ATTAATAATTTTTTAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0481" Name="saeP" Position="-100" Score="5">
+          <Sequence>TTTAATTCTTTTTTAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0163" Name="nuSA0213ll" Position="-99" Score="6.1">
+          <Sequence>GTTAATAAATAGTTAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="315188" LocusId="SE2396" Name="SE2396" Function="transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313273" LocusId="SE0481" Name="saeP" Function="hypothetical protein SaeP" />
+          <Members vimssId="313272" LocusId="SE0480" Name="saeQ" Function="hypothetical protein SaeQ" />
+          <Members vimssId="313271" LocusId="SE0479" Name="saeR" Function="response regulator SaeR" />
+          <Members vimssId="313270" LocusId="SE0478" Name="saeS" Function="histidine protein kinase SaeS" />
+        </Operon>
+        <Operon>
+          <Members vimssId="312955" LocusId="SE0163" Name="nuSA0213ll" Function="putative membrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=696</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="ScrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6799" />
+      <Effector>Sucrose-6-phosphate</Effector>
+      <Pathway>Sucrose utilization</Pathway>
+      <LocusTag Key="SE1643" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=314435&amp;disp=0" />
+      <BiologicalProcess>Sucrose utilization</BiologicalProcess>
+      <Regulog Key="ScrR - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=697" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1959" Name="scrA" Position="-60" Score="5.9">
+          <Sequence>GATTGGAACCGGTTACAATA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1959" Name="scrA" Position="-31" Score="5">
+          <Sequence>TATTTGAATCGGTTCTAAAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1640" Name="scrB" Position="-233" Score="5.7">
+          <Sequence>AAATGGAACCGATACCACAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314432" LocusId="SE1640" Name="scrB" Function="sucrose-6-phosphate hydrolase" />
+          <Members vimssId="314431" LocusId="SE1639" Name="scrK" Function="fructokinase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314751" LocusId="SE1959" Name="scrA" Function="PTS system sucrose-specific IIBC component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=697</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="YtrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6820" />
+      <Effector />
+      <Pathway>Hypothetical ABC transporter</Pathway>
+      <LocusTag Key="SE1625" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=314417&amp;disp=0" />
+      <BiologicalProcess>Hypothetical ABC transporter</BiologicalProcess>
+      <Regulog Key="YtrA - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=700" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1625" Name="ytrA" Position="-40" Score="7">
+          <Sequence>TGTATATATTATGTATATACA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314417" LocusId="SE1625" Name="ytrA" Function="transcription regulator GntR family" />
+          <Members vimssId="314416" LocusId="SE1624" Name="ytrB" Function="ABC transporter (ATP-binding protein)" />
+          <Members vimssId="314415" LocusId="SE1623" Name="SA1746" Function="putative membrane protein" />
+          <Members vimssId="314414" LocusId="SE1622" Name="SA1745" Function="ABC transporter (ATP-binding protein)" />
+          <Members vimssId="314413" LocusId="SE1621" Name="SA1744" Function="putative membrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=700</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=6834" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="SE1241" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=314033&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Staphylococcaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=702" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE0193" Name="znuA2" Position="-35" Score="6.1">
+          <Sequence>TAAAGCGTAACAATTTCGATTTA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0193" Name="znuA2" Position="-226" Score="6.8">
+          <Sequence>AAAAACGTAATTATTACGATTTA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE2335" Name="yciC" Position="-43" Score="7.1">
+          <Sequence>TAAAACGTAATAATTACTATTTA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0191" Name="SA2370" Position="-53" Score="6.8">
+          <Sequence>TAAATCGTAATAATTACGTTTTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0191" Name="SA2370" Position="-244" Score="6.1">
+          <Sequence>TAAATCGAAATTGTTACGCTTTA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0639" Name="SA0806" Position="-42" Score="7.2">
+          <Sequence>TAAATCGTAATAATTACGTTTTA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1018" Name="rpsN2" Position="-42" Score="6.9">
+          <Sequence>TAAAACGTAATTATTACGATTTG</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1017" Name="rpmG2" Position="-43" Score="5.3">
+          <Sequence>TAAATCGTAAGAATTCCTAACAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1243" Name="znuC" Position="-58" Score="5.8">
+          <Sequence>ATAGTCGTAAACATTACTATTTA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314035" LocusId="SE1243" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="314034" LocusId="SE1242" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+          <Members vimssId="314033" LocusId="SE1241" Name="zur" Function="Zinc homeostasis transcriptional regulator Zur, Fur family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="312985" LocusId="SE0193" Name="znuA2" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="315127" LocusId="SE2335" Name="yciC" Function="Putative metal chaperone, involved in Zn homeostasis, GTPase of COG0523 family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="312983" LocusId="SE0191" Name="SA2370" Function="hypothetical protein" />
+          <Members vimssId="312981" LocusId="SE0189" Name="SA2369" Function="hypothetical protein" />
+          <Members vimssId="312980" LocusId="SE0188" Name="SA2368" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313431" LocusId="SE0639" Name="SA0806" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313810" LocusId="SE1018" Name="rpsN2" Function="30S ribosomal protein S14" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313809" LocusId="SE1017" Name="rpmG2" Function="50S ribosomal protein L33" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=702</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13574" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1174" Name="ribU" Position="-64" Score="113.4">
+          <Sequence>AGGTTTTTTGTTGTTCAAATTTCCTCCTTTTCTAAGTAAGATGAATGGAAGGAGAAAATTATATATGCAACAAAACAAACGTTTGATTACAATTAGTATGTTAAGTGCGGTAGCGTTTGTGTTAACTTTCATCAAGT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1441" Name="ribD" Position="-151" Score="115.4">
+          <Sequence>TTGAATTATCGACTTACACAAATTCGTGTAGTTATGATAAGCGTATTGTATACTTATGTGCAATTTTTAGTATGCTAATAGGCTTATTTAAAGATATAGATATCTCCTTATGCCTACAATATAGGTATAAGGTTTTTTTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="313966" LocusId="SE1174" Name="ribU" Function="Substrate-specific component RibU of riboflavin ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314233" LocusId="SE1441" Name="ribD" Function="Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26) / 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)" />
+          <Members vimssId="314232" LocusId="SE1440" Name="ribE" Function="Riboflavin synthase alpha chain (EC 2.5.1.9)" />
+          <Members vimssId="314231" LocusId="SE1439" Name="ribBA" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase / GTP cyclohydrolase II (EC 3.5.4.25)" />
+          <Members vimssId="314230" LocusId="SE1438" Name="ribH" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00504" RegulationMode="RF00504">
+      <Regulator Key="Glycine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21346" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="Glycine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1222" Name="gcvT" Position="-222" Score="51.9">
+          <Sequence>ATTGATCAGTATTAGAGAGAATAGAGATCAAAACTTGAATCATTATAAGTTAAACGTTTTTAGTCTATTACAATTTTGACTCTCTATCGCCGAAGGTGCAAGTGAAATAACGAAACTCTCAGGCAAAAGGATAATACTGTAACG</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314014" LocusId="SE1222" Name="gcvT" Function="Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10)" />
+          <Members vimssId="314013" LocusId="SE1221" Name="gcvP1" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P1 protein) (EC 1.4.4.2)" />
+          <Members vimssId="314012" LocusId="SE1220" Name="gcvP2" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P2 protein) (EC 1.4.4.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00557" RegulationMode="RF00557">
+      <Regulator Key="L10_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=24863" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L10_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE0303" Name="rplJ" Position="-186" Score="78.4">
+          <Sequence>TACTTGTGATTATTTTACCTAAGACAGTAGGAGTTATTAATAACTTAAAACAGTATCCTACCGAGGCTAAAATTGACTTGAACGTGATGATTAATGATCTTTCAAGCACTTTTTGCCGTGGGTAGAAAGTGCTTTTTTTATTGTGATTA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="313095" LocusId="SE0303" Name="rplJ" Function="LSU ribosomal protein L10p (P0)" />
+          <Members vimssId="313096" LocusId="SE0304" Name="rplL" Function="LSU ribosomal protein L7/L12 (P1/P2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00555" RegulationMode="RF00555">
+      <Regulator Key="L13_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=24980" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L13_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1791" Name="rplM" Position="-214" Score="55.9">
+          <Sequence>TTGTTTTATATCACCCCACGATAAGCCCCGGAAACTTATTGTGTTACAAGATATATAAG</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314583" LocusId="SE1791" Name="rplM" Function="LSU ribosomal protein L13p (L13Ae)" />
+          <Members vimssId="314582" LocusId="SE1790" Name="rpsI" Function="SSU ribosomal protein S9p (S16e)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00556" RegulationMode="RF00556">
+      <Regulator Key="L19_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=25097" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L19_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE0916" Name="rplS" Position="-61" Score="39.3">
+          <Sequence>CTATGATCCGCTGCTATACTTTTGTCTAGGCAAGAACATAGGTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="313708" LocusId="SE0916" Name="rplS" Function="LSU ribosomal protein L19p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00558" RegulationMode="RF00558">
+      <Regulator Key="L20_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=25214" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L20_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1355" Name="infC" Position="-151" Score="79.2">
+          <Sequence>ACGAACCAAGTAGAAGCACCCGCTTCTCACCTGTGGCGACGCTGAAGCAGTTGGCAGGTCAATCATGTTACACATTTATTGTGTCTAAGAAGAGCGGGTAGTTATACTCGCTCTTCTTTTTGCTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314147" LocusId="SE1355" Name="infC" Function="Translation initiation factor 3" />
+          <Members vimssId="314146" LocusId="SE1354" Name="rpmI" Function="LSU ribosomal protein L35p" />
+          <Members vimssId="314145" LocusId="SE1353" Name="rplT" Function="LSU ribosomal protein L20p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00559" RegulationMode="RF00559">
+      <Regulator Key="L21_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=25331" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L21_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1330" Name="rplU" Position="-90" Score="56.4">
+          <Sequence>AAGCTACATACAACCGCTCGCATACAGGTTGAAGTACAATCATATTGTCACCTGTATATGGCGTGACTTATTATATAG</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314122" LocusId="SE1330" Name="rplU" Function="LSU ribosomal protein L21p" />
+          <Members vimssId="314121" LocusId="SE1329" Name="ysxB" Function="FIG139598: Potential ribosomal protein" />
+          <Members vimssId="314120" LocusId="SE1328" Name="rpmA" Function="LSU ribosomal protein L27p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00168" RegulationMode="RF00168">
+      <Regulator Key="Lysine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=20517" />
+      <Effector>Lysine</Effector>
+      <Pathway>Lysine biosynthesis</Pathway>
+      <LocusTag Key="Lysine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1356" Name="lysP" Position="-382" Score="111.6">
+          <Sequence>AAATAGAGTTAGAGGTTGCATTATTAATGACTAACTTATCAGAAGTCGTATGGGACATGTGTTGAATAAGTGAAAGGTAATAATGCCGAAATGATGTTATTTCCATAAATTAGCATTGTTGGGACAACTTTCGAATAGAAGTTGTACTGTCACTTTATGTGATGTGCTACCTTATAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1073" Name="lysC" Position="-232" Score="98.4">
+          <Sequence>GATTTTGATGAGGCGCATCAATCATGAGTAAACTTTAGATAATTTGTCTGCTAACAATTATAGAGTTAAAAGGGTGAGATGCCGAAATGATTCATAATAGCAGTTATGAATCGTTGGACTTAATGGTTAAGAGCTATAAGTTTGTCATTATTATTAAATAATGGAGTGCATCACTTGTACA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="313865" LocusId="SE1073" Name="lysC" Function="Aspartokinase (EC 2.7.2.4)" />
+          <Members vimssId="313866" LocusId="SE1074" Name="asd" Function="Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11)" />
+          <Members vimssId="313867" LocusId="SE1075" Name="null" Function="Dihydrodipicolinate synthase (EC 4.2.1.52)" />
+          <Members vimssId="313868" LocusId="SE1076" Name="dapB" Function="Dihydrodipicolinate reductase (EC 1.3.1.26)" />
+          <Members vimssId="313869" LocusId="SE1077" Name="dapD" Function="2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase (EC 2.3.1.89)" />
+          <Members vimssId="313870" LocusId="SE1078" Name="dapL" Function="N-acetyl-L,L-diaminopimelate deacetylase (EC 3.5.1.47)" />
+          <Members vimssId="313871" LocusId="SE1079" Name="dapX" Function="Diaminopimelate epimerase alternative form predicted for S.aureus (EC 5.1.1.7)" />
+          <Members vimssId="313872" LocusId="SE1080" Name="lysA" Function="Diaminopimelate decarboxylase (EC 4.1.1.20)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314148" LocusId="SE1356" Name="lysP" Function="Lysine-specific permease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00522" RegulationMode="RF00522">
+      <Regulator Key="PreQ1" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21591" />
+      <Effector>Pre-queuosine1</Effector>
+      <Pathway>Queuosine biosynthesis</Pathway>
+      <LocusTag Key="PreQ1" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1126" Name="ypdP" Position="-51" Score="25.9">
+          <Sequence>TTTTGGCGGTTTCTAAACACCCGCTTTAACAAAATTTAGGAGGAAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0487" Name="queC" Position="-179" Score="41.8">
+          <Sequence>AATAACAGAGGTTCCTAGCCGAAACCCTCTATAAAAAACTAGACATGA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="313279" LocusId="SE0487" Name="queC" Function="Queuosine Biosynthesis QueC ATPase" />
+          <Members vimssId="313278" LocusId="SE0486" Name="queD" Function="Queuosine biosynthesis QueD, PTPS-I" />
+          <Members vimssId="313277" LocusId="SE0485" Name="queE" Function="7-cyano-7-deazaguanosine (preQ0) biosynthesis protein QueE" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313918" LocusId="SE1126" Name="ypdP" Function="Substrate-specific component YpdP (COG1738) of predicted queuosine-regulated ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00167" RegulationMode="RF00167">
+      <Regulator Key="Purine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=22279" />
+      <Effector>Adenine; Guanine</Effector>
+      <Pathway>Purine metabolism</Pathway>
+      <LocusTag Key="Purine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE2350" Name="xpt" Position="-386" Score="80.1">
+          <Sequence>TCATAAAATAATTTATATGACTCATATAATCTAGAGAATATGGCTTTAGAAGTTTCTACCGTGTCGCCATAAACGACACGACTATGAGTAACAATCCAATACAT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="315142" LocusId="SE2350" Name="xpt" Function="Xanthine phosphoribosyltransferase (EC 2.4.2.22)" />
+          <Members vimssId="315141" LocusId="SE2349" Name="pbuX" Function="Xanthine permease" />
+          <Members vimssId="315140" LocusId="SE2348" Name="guaB" Function="Inosine-5'-monophosphate dehydrogenase (EC 1.1.1.205)" />
+          <Members vimssId="315139" LocusId="SE2347" Name="guaA" Function="GMP synthase [glutamine-hydrolyzing] (EC 6.3.5.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00515" RegulationMode="RF00515">
+      <Regulator Key="PyrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=23215" />
+      <Effector>PyrR</Effector>
+      <Pathway>Pyrimidine metabolism</Pathway>
+      <LocusTag Key="PyrR" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE0873" Name="pyrR" Position="-205" Score="23.6">
+          <Sequence>TCATCTTTAATTGAGGGTCCAGAGAGGCTCCGAAGATATGAATAATTAGGATAATAATATTTTGATGATTAAGTTACTAATACTTTTGCTGT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0875" Name="pyrP" Position="-231" Score="19">
+          <Sequence>TATCCTTTTAAAACAGTACGAGAGACTGAAAAAGGTGAAGTGTTTCTTA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="313667" LocusId="SE0875" Name="pyrP" Function="Uracil permease" />
+          <Members vimssId="313668" LocusId="SE0876" Name="pyrB" Function="Aspartate carbamoyltransferase (EC 2.1.3.2)" />
+          <Members vimssId="313669" LocusId="SE0877" Name="pyrC" Function="Dihydroorotase (EC 3.5.2.3)" />
+          <Members vimssId="313670" LocusId="SE0878" Name="carA" Function="Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)" />
+          <Members vimssId="313671" LocusId="SE0879" Name="carB" Function="Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)" />
+          <Members vimssId="313672" LocusId="SE0880" Name="pyrF" Function="Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23)" />
+          <Members vimssId="313673" LocusId="SE0881" Name="pyrE" Function="Orotate phosphoribosyltransferase (EC 2.4.2.10)" />
+          <Members vimssId="313674" LocusId="SE0882" Name="null" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313665" LocusId="SE0873" Name="pyrR" Function="Uracil phosphoribosyltransferase (EC 2.4.2.9) / Pyrimidine operon regulatory protein PyrR" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00162" RegulationMode="RF00162">
+      <Regulator Key="SAM" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21474" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="SAM" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE0011" Name="metX" Position="-164" Score="68.6">
+          <Sequence>CCTTATTTTGAGAAGCAGAGGGATTTGGCCCGTAGAAGCTTCAGCAACCGACTTTAAATAGCACGGTGCTAATACCAACGAGCAACTCGAATGATAAGTACG</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1902" Name="metT" Position="-231" Score="78.8">
+          <Sequence>TAACTTATCAAGAGAAGTGGAGGGACTGGCCCAAAGAAGCTTCGGCAACATTGTATCATGTGCCAATTCCAGTAACCGAGAAGGTTAGAAGATAAGGT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0600" Name="metN" Position="-195" Score="89.6">
+          <Sequence>TCTTATCGAGAGAGGTGGAGGGATGTGCCCTAAGAAGCCCGGCAACCGTCTAAAATAGAAATGGTGCCAATTCACATAAAGTATAACTTTAGAAGATGAGAGAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1458" Name="metK" Position="-219" Score="82.5">
+          <Sequence>TCTCTTATCCTGAGTGGTGGAGGGACATGGACCCAATGAAACCCAGCAACCTCTTTATTTAAAGAAAGGTGCCAAACCGTTTGCAGACAAATATGGTCTGAACGATAAGAG</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="312803" LocusId="SE0011" Name="metX" Function="Homoserine O-acetyltransferase (EC 2.3.1.31)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314694" LocusId="SE1902" Name="metT" Function="Methionine transporter MetT" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314250" LocusId="SE1458" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313392" LocusId="SE0600" Name="metN" Function="Methionine ABC transporter ATP-binding protein" />
+          <Members vimssId="313393" LocusId="SE0601" Name="metP" Function="Methionine ABC transporter permease protein" />
+          <Members vimssId="313394" LocusId="SE0602" Name="metQ" Function="Methionine ABC transporter substrate-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ala)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=26033" />
+      <Effector>Ala-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1301" Name="alaS" Position="-296" Score="77.6">
+          <Sequence>AGTAAGTATAGAGACGAGTAAATAACTTTTGAATTATAGAGATGTACTGGTTGGTGAAAAGTACAAACAAAATTATTGAATGCTACTCTATATTAGTTAAATAAAGTATACAAAGTGATAAGAAATAGTAGACAAACAAAATTCAAGTATGTAAATAGGTCACAATTCTTATAACTAGGGTGGTACCGCGATAACGTTCGTCCCTTTG</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314093" LocusId="SE1301" Name="alaS" Function="Alanyl-tRNA synthetase (EC 6.1.1.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Asn)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=26267" />
+      <Effector>Asn-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1312" Name="hisS" Position="-322" Score="55.6">
+          <Sequence>AATAAAACCGATATGATTCTTGAAATTTTAAATGAAGTAGGTAGCATTTAATGCGTAGAAATACAATCCTTGGCTGTAAGATTGTACTTAGTAATTTAAAAATTTGAACGCAAGAAGAGGTACTTTTAATTAAAAGTCGGATAGCGCACGTTAAGCGTTTTGAGTGGATTATGCTTTTATCAGTATAATCAAATAGGGTGGCAACACGGTGAATCGTCCCTTGT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314104" LocusId="SE1312" Name="hisS" Function="Histidyl-tRNA synthetase (EC 6.1.1.21)" />
+          <Members vimssId="314103" LocusId="SE1311" Name="aspS" Function="Aspartyl-tRNA synthetase (EC 6.1.1.12)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Cys)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=26501" />
+      <Effector>Cys-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE0291" Name="cysE" Position="-300" Score="65.3">
+          <Sequence>TGATTCAAAGGATTAGTAGTTAAATGTTTATGTGTCAGAGAGTGTGCGGTAGCTGTGAGCACATCATAAATATTAATGAATGCACCTTTGTTAATAAAAATAAATAATTGAGATGAGAATAGTAATAAATCAAATATGAGTATTGCTATTAAATGAAGAGTGGAACCGTGCGAGAGCGCCTCTAGCAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="313083" LocusId="SE0291" Name="cysE" Function="Serine acetyltransferase (EC 2.3.1.30)" />
+          <Members vimssId="313084" LocusId="SE0292" Name="cysS" Function="Cysteinyl-tRNA synthetase (EC 6.1.1.16)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Gly)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=26735" />
+      <Effector>Gly-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1252" Name="glyS" Position="-165" Score="13.1">
+          <Sequence>AAAGCGAGTGTTTACACTAATTTGGGTGGAACCGCGGGTTGAAAAGTAAATAAACACATGTTATTACAACAATGTGTTTTAAATAATTTAAACTCGTCCCAAG</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314044" LocusId="SE1252" Name="glyS" Function="Glycyl-tRNA synthetase (EC 6.1.1.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ile)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=26969" />
+      <Effector>Ile-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE0868" Name="ileS" Position="-218" Score="72.5">
+          <Sequence>TATAAAGACAGACGCGTAAGAAACAGTGAACATAGTACAGCGAGTTAGGATTGGTGTGAGCCTAGCATATTGTTTGTTTCTTATATCACTGGCTTTTTCAATTTTATAAATATTCTTAAGAGAACTCTAAGTTGAGTTAAGTAGGGTGGTACCGCGGATTAACCGTCCCTTTTAA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="313660" LocusId="SE0868" Name="ileS" Function="Isoleucyl-tRNA synthetase (EC 6.1.1.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Leu)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=27086" />
+      <Effector>Leu-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1431" Name="leuS" Position="-205" Score="75.5">
+          <Sequence>TAAACACGTATAGTATTAAGCATTTAGAGGCTTTTCTACAGAGAGCTAGTGTTGGTGAGAGCTAGTGTTAAGGACTAAATGACTTATTAACATAAACGACATTTAACTAGACATCTCTTACTATTAAAATGAAGTGCGCTAACTGTTAGCGAATAAGGGTGGTAACGCGGCACAGGTCGTCCCTTTC</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314223" LocusId="SE1431" Name="leuS" Function="Leucyl-tRNA synthetase (EC 6.1.1.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Met)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=27320" />
+      <Effector>Met-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE2379" Name="metI" Position="-131" Score="36.5">
+          <Sequence>AGGTTACTTTAGTAATAAAGTAGCAAACAAAGGTGGTACCGCGAAGTTTAAGCTTTCGTCCTTTA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="315171" LocusId="SE2379" Name="metI" Function="Cystathionine gamma-synthase (EC 2.5.1.48)" />
+          <Members vimssId="315172" LocusId="SE2380" Name="metC" Function="Cystathionine beta-lyase (EC 4.4.1.8)" />
+          <Members vimssId="315173" LocusId="SE2381" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20) / Homolog of homocysteine-binding domain" />
+          <Members vimssId="315174" LocusId="SE2382" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+          <Members vimssId="315175" LocusId="SE2383" Name="mdh" Function="Metal-dependent hydrolase/cyclase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Phe)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=27437" />
+      <Effector>Phe-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE0831" Name="pheS" Position="-298" Score="74.7">
+          <Sequence>AATAACCTATAAAAAGACATAAATTATTTAGAAAGTTGAAAAGGGAGAATGATCGAGACTGAAAGTCATTCCAACTTGTAATAATTTTTTCATCTTTTTGGTAACTTAAAGAAATTTAAGTCGGAATAGTCATTCCGTTATCAATAGATTTACAAGTGTATGCGCATGCATAAATTTGGGTGGTACCACGGAAAGCTTTCGTCCCTTTTGA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="313623" LocusId="SE0831" Name="pheS" Function="Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)" />
+          <Members vimssId="313624" LocusId="SE0832" Name="pheT" Function="Phenylalanyl-tRNA synthetase beta chain (EC 6.1.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ser)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=27671" />
+      <Effector>Ser-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE0007" Name="serS" Position="-295" Score="85.7">
+          <Sequence>TTGTTCGTAGGACAAGTAGCATAGATAGTTCGATTTCAGAGAGCTTGTGGTAAGTGAGAACAAGTAATTGACATTCATGTGAATCTACCTACTATATGTGAACAATCGGTAATAACCGTTATTTTAGTTAAGCGCAATTTGAGGTAAATGCTTTTAATTTACTTGAAGTTGTTAAATAGGGTGGCAACGCGTAGACCACGTCCCTTGTCT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="312799" LocusId="SE0007" Name="serS" Function="Seryl-tRNA synthetase (EC 6.1.1.11)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Thr)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=27788" />
+      <Effector>Thr-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1357" Name="thrS" Position="-312" Score="74.6">
+          <Sequence>CGTTGAAACTATTGAAGATACGATAATTTAATCTCTGTTACACAGAAAGTCATTAATTGATGAGAATATGGCTAACACATTAAATTATTACTACTTCGTTAATATTGATATTTGTAATGAATATCCGGCTCAAGACCGTTATCTTATGTAAAGTATAGTATATGACTGGTCACGTATGCTTTTCATATACTTAACTAGGGTGGTACCACGACAAACTCGTCCCTTGC</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314149" LocusId="SE1357" Name="thrS" Function="Threonyl-tRNA synthetase (EC 6.1.1.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Trp)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=27905" />
+      <Effector>Trp-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1048" Name="trpE" Position="-412" Score="62.2">
+          <Sequence>TAATTTGATTGATAGAGTAATCATTATATTTTGTAGCAAGCAGAAAGCTAATGGTAGATGTAAATTAGCACATGATAATAGATGAAATGGGCTTTCAAATTTTAACTTAATCATTAAAGTGAACATATATGTTAACTAAGGTGGCACCACGGTAACGCGTCCTTATAGA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1048" Name="trpE" Position="-220" Score="66.1">
+          <Sequence>TTGAAGCAAAGTGAAGTAACTAAAGTTGAGGTAGCACCAGAAAGTTAGTGGTAGATGAGAACTAACACCGTCTTTAGTGAAATTGGGTTTTGTGGAACAACTTAACATAAATTGAACAAGTGAGCTATGAATATATTATATTCTGCTAATAAAGGTGGTACCGCGCGTCAGCGTCCTTATAAC</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="313840" LocusId="SE1048" Name="trpE" Function="Anthranilate synthase, aminase component (EC 4.1.3.27) # TrpAa" />
+          <Members vimssId="313841" LocusId="SE1049" Name="trpG" Function="Anthranilate synthase, amidotransferase component (EC 4.1.3.27) # TrpAb" />
+          <Members vimssId="313842" LocusId="SE1050" Name="trpD" Function="Anthranilate phosphoribosyltransferase (EC 2.4.2.18)" />
+          <Members vimssId="313843" LocusId="SE1051" Name="trpC" Function="Indole-3-glycerol phosphate synthase (EC 4.1.1.48)" />
+          <Members vimssId="313844" LocusId="SE1052" Name="trpF" Function="Phosphoribosylanthranilate isomerase (EC 5.3.1.24)" />
+          <Members vimssId="313845" LocusId="SE1053" Name="trpB" Function="Tryptophan synthase beta chain (EC 4.2.1.20)" />
+          <Members vimssId="313846" LocusId="SE1054" Name="trpA" Function="Tryptophan synthase alpha chain (EC 4.2.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Tyr)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28022" />
+      <Effector>Tyr-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1406" Name="tyrS" Position="-311" Score="75.8">
+          <Sequence>TTTGAATATAAAGGACAAGTAACTTTTGAGAAAGCTTAAAGAGAACTAGTGGTGGCTGTGAACTAGTAGTTTCTTATTGGTGAATACACCTTGCTATTTTTATTATTCAACGTTTTATTAATGAGCGTATCATTAATAGAGATATTTATGAGTAACGAACTCTATCTAAGTATGGTGGTACCGTGCACAAGCGCCCTTACA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314198" LocusId="SE1406" Name="tyrS" Function="Tyrosyl-tRNA synthetase (EC 6.1.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Val)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28139" />
+      <Effector>Val-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1339" Name="valS" Position="-286" Score="95.9">
+          <Sequence>AAAGAATATATTATTTGGGAAGAGTAAGTTTATATCATTTTAAAGAGAGCATATGGTGGCTGTGAATATGTAAATGATTAAGTCTGAAGGTAGCCCTATTTTATAACTTCTATTGAAACATAGACGACAAGTAGGTAGAAGCGTGTATGAGCGTTAATCAGAGACTTAAGTGCTTGAAGAAAAGAATGAATTATTTCTTCTTGAATATAGGTGGTACCACGGAACAGAACATCCGTCCTATTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314131" LocusId="SE1339" Name="valS" Function="Valyl-tRNA synthetase (EC 6.1.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13732" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE2057" Name="thiE" Position="-295" Score="86.9">
+          <Sequence>TTAACCACTGGAAGTGCCTTTGTTTAAGGCTGAGAGTAAAGAACTGACTTTATAATTCCTGGAACCTGATCCAGTTCATACTGGCGTAGGGAAGTGGCGACGCTCAATTTT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE1693" Name="tenA" Position="-171" Score="85.1">
+          <Sequence>TATTTGCTACTAGGGGAGCCAAAAGGCTGAGATGAATGTATTCAGACCCTTATAACCTGATTTGGTTAATACCAACGTAGGAAAGTAGTTATTAACTATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0324" Name="oarX" Position="-195" Score="81">
+          <Sequence>TTATATGCACTAGGGGTGTTTTTTAACTGAGATGGATATCATCCAAACCCTTTGAACCTGAACTAGCTTATACTAGCGGAGGAAAGTGTTGAATCTCATCT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0775" Name="ykoE" Position="-188" Score="69.7">
+          <Sequence>TTGAACGCACTAGGGGTGTATTCTTTACTGAGATGAGGCCAACCTCAAACCCTTCGAACCTGATCTAGCTAGTTACTAGCGTAGGAAAGTGTTGTTATACATCT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SE0251" Name="thiY" Position="-159" Score="67.3">
+          <Sequence>CTAGTATCACTAGGGGTGCAATTCAATTTGCTGAGAGAAAGTCTACTTTCAACCCTTGAACCTGTTGGTTAGCACCGGCGTAGGAAAGTGAGCAATATTGATA</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="313043" LocusId="SE0251" Name="thiY" Function="Hydroxymethylpyrimidine ABC transporter, substrate-binding component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313567" LocusId="SE0775" Name="ykoE" Function="Substrate-specific component YkoE of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine" />
+          <Members vimssId="313566" LocusId="SE0774" Name="ykoD" Function="Duplicated ATPase component YkoD of energizing module of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine" />
+          <Members vimssId="313565" LocusId="SE0773" Name="ykoC" Function="Transmembrane component YkoC of energizing module of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine" />
+        </Operon>
+        <Operon>
+          <Members vimssId="313116" LocusId="SE0324" Name="oarX" Function="Thiamin-related 3-oxoacyl-[acyl-carrier protein] reductase OarX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314485" LocusId="SE1693" Name="tenA" Function="4-amino-5-aminomethyl-2-methylpyrimidine hydrolase TenA" />
+          <Members vimssId="314484" LocusId="SE1692" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+          <Members vimssId="314483" LocusId="SE1691" Name="thiM" Function="Hydroxyethylthiazole kinase (EC 2.7.1.50)" />
+          <Members vimssId="314482" LocusId="SE1690" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="314849" LocusId="SE2057" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+          <Members vimssId="314850" LocusId="SE2058" Name="thiO" Function="Glycine oxidase ThiO (EC 1.4.3.19)" />
+          <Members vimssId="314851" LocusId="SE2059" Name="thiS" Function="Sulfur carrier protein ThiS" />
+          <Members vimssId="314852" LocusId="SE2060" Name="thiG" Function="Thiazole synthase" />
+          <Members vimssId="314853" LocusId="SE2061" Name="thiF" Function="Sulfur carrier protein adenylyltransferase ThiF" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00234" RegulationMode="RF00234">
+      <Regulator Key="glmS" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=22864" />
+      <Effector>Glucosamine-6-phosphate</Effector>
+      <Pathway>Amino sugar metabolism</Pathway>
+      <LocusTag Key="glmS" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE1751" Name="glmS" Position="-387" Score="125">
+          <Sequence>ATTAATAATTAAAGCGCCTGTGCAAAATACCTAAATAGTTATCAAGTATTAAAAGTTAAAATAGTAGAACTTTTATAGATAACGATTTGGATTTTGTAGACGAGGAGGATAGTGATCGAATCAGATCGGCGGATGCTATCCCGGATGTGGCACATTCGTTAGCTTATTAAGTAAATCATTAAGGTGACTTAGTGGACAAAGTTAATAAGATCGCCAAAC</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="314543" LocusId="SE1751" Name="glmS" Function="Glucosamine--fructose-6-phosphate aminotransferase [isomerizing] (EC 2.6.1.16)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=23566" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SE0721" Name="ykoY" Position="-194" Score="71.2">
+          <Sequence>AAACTGTCAGAGGGGAGTAACTTGAGAATAGTTATTGAATGCATTTAAACTGATAATAACTATTCAACACTTTGTCGTCATTACGAAGATAAGTCTTCCGGTAAAGTGGGCAAAAATATTGCTAAGTGAGACCTTTGCTATTAAATT</Sequence>
+          <Bacteria>Staphylococcus epidermidis ATCC 12228</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="313513" LocusId="SE0721" Name="ykoY" Function="Membrane protein TerC, possibly involved in tellurium resistance" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

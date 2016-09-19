@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Geobacter sp. M21" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15076" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="GM21_1903" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7318498&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1617" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GM21_2164" Name="bioB" Position="-72" Score="8.4">
+          <Sequence>TCGTCAACC--------------GGTTGACAA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_3430" Name="bioF" Position="-102" Score="8.4">
+          <Sequence>TTGTCAACC--------------GGTTGACGA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7318761" LocusId="GM21_2164" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="7318762" LocusId="GM21_2165" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+          <Members vimssId="7318763" LocusId="GM21_2166" Name="bioA" Function="Adenosylmethionine-8-amino-7-oxononanoate aminotransferase (EC 2.6.1.62)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7320058" LocusId="GM21_3430" Name="bioF" Function="8-amino-7-oxononanoate synthase (EC 2.3.1.47)" />
+          <Members vimssId="7320057" LocusId="GM21_3429" Name="bioH" Function="Biotin synthesis protein bioH" />
+          <Members vimssId="7320056" LocusId="GM21_3428" Name="bioC" Function="Biotin synthesis protein bioC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1617</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor (activator)">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19560" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="GM21_3769" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7320404&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2114" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GM21_2626" Name="fur" Position="-29" Score="5.1">
+          <Sequence>ATGACATCCACTTTCAA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_2625" Name="feoB1" Position="-63" Score="5.3">
+          <Sequence>ATGAAAGTGATATTCAT</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_3768" Name="PF04966" Position="-135" Score="5.4">
+          <Sequence>ATGAAATTAATTTTCAG</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_3767" Name="feoA1" Position="-38" Score="4.6">
+          <Sequence>GTGAAAATGAAAATTAA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_1219" Name="Gmet_2833" Position="-119" Score="4.6">
+          <Sequence>GTGATAACAGTTTTCAT</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_0447" Name="psp" Position="-101" Score="4.4">
+          <Sequence>TTGAAACTGAAATACAA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7319228" LocusId="GM21_2625" Name="feoB1" Function="Ferrous iron transport protein B" />
+          <Members vimssId="7319227" LocusId="GM21_2624" Name="Gura_3000" Function="hypothetical protein" />
+          <Members vimssId="7319226" LocusId="GM21_2623" Name="ideR" Function="iron (metal) dependent repressor, DtxR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7319229" LocusId="GM21_2626" Name="fur" Function="Ferric uptake regulation protein FUR" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7317017" LocusId="GM21_0447" Name="psp" Function="Iron-regulated porin, similar to phosphate-selective porin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7317805" LocusId="GM21_1219" Name="Gmet_2833" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7320403" LocusId="GM21_3768" Name="PF04966" Function="Iron-regulated porin, similar to carbohydrate-selective porin OprB" />
+          <Members vimssId="7320402" LocusId="GM21_3767" Name="feoA1" Function="Ferrous iron transport protein A" />
+          <Members vimssId="7320401" LocusId="GM21_3766" Name="feoA2" Function="Ferrous iron transport protein A" />
+          <Members vimssId="7320400" LocusId="GM21_3765" Name="feoB2" Function="Ferrous iron transport protein B" />
+          <Members vimssId="7320399" LocusId="GM21_3764" Name="Ppro_0794" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2114</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="Gbem_0803" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60937" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="GM21_0850" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7317427&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="Gbem_0803 - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6258" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GM21_0849" Name="GM21_0849" Position="-187" Score="11.8">
+          <Sequence>TACAGTCT-(17)-TACAGCTA-(11)-CAATGCCA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7317426" LocusId="GM21_0849" Name="GM21_0849" Function="Glycosyl transferase, group 2 family protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6258</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="HcpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62683" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="GM21_3468" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7320101&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="HcpR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6450" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GM21_3228" Name="hcp" Position="-117" Score="5.4">
+          <Sequence>TTATGACTTAGGTCAAGG</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_4043" Name="PF02085" Position="-117" Score="5.4">
+          <Sequence>CCTTGACTTTGGTCAAGG</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_3032" Name="dnrN" Position="-123" Score="5.2">
+          <Sequence>TCTTGACCTGGATCATGA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_1234" Name="SSF140683" Position="-76" Score="5.1">
+          <Sequence>TTTTGACCCATGTCATAA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_0136" Name="ygbA" Position="-39" Score="5.2">
+          <Sequence>TCTTGACTTTGGTCATGA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_0411" Name="COG1917" Position="-83" Score="4.4">
+          <Sequence>GATTGACTTGCATCAATT</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7316700" LocusId="GM21_0136" Name="ygbA" Function="hypothetical protein involved in nitrosative stress" />
+          <Members vimssId="7316701" LocusId="GM21_0137" Name="frdX1" Function="Ferredoxin fused to uncharacterized domain" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7316980" LocusId="GM21_0411" Name="COG1917" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7319639" LocusId="GM21_3032" Name="dnrN" Function="Nitric oxide-dependent regulator DnrN or NorA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7317820" LocusId="GM21_1234" Name="SSF140683" Function="SP0561-like superfamily hypothetical protein" />
+          <Members vimssId="7317819" LocusId="GM21_1233" Name="frdX2" Function="Ferredoxin fused to uncharacterized domain" />
+          <Members vimssId="7317818" LocusId="GM21_1232" Name="COG3945" Function="Hemerythrin HHE cation binding domain hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7320678" LocusId="GM21_4043" Name="PF02085" Function="cytochrome c family protein, putative" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7319841" LocusId="GM21_3228" Name="hcp" Function="Hydroxylamine reductase (EC 1.7.-.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6450</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49778" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="GM21_3576" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7320210&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5041" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GM21_0586" Name="rpoH" Position="-69" Score="6.8">
+          <Sequence>TTAGCGCTCACATGGGCAGAGTGCTAA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_0232" Name="groS" Position="-78" Score="7.6">
+          <Sequence>TTAGCACTCAGCAGTTTTGAGTGCTAA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_3576" Name="hrcA" Position="-47" Score="7.4">
+          <Sequence>TTAGCACTCGAACTTTTTGAGTGCTAA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7320210" LocusId="GM21_3576" Name="hrcA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="7320209" LocusId="GM21_3575" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="7320208" LocusId="GM21_3574" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="7320207" LocusId="GM21_3573" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7316800" LocusId="GM21_0232" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="7316801" LocusId="GM21_0233" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7317162" LocusId="GM21_0586" Name="rpoH" Function="Heat shock response RNA polymerase sigma factor RpoH (Sigma 32)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5041</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28422" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="GM21_2490" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7319092&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2990" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GM21_2490" Name="lexA" Position="-33" Score="5.8">
+          <Sequence>GGTTGTCATAAGAAAACC</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_2490" Name="lexA" Position="-49" Score="5.2">
+          <Sequence>GGTTGTCATTTGGTAAGG</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7319092" LocusId="GM21_2490" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+          <Members vimssId="7319093" LocusId="GM21_2491" Name="Gmet_1440" Function="Conserved hypothetical protein" />
+          <Members vimssId="7319094" LocusId="GM21_2492" Name="dinB" Function="DNA polymerase IV (EC 2.7.7.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2990</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="LldR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16700" />
+      <Effector>L-lactate</Effector>
+      <Pathway>Lactate utilization</Pathway>
+      <LocusTag Key="GM21_1321" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7317909&amp;disp=0" />
+      <BiologicalProcess>Lactate utilization</BiologicalProcess>
+      <Regulog Key="LldR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1799" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GM21_1315" Name="lldG" Position="-280" Score="4.6">
+          <Sequence>TTTTGGTCAGGCCAATT</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_1315" Name="lldG" Position="-172" Score="4">
+          <Sequence>ATTTGGTCATATCTATT</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_1316" Name="lldP" Position="-276" Score="4">
+          <Sequence>AATAGATATGACCAAAT</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_1316" Name="lldP" Position="-168" Score="4.6">
+          <Sequence>AATTGGCCTGACCAAAA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7317903" LocusId="GM21_1315" Name="lldG" Function="L-lactate dehydrogenase, hypothetical protein subunit LldG" />
+          <Members vimssId="7317902" LocusId="GM21_1314" Name="lldEF" Function="L-lactate dehydrogenase, Fe-S oxidoreductase subunit LldE / L-lactate dehydrogenase, Iron-sulfur cluster-binding subunit LldF" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7317904" LocusId="GM21_1316" Name="lldP" Function="L-lactate permease" />
+          <Members vimssId="7317905" LocusId="GM21_1317" Name="null" Function="LrgA family protein" />
+          <Members vimssId="7317906" LocusId="GM21_1318" Name="null" Function="LrgB family protein" />
+          <Members vimssId="7317907" LocusId="GM21_1319" Name="glcD" Function="Predicted glycolate dehydrogenase, 2-subunit type (EC 1.1.99.14), iron-sulfur subunit GlcD" />
+          <Members vimssId="7317908" LocusId="GM21_1320" Name="glcF" Function="Predicted glycolate dehydrogenase, 2-subunit type (EC 1.1.99.14), iron-sulfur subunit GlcF" />
+          <Members vimssId="7317909" LocusId="GM21_1321" Name="lldR" Function="Lactate-responsive regulator LldR, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1799</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21323" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdenum homeostasis</Pathway>
+      <LocusTag Key="GM21_2529" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7319132&amp;disp=0" />
+      <BiologicalProcess>Molybdenum homeostasis</BiologicalProcess>
+      <Regulog Key="ModE - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2310" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GM21_2529" Name="modE" Position="-136" Score="5.2">
+          <Sequence>TTTCTCCATATAGGTTGTGCTATAACGATG</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7319132" LocusId="GM21_2529" Name="modE" Function="Molybdate-responsive transcriptional regulator ModE" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2310</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NikR" RegulationMode="repressor">
+      <Regulator Key="NikR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15998" />
+      <Effector>Nickel ion, (Ni2+)</Effector>
+      <Pathway>Nickel homeostasis</Pathway>
+      <LocusTag Key="GM21_3628" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7320262&amp;disp=0" />
+      <BiologicalProcess>Nickel homeostasis</BiologicalProcess>
+      <Regulog Key="NikR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1720" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GM21_2002" Name="nikMN" Position="-66" Score="6.5">
+          <Sequence>GTGTTAC-------------GTGCTAC</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7318597" LocusId="GM21_2002" Name="nikMN" Function="Substrate-specific component NikM of nickel ECF transporter / Additional substrate-specific component NikN of nickel ECF transporter" />
+          <Members vimssId="7318598" LocusId="GM21_2003" Name="nikQ" Function="Transmembrane component NikQ of energizing module of nickel ECF transporter" />
+          <Members vimssId="7318599" LocusId="GM21_2004" Name="nikO" Function="ATPase component NikO of energizing module of nickel ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1720</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15632" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="GM21_1225" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7317811&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1679" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GM21_3073" Name="nrdJ" Position="-98" Score="4.4">
+          <Sequence>GTCATACATCTTGTGG</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_3073" Name="nrdJ" Position="-67" Score="4.8">
+          <Sequence>CCACTAAATGTGGTGT</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7319684" LocusId="GM21_3073" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1679</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19402" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="GM21_1405" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7317994&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2096" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GM21_1403" Name="nifR" Position="-36" Score="5.1">
+          <Sequence>TGCTCATTTTTTAGGCA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_0175" Name="gdhA" Position="-143" Score="4.8">
+          <Sequence>TGCATGTTTTTCGGGCA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_0175" Name="gdhA" Position="-100" Score="4.3">
+          <Sequence>TGCATACAAATGTGGCA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_3137" Name="Gmet_0693" Position="-311" Score="4.1">
+          <Sequence>TGCACAAACAATAGGCT</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_1183" Name="glnB" Position="-158" Score="4.2">
+          <Sequence>TGCCGGAATGTTGTGCA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7317768" LocusId="GM21_1183" Name="glnB" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="7317769" LocusId="GM21_1184" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7317992" LocusId="GM21_1403" Name="nifR" Function="Predicted oxidoreductase, FAD binding" />
+          <Members vimssId="7317993" LocusId="GM21_1404" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="7317994" LocusId="GM21_1405" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7319749" LocusId="GM21_3137" Name="Gmet_0693" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7316739" LocusId="GM21_0175" Name="gdhA" Function="NADP-specific glutamate dehydrogenase (EC 1.4.1.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2096</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxW" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61362" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="GM21_0205" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7316771&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxW - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6301" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GM21_0206" Name="pdxO" Position="-124" Score="6.5">
+          <Sequence>ATCTGCACC--------------------------------GGGGCAGCA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_0205" Name="pdxW" Position="-125" Score="6.5">
+          <Sequence>TGCTGCCCC--------------------------------GGTGCAGAT</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7316772" LocusId="GM21_0206" Name="pdxO" Function="Pyridoxamine 5'-phosphate oxidase-related, FMN-binding" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7316771" LocusId="GM21_0205" Name="pdxW" Function="Predicted transcriptional regulator of pyridoxine metabolism, GntR/MocR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6301</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PrpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17256" />
+      <Effector>2-methylcitrate</Effector>
+      <Pathway>Methylcitrate utilization</Pathway>
+      <LocusTag Key="GM21_0841" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7317418&amp;disp=0" />
+      <BiologicalProcess>Methylcitrate utilization</BiologicalProcess>
+      <Regulog Key="PrpR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1861" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GM21_0841" Name="prpR" Position="-74" Score="4.1">
+          <Sequence>ACTGTTGACAGT</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_0841" Name="prpR" Position="-14" Score="4.8">
+          <Sequence>GGTGTCGACAAT</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7317418" LocusId="GM21_0841" Name="prpR" Function="Propionate catabolism transcriptional regulator, GntR family" />
+          <Members vimssId="7317419" LocusId="GM21_0842" Name="ach" Function="Acetyl-CoA hydrolase (EC 3.1.2.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1861</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SahR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15834" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="GM21_2939" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7319543&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SahR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1701" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GM21_2939" Name="sahR" Position="-45" Score="5.6">
+          <Sequence>ATATCAAGGAAACTTGATTT</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7319543" LocusId="GM21_2939" Name="sahR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+          <Members vimssId="7319542" LocusId="GM21_2938" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1701</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="SdhR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62177" />
+      <Effector />
+      <Pathway>Tricarboxylic acid cycle</Pathway>
+      <LocusTag Key="GM21_3878" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7320513&amp;disp=0" />
+      <BiologicalProcess>Tricarboxylic acid cycle</BiologicalProcess>
+      <Regulog Key="SdhR2 - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6389" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GM21_0912" Name="sdhC" Position="-290" Score="6.2">
+          <Sequence>TTGTATGCTGTATACAA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_1324" Name="icd" Position="-224" Score="6.8">
+          <Sequence>TTGTATACTGTATACAA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_2561" Name="gltA" Position="-131" Score="5.7">
+          <Sequence>TTGTATACAGTATACCT</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_4011" Name="hemL" Position="-261" Score="5.7">
+          <Sequence>AGGTATACTGTATACAA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_3878" Name="sdhR2" Position="-43" Score="6.2">
+          <Sequence>TTGGATACTGTATACAA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_3877" Name="Gura_4160" Position="-120" Score="6.2">
+          <Sequence>TTGTATACAGTATCCAA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_4010" Name="nuoA-1" Position="-145" Score="5.7">
+          <Sequence>TTGTATACAGTATACCT</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_2989" Name="acnB" Position="-92" Score="5.6">
+          <Sequence>CTGTATACAGTATCCAC</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_0672" Name="sfrB" Position="-99" Score="5.9">
+          <Sequence>CTGGATACTGTATACAA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7319593" LocusId="GM21_2989" Name="acnB" Function="Aconitate hydratase 2 (EC 4.2.1.3) / 2-methylisocitrate dehydratase (EC 4.2.1.99)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7319164" LocusId="GM21_2561" Name="gltA" Function="Citrate synthase (si) (EC 2.3.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7317494" LocusId="GM21_0912" Name="sdhC" Function="Succinate dehydrogenase cytochrome b558 subunit" />
+          <Members vimssId="7317495" LocusId="GM21_0913" Name="sdhA" Function="Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1)" />
+          <Members vimssId="7317496" LocusId="GM21_0914" Name="frdB" Function="Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7317248" LocusId="GM21_0672" Name="sfrB" Function="Fe(III) reductase, beta subunit" />
+          <Members vimssId="7317249" LocusId="GM21_0673" Name="sfrA" Function="Fe(III) reductase, alpha subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7317912" LocusId="GM21_1324" Name="icd" Function="Isocitrate dehydrogenase [NADP] (EC 1.1.1.42); Monomeric isocitrate dehydrogenase [NADP] (EC 1.1.1.42)" />
+          <Members vimssId="7317913" LocusId="GM21_1325" Name="mdh" Function="Malate dehydrogenase (EC 1.1.1.37)" />
+          <Members vimssId="7317914" LocusId="GM21_1326" Name="Gura_2192" Function="2-oxoglutarate oxidoreductase, delta subunit, putative (EC 1.2.7.3)" />
+          <Members vimssId="7317915" LocusId="GM21_1327" Name="Gura_2191" Function="2-oxoglutarate oxidoreductase, alpha subunit (EC 1.2.7.3)" />
+          <Members vimssId="7317916" LocusId="GM21_1328" Name="Gura_2190" Function="2-oxoglutarate oxidoreductase, beta subunit (EC 1.2.7.3)" />
+          <Members vimssId="7317917" LocusId="GM21_1329" Name="Gura_2189" Function="2-oxoglutarate oxidoreductase, gamma subunit (EC 1.2.7.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7320513" LocusId="GM21_3878" Name="sdhR2" Function="Transcriptional regulator of central carbohydrate metabolism, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7320645" LocusId="GM21_4010" Name="nuoA-1" Function="NADH ubiquinone oxidoreductase chain A (EC 1.6.5.3)" />
+          <Members vimssId="7320644" LocusId="GM21_4009" Name="nuoB" Function="NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)" />
+          <Members vimssId="7320643" LocusId="GM21_4008" Name="nuoC" Function="NADH-ubiquinone oxidoreductase chain C (EC 1.6.5.3)" />
+          <Members vimssId="7320642" LocusId="GM21_4007" Name="nouD" Function="NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)" />
+          <Members vimssId="7320641" LocusId="GM21_4006" Name="nuoE-1" Function="NADH-ubiquinone oxidoreductase chain E (EC 1.6.5.3)" />
+          <Members vimssId="7320640" LocusId="GM21_4005" Name="nouF" Function="NADH-ubiquinone oxidoreductase chain F (EC 1.6.5.3)" />
+          <Members vimssId="7320639" LocusId="GM21_4004" Name="Gura_4238" Function="NADH-ubiquinone oxidoreductase chain G (EC 1.6.5.3)" />
+          <Members vimssId="7320638" LocusId="GM21_4003" Name="nuoH-1" Function="NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)" />
+          <Members vimssId="7320637" LocusId="GM21_4002" Name="nuoI-1" Function="NADH-ubiquinone oxidoreductase chain I (EC 1.6.5.3)" />
+          <Members vimssId="7320636" LocusId="GM21_4001" Name="nuoJ" Function="NADH-ubiquinone oxidoreductase chain J (EC 1.6.5.3)" />
+          <Members vimssId="7320635" LocusId="GM21_4000" Name="nuoK" Function="NADH-ubiquinone oxidoreductase chain K (EC 1.6.5.3)" />
+          <Members vimssId="7320634" LocusId="GM21_3999" Name="nuoL-1" Function="NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)" />
+          <Members vimssId="7320633" LocusId="GM21_3998" Name="nuoM-1" Function="NADH-ubiquinone oxidoreductase chain M (EC 1.6.5.3)" />
+          <Members vimssId="7320632" LocusId="GM21_3997" Name="nuoN-2" Function="NADH-ubiquinone oxidoreductase chain N (EC 1.6.5.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7320646" LocusId="GM21_4011" Name="hemL" Function="Glutamate-1-semialdehyde aminotransferase (EC 5.4.3.8)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7320512" LocusId="GM21_3877" Name="Gura_4160" Function="K+ transport systems, NAD-binding component" />
+          <Members vimssId="7320511" LocusId="GM21_3876" Name="Gura_4159" Function="Sugar phosphate isomerases/epimerases" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6389</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16172" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="GM21_3601" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7320235&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1739" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GM21_3601" Name="zur" Position="-32" Score="7.5">
+          <Sequence>TAAAACGAAATCATTTCCATTTA</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7320235" LocusId="GM21_3601" Name="zur" Function="Zinc uptake regulation protein Zur" />
+          <Members vimssId="7320234" LocusId="GM21_3600" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+          <Members vimssId="7320233" LocusId="GM21_3599" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="7320232" LocusId="GM21_3598" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1739</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01055" RegulationMode="RF01055">
+      <Regulator Key="MOCO_RNA_motif" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=55440" />
+      <Effector>Molybdenum</Effector>
+      <Pathway>Molybdopterin biosynthesis; Tungsten homeostasis; Molybdenum homeostasis</Pathway>
+      <LocusTag Key="MOCO_RNA_motif" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GM21_1950" Name="moeA" Position="-196" Score="73.8">
+          <Sequence>TTAAGCAAATAGTCTCCGAGCCGCAGCGTTCTAAAGGGAGTACCCCCACGAAGCTGGGGCCGTTGGGTGCCGCCGGAAACGGCGCCGCCTCCCCTTTGGAAAGGAGAACCGCCGCCGCTATC</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_1608" Name="" Position="-290" Score="72.2">
+          <Sequence>GAAAAATCAGTCTCCGAGCCGTGGCGCCTAAAAGGGATTTCCCCTCAGGGCGGGCCGGCCTATGGGTATCGCTGGAAACGGCGGTGCCTCCCTTTTGCAAAGGAGACCCCAACGGCCGGAGTG</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GM21_2933" Name="aor" Position="-153" Score="59.1">
+          <Sequence>GGTTTTTGAATCTCCGAGCCATGCGCCACCTAAAAGGGATAACCCTCACGGAGCCAGGCCAACGGGTTTCGCTGGAAACGGCGGAGCCTCCCTCTTGGAAAGGAGCCCCGGCAGCGATGCCGG</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7319537" LocusId="GM21_2933" Name="aor" Function="Tungsten-containing aldehyde ferredoxin oxidoreductase (EC 1.2.7.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7318200" LocusId="GM21_1608" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7318201" LocusId="GM21_1609" Name="aor" Function="Tungsten-containing aldehyde ferredoxin oxidoreductase (EC 1.2.7.5)" />
+          <Members vimssId="7318202" LocusId="GM21_1610" Name="COG0437" Function="Fe-S-cluster-containing hydrogenase components" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7318545" LocusId="GM21_1950" Name="moeA" Function="Molybdopterin biosynthesis protein MoeA" />
+          <Members vimssId="7318544" LocusId="GM21_1949" Name="moaC" Function="Molybdenum cofactor biosynthesis protein MoaC" />
+          <Members vimssId="7318543" LocusId="GM21_1948" Name="moaB" Function="Molybdenum cofactor biosynthesis protein MoaB" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48817" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GM21_3528" Name="thiED" Position="-381" Score="80.2">
+          <Sequence>AAGCCAGCTAGGGGAGTTCTTGAGAACTGAGACAGGCGCGGCCTGAACCCTTTGAACCTGATCCGGTTGACACCGGCGTAGGGAAGCGGCGCGAACTCCGAGC</Sequence>
+          <Bacteria>Geobacter sp. M21</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7320161" LocusId="GM21_3528" Name="thiED" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3) / Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

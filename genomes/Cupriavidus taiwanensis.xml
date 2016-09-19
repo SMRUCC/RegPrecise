@@ -1,0 +1,2104 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Cupriavidus taiwanensis" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51241" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="RALTA_A3062" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5904017&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5194" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A3062" Name="cadR" Position="-39" Score="6.1">
+          <Sequence>ACCCTGTAGTCGTTACAGGGT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B1454" Name="cadA" Position="-61" Score="6.4">
+          <Sequence>ACTCTGTAGCCACTACAGGGT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5904017" LocusId="RALTA_A3062" Name="cadR" Function="Cadmium resistance transcriptional regulator, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5906182" LocusId="RALTA_B1454" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5194</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="CueR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50861" />
+      <Effector>Copper ion, (Cu+)</Effector>
+      <Pathway>Copper resistance</Pathway>
+      <LocusTag Key="RALTA_A3122" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5904080&amp;disp=0" />
+      <BiologicalProcess>Copper resistance</BiologicalProcess>
+      <Regulog Key="CueR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5153" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A3125" Name="copZ" Position="-80" Score="5.3">
+          <Sequence>CGCTTCCCATGGTGGCAAGGT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A3123" Name="copA" Position="-60" Score="6">
+          <Sequence>ACCTTCCAATGATGGTAAGGT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5904081" LocusId="RALTA_A3123" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="5904080" LocusId="RALTA_A3122" Name="cueR" Function="Copper-responsive transcriptional regulator, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5904082" LocusId="RALTA_A3125" Name="copZ" Function="Copper chaperone" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5153</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="Dnr" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9893" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Denitrification</Pathway>
+      <LocusTag Key="" Value="" />
+      <BiologicalProcess>Denitrification</BiologicalProcess>
+      <Regulog Key="Dnr - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1086" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_B2049" Name="nirS" Position="-123" Score="4.5">
+          <Sequence>GTTTGATGACAGTCAATC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5906759" LocusId="RALTA_B2049" Name="nirS" Function="Nitrite reductase NirS (Cytochrome cd1)" />
+          <Members vimssId="5906760" LocusId="RALTA_B2050" Name="nirC" Function="cytochrome c, nitrite reductase associated (NirC)" />
+          <Members vimssId="5906761" LocusId="RALTA_B2051" Name="nirF" Function="heme d1 biosynthesis protein (NirF)" />
+          <Members vimssId="5906762" LocusId="RALTA_B2052" Name="nirD" Function="heme d1 biosynthesis protein (NirD)" />
+          <Members vimssId="5906763" LocusId="RALTA_B2053" Name="nirG" Function="heme d1 biosynthesis protein (NirG)" />
+          <Members vimssId="5906764" LocusId="RALTA_B2054" Name="nirH" Function="heme d1 biosynthesis protein (NirH)" />
+          <Members vimssId="5906765" LocusId="RALTA_B2055" Name="nirJ" Function="heme d1 biosynthesis protein (NirJ)" />
+          <Members vimssId="5906766" LocusId="RALTA_B2056" Name="nirN" Function="C-type cytochrome (NirN)" />
+          <Members vimssId="5906767" LocusId="RALTA_B2057" Name="nirE" Function="Uroporphyrin-III C-methyltransferase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1086</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="">
+      <Regulator Key="FadP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9996" />
+      <Effector />
+      <Pathway>Fatty acid degradation</Pathway>
+      <LocusTag Key="RALTA_A0402" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5901355&amp;disp=0" />
+      <BiologicalProcess>Fatty acid degradation</BiologicalProcess>
+      <Regulog Key="FadP - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1100" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A0402" Name="fadP" Position="-141" Score="4.9">
+          <Sequence>CTGAACGACCGTTCTT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0795" Name="etfB" Position="-98" Score="5.5">
+          <Sequence>TAGTACGATCGTTCGA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1245" Name="etfD" Position="-288" Score="5.1">
+          <Sequence>AAGAACGACCGTTCCA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A2284" Name="fadD2" Position="-73" Score="5.4">
+          <Sequence>TAGAACGATCGTTCGG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1480" Name="RSc1772" Position="-97" Score="5.3">
+          <Sequence>TCGAACGATCGTTCAC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1467" Name="fadB" Position="-218" Score="5.5">
+          <Sequence>TTGAACGACCGTGCTA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1174" Name="acsA" Position="-95" Score="5.5">
+          <Sequence>TAGAACGATCGTTCGC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0233" Name="nppD" Position="-58" Score="5.2">
+          <Sequence>TCGAACGACCGTTCAC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0108" Name="liuR" Position="-32" Score="4.9">
+          <Sequence>ACGAACGACCGTTCAC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0160" Name="Rmet_0145" Position="-43" Score="5.5">
+          <Sequence>GCGAACGATCGTTCTA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1087" Name="paaH1" Position="-31" Score="4.9">
+          <Sequence>ACGTACGATCGTGCTA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A2744" Name="fadD1" Position="-35" Score="4.7">
+          <Sequence>TCGAACGACCATTCAG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1050" Name="RSc2046" Position="-87" Score="5.4">
+          <Sequence>ACGAACGGTCGTTCTA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1050" Name="RSc2046" Position="-64" Score="5.2">
+          <Sequence>TAGCACGACCGTTCAC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1359" Name="bktB" Position="-72" Score="4.6">
+          <Sequence>AAGTACGACCGTTCAC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1460" Name="alkK" Position="-73" Score="4.6">
+          <Sequence>GCGAACGACCGTCCAA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1460" Name="alkK" Position="-54" Score="4.4">
+          <Sequence>TAGTACGGTTGTTCGT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5903231" LocusId="RALTA_A2284" Name="fadD2" Function="Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5902186" LocusId="RALTA_A1245" Name="etfD" Function="Electron transfer flavoprotein-ubiquinone oxidoreductase (EC 1.5.5.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5901738" LocusId="RALTA_A0795" Name="etfB" Function="Electron transfer flavoprotein, beta subunit" />
+          <Members vimssId="5901739" LocusId="RALTA_A0796" Name="etfA" Function="Electron transfer flavoprotein alpha subunit" />
+          <Members vimssId="5901740" LocusId="RALTA_A0797" Name="acdH2" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5901355" LocusId="RALTA_A0402" Name="fadP" Function="Predicted transcriptional regulator for fatty acid degradation FadP, TetR family" />
+          <Members vimssId="5901356" LocusId="RALTA_A0403" Name="acdH" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+          <Members vimssId="5901357" LocusId="RALTA_A0404" Name="acdB" Function="Enoyl-CoA hydratase (EC 4.2.1.17) / 3,2-trans-enoyl-CoA isomerase (EC 5.3.3.8) / 3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35)" />
+          <Members vimssId="5901358" LocusId="RALTA_A0405" Name="acdA" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16) @ Acetyl-CoA acetyltransferase (EC 2.3.1.9)" />
+          <Members vimssId="5901359" LocusId="RALTA_A0406" Name="degV" Function="conserved hypothetical protein, DegV family" />
+          <Members vimssId="5901360" LocusId="RALTA_A0407" Name="echH" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5902415" LocusId="RALTA_A1480" Name="RSc1772" Function="Alpha/beta hydrolase fold-3 domain protein" />
+          <Members vimssId="5902416" LocusId="RALTA_A1481" Name="h16_A1555" Function="conserved hypothetical protein, UPF0065" />
+          <Members vimssId="5902417" LocusId="RALTA_A1482" Name="Rsc1773" Function="putative 4-hydroxybenzoyl-CoA thioesterase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5902402" LocusId="RALTA_A1467" Name="fadB" Function="Enoyl-CoA hydratase (EC 4.2.1.17) / Delta(3)-cis-delta(2)-trans-enoyl-CoA isomerase (EC 5.3.3.8) / 3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35) / 3-hydroxybutyryl-CoA epimerase (EC 5.1.2.3)" />
+          <Members vimssId="5902403" LocusId="RALTA_A1468" Name="pncA" Function="Nicotinamidase (EC 3.5.1.19)" />
+          <Members vimssId="5902404" LocusId="RALTA_A1469" Name="fadA" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16)" />
+          <Members vimssId="5902405" LocusId="RALTA_A1470" Name="paaI" Function="phenylacetic acid degradation protein PaaI" />
+          <Members vimssId="5902406" LocusId="RALTA_A1471" Name="acdH3" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5902115" LocusId="RALTA_A1174" Name="acsA" Function="Acetyl-coenzyme A synthetase (EC 6.2.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5901189" LocusId="RALTA_A0233" Name="nppD" Function="2-nitropropane dioxygenase NPD" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5901063" LocusId="RALTA_A0108" Name="liuR" Function="Predicted transcriptional regulator LiuR of leucine degradation pathway, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5901115" LocusId="RALTA_A0160" Name="Rmet_0145" Function="TesB-like acyl-CoA thioesterase 2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5902029" LocusId="RALTA_A1087" Name="paaH1" Function="3-hydroxybutyryl-CoA dehydrogenase, phenylacetic acid degradation" />
+          <Members vimssId="5902028" LocusId="RALTA_A1086" Name="paaG4" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+          <Members vimssId="5902027" LocusId="RALTA_A1085" Name="BPSL1236" Function="Putative phosphoglycerate mutase" />
+          <Members vimssId="5902026" LocusId="RALTA_A1084" Name="BPSL1235" Function="Phosphotransferase enzyme family protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5903693" LocusId="RALTA_A2744" Name="fadD1" Function="Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5901992" LocusId="RALTA_A1050" Name="RSc2046" Function="conserved hypothetical protein, DUF1178" />
+          <Members vimssId="5901993" LocusId="RALTA_A1051" Name="acdQ" Function="Acyl-CoA dehydrogenase (EC 1.3.99.-)" />
+          <Members vimssId="5901994" LocusId="RALTA_A1052" Name="acdP" Function="acyl-CoA dehydrogenase domain protein" />
+          <Members vimssId="5901995" LocusId="RALTA_A1053" Name="maoC" Function="Putative (R)-specific enoyl-CoA hydratase, MaoC- like" />
+          <Members vimssId="5901996" LocusId="RALTA_A1054" Name="echI" Function="MaoC domain protein dehydratase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5902298" LocusId="RALTA_A1359" Name="bktB" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16)" />
+          <Members vimssId="5902299" LocusId="RALTA_A1360" Name="RSc1638" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5902395" LocusId="RALTA_A1460" Name="alkK" Function="Medium-chain-fatty-acid-CoA ligase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1100</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="FdsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58471" />
+      <Effector>Formate</Effector>
+      <Pathway>Formate oxydation</Pathway>
+      <LocusTag Key="RALTA_A0596" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5901548&amp;disp=0" />
+      <BiologicalProcess>Formate oxydation</BiologicalProcess>
+      <Regulog Key="FdsR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5983" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A0597" Name="fdsG" Position="-163" Score="5.6">
+          <Sequence>ATATGTAGAAAATAGCTTAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0597" Name="fdsG" Position="-77" Score="5.7">
+          <Sequence>ATAGGAAAAAAATAGCATAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0596" Name="fdsR" Position="-104" Score="5.7">
+          <Sequence>ATATGCTATTTTTTTCCTAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0596" Name="fdsR" Position="-18" Score="5.6">
+          <Sequence>ATAAGCTATTTTCTACATAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5901548" LocusId="RALTA_A0596" Name="fdsR" Function="Formate dehydrogenase transcriptional regulator FdsR, ModE family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5901549" LocusId="RALTA_A0597" Name="fdsG" Function="NAD-dependent formate dehydrogenase (EC  1.2.1.2), gamma subunit" />
+          <Members vimssId="5901550" LocusId="RALTA_A0598" Name="fdsB" Function="NAD-dependent formate dehydrogenase (EC  1.2.1.2), beta subunit" />
+          <Members vimssId="5901551" LocusId="RALTA_A0599" Name="fdsA" Function="NAD-dependent formate dehydrogenase (EC  1.2.1.2), alpha subunit" />
+          <Members vimssId="5901552" LocusId="RALTA_A0600" Name="fdsC" Function="NAD-dependent formate dehydrogenase (EC  1.2.1.2), accessory protein" />
+          <Members vimssId="5901553" LocusId="RALTA_A0601" Name="fdsD" Function="NAD-dependent formate dehydrogenase (EC  1.2.1.2), delta subunit" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5983</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor (activator)">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9934" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="RALTA_B0107" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5904854&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1092" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_B0125" Name="" Position="-157" Score="5.2">
+          <Sequence>AATGCGAATTGTTATCATT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B2199" Name="" Position="-67" Score="5">
+          <Sequence>AATGCGAATTATTCGCATT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B1494" Name="fhuA3" Position="-57" Score="5.3">
+          <Sequence>AACAAGAATTATTCTCATT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0266" Name="bfd" Position="-56" Score="5.2">
+          <Sequence>AATGGGAATTGTTATCATT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B0077" Name="feoA" Position="-83" Score="5.2">
+          <Sequence>AATGAAAACGATTTTCATT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A2036" Name="tonB" Position="-206" Score="5.3">
+          <Sequence>AATAAGAATCATTATCGTT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B1811" Name="" Position="-153" Score="5">
+          <Sequence>TATGAGAATGATTGTTATT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A2655" Name="" Position="-92" Score="4.7">
+          <Sequence>AATAGGAATAATTCGCAAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0777" Name="" Position="-84" Score="5.6">
+          <Sequence>ATTGAGAATCATTATCATT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A2040" Name="" Position="-108" Score="5.6">
+          <Sequence>AATGATAACAATTCTCATT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B0897" Name="aleB" Position="-70" Score="5.1">
+          <Sequence>ATCGAGAATCATTATCATT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1364" Name="" Position="-330" Score="5.4">
+          <Sequence>AATGCGAATCATTATTATT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1365" Name="" Position="-46" Score="5.4">
+          <Sequence>AATGCGAATCATTATTATT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B1229" Name="fhuA2" Position="-62" Score="4.8">
+          <Sequence>AATGACAATGATTTGCATT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B0923" Name="fhuA1" Position="-84" Score="4.2">
+          <Sequence>ATCACGAATCATTCCTATT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B2301" Name="" Position="-101" Score="4.2">
+          <Sequence>TTTGAGAATCACTCGCATT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5906528" LocusId="RALTA_B1811" Name="null" Function="TonB-dependent outer membrane iron transport protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5905960" LocusId="RALTA_B1229" Name="fhuA2" Function="TonB-dependent siderophore transporter, hydroxamate-type" />
+          <Members vimssId="5905961" LocusId="RALTA_B1230" Name="null" Function="conserved hypothetical protein; putative Membrane protein; DUF337,Uncharacterized iron-regulated membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5905665" LocusId="RALTA_B0923" Name="fhuA1" Function="TonB-dependent siderophore transporter, hydroxomate-type" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5906908" LocusId="RALTA_B2199" Name="null" Function="Putative TonB-dependent siderophore transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5904872" LocusId="RALTA_B0125" Name="null" Function="putative component of iron permease" />
+          <Members vimssId="5904873" LocusId="RALTA_B0126" Name="null" Function="Uncharacterized iron-regulated membrane protein, DUF337 family" />
+          <Members vimssId="5904874" LocusId="RALTA_B0127" Name="null" Function="putative iron uptake protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5906221" LocusId="RALTA_B1494" Name="fhuA3" Function="TonB-dependent siderophore transporter, hydroxamate-type" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5902304" LocusId="RALTA_A1365" Name="null" Function="putative transmembrane lipoprotein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5903606" LocusId="RALTA_A2655" Name="null" Function="putative iron-regulated TonB-dependent transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5905640" LocusId="RALTA_B0897" Name="aleB" Function="putative iron-regulated TonB-dependent siderophore transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5902303" LocusId="RALTA_A1364" Name="null" Function="putative transmembrane lipoprotein" />
+          <Members vimssId="5902302" LocusId="RALTA_A1363" Name="null" Function="Uncharacterized iron-regulated membrane protein, DUF337 family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5901720" LocusId="RALTA_A0777" Name="null" Function="putative exported protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5902987" LocusId="RALTA_A2040" Name="null" Function="hemin uptake protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5907010" LocusId="RALTA_B2301" Name="null" Function="TonB-dependent outer membrane transporter for Fe(III)-dicitrate" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5902984" LocusId="RALTA_A2036" Name="tonB" Function="Component of outer membrane metal uptake system, TonB family" />
+          <Members vimssId="5902985" LocusId="RALTA_A2037" Name="exbB1" Function="Component of outer membrane metal uptake system, ExbB family" />
+          <Members vimssId="5902986" LocusId="RALTA_A2038" Name="exbD1" Function="Component of outer membrane metal uptake system, ExbD family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5901220" LocusId="RALTA_A0266" Name="bfd" Function="Bacterioferritin-associated ferredoxin" />
+          <Members vimssId="5901221" LocusId="RALTA_A0267" Name="bfr1" Function="Bacterioferritin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5904824" LocusId="RALTA_B0077" Name="feoA" Function="Ferrous iron transport protein A" />
+          <Members vimssId="5904823" LocusId="RALTA_B0076" Name="feoB" Function="Ferrous iron transport protein B" />
+          <Members vimssId="5904822" LocusId="RALTA_B0075" Name="null" Function="putative transmembrane protein involved in ferrous iron transport" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1092</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="GabR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59176" />
+      <Effector>Gamma-aminobutyric acid</Effector>
+      <Pathway>Gamma-aminobutyrate utilization</Pathway>
+      <LocusTag Key="RALTA_A1416" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5902352&amp;disp=0" />
+      <BiologicalProcess>Gamma-aminobutyrate utilization</BiologicalProcess>
+      <Regulog Key="GabR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6067" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A1417" Name="argE" Position="-172" Score="9">
+          <Sequence>AGTGGCTC-(15)-ATATGGAC-(8)-GGTACCAA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5902353" LocusId="RALTA_A1417" Name="argE" Function="Acetylornithine deacetylase/succinyl-diaminopimelate desuccinylase family" />
+          <Members vimssId="5902354" LocusId="RALTA_A1418" Name="ddpA" Function="ABC-type peptide transport system, permease component" />
+          <Members vimssId="5902355" LocusId="RALTA_A1419" Name="dppB" Function="ABC-type peptide transport system, permease component" />
+          <Members vimssId="5902356" LocusId="RALTA_A1420" Name="dppC" Function="ABC-type peptide transport system, periplasmic component" />
+          <Members vimssId="5902357" LocusId="RALTA_A1421" Name="dppD" Function="ABC-type peptide transport system, ATP-binding component" />
+          <Members vimssId="5902358" LocusId="RALTA_A1422" Name="gabT" Function="Gamma-aminobutyrate:alpha-ketoglutarate aminotransferase (EC 2.6.1.19)" />
+          <Members vimssId="5902359" LocusId="RALTA_A1423" Name="gabD" Function="Succinate-semialdehyde dehydrogenase [NADP+] (EC 1.2.1.16)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6067</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="GguR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62538" />
+      <Effector />
+      <Pathway>Glucarate utilization; Galactarate utilization</Pathway>
+      <LocusTag Key="RALTA_B0132" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5904879&amp;disp=0" />
+      <BiologicalProcess>Glucarate utilization; Galactarate utilization</BiologicalProcess>
+      <Regulog Key="GguR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6434" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_B0133" Name="gudD" Position="-109" Score="4.9">
+          <Sequence>CAGTCATACGATGACAG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B0782" Name="garD" Position="-155" Score="4.9">
+          <Sequence>ATGTTGTCGTACAACAC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B0782" Name="garD" Position="-54" Score="5">
+          <Sequence>ATGTTGTCAGACAACGT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B0137" Name="kdgD" Position="-94" Score="4.9">
+          <Sequence>TTGTCGTACGATGACTG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B0132" Name="gguR" Position="-91" Score="4.9">
+          <Sequence>CTGTCATCGTATGACTG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5904879" LocusId="RALTA_B0132" Name="gguR" Function="Predicted D-glucarate or D-galactorate utilization regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5904884" LocusId="RALTA_B0137" Name="kdgD" Function="5-dehydro-4-deoxyglucarate dehydratase (EC 4.2.1.41)" />
+          <Members vimssId="5904883" LocusId="RALTA_B0136" Name="kgsD" Function="Alpha-ketoglutaric semialdehyde dehydrogenase (EC 1.2.1.26)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5905527" LocusId="RALTA_B0782" Name="garD" Function="D-galactarate dehydratase (EC 4.2.1.42)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5904880" LocusId="RALTA_B0133" Name="gudD" Function="Glucarate dehydratase (EC 4.2.1.40)" />
+          <Members vimssId="5904881" LocusId="RALTA_B0134" Name="tctC2" Function="Tripartite tricarboxylate transporter family receptor, putative transporter for uronates" />
+          <Members vimssId="5904882" LocusId="RALTA_B0135" Name="tctC1" Function="Tripartite tricarboxylate transporter family receptor, putative transporter for uronates" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6434</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="H16_A0963" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59259" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="RALTA_A0957" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5901899&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="H16_A0963 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6081" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A0958" Name="PF02627" Position="-142" Score="12.6">
+          <Sequence>ATTGGTCTA-(15)-ATTGGCAGT-(4)-GGGGCCAAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5901900" LocusId="RALTA_A0958" Name="PF02627" Function="4-carboxymuconolactone decarboxylase domain/alkylhydroperoxidase AhpD family core domain protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6081</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="H16_A0970" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60957" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="RALTA_A0963" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5901905&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="H16_A0970 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6260" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A0964" Name="" Position="-142" Score="19.9">
+          <Sequence>ACAGATACAGAGGC-(11)-ATCGTAACAGGCGG-(8)-GTTGCTGTTCCGGT-(11)-GGCCGTGTGCCTGC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0965" Name="h16_A0972" Position="-581" Score="19.9">
+          <Sequence>ACAGATACAGAGGC-(11)-ATCGTAACAGGCGG-(8)-GTTGCTGTTCCGGT-(11)-GGCCGTGTGCCTGC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5901906" LocusId="RALTA_A0964" Name="null" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5901907" LocusId="RALTA_A0965" Name="h16_A0972" Function="putative FAD dependent oxidoreductase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6260</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="H16_A2655" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59594" />
+      <Effector />
+      <Pathway>Metabolite transport</Pathway>
+      <LocusTag Key="RALTA_A2147" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5903095&amp;disp=0" />
+      <BiologicalProcess>Metabolite transport</BiologicalProcess>
+      <Regulog Key="H16_A2655 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6116" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A2148" Name="h16_A2656" Position="-72" Score="15.5">
+          <Sequence>CAACTGTACTG-(13)-CAACTGTACCG-(0)-GTACTGTACCG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A2694" Name="PF01810" Position="-101" Score="13.8">
+          <Sequence>GACCTGTATCG-(13)-AAAGTGTACCG-(0)-GTACTGTACCG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5903643" LocusId="RALTA_A2694" Name="PF01810" Function="Transporter, LysE family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5903096" LocusId="RALTA_A2148" Name="h16_A2656" Function="Riboflavin-specific deaminase" />
+          <Members vimssId="5903097" LocusId="RALTA_A2149" Name="h16_A2657" Function="Threonyl/alanyl tRNA synthetase, SAD" />
+          <Members vimssId="5903098" LocusId="RALTA_A2150" Name="PF01810" Function="Transporter, LysE family" />
+          <Members vimssId="5903099" LocusId="RALTA_A2151" Name="PF00892" Function="Permease of the drug/metabolite transporter (DMT) superfamily" />
+          <Members vimssId="5903100" LocusId="RALTA_A2152" Name="h16_A1735" Function="putative endoribonuclease; L-PSP family" />
+          <Members vimssId="5903101" LocusId="RALTA_A2153" Name="aspB" Function="Aspartate aminotransferase (AspB-4) (EC 2.6.1.1)" />
+          <Members vimssId="5903102" LocusId="RALTA_A2154" Name="h16_A2663" Function="Glutathione S-transferase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6116</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="H16_B1468" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60818" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="RALTA_B1733" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5906452&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="H16_B1468 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6246" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_B1725" Name="cydA" Position="-123" Score="6.5">
+          <Sequence>AACTGAGCTTGCCCA----------AACTGTATCCCTGCC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B1731" Name="moaA" Position="-130" Score="6.5">
+          <Sequence>AACTGTTCTGCTTGC----------CTTTGTACGCCTGCG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B1736" Name="fdhA2" Position="-147" Score="8.3">
+          <Sequence>CACTGTACTCCCTGC----------ATTTGTACACACCGG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5906455" LocusId="RALTA_B1736" Name="fdhA2" Function="Putative formate dehydrogenase oxidoreductase protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5906444" LocusId="RALTA_B1725" Name="cydA" Function="Cytochrome bd ubiquinol oxidase, subunit I" />
+          <Members vimssId="5906445" LocusId="RALTA_B1726" Name="cydB" Function="Cytochrome bd ubiquinol oxidase, subunit II" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5906450" LocusId="RALTA_B1731" Name="moaA" Function="molybdopterin biosynthesis protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6246</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="H16_B2241" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57448" />
+      <Effector />
+      <Pathway>Alkanesulfonates utilization</Pathway>
+      <LocusTag Key="RALTA_B2018" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5906729&amp;disp=0" />
+      <BiologicalProcess>Alkanesulfonates utilization</BiologicalProcess>
+      <Regulog Key="H16_B2241 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5878" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_B2018" Name="H16_B2241" Position="-49" Score="5.4">
+          <Sequence>ACTTGTCATAACACGC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5906729" LocusId="RALTA_B2018" Name="H16_B2241" Function="Putative alkanesulfonate metabolism utilization regulator, GntR family" />
+          <Members vimssId="5906730" LocusId="RALTA_B2019" Name="PA2298" Function="Putative reductase (alkanesulfonate metabolism)" />
+          <Members vimssId="5906731" LocusId="RALTA_B2020" Name="PA2297" Function="Probable ferredoxin" />
+          <Members vimssId="5906732" LocusId="RALTA_B2021" Name="PA2296" Function="Alkanesulfonates ABC transporter, substrate-binding protein" />
+          <Members vimssId="5906733" LocusId="RALTA_B2022" Name="PA2295" Function="Alkanesulfonates ABC transporter, permease protein" />
+          <Members vimssId="5906734" LocusId="RALTA_B2023" Name="PA2294" Function="Alkanesulfonates ABC transporter, ATPase component" />
+          <Members vimssId="5906735" LocusId="RALTA_B2024" Name="PA2293" Function="FOG: HEAT repeat protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5878</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor (activator)">
+      <Regulator Key="HexR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9869" />
+      <Effector>2-keto-3-deoxy-6-phosphogluconate</Effector>
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="RALTA_A1157" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5902098&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="HexR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1082" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A1158" Name="edd" Position="-223" Score="5.2">
+          <Sequence>ATGTAGAGATTCTACAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1158" Name="edd" Position="-71" Score="4.9">
+          <Sequence>CTGTAGAAAATCTACAG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1157" Name="hexR" Position="-201" Score="4.9">
+          <Sequence>CTGTAGATTTTCTACAG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1157" Name="hexR" Position="-49" Score="5.2">
+          <Sequence>ATGTAGAATCTCTACAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5902099" LocusId="RALTA_A1158" Name="edd" Function="Phosphogluconate dehydratase (EC 4.2.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5902098" LocusId="RALTA_A1157" Name="hexR" Function="Central carbohydrate metabolism transcription regulator HexR, RpiR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1082</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="HpxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51825" />
+      <Effector>Xanthine</Effector>
+      <Pathway>Xanthine utilization</Pathway>
+      <LocusTag Key="RALTA_B0723" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5905470&amp;disp=0" />
+      <BiologicalProcess>Xanthine utilization</BiologicalProcess>
+      <Regulog Key="HpxR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5262" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_B0719" Name="uraA" Position="-203" Score="6.9">
+          <Sequence>TTACCAAAACGTTTTTGTTA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5905466" LocusId="RALTA_B0719" Name="uraA" Function="Xanthine/uracil permease" />
+          <Members vimssId="5905467" LocusId="RALTA_B0720" Name="COG0402" Function="Cytosine deaminase and related metal-dependent hydrolases" />
+          <Members vimssId="5905468" LocusId="RALTA_B0721" Name="PF01925" Function="Protein of unknown function DUF81" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5262</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49618" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="RALTA_A1113" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5902055&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5023" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A0685" Name="groS" Position="-121" Score="7.7">
+          <Sequence>TTAGCACTCGTCAGGGGGGAGTGCTAA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0299" Name="rpoH" Position="-108" Score="7.7">
+          <Sequence>TTAGCACTCACCCGGCCAGAGTGCTAA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5901632" LocusId="RALTA_A0685" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="5901633" LocusId="RALTA_A0686" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5901253" LocusId="RALTA_A0299" Name="rpoH" Function="Heat shock response RNA polymerase sigma factor RpoH (Sigma 32)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5023</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="HutC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66550" />
+      <Effector>cis-Urocanic acid</Effector>
+      <Pathway>Histidine utilization</Pathway>
+      <LocusTag Key="RALTA_A2493" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5903443&amp;disp=0" />
+      <BiologicalProcess>Histidine utilization</BiologicalProcess>
+      <Regulog Key="HutC - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6875" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A2496" Name="hisX" Position="-247" Score="5.7">
+          <Sequence>GATCCTGTCTATACAGCAAC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A2496" Name="hisX" Position="-93" Score="5.4">
+          <Sequence>TGACTTGTATATACAGGCAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A2492" Name="hutH" Position="-26" Score="5.6">
+          <Sequence>TAAGCTGTATAGACAGGAAC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0654" Name="hutU" Position="-83" Score="5.6">
+          <Sequence>GCACTTGTATATACAGGAAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5903442" LocusId="RALTA_A2492" Name="hutH" Function="Histidine ammonia-lyase (EC 4.3.1.3)" />
+          <Members vimssId="5903441" LocusId="RALTA_A2491" Name="hutU" Function="Urocanate hydratase (EC 4.2.1.49)" />
+          <Members vimssId="5903440" LocusId="RALTA_A2490" Name="hutD" Function="Conserved hypothetical protein related to histidine degradation" />
+          <Members vimssId="5903439" LocusId="RALTA_A2489" Name="hutI" Function="Imidazolonepropionase (EC 3.5.2.7)" />
+          <Members vimssId="5903438" LocusId="RALTA_A2488" Name="hutF" Function="Formiminoglutamic iminohydrolase (EC 3.5.3.13)" />
+          <Members vimssId="5903437" LocusId="RALTA_A2487" Name="hutG" Function="N-formylglutamate deformylase (EC 3.5.1.68)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5903446" LocusId="RALTA_A2496" Name="hisX" Function="Putative histidine ABC transporter, substrate binding protein" />
+          <Members vimssId="5903445" LocusId="RALTA_A2495" Name="hisY" Function="Putative histidine ABC transporter, permease protein" />
+          <Members vimssId="5903444" LocusId="RALTA_A2494" Name="hisZ" Function="Putative histidine ABC transporter, ATPase protein" />
+          <Members vimssId="5903443" LocusId="RALTA_A2493" Name="hutC" Function="Histidine utilization repressor, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5901603" LocusId="RALTA_A0654" Name="hutU" Function="Urocanate hydratase (EC 4.2.1.49)" />
+          <Members vimssId="5901602" LocusId="RALTA_A0653" Name="COG2814 (AraJ)" Function="Putative histidine permease, major facilitator superfamily" />
+          <Members vimssId="5901601" LocusId="RALTA_A0652" Name="hutG2" Function="Formiminoglutamase (EC 3.5.3.8)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6875</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="repressor">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9875" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="RALTA_A1138" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5902079&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1083" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A1138" Name="iscR" Position="-92" Score="6.9">
+          <Sequence>GTAGTTGACTGAATTAGTCGGGTAC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1138" Name="iscR" Position="-63" Score="6.8">
+          <Sequence>ATACTTGACGGAAACGATCAAGTAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5902079" LocusId="RALTA_A1138" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="5902080" LocusId="RALTA_A1139" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+          <Members vimssId="5902081" LocusId="RALTA_A1140" Name="iscU" Function="Iron-sulfur cluster assembly scaffold protein IscU" />
+          <Members vimssId="5902082" LocusId="RALTA_A1141" Name="iscA" Function="Iron binding protein IscA for iron-sulfur cluster assembly" />
+          <Members vimssId="5902083" LocusId="RALTA_A1142" Name="RSc1022" Function="hypothetical protein" />
+          <Members vimssId="5902084" LocusId="RALTA_A1143" Name="hscB" Function="Chaperone protein HscB" />
+          <Members vimssId="5902085" LocusId="RALTA_A1144" Name="hscA" Function="Chaperone protein HscA" />
+          <Members vimssId="5902086" LocusId="RALTA_A1145" Name="fdx" Function="ferredoxin, 2Fe-2S type, ISC system" />
+          <Members vimssId="5902087" LocusId="RALTA_A1146" Name="yhfJ" Function="putative Fe-S cluster assembly protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1083</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9990" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="RALTA_A1825" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5902761&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1099" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_B0872" Name="imuA" Position="-72" Score="6.3">
+          <Sequence>TACTGTATAAATATACAGTT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0499" Name="recA" Position="-159" Score="6.1">
+          <Sequence>TACTGTTTTTTTATACAGTA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1825" Name="lexA" Position="-98" Score="6">
+          <Sequence>TACTGTTTAAACATACAGTG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1825" Name="lexA" Position="-118" Score="5.4">
+          <Sequence>TACTGTATAAAATCACAGCA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0247" Name="uvrD" Position="-62" Score="5.6">
+          <Sequence>GGCTGTATGGATATACAGTT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1272" Name="H16_A1352" Position="-33" Score="5.9">
+          <Sequence>TACTGTACATCCATACAGTA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B1170" Name="PF06733" Position="-88" Score="6.2">
+          <Sequence>TACTGTATATTTGTACAGTT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A3210" Name="dinD" Position="-68" Score="6.3">
+          <Sequence>CACTGTATATTCATACAGTA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B0767" Name="BPSS1334" Position="-48" Score="5.1">
+          <Sequence>ACCTGTATGGATGAACAGTG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B0767" Name="BPSS1334" Position="-67" Score="6.4">
+          <Sequence>TACTGTATATATTTACAGTA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="pRALTA_0101" Name="imuA" Position="-41" Score="6.3">
+          <Sequence>AACTGTATAAATATACAGTA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B1379" Name="uvrA" Position="-71" Score="5.7">
+          <Sequence>GACTGTATGGATGTACAGTG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B2284" Name="H16_B2553" Position="-42" Score="6">
+          <Sequence>GACTGTATATTCGTACAGTA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5901201" LocusId="RALTA_A0247" Name="uvrD" Function="ATP-dependent DNA helicase II" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5902761" LocusId="RALTA_A1825" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5905902" LocusId="RALTA_B1170" Name="PF06733" Function="DinG family ATP-dependent helicase CPE1197" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5904166" LocusId="RALTA_A3210" Name="dinD" Function="DNA-damage-inducible protein, part of SOS response" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5905513" LocusId="RALTA_B0767" Name="BPSS1334" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5901454" LocusId="RALTA_A0499" Name="recA" Function="Recombinase A" />
+          <Members vimssId="5901455" LocusId="RALTA_A0500" Name="recX" Function="Regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5905617" LocusId="RALTA_B0872" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="5905618" LocusId="RALTA_B0873" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+          <Members vimssId="5905619" LocusId="RALTA_B0874" Name="dnaE2" Function="macromolecule metabolism; macromolecule synthesis, modification; dna - replication, repair, restr./modif." />
+        </Operon>
+        <Operon>
+          <Members vimssId="5904264" LocusId="pRALTA_0101" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="5904263" LocusId="pRALTA_0100" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+          <Members vimssId="5904262" LocusId="pRALTA_0099" Name="dnaE2" Function="macromolecule metabolism; macromolecule synthesis, modification; dna - replication, repair, restr./modif." />
+        </Operon>
+        <Operon>
+          <Members vimssId="5906107" LocusId="RALTA_B1379" Name="uvrA" Function="Excinuclease ABC subunit A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5906993" LocusId="RALTA_B2284" Name="H16_B2553" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5902212" LocusId="RALTA_A1272" Name="H16_A1352" Function="Conserved hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1099</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="LiuQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9928" />
+      <Effector />
+      <Pathway>Branched-chain amino acid degradation</Pathway>
+      <LocusTag Key="RALTA_A1547" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5902480&amp;disp=0" />
+      <BiologicalProcess>Branched-chain amino acid degradation</BiologicalProcess>
+      <Regulog Key="LiuQ - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1091" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A1548" Name="" Position="-215" Score="4.6">
+          <Sequence>TTGAGTCAACCTCAA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1548" Name="" Position="-50" Score="4.8">
+          <Sequence>TTGAGTTGTGCTCAA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5902481" LocusId="RALTA_A1548" Name="null" Function="AMP-dependent synthetase and ligase" />
+          <Members vimssId="5902482" LocusId="RALTA_A1549" Name="null" Function="Methylcrotonyl-CoA carboxylase biotin-containing subunit (EC 6.4.1.4)" />
+          <Members vimssId="5902483" LocusId="RALTA_A1550" Name="null" Function="Methylcrotonyl-CoA carboxylase carboxyl transferase subunit (EC 6.4.1.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1091</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="">
+      <Regulator Key="LiuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9951" />
+      <Effector />
+      <Pathway>Branched-chain amino acid degradation</Pathway>
+      <LocusTag Key="RALTA_A0108" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5901063&amp;disp=0" />
+      <BiologicalProcess>Branched-chain amino acid degradation</BiologicalProcess>
+      <Regulog Key="LiuR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1094" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A0218" Name="mcm" Position="-136" Score="6.1">
+          <Sequence>ATTTACGTTAACGTCAAC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0558" Name="paaH" Position="-44" Score="6.1">
+          <Sequence>CTTAACGTTTACGTAAAC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0558" Name="paaH" Position="-38" Score="5.3">
+          <Sequence>GTTTACGTAAACGGAAAC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0109" Name="paaI" Position="-84" Score="5.5">
+          <Sequence>GTTTACGTAAACGTAAAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0109" Name="paaI" Position="-90" Score="6.6">
+          <Sequence>ATTGACGTTTACGTAAAC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0218" Name="mcm" Position="-130" Score="4.2">
+          <Sequence>GTTAACGTCAACGTCATA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0107" Name="" Position="-132" Score="6.2">
+          <Sequence>GTTGACGTTTACGTTAGC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0107" Name="" Position="-126" Score="5.5">
+          <Sequence>GTTTACGTTAGCGTCAAC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0108" Name="liuR" Position="-92" Score="5.1">
+          <Sequence>GCTAACGTAAACGTCAAC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0108" Name="liuR" Position="-98" Score="6.4">
+          <Sequence>GTTGACGCTAACGTAAAC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5901063" LocusId="RALTA_A0108" Name="liuR" Function="Transcriptional regulator, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5901175" LocusId="RALTA_A0218" Name="mcm" Function="Methylmalonyl-CoA mutase (EC 5.4.99.2)" />
+          <Members vimssId="5901176" LocusId="RALTA_A0219" Name="hit" Function="Bis(5'-nucleosyl)-tetraphosphatase (asymmetrical) (EC 3.6.1.17)" />
+          <Members vimssId="5901177" LocusId="RALTA_A0220" Name="paaH1" Function="3-hydroxybutyryl-CoA dehydrogenase (EC 1.1.1.157)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5901062" LocusId="RALTA_A0107" Name="null" Function="Metallo-beta-lactamase family protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5901064" LocusId="RALTA_A0109" Name="paaI" Function="Phenylacetic acid degradation-related protein" />
+          <Members vimssId="5901065" LocusId="RALTA_A0110" Name="liuA" Function="Isovaleryl-CoA dehydrogenase (EC 1.3.99.10); Butyryl-CoA dehydrogenase (EC 1.3.99.2)" />
+          <Members vimssId="5901066" LocusId="RALTA_A0111" Name="aceK" Function="Isocitrate dehydrogenase phosphatase (EC 2.7.11.5)/kinase (EC 3.1.3.-)" />
+          <Members vimssId="5901067" LocusId="RALTA_A0112" Name="cah" Function="Carbonic anhydrase (EC 4.2.1.1)" />
+          <Members vimssId="5901068" LocusId="RALTA_A0113" Name="ivdA" Function="Acetyl-CoA C-acyltransferase (EC 2.3.1.16)" />
+          <Members vimssId="5901069" LocusId="RALTA_A0114" Name="null" Function="Dehydrogenases with different specificities (related to short-chain alcohol dehydrogenases)" />
+          <Members vimssId="5901070" LocusId="RALTA_A0115" Name="ivdC" Function="Isovaleryl-CoA dehydrogenase (EC 1.3.99.10); Butyryl-CoA dehydrogenase (EC 1.3.99.2)" />
+          <Members vimssId="5901071" LocusId="RALTA_A0116" Name="null" Function="2-Hydroxychromene-2-carboxylate isomerase" />
+          <Members vimssId="5901072" LocusId="RALTA_A0117" Name="null" Function="Putative phosphatase YieH" />
+          <Members vimssId="5901073" LocusId="RALTA_A0118" Name="null" Function="hypothetical protein" />
+          <Members vimssId="5901074" LocusId="RALTA_A0119" Name="null" Function="Maleylacetoacetate isomerase (EC 5.2.1.2) / Glutathione S-transferase" />
+          <Members vimssId="5901075" LocusId="RALTA_A0120" Name="liuB" Function="Methylcrotonyl-CoA carboxylase carboxyl transferase subunit (EC 6.4.1.4)" />
+          <Members vimssId="5901076" LocusId="RALTA_A0121" Name="null" Function="Dienelactone hydrolase or related enzyme" />
+          <Members vimssId="5901077" LocusId="RALTA_A0122" Name="liuC" Function="Methylglutaconyl-CoA hydratase (EC 4.2.1.18)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5901511" LocusId="RALTA_A0558" Name="paaH" Function="3-hydroxyacyl-CoA dehydrogenase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1094</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="LldR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16546" />
+      <Effector>L-lactate</Effector>
+      <Pathway>Lactate utilization</Pathway>
+      <LocusTag Key="RALTA_B0086" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5904833&amp;disp=0" />
+      <BiologicalProcess>Lactate utilization</BiologicalProcess>
+      <Regulog Key="LldR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1781" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_B0086" Name="lldR" Position="-59" Score="6.2">
+          <Sequence>AATTGGTCGGACCAATT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B0085" Name="lldE" Position="-83" Score="6.3">
+          <Sequence>AATTGGTCCGACCAATT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5904833" LocusId="RALTA_B0086" Name="lldR" Function="Lactate-responsive regulator LldR, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5904832" LocusId="RALTA_B0085" Name="lldE" Function="L-lactate dehydrogenase, Fe-S oxidoreductase subunit" />
+          <Members vimssId="5904831" LocusId="RALTA_B0084" Name="lldG" Function="L-lactate dehydrogenase, subunit LldG" />
+          <Members vimssId="5904830" LocusId="RALTA_B0083" Name="lldF" Function="L-lactate dehydrogenase, iron-sulfur cluster-binding subunit" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1781</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="">
+      <Regulator Key="MetR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56601" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="RALTA_B1419" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5906145&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5781" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_B1419" Name="metR" Position="-51" Score="5.9">
+          <Sequence>TATGAATCAATTTCATA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B1420" Name="metE" Position="-96" Score="5.9">
+          <Sequence>TATGAAATTGATTCATA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5906145" LocusId="RALTA_B1419" Name="metR" Function="Homocysteine-responsive transcriptional regulator of methionine metabolism, LysR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5906146" LocusId="RALTA_B1420" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5781</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="MlnR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61660" />
+      <Effector />
+      <Pathway>Malonate metabolism</Pathway>
+      <LocusTag Key="RALTA_A2456" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5903407&amp;disp=0" />
+      <BiologicalProcess>Malonate metabolism</BiologicalProcess>
+      <Regulog Key="MlnR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6334" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A2456" Name="mlnR" Position="-71" Score="6.7">
+          <Sequence>TAATTCATAATTATGAATTA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5903407" LocusId="RALTA_A2456" Name="mlnR" Function="Transcriptional regulator of malonate metabolism, GntR family" />
+          <Members vimssId="5903406" LocusId="RALTA_A2455" Name="matA" Function="Malonyl-CoA decarboxylase" />
+          <Members vimssId="5903405" LocusId="RALTA_A2454" Name="h16_A2980" Function="putative exported protein" />
+          <Members vimssId="5903404" LocusId="RALTA_A2453" Name="h16_A2979" Function="methylmalonyl CoA decarboxylase/enoyl-CoA hydratase/isomerase" />
+          <Members vimssId="5903403" LocusId="RALTA_A2452" Name="matB" Function="Malonyl-CoA ligase (EC 6.2.1.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6334</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor">
+      <Regulator Key="ModE" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9916" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdenum homeostasis</Pathway>
+      <LocusTag Key="RALTA_A0628" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5901579&amp;disp=0" />
+      <BiologicalProcess>Molybdenum homeostasis</BiologicalProcess>
+      <Regulog Key="ModE - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1089" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A0633" Name="modA" Position="-97" Score="4.7">
+          <Sequence>CGCGCTATATACAGACGTATATTGCGCC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5901584" LocusId="RALTA_A0633" Name="modA" Function="Molybdenum ABC transporter, periplasmic molybdenum-binding protein ModA (TC 3.A.1.8.1)" />
+          <Members vimssId="5901583" LocusId="RALTA_A0632" Name="modB" Function="Molybdenum transport system permease protein ModB (TC 3.A.1.8.1)" />
+          <Members vimssId="5901582" LocusId="RALTA_A0631" Name="modC" Function="Molybdenum transport ATP-binding protein ModC (TC 3.A.1.8.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1089</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58477" />
+      <Effector>Tungsten</Effector>
+      <Pathway>Tungsten homeostasis</Pathway>
+      <LocusTag Key="RALTA_A1004" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5901945&amp;disp=0" />
+      <BiologicalProcess>Tungsten homeostasis</BiologicalProcess>
+      <Regulog Key="ModE3 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5984" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A1003" Name="tupB" Position="-31" Score="5.6">
+          <Sequence>TTATGTCTGCAAGAACATAA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1004" Name="modE3" Position="-128" Score="5.6">
+          <Sequence>TTATGTTCTTGCAGACATAA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5901944" LocusId="RALTA_A1003" Name="tupB" Function="Tungstate ABC-type transporter, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5901945" LocusId="RALTA_A1004" Name="modE3" Function="Molybdate-responsive transcriptional regulator ModE2" />
+          <Members vimssId="5901946" LocusId="RALTA_A1005" Name="H16_A1021" Function="Putative transmembrane protein" />
+          <Members vimssId="5901947" LocusId="RALTA_A1006" Name="H16_A1022" Function="Putative ABC-type transporter, permease protein" />
+          <Members vimssId="5901948" LocusId="RALTA_A1007" Name="H16_A1023" Function="Putative heme-binding protein" />
+          <Members vimssId="5901949" LocusId="RALTA_A1008" Name="H16_A1024" Function="Conserved hypothetical protein, DUF924" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5984</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NorR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9887" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="RALTA_B2089" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5906798&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="NorR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1085" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_B2088" Name="norA" Position="-136" Score="4.4">
+          <Sequence>AAGGGTAATTAGTACCGCG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B2088" Name="norA" Position="-155" Score="4.4">
+          <Sequence>CATGGTGAAAAAAACCTCA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B2089" Name="norR" Position="-35" Score="4.4">
+          <Sequence>CGCGGTACTAATTACCCTT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B2089" Name="norR" Position="-61" Score="4.9">
+          <Sequence>AAGGGTATTAACTACCCTA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B2088" Name="norA" Position="-110" Score="4.9">
+          <Sequence>TAGGGTAGTTAATACCCTT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5906798" LocusId="RALTA_B2089" Name="norR" Function="anaerobic nitric oxide reductase transcription regulator, Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5906797" LocusId="RALTA_B2088" Name="norA" Function="Nitric oxide-dependent regulator DnrN or NorA" />
+          <Members vimssId="5906796" LocusId="RALTA_B2087" Name="norB" Function="Nitric-oxide reductase (EC 1.7.99.7), quinol-dependent" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1085</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9845" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="RALTA_A2323" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5903271&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1078" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A2686" Name="nrdA" Position="-251" Score="4.8">
+          <Sequence>CCACTACATCTAGTAG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5903635" LocusId="RALTA_A2686" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1078</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="repressor">
+      <Regulator Key="NsrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14618" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="RALTA_A2987" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5903942&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="NsrR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1566" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A2987" Name="nsrR" Position="-40" Score="5.5">
+          <Sequence>CTTGCATCCTAGATGCATC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A2986" Name="hmp" Position="-40" Score="4.6">
+          <Sequence>CATGCATATTTTCTGCATG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5903942" LocusId="RALTA_A2987" Name="nsrR" Function="Nitrite-sensitive transcriptional repressor NsrR" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5903941" LocusId="RALTA_A2986" Name="hmp" Function="Flavohemoprotein (Hemoglobin-like protein) (Flavohemoglobin) (Nitric oxide dioxygenase) (EC 1.14.12.17)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1566</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19248" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="RALTA_A1877" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5902813&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2078" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A2753" Name="dppA" Position="-93" Score="4.6">
+          <Sequence>CGCACCAAAAAGCAGCG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B1139" Name="amtB" Position="-187" Score="4.9">
+          <Sequence>CGCGCCATTTTGGCGCA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1880" Name="glnA" Position="-334" Score="4.8">
+          <Sequence>CGCACTAATGCGGTGCG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1880" Name="glnA" Position="-304" Score="4.7">
+          <Sequence>TGCACCATGATGGTGTT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1879" Name="ntrZ" Position="-190" Score="4.5">
+          <Sequence>TGCACCACAAGGGGGCG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5902815" LocusId="RALTA_A1879" Name="ntrZ" Function="Conserved hypothetical signal peptide protein" />
+          <Members vimssId="5902814" LocusId="RALTA_A1878" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="5902813" LocusId="RALTA_A1877" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5902816" LocusId="RALTA_A1880" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5905872" LocusId="RALTA_B1139" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5903702" LocusId="RALTA_A2753" Name="dppA" Function="Dipeptide ABC transporter, substrate-binding component" />
+          <Members vimssId="5903701" LocusId="RALTA_A2752" Name="dppB" Function="Dipeptide ABC transporter, permease component 1" />
+          <Members vimssId="5903700" LocusId="RALTA_A2751" Name="dppC" Function="Dipeptide ABC transporter, permease component 2" />
+          <Members vimssId="5903699" LocusId="RALTA_A2750" Name="dppD" Function="Dipeptide ABC transporter, ATP-binding component 1" />
+          <Members vimssId="5903698" LocusId="RALTA_A2749" Name="dppF" Function="Dipeptide ABC transporter, ATP-binding component 2" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2078</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="OapR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60766" />
+      <Effector />
+      <Pathway>Gamma-aminobutyrate utilization</Pathway>
+      <LocusTag Key="RALTA_A0211" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5901168&amp;disp=0" />
+      <BiologicalProcess>Gamma-aminobutyrate utilization</BiologicalProcess>
+      <Regulog Key="OapR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6239" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A0212" Name="oapT" Position="-156" Score="14.2">
+          <Sequence>GCCTGTACGGTC-(11)-AACTGTACGGTA-(15)-GACTGTATATTT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5901169" LocusId="RALTA_A0212" Name="oapT" Function="Omega-amino acid--pyruvate aminotransferase (EC 2.6.1.18), PLP dependent" />
+          <Members vimssId="5901170" LocusId="RALTA_A0213" Name="oapD" Function="Predicted NAD-dependent succinate-semialdehyde dehydrogenase  (EC 1.2.1.16)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6239</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PaaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38869" />
+      <Effector>Phenylacetyl-CoA</Effector>
+      <Pathway>Phenylacetic acid degradation</Pathway>
+      <LocusTag Key="RALTA_A2979" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5903934&amp;disp=0" />
+      <BiologicalProcess>Phenylacetic acid degradation</BiologicalProcess>
+      <Regulog Key="PaaR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3970" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A0085" Name="paaG" Position="-31" Score="6.6">
+          <Sequence>ATTAACCGACCGATCGGTTGGT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A2973" Name="paaA" Position="-83" Score="6.2">
+          <Sequence>ATTGACCGACCGGTCGGCTTAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A2763" Name="paaF" Position="-89" Score="5.7">
+          <Sequence>GCCGACCGACTGGTCGGTTTAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5901040" LocusId="RALTA_A0085" Name="paaG" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5903716" LocusId="RALTA_A2763" Name="paaF" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+          <Members vimssId="5903717" LocusId="RALTA_A2764" Name="paaY" Function="thioesterase superfamily protein" />
+          <Members vimssId="5903718" LocusId="RALTA_A2765" Name="paaK" Function="Phenylacetate-coenzyme A ligase (EC 6.2.1.30)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5903928" LocusId="RALTA_A2973" Name="paaA" Function="Phenylacetate-CoA oxygenase, PaaA subunit" />
+          <Members vimssId="5903929" LocusId="RALTA_A2974" Name="paaB" Function="Phenylacetate-CoA oxygenase, PaaB subunit" />
+          <Members vimssId="5903930" LocusId="RALTA_A2975" Name="paaC" Function="Phenylacetate-CoA oxygenase, PaaC subunit" />
+          <Members vimssId="5903931" LocusId="RALTA_A2976" Name="paaD" Function="Phenylacetate-CoA oxygenase, PaaD subunit" />
+          <Members vimssId="5903932" LocusId="RALTA_A2977" Name="paaE" Function="Probable phenylacetic acid degradation NADH oxidoreductase paaE (EC 1.-.-.-)" />
+          <Members vimssId="5903933" LocusId="RALTA_A2978" Name="paaW" Function="Protein of unknown function DUF3658/DUF1835" />
+          <Members vimssId="5903934" LocusId="RALTA_A2979" Name="paaR" Function="Transcriptional regulator of phenylacetic acid degradation, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3970</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60362" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="RALTA_B0828" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5905573&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxQ - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6199" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_B0827" Name="pdxO2" Position="-93" Score="14.8">
+          <Sequence>AACTGGCCCAT-(13)-AACTGGACCTT-(4)-TTGTGCCAGTT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5905572" LocusId="RALTA_B0827" Name="pdxO2" Function="Pyridoxamine 5'-phosphate oxidase-related, FMN-binding" />
+          <Members vimssId="5905571" LocusId="RALTA_B0826" Name="PF01810" Function="Lysine-type exporter protein (LYSE/YGGA)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6199</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PhnF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31561" />
+      <Effector />
+      <Pathway>Phosphonate utilization</Pathway>
+      <LocusTag Key="RALTA_B1192" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5905924&amp;disp=0" />
+      <BiologicalProcess>Phosphonate utilization</BiologicalProcess>
+      <Regulog Key="PhnF - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3261" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_B1191" Name="phnG" Position="-23" Score="7">
+          <Sequence>TCTAAACGTATAGACGTATAGG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B1192" Name="phnF" Position="-174" Score="7">
+          <Sequence>CCTATACGTCTATACGTTTAGA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5905923" LocusId="RALTA_B1191" Name="phnG" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnG" />
+          <Members vimssId="5905922" LocusId="RALTA_B1190" Name="phnH" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnH" />
+          <Members vimssId="5905921" LocusId="RALTA_B1189" Name="phnI" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnI" />
+          <Members vimssId="5905920" LocusId="RALTA_B1188" Name="phnJ" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnJ" />
+          <Members vimssId="5905919" LocusId="RALTA_B1187" Name="phnK" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnK" />
+          <Members vimssId="5905918" LocusId="RALTA_B1186" Name="phnL" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnL" />
+          <Members vimssId="5905917" LocusId="RALTA_B1185" Name="phnM" Function="Alpha-D-ribose-1-methylphosphonate-5-triphosphate hydrolase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5905924" LocusId="RALTA_B1192" Name="phnF" Function="Transcriptional regulator for phosphonate utilization, GntR family" />
+          <Members vimssId="5905925" LocusId="RALTA_B1193" Name="rcsF" Function="Protein RcsF involved in phosphonates utilization" />
+          <Members vimssId="5905926" LocusId="RALTA_B1194" Name="phnN" Function="Ribose 1,5-bisphosphokinase activity (phosphoribosyl diphosphate forming)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3261</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="PhnR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57534" />
+      <Effector>2-aminoethylphosphonate</Effector>
+      <Pathway>2-aminoethylphosphonate utilization</Pathway>
+      <LocusTag Key="RALTA_B1650" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5906377&amp;disp=0" />
+      <BiologicalProcess>2-aminoethylphosphonate utilization</BiologicalProcess>
+      <Regulog Key="PhnR2 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5889" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_B1650" Name="phnR2" Position="-83" Score="5.2">
+          <Sequence>ATTGTTGACAAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B1651" Name="phnS" Position="-175" Score="5.2">
+          <Sequence>ATTGTCAACAAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5906378" LocusId="RALTA_B1651" Name="phnS" Function="2-aminoethylphosphonate ABC transporter, periplasmic binding component (TC 3.A.1.9.1)" />
+          <Members vimssId="5906379" LocusId="RALTA_B1652" Name="phnT" Function="2-aminoethylphosphonate ABC transporter, ATP-binding protein (TC 3.A.1.9.1)" />
+          <Members vimssId="5906380" LocusId="RALTA_B1653" Name="phnUV" Function="A2-aminoethylphosphonate ABC transporter, permease protein (TC 3.A.1.9.1)" />
+          <Members vimssId="5906381" LocusId="RALTA_B1654" Name="phnW" Function="2-aminoethylphosphonate:pyruvate aminotransferase (EC 2.6.1.37)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5906377" LocusId="RALTA_B1650" Name="phnR2" Function="2-aminoethylphosphonate uptake and metabolism regulator, GntR family" />
+          <Members vimssId="5906376" LocusId="RALTA_B1649" Name="h16_B1948" Function="Phosphonoacetate hydrolase (EC 3.11.1.2)" />
+          <Members vimssId="5906375" LocusId="RALTA_B1648" Name="h16_B1947" Function="Aldehyde dehydrogenase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5889</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PsrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10002" />
+      <Effector>Oleate</Effector>
+      <Pathway>Fatty acid degradation</Pathway>
+      <LocusTag Key="RALTA_A3194" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5904150&amp;disp=0" />
+      <BiologicalProcess>Fatty acid degradation</BiologicalProcess>
+      <Regulog Key="PsrA - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1102" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A2072" Name="fabH" Position="-201" Score="2.5">
+          <Sequence>CATCAAACGCGGGTATGATG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A3194" Name="psrA" Position="-105" Score="4">
+          <Sequence>CTTCGTACAGCTGTTTCAAG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5903020" LocusId="RALTA_A2072" Name="fabH" Function="3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)" />
+          <Members vimssId="5903019" LocusId="RALTA_A2071" Name="fabD" Function="Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)" />
+          <Members vimssId="5903018" LocusId="RALTA_A2070" Name="fabG" Function="3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)" />
+          <Members vimssId="5903017" LocusId="RALTA_A2069" Name="acpP" Function="Acyl carrier protein" />
+          <Members vimssId="5903016" LocusId="RALTA_A2067" Name="fabF" Function="3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5904150" LocusId="RALTA_A3194" Name="psrA" Function="Transcriptional regulator for fatty acid degradation PsrA, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1102</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="RALTA_A0216" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61059" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="RALTA_A0216" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5901173&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="RALTA_A0216 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6272" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A0217" Name="PF11142" Position="-168" Score="20">
+          <Sequence>AACTGTCAGG-(8)-CTGAACAGTC-(7)-AACTGTTCAC-(0)-AACTGTACAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5901174" LocusId="RALTA_A0217" Name="PF11142" Function="Protein of unknown function DUF2917" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6272</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="RSc1790" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52353" />
+      <Effector />
+      <Pathway>Sugar utilization</Pathway>
+      <LocusTag Key="RALTA_A1435" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5902371&amp;disp=0" />
+      <BiologicalProcess>Sugar utilization</BiologicalProcess>
+      <Regulog Key="RSc1790 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5331" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A1435" Name="RSc1790" Position="-74" Score="6.6">
+          <Sequence>GAATGAAAACGTTTTCATTT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5902371" LocusId="RALTA_A1435" Name="RSc1790" Function="Predicted sugar utilization transcriptional regulator, LacI family" />
+          <Members vimssId="5902370" LocusId="RALTA_A1434" Name="RSc1791" Function="Predicted sugar ABC transporter, substrate-binding protein" />
+          <Members vimssId="5902369" LocusId="RALTA_A1433" Name="RSc1792" Function="Predicted sugar ABC transporter, permease protein 1" />
+          <Members vimssId="5902368" LocusId="RALTA_A1432" Name="RSc1793" Function="Predicted sugar ABC transporter, permease protein 2" />
+          <Members vimssId="5902367" LocusId="RALTA_A1431" Name="RSc1794" Function="Predicted sugar ABC transporter, ATP-binding protein" />
+          <Members vimssId="5902366" LocusId="RALTA_A1430" Name="RSc1795" Function="3',5'-cyclic-nucleotide phosphodiesterase (EC 3.1.4.17)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5331</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="Rmet_5631" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59898" />
+      <Effector />
+      <Pathway>Glycolate utilization; Lactate utilization</Pathway>
+      <LocusTag Key="RALTA_B0768" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5905514&amp;disp=0" />
+      <BiologicalProcess>Glycolate utilization; Lactate utilization</BiologicalProcess>
+      <Regulog Key="Rmet_5631 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6150" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_B1072" Name="Rmet_5631" Position="-7" Score="3.8">
+          <Sequence>GAATTGAATGCAAAGC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B1072" Name="Rmet_5631" Position="-164" Score="5.4">
+          <Sequence>GTTTTGAATGCAAAAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B1072" Name="Rmet_5631" Position="-34" Score="4.3">
+          <Sequence>AAATTGAATTCAATCT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B0770" Name="sgaA" Position="-178" Score="5.5">
+          <Sequence>TTTTTGCATTCAATAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B0770" Name="sgaA" Position="-45" Score="4.9">
+          <Sequence>CGATTGCATTCAAAAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B0768" Name="Rmet_5631" Position="-140" Score="4.9">
+          <Sequence>ATTTTGAATGCAATCG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B0768" Name="Rmet_5631" Position="-7" Score="5.5">
+          <Sequence>ATATTGAATGCAAAAA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B1073" Name="sgaA" Position="-190" Score="3.8">
+          <Sequence>GCTTTGCATTCAATTC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B1073" Name="sgaA" Position="-163" Score="4.3">
+          <Sequence>AGATTGAATTCAATTT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B1073" Name="sgaA" Position="-33" Score="5.4">
+          <Sequence>ATTTTGCATTCAAAAC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B1543" Name="Rmet_5631" Position="-7" Score="4.3">
+          <Sequence>ACATTGCATGCAACCT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B0771" Name="dld2" Position="-12" Score="4.2">
+          <Sequence>TTCTTGCATGCCATGA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5905515" LocusId="RALTA_B0770" Name="sgaA" Function="Serine--glyoxylate aminotransferase (EC 2.6.1.45)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5905516" LocusId="RALTA_B0771" Name="dld2" Function="D-lactate dehydrogenase, alternative" />
+          <Members vimssId="5905517" LocusId="RALTA_B0772" Name="RALTA_B0772" Function="amino acid processing enzyme (aldolase or racemase)" />
+          <Members vimssId="5905518" LocusId="RALTA_B0773" Name="tctC" Function="Tricarboxylate transport protein TctC, periplasmic binding subunit" />
+          <Members vimssId="5905519" LocusId="RALTA_B0774" Name="tctB" Function="Tricarboxylate transport protein TctB, small permease component" />
+          <Members vimssId="5905520" LocusId="RALTA_B0775" Name="tctA" Function="Tricarboxylate transport membrane protein TctA, large permease component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5905514" LocusId="RALTA_B0768" Name="Rmet_5631" Function="Transcriptional regulator associated with tricarboxylic transport, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5906270" LocusId="RALTA_B1543" Name="Rmet_5631" Function="Transcriptional regulator associated with tricarboxylic transport, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5905808" LocusId="RALTA_B1073" Name="sgaA" Function="Serine--glyoxylate aminotransferase (EC 2.6.1.45)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5905807" LocusId="RALTA_B1072" Name="Rmet_5631" Function="Transcriptional regulator associated with tricarboxylic transport, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6150</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor (activator)">
+      <Regulator Key="RutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30801" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="RALTA_B1431" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5906159&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3180" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_B1434" Name="ribA2" Position="-43" Score="7.1">
+          <Sequence>ACCTGACCGATTGGTCAGGA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5906162" LocusId="RALTA_B1434" Name="ribA2" Function="GTP cyclohydrolase II (EC 3.5.4.25  ) homolog" />
+          <Members vimssId="5906161" LocusId="RALTA_B1433" Name="PF07958" Function="Conserved hypothetical protein" />
+          <Members vimssId="5906160" LocusId="RALTA_B1432" Name="upp" Function="Uracil phosphoribosyltransferase (EC 2.4.2.9)" />
+          <Members vimssId="5906159" LocusId="RALTA_B1431" Name="rutR" Function="Transcriptional regulator, TetR family" />
+          <Members vimssId="5906158" LocusId="RALTA_B1430" Name="codA" Function="Cytosine deaminase (EC 3.5.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3180</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="SdaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57506" />
+      <Effector />
+      <Pathway>Glucuronate utilization; Glucarate utilization; Galactarate utilization</Pathway>
+      <LocusTag Key="RALTA_A1241" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5902182&amp;disp=0" />
+      <BiologicalProcess>Glucuronate utilization; Glucarate utilization; Galactarate utilization</BiologicalProcess>
+      <Regulog Key="SdaR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5885" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A1241" Name="sdaR" Position="-32" Score="5.9">
+          <Sequence>AAGCTGTCAGACAGCCT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5902182" LocusId="RALTA_A1241" Name="sdaR" Function="Predicted regulator of D-glucarate/D-galactarate utilization, GntR family" />
+          <Members vimssId="5902181" LocusId="RALTA_A1240" Name="COG579" Function="2-hydroxyglutarate dehydrogenase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5885</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="SdhR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62141" />
+      <Effector />
+      <Pathway>Tricarboxylic acid cycle</Pathway>
+      <LocusTag Key="RALTA_A2132" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5903080&amp;disp=0" />
+      <BiologicalProcess>Tricarboxylic acid cycle</BiologicalProcess>
+      <Regulog Key="SdhR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6385" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_B0366" Name="acnB" Position="-22" Score="5.8">
+          <Sequence>TCTTATATAAGATATAAGACATTTGA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B0366" Name="acnB" Position="-29" Score="6.2">
+          <Sequence>GATGAACTCTTATATAAGATATAAGA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1766" Name="aceA" Position="-132" Score="5.4">
+          <Sequence>TCTACACTCTTATATAAGACACAGGA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A2531" Name="icd" Position="-168" Score="6.3">
+          <Sequence>TCTTGTGTCTTATATAAGACTGAATC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B0267" Name="aceA2" Position="-132" Score="7.5">
+          <Sequence>TCTTATGTCTTATATAAGACATAACC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A2133" Name="mdh" Position="-360" Score="7.9">
+          <Sequence>TCTTATGTCTTATATAAGACATATGA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A2132" Name="sdhR" Position="-254" Score="7.9">
+          <Sequence>TCATATGTCTTATATAAGACATAAGA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5903081" LocusId="RALTA_A2133" Name="mdh" Function="Malate dehydrogenase (EC 1.1.1.37)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5903080" LocusId="RALTA_A2132" Name="sdhR" Function="Transcriptional regulator of TCA cycle, GntR family" />
+          <Members vimssId="5903079" LocusId="RALTA_A2131" Name="sdhC" Function="Succinate dehydrogenase cytochrome b-556 subunit" />
+          <Members vimssId="5903078" LocusId="RALTA_A2130" Name="sdhD" Function="Succinate dehydrogenase hydrophobic membrane anchor protein" />
+          <Members vimssId="5903077" LocusId="RALTA_A2129" Name="sdhA" Function="Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1)" />
+          <Members vimssId="5903076" LocusId="RALTA_A2128" Name="sdhB" Function="Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1)" />
+          <Members vimssId="5903075" LocusId="RALTA_A2127" Name="COG2938" Function="succinate dehydrogenase iron-sulfur subunit" />
+          <Members vimssId="5903074" LocusId="RALTA_A2126" Name="gltA" Function="Citrate synthase (si) (EC 2.3.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5905015" LocusId="RALTA_B0267" Name="aceA2" Function="Isocitrate lyase (EC 4.1.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5902702" LocusId="RALTA_A1766" Name="aceA" Function="Isocitrate lyase (EC 4.1.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5903480" LocusId="RALTA_A2531" Name="icd" Function="Isocitrate dehydrogenase [NADP] (EC 1.1.1.42)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5905114" LocusId="RALTA_B0366" Name="acnB" Function="Aconitate hydratase 2 (EC 4.2.1.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6385</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="SoxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50525" />
+      <Effector>Paraquat</Effector>
+      <Pathway>Superoxide stress response</Pathway>
+      <LocusTag Key="RALTA_B2083" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5906792&amp;disp=0" />
+      <BiologicalProcess>Superoxide stress response</BiologicalProcess>
+      <Regulog Key="SoxR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5115" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_B2082" Name="PF01042" Position="-151" Score="6.3">
+          <Sequence>ACCTTAACCTAACTTGAGGT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5906791" LocusId="RALTA_B2082" Name="PF01042" Function="Endoribonuclease L-PSP" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5115</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="TauR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59152" />
+      <Effector>Taurine</Effector>
+      <Pathway>Taurine utilization</Pathway>
+      <LocusTag Key="RALTA_B1590" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5906317&amp;disp=0" />
+      <BiologicalProcess>Taurine utilization</BiologicalProcess>
+      <Regulog Key="TauR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6064" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_B1591" Name="tauX" Position="-114" Score="9.5">
+          <Sequence>CTGGCCCAAG-------------CTGGCGCTAC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B1998" Name="tauC2" Position="-57" Score="7.4">
+          <Sequence>CTGGCCGAAG-------------CTGGCGCAAG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1247" Name="tauM" Position="-43" Score="6.6">
+          <Sequence>GTGGCCGCAT-------------CTGGACCGGA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B0795" Name="tauA" Position="-102" Score="8.6">
+          <Sequence>CTGGCCCCAC-------------CTGGTCCTAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5906709" LocusId="RALTA_B1998" Name="tauC2" Function="Taurine transport system permease protein TauC" />
+          <Members vimssId="5906710" LocusId="RALTA_B1999" Name="tauB2" Function="Taurine transport ATP-binding protein TauB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5906318" LocusId="RALTA_B1591" Name="tauX" Function="Putative small subunit of taurine dehydrogenase" />
+          <Members vimssId="5906319" LocusId="RALTA_B1592" Name="tauY" Function="Taurine dehydrogenase, large subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5902188" LocusId="RALTA_A1247" Name="tauM" Function="TRAP-type taurine transporter, small permease component" />
+          <Members vimssId="5902189" LocusId="RALTA_A1248" Name="tauL" Function="TRAP-type taurine transporter, large permease component" />
+          <Members vimssId="5902190" LocusId="RALTA_A1249" Name="tauK" Function="TRAP-type taurine transporter, periplasmatic component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5905540" LocusId="RALTA_B0795" Name="tauA" Function="Taurine-binding periplasmic protein TauA" />
+          <Members vimssId="5905539" LocusId="RALTA_B0794" Name="tauB" Function="Taurine transport ATP-binding protein TauB" />
+          <Members vimssId="5905538" LocusId="RALTA_B0793" Name="tauC" Function="Taurine transport system permease protein TauC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6064</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="UraR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57237" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="RALTA_A0992" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5901933&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="UraR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5854" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_B2201" Name="COG1953" Position="-112" Score="4.7">
+          <Sequence>TTTGTAGACAAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B2201" Name="COG1953" Position="-167" Score="4.5">
+          <Sequence>AATGTTGACAAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0993" Name="pucM" Position="-202" Score="5.2">
+          <Sequence>ATTGTCAACAAA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0993" Name="pucM" Position="-234" Score="5.2">
+          <Sequence>ATTGTTGACAAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0992" Name="uraR" Position="-108" Score="5.2">
+          <Sequence>TTTGTTGACAAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A0992" Name="uraR" Position="-76" Score="5.2">
+          <Sequence>ATTGTCAACAAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1283" Name="atzB" Position="-117" Score="4">
+          <Sequence>TTTGTGGACAGT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5901933" LocusId="RALTA_A0992" Name="uraR" Function="Predicted transcriptional regulator for pyrimidine utilization, GntR family" />
+          <Members vimssId="5901932" LocusId="RALTA_A0991" Name="pbuT" Function="Xanthine/uracil permease" />
+          <Members vimssId="5901931" LocusId="RALTA_A0990" Name="COG0726" Function="putative polysaccharide deacetylase family protein" />
+          <Members vimssId="5901930" LocusId="RALTA_A0989" Name="uraO" Function="Urate oxidase (EC 1.7.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5906910" LocusId="RALTA_B2201" Name="COG1953" Function="Putative cytosine/uracil/thiamine/allantoin permeases" />
+          <Members vimssId="5906911" LocusId="RALTA_B2202" Name="hyuE" Function="Hydantoin racemase (EC 5.1.99.-)" />
+          <Members vimssId="5906912" LocusId="RALTA_B2203" Name="COG0726" Function="putative polysaccharide deacetylase family protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5901934" LocusId="RALTA_A0993" Name="pucM" Function="5-hydroxyisourate hydrolase (HIUHase)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5902224" LocusId="RALTA_A1283" Name="atzB" Function="Guanine deaminase (EC 3.5.4.3); Hydroxydechloroatrazine ethylaminohydrolase (EC 3.5.99.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5854</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="UxuR3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61570" />
+      <Effector />
+      <Pathway>Glucuronate utilization</Pathway>
+      <LocusTag Key="RALTA_A1565" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5902499&amp;disp=0" />
+      <BiologicalProcess>Glucuronate utilization</BiologicalProcess>
+      <Regulog Key="UxuR3 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6323" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A1565" Name="uxuR3" Position="-245" Score="4.5">
+          <Sequence>TATCTGGTTCACCAATTA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A1563" Name="uxuA" Position="-136" Score="4.5">
+          <Sequence>TAATTGGTGAACCAGATA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5902499" LocusId="RALTA_A1565" Name="uxuR3" Function="Predicted transcriptional regulator for glucuronate utilization, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5902498" LocusId="RALTA_A1563" Name="uxuA" Function="D-mannonate dehydratase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6323</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YdcR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59732" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="RALTA_A1516" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5902450&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="YdcR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6131" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A1517" Name="h16_A1590" Position="-107" Score="8.6">
+          <Sequence>AACTGATACGTAATT---------ATCTGATGCTGGTAT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B1080" Name="PF01654" Position="-308" Score="9.1">
+          <Sequence>ATCTGATACGGTGTT---------ATTTGATTCTGTTCC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="pRALTA_0449" Name="COG2124" Position="-211" Score="7.6">
+          <Sequence>ATCTGTCGCGGTAAG---------ATCTGATGCCGGTTA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5905815" LocusId="RALTA_B1080" Name="PF01654" Function="Cytochrome d ubiquinol oxidase subunit I (EC 1.10.3.-)" />
+          <Members vimssId="5905814" LocusId="RALTA_B1079" Name="PF02322" Function="Cytochrome d ubiquinol oxidase subunit II (EC 1.10.3.-)" />
+          <Members vimssId="5905813" LocusId="RALTA_B1078" Name="h16_B1175" Function="conserved hypothetical protein; Cytochrome bd ubiquinol oxidase associated sequence" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5902451" LocusId="RALTA_A1517" Name="h16_A1590" Function="putative three-component membrane-bound alcohol deshydrogenase, subunit III (AdhS)" />
+          <Members vimssId="5902452" LocusId="RALTA_A1518" Name="COG3258" Function="Putative diheme cytochrome c-553" />
+          <Members vimssId="5902453" LocusId="RALTA_A1519" Name="h16_A1592" Function="putative three-component membrane-bound alcohol deshydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5904561" LocusId="pRALTA_0449" Name="COG2124" Function="Cytochrome P450" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6131</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9922" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="RALTA_A0139" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5901094&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1090" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A0136" Name="yciC" Position="-76" Score="5.9">
+          <Sequence>AATTCGCAACCTTGTTGCAACAG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A2241" Name="zip" Position="-35" Score="6.4">
+          <Sequence>TTATTGCAACATTGTTGCGTTTG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5901091" LocusId="RALTA_A0136" Name="yciC" Function="Putative zinc chaperone, COG0523 family" />
+          <Members vimssId="5901090" LocusId="RALTA_A0135" Name="null" Function="hypothetical transmembrane protein" />
+          <Members vimssId="5901089" LocusId="RALTA_A0134" Name="omr" Function="predicted zinc-related TonB-dependent outer membrane transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5903188" LocusId="RALTA_A2241" Name="zip" Function="Zinc transporter, ZIP family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1090</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14098" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A2446" Name="btuB" Position="-163" Score="27">
+          <Sequence>GACCGGCCACACGCCACTGAACCGCAGGTTCGGGAAGGCGCCGGTT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5903395" LocusId="RALTA_A2446" Name="btuB" Function="Outer membrane vitamin B12 receptor BtuB" />
+          <Members vimssId="5903394" LocusId="RALTA_A2445" Name="btuC" Function="Vitamin B12 ABC transporter, permease component BtuC" />
+          <Members vimssId="5903393" LocusId="RALTA_A2444" Name="btuD" Function="Vitamin B12 ABC transporter, ATPase component BtuD" />
+          <Members vimssId="5903392" LocusId="RALTA_A2443" Name="btuR" Function="Cob(I)alamin adenosyltransferase (EC 2.5.1.17)" />
+          <Members vimssId="5903391" LocusId="RALTA_A2442" Name="cobT" Function="Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase (EC 2.4.2.21)" />
+          <Members vimssId="5903390" LocusId="RALTA_A2441" Name="cobS" Function="Cobalamin synthase" />
+          <Members vimssId="5903389" LocusId="RALTA_A2440" Name="cobC" Function="Alpha-ribazole-5'-phosphate phosphatase (EC 3.1.3.73)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13611" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_B1130" Name="ribB" Position="-326" Score="98.7">
+          <Sequence>TACGTCTTCAGGGCGGGGTGAAAGTCCCCACCGGCGGTATGCCGCGACGCGCAGCGCGCGTCCGGCGAGCCCGCGAGCGCTCGCATTCCCGTGCGAGGTCAGCAGACCTGGTGAGAGGCCAGGGCCGACGGTCATAGTCCGGATGAAAGAAGATGAACGG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5905863" LocusId="RALTA_B1130" Name="ribB" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00504" RegulationMode="RF00504">
+      <Regulator Key="Glycine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21396" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="Glycine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A3074" Name="gcvT" Position="-328" Score="49.6">
+          <Sequence>GCATCCGACCGGGAGAGCGCGCATCGCCTGCGCCGCCGAAGGGGTATCACCCGAAAACTCTCAGGCACCACGGACCGGTCGGATCGGCA</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_A3074" Name="gcvT" Position="-219" Score="38.3">
+          <Sequence>TGCCGCACTCTGGAGAGCGGCACCCGCCATTCGTGGCGAGCGTGCCCACCGAAGGGGCGCGCGAGGACTGGAATCCGCAGGATCCGCCTCGTAATCTCTCAGGTATCGAGGACAGAGGGGTCATCCG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B0324" Name="dadA" Position="-178" Score="32.2">
+          <Sequence>GTCAGTGCACTCTGAAGAATGCCGGACGCCATCGTCCGCCCGGCATACCGAAGGAGCAAGCGCGCCCCGCCCCCGCGGCAAGGCGCCGCGAATCTCTCAGGTCCAGAACAGAGGGGGCGTC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RALTA_B0324" Name="dadA" Position="-277" Score="44.9">
+          <Sequence>CAGCGTGATGCAGGGAGAGACTGTCGCGGCGCCCGCCGCGCACGGCGCCGAAGGAGCAACCGCCCCGGAAACTCTCAGGCAAAAGGACCGGCATCACCCG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5904032" LocusId="RALTA_A3074" Name="gcvT" Function="Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10)" />
+          <Members vimssId="5904033" LocusId="RALTA_A3075" Name="gcvH" Function="Glycine cleavage system H protein" />
+          <Members vimssId="5904034" LocusId="RALTA_A3076" Name="gcvP" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P protein) (EC 1.4.4.2)" />
+          <Members vimssId="5904035" LocusId="RALTA_A3077" Name="sdaA" Function="L-serine dehydratase (EC 4.3.1.17)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5905071" LocusId="RALTA_B0324" Name="dadA" Function="D-amino acid dehydrogenase small subunit (EC 1.4.99.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01057" RegulationMode="RF01057">
+      <Regulator Key="SAH_riboswitch" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=22446" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="SAH_riboswitch" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A0188" Name="ahcY" Position="-211" Score="61.2">
+          <Sequence>ACTCCGAGGAGCGTTGCAACGGATGCGGTAGGCAGTTCAGTGCCACCCCATGCATCCGCCAGGCTCGGACTGTCTCAACGGCGCTCGCTGATCCG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5901144" LocusId="RALTA_A0188" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+          <Members vimssId="5901145" LocusId="RALTA_A0189" Name="PF04020" Function="Predicted membrane protein" />
+          <Members vimssId="5901146" LocusId="RALTA_A0190" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13907" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A0179" Name="thiC" Position="-201" Score="66.4">
+          <Sequence>GGATGAAACAGGGGTGCCGTACGGATGGGCCGTGCGGCTGAGAGAGTCCCTTCGAACCCGATCCGGTTAGTACCGGCGTGGGAAGTTTCAGCAAGACCAAGCC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5901135" LocusId="RALTA_A0179" Name="thiC" Function="Phosphomethylpyrimidine synthase" />
+          <Members vimssId="5901136" LocusId="RALTA_A0180" Name="thiO" Function="Glycine oxidase ThiO (EC 1.4.3.19)" />
+          <Members vimssId="5901137" LocusId="RALTA_A0181" Name="thiS" Function="Sulfur carrier protein ThiS" />
+          <Members vimssId="5901138" LocusId="RALTA_A0182" Name="thiG" Function="Thiazole synthase" />
+          <Members vimssId="5901139" LocusId="RALTA_A0183" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+          <Members vimssId="5901140" LocusId="RALTA_A0184" Name="h16_A0240" Function="Acetyltransferase, GNAT family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01068" RegulationMode="RF01068">
+      <Regulator Key="mini-ykkC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=24094" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="mini-ykkC" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_B1859" Name="ykkC" Position="-70" Score="29.4">
+          <Sequence>TTCGAGGACGACCTCGCCCGCCGTGGGTATGAATGTCCGGGACGGCCCGGCT</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5906574" LocusId="RALTA_B1859" Name="ykkC" Function="Quaternary ammonium compound-resistance protein sugE" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01070" RegulationMode="RF01070">
+      <Regulator Key="sucA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=24562" />
+      <Effector />
+      <Pathway>Tricarboxylic acid cycle</Pathway>
+      <LocusTag Key="sucA" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A1870" Name="sucA" Position="-88" Score="79.3">
+          <Sequence>TTTGCGATCCGCTAACCGGTCAAGCCGTGTCGCGGAAGGTTGAATAACCCGCTGAACTCCGGCAGACCCGGAGAAAAGTGAGCG</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5902806" LocusId="RALTA_A1870" Name="sucA" Function="2-oxoglutarate dehydrogenase E1 component (EC 1.2.4.2)" />
+          <Members vimssId="5902805" LocusId="RALTA_A1869" Name="sucB" Function="Dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase complex (EC 2.3.1.61)" />
+          <Members vimssId="5902804" LocusId="RALTA_A1868" Name="lpdA" Function="Dihydrolipoamide dehydrogenase of 2-oxoglutarate dehydrogenase (EC 1.8.1.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=23616" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RALTA_A2193" Name="ykoY" Position="-230" Score="72.5">
+          <Sequence>TGTCCCTCAAAGGGGAGTAGCTCCGGGGCCGATGCCCTTAGCACAATCGTCATTCCGGGACAGCAGTCCCCGGTTGTGCTGACTACCGGCGCGCATACCGCGCCAGTGGTCGAGCAAGACCTTTGCAACCTGGAC</Sequence>
+          <Bacteria>Cupriavidus taiwanensis</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5903140" LocusId="RALTA_A2193" Name="ykoY" Function="Membrane protein TerC, possibly involved in tellurium resistance" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

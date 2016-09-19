@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Deinococcus geothermalis DSM 11300" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor (activator)">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59015" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="Dgeo_2316" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1845556&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Deinococcus-Thermus" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6050" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dgeo_2070" Name="carB" Position="-64" Score="4.6">
+          <Sequence>TGCATAACCTTGCA</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dgeo_2067" Name="argG" Position="-163" Score="5">
+          <Sequence>TGCATAGCTATACG</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dgeo_2067" Name="argG" Position="-142" Score="4">
+          <Sequence>CGTATAACGATACA</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1845312" LocusId="Dgeo_2070" Name="carB" Function="Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1845309" LocusId="Dgeo_2067" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+          <Members vimssId="1845308" LocusId="Dgeo_2066" Name="COG3153" Function="Putative N-acetyltransferase" />
+          <Members vimssId="1845307" LocusId="Dgeo_2065" Name="argH" Function="Argininosuccinate lyase (EC 4.3.2.1)" />
+          <Members vimssId="1845306" LocusId="Dgeo_2064" Name="PF01230" Function="Histidine triad (HIT) protein" />
+          <Members vimssId="1845305" LocusId="Dgeo_2063" Name="argA" Function="N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="1845304" LocusId="Dgeo_2062" Name="argA" Function="N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="1845303" LocusId="Dgeo_2061" Name="argA" Function="N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="1845302" LocusId="Dgeo_2060" Name="carA" Function="putative Carbamoyl-phosphate synthase small chain,(Carbamoyl- phosphate synthetase glutamine chain)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6050</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="BglR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52469" />
+      <Effector>Beta-glucoside</Effector>
+      <Pathway>Beta-glucosides utilization</Pathway>
+      <LocusTag Key="Dgeo_2858" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1845734&amp;disp=0" />
+      <BiologicalProcess>Beta-glucosides utilization</BiologicalProcess>
+      <Regulog Key="BglR - Deinococcus-Thermus" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5345" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dgeo_2858" Name="bglR" Position="-31" Score="5.8">
+          <Sequence>TTTTGCAACCGCTTTCAGAT</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dgeo_2859" Name="bglE" Position="-147" Score="5.6">
+          <Sequence>GTTGACAAGCGCTTTCAAAG</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1845734" LocusId="Dgeo_2858" Name="bglR" Function="Transcriptional regulator for beta-glucoside utilization, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1845733" LocusId="Dgeo_2859" Name="bglE" Function="Predicted beta-glucoside ABC transporter, periplasmic component" />
+          <Members vimssId="1845732" LocusId="Dgeo_2860" Name="bglF" Function="Predicted beta-glucoside ABC transporter, permease component" />
+          <Members vimssId="1845731" LocusId="Dgeo_2861" Name="bglG" Function="Predicted beta-glucoside ABC transporter, permease component" />
+          <Members vimssId="1845730" LocusId="Dgeo_2862" Name="bglB" Function="Beta-glucosidase (EC 3.2.1.21)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5345</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="DR2501" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52306" />
+      <Effector />
+      <Pathway>Sugar utilization</Pathway>
+      <LocusTag Key="Dgeo_2243" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1845485&amp;disp=0" />
+      <BiologicalProcess>Sugar utilization</BiologicalProcess>
+      <Regulog Key="DR2501 - Deinococcus-Thermus" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5326" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dgeo_0672" Name="aglA" Position="-47" Score="6">
+          <Sequence>GAACTGAATCGATTCAGTCG</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dgeo_2243" Name="DR2501" Position="-46" Score="5.9">
+          <Sequence>AGGCTAAATCGATTTAGATC</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dgeo_2244" Name="DR2502" Position="-55" Score="5.9">
+          <Sequence>GATCTAAATCGATTTAGCCT</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1845485" LocusId="Dgeo_2243" Name="DR2501" Function="Predicted sugar utilization transcriptional regulator, LacI family" />
+          <Members vimssId="1845484" LocusId="Dgeo_2242" Name="galE" Function="UDP-glucose 4-epimerase (EC 5.1.3.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1845486" LocusId="Dgeo_2244" Name="DR2502" Function="Predicted sugar permease, MFS family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1843922" LocusId="Dgeo_0672" Name="aglA" Function="putative alpha-glucosidase (EC 3.2.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5326</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41974" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Dgeo_2033" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1845275&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Deinococcus-Thermus" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4335" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dgeo_1772" Name="achX" Position="-357" Score="5.1">
+          <Sequence>ATACAACATTTAGTAT</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1845015" LocusId="Dgeo_1772" Name="achX" Function="Acyl-CoA hydrolase (EC 3.1.2.20)" />
+          <Members vimssId="1845016" LocusId="Dgeo_1773" Name="nrdI" Function="Ribonucleotide reduction protein NrdI" />
+          <Members vimssId="1845017" LocusId="Dgeo_1774" Name="nrdE" Function="Ribonucleotide reductase of class Ib (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="1845018" LocusId="Dgeo_1775" Name="nrdF" Function="Ribonucleotide reductase of class Ib (aerobic), beta subunit (EC 1.17.4.1)" />
+          <Members vimssId="1845019" LocusId="Dgeo_1776" Name="trx" Function="thioredoxin-related protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4335</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PaaR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38501" />
+      <Effector>Phenylacetyl-CoA</Effector>
+      <Pathway>Phenylacetic acid degradation</Pathway>
+      <LocusTag Key="Dgeo_0117" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1843368&amp;disp=0" />
+      <BiologicalProcess>Phenylacetic acid degradation</BiologicalProcess>
+      <Regulog Key="PaaR2 - Deinococcus-Thermus" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3929" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dgeo_0811" Name="pccB" Position="-31" Score="6.4">
+          <Sequence>CTAACGGGCGTTTGTTAG</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dgeo_1320" Name="mcm2" Position="-55" Score="5.7">
+          <Sequence>CTAACGTGCGTTCGTTCG</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dgeo_2338" Name="bkdA1" Position="-90" Score="6.2">
+          <Sequence>CTAACGAGCGTTAGCTAG</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dgeo_1253" Name="hmgcL" Position="-35" Score="5.6">
+          <Sequence>CCAACGAACGCTTGTTTG</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dgeo_0862" Name="mcm" Position="-38" Score="6.1">
+          <Sequence>CTAACGAGCGTTTGTTTC</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dgeo_1179" Name="bcd2" Position="-27" Score="6.2">
+          <Sequence>CTAACAAGCGTTTGGTAG</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dgeo_0117" Name="paaR" Position="-61" Score="4.8">
+          <Sequence>CAAACGGACGTTCACTTG</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dgeo_0467" Name="accB" Position="-89" Score="5.3">
+          <Sequence>CTAACGACCGTTCGGGAG</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1845578" LocusId="Dgeo_2338" Name="bkdA1" Function="Branched-chain alpha-keto acid dehydrogenase, E1 component, alpha subunit (EC 1.2.4.4)" />
+          <Members vimssId="1845579" LocusId="Dgeo_2339" Name="bkdA2" Function="Branched-chain alpha-keto acid dehydrogenase, E1 component, beta subunit (EC 1.2.4.4)" />
+          <Members vimssId="1845580" LocusId="Dgeo_2340" Name="DR0031" Function="hypothetical protein" />
+          <Members vimssId="1845581" LocusId="Dgeo_2341" Name="bkdB" Function="Dihydrolipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex (EC 2.3.1.168)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1843718" LocusId="Dgeo_0467" Name="accB" Function="Biotin carboxyl carrier protein of acetyl-CoA carboxylase" />
+          <Members vimssId="1843717" LocusId="Dgeo_0466" Name="accC" Function="Biotin carboxylase of acetyl-CoA carboxylase (EC 6.3.4.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1843368" LocusId="Dgeo_0117" Name="paaR" Function="Transcriptional regulator of phenylacetic acid degradation, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1844497" LocusId="Dgeo_1253" Name="hmgcL" Function="Hydroxymethylglutaryl-CoA lyase (EC 4.1.3.4)" />
+          <Members vimssId="1844498" LocusId="Dgeo_1254" Name="maoC" Function="enoyl-CoA hydratase-like enzyme" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1844112" LocusId="Dgeo_0862" Name="mcm" Function="Methylmalonyl-CoA mutase (EC 5.4.99.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1844424" LocusId="Dgeo_1179" Name="bcd2" Function="Butyryl-CoA dehydrogenase (EC 1.3.99.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1844564" LocusId="Dgeo_1320" Name="mcm2" Function="Methylmalonyl-CoA mutase (EC 5.4.99.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1844061" LocusId="Dgeo_0811" Name="pccB" Function="Propionyl-CoA carboxylase (EC 6.4.1.3)" />
+          <Members vimssId="1844062" LocusId="Dgeo_0812" Name="bcd" Function="Butyryl-CoA dehydrogenase (EC 1.3.8.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3929</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29861" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="Dgeo_0630" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1843880&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Deinococcus-Thermus" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3115" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dgeo_1949" Name="ndh" Position="-28" Score="5.7">
+          <Sequence>TCGTGAATTCCTTCACAG</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dgeo_0909" Name="nuoA" Position="-83" Score="5.6">
+          <Sequence>TCGTGCGTTTTTTCACGA</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dgeo_1163" Name="nadC" Position="-46" Score="5.4">
+          <Sequence>ACGTGATTTCGTTCACGA</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1844408" LocusId="Dgeo_1163" Name="nadC" Function="Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)" />
+          <Members vimssId="1844409" LocusId="Dgeo_1164" Name="nadA" Function="Quinolinate synthetase (EC 4.1.99.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1844159" LocusId="Dgeo_0909" Name="nuoA" Function="NADH ubiquinone oxidoreductase chain A (EC 1.6.5.3)" />
+          <Members vimssId="1844160" LocusId="Dgeo_0910" Name="nuoB" Function="NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)" />
+          <Members vimssId="1844161" LocusId="Dgeo_0911" Name="nuoC" Function="NADH-ubiquinone oxidoreductase chain C (EC 1.6.5.3)" />
+          <Members vimssId="1844162" LocusId="Dgeo_0912" Name="nuoD" Function="NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)" />
+          <Members vimssId="1844163" LocusId="Dgeo_0913" Name="nuoE" Function="NADH-ubiquinone oxidoreductase chain E (EC 1.6.5.3)" />
+          <Members vimssId="1844164" LocusId="Dgeo_0914" Name="nuoF" Function="NADH-ubiquinone oxidoreductase chain F (EC 1.6.5.3)" />
+          <Members vimssId="1844165" LocusId="Dgeo_0915" Name="nuoG" Function="NADH-ubiquinone oxidoreductase chain G (EC 1.6.5.3)" />
+          <Members vimssId="1844166" LocusId="Dgeo_0916" Name="nuoH" Function="NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)" />
+          <Members vimssId="1844167" LocusId="Dgeo_0917" Name="nuoI" Function="NADH-ubiquinone oxidoreductase chain I (EC 1.6.5.3)" />
+          <Members vimssId="1844168" LocusId="Dgeo_0918" Name="nuoJ" Function="NADH-ubiquinone oxidoreductase chain J (EC 1.6.5.3)" />
+          <Members vimssId="1844169" LocusId="Dgeo_0919" Name="nuoK" Function="NADH-ubiquinone oxidoreductase chain K (EC 1.6.5.3)" />
+          <Members vimssId="1844170" LocusId="Dgeo_0920" Name="nuoL" Function="NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)" />
+          <Members vimssId="1844171" LocusId="Dgeo_0921" Name="nuoM" Function="NADH-ubiquinone oxidoreductase chain M (EC 1.6.5.3)" />
+          <Members vimssId="1844172" LocusId="Dgeo_0922" Name="nuoN" Function="NADH-ubiquinone oxidoreductase chain N (EC 1.6.5.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1845191" LocusId="Dgeo_1949" Name="ndh" Function="NADH dehydrogenase (EC 1.6.99.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3115</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39101" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dgeo_0025" Name="btuF" Position="-244" Score="21.6">
+          <Sequence>GGGAAAGACCGGTGAGAATCCGGCACTGTCGCGCAACGGTCACTGCCCCCTCTGTCCACCCCCAAGACAAGGGGCGGGAAGTCCGAACACC</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dgeo_2363" Name="btuF" Position="-259" Score="35">
+          <Sequence>CCGGCTTCTGCTATCCTGGCGCCACCTGGGAGCGGGGAAGTCCGGTGAGAATCCGGCGCTGTCGCGCAACGGTAAGCAGGCCTGCAGTCCTGTCAAGCCCGAATGCCCCCCAGGGACGCCCTGCGCTGCAG</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1845701" LocusId="Dgeo_2363" Name="btuF" Function="Vitamin B12 ABC transporter, B12-binding component BtuF" />
+          <Members vimssId="1845702" LocusId="Dgeo_2362" Name="btuR" Function="Cob(I)alamin adenosyltransferase (EC 2.5.1.17)" />
+          <Members vimssId="1845703" LocusId="Dgeo_2361" Name="cbiE" Function="Cobalt-precorrin-6y C5-methyltransferase (EC 2.1.1.-)" />
+          <Members vimssId="1845704" LocusId="Dgeo_2360" Name="cbiXC" Function="Sirohydrochlorin cobaltochelatase (EC 4.99.1.3) / Cobalt-precorrin-8x methylmutase (EC 5.4.1.2)" />
+          <Members vimssId="1845705" LocusId="Dgeo_2359" Name="cbiD" Function="Cobalt-precorrin-6 synthase, anaerobic" />
+          <Members vimssId="1845706" LocusId="Dgeo_2358" Name="cbiL" Function="Cobalt-precorrin-2 C20-methyltransferase (EC 2.1.1.130)" />
+          <Members vimssId="1845707" LocusId="Dgeo_2357" Name="cbiF" Function="Cobalt-precorrin-4 C11-methyltransferase (EC 2.1.1.133)" />
+          <Members vimssId="1845708" LocusId="Dgeo_2356" Name="cbiG" Function="Cobalamin biosynthesis protein CbiG" />
+          <Members vimssId="1845709" LocusId="Dgeo_2355" Name="cbiHJ" Function="Cobalt-precorrin-3b C17-methyltransferase / Cobalt-precorrin-6x reductase (EC 1.3.1.54)" />
+          <Members vimssId="1845710" LocusId="Dgeo_2354" Name="cobW" Function="Cobalamin synthesis protein" />
+          <Members vimssId="1845711" LocusId="Dgeo_2353" Name="hoxN" Function="HoxN/HupN/NixA family cobalt transporter" />
+          <Members vimssId="1845712" LocusId="Dgeo_2352" Name="cobN" Function="Cobaltochelatase, CobN subunit" />
+          <Members vimssId="1845713" LocusId="Dgeo_2351" Name="null" Function="Methyltransferase type 11" />
+          <Members vimssId="1845714" LocusId="Dgeo_2350" Name="chlID" Function="Cobalt chelatase, ChlI subunit / Cobalt chelatase, ChlD subunit" />
+          <Members vimssId="1845715" LocusId="Dgeo_2349" Name="cbiA" Function="Cobyrinic acid a,c-diamide synthase" />
+          <Members vimssId="1845716" LocusId="Dgeo_2348" Name="cbiB" Function="Adenosylcobinamide-phosphate synthase (EC 6.3.1.10)" />
+          <Members vimssId="1845717" LocusId="Dgeo_2875" Name="cobD" Function="L-threonine 3-O-phosphate decarboxylase (EC 4.1.1.81)" />
+          <Members vimssId="1845718" LocusId="Dgeo_2874" Name="cbiP" Function="Cobyric acid synthase" />
+          <Members vimssId="1845719" LocusId="Dgeo_2873" Name="cobU" Function="Adenosylcobinamide-phosphate guanylyltransferase (EC 2.7.7.62)" />
+          <Members vimssId="1845720" LocusId="Dgeo_2872" Name="cobT" Function="Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase (EC 2.4.2.21)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1843277" LocusId="Dgeo_0025" Name="btuF" Function="Vitamin B12 ABC transporter, B12-binding component BtuF" />
+          <Members vimssId="1843276" LocusId="Dgeo_0024" Name="btuC" Function="Vitamin B12 ABC transporter, permease component" />
+          <Members vimssId="1843275" LocusId="Dgeo_0023" Name="btuD" Function="Vitamin B12 ABC transporter, ATP-binding component" />
+          <Members vimssId="1843274" LocusId="Dgeo_0022" Name="COG3411" Function="Thioredoxin domain protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38976" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dgeo_0300" Name="ribD" Position="-188" Score="87.5">
+          <Sequence>GCTTCCTTCGGGGCGGGGTGAAATTCCCCACCGGCGGTGATCCGGCTCTGGCCGGTCAGCCCGCGAAGCCCGCGCAAACTGCACCACGCGCGAGGCCCGACTCCGTGCGATTCGGAGGCCGACGGTCACAGTCCGGATGAGAGAAGGAGGAACG</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1843551" LocusId="Dgeo_0300" Name="ribD" Function="Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26) / 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)" />
+          <Members vimssId="1843552" LocusId="Dgeo_0301" Name="ribE" Function="Riboflavin synthase alpha chain (EC 2.5.1.9)" />
+          <Members vimssId="1843553" LocusId="Dgeo_0302" Name="ribBA" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase / GTP cyclohydrolase II (EC 3.5.4.25)" />
+          <Members vimssId="1843554" LocusId="Dgeo_0303" Name="ribH" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00557" RegulationMode="RF00557">
+      <Regulator Key="L10_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39171" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L10_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dgeo_0640" Name="rplJ" Position="-118" Score="22.2">
+          <Sequence>CACCTTTCCAATTTCGGCATCGTAGACAGCGGGGACCCTTGCCAGGTTTAAACATCCCGCCGAGTTGTCAGGGCGCGAGTGCGCACCTGGACTTGTTCACCACCAGA</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1843890" LocusId="Dgeo_0640" Name="rplJ" Function="LSU ribosomal protein L10p (P0)" />
+          <Members vimssId="1843889" LocusId="Dgeo_0639" Name="rplL" Function="LSU ribosomal protein L7/L12 (P1/P2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00162" RegulationMode="RF00162">
+      <Regulator Key="SAM" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38996" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="SAM" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dgeo_1336" Name="metH" Position="-214" Score="21.6">
+          <Sequence>GGTCATCCTGAGCGCCCGAGGGAATTCCAGACCCACTGACGGCGCGGCAACCGGCCCTCATCACGGCACGGTGCCCCGTCTGGAAGGCCCCGCGCGCAAGACGCCGACGATGGCGTGA</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dgeo_0518" Name="metY" Position="-243" Score="51.1">
+          <Sequence>GACCTCATCCAGAGCGCCCGAGAGATCTGGCTCGTTGACGGCGCGGCAACCGGACCTCATCACGTCACGGTGCCAAGGCCAGCCCAGCGCAAGAGGTCAACGATGGCCGCGTGTGGGAACGATCAGGG</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1843768" LocusId="Dgeo_0518" Name="metY" Function="O-acetylhomoserine sulfhydrylase (EC 2.5.1.49) / O-succinylhomoserine sulfhydrylase (EC 2.5.1.48)" />
+          <Members vimssId="1843767" LocusId="Dgeo_0517" Name="metX" Function="Homoserine O-acetyltransferase (EC 2.3.1.31)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1844580" LocusId="Dgeo_1336" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)" />
+          <Members vimssId="1844581" LocusId="Dgeo_1337" Name="metF" Function="5,10-methylenetetrahydrofolate reductase-related protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Gly)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39021" />
+      <Effector>Gly-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dgeo_1716" Name="glyS" Position="-255" Score="61.7">
+          <Sequence>CCCCAGCGTTGATCCGCAGGAGTAGCGGGAGGATGCACCTCTGAGCGAGTCCGGGACGGTGAGAGCCGGACAGGGAGCGGCCCGCGAAGGGCGGCGGGGAGCTAATCACTTCTGCAAAAGTGCCGGGGTGGACGGACTGTTCCTCCCGGAACTGGGGTGGAACCGCGTAGAGTTGACTTCTGCGTCCCCAGGCG</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1844959" LocusId="Dgeo_1716" Name="glyS" Function="Glycyl-tRNA synthetase (EC 6.1.1.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ile)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39216" />
+      <Effector>Ile-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dgeo_1101" Name="ileS" Position="-277" Score="14.4">
+          <Sequence>CGAGAAGAGTACGCGGGATCCGGGCGGCCAGGAGCGAGTCAGGGACGGTGTGAGCCTGACGGCCCTGCCCCCCGCCGAAGATCATCTC</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1844347" LocusId="Dgeo_1101" Name="ileS" Function="Isoleucyl-tRNA synthetase (EC 6.1.1.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39036" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dgeo_1933" Name="thiB" Position="-170" Score="42.2">
+          <Sequence>CGCGTCACCGGGGGTGCCCACACACTGTGCCCACAGGGCCAGGGGGGCTGAGACACACCCCAAAGAACCTGATCCGGGTCATACCGGCGGAGGGAGCGTGATGCGCGGGTGCCGG</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dgeo_1924" Name="thiC" Position="-269" Score="60">
+          <Sequence>GGGCAGTCACCAGGGGTGCCTTTCCGCGCGAGGAGCGGAGGGCTGAGAGGGCAAGCGTGCCCAACCCTAGGAACCTGATCTGGTTCAGACCAGCGGAGGGAGCGTGACGGGTGCCGAAC</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1845167" LocusId="Dgeo_1924" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+          <Members vimssId="1845166" LocusId="Dgeo_1923" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+          <Members vimssId="1845165" LocusId="Dgeo_1922" Name="thiS" Function="Sulfur carrier protein ThiS" />
+          <Members vimssId="1845164" LocusId="Dgeo_1921" Name="thiG" Function="Thiazole biosynthesis protein ThiG" />
+          <Members vimssId="1845163" LocusId="Dgeo_1920" Name="thiO" Function="Glycine oxidase ThiO (EC 1.4.3.19)" />
+          <Members vimssId="1845162" LocusId="Dgeo_1919" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1845175" LocusId="Dgeo_1933" Name="thiB" Function="Thiamin ABC transporter, substrate-binding component" />
+          <Members vimssId="1845176" LocusId="Dgeo_1934" Name="thiP" Function="Thiamin ABC transporter, permease protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00234" RegulationMode="RF00234">
+      <Regulator Key="glmS" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39001" />
+      <Effector>Glucosamine-6-phosphate</Effector>
+      <Pathway>Amino sugar metabolism</Pathway>
+      <LocusTag Key="glmS" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dgeo_0010" Name="glmS" Position="-249" Score="26.6">
+          <Sequence>ACACAAACGGGAAGCGCAAGGTCTGTCTCAACAGGTCGTCCTGGAAGGCAGAAGACGAGGTGGAGGTGAGCGAGGGTTCTGCGGATGCCTCCAGGTCCGGCACGGGCCTCCCCGACTTCCCCGA</Sequence>
+          <Bacteria>Deinococcus geothermalis DSM 11300</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1843262" LocusId="Dgeo_0010" Name="glmS" Function="Glucosamine--fructose-6-phosphate aminotransferase [isomerizing] (EC 2.6.1.16)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

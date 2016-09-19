@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Cytophaga hutchinsonii ATCC 33406" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="NrtR" RegulationMode="repressor">
+      <Regulator Key="NrtR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57750" />
+      <Effector>Adenosine diphosphate ribose</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="CHU_2421" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1785471&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NrtR - Sphingobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5914" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CHU_2422" Name="prs" Position="-52" Score="6.9">
+          <Sequence>TTTGCGTAATTTTTACACAAA</Sequence>
+          <Bacteria>Cytophaga hutchinsonii ATCC 33406</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CHU_2422" Name="prs" Position="-1" Score="6.8">
+          <Sequence>ATTGCGTAATAATTACACAAA</Sequence>
+          <Bacteria>Cytophaga hutchinsonii ATCC 33406</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1785472" LocusId="CHU_2422" Name="prs" Function="Ribose-phosphate pyrophosphokinase (EC 2.7.6.1)" />
+          <Members vimssId="1785473" LocusId="CHU_2423" Name="null" Function="hypothetical protein" />
+          <Members vimssId="1785474" LocusId="CHU_2424" Name="nadV" Function="Nicotinamide phosphoribosyltransferase (EC 2.4.2.12)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5914</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Anaerocellum thermophilum DSM 6725" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor (activator)">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59026" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="Athe_1334" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5773878&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6052" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Athe_1249" Name="argG" Position="-70" Score="5.4">
+          <Sequence>TTGCATAATTATTCAT</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Athe_1079" Name="argC" Position="-82" Score="5.2">
+          <Sequence>TTGTATTTTTATACAC</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Athe_1540" Name="carA" Position="-112" Score="5.2">
+          <Sequence>TTGTATTTTTATTCAT</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5774094" LocusId="Athe_1540" Name="carA" Function="Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)" />
+          <Members vimssId="5774095" LocusId="Athe_1541" Name="carB" Function="Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)" />
+          <Members vimssId="5774096" LocusId="Athe_1542" Name="argF" Function="Ornithine carbamoyltransferase (EC 2.1.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5773623" LocusId="Athe_1079" Name="argC" Function="N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)" />
+          <Members vimssId="5773622" LocusId="Athe_1078" Name="argB" Function="Acetylglutamate kinase (EC 2.7.2.8)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5773793" LocusId="Athe_1249" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+          <Members vimssId="5773792" LocusId="Athe_1248" Name="argH" Function="Argininosuccinate lyase (EC 4.3.2.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6052</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57886" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="Athe_0209" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5772736&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5928" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Athe_2544" Name="bioY3" Position="-103" Score="8.5">
+          <Sequence>TAGTAAAC---------------GTTGACAA</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Athe_2725" Name="bioY2" Position="-47" Score="7.6">
+          <Sequence>TAGTAAAC---------------GTTTACAT</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Athe_2541" Name="bioB" Position="-88" Score="7.6">
+          <Sequence>ATGTAAAC---------------GTTTACTA</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5775117" LocusId="Athe_2544" Name="bioY3" Function="Substrate-specific component BioY of biotin ECF transporter" />
+          <Members vimssId="5775116" LocusId="Athe_2543" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+          <Members vimssId="5775115" LocusId="Athe_2542" Name="bioA" Function="Adenosylmethionine-8-amino-7-oxononanoate aminotransferase (EC 2.6.1.62)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5775306" LocusId="Athe_2725" Name="bioY2" Function="Substrate-specific component BioY of biotin ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5775114" LocusId="Athe_2541" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5928</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="Csac_2166" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57363" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux</Pathway>
+      <LocusTag Key="Athe_0960" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5773502&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux</BiologicalProcess>
+      <Regulog Key="Csac_2166 - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5868" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Athe_0959" Name="THA_1504" Position="-50" Score="7.5">
+          <Sequence>AGTGTTATATAATTATATAACACT</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5773501" LocusId="Athe_0959" Name="THA_1504" Function="hypothetical protein" />
+          <Members vimssId="5773502" LocusId="Athe_0960" Name="Csac_2166" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="5773503" LocusId="Athe_0961" Name="THA_1502" Function="ABC transporter, permease protein" />
+          <Members vimssId="5773504" LocusId="Athe_0962" Name="Athe_0962" Function="dipeptidyl aminopeptidase/acylaminoacyl-peptidase-like protein" />
+          <Members vimssId="5773505" LocusId="Athe_0963" Name="THA_1501" Function="ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5868</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="Csac_2497" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57042" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux</Pathway>
+      <LocusTag Key="Athe_0118" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5772645&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux</BiologicalProcess>
+      <Regulog Key="Csac_2497 - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5832" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Athe_0118" Name="Csac_2497" Position="-45" Score="6.2">
+          <Sequence>TGTATATACTGTATATATACAGTATGCAAAAGGAGAAAG</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Athe_0118" Name="Csac_2497" Position="-54" Score="7.6">
+          <Sequence>AATTAAAACTGTATATACTGTATATATACAGTATGCAAA</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5772645" LocusId="Athe_0118" Name="Csac_2497" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="5772644" LocusId="Athe_0117" Name="BH0652" Function="ABC-type multidrug transport system, ATPase component" />
+          <Members vimssId="5772643" LocusId="Athe_0116" Name="BH0653" Function="ABC-type multidrug transport system, permease component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5832</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62888" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="Athe_1562" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5774117&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6476" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Athe_1564" Name="feoA" Position="-96" Score="6.6">
+          <Sequence>ATTGAAAATGATTTTCAAT</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Athe_2602" Name="ftr" Position="-40" Score="6">
+          <Sequence>AATGAAAATCAATTTCAAA</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Athe_2602" Name="ftr" Position="-46" Score="5.9">
+          <Sequence>ATTGAAAATGAAAATCAAT</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5775183" LocusId="Athe_2602" Name="ftr" Function="High-affinity Fe2+ permease, FTR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5774119" LocusId="Athe_1564" Name="feoA" Function="Ferrous iron transport protein A" />
+          <Members vimssId="5774118" LocusId="Athe_1563" Name="feoB" Function="Ferrous iron transport protein B" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6476</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="HcpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62782" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="Athe_1171" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5773715&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="HcpR - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6461" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Athe_1172" Name="frdX" Position="-77" Score="6.6">
+          <Sequence>TGTAACATATGTTACC</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Athe_1171" Name="hcpR" Position="-49" Score="6.6">
+          <Sequence>GGTAACATATGTTACA</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5773715" LocusId="Athe_1171" Name="hcpR" Function="Nitric oxide-resposive transcriptional regulator HcpR, Crp family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5773716" LocusId="Athe_1172" Name="frdX" Function="4Fe-4S ferredoxin iron-sulfur binding domain protein" />
+          <Members vimssId="5773717" LocusId="Athe_1173" Name="hcp" Function="Hydroxylamine reductase (EC 1.7.-.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6461</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TrpR" RegulationMode="repressor">
+      <Regulator Key="HisR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60261" />
+      <Effector>Histidine</Effector>
+      <Pathway>Histidine biosynthesis</Pathway>
+      <LocusTag Key="Athe_1764" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5774328&amp;disp=0" />
+      <BiologicalProcess>Histidine biosynthesis</BiologicalProcess>
+      <Regulog Key="HisR - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6189" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Athe_1480" Name="hisZ" Position="-36" Score="5.8">
+          <Sequence>CACTTCATTATGATAAAGTA</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5774025" LocusId="Athe_1480" Name="hisZ" Function="ATP phosphoribosyltransferase regulatory subunit (EC 2.4.2.17)" />
+          <Members vimssId="5774024" LocusId="Athe_1479" Name="hisG" Function="ATP phosphoribosyltransferase catalytic subunit (EC 2.4.2.17)" />
+          <Members vimssId="5774023" LocusId="Athe_1478" Name="hisD" Function="Histidinol dehydrogenase (EC 1.1.1.23)" />
+          <Members vimssId="5774022" LocusId="Athe_1477" Name="hisC" Function="Histidinol-phosphate aminotransferase (EC 2.6.1.9)" />
+          <Members vimssId="5774021" LocusId="Athe_1476" Name="hisB" Function="Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)" />
+          <Members vimssId="5774020" LocusId="Athe_1475" Name="hisH" Function="Imidazole glycerol phosphate synthase amidotransferase subunit (EC 2.4.2.-)" />
+          <Members vimssId="5774019" LocusId="Athe_1474" Name="hisA" Function="Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase (EC 5.3.1.16)" />
+          <Members vimssId="5774018" LocusId="Athe_1473" Name="hisF" Function="Imidazole glycerol phosphate synthase cyclase subunit (EC 4.1.3.-)" />
+          <Members vimssId="5774017" LocusId="Athe_1472" Name="hisIE" Function="Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19) / Phosphoribosyl-ATP pyrophosphatase (EC 3.6.1.31)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6189</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58709" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Athe_1553" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5774107&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6012" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Athe_2138" Name="groS" Position="-54" Score="7.7">
+          <Sequence>TTAGCACTCATTGAAAGTGAGTGCTAA</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Athe_1553" Name="hrcA" Position="-43" Score="7.4">
+          <Sequence>TTAGCACTCATCAACAGAGAGTGCTAA</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5774107" LocusId="Athe_1553" Name="hrcA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="5774106" LocusId="Athe_1552" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="5774105" LocusId="Athe_1551" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="5774104" LocusId="Athe_1550" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5774705" LocusId="Athe_2138" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="5774704" LocusId="Athe_2137" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6012</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="IolR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52038" />
+      <Effector />
+      <Pathway>Inositol utilization</Pathway>
+      <LocusTag Key="Athe_0343" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5772870&amp;disp=0" />
+      <BiologicalProcess>Inositol utilization</BiologicalProcess>
+      <Regulog Key="IolR - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5290" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Athe_0344" Name="iolG3" Position="-72" Score="5">
+          <Sequence>CATTGTAATTGATTACACTA</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Athe_0344" Name="iolG3" Position="-38" Score="6.1">
+          <Sequence>ATATGTAATCAATTACACAA</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5772871" LocusId="Athe_0344" Name="iolG3" Function="Myo-inositol 2-dehydrogenase (EC 1.1.1.18)" />
+          <Members vimssId="5772872" LocusId="Athe_0345" Name="iolI" Function="Inosose isomerase (EC 5.3.99.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5290</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="KojR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51902" />
+      <Effector>Kojibiose</Effector>
+      <Pathway>Kojibiose utilization</Pathway>
+      <LocusTag Key="Athe_0402" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5772934&amp;disp=0" />
+      <BiologicalProcess>Kojibiose utilization</BiologicalProcess>
+      <Regulog Key="KojR - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5273" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Athe_0397" Name="pgmB" Position="-70" Score="4.8">
+          <Sequence>TATTGAAAACAATTCGAAAA</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Athe_0399" Name="kojE" Position="-181" Score="5.1">
+          <Sequence>TTACGAAAACATTTCGAAAA</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Athe_0399" Name="kojE" Position="-48" Score="5.6">
+          <Sequence>CATCGAAAACATTTCCGAAA</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5772931" LocusId="Athe_0399" Name="kojE" Function="Kojibiose ABC transporter, substrate-binding protein" />
+          <Members vimssId="5772932" LocusId="Athe_0400" Name="kojF" Function="Kojibiose ABC transporter, permease protein 1" />
+          <Members vimssId="5772933" LocusId="Athe_0401" Name="kojG" Function="Kojibiose ABC transporter, permease protein 2" />
+          <Members vimssId="5772934" LocusId="Athe_0402" Name="kojR" Function="Kojibiose utilization transcriptional regulator KojR, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5772929" LocusId="Athe_0397" Name="pgmB" Function="Beta-phosphoglucomutase (EC 5.4.2.6)" />
+          <Members vimssId="5772930" LocusId="Athe_0398" Name="kojP" Function="Kojibiose phosphorylase (EC 2.4.1.230)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5273</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="MalR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51735" />
+      <Effector>Maltose</Effector>
+      <Pathway>Maltose utilization; Maltodextrin utilization</Pathway>
+      <LocusTag Key="Athe_2575" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5775151&amp;disp=0" />
+      <BiologicalProcess>Maltose utilization; Maltodextrin utilization</BiologicalProcess>
+      <Regulog Key="MalR2 - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5250" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Athe_2578" Name="malF" Position="-45" Score="5.8">
+          <Sequence>AAGAGCAAACGATTGCACAT</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Athe_2579" Name="amyB" Position="-91" Score="5.8">
+          <Sequence>TTATGCAAACATTTGCATTA</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5775154" LocusId="Athe_2578" Name="malF" Function="Maltose/maltodextrin ABC transporter, permease protein 1" />
+          <Members vimssId="5775153" LocusId="Athe_2577" Name="malG" Function="Maltose/maltodextrin ABC transporter, permease protein 2" />
+          <Members vimssId="5775152" LocusId="Athe_2576" Name="glgP1" Function="Glycogen phosphorylase (EC 2.4.1.1)" />
+          <Members vimssId="5775151" LocusId="Athe_2575" Name="malR2" Function="Maltose/maltodextrin utilization transcriptional regulator MalR, LacI family" />
+          <Members vimssId="5775150" LocusId="Athe_2574" Name="malE" Function="Maltose/maltodextrin ABC transporter, substrate binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5775155" LocusId="Athe_2579" Name="amyB" Function="Neopullulanase (EC 3.2.1.135)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5250</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=64305" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Athe_1510" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5774055&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6634" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Athe_0548" Name="nrdD" Position="-127" Score="4.7">
+          <Sequence>ATATAATATATTGTGC</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Athe_0548" Name="nrdD" Position="-95" Score="5.6">
+          <Sequence>ACACAATATATAGTGG</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5773084" LocusId="Athe_0548" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6634</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61880" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine biosynthesis</Pathway>
+      <LocusTag Key="Athe_1910" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5774473&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine biosynthesis</BiologicalProcess>
+      <Regulog Key="PdxR - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6356" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Athe_1909" Name="pdxS" Position="-109" Score="11.2">
+          <Sequence>TGTATCGATACA------------------------------------------------------------------------TATATCGATACG</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Athe_1910" Name="pdxR" Position="-79" Score="9.9">
+          <Sequence>CGTATCGATATA------------------------------------------------------------------------TGTATCGATACA</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5774473" LocusId="Athe_1910" Name="pdxR" Function="Pyridoxine biosynthesis transcriptional regulator PdxR, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5774472" LocusId="Athe_1909" Name="pdxS" Function="Pyridoxine biosynthesis glutamine amidotransferase, synthase subunit (EC 2.4.2.-)" />
+          <Members vimssId="5774471" LocusId="Athe_1908" Name="pdxT" Function="Pyridoxine biosynthesis glutamine amidotransferase, glutaminase subunit (EC 2.4.2.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6356</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="YhcF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59845" />
+      <Effector />
+      <Pathway>Metabolite transport; Multidrug efflux; Multidrug resistance</Pathway>
+      <LocusTag Key="Athe_2352" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5774923&amp;disp=0" />
+      <BiologicalProcess>Metabolite transport; Multidrug efflux; Multidrug resistance</BiologicalProcess>
+      <Regulog Key="YhcF - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6144" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Athe_2352" Name="yhcF" Position="-42" Score="6.7">
+          <Sequence>AGTGTATTATTTAATTAGTACACC</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5774923" LocusId="Athe_2352" Name="yhcF" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="5774922" LocusId="Athe_2351" Name="yhcG" Function="ABC-type multidrug transport system, ATPase component" />
+          <Members vimssId="5774921" LocusId="Athe_2350" Name="yhcI" Function="ABC-type multidrug transport system, permease component" />
+          <Members vimssId="5774920" LocusId="Athe_2349" Name="yhcJ" Function="Conserved membrane protein" />
+          <Members vimssId="5774919" LocusId="Athe_2348" Name="yhcH" Function="ABC transporter, ATP-binding protein" />
+          <Members vimssId="5774918" LocusId="Athe_2347" Name="yhcK" Function="Conserved membrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6144</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48920" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Athe_0564" Name="ribD" Position="-252" Score="114.5">
+          <Sequence>GTCCATCCTTCGGGGCGGGGTGAAATTCCCCACTGGCGGTAAAAGCCCGCGAGCAAAAGCCTTTCTGGCTTTTGCAGAACCGGTGGAATTCCGGTGCCAACGGTTACAGTCCGGATGGGAGAAGGAGTGG</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5773100" LocusId="Athe_0564" Name="ribD" Function="Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26) / 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)" />
+          <Members vimssId="5773099" LocusId="Athe_0563" Name="ribE" Function="Riboflavin synthase alpha chain (EC 2.5.1.9)" />
+          <Members vimssId="5773098" LocusId="Athe_0562" Name="ribBA" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase / GTP cyclohydrolase II (EC 3.5.4.25)" />
+          <Members vimssId="5773097" LocusId="Athe_0561" Name="ribH" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01055" RegulationMode="RF01055">
+      <Regulator Key="MOCO_RNA_motif" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=55492" />
+      <Effector>Molybdenum</Effector>
+      <Pathway>Molybdopterin biosynthesis; Molybdenum homeostasis</Pathway>
+      <LocusTag Key="MOCO_RNA_motif" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Athe_0824" Name="tupB" Position="-235" Score="65.6">
+          <Sequence>TTTTAGAATCTTTCCGAGCCGCAGAAGCCTAAAAAGAGGGTGTATCCTCTTCATGGAGCTGTGGCCGATAGGGTGCAGATTTGGGAAACCTCTGCGCCTCCCGCTTTGGAAAGGAAAGATTCTTCTAAAATTTA</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5773366" LocusId="Athe_0824" Name="tupB" Function="ABC-type tungstate transport system, periplasmic binding protein" />
+          <Members vimssId="5773367" LocusId="Athe_0825" Name="tupA" Function="ABC-type tungstate transport system, permease protein" />
+          <Members vimssId="5773368" LocusId="Athe_0826" Name="tupC" Function="ABC-type tungstate transport system, ATP-binding protein" />
+          <Members vimssId="5773369" LocusId="Athe_0827" Name="moeA" Function="Molybdopterin biosynthesis protein MoeA" />
+          <Members vimssId="5773370" LocusId="Athe_0828" Name="moeA" Function="Molybdopterin biosynthesis protein MoeA" />
+          <Members vimssId="5773371" LocusId="Athe_0829" Name="moaA" Function="Molybdenum cofactor biosynthesis protein MoaA" />
+          <Members vimssId="5773372" LocusId="Athe_0830" Name="moaC" Function="Molybdenum cofactor biosynthesis protein MoaC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48927" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Athe_0368" Name="thiS" Position="-259" Score="57">
+          <Sequence>TGGTTTTAAGGGGGAGCTGAGCGGGGCAAAGCTCGGCTGAGAGTAGGCACTCAATAAAACATAAAAACCCCGTGCCTTGACCCTTTGAACCTGATCCGGGTAATGCCGGCGAAGGGAAAGCAAAGATTTCAAGG</Sequence>
+          <Bacteria>Anaerocellum thermophilum DSM 6725</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5772895" LocusId="Athe_0368" Name="thiS" Function="Sulfur carrier protein ThiS" />
+          <Members vimssId="5772896" LocusId="Athe_0369" Name="thiG" Function="Thiazole biosynthesis protein ThiG" />
+          <Members vimssId="5772897" LocusId="Athe_0370" Name="thiH" Function="2-iminoacetate synthase (EC 1.3.99.n2)" />
+          <Members vimssId="5772898" LocusId="Athe_0371" Name="thiF" Function="Sulfur carrier protein adenylyltransferase ThiF" />
+          <Members vimssId="5772899" LocusId="Athe_0372" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+          <Members vimssId="5772900" LocusId="Athe_0373" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

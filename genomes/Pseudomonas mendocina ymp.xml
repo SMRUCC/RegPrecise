@@ -1,0 +1,2029 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Pseudomonas mendocina ymp" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14974" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="Pmen_3926" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3617180&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1605" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_4089" Name="" Position="-107" Score="8.2">
+          <Sequence>CTGTCAACC--------------GGTTGACGA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_4088" Name="bioB" Position="-119" Score="8.2">
+          <Sequence>TCGTCAACC--------------GGTTGACAG</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3617348" LocusId="Pmen_4088" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="3617347" LocusId="Pmen_4087" Name="bioF" Function="8-amino-7-oxononanoate synthase (EC 2.3.1.47)" />
+          <Members vimssId="3617346" LocusId="Pmen_4086" Name="bioH" Function="hypothetical protein" />
+          <Members vimssId="3617345" LocusId="Pmen_4085" Name="bioC" Function="Biotin synthesis protein bioC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3617349" LocusId="Pmen_4089" Name="null" Function="Permeases of the major facilitator superfamily" />
+          <Members vimssId="3617350" LocusId="Pmen_4090" Name="COG1040" Function="Competence protein F homolog, phosphoribosyltransferase domain; protein YhgH required for utilization of DNA as sole source of carbon and energy" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1605</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51305" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="Pmen_4226" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3617486&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5201" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_4225" Name="cadA" Position="-57" Score="6.6">
+          <Sequence>ACCCTATAGTGACTACAGGGT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1174" Name="czcR" Position="-115" Score="6.3">
+          <Sequence>ACCCTGTAGTAACTACAGGGA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3614374" LocusId="Pmen_1174" Name="czcR" Function="DNA-binding heavy metal response regulator" />
+          <Members vimssId="3614373" LocusId="Pmen_1173" Name="PF00512" Function="Heavy metal sensor histidine kinase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3617485" LocusId="Pmen_4225" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5201</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="CueR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50913" />
+      <Effector>Copper ion, (Cu+)</Effector>
+      <Pathway>Copper resistance</Pathway>
+      <LocusTag Key="Pmen_0812" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3614003&amp;disp=0" />
+      <BiologicalProcess>Copper resistance</BiologicalProcess>
+      <Regulog Key="CueR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5159" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_2225" Name="copZ" Position="-72" Score="5.7">
+          <Sequence>ACCTTGCCATCGTGTCAAGGT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_0821" Name="copA" Position="-57" Score="5.6">
+          <Sequence>ACCTTGCCATGGGGTCAAGGT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_0823" Name="copZ" Position="-8" Score="5.7">
+          <Sequence>ACCTTGCCATGGTGGCAAGCT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3614012" LocusId="Pmen_0821" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3614014" LocusId="Pmen_0823" Name="copZ" Function="Copper chaperone" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3615452" LocusId="Pmen_2225" Name="copZ" Function="Copper chaperone" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5159</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="DesT" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14438" />
+      <Effector>Unsaturated acyl-CoA; Unsaturated acyl-ACP</Effector>
+      <Pathway>Fatty acid biosynthesis</Pathway>
+      <LocusTag Key="Pmen_0667" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3613855&amp;disp=0" />
+      <BiologicalProcess>Fatty acid biosynthesis</BiologicalProcess>
+      <Regulog Key="DesT - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1544" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_2469" Name="fabA" Position="-144" Score="5.5">
+          <Sequence>AGAGTACAACTGTACTCA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2584" Name="plsC" Position="-47" Score="5.2">
+          <Sequence>AGTGAACGCCCGTACACT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_0668" Name="desC" Position="-71" Score="5.9">
+          <Sequence>AGTGAACAACTGTTGACT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_0668" Name="desC" Position="-29" Score="5.3">
+          <Sequence>TGTGCACAAGTGTTCACT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3615700" LocusId="Pmen_2469" Name="fabA" Function="3-hydroxydecanoyl-[acyl-carrier-protein] dehydratase (EC 4.2.1.60)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3615815" LocusId="Pmen_2584" Name="plsC" Function="1-acyl-sn-glycerol-3-phosphate acyltransferase (EC 2.3.1.51)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3613856" LocusId="Pmen_0668" Name="desC" Function="Flavodoxin reductases (ferredoxin-NADPH reductases) family 1" />
+          <Members vimssId="3613857" LocusId="Pmen_0669" Name="desB" Function="Acyl-CoA delta-9-desaturase, DesB" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1544</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="FabR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34333" />
+      <Effector>Unsaturated acyl-ACP; Unsaturated acyl-CoA</Effector>
+      <Pathway>Fatty acid biosynthesis</Pathway>
+      <LocusTag Key="Pmen_2619" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3615850&amp;disp=0" />
+      <BiologicalProcess>Fatty acid biosynthesis</BiologicalProcess>
+      <Regulog Key="FabR2 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3509" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_2620" Name="COG2072" Position="-68" Score="5.4">
+          <Sequence>AGTATACACATGTCTACC</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2620" Name="COG2072" Position="-48" Score="5.3">
+          <Sequence>GGTATACAGATGTAGACA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2619" Name="fabR2" Position="-66" Score="5.4">
+          <Sequence>GGTAGACATGTGTATACT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2619" Name="fabR2" Position="-86" Score="5.3">
+          <Sequence>TGTCTACATCTGTATACC</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3615851" LocusId="Pmen_2620" Name="COG2072" Function="probable flavin-containing monooxygenase, COG2072" />
+          <Members vimssId="3615852" LocusId="Pmen_2621" Name="COG0300" Function="probable short-chain dehydrogenase, COG0300" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3615850" LocusId="Pmen_2619" Name="fabR2" Function="Unsaturated fatty acid biosythesis repressor FabR2, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3509</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="FdsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58528" />
+      <Effector>Formate</Effector>
+      <Pathway>Formate oxydation</Pathway>
+      <LocusTag Key="Pmen_0386" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3613573&amp;disp=0" />
+      <BiologicalProcess>Formate oxydation</BiologicalProcess>
+      <Regulog Key="FdsR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5989" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_0387" Name="fdsG" Position="-124" Score="6">
+          <Sequence>ATAAGAACTTTACTTCATAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_0387" Name="fdsG" Position="-200" Score="5.6">
+          <Sequence>ATATGTTCAAGGATTCATAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_0386" Name="fdsR" Position="-94" Score="6">
+          <Sequence>ATATGAAGTAAAGTTCTTAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_0386" Name="fdsR" Position="-18" Score="5.6">
+          <Sequence>ATATGAATCCTTGAACATAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3613573" LocusId="Pmen_0386" Name="fdsR" Function="Formate dehydrogenase transcriptional regulator FdsR, ModE family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3613574" LocusId="Pmen_0387" Name="fdsG" Function="NAD-dependent formate dehydrogenase (EC  1.2.1.2), gamma subunit" />
+          <Members vimssId="3613575" LocusId="Pmen_0388" Name="fdsB" Function="NAD-dependent formate dehydrogenase (EC  1.2.1.2), beta subunit" />
+          <Members vimssId="3613576" LocusId="Pmen_0389" Name="fdsA" Function="NAD-dependent formate dehydrogenase (EC  1.2.1.2), alpha subunit" />
+          <Members vimssId="3613577" LocusId="Pmen_0390" Name="fdsD" Function="NAD-dependent formate dehydrogenase (EC  1.2.1.2), delta subunit" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5989</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="FruR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=20699" />
+      <Effector>Fructose-1-phosphate; Fructose-1,6-diphosphate</Effector>
+      <Pathway>Fructose utilization</Pathway>
+      <LocusTag Key="Pmen_0785" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3613976&amp;disp=0" />
+      <BiologicalProcess>Fructose utilization</BiologicalProcess>
+      <Regulog Key="FruR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2239" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_0785" Name="fruR" Position="-119" Score="5.1">
+          <Sequence>GCTGAAACGATTCATC</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_0786" Name="fruB" Position="-121" Score="5">
+          <Sequence>GATGAATCGTTTCAGC</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3613976" LocusId="Pmen_0785" Name="fruR" Function="Fructose operon transcriptional regulator FruR, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3613977" LocusId="Pmen_0786" Name="fruB" Function="Fructose-specific phosphocarrier protein HPr (EC 2.7.1.69) / PTS system, fructose-specific IIA component (EC 2.7.1.69)" />
+          <Members vimssId="3613978" LocusId="Pmen_0787" Name="fruK" Function="1-phosphofructokinase (EC 2.7.1.56)" />
+          <Members vimssId="3613979" LocusId="Pmen_0788" Name="fruA" Function="PTS system, fructose-specific IIB component (EC 2.7.1.69) / PTS system, fructose-specific IIC component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2239</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TyrR" RegulationMode="activator">
+      <Regulator Key="GcvR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60192" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="Pmen_1348" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3614554&amp;disp=0" />
+      <BiologicalProcess>Glycine metabolism</BiologicalProcess>
+      <Regulog Key="GcvR - Pseudomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6180" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_1346" Name="gcvH" Position="-258" Score="5.8">
+          <Sequence>CTGTATCGATATCGATCCAC</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1346" Name="gcvH" Position="-239" Score="4.7">
+          <Sequence>CCGTAACGATTTAGCAACAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1346" Name="gcvH" Position="-158" Score="5.7">
+          <Sequence>TCGTATCGATATCGTTCCAG</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3614552" LocusId="Pmen_1346" Name="gcvH" Function="Glycine cleavage system H protein" />
+          <Members vimssId="3614551" LocusId="Pmen_1345" Name="gcvP" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P protein) (EC 1.4.4.2)" />
+          <Members vimssId="3614550" LocusId="Pmen_1344" Name="glyA" Function="Serine hydroxymethyltransferase (EC 2.1.2.1)" />
+          <Members vimssId="3614549" LocusId="Pmen_1343" Name="gcvT" Function="Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6180</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="GguR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62995" />
+      <Effector />
+      <Pathway>Glucuronate utilization; Glucarate utilization; Galacturonate utilization; Galactarate utilization</Pathway>
+      <LocusTag Key="Pmen_3305" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3616552&amp;disp=0" />
+      <BiologicalProcess>Glucuronate utilization; Glucarate utilization; Galacturonate utilization; Galactarate utilization</BiologicalProcess>
+      <Regulog Key="GguR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6493" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_1215" Name="kdgD" Position="-275" Score="5.1">
+          <Sequence>ATGTTGTCGTATGACCT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1215" Name="kdgD" Position="-76" Score="4.7">
+          <Sequence>TTGTTGTACGATAACGT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3299" Name="udh" Position="-316" Score="4.8">
+          <Sequence>ACGTTGTCATACAACTT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3299" Name="udh" Position="-60" Score="5">
+          <Sequence>AAGTCATACGACAACGT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3306" Name="aldE" Position="-54" Score="4.8">
+          <Sequence>CAGTTGTACGATGACAC</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3305" Name="gguR" Position="-63" Score="4.8">
+          <Sequence>GTGTCATCGTACAACTG</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1214" Name="gudD2" Position="-450" Score="4.7">
+          <Sequence>ACGTTATCGTACAACAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1214" Name="gudD2" Position="-251" Score="5.1">
+          <Sequence>AGGTCATACGACAACAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3614418" LocusId="Pmen_1215" Name="kdgD" Function="5-dehydro-4-deoxyglucarate dehydratase (EC 4.2.1.41)" />
+          <Members vimssId="3614419" LocusId="Pmen_1216" Name="gudD" Function="Glucarate dehydratase (EC 4.2.1.40)" />
+          <Members vimssId="3614420" LocusId="Pmen_1217" Name="garP" Function="D-galactarate permease" />
+          <Members vimssId="3614421" LocusId="Pmen_1218" Name="garD" Function="D-galactarate dehydratase (EC 4.2.1.42)" />
+          <Members vimssId="3614422" LocusId="Pmen_1219" Name="serA" Function="D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3616546" LocusId="Pmen_3299" Name="udh" Function="Uronate dehydrogenase (EC 1.1.1.203)" />
+          <Members vimssId="3616547" LocusId="Pmen_3300" Name="uxuL" Function="Predicted glucuronolactone/galactarolactone lactonase" />
+          <Members vimssId="3616548" LocusId="Pmen_3301" Name="uxuP" Function="Predicted glucuronate /galacturonate TRAP-type transporter, periplasmic component" />
+          <Members vimssId="3616549" LocusId="Pmen_3302" Name="uxuQ" Function="Predicted glucuronate /galacturonate TRAP-type transporter, small permease component" />
+          <Members vimssId="3616550" LocusId="Pmen_3303" Name="uxuM" Function="Predicted glucuronate /galacturonate TRAP-type transporter, large permease component" />
+          <Members vimssId="3616551" LocusId="Pmen_3304" Name="PF00892" Function="Drug/metabolite transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3616552" LocusId="Pmen_3305" Name="gguR" Function="Predicted D-glucarate or D-galactorate utilization regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3614417" LocusId="Pmen_1214" Name="gudD2" Function="Glucarate dehydratase (EC 4.2.1.40)" />
+          <Members vimssId="3614416" LocusId="Pmen_1213" Name="tctC" Function="Tripartite tricarboxylate transporter family receptor, putative transporter for uronates" />
+          <Members vimssId="3614415" LocusId="Pmen_1212" Name="tctB" Function="Tripartite tricarboxylate transporter family small permease component, putative transporter for uronates" />
+          <Members vimssId="3614414" LocusId="Pmen_1211" Name="tctA" Function="Tripartite tricarboxylate transporter family large permease component, putative transporter for uronates" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3616553" LocusId="Pmen_3306" Name="aldE" Function="Aldose 1-epimerase (EC 5.1.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6493</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="activator (repressor)">
+      <Regulator Key="GlcC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19126" />
+      <Effector>Glycolate</Effector>
+      <Pathway>Glycolate utilization</Pathway>
+      <LocusTag Key="Pmen_0204" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3613390&amp;disp=0" />
+      <BiologicalProcess>Glycolate utilization</BiologicalProcess>
+      <Regulog Key="GlcC - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2064" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_0203" Name="glcD" Position="-115" Score="6">
+          <Sequence>AACTGGTCATACCAGCA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_0203" Name="glcD" Position="-224" Score="6.1">
+          <Sequence>AACTGGTCGTACCAGTT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_0204" Name="glcC" Position="-141" Score="4.7">
+          <Sequence>TGCTGGTATGACCAGTT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_0204" Name="glcC" Position="-32" Score="5.8">
+          <Sequence>AACTGGTACGACCAGTT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3613389" LocusId="Pmen_0203" Name="glcD" Function="Glycolate dehydrogenase (EC 1.1.99.14), subunit GlcD" />
+          <Members vimssId="3613388" LocusId="Pmen_0202" Name="glcE" Function="Glycolate dehydrogenase (EC 1.1.99.14), FAD-binding subunit GlcE" />
+          <Members vimssId="3613387" LocusId="Pmen_0201" Name="glcF" Function="Glycolate dehydrogenase (EC 1.1.99.14), iron-sulfur subunit GlcF" />
+          <Members vimssId="3613386" LocusId="Pmen_0200" Name="glcG" Function="Hypothetical protein GlcG in glycolate utilization operon" />
+          <Members vimssId="3613385" LocusId="Pmen_0199" Name="glcB" Function="Malate synthase G (EC 2.3.3.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3613390" LocusId="Pmen_0204" Name="glcC" Function="Glycolate utilization operon transcriptional activator GlcC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2064</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="GntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49850" />
+      <Effector>Gluconate</Effector>
+      <Pathway>Gluconate utilization</Pathway>
+      <LocusTag Key="Pmen_2566" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3615797&amp;disp=0" />
+      <BiologicalProcess>Gluconate utilization</BiologicalProcess>
+      <Regulog Key="GntR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5049" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_2569" Name="gntKZ" Position="-67" Score="4.5">
+          <Sequence>TTTGGATAGCGCTAACATCC</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3615800" LocusId="Pmen_2569" Name="gntKZ" Function="Thermoresistant gluconokinase (EC 2.7.1.12) / Predicted gluconate TRAP family transporter DctM subunit fusion" />
+          <Members vimssId="3615799" LocusId="Pmen_2568" Name="gntY" Function="Predicted gluconate TRAP family transporter, DctQ subunit" />
+          <Members vimssId="3615798" LocusId="Pmen_2567" Name="gntX" Function="Predicted gluconate TRAP family transporter, DctP subunit" />
+          <Members vimssId="3615797" LocusId="Pmen_2566" Name="gntR" Function="Gluconate utilization transcriptional regulator GntR, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5049</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor (activator)">
+      <Regulator Key="HexR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=20495" />
+      <Effector>2-keto-3-deoxy-6-phosphogluconate</Effector>
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="Pmen_3144" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3616390&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="HexR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2219" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_1312" Name="edd" Position="-50" Score="6.5">
+          <Sequence>ATtTTGT------ACAAaca</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3143" Name="zwf" Position="-85" Score="8.1">
+          <Sequence>ATGTTGT------ACAACAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1147" Name="glk" Position="-193" Score="7.7">
+          <Sequence>TTGTTGT------ACAACAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1312" Name="edd" Position="-111" Score="7.5">
+          <Sequence>TTGTTGT------ACAAGAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3144" Name="hexR" Position="-138" Score="8.1">
+          <Sequence>ATGTTGT------ACAACAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1311" Name="gapA" Position="-97" Score="6.3">
+          <Sequence>TTGTATT------ACAAAAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1311" Name="gapA" Position="-38" Score="7.5">
+          <Sequence>ATCTTGT------ACAACAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3616390" LocusId="Pmen_3144" Name="hexR" Function="Central carbohydrate metabolism transcription regulator HexR, RpiR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3614347" LocusId="Pmen_1147" Name="glk" Function="Glucokinase (EC 2.7.1.2)" />
+          <Members vimssId="3614348" LocusId="Pmen_1148" Name="gltR" Function="DNA-binding response regulator GltR, controls specific porins for the entry of glucose" />
+          <Members vimssId="3614349" LocusId="Pmen_1149" Name="gltS" Function="Integral membrane sensor signal transduction histidine kinase (EC 2.7.13.3), glucose catabolism cluster" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3614515" LocusId="Pmen_1311" Name="gapA" Function="NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3614516" LocusId="Pmen_1312" Name="edd" Function="Phosphogluconate dehydratase (EC 4.2.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3616389" LocusId="Pmen_3143" Name="zwf" Function="Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)" />
+          <Members vimssId="3616388" LocusId="Pmen_3142" Name="pgl" Function="6-phosphogluconolactonase (EC 3.1.1.31), eukaryotic type" />
+          <Members vimssId="3616387" LocusId="Pmen_3141" Name="eda" Function="4-Hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16) / 2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2219</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor (activator)">
+      <Regulator Key="HexR1" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14810" />
+      <Effector>2-keto-3-deoxy-6-phosphogluconate</Effector>
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="Pmen_4485" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3617752&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="HexR1 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1586" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_0576" Name="aceE" Position="-128" Score="6.3">
+          <Sequence>ATGTAGTAAAACTACAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_0576" Name="aceE" Position="-181" Score="5.8">
+          <Sequence>TTGTAGTTTTACTACTA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_4485" Name="hexR1" Position="-105" Score="6.3">
+          <Sequence>ATGTAGTATAACTACAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_4486" Name="zwf" Position="-131" Score="6.3">
+          <Sequence>TTGTAGTTATACTACAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3613763" LocusId="Pmen_0576" Name="aceE" Function="Pyruvate dehydrogenase E1 component (EC 1.2.4.1)" />
+          <Members vimssId="3613762" LocusId="Pmen_0575" Name="aceF" Function="Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex (EC 2.3.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3617753" LocusId="Pmen_4486" Name="zwf" Function="Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3617752" LocusId="Pmen_4485" Name="hexR1" Function="Central carbohydrate metabolism transcription regulator HexR, RpiR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1586</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="HutC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17334" />
+      <Effector>cis-Urocanic acid</Effector>
+      <Pathway>Histidine utilization</Pathway>
+      <LocusTag Key="Pmen_4068" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3617328&amp;disp=0" />
+      <BiologicalProcess>Histidine utilization</BiologicalProcess>
+      <Regulog Key="HutC - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1869" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_4074" Name="hutD" Position="-212" Score="4.6">
+          <Sequence>TGTTTTGTATATACAATATG</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_4074" Name="hutD" Position="-27" Score="4.2">
+          <Sequence>GACCATGTATATACATTTGG</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_4073" Name="hutI" Position="-220" Score="3.8">
+          <Sequence>CCAAATGTATATACATGGTC</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_4073" Name="hutI" Position="-35" Score="4.4">
+          <Sequence>CATATTGTATATACAAAACA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3617333" LocusId="Pmen_4073" Name="hutI" Function="Imidazolonepropionase (EC 3.5.2.7)" />
+          <Members vimssId="3617332" LocusId="Pmen_4072" Name="hutG2" Function="Formiminoglutamase (EC 3.5.3.8)" />
+          <Members vimssId="3617331" LocusId="Pmen_4071" Name="COG3314" Function="Predicted histidine uptake transporter" />
+          <Members vimssId="3617330" LocusId="Pmen_4070" Name="hutU" Function="Urocanate hydratase (EC 4.2.1.49)" />
+          <Members vimssId="3617329" LocusId="Pmen_4069" Name="hutH" Function="Histidine ammonia-lyase (EC 4.3.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3617334" LocusId="Pmen_4074" Name="hutD" Function="Conserved hypothetical protein related to histidine degradation" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1869</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17878" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="Pmen_3512" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3616759&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1930" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_3930" Name="erpA" Position="-77" Score="7.3">
+          <Sequence>ATAGTTGACCAATTTTCTCGGGCAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3512" Name="iscR" Position="-64" Score="7">
+          <Sequence>ATAGTTGACTTAAATACTCGGGAAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3617189" LocusId="Pmen_3930" Name="erpA" Function="ErpA, essential respiratory protein A / probable iron binding protein from the HesB_IscA_SufA family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3616759" LocusId="Pmen_3512" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="3616758" LocusId="Pmen_3511" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+          <Members vimssId="3616757" LocusId="Pmen_3510" Name="iscU" Function="Iron-sulfur cluster assembly scaffold protein IscU" />
+          <Members vimssId="3616756" LocusId="Pmen_3509" Name="iscA" Function="Iron binding protein IscA for iron-sulfur cluster assembly" />
+          <Members vimssId="3616755" LocusId="Pmen_3508" Name="hscB" Function="Chaperone protein HscB" />
+          <Members vimssId="3616754" LocusId="Pmen_3507" Name="hscA" Function="Chaperone protein HscA" />
+          <Members vimssId="3616753" LocusId="Pmen_3506" Name="fdx" Function="ferredoxin, 2Fe-2S type, ISC system" />
+          <Members vimssId="3616752" LocusId="Pmen_3505" Name="yfhJ" Function="putative Fe-S cluster assembly protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1930</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28326" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="Pmen_1587" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3614794&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2979" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_3626" Name="recN" Position="-40" Score="5.9">
+          <Sequence>ACTGTATAAATAACCAGA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1587" Name="lexA" Position="-45" Score="5.5">
+          <Sequence>ACTGTATATAATCCCAGT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1587" Name="lexA" Position="-26" Score="5.7">
+          <Sequence>ACTGTATAAAAAGACAGA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1936" Name="imuA" Position="-37" Score="5.7">
+          <Sequence>ACTGTATGCATAGACAGT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3241" Name="PF07130" Position="-57" Score="5.5">
+          <Sequence>ACTGTACAAACAACCAGT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1270" Name="ruvC" Position="-25" Score="5.6">
+          <Sequence>ACTGGATAAATAGACAGT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3015" Name="recA" Position="-61" Score="5.2">
+          <Sequence>ACTGGCTACTTATACAGT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2106" Name="PA0922" Position="-75" Score="5.2">
+          <Sequence>ACTGTTTATTTGTACAGT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1427" Name="dinG" Position="-37" Score="5.2">
+          <Sequence>ACTGAAAATTTATCCAGC</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3241" Name="yebG" Position="-57" Score="5.5">
+          <Sequence>ACTGTACAAACAACCAGT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_4466" Name="PF04055" Position="-34" Score="5.5">
+          <Sequence>ACTGTTCATATATACAGT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_4146" Name="PSEEN2356" Position="-34" Score="6">
+          <Sequence>ACTGTATAAAAAAACAGT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_4110" Name="PF08774" Position="-21" Score="5.6">
+          <Sequence>TCTGTATAAAAAACCAGT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3616261" LocusId="Pmen_3015" Name="recA" Function="Recombinase A" />
+          <Members vimssId="3616260" LocusId="Pmen_3014" Name="recX" Function="Regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3616488" LocusId="Pmen_3241" Name="yebG" Function="SOS regulon DNA damage-inducible protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3617733" LocusId="Pmen_4466" Name="PF04055" Function="DNA repair photolyase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3614473" LocusId="Pmen_1270" Name="ruvC" Function="Crossover junction endodeoxyribonuclease RuvC (EC 3.1.22.4)" />
+          <Members vimssId="3614474" LocusId="Pmen_1271" Name="ruvA" Function="Holliday junction DNA helicase RuvA" />
+          <Members vimssId="3614475" LocusId="Pmen_1272" Name="ruvB" Function="Holliday junction DNA helicase RuvB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3615152" LocusId="Pmen_1936" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="3615151" LocusId="Pmen_1935" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+          <Members vimssId="3615150" LocusId="Pmen_1934" Name="dnaE2" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3614794" LocusId="Pmen_1587" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+          <Members vimssId="3614793" LocusId="Pmen_1586" Name="sulA" Function="Cell division inhibitor sulA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3616876" LocusId="Pmen_3626" Name="recN" Function="DNA repair protein RecN" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3615332" LocusId="Pmen_2106" Name="PA0922" Function="Predicted replication protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3617406" LocusId="Pmen_4146" Name="PSEEN2356" Function="Radical SAM domain protein" />
+          <Members vimssId="3617407" LocusId="Pmen_4147" Name="PSEEN2355" Function="Domain often clustered or fused with uracil-DNA glycosylase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3614634" LocusId="Pmen_1427" Name="dinG" Function="ATP-dependent helicase DinG/Rad3" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3617370" LocusId="Pmen_4110" Name="PF08774" Function="Hypothetical protein, restriction endonuclease-like VRR-NUC domain" />
+          <Members vimssId="3617371" LocusId="Pmen_4111" Name="COG1199" Function="Rad3-related DNA helicases" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3616488" LocusId="Pmen_3241" Name="PF07130" Function="Conserved hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2979</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="LiuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28522" />
+      <Effector />
+      <Pathway>Branched-chain amino acid degradation</Pathway>
+      <LocusTag Key="Pmen_2034" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3615257&amp;disp=0" />
+      <BiologicalProcess>Branched-chain amino acid degradation</BiologicalProcess>
+      <Regulog Key="LiuR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3000" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_2034" Name="liuR" Position="-23" Score="5.5">
+          <Sequence>GTTAACGTAAAGGTAAAC</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2034" Name="liuR" Position="-29" Score="6.5">
+          <Sequence>GTTTACGTTAACGTAAAG</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3615257" LocusId="Pmen_2034" Name="liuR" Function="Predicted transcriptional regulator LiuR of leucine degradation pathway, MerR family" />
+          <Members vimssId="3615256" LocusId="Pmen_2033" Name="liuA" Function="Isovaleryl-CoA dehydrogenase (EC 1.3.99.10)" />
+          <Members vimssId="3615255" LocusId="Pmen_2032" Name="liuB" Function="Methylcrotonyl-CoA carboxylase carboxyl transferase subunit (EC 6.4.1.4)" />
+          <Members vimssId="3615254" LocusId="Pmen_2031" Name="liuC" Function="Methylglutaconyl-CoA hydratase (EC 4.2.1.18)" />
+          <Members vimssId="3615253" LocusId="Pmen_2030" Name="liuD" Function="Methylcrotonyl-CoA carboxylase biotin-containing subunit (EC 6.4.1.4)" />
+          <Members vimssId="3615252" LocusId="Pmen_2029" Name="liuE" Function="Hydroxymethylglutaryl-CoA lyase (EC 4.1.3.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3000</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="LldR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16598" />
+      <Effector>L-lactate</Effector>
+      <Pathway>Lactate utilization</Pathway>
+      <LocusTag Key="Pmen_3633" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3616883&amp;disp=0" />
+      <BiologicalProcess>Lactate utilization</BiologicalProcess>
+      <Regulog Key="LldR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1787" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_3633" Name="lldR" Position="-29" Score="3.9">
+          <Sequence>GTCTGGTCAAACCAATG</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3634" Name="lldP" Position="-139" Score="6.4">
+          <Sequence>AATTGGTATTACCAATT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3634" Name="lldP" Position="-285" Score="3.6">
+          <Sequence>CATTGGTTTGACCAGAC</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3633" Name="lldR" Position="-175" Score="6.3">
+          <Sequence>AATTGGTAATACCAATT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3616883" LocusId="Pmen_3633" Name="lldR" Function="Lactate-responsive regulator LldR in Enterobacteria, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3616884" LocusId="Pmen_3634" Name="lldP" Function="L-lactate permease" />
+          <Members vimssId="3616885" LocusId="Pmen_3635" Name="lldD" Function="L-lactate dehydrogenase (EC 1.1.2.3)" />
+          <Members vimssId="3616886" LocusId="Pmen_3636" Name="dld" Function="D-Lactate dehydrogenase (EC 1.1.2.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1787</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor (activator)">
+      <Regulator Key="MetR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56653" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="Pmen_1682" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3614890&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5787" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_2159" Name="metH" Position="-97" Score="5.2">
+          <Sequence>CATGAATGAAATTCATG</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1683" Name="metE" Position="-71" Score="4.9">
+          <Sequence>CTTGAGTTTGTCTCACT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1683" Name="metE" Position="-102" Score="3.8">
+          <Sequence>CATGAGTAAATCTTTAG</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1682" Name="metR" Position="-115" Score="4.9">
+          <Sequence>AGTGAGACAAACTCAAG</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1682" Name="metR" Position="-84" Score="3.8">
+          <Sequence>CTAAAGATTTACTCATG</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3615386" LocusId="Pmen_2159" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase, B12-dependent (EC 2.1.1.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3614890" LocusId="Pmen_1682" Name="metR" Function="Homocysteine-responsive transcriptional regulator of methionine metabolism, LysR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3614891" LocusId="Pmen_1683" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5787</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21221" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdenum homeostasis</Pathway>
+      <LocusTag Key="Pmen_4091" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3617351&amp;disp=0" />
+      <BiologicalProcess>Molybdenum homeostasis</BiologicalProcess>
+      <Regulog Key="ModE - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2298" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_4339" Name="modA" Position="-74" Score="6">
+          <Sequence>CGCTATATACAAGAAAACATAACG</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3617601" LocusId="Pmen_4339" Name="modA" Function="Molybdate ABC transporter, substrate-binding protein" />
+          <Members vimssId="3617602" LocusId="Pmen_4340" Name="modB" Function="Molybdate ABC transporter, permease protein" />
+          <Members vimssId="3617603" LocusId="Pmen_4341" Name="modC" Function="Molybdate ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2298</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NorR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16968" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="Pmen_3579" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3616827&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="NorR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1828" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_3579" Name="norR" Position="-55" Score="4.9">
+          <Sequence>TGTTGTCTTAATGACTCGC</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3579" Name="norR" Position="-29" Score="4.6">
+          <Sequence>GTGAGTCATAAAGACTTTG</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3579" Name="norR" Position="-10" Score="4.9">
+          <Sequence>AGTAGTCGAAATGACCGCT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3580" Name="hmp" Position="-156" Score="4.9">
+          <Sequence>GCGAGTCATTAAGACAACA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3580" Name="hmp" Position="-201" Score="4.9">
+          <Sequence>AGCGGTCATTTCGACTACT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3580" Name="hmp" Position="-182" Score="4.6">
+          <Sequence>CAAAGTCTTTATGACTCAC</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3616828" LocusId="Pmen_3580" Name="hmp" Function="Flavohemoprotein (Hemoglobin-like protein) (Flavohemoglobin) (Nitric oxide dioxygenase) (EC 1.14.12.17)" />
+          <Members vimssId="3616829" LocusId="Pmen_3581" Name="null" Function="hypothetical protein" />
+          <Members vimssId="3616830" LocusId="Pmen_3582" Name="nnrS" Function="NnrS protein involved in response to NO" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3616827" LocusId="Pmen_3579" Name="norR" Function="anaerobic nitric oxide reductase transcription regulator, Fis family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1828</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15530" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Pmen_3858" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3617108&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1667" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_3151" Name="nrdA" Position="-407" Score="5.1">
+          <Sequence>CCACCAGATATTGGGT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3151" Name="nrdA" Position="-214" Score="5.1">
+          <Sequence>CCACTATATGTAGTAG</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1583" Name="topA" Position="-69" Score="5.7">
+          <Sequence>CCACTATATATAGCGG</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3616397" LocusId="Pmen_3151" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3614790" LocusId="Pmen_1583" Name="topA" Function="DNA topoisomerase I (EC 5.99.1.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1667</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrtR" RegulationMode="repressor">
+      <Regulator Key="NrtR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15362" />
+      <Effector>Adenosine diphosphate ribose</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="Pmen_1413" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3614620&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NrtR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1648" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_1413" Name="nrtR" Position="-109" Score="5.3">
+          <Sequence>ATATTTCATCTGATGAAATAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1412" Name="pncA" Position="-52" Score="5.3">
+          <Sequence>ATATTTCATCAGATGAAATAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3614619" LocusId="Pmen_1412" Name="pncA" Function="Nicotinamidase (EC 3.5.1.19)" />
+          <Members vimssId="3614618" LocusId="Pmen_1411" Name="pncB" Function="Nicotinate phosphoribosyltransferase (EC 2.4.2.11)" />
+          <Members vimssId="3614617" LocusId="Pmen_1410" Name="nadE" Function="NAD synthetase (EC 6.3.1.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3614620" LocusId="Pmen_1413" Name="nrtR" Function="Nudix-related transcriptional regulator NrtR" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1648</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19300" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="Pmen_4144" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3617404&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2084" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_2597" Name="ybdK" Position="-120" Score="5.2">
+          <Sequence>CGCACCGAGATGGTGCG</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_4140" Name="glnA" Position="-202" Score="4.4">
+          <Sequence>AGCCCTTAAATGGTGCA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_4143" Name="ntrB" Position="-256" Score="5.6">
+          <Sequence>CGCACCTTTATGGTGCA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_0259" Name="glnK" Position="-341" Score="5">
+          <Sequence>TGCACAATTTTTGAGCA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_4140" Name="glnA" Position="-233" Score="4.1">
+          <Sequence>CGCACCAAAATAGGTCT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_0259" Name="glnK" Position="-308" Score="5.6">
+          <Sequence>CGCACCAAATTTGTGCG</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3617403" LocusId="Pmen_4143" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="3617404" LocusId="Pmen_4144" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3615828" LocusId="Pmen_2597" Name="ybdK" Function="Carboxylate-amine ligase" />
+          <Members vimssId="3615827" LocusId="Pmen_2596" Name="PF04168" Function="Conserved hypothetical protein" />
+          <Members vimssId="3615826" LocusId="Pmen_2595" Name="PF01841" Function="Transglutaminase-like protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3613446" LocusId="Pmen_0259" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3617400" LocusId="Pmen_4140" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2084</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PA0268" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59255" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Pmen_1085" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3614285&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="PA0268 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6080" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_1084" Name="PF02627" Position="-106" Score="11.8">
+          <Sequence>ATTGGCCTC-(15)-ATTGGCTAT-(5)-CAGTCCGTA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3614284" LocusId="Pmen_1084" Name="PF02627" Function="4-carboxymuconolactone decarboxylase domain/alkylhydroperoxidase AhpD family core domain protein" />
+          <Members vimssId="3614283" LocusId="Pmen_1083" Name="PF00892" Function="Permease of the drug/metabolite transporter (DMT) superfamily" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6080</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="PA1520" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57458" />
+      <Effector />
+      <Pathway>Xanthine utilization; Allantoin utilization</Pathway>
+      <LocusTag Key="Pmen_2755" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3615993&amp;disp=0" />
+      <BiologicalProcess>Xanthine utilization; Allantoin utilization</BiologicalProcess>
+      <Regulog Key="PA1520 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5879" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_2758" Name="PA1517" Position="-84" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_0163" Name="PA2938" Position="-78" Score="4">
+          <Sequence>ATGTATACAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2769" Name="gcl" Position="-35" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2764" Name="Pmen_2764" Position="-20" Score="4.1">
+          <Sequence>CTGTATACAC</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2756" Name="PA1519" Position="-34" Score="3.8">
+          <Sequence>CGGTACACAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2756" Name="PA1519" Position="-478" Score="4.6">
+          <Sequence>TTGTACACAG</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2756" Name="PA1519" Position="-157" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2757" Name="PA1518" Position="-328" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2755" Name="PA1520" Position="-435" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_0163" Name="PA2938" Position="-44" Score="3.5">
+          <Sequence>GTGTCTACAG</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3697" Name="PA0165" Position="-113" Score="4">
+          <Sequence>TTGAACACAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2762" Name="pbuX" Position="-162" Score="4.8">
+          <Sequence>TTGTGCACAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2764" Name="Pmen_2764" Position="-109" Score="4">
+          <Sequence>TTGTGTGCAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2764" Name="Pmen_2764" Position="-66" Score="4.6">
+          <Sequence>CTGTGTACAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2755" Name="PA1520" Position="-114" Score="4.6">
+          <Sequence>CTGTGTACAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2757" Name="PA1518" Position="-147" Score="4.8">
+          <Sequence>TTGTGTACAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2769" Name="gcl" Position="-185" Score="4">
+          <Sequence>TTGTATACAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2768" Name="PA1503" Position="-306" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2768" Name="PA1503" Position="-156" Score="4">
+          <Sequence>ATGTATACAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2758" Name="PA1517" Position="-265" Score="4.8">
+          <Sequence>TTGTACACAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3613349" LocusId="Pmen_0163" Name="PA2938" Function="Xanthine/uracil permease family protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3616000" LocusId="Pmen_2762" Name="pbuX" Function="Xanthine permease" />
+          <Members vimssId="3616001" LocusId="Pmen_2763" Name="null" Function="Nucleoside-binding outer membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3616947" LocusId="Pmen_3697" Name="PA0165" Function="Nucleoside-binding outer membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3616007" LocusId="Pmen_2769" Name="gcl" Function="Glyoxylate carboligase (EC 4.1.1.47)" />
+          <Members vimssId="3616008" LocusId="Pmen_2770" Name="hyi" Function="Hydroxypyruvate isomerase (EC 5.3.1.22)" />
+          <Members vimssId="3616009" LocusId="Pmen_2771" Name="garR" Function="2-hydroxy-3-oxopropionate reductase (EC 1.1.1.60)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3616002" LocusId="Pmen_2764" Name="Pmen_2764" Function="Hydantoin permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3615993" LocusId="Pmen_2755" Name="PA1520" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3615995" LocusId="Pmen_2757" Name="PA1518" Function="5-hydroxyisourate hydrolase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3615996" LocusId="Pmen_2758" Name="PA1517" Function="putative uricase" />
+          <Members vimssId="3615997" LocusId="Pmen_2759" Name="uraO" Function="Urate oxidase (EC 1.7.3.3)" />
+          <Members vimssId="3615998" LocusId="Pmen_2760" Name="allA" Function="Ureidoglycolate hydrolase (EC 3.5.3.19)" />
+          <Members vimssId="3615999" LocusId="Pmen_2761" Name="PA1513" Function="conserved hypothetical membrane protein, paralogue of Y20848" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3616006" LocusId="Pmen_2768" Name="PA1503" Function="GlcG protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3615994" LocusId="Pmen_2756" Name="PA1519" Function="Xanthine/uracil/thiamine/ascorbate permease family protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5879</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="PSPTO1352" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57470" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Pmen_0702" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3613890&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="PSPTO1352 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5881" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_0704" Name="" Position="-13" Score="5.1">
+          <Sequence>ACTTGGATACAAGA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3613892" LocusId="Pmen_0704" Name="null" Function="Allophanate hydrolase (EC 3.5.1.54)" />
+          <Members vimssId="3613891" LocusId="Pmen_0703" Name="null" Function="Urea carboxylase (EC 6.3.4.6) # [Carbamoyl-phosphate synthase large chain (EC 6.3.5.5), ATP binding domain/Biotin carboxylase (EC 6.3.4.14)/Allophanate hydrolase 2 subunit 2 (EC 3.5.1.54)/Allophanate hydrolase 2 subunit 1 (EC 3.5.1.54)/Biotin carboxyl ..." />
+          <Members vimssId="3613890" LocusId="Pmen_0702" Name="PSPTO1352" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5881</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxQ3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58770" />
+      <Effector />
+      <Pathway>Metabolite transport; Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="Pmen_1514" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3614721&amp;disp=0" />
+      <BiologicalProcess>Metabolite transport; Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxQ3 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6022" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_1515" Name="" Position="-81" Score="13.2">
+          <Sequence>GTTGTATC-(1)-ATGACAAT-(6)-ATTGTCAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3614722" LocusId="Pmen_1515" Name="null" Function="ThiJ/PfpI family protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6022</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxW2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66444" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine biosynthesis</Pathway>
+      <LocusTag Key="Pmen_0130" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3613316&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine biosynthesis</BiologicalProcess>
+      <Regulog Key="PdxW2 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6865" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_0131" Name="pdxO2" Position="-88" Score="13.2">
+          <Sequence>ATTGGCTCT-(15)-AATGGATCT-(5)-CAGGCCAAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3613317" LocusId="Pmen_0131" Name="pdxO2" Function="Pyridoxamine 5'-phosphate oxidase-related, FMN-binding" />
+          <Members vimssId="3613318" LocusId="Pmen_0132" Name="COG456 (RimI), PF00583" Function="GCN5-related N-acetyltransferase (GNAT) domain" />
+          <Members vimssId="3613319" LocusId="Pmen_0133" Name="COG1670 (RimL), PF00583" Function="GCN5-related N-acetyltransferase (GNAT) domain" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6865</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TyrR" RegulationMode="activator (repressor)">
+      <Regulator Key="PhhR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=11146" />
+      <Effector>Tyrosine; Phenylalanine</Effector>
+      <Pathway>Aromatic amino acid metabolism</Pathway>
+      <LocusTag Key="Pmen_3111" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3616357&amp;disp=0" />
+      <BiologicalProcess>Aromatic amino acid metabolism</BiologicalProcess>
+      <Regulog Key="PhhR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1210" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_1696" Name="hpd" Position="-144" Score="4.9">
+          <Sequence>CTGTAAGAAAAACTTGCCAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1696" Name="hpd" Position="-195" Score="4.7">
+          <Sequence>CTGGCAAGAAAACCTTACGC</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3112" Name="phhA" Position="-193" Score="5.2">
+          <Sequence>CCGTCAAGAATATGTGACAG</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3111" Name="phhR" Position="-80" Score="5.2">
+          <Sequence>CTGTCACATATTCTTGACGG</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3614904" LocusId="Pmen_1696" Name="hpd" Function="4-hydroxyphenylpyruvate dioxygenase (EC 1.13.11.27)" />
+          <Members vimssId="3614905" LocusId="Pmen_1697" Name="hmgA" Function="Homogentisate 1,2-dioxygenase (EC 1.13.11.5)" />
+          <Members vimssId="3614906" LocusId="Pmen_1698" Name="hmgC" Function="Fumarylacetoacetase (EC 3.7.1.2)" />
+          <Members vimssId="3614907" LocusId="Pmen_1699" Name="hmgB" Function="Maleylacetoacetate isomerase (EC 5.2.1.2)" />
+          <Members vimssId="3614908" LocusId="Pmen_1700" Name="COG0733" Function="Predicted 4-Hydroxyphenylpyruvate transporter, SNF family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3616357" LocusId="Pmen_3111" Name="phhR" Function="Phenylalanine degradation transcriptional activator, TyrR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3616358" LocusId="Pmen_3112" Name="phhA" Function="Phenylalanine-4-hydroxylase (EC 1.14.16.1)" />
+          <Members vimssId="3616359" LocusId="Pmen_3113" Name="phhB" Function="Pterin-4-alpha-carbinolamine dehydratase (EC 4.2.1.96)" />
+          <Members vimssId="3616360" LocusId="Pmen_3114" Name="phhC" Function="Aromatic-amino-acid aminotransferase (EC 2.6.1.57)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1210</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PhnF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31625" />
+      <Effector />
+      <Pathway>Phosphonate utilization</Pathway>
+      <LocusTag Key="Pmen_2887" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3616126&amp;disp=0" />
+      <BiologicalProcess>Phosphonate utilization</BiologicalProcess>
+      <Regulog Key="PhnF - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3268" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_2887" Name="phnF" Position="24" Score="5.2">
+          <Sequence>TTGTCTAGACAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3616126" LocusId="Pmen_2887" Name="phnF" Function="Transcriptional regulator for phosphonates utilization, GntR family" />
+          <Members vimssId="3616125" LocusId="Pmen_2886" Name="phnG" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnG" />
+          <Members vimssId="3616124" LocusId="Pmen_2885" Name="phnH" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnH" />
+          <Members vimssId="3616123" LocusId="Pmen_2884" Name="phnI" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnI" />
+          <Members vimssId="3616122" LocusId="Pmen_2883" Name="phnJ" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnJ" />
+          <Members vimssId="3616121" LocusId="Pmen_2882" Name="phnK" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnK" />
+          <Members vimssId="3616120" LocusId="Pmen_2881" Name="phnL" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnL" />
+          <Members vimssId="3616119" LocusId="Pmen_2880" Name="pnhM" Function="Alpha-D-ribose-1-methylphosphonate-5-triphosphate hydrolase" />
+          <Members vimssId="3616118" LocusId="Pmen_2879" Name="phnN" Function="Ribose 1,5-bisphosphokinase activity (phosphoribosyl diphosphate forming)" />
+          <Members vimssId="3616117" LocusId="Pmen_2878" Name="phnP" Function="Phosphoribosyl 1,2-cyclic phosphodiesterase (EC 3.1.4.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3268</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PhnR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31821" />
+      <Effector />
+      <Pathway>Phosphonate utilization; 2-aminoethylphosphonate utilization</Pathway>
+      <LocusTag Key="Pmen_1333" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3614539&amp;disp=0" />
+      <BiologicalProcess>Phosphonate utilization; 2-aminoethylphosphonate utilization</BiologicalProcess>
+      <Regulog Key="PhnR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3289" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_1333" Name="phnR" Position="-289" Score="4.7">
+          <Sequence>TGGTCTAGATCA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1333" Name="phnR" Position="-27" Score="5.3">
+          <Sequence>TGGACTAGTCCA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1332" Name="phnS" Position="-300" Score="5.3">
+          <Sequence>TGGACTAGTCCA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1332" Name="phnS" Position="-38" Score="5.4">
+          <Sequence>TGATCTAGACCA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1925" Name="phnX" Position="-29" Score="4.8">
+          <Sequence>TGGACTAGGCCA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3614539" LocusId="Pmen_1333" Name="phnR" Function="2-aminoethylphosphonate uptake and metabolism regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3614538" LocusId="Pmen_1332" Name="phnS" Function="2-aminoethylphosphonate ABC transporter, periplasmic binding component (TC 3.A.1.9.1)" />
+          <Members vimssId="3614537" LocusId="Pmen_1331" Name="PF01663" Function="type I phosphodiesterase" />
+          <Members vimssId="3614536" LocusId="Pmen_1330" Name="phnU" Function="2-aminoethylphosphonate ABC transporter, permease protein I (TC 3.A.1.9.1)" />
+          <Members vimssId="3614535" LocusId="Pmen_1329" Name="phnV" Function="2-aminoethylphosphonate ABC transporter, permease protein II (TC 3.A.1.9.1)" />
+          <Members vimssId="3614534" LocusId="Pmen_1328" Name="phnT" Function="2-aminoethylphosphonate ABC transporter, ATP-binding protein (TC 3.A.1.9.1)" />
+          <Members vimssId="3614533" LocusId="Pmen_1327" Name="COG0560" Function="Phosphoserine phosphatase (EC 3.1.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3615141" LocusId="Pmen_1925" Name="phnX" Function="Phosphonoacetaldehyde hydrolase (EC 3.11.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3289</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="PhrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66403" />
+      <Effector>Blue light; Adenosylcobalamin</Effector>
+      <Pathway>Light-dependent DNA repair</Pathway>
+      <LocusTag Key="Pmen_1072" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3614272&amp;disp=0" />
+      <BiologicalProcess>Light-dependent DNA repair</BiologicalProcess>
+      <Regulog Key="PhrR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6859" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_1073" Name="COG3272" Position="-42" Score="5.2">
+          <Sequence>TGTACATGCACCAACATATGTACA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1076" Name="COG1090" Position="-131" Score="6.1">
+          <Sequence>TATACAAGAATGTTTTCATGTACA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1075" Name="COG3380" Position="-75" Score="5.9">
+          <Sequence>TGTACATGAAAACATTCTTGTATA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3288" Name="folM" Position="-251" Score="5.6">
+          <Sequence>TGTACAAAACACATGGATCGTACA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3288" Name="folM" Position="-118" Score="4.6">
+          <Sequence>TGTACAACCCGCAGCTCTGGTATA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1353" Name="mcp1" Position="-94" Score="5.6">
+          <Sequence>TATACAAACAGGAATTCATGTACA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1073" Name="COG3272" Position="-92" Score="6.4">
+          <Sequence>TGTACAAATCATTTGACTTGTACA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3614275" LocusId="Pmen_1075" Name="COG3380" Function="Predicted NAD/FAD-dependent oxidoreductase" />
+          <Members vimssId="3614274" LocusId="Pmen_1074" Name="PF09493" Function="Tryptophan-rich protein (DUF2389)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3614276" LocusId="Pmen_1076" Name="COG1090" Function="Predicted nucleoside-diphosphate sugar epimerase" />
+          <Members vimssId="3614277" LocusId="Pmen_1077" Name="hemH" Function="Ferrochelatase, protoheme ferro-lyase (EC 4.99.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3614559" LocusId="Pmen_1353" Name="mcp1" Function="Methyl-accepting chemotaxis protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3616535" LocusId="Pmen_3288" Name="folM" Function="FolM Alternative dihydrofolate reductase 1" />
+          <Members vimssId="3616536" LocusId="Pmen_3289" Name="folE" Function="GTP cyclohydrolase I (EC 3.5.4.16) type 1" />
+          <Members vimssId="3616537" LocusId="Pmen_3290" Name="folB" Function="Dihydroneopterin triphosphate epimerase" />
+          <Members vimssId="3616538" LocusId="Pmen_3291" Name="PF06844" Function="protein of unknown function DUF1244" />
+          <Members vimssId="3616539" LocusId="Pmen_3292" Name="PF08888" Function="HopJ type III effector protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3614273" LocusId="Pmen_1073" Name="COG3272" Function="COG1683: Uncharacterized conserved protein / COG3272: Hypothetical protein YbgA" />
+          <Members vimssId="3614272" LocusId="Pmen_1072" Name="phrR" Function="Transcriptional regulator, MerR family, associated with photolyase" />
+          <Members vimssId="3614271" LocusId="Pmen_1071" Name="phr" Function="Deoxyribodipyrimidine photolyase (EC 4.1.99.3)" />
+          <Members vimssId="3614270" LocusId="Pmen_1070" Name="PF07366" Function="Protein of unknown function DUF1486" />
+          <Members vimssId="3614269" LocusId="Pmen_1069" Name="PF00106" Function="Oxidoreductase, short-chain dehydrogenase/reductase family (EC 1.1.1.-)" />
+          <Members vimssId="3614268" LocusId="Pmen_1068" Name="PF01593" Function="Flavin containing amine oxidoreductase" />
+          <Members vimssId="3614267" LocusId="Pmen_1067" Name="PF07103" Function="Protein of unknown function DUF1365" />
+          <Members vimssId="3614266" LocusId="Pmen_1066" Name="PF02353" Function="S-adenosyl-L-methionine dependent methyltransferase, similar to cyclopropane-fatty-acyl-phospholipid synthase" />
+          <Members vimssId="3614265" LocusId="Pmen_1065" Name="PF11086" Function="Protein of unknown function DUF2878" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6859</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PrpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17154" />
+      <Effector>2-methylcitrate</Effector>
+      <Pathway>Methylcitrate utilization</Pathway>
+      <LocusTag Key="Pmen_2079" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3615305&amp;disp=0" />
+      <BiologicalProcess>Methylcitrate utilization</BiologicalProcess>
+      <Regulog Key="PrpR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1849" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_2079" Name="prpR" Position="-13" Score="4.8">
+          <Sequence>GGTGTCGACAAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2079" Name="prpR" Position="-87" Score="5.8">
+          <Sequence>ATTGTCGACAAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3615305" LocusId="Pmen_2079" Name="prpR" Function="Propionate catabolism transcriptional regulator, GntR family" />
+          <Members vimssId="3615306" LocusId="Pmen_2080" Name="prpB" Function="Methylisocitrate lyase (EC 4.1.3.30)" />
+          <Members vimssId="3615307" LocusId="Pmen_2081" Name="prpC" Function="2-methylcitrate synthase (EC 2.3.3.5)" />
+          <Members vimssId="3615308" LocusId="Pmen_2082" Name="acnD" Function="Aconitate hydratase, predicted 2-methylcitrate dehydratase FeS dependent (EC 4.2.1.79)" />
+          <Members vimssId="3615309" LocusId="Pmen_2083" Name="prpF" Function="Aconitase accessory protein PrpF" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1849</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PsrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29693" />
+      <Effector>Oleate</Effector>
+      <Pathway>Fatty acid degradation</Pathway>
+      <LocusTag Key="Pmen_1588" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3614795&amp;disp=0" />
+      <BiologicalProcess>Fatty acid degradation</BiologicalProcess>
+      <Regulog Key="PsrA - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3098" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_1588" Name="psrA" Position="-44" Score="5">
+          <Sequence>GCTGAAACGTATGTTTCAAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1588" Name="psrA" Position="-31" Score="5.8">
+          <Sequence>TTTCAAACAAGTGTTTGTCA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1580" Name="fadB" Position="-178" Score="5.7">
+          <Sequence>AATCAAACGGGCGTATGAAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2707" Name="etfB" Position="-221" Score="5.6">
+          <Sequence>ATACAAACGTTTGTTTGAAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2708" Name="etfD" Position="-123" Score="5.9">
+          <Sequence>ATTCAAACAAACGTTTGTAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3020" Name="rpoS" Position="-424" Score="4.8">
+          <Sequence>CCTCAAACGGTAGTTTGAAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_0285" Name="algQ" Position="-269" Score="5.2">
+          <Sequence>GATTAAACGCTCGTATGAAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_4081" Name="acdH1" Position="-125" Score="5.9">
+          <Sequence>TTTCAAACGCCTGTTTGATT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2531" Name="" Position="-89" Score="5.7">
+          <Sequence>ATTCAAACAAGCGTATGTTT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3615939" LocusId="Pmen_2707" Name="etfB" Function="Electron transfer flavoprotein, beta subunit" />
+          <Members vimssId="3615938" LocusId="Pmen_2706" Name="etfA" Function="Electron transfer flavoprotein, alpha subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3616266" LocusId="Pmen_3020" Name="rpoS" Function="RNA polymerase sigma factor RpoS" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3615940" LocusId="Pmen_2708" Name="etfD" Function="Electron transfer flavoprotein-ubiquinone oxidoreductase (EC 1.5.5.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3615762" LocusId="Pmen_2531" Name="null" Function="Phosphoglycerate mutase family protein" />
+          <Members vimssId="3615763" LocusId="Pmen_2532" Name="scp" Function="Sterol-binding domain protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3613472" LocusId="Pmen_0285" Name="algQ" Function="Regulator of RNA polymerase sigma(70) subunit, Rsd/AlgQ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3617341" LocusId="Pmen_4081" Name="acdH1" Function="probable acyl-CoA dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3614787" LocusId="Pmen_1580" Name="fadB" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+          <Members vimssId="3614788" LocusId="Pmen_1581" Name="fadA" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3614795" LocusId="Pmen_1588" Name="psrA" Function="Predicted transcriptional regulator for fatty acid degradation PsrA, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3098</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30853" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="Pmen_3699" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3616949&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3186" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_2756" Name="pbuT3" Position="-123" Score="4.8">
+          <Sequence>TCTTGACCGCTCGGTCAACA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2758" Name="COG0726" Position="-166" Score="5.8">
+          <Sequence>TGCTGACCACTCAGGCAATT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3697" Name="tsx3" Position="-92" Score="5.4">
+          <Sequence>AGCTGATCAGTTGGACAGCT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3697" Name="tsx3" Position="-54" Score="5.7">
+          <Sequence>ACCTGACCACACGGCCAGGA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_4444" Name="pbuT4" Position="-36" Score="5.6">
+          <Sequence>GCCTGACCAATCGGACAACA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2762" Name="pbuT2" Position="-100" Score="5.5">
+          <Sequence>TTCTGACCGACCAGACAGCT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3616947" LocusId="Pmen_3697" Name="tsx3" Function="Nucleoside-binding outer membrane protein" />
+          <Members vimssId="3616948" LocusId="Pmen_3698" Name="pbuT" Function="Xanthine/uracil permease" />
+          <Members vimssId="3616949" LocusId="Pmen_3699" Name="rutR" Function="Transcriptional regulator RutR of pyrimidine catabolism, TetR family" />
+          <Members vimssId="3616950" LocusId="Pmen_3700" Name="COG1739" Function="hypothetical protein, COG1739" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3615996" LocusId="Pmen_2758" Name="COG0726" Function="putative polysaccharide deacetylase family protein" />
+          <Members vimssId="3615997" LocusId="Pmen_2759" Name="pucL" Function="Uricase (EC 1.7.3.3)" />
+          <Members vimssId="3615998" LocusId="Pmen_2760" Name="allA" Function="Ureidoglycolate hydrolase (EC 3.5.3.19)" />
+          <Members vimssId="3615999" LocusId="Pmen_2761" Name="COG3748" Function="hypothetical protein, COG3748" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3617711" LocusId="Pmen_4444" Name="pbuT4" Function="Xanthine/uracil permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3616000" LocusId="Pmen_2762" Name="pbuT2" Function="Xanthine/uracil permease" />
+          <Members vimssId="3616001" LocusId="Pmen_2763" Name="tsx" Function="Nucleoside-binding outer membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3615994" LocusId="Pmen_2756" Name="pbuT3" Function="Xanthine/uracil permease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3186</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34759" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="Pmen_2767" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3616005&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR3 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3554" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_2751" Name="xdhA" Position="-123" Score="5.9">
+          <Sequence>TGTTGACCCAAAAGTCAGAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2751" Name="xdhA" Position="-146" Score="4.6">
+          <Sequence>AGCTGACCACAGGGTCAAAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2756" Name="pbuT" Position="-123" Score="4.5">
+          <Sequence>TCTTGACCGCTCGGTCAACA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_2767" Name="rutR3" Position="-119" Score="5.2">
+          <Sequence>ATTTGACTCAAGAGTCAGAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3616005" LocusId="Pmen_2767" Name="rutR3" Function="Transcriptional regulator RutR of pyrimidine catabolism, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3615989" LocusId="Pmen_2751" Name="xdhA" Function="Xanthine dehydrogenase, iron-sulfur cluster and FAD-binding subunit A (1.17.1.4)" />
+          <Members vimssId="3615990" LocusId="Pmen_2752" Name="xdhB" Function="Xanthine dehydrogenase, molybdenum binding subunit (EC 1.17.1.4)" />
+          <Members vimssId="3615991" LocusId="Pmen_2753" Name="xdhC" Function="XdhC protein (assists in molybdopterin insertion into xanthine dehydrogenase)" />
+          <Members vimssId="3615992" LocusId="Pmen_2754" Name="guaD" Function="Guanine deaminase (EC 3.5.4.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3615994" LocusId="Pmen_2756" Name="pbuT" Function="Xanthine/uracil permease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3554</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SahR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15732" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="Pmen_0455" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3613642&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SahR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1689" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_0455" Name="sahR" Position="-62" Score="7.2">
+          <Sequence>ATATCAAAACTTTTTGATAT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3613642" LocusId="Pmen_0455" Name="sahR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+          <Members vimssId="3613641" LocusId="Pmen_0454" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1689</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="SdaR" RegulationMode="activator">
+      <Regulator Key="SdaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63644" />
+      <Effector>D-glycerate</Effector>
+      <Pathway>Glycerate utilization</Pathway>
+      <LocusTag Key="Pmen_1437" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3614644&amp;disp=0" />
+      <BiologicalProcess>Glycerate utilization</BiologicalProcess>
+      <Regulog Key="SdaR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6567" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_1438" Name="grtP" Position="-156" Score="5.7">
+          <Sequence>GGTTGTGCATGTGCACAGCC</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3614645" LocusId="Pmen_1438" Name="grtP" Function="D-glycerate transporter, GntP family" />
+          <Members vimssId="3614646" LocusId="Pmen_1439" Name="garK" Function="Glycerate kinase (EC 2.7.1.31)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6567</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="SoxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50577" />
+      <Effector>Paraquat</Effector>
+      <Pathway>Superoxide stress response</Pathway>
+      <LocusTag Key="Pmen_1341" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3614547&amp;disp=0" />
+      <BiologicalProcess>Superoxide stress response</BiologicalProcess>
+      <Regulog Key="SoxR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5121" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_1341" Name="soxR" Position="-35" Score="6.6">
+          <Sequence>ACCTCAACTTAACTTAAGGT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1342" Name="PF03358" Position="-63" Score="6.6">
+          <Sequence>ACCTTAAGTTAAGTTGAGGT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3614548" LocusId="Pmen_1342" Name="PF03358" Function="NADPH-dependent FMN reductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3614547" LocusId="Pmen_1341" Name="soxR" Function="Redox-sensitive transcriptional activator, MerR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5121</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="UreR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57211" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Pmen_0307" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3613494&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="UreR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5850" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_0306" Name="ureA" Position="-277" Score="4.7">
+          <Sequence>GCCGGTCAGTCCAGT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_0306" Name="ureA" Position="-138" Score="5.2">
+          <Sequence>ACTGTTCAGACCAGT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_0307" Name="ureR" Position="-164" Score="5.2">
+          <Sequence>ACTGGTCTGAACAGT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_0307" Name="ureR" Position="-25" Score="4.7">
+          <Sequence>ACTGGACTGACCGGC</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_0307" Name="ureR" Position="-16" Score="4.1">
+          <Sequence>ACCGGCCCGAACAGT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_0306" Name="ureA" Position="-286" Score="4.1">
+          <Sequence>ACTGTTCGGGCCGGT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3613493" LocusId="Pmen_0306" Name="ureA" Function="Amino acid ABC transporter, periplasmic amino acid-binding protein" />
+          <Members vimssId="3613492" LocusId="Pmen_0305" Name="ureB" Function="Amino acid ABC transporter, permease protein" />
+          <Members vimssId="3613491" LocusId="Pmen_0304" Name="ureC" Function="Amino acid ABC transporter, permease protein" />
+          <Members vimssId="3613490" LocusId="Pmen_0303" Name="ureD" Function="Amino acid ABC transporter, ATP-binding protein" />
+          <Members vimssId="3613489" LocusId="Pmen_0302" Name="ureH" Function="Ureidoglycolate hydrolase (EC 3.5.3.19)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3613494" LocusId="Pmen_0307" Name="ureR" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5850</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YdcR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59702" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Pmen_3095" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3616341&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="YdcR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6128" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_3094" Name="COG0348" Position="-99" Score="9">
+          <Sequence>ATCTGATCCGCTTTT---------ACCTGAGTCTGTTTT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3616340" LocusId="Pmen_3094" Name="COG0348" Function="Polyferredoxin" />
+          <Members vimssId="3616341" LocusId="Pmen_3095" Name="ydcR" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6128</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YjiR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61777" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Pmen_0240" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3613427&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="YjiR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6345" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_0241" Name="yjiS" Position="-139" Score="16">
+          <Sequence>TACAGAT-(17)-TTCAGAT-(13)-ATCTGTA-(23)-ATCTGTC</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3613428" LocusId="Pmen_0241" Name="yjiS" Function="putative cytoplasmic protein of unknown function DUF1127" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6345</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16070" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="Pmen_4496" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3617763&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1727" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_4495" Name="znuA" Position="-45" Score="4.7">
+          <Sequence>GAGACGTTATTATATTACCCGTT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_4496" Name="zur" Position="-44" Score="4">
+          <Sequence>AACGGGTAATATAATAACGTCTC</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_4537" Name="dksA2" Position="-44" Score="5.1">
+          <Sequence>TAAATGTTATGTTATAACAATTG</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_4538" Name="folE2" Position="-50" Score="5.9">
+          <Sequence>CAATTGTTATAACATAACATTTA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3863" Name="zbp" Position="-48" Score="5.9">
+          <Sequence>AAGTTGTTATAACGTAACGATTC</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3617805" LocusId="Pmen_4538" Name="folE2" Function="GTP cyclohydrolase I (EC 3.5.4.16) type 2" />
+          <Members vimssId="3617806" LocusId="Pmen_4539" Name="hisI2" Function="Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19)" />
+          <Members vimssId="3617807" LocusId="Pmen_4540" Name="DUF37" Function="Protein of unknown function DUF37" />
+          <Members vimssId="3617808" LocusId="Pmen_4541" Name="pyrC2" Function="Dihydroorotase (EC 3.5.2.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3617804" LocusId="Pmen_4537" Name="dksA2" Function="C4-type zinc finger protein, DksA/TraR family" />
+          <Members vimssId="3617803" LocusId="Pmen_4536" Name="yciC" Function="Putative metal chaperone, GTPase of COG0523 family" />
+          <Members vimssId="3617802" LocusId="Pmen_4535" Name="PF08856" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3617113" LocusId="Pmen_3863" Name="zbp" Function="Predicted zinc-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3617763" LocusId="Pmen_4496" Name="zur" Function="Zinc uptake regulation protein ZUR" />
+          <Members vimssId="3617764" LocusId="Pmen_4497" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="3617765" LocusId="Pmen_4498" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3617762" LocusId="Pmen_4495" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1727</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41287" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_4567" Name="btuB" Position="-394" Score="118.9">
+          <Sequence>TCATATCCGCCCCGCTTCAGGTGTCTCACGCCGCCGCGCGTGAGGTGAAACGGGAAGTCGGTTGAAGTCCGACGCTGCCCCCGCAACGGTAAGCGAGCGACCGCATCGATACGCCACTGTGCGCCACGCGCATGGGAAGGCGATGCGTTCATGACCCTCGCAAGCCCGGAGACCGGCCTGGAGTCATTTGTCTGGC</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_4571" Name="cobG" Position="-184" Score="99.8">
+          <Sequence>GCCTTCGCGGGAGTGACGGTAAATGGCCATTTCAGAAATTCCCCAAGAGGGAACACGGTCAAGCCGTGGCTGCCCCCGCAACTGTAAACAGCGAGTCCAATGCAATCGGCCACTGGGTAACCGGGAAGGCGCGGCGGACGAAGACCTGTCAGCCAGGAGACCTGCCGACGAACGCTGGTCGCGAGT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3752" Name="cbtC" Position="-258" Score="125.1">
+          <Sequence>GAGTAAGGTTGCCGCCGATGGTTCCGCCGCCTCTGGCGCGCGGATGAAAAGGGAACAGGGTGCGGCGCCGCGTCGCCAATGCCCTGGCTGCCCCCGCAACTGTAAACGGCGTACGACGCTCCCTATGCCACTGGCCGCCAGGCCGGGAAGGCGAGCGAAGTGGCAAGCCGTGAGCCAGGAGACCTGCCATCGGCAAACGGGCGTTT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_3845" Name="btuB1" Position="-290" Score="82.6">
+          <Sequence>CATTCATGTTCCGCCAGGGTGCGCTGCTGACGCGGCGTGAAACGGGAAGTCGGTGCGCCCATCCAGGCAATCCCGACGCTGCCCCCGCAACGGTAATCGACGGCAGGCCACAGCCTGCACCTTGTCCACGGCCACTGGGTATTCCCGGGAAGGCGGACCGGGGTCGTGAGCCCGGAGACCGGCCCCGGCGGTGCGACTGGTGTT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1750" Name="btuR" Position="-394" Score="97.3">
+          <Sequence>CTGCGCGCCTTGCTTCAGGTGCCCCGCGTCGTCTCCATCGACGGCGCCGGGGTGAAACAGGGAAGCCGGTTCCAATGCCGGCGCTGCCCCCGCAACGGTAGGTGAGTCAAACGCTGTTTCAGGCCACTGTGCAATGCACGGGAAGGCGCAGCGTCGAACCTTTCAGGTTCGCTCACGAGCCCGGAGACCGGCCTGTCGCAGTTCCACGGCATC</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_4587" Name="" Position="-291" Score="113.1">
+          <Sequence>GTAGCCTTCTCGCTTTCGAGGTTCTTCCCGGCAAGCCGCCGGGGAGCTAAGAGGGAACAGGGTCGATGCCCTGGCTGCCCCCGCAACTGTAAACGGTCGCAACTCCTTCGATACACCACTGCCTCAAGCGGGAAGGTGAAGGACGCACAGCGTGCAGACCGTGAGCCAGGAGACCTGCCTCGATAGACCAGCCACTT</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3617095" LocusId="Pmen_3845" Name="btuB1" Function="Outer membrane vitamin B12 receptor BtuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3614961" LocusId="Pmen_1750" Name="btuR" Function="Cob(I)alamin adenosyltransferase (EC 2.5.1.17)" />
+          <Members vimssId="3614962" LocusId="Pmen_1751" Name="cbiA" Function="Cobyrinic acid A,C-diamide synthase" />
+          <Members vimssId="3614963" LocusId="Pmen_1752" Name="bluB" Function="Cobalamin biosynthesis protein BluB @ 5,6-dimethylbenzimidazole synthase, flavin destructase family" />
+          <Members vimssId="3614964" LocusId="Pmen_1753" Name="cbiB" Function="Adenosylcobinamide-phosphate synthase" />
+          <Members vimssId="3614965" LocusId="Pmen_1754" Name="cobD" Function="L-threonine 3-O-phosphate decarboxylase (EC 4.1.1.81)" />
+          <Members vimssId="3614966" LocusId="Pmen_1755" Name="cbiP" Function="Cobyric acid synthase" />
+          <Members vimssId="3614967" LocusId="Pmen_1756" Name="cobU" Function="Adenosylcobinamide-phosphate guanylyltransferase (EC 2.7.7.62)" />
+          <Members vimssId="3614968" LocusId="Pmen_1757" Name="cobT" Function="Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase (EC 2.4.2.21)" />
+          <Members vimssId="3614969" LocusId="Pmen_1758" Name="cobC" Function="Alpha-ribazole-5'-phosphate phosphatase (EC 3.1.3.73)" />
+          <Members vimssId="3614970" LocusId="Pmen_1759" Name="cobS" Function="Cobalamin synthase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3617838" LocusId="Pmen_4571" Name="cobG" Function="Cobalamin biosynthesis protein CobG" />
+          <Members vimssId="3617839" LocusId="Pmen_4572" Name="cbiC" Function="Cobalt-precorrin-8x methylmutase (EC 5.4.1.2)" />
+          <Members vimssId="3617840" LocusId="Pmen_4573" Name="cbiL" Function="Cobalt-precorrin-2 C20-methyltransferase (EC 2.1.1.130)" />
+          <Members vimssId="3617841" LocusId="Pmen_4574" Name="cbiGH" Function="Cobalamin biosynthesis protein CbiG / Cobalt-precorrin-3b C17-methyltransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3617854" LocusId="Pmen_4587" Name="null" Function="CobW GTPase involved in cobalt insertion for B12 biosynthesis" />
+          <Members vimssId="3617853" LocusId="Pmen_4586" Name="cobN" Function="CobN component of cobalt chelatase involved in B12 biosynthesis" />
+          <Members vimssId="3617852" LocusId="Pmen_4585" Name="chII" Function="ChlI component of cobalt chelatase involved in B12 biosynthesis" />
+          <Members vimssId="3617851" LocusId="Pmen_4584" Name="chlD" Function="ChlD component of cobalt chelatase involved in B12 biosynthesis" />
+          <Members vimssId="3617850" LocusId="Pmen_4583" Name="cbiL" Function="Precorrin-6A synthase (EC 2.1.1.152)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3617834" LocusId="Pmen_4567" Name="btuB" Function="Outer membrane vitamin B12 receptor BtuB" />
+          <Members vimssId="3617833" LocusId="Pmen_4566" Name="btuD" Function="Vitamin B12 ABC transporter, ATPase component BtuD" />
+          <Members vimssId="3617832" LocusId="Pmen_4565" Name="btuF" Function="Vitamin B12 ABC transporter, B12-binding  component BtuF" />
+          <Members vimssId="3617831" LocusId="Pmen_4564" Name="btuC" Function="Vitamin B12 ABC transporter, permease component BtuC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3617002" LocusId="Pmen_3752" Name="cbtC" Function="Predicted cobalt transporter CbtC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41319" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_3856" Name="ribE2" Position="-282" Score="102">
+          <Sequence>GCAACGTTCTCAGGGCGGGGTGAGATTCCCCACCGGCGGTAATGGTTCGCAGAACCTAGCCCGCGAGCGCTCGCCATGGCTTCTGCCAGGCGAGGTCCAGCAGACCCGGTGCGATTCCGGGGCCGACGGTATAGTCCGGATAAAGAGAGAGCGGGA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3617106" LocusId="Pmen_3856" Name="ribE2" Function="Riboflavin synthase alpha chain (EC 2.5.1.9)" />
+          <Members vimssId="3617105" LocusId="Pmen_3855" Name="ribBA" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase / GTP cyclohydrolase II (EC 3.5.4.25)" />
+          <Members vimssId="3617104" LocusId="Pmen_3854" Name="ribH" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00114" RegulationMode="RF00114">
+      <Regulator Key="S15" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41263" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="S15" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_3605" Name="rpsO" Position="-41" Score="50.6">
+          <Sequence>TTGAGACTGCTGCGGCAGTTTCCAGATGAGAGGAAGCCAACATGGCACTCAGCGTTGAAGAAAAAGCCCAGATCGTAAACGAGTACAAGCAAGCTGAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3616853" LocusId="Pmen_3605" Name="rpsO" Function="SSU ribosomal protein S15p (S13e)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01057" RegulationMode="RF01057">
+      <Regulator Key="SAH_riboswitch" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40983" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="SAH_riboswitch" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_0449" Name="ahcY" Position="-115" Score="57.3">
+          <Sequence>CCCGTCCGAGGGGCGCTGCAGCAGGTCGGTCGACACCGGTTTGTCAGGCTCGGATGGGGCGTTAACCATACGCATCAACGGCGCCCATTCGCA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3613636" LocusId="Pmen_0449" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+          <Members vimssId="3613635" LocusId="Pmen_0448" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40967" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_0609" Name="thiC" Position="-202" Score="81.3">
+          <Sequence>TAAGTTCTTGTCGGGGTGCCCCATATGCGGGGCTGAGATTGGCAGCTGCCGGATCCCGTTGAACCTGATCAGGTTAAGGCCTGCGTAGGGAACAAGATGTCCTCGCCA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3613795" LocusId="Pmen_0609" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01068" RegulationMode="RF01068">
+      <Regulator Key="mini-ykkC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41031" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="mini-ykkC" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_1358" Name="ucaA" Position="-73" Score="40.2">
+          <Sequence>TCACCACGGACGACCGTGGCACATGACGAATGACGGCGGGACGGCCCGC</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3614565" LocusId="Pmen_1358" Name="ucaA" Function="Urea carboxylase (EC 6.3.4.6) # [Carbamoyl-phosphate synthase large chain (EC 6.3.5.5), ATP binding domain/Biotin carboxylase (EC 6.3.4.14)/Allophanate hydrolase 2 subunit 2 (EC 3.5.1.54)/Allophanate hydrolase 2 subunit 1 (EC 3.5.1.54)/Biotin carboxyl ..." />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00442" RegulationMode="RF00442">
+      <Regulator Key="ykkC-yxkD" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41143" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="ykkC-yxkD" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_1365" Name="uctP" Position="-287" Score="90.3">
+          <Sequence>GCCAATAGCCGGCTAGGGTTCCGGCTCGCCACCCGCGAGCGACTGGTCCGAGAGCTGGCGACCTCCAGCGAGGTTACACGGCGGGACAAAAGCCCGGGAGAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1366" Name="uctB1" Position="-172" Score="76.2">
+          <Sequence>AGAAATGGCCGACTAGGGTTCCGGCCCACCCGCACGGGTGGGTGACTGGTCCGAGAGTGGGCGACCTCGGAGCGGCGGGAAGCCGCGGGGTTACACGGCGGGATAAAAGCCCGGGAGAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pmen_1361" Name="uctB1" Position="-168" Score="95.4">
+          <Sequence>CGAAATGGATGACTAGGGTTCCGATCCGCGCAGGCGGGTGACTGGTCCGAGAGTCATCGACCTCCAGTGAGGTTACACGGCGGGATAAAAGCCCGGGAGAA</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3614573" LocusId="Pmen_1366" Name="uctB1" Function="Urea carboxylase-related ABC transporter, periplasmic substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3614572" LocusId="Pmen_1365" Name="uctP" Function="Urea carboxylase-related ABC transporter, permease protein" />
+          <Members vimssId="3614571" LocusId="Pmen_1364" Name="uctA" Function="Urea carboxylase-related ABC transporter, ATPase protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3614568" LocusId="Pmen_1361" Name="uctB1" Function="Urea carboxylase-related ABC transporter, periplasmic substrate-binding protein" />
+          <Members vimssId="3614567" LocusId="Pmen_1360" Name="amt1" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="3614566" LocusId="Pmen_1359" Name="amt2" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="3614565" LocusId="Pmen_1358" Name="ucaA" Function="Urea carboxylase (EC 6.3.4.6) # [Carbamoyl-phosphate synthase large chain (EC 6.3.5.5), ATP binding domain/Biotin carboxylase (EC 6.3.4.14)/Allophanate hydrolase 2 subunit 2 (EC 3.5.1.54)/Allophanate hydrolase 2 subunit 1 (EC 3.5.1.54)/Biotin carboxyl ..." />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40927" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pmen_3666" Name="COG2119" Position="-207" Score="36.5">
+          <Sequence>CGCCCGTCCTAGGGGAGTAGTCTCCCGCGAGCGCCCTGCTCGCCCGGCACGCGTCAACACACTTGCTCCGCAGAGCATGGCGCGTGCGACCCAAGGCCTTCATAGACAGGCCTGCGGTTTGACAAGACCTATGACACGCACAC</Sequence>
+          <Bacteria>Pseudomonas mendocina ymp</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3616916" LocusId="Pmen_3666" Name="COG2119" Function="Probable transmembrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

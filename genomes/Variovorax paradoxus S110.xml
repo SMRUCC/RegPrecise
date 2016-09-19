@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Variovorax paradoxus S110" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="Aave_3430" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60955" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Vapar_0983" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7556040&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="Aave_3430 - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6259" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_0983" Name="Aave_3430" Position="-120" Score="14.2">
+          <Sequence>ACAGGCACACACCC-(11)-ACCGGAACAGCGGT-(9)-GCATCTGTTATGGT-(11)-GCAACTGCATCTGT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_0984" Name="" Position="-140" Score="21.4">
+          <Sequence>ACAGATGCAGTTGC-(11)-ACCATAACAGATGC-(9)-ACCGCTGTTCCGGT-(11)-GGGTGTGTGCCTGT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7556041" LocusId="Vapar_0984" Name="null" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7556040" LocusId="Vapar_0983" Name="Aave_3430" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6259</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51331" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="Vapar_3563" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7558645&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5205" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_3562" Name="cadA" Position="-26" Score="4.8">
+          <Sequence>ACTCTACACCTGCTTCAGGGT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7558644" LocusId="Vapar_3562" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5205</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="CueR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=55939" />
+      <Effector>Copper ion, (Cu+)</Effector>
+      <Pathway>Copper resistance</Pathway>
+      <LocusTag Key="Vapar_2999" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7558078&amp;disp=0" />
+      <BiologicalProcess>Copper resistance</BiologicalProcess>
+      <Regulog Key="CueR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5712" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_0031" Name="copA" Position="-34" Score="4.8">
+          <Sequence>ACCTTGCCATGATGTGAGACT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_2999" Name="cueR2" Position="-60" Score="4.6">
+          <Sequence>ACTCTCCCATGGTGTGAAGGC</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_0030" Name="copZ" Position="-70" Score="4.9">
+          <Sequence>ACATTGACATCATGAGAAGGT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7558078" LocusId="Vapar_2999" Name="cueR2" Function="Copper-responsive transcriptional regulator, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7555081" LocusId="Vapar_0031" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7555080" LocusId="Vapar_0030" Name="copZ" Function="Copper chaperone" />
+          <Members vimssId="7555079" LocusId="Vapar_0029" Name="cueR" Function="Copper resistance ranscriptional regulator, MerR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5712</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="Daci_0595" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59592" />
+      <Effector />
+      <Pathway>Metabolite transport</Pathway>
+      <LocusTag Key="Vapar_0748" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7555804&amp;disp=0" />
+      <BiologicalProcess>Metabolite transport</BiologicalProcess>
+      <Regulog Key="Daci_0595 - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6115" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_0747" Name="PF01810" Position="-93" Score="16.4">
+          <Sequence>CTTCTGTGTCG-(10)-CAATACAGTTT-(15)-CAACTGTATCG-(0)-GAACTGTAATG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7555803" LocusId="Vapar_0747" Name="PF01810" Function="Transporter, LysE family" />
+          <Members vimssId="7555802" LocusId="Vapar_0746" Name="PF00892" Function="Permease of the drug/metabolite transporter (DMT) superfamily" />
+          <Members vimssId="7555801" LocusId="Vapar_0745" Name="COG1167" Function="Aspartate aminotransferase (AspB-4) (EC 2.6.1.1)" />
+          <Members vimssId="7555800" LocusId="Vapar_0744" Name="Aave_4745" Function="ThiJ/PfpI family protein" />
+          <Members vimssId="7555799" LocusId="Vapar_0743" Name="PF01810" Function="Transporter, LysE family" />
+          <Members vimssId="7555798" LocusId="Vapar_0742" Name="Bpro_4241" Function="Glutathione S-transferase domain protein" />
+          <Members vimssId="7555797" LocusId="Vapar_0741" Name="phzF" Function="Phenazine biosynthesis protein PhzF" />
+          <Members vimssId="7555796" LocusId="Vapar_0740" Name="Aave_4440" Function="Riboflavin-specific deaminase" />
+          <Members vimssId="7555795" LocusId="Vapar_0739" Name="PF01810" Function="Transporter, LysE family" />
+          <Members vimssId="7555794" LocusId="Vapar_0738" Name="Aave_4441" Function="Pyridoxal-5'-phosphate-dependent enzyme, threonine dehydratase (EC 4.3.1.19)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6115</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="Daci_3053" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59951" />
+      <Effector />
+      <Pathway>Glycolate utilization; Lactate utilization</Pathway>
+      <LocusTag Key="Vapar_2905" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7557984&amp;disp=0" />
+      <BiologicalProcess>Glycolate utilization; Lactate utilization</BiologicalProcess>
+      <Regulog Key="Daci_3053 - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6154" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_2906" Name="sgaA" Position="-36" Score="4.9">
+          <Sequence>GTTTTGAATGCAAAAC</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_2905" Name="Daci_3053" Position="-101" Score="4.9">
+          <Sequence>GTTTTGCATTCAAAAC</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_2905" Name="Daci_3053" Position="-35" Score="5.8">
+          <Sequence>TTTTTGCATTCAAAAT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_2906" Name="sgaA" Position="-102" Score="5.8">
+          <Sequence>ATTTTGAATGCAAAAA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7557985" LocusId="Vapar_2906" Name="sgaA" Function="Serine--glyoxylate aminotransferase (EC 2.6.1.45)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7557984" LocusId="Vapar_2905" Name="Daci_3053" Function="Transcriptional regulator associated with tricarboxylic transport, GntR family" />
+          <Members vimssId="7557983" LocusId="Vapar_2904" Name="dld2" Function="D-lactate dehydrogenase, alternative" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6154</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="Daci_3836" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=55543" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Vapar_0276" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7555327&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="Daci_3836 - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5666" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_0265" Name="uahA" Position="-25" Score="5">
+          <Sequence>ACTTGTACACAAGT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7555316" LocusId="Vapar_0265" Name="uahA" Function="Allophanate hydrolase (EC 3.5.1.54)" />
+          <Members vimssId="7555317" LocusId="Vapar_0266" Name="Vapar_0266" Function="ABC transporter substrate binding protein, periplasmic component" />
+          <Members vimssId="7555318" LocusId="Vapar_0267" Name="Vapar_0267" Function="ABC transporter, permease protein" />
+          <Members vimssId="7555319" LocusId="Vapar_0268" Name="Vapar_0268" Function="ABC transporter ATP-binding protein" />
+          <Members vimssId="7555320" LocusId="Vapar_0269" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7555321" LocusId="Vapar_0270" Name="Lcho_3026" Function="ABC transporter, periplasmic ligand binding protein, Bmp family" />
+          <Members vimssId="7555322" LocusId="Vapar_0271" Name="Lcho_3025" Function="ABC transporter, permease protein" />
+          <Members vimssId="7555323" LocusId="Vapar_0272" Name="Lcho_3024" Function="ABC transporter, permease protein" />
+          <Members vimssId="7555324" LocusId="Vapar_0273" Name="Lcho_3023" Function="Isochorismatase hydrolase (EC 3.3.2.1)" />
+          <Members vimssId="7555325" LocusId="Vapar_0274" Name="Lcho_3022" Function="ABC transporter ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5666</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="">
+      <Regulator Key="FadP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31069" />
+      <Effector />
+      <Pathway>Fatty acid degradation</Pathway>
+      <LocusTag Key="Vapar_0809" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7555865&amp;disp=0" />
+      <BiologicalProcess>Fatty acid degradation</BiologicalProcess>
+      <Regulog Key="FadP - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3210" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_3374" Name="etfB" Position="-131" Score="5.1">
+          <Sequence>AAGCACGGTCGTTCTT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_0809" Name="fadP" Position="-36" Score="5.7">
+          <Sequence>TAGAACGACCGTTCGT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_0572" Name="" Position="-32" Score="5.5">
+          <Sequence>TCGAACGATCGTTCGC</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_1274" Name="acdQ" Position="-87" Score="5.2">
+          <Sequence>CAGCACGACCGTGCTA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7558455" LocusId="Vapar_3374" Name="etfB" Function="Electron transfer flavoprotein, beta subunit" />
+          <Members vimssId="7558454" LocusId="Vapar_3373" Name="etfA" Function="Electron transfer flavoprotein, alpha subunit" />
+          <Members vimssId="7558453" LocusId="Vapar_3372" Name="acdH2" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+          <Members vimssId="7558452" LocusId="Vapar_3371" Name="null" Function="Dioxygenases related to 2-nitropropane dioxygenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7555623" LocusId="Vapar_0572" Name="null" Function="FIG026291: Hypothetical periplasmic protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7556332" LocusId="Vapar_1274" Name="acdQ" Function="Acyl-CoA dehydrogenase, long-chain specific, mitochondrial precursor (EC 1.3.99.13)" />
+          <Members vimssId="7556331" LocusId="Vapar_1273" Name="acdP" Function="Acyl-CoA dehydrogenase family protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7555865" LocusId="Vapar_0809" Name="fadP" Function="Predicted transcriptional regulator for fatty acid degradation FadP, TetR family" />
+          <Members vimssId="7555866" LocusId="Vapar_0810" Name="acdH" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+          <Members vimssId="7555867" LocusId="Vapar_0811" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7555868" LocusId="Vapar_0812" Name="acdB" Function="Enoyl-CoA hydratase (EC 4.2.1.17) / 3,2-trans-enoyl-CoA isomerase (EC 5.3.3.8) / 3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35)" />
+          <Members vimssId="7555869" LocusId="Vapar_0813" Name="null" Function="protein of unknown function DUF559" />
+          <Members vimssId="7555870" LocusId="Vapar_0814" Name="acdA" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16) @ Acetyl-CoA acetyltransferase (EC 2.3.1.9)" />
+          <Members vimssId="7555871" LocusId="Vapar_0815" Name="null" Function="alpha/beta hydrolase-like" />
+          <Members vimssId="7555872" LocusId="Vapar_0816" Name="null" Function="TesB-like acyl-CoA thioesterase 2" />
+          <Members vimssId="7555873" LocusId="Vapar_0817" Name="null" Function="short-chain dehydrogenase/reductase SDR" />
+          <Members vimssId="7555874" LocusId="Vapar_0818" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7555875" LocusId="Vapar_0819" Name="null" Function="DSBA oxidoreductase" />
+          <Members vimssId="7555876" LocusId="Vapar_0820" Name="echH" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3210</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="FdsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58492" />
+      <Effector>Formate</Effector>
+      <Pathway>Formate oxydation</Pathway>
+      <LocusTag Key="Vapar_3016" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7558095&amp;disp=0" />
+      <BiologicalProcess>Formate oxydation</BiologicalProcess>
+      <Regulog Key="FdsR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5985" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_3016" Name="fdsR" Position="-24" Score="5.8">
+          <Sequence>ATATGCTTTGGAAAGCCGAA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_3017" Name="fdsG" Position="-119" Score="5.8">
+          <Sequence>TTCGGCTTTCCAAAGCATAT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7558096" LocusId="Vapar_3017" Name="fdsG" Function="NAD-dependent formate dehydrogenase (EC  1.2.1.2), gamma subunit" />
+          <Members vimssId="7558097" LocusId="Vapar_3018" Name="fdsB" Function="NAD-dependent formate dehydrogenase (EC  1.2.1.2), beta subunit" />
+          <Members vimssId="7558098" LocusId="Vapar_3019" Name="fdsA" Function="NAD-dependent formate dehydrogenase (EC  1.2.1.2), alpha subunit" />
+          <Members vimssId="7558099" LocusId="Vapar_3020" Name="fdsC" Function="NAD-dependent formate dehydrogenase (EC  1.2.1.2), accessory protein" />
+          <Members vimssId="7558100" LocusId="Vapar_3021" Name="fdsD" Function="NAD-dependent formate dehydrogenase (EC  1.2.1.2), delta subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7558095" LocusId="Vapar_3016" Name="fdsR" Function="Formate dehydrogenase transcriptional regulator FdsR, ModE family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5985</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="GabR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59989" />
+      <Effector>Gamma-aminobutyric acid</Effector>
+      <Pathway>Gamma-aminobutyrate utilization</Pathway>
+      <LocusTag Key="Vapar_4694" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7559788&amp;disp=0" />
+      <BiologicalProcess>Gamma-aminobutyrate utilization</BiologicalProcess>
+      <Regulog Key="GabR2 - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6158" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_4695" Name="gabT" Position="-120" Score="14.8">
+          <Sequence>GTATGTACAGGA-(6)-ACCAGTACAGTC-(17)-CGGTGTACATGG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7559789" LocusId="Vapar_4695" Name="gabT" Function="Gamma-aminobutyrate:alpha-ketoglutarate aminotransferase (EC 2.6.1.19)" />
+          <Members vimssId="7559790" LocusId="Vapar_4696" Name="gbtA" Function="Predicted gamma-aminobutyrate ABC transporter, ATP-binding component" />
+          <Members vimssId="7559791" LocusId="Vapar_4697" Name="gbtD" Function="Predicted gamma-aminobutyrate ABC transporter, periplasmic binding protein" />
+          <Members vimssId="7559792" LocusId="Vapar_4698" Name="gbtB" Function="Predicted gamma-aminobutyrate ABC transporter, permease component" />
+          <Members vimssId="7559793" LocusId="Vapar_4699" Name="gbtC" Function="Predicted gamma-aminobutyrate ABC transporter, permease component" />
+          <Members vimssId="7559794" LocusId="Vapar_4700" Name="speB" Function="Agmatinase (EC 3.5.3.11)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6158</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="GguR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62516" />
+      <Effector />
+      <Pathway>Glucarate utilization; Galactarate utilization; Galacturonate utilization; Glucuronate utilization</Pathway>
+      <LocusTag Key="Vapar_1727" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7556789&amp;disp=0" />
+      <BiologicalProcess>Glucarate utilization; Galactarate utilization; Galacturonate utilization; Glucuronate utilization</BiologicalProcess>
+      <Regulog Key="GguR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6431" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_1727" Name="gguR" Position="-39" Score="5.1">
+          <Sequence>CTGTTGTCGTACAACTA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_1728" Name="tctC1" Position="-44" Score="4.6">
+          <Sequence>TAGTTGTACGATGACTG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_1728" Name="tctC1" Position="-37" Score="4.2">
+          <Sequence>ACGATGACTGACAACAC</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_1726" Name="udh" Position="-39" Score="5.1">
+          <Sequence>TAGTTGTACGACAACAG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7556789" LocusId="Vapar_1727" Name="gguR" Function="Predicted D-glucarate or D-galactorate utilization regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7556788" LocusId="Vapar_1726" Name="udh" Function="Uronate dehydrogenase (EC 1.1.1.203)" />
+          <Members vimssId="7556787" LocusId="Vapar_1725" Name="uxuL1" Function="Predicted glucuronolactone/galactarolactone lactonase" />
+          <Members vimssId="7556786" LocusId="Vapar_1724" Name="uxuP" Function="Predicted glucuronate /galacturonate TRAP-type transporter, periplasmic component" />
+          <Members vimssId="7556785" LocusId="Vapar_1723" Name="uxuQ" Function="Predicted glucuronate /galacturonate TRAP-type transporter, small permease component" />
+          <Members vimssId="7556784" LocusId="Vapar_1722" Name="uxuM" Function="Predicted glucuronate /galacturonate TRAP-type transporter, large permease component" />
+          <Members vimssId="7556783" LocusId="Vapar_1721" Name="garD" Function="D-galactarate dehydratase (EC 4.2.1.42)" />
+          <Members vimssId="7556782" LocusId="Vapar_1720" Name="null" Function="short-chain dehydrogenase/reductase SDR" />
+          <Members vimssId="7556781" LocusId="Vapar_1719" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7556780" LocusId="Vapar_1718" Name="uxuF" Function="Predicted uronate lactonase, PF10282 family" />
+          <Members vimssId="7556779" LocusId="Vapar_1717" Name="tctC2" Function="Tripartite tricarboxylate transporter family receptor, putative transporter for uronates" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7556790" LocusId="Vapar_1728" Name="tctC1" Function="Tripartite tricarboxylate transporter family receptor, putative transporter for uronates" />
+          <Members vimssId="7556791" LocusId="Vapar_1729" Name="kdgD" Function="5-dehydro-4-deoxyglucarate dehydratase (EC 4.2.1.41)" />
+          <Members vimssId="7556792" LocusId="Vapar_1730" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7556793" LocusId="Vapar_1731" Name="gudD" Function="Glucarate dehydratase (EC 4.2.1.40)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6431</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="GntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49876" />
+      <Effector>Gluconate</Effector>
+      <Pathway>Gluconate utilization</Pathway>
+      <LocusTag Key="Vapar_6141" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7561247&amp;disp=0" />
+      <BiologicalProcess>Gluconate utilization</BiologicalProcess>
+      <Regulog Key="GntR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5053" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_6142" Name="gntT" Position="-66" Score="5.8">
+          <Sequence>GCGGGATAGCGCTATCCCTG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_6142" Name="gntT" Position="-141" Score="6.1">
+          <Sequence>CTAGGATAGCGCTGTCCCAG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_6141" Name="gntR" Position="-70" Score="6.1">
+          <Sequence>CTGGGACAGCGCTATCCTAG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_6141" Name="gntR" Position="-54" Score="5.7">
+          <Sequence>CTAGGACAGCGCTGTCCAAT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_6141" Name="gntR" Position="-145" Score="5.8">
+          <Sequence>CAGGGATAGCGCTATCCCGC</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_6142" Name="gntT" Position="-157" Score="5.7">
+          <Sequence>ATTGGACAGCGCTGTCCTAG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7561247" LocusId="Vapar_6141" Name="gntR" Function="Gluconate utilization transcriptional regulator GntR, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7561248" LocusId="Vapar_6142" Name="gntT" Function="High-affinity H+/gluconate symporter" />
+          <Members vimssId="7561249" LocusId="Vapar_6143" Name="gntK3" Function="Gluconokinase, Firmicutes type (EC 2.7.1.12)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5053</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49708" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Vapar_4335" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7559426&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5034" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_1119" Name="groS" Position="-110" Score="7">
+          <Sequence>TTAGCACTCGCTGCTGACGAGTGCTAA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_4379" Name="rpoH" Position="-55" Score="6.9">
+          <Sequence>TTAGCACTCCCTCCAATCGAGTGCTAA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7559471" LocusId="Vapar_4379" Name="rpoH" Function="Heat shock response RNA polymerase sigma factor RpoH (Sigma 32)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7556176" LocusId="Vapar_1119" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="7556175" LocusId="Vapar_1118" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5034</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="HutC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17366" />
+      <Effector>cis-Urocanic acid</Effector>
+      <Pathway>Histidine utilization</Pathway>
+      <LocusTag Key="Vapar_0157" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7555208&amp;disp=0" />
+      <BiologicalProcess>Histidine utilization</BiologicalProcess>
+      <Regulog Key="HutC - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1874" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_0154" Name="hisX" Position="-176" Score="5.1">
+          <Sequence>CTTCCTGTATAGACAGCAAT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_0154" Name="hisX" Position="-110" Score="5.7">
+          <Sequence>TATCCTGTATATACAAGTTG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_0158" Name="hutH" Position="-22" Score="5.6">
+          <Sequence>CTACTTGTATAGACAGGTTC</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7555205" LocusId="Vapar_0154" Name="hisX" Function="Putative histidine ABC transporter, periplasmic substrate-binding protein" />
+          <Members vimssId="7555206" LocusId="Vapar_0155" Name="hisY" Function="Putative histidine ABC transporter, permease protein" />
+          <Members vimssId="7555207" LocusId="Vapar_0156" Name="hisZ" Function="Putative histidine ABC transporter, ATP-binding protein" />
+          <Members vimssId="7555208" LocusId="Vapar_0157" Name="hutC" Function="Histidine utilization repressor, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7555209" LocusId="Vapar_0158" Name="hutH" Function="Histidine ammonia-lyase (EC 4.3.1.3)" />
+          <Members vimssId="7555210" LocusId="Vapar_0159" Name="hutU" Function="Urocanate hydratase (EC 4.2.1.49)" />
+          <Members vimssId="7555211" LocusId="Vapar_0160" Name="COG1414" Function="Transcriptional regulator, IclR family" />
+          <Members vimssId="7555212" LocusId="Vapar_0161" Name="COG834 (HisJ)" Function="ABC amino acid transporter, periplasmic binding protein" />
+          <Members vimssId="7555213" LocusId="Vapar_0162" Name="COG765 (HisM)" Function="ABC amino acid transporter, permease component" />
+          <Members vimssId="7555214" LocusId="Vapar_0163" Name="hutD" Function="Conserved hypothetical protein related to histidine degradation" />
+          <Members vimssId="7555215" LocusId="Vapar_0164" Name="hutI" Function="Imidazolonepropionase (EC 3.5.2.7)" />
+          <Members vimssId="7555216" LocusId="Vapar_0165" Name="hutF" Function="Formiminoglutamic iminohydrolase (EC 3.5.3.13)" />
+          <Members vimssId="7555217" LocusId="Vapar_0166" Name="hutG" Function="N-formylglutamate deformylase (EC 3.5.1.68)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1874</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17910" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="Vapar_2141" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7557206&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1935" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_2141" Name="iscR" Position="-165" Score="5.9">
+          <Sequence>ATACTTGAGCGAAATACTCAACAAC</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_2141" Name="iscR" Position="-152" Score="5.4">
+          <Sequence>ATACTCAACAACAACAAAAAAGAAC</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7557206" LocusId="Vapar_2141" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="7557207" LocusId="Vapar_2142" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+          <Members vimssId="7557208" LocusId="Vapar_2143" Name="iscU" Function="Iron-sulfur cluster assembly scaffold protein IscU" />
+          <Members vimssId="7557209" LocusId="Vapar_2144" Name="iscA" Function="Iron binding protein IscA for iron-sulfur cluster assembly" />
+          <Members vimssId="7557210" LocusId="Vapar_2145" Name="hscB" Function="Chaperone protein HscB" />
+          <Members vimssId="7557211" LocusId="Vapar_2146" Name="hscA" Function="Chaperone protein HscA" />
+          <Members vimssId="7557212" LocusId="Vapar_2147" Name="fdx" Function="ferredoxin, 2Fe-2S type, ISC system" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1935</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28352" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="Vapar_2636" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7557713&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2983" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_2636" Name="lexA" Position="-36" Score="4.9">
+          <Sequence>TACTGGATATTCAGCCAGTG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_2636" Name="lexA" Position="-55" Score="5.9">
+          <Sequence>AACTGGTTAAAAATACAGGT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_3206" Name="imuA" Position="-32" Score="6.4">
+          <Sequence>TACTGTATAAAAATACAGTT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_2806" Name="PF06733" Position="-26" Score="5">
+          <Sequence>TACTGTTGTTTTATACAGCA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_1693" Name="PF04055" Position="-40" Score="5.9">
+          <Sequence>TACTGTGTAAACATACAGTA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_4538" Name="imuA" Position="-32" Score="5.5">
+          <Sequence>TACTGTTCATCCATACAGTA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_5195" Name="recA" Position="-83" Score="4.3">
+          <Sequence>TACTGTTCAAGCATCCAGCC</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7557713" LocusId="Vapar_2636" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7557885" LocusId="Vapar_2806" Name="PF06733" Function="DinG family ATP-dependent helicase CPE1197" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7558287" LocusId="Vapar_3206" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="7558286" LocusId="Vapar_3205" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+          <Members vimssId="7558285" LocusId="Vapar_3204" Name="dnaE2" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+          <Members vimssId="7558284" LocusId="Vapar_3203" Name="Aave_0184" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7559631" LocusId="Vapar_4538" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="7559630" LocusId="Vapar_4537" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+          <Members vimssId="7559629" LocusId="Vapar_4536" Name="dnaE2" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7556755" LocusId="Vapar_1693" Name="PF04055" Function="DNA repair photolyase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7560301" LocusId="Vapar_5195" Name="recA" Function="Recombinase A" />
+          <Members vimssId="7560300" LocusId="Vapar_5194" Name="recX" Function="Regulatory protein RecX" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2983</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="LiuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28548" />
+      <Effector />
+      <Pathway>Branched-chain amino acid degradation</Pathway>
+      <LocusTag Key="Vapar_4735" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7559829&amp;disp=0" />
+      <BiologicalProcess>Branched-chain amino acid degradation</BiologicalProcess>
+      <Regulog Key="LiuR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3004" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_4735" Name="liuR" Position="-115" Score="6.6">
+          <Sequence>ATTGACGTTTACGTAAAC</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7559829" LocusId="Vapar_4735" Name="liuR" Function="Predicted transcriptional regulator LiuR of leucine degradation pathway, MerR family" />
+          <Members vimssId="7559828" LocusId="Vapar_4734" Name="cah" Function="Carbonic anhydrase (EC 4.2.1.1)" />
+          <Members vimssId="7559827" LocusId="Vapar_4733" Name="aceK" Function="Isocitrate dehydrogenase phosphatase (EC 2.7.11.5)/kinase (EC 3.1.3.-)" />
+          <Members vimssId="7559826" LocusId="Vapar_4732" Name="ivdA" Function="Acetyl-CoA C-acyltransferase (EC 2.3.1.16)" />
+          <Members vimssId="7559825" LocusId="Vapar_4731" Name="null" Function="peptidase M20" />
+          <Members vimssId="7559824" LocusId="Vapar_4730" Name="ivdC" Function="Isovaleryl-CoA dehydrogenase (EC 1.3.99.10); Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.99.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3004</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="">
+      <Regulator Key="MetR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56679" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="Vapar_3249" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7558330&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5791" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_3249" Name="metR" Position="-13" Score="4.6">
+          <Sequence>TTGAAATTCATTCAT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_3249" Name="metR" Position="-44" Score="3.4">
+          <Sequence>ATGATTCAAACGAAA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_3248" Name="metE" Position="-103" Score="4.6">
+          <Sequence>ATGAATGAATTTCAA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_3248" Name="metE" Position="-72" Score="3.4">
+          <Sequence>TTTCGTTTGAATCAT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7558329" LocusId="Vapar_3248" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7558330" LocusId="Vapar_3249" Name="metR" Function="Homocysteine-responsive transcriptional regulator of methionine metabolism, LysR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5791</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58596" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdopterin biosynthesis</Pathway>
+      <LocusTag Key="Vapar_4071" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7559158&amp;disp=0" />
+      <BiologicalProcess>Molybdopterin biosynthesis</BiologicalProcess>
+      <Regulog Key="ModE2 - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5998" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_4070" Name="modB" Position="-14" Score="5.5">
+          <Sequence>TGCGTTGTATCTTCATGAATACGACGAA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7559157" LocusId="Vapar_4070" Name="modB" Function="Molybdenum transport system permease protein ModB (TC 3.A.1.8.1)" />
+          <Members vimssId="7559156" LocusId="Vapar_4069" Name="modA" Function="Molybdenum ABC transporter, periplasmic molybdenum-binding protein ModA (TC 3.A.1.8.1)" />
+          <Members vimssId="7559155" LocusId="Vapar_4068" Name="modC" Function="Molybdenum transport ATP-binding protein ModC (TC 3.A.1.8.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5998</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58549" />
+      <Effector>Tungsten</Effector>
+      <Pathway>Tungsten homeostasis</Pathway>
+      <LocusTag Key="Vapar_1577" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7556638&amp;disp=0" />
+      <BiologicalProcess>Tungsten homeostasis</BiologicalProcess>
+      <Regulog Key="ModE3 - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5991" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_1588" Name="tupA" Position="-74" Score="6.1">
+          <Sequence>CTATGCAAAATCCTGCATAG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7556649" LocusId="Vapar_1588" Name="tupA" Function="Tungstate ABC-type transporter, permease protein" />
+          <Members vimssId="7556650" LocusId="Vapar_1589" Name="tupC" Function="Tungstate ABC-type transporter, ATP-binding protein" />
+          <Members vimssId="7556651" LocusId="Vapar_1590" Name="tupB" Function="Tungstate ABC-type transporter, substrate-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5991</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NorR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17000" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="Vapar_6323" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7561444&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="NorR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1833" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_6323" Name="norR" Position="-10" Score="4.5">
+          <Sequence>TGTTGTATTTATGACCACA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_6323" Name="norR" Position="11" Score="4.3">
+          <Sequence>CAGTGTCAGTTCGACCACA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_6324" Name="hmp" Position="-121" Score="3.8">
+          <Sequence>TGTTGCGAATTTGACCACG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_6324" Name="hmp" Position="-147" Score="4.5">
+          <Sequence>TGTGGTCATAAATACAACA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_6324" Name="hmp" Position="-168" Score="4.3">
+          <Sequence>TGTGGTCGAACTGACACTG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7561444" LocusId="Vapar_6323" Name="norR" Function="anaerobic nitric oxide reductase transcription regulator, Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7561445" LocusId="Vapar_6324" Name="hmp" Function="Flavohemoprotein (Hemoglobin-like protein) (Flavohemoglobin) (Nitric oxide dioxygenase) (EC 1.14.12.17)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1833</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15562" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Vapar_3101" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7558181&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1672" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_0956" Name="nrdA" Position="-98" Score="5.7">
+          <Sequence>ACCCTAGATATAGTGT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_0956" Name="nrdA" Position="-130" Score="5.4">
+          <Sequence>ACGCTACATCTAGTGG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7556013" LocusId="Vapar_0956" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="7556012" LocusId="Vapar_0955" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1672</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrtR" RegulationMode="repressor">
+      <Regulator Key="NrtR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15394" />
+      <Effector>Adenosine diphosphate ribose</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="Vapar_6281" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7561402&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NrtR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1653" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_6282" Name="pncA" Position="-61" Score="6">
+          <Sequence>ATGGTTGTACAGTGCAACCAA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_6282" Name="pncA" Position="-38" Score="6.2">
+          <Sequence>AGAGTTGCACAGTACAACTAA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_6281" Name="nrtR" Position="-41" Score="6">
+          <Sequence>AGAGTTGTTCTGTACAACCCA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7561403" LocusId="Vapar_6282" Name="pncA" Function="Nicotinamidase (EC 3.5.1.19)" />
+          <Members vimssId="7561404" LocusId="Vapar_6283" Name="pncB" Function="Nicotinate phosphoribosyltransferase (EC 2.4.2.11)" />
+          <Members vimssId="7561405" LocusId="Vapar_6284" Name="nadE" Function="NAD synthetase (EC 6.3.1.5) / Glutamine amidotransferase chain of NAD synthetase" />
+          <Members vimssId="7561406" LocusId="Vapar_6285" Name="nadM" Function="Nicotinamide-nucleotide adenylyltransferase, NadM family (EC 2.7.7.1) / ADP-ribose pyrophosphatase (EC 3.6.1.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7561402" LocusId="Vapar_6281" Name="nrtR" Function="Nudix-like transcriptional regulator NrtR" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1653</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19332" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="Vapar_1635" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7556697&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2089" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_1632" Name="glnA" Position="-139" Score="5.7">
+          <Sequence>TGCACCAATTTGGTGAT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_0217" Name="CHP02001" Position="-207" Score="4.9">
+          <Sequence>CTCACCATTGTGGTGCG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_2849" Name="nasD" Position="-189" Score="4.6">
+          <Sequence>AGCACTGTTTTGGTGAG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_3522" Name="nrtA" Position="-313" Score="4.3">
+          <Sequence>CGCACAACAAGCGTGCA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_3526" Name="narK" Position="-166" Score="4.6">
+          <Sequence>AGCACCGCTTTGGTGAG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7556694" LocusId="Vapar_1632" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+          <Members vimssId="7556695" LocusId="Vapar_1633" Name="ntrZ" Function="Conserved hypothetical signal peptide protein" />
+          <Members vimssId="7556696" LocusId="Vapar_1634" Name="ntrB" Function="putative nitrogen regulation protein NR(II)" />
+          <Members vimssId="7556697" LocusId="Vapar_1635" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7558608" LocusId="Vapar_3526" Name="narK" Function="Nitrate/nitrite antiporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7558604" LocusId="Vapar_3522" Name="nrtA" Function="Nitrate ABC transporter, substrate-binding component" />
+          <Members vimssId="7558605" LocusId="Vapar_3523" Name="nrtB" Function="Nitrate ABC transporter, permease component" />
+          <Members vimssId="7558606" LocusId="Vapar_3524" Name="nrtC" Function="Nitrate ABC transporter, ATP-binding component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7557928" LocusId="Vapar_2849" Name="nasD" Function="Nitrite reductase, large subunit (EC 1.7.1.4)" />
+          <Members vimssId="7557927" LocusId="Vapar_2848" Name="nasE" Function="Nitrite reductase, small subunit (EC 1.7.1.4)" />
+          <Members vimssId="7557926" LocusId="Vapar_2847" Name="cysG" Function="Uroporphyrinogen-III methyltransferase (EC 2.1.1.107)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7555268" LocusId="Vapar_0217" Name="CHP02001" Function="Conserved hypothetical protein CHP02001" />
+          <Members vimssId="7555269" LocusId="Vapar_0218" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="7555270" LocusId="Vapar_0219" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2089</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PaaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38884" />
+      <Effector>Phenylacetyl-CoA</Effector>
+      <Pathway>Phenylacetic acid degradation</Pathway>
+      <LocusTag Key="Vapar_1240" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7556298&amp;disp=0" />
+      <BiologicalProcess>Phenylacetic acid degradation</BiologicalProcess>
+      <Regulog Key="PaaR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3971" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_1238" Name="paaF" Position="-48" Score="5.5">
+          <Sequence>ATCTACCGGACGGTCGGTCAAT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_1239" Name="paaY2" Position="-101" Score="5.4">
+          <Sequence>ATTGACCGACCGTCCGGTAGAT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_1238" Name="paaF" Position="-52" Score="4.6">
+          <Sequence>TAAAATCTACCGGACGGTCGGT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7556297" LocusId="Vapar_1239" Name="paaY2" Function="phenylacetic acid degradation protein PaaY" />
+          <Members vimssId="7556298" LocusId="Vapar_1240" Name="paaR" Function="Transcriptional regulator of phenylacetic acid degradation, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7556296" LocusId="Vapar_1238" Name="paaF" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+          <Members vimssId="7556295" LocusId="Vapar_1237" Name="paaY" Function="thioesterase superfamily protein" />
+          <Members vimssId="7556294" LocusId="Vapar_1236" Name="paaK" Function="Phenylacetate-coenzyme A ligase (EC 6.2.1.30)" />
+          <Members vimssId="7556293" LocusId="Vapar_1235" Name="paaA" Function="Phenylacetate-CoA oxygenase, PaaA subunit" />
+          <Members vimssId="7556292" LocusId="Vapar_1234" Name="paaB" Function="Phenylacetate-CoA oxygenase, PaaB subunit" />
+          <Members vimssId="7556291" LocusId="Vapar_1233" Name="paaC" Function="Phenylacetate-CoA oxygenase, PaaC subunit" />
+          <Members vimssId="7556290" LocusId="Vapar_1232" Name="paaD" Function="Phenylacetate-CoA oxygenase, PaaD subunit" />
+          <Members vimssId="7556289" LocusId="Vapar_1231" Name="paaE" Function="Probable phenylacetic acid degradation NADH oxidoreductase paaE (EC 1.-.-.-)" />
+          <Members vimssId="7556288" LocusId="Vapar_1230" Name="livK" Function="Putative branched-chain amino acid ABC transporter, substrate-binding component" />
+          <Members vimssId="7556287" LocusId="Vapar_1229" Name="livH" Function="Putative branched-chain amino acid ABC transporter, permease component" />
+          <Members vimssId="7556286" LocusId="Vapar_1228" Name="livM" Function="Putative branched-chain amino acid ABC transporter, ATPase component" />
+          <Members vimssId="7556285" LocusId="Vapar_1227" Name="livF" Function="Putative branched-chain amino acid ABC transporter, permease component 2" />
+          <Members vimssId="7556284" LocusId="Vapar_1226" Name="paaZ" Function="Aldehyde dehydrogenase (EC 1.2.1.3), PaaZ" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3971</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxW" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58112" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="Vapar_3858" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7558944&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxW - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5948" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_3857" Name="PF00583" Position="-117" Score="13.3">
+          <Sequence>CGTGGCACCAT-(13)-CGTGGCGCTTC-(2)-GTGGCGCCACG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7558943" LocusId="Vapar_3857" Name="PF00583" Function="GCN5-related N-acetyltransferase (GNAT) domain" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5948</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="RbsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21095" />
+      <Effector>Ribose</Effector>
+      <Pathway>Ribose utilization</Pathway>
+      <LocusTag Key="Vapar_4639" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7559732&amp;disp=0" />
+      <BiologicalProcess>Ribose utilization</BiologicalProcess>
+      <Regulog Key="RbsR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2285" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_4636" Name="rbsB" Position="-95" Score="6.6">
+          <Sequence>ATTAGCAAACGTTTGCGCAA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7559729" LocusId="Vapar_4636" Name="rbsB" Function="Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)" />
+          <Members vimssId="7559730" LocusId="Vapar_4637" Name="rbsA" Function="Ribose ABC transport system, ATP-binding protein RbsA (TC 3.A.1.2.1)" />
+          <Members vimssId="7559731" LocusId="Vapar_4638" Name="rbsC" Function="Ribose ABC transport system, permease protein RbsC (TC 3.A.1.2.1)" />
+          <Members vimssId="7559732" LocusId="Vapar_4639" Name="rbsR" Function="Transcriptional repressor of ribose utilization, LacI family" />
+          <Members vimssId="7559733" LocusId="Vapar_4640" Name="rbsK" Function="Ribokinase (EC 2.7.1.15)" />
+          <Members vimssId="7559734" LocusId="Vapar_4641" Name="rbsD" Function="D-ribose pyranase (D-ribose mutarotase) (EC 5.5.1.n1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2285</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="SdhR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62159" />
+      <Effector />
+      <Pathway>Tricarboxylic acid cycle</Pathway>
+      <LocusTag Key="Vapar_1431" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7556490&amp;disp=0" />
+      <BiologicalProcess>Tricarboxylic acid cycle</BiologicalProcess>
+      <Regulog Key="SdhR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6387" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_1431" Name="sdhR" Position="-4" Score="6.8">
+          <Sequence>TCTTATGTCTTATATAAGATATGCTC</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_1432" Name="mdh" Position="-151" Score="6.8">
+          <Sequence>GAGCATATCTTATATAAGACATAAGA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_1869" Name="aceA" Position="-97" Score="7.1">
+          <Sequence>AAATATGTCTTCTATAAGACATAAGA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7556490" LocusId="Vapar_1431" Name="sdhR" Function="Transcriptional regulator of TCA cycle, GntR family" />
+          <Members vimssId="7556489" LocusId="Vapar_1430" Name="sdhC" Function="Succinate dehydrogenase cytochrome b-556 subunit" />
+          <Members vimssId="7556488" LocusId="Vapar_1429" Name="sdhD" Function="Succinate dehydrogenase hydrophobic membrane anchor protein" />
+          <Members vimssId="7556487" LocusId="Vapar_1428" Name="sdhA" Function="Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1)" />
+          <Members vimssId="7556486" LocusId="Vapar_1427" Name="sdhB" Function="Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1)" />
+          <Members vimssId="7556485" LocusId="Vapar_1426" Name="COG2938" Function="succinate dehydrogenase iron-sulfur subunit" />
+          <Members vimssId="7556484" LocusId="Vapar_1425" Name="gltA" Function="Citrate synthase (si) (EC 2.3.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7556491" LocusId="Vapar_1432" Name="mdh" Function="Malate dehydrogenase (EC 1.1.1.37)" />
+          <Members vimssId="7556492" LocusId="Vapar_1433" Name="tam" Function="Trans-aconitate 2-methyltransferase (EC 2.1.1.144)" />
+          <Members vimssId="7556493" LocusId="Vapar_1434" Name="citE" Function="Citrate lyase beta chain (EC 4.1.3.6)" />
+          <Members vimssId="7556494" LocusId="Vapar_1435" Name="Aave_2209" Function="hypothetical protein" />
+          <Members vimssId="7556495" LocusId="Vapar_1436" Name="acnB" Function="Aconitate hydratase (EC 4.2.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7556933" LocusId="Vapar_1869" Name="aceA" Function="Isocitrate lyase (EC 4.1.3.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6387</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="SoxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50603" />
+      <Effector>Paraquat</Effector>
+      <Pathway>Superoxide stress response</Pathway>
+      <LocusTag Key="Vapar_4431" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7559523&amp;disp=0" />
+      <BiologicalProcess>Superoxide stress response</BiologicalProcess>
+      <Regulog Key="SoxR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5125" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_4430" Name="" Position="-35" Score="6.2">
+          <Sequence>ACCTCAAGTTAGGTTGAGGC</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_4431" Name="soxR" Position="-32" Score="6.3">
+          <Sequence>ACCTCAACTAAAGTCGAGGT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7559523" LocusId="Vapar_4431" Name="soxR" Function="Redox-sensitive transcriptional activator, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7559522" LocusId="Vapar_4430" Name="null" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5125</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="TauR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62113" />
+      <Effector>Taurine</Effector>
+      <Pathway>Taurine utilization</Pathway>
+      <LocusTag Key="Vapar_3848" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7558934&amp;disp=0" />
+      <BiologicalProcess>Taurine utilization</BiologicalProcess>
+      <Regulog Key="TauR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6381" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_3846" Name="tauA" Position="-90" Score="6.8">
+          <Sequence>CTGGCTCCAT-------------CTGGTACTTC</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_3849" Name="tauX" Position="-85" Score="7.1">
+          <Sequence>CTGGCTCGGT-------------CTGGCCCTAT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7558935" LocusId="Vapar_3849" Name="tauX" Function="Putative small subunit of taurine dehydrogenase" />
+          <Members vimssId="7558936" LocusId="Vapar_3850" Name="tauY" Function="Taurine dehydrogenase, large subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7558932" LocusId="Vapar_3846" Name="tauA" Function="Taurine ABC transporter, taurine-binding periplasmic protein TauA" />
+          <Members vimssId="7558931" LocusId="Vapar_3845" Name="tauB" Function="Taurine ABC transporter, ATP-binding protein TauB" />
+          <Members vimssId="7558930" LocusId="Vapar_3844" Name="tauC" Function="Taurine ABC transporter, permease protein TauC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6381</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="UxuR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61531" />
+      <Effector />
+      <Pathway>Glucuronate utilization; Galacturonate utilization</Pathway>
+      <LocusTag Key="Vapar_5316" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7560422&amp;disp=0" />
+      <BiologicalProcess>Glucuronate utilization; Galacturonate utilization</BiologicalProcess>
+      <Regulog Key="UxuR2 - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6318" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_0787" Name="uxuR2" Position="-52" Score="5">
+          <Sequence>GAATTGGCCTTACCACTTG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_0788" Name="Bpro_3961" Position="-104" Score="5">
+          <Sequence>CAAGTGGTAAGGCCAATTC</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_2876" Name="uxuR3" Position="-27" Score="5.2">
+          <Sequence>AATGTGGTCTAACCAATTT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_5316" Name="uxuR2-2" Position="-165" Score="5.1">
+          <Sequence>CTTTTGGCCTTACCAATTT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_5316" Name="uxuR2-2" Position="-151" Score="4.7">
+          <Sequence>AATTTGGCGAGGCCACTTT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_5316" Name="uxuR2-2" Position="-36" Score="4.7">
+          <Sequence>AAACTGGCATGACCAGATC</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_5317" Name="" Position="-157" Score="4.7">
+          <Sequence>GATCTGGTCATGCCAGTTT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_5317" Name="" Position="-42" Score="4.7">
+          <Sequence>AAAGTGGCCTCGCCAAATT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_5317" Name="" Position="-28" Score="5.1">
+          <Sequence>AAATTGGTAAGGCCAAAAG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7555843" LocusId="Vapar_0787" Name="uxuR2" Function="Predicted transcriptional regulator for glucuronate/galacturonate utilization, GntR family" />
+          <Members vimssId="7555842" LocusId="Vapar_0786" Name="dctP" Function="TRAP-type transport system, periplasmic component, predicted N-acetylneuraminate-binding protein" />
+          <Members vimssId="7555841" LocusId="Vapar_0785" Name="dctQ" Function="TRAP-type C4-dicarboxylate transport system, small permease component" />
+          <Members vimssId="7555840" LocusId="Vapar_0784" Name="dctM" Function="TRAP-type C4-dicarboxylate transport system, large permease component" />
+          <Members vimssId="7555839" LocusId="Vapar_0783" Name="uxaA" Function="Altronate/Galactarate hydrolase (EC 4.2.1.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7560423" LocusId="Vapar_5317" Name="null" Function="amidohydrolase 2" />
+          <Members vimssId="7560424" LocusId="Vapar_5318" Name="Rfer_3129" Function="ABC-type sugar transport system, ATP-binding protein (EC 3.6.3.17)" />
+          <Members vimssId="7560425" LocusId="Vapar_5319" Name="Rfer_3130" Function="Possible fucose ABC transporter, permease component" />
+          <Members vimssId="7560426" LocusId="Vapar_5320" Name="Rfer_3131" Function="Possible fucose ABC transporter, substrate-binding component" />
+          <Members vimssId="7560427" LocusId="Vapar_5321" Name="Rfer_3134" Function="L-fuconate dehydratase (EC 4.2.1.68)" />
+          <Members vimssId="7560428" LocusId="Vapar_5322" Name="Rfer_3136" Function="SDR dehydrogenase clustered with L-fuconate utilization genes" />
+          <Members vimssId="7560429" LocusId="Vapar_5323" Name="Rfer_3138" Function="Possible alternative L-fucose mutarotase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7560422" LocusId="Vapar_5316" Name="uxuR2-2" Function="Predicted transcriptional regulator for glucuronate/galacturonate utilization, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7557955" LocusId="Vapar_2876" Name="uxuR3" Function="Predicted transcriptional regulator for glucuronate utilization, GntR family" />
+          <Members vimssId="7557956" LocusId="Vapar_2877" Name="Aave_2470" Function="Cyclohexadienyl dehydratase (EC 4.2.1.51)(EC 4.2.1.91) # Periplasmic precursor" />
+          <Members vimssId="7557957" LocusId="Vapar_2878" Name="Vapar_2878" Function="Amino acid ABC transporter, periplasmic amino acid-binding protein" />
+          <Members vimssId="7557958" LocusId="Vapar_2879" Name="idnD/tdh" Function="L-idonate 5-dehydrogenase (EC 1.1.1.264)" />
+          <Members vimssId="7557959" LocusId="Vapar_2880" Name="Vapar_2880" Function="Amino acid ABC transporter, inner membrane subunit" />
+          <Members vimssId="7557960" LocusId="Vapar_2881" Name="Vapar_2881" Function="Amino acid ABC transporter, inner membrane subunit" />
+          <Members vimssId="7557961" LocusId="Vapar_2882" Name="Vapar_2882" Function="Amino acid transport ATP-binding protein GlnQ (TC 3.A.1.3.2)" />
+          <Members vimssId="7557962" LocusId="Vapar_2883" Name="Bpro_3978" Function="Mandelate racemase/muconate lactonizing enzyme, C-terminal domain protein" />
+          <Members vimssId="7557963" LocusId="Vapar_2884" Name="mtlD" Function="D-mannonate oxidoreductase (EC 1.1.1.57)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7555844" LocusId="Vapar_0788" Name="Bpro_3961" Function="2-keto-3-deoxy-L-fuconate dehydrogenase" />
+          <Members vimssId="7555845" LocusId="Vapar_0789" Name="Bpro_3960" Function="Dehydrogenases with different specificities (related to short-chain alcohol dehydrogenases)" />
+          <Members vimssId="7555846" LocusId="Vapar_0790" Name="mhpD" Function="2-hydroxyhepta-2,4-diene-1,7-dioate isomerase (EC 5.3.3.-) / 5-carboxymethyl-2-oxo-hex-3- ene-1,7-dioate decarboxylase (EC 4.1.1.68)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6318</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="UxuR3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61568" />
+      <Effector />
+      <Pathway>Glucuronate utilization</Pathway>
+      <LocusTag Key="Vapar_2876" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7557955&amp;disp=0" />
+      <BiologicalProcess>Glucuronate utilization</BiologicalProcess>
+      <Regulog Key="UxuR3 - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6322" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_2876" Name="uxuR3" Position="-46" Score="4.8">
+          <Sequence>TAATTGGTATGCCACGCA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_2876" Name="uxuR3" Position="-69" Score="5">
+          <Sequence>CTAGTGGTAAACCACTAT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7557955" LocusId="Vapar_2876" Name="uxuR3" Function="Predicted transcriptional regulator for glucuronate utilization, GntR family" />
+          <Members vimssId="7557956" LocusId="Vapar_2877" Name="Aave_2470" Function="Cyclohexadienyl dehydratase (EC 4.2.1.51)(EC 4.2.1.91) # Periplasmic precursor" />
+          <Members vimssId="7557957" LocusId="Vapar_2878" Name="COG0834" Function="ABC-type amino acid transport/signal transduction systems, periplasmic component/domain" />
+          <Members vimssId="7557958" LocusId="Vapar_2879" Name="COG1063" Function="Zn-dependent dehydrogenase" />
+          <Members vimssId="7557959" LocusId="Vapar_2880" Name="COG0765" Function="ABC-type amino acid transport system, permease component" />
+          <Members vimssId="7557960" LocusId="Vapar_2881" Name="COG0765-2" Function="ABC-type amino acid transport system, permease component" />
+          <Members vimssId="7557961" LocusId="Vapar_2882" Name="COG1126" Function="ABC-type polar amino acid transport system, ATPase component" />
+          <Members vimssId="7557962" LocusId="Vapar_2883" Name="Bpro_3978" Function="Mandelate racemase/muconate lactonizing enzyme, C-terminal domain protein" />
+          <Members vimssId="7557963" LocusId="Vapar_2884" Name="uxuA" Function="D-mannonate oxidoreductase (EC 1.1.1.57)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6322</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="VanR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31455" />
+      <Effector>Vanillate</Effector>
+      <Pathway>Vanillate utilization</Pathway>
+      <LocusTag Key="Vapar_1746" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7556808&amp;disp=0" />
+      <BiologicalProcess>Vanillate utilization</BiologicalProcess>
+      <Regulog Key="VanR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3251" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_1746" Name="vanR" Position="-103" Score="4.1">
+          <Sequence>TGTGTACA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_1746" Name="vanR" Position="-38" Score="4.9">
+          <Sequence>TGTATACA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7556808" LocusId="Vapar_1746" Name="vanR" Function="Transcriptional regulator for vanillate metabolism, GntR family" />
+          <Members vimssId="7556809" LocusId="Vapar_1747" Name="Pnap_2730" Function="ABC transporter substrate-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3251</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="Vapar_1337" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=64020" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Vapar_1337" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7556396&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="Vapar_1337 - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6605" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_1338)" Name="COG436 (PF00155" Position="-99" Score="8.2">
+          <Sequence>AACTGTACTGCA-------------AAGTGTGGCTGT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7556397" LocusId="Vapar_1338" Name="COG436 (PF00155)" Function="Pyridoxal phosphate-dependent aspartate/tyrosine/aromatic aminotransferase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6605</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="Vapar_5644" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59100" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Vapar_5644" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7560750&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="Vapar_5644 - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6059" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_5643" Name="PF01370" Position="-91" Score="13.3">
+          <Sequence>TCATGGCCCATT-(12)-TCTTGGCTCTTT-(2)-AATGGTGCATCG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7560749" LocusId="Vapar_5643" Name="PF01370" Function="NAD-dependent epimerase/dehydratase" />
+          <Members vimssId="7560748" LocusId="Vapar_5642" Name="PF07883" Function="Cupin 2 conserved barrel domain protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6059</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YdcR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59672" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Vapar_4651" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7559745&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="YdcR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6125" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_4652" Name="Mpe_A0753" Position="-68" Score="8.6">
+          <Sequence>ATCTGCTCCGGTGAT---------AACTGCATCTGTTTT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7559746" LocusId="Vapar_4652" Name="Mpe_A0753" Function="putative transmembrane protein" />
+          <Members vimssId="7559747" LocusId="Vapar_4653" Name="COG2863" Function="Probable cytochrome c2" />
+          <Members vimssId="7559748" LocusId="Vapar_4654" Name="COG3258" Function="Putative diheme cytochrome c-553" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6125</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YrdX" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=64071" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Vapar_0563" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7555614&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="YrdX - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6610" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_0562" Name="PF02635" Position="-343" Score="6.8">
+          <Sequence>GTTGATCG----ATTGATTG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_0562" Name="PF02635" Position="-242" Score="7.1">
+          <Sequence>GTTGATCG----ATTGATCG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_0562" Name="PF02635" Position="-111" Score="7.2">
+          <Sequence>ATTGATCG----ATTGATCG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_0562" Name="PF02635" Position="-74" Score="4.9">
+          <Sequence>CTGGCACA----CCTGCAAA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7555613" LocusId="Vapar_0562" Name="PF02635" Function="probable GTP cyclohydrolase II/ATPase/Sulphur relay, DsrE/F-like protein" />
+          <Members vimssId="7555612" LocusId="Vapar_0561" Name="COG388" Function="Nitrilase/cyanide hydratase and apolipoprotein N-acyltransferase (EC 3.5.5.7)" />
+          <Members vimssId="7555611" LocusId="Vapar_0560" Name="COG2516" Function="Biotin synthase-related radical SAM domain protein" />
+          <Members vimssId="7555610" LocusId="Vapar_0559" Name="COG3153" Function="GCN5-related N-acetyltransferase" />
+          <Members vimssId="7555609" LocusId="Vapar_0558" Name="COG2144" Function="AIR synthase related protein/Selenophosphate synthetase-related" />
+          <Members vimssId="7555608" LocusId="Vapar_0557" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7555607" LocusId="Vapar_0556" Name="COG2072 (TrkA)" Function="FAD dependent oxidoreductase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6610</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48673" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_1854" Name="ribH2" Position="-266" Score="91.1">
+          <Sequence>CAAGCGTTCTCAGGGCGGGGCGAAACTCCCCACCGGCGGTAATGGCGGCTTCTTCGAAAGAGGGGCCGCACGAGCCCGCGAGCGCCCAAGGCCTGCAATGGGCTGCGGGGTCAGCAGATTTCGGTGCAATTCCGAAGCCGACGGTCACAGTCCGGATGAAAGAGAGCGCGA</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7556918" LocusId="Vapar_1854" Name="ribH2" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01057" RegulationMode="RF01057">
+      <Regulator Key="SAH_riboswitch" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53902" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="SAH_riboswitch" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_0171" Name="metH" Position="-133" Score="35.5">
+          <Sequence>TTCCAAGGAGCGTTGCAGCGGCGGCCCGCATCAAGAGGCCCGCCGTCAGGCTTGGAAGGCG</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_4683" Name="ahcY" Position="-136" Score="45.1">
+          <Sequence>CGGTTCCGAGGAGCGTTGCAGCGCCGCCAGGCGTGAGGCTCGGACCACATCGCAACCACGCTCACCCGCT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7555222" LocusId="Vapar_0171" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7559777" LocusId="Vapar_4683" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+          <Members vimssId="7559776" LocusId="Vapar_4682" Name="COG1189" Function="S-adenosyl-L-methionine-dependent ribosomal RNA methyltransferase" />
+          <Members vimssId="7559775" LocusId="Vapar_4681" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48684" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Vapar_4728" Name="thiC" Position="-196" Score="60">
+          <Sequence>AGTCCCCGCTCCGGGGTGCACGCATGTGGCGTGCTGAGATGGCAAAGTGCCGACCCGCGAACTTGATCCGGGTCATACCGGCGTAAGAAGAGCTGCACTCCCCGAC</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Vapar_2400" Name="cytX" Position="-185" Score="48.9">
+          <Sequence>GCACCACCGCTAGGGGTGTCGAACCGGGATCCGTTCCGGGGCTGACTGAGAGAGTCCCTTTGAACCTGACTGAGGTAATCCTCGCGCAGGGAAGCTGGTCCGGCGGCCT</Sequence>
+          <Bacteria>Variovorax paradoxus S110</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7557470" LocusId="Vapar_2400" Name="cytX" Function="Predicted hydroxymethylpyrimidine transporter CytX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7559822" LocusId="Vapar_4728" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

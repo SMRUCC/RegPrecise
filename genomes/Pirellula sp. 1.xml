@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Pirellula sp. 1" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58732" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="RB7437" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=558209&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Planctomycetes" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6016" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RB11863" Name="recA" Position="-178" Score="4.4">
+          <Sequence>GCCGAACTCACTTCGGT</Sequence>
+          <Bacteria>Pirellula sp. 1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RB6494" Name="dnaX" Position="-149" Score="5.4">
+          <Sequence>CTCAAACTGAGTTCGGG</Sequence>
+          <Bacteria>Pirellula sp. 1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="557687" LocusId="RB6494" Name="dnaX" Function="DNA polymerase III subunits gamma and tau (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="560633" LocusId="RB11863" Name="recA" Function="Recombinase A" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6016</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41970" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="RB8049" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=558559&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Planctomycetes" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4334" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RB12762" Name="nrdJ" Position="-263" Score="4.5">
+          <Sequence>CGCCCACATGTAGTGC</Sequence>
+          <Bacteria>Pirellula sp. 1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RB12762" Name="nrdJ" Position="-231" Score="4.3">
+          <Sequence>CCACTACCGGTAGTGA</Sequence>
+          <Bacteria>Pirellula sp. 1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="561133" LocusId="RB12762" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4334</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

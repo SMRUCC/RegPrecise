@@ -1,0 +1,1449 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Mycobacterium smegmatis str. MC2 155" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="TetR" RegulationMode="">
+      <Regulator Key="AcnR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63620" />
+      <Effector>Citrate</Effector>
+      <Pathway>Tricarboxylic acid cycle</Pathway>
+      <LocusTag Key="MSMEG_3142" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1747723&amp;disp=0" />
+      <BiologicalProcess>Tricarboxylic acid cycle</BiologicalProcess>
+      <Regulog Key="AcnR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6561" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_0911" Name="aceA" Position="-233" Score="5.3">
+          <Sequence>CAGTACGGGCGTACTG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3143" Name="acnA" Position="-74" Score="5.8">
+          <Sequence>CAGGACAAGCGTACTG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1745492" LocusId="MSMEG_0911" Name="aceA" Function="Isocitrate lyase (EC 4.1.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1747724" LocusId="MSMEG_3143" Name="acnA" Function="Aconitate hydratase (EC 4.2.1.3)" />
+          <Members vimssId="1747723" LocusId="MSMEG_3142" Name="acnR" Function="Aconitase gene transcriptional regulator AcnR, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6561</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="AmtR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62444" />
+      <Effector>GlnK-AMP, signal transduction protein</Effector>
+      <Pathway>Nitrogen metabolism</Pathway>
+      <LocusTag Key="MSMEG_4300" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1748880&amp;disp=0" />
+      <BiologicalProcess>Nitrogen metabolism</BiologicalProcess>
+      <Regulog Key="AmtR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6423" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_2184" Name="uctT" Position="-60" Score="6.6">
+          <Sequence>GTTATCTGTCATCTGACAGGTAAG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1746765" LocusId="MSMEG_2184" Name="uctT" Function="Urea carboxylase-related transporter, Amino acid permease family" />
+          <Members vimssId="1746766" LocusId="MSMEG_2185" Name="amt1" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="1746767" LocusId="MSMEG_2186" Name="amt2" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="1746768" LocusId="MSMEG_2187" Name="ucaA" Function="Urea carboxylase (EC 6.3.4.6)" />
+          <Members vimssId="1746769" LocusId="MSMEG_2189" Name="ucaB" Function="Allophanate hydrolase (EC 3.5.1.54)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6423</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor (activator)">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58991" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="MSMEG_3771" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1748351&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6046" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_3776" Name="argC" Position="-27" Score="5.7">
+          <Sequence>TATGCATAAAAATGCAAA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1748356" LocusId="MSMEG_3776" Name="argC" Function="N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)" />
+          <Members vimssId="1748355" LocusId="MSMEG_3775" Name="argJ" Function="Glutamate N-acetyltransferase (EC 2.3.1.35) / N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="1748354" LocusId="MSMEG_3774" Name="argB" Function="Acetylglutamate kinase (EC 2.7.2.8)" />
+          <Members vimssId="1748353" LocusId="MSMEG_3773" Name="argD" Function="Acetylornithine aminotransferase (EC 2.6.1.11)" />
+          <Members vimssId="1748352" LocusId="MSMEG_3772" Name="argF" Function="Ornithine carbamoyltransferase (EC 2.1.3.3)" />
+          <Members vimssId="1748351" LocusId="MSMEG_3771" Name="argR" Function="Arginine metabolism transcriptional regulator ArgR, ArgR family" />
+          <Members vimssId="1748350" LocusId="MSMEG_3770" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+          <Members vimssId="1748349" LocusId="MSMEG_3769" Name="argH" Function="Argininosuccinate lyase (EC 4.3.2.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6046</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="ArsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62572" />
+      <Effector>Arsenite; Arsenate</Effector>
+      <Pathway>Arsenic resistance</Pathway>
+      <LocusTag Key="MSMEG_1173" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1745754&amp;disp=0" />
+      <BiologicalProcess>Arsenic resistance</BiologicalProcess>
+      <Regulog Key="ArsR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6437" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_1173" Name="arsR" Position="-25" Score="6.1">
+          <Sequence>TATCGATATATGTCAATA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_1175" Name="arsR" Position="-81" Score="4.9">
+          <Sequence>TTTCGACATATGTCGAAC</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_1175" Name="arsR" Position="-37" Score="5.6">
+          <Sequence>TTTCGATATATGTCAATA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1745754" LocusId="MSMEG_1173" Name="arsR" Function="Arsenic resistance transcriptional regulator ArsR, ArsR family" />
+          <Members vimssId="1745753" LocusId="MSMEG_1172" Name="arsB" Function="Arsenite efflux membrane protein" />
+          <Members vimssId="1745752" LocusId="MSMEG_1171" Name="arsC" Function="Arsenate reductase (EC 1.20.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1745756" LocusId="MSMEG_1175" Name="arsR" Function="Arsenic resistance transcriptional regulator ArsR, ArsR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6437</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="BioQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=8032" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="MSMEG_3193" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1747774&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BioQ - Actinomycetales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=816" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_3194" Name="bioB" Position="-52" Score="5.9">
+          <Sequence>CCTGAACACCGTTCAAG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3194" Name="bioB" Position="-32" Score="5.4">
+          <Sequence>CCTGAACACCGTTCAGC</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3189" Name="bioF" Position="-133" Score="5.9">
+          <Sequence>CCTGAACGGTGTTCAAT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3193" Name="bioQ" Position="-50" Score="5.4">
+          <Sequence>GCTGAACGGTGTTCAGG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3193" Name="bioQ" Position="-30" Score="5.9">
+          <Sequence>CTTGAACGGTGTTCAGG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1747775" LocusId="MSMEG_3194" Name="bioB" Function="biotin synthase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1747774" LocusId="MSMEG_3193" Name="bioQ" Function="biotin repressor, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1747770" LocusId="MSMEG_3189" Name="bioF" Function="8-amino-7-oxononanoate synthase" />
+          <Members vimssId="1747771" LocusId="MSMEG_3190" Name="bioD" Function="dethiobiotin synthetase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=816</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="BioQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62730" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="MSMEG_3193" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1747774&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BioQ - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6454" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_3194" Name="bioB" Position="-52" Score="5.9">
+          <Sequence>CCTGAACACCGTTCAAG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3194" Name="bioB" Position="-32" Score="5.4">
+          <Sequence>CCTGAACACCGTTCAGC</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3193" Name="bioQ" Position="-30" Score="6.1">
+          <Sequence>CTTGAACGGTGTTCAGG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3189" Name="bioF" Position="-133" Score="5.9">
+          <Sequence>CCTGAACGGTGTTCAAT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1747770" LocusId="MSMEG_3189" Name="bioF" Function="8-amino-7-oxononanoate synthase (EC 2.3.1.47)" />
+          <Members vimssId="1747771" LocusId="MSMEG_3190" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1747775" LocusId="MSMEG_3194" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="1747776" LocusId="MSMEG_3195" Name="MAB_2683c" Function="hypothetical protein" />
+          <Members vimssId="1747777" LocusId="MSMEG_3196" Name="MAB_2682c" Function="hypothetical protein Rv1591" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1747774" LocusId="MSMEG_3193" Name="bioQ" Function="Biotin repressor, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6454</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LuxR" RegulationMode="activator">
+      <Regulator Key="DosR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10951" />
+      <Effector>Oxygen; Carbon monoxide; Nitric oxide</Effector>
+      <Pathway>Dormancy</Pathway>
+      <LocusTag Key="MSMEG_5244" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1749824&amp;disp=0" />
+      <BiologicalProcess>Dormancy</BiologicalProcess>
+      <Regulog Key="DosR - Actinomycetales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1189" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_3947" Name="pfkB" Position="-51" Score="3.6">
+          <Sequence>GTGCGACTTCGGTCCCTA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3943" Name="acg" Position="-104" Score="4.8">
+          <Sequence>TGAGGACCATAGTCCCTG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3943" Name="acg" Position="-125" Score="4.5">
+          <Sequence>CAGGGTCCTACGGCCCCC</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3954" Name="otsB1" Position="-81" Score="4.4">
+          <Sequence>CAGGGCCGTTGGTCACCG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3948" Name="DGAT" Position="-60" Score="3.6">
+          <Sequence>ATGGGACTTCTGCCCCTG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3939" Name="usp" Position="-79" Score="4.3">
+          <Sequence>CCGGGACTTAGGTCACCA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3953" Name="" Position="-51" Score="4.4">
+          <Sequence>CGGTGACCAACGGCCCTG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3616" Name="" Position="-51" Score="3.7">
+          <Sequence>CCAGGGCGTAAGGCCCGA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3935" Name="" Position="-81" Score="4.3">
+          <Sequence>AGGTGACTTTCGGCCCTG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3940" Name="MSMEG_3940" Position="-79" Score="4.9">
+          <Sequence>TCGGGACTTTCGTCCCTA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3947" Name="pfkB" Position="-145" Score="4.4">
+          <Sequence>TAGGGACGAAAGTCTCAA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3932" Name="hspX" Position="-84" Score="4.6">
+          <Sequence>ACGGGACTTCGGTCCCTA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3932" Name="hspX" Position="-105" Score="3.9">
+          <Sequence>CAGGGACGAAAGTTCGTG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3942" Name="Rv2004c" Position="-73" Score="4.8">
+          <Sequence>CAGGGACTATGGTCCTCA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3939" Name="usp" Position="-150" Score="4.1">
+          <Sequence>AAGGGACCGAAGTCCACG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3942" Name="Rv2004c" Position="-52" Score="4.5">
+          <Sequence>GGGGGCCGTAGGACCCTG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3950" Name="usp" Position="-80" Score="4.7">
+          <Sequence>AAAGGACCAAAGGCCCTT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3932" Name="hspX" Position="-324" Score="4">
+          <Sequence>GAAGGCCTTAGGTCACCT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3946" Name="" Position="-117" Score="3.6">
+          <Sequence>CAGGGGCAGAAGTCCCAT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_5246" Name="acg" Position="-51" Score="4.6">
+          <Sequence>TGAGGACCAAAGACCCTA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_5733" Name="usp" Position="-51" Score="4.4">
+          <Sequence>TAGGGACTTTCGGCCATT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3949" Name="MAV_3502" Position="-88" Score="4.4">
+          <Sequence>TTGAGACTTTCGTCCCTA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1749826" LocusId="MSMEG_5246" Name="acg" Function="nitroreductase" />
+          <Members vimssId="1749825" LocusId="MSMEG_5245" Name="usp" Function="universal stress protein" />
+          <Members vimssId="1749824" LocusId="MSMEG_5244" Name="dosR" Function="two component transcriptional regulator, DosR" />
+          <Members vimssId="1749823" LocusId="MSMEG_5243" Name="MAV_4110" Function="hypothetical protein" />
+          <Members vimssId="1749822" LocusId="MSMEG_5242" Name="MSMEG_5242" Function="acyltransferase, ws/dgat/mgat subfamily protein" />
+          <Members vimssId="1749821" LocusId="MSMEG_5241" Name="dosT" Function="two-component system sensor kinase, DosT" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1748515" LocusId="MSMEG_3935" Name="null" Function="hypothetical protein" />
+          <Members vimssId="1748514" LocusId="MSMEG_3933" Name="DGAT" Function="wax-dgat acyltransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1748534" LocusId="MSMEG_3954" Name="otsB1" Function="trehalose-6-phosphate phosphatase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1748527" LocusId="MSMEG_3948" Name="DGAT" Function="wax-dgat acyltransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1748523" LocusId="MSMEG_3943" Name="acg" Function="nitroreductase" />
+          <Members vimssId="1748524" LocusId="MSMEG_3944" Name="dosR" Function="two component transcriptional regulator, DosR" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1748197" LocusId="MSMEG_3616" Name="null" Function="integral membrane protein" />
+          <Members vimssId="1748196" LocusId="MSMEG_3615" Name="adhA" Function="alcohol dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1748533" LocusId="MSMEG_3953" Name="null" Function="3-oxoacyl-(acyl-carrier protein) synthase" />
+          <Members vimssId="1748532" LocusId="MSMEG_3951" Name="null" Function="3-oxoacyl-[acyl-carrier-protein] synthase III" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1748519" LocusId="MSMEG_3939" Name="usp" Function="universal stress protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1748528" LocusId="MSMEG_3947" Name="pfkB" Function="probable phosphofructokinase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1748512" LocusId="MSMEG_3932" Name="hspX" Function="heat shock protein HspX_1" />
+          <Members vimssId="1748511" LocusId="MSMEG_3931" Name="MSMEG_3931" Function="4Fe-4S ferredoxin, iron-sulfur binding protein" />
+          <Members vimssId="1748510" LocusId="MSMEG_3930" Name="null" Function="flavodoxin oxidoreductase" />
+          <Members vimssId="1748509" LocusId="MSMEG_3929" Name="null" Function="NADH ubiquinone oxidoreductase, 20 kDa subunit" />
+          <Members vimssId="1748508" LocusId="MSMEG_3928" Name="null" Function="oxidoreductase" />
+          <Members vimssId="1748507" LocusId="MSMEG_3927" Name="null" Function="hypothetical protein" />
+          <Members vimssId="1748506" LocusId="MSMEG_3926" Name="MSMEG_3926" Function="cation transportind ATPase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1748522" LocusId="MSMEG_3942" Name="Rv2004c" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1748530" LocusId="MSMEG_3950" Name="usp" Function="universal stress protein" />
+          <Members vimssId="1748531" LocusId="MSMEG_3952" Name="null" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1748529" LocusId="MSMEG_3949" Name="MAV_3502" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1750313" LocusId="MSMEG_5733" Name="usp" Function="universal stress protein protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1748520" LocusId="MSMEG_3940" Name="MSMEG_3940" Function="universal stress protein family protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1748526" LocusId="MSMEG_3946" Name="null" Function="probable conserved transmembrane protein" />
+          <Members vimssId="1748525" LocusId="MSMEG_3945" Name="Rv1996" Function="universal stress protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1189</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58677" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="MSMEG_4505" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1749085&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6006" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_5611" Name="hsp18" Position="-97" Score="6.9">
+          <Sequence>CTAGCACTCTCACATCTCGAGTGCTAA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_5479" Name="COG2331" Position="-55" Score="6.7">
+          <Sequence>CTAGCACTTGAGGCGGTAGAGTGCTAA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_0880" Name="groL2" Position="-141" Score="6.7">
+          <Sequence>TTGGCACTCTCGATTCGTGAGTGCTAG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_0880" Name="groL2" Position="-176" Score="6.5">
+          <Sequence>CTTGCACTCACCATGCCCGAGTGCTAA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_1582" Name="groS" Position="-159" Score="6.9">
+          <Sequence>CTAGCACTCTCATGTATAGAGTGCTAG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1750191" LocusId="MSMEG_5611" Name="hsp18" Function="Small heat shock protein 18" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1746163" LocusId="MSMEG_1582" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="1746164" LocusId="MSMEG_1583" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1750059" LocusId="MSMEG_5479" Name="COG2331" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1745461" LocusId="MSMEG_0880" Name="groL2" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6006</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="HspR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=64841" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="MSMEG_0713" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1745293&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HspR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6696" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_3582" Name="lon" Position="-32" Score="5.2">
+          <Sequence>TTGAGTGCATCAGACTGAA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_0424" Name="hsp" Position="-81" Score="5.3">
+          <Sequence>ATGAGCGTGGTCGACTCAA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_0732" Name="clpB" Position="-76" Score="5.6">
+          <Sequence>TTGAGCGGAACAGACTCAA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_0709" Name="dnaK" Position="-47" Score="5.4">
+          <Sequence>TTGAGCGCAGTCCGCTCAG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_0709" Name="dnaK" Position="-102" Score="5.3">
+          <Sequence>TTGAGTGACATCGACTCAA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1745005" LocusId="MSMEG_0424" Name="hsp" Function="Heat shock protein Hsp20" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1745290" LocusId="MSMEG_0709" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="1745291" LocusId="MSMEG_0710" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="1745292" LocusId="MSMEG_0711" Name="dnaJ" Function="Chaperone protein DnaJ" />
+          <Members vimssId="1745293" LocusId="MSMEG_0713" Name="hspR" Function="Heat shock response transcriptional regulator HspR, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1745313" LocusId="MSMEG_0732" Name="clpB" Function="ATP-dependent chaperone ClpB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1748163" LocusId="MSMEG_3582" Name="lon" Function="ATP-dependent Lon protease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6696</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="IolR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56808" />
+      <Effector />
+      <Pathway>Inositol utilization</Pathway>
+      <LocusTag Key="MSMEG_4659" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1749239&amp;disp=0" />
+      <BiologicalProcess>Inositol utilization</BiologicalProcess>
+      <Regulog Key="IolR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5805" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_4658" Name="iolTA" Position="-122" Score="4.8">
+          <Sequence>CTAATGTCATAACAAAGT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_4659" Name="iolR" Position="-109" Score="3.7">
+          <Sequence>CGTCTGTCAAGACTTTGT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_4659" Name="iolR" Position="-98" Score="5.1">
+          <Sequence>ACTTTGTTCTGACATTCT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_4661" Name="iolC" Position="-105" Score="3.7">
+          <Sequence>ACAAAGTCTTGACAGACG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_4661" Name="iolC" Position="-116" Score="5.1">
+          <Sequence>AGAATGTCAGAACAAAGT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1749239" LocusId="MSMEG_4659" Name="iolR" Function="Inositol utilization transcriptional regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1749238" LocusId="MSMEG_4658" Name="iolTA" Function="Inositol ABC transport system sugar-binding protein" />
+          <Members vimssId="1749237" LocusId="MSMEG_4657" Name="iolTB" Function="Inositol ABC transport system permease protein" />
+          <Members vimssId="1749236" LocusId="MSMEG_4656" Name="iolTC" Function="Inositol ABC transport system ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1749240" LocusId="MSMEG_4661" Name="iolC" Function="5-keto-2-deoxygluconokinase (EC 2.7.1.92)" />
+          <Members vimssId="1749242" LocusId="MSMEG_4662" Name="iolJ" Function="5-keto-2-deoxy-D-gluconate-6 phosphate aldolase (EC 4.1.2.29)" />
+          <Members vimssId="1749243" LocusId="MSMEG_4663" Name="iolB" Function="5-deoxy-glucuronate isomerase (EC 5.3.1.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5805</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58758" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="MSMEG_2740" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1747321&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6020" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_2943" Name="ruvC" Position="-30" Score="5.1">
+          <Sequence>TCGAACAGATGTTCTG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_2990" Name="splB" Position="-8" Score="5.7">
+          <Sequence>TCGAACGCATGTTCGA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3957" Name="PF02720" Position="-8" Score="5.5">
+          <Sequence>TCGAACGTATGTGCGA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_1633" Name="dnaE2" Position="-28" Score="5.9">
+          <Sequence>TCGAACACGTGTTCGA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_1620" Name="Rv3395c" Position="-52" Score="5.1">
+          <Sequence>TCGAACATACATTCGA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_5451" Name="alkB" Position="-29" Score="5.4">
+          <Sequence>TCGAACGTGTGTGCGA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_2723" Name="recA" Position="-121" Score="5.2">
+          <Sequence>TCGAACAGGTGTTCGT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_2740" Name="lexA" Position="-217" Score="5.2">
+          <Sequence>TCGCTCACATGTTCGA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_2740" Name="lexA" Position="-48" Score="5.6">
+          <Sequence>TCGAACACATGTTTGA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1750031" LocusId="MSMEG_5451" Name="alkB" Function="DNA repair system specific for alkylated DNA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1747571" LocusId="MSMEG_2990" Name="splB" Function="DNA repair photolyase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1746201" LocusId="MSMEG_1620" Name="Rv3395c" Function="Recombinase-like hypothetical protein" />
+          <Members vimssId="1746202" LocusId="MSMEG_1622" Name="COG0389" Function="DNA polymerase-like protein PA0670" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1746213" LocusId="MSMEG_1633" Name="dnaE2" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1747304" LocusId="MSMEG_2723" Name="recA" Function="Recombinase A" />
+          <Members vimssId="1747305" LocusId="MSMEG_2724" Name="recX" Function="Regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1747321" LocusId="MSMEG_2740" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1747524" LocusId="MSMEG_2943" Name="ruvC" Function="Crossover junction endodeoxyribonuclease RuvC (EC 3.1.22.4)" />
+          <Members vimssId="1747525" LocusId="MSMEG_2944" Name="ruvA" Function="Holliday junction DNA helicase RuvA" />
+          <Members vimssId="1747526" LocusId="MSMEG_2945" Name="ruvB" Function="Holliday junction DNA helicase RuvB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1748537" LocusId="MSMEG_3957" Name="PF02720" Function="HNH endonuclease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6020</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="LldR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56799" />
+      <Effector>L-lactate</Effector>
+      <Pathway>Lactate utilization</Pathway>
+      <LocusTag Key="MSMEG_0596" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1745177&amp;disp=0" />
+      <BiologicalProcess>Lactate utilization</BiologicalProcess>
+      <Regulog Key="LldR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5804" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_0596" Name="lldR" Position="-42" Score="6.2">
+          <Sequence>TGTGGTCAGACCACA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_0596" Name="lldR" Position="-76" Score="6.2">
+          <Sequence>TGTGGTCTGACCACA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_0595" Name="lldE" Position="-62" Score="6.2">
+          <Sequence>TGTGGTCTGACCACA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_0595" Name="lldE" Position="-28" Score="6.2">
+          <Sequence>TGTGGTCAGACCACA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1745177" LocusId="MSMEG_0596" Name="lldR" Function="Lactate-responsive regulator LldR in Actinobacteria, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1745176" LocusId="MSMEG_0595" Name="lldE" Function="L-lactate dehydrogenase, Fe-S oxidoreductase subunit LldE" />
+          <Members vimssId="1745175" LocusId="MSMEG_0594" Name="lldF" Function="L-lactate dehydrogenase, Iron-sulfur cluster-binding subunit LldF" />
+          <Members vimssId="1745174" LocusId="MSMEG_0593" Name="lldG" Function="L-lactate dehydrogenase, subunit LldG" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5804</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="IclR" RegulationMode="repressor">
+      <Regulator Key="LtbR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63004" />
+      <Effector />
+      <Pathway>Leucine biosynthesis</Pathway>
+      <LocusTag Key="MSMEG_2386" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1746967&amp;disp=0" />
+      <BiologicalProcess>Leucine biosynthesis</BiologicalProcess>
+      <Regulog Key="LtbR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6494" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_2387" Name="leuC" Position="-119" Score="4.1">
+          <Sequence>TTTCTCACAGAGAGATACT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_2387" Name="leuC" Position="-98" Score="5.4">
+          <Sequence>CGTCTCGTATTTTGAGATA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_2386" Name="ltbR" Position="-32" Score="5.4">
+          <Sequence>TATCTCAAAATACGAGACG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_2386" Name="ltbR" Position="-11" Score="4.1">
+          <Sequence>AGTATCTCTCTGTGAGAAA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1746967" LocusId="MSMEG_2386" Name="ltbR" Function="Leucine and tryptophan biosynthesis transcriptional regulator LtbR, IclR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1746968" LocusId="MSMEG_2387" Name="leuC" Function="3-isopropylmalate dehydratase large subunit (EC 4.2.1.33)" />
+          <Members vimssId="1746969" LocusId="MSMEG_2388" Name="leuD" Function="3-isopropylmalate dehydratase small subunit (EC 4.2.1.33)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6494</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DeoR" RegulationMode="">
+      <Regulator Key="MSMEG_3264" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=65767" />
+      <Effector />
+      <Pathway>Erythritol utilization; D-threitol utilization</Pathway>
+      <LocusTag Key="MSMEG_3264" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1747845&amp;disp=0" />
+      <BiologicalProcess>Erythritol utilization; D-threitol utilization</BiologicalProcess>
+      <Regulog Key="MSMEG_3264 - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6793" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_3264" Name="MSMEG_3264" Position="-71" Score="5.4">
+          <Sequence>TGCACAATTGTCCAGAACATCTGTTCA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3265" Name="MSMEG_3265" Position="-74" Score="7.6">
+          <Sequence>TGAACAGATGTTCTGGACAATTGTGCA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1747846" LocusId="MSMEG_3265" Name="MSMEG_3265" Function="homolog of sorbitol dehydrogenase" />
+          <Members vimssId="1747847" LocusId="MSMEG_3266" Name="MSMEG_3266" Function="Predicted erythritol ABC transporter 1, substrate-binding component" />
+          <Members vimssId="1747848" LocusId="MSMEG_3267" Name="MSMEG_3267" Function="Predicted erythritol ABC transporter, permease protein" />
+          <Members vimssId="1747849" LocusId="MSMEG_3268" Name="MSMEG_3268" Function="Predicted erythritol ABC transporter, permease protein" />
+          <Members vimssId="1747850" LocusId="MSMEG_3269" Name="MSMEG_3269" Function="Predicted erythritol ABC transporter 1, ATP-binding protein" />
+          <Members vimssId="1747851" LocusId="MSMEG_3270" Name="MSMEG_3270" Function="Predicted erythritol ABC transporter 1, ATP-binding protein" />
+          <Members vimssId="1747852" LocusId="MSMEG_3271" Name="MSMEG_3271" Function="D-erythrulose kinase" />
+          <Members vimssId="1747853" LocusId="MSMEG_3272" Name="MSMEG_3272" Function="D-erythrulose 4-phosphate isomerase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1747845" LocusId="MSMEG_3264" Name="MSMEG_3264" Function="Transcriptional regulator for D-threitol and erythritol utilization, DeoR family" />
+          <Members vimssId="1747844" LocusId="MSMEG_3262" Name="MSMEG_3262" Function="oxidoreductase, short-chain dehydrogenase-reductase family (kduD)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6793</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DeoR" RegulationMode="">
+      <Regulator Key="MSMEG_3606" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=65776" />
+      <Effector />
+      <Pathway>D-threitol utilization</Pathway>
+      <LocusTag Key="MSMEG_3606" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1748187&amp;disp=0" />
+      <BiologicalProcess>D-threitol utilization</BiologicalProcess>
+      <Regulog Key="MSMEG_3606 - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6794" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_3605" Name="MSMEG_3605" Position="-159" Score="6.2">
+          <Sequence>TCTGCACATATGTGCAGA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3605" Name="MSMEG_3605" Position="-139" Score="4.2">
+          <Sequence>CGTTGACACATGAGCATA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3606" Name="MSMEG_3606" Position="-57" Score="6.2">
+          <Sequence>TCTGCACATATGTGCAGA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3606" Name="MSMEG_3606" Position="-77" Score="4.2">
+          <Sequence>TATGCTCATGTGTCAACG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1748187" LocusId="MSMEG_3606" Name="MSMEG_3606" Function="Transcriptional regulator for D-threitol utilization, DeoR family" />
+          <Members vimssId="1748188" LocusId="MSMEG_3607" Name="MSMEG_3912" Function="D-threitol dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1748186" LocusId="MSMEG_3605" Name="MSMEG_3605" Function="weak D-sorbitol / D-xylitol dehydrogenase" />
+          <Members vimssId="1748185" LocusId="MSMEG_3604" Name="MSMEG_3604" Function="weak D-sorbitol dehydrogenase" />
+          <Members vimssId="1748184" LocusId="MSMEG_3603" Name="MSMEG_3603" Function="oxidoreductase, zinc-binding dehydrogenase family protein" />
+          <Members vimssId="1748183" LocusId="MSMEG_3602" Name="MSMEG_3602" Function="D-threitol ABC transporter, ATP-binding protein" />
+          <Members vimssId="1748182" LocusId="MSMEG_3601" Name="MSMEG_3601" Function="D-threitol ABC transporter, permease protein" />
+          <Members vimssId="1748181" LocusId="MSMEG_3599" Name="MSMEG_3599" Function="D-threitol ABC transporter, substrate-binding component (D-threitol, xylitol)" />
+          <Members vimssId="1748179" LocusId="MSMEG_3598" Name="MSMEG_3598" Function="Sugar polyol ABC transporter, substrate-binding component (Xylitol, sorbitol)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6794</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="MSMEG_4140" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60087" />
+      <Effector />
+      <Pathway>Metabolite transport</Pathway>
+      <LocusTag Key="MSMEG_4140" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1748720&amp;disp=0" />
+      <BiologicalProcess>Metabolite transport</BiologicalProcess>
+      <Regulog Key="MSMEG_4140 - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6170" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_4137" Name="" Position="-119" Score="8.1">
+          <Sequence>GAAGTGGCCCAA------------AGAATGGACCAG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_1571" Name="PF00892" Position="-30" Score="6.7">
+          <Sequence>CATTTGGTCCAT------------AACTTGGTGCTG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_5761" Name="PF07883" Position="-71" Score="7.3">
+          <Sequence>CAACTGGACCCC------------GAAGTGGACCCA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_6370" Name="pcaC" Position="-68" Score="8.6">
+          <Sequence>GAATTGGCCCGT------------ACATTGAACCAT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1748717" LocusId="MSMEG_4137" Name="null" Function="hypothetical protein" />
+          <Members vimssId="1748716" LocusId="MSMEG_4136" Name="null" Function="epimerase-dehydratase, putative" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1746152" LocusId="MSMEG_1571" Name="PF00892" Function="Permeases of the drug/metabolite transporter (DMT) superfamily" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1750950" LocusId="MSMEG_6370" Name="pcaC" Function="4-carboxymuconolactone decarboxylase domain/alkylhydroperoxidase AhpD family core domain protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1750341" LocusId="MSMEG_5761" Name="PF07883" Function="Cupin 2, conserved barrel domain protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6170</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="Mce2R" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56965" />
+      <Effector />
+      <Pathway>Fatty acid metabolism</Pathway>
+      <LocusTag Key="MSMEG_3527" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1748108&amp;disp=0" />
+      <BiologicalProcess>Fatty acid metabolism</BiologicalProcess>
+      <Regulog Key="Mce2R - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5824" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_3527" Name="mce2R" Position="-52" Score="5.9">
+          <Sequence>ACCACTGGTAAGACCACTTGA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1748108" LocusId="MSMEG_3527" Name="mce2R" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="1748109" LocusId="MSMEG_3529" Name="fah" Function="Fatty acid hydroxylase FAH1P" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5824</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="MntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62737" />
+      <Effector>Manganese ion, (Mn2+)</Effector>
+      <Pathway>Manganese homeostasis</Pathway>
+      <LocusTag Key="MSMEG_2652" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1747233&amp;disp=0" />
+      <BiologicalProcess>Manganese homeostasis</BiologicalProcess>
+      <Regulog Key="MntR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6455" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_5589" Name="mntH" Position="-53" Score="6.8">
+          <Sequence>GATTTCGGCTAACCTAACTT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_5329" Name="COG2119" Position="-311" Score="4.9">
+          <Sequence>AGTATCGGTTACCCGAACAT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1750169" LocusId="MSMEG_5589" Name="mntH" Function="Manganese transport protein MntH" />
+          <Members vimssId="1750170" LocusId="MSMEG_5591" Name="PF05908" Function="Protein of unknown function DUF867" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1749909" LocusId="MSMEG_5329" Name="COG2119" Function="Predicted manganese transporter, COG2119 family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6455</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41983" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="MSMEG_2743" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1747324&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4336" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_1033" Name="nrdF" Position="-78" Score="5">
+          <Sequence>CCACCAGTTGTAGTGT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_2313" Name="nrdF" Position="-110" Score="4.4">
+          <Sequence>CCACAACATCTCGGGG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_1033" Name="nrdF" Position="-110" Score="4.4">
+          <Sequence>CCACAACATCTCGGGG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_2313" Name="nrdF" Position="-78" Score="5">
+          <Sequence>CCACCAGTTGTAGTGT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_1017" Name="nrdH" Position="-261" Score="4.9">
+          <Sequence>TCAGAACATCTTGTAT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_1017" Name="nrdH" Position="-229" Score="5.3">
+          <Sequence>CCACTAGGTGTAGTGT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_2297" Name="nrdH" Position="-261" Score="4.9">
+          <Sequence>TCAGAACATCTTGTAT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_2297" Name="nrdH" Position="-229" Score="5.3">
+          <Sequence>CCACTAGGTGTAGTGT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1745598" LocusId="MSMEG_1017" Name="nrdH" Function="Glutaredoxin-like protein NrdH, required for reduction of Ribonucleotide reductase class Ib" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1746878" LocusId="MSMEG_2297" Name="nrdH" Function="Glutaredoxin-like protein NrdH, required for reduction of Ribonucleotide reductase class Ib" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1745614" LocusId="MSMEG_1033" Name="nrdF" Function="Ribonucleotide reductase of class Ib (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1746894" LocusId="MSMEG_2313" Name="nrdF" Function="Ribonucleotide reductase of class Ib (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4336</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrtR" RegulationMode="repressor">
+      <Regulator Key="NrtR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42050" />
+      <Effector>Adenosine diphosphate ribose</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="MSMEG_3198" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1747779&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NrtR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4341" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_3198" Name="nrtR" Position="-50" Score="7.6">
+          <Sequence>GTTTTCGACTTATAATCGAAAAC</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3199" Name="nadA" Position="-46" Score="7.6">
+          <Sequence>GTTTTCGATTATAAGTCGAAAAC</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1747780" LocusId="MSMEG_3199" Name="nadA" Function="Quinolinate synthetase (EC 4.1.99.-)" />
+          <Members vimssId="1747781" LocusId="MSMEG_3200" Name="nadB" Function="L-aspartate oxidase (EC 1.4.3.16)" />
+          <Members vimssId="1747782" LocusId="MSMEG_3201" Name="nadC" Function="Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1747779" LocusId="MSMEG_3198" Name="nrtR" Function="Nudix-related transcriptional regulator NrtR" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4341</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59348" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine/pyridoxal homeostasis; Metabolite transport</Pathway>
+      <LocusTag Key="MSMEG_0426" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1745007&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis; Metabolite transport</BiologicalProcess>
+      <Regulog Key="PdxQ - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6090" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_0425" Name="PF00892" Position="-16" Score="8.7">
+          <Sequence>GGTGCTATCGT---------------AGAGTAGCGCT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_0426" Name="pdxQ" Position="-55" Score="8.7">
+          <Sequence>AGCGCTACTCT---------------ACGATAGCACC</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1745007" LocusId="MSMEG_0426" Name="pdxQ" Function="Transcriptional regulator, GntR/MocR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1745006" LocusId="MSMEG_0425" Name="PF00892" Function="Permease of the drug/metabolite transporter (DMT) superfamily" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6090</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=64276" />
+      <Effector />
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="MSMEG_1043" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1745624&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxR3 - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6630" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_2325" Name="COG2364" Position="-203" Score="15.7">
+          <Sequence>GAGGCCAGTAT-(4)-CGACTGGCTAT-(7)-CAAGCCAGATC</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_1045" Name="COG2364" Position="-203" Score="15.7">
+          <Sequence>GAGGCCAGTAT-(4)-CGACTGGCTAT-(7)-CAAGCCAGATC</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1746906" LocusId="MSMEG_2325" Name="COG2364" Function="putative integral membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1745626" LocusId="MSMEG_1045" Name="COG2364" Function="putative integral membrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6630</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="PhnF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56830" />
+      <Effector />
+      <Pathway>Phosphonate utilization; 2-aminoethylphosphonate utilization</Pathway>
+      <LocusTag Key="MSMEG_0286" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1744867&amp;disp=0" />
+      <BiologicalProcess>Phosphonate utilization; 2-aminoethylphosphonate utilization</BiologicalProcess>
+      <Regulog Key="PhnF - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5808" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_6668" Name="phnS" Position="-135" Score="6">
+          <Sequence>ATTGGTCTATACCAAA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_0288" Name="COG0665" Position="-97" Score="6.4">
+          <Sequence>ATTGGTCTATACCAAT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_0649" Name="phnD" Position="-98" Score="5.4">
+          <Sequence>GTTGGTATAGACCACC</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_0649" Name="phnD" Position="-156" Score="5.4">
+          <Sequence>GCTGGTATAGACCAAG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_0650" Name="phnF2" Position="-42" Score="5.4">
+          <Sequence>CTTGGTCTATACCAGC</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_0650" Name="phnF2" Position="-100" Score="5.4">
+          <Sequence>GGTGGTCTATACCAAC</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_0287" Name="COG4341" Position="-34" Score="6.4">
+          <Sequence>ATTGGTATAGACCAAT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1744868" LocusId="MSMEG_0287" Name="COG4341" Function="HD phosphohydrolase-like protein" />
+          <Members vimssId="1744867" LocusId="MSMEG_0286" Name="phnF" Function="Transcriptional regulator for phosphonate utilization, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1745231" LocusId="MSMEG_0650" Name="phnF2" Function="Transcriptional regulator for phosphonate utilization, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1745230" LocusId="MSMEG_0649" Name="phnD" Function="Phosphonate ABC transporter phosphate-binding periplasmic component (TC 3.A.1.9.1)" />
+          <Members vimssId="1745229" LocusId="MSMEG_0647" Name="phnC" Function="Phosphonate ABC transporter ATP-binding protein" />
+          <Members vimssId="1745227" LocusId="MSMEG_0646" Name="phnE" Function="Phosphonate ABC transporter permease protein phnE (TC 3.A.1.9.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1744869" LocusId="MSMEG_0288" Name="COG0665" Function="Putative FAD dependent oxidoreductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1751248" LocusId="MSMEG_6668" Name="phnS" Function="Probable 2-aminoethylphosphonate ABC transporter, periplasmic protein" />
+          <Members vimssId="1751249" LocusId="MSMEG_6669" Name="phnU" Function="Probable 2-aminoethylphosphonate ABC transporter, permease protein 1" />
+          <Members vimssId="1751250" LocusId="MSMEG_6670" Name="phnV" Function="Probable 2-aminoethylphosphonate ABC transporter, permease protein 2" />
+          <Members vimssId="1751251" LocusId="MSMEG_6671" Name="phnT" Function="Probable 2-aminoethylphosphonate ABC transporter, ATP-binding protein" />
+          <Members vimssId="1751252" LocusId="MSMEG_6672" Name="COG1524" Function="Alkaline phosphodiesterase I (EC 3.1.4.1) / Nucleotide pyrophosphatase (EC 3.6.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5808</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="RhaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52176" />
+      <Effector>Rhamnose</Effector>
+      <Pathway>Rhamnose utilization</Pathway>
+      <LocusTag Key="MSMEG_0592" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1745173&amp;disp=0" />
+      <BiologicalProcess>Rhamnose utilization</BiologicalProcess>
+      <Regulog Key="RhaR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5310" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_0587" Name="rhaM" Position="-53" Score="7.2">
+          <Sequence>GAATTGAAACGTTTCAATAC</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1745168" LocusId="MSMEG_0587" Name="rhaM" Function="L-rhamnose mutarotase" />
+          <Members vimssId="1745169" LocusId="MSMEG_0588" Name="null" Function="Predicted L-rhamnose permease RhaY" />
+          <Members vimssId="1745170" LocusId="MSMEG_0589" Name="rhaI" Function="Predicted L-rhamnose isomerase RhaI (EC 5.3.1.14)" />
+          <Members vimssId="1745171" LocusId="MSMEG_0590" Name="rhaEW" Function="Predicted rhamnulose-1-phosphate aldolase (EC 4.1.2.19) / Predicted lactaldehyde dehydrogenase (EC 1.2.1.22)" />
+          <Members vimssId="1745172" LocusId="MSMEG_0591" Name="rhaB" Function="Rhamnulokinase (EC 2.7.1.5)" />
+          <Members vimssId="1745173" LocusId="MSMEG_0592" Name="null" Function="Transcriptional regulator of rhamnose utilization, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5310</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62348" />
+      <Effector>Sulfate</Effector>
+      <Pathway>Sulfur metabolism</Pathway>
+      <LocusTag Key="MSMEG_6451" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1751031&amp;disp=0" />
+      <BiologicalProcess>Sulfur metabolism</BiologicalProcess>
+      <Regulog Key="SutR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6411" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_6451" Name="sutR" Position="-40" Score="5.6">
+          <Sequence>ATTGCGAATTTGTTCAAT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1751031" LocusId="MSMEG_6451" Name="sutR" Function="Predicted sulfate transport transcriptional regulator SutR, ArsR family" />
+          <Members vimssId="1751032" LocusId="MSMEG_6453" Name="sufP" Function="Predicted sulfate permease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6411</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="">
+      <Regulator Key="Znr" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=54027" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="MSMEG_4486" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1749066&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Znr - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5527" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_4486" Name="znr" Position="-50" Score="5">
+          <Sequence>CATGCGAATCAGCGCATG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1749066" LocusId="MSMEG_4486" Name="znr" Function="Zinc homeostasis transcriptional regulator Znr, ArsR family" />
+          <Members vimssId="1749067" LocusId="MSMEG_4487" Name="zur" Function="Zinc homeostasis transcriptional regulator Zur, Fur family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5527</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42012" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="MSMEG_4487" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1749067&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4338" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_4486" Name="znr" Position="-20" Score="6">
+          <Sequence>TAATGAAAACGATTTCCAATT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_6048" Name="yciC2" Position="-76" Score="5.3">
+          <Sequence>TAACGATAACCGTTTGCATTA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_6048" Name="yciC2" Position="-30" Score="6.1">
+          <Sequence>TATTGAAAATCATTTTCGATA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_6068" Name="rpmB1" Position="-55" Score="6.3">
+          <Sequence>TATTGAAAACGATTGTCATTA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_6047" Name="znuA" Position="-90" Score="6.1">
+          <Sequence>TATCGAAAATGATTTTCAATA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_6047" Name="znuA" Position="-44" Score="5.3">
+          <Sequence>TAATGCAAACGGTTATCGTTA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_6052" Name="znuC2" Position="-31" Score="5.9">
+          <Sequence>TAATGATAATCGTTTTCAAAA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_6069" Name="yciC" Position="-54" Score="6.3">
+          <Sequence>TAATGACAATCGTTTTCAATA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1750628" LocusId="MSMEG_6048" Name="yciC2" Function="Putative metal chaperone, involved in Zn homeostasis, GTPase of COG0523 family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1749066" LocusId="MSMEG_4486" Name="znr" Function="Zinc homeostasis transcriptional regulator Znr, ArsR family" />
+          <Members vimssId="1749067" LocusId="MSMEG_4487" Name="zur" Function="Zinc homeostasis transcriptional regulator Zur, Fur family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1750648" LocusId="MSMEG_6068" Name="rpmB1" Function="50S ribosomal protein L28" />
+          <Members vimssId="1750647" LocusId="MSMEG_6067" Name="rpmG1" Function="50S ribosomal protein L33" />
+          <Members vimssId="1750646" LocusId="MSMEG_6066" Name="rpsN2" Function="SSU ribosomal protein S14p" />
+          <Members vimssId="1750645" LocusId="MSMEG_6065" Name="rpsR1" Function="30S ribosomal protein S18" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1750649" LocusId="MSMEG_6069" Name="yciC" Function="Putative metal chaperone, involved in Zn homeostasis, GTPase of COG0523 family" />
+          <Members vimssId="1750650" LocusId="MSMEG_6070" Name="rpmE2" Function="50S ribosomal protein L31" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1750627" LocusId="MSMEG_6047" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+          <Members vimssId="1750626" LocusId="MSMEG_6046" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="1750625" LocusId="MSMEG_6045" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1750632" LocusId="MSMEG_6052" Name="znuC2" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="1750633" LocusId="MSMEG_6053" Name="bluB" Function="Cobalamin biosynthesis protein BluB @ 5,6-dimethylbenzimidazole synthase, flavin destructase family" />
+          <Members vimssId="1750634" LocusId="MSMEG_6054" Name="lamB" Function="Conserved hypothetical protein (LamB/YcsF)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4338</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39689" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_6649" Name="" Position="-292" Score="74.2">
+          <Sequence>TAGGAAGCCGGTGTGAATCCGGCATGGTCCCGCCACTGTGACTGGGGAGCGAACCCCACATCGACCACGGCTTGACGGCTGGAAGGTCGGGGTGAGCACTGATCCAGAAGTCAGGATACT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_4561" Name="btuF2" Position="-130" Score="38.5">
+          <Sequence>CAGGGGAATCCGGTGCGAATCCGGAACTGACGCGCAACGGTGAGAGGCTGCCGCCTCGAGTCCGATCACCT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_6638" Name="metE" Position="-287" Score="75.5">
+          <Sequence>AGTTCCGTGTGCTGTCACAGGTGCGGAACGAGAGGGAACCCGGTGAAAATCCGGGACTGTCCCGCAGCGGTATGCAGGAACGACCGCCGTCATCAGCACTGGCCCCGCCTAGGGGCTGGGAAGCGACGGCCAGTAGGTGTGCGTCAGCGCACGCGCCTGTGAGTCCGAAGACCTGC</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_6064" Name="btuF" Position="-177" Score="46.4">
+          <Sequence>CGTGCGGTATGACACCATCGGTGCCGAAGGCGACTGCGGATCGAGGAAGCCGGTGCGAATCCGGCACGGTCCCGCCACTGTGATCGATGCCCGCGGGGCGTCGAGAGTCAGACACTCACCGCAGTCACCACCTCGCAG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_6090" Name="" Position="-105" Score="25.1">
+          <Sequence>CGGAATCTGGTGAGAATCCAGAACGGTCGCGCCACTGTGAAAGTCAGAC</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1750670" LocusId="MSMEG_6090" Name="null" Function="Hypothetical protein" />
+          <Members vimssId="1750669" LocusId="MSMEG_6089" Name="cbtA" Function="Predicted cobalt transporter CbtA" />
+          <Members vimssId="1750668" LocusId="MSMEG_6088" Name="phoE" Function="Probable phosphoglycerate mutase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1751229" LocusId="MSMEG_6649" Name="null" Function="Hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1750644" LocusId="MSMEG_6064" Name="btuF" Function="Vitamin B12 ABC transporter, B12-binding component" />
+          <Members vimssId="1750643" LocusId="MSMEG_6063" Name="btuC" Function="Vitamin B12 ABC transporter, permease component" />
+          <Members vimssId="1750642" LocusId="MSMEG_6062" Name="btuD" Function="Vitamin B12 ABC transporter, ATPase component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1751218" LocusId="MSMEG_6638" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1749141" LocusId="MSMEG_4561" Name="btuF2" Function="Vitamin B12 ABC transporter, B12-binding component" />
+          <Members vimssId="1749140" LocusId="MSMEG_4560" Name="btuF2" Function="Vitamin B12 ABC transporter, B12-binding component" />
+          <Members vimssId="1749139" LocusId="MSMEG_4559" Name="btuC2" Function="Vitamin B12 ABC transporter, permease component" />
+          <Members vimssId="1749138" LocusId="MSMEG_4557" Name="btuD2" Function="Vitamin B12 ABC transporter, ATPase component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00504" RegulationMode="RF00504">
+      <Regulator Key="Glycine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39617" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="Glycine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_3642" Name="gcvB" Position="-284" Score="50.3">
+          <Sequence>ATCGACCTGTGCGGGAGAGTTCCGTGATCGCCAGTCACGGGCGCCGAAGGAGCAACACCTCTCCGTCAACCTCTCAGGCACCCAGGACCGCACCAG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_3642" Name="gcvB" Position="-187" Score="31.4">
+          <Sequence>CCACGATGCCTCTGGAAAGCGGCGCCGGCAGGCGCCCGCCCATGGGGAAAGGCTCGCACGGTCGTGGGCCGAATCTCTCAGGCGCCCGATCGGGTCGACGACAGAGGGAGAGGG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1748223" LocusId="MSMEG_3642" Name="gcvB" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P protein) (EC 1.4.4.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00515" RegulationMode="RF00515">
+      <Regulator Key="PyrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39311" />
+      <Effector>PyrR</Effector>
+      <Pathway>Pyrimidine metabolism</Pathway>
+      <LocusTag Key="PyrR" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_3042" Name="pyrR" Position="-51" Score="27.1">
+          <Sequence>CGTCCTTTAACGACCCGTCCAGCGAGGCGGAGAAGGAGGTCTGGGTTCGTCA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1747623" LocusId="MSMEG_3042" Name="pyrR" Function="Uracil phosphoribosyltransferase (EC 2.4.2.9) / Pyrimidine operon regulatory protein PyrR" />
+          <Members vimssId="1747624" LocusId="MSMEG_3043" Name="pyrB" Function="Aspartate carbamoyltransferase (EC 2.1.3.2)" />
+          <Members vimssId="1747625" LocusId="MSMEG_3044" Name="pyrC" Function="Dihydroorotase (EC 3.5.2.3)" />
+          <Members vimssId="1747626" LocusId="MSMEG_3045" Name="null" Function="Integral membrane protein" />
+          <Members vimssId="1747627" LocusId="MSMEG_3046" Name="carA" Function="Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)" />
+          <Members vimssId="1747628" LocusId="MSMEG_3047" Name="carB" Function="Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)" />
+          <Members vimssId="1747629" LocusId="MSMEG_3048" Name="pyrF" Function="Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01057" RegulationMode="RF01057">
+      <Regulator Key="SAH_riboswitch" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39761" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="SAH_riboswitch" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_4185" Name="metH" Position="-94" Score="23.1">
+          <Sequence>CCCGTCGAGAGGCGTTGCAACGGATCCCGGTCCTCGCCGGAGTCCGCCACGCTCGACGAAGTCAA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1748765" LocusId="MSMEG_4185" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase, MetH" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00634" RegulationMode="RF00634">
+      <Regulator Key="SAM-IV" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39329" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Sulfur metabolism</Pathway>
+      <LocusTag Key="SAM-IV" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_1272" Name="draG" Position="-147" Score="64.7">
+          <Sequence>GCTTCACGAGACGCCGTCGACAAGCTCCGACTGGATGGCGCGCCAACCCCACGCTCGTGGGTGGCTCGGATGACGAAGCGGCCTGCACCACCCGGTGCGGGTAAGAGCGCCTC</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_1652" Name="metY" Position="-321" Score="95.9">
+          <Sequence>CGGTCATGAGCGCCAGCGACAAGCCCCGGCTTGCTGGCCGGCAACCCTCCAACCGCGGTGGGGTGCCCCGGGTGATGACCAGGTTGAGTGGTTGACGGATTCCTCCGTCGGCCGCAAGGCAAGCGCGGGTC</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1746233" LocusId="MSMEG_1652" Name="metY" Function="O-acetylhomoserine sulfhydrylase (EC 2.5.1.49) / O-succinylhomoserine sulfhydrylase (EC 2.5.1.48)" />
+          <Members vimssId="1746232" LocusId="MSMEG_1651" Name="metX" Function="Homoserine O-acetyltransferase (EC 2.3.1.31)" />
+          <Members vimssId="1746231" LocusId="MSMEG_1650" Name="null" Function="Methyltransferase (EC 2.1.1.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1745853" LocusId="MSMEG_1272" Name="draG" Function="Probable ADP-ribosylglycohydrolase" />
+          <Members vimssId="1745852" LocusId="MSMEG_1271" Name="null" Function="Hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ile)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39743" />
+      <Effector>Ile-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_3169" Name="ileS" Position="-232" Score="28.5">
+          <Sequence>CATCGGCGCTGATCCGGCCATCACCGGGGAGCCTTCGGAAGAACAGCTGACAAGCCCAGTAGAACCGAACGGGTGGGCCCGTGATCGCCCATGAGTTGAGCGGCGTGCACATCGTGCGCGCAAGCGGGGTGGTACCGCGGCGCTCGCGCACCGGCGCGACGTGTCGTCCCCGTGCC</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1747750" LocusId="MSMEG_3169" Name="ileS" Function="Isoleucyl-tRNA synthetase (EC 6.1.1.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39545" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_6726" Name="ykoE" Position="-105" Score="58.7">
+          <Sequence>GAACAACCCACGCGGGAGTGCACACCGAGTGCGCTGAGAGGACGGCTGAGGGCCGTCGACCGTATGAACCTGTCCGGGTAATGCCGGCGTAGGGAGTGTGAACTGATGACCG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_0791" Name="thiO" Position="-102" Score="46.8">
+          <Sequence>ACGGGCAACACGGGAGTCCCGGGAACGGGGACTGAGAGTGGGCATCGCCGGCCCTTACCGTCACACCTGATCCGGGTCATGCCGGCGAAGGGAGCAGGATCTATGACACGTA</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_0826" Name="thiC" Position="-163" Score="51.8">
+          <Sequence>CAGAGAAAACCGCGGGAGTGCGCACCGAGCGCGCTGAGAGGACAGCTGGGGCTGTCGACCGTATGAACCTGACCGGGTAATGCCGGCGTAGGGAGATCGAATGTCCGATAT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1745372" LocusId="MSMEG_0791" Name="thiO" Function="Glycine oxidase ThiO (EC 1.4.3.19)" />
+          <Members vimssId="1745373" LocusId="MSMEG_0792" Name="thiS" Function="Sulfur carrier protein ThiS" />
+          <Members vimssId="1745374" LocusId="MSMEG_0793" Name="thiG" Function="Thiazole biosynthesis protein ThiG" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1745407" LocusId="MSMEG_0826" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+          <Members vimssId="1745406" LocusId="MSMEG_0825" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1751306" LocusId="MSMEG_6726" Name="ykoE" Function="Substrate-specific component YkoE of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine" />
+          <Members vimssId="1751305" LocusId="MSMEG_6725" Name="ykoD" Function="ATPase component YkoD of energizing module of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine" />
+          <Members vimssId="1751304" LocusId="MSMEG_6724" Name="ykoC" Function="Transmembrane component YkoC of energizing module of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00379" RegulationMode="RF00379">
+      <Regulator Key="ydaO-yuaA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39347" />
+      <Effector />
+      <Pathway>Osmotic stress response; Cell wall metabolism</Pathway>
+      <LocusTag Key="ydaO-yuaA" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_5700" Name="rpfA" Position="-216" Score="58.6">
+          <Sequence>CGCCGGTAGCGCCGAGCTCCATCCATCGCGCGGAGGTAACTGCGAACACCAAGGATGGAGGCGGGGGACCCAACCGGTCCACCGAATTACGGACCAGGGGCCTTTTGGCTCCTTGGGGTGAAGCCGTCGCCGTTTCGGCGTCGACGGCCGGGTGACCTCTCCCACCCGAACCCGACAGCTGACCTCGTGGGCGCATACGAGAGGACCTCG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1750280" LocusId="MSMEG_5700" Name="rpfA" Function="Probable resuscitation-promoting factor RpfA" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00380" RegulationMode="RF00380">
+      <Regulator Key="ykoK" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39626" />
+      <Effector>Magnesium ion, (Mg2+)</Effector>
+      <Pathway>Magnesium homeostasis</Pathway>
+      <LocusTag Key="ykoK" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_5646" Name="" Position="-404" Score="130">
+          <Sequence>CCGCGCTTCGTTAGGTGAGGCTCCTACACGAACACAGGCCACTGATCCGACGACGTCGAGAGACGCCCAGGGTTAGGACAGATCTTCCCGGCCTAAGGGATGATCCGAAGTGGCTTCCCACCTCAAGGTGGGACACGTCGTGCAGTGCCAAAGCTCTGATGAGGAAGTGCTCGCG</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1750226" LocusId="MSMEG_5646" Name="null" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39446" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MSMEG_5329" Name="COG2119" Position="-196" Score="48.4">
+          <Sequence>TGGCCGTTGCGAAGGGGAGTAGTTCCTGCCCGTCACATCCGGTGGCGGATGCGGTTGGTCGACATACTGGCGCAACGCGGCGCCCGGCCAATCACCGAATTCATTCGGCGAGCGAGACCTTCGGCCGTAAC</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MSMEG_6136" Name="ykoY" Position="-140" Score="48.6">
+          <Sequence>ACTTGTCCGCGGAGGGGAGTATTCCTTCGCTGCGGTGTCGTCATCACGTCGGTCGCCATGGAACCGATCGGTGCCGCAGGCCGGCCGTCTCGGCCCGGTGGAAGAGACCTCCGGCGTTGTT</Sequence>
+          <Bacteria>Mycobacterium smegmatis str. MC2 155</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1749909" LocusId="MSMEG_5329" Name="COG2119" Function="Possible transmambrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1750716" LocusId="MSMEG_6136" Name="ykoY" Function="Membrane protein TerC, possibly involved in tellurium resistance" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

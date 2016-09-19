@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Dorea formicigenerans ATCC 27755" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor (activator)">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47481" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="DORFOR_00082" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4189242&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4785" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORFOR_00300" Name="argG" Position="-103" Score="5.3">
+          <Sequence>TTGCATATTTATGAAT</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_02487" Name="argC" Position="-75" Score="4.6">
+          <Sequence>TTGTATAATCATGCAC</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4191647" LocusId="DORFOR_02487" Name="argC" Function="N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)" />
+          <Members vimssId="4191646" LocusId="DORFOR_02486" Name="GNAT" Function="Acetyltransferase, GNAT family (EC 2.3.1.-)" />
+          <Members vimssId="4191645" LocusId="DORFOR_02485" Name="argJ" Function="Glutamate N-acetyltransferase (EC 2.3.1.35) / N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="4191644" LocusId="DORFOR_02484" Name="argB" Function="Acetylglutamate kinase (EC 2.7.2.8)" />
+          <Members vimssId="4191643" LocusId="DORFOR_02483" Name="argD" Function="Acetylornithine aminotransferase (EC 2.6.1.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4189460" LocusId="DORFOR_00300" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4785</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57900" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="DORFOR_00384" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4189544&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5929" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORFOR_03064" Name="bioB" Position="-110" Score="8.8">
+          <Sequence>TTGTCAAC----------------GTTGACAT</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4192224" LocusId="DORFOR_03064" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="4192223" LocusId="DORFOR_03063" Name="bioY" Function="Substrate-specific component BioY of biotin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5929</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="DtxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62588" />
+      <Effector>New effector</Effector>
+      <Pathway>Metal homeostasis</Pathway>
+      <LocusTag Key="DORFOR_03078" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4192238&amp;disp=0" />
+      <BiologicalProcess>Metal homeostasis</BiologicalProcess>
+      <Regulog Key="DtxR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6440" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORFOR_03080" Name="COG1132" Position="-53" Score="6.4">
+          <Sequence>GGTTAGATTAAGCTAACC</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4192240" LocusId="DORFOR_03080" Name="COG1132" Function="ABC-type multidrug transport system, ATPase and permease components" />
+          <Members vimssId="4192239" LocusId="DORFOR_03079" Name="COG2274" Function="ABC-type bacteriocin/lantibiotic exporters, contain an N-terminal double-glycine peptidase domain" />
+          <Members vimssId="4192238" LocusId="DORFOR_03078" Name="dtxR" Function="Putative metal-dependent transcriptional regulator, DtxR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6440</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62758" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="DORFOR_00130" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4189290&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6458" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORFOR_00837" Name="PF12672" Position="-37" Score="5.5">
+          <Sequence>AATGATAATCAAAATCAAT</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_00130" Name="fur" Position="-35" Score="5.6">
+          <Sequence>ATTGACAATGATTATCATT</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_00130" Name="fur" Position="-29" Score="5.2">
+          <Sequence>AATGATTATCATTAACAAT</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_00130" Name="fur" Position="5" Score="4.8">
+          <Sequence>AATGATAATCAGTTTCAAA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4189997" LocusId="DORFOR_00837" Name="PF12672" Function="Protein of unknown function (DUF3793)" />
+          <Members vimssId="4189996" LocusId="DORFOR_00836" Name="PF00258" Function="Flavodoxins" />
+          <Members vimssId="4189995" LocusId="DORFOR_00835" Name="PF10087" Function="Uncharacterized protein conserved in bacteria (DUF2325)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4189290" LocusId="DORFOR_00130" Name="fur" Function="Transcriptional regulator for iron transport and metabolism, Fur family" />
+          <Members vimssId="4189291" LocusId="DORFOR_00131" Name="BACPEC_02635" Function="hypothetical protein" />
+          <Members vimssId="4189292" LocusId="DORFOR_00132" Name="feoA" Function="Ferrous iron transport protein A" />
+          <Members vimssId="4189293" LocusId="DORFOR_00133" Name="feoB" Function="Ferrous iron transport protein B" />
+          <Members vimssId="4189294" LocusId="DORFOR_00134" Name="null" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6458</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TrpR" RegulationMode="repressor">
+      <Regulator Key="HisR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=54590" />
+      <Effector>Histidine</Effector>
+      <Pathway>Histidine biosynthesis</Pathway>
+      <LocusTag Key="DORFOR_03026" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4192186&amp;disp=0" />
+      <BiologicalProcess>Histidine biosynthesis</BiologicalProcess>
+      <Regulog Key="HisR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5569" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORFOR_03026" Name="hisR" Position="-61" Score="5.3">
+          <Sequence>AAATTTACTGTGTTAAAATG</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_00662" Name="hisX" Position="-154" Score="5.3">
+          <Sequence>CGATTTAGCGTGGTAAAGTA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_01586" Name="hisZ" Position="-35" Score="5">
+          <Sequence>TATGGTAGCACGCTAAAGTG</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4192186" LocusId="DORFOR_03026" Name="hisR" Function="Predicted histidine repressor, TrpR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4189822" LocusId="DORFOR_00662" Name="hisX" Function="Histidine ABC transporter, histidine-binding protein (TC 3.A.1)" />
+          <Members vimssId="4189821" LocusId="DORFOR_00661" Name="hisY" Function="Histidine ABC transporter, permease protein" />
+          <Members vimssId="4189820" LocusId="DORFOR_00660" Name="hisZ" Function="Histidine ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4190746" LocusId="DORFOR_01586" Name="hisZ" Function="ATP phosphoribosyltransferase regulatory subunit (EC 2.4.2.17)" />
+          <Members vimssId="4190745" LocusId="DORFOR_01585" Name="hisG" Function="ATP phosphoribosyltransferase catalytic subunit (EC 2.4.2.17)" />
+          <Members vimssId="4190744" LocusId="DORFOR_01584" Name="hisD" Function="Histidinol dehydrogenase (EC 1.1.1.23)" />
+          <Members vimssId="4190743" LocusId="DORFOR_01583" Name="hisB" Function="Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)" />
+          <Members vimssId="4190742" LocusId="DORFOR_01582" Name="hisIE" Function="Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19) / Phosphoribosyl-ATP pyrophosphatase (EC 3.6.1.31)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5569</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47495" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="DORFOR_00808" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4189968&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4786" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORFOR_02548" Name="htpG" Position="-156" Score="7.2">
+          <Sequence>TTAGCACTCGATGAAAAAGAGTGCTAA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_00902" Name="groES" Position="-16" Score="7">
+          <Sequence>ATAGCACTCTCTTTTTATGAGTGCTAA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_00808" Name="hrcA" Position="-16" Score="7.3">
+          <Sequence>TTAGCACTCCAATATAATGAGTGCTAA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_00449" Name="hsp20" Position="-180" Score="7.2">
+          <Sequence>TTAGCACTCACCTCTTGACAGTGCTAA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_02181" Name="clpB" Position="-84" Score="6.8">
+          <Sequence>TTAGCACTCACCTCTTGACTGTGCTAA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4191341" LocusId="DORFOR_02181" Name="clpB" Function="ATP-dependent Clp protease ATP-binding subunit ClpB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4191708" LocusId="DORFOR_02548" Name="htpG" Function="Heat shock chaperone protein 90" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4190062" LocusId="DORFOR_00902" Name="groES" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="4190061" LocusId="DORFOR_00901" Name="groEL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4189609" LocusId="DORFOR_00449" Name="hsp20" Function="Heat shock protein Hsp20" />
+          <Members vimssId="4189608" LocusId="DORFOR_00448" Name="hsp20" Function="Heat shock protein Hsp20" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4189968" LocusId="DORFOR_00808" Name="hrcA" Function="heat-inducible transcription repressor HrcA" />
+          <Members vimssId="4189967" LocusId="DORFOR_00807" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="4189966" LocusId="DORFOR_00806" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="4189965" LocusId="DORFOR_00805" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4786</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="IdeR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63069" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="DORFOR_00462" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4189622&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="IdeR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6500" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORFOR_03080" Name="COG1132" Position="-55" Score="4.8">
+          <Sequence>GTGGTTAGATTAAGCTAACCCA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4192240" LocusId="DORFOR_03080" Name="COG1132" Function="ABC-type multidrug transport system, ATPase and permease components" />
+          <Members vimssId="4192239" LocusId="DORFOR_03079" Name="COG1132-2" Function="ABC-type multidrug transport system, ATPase and permease components" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6500</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47453" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="DORFOR_01560" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4190720&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4783" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORFOR_01417" Name="recA" Position="-38" Score="5.1">
+          <Sequence>CCGAACATTCGTTCGG</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_01560" Name="lexA" Position="-287" Score="5.2">
+          <Sequence>TCGAACTTTTGTTCGT</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_01560" Name="lexA" Position="-259" Score="4.8">
+          <Sequence>TCGAACAGTTGTTTGG</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_01560" Name="lexA" Position="-219" Score="4.9">
+          <Sequence>CCGAACATATTTTCTA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_00795" Name="COG4277" Position="-71" Score="5.3">
+          <Sequence>TCGAACAAATGTTCTT</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_00795" Name="COG4277" Position="-45" Score="4.6">
+          <Sequence>CAGAACAGATGTTTGC</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_01559" Name="DORFOR_01559" Position="-168" Score="4.9">
+          <Sequence>TAGAAAATATGTTCGG</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_01559" Name="DORFOR_01559" Position="-128" Score="4.8">
+          <Sequence>CCAAACAACTGTTCGA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_01559" Name="DORFOR_01559" Position="-100" Score="5.2">
+          <Sequence>ACGAACAAAAGTTCGA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4190720" LocusId="DORFOR_01560" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4190577" LocusId="DORFOR_01417" Name="recA" Function="Recombination protein A" />
+          <Members vimssId="4190578" LocusId="DORFOR_01418" Name="recX" Function="regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4189955" LocusId="DORFOR_00795" Name="COG4277" Function="Predicted DNA-binding protein with the Helix-hairpin-helix motif" />
+          <Members vimssId="4189954" LocusId="DORFOR_00794" Name="BACPEC_02112" Function="Uracil-DNA glycosylase, family 1" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4190719" LocusId="DORFOR_01559" Name="DORFOR_01559" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4783</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NiaR" RegulationMode="repressor">
+      <Regulator Key="NiaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47439" />
+      <Effector>Niacin</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="DORFOR_02387" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4191547&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NiaR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4782" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORFOR_01504" Name="nadA" Position="-47" Score="4.9">
+          <Sequence>ACTTACTGTCTTGTCACATGTA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4190664" LocusId="DORFOR_01504" Name="nadA" Function="Quinolinate synthetase (EC 4.1.99.-)" />
+          <Members vimssId="4190665" LocusId="DORFOR_01505" Name="nadB" Function="L-aspartate oxidase (EC 1.4.3.16)" />
+          <Members vimssId="4190666" LocusId="DORFOR_01506" Name="nadC" Function="Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4782</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=64319" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="DORFOR_00231" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4189391&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6635" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORFOR_02443" Name="nrdD" Position="-162" Score="4.2">
+          <Sequence>ACGCCATATTTTGTAG</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_02443" Name="nrdD" Position="-129" Score="5">
+          <Sequence>ACACAATATCTTGTGA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_02443" Name="nrdD" Position="-64" Score="4.9">
+          <Sequence>ACACAAGATGTTGTGG</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4191602" LocusId="DORFOR_02443" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6635</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61480" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine biosynthesis</Pathway>
+      <LocusTag Key="DORFOR_00757" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4189917&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine biosynthesis</BiologicalProcess>
+      <Regulog Key="PdxR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6312" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORFOR_02364" Name="pdxS" Position="-141" Score="12.3">
+          <Sequence>AACTGGCTT-(15)-AACTGGATA-(8)-ATACCAGTT</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4191524" LocusId="DORFOR_02364" Name="pdxS" Function="Pyridoxine biosynthesis glutamine amidotransferase, synthase subunit (EC 2.4.2.-)" />
+          <Members vimssId="4191523" LocusId="DORFOR_02363" Name="pdxT" Function="Pyridoxine biosynthesis glutamine amidotransferase, glutaminase subunit (EC 2.4.2.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6312</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47467" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="DORFOR_01483" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4190643&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4784" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORFOR_01318" Name="adhE" Position="-150" Score="5.1">
+          <Sequence>ATGATAAAAAATAAACAA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_01318" Name="adhE" Position="-130" Score="5.2">
+          <Sequence>ATGTTAAAAAAATATCAT</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_01318" Name="adhE" Position="-105" Score="4.9">
+          <Sequence>TTGACAAATAATTAACGA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_01431" Name="gap" Position="-89" Score="4.7">
+          <Sequence>TTGATGAATCTTTAACAA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_01493" Name="bdh" Position="-76" Score="4.9">
+          <Sequence>GCGTTAAATTATTATCAA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_01493" Name="bdh" Position="-43" Score="4.5">
+          <Sequence>GTGATAAAAATTTAACGC</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_00826" Name="ladH" Position="-57" Score="5.1">
+          <Sequence>TTGTTAAAATAAAAACAT</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_01796" Name="pckA" Position="-118" Score="4.8">
+          <Sequence>TTGTTAAAAATTTATTGA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_01112" Name="fba" Position="-125" Score="5">
+          <Sequence>TTGTTAAAAATATGACGA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_02389" Name="ppsA" Position="-148" Score="5.2">
+          <Sequence>TTGACAAAAATATAACAA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_01508" Name="pflB" Position="-160" Score="5">
+          <Sequence>TTGTCAATAGTTTAACAA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_02415" Name="por" Position="-133" Score="4.8">
+          <Sequence>TCGTTAATTTTGTATCAA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4190478" LocusId="DORFOR_01318" Name="adhE" Function="Alcohol dehydrogenase (EC 1.1.1.1), Fe-dependent; Acetaldehyde dehydrogenase (EC 1.2.1.10)" />
+          <Members vimssId="4190477" LocusId="DORFOR_01317" Name="stpK" Function="Mn2+-dependent serine/threonine protein kinase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4190668" LocusId="DORFOR_01508" Name="pflB" Function="Pyruvate formate-lyase (EC 2.3.1.54)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4191575" LocusId="DORFOR_02415" Name="por" Function="Pyruvate-flavodoxin oxidoreductase (EC 1.2.7.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4191549" LocusId="DORFOR_02389" Name="ppsA" Function="Pyruvate,phosphate dikinase (EC 2.7.9.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4190272" LocusId="DORFOR_01112" Name="fba" Function="Fructose-bisphosphate aldolase class II (EC 4.1.2.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4190956" LocusId="DORFOR_01796" Name="pckA" Function="Phosphoenolpyruvate carboxykinase [ATP] (EC 4.1.1.49)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4189986" LocusId="DORFOR_00826" Name="ladH" Function="Lactaldehyde reductase (EC 1.1.1.77)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4190591" LocusId="DORFOR_01431" Name="gap" Function="NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4190653" LocusId="DORFOR_01493" Name="bdh" Function="Butanol dehydrogenase; Butyraldehyde dehydrogenase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4784</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="UxuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63049" />
+      <Effector />
+      <Pathway>Glucuronate utilization</Pathway>
+      <LocusTag Key="DORFOR_02950" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4192110&amp;disp=0" />
+      <BiologicalProcess>Glucuronate utilization</BiologicalProcess>
+      <Regulog Key="UxuR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6499" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORFOR_02948" Name="uxaA" Position="-148" Score="6">
+          <Sequence>TAGTGTAAGCGCTTACACGT</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_02949" Name="uxaC" Position="-57" Score="6.2">
+          <Sequence>AAATGTAAGCGTTTACAATA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_02949" Name="uxaC" Position="-235" Score="6">
+          <Sequence>ACGTGTAAGCGCTTACACTA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4192109" LocusId="DORFOR_02949" Name="uxaC" Function="Uronate isomerase (EC 5.3.1.12)" />
+          <Members vimssId="4192110" LocusId="DORFOR_02950" Name="uxuR" Function="Predicted transcription regulator for glucuronate utilization, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4192108" LocusId="DORFOR_02948" Name="uxaA" Function="Altronate hydrolase (EC 4.2.1.7)" />
+          <Members vimssId="4192107" LocusId="DORFOR_02947" Name="uxaB" Function="Altronate oxidoreductase (EC 1.1.1.58)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6499</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="YhcF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57299" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux</Pathway>
+      <LocusTag Key="DORFOR_00789" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4189949&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux</BiologicalProcess>
+      <Regulog Key="YhcF - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5860" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORFOR_00789" Name="yhcF" Position="-50" Score="5.1">
+          <Sequence>ATTGTATTGCTCAGATAGTACAAT</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4189949" LocusId="DORFOR_00789" Name="yhcF" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="4189950" LocusId="DORFOR_00790" Name="yhcG" Function="ABC-type multidrug transport system, ATPase component" />
+          <Members vimssId="4189951" LocusId="DORFOR_00791" Name="yhcI" Function="ABC-type multidrug transport system, permease component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5860</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48826" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORFOR_00288" Name="ribD" Position="-288" Score="113">
+          <Sequence>GAAATCTTCAGGGCAGGGTGAGATTCCCTACCGGCGGTAAAGCCCGCGAGCCGAGAGGCATGATTCGGTGAGATTCCGAAGCCGACAGTATAGTCTGGATGAGAGAAGAAGACGGT</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_03135" Name="ribU" Position="-348" Score="119.8">
+          <Sequence>AGAGATTCTTCGGGGCAGGGTGTAATTCCCAACCGGCGGTAAAGTCCGCGACCCGCTGTGTAAGTGTATGCAGTGGCTGATCTGGTGAGATTCCGGAACCGACAGTAAAGTCTGGATGAGAGAAGAATTAT</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4192295" LocusId="DORFOR_03135" Name="ribU" Function="Substrate-specific component RibU of riboflavin ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4189448" LocusId="DORFOR_00288" Name="ribD" Function="Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26) / 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)" />
+          <Members vimssId="4189449" LocusId="DORFOR_00289" Name="ribE" Function="Riboflavin synthase alpha chain (EC 2.5.1.9)" />
+          <Members vimssId="4189450" LocusId="DORFOR_00290" Name="ribBA" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase / GTP cyclohydrolase II (EC 3.5.4.25)" />
+          <Members vimssId="4189451" LocusId="DORFOR_00291" Name="ribH" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48840" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="DORFOR_01676" Name="thiC" Position="-220" Score="58.2">
+          <Sequence>AATTACATACGGGGAGCTGGTGAAAACCGGCTGAGAGGAAGCGTAATTCCGCTTCGACCCATAACCTGATTTGGATAATGCCAACGTAGGGAACATATCTTAACGCGATAAT</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_02060" Name="thiM" Position="-166" Score="48.8">
+          <Sequence>ACAACAGGGGGCTTGCGTATCAAGCAGGCTGAGATTGGGCTGAATGCCCTGACCTGCAACCTGATTTGGATAATGCCAACGTAGGGAAAAAGATGCGTAAATGTTA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="DORFOR_02215" Name="thiS" Position="-346" Score="57.1">
+          <Sequence>TTGTAAATAAAAGGGGAGCTTGTGATAGCAGGCTGAGAGGAAGTCTTCAACTTCGACCCAGAACCTGATTTGGATAATGCCAACGTAGGAACGTATAAGATAATGTTA</Sequence>
+          <Bacteria>Dorea formicigenerans ATCC 27755</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4191375" LocusId="DORFOR_02215" Name="thiS" Function="Thiamine biosynthesis protein ThiS" />
+          <Members vimssId="4191374" LocusId="DORFOR_02214" Name="thiG" Function="Thiazole biosynthesis protein ThiG" />
+          <Members vimssId="4191373" LocusId="DORFOR_02213" Name="thiH" Function="Thiazole biosynthesis protein ThiH" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4190836" LocusId="DORFOR_01676" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4191220" LocusId="DORFOR_02060" Name="thiM" Function="Hydroxyethylthiazole kinase (EC 2.7.1.50)" />
+          <Members vimssId="4191221" LocusId="DORFOR_02061" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+          <Members vimssId="4191222" LocusId="DORFOR_02062" Name="COG0637" Function="hypothetical phosphatase/hydrolase" />
+          <Members vimssId="4191223" LocusId="DORFOR_02063" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+          <Members vimssId="4191224" LocusId="DORFOR_02064" Name="cytX" Function="Predicted hydroxymethylpyrimidine transporter CytX" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

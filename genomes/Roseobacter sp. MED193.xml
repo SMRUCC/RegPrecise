@@ -1,0 +1,1472 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Roseobacter sp. MED193" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="BioR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53144" />
+      <Effector />
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="" Value="" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BioR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5422" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_07723" Name="bioB" Position="-164" Score="4.8">
+          <Sequence>TTATAGATAA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_07723" Name="bioB" Position="-132" Score="3.6">
+          <Sequence>TTATAGATGG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_07723" Name="bioB" Position="-67" Score="4.1">
+          <Sequence>ATATCTATAA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2716224" LocusId="MED193_07723" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="2716223" LocusId="MED193_07718" Name="bioF" Function="8-amino-7-oxononanoate synthase (EC 2.3.1.47)" />
+          <Members vimssId="2716222" LocusId="MED193_07713" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+          <Members vimssId="2716221" LocusId="MED193_07708" Name="bioA" Function="Adenosylmethionine-8-amino-7-oxononanoate aminotransferase (EC 2.6.1.62)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5422</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51374" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="MED193_02240" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2718189&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5208" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_02180" Name="cadA" Position="-60" Score="5.2">
+          <Sequence>AAGCTCTAGCTACTGTAGGGG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_02240" Name="cadR" Position="-117" Score="6.2">
+          <Sequence>ATCCTCTAGCTACTAGAGGTT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_02255" Name="PF01841" Position="-57" Score="4.9">
+          <Sequence>AAGCTACAGTAACTATAGAGA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_02170" Name="PF03734" Position="-88" Score="5.6">
+          <Sequence>AACCTCTAGCCACTAGAAGTC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_15017" Name="cadA" Position="-58" Score="5.9">
+          <Sequence>AACCTCTAGTCACTGTAGGTC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2718189" LocusId="MED193_02240" Name="cadR" Function="Cadmium resistance transcriptional regulator, MerR family" />
+          <Members vimssId="2718190" LocusId="MED193_02245" Name="PF02694" Function="Protein of unknown function UPF0060" />
+          <Members vimssId="2718191" LocusId="MED193_02250" Name="czcD" Function="Co/Zn/Cd efflux protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2718175" LocusId="MED193_02170" Name="PF03734" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2715482" LocusId="MED193_15017" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3)" />
+          <Members vimssId="2715483" LocusId="MED193_15022" Name="cadR2" Function="Cadmium resistance transcriptional regulator, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2718192" LocusId="MED193_02255" Name="PF01841" Function="Transglutaminase-like protein" />
+          <Members vimssId="2718193" LocusId="MED193_02260" Name="czcD2" Function="Co/Zn/Cd efflux protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2718177" LocusId="MED193_02180" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5208</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="CceR (GapR)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=54577" />
+      <Effector>6-phosphogluconate</Effector>
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="MED193_14932" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2715465&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="CceR (GapR) - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5568" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_12017" Name="pykA" Position="-78" Score="5.2">
+          <Sequence>TGCTGTTTGCGGTAACATTT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_16479" Name="pckA" Position="-183" Score="4.3">
+          <Sequence>CAATGGTTGCGCTAAACTCC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_16479" Name="pckA" Position="-162" Score="4.8">
+          <Sequence>CCTTGGTGGCGCTAACTGCG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_16479" Name="pckA" Position="-95" Score="3.7">
+          <Sequence>AACCGGTGGCGATACCGGCA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_03557" Name="gapA" Position="-132" Score="4.5">
+          <Sequence>AAGCGTTAGCGCCACCGTGT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_03557" Name="gapA" Position="-99" Score="3.9">
+          <Sequence>TCCCGTTAACGCCACCGGTA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_03557" Name="gapA" Position="-77" Score="4.1">
+          <Sequence>AACCGTTAACGCCACCGGTC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_03557" Name="gapA" Position="-58" Score="4.6">
+          <Sequence>CTAGTTTTGCGCTAACATAC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_10071" Name="gapB" Position="-110" Score="4">
+          <Sequence>CTCCGTTATCGATACCGATA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_10071" Name="gapB" Position="-88" Score="4.9">
+          <Sequence>TAATGTTAGCGATAACGAAT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_07548" Name="pycA" Position="-104" Score="4.2">
+          <Sequence>GAATGAGAGCGCAATCATGC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_09260" Name="tal" Position="-48" Score="4">
+          <Sequence>AAAGGCTAGCGCAATCAAGG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_03562" Name="yedI" Position="-156" Score="4.6">
+          <Sequence>GTATGTTAGCGCAAAACTAG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_03562" Name="yedI" Position="-137" Score="4.1">
+          <Sequence>GACCGGTGGCGTTAACGGTT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_03562" Name="yedI" Position="-82" Score="4.5">
+          <Sequence>ACACGGTGGCGCTAACGCTT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_20764" Name="fba" Position="-100" Score="4.7">
+          <Sequence>GCCCGTTAGCGCAAGCGCTT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_22551" Name="eno" Position="-136" Score="4.5">
+          <Sequence>TACCGGTGGCGCAAACAGGT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_22551" Name="eno" Position="-116" Score="4">
+          <Sequence>GAATGGTAACGTTAACTGTG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_22551" Name="eno" Position="-87" Score="5.1">
+          <Sequence>TGCCGTTAGCGGTAACGAAG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_10066" Name="cceR2" Position="-119" Score="4.9">
+          <Sequence>ATTCGTTATCGCTAACATTA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_17414" Name="pgi" Position="-77" Score="5">
+          <Sequence>TACCGTTATCGCTAACAGTA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2717669" LocusId="MED193_09260" Name="tal" Function="Transaldolase (EC 2.2.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2716186" LocusId="MED193_07548" Name="pycA" Function="Pyruvate carboxyl transferase (EC 6.4.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2714400" LocusId="MED193_17414" Name="pgi" Function="Glucose-6-phosphate isomerase (EC 5.3.1.9)" />
+          <Members vimssId="2714401" LocusId="MED193_17419" Name="zwf" Function="Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)" />
+          <Members vimssId="2714402" LocusId="MED193_17424" Name="edd" Function="Phosphogluconate dehydratase (EC 4.2.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2718749" LocusId="MED193_10071" Name="gapB" Function="Glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2717312" LocusId="MED193_03557" Name="gapA" Function="Gllyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2714204" LocusId="MED193_16479" Name="pckA" Function="Phosphoenolpyruvate carboxykinase (EC 4.1.1.49)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2718715" LocusId="MED193_12017" Name="pykA" Function="Pyruvate kinase (EC 2.7.1.40)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2715072" LocusId="MED193_20764" Name="fba" Function="Fructose-bisphosphate aldolase class I (EC 4.1.2.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2717174" LocusId="MED193_22551" Name="eno" Function="Enolase (EC 4.2.1.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2718748" LocusId="MED193_10066" Name="cceR2" Function="Transcriptional regulator, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2717313" LocusId="MED193_03562" Name="yedI" Function="conserved inner membrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5568</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="OmpR" RegulationMode="">
+      <Regulator Key="Chvl" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=54606" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="MED193_16484" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2714205&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="Chvl - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5570" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_16484" Name="chvI" Position="-93" Score="8.2">
+          <Sequence>GATTCG------------GATTCG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2714205" LocusId="MED193_16484" Name="chvI" Function="DNA-binding response regulator ChvI" />
+          <Members vimssId="2714206" LocusId="MED193_16489" Name="null" Function="Sensor histidine kinase ChvG (EC 2.7.3.-)" />
+          <Members vimssId="2714207" LocusId="MED193_16494" Name="chvG" Function="Sensor histidine kinase ChvG (EC 2.7.3.-)" />
+          <Members vimssId="2714208" LocusId="MED193_16499" Name="Jann_0538" Function="HPr kinase/phosphorylase (EC 2.7.1.-) (EC 2.7.4.-)" />
+          <Members vimssId="2714209" LocusId="MED193_16504" Name="manX" Function="Uncharacterized P-loop ATPase protein UPF0042" />
+          <Members vimssId="2714210" LocusId="MED193_16509" Name="null" Function="PTS system IIA component, mannose/fructose/sorbose (Man) family" />
+          <Members vimssId="2714211" LocusId="MED193_16514" Name="phbH" Function="Phosphocarrier protein HPr EC=2.7.11.-" />
+          <Members vimssId="2714212" LocusId="MED193_16519" Name="null" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5570</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="CueR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50982" />
+      <Effector>Copper ion, (Cu+)</Effector>
+      <Pathway>Copper resistance</Pathway>
+      <LocusTag Key="MED193_02425" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2718226&amp;disp=0" />
+      <BiologicalProcess>Copper resistance</BiologicalProcess>
+      <Regulog Key="CueR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5166" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_02420" Name="copA" Position="-36" Score="4.7">
+          <Sequence>ACCTTCCGGTAACTGGAAGCC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_18159" Name="copA" Position="-62" Score="5">
+          <Sequence>ACCTTCCCCTAACTGGAGGCC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2718225" LocusId="MED193_02420" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="2718226" LocusId="MED193_02425" Name="cueR" Function="Copper-responsive transcriptional regulator, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2714549" LocusId="MED193_18159" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="2714550" LocusId="MED193_18164" Name="cueR" Function="Copper-responsive transcriptional regulator, MerR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5166</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="EutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63929" />
+      <Effector />
+      <Pathway>Ectoine utilization</Pathway>
+      <LocusTag Key="MED193_04751" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2716879&amp;disp=0" />
+      <BiologicalProcess>Ectoine utilization</BiologicalProcess>
+      <Regulog Key="EutR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6596" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_04751" Name="eutR" Position="-80" Score="6.9">
+          <Sequence>ATTGTGTTGATACAAT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_04751" Name="eutR" Position="-48" Score="5.7">
+          <Sequence>AGAGTTTTGATACAAT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_04751" Name="eutR" Position="-6" Score="7.4">
+          <Sequence>ATTGTAATGGTACAAT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2716879" LocusId="MED193_04751" Name="eutR" Function="Ectoine utilization regulator, GntR/MocR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6596</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="">
+      <Regulator Key="EutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63657" />
+      <Effector>Ethanolamine</Effector>
+      <Pathway>Ethanolamine utilization</Pathway>
+      <LocusTag Key="MED193_10021" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2718739&amp;disp=0" />
+      <BiologicalProcess>Ethanolamine utilization</BiologicalProcess>
+      <Regulog Key="EutR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6568" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_10026" Name="eutA" Position="-64" Score="5.1">
+          <Sequence>TCTGAAATTATATTGACAGA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_10026" Name="eutA" Position="-34" Score="5.1">
+          <Sequence>CGTGAAAAGATTTTTCCAAA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_10021" Name="eutR" Position="-143" Score="5.1">
+          <Sequence>TTTGGAAAAATCTTTTCACG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_10021" Name="eutR" Position="-113" Score="5.1">
+          <Sequence>TCTGTCAATATAATTTCAGA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2718740" LocusId="MED193_10026" Name="eutA" Function="COG3931: Predicted N-formylglutamate amidohydrolase" />
+          <Members vimssId="2718741" LocusId="MED193_10031" Name="eutQ" Function="TRAP-type ethanolamine transport system, small permease component" />
+          <Members vimssId="2718742" LocusId="MED193_10036" Name="eutM" Function="TRAP-type ethanolamine transport system, large permease component" />
+          <Members vimssId="2718743" LocusId="MED193_10041" Name="eutP" Function="TRAP-type ethanolamine transport system, periplasmic component" />
+          <Members vimssId="2718744" LocusId="MED193_10046" Name="eutB" Function="glutamine synthetase family protein" />
+          <Members vimssId="2718745" LocusId="MED193_10051" Name="eutX" Function="Aldehyde dehydrogenase (EC 1.2.1.3)" />
+          <Members vimssId="2718746" LocusId="MED193_10056" Name="eutY" Function="Alcohol dehydrogenase (EC 1.1.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2718739" LocusId="MED193_10021" Name="eutR" Function="Transcriptional regulator of ethanolamine utilization, RpiR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6568</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator (repressor)">
+      <Regulator Key="FnrN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63373" />
+      <Effector>Oxygen</Effector>
+      <Pathway>Oxidative stress response; Nitrogen fixation</Pathway>
+      <LocusTag Key="MED193_11238" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2717625&amp;disp=0" />
+      <BiologicalProcess>Oxidative stress response; Nitrogen fixation</BiologicalProcess>
+      <Regulog Key="FnrN - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6530" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_08963" Name="ctaC" Position="-178" Score="5.4">
+          <Sequence>TTTTTGATCTAAATCAAGAA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_11238" Name="fnrN" Position="-29" Score="5.3">
+          <Sequence>ACTTTGACTTGGATCAAACG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_21064" Name="hemA" Position="-162" Score="5.4">
+          <Sequence>TATTTGACCTGTATCAAAGT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_08728" Name="ctaD" Position="-122" Score="5.6">
+          <Sequence>ATCTTGATCCAGATCAAACT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_11233" Name="uspA" Position="-114" Score="5.5">
+          <Sequence>GCATTGATCTGCATCAAGAC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_11228" Name="ccoN" Position="-93" Score="5.5">
+          <Sequence>GTCTTGATGCAGATCAATGC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_11193" Name="ccoG" Position="-180" Score="5.4">
+          <Sequence>TTTTTGATCCACGTCAAAGA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2717624" LocusId="MED193_11233" Name="uspA" Function="Predicted universal stress protein UspA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2715136" LocusId="MED193_21064" Name="hemA" Function="5-aminolevulinate synthase (EC 2.3.1.37)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2716475" LocusId="MED193_08963" Name="ctaC" Function="Cytochrome c oxidase polypeptide II (EC 1.9.3.1)" />
+          <Members vimssId="2716474" LocusId="MED193_08958" Name="ctaB" Function="Heme O synthase, protoheme IX farnesyltransferase (EC 2.5.1.-) COX10-CtaB" />
+          <Members vimssId="2716473" LocusId="MED193_08953" Name="ctaX" Function="Hypothetical protein in cta gene cluster" />
+          <Members vimssId="2716472" LocusId="MED193_08948" Name="ctaG" Function="Cytochrome oxidase biogenesis protein Cox11-CtaG, copper delivery to Cox1" />
+          <Members vimssId="2716471" LocusId="MED193_08943" Name="ctaE" Function="Cytochrome c oxidase polypeptide III (EC 1.9.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2717616" LocusId="MED193_11193" Name="ccoG" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoG, involved in Cu oxidation" />
+          <Members vimssId="2717615" LocusId="MED193_11188" Name="ccoH" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoH" />
+          <Members vimssId="2717614" LocusId="MED193_11183" Name="ccoI" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoI; Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="2717613" LocusId="MED193_11178" Name="ccoS" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoS, involved in heme b insertion" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2717623" LocusId="MED193_11228" Name="ccoN" Function="Cytochrome c oxidase subunit CcoN (EC 1.9.3.1)" />
+          <Members vimssId="2717622" LocusId="MED193_11223" Name="ccoO" Function="Cytochrome c oxidase subunit CcoO (EC 1.9.3.1)" />
+          <Members vimssId="2717621" LocusId="MED193_11218" Name="ccoQ" Function="Cytochrome c oxidase subunit CcoQ (EC 1.9.3.1)" />
+          <Members vimssId="2717620" LocusId="MED193_11213" Name="ccoP" Function="Cytochrome c oxidase subunit CcoP (EC 1.9.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2716428" LocusId="MED193_08728" Name="ctaD" Function="Cytochrome c oxidase polypeptide I (EC 1.9.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2717625" LocusId="MED193_11238" Name="fnrN" Function="Nitrogen fixation and oxygen response transcriptional regulator FnrN, Crp family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6530</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49751" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="MED193_13862" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2715247&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5037" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_20209" Name="groS" Position="-93" Score="7.1">
+          <Sequence>TTAGCACTCATCAGGTGTGAGTGATAA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2714961" LocusId="MED193_20209" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="2714962" LocusId="MED193_20214" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5037</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="HutC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17409" />
+      <Effector>cis-Urocanic acid</Effector>
+      <Pathway>Histidine utilization</Pathway>
+      <LocusTag Key="MED193_01690" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2716692&amp;disp=0" />
+      <BiologicalProcess>Histidine utilization</BiologicalProcess>
+      <Regulog Key="HutC - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1877" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_01670" Name="hutI" Position="-71" Score="5.3">
+          <Sequence>TTTATGTCTAGACATATG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_01665" Name="hutF" Position="-30" Score="5.3">
+          <Sequence>CATATGTCTAGACATAAA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2716688" LocusId="MED193_01670" Name="hutI" Function="Imidazolonepropionase (EC 3.5.2.7)" />
+          <Members vimssId="2716689" LocusId="MED193_01675" Name="hutH" Function="Histidine ammonia-lyase (EC 4.3.1.3)" />
+          <Members vimssId="2716690" LocusId="MED193_01680" Name="hutG" Function="N-formylglutamate deformylase (EC 3.5.1.68)" />
+          <Members vimssId="2716691" LocusId="MED193_01685" Name="hutU" Function="Urocanate hydratase (EC 4.2.1.49)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2716687" LocusId="MED193_01665" Name="hutF" Function="Formiminoglutamic iminohydrolase (EC 3.5.3.13)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1877</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="HypR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66520" />
+      <Effector>4-hydroxyproline</Effector>
+      <Pathway>Proline and 4-hydrohyproline utilization</Pathway>
+      <LocusTag Key="MED193_09635" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2717744&amp;disp=0" />
+      <BiologicalProcess>Proline and 4-hydrohyproline utilization</BiologicalProcess>
+      <Regulog Key="HypR2 - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6872" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_09635" Name="hypR2" Position="-86" Score="4.6">
+          <Sequence>TATTGGATCCAATT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_08463" Name="hypY" Position="-39" Score="4.5">
+          <Sequence>GATTGGATACAATA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_09625" Name="hypD" Position="-151" Score="4.6">
+          <Sequence>AATTGGATCCAATA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2717744" LocusId="MED193_09635" Name="hypR2" Function="Predicted regulator for proline and hydrohyproline utilization, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2716374" LocusId="MED193_08463" Name="hypY" Function="Proline racemase /4-hydroxyproline epimerase (EC 5.1.1.8)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2717742" LocusId="MED193_09625" Name="hypD" Function="1-pyrroline-4-hydroxy-2-carboxylate deaminase (EC 3.5.4.22) # predicted" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6872</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Irr" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=18357" />
+      <Effector>Heme</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="MED193_17849" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2714487&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Irr - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1982" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_04321" Name="iscR" Position="-124" Score="5.3">
+          <Sequence>ATCTTAGAACAATTCTAATTG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_10358" Name="fssA" Position="-75" Score="6.4">
+          <Sequence>AATTTAGAATAATTCTAAACC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2716792" LocusId="MED193_04321" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="2716791" LocusId="MED193_04316" Name="sufS" Function="Cysteine desulfurase (EC 2.8.1.7)" />
+          <Members vimssId="2716790" LocusId="MED193_04311" Name="sufB" Function="Iron-sulfur assembly protein SufB" />
+          <Members vimssId="2716789" LocusId="MED193_04306" Name="null" Function="hypothetical protein" />
+          <Members vimssId="2716788" LocusId="MED193_04301" Name="PF01906" Function="hypothetical protein" />
+          <Members vimssId="2716787" LocusId="MED193_04296" Name="PF04230" Function="ExoV domain protein" />
+          <Members vimssId="2716786" LocusId="MED193_04291" Name="sufC" Function="Iron-sulfur cluster assembly ATPase protein SufC" />
+          <Members vimssId="2716785" LocusId="MED193_04286" Name="sufD" Function="Iron-sulfur cluster assembly protein SufD" />
+          <Members vimssId="2716784" LocusId="MED193_04281" Name="PF04893" Function="hypothetical protein" />
+          <Members vimssId="2716783" LocusId="MED193_04276" Name="PF04893" Function="hypothetical protein" />
+          <Members vimssId="2716782" LocusId="MED193_04271" Name="sufS2" Function="Cysteine desulfurase (EC 2.8.1.7), SufS subfamily" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2717449" LocusId="MED193_10358" Name="fssA" Function="putative nifU-like iron-sulphur cluster scaffold protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1982</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="repressor (activator)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17953" />
+      <Effector>Iron-sulfur cluster redox state; Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis; Iron homeostasis</Pathway>
+      <LocusTag Key="MED193_04321" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2716792&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis; Iron homeostasis</BiologicalProcess>
+      <Regulog Key="IscR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1938" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_17504" Name="hmuR" Position="69" Score="4">
+          <Sequence>GTTGACTGTTTTTATCACC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_15812" Name="TM1040_2633" Position="-139" Score="5.3">
+          <Sequence>TCTGACTATTTTTGTCAGA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_04321" Name="iscR" Position="-144" Score="4">
+          <Sequence>CTTGACGAATTCCATCAGC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_19679" Name="MED193_19679" Position="-118" Score="5.3">
+          <Sequence>TCTGACAAAAATAGTCAGA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_19679" Name="MED193_19679" Position="-91" Score="4.7">
+          <Sequence>CTTGATTGTTTTAATCAGG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_19654" Name="bfd" Position="-103" Score="4.4">
+          <Sequence>CCTGACAAAAACAATAAGC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_19654" Name="bfd" Position="-72" Score="4.5">
+          <Sequence>CCTTATTGTTTTTGTCAGA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_12813" Name="fbpB" Position="-58" Score="3.8">
+          <Sequence>TCCGACCAAAATGATCGCA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_12793" Name="fbpA" Position="-65" Score="4.2">
+          <Sequence>ACTGACAAAAGAAGTCGGA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_22076" Name="fecB" Position="-355" Score="4">
+          <Sequence>CTTGACAAAACCTGTAAGG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2717077" LocusId="MED193_22076" Name="fecB" Function="ABC-type Fe3+-hydroxamate transport system, periplasmic component" />
+          <Members vimssId="2717076" LocusId="MED193_22071" Name="fecC" Function="ABC-type Fe3+-siderophore transport system, permease component" />
+          <Members vimssId="2717075" LocusId="MED193_22066" Name="fecD" Function="ABC-type Fe3+-siderophore transport system, permease component" />
+          <Members vimssId="2717074" LocusId="MED193_22061" Name="fecE" Function="ABC Fe+3-siderophore transporter, ATPase subunit" />
+          <Members vimssId="2717073" LocusId="MED193_22056" Name="mxcB" Function="Siderophore-interacting protein" />
+          <Members vimssId="2717072" LocusId="MED193_22051" Name="exbB" Function="Ferric siderophore transport system, biopolymer transport protein ExbB" />
+          <Members vimssId="2717071" LocusId="MED193_22046" Name="exbD1" Function="Biopolymer transport protein ExbD/TolR" />
+          <Members vimssId="2717070" LocusId="MED193_22041" Name="exbD2" Function="Biopolymer transport protein ExbD/TolR" />
+          <Members vimssId="2717069" LocusId="MED193_22036" Name="tonB" Function="Ferric siderophore transport system, periplasmic binding protein TonB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2714418" LocusId="MED193_17504" Name="hmuR" Function="TonB-dependent hemin , ferrichrome receptor" />
+          <Members vimssId="2714419" LocusId="MED193_17509" Name="Mlr1156" Function="Mlr1156 protein" />
+          <Members vimssId="2714420" LocusId="MED193_17514" Name="exbB" Function="Ferric siderophore transport system, biopolymer transport protein ExbB" />
+          <Members vimssId="2714421" LocusId="MED193_17519" Name="exbD1" Function="Ferric siderophore transport system, periplasmic binding protein ExbD" />
+          <Members vimssId="2714422" LocusId="MED193_17524" Name="exbD2" Function="Ferric siderophore transport system, periplasmic binding protein ExbD" />
+          <Members vimssId="2714423" LocusId="MED193_17529" Name="tonB" Function="Ferric siderophore transport system, periplasmic binding protein TonB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2717837" LocusId="MED193_12813" Name="fbpB" Function="Ferric iron ABC transporter, permease protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2715643" LocusId="MED193_15812" Name="TM1040_2633" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2714850" LocusId="MED193_19654" Name="bfd" Function="Bacterioferritin-associated ferredoxin" />
+          <Members vimssId="2714849" LocusId="MED193_19649" Name="bfr" Function="Bacterioferritin (cytochrome b1)" />
+          <Members vimssId="2714848" LocusId="MED193_19644" Name="COG3488" Function="Probable thiol oxidoreductase with 2 cytochrome c heme-binding sites" />
+          <Members vimssId="2714847" LocusId="MED193_19639" Name="COG3489" Function="Predicted periplasmic lipoprotein" />
+          <Members vimssId="2714846" LocusId="MED193_19634" Name="COG3490" Function="Uncharacterised conserved protein UCP028101" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2714855" LocusId="MED193_19679" Name="MED193_19679" Function="hypothetical protein" />
+          <Members vimssId="2714854" LocusId="MED193_19674" Name="hemP" Function="Hemin uptake protein HemP" />
+          <Members vimssId="2714853" LocusId="MED193_19669" Name="null" Function="hypothetical protein" />
+          <Members vimssId="2714852" LocusId="MED193_19664" Name="irpA" Function="Iron-regulated protein A precursor" />
+          <Members vimssId="2714851" LocusId="MED193_19659" Name="hmuX" Function="hypothetical porin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2716792" LocusId="MED193_04321" Name="iscR" Function="Iron-sulfur cluster regulator IscR, Rrf2 family" />
+          <Members vimssId="2716791" LocusId="MED193_04316" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7)" />
+          <Members vimssId="2716790" LocusId="MED193_04311" Name="sufB" Function="Iron-sulfur cluster assembly protein SufB" />
+          <Members vimssId="2716789" LocusId="MED193_04306" Name="null" Function="hypothetical protein" />
+          <Members vimssId="2716788" LocusId="MED193_04301" Name="RSP_0439" Function="protein of unknown function DUF74" />
+          <Members vimssId="2716787" LocusId="MED193_04296" Name="Jann_2361" Function="ExoV domain protein" />
+          <Members vimssId="2716786" LocusId="MED193_04291" Name="sufC" Function="Iron-sulfur cluster assembly ATPase protein SufC" />
+          <Members vimssId="2716785" LocusId="MED193_04286" Name="sufD" Function="Iron-sulfur cluster assembly protein SufD" />
+          <Members vimssId="2716784" LocusId="MED193_04281" Name="RSP_0433" Function="hypothetical protein" />
+          <Members vimssId="2716783" LocusId="MED193_04276" Name="null" Function="hypothetical protein" />
+          <Members vimssId="2716782" LocusId="MED193_04271" Name="sufS" Function="Cysteine desulfurase (EC 2.8.1.7), SufS subfamily" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2717833" LocusId="MED193_12793" Name="fbpA" Function="Ferric iron ABC transporter, iron-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1938</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28395" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="MED193_03687" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2717338&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2986" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_12418" Name="umuD" Position="-30" Score="0.2">
+          <Sequence>GAACAAAGGCAGAAC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_07538" Name="uvrD" Position="-57" Score="1.3">
+          <Sequence>GAACAGAATGCGAAC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_03687" Name="lexA" Position="-47" Score="1.5">
+          <Sequence>GAACATGAATAGAAC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_03687" Name="lexA" Position="-58" Score="-0.5">
+          <Sequence>ACACAAAACGGGAAC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_09210" Name="ruvC" Position="-64" Score="5.3">
+          <Sequence>GTTCGCCTTTTGTGC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_03447" Name="uvrA" Position="-117" Score="4.8">
+          <Sequence>GTTCTTCTAACGTTC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_22781" Name="PF04055" Position="-39" Score="5.2">
+          <Sequence>GTTCTTCATTTGTTC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_04366" Name="recA" Position="-93" Score="4.8">
+          <Sequence>GTTCTCCTTTTGACC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_08438" Name="PF06319" Position="-26" Score="5.2">
+          <Sequence>GTTCTCTTATTGTTC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_12443" Name="umuD" Position="-44" Score="5.1">
+          <Sequence>GTTCACTTTATGTTC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2718339" LocusId="MED193_12418" Name="umuD" Function="DNA polymerase V, subunit UmuD" />
+          <Members vimssId="2718340" LocusId="MED193_12423" Name="umuC" Function="DNA polymerase V, subunit UmuC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2716184" LocusId="MED193_07538" Name="uvrD" Function="ATP-dependent DNA helicase II" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2717338" LocusId="MED193_03687" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2717659" LocusId="MED193_09210" Name="ruvC" Function="Crossover junction endodeoxyribonuclease RuvC (EC 3.1.22.4)" />
+          <Members vimssId="2717658" LocusId="MED193_09205" Name="ruvA" Function="Holliday junction DNA helicase RuvA" />
+          <Members vimssId="2717657" LocusId="MED193_09200" Name="ruvA" Function="Holliday junction DNA helicase RuvA" />
+          <Members vimssId="2717656" LocusId="MED193_09195" Name="ruvB" Function="Holliday junction DNA helicase RuvB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2717290" LocusId="MED193_03447" Name="uvrA" Function="Excinuclease ABC subunit A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2717222" LocusId="MED193_22781" Name="PF04055" Function="Radical SAM domain protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2716801" LocusId="MED193_04366" Name="recA" Function="Recombinase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2716369" LocusId="MED193_08438" Name="PF06319" Function="Transcription elongation factor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2718344" LocusId="MED193_12443" Name="umuD" Function="DNA polymerase V, subunit UmuD" />
+          <Members vimssId="2718343" LocusId="MED193_12438" Name="umuC" Function="DNA polymerase V, subunit UmuC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2986</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="LiuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28591" />
+      <Effector />
+      <Pathway>Branched-chain amino acid degradation</Pathway>
+      <LocusTag Key="MED193_05934" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2715862&amp;disp=0" />
+      <BiologicalProcess>Branched-chain amino acid degradation</BiologicalProcess>
+      <Regulog Key="LiuR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3007" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_05934" Name="liuR" Position="-105" Score="6.4">
+          <Sequence>GCTTACGTAAACGTCAAG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2715862" LocusId="MED193_05934" Name="liuR" Function="Predicted transcriptional regulator LiuR of leucine degradation pathway, MerR family" />
+          <Members vimssId="2715863" LocusId="MED193_05939" Name="acdH" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+          <Members vimssId="2715864" LocusId="MED193_05944" Name="null" Function="hypothetical protein" />
+          <Members vimssId="2715865" LocusId="MED193_05949" Name="acdA3" Function="Acyl-CoA dehydrogenase, long-chain specific, mitochondrial precursor (EC 1.3.99.13)" />
+          <Members vimssId="2715866" LocusId="MED193_05954" Name="PF04828" Function="Glutathione S-transferase, unnamed subgroup (EC 2.5.1.18)" />
+          <Members vimssId="2715867" LocusId="MED193_05959" Name="acdA" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16) @ Acetyl-CoA acetyltransferase (EC 2.3.1.9)" />
+          <Members vimssId="2715868" LocusId="MED193_05964" Name="null" Function="hypothetical protein" />
+          <Members vimssId="2715869" LocusId="MED193_05969" Name="acdB" Function="Enoyl-CoA hydratase [isoleucine degradation] (EC 4.2.1.17) / 3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35) / 3-hydroxybutyryl-CoA epimerase (EC 5.1.2.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3007</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor (activator)">
+      <Regulator Key="MetR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56722" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="MED193_22236" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2717109&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5794" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_22236" Name="metR" Position="-49" Score="5">
+          <Sequence>GTGAAACAATTTCAT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_22231" Name="metF" Position="-62" Score="5">
+          <Sequence>ATGAAATTGTTTCAC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2717109" LocusId="MED193_22236" Name="metR" Function="Homocysteine-responsive transcriptional regulator of methionine metabolism, LysR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2717108" LocusId="MED193_22231" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5794</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Mur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19533" />
+      <Effector>Manganese ion, (Mn2+)</Effector>
+      <Pathway>Manganese homeostasis</Pathway>
+      <LocusTag Key="MED193_22541" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2717172&amp;disp=0" />
+      <BiologicalProcess>Manganese homeostasis</BiologicalProcess>
+      <Regulog Key="Mur - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2110" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_12968" Name="sitA" Position="-56" Score="4.8">
+          <Sequence>GTTGAGAATCGTTCTCATA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_12968" Name="sitA" Position="-87" Score="5.1">
+          <Sequence>GTTGAGAATAATTCTCATT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_17849" Name="irr" Position="-40" Score="5">
+          <Sequence>AATGCAATTCATTCGCAGT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2714487" LocusId="MED193_17849" Name="irr" Function="Iron-responsive regulator Irr" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2717868" LocusId="MED193_12968" Name="sitA" Function="Manganese ABC transporter, periplasmic-binding protein SitA" />
+          <Members vimssId="2717867" LocusId="MED193_12963" Name="sitB" Function="Manganese ABC transporter, ATP-binding protein SitB" />
+          <Members vimssId="2717866" LocusId="MED193_12958" Name="sitC" Function="Manganese ABC transporter, inner membrane permease protein SitC" />
+          <Members vimssId="2717865" LocusId="MED193_12953" Name="sitD" Function="Manganese ABC transporter, inner membrane permease protein SitD" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2110</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15605" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="MED193_08498" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2716381&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1675" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_03787" Name="nrdJ" Position="-204" Score="4.9">
+          <Sequence>CCACAATATCTAGTTG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2717359" LocusId="MED193_03787" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1675</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrtR" RegulationMode="repressor">
+      <Regulator Key="NrtR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15437" />
+      <Effector>Adenosine diphosphate ribose</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="MED193_19424" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2714804&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NrtR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1656" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_19424" Name="nrtR" Position="-38" Score="6.4">
+          <Sequence>TTATATCTAAATAGGTAATAA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_19424" Name="nrtR" Position="-23" Score="6.4">
+          <Sequence>TAATAACTAAATAGGATATAA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2714804" LocusId="MED193_19424" Name="nrtR" Function="Nudix-related transcriptional regulator NrtR" />
+          <Members vimssId="2714805" LocusId="MED193_19429" Name="nrtX" Function="NrtR-regulated hypothetical OrfX, Band 7 protein domain" />
+          <Members vimssId="2714806" LocusId="MED193_19434" Name="nrtY" Function="NrtR-regulated hypothetical OrfY, PpnK-type ATP-NAD kinase domain" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1656</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19375" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="MED193_04611" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2716851&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2092" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_04621" Name="nifR3" Position="-72" Score="4.7">
+          <Sequence>CGCACAAGGATTAGGCA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_04621" Name="nifR3" Position="-165" Score="5.2">
+          <Sequence>TGCTTAAAATTTAGGCA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_04641" Name="amtB2" Position="-130" Score="4.2">
+          <Sequence>CGCCTATTCTTTAATCA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_15832" Name="glnK" Position="-188" Score="4.3">
+          <Sequence>CGCCTAATTTCTGGGCG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_07968" Name="ureD" Position="-83" Score="4.2">
+          <Sequence>TGCCCAAAAGTTACGCA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_05036" Name="glnB" Position="-145" Score="4.2">
+          <Sequence>CGCCTATTTTTAATGCA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_05036" Name="glnB" Position="-125" Score="4.4">
+          <Sequence>TGCCTACTTATTAATCA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_14852" Name="nasT" Position="-91" Score="4.6">
+          <Sequence>AGCCTAAAAATTGAGCA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_07963" Name="urtA" Position="-201" Score="4.2">
+          <Sequence>TGCGTAACTTTTGGGCA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_14842" Name="nrtA" Position="-232" Score="4.5">
+          <Sequence>TGCCCAAAAACTAGGCG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2716857" LocusId="MED193_04641" Name="amtB2" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2715446" LocusId="MED193_14842" Name="nrtA" Function="Nitrate ABC transporter, substrate-binding component" />
+          <Members vimssId="2715445" LocusId="MED193_14837" Name="nrtB" Function="Nitrate ABC transporter, permease component" />
+          <Members vimssId="2715444" LocusId="MED193_14832" Name="nrtC" Function="Nitrate ABC transporter, ATP-binding component" />
+          <Members vimssId="2715443" LocusId="MED193_14827" Name="nasD" Function="Nitrite reductase, large subunit (EC 1.7.1.4)" />
+          <Members vimssId="2715442" LocusId="MED193_14822" Name="nasE" Function="Nitrite reductase, small subunit (EC 1.7.1.4)" />
+          <Members vimssId="2715441" LocusId="MED193_14817" Name="nasA" Function="Assimilatory nitrate reductase large subunit (EC:1.7.99.4)" />
+          <Members vimssId="2715440" LocusId="MED193_14812" Name="COG0547" Function="Glycosyl transferase, family 3" />
+          <Members vimssId="2715439" LocusId="MED193_14807" Name="cysG" Function="Uroporphyrinogen-III methyltransferase (EC 2.1.1.107)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2716272" LocusId="MED193_07963" Name="urtA" Function="Urea ABC transporter, substrate-binding component" />
+          <Members vimssId="2716271" LocusId="MED193_07958" Name="urtB" Function="Urea ABC transporter, permease component 1" />
+          <Members vimssId="2716270" LocusId="MED193_07953" Name="urtB" Function="Urea ABC transporter, permease component 2" />
+          <Members vimssId="2716269" LocusId="MED193_07948" Name="urtD" Function="Urea ABC transporter, ATP-binding component 1" />
+          <Members vimssId="2716268" LocusId="MED193_07943" Name="urtE" Function="Urea ABC transporter, ATP-binding component 1" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2716937" LocusId="MED193_05036" Name="glnB" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="2716938" LocusId="MED193_05041" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2716853" LocusId="MED193_04621" Name="nifR3" Function="Predicted oxidoreductase, FAD binding" />
+          <Members vimssId="2716852" LocusId="MED193_04616" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="2716851" LocusId="MED193_04611" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+          <Members vimssId="2716850" LocusId="MED193_04606" Name="ntrY" Function="Nitrogen regulation protein NtrY, sensor kinase (EC 2.7.3.-)" />
+          <Members vimssId="2716849" LocusId="MED193_04601" Name="ntrX" Function="Nitrogen assimilation transcriptional regulator NtrX, Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2716273" LocusId="MED193_07968" Name="ureD" Function="Urease accessory protein, UreD" />
+          <Members vimssId="2716274" LocusId="MED193_07973" Name="ureA" Function="Urease, gamma subunit (EC 3.5.1.5)" />
+          <Members vimssId="2716276" LocusId="MED193_07983" Name="ureB" Function="Urease, beta subunit (EC 3.5.1.5)" />
+          <Members vimssId="2716277" LocusId="MED193_07988" Name="ureC" Function="Urease, alpha subunit (EC 3.5.1.5)" />
+          <Members vimssId="2716278" LocusId="MED193_07993" Name="ureE" Function="Urease accessory protein, UreE" />
+          <Members vimssId="2716279" LocusId="MED193_07998" Name="ureF" Function="Urease accessory protein, UreF" />
+          <Members vimssId="2716280" LocusId="MED193_08003" Name="ureG" Function="Urease accessory protein, UreG" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2715448" LocusId="MED193_14852" Name="nasT" Function="Nitrogen assimilation attenuator protein NasT" />
+          <Members vimssId="2715447" LocusId="MED193_14847" Name="nrtA2" Function="Nitrate ABC transporter, substrate-binding component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2715647" LocusId="MED193_15832" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="2715646" LocusId="MED193_15827" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2092</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PaaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38922" />
+      <Effector>Phenylacetyl-CoA</Effector>
+      <Pathway>Phenylacetic acid degradation</Pathway>
+      <LocusTag Key="MED193_17324" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2714382&amp;disp=0" />
+      <BiologicalProcess>Phenylacetic acid degradation</BiologicalProcess>
+      <Regulog Key="PaaR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3974" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_17304" Name="paaZ" Position="-114" Score="6.7">
+          <Sequence>ATAAACCGACCGGACGGTCAAT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_17309" Name="paaF" Position="-95" Score="6.7">
+          <Sequence>ATTGACCGTCCGGTCGGTTTAT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2714378" LocusId="MED193_17304" Name="paaZ" Function="Aldehyde dehydrogenase (EC 1.2.1.3), PaaZ" />
+          <Members vimssId="2714377" LocusId="MED193_17299" Name="paaX" Function="Phenylacetic acid degradation operon negative regulatory protein paaX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2714379" LocusId="MED193_17309" Name="paaF" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+          <Members vimssId="2714380" LocusId="MED193_17314" Name="paaY" Function="thioesterase superfamily protein" />
+          <Members vimssId="2714381" LocusId="MED193_17319" Name="paaK" Function="Phenylacetate-coenzyme A ligase (EC 6.2.1.30)" />
+          <Members vimssId="2714382" LocusId="MED193_17324" Name="paaR" Function="Transcriptional regulator of phenylacetic acid degradation, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3974</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PhnF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31694" />
+      <Effector />
+      <Pathway>Phosphonate utilization</Pathway>
+      <LocusTag Key="MED193_17599" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2714437&amp;disp=0" />
+      <BiologicalProcess>Phosphonate utilization</BiologicalProcess>
+      <Regulog Key="PhnF - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3275" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_17604" Name="phnG" Position="-52" Score="5.1">
+          <Sequence>TTGTCTAGTTGTATAGAACA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_17599" Name="phnF" Position="-76" Score="4.8">
+          <Sequence>TGTTCTATACAACTAGACAA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2714437" LocusId="MED193_17599" Name="phnF" Function="Transcriptional regulator for phosphonate utilization, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2714438" LocusId="MED193_17604" Name="phnG" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnG" />
+          <Members vimssId="2714439" LocusId="MED193_17609" Name="phnH" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnH" />
+          <Members vimssId="2714440" LocusId="MED193_17614" Name="phnI" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnI" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3275</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30922" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="MED193_05524" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2715780&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3193" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_06029" Name="upp" Position="-97" Score="5.4">
+          <Sequence>CTTTGACCATCAGATCAAAA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_10378" Name="pntD" Position="-154" Score="4.7">
+          <Sequence>TTCGCACCAAACGGTCAAAA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_05534" Name="pydX" Position="-74" Score="6.1">
+          <Sequence>ATTTTACCAGTTGATAAAAA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_05524" Name="rutR" Position="-155" Score="6">
+          <Sequence>ATTTGACCAACTGGTCAAAC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_12973" Name="deoC" Position="-105" Score="5.5">
+          <Sequence>ATTTGTCCAAAAGGTCAAAT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_17244" Name="pytM" Position="74" Score="5">
+          <Sequence>TTTTTACCCTTTGGACAAGA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_05484" Name="pytD" Position="-60" Score="5.1">
+          <Sequence>ATTTGATCGAAGGGTCAAAT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_05519" Name="pydC" Position="-119" Score="6.1">
+          <Sequence>GTTTGACCAGTTGGTCAAAT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2717869" LocusId="MED193_12973" Name="deoC" Function="Deoxyribose-phosphate aldolase (EC 4.1.2.4)" />
+          <Members vimssId="2717870" LocusId="MED193_12978" Name="ald" Function="Aldehyde dehydrogenase (EC 1.2.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2715780" LocusId="MED193_05524" Name="rutR" Function="Transcriptional regulator RutR of pyrimidine catabolism, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2714365" LocusId="MED193_17244" Name="pytM" Function="Predicted pyrimidine ABC transporter, substrate-binding protein" />
+          <Members vimssId="2714364" LocusId="MED193_17239" Name="pytN" Function="Predicted pyrimidine ABC transporter, ATP-binding protein" />
+          <Members vimssId="2714363" LocusId="MED193_17234" Name="pytO" Function="Predicted pyrimidine ABC transporter, permease protein 1" />
+          <Members vimssId="2714362" LocusId="MED193_17229" Name="pytQ" Function="Predicted pyrimidine ABC transporter, permease protein 2" />
+          <Members vimssId="2714361" LocusId="MED193_17224" Name="codA" Function="Cytosine deaminase (EC 3.5.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2715881" LocusId="MED193_06029" Name="upp" Function="Uracil phosphoribosyltransferase (EC 2.4.2.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2717453" LocusId="MED193_10378" Name="pntD" Function="Predicted nucleoside ABC transporter, substrate-binding protein" />
+          <Members vimssId="2717454" LocusId="MED193_10383" Name="OG2516_07987" Function="Conserved hypothetical protein" />
+          <Members vimssId="2717455" LocusId="MED193_10388" Name="pntA" Function="Predicted nucleoside ABC transporter, ATP-binding protein" />
+          <Members vimssId="2717456" LocusId="MED193_10393" Name="pntB" Function="Predicted nucleoside ABC transporter, permease protein 1" />
+          <Members vimssId="2717457" LocusId="MED193_10398" Name="pntC" Function="Predicted nucleoside ABC transporter, permease protein 2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2715782" LocusId="MED193_05534" Name="pydX" Function="Pyridine nucleotide-disulphide oxidoreductase associated with reductive pyrimidine catabolism" />
+          <Members vimssId="2715781" LocusId="MED193_05529" Name="pydA" Function="Dihydropyrimidine dehydrogenase [NADP+] (EC 1.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2715779" LocusId="MED193_05519" Name="pydC" Function="Beta-ureidopropionase (EC 3.5.1.6)" />
+          <Members vimssId="2715778" LocusId="MED193_05514" Name="pydB" Function="phenylhydantoinase" />
+          <Members vimssId="2715777" LocusId="MED193_05509" Name="pytA" Function="Pyrimidine ABC transporter, ATP-binding protein" />
+          <Members vimssId="2715776" LocusId="MED193_05504" Name="MED193_05504" Function="Hypothetical protein" />
+          <Members vimssId="2715775" LocusId="MED193_05499" Name="pytB" Function="Pyrimidine ABC transporter, permease protein 1" />
+          <Members vimssId="2715774" LocusId="MED193_05494" Name="MED193_05494" Function="Hypothetical protein" />
+          <Members vimssId="2715773" LocusId="MED193_05489" Name="pytC" Function="Pyrimidine ABC transporter, permease protein 2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2715772" LocusId="MED193_05484" Name="pytD" Function="Pyrimidine ABC transporter, substrate-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3193</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="SPO0590" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=54538" />
+      <Effector />
+      <Pathway>Sugar utilization</Pathway>
+      <LocusTag Key="MED193_17089" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2714333&amp;disp=0" />
+      <BiologicalProcess>Sugar utilization</BiologicalProcess>
+      <Regulog Key="SPO0590 - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5565" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_17079" Name="dctP" Position="-275" Score="6.7">
+          <Sequence>CCATGTAAGCGCTTACATTG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_17079" Name="dctP" Position="-298" Score="6.1">
+          <Sequence>CAATGTAAGGGCTTGCATAA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_17089" Name="SPO0590" Position="-136" Score="6.7">
+          <Sequence>CAATGTAAGCGCTTACATGG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_17089" Name="SPO0590" Position="-113" Score="6.1">
+          <Sequence>TTATGCAAGCCCTTACATTG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2714331" LocusId="MED193_17079" Name="dctP" Function="C4-dicarboxylate ABC transporter, periplasmic component" />
+          <Members vimssId="2714330" LocusId="MED193_17074" Name="dctQ" Function="C4-dicarboxylate ABC transporter, small permease component" />
+          <Members vimssId="2714329" LocusId="MED193_17069" Name="dctM" Function="C4-dicarboxylate ABC transporter, large permease component" />
+          <Members vimssId="2714328" LocusId="MED193_17064" Name="hisD1" Function="putative histidinol dehydrogenase" />
+          <Members vimssId="2714327" LocusId="MED193_17059" Name="gno" Function="Gluconate 5-dehydrogenase (EC 1.1.1.69)" />
+          <Members vimssId="2714326" LocusId="MED193_17054" Name="sdh" Function="Sorbitol dehydrogenase (EC 1.1.1.14)" />
+          <Members vimssId="2714325" LocusId="MED193_17049" Name="usp" Function="Universal stress family protein" />
+          <Members vimssId="2714324" LocusId="MED193_17044" Name="comD" Function="Sulfopyruvate decarboxylase - alpha subunit (EC 4.1.1.79)" />
+          <Members vimssId="2714323" LocusId="MED193_17039" Name="comE" Function="Sulfopyruvate decarboxylase - beta subunit (EC 4.1.1.79)" />
+          <Members vimssId="2714322" LocusId="MED193_17034" Name="ldh" Function="L-lactate dehydrogenase (EC 1.1.2.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2714333" LocusId="MED193_17089" Name="SPO0590" Function="Transcriptional regulator, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5565</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="SoxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50646" />
+      <Effector>Paraquat</Effector>
+      <Pathway>Superoxide stress response</Pathway>
+      <LocusTag Key="MED193_10733" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2717524&amp;disp=0" />
+      <BiologicalProcess>Superoxide stress response</BiologicalProcess>
+      <Regulog Key="SoxR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5128" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_10733" Name="soxR" Position="-57" Score="6.1">
+          <Sequence>TTCTAAACCTAACTTTAGCT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_22126" Name="PF01370" Position="-57" Score="6.2">
+          <Sequence>AGCTAAAGTTAGCTTTAGAT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_10738" Name="PF00903" Position="-71" Score="6.1">
+          <Sequence>AGCTAAAGTTAGGTTTAGAA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2717087" LocusId="MED193_22126" Name="PF01370" Function="NAD-dependent epimerase/dehydratase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2717525" LocusId="MED193_10738" Name="PF00903" Function="Glyoxalase/bleomycin resistance protein/dioxygenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2717524" LocusId="MED193_10733" Name="soxR" Function="Redox-sensitive transcriptional activator, MerR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5128</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="TauR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62068" />
+      <Effector>Taurine</Effector>
+      <Pathway>Taurine utilization</Pathway>
+      <LocusTag Key="MED193_12203" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2718295&amp;disp=0" />
+      <BiologicalProcess>Taurine utilization</BiologicalProcess>
+      <Regulog Key="TauR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6378" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_12208" Name="xsc" Position="-116" Score="9.1">
+          <Sequence>TTGGATCTAT------------CTGGCCCTAT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_12173" Name="" Position="-130" Score="8.5">
+          <Sequence>CTGGATGCAA------------CTGGCCCTAG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2718296" LocusId="MED193_12208" Name="xsc" Function="Sulfoacetaldehyde acetyltransferase (EC 2.3.3.15)" />
+          <Members vimssId="2718297" LocusId="MED193_12213" Name="tauE" Function="Sulfite exporter" />
+          <Members vimssId="2718298" LocusId="MED193_12218" Name="ackA" Function="Acetate kinase (EC 2.7.2.1)" />
+          <Members vimssId="2718299" LocusId="MED193_12223" Name="tauZ" Function="Probable sulfate exporter tauZ" />
+          <Members vimssId="2718300" LocusId="MED193_12228" Name="bisC" Function="molybdopterin oxidoreductase Fe4S4 protein" />
+          <Members vimssId="2718301" LocusId="MED193_12233" Name="hybA" Function="4Fe-4S ferredoxin, iron-sulfur binding" />
+          <Members vimssId="2718302" LocusId="MED193_12238" Name="dmsC" Function="DMSO reductase anchor subunit (DmsC)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2718289" LocusId="MED193_12173" Name="null" Function="Taurine--pyruvate aminotransferase (EC 2.6.1.77)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6378</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16145" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="MED193_01515" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2716657&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1735" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_01520" Name="znuA" Position="-66" Score="5.6">
+          <Sequence>GAGATGTTATAAAATTACATGAG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_01515" Name="zur" Position="-111" Score="5.6">
+          <Sequence>CTCATGTAATTTTATAACATCTC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2716658" LocusId="MED193_01520" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2716657" LocusId="MED193_01515" Name="zur" Function="Zinc uptake regulation protein Zur" />
+          <Members vimssId="2716656" LocusId="MED193_01510" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="2716655" LocusId="MED193_01505" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1735</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45519" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_19614" Name="cfrX" Position="-216" Score="93.5">
+          <Sequence>GCGCAAGGGGGTTTTTGTTGGTTCCTGCAAATTGCAGGCGAAGAGGGAATGTGACAGGCTGATAGGGATTTTTGCTATCAGCTCTCAAGCACAGCCGCCCCCGCGACCGTGACCGGAAAGGTCTCTGATGCCACTGGCCCACCGTGCCGGGAAGGCAAGAGCACCGCAGACAGGCATCGCCCGTCGAAATCCGCAAGCCGGGAGACCTGCCAACGCATGAGACAACGAG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_19549" Name="cbtC" Position="-280" Score="126.3">
+          <Sequence>AGAGCAGTGACCTATCGATGGTTCCACTGAAGCCCAAGGCTTTTGGATGAAAAGGGAATCCGGTGAGGTGTAGCCAAAAGGCGCCAAACCCGGAACTGCCCCCGCAACTGTGAGCGGCGAGCCACTGGGATAAGCCACTGATCTGCACAGCAGGTCGGGAAGGCCCCAGACCGGCCCAGACCCGCAAGTCAGGAGACCTGCCCTCGTGAGTTGACCATAG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_11852" Name="RSP_0787" Position="-441" Score="123.2">
+          <Sequence>ATAGCCGTGTAACGGATGGTTCTTGCGACGCATAAATCTAGTGTCCGGGATGAAAAGGGAACGTGGTGCGGAGAGGTTAGTTCAGCCGATCCAATTCCACGACTGCCCCCGCAACTGTAAGCGGTGAGCGCTTCGGATTAACCACTGGTACAGGGACATGATCCCCGGCTGGGAAGGACCGAAATCGCGTTGACCCGCAAGTCAGGAGACCTGCCATCACGTATGAAACTCGAAA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_18509" Name="btuF" Position="-303" Score="112">
+          <Sequence>TCTAAACGGCAAGAGTCGGTTTTCTAGGAAATTAATAGGGAATTCGTGGCGACAAACCTGTAGCTAAGCGAAACTGCCCCCGCAACTGTATGCGATACGCCGCATTTCGAGATCCACTGGGCTGAAGGGCCTGGGAAGGTGAAATGAGGCTTAAGTCGTTAGTCAGGAGACCTGCCGACATGACACTGGAACCGGA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2714829" LocusId="MED193_19549" Name="cbtC" Function="Predicted cobalt transporter CbtC" />
+          <Members vimssId="2714828" LocusId="MED193_19544" Name="cobF" Function="Precorrin-6A synthase (EC 2.1.1.152)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2714842" LocusId="MED193_19614" Name="cfrX" Function="Predicted metal-binding protein" />
+          <Members vimssId="2714841" LocusId="MED193_19609" Name="cobW" Function="CobW GTPase involved in cobalt insertion for B12 biosynthesis" />
+          <Members vimssId="2714840" LocusId="MED193_19604" Name="cobN" Function="CobN component of cobalt chelatase involved in B12 biosynthesis" />
+          <Members vimssId="2714839" LocusId="MED193_19599" Name="null" Function="Cobalamin biosynthesis protein CobG" />
+          <Members vimssId="2714838" LocusId="MED193_19594" Name="cbiC" Function="Cobalt-precorrin-8x methylmutase (EC 5.4.1.2)" />
+          <Members vimssId="2714837" LocusId="MED193_19589" Name="cbiL" Function="Cobalt-precorrin-2 C20-methyltransferase (EC 2.1.1.130)" />
+          <Members vimssId="2714836" LocusId="MED193_19584" Name="cbiH" Function="Cobalt-precorrin-3b C17-methyltransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2714620" LocusId="MED193_18509" Name="btuF" Function="ABC transporter (iron.B12.siderophore.hemin) , periplasmic substrate-binding component" />
+          <Members vimssId="2714621" LocusId="MED193_18514" Name="btuC" Function="ABC transporter (iron.B12.siderophore.hemin) , permease component" />
+          <Members vimssId="2714622" LocusId="MED193_18519" Name="btuD" Function="ABC transporter (iron.B12.siderophore.hemin) , ATP-binding component" />
+          <Members vimssId="2714623" LocusId="MED193_18524" Name="petE" Function="Pseudoazurin precursor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2718682" LocusId="MED193_11852" Name="RSP_0787" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46014" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_14447" Name="ribH2" Position="-292" Score="98.8">
+          <Sequence>GCGCTGTTCTCAGGGCGGGGCGAAATTCCCCACCGGCGGTATGCGAGGGGTCTCCCTTTGCAAGCCCGCGAGCGGCTTTTGCTGTGTCCACGATCCAAAAAGTGGGAACCGGTTTTTGGATGAATTGTGGAACACCAGCAAAAGTGTCAGCAGATCTGGTGTGATTCCAGAGCCGACGGTCATAGTCCGGATGGAAGAGAACGTGC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2715366" LocusId="MED193_14447" Name="ribH2" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00504" RegulationMode="RF00504">
+      <Regulator Key="Glycine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46254" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="Glycine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_00175" Name="dadA" Position="-187" Score="55.4">
+          <Sequence>CCAAGCTGTCACAGGAGAGGCCGACCCAGTCGGCGCCGAAGGAGCAACCCCCCGGCACCTCTCAGGCAAAAGGACTGTGATCAGCGC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_09370" Name="gcvH" Position="-348" Score="32.7">
+          <Sequence>CCCTGTGTATATGGGAGAACCGTCGCTGTGATGTCGGGCCTTTGGCCTGCCCCGCAAGCTCGGTGCCGAAGGAGCAACCGCCCCGGAAACTCTCAGGCAGAAGGGACCTTATAC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_09370" Name="gcvH" Position="-235" Score="42.2">
+          <Sequence>CACGAAAGACTCTGGAGAGAGCTCGAGGGAACTCGAGCCGCCGAAGGGATAACGATCTCAGGCACCGGGACAGAGGGGGCATC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2718022" LocusId="MED193_00175" Name="dadA" Function="D-amino acid dehydrogenase small subunit (EC 1.4.99.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2717691" LocusId="MED193_09370" Name="gcvH" Function="Glycine cleavage system H protein" />
+          <Members vimssId="2717690" LocusId="MED193_09365" Name="gcvP" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P protein) (EC 1.4.4.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00114" RegulationMode="RF00114">
+      <Regulator Key="S15" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45624" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="S15" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_13063" Name="rpsO" Position="-60" Score="21.6">
+          <Sequence>GCCTGCGCTGGACGACATCCCGGCCTGTGCCATCACTCTAACCTTTTAAAGGAGACCCCGATGTCGATCACAGCTGAAGAAAAAGCACGCCTGATGAAAGAATTCGCAACCAAAGAAGG</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2717887" LocusId="MED193_13063" Name="rpsO" Function="SSU ribosomal protein S15p (S13e)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01727" RegulationMode="RF01727">
+      <Regulator Key="SAM-SAH" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47278" />
+      <Effector>S-adenosylmethionine; S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="SAM-SAH" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_17904" Name="metK" Position="-54" Score="51.9">
+          <Sequence>TCCTCTCACAACGGCTTCCTGACGTGACGAGGTTAACCCAATGGAGCATT</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2714498" LocusId="MED193_17904" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00521" RegulationMode="RF00521">
+      <Regulator Key="SAM_alpha" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45699" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="SAM_alpha" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_20939" Name="metY" Position="-135" Score="58.9">
+          <Sequence>ATCAACACCGTGGCGATTTGTAACCGGATTGCGGGCCACGTTAAATATCCGCTAAAGAGGTCAGGATGTGAAGGACCC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2715107" LocusId="MED193_20939" Name="metY" Function="O-succinylhomoserine sulfhydrylase (EC 2.5.1.48) / O-acetylhomoserine sulfhydrylase (EC 2.5.1.49)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45744" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_07728" Name="thiC" Position="-246" Score="49.9">
+          <Sequence>TAGCCTACGCAGGGGAGTCCCACCGAGGGGACTGAGAGGCTGACAGGGCAGAGCAATCTGACCGGCGACGCGACCCTTAGAACCTGACCCAGTTGACACTGGCGTAGGAAGCTAGGACGCATTGCTTGC</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED193_14432" Name="thiB" Position="-128" Score="67">
+          <Sequence>GAGATACCTCGGGGTGCCAGGACGACATTGGCTGAGAGTAAACCCGTTGAACCTGAACCGGCTAAAACCGGCGGAGGGAAGGTTTCGGAGTTCCTCCA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2715363" LocusId="MED193_14432" Name="thiB" Function="Thiamin ABC transporter, substrate-binding component" />
+          <Members vimssId="2715364" LocusId="MED193_14437" Name="thiP" Function="Thiamin ABC transporter, transmembrane component" />
+          <Members vimssId="2715365" LocusId="MED193_14442" Name="thiQ" Function="Thiamin ABC transporter, ATPase component / Thiamine transport ATP-binding protein thiQ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2716225" LocusId="MED193_07728" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+          <Members vimssId="2716226" LocusId="MED193_07733" Name="thiO" Function="Glycine oxidase ThiO (EC 1.4.3.19)" />
+          <Members vimssId="2716227" LocusId="MED193_07738" Name="thiS" Function="Sulfur carrier protein ThiS" />
+          <Members vimssId="2716228" LocusId="MED193_07743" Name="thiG" Function="Thiazole biosynthesis protein ThiG" />
+          <Members vimssId="2716229" LocusId="MED193_07748" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+          <Members vimssId="2716230" LocusId="MED193_07753" Name="thiF" Function="Thiamine biosynthesis protein ThiF" />
+          <Members vimssId="2716231" LocusId="MED193_07758" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00517" RegulationMode="RF00517">
+      <Regulator Key="serC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45669" />
+      <Effector />
+      <Pathway>Serine biosynthesis</Pathway>
+      <LocusTag Key="serC" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED193_13323" Name="serC" Position="-53" Score="66.7">
+          <Sequence>GCGGCGGGACACCCTTCCCCAACGAAGGGCAGATATCTGTAAGGATAGCATCA</Sequence>
+          <Bacteria>Roseobacter sp. MED193</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2717939" LocusId="MED193_13323" Name="serC" Function="Phosphoserine aminotransferase (EC 2.6.1.52)" />
+          <Members vimssId="2717938" LocusId="MED193_13318" Name="serA" Function="D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

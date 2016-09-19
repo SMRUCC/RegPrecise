@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Methanobrevibacter ruminantium M1" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="Phr" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53181" />
+      <Effector />
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="mru_2037" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10383072&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="Phr - Methanobacteriales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5427" />
+      <RegulatorySites>
+        <FastaObject LocusTag="mru_2037" Name="phr" Position="-149" Score="5.8">
+          <Sequence>TTTAGTAACAAAAAGTTAATATA</Sequence>
+          <Bacteria>Methanobrevibacter ruminantium M1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="mru_2037" Name="phr" Position="-238" Score="6.4">
+          <Sequence>TTTAGTAACAAAATGTTATATAA</Sequence>
+          <Bacteria>Methanobrevibacter ruminantium M1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="mru_2038" Name="grpE" Position="-448" Score="5.4">
+          <Sequence>TAAAATTACTTTTTGTAAGAAAA</Sequence>
+          <Bacteria>Methanobrevibacter ruminantium M1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="mru_2038" Name="grpE" Position="-414" Score="6.4">
+          <Sequence>TTATATAACATTTTGTTACTAAA</Sequence>
+          <Bacteria>Methanobrevibacter ruminantium M1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10383073" LocusId="mru_2038" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="10383074" LocusId="mru_2039" Name="dnaK" Function="Chaperone protein DnaK" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10383072" LocusId="mru_2037" Name="phr" Function="Heat shock response regulator Phr, ArsR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5427</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

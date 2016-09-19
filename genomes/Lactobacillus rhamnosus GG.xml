@@ -1,0 +1,2261 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Lactobacillus rhamnosus GG" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="AgaR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46356" />
+      <Effector>N-acetylgalactosamine</Effector>
+      <Pathway>N-acetylgalactosamine utilization</Pathway>
+      <LocusTag Key="LGG_00332" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7617614&amp;disp=0" />
+      <BiologicalProcess>N-acetylgalactosamine utilization</BiologicalProcess>
+      <Regulog Key="AgaR2 - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4689" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_00332" Name="agaR2" Position="-30" Score="4.5">
+          <Sequence>ATGTGGTTGGTACCACGT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7617614" LocusId="LGG_00332" Name="agaR2" Function="N-acetylgalactosamine utilization transcriptional regulator AgaR2, GntR family" />
+          <Members vimssId="7617615" LocusId="LGG_00333" Name="agaS" Function="Galactosamine-6-phosphate isomerase (EC 5.3.1.-)" />
+          <Members vimssId="7617616" LocusId="LGG_00334" Name="agaA" Function="N-acetylgalactosamine-6-phosphate deacetylase (EC 3.5.1.25)" />
+          <Members vimssId="7617618" LocusId="LGG_00336" Name="bgaC" Function="Beta-galactosidase (EC 3.2.1.23)" />
+          <Members vimssId="7617619" LocusId="LGG_00337" Name="gadV" Function="Predicted galactosamine disaccharide-specific PTS, EIIB component (EC 2.7.1.69)" />
+          <Members vimssId="7617620" LocusId="LGG_00338" Name="gadW" Function="Predicted galactosamine disaccharide-specific PTS, EIIC component (EC 2.7.1.69)" />
+          <Members vimssId="7617621" LocusId="LGG_00339" Name="gadE" Function="Predicted galactosamine disaccharide-specific PTS, EIID component (EC 2.7.1.69)" />
+          <Members vimssId="7617622" LocusId="LGG_00340" Name="gadF" Function="Predicted galactosamine disaccharide-specific PTS, EIIA component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4689</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor, activator">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42101" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine degradation; Arginine biosynthesis</Pathway>
+      <LocusTag Key="LGG_01785" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7619067&amp;disp=0" />
+      <BiologicalProcess>Arginine degradation; Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4344" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_01356" Name="artPQ" Position="-56" Score="4.3">
+          <Sequence>ATTGCATAAAAATTGAAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02816" Name="artP2" Position="-46" Score="4.4">
+          <Sequence>AATGAGTATATATTCAAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7620098" LocusId="LGG_02816" Name="artP2" Function="Arginine ABC transporter, substrate-binding and permease protein" />
+          <Members vimssId="7620099" LocusId="LGG_02817" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+          <Members vimssId="7620100" LocusId="LGG_02818" Name="argH" Function="Argininosuccinate lyase (EC 4.3.2.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7618638" LocusId="LGG_01356" Name="artPQ" Function="Arginine ABC transporter, substrate-binding and permease protein" />
+          <Members vimssId="7618639" LocusId="LGG_01357" Name="artM" Function="Arginine ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4344</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="CcpA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34351" />
+      <Effector>HPr, phosphocarrier protein; Fructose-1,6-bisphosphate</Effector>
+      <Pathway>Carbon catabolism</Pathway>
+      <LocusTag Key="LGG_00793" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7618075&amp;disp=0" />
+      <BiologicalProcess>Carbon catabolism</BiologicalProcess>
+      <Regulog Key="CcpA - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3511" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_02733" Name="ulaG" Position="-68" Score="4.7">
+          <Sequence>TTGTAAGCGCAATCAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02685" Name="fucI" Position="-87" Score="4.7">
+          <Sequence>ATGAAAGCGCTTATTA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02722" Name="sorD" Position="-47" Score="4.4">
+          <Sequence>AAGAAAACGCTACCAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00372" Name="rbsR" Position="-89" Score="4.5">
+          <Sequence>TTGACAGCGCTTCCAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00606" Name="ldh" Position="-94" Score="4.5">
+          <Sequence>ATGAAATCGGATACAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00793" Name="ccpA" Position="-95" Score="4">
+          <Sequence>AGTAAAACGCTTGCAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00644" Name="glpK" Position="-51" Score="5.1">
+          <Sequence>TAGAAAACGTTTTCAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02823" Name="pts20B" Position="-91" Score="4.2">
+          <Sequence>CTGAAAGCGCTTGTAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02577" Name="lacX" Position="-36" Score="4.7">
+          <Sequence>ATGAATGCGTTTTCTT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00653" Name="galK" Position="-64" Score="4.7">
+          <Sequence>ATAAAAACGGTTACAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02032" Name="fbp" Position="-82" Score="4.8">
+          <Sequence>TTGAAACCGTATACAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01221" Name="pnuC" Position="-158" Score="4.1">
+          <Sequence>ATGAAAAGGGTTTCCA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02912" Name="mtlA" Position="-65" Score="4.5">
+          <Sequence>TTGTCAGCGATTACAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02691" Name="rhaY" Position="-64" Score="4.8">
+          <Sequence>ATGTAAGCGGTTAAAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02762" Name="LBA0143" Position="-77" Score="4.8">
+          <Sequence>ATGAATGCGGTTACAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01876" Name="pck" Position="-85" Score="4.4">
+          <Sequence>GTGAAAGCCTTTTCAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02307" Name="cad" Position="-115" Score="4.5">
+          <Sequence>GAGAAAGCGCTTATAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02679" Name="lhv_0924" Position="-170" Score="4.7">
+          <Sequence>TTAAATGCGCTTTCAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02071" Name="lulA" Position="-79" Score="4.4">
+          <Sequence>TTGAAACCGTTTTCGG</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00277" Name="gntP" Position="-194" Score="4.7">
+          <Sequence>TTGTAAGCGGTTTCTG</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02523" Name="ldh" Position="-193" Score="4.4">
+          <Sequence>TTGCAAGCGTTTACGT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00704" Name="yxjF" Position="-106" Score="4.7">
+          <Sequence>TTGAAAGCGCTATCGT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01479" Name="lplA1" Position="-150" Score="4.1">
+          <Sequence>TCGAAATCGCTTTCTT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01320" Name="pdhA" Position="-111" Score="4.2">
+          <Sequence>AATAAAACGCTTGCAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00601" Name="treR" Position="-27" Score="4.3">
+          <Sequence>GTGAAAACGGTTACTG</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02027" Name="glgB" Position="-197" Score="4">
+          <Sequence>CCGAAAGCGGTTACAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00921" Name="pgm" Position="-100" Score="3.9">
+          <Sequence>TTGAGCGCGTTTTCAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01836" Name="spxB" Position="-136" Score="4.6">
+          <Sequence>ATTAAAGCGCTTTCCT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01836" Name="spxB" Position="-89" Score="4.1">
+          <Sequence>GTGAAAGGGTTTGCAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02680" Name="fucR" Position="-58" Score="4.5">
+          <Sequence>TTGCAAGCGCTTACGA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7618075" LocusId="LGG_00793" Name="ccpA" Function="Carbon catabolism global transcriptional regulator CcpA, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619309" LocusId="LGG_02027" Name="glgB" Function="1,4-alpha-glucan (glycogen) branching enzyme, GH-13-type (EC 2.4.1.18)" />
+          <Members vimssId="7619308" LocusId="LGG_02026" Name="glgC" Function="Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27)" />
+          <Members vimssId="7619307" LocusId="LGG_02025" Name="glgD" Function="Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27)" />
+          <Members vimssId="7619306" LocusId="LGG_02024" Name="glgA" Function="Glycogen synthase, ADP-glucose transglucosylase (EC 2.4.1.21)" />
+          <Members vimssId="7619305" LocusId="LGG_02023" Name="glgP" Function="Glycogen phosphorylase (EC 2.4.1.1)" />
+          <Members vimssId="7619304" LocusId="LGG_02022" Name="amy1" Function="Neopullulanase (EC 3.2.1.135)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619967" LocusId="LGG_02685" Name="fucI" Function="L-fucose isomerase (EC 5.3.1.25)" />
+          <Members vimssId="7619966" LocusId="LGG_02684" Name="fucK" Function="L-fuculokinase (EC 2.7.1.51)" />
+          <Members vimssId="7619965" LocusId="LGG_02683" Name="fucT" Function="Predicted fucose transporter" />
+          <Members vimssId="7619964" LocusId="LGG_02682" Name="fucU" Function="L-fucose mutarotase (EC 5.1.3.n2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619962" LocusId="LGG_02680" Name="fucR" Function="L-fucose utilization transcriptional regulator FucR, DeoR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619118" LocusId="LGG_01836" Name="spxB" Function="Pyruvate oxidase (EC 1.2.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7617926" LocusId="LGG_00644" Name="glpK" Function="Glycerol kinase (EC 2.7.1.30)" />
+          <Members vimssId="7617925" LocusId="LGG_00643" Name="glpD" Function="Alpha-glycerophosphate oxidase (EC 1.1.3.21)" />
+          <Members vimssId="7617924" LocusId="LGG_00642" Name="glpF" Function="Glycerol uptake facilitator protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7617654" LocusId="LGG_00372" Name="rbsR" Function="Ribose operon transcriptional regulator, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7620105" LocusId="LGG_02823" Name="pts20B" Function="PTS system, cellobiose-specific IIB component (EC 2.7.1.69)" />
+          <Members vimssId="7620106" LocusId="LGG_02824" Name="pts20A" Function="PTS system, cellobiose-specific IIA component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7618503" LocusId="LGG_01221" Name="pnuC" Function="NrdR-regulated deoxyribonucleotide transporter;  Nicotinamide mononucleotide transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7620194" LocusId="LGG_02912" Name="mtlA" Function="Mannitol-specific PTS system, IIBC component (EC 2.7.1.69)" />
+          <Members vimssId="7620193" LocusId="LGG_02911" Name="mtlR" Function="Mannitol operon antiterminator, BglG family" />
+          <Members vimssId="7620192" LocusId="LGG_02910" Name="mtlF" Function="Mannitol-specific PTS system, mannitol-specific IIA component (EC 2.7.1.69)" />
+          <Members vimssId="7620191" LocusId="LGG_02909" Name="mtlD" Function="Mannitol-1-phosphate 5-dehydrogenase (EC 1.1.1.17)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619973" LocusId="LGG_02691" Name="rhaY" Function="Predicted L-rhamnose permease RhaY" />
+          <Members vimssId="7619972" LocusId="LGG_02690" Name="rhaB" Function="Rhamnulokinase (EC 2.7.1.5)" />
+          <Members vimssId="7619971" LocusId="LGG_02689" Name="rhaU" Function="L-rhamnose 1-epimerase (EC 5.1.3.-)" />
+          <Members vimssId="7619970" LocusId="LGG_02688" Name="rhaA" Function="L-rhamnose isomerase (EC 5.3.1.14)" />
+          <Members vimssId="7619969" LocusId="LGG_02687" Name="rhaD" Function="Rhamnulose-1-phosphate aldolase (EC 4.1.2.19)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7620044" LocusId="LGG_02762" Name="LBA0143" Function="Maltodextrin glucosidase (EC 3.2.1.20); Alpha-glucosidase, family 31 of glycosyl hydrolase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7618761" LocusId="LGG_01479" Name="lplA1" Function="Lipoate-protein ligase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7618602" LocusId="LGG_01320" Name="pdhA" Function="Dihydrolipoamide dehydrogenase complex (EC 1.8.1.4),  E1 component alpha-subunit" />
+          <Members vimssId="7618603" LocusId="LGG_01321" Name="pdhB" Function="Dihydrolipoamide dehydrogenase complex (EC 1.8.1.4),  E1 component beta-subunit" />
+          <Members vimssId="7618604" LocusId="LGG_01322" Name="pdhC" Function="Dihydrolipoamide dehydrogenase complex (EC 1.8.1.4),  E2 component" />
+          <Members vimssId="7618605" LocusId="LGG_01323" Name="pdhD" Function="Dihydrolipoamide dehydrogenase complex (EC 1.8.1.4),  E3 component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7617883" LocusId="LGG_00601" Name="treR" Function="Trehalose utilization transcriptional regulator TreR, GntR family" />
+          <Members vimssId="7617884" LocusId="LGG_00602" Name="treA" Function="Trehalose-6-phosphate hydrolase (EC 3.2.1.93)" />
+          <Members vimssId="7617885" LocusId="LGG_00603" Name="treP" Function="Trehalose-specific PTS system, EIIABC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619158" LocusId="LGG_01876" Name="pck" Function="Phosphoenolpyruvate carboxykinase (EC 4.1.1.49)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619589" LocusId="LGG_02307" Name="cad" Function="Predicted pheromone precursor lipoprotein, related to Cad" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619961" LocusId="LGG_02679" Name="lhv_0924" Function="Predicted transcriptional regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619353" LocusId="LGG_02071" Name="lulA" Function="Lactate utilization protein A" />
+          <Members vimssId="7619352" LocusId="LGG_02070" Name="lulC" Function="Lactate utilization protein C" />
+          <Members vimssId="7619351" LocusId="LGG_02069" Name="lulB" Function="Lactate utilization protein B" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619314" LocusId="LGG_02032" Name="fbp" Function="Fructose-1,6-bisphosphatase, Bacillus type (EC 3.1.3.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619805" LocusId="LGG_02523" Name="ldh" Function="L-lactate dehydrogenase (EC 1.1.1.27)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7617559" LocusId="LGG_00277" Name="gntP" Function="H+/gluconate symporter related permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7617986" LocusId="LGG_00704" Name="yxjF" Function="Predicted short-chain alcohol dehydrogenase" />
+          <Members vimssId="7617987" LocusId="LGG_00705" Name="adc" Function="Probable acetoacetate decarboxylase" />
+          <Members vimssId="7617988" LocusId="LGG_00706" Name="ydgI" Function="Putative NAD(P)H nitroreductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619859" LocusId="LGG_02577" Name="lacX" Function="Aldose 1-epimerase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7617935" LocusId="LGG_00653" Name="galK" Function="Galactokinase (EC 2.7.1.6)" />
+          <Members vimssId="7617936" LocusId="LGG_00654" Name="galE" Function="UDP-glucose 4-epimerase (EC 5.1.3.2)" />
+          <Members vimssId="7617937" LocusId="LGG_00655" Name="galT" Function="Galactose-1-phosphate uridylyltransferase (EC 2.7.7.10)" />
+          <Members vimssId="7617938" LocusId="LGG_00656" Name="galR" Function="Galactose utilization transcriptional regulator GalR, LacI family" />
+          <Members vimssId="7617939" LocusId="LGG_00657" Name="galM" Function="Aldose 1-epimerase (EC 5.1.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7618203" LocusId="LGG_00921" Name="pgm" Function="phosphoglucomutase/phosphomannomutase alpha/beta/alpha domain I, II &amp; III" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7620015" LocusId="LGG_02733" Name="ulaG" Function="Probable L-ascorbate-6-phosphate lactonase UlaG (EC 3.1.1.-) (L-ascorbate utilization protein G)" />
+          <Members vimssId="7620014" LocusId="LGG_02732" Name="ulaC" Function="Ascorbate-specific PTS system, EIIA component (EC 2.7.1.-)" />
+          <Members vimssId="7620013" LocusId="LGG_02731" Name="ulaA" Function="Ascorbate-specific PTS system, EIIC component" />
+          <Members vimssId="7620012" LocusId="LGG_02730" Name="ulaB" Function="Ascorbate-specific PTS system, EIIB component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7617888" LocusId="LGG_00606" Name="ldh" Function="L-lactate dehydrogenase 1 (L-LDH 1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7620004" LocusId="LGG_02722" Name="sorD" Function="Sorbitol-6-phosphate 2-dehydrogenase (EC 1.1.1.140)" />
+          <Members vimssId="7620003" LocusId="LGG_02721" Name="srlM" Function="Sorbitol operon transcription regulator" />
+          <Members vimssId="7620002" LocusId="LGG_02720" Name="srlR" Function="Glucitol operon activator protein" />
+          <Members vimssId="7620001" LocusId="LGG_02719" Name="srlA" Function="Glucitol/sorbitol-specific PTS system, IIC component (EC 2.7.1.69)" />
+          <Members vimssId="7620000" LocusId="LGG_02718" Name="srlE" Function="Glucitol/sorbitol-specific PTS system, IIBC components (EC 2.7.1.69)" />
+          <Members vimssId="7619999" LocusId="LGG_02717" Name="srlB" Function="Glucitol/sorbitol-specific PTS system, IIA component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3511</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="CcpB" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=44319" />
+      <Effector />
+      <Pathway>unknown</Pathway>
+      <LocusTag Key="LGG_02273" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7619555&amp;disp=0" />
+      <BiologicalProcess>unknown</BiologicalProcess>
+      <Regulog Key="CcpB - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4592" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_02272" Name="ywbB" Position="-240" Score="5.8">
+          <Sequence>CTGTAACGCGTTACAC</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619554" LocusId="LGG_02272" Name="ywbB" Function="Predicted sugar phosphate hydrolase, HAD superfamily" />
+          <Members vimssId="7619555" LocusId="LGG_02273" Name="ccpB" Function="Sugar utilization transcriptional regulator CcpB, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4592</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CcpN" RegulationMode="repressor">
+      <Regulator Key="CcpN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=44869" />
+      <Effector />
+      <Pathway>Gluconeogenesis</Pathway>
+      <LocusTag Key="LGG_02352" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7619634&amp;disp=0" />
+      <BiologicalProcess>Gluconeogenesis</BiologicalProcess>
+      <Regulog Key="CcpN - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4634" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_02351" Name="ppdK" Position="-66" Score="4.7">
+          <Sequence>CTGCTAAATAATACATTATAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619633" LocusId="LGG_02351" Name="ppdK" Function="Pyruvate phosphate dikinase (EC 2.7.9.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4634</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="SorC" RegulationMode="repressor">
+      <Regulator Key="CggR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35874" />
+      <Effector>Fructose-1,6-bisphosphate</Effector>
+      <Pathway>Glycolysis</Pathway>
+      <LocusTag Key="LGG_00932" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7618214&amp;disp=0" />
+      <BiologicalProcess>Glycolysis</BiologicalProcess>
+      <Regulog Key="CggR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3635" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_00932" Name="cggR" Position="1" Score="7.6">
+          <Sequence>TGCATACTGAACTTGCGTGGCTCAAAGCGATCGCGCC</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7618214" LocusId="LGG_00932" Name="cggR" Function="Transcriptional regulator of central glycolytic gene, SorC family" />
+          <Members vimssId="7618215" LocusId="LGG_00933" Name="gap" Function="NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)" />
+          <Members vimssId="7618216" LocusId="LGG_00934" Name="pgk" Function="Phosphoglycerate kinase (EC 2.7.2.3)" />
+          <Members vimssId="7618217" LocusId="LGG_00935" Name="tpiA" Function="Triosephosphate isomerase (EC 5.3.1.1)" />
+          <Members vimssId="7618218" LocusId="LGG_00936" Name="enoA1" Function="Enolase (EC 4.2.1.11)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3635</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CopY" RegulationMode="repressor">
+      <Regulator Key="CopR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34810" />
+      <Effector>Copper ion, (Cu2+)</Effector>
+      <Pathway>Copper homeostasis</Pathway>
+      <LocusTag Key="LGG_01802" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7619084&amp;disp=0" />
+      <BiologicalProcess>Copper homeostasis</BiologicalProcess>
+      <Regulog Key="CopR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3558" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_01802" Name="copR" Position="-29" Score="6.2">
+          <Sequence>AAGATTACAAGTGTAAACGG</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01802" Name="copR" Position="-59" Score="5">
+          <Sequence>TCGTTTACAGTTGTAAATTA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619084" LocusId="LGG_01802" Name="copR" Function="Copper transport transcriptional regulator CopR, CopY family" />
+          <Members vimssId="7619083" LocusId="LGG_01801" Name="copB" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3558</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CtsR" RegulationMode="repressor">
+      <Regulator Key="CtsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45274" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="LGG_02500" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7619782&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="CtsR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4667" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_00931" Name="clpP" Position="-88" Score="7">
+          <Sequence>AAATCTTTGACCTTATTTGACTTT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01367" Name="clpB" Position="-73" Score="6.2">
+          <Sequence>AATAGTTTGACCTTAACTGACCAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01823" Name="clpE" Position="-69" Score="0.1">
+          <Sequence>TAGGTCAAGAAAGGTCAAACCTTT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02500" Name="ctsR" Position="-39" Score="-0">
+          <Sequence>ATAGTCAAGATTGGTCAAAGTCAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7618649" LocusId="LGG_01367" Name="clpB" Function="ATP-binding subunit of Clp protease and DnaK/DnaJ chaperones" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619782" LocusId="LGG_02500" Name="ctsR" Function="Stress and heat shock response transcriptional regulator CtsR, CtsR family" />
+          <Members vimssId="7619781" LocusId="LGG_02499" Name="clpC" Function="ATP-dependent Clp protease ATP-binding subunit ClpC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619105" LocusId="LGG_01823" Name="clpE" Function="ATP-dependent Clp protease, ATP-binding subunit ClpE" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7618213" LocusId="LGG_00931" Name="clpP" Function="ATP-dependent Clp protease proteolytic subunit (EC 3.4.21.92)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4667</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="">
+      <Regulator Key="CzcR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46970" />
+      <Effector />
+      <Pathway>Zinc resistance; Cobalt resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="LGG_02418" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7619700&amp;disp=0" />
+      <BiologicalProcess>Zinc resistance; Cobalt resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CzcR2 - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4739" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_02417" Name="czcX" Position="-68" Score="6">
+          <Sequence>TTATGTTGACATTAACATAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619699" LocusId="LGG_02417" Name="czcX" Function="Predicted cobalt-zinc-cadmium resistance protein" />
+          <Members vimssId="7619700" LocusId="LGG_02418" Name="czcR2" Function="Cobalt-zinc-cadmium resistance transcriptional regulator CzcR1, ArsR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4739</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MarR" RegulationMode="repressor">
+      <Regulator Key="FabT" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35026" />
+      <Effector>Long-chain acyl-ACP</Effector>
+      <Pathway>Fatty acid biosynthesis</Pathway>
+      <LocusTag Key="LGG_02121" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7619403&amp;disp=0" />
+      <BiologicalProcess>Fatty acid biosynthesis</BiologicalProcess>
+      <Regulog Key="FabT - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3575" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_02122" Name="fabA" Position="-141" Score="5.4">
+          <Sequence>GCTTTGAACATCCAATT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02121" Name="fabT" Position="-39" Score="5.9">
+          <Sequence>ACTTTGAGTATCAAATC</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619403" LocusId="LGG_02121" Name="fabT" Function="Fatty acid biosynthesis transcriptional regulator FabT, MarR family" />
+          <Members vimssId="7619402" LocusId="LGG_02120" Name="fabH" Function="3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)" />
+          <Members vimssId="7619401" LocusId="LGG_02119" Name="acpP" Function="Acyl carrier protein" />
+          <Members vimssId="7619400" LocusId="LGG_02118" Name="fabK" Function="Enoyl-[acyl-carrier-protein] reductase [FMN] (EC 1.3.1.9)" />
+          <Members vimssId="7619399" LocusId="LGG_02117" Name="fabD" Function="Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)" />
+          <Members vimssId="7619398" LocusId="LGG_02116" Name="fabG" Function="3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)" />
+          <Members vimssId="7619397" LocusId="LGG_02115" Name="fabF" Function="3-oxoacyl-(acyl-carrier-protein) synthase" />
+          <Members vimssId="7619396" LocusId="LGG_02114" Name="accB" Function="Biotin carboxyl carrier protein of acetyl-CoA carboxylase (EC 6.4.1.2)" />
+          <Members vimssId="7619395" LocusId="LGG_02113" Name="fabZ" Function="(3R)-hydroxymyristoyl-[acyl carrier protein] dehydratase (EC 4.2.1.-)" />
+          <Members vimssId="7619394" LocusId="LGG_02112" Name="accC" Function="Biotin carboxylase of acetyl-CoA carboxylase (EC 6.3.4.14)" />
+          <Members vimssId="7619393" LocusId="LGG_02111" Name="accD" Function="Acetyl-coenzyme A carboxyl transferase beta chain (EC 6.4.1.2)" />
+          <Members vimssId="7619392" LocusId="LGG_02110" Name="accA" Function="Acetyl-coenzyme A carboxyl transferase alpha chain (EC 6.4.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619404" LocusId="LGG_02122" Name="fabA" Function="(3R)-hydroxymyristoyl-[acyl carrier protein] dehydratase (EC 4.2.1.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3575</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="FatR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42146" />
+      <Effector>Oleate; Gamma-linolenic acid; Linoleate; Phytanate</Effector>
+      <Pathway>Toxic fatty acid stress response</Pathway>
+      <LocusTag Key="LGG_00069" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7617351&amp;disp=0" />
+      <BiologicalProcess>Toxic fatty acid stress response</BiologicalProcess>
+      <Regulog Key="FatR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4348" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_00069" Name="fatR" Position="-33" Score="6.4">
+          <Sequence>GAATGAACGTTCATTC</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7617351" LocusId="LGG_00069" Name="fatR" Function="Predicted transport transcriptional regulator FatR, TetR family" />
+          <Members vimssId="7617350" LocusId="LGG_00068" Name="cypB" Function="Cytochrome P450 CYP102A3" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4348</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator (repressor)">
+      <Regulator Key="FlpA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47000" />
+      <Effector>Oxygen</Effector>
+      <Pathway>Heavy metal resistance</Pathway>
+      <LocusTag Key="LGG_00085" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7617367&amp;disp=0" />
+      <BiologicalProcess>Heavy metal resistance</BiologicalProcess>
+      <Regulog Key="FlpA - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4741" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_00083" Name="copZ" Position="-76" Score="6">
+          <Sequence>AACTTGACGGCCATCAAGGT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00082" Name="cadA" Position="-68" Score="5.3">
+          <Sequence>AAATTGATCCCGGTCAAGGT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7617365" LocusId="LGG_00083" Name="copZ" Function="Copper chaperone" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7617364" LocusId="LGG_00082" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC:3.6.3.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4741</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DeoR" RegulationMode="repressor">
+      <Regulator Key="FruR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45222" />
+      <Effector>Fructose-6-phosphate</Effector>
+      <Pathway>Fructose utilization</Pathway>
+      <LocusTag Key="LGG_01361" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7618643&amp;disp=0" />
+      <BiologicalProcess>Fructose utilization</BiologicalProcess>
+      <Regulog Key="FruR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4663" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_01361" Name="fruR" Position="-72" Score="5.6">
+          <Sequence>TGAATGTTTTTAACGGTTTT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7618643" LocusId="LGG_01361" Name="fruR" Function="Fructose utilization transcriptional regulator FruR, DeoR family" />
+          <Members vimssId="7618642" LocusId="LGG_01360" Name="fruB" Function="1-phosphofructokinase (EC 2.7.1.56)" />
+          <Members vimssId="7618641" LocusId="LGG_01359" Name="fruA" Function="Fructose-specific PTS, EIIABC component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4663</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DeoR" RegulationMode="repressor">
+      <Regulator Key="FucR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42161" />
+      <Effector>L-fuculose-1-phosphate</Effector>
+      <Pathway>Fucose utilization</Pathway>
+      <LocusTag Key="LGG_02680" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7619962&amp;disp=0" />
+      <BiologicalProcess>Fucose utilization</BiologicalProcess>
+      <Regulog Key="FucR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4349" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_02685" Name="fucI" Position="-154" Score="5.8">
+          <Sequence>CTGTGAAGAAAATTGACGA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619967" LocusId="LGG_02685" Name="fucI" Function="L-fucose isomerase (EC 5.3.1.25)" />
+          <Members vimssId="7619966" LocusId="LGG_02684" Name="fucK" Function="L-fuculokinase (EC 2.7.1.51)" />
+          <Members vimssId="7619965" LocusId="LGG_02683" Name="fucT" Function="Predicted fucose transporter" />
+          <Members vimssId="7619964" LocusId="LGG_02682" Name="fucU" Function="L-fucose mutarotase (EC 5.1.3.n2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4349</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="GalR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42191" />
+      <Effector>Galactose</Effector>
+      <Pathway>Galactosides utilization; Galactose utilization</Pathway>
+      <LocusTag Key="LGG_00656" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7617938&amp;disp=0" />
+      <BiologicalProcess>Galactosides utilization; Galactose utilization</BiologicalProcess>
+      <Regulog Key="GalR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4351" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_00653" Name="galK" Position="-78" Score="5.9">
+          <Sequence>TTAATTTTAGTAAAATAAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7617935" LocusId="LGG_00653" Name="galK" Function="Galactokinase (EC 2.7.1.6)" />
+          <Members vimssId="7617936" LocusId="LGG_00654" Name="galE" Function="UDP-glucose 4-epimerase (EC 5.1.3.2)" />
+          <Members vimssId="7617937" LocusId="LGG_00655" Name="galT" Function="Galactose-1-phosphate uridylyltransferase (EC 2.7.7.10)" />
+          <Members vimssId="7617938" LocusId="LGG_00656" Name="galR" Function="Galactose utilization transcriptional regulator GalR, LacI family" />
+          <Members vimssId="7617939" LocusId="LGG_00657" Name="galM" Function="Aldose 1-epimerase (EC 5.1.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4351</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="GlnR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35353" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="LGG_01697" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7618979&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="GlnR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3600" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_00633" Name="nrgA" Position="-174" Score="5.4">
+          <Sequence>ATGTTATATAAGCTGACGT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02862" Name="glnP" Position="-256" Score="6.1">
+          <Sequence>ATGTAAGAAAAGCTAACAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02872" Name="ansB" Position="-90" Score="5">
+          <Sequence>TTGTTAGACTAGCTCACAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01697" Name="glnR" Position="-79" Score="6">
+          <Sequence>ATGTAAGAAAACCTTACAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7620154" LocusId="LGG_02872" Name="ansB" Function="Aspartate ammonia-lyase (EC 4.3.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7620144" LocusId="LGG_02862" Name="glnP" Function="Glutamine ABC transporter, permease and substrate-binding protein" />
+          <Members vimssId="7620143" LocusId="LGG_02861" Name="glnQ" Function="Glutamine ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7617915" LocusId="LGG_00633" Name="nrgA" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7618979" LocusId="LGG_01697" Name="glnR" Function="Nitrogen metabolism transcriptional regulator, MerR family" />
+          <Members vimssId="7618978" LocusId="LGG_01696" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3600</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="">
+      <Regulator Key="GntR1" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46775" />
+      <Effector>Gluconate</Effector>
+      <Pathway>Gluconate utilization</Pathway>
+      <LocusTag Key="LGG_00273" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7617555&amp;disp=0" />
+      <BiologicalProcess>Gluconate utilization</BiologicalProcess>
+      <Regulog Key="GntR1 - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4725" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_00273" Name="gntR1" Position="-96" Score="5.8">
+          <Sequence>TATGTAAAATAATTACAAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00273" Name="gntR1" Position="-63" Score="5.4">
+          <Sequence>TTCGTAAATAATTTTCAAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00274" Name="gntZ" Position="-238" Score="5.4">
+          <Sequence>ATTGAAAATTATTTACGAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00274" Name="gntZ" Position="-205" Score="5.8">
+          <Sequence>TTTGTAATTATTTTACATA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7617556" LocusId="LGG_00274" Name="gntZ" Function="6-phosphogluconate dehydrogenase, decarboxylating (EC 1.1.1.44)" />
+          <Members vimssId="7617557" LocusId="LGG_00275" Name="gntK" Function="Gluconokinase (EC 2.7.1.12)" />
+          <Members vimssId="7617559" LocusId="LGG_00277" Name="gntP" Function="H+/gluconate symporter related permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7617555" LocusId="LGG_00273" Name="gntR1" Function="Gluconate utilization transcriptional regulator GntR1, RpiR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4725</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BglG" RegulationMode="activator">
+      <Regulator Key="GutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=44672" />
+      <Effector>HPr, phosphocarrier protein; GutB, sorbitol-specific PTS EIIB component</Effector>
+      <Pathway>Sorbitol utilization</Pathway>
+      <LocusTag Key="LGG_02721" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7620003&amp;disp=0" />
+      <BiologicalProcess>Sorbitol utilization</BiologicalProcess>
+      <Regulog Key="GutR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4618" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_02722" Name="gutF" Position="-88" Score="7.3">
+          <Sequence>TTTTCA--------GGAAAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7620004" LocusId="LGG_02722" Name="gutF" Function="Sorbitol-6-phosphate 2-dehydrogenase (EC 1.1.1.140)" />
+          <Members vimssId="7620003" LocusId="LGG_02721" Name="gutR" Function="Sorbitol utilization transcriptional regulator GutR, BglG family" />
+          <Members vimssId="7620002" LocusId="LGG_02720" Name="gutM" Function="Glucitol operon activator protein" />
+          <Members vimssId="7620001" LocusId="LGG_02719" Name="gutC" Function="Sorbitol-specific PTS, EIIC component (EC 2.7.1.69)" />
+          <Members vimssId="7620000" LocusId="LGG_02718" Name="gutB" Function="Sorbitol-specific PTS, EIIB component (EC 2.7.1.69)" />
+          <Members vimssId="7619999" LocusId="LGG_02717" Name="gutA" Function="Sorbitol-specific PTS, EIIA component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4618</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42206" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="LGG_01606" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7618888&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4352" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_01823" Name="clpL" Position="-128" Score="6.2">
+          <Sequence>TTAGCACTCTTGCGGTTAGAGTGCTTG</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01606" Name="hrcA" Position="-42" Score="7.6">
+          <Sequence>TTAGCACTCGTGTAAAACGAGTGCTAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02804" Name="hsp" Position="-97" Score="7.1">
+          <Sequence>TTAGCACTCTAACATGACGAGTGCTAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00931" Name="clpP" Position="-54" Score="7">
+          <Sequence>TTAGCACTGTACTTTAAAGAGTGCTAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02240" Name="groS" Position="-56" Score="6.6">
+          <Sequence>TTAGCACTTAGACACAACGAGTGCTAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7620086" LocusId="LGG_02804" Name="hsp" Function="Small heat shock protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7618213" LocusId="LGG_00931" Name="clpP" Function="ATP-dependent Clp protease proteolytic subunit (EC 3.4.21.92)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619522" LocusId="LGG_02240" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="7619521" LocusId="LGG_02239" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7618888" LocusId="LGG_01606" Name="hrcA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="7618887" LocusId="LGG_01605" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="7618886" LocusId="LGG_01604" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="7618885" LocusId="LGG_01603" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619105" LocusId="LGG_01823" Name="clpL" Function="ATP-dependent Clp protease, ATP-binding subunit" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4352</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DeoR" RegulationMode="repressor">
+      <Regulator Key="IolR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=44657" />
+      <Effector>2-deoxy-5-keto-D-gluconate 6-phosphate</Effector>
+      <Pathway>Inositol utilization</Pathway>
+      <LocusTag Key="LGG_00260" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7617542&amp;disp=0" />
+      <BiologicalProcess>Inositol utilization</BiologicalProcess>
+      <Regulog Key="IolR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4617" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_00261" Name="iolT" Position="-136" Score="8.5">
+          <Sequence>TGAACATCTAATGATTAAATTA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00260" Name="iolR" Position="-83" Score="-0.4">
+          <Sequence>AAACATGGTCATAATATGTCCA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7617542" LocusId="LGG_00260" Name="iolR" Function="Myo-inositol catabolism transcriptional regulator IolR, DeoR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7617543" LocusId="LGG_00261" Name="iolT" Function="Myo-inositol transport protein IolT" />
+          <Members vimssId="7617544" LocusId="LGG_00262" Name="iolA" Function="Methylmalonate semialdehyde acylating dehydrogenase (EC 1.2.1.27)" />
+          <Members vimssId="7617545" LocusId="LGG_00263" Name="iolB" Function="Myo-inositol catabolism isomerase protein IolB" />
+          <Members vimssId="7617546" LocusId="LGG_00264" Name="iolC" Function="5-dehydro-2-deoxygluconokinase (EC 2.7.1.92)" />
+          <Members vimssId="7617547" LocusId="LGG_00265" Name="iolD" Function="Myo-inositol catabolism protein IolD" />
+          <Members vimssId="7617548" LocusId="LGG_00266" Name="iolG" Function="Myo-inositol 2-dehydrogenase (EC 1.1.1.18)" />
+          <Members vimssId="7617549" LocusId="LGG_00267" Name="iolG" Function="Myo-inositol 2-dehydrogenase (EC 1.1.1.18)" />
+          <Members vimssId="7617550" LocusId="LGG_00268" Name="iolE" Function="Inosose dehydratase (EC 4.2.1.44)" />
+          <Members vimssId="7617551" LocusId="LGG_00269" Name="iolJ" Function="6-phospho-5-dehydro-2-deoxy-D-gluconate aldolase (EC 4.1.2.29)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4617</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="LSEI_0081" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47120" />
+      <Effector />
+      <Pathway>Transport</Pathway>
+      <LocusTag Key="LGG_00105" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7617387&amp;disp=0" />
+      <BiologicalProcess>Transport</BiologicalProcess>
+      <Regulog Key="LSEI_0081 - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4749" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_00105" Name="LSEI_0081" Position="-118" Score="5.4">
+          <Sequence>GACACATGTGTGAC</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00104" Name="LSEI_0080" Position="-53" Score="5.4">
+          <Sequence>GTCACACATGTGTC</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7617387" LocusId="LGG_00105" Name="LSEI_0081" Function="Predicted transcriptional regulator, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7617386" LocusId="LGG_00104" Name="LSEI_0080" Function="Predicted permease, MSF family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4749</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="LSEI_0368 " Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=44567" />
+      <Effector />
+      <Pathway>Sugar utilization</Pathway>
+      <LocusTag Key="LGG_00419" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7617701&amp;disp=0" />
+      <BiologicalProcess>Sugar utilization</BiologicalProcess>
+      <Regulog Key="LSEI_0368 - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4611" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_00419" Name="LSEI_0368" Position="-82" Score="6.5">
+          <Sequence>TTGTGTAAACGTTTTCGCAC</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00419" Name="LSEI_0368" Position="-180" Score="6.7">
+          <Sequence>TTGCGGTAACGTTTACGCAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00418" Name="tal" Position="-141" Score="6.5">
+          <Sequence>GTGCGAAAACGTTTACACAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00418" Name="tal" Position="-43" Score="6.7">
+          <Sequence>TTGCGTAAACGTTACCGCAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7617700" LocusId="LGG_00418" Name="tal" Function="Transaldolase (EC 2.2.1.2)" />
+          <Members vimssId="7617699" LocusId="LGG_00417" Name="LSEI_0366" Function="Predicted PTS, EIICD component (EC 2.7.1.69), similar to mannose PTS" />
+          <Members vimssId="7617698" LocusId="LGG_00416" Name="LGG_00416" Function="Predicted PTS, EIIA component" />
+          <Members vimssId="7617697" LocusId="LGG_00415" Name="LGG_00415" Function="Predicted PTS, EIIB component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7617701" LocusId="LGG_00419" Name="LSEI_0368" Function="Predicted sugar utilization transcriptional regulator, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4611</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DeoR" RegulationMode="repressor">
+      <Regulator Key="LacR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46539" />
+      <Effector>D-galactose-6-phosphate</Effector>
+      <Pathway>Lactose utilization</Pathway>
+      <LocusTag Key="LGG_00668" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7617950&amp;disp=0" />
+      <BiologicalProcess>Lactose utilization</BiologicalProcess>
+      <Regulog Key="LacR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4705" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_00668" Name="lacR" Position="-48" Score="9">
+          <Sequence>AAGAAACAA-ATCAAACAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7617950" LocusId="LGG_00668" Name="lacR" Function="Lactose utilization transcriptional regulator LacR, DeoR family" />
+          <Members vimssId="7617949" LocusId="LGG_00667" Name="lacA" Function="Galactose-6-phosphate isomerase, LacA subunit (EC 5.3.1.26)" />
+          <Members vimssId="7617948" LocusId="LGG_00666" Name="lacB" Function="Galactose-6-phosphate isomerase, LacB subunit (EC 5.3.1.26)" />
+          <Members vimssId="7617947" LocusId="LGG_00665" Name="lacD" Function="Tagatose 1,6-diphosphate aldolase (EC 4.1.2.40)" />
+          <Members vimssId="7617946" LocusId="LGG_00664" Name="lacC" Function="Tagatose-6-phosphate kinase (EC 2.7.1.144)" />
+          <Members vimssId="7617945" LocusId="LGG_00663" Name="LSEI_0676" Function="Conserved hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4705</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46371" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="LGG_00717" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7617999&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4690" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_01358" Name="uvrC" Position="-29" Score="4.9">
+          <Sequence>GCGAACATTTGTTTTA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01676" Name="LJ1544" Position="-53" Score="4.5">
+          <Sequence>TTGAACACATGTTCGT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01676" Name="LJ1544" Position="-26" Score="4.9">
+          <Sequence>ACAAACAAACGTTCGG</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01419" Name="parE" Position="-179" Score="4.5">
+          <Sequence>ACGAACACACATTCGA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01425" Name="xerC" Position="-27" Score="5.1">
+          <Sequence>GAAAACATATGTTCGA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01010" Name="umuC" Position="-40" Score="5.2">
+          <Sequence>GCAAACATACGTTCGT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00328" Name="srmB" Position="-55" Score="4.3">
+          <Sequence>CAGAATGTATGTTCTA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02643" Name="recA" Position="-69" Score="4.4">
+          <Sequence>ACAAACGCGTGTTCGA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00717" Name="lexA" Position="-60" Score="4.7">
+          <Sequence>GCAAACGTCCGTTCGT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00923" Name="uvrB" Position="-271" Score="5">
+          <Sequence>GCGAAAGTATGTTCGC</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7618640" LocusId="LGG_01358" Name="uvrC" Function="Nuclease subunit of the excinuclease complex" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7618701" LocusId="LGG_01419" Name="parE" Function="Topoisomerase IV subunit B (EC 5.99.1.-)" />
+          <Members vimssId="7618702" LocusId="LGG_01420" Name="parC" Function="Topoisomerase IV subunit A (EC 5.99.1.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7618958" LocusId="LGG_01676" Name="LJ1544" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7617999" LocusId="LGG_00717" Name="lexA" Function="SOS-response regulator and protease LexA, LexA family (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7618707" LocusId="LGG_01425" Name="xerC" Function="Site-specific DNA-tyrosine recombinase, XerC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7618292" LocusId="LGG_01010" Name="umuC" Function="UV-damage repair protein" />
+          <Members vimssId="7618291" LocusId="LGG_01009" Name="LVIS_2094" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619925" LocusId="LGG_02643" Name="recA" Function="DNA recombinase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7617610" LocusId="LGG_00328" Name="srmB" Function="DinG family ATP-dependent helicase" />
+          <Members vimssId="7617609" LocusId="LGG_00327" Name="lp_0307" Function="Conserved hypothetical protein" />
+          <Members vimssId="7617608" LocusId="LGG_00326" Name="lp_0306" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7618205" LocusId="LGG_00923" Name="uvrB" Function="Excinuclease ABC, subunit B" />
+          <Members vimssId="7618206" LocusId="LGG_00924" Name="uvrA" Function="Excinuclease ABC, subunit A" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4690</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="Lp_3221" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=44142" />
+      <Effector />
+      <Pathway>Sugar utilization</Pathway>
+      <LocusTag Key="LGG_02106" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7619388&amp;disp=0" />
+      <BiologicalProcess>Sugar utilization</BiologicalProcess>
+      <Regulog Key="Lp_3221 - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4569" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_02105" Name="agl4" Position="-39" Score="6.5">
+          <Sequence>ATATGGAATCGATACCACAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02106" Name="lp_3221" Position="-38" Score="6.3">
+          <Sequence>GTATGAAATCGATTCCATAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619387" LocusId="LGG_02105" Name="agl4" Function="Oligo-1,6-glucosidase" />
+          <Members vimssId="7619386" LocusId="LGG_02104" Name="scrT" Function="PTS system, sucrose-specific IIABC component (EC 2.7.1.69)" />
+          <Members vimssId="7619385" LocusId="LGG_02103" Name="scrT" Function="PTS system, sucrose-specific IIABC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619388" LocusId="LGG_02106" Name="lp_3221" Function="Predicted sugar utilization transcriptional regulator, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4569</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="activator">
+      <Regulator Key="MleR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46910" />
+      <Effector>L-malate</Effector>
+      <Pathway>Malate utilization</Pathway>
+      <LocusTag Key="LGG_00725" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7618007&amp;disp=0" />
+      <BiologicalProcess>Malate utilization</BiologicalProcess>
+      <Regulog Key="MleR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4734" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_00726" Name="mleS" Position="-118" Score="5.7">
+          <Sequence>TATAAAAATATTTTATC</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00725" Name="mleR" Position="-322" Score="5.7">
+          <Sequence>GATAAAATATTTTTATA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7618007" LocusId="LGG_00725" Name="mleR" Function="Malate utilization transcrtional regulator MleR, LysR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7618008" LocusId="LGG_00726" Name="mleS" Function="Malolactic enzyme" />
+          <Members vimssId="7618009" LocusId="LGG_00727" Name="mleP" Function="L-malate permease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4734</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="MntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38192" />
+      <Effector>Manganese ion, (Mn2+)</Effector>
+      <Pathway>Manganese homeostasis</Pathway>
+      <LocusTag Key="LGG_00759" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7618041&amp;disp=0" />
+      <BiologicalProcess>Manganese homeostasis</BiologicalProcess>
+      <Regulog Key="MntR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3884" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_02411" Name="mntH" Position="-72" Score="6.4">
+          <Sequence>AAGTTAGGGAGACCTAAAAG</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02421" Name="mntC" Position="-31" Score="5.6">
+          <Sequence>GAATTAGGTCACCCTAAAAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619703" LocusId="LGG_02421" Name="mntC" Function="Manganese ABC transporter, permease protein" />
+          <Members vimssId="7619702" LocusId="LGG_02420" Name="mntB" Function="Manganese ABC transporter, ATP-binding protein" />
+          <Members vimssId="7619701" LocusId="LGG_02419" Name="mntA" Function="Manganese ABC transporter, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619693" LocusId="LGG_02411" Name="mntH" Function="Manganese transport protein MntH" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3884</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BglG" RegulationMode="activator">
+      <Regulator Key="MtlR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=44963" />
+      <Effector>HPr, phosphocarrier protein; MtlA, mannitol-specific enzyme IICB PTS component</Effector>
+      <Pathway>Mannitol utilization</Pathway>
+      <LocusTag Key="LGG_02911" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7620193&amp;disp=0" />
+      <BiologicalProcess>Mannitol utilization</BiologicalProcess>
+      <Regulog Key="MtlR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4641" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_02912" Name="mtlA" Position="-96" Score="7.2">
+          <Sequence>TTTGGCACAACTAACTGTGCCAAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7620194" LocusId="LGG_02912" Name="mtlA" Function="PTS system, mannitol-specific IIB component (EC 2.7.1.69) / PTS system, mannitol-specific IIC component (EC 2.7.1.69)" />
+          <Members vimssId="7620193" LocusId="LGG_02911" Name="mtlR" Function="Mannitol utilization transcription activator MtlR, BglG family" />
+          <Members vimssId="7620192" LocusId="LGG_02910" Name="mtlF" Function="PTS system, mannitol-specific IIA component (EC 2.7.1.69)" />
+          <Members vimssId="7620191" LocusId="LGG_02909" Name="mtlD" Function="Mannitol-1-phosphate 5-dehydrogenase (EC 1.1.1.17)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4641</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="NagR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63171" />
+      <Effector>N-acetylglucosamine-6-phosphate</Effector>
+      <Pathway>N-acetylglucosamine utilization</Pathway>
+      <LocusTag Key="LGG_01861" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7619143&amp;disp=0" />
+      <BiologicalProcess>N-acetylglucosamine utilization</BiologicalProcess>
+      <Regulog Key="NagR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6513" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_01862" Name="nagA" Position="-66" Score="4.5">
+          <Sequence>AGTCTGGTCTATACCGGTTA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02913" Name="nagB" Position="-78" Score="5.1">
+          <Sequence>AATTAGGTATAGACCATTGT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02913" Name="nagB" Position="-35" Score="5.3">
+          <Sequence>ATATTGGACTAGACCAGATA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00983" Name="glmS" Position="-47" Score="4.8">
+          <Sequence>AAACCTGTCTAAACCAATTT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7618265" LocusId="LGG_00983" Name="glmS" Function="Glucosamine--fructose-6-phosphate aminotransferase [isomerizing] (EC 2.6.1.16)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7620195" LocusId="LGG_02913" Name="nagB" Function="Glucosamine-6-phosphate deaminase (EC 3.5.99.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619144" LocusId="LGG_01862" Name="nagA" Function="N-acetylglucosamine-6-phosphate deacetylase (EC 3.5.1.25)" />
+          <Members vimssId="7619143" LocusId="LGG_01861" Name="nagR" Function="Transcriptional regulator of N-Acetylglucosamine utilization, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6513</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NiaR" RegulationMode="repressor">
+      <Regulator Key="NiaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34217" />
+      <Effector>Niacin</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="LGG_00791" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7618073&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NiaR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3497" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_02281" Name="niaP" Position="-51" Score="5.6">
+          <Sequence>TTAGGGTGTCAAGACACCTAAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619563" LocusId="LGG_02281" Name="niaP" Function="Niacin transporter NiaP" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3497</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42281" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="LGG_01758" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7619040&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4357" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_00138" Name="nrdD" Position="-131" Score="5.5">
+          <Sequence>CCACTATATAGTGTAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01221" Name="pnuN" Position="-107" Score="4.9">
+          <Sequence>CACCAATATATTGTAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01221" Name="pnuN" Position="-139" Score="3.9">
+          <Sequence>TTAGTACATGTTGTGG</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01473" Name="nrdH" Position="-85" Score="4.6">
+          <Sequence>CCCCAAGATATGGTGT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01800" Name="nrdG" Position="-145" Score="5">
+          <Sequence>ATACTACATCTTGTAG</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02296" Name="nrdJ" Position="-31" Score="5.3">
+          <Sequence>ATACCATATCTTGTAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619082" LocusId="LGG_01800" Name="nrdG" Function="Ribonucleotide reductase of class III (anaerobic), activating protein (EC 1.97.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7617420" LocusId="LGG_00138" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7618755" LocusId="LGG_01473" Name="nrdH" Function="Glutaredoxin-like protein NrdH" />
+          <Members vimssId="7618756" LocusId="LGG_01474" Name="nrdE" Function="Ribonucleotide reductase of class Ib (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="7618757" LocusId="LGG_01475" Name="nrdF" Function="Ribonucleotide reductase of class Ib (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619578" LocusId="LGG_02296" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+          <Members vimssId="7619577" LocusId="LGG_02295" Name="cbrX" Function="Additional lipoprotein component of predicted cobalamin ECF transporter" />
+          <Members vimssId="7619576" LocusId="LGG_02294" Name="cbrT" Function="Substrate-specific component CbrT of predicted cobalamin ECF transporter" />
+          <Members vimssId="7619575" LocusId="LGG_02293" Name="pduO" Function="Cob(I)alamin adenosyltransferase PduO (EC 2.5.1.17)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7618503" LocusId="LGG_01221" Name="pnuN" Function="NrdR-regulated deoxyribonucleotide transporter, PnuC-like" />
+          <Members vimssId="7618504" LocusId="LGG_01222" Name="dgk2" Function="Deoxyadenosine kinase (EC 2.7.1.76) / Deoxyguanosine kinase (EC 2.7.1.113)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4357</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrtR" RegulationMode="">
+      <Regulator Key="NrtR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35711" />
+      <Effector>Adenosine diphosphate ribose</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="LGG_02763" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7620045&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NrtR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3624" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_02764" Name="pncA" Position="-41" Score="6.5">
+          <Sequence>TTTAAGTAAATTTTACTTTAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7620046" LocusId="LGG_02764" Name="pncA" Function="Nicotinamidase (EC 3.5.1.19)" />
+          <Members vimssId="7620047" LocusId="LGG_02765" Name="pncB" Function="Nicotinate phosphoribosyltransferase (EC 2.4.2.11)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3624</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="PerR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35829" />
+      <Effector>Iron ion, (Fe2+); Manganese ion, (Mn2+); Hydrogen peroxide</Effector>
+      <Pathway>Manganese homeostasis; Oxidative stress response; Iron homeostasis</Pathway>
+      <LocusTag Key="LGG_00831" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7618113&amp;disp=0" />
+      <BiologicalProcess>Manganese homeostasis; Oxidative stress response; Iron homeostasis</BiologicalProcess>
+      <Regulog Key="PerR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3632" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_02803" Name="cadA" Position="-80" Score="5">
+          <Sequence>TTATATTCGTTCTAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02803" Name="cadA" Position="-46" Score="5.2">
+          <Sequence>TTGTAATGGTTATAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00491" Name="npr" Position="-75" Score="5.5">
+          <Sequence>TTGTAATTATTCTAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02565" Name="ybbL" Position="-35" Score="5">
+          <Sequence>TTAGAATGGTTACAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02415" Name="cueO" Position="-72" Score="4.8">
+          <Sequence>TTAGATTAATTCCAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619697" LocusId="LGG_02415" Name="cueO" Function="Predicted copper oxidase" />
+          <Members vimssId="7619696" LocusId="LGG_02414" Name="ycnB" Function="Predicted permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7617773" LocusId="LGG_00491" Name="npr" Function="NADH peroxidase (EC 1.11.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619847" LocusId="LGG_02565" Name="ybbL" Function="Predicted ABC transporter, ATP-binding protein" />
+          <Members vimssId="7619848" LocusId="LGG_02566" Name="ybbM" Function="Predicted ABC transporter, permease protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7620085" LocusId="LGG_02803" Name="cadA" Function="Predicted cation-transporting ATP-ase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3632</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="PurR" RegulationMode="repressor">
+      <Regulator Key="PurR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38129" />
+      <Effector>5-phosphoribosyl 1-pyrophosphate</Effector>
+      <Pathway>Purine metabolism</Pathway>
+      <LocusTag Key="LGG_02564" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7619846&amp;disp=0" />
+      <BiologicalProcess>Purine metabolism</BiologicalProcess>
+      <Regulog Key="PurR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3863" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_00249" Name="guaB" Position="-194" Score="5.3">
+          <Sequence>AAAGACGAACATT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02564" Name="purR" Position="-126" Score="4.8">
+          <Sequence>AAATGCGAACGTT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00168" Name="pbuO" Position="-105" Score="5.6">
+          <Sequence>AAACACGAACATT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00874" Name="guaC" Position="-134" Score="5.6">
+          <Sequence>AAACACGAACATT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01814" Name="purE" Position="-108" Score="5.5">
+          <Sequence>AAATACGAACATT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01814" Name="purE" Position="-96" Score="4.3">
+          <Sequence>TAAAACGAATAAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7617531" LocusId="LGG_00249" Name="guaB" Function="Inosine-5'-monophosphate dehydrogenase (EC 1.1.1.205)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7618156" LocusId="LGG_00874" Name="guaC" Function="GMP reductase (EC 1.7.1.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619096" LocusId="LGG_01814" Name="purE" Function="Phosphoribosylaminoimidazole carboxylase catalytic subunit (EC 4.1.1.21)" />
+          <Members vimssId="7619095" LocusId="LGG_01813" Name="purK" Function="Phosphoribosylaminoimidazole carboxylase ATPase subunit (EC 4.1.1.21)" />
+          <Members vimssId="7619094" LocusId="LGG_01812" Name="purC" Function="Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6)" />
+          <Members vimssId="7619093" LocusId="LGG_01811" Name="purS" Function="Phosphoribosylformylglycinamidine synthase, PurS subunit (EC 6.3.5.3)" />
+          <Members vimssId="7619092" LocusId="LGG_01810" Name="purQ" Function="Phosphoribosylformylglycinamidine synthase, glutamine amidotransferase subunit (EC 6.3.5.3)" />
+          <Members vimssId="7619091" LocusId="LGG_01809" Name="purL" Function="Phosphoribosylformylglycinamidine synthase, synthetase subunit (EC 6.3.5.3)" />
+          <Members vimssId="7619090" LocusId="LGG_01808" Name="purF" Function="Amidophosphoribosyltransferase (EC 2.4.2.14)" />
+          <Members vimssId="7619089" LocusId="LGG_01807" Name="purM" Function="Phosphoribosylformylglycinamidine cyclo-ligase (EC 6.3.3.1)" />
+          <Members vimssId="7619088" LocusId="LGG_01806" Name="purN" Function="Phosphoribosylglycinamide formyltransferase (EC 2.1.2.2)" />
+          <Members vimssId="7619087" LocusId="LGG_01805" Name="purH" Function="IMP cyclohydrolase (EC 3.5.4.10) / Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3)" />
+          <Members vimssId="7619086" LocusId="LGG_01804" Name="LGG_02640" Function="Hypothetical protein" />
+          <Members vimssId="7619085" LocusId="LGG_01803" Name="purD" Function="Phosphoribosylamine--glycine ligase (EC 6.3.4.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7617450" LocusId="LGG_00168" Name="pbuO" Function="Guanine/hypoxanthine permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619846" LocusId="LGG_02564" Name="purR" Function="Purine metabolism transcriptional regulator PurR, PurR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3863</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="RbsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38653" />
+      <Effector>Ribose</Effector>
+      <Pathway>Ribose utilization</Pathway>
+      <LocusTag Key="LGG_00372" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7617654&amp;disp=0" />
+      <BiologicalProcess>Ribose utilization</BiologicalProcess>
+      <Regulog Key="RbsR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3945" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_00372" Name="rbsR" Position="-46" Score="6.7">
+          <Sequence>TAAGTAAAACGTTTTACCTA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7617654" LocusId="LGG_00372" Name="rbsR" Function="Transcriptional repressor of ribose utilization, LacI family" />
+          <Members vimssId="7617655" LocusId="LGG_00373" Name="rbsK" Function="Ribokinase (EC 2.7.1.15)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3945</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29854" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="LGG_01260" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7618542&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3114" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_00757" Name="adhE" Position="-105" Score="5.2">
+          <Sequence>TCGTGAAAAAGTTCACTA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00757" Name="adhE" Position="-84" Score="4.7">
+          <Sequence>TTGTTTACAAAATCACAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00757" Name="adhE" Position="-48" Score="5.4">
+          <Sequence>TTGTGAAATGGTTAACAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01260" Name="rex2" Position="-39" Score="4.8">
+          <Sequence>ATGTGAAAATGGTAACAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00325" Name="noxE" Position="-41" Score="5.3">
+          <Sequence>TTGTGAAATTTTTATCAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7618542" LocusId="LGG_01260" Name="rex2" Function="Redox-sensitive transcriptional regulator Rex paralog" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7617607" LocusId="LGG_00325" Name="noxE" Function="NADH oxidase (EC 1.6.99.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7618039" LocusId="LGG_00757" Name="adhE" Function="Alcohol dehydrogenase (EC 1.1.1.1), Fe-dependent; Acetaldehyde dehydrogenase (EC 1.2.1.10)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3114</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor">
+      <Regulator Key="TagR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45029" />
+      <Effector>Tagatose-6-phosphate</Effector>
+      <Pathway>Tagatose utilization</Pathway>
+      <LocusTag Key="LGG_02649" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7619931&amp;disp=0" />
+      <BiologicalProcess>Tagatose utilization</BiologicalProcess>
+      <Regulog Key="TagR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4646" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_02649" Name="tagR" Position="-50" Score="4.8">
+          <Sequence>GAAAATGCTTTTCA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02648" Name="tagK" Position="-112" Score="4.8">
+          <Sequence>TGAAAAGCATTTTC</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619931" LocusId="LGG_02649" Name="tagR" Function="Tagatose utilization transcriptional regulator TagR, RpiR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619930" LocusId="LGG_02648" Name="tagK" Function="Tagatose-6-phosphate kinase (EC 2.7.1.144) / 1-phosphofructokinase" />
+          <Members vimssId="7619929" LocusId="LGG_02647" Name="tagAB" Function="Tagatose-specific PTS EIIA component (EC 2.7.1.69) / Tagatose-specific PTS EIIBC component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4646</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="TreR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38743" />
+      <Effector>Trehalose-6-phosphate</Effector>
+      <Pathway>Trehalose utilization</Pathway>
+      <LocusTag Key="LGG_00601" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7617883&amp;disp=0" />
+      <BiologicalProcess>Trehalose utilization</BiologicalProcess>
+      <Regulog Key="TreR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3956" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_00601" Name="treR" Position="-61" Score="5.6">
+          <Sequence>ATACCTGTACGTACAAGTAG</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7617883" LocusId="LGG_00601" Name="treR" Function="Trehalose utilization transcriptional repressor TreR, GntR family" />
+          <Members vimssId="7617884" LocusId="LGG_00602" Name="treA" Function="Trehalose-6-phosphate hydrolase (EC 3.2.1.93)" />
+          <Members vimssId="7617885" LocusId="LGG_00603" Name="treP" Function="Trehalose-specific PTS system, EIIABC component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3956</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="YhcF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57275" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux</Pathway>
+      <LocusTag Key="LGG_01937" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7619219&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux</BiologicalProcess>
+      <Regulog Key="YhcF - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5857" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_01937" Name="yhcF" Position="-40" Score="6.6">
+          <Sequence>AGTGTAATAGATAGCTAATACACT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619219" LocusId="LGG_01937" Name="yhcF" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="7619220" LocusId="LGG_01938" Name="yhcG" Function="ABC-type multidrug transport system, ATPase component" />
+          <Members vimssId="7619221" LocusId="LGG_01939" Name="yhcI" Function="ABC-type multidrug transport system, permease component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5857</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="YtrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46716" />
+      <Effector />
+      <Pathway>Hypothetical ABC transporter</Pathway>
+      <LocusTag Key="LGG_02246" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7619528&amp;disp=0" />
+      <BiologicalProcess>Hypothetical ABC transporter</BiologicalProcess>
+      <Regulog Key="YtrA - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4720" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_02246" Name="ytrA" Position="-46" Score="6.7">
+          <Sequence>GTGTACTGCGTATAATAGTACAC</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619528" LocusId="LGG_02246" Name="ytrA" Function="Predicted transcriptional regulator, GntR family" />
+          <Members vimssId="7619527" LocusId="LGG_02245" Name="ytrB" Function="Predicted ABC transporter, ATP-binding protein" />
+          <Members vimssId="7619526" LocusId="LGG_02244" Name="lp_0327" Function="Predicted ABC transporter, permease protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4720</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="YxeR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47075" />
+      <Effector />
+      <Pathway>Antibiotic resistance</Pathway>
+      <LocusTag Key="LGG_00488" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7617770&amp;disp=0" />
+      <BiologicalProcess>Antibiotic resistance</BiologicalProcess>
+      <Regulog Key="YxeR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4746" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_00488" Name="yxeR" Position="-122" Score="4.2">
+          <Sequence>AAGTTGACACCGTGTCACTAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00488" Name="yxeR" Position="-78" Score="3.4">
+          <Sequence>ACGGTGACACGGTGTCACCAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7617770" LocusId="LGG_00488" Name="yxeR" Function="Predicted antibiotic resistance transcriptional reguator, TetR family" />
+          <Members vimssId="7617771" LocusId="LGG_00489" Name="yxeA" Function="Predicted antimicrobial peptide transporter, permease protein" />
+          <Members vimssId="7617772" LocusId="LGG_00490" Name="yxeB" Function="Predicted antimicrobial peptide transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4746</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42325" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="LGG_02012" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7619294&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4363" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_02422" Name="rpsN2" Position="-243" Score="6.8">
+          <Sequence>TTAAGCGTAATGATTACGATTTA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02423" Name="znuA" Position="-181" Score="6.7">
+          <Sequence>TAAATCGTAATCATTACGCTTAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02423" Name="znuA" Position="-40" Score="6.9">
+          <Sequence>TAAATCGTAATGATTACGTTTTG</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00285" Name="znuC" Position="-39" Score="6.4">
+          <Sequence>TAAATCGTAATCGTTACCGTTTG</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02012" Name="zur" Position="-70" Score="5.4">
+          <Sequence>CTAATCGTAACCAGTACGATTTG</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619704" LocusId="LGG_02422" Name="rpsN2" Function="Small subunit ribosomal protein S14, zinc-independent" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619705" LocusId="LGG_02423" Name="znuA" Function="Zinc ABC transporter, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619294" LocusId="LGG_02012" Name="zur" Function="Zinc homeostasis transcriptional regulator Zur, Fur family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7617567" LocusId="LGG_00285" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein" />
+          <Members vimssId="7617568" LocusId="LGG_00286" Name="znuB" Function="Zinc ABC transporter, permease protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4363</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28921" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_01383" Name="ribU" Position="-219" Score="110.9">
+          <Sequence>TTCGTCTTCAGGGCAGGGTGTAATTCCCGACCGGCGGTATAAAGTCCGCGACCCGCTTTTTGCGGTGGAACCGGTGTGATTCCGGTACCGATAGTGATAGTCTAGATGGAAGAAGATGGGGCT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7618665" LocusId="LGG_01383" Name="ribU" Function="Substrate-specific component RibU of riboflavin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00557" RegulationMode="RF00557">
+      <Regulator Key="L10_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28826" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L10_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_02277" Name="rplJ" Position="-154" Score="73.7">
+          <Sequence>GTTGTGATTAGTCACTCTGCCTAAGACTCAGGGGGCGCAAGCCTTAATCATCCTGCCGAGGTGGTATCGGAAACAGTAGATACCTCTATGTCTTGGTAGACATGGAGTTTTTTTATTGCTAAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619559" LocusId="LGG_02277" Name="rplJ" Function="50S ribosomal protein L10" />
+          <Members vimssId="7619558" LocusId="LGG_02276" Name="rplL" Function="LSU ribosomal protein L7/L12 (P1/P2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00555" RegulationMode="RF00555">
+      <Regulator Key="L13_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29091" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L13_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_02448" Name="rplM" Position="-77" Score="59.6">
+          <Sequence>TGGTATTGTTTGCCCCACGATAAGCCCCGGAAACTTAACGTGTTCAAACAAGCACAGA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619730" LocusId="LGG_02448" Name="rplM" Function="LSU ribosomal protein L13p (L13Ae)" />
+          <Members vimssId="7619729" LocusId="LGG_02447" Name="rpsI" Function="SSU ribosomal protein S9p (S16e)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00556" RegulationMode="RF00556">
+      <Regulator Key="L19_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29121" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L19_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_01639" Name="rplS" Position="-54" Score="29.1">
+          <Sequence>AACGGCATTCCGCTGGTCGGGATGATTATGAATGTCGG</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7618921" LocusId="LGG_01639" Name="rplS" Function="LSU ribosomal protein L19p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00558" RegulationMode="RF00558">
+      <Regulator Key="L20_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29151" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L20_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_01747" Name="infC" Position="-192" Score="52.2">
+          <Sequence>TGAGAAAAAGCAGAAGTTCCCGCTTCTCGCCCAAGTCTTTAGACCTCTAGGCTCATTAGTTCGGTATTTAATGAACAGCGGGGCCTTTGTGGCTACGCTGTTTTTGTTTTTT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619029" LocusId="LGG_01747" Name="infC" Function="Translation initiation factor 3" />
+          <Members vimssId="7619028" LocusId="LGG_01746" Name="rpmI" Function="LSU ribosomal protein L35p" />
+          <Members vimssId="7619027" LocusId="LGG_01745" Name="rplT" Function="LSU ribosomal protein L20p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00559" RegulationMode="RF00559">
+      <Regulator Key="L21_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29191" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L21_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_01690" Name="rplU" Position="-100" Score="42.6">
+          <Sequence>CCCTCCTATGCAACCGCACATCGTTAGGTTTTAAGCGCAAGCACCTAACTTGGCGAGTCTTCAGGGGAAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7618972" LocusId="LGG_01690" Name="rplU" Function="LSU ribosomal protein L21p" />
+          <Members vimssId="7618971" LocusId="LGG_01689" Name="ysxB" Function="FIG139598: Potential ribosomal protein" />
+          <Members vimssId="7618970" LocusId="LGG_01688" Name="rpmA" Function="LSU ribosomal protein L27p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00168" RegulationMode="RF00168">
+      <Regulator Key="Lysine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29251" />
+      <Effector>Lysine</Effector>
+      <Pathway>Lysine biosynthesis</Pathway>
+      <LocusTag Key="Lysine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_00112" Name="lysA" Position="-281" Score="107.5">
+          <Sequence>TTAAACAGATAGAGGTTGCAGCCAACATGACTAACCGAATCGAGCGAGATCCTTCGTGGTGACATTCGGTGAAAGGGGCGGTTGCCGAAATGGGTGATCCGGGATCGGTGAGCCTGTTGGGCCAGGATTGAATAAATCCTGTACTGTCGCTTAGGTATCTAAGCGGGGCGCTATCATTCAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_02848" Name="lysX" Position="-279" Score="62.8">
+          <Sequence>CAAGAAATAGAGGTTGCGGTGGGCAACGAAAACTGGGGAGTGCCGAGTCATGTTGAACCAGTCGTAAGTGCCGCCGCCGAAATGTTGGATCGTATTCGGACGATTCGCATTGGGCCATGGGCGCATAACCCATGGACTGTCGAAGCTGGTTGCTTCGGGGCGCTATGATTCTGGT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7620130" LocusId="LGG_02848" Name="lysX" Function="Predicted lysine ABC transporter, fusion of binding protein and permease protein" />
+          <Members vimssId="7620131" LocusId="LGG_02849" Name="lysY" Function="Predicted lysine ABC transporter, ATPase component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7617394" LocusId="LGG_00112" Name="lysA" Function="Diaminopimelate decarboxylase (EC 4.1.1.20)" />
+          <Members vimssId="7617393" LocusId="LGG_00111" Name="dapD" Function="2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase (EC 2.3.1.89)" />
+          <Members vimssId="7617392" LocusId="LGG_00110" Name="dapL" Function="N-acetyl-L,L-diaminopimelate deacetylase (EC 3.5.1.47)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00515" RegulationMode="RF00515">
+      <Regulator Key="PyrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28951" />
+      <Effector>PyrR</Effector>
+      <Pathway>Pyrimidine metabolism</Pathway>
+      <LocusTag Key="PyrR" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_02546" Name="pyrG" Position="-118" Score="23.3">
+          <Sequence>TAATATACATTTTGGGCGCTTTACAGAAGTGTAAAGCCAATACGGTTCAAGCTCCCTGTTCGTATGAACAGGGAGCTTGTTTTT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01461" Name="pyrR" Position="-466" Score="60.2">
+          <Sequence>AAGCACCTTTAACTAAGTCCAGTGAGGCTTAGAAGGTTTCCTTTCCGTTGCGGCGGATTATTCAGGCTACGGTCGCCTTCTATCCAAATTGGGTAGGAGGCGTTTTTTG</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619828" LocusId="LGG_02546" Name="pyrG" Function="CTP synthase (EC 6.3.4.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7618743" LocusId="LGG_01461" Name="pyrR" Function="Uracil phosphoribosyltransferase (EC 2.4.2.9) / Pyrimidine operon regulatory protein PyrR" />
+          <Members vimssId="7618742" LocusId="LGG_01460" Name="pyrP" Function="Xanthine/uracil permease" />
+          <Members vimssId="7618741" LocusId="LGG_01459" Name="pyrB" Function="Aspartate carbamoyltransferase (EC 2.1.3.2)" />
+          <Members vimssId="7618740" LocusId="LGG_01458" Name="pyrC" Function="Dihydroorotase (EC 3.5.2.3)" />
+          <Members vimssId="7618739" LocusId="LGG_01457" Name="carA" Function="Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)" />
+          <Members vimssId="7618738" LocusId="LGG_01456" Name="carB" Function="Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)" />
+          <Members vimssId="7618737" LocusId="LGG_01455" Name="pyrD" Function="Dihydroorotate dehydrogenase, catalytic subunit (EC 1.3.3.1)" />
+          <Members vimssId="7618736" LocusId="LGG_01454" Name="pyrF" Function="Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23)" />
+          <Members vimssId="7618735" LocusId="LGG_01453" Name="pyrE" Function="Orotate phosphoribosyltransferase (EC 2.4.2.10)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01767" RegulationMode="RF01767">
+      <Regulator Key="SMK_box_riboswitch" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47293" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="SMK_box_riboswitch" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_00842" Name="metK" Position="-84" Score="63.1">
+          <Sequence>AGAGTTGCAATACATTCCCGATGGGGTTCGTTAGCGATTAACGAACATGCCTTGTAACCGAAAATCATGAGGGGGAAACAAACGATGCA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7618124" LocusId="LGG_00842" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ala)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30402" />
+      <Effector>Ala-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_00766" Name="" Position="-138" Score="36.9">
+          <Sequence>GAAAAGCTATAATTGGGACTCGTTAGGATATGTGTCGACCCCTGAGTGAGACAGAAACAGCCGCATACGTTGAGAGCGGCTGCACCGGGCTAAGATATGCTCCCTAATATCAGGTGAACGAATATTAATGAAGTGGTAATGACTCGCATCATTGCAACCAAGGTGGTACCGCGTGCAAGCGCCCTTGGCAG</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7618048" LocusId="LGG_00766" Name="null" Function="predicted ORF" />
+          <Members vimssId="7618049" LocusId="LGG_00767" Name="alaS" Function="Alanyl-tRNA synthetase (EC 6.1.1.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Arg)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30492" />
+      <Effector>Arg-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_01786" Name="argS" Position="-216" Score="47.5">
+          <Sequence>TATAGATCCGGTGAGAAAGAGGAATTCAGGTTATTTGACGTTTAAAAGTGAGATCGGCTAGTGCAAACGATCACGTCTAACCTGTTGGCGCGCTTTTGAGGATCAGTGTTTTGAGTGGACTCATGTCAAGCAGAGTGGTACCGCGGGTGCAGGCTCGTCTCTTCG</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619068" LocusId="LGG_01786" Name="argS" Function="Arginyl-tRNA synthetase (EC 6.1.1.19)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Asp)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30462" />
+      <Effector>Asp-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_01562" Name="hisS" Position="-438" Score="47.1">
+          <Sequence>ACTAAGACCTGTGACGGAGTAGGATAGATCAATTTTAAGCGACCCGGAGATGGTGAAAGCCGGGACCGATCGAAAAGACACTCCTGAGGTGATCAAGTTCCGGAACGCCACCGTTATGGCAAAGTAAAACACAAGGTGGTACCGTGTCCGCACCCTTCGA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7618844" LocusId="LGG_01562" Name="hisS" Function="Histidyl-tRNA synthetase (EC 6.1.1.21)" />
+          <Members vimssId="7618843" LocusId="LGG_01561" Name="aspS" Function="Aspartyl-tRNA synthetase (EC 6.1.1.12)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Gly)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30602" />
+      <Effector>Gly-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_01514" Name="glyQ" Position="-255" Score="53.7">
+          <Sequence>TGAATCGGTGATGAGAAAAAGGGTCGCATTTGTACCAAACCCAAGCGAGTCAGGGATAGTGTAAGCCTGATGGTGGTGAATGTGATTGGCGTTTTCGAACCAAATGACAAAGCTGCAGGTAGATTCGGTCTATCTGAAGTAGGGTGGAACCGCGCAGAAGCGTCCCTACG</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7618796" LocusId="LGG_01514" Name="glyQ" Function="Glycyl-tRNA synthetase alpha chain (EC 6.1.1.14)" />
+          <Members vimssId="7618795" LocusId="LGG_01513" Name="glyS" Function="Glycyl-tRNA synthetase beta chain (EC 6.1.1.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(His)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30632" />
+      <Effector>His-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_01445" Name="hisZ" Position="-375" Score="99.6">
+          <Sequence>CCATGAAGTTGTGATTAGACCAAGTAGGTTGGCACCAATCCACAGAGAGCGCCGATTGCTGAGAACGCGTGATTGACCGACTGAACACACATCTAAGAACTTGATAGCCGAACCGAGTAAGCTATCACGCACCTGTTGCGTTATCACCGCTGCCAATAACAGTTCGCGCAAGCCGACATGGGATTGGTAGATGAGGTTTGGGTCGTAAGGTCCAGACAAATTGAGGTGGTACCGCGAAGTTGATTCGCCCTCGAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7618727" LocusId="LGG_01445" Name="hisZ" Function="ATP phosphoribosyltransferase regulatory subunit (EC 2.4.2.17)" />
+          <Members vimssId="7618726" LocusId="LGG_01444" Name="hisG" Function="ATP phosphoribosyltransferase catalytic subunit (EC 2.4.2.17)" />
+          <Members vimssId="7618725" LocusId="LGG_01443" Name="hisD" Function="Histidinol dehydrogenase (EC 1.1.1.23)" />
+          <Members vimssId="7618724" LocusId="LGG_01442" Name="null" Function="predicted ORF" />
+          <Members vimssId="7618723" LocusId="LGG_01441" Name="hisB" Function="Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)" />
+          <Members vimssId="7618722" LocusId="LGG_01440" Name="hisH" Function="Imidazole glycerol phosphate synthase amidotransferase subunit (EC 2.4.2.-)" />
+          <Members vimssId="7618721" LocusId="LGG_01439" Name="hisA" Function="Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase (EC 5.3.1.16)" />
+          <Members vimssId="7618720" LocusId="LGG_01438" Name="hisF" Function="Imidazole glycerol phosphate synthase cyclase subunit (EC 4.1.3.-)" />
+          <Members vimssId="7618719" LocusId="LGG_01437" Name="hisI" Function="Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19)" />
+          <Members vimssId="7618718" LocusId="LGG_01436" Name="hisE" Function="Phosphoribosyl-ATP pyrophosphatase (EC 3.6.1.31)" />
+          <Members vimssId="7618717" LocusId="LGG_01435" Name="hisC" Function="Histidinol-phosphate aminotransferase (EC 2.6.1.9) @ Biosynthetic Aromatic amino acid aminotransferase beta (EC 2.6.1.57)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ile)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30662" />
+      <Effector>Ile-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_01291" Name="ileS" Position="-248" Score="87.8">
+          <Sequence>CAATAACGTATGAACACGCGTCATTTGCCGGTCCCCTTTGCAGCGAGTCAGGAATAGGTGTGAGCCTGATAAGTACCGCTGAATGATATCAGTTCGCAGTTGTCTCGCCGAATAACTAAGCGAGACCGGTTGATCACCGTTAAGCAATCACTGAGGGGGACTTGTTCCCTGAAGTTAGGTGGTACCACGTTTGCTCGTCCTAATATA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00575" Name="brnQ" Position="-414" Score="87.9">
+          <Sequence>TACAAATGCAACGCGAAAGACAAGTAGTTGTGTTCATGGATTCAGCGAGCTTCGGTTGGTGTGAGGAAGCATTCAGGGCATAGCGAATATCCCTTTCAAGCAGGACACCGAACCTTCAGTAACGTGTCATGGGGGCACCCATTACAGTGCTAGCATATCGTCATTTGACCGTATGCGATGAAGACTAGGCCATTTTTGGCTATGGTGAATTAAGGTGGTACCGCGCAAAGTCGCCCTTAGC</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7617857" LocusId="LGG_00575" Name="brnQ" Function="Branched-chain amino acid transport system carrier protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7618573" LocusId="LGG_01291" Name="ileS" Function="Isoleucyl-tRNA synthetase (EC 6.1.1.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Leu)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33000" />
+      <Effector>Leu-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_00848" Name="leuS" Position="-239" Score="92.3">
+          <Sequence>AACGAACAAAGGAGTAGTAAGTCGGCGCGGGTTTCAGAGAGCAGGCGGTGGTGCGAGCCTGACGATGCTAAGACTGAACTGACCTTTGAAGTTGCTGCGGTGAACGGAGTAATCGCAGCCGGCCGGACCGTTACCCCTTTTGAGCGCTGTGAAAGCAGAACTTAGGTGGTACCGCGGCTGAGCCGTCCTAATGAA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7618130" LocusId="LGG_00848" Name="leuS" Function="Leucyl-tRNA synthetase (EC 6.1.1.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Met)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33110" />
+      <Effector>Met-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_00500" Name="metQ" Position="-313" Score="62.5">
+          <Sequence>TCAACACTTCGAGAAGAAGATTAGCCTTAGCGCAAGCGTTGCAGAGAACCCGGATGGTGAAAAAGGGGCGTTGGCAAAAAGGTGAAGATGAGCTTCGAATAGTGATTCGTGCGGTTAACGCCTGCGGATCGGTTGCAGCCGTTATCCTGCCAGGTATCAACAGGTACTGGAGGCGATGTTTCGGCATTGCAAACGAGGGTGGTAACACGGCATGGCCGTCCCTTGACG</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00597" Name="metE" Position="-457" Score="81.1">
+          <Sequence>TTGAAATGCGGAAAGATGAGTAGCTGTTCATTTTTTGTTTAGAGAGTGTCCATTTTGGTGAAAGGACATCTAAAAATGCCAGCGAATATGGTCTTGGTGATGCAGGTGTGCCGAGCAATGGCAAAGCACACATGGGGACGCCCATTATTGCGTTAGGTCTCACAGTGAATACTGTCGGACTGATTGAGGAAAGTTGTGTGAGCAGCTTTCAAACCAAGGTGGTACCACGGTAAGCCGTCCTTGGC</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01196" Name="metQ" Position="-313" Score="82">
+          <Sequence>GAAACGAATGATATGAGTGAGTAGATTTGATGAGACTGTACAGAAAACCTGGTTGGCTGAGAGCAGGGTAGTTGATTGAATTGAAGATGGCTCATTGATCGGCATCGCTGAGCATTGGTTAAGCGATGATGGCTGGCGGTCATTATTCCGCACACAGGTTATTGCCTGTTACTGAGGGCGCTTTGGCGTCGAATTAGAATGGTACCGCGAGTTAACTCGCTTCTAAAAC</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_01195" Name="metQ" Position="-342" Score="73.3">
+          <Sequence>AACGGACTGAGTGAGTAGTGATCGCAAGACAGTACAGAAAACCTGTAGTGATGAGAGCAGGGTTGTGAGTGATCATGAACATGGCTTAGTGCACACGGCACACCGAGCATTTTTGCAAGGCTGTGATGGTTGGCGCCCATTATCGTGCTCCCGGATGAATACGTCCGGTGAGTGGGTCGCGTTTTTCGTGGCCAATTAGAATGGTACCGTGGGCCAAAGCTCACTTCTAACAG</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7617782" LocusId="LGG_00500" Name="metQ" Function="Methionine ABC transporter substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7617879" LocusId="LGG_00597" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+          <Members vimssId="7617878" LocusId="LGG_00596" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7618477" LocusId="LGG_01195" Name="metQ" Function="Methionine ABC transporter substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7618478" LocusId="LGG_01196" Name="metQ" Function="Methionine ABC transporter substrate-binding protein" />
+          <Members vimssId="7618479" LocusId="LGG_01197" Name="metN" Function="Methionine ABC transporter ATP-binding protein" />
+          <Members vimssId="7618480" LocusId="LGG_01198" Name="metP" Function="Methionine ABC transporter permease protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Phe)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33165" />
+      <Effector>Phe-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_01718" Name="pheS" Position="-293" Score="60.4">
+          <Sequence>TGTAAAAACAATGACGAAAGCCCAAACAGGCTGGTAAATCAGGGAATGACGTTCACGAGACTGCAAGACGTCTGTTACCAAAATGTTTGTCTTCACTTTCTGAGTTGACTTTTGAGGTGGCAACACTTAGAAAGCTCCGGCCTGGCCGTTACCTTGTTGAGTGCATGAGGTTTTTTAATCATGAACAAGGGTGGTACCGCGATGCTTCGTCCCTTTT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619000" LocusId="LGG_01718" Name="pheS" Function="Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)" />
+          <Members vimssId="7618999" LocusId="LGG_01717" Name="pheT" Function="Phenylalanyl-tRNA synthetase beta chain (EC 6.1.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Pro)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33220" />
+      <Effector>Pro-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_02366" Name="proB" Position="-219" Score="38.6">
+          <Sequence>CACTTCATCAAGTCATAGTAGCGGCTCACAGAGATCAGGACGTTTGCTGAAAGTTCTGAATGGCTCGCGAATCCAAGCTTGAACTGAAGATTGACGAAATTAAATAGTAAAAAAGCGCAAAGCACGGCTTTGAACGAGAATGGTACCGCCTTAACGGGTGTCTCGA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619648" LocusId="LGG_02366" Name="proB" Function="Glutamate 5-kinase (EC 2.7.2.11)" />
+          <Members vimssId="7619647" LocusId="LGG_02365" Name="proA" Function="Gamma-glutamyl phosphate reductase (EC 1.2.1.41)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ser)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33275" />
+      <Effector>Ser-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_01893" Name="serS" Position="-353" Score="73.9">
+          <Sequence>AGTAAACACGTCTGAAGCGCCTAATGGATGTTTTAGAGAGTTAGCGGGTGGTGCAAGCTGACATATCATCCTCATTCCAGCGCCTTAGTGGGCAGTGATGAACTGCACGGTGACAACCGTTATCAGCCTCAAGAGGGTGGCGTTATGCGCCAAACTTGGGTGGTACCGCGGAAAAAGCCTTTCGTCCCATTA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619175" LocusId="LGG_01893" Name="serS" Function="Seryl-tRNA synthetase (EC 6.1.1.11)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Thr)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33330" />
+      <Effector>Thr-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_01754" Name="thrS" Position="-320" Score="55.6">
+          <Sequence>GTAACTATCGAAGACGGAAGCAATAAAGGATCATCTACTAGAGAGTAAGGCCGTGGCTGAAAGCCTTGCAAGATCTGATCCGAACCACTTCTCGAGATTGCCCTAATGGCCCTGTTGCGCAGGTTACGCGCCAATGAAGTGGCCCGCAGCAAGACTGTCGGCAACCTGGGTGGAACCGCGATCACAAATCGTCCCTGAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619036" LocusId="LGG_01754" Name="thrS" Function="Threonyl-tRNA synthetase (EC 6.1.1.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Trp)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33385" />
+      <Effector>Trp-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_02609" Name="trpS" Position="-226" Score="73.6">
+          <Sequence>TATTCATACAAACGATGAGTACCCTATCCAAATGGTCGCCAGAGAGTCGGCAGCGCTGAGAAGTCGATGGCCAGGGTAGGTGAAATTGGGTCGTTTGCGTTACGTTCGGTGGGTGCGCCTTAAGCCAAGAGCGGTCCGAAATTCGGACAAGTTAGGTGGTACCGCGCGCTTGCGTCCTATGT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619891" LocusId="LGG_02609" Name="trpS" Function="Tryptophanyl-tRNA synthetase (EC 6.1.1.2) ## type 2" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Tyr)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33440" />
+      <Effector>Tyr-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_02017" Name="tyrS" Position="-294" Score="74.2">
+          <Sequence>TATAAAATTTACCAGCTGAGTCGCAGTAGTGTTATCTAGGTAGGCTTTCAGAAAAACGGTGGTTGCTGCAAACCGTTCCACCTGATAGCACGAATTACAGCTCAATGAATTCTGGCCGCGGGTCATGCCGATATCCATGAGAGTGATGCAAAGCATAATTTGGGTGGTACCGCGGTGAAAGTCGTCCCTGAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619299" LocusId="LGG_02017" Name="tyrS" Function="Tyrosyl-tRNA synthetase (EC 6.1.1.1) ## cluster 1" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Val)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33495" />
+      <Effector>Val-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_01261" Name="valS" Position="-332" Score="113.2">
+          <Sequence>CTAATGCAATGATCAAGAGGGTTGCGGTCTTTTTTTTCAGCGACGGGATGGTTGGTGTGAATCTCGAAAGAAGGGCGTGATTGTAGCTTGTGAGCTGCCGTCCTGAAGTGAGTAGGGAACGGCCGGTGACAGCCGTTATCCTGAACCAAGTGGGGATTGATTCCCAATTTAGGTGGTACCGCGAGTAGACTCGTCCTAATAAT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00292" Name="brnQ" Position="-339" Score="85.9">
+          <Sequence>TTCAAAAACGATGAGTAGAAGAGTACCTAGATTGTCAGTGTCAGCGAGTCTCGGTTGGTGGGAAGAGACCTCTGATTATCTAGTGGAAAGTAGTCTACGAGTTGCCATTGCGACTTCGGAAGTAATGGCTGGGATTGCGCCCATTACAGCAATCGCGTATCGCCGAATCAGGCCGTACGCGGCGAGACCGCTTTCGGTGACGTTGGCGGTAAAGTAAGGTGGTACAGCGTGATCCGCGCCCTTAAC</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7617574" LocusId="LGG_00292" Name="brnQ" Function="Branched-chain amino acid transport system carrier protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7618543" LocusId="LGG_01261" Name="valS" Function="Valyl-tRNA synthetase (EC 6.1.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01831" RegulationMode="RF01831">
+      <Regulator Key="THF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47193" />
+      <Effector>Tetrahydrofolate</Effector>
+      <Pathway>Folate metabolism</Pathway>
+      <LocusTag Key="THF" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_02255" Name="folT" Position="-133" Score="73.2">
+          <Sequence>TCTAGGAGTAGGAACCTGTGCGTTAAGTGCTGCCGGAACGGAATGTGAACGGCAGACGAAGACAGATGTCGCGGTGCAGGTTCCGCATTCGCCTGA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619537" LocusId="LGG_02255" Name="folT" Function="Substrate-specific component FolT of folate ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28871" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_01815" Name="thiT" Position="-140" Score="57.5">
+          <Sequence>AACCTTCACAAAGGGGAGCCATTGGCTGAGAGCGGGGAGACCCGGACCCTTCGAACCTGTTCGTTAGTGCGAGCGTAGGGATTTGTGAATGTCGGAAAC</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LGG_00363" Name="ykoE" Position="-289" Score="71">
+          <Sequence>AGAAACATTTGGGGTGCTGAAAAGCTGAGATAATACCCATGGAACCTGATGCAGTTAGTACTGCCGCAGGGAAATGTCGCTAAGATCAATC</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7617645" LocusId="LGG_00363" Name="ykoE" Function="Substrate-specific component YkoE of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine" />
+          <Members vimssId="7617646" LocusId="LGG_00364" Name="ykoD" Function="Duplicated ATPase component YkoD of energizing module of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine" />
+          <Members vimssId="7617647" LocusId="LGG_00365" Name="ykoC" Function="Transmembrane component YkoC of energizing module of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine" />
+          <Members vimssId="7617648" LocusId="LGG_00366" Name="tenA" Function="Thiaminase II (EC 3.5.99.2)" />
+          <Members vimssId="7617649" LocusId="LGG_00367" Name="thiW" Function="Substrate-specific component ThiW of predicted thiazole ECF transporter" />
+          <Members vimssId="7617650" LocusId="LGG_00368" Name="thiM" Function="Hydroxyethylthiazole kinase (EC 2.7.1.50)" />
+          <Members vimssId="7617651" LocusId="LGG_00369" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+          <Members vimssId="7617652" LocusId="LGG_00370" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7619097" LocusId="LGG_01815" Name="thiT" Function="Core component YuaJ of predicted thiamin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01054" RegulationMode="RF01054">
+      <Regulator Key="preQ1-II" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30009" />
+      <Effector>Pre-queuosine</Effector>
+      <Pathway>Queuosine biosynthesis</Pathway>
+      <LocusTag Key="preQ1-II" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_02057" Name="queT" Position="-125" Score="44.6">
+          <Sequence>GAAAAGTAAACTGGAAACATTGTAAGAACTATTAACTGAATCGGAACCGCCCCGCGCGCTTCCACGACGATACTTATTTCCTTTGATCGTCGTTATTACTGGCAAAGCCACAAAGGAGAAACAATA</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619339" LocusId="LGG_02057" Name="queT" Function="Substrate-specific component QueT (COG4708) of predicted queuosine-regulated ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00380" RegulationMode="RF00380">
+      <Regulator Key="ykoK" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30249" />
+      <Effector>Magnesium ion, (Mg2+)</Effector>
+      <Pathway>Magnesium homeostasis</Pathway>
+      <LocusTag Key="ykoK" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_01319" Name="COG0474" Position="-376" Score="126.1">
+          <Sequence>GTGCTTTCCGTTAGGTGAGGCTCCTATACGAACAATGCTGCTGCTCAGAAACATCGAGAGATGCCAATTGAGTCAACTGCGTCTGCCCATTAAGGCTTACGCTAATGCAGCTGAAGCTCGCTTCTAGGCGTATAGTGCTAAAACTAAACGATTGGGATGCTTTTT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7618601" LocusId="LGG_01319" Name="COG0474" Function="Na+/K+ ATPase alpha subunit" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30309" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LGG_01855" Name="atcL" Position="-162" Score="56.1">
+          <Sequence>TTTACTCAACATAGGGGAGTAACTAGCAGAGCATATCTGCGACAACGTCACCAACAAGGCTATGTCTGGTGTTGTCTTAAATAGTGAGACTTATGGATCTACT</Sequence>
+          <Bacteria>Lactobacillus rhamnosus GG</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7619137" LocusId="LGG_01855" Name="atcL" Function="Calcium-transporting ATPase (EC 3.6.3.8)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

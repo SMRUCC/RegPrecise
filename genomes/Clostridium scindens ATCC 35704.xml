@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Clostridium scindens ATCC 35704" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor (activator)">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47480" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="CLOSCI_00432" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4874338&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4785" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_01777" Name="argG" Position="-107" Score="5.2">
+          <Sequence>TTGCATATTTATAAAA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_01771" Name="argC" Position="-113" Score="5.7">
+          <Sequence>ATGTATAATTATGCAA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4875677" LocusId="CLOSCI_01771" Name="argC" Function="N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)" />
+          <Members vimssId="4875676" LocusId="CLOSCI_01770" Name="GNAT" Function="Acetyltransferase, GNAT family (EC 2.3.1.-)" />
+          <Members vimssId="4875675" LocusId="CLOSCI_01769" Name="argJ" Function="Glutamate N-acetyltransferase (EC 2.3.1.35) / N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="4875674" LocusId="CLOSCI_01768" Name="argB" Function="Acetylglutamate kinase (EC 2.7.2.8)" />
+          <Members vimssId="4875673" LocusId="CLOSCI_01767" Name="argD" Function="Acetylornithine aminotransferase (EC 2.6.1.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4875683" LocusId="CLOSCI_01777" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4785</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57899" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="CLOSCI_00957" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4874863&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5929" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_02690" Name="bioY" Position="-142" Score="8.7">
+          <Sequence>TTGTTAAC---------------GTTGACAT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_01529" Name="bioB" Position="-85" Score="8.2">
+          <Sequence>CTGTAAAC---------------GTTGACAA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4875435" LocusId="CLOSCI_01529" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4876596" LocusId="CLOSCI_02690" Name="bioY" Function="Substrate-specific component BioY of biotin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5929</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="CzrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62649" />
+      <Effector>Zinc ion, (Zn2+); Silver ion, (Ag+); Nickel ion, (Ni2+); Copper ion, (Cu2+); Cobalt ion, (Co2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Zinc resistance; Nickel resistance; Copper resistance; Cobalt resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="CLOSCI_04035" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4877941&amp;disp=0" />
+      <BiologicalProcess>Zinc resistance; Nickel resistance; Copper resistance; Cobalt resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CzrA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6446" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_04034" Name="cadA" Position="-63" Score="7.6">
+          <Sequence>CATATGAATAACTGTTCATATG</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4877940" LocusId="CLOSCI_04034" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5); Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="4877941" LocusId="CLOSCI_04035" Name="czrA" Function="Cadmium-dependent transcriptuin regulator, ArsR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6446</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="DtxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62584" />
+      <Effector>New effector</Effector>
+      <Pathway>Metal homeostasis</Pathway>
+      <LocusTag Key="CLOSCI_00930" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4874836&amp;disp=0" />
+      <BiologicalProcess>Metal homeostasis</BiologicalProcess>
+      <Regulog Key="DtxR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6440" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_02591" Name="PF09605" Position="-95" Score="5.8">
+          <Sequence>GGTTAGTTATAACTAACC</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_00935" Name="PF09605" Position="-50" Score="6.1">
+          <Sequence>GGTTAGTTATTGCTAATC</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4876497" LocusId="CLOSCI_02591" Name="PF09605" Function="Hypothetical bacterial integral membrane protein (Trep_Strep)" />
+          <Members vimssId="4876498" LocusId="CLOSCI_02592" Name="COG0619" Function="ABC-type cobalt transport system, permease component CbiQ and related transporters" />
+          <Members vimssId="4876499" LocusId="CLOSCI_02593" Name="COG1123" Function="ATPase components of various ABC-type transport systems, contain duplicated ATPase" />
+          <Members vimssId="4876500" LocusId="CLOSCI_02594" Name="COG1132" Function="ABC-type multidrug transport system, ATPase and permease components" />
+          <Members vimssId="4876501" LocusId="CLOSCI_02595" Name="COG2274" Function="ABC-type bacteriocin/lantibiotic exporters, contain an N-terminal double-glycine peptidase domain" />
+          <Members vimssId="4876502" LocusId="CLOSCI_02596" Name="dtxR" Function="Putative metal-dependent transcriptional regulator, DtxR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4874841" LocusId="CLOSCI_00935" Name="PF09605" Function="Hypothetical bacterial integral membrane protein (Trep_Strep)" />
+          <Members vimssId="4874840" LocusId="CLOSCI_00934" Name="COG0619" Function="ABC-type cobalt transport system, permease component CbiQ and related transporters" />
+          <Members vimssId="4874839" LocusId="CLOSCI_00933" Name="COG1123" Function="ATPase components of various ABC-type transport systems, contain duplicated ATPase" />
+          <Members vimssId="4874838" LocusId="CLOSCI_00932" Name="COG1132" Function="ABC-type multidrug transport system, ATPase and permease components" />
+          <Members vimssId="4874837" LocusId="CLOSCI_00931" Name="COG2274" Function="ABC-type bacteriocin/lantibiotic exporters, contain an N-terminal double-glycine peptidase domain" />
+          <Members vimssId="4874836" LocusId="CLOSCI_00930" Name="dtxR" Function="Putative metal-dependent transcriptional regulator, DtxR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6440</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62757" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="CLOSCI_00922" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4874828&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6458" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_01154" Name="PF12672" Position="-44" Score="5">
+          <Sequence>AATGATAATCAAAATCAAA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_00925" Name="feoA" Position="-74" Score="4.7">
+          <Sequence>GATGAGAAAAGATATCAAA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_00838" Name="BACPEC_02635" Position="-58" Score="4.6">
+          <Sequence>ATTGACATATAATACCAAT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_00838" Name="BACPEC_02635" Position="-36" Score="5.5">
+          <Sequence>AATGATAATCAAAATCAAT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_00921" Name="BACPEC_03058" Position="-194" Score="5.3">
+          <Sequence>AATGACTAAATTTCTCAAT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4875060" LocusId="CLOSCI_01154" Name="PF12672" Function="Protein of unknown function (DUF3793)" />
+          <Members vimssId="4875061" LocusId="CLOSCI_01155" Name="PF10087" Function="Uncharacterized protein conserved in bacteria (DUF2325)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4874827" LocusId="CLOSCI_00921" Name="BACPEC_03058" Function="hypothetical protein" />
+          <Members vimssId="4874826" LocusId="CLOSCI_00920" Name="COG2217" Function="Cation transporting ATPase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4874744" LocusId="CLOSCI_00838" Name="BACPEC_02635" Function="hypothetical protein" />
+          <Members vimssId="4874743" LocusId="CLOSCI_00837" Name="feoA" Function="Ferrous iron transport protein A" />
+          <Members vimssId="4874742" LocusId="CLOSCI_00836" Name="feoB" Function="Ferrous iron transport protein B" />
+          <Members vimssId="4874741" LocusId="CLOSCI_00835" Name="null" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4874831" LocusId="CLOSCI_00925" Name="feoA" Function="Ferrous iron transport protein A" />
+          <Members vimssId="4874830" LocusId="CLOSCI_00924" Name="feoB" Function="Ferrous iron transport protein B" />
+          <Members vimssId="4874829" LocusId="CLOSCI_00923" Name="null" Function="hypothetical protein" />
+          <Members vimssId="4874828" LocusId="CLOSCI_00922" Name="fur" Function="Transcriptional regulator for iron transport and metabolism, Fur family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6458</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TrpR" RegulationMode="repressor">
+      <Regulator Key="HisR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=54589" />
+      <Effector>Histidine</Effector>
+      <Pathway>Histidine biosynthesis</Pathway>
+      <LocusTag Key="CLOSCI_02856" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4876762&amp;disp=0" />
+      <BiologicalProcess>Histidine biosynthesis</BiologicalProcess>
+      <Regulog Key="HisR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5569" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_02856" Name="hisR" Position="-57" Score="5.4">
+          <Sequence>AAATTTAGTGTGTTAAAATG</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_00784" Name="hisX" Position="-91" Score="5.6">
+          <Sequence>CAATTTAGCGTGGTAAAGTA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_00467" Name="hisZ" Position="-47" Score="5.1">
+          <Sequence>CATGGTAGCACACTAAAGTG</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4874690" LocusId="CLOSCI_00784" Name="hisX" Function="Histidine ABC transporter, histidine-binding protein (TC 3.A.1)" />
+          <Members vimssId="4874689" LocusId="CLOSCI_00783" Name="hisY" Function="Histidine ABC transporter, permease protein" />
+          <Members vimssId="4874688" LocusId="CLOSCI_00782" Name="hisZ" Function="Histidine ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4874373" LocusId="CLOSCI_00467" Name="hisZ" Function="ATP phosphoribosyltransferase regulatory subunit (EC 2.4.2.17)" />
+          <Members vimssId="4874374" LocusId="CLOSCI_00468" Name="hisG" Function="ATP phosphoribosyltransferase catalytic subunit (EC 2.4.2.17)" />
+          <Members vimssId="4874375" LocusId="CLOSCI_00469" Name="hisD" Function="Histidinol dehydrogenase (EC 1.1.1.23)" />
+          <Members vimssId="4874376" LocusId="CLOSCI_00470" Name="hisB" Function="Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)" />
+          <Members vimssId="4874377" LocusId="CLOSCI_00471" Name="hisIE" Function="Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19) / Phosphoribosyl-ATP pyrophosphatase (EC 3.6.1.31)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4876762" LocusId="CLOSCI_02856" Name="hisR" Function="Predicted histidine repressor, TrpR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5569</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47494" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="CLOSCI_01188" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4875094&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4786" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_00050" Name="groEL" Position="-397" Score="7.5">
+          <Sequence>TTAGCACTCTCTTTTTATGAGTGCTAA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_00049" Name="groES" Position="-58" Score="7.5">
+          <Sequence>TTAGCACTCTCTTTTTATGAGTGCTAA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_01188" Name="hrcA" Position="-54" Score="7.3">
+          <Sequence>TTAGCACTCGAAAATGTAGAGTGCTAA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_02851" Name="hsp20" Position="-97" Score="7.2">
+          <Sequence>TTAGCACTCATCTATTGACAGTGCTAA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_02798" Name="clpB" Position="-94" Score="7.2">
+          <Sequence>TTAGCACTCACCTCTTGACAGTGCTAA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_04021" Name="hsp20" Position="-100" Score="7.3">
+          <Sequence>TTAGCACTCAATACTTGACAGTGCTAA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4877927" LocusId="CLOSCI_04021" Name="hsp20" Function="Heat shock protein Hsp20" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4876704" LocusId="CLOSCI_02798" Name="clpB" Function="ATP-dependent Clp protease ATP-binding subunit ClpB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4873956" LocusId="CLOSCI_00050" Name="groEL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4873955" LocusId="CLOSCI_00049" Name="groES" Function="Heat shock protein 60 family co-chaperone GroES" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4876757" LocusId="CLOSCI_02851" Name="hsp20" Function="Heat shock protein Hsp20" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4875094" LocusId="CLOSCI_01188" Name="hrcA" Function="heat-inducible transcription repressor HrcA" />
+          <Members vimssId="4875095" LocusId="CLOSCI_01189" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="4875096" LocusId="CLOSCI_01190" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="4875097" LocusId="CLOSCI_01191" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4786</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="IdeR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63062" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="CLOSCI_00926" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4874832&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="IdeR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6500" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_00926" Name="ideR" Position="-161" Score="5.5">
+          <Sequence>GTAGTTAGTATATTCTCATCAT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_00925" Name="" Position="-101" Score="5.8">
+          <Sequence>ATGATGAGAATATACTAACTAC</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_00924" Name="feoB" Position="-71" Score="6.1">
+          <Sequence>TACGTTAGTATATACTAATTAA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_00921" Name="" Position="-171" Score="4.4">
+          <Sequence>ACAGTTAGCATTGACTATCTGA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_00929" Name="" Position="-65" Score="4.4">
+          <Sequence>ATAGTTAGTCGCAACTAATAAT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4874827" LocusId="CLOSCI_00921" Name="null" Function="hypothetical protein" />
+          <Members vimssId="4874826" LocusId="CLOSCI_00920" Name="COG2217" Function="Cation transporting ATPase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4874830" LocusId="CLOSCI_00924" Name="feoB" Function="Ferrous iron transport protein B" />
+          <Members vimssId="4874829" LocusId="CLOSCI_00923" Name="null" Function="hypothetical protein" />
+          <Members vimssId="4874828" LocusId="CLOSCI_00922" Name="fur" Function="Transcriptional regulator for iron transport and metabolism, Fur family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4874831" LocusId="CLOSCI_00925" Name="null" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4874835" LocusId="CLOSCI_00929" Name="null" Function="hypothetical protein" />
+          <Members vimssId="4874834" LocusId="CLOSCI_00928" Name="COG0716" Function="Flavodoxins" />
+          <Members vimssId="4874833" LocusId="CLOSCI_00927" Name="PF10087" Function="Uncharacterized protein conserved in bacteria" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4874832" LocusId="CLOSCI_00926" Name="ideR" Function="Predicted iron-dependent repressor, DtxR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6500</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="repressor">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38245" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="CLOSCI_01399" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4875305&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Clostridiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3897" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_01399" Name="iscR" Position="18" Score="5.7">
+          <Sequence>AGAAATCCTAGCAAATTGCTAGGAATTAA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4875305" LocusId="CLOSCI_01399" Name="iscR" Function="Iron-sulfur cluster assembly transcription factor IscR" />
+          <Members vimssId="4875306" LocusId="CLOSCI_01400" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7)" />
+          <Members vimssId="4875307" LocusId="CLOSCI_01401" Name="iscU" Function="Iron-sulfur cluster assembly scaffold protein IscU/NifU-like" />
+          <Members vimssId="4875308" LocusId="CLOSCI_01402" Name="trmU" Function="tRNA (5-methylaminomethyl-2-thiouridylate)-methyltransferase (EC 2.1.1.61)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3897</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47452" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="CLOSCI_00491" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4874397&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4783" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_01391" Name="recA" Position="-38" Score="5">
+          <Sequence>ACGAACGTTCGTTCGA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_00491" Name="lexA" Position="-129" Score="4.8">
+          <Sequence>GAAAACATTTGTTTGT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_00491" Name="lexA" Position="-81" Score="4.8">
+          <Sequence>TCGAACGCATGTTTGT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_00491" Name="lexA" Position="-44" Score="4.9">
+          <Sequence>TCGAACATATTTTCTA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_01206" Name="COG4277" Position="-66" Score="5.4">
+          <Sequence>AAGAACATATGTTTGT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_01206" Name="COG4277" Position="-37" Score="5.1">
+          <Sequence>ACAAACGTATGTTCTT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_00492" Name="PF01476" Position="-141" Score="4.9">
+          <Sequence>TAGAAAATATGTTCGA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_00492" Name="PF01476" Position="-104" Score="4.8">
+          <Sequence>ACAAACATGCGTTCGA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_00492" Name="PF01476" Position="-56" Score="4.8">
+          <Sequence>ACAAACAAATGTTTTC</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4874397" LocusId="CLOSCI_00491" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4875297" LocusId="CLOSCI_01391" Name="recA" Function="Recombination protein A" />
+          <Members vimssId="4875298" LocusId="CLOSCI_01392" Name="recX" Function="regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4875112" LocusId="CLOSCI_01206" Name="COG4277" Function="Predicted DNA-binding protein with the Helix-hairpin-helix motif" />
+          <Members vimssId="4875113" LocusId="CLOSCI_01207" Name="BACPEC_02112" Function="Uracil-DNA glycosylase, family 1" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4874398" LocusId="CLOSCI_00492" Name="PF01476" Function="Peptidoglycan-binding lysin domain" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4783</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NiaR" RegulationMode="repressor">
+      <Regulator Key="NiaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47438" />
+      <Effector>Niacin</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="CLOSCI_01550" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4875456&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NiaR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4782" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_01553" Name="nadA" Position="-10" Score="5.3">
+          <Sequence>CTTATCTGTCTTGTCATATGTA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_02252" Name="niaY" Position="-53" Score="5.9">
+          <Sequence>TTCAAATGACAAGACAGTTGTA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4875459" LocusId="CLOSCI_01553" Name="nadA" Function="Quinolinate synthetase (EC 4.1.99.-)" />
+          <Members vimssId="4875458" LocusId="CLOSCI_01552" Name="nadB" Function="L-aspartate oxidase (EC 1.4.3.16)" />
+          <Members vimssId="4875457" LocusId="CLOSCI_01551" Name="nadC" Function="Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)" />
+          <Members vimssId="4875456" LocusId="CLOSCI_01550" Name="niaR" Function="NAD biosynthesis transcription regulator, HTH_11 family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4876158" LocusId="CLOSCI_02252" Name="niaY" Function="Predicted nicotinate-regulated transporter NiaY" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4782</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NiaR" RegulationMode="repressor">
+      <Regulator Key="NiaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34179" />
+      <Effector>Niacin</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="CLOSCI_01550" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4875456&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NiaR - Clostridiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3494" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_02252" Name="niaY" Position="-53" Score="5">
+          <Sequence>TTCAAATGACAAGACAGTTGTA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4876158" LocusId="CLOSCI_02252" Name="niaY" Function="Predicted nicotinate-regulated transporter NiaY" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3494</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=64318" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="CLOSCI_01651" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4875557&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6635" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_01031" Name="nrdD" Position="-67" Score="4.6">
+          <Sequence>GTGCTAGATATTGTAT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_01031" Name="nrdD" Position="-35" Score="4.1">
+          <Sequence>AACCAACATTTAGTGG</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_01639" Name="nrdD2" Position="-96" Score="4.4">
+          <Sequence>ACACAATAAGTGGTAT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_01639" Name="nrdD2" Position="-129" Score="4.8">
+          <Sequence>GCACAATATATTGTTA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_02889" Name="nrdE" Position="-64" Score="5.1">
+          <Sequence>CAACAATATATTGTGG</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_02889" Name="nrdE" Position="-33" Score="4.4">
+          <Sequence>AATCAATAAATTGTAT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_01031" Name="nrdD" Position="-135" Score="4.4">
+          <Sequence>AAAGTAAATATTGTAT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_01639" Name="nrdD2" Position="-160" Score="4.8">
+          <Sequence>TAACAATATATTGTGC</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4875545" LocusId="CLOSCI_01639" Name="nrdD2" Function="Oxygen-sensitive ribonucleoside-triphosphate reductase (EC 1.17.4.2)" />
+          <Members vimssId="4875544" LocusId="CLOSCI_01638" Name="COG0492" Function="thioredoxin reductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4874937" LocusId="CLOSCI_01031" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+          <Members vimssId="4874936" LocusId="CLOSCI_01030" Name="nrdG" Function="anaerobic ribonucleoside-triphosphate reductase activating protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4876795" LocusId="CLOSCI_02889" Name="nrdE" Function="Ribonucleotide reductase of class Ib (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="4876794" LocusId="CLOSCI_02888" Name="nrdF" Function="Ribonucleotide reductase of class Ib (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6635</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61479" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine biosynthesis</Pathway>
+      <LocusTag Key="CLOSCI_01235" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4875141&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine biosynthesis</BiologicalProcess>
+      <Regulog Key="PdxR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6312" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_00017" Name="pdxK" Position="-199" Score="10.1">
+          <Sequence>AACTGGCCT-(15)-ATCTGGACT-(8)-CATCCACTT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_02639" Name="pdxU" Position="-95" Score="10.9">
+          <Sequence>AACTGGACT-(15)-AACTGGACA-(8)-TGACCACTT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4873923" LocusId="CLOSCI_00017" Name="pdxK" Function="Pyridoxal kinase (EC 2.7.1.35)" />
+          <Members vimssId="4873922" LocusId="CLOSCI_00016" Name="pdxU" Function="Substrate-specific component PdxU of predicted pyridoxin-related ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4876545" LocusId="CLOSCI_02639" Name="pdxU" Function="Substrate-specific component PdxU of predicted pyridoxin-related ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6312</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29880" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="CLOSCI_00613" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4874519&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Clostridiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3116" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_03628" Name="hydC" Position="-176" Score="4.5">
+          <Sequence>TTGTACATTTTTTAACAT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_02188" Name="adhE" Position="-54" Score="5.5">
+          <Sequence>TTGTTAAAAAAATATCAA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_02188" Name="adhE" Position="-29" Score="5.5">
+          <Sequence>TTGACAAATAATTAACAA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4876094" LocusId="CLOSCI_02188" Name="adhE" Function="Alcohol dehydrogenase (EC 1.1.1.1), Fe-dependent; Acetaldehyde dehydrogenase (EC 1.2.1.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4877534" LocusId="CLOSCI_03628" Name="hydC" Function="NAD-reducing Fe-hydrogenase, subunit HydC (EC 1.12.7.2)" />
+          <Members vimssId="4877535" LocusId="CLOSCI_03629" Name="CLOLEP_03890" Function="histidine kinase" />
+          <Members vimssId="4877536" LocusId="CLOSCI_03630" Name="hydD" Function="NAD-reducing Fe-hydrogenase, ferredoxin subunit HydD (EC 1.12.7.2)" />
+          <Members vimssId="4877537" LocusId="CLOSCI_03631" Name="hydB" Function="NAD-reducing Fe-hydrogenase, subunit HydB (EC 1.12.7.2)" />
+          <Members vimssId="4877538" LocusId="CLOSCI_03632" Name="hydA" Function="NAD-reducing Fe-hydrogenase, subunit HydA (EC 1.12.7.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3116</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47466" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="CLOSCI_00613" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4874519&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4784" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_02188" Name="adhE" Position="-54" Score="5.5">
+          <Sequence>TTGTTAAAAAAATATCAA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_02188" Name="adhE" Position="-29" Score="5.3">
+          <Sequence>TTGACAAATAATTAACAA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_02187" Name="stpK" Position="-107" Score="5.6">
+          <Sequence>ATGTTAAATATATAACAA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_02187" Name="stpK" Position="-69" Score="5">
+          <Sequence>AAGTTAAAAAAATATCAA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4876093" LocusId="CLOSCI_02187" Name="stpK" Function="Mn2+-dependent serine/threonine protein kinase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4876094" LocusId="CLOSCI_02188" Name="adhE" Function="Alcohol dehydrogenase (EC 1.1.1.1), Fe-dependent; Acetaldehyde dehydrogenase (EC 1.2.1.10)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4784</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="YhcF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57298" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux</Pathway>
+      <LocusTag Key="CLOSCI_00067" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4873973&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux</BiologicalProcess>
+      <Regulog Key="YhcF - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5860" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_00067" Name="yhcF" Position="-49" Score="6.1">
+          <Sequence>ATTGTACTATATAGATAATACAAC</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_01184" Name="BLAHAN_01094" Position="-53" Score="6.3">
+          <Sequence>ATTGTACTAAGTTTATAATACAGT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4875090" LocusId="CLOSCI_01184" Name="BLAHAN_01094" Function="ABC-type multidrug transport system, ATPase component" />
+          <Members vimssId="4875089" LocusId="CLOSCI_01183" Name="BLAHAN_01093" Function="ABC-type multidrug transport system, permease component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4873973" LocusId="CLOSCI_00067" Name="yhcF" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="4873972" LocusId="CLOSCI_00066" Name="yhcG" Function="ABC-type multidrug transport system, ATPase component" />
+          <Members vimssId="4873971" LocusId="CLOSCI_00065" Name="yhcI" Function="ABC-type multidrug transport system, permease component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5860</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30685" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_03609" Name="cbiM" Position="-376" Score="65.3">
+          <Sequence>ACTTATTGTGGTCATATTGTGGTAACAGCAATATGAATGGACAAGGGAACCAGGTGCGAATCCTGGACGGTACCGCCGCTGTATGCGCCGAGCCTGTAATTCGTTGGCGAAAGCCAGTCATTGGGAAACCGAGAAGGCAGAATGCAGGCGCTGAGACTTCAAGCAAGTGTCGTAAGCGCGAGTCAGAAGACCTACAAGAAGAGGGATTGCTGATTG</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_02169" Name="cobW" Position="-248" Score="109.7">
+          <Sequence>TAATAACAGTAACGTATATAGTGATGCGAAGGCATTGAAAAGGGAATCTGGTGCGAATCCAGGACAGCCCGCTCTACTGTGTGATGGACGATCGTCCCATAAGCCACCCGGTCAGCCGGGGAAGGCGGGACTTGAGGATGAGATCGAGTCAGGAGACCTGCTATATATAGAAGATTCTTT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4877515" LocusId="CLOSCI_03609" Name="cbiM" Function="Substrate-specific component CbiM of cobalt ECF transporter" />
+          <Members vimssId="4877516" LocusId="CLOSCI_03610" Name="cbiN" Function="Additional substrate-specific component CbiN of cobalt ECF transporter" />
+          <Members vimssId="4877517" LocusId="CLOSCI_03611" Name="cbiQ" Function="Transmembrane component CbiQ of energizing module of cobalt ECF transporter" />
+          <Members vimssId="4877518" LocusId="CLOSCI_03612" Name="cbiO" Function="ATPase component CbiO of energizing module of cobalt ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4876075" LocusId="CLOSCI_02169" Name="cobW" Function="Putative metal chaperone, involved in Zn homeostasis, GTPase of COG0523 family" />
+          <Members vimssId="4876074" LocusId="CLOSCI_02168" Name="mtbC" Function="Dimethylamine corrinoid protein 2" />
+          <Members vimssId="4876073" LocusId="CLOSCI_02167" Name="hemE" Function="hypothetical protein" />
+          <Members vimssId="4876072" LocusId="CLOSCI_02166" Name="CBO1493" Function="Methylcobalamin:coenzyme M methyltransferase, methylamine-specific" />
+          <Members vimssId="4876071" LocusId="CLOSCI_02165" Name="mtbC" Function="Dimethylamine corrinoid protein 2" />
+          <Members vimssId="4876070" LocusId="CLOSCI_02164" Name="mtbA" Function="Methylcobalamin:coenzyme M methyltransferase, methylamine-specific" />
+          <Members vimssId="4876069" LocusId="CLOSCI_02163" Name="CBO1491" Function="probable electron transfer protein" />
+          <Members vimssId="4876068" LocusId="CLOSCI_02162" Name="hemE" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30705" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_02146" Name="ribU" Position="-142" Score="109.6">
+          <Sequence>AGAGATTCTTCGGGGTCGGGTGCAAATCCCAACCGGCGGTATAGTCCGCGACCCGGCGCGTTTATCCGCGCTGGCTGATCTGGTGCAATTCCGGAACCGACAGTAAAGTCTGGATGAGAGAAGAATTAT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_02942" Name="ribU" Position="-192" Score="91.4">
+          <Sequence>GAAGTCTTTGTGGCAGGGTGCAAATCCCTACCGATGGTATAGTCCATGACCCGCGCAAGCGGCTGATCTGGTGACCTTTTTGAGGAATTCCAGAACCGACGGTATAGTCCGGATGAGAAAAGACATTTTC</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4876848" LocusId="CLOSCI_02942" Name="ribU" Function="Substrate-specific component RibU of riboflavin ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4876052" LocusId="CLOSCI_02146" Name="ribU" Function="Substrate-specific component RibU of riboflavin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48832" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_02146" Name="ribU" Position="-142" Score="109.6">
+          <Sequence>AGAGATTCTTCGGGGTCGGGTGCAAATCCCAACCGGCGGTATAGTCCGCGACCCGGCGCGTTTATCCGCGCTGGCTGATCTGGTGCAATTCCGGAACCGACAGTAAAGTCTGGATGAGAGAAGAATTAT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_02942" Name="ribU" Position="-192" Score="91.4">
+          <Sequence>GAAGTCTTTGTGGCAGGGTGCAAATCCCTACCGATGGTATAGTCCATGACCCGCGCAAGCGGCTGATCTGGTGACCTTTTTGAGGAATTCCAGAACCGACGGTATAGTCCGGATGAGAAAAGACATTTTC</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4876848" LocusId="CLOSCI_02942" Name="ribU" Function="Substrate-specific component RibU of riboflavin ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4876052" LocusId="CLOSCI_02146" Name="ribU" Function="Substrate-specific component RibU of riboflavin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00504" RegulationMode="RF00504">
+      <Regulator Key="Glycine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32293" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="Glycine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_00442" Name="potE" Position="-198" Score="30.2">
+          <Sequence>GAAGTAGCGAGGAAGATTTCCGTATGTTAGCACACGGAAAACCGATGAAGCAATCAGAGAGGCTCCTAACCGCTCTGAGAAACTTTCAGGTGCCAATACCCGCTATGG</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_00442" Name="potE" Position="-91" Score="48.5">
+          <Sequence>GATGGGACTCTGGAAAGAGCCTTTTCGATAAGGCCACCGTAGAAGTAAAACTTTCAGGTAAAAATACAGAGGGTACAGGAC</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_00776" Name="grdX" Position="-205" Score="58.5">
+          <Sequence>ATGATGTTTCTCAAGAGAGAGTTGGAATATCCAACCGCCGAAGAGGCAAGCCGGGCGTATGATGGTGAGCGCATGCAAGGTGAAACTTTCAGGCAAAAGGACTGGGAAACGTAC</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4874348" LocusId="CLOSCI_00442" Name="potE" Function="Amino acid permease family protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4874682" LocusId="CLOSCI_00776" Name="grdX" Function="putative glycine reductase complex component" />
+          <Members vimssId="4874681" LocusId="CLOSCI_00775" Name="grdE" Function="Glycine reductase component B (EC 1.21.4.2)" />
+          <Members vimssId="4874680" LocusId="CLOSCI_00774" Name="grdB" Function="Glycine reductase complex component B gamma subunit" />
+          <Members vimssId="4874679" LocusId="CLOSCI_00773" Name="grdB" Function="Glycine reductase complex component B gamma subunit" />
+          <Members vimssId="4874678" LocusId="CLOSCI_00772" Name="trxB" Function="Thioredoxin reductase (EC 1.8.1.9)" />
+          <Members vimssId="4874677" LocusId="CLOSCI_00771" Name="trxA" Function="Thioredoxin" />
+          <Members vimssId="4874676" LocusId="CLOSCI_00770" Name="grdA" Function="Glycine reductase complex protein A" />
+          <Members vimssId="4874675" LocusId="CLOSCI_00769" Name="grdA" Function="Glycine reductase complex protein A" />
+          <Members vimssId="4874674" LocusId="CLOSCI_00768" Name="grdC" Function="Glycine reductase component C chain 1" />
+          <Members vimssId="4874673" LocusId="CLOSCI_00767" Name="grdD" Function="Glycine reductase component C chain 2" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00557" RegulationMode="RF00557">
+      <Regulator Key="L10_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32343" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L10_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_00863" Name="rplJ" Position="-189" Score="73.2">
+          <Sequence>TAATATTTCACGATGACTGCCGAAGACAGCAGGTGCGTAAGCGTAAGTAGACAAACGCCTGCCGAGGAAAGTTGGATTCTGTTATTATGAATTACAATGCCTCTATGTCTTTGGATATAGAGGCTTTTTAGCGTATAGC</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4874769" LocusId="CLOSCI_00863" Name="rplJ" Function="LSU ribosomal protein L10p (P0)" />
+          <Members vimssId="4874768" LocusId="CLOSCI_00862" Name="rplL" Function="LSU ribosomal protein L7/L12 (P1/P2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00556" RegulationMode="RF00556">
+      <Regulator Key="L19_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32393" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L19_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_01325" Name="rplS" Position="-60" Score="19.5">
+          <Sequence>AGATGGTCCTCTAGTACGCATGTATTAAGAACATCCAAG</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4875231" LocusId="CLOSCI_01325" Name="rplS" Function="LSU ribosomal protein L19p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00558" RegulationMode="RF00558">
+      <Regulator Key="L20_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32418" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L20_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_01277" Name="infC" Position="-171" Score="24.4">
+          <Sequence>AAACAAAGTAGAGTATCCACTCTCACCATAGCACGATCGGGTGACTATTGGTCTGATATTGAGTATAAAGGCTCGTGAAGGGTCATTTTATGCGGGTATGCAAGTGGATAGTCTGTAAACTATTCACTTATTTTTATTTTATG</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4875183" LocusId="CLOSCI_01277" Name="infC" Function="Translation initiation factor 3" />
+          <Members vimssId="4875184" LocusId="CLOSCI_01278" Name="rpmI" Function="LSU ribosomal protein L35p" />
+          <Members vimssId="4875185" LocusId="CLOSCI_01279" Name="rplT" Function="LSU ribosomal protein L20p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00559" RegulationMode="RF00559">
+      <Regulator Key="L21_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32443" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L21_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_00483" Name="rplU" Position="-79" Score="24.5">
+          <Sequence>CCAGTATGCCGCACAATGAGGTATTAAAGTTCCCACAGGGACACCGTAATTGGCGAGTAATGATAATAGG</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4874389" LocusId="CLOSCI_00483" Name="rplU" Function="LSU ribosomal protein L21p" />
+          <Members vimssId="4874390" LocusId="CLOSCI_00484" Name="ysxB" Function="FIG139598: Potential ribosomal protein" />
+          <Members vimssId="4874391" LocusId="CLOSCI_00485" Name="rpmA" Function="LSU ribosomal protein L27p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00168" RegulationMode="RF00168">
+      <Regulator Key="Lysine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32493" />
+      <Effector>Lysine</Effector>
+      <Pathway>Lysine biosynthesis</Pathway>
+      <LocusTag Key="Lysine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_01581" Name="lysW" Position="-204" Score="78.2">
+          <Sequence>TGGACTTGATAGAGGCGCGGATTTCATCAGTACTCAAAAGCCATAGCCCGGGCGGCTGCTTTAGAGGAAAGGGGAGGCCGCCGAAGGATGTGCATGGCCCGTATGCATGTTCTGGGACGTATGCATAAGATGCTGCGGACTGTCACAACAGTGGAGCGCTATCAGAGTA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4875487" LocusId="CLOSCI_01581" Name="lysW" Function="Predicted lysine transporter, NhaC family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01055" RegulationMode="RF01055">
+      <Regulator Key="MOCO_RNA_motif" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32518" />
+      <Effector>Molybdenum</Effector>
+      <Pathway>Molybdopterin biosynthesis; Molybdenum homeostasis</Pathway>
+      <LocusTag Key="MOCO_RNA_motif" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_03468" Name="fdx" Position="-175" Score="43.1">
+          <Sequence>AAGTAAATAAACTCCGAGTCCCGGATTTCTGACGTATGGAAGCCGATAAGCATACGGGAAGGCGGGACCAATGGGTAGCGCGGGTAACGGTGCTGCCTGCCTGATTGCGAAGGAGTCCATTATTATGCGGGGC</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_03477" Name="tupA" Position="-220" Score="66.1">
+          <Sequence>CAATTGCAGGAATTCGAGCCTGACTGTCTAAAGTAGCAAAAGATGCCATGACAGCAGGCCAATGGGTGCTTTTTGAAAAGAGGGCGCCTTCCATATTTGAAAAGAATATCCGCAGACATCGATAG</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4877374" LocusId="CLOSCI_03468" Name="fdx" Function="Ferredoxin" />
+          <Members vimssId="4877375" LocusId="CLOSCI_03469" Name="aorA" Function="Tungsten-containing aldehyde:ferredoxin oxidoreductase (EC 1.2.7.5)" />
+          <Members vimssId="4877376" LocusId="CLOSCI_03470" Name="moaD" Function="hypothetical protein" />
+          <Members vimssId="4877377" LocusId="CLOSCI_03471" Name="null" Function="hypothetical protein" />
+          <Members vimssId="4877378" LocusId="CLOSCI_03472" Name="null" Function="hypothetical protein" />
+          <Members vimssId="4877379" LocusId="CLOSCI_03473" Name="fdx" Function="Ferredoxin" />
+          <Members vimssId="4877380" LocusId="CLOSCI_03474" Name="moaA" Function="Molybdenum cofactor biosynthesis protein MoaA" />
+          <Members vimssId="4877381" LocusId="CLOSCI_03475" Name="moaB" Function="Molybdenum cofactor biosynthesis protein MoaB @ Molybdopterin biosynthesis Mog protein, molybdochelatase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4877383" LocusId="CLOSCI_03477" Name="tupA" Function="ABC-type tungstate transport system, periplasmic binding protein" />
+          <Members vimssId="4877384" LocusId="CLOSCI_03478" Name="tupB" Function="ABC-type tungstate transport system, permease protein" />
+          <Members vimssId="4877385" LocusId="CLOSCI_03479" Name="tupC" Function="ABC-type tungstate transport system, ATP-binding protein" />
+          <Members vimssId="4877386" LocusId="CLOSCI_03480" Name="moeA" Function="Molybdopterin biosynthesis protein MoeA" />
+          <Members vimssId="4877387" LocusId="CLOSCI_03481" Name="moeA2" Function="Molybdopterin biosynthesis protein MoeA / Periplasmic molybdate-binding domain" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00522" RegulationMode="RF00522">
+      <Regulator Key="PreQ1" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32568" />
+      <Effector>Pre-queuosine1</Effector>
+      <Pathway>Queuosine biosynthesis</Pathway>
+      <LocusTag Key="PreQ1" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_01962" Name="queT" Position="-57" Score="22.5">
+          <Sequence>ATGAATCGTGTGTTCGAGACCTTCCACACGTAAAACAAAACTAAAGGAGA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4875868" LocusId="CLOSCI_01962" Name="queT" Function="Substrate-specific component QueT (COG4708) of predicted queuosine-regulated ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00167" RegulationMode="RF00167">
+      <Regulator Key="Purine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32593" />
+      <Effector>Adenine; Guanine</Effector>
+      <Pathway>Purine metabolism</Pathway>
+      <LocusTag Key="Purine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_02894" Name="guaD" Position="-139" Score="43">
+          <Sequence>AAAAATGAAATAACTGGAAACTTATATAGGTTCATAATCGGTTGAACGTTTCTACCAACTACCGGAATAGTTGTCTATAAGCATCCGCATGAGAAGT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4876800" LocusId="CLOSCI_02894" Name="guaD" Function="Guanine deaminase (EC 3.5.4.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00162" RegulationMode="RF00162">
+      <Regulator Key="SAM" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32693" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="SAM" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_00966" Name="metK" Position="-263" Score="57.2">
+          <Sequence>TCTCTTATTCAGAGCAGTGGAGATACAAAGGATCTATGAAGCTGCGGCAACCCCCGGCGCGTGGAAGGTGCCAACCTGAGCGAGTAATCGAACAATAAGAG</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4874872" LocusId="CLOSCI_00966" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Asn)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32818" />
+      <Effector>Asn-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_03776" Name="aspS2" Position="-345" Score="72.4">
+          <Sequence>AACAAAAGCAATGAAAGAGACTCTGTTCTTTGGAACTTGACAGGAATGGGGCGTCACCGACTGAGAGCGCCGCTTGAGGAATAAGAACAATAGGGAACACTCTGGAGCAGACCGTCTGAACCTAAGTAGGCCGGTACGTAGGCACACGTTACGTGCAAGAGAGGAGCCAAGTCACATAAAAAGTCACAAGGCTCAAAGCGGGTGGTACCGCGGATAGCAAAGAAGATATCCGTCCCGGGA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4877682" LocusId="CLOSCI_03776" Name="aspS2" Function="Aspartyl-tRNA synthetase (EC 6.1.1.12)" />
+          <Members vimssId="4877681" LocusId="CLOSCI_03775" Name="null" Function="hypothetical protein" />
+          <Members vimssId="4877680" LocusId="CLOSCI_03774" Name="gatC" Function="Aspartyl-tRNA(Asn) amidotransferase subunit C (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit C (EC 6.3.5.7)" />
+          <Members vimssId="4877679" LocusId="CLOSCI_03773" Name="gatA" Function="Aspartyl-tRNA(Asn) amidotransferase subunit A (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit A (EC 6.3.5.7)" />
+          <Members vimssId="4877678" LocusId="CLOSCI_03772" Name="gatB" Function="Aspartyl-tRNA(Asn) amidotransferase subunit B (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit B (EC 6.3.5.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Cys)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32868" />
+      <Effector>Cys-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_01225" Name="cysE" Position="-305" Score="102">
+          <Sequence>AAAAGACGCTGAACGGAAAGAGTAGCAGGCTATGGAACTGAAAGAGAGAAACTGTCACCGGCTGAAAGCAGTTTTAAGGGAAGTATCTGTGAAGTGCATCCGGGAGTCGATTTGGCGAACGCGTGCGGCAAGTAGCCAGGTACGGGATTACACACGTTACGTGTACCAAGGTGGAGGATGTTTTTGTGCACGAATGTCCTCTATAAGAGTGGAACCGCGGATATACTCCGTCTCTTGCAT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4875131" LocusId="CLOSCI_01225" Name="cysE" Function="Serine acetyltransferase (EC 2.3.1.30)" />
+          <Members vimssId="4875132" LocusId="CLOSCI_01226" Name="cysS" Function="Cysteinyl-tRNA synthetase (EC 6.1.1.16)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ile)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32968" />
+      <Effector>Ile-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_02632" Name="ileS" Position="-281" Score="55.9">
+          <Sequence>GAAAGATGTTGACGAAGACAGTAGGATAGATCAGAAAGGCATAGCGAGCCAGGGACGGTGCAAGCCTGGTACAAGTAAGGTATATCTGAATATCACTTCCGAGTTGCAGCGTTCGAAAGGCCAGAGGACGGCCAAGTAGATGCTGACGGCATTCCCCCGTTACAGGGAAGGCATATGATAGTATGTTTAGGTGGTTTATAAACGCAGGCTTGGCTTTCGTCCTATTCAG</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4876538" LocusId="CLOSCI_02632" Name="ileS" Function="Isoleucyl-tRNA synthetase (EC 6.1.1.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Leu)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33023" />
+      <Effector>Leu-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_03648" Name="leuS" Position="-198" Score="109.6">
+          <Sequence>TAGAAACGAAGAAGAGGAGTAGTAAGAGCCTACCGTTTTACAGAGAACTGCCGGATGGTGCAAGGCAGCAAGCGTAATCTCCCAACTCGCCTTGGAGTTCTTCTGCTGAACCCTGTATGATCGCATAGGCAGAAGCGGGCCTTCCCGTTACAGAAGATAATGAGTGCATCTGTATTTTATCAGTACGGGTGAAAAAGAGTGGTACCACGGAAGTTCAGGCCTTTTCGTCTCTTGCGA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4877554" LocusId="CLOSCI_03648" Name="leuS" Function="Leucyl-tRNA synthetase (EC 6.1.1.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Met)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33133" />
+      <Effector>Met-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_03024" Name="metS" Position="-366" Score="50.7">
+          <Sequence>CAAACGCAGTGACGGAGAGAGTACGTGGTAGGAGGTCCTACAGAGAAGTCCCCGGTTTCCGGACAGGAACAGGCTGAGAGGGATGGGCGGAGTACGGCGGAAGATGGCTTCCAAGCGGTGCAGTCGATAGGCTACATATAGTTAGTTCAGGTAGGCTGCAAAGGGTCCGCCCTTTAACGCGGTAGGGTGTAGTTTAATGCACCTGCTAAGGCTTCCTGCCGCGAGGCGGAAGCGAACAGAAGTGGTATCACGGGATAGTCTCGTCTTCTCCGA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4876930" LocusId="CLOSCI_03024" Name="metS" Function="Methionyl-tRNA synthetase (EC 6.1.1.10)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Phe)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33188" />
+      <Effector>Phe-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_03569" Name="pheS" Position="-279" Score="99.7">
+          <Sequence>AAAAAGCAATGACCGCGTAAGTAGAGACCCATTTCCCATTAGAGAGAGGAGACCCCCGGCTGAAAGTTTCCTTTGGTTCGGATGGCAATCGAATTTCCCGCGCGAGCTGCATTTTTGAAAGATCAGTAGGAAATGCCGTAGGTGCACGTTACGCATGCGGAGAGTGCCTGTGTGAGGATAGCACGCAGGAAGCAGGGTGGTACCACGGGTTATGCCTCGTCCCTTTTGG</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4877475" LocusId="CLOSCI_03569" Name="pheS" Function="Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)" />
+          <Members vimssId="4877476" LocusId="CLOSCI_03570" Name="pheT" Function="Phenylalanyl-tRNA synthetase beta chain (EC 6.1.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Pro)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33243" />
+      <Effector>Pro-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_01983" Name="proS2" Position="-311" Score="104.7">
+          <Sequence>ATTTGGCAATGAAGAGGATTAGTACATGTAAGCGAGCCTCAGAGAGGGGATCATCTGGTGCAAGATTTCCGCTTAGAACTGCATGGAACCCGCCTTGGAGCCACTGCATGAAAGTGCAGCGTCCTGCCAGCGTTAATGGTTAATGAGAGAACTGCGAAAGGGTCGCAGTTAACTAGGGTGGTACCGCCGAGCTTTTCGGTCCCTTTTTA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4875889" LocusId="CLOSCI_01983" Name="proS2" Function="Prolyl-tRNA synthetase (EC 6.1.1.15) ## Archaeal type" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Trp)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33408" />
+      <Effector>Trp-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_01265" Name="trpX" Position="-321" Score="98.8">
+          <Sequence>TAAAACCGTTGAGAAAGAAGAGTAGATTATCGAATGACATCAAAGAGAGCGGCTGATGGTGGGATTGCCGTATGGAGTTGATGATTGAATGGCCTTTCGAGGGCAGCCGGAAACCGTAAGAGAGTATGGCTTGTCGGGAACCGAACCCGTTATCAATCAGGAGTGTATGTTAGTACATGAGAAAAGTGGACGATTCGTCAATTTGAGTGGTACCGCGATAATGTAGTTTATTACCGCCTCAAACCT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4875171" LocusId="CLOSCI_01265" Name="trpX" Function="ABC transporter substrate-binding protein" />
+          <Members vimssId="4875172" LocusId="CLOSCI_01266" Name="trpY" Function="ABC transporter integral membrane protein" />
+          <Members vimssId="4875173" LocusId="CLOSCI_01267" Name="trpZ" Function="ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Tyr)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33463" />
+      <Effector>Tyr-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_01439" Name="tyrS" Position="-386" Score="89.6">
+          <Sequence>AAAAGGCTATGAAAAGAAGAAGTAGTAATCGTTACACCCATACAGAAAGCTGCCGGCAGATGAGAGGCGCATGAAGGAAGGGATTATGAATACATCTTGGAGCCGCGTACCGAAAGCGTTCCCTTACAGAAAGACGCAGGGAAGGATCAGTAGGCTGCGACGCAAGGCATACGTTACATGCATAAGCTGCGGCACGCGTAAGTTAGGGCACATATAATTTGTTGCGCGCAGGCTTAATAAGACTGGTGATGCGAGTTGCCGGTGAACAAAGGTGGTACCACGGAACTATCCGTCCTTATCTA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4875345" LocusId="CLOSCI_01439" Name="tyrS" Function="Tyrosyl-tRNA synthetase (EC 6.1.1.1) ## cluster 1" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Val)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33518" />
+      <Effector>Val-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_02273" Name="valS" Position="-335" Score="98">
+          <Sequence>CGTAAAGGCATTGAAGAAGAGGAGTATGCATAAGTTCGTTTTCGAAAGAGAGAGTGGCCCGGAGGCTGAAAGGCGCTTGATGACAGAGATGCAGAAGGTAGCTTTCGAGCCGGACTGTTGAACATCCATACGGGCGCCCGAATGGTGCTAGATGGTCCCGGAGTCGTTCCCGTTAAAGAATAAGATGAGATGTATAGAGGAAGTTTTTTCTATATAATAAAGGTGGTACCGCGACTACAATCGCCCTTTAC</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_01159" Name="ilvB1" Position="-326" Score="103.4">
+          <Sequence>GAAATGCTATGACAAGGAGGAGTACATAATATTCTGATGCCAAGAGAGAAGATGGACGGTGGGAGTCTTCGTGATGAAGTTATGGAAGTAGCCTTTGAGCAGTGGACCGAAAGGACAGTTATCTGATCCGAGTAGACTTCAACGCATTCCCAGCGTTATATGGGAGCGATATCGGAAGTGCGCTTTAGCAGGATTCCCGTATCGGCAGAGAGCAAAGAGGAGACTCTTTGAATTTAGGTGGTAACACGGATGCATTATTCGCCCTAAGCGT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4875065" LocusId="CLOSCI_01159" Name="ilvB1" Function="Acetolactate synthase large subunit (EC 2.2.1.6)" />
+          <Members vimssId="4875066" LocusId="CLOSCI_01160" Name="ilvH2" Function="Acetolactate synthase small subunit (EC 2.2.1.6)" />
+          <Members vimssId="4875067" LocusId="CLOSCI_01161" Name="ilvE1" Function="Branched-chain amino acid aminotransferase (EC 2.6.1.42)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4876179" LocusId="CLOSCI_02273" Name="valS" Function="Valyl-tRNA synthetase (EC 6.1.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01831" RegulationMode="RF01831">
+      <Regulator Key="THF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47230" />
+      <Effector>Tetrahydrofolate</Effector>
+      <Pathway>Folate metabolism</Pathway>
+      <LocusTag Key="THF" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_01152" Name="folT" Position="-174" Score="101.2">
+          <Sequence>GCAGAGTAGGAAAACGTGCGTTAAGTGCCAGCCGGACGGGGAGTTGCCGGCGGGACGAAAAGTAAGGATTACTTGCGGTACGTTTTTCGCATCCCGCTGCTAC</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4875058" LocusId="CLOSCI_01152" Name="folT" Function="Substrate-specific component FolT of folate ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33568" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_03456" Name="thiC" Position="-234" Score="57.8">
+          <Sequence>AGGAACAACAGGGGTGCTCGCGTAAGCGGGCTGAGAGTAAGCTGTATCGCTTTAACCCATAACCTGATTTGGATAATGCCAACGTAGGGAGATATAGAAGTAAAGTGTA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_02950" Name="thiS" Position="-319" Score="58.8">
+          <Sequence>AAATTGAACAGGGGAGCCTATGGATAGGCTGAGAGGAAGTTGCGAACTTCGACCCATATACCTGATTTGGATAATGCCAACGTAGGGACGGATGTGAATTGTTTGCGG</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_02958" Name="thiT" Position="-188" Score="57.1">
+          <Sequence>ATAAGACCCATATGGGGCGCTGATATGGCTGAGATGCGCGAAGACGCGCAGACCCTTGAACTTGATCCGGGTAATGCTGGCGTAAGGAAGGAGAATATAATATGT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4876864" LocusId="CLOSCI_02958" Name="thiT" Function="Substrate-specific component ThiT of thiamin ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4876856" LocusId="CLOSCI_02950" Name="thiS" Function="thiamine biosynthesis protein ThiS" />
+          <Members vimssId="4876857" LocusId="CLOSCI_02951" Name="thiF" Function="Sulfur carrier protein adenylyltransferase ThiF" />
+          <Members vimssId="4876858" LocusId="CLOSCI_02952" Name="thiG" Function="Thiazole biosynthesis protein ThiG" />
+          <Members vimssId="4876859" LocusId="CLOSCI_02953" Name="thiH" Function="Thiazole biosynthesis protein ThiH" />
+          <Members vimssId="4876860" LocusId="CLOSCI_02954" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4877362" LocusId="CLOSCI_03456" Name="thiC" Function="Thiamine biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48846" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_03456" Name="thiC" Position="-234" Score="57.8">
+          <Sequence>AGGAACAACAGGGGTGCTCGCGTAAGCGGGCTGAGAGTAAGCTGTATCGCTTTAACCCATAACCTGATTTGGATAATGCCAACGTAGGGAGATATAGAAGTAAAGTGTA</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_02958" Name="thiT" Position="-188" Score="57.1">
+          <Sequence>ATAAGACCCATATGGGGCGCTGATATGGCTGAGATGCGCGAAGACGCGCAGACCCTTGAACTTGATCCGGGTAATGCTGGCGTAAGGAAGGAGAATATAATATGT</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_02950" Name="thiS" Position="-319" Score="58.8">
+          <Sequence>AAATTGAACAGGGGAGCCTATGGATAGGCTGAGAGGAAGTTGCGAACTTCGACCCATATACCTGATTTGGATAATGCCAACGTAGGGACGGATGTGAATTGTTTGCGG</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4876856" LocusId="CLOSCI_02950" Name="thiS" Function="Thiamine biosynthesis protein ThiS" />
+          <Members vimssId="4876857" LocusId="CLOSCI_02951" Name="thiF" Function="Sulfur carrier protein adenylyltransferase ThiF" />
+          <Members vimssId="4876858" LocusId="CLOSCI_02952" Name="thiG" Function="Thiazole biosynthesis protein ThiG" />
+          <Members vimssId="4876859" LocusId="CLOSCI_02953" Name="thiH" Function="Thiazole biosynthesis protein ThiH" />
+          <Members vimssId="4876860" LocusId="CLOSCI_02954" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4876864" LocusId="CLOSCI_02958" Name="thiT" Function="Substrate-specific component ThiT of thiamin ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4877362" LocusId="CLOSCI_03456" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33918" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOSCI_02991" Name="atcL" Position="-178" Score="51.5">
+          <Sequence>GTAATAATAAAAGGGAGTAACTGGCGCTTAGGTCTAATAGTCCGGCGTTTGCGATGTCGTCAGTACGATGAGCAATCATCCGTATCGTAATGAAATGGTGAGACTTTTATTGCATAGTG</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOSCI_01438" Name="CPF_0680" Position="-216" Score="37.8">
+          <Sequence>TTATGCAGATAAAAGGGAGTAGCCTAACACTTACATGTGTATTTGAAAGCGTCACCCGATACCGAGAGGTATCCGTATCAAATGAGATGTGCAAGACTTTTATCGTGGCG</Sequence>
+          <Bacteria>Clostridium scindens ATCC 35704</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4876897" LocusId="CLOSCI_02991" Name="atcL" Function="Calcium-transporting ATPase (EC 3.6.3.8)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4875344" LocusId="CLOSCI_01438" Name="CPF_0680" Function="conserved hypothetical protein" />
+          <Members vimssId="4875343" LocusId="CLOSCI_01437" Name="null" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Deinococcus deserti VCD115" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor (activator)">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59014" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="Deide_01490" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7574338&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Deinococcus-Thermus" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6050" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Deide_07060" Name="argF" Position="-166" Score="4.3">
+          <Sequence>TGCATACTTACACA</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Deide_00700" Name="carB" Position="-62" Score="4.6">
+          <Sequence>TGCATAACCATACA</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Deide_00720" Name="argG" Position="-155" Score="5">
+          <Sequence>TGTATAGCTATGCG</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Deide_00720" Name="argG" Position="-134" Score="4.1">
+          <Sequence>CGCATAACCATTCA</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7574241" LocusId="Deide_00700" Name="carB" Function="Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7574243" LocusId="Deide_00720" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+          <Members vimssId="7574244" LocusId="Deide_00730" Name="PF04978" Function="Conserved hypothetical protein" />
+          <Members vimssId="7574245" LocusId="Deide_00740" Name="COG3153" Function="Putative N-acetyltransferase" />
+          <Members vimssId="7574246" LocusId="Deide_00750" Name="COG3153" Function="Putative N-acetyltransferase" />
+          <Members vimssId="7574247" LocusId="Deide_00760" Name="argH" Function="Argininosuccinate lyase (EC 4.3.2.1)" />
+          <Members vimssId="7574248" LocusId="Deide_00770" Name="argA" Function="N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="7574249" LocusId="Deide_00780" Name="argA" Function="N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="7574250" LocusId="Deide_00790" Name="argA" Function="N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="7574251" LocusId="Deide_00800" Name="null" Function="Hypothetical protein" />
+          <Members vimssId="7574252" LocusId="Deide_00810" Name="carA" Function="putative Carbamoyl-phosphate synthase small chain,(Carbamoyl- phosphate synthetase glutamine chain)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7574971" LocusId="Deide_07060" Name="argF" Function="Ornithine carbamoyltransferase (EC 2.1.3.3)" />
+          <Members vimssId="7574972" LocusId="Deide_07070" Name="yfcD" Function="Putative NUDIX hydrolase" />
+          <Members vimssId="7574973" LocusId="Deide_07080" Name="argC" Function="N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6050</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="BglR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52468" />
+      <Effector>Beta-glucoside</Effector>
+      <Pathway>Beta-glucosides utilization</Pathway>
+      <LocusTag Key="Deide_00590" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7574227&amp;disp=0" />
+      <BiologicalProcess>Beta-glucosides utilization</BiologicalProcess>
+      <Regulog Key="BglR - Deinococcus-Thermus" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5345" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Deide_00590" Name="bglR" Position="-90" Score="6.3">
+          <Sequence>TCTTGACAGCGCTTTCAAAA</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7574227" LocusId="Deide_00590" Name="bglR" Function="Transcriptional regulator for beta-glucoside utilization, LacI family" />
+          <Members vimssId="7574226" LocusId="Deide_00580" Name="bglE" Function="Predicted beta-glucoside ABC transporter, periplasmic component" />
+          <Members vimssId="7574225" LocusId="Deide_00570" Name="bglF" Function="Predicted beta-glucoside ABC transporter, permease component" />
+          <Members vimssId="7574224" LocusId="Deide_00560" Name="bglG" Function="Predicted beta-glucoside ABC transporter, permease component" />
+          <Members vimssId="7574223" LocusId="Deide_00550" Name="bglB" Function="Beta-glucosidase (EC 3.2.1.21)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5345</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="DR2501" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52305" />
+      <Effector />
+      <Pathway>Sugar utilization</Pathway>
+      <LocusTag Key="Deide_01360" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7574318&amp;disp=0" />
+      <BiologicalProcess>Sugar utilization</BiologicalProcess>
+      <Regulog Key="DR2501 - Deinococcus-Thermus" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5326" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Deide_01360" Name="DR2501" Position="-124" Score="6.5">
+          <Sequence>GATCTGAAACGTTTCAGATC</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Deide_01350" Name="DR2502" Position="-51" Score="6.5">
+          <Sequence>GATCTGAAACGTTTCAGATC</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7574318" LocusId="Deide_01360" Name="DR2501" Function="Predicted sugar utilization transcriptional regulator, LacI family" />
+          <Members vimssId="7574319" LocusId="Deide_01370" Name="galE" Function="UDP-glucose 4-epimerase (EC 5.1.3.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7574317" LocusId="Deide_01350" Name="DR2502" Function="Predicted sugar permease, MFS family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5326</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PaaR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38500" />
+      <Effector>Phenylacetyl-CoA</Effector>
+      <Pathway>Phenylacetic acid degradation</Pathway>
+      <LocusTag Key="Deide_02390" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7574430&amp;disp=0" />
+      <BiologicalProcess>Phenylacetic acid degradation</BiologicalProcess>
+      <Regulog Key="PaaR2 - Deinococcus-Thermus" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3929" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Deide_01560" Name="phbA" Position="-37" Score="6.2">
+          <Sequence>CTAACGAGCGTTAGGTTG</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Deide_14880" Name="pccB" Position="-31" Score="6.2">
+          <Sequence>CAAACGAGCGTTTGTTAG</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Deide_11350" Name="mcm" Position="-71" Score="5.9">
+          <Sequence>CTAACGGGCGTTAGTTTT</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Deide_23440" Name="bkdA1" Position="-87" Score="6">
+          <Sequence>CTAACGAACGTTAGATAG</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Deide_10580" Name="bcd2" Position="-27" Score="6">
+          <Sequence>CTAACGGTCGTTTGGTAG</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Deide_10010" Name="hmgcL" Position="6" Score="5.8">
+          <Sequence>GTAACGAACGTTCGTTTG</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Deide_03290" Name="accB" Position="-95" Score="4.5">
+          <Sequence>CAAACGACCGTTAGGTGA</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Deide_02390" Name="paaR" Position="-95" Score="4.8">
+          <Sequence>CAAACGAGCGTTAGGTGA</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7576804" LocusId="Deide_23440" Name="bkdA1" Function="Branched-chain alpha-keto acid dehydrogenase, E1 component, alpha subunit (EC 1.2.4.4)" />
+          <Members vimssId="7576805" LocusId="Deide_23450" Name="bkdA2" Function="Branched-chain alpha-keto acid dehydrogenase, E1 component, beta subunit (EC 1.2.4.4)" />
+          <Members vimssId="7576806" LocusId="Deide_23460" Name="DR0031" Function="hypothetical protein" />
+          <Members vimssId="7576807" LocusId="Deide_23470" Name="bkdB" Function="Dihydrolipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex (EC 2.3.1.168)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7574345" LocusId="Deide_01560" Name="phbA" Function="Acetyl-CoA acetyltransferase (EC 2.3.1.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7574537" LocusId="Deide_03290" Name="accB" Function="Biotin carboxyl carrier protein of acetyl-CoA carboxylase" />
+          <Members vimssId="7574536" LocusId="Deide_03280" Name="accC" Function="Biotin carboxylase of acetyl-CoA carboxylase (EC 6.3.4.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7574430" LocusId="Deide_02390" Name="paaR" Function="Transcriptional regulator of phenylacetic acid degradation, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7575292" LocusId="Deide_10010" Name="hmgcL" Function="Hydroxymethylglutaryl-CoA lyase (EC 4.1.3.4)" />
+          <Members vimssId="7575291" LocusId="Deide_10000" Name="maoC" Function="enoyl-CoA hydratase-like enzyme" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7575452" LocusId="Deide_11350" Name="mcm" Function="Methylmalonyl-CoA mutase (EC 5.4.99.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7575360" LocusId="Deide_10580" Name="bcd2" Function="Butyryl-CoA dehydrogenase (EC 1.3.99.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7575857" LocusId="Deide_14880" Name="pccB" Function="Propionyl-CoA carboxylase (EC 6.4.1.3)" />
+          <Members vimssId="7575858" LocusId="Deide_14890" Name="bcd" Function="Butyryl-CoA dehydrogenase (EC 1.3.8.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3929</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60074" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="Deide_3p01060" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7577222&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxR2 - Deinococcus-Thermus" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6168" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Deide_3p01050" Name="PF00583" Position="-68" Score="10.7">
+          <Sequence>ATTGGTTGGT-(14)-ATTGGATCTT-(4)-ACTGACCAAT</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7577221" LocusId="Deide_3p01050" Name="PF00583" Function="GCN5-related N-acetyltransferase (GNAT) domain" />
+          <Members vimssId="7577220" LocusId="Deide_3p01040" Name="pdxO" Function="Pyridoxamine 5'-phosphate oxidase-related, FMN-binding" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6168</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29860" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="Deide_14030" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7575761&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Deinococcus-Thermus" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3115" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Deide_06790" Name="ndh" Position="-29" Score="5.8">
+          <Sequence>TCGTGAATTCGTTCACAG</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Deide_05090" Name="nuoA" Position="-87" Score="5.2">
+          <Sequence>TCGTGCGGTTTTTCACGT</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Deide_13560" Name="nadC" Position="-37" Score="5.4">
+          <Sequence>GCGTGATTTCTCTCACAA</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7575710" LocusId="Deide_13560" Name="nadC" Function="Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)" />
+          <Members vimssId="7575711" LocusId="Deide_13570" Name="nadA" Function="Quinolinate synthetase (EC 4.1.99.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7574739" LocusId="Deide_05090" Name="nuoA" Function="NADH ubiquinone oxidoreductase chain A (EC 1.6.5.3)" />
+          <Members vimssId="7574740" LocusId="Deide_05100" Name="nuoB" Function="NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)" />
+          <Members vimssId="7574741" LocusId="Deide_05110" Name="nuoC" Function="NADH-ubiquinone oxidoreductase chain C (EC 1.6.5.3)" />
+          <Members vimssId="7574742" LocusId="Deide_05120" Name="nuoD" Function="NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)" />
+          <Members vimssId="7574743" LocusId="Deide_05130" Name="nuoE" Function="NADH-ubiquinone oxidoreductase chain E (EC 1.6.5.3)" />
+          <Members vimssId="7574744" LocusId="Deide_05140" Name="nuoF" Function="NADH-ubiquinone oxidoreductase chain F (EC 1.6.5.3)" />
+          <Members vimssId="7574745" LocusId="Deide_05150" Name="nuoG" Function="NADH-ubiquinone oxidoreductase chain G (EC 1.6.5.3)" />
+          <Members vimssId="7574746" LocusId="Deide_05160" Name="nuoH" Function="NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)" />
+          <Members vimssId="7574747" LocusId="Deide_05170" Name="nuoI" Function="NADH-ubiquinone oxidoreductase chain I (EC 1.6.5.3)" />
+          <Members vimssId="7574748" LocusId="Deide_05180" Name="nuoJ" Function="NADH-ubiquinone oxidoreductase chain J (EC 1.6.5.3)" />
+          <Members vimssId="7574749" LocusId="Deide_05190" Name="nuoK" Function="NADH-ubiquinone oxidoreductase chain K (EC 1.6.5.3)" />
+          <Members vimssId="7574750" LocusId="Deide_05200" Name="nuoL" Function="NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)" />
+          <Members vimssId="7574751" LocusId="Deide_05210" Name="nuoM" Function="NADH-ubiquinone oxidoreductase chain M (EC 1.6.5.3)" />
+          <Members vimssId="7574752" LocusId="Deide_05220" Name="nuoN" Function="NADH-ubiquinone oxidoreductase chain N (EC 1.6.5.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7574943" LocusId="Deide_06790" Name="ndh" Function="NADH dehydrogenase (EC 1.6.99.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3115</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39102" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Deide_02140" Name="btuF" Position="-274" Score="25.5">
+          <Sequence>GGAAGCAGGTGAAGACCCCTGCCGGGGGTCCATTCCTGCACTGTCGCGCAACGGTAAACGCTGGCCCTTTGAGGCCGGCGCAAAGTCCGAACACCGG</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Deide_2p01550" Name="btuF" Position="-242" Score="41.2">
+          <Sequence>GGAAGTCCGGTGAGATTCCGGCGCTGTCGCGCAACGGTATGCAGGCCCTGACCTGCGAGCCCGAATACCAC</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7577599" LocusId="Deide_2p01550" Name="btuF" Function="Vitamin B12 ABC transporter, B12-binding component BtuF" />
+          <Members vimssId="7577600" LocusId="Deide_2p01560" Name="btuR" Function="Cob(I)alamin adenosyltransferase (EC 2.5.1.17)" />
+          <Members vimssId="7577601" LocusId="Deide_2p01570" Name="cbiE" Function="Cobalt-precorrin-6y C5-methyltransferase (EC 2.1.1.-)" />
+          <Members vimssId="7577602" LocusId="Deide_2p01580" Name="cbiXC" Function="Sirohydrochlorin cobaltochelatase (EC 4.99.1.3) / Cobalt-precorrin-8x methylmutase (EC 5.4.1.2)" />
+          <Members vimssId="7577603" LocusId="Deide_2p01590" Name="cbiD" Function="Cobalt-precorrin-6 synthase, anaerobic" />
+          <Members vimssId="7577604" LocusId="Deide_2p01600" Name="cbiL" Function="Cobalt-precorrin-2 C20-methyltransferase (EC 2.1.1.130)" />
+          <Members vimssId="7577605" LocusId="Deide_2p01610" Name="cbiF" Function="Cobalt-precorrin-4 C11-methyltransferase (EC 2.1.1.133)" />
+          <Members vimssId="7577606" LocusId="Deide_2p01620" Name="cbiG" Function="Cobalamin biosynthesis protein CbiG" />
+          <Members vimssId="7577607" LocusId="Deide_2p01630" Name="cbiHJ" Function="Cobalt-precorrin-3b C17-methyltransferase / Cobalt-precorrin-6x reductase (EC 1.3.1.54)" />
+          <Members vimssId="7577608" LocusId="Deide_2p01640" Name="cobW" Function="Cobalamin synthesis protein" />
+          <Members vimssId="7577609" LocusId="Deide_2p01650" Name="hoxN" Function="HoxN/HupN/NixA family cobalt transporter" />
+          <Members vimssId="7577610" LocusId="Deide_2p01660" Name="bluB" Function="Cob(II)yrinic acid a,c-diamide reductase" />
+          <Members vimssId="7577611" LocusId="Deide_2p01670" Name="cobN" Function="Cobaltochelatase, CobN subunit" />
+          <Members vimssId="7577612" LocusId="Deide_2p01680" Name="chlID" Function="Cobalt chelatase, ChlI subunit / Cobalt chelatase, ChlD subunit" />
+          <Members vimssId="7577613" LocusId="Deide_2p01690" Name="cbiA" Function="Cobyrinic acid a,c-diamide synthase" />
+          <Members vimssId="7577614" LocusId="Deide_2p01700" Name="cbiB" Function="Adenosylcobinamide-phosphate synthase (EC 6.3.1.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7574404" LocusId="Deide_02140" Name="btuF" Function="Vitamin B12 ABC transporter, B12-binding component BtuF" />
+          <Members vimssId="7574405" LocusId="Deide_02150" Name="btuC" Function="Vitamin B12 ABC transporter, permease component" />
+          <Members vimssId="7574406" LocusId="Deide_02160" Name="btuD" Function="Vitamin B12 ABC transporter, ATP-binding component" />
+          <Members vimssId="7574407" LocusId="Deide_02170" Name="COG3411" Function="Thioredoxin domain protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38977" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Deide_02270" Name="ribD" Position="-306" Score="27.6">
+          <Sequence>CAGCTTCCTTCGGGGCGGGGTGAGATTCCCCACCGGCGGTGATGGTGATTCCGGAACCTGCGCCAGATGCCAGTCCAGAATGACCTC</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7574417" LocusId="Deide_02270" Name="ribD" Function="Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26) / 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01051" RegulationMode="RF01051">
+      <Regulator Key="GEMM_RNA_motif" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39057" />
+      <Effector>Cyclic diguanylate</Effector>
+      <Pathway>Second messenger response</Pathway>
+      <LocusTag Key="GEMM_RNA_motif" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Deide_1p01370" Name="Deide_1p01370" Position="-91" Score="47.6">
+          <Sequence>ACACCGAAAAAGGCAAACCCGTCGCGAGGCGGGGACGCAAAGCTCCCGGGACCCCTGAGGTCGGCCGAGCTACCGAA</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Deide_1p00130" Name="licB" Position="-257" Score="46">
+          <Sequence>AAACCGAAAAAGGCAAATCCGCCGCGAGACGGAGACGCAAAGCTACCGGGACCCACGAGGTCGGCCGAGTTACCGAA</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Deide_1p01250" Name="licB" Position="-205" Score="46">
+          <Sequence>AAACCGAAAAAGGCAAATCCGCCGCGAGACGGAGACGCAAAGCTACCGGGACCCACGAGGTCGGCCGAGTTACCGAA</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7577006" LocusId="Deide_1p01370" Name="Deide_1p01370" Function="Pectin lyase fold protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7576834" LocusId="Deide_1p00130" Name="licB" Function="Beta-glucanase (putative lichenase) (3.2.1.73)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7576985" LocusId="Deide_1p01250" Name="licB" Function="Beta-glucanase (putative lichenase) (3.2.1.73)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00557" RegulationMode="RF00557">
+      <Regulator Key="L10_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39172" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L10_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Deide_06060" Name="rplJ" Position="-120" Score="20.5">
+          <Sequence>ATAGGCCCCAATTCCGGCACCCAAGACAGCGGGGACCCTTGCCAGGTTTAAACATCCCGCCGAGTTGCCAGGCTGCGAATGTGCACCTGGACTTGTTCACCAGCAAA</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7574849" LocusId="Deide_06060" Name="rplJ" Function="LSU ribosomal protein L10p (P0)" />
+          <Members vimssId="7574848" LocusId="Deide_06050" Name="rplL" Function="LSU ribosomal protein L7/L12 (P1/P2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00162" RegulationMode="RF00162">
+      <Regulator Key="SAM" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38997" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="SAM" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Deide_11120" Name="metH" Position="-274" Score="23.7">
+          <Sequence>ACGGTCATCCAGAGATGCCCGAGGGTTTTTCCTGCCCTGTGACGGCGCGGCAACCGGCCTTCATTGCGGCCATGGTGCTTTCAGGAAAGCCCCCGCGTAGGTGCGCTGACGATGGCGC</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Deide_22360" Name="metN" Position="-261" Score="42.2">
+          <Sequence>ACCTTTATCCAGAGCGGCGTAGGGATCTGGCCCAGTTATCGCCGCAGCAACCGGCCCTCATCACGGCATCGGTGCTTGACCAGCCCGCACGCGCCAACGATGGCTCCACAGTCGCGACGGGAACGATAAGGG</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Deide_16040" Name="metY" Position="-233" Score="35.9">
+          <Sequence>AACCCACTTCAGAGCGCCCGAGAGACCTGGCTCGTAGACGGCGCGGCAACCGGACCTCATCGCGTCACGGTGCCCCAGCCAGCCCACTGCACGTTAACGATGATGCCTGCGCGTGGGAGCAAGAGGGA</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7575983" LocusId="Deide_16040" Name="metY" Function="O-acetylhomoserine sulfhydrylase (EC 2.5.1.49) / O-succinylhomoserine sulfhydrylase (EC 2.5.1.48)" />
+          <Members vimssId="7575982" LocusId="Deide_16030" Name="metX" Function="Homoserine O-acetyltransferase (EC 2.3.1.31)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7576689" LocusId="Deide_22360" Name="metN" Function="Methionine ABC transporter ATP-binding protein" />
+          <Members vimssId="7576688" LocusId="Deide_22350" Name="metI" Function="Methionine ABC transporter permease protein" />
+          <Members vimssId="7576687" LocusId="Deide_22340" Name="metQ" Function="Methionine ABC transporter substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7575422" LocusId="Deide_11120" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)" />
+          <Members vimssId="7575421" LocusId="Deide_11110" Name="metF" Function="5,10-methylenetetrahydrofolate reductase-related protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Gly)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39022" />
+      <Effector>Gly-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Deide_17500" Name="glyS" Position="-257" Score="46.9">
+          <Sequence>GGCAGGCGTTGATCCGCAGGAGTACCGCGAGCGTCACCCATGAGCGAGCCTGAGACGGTGAGAGTCAGGCGGGGTTTGGAGGCGCGGGAAGGGCAGCGGGGAGCTGAACATTCACAAAAGTGCCGGCTCGCGCAGACAGCGGGGCCGGAACTGGGGTGGAACCGCGTGGACCGCGCTTTTCAGTGCTGCCGCGTCCCCAGACG</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7576138" LocusId="Deide_17500" Name="glyS" Function="Glycyl-tRNA synthetase (EC 6.1.1.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ile)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39217" />
+      <Effector>Ile-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Deide_11660" Name="ileS" Position="-213" Score="19.4">
+          <Sequence>AGTTGGGTGGTACCACGCGCACTGACCGGCCGCGTCCCAGC</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7575484" LocusId="Deide_11660" Name="ileS" Function="Isoleucyl-tRNA synthetase (EC 6.1.1.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Val)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39177" />
+      <Effector>Val-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Deide_06710" Name="" Position="-342" Score="48.1">
+          <Sequence>CCTGAGCAGTGACCGGGAAGAGTACCCGGAGATGGCACCGACAGGGAGCCCTGGGCCAAGACTGAGAGCCTGGGCCGGACCGCCACCGGAGAACGTCACCCGCGAGCATGTCGGAAGAACCCCCCAACCGGGGCCAGTAGACCCGTCCGGGCGCGCCCGTTACAGCGCACTATGAGCGCCCCTGACACTACGCAGGGGAAACGCGGTGGTACCACGGGACTTTTCCTCTTCGTCTCGTCCGCACAGA</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7574934" LocusId="Deide_06710" Name="null" Function="Nudix dNTPase DR0149 (EC 3.6.1.-)" />
+          <Members vimssId="7574935" LocusId="Deide_06720" Name="valS" Function="Valyl-tRNA synthetase (EC 6.1.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39037" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Deide_15830" Name="thiB" Position="-144" Score="61.7">
+          <Sequence>TGCGTCACCGGGGGTGTCCTGAAGAGCAGGACTGAGATAAACCCTTGGAACCTGAACCGGATCATACCGGCGGAGGGAGTGTGACCAGGCCACGGCAC</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Deide_04510" Name="thiC" Position="-352" Score="71.1">
+          <Sequence>AGCGTCACCAGGGGTGCCCACGTCTAGGCTTTAGCAGCCGAAAGCGGGGCTGAGAGGGCCTTTTTTACGGCCTAACCCTAGGAACCTGATCTGGTTCATACCAGCGGAGGGAGAGTGACAGGTGCGGAAACG</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7575962" LocusId="Deide_15830" Name="thiB" Function="Thiamin ABC transporter, substrate-binding component" />
+          <Members vimssId="7575963" LocusId="Deide_15840" Name="Deide_15840" Function="Putative nuclease" />
+          <Members vimssId="7575964" LocusId="Deide_15850" Name="thiP" Function="Thiamin ABC transporter, permease protein" />
+          <Members vimssId="7575965" LocusId="Deide_15860" Name="thiQ2" Function="Thiamin ABC transporter, ATP-binding protein" />
+          <Members vimssId="7575966" LocusId="Deide_15870" Name="Deide_15870" Function="Conserved hypothetical protein, precursor" />
+          <Members vimssId="7575967" LocusId="Deide_15880" Name="null" Function="Conserved hypothetical protein" />
+          <Members vimssId="7575968" LocusId="Deide_15890" Name="thiN" Function="Thiamin pyrophosphokinase (EC 2.7.6.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7574670" LocusId="Deide_04510" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+          <Members vimssId="7574671" LocusId="Deide_04520" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+          <Members vimssId="7574672" LocusId="Deide_04525" Name="thiS" Function="Sulfur carrier protein ThiS" />
+          <Members vimssId="7574673" LocusId="Deide_04530" Name="thiG" Function="Thiazole biosynthesis protein ThiG" />
+          <Members vimssId="7574674" LocusId="Deide_04540" Name="thiO" Function="Glycine oxidase ThiO (EC 1.4.3.19)" />
+          <Members vimssId="7574675" LocusId="Deide_04550" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00234" RegulationMode="RF00234">
+      <Regulator Key="glmS" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39002" />
+      <Effector>Glucosamine-6-phosphate</Effector>
+      <Pathway>Amino sugar metabolism</Pathway>
+      <LocusTag Key="glmS" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Deide_21520" Name="glmS" Position="-303" Score="36.4">
+          <Sequence>ACGAAACAGGGCAGCGCAAGGCCTGTCAGCTGCATTTACTGGCGCAGACAGGATACGAGGTGGAGGTCGGCGATGTTTCTGCGGATGCCTCCAGGCCCCTTACTCACGGGCCTACCCGACTTACTCCGGTAAGTGAAGCGCGGCGATAACCCTTACGGCAACGTAAACATAAGGCCGCGCAGTGAAAAAA</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7576602" LocusId="Deide_21520" Name="glmS" Function="Glucosamine--fructose-6-phosphate aminotransferase [isomerizing] (EC 2.6.1.16)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39112" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Deide_1p00590" Name="ykoY" Position="-213" Score="31.6">
+          <Sequence>TTTCACAATTCCGGGGGAGTACGCTGCCCTGTCTGCTGATGGACAGGGAGTGCGAGGACGTCATTTCGGGCGGCAATGCTGCCCCGTTCCGCACAGCAAGGGCCAGACCCGGACAGGACCG</Sequence>
+          <Bacteria>Deinococcus deserti VCD115</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7576888" LocusId="Deide_1p00590" Name="ykoY" Function="Membrane protein TerC, possibly involved in tellurium resistance" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Croceibacter atlanticus HTCC2559" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PaaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38926" />
+      <Effector>Phenylacetyl-CoA</Effector>
+      <Pathway>Phenylacetic acid degradation</Pathway>
+      <LocusTag Key="CA2559_05345" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2672741&amp;disp=0" />
+      <BiologicalProcess>Phenylacetic acid degradation</BiologicalProcess>
+      <Regulog Key="PaaR - Flavobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3975" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CA2559_05340" Name="paaE" Position="-65" Score="6.2">
+          <Sequence>CTAACTAACGTTTGTTAG</Sequence>
+          <Bacteria>Croceibacter atlanticus HTCC2559</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CA2559_05345" Name="paaR" Position="-38" Score="6.3">
+          <Sequence>CTAACTAACAAGTGTTAG</Sequence>
+          <Bacteria>Croceibacter atlanticus HTCC2559</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2672740" LocusId="CA2559_05340" Name="paaE" Function="Probable phenylacetic acid degradation NADH oxidoreductase paaE (EC 1.-.-." />
+          <Members vimssId="2672739" LocusId="CA2559_05335" Name="paaA" Function="Phenylacetate-CoA oxygenase, PaaA subunit" />
+          <Members vimssId="2672738" LocusId="CA2559_05330" Name="paaB" Function="Phenylacetate-CoA oxygenase, PaaB subunit" />
+          <Members vimssId="2672737" LocusId="CA2559_05325" Name="null" Function="hypothetical protein" />
+          <Members vimssId="2672736" LocusId="CA2559_05320" Name="paaC" Function="Phenylacetate-CoA oxygenase, PaaC subunit" />
+          <Members vimssId="2672735" LocusId="CA2559_05315" Name="paaD" Function="Phenylacetate-CoA oxygenase, PaaD subunit" />
+          <Members vimssId="2672734" LocusId="CA2559_05310" Name="paaG" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+          <Members vimssId="2672732" LocusId="CA2559_05300" Name="paaH" Function="3-hydroxybutyryl-CoA dehydrogenase (EC 1.1.1.157)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2672741" LocusId="CA2559_05345" Name="paaR" Function="Transcriptional regulator of phenylacetic acid degradation, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3975</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

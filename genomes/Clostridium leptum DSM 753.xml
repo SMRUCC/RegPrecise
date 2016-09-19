@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Clostridium leptum DSM 753" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29875" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="CLOLEP_02947" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4577945&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Clostridiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3116" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOLEP_03889" Name="hydC" Position="-50" Score="5.1">
+          <Sequence>TTGTTATATTTTTAACAG</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOLEP_01936" Name="PF01257" Position="-156" Score="5.4">
+          <Sequence>TCGTTAAAAAATTATCAA</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOLEP_02428" Name="bdh" Position="-101" Score="4.8">
+          <Sequence>TTGATACTTTTTTATCAA</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOLEP_02428" Name="bdh" Position="-56" Score="5.2">
+          <Sequence>TTGTTATTAAATTCACAA</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOLEP_01127" Name="pgk" Position="-19" Score="4.8">
+          <Sequence>TTGTCAATTAGTTATCAA</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4576125" LocusId="CLOLEP_01127" Name="pgk" Function="Phosphoglycerate kinase (EC 2.7.2.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4576934" LocusId="CLOLEP_01936" Name="PF01257" Function="Fe-hydrogenase, thioredoxin subunit, 2Fe-2S cluster binding protein" />
+          <Members vimssId="4576935" LocusId="CLOLEP_01937" Name="phf2" Function="Fe-hydrogenase (EC 1.12.7.2)" />
+          <Members vimssId="4576936" LocusId="CLOLEP_01938" Name="PF07228" Function="Protein phosphatase 2C-related" />
+          <Members vimssId="4576937" LocusId="CLOLEP_01939" Name="phf1" Function="Fe-hydrogenase (EC 1.12.7.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4577426" LocusId="CLOLEP_02428" Name="bdh" Function="Butanol dehydrogenase; Butyraldehyde dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4578887" LocusId="CLOLEP_03889" Name="hydC" Function="NAD-reducing Fe-hydrogenase, subunit HydC (EC 1.12.7.2)" />
+          <Members vimssId="4578888" LocusId="CLOLEP_03890" Name="CLOLEP_03890" Function="histidine kinase" />
+          <Members vimssId="4578889" LocusId="CLOLEP_03891" Name="hydD" Function="NAD-reducing Fe-hydrogenase, ferredoxin subunit HydD (EC 1.12.7.2)" />
+          <Members vimssId="4578890" LocusId="CLOLEP_03892" Name="hydB" Function="NAD-reducing Fe-hydrogenase, subunit HydB (EC 1.12.7.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3116</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30683" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOLEP_00712" Name="" Position="-293" Score="99.6">
+          <Sequence>TCGGTCAATAGTCTTGCGGTTCGCGACGCGAATAATAGGGAACGGGGTGAAAGGCCCCGGCAGCTCACTCTACTGTAAGAAGGACGAAAGGCAGCTGTCACTGGGAGAATCCCGGGAAGACGCTGAGTAGGAGGATTTCAAGCCAGGAGACCTGCCGCTGAGACAAGCAAAGACGT</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4575710" LocusId="CLOLEP_00712" Name="null" Function="hypothetical protein" />
+          <Members vimssId="4575711" LocusId="CLOLEP_00713" Name="null" Function="hypothetical protein" />
+          <Members vimssId="4575712" LocusId="CLOLEP_00714" Name="cbrV" Function="Transmembrane component CbrV of energizing module of predicted cobalamin ECF transporter" />
+          <Members vimssId="4575713" LocusId="CLOLEP_00715" Name="cbrU" Function="Duplicated ATPase component CbrU of energizing module of predicted cobalamin ECF transporter" />
+          <Members vimssId="4575714" LocusId="CLOLEP_00716" Name="cbrT" Function="Substrate-specific component CbrT of predicted cobalamin ECF transporter" />
+          <Members vimssId="4575715" LocusId="CLOLEP_00717" Name="btuR" Function="Cob(I)alamin adenosyltransferase (EC 2.5.1.17)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30703" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOLEP_01531" Name="ribU" Position="-210" Score="119.7">
+          <Sequence>GCTGTCTTCGGGGCGGGGTGAAAGTCCCCACCGGCGGTAACCCTTTCAAACATGGGAAGCCCGCGAGCTGCTTGCTGATCTGGTGAGATTCCAGAGCCGACGGTATAGTCCGGATGGAAGAAGAAAAGAAG</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4576529" LocusId="CLOLEP_01531" Name="ribU" Function="Substrate-specific component RibU of riboflavin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00504" RegulationMode="RF00504">
+      <Regulator Key="Glycine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32291" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="Glycine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOLEP_01924" Name="glyP" Position="-122" Score="58.7">
+          <Sequence>GGCGACTCTCTGGAGAGTCCCGGTTTTCGGGAGCCGAAGGTGTAAGGCGGAGCTTCCGCTGATCTCTCAGGCAAAAGGACAGAGGACACAAATG</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4576922" LocusId="CLOLEP_01924" Name="glyP" Function="Sodium/glycine symporter GlyP" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00557" RegulationMode="RF00557">
+      <Regulator Key="L10_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32341" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L10_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOLEP_02935" Name="rplJ" Position="-129" Score="64.8">
+          <Sequence>ATATTTGCTGATCTTTTCCAAAGACAGCAGGTGCTTATTGCGTAAAGAGCTTATTGTTCTGCCTGCCGAGGAAGGTGACTTGCAAAGCCTGCATTTTTCTGTGTATGGTACTTTCAGGCCCTTTCCGGTATGCGGAAAGGGCCTTTTTACATCTCATTTT</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4577933" LocusId="CLOLEP_02935" Name="rplJ" Function="LSU ribosomal protein L10p (P0)" />
+          <Members vimssId="4577934" LocusId="CLOLEP_02936" Name="rplL" Function="LSU ribosomal protein L7/L12 (P1/P2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00556" RegulationMode="RF00556">
+      <Regulator Key="L19_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32391" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L19_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOLEP_02366" Name="rplS" Position="-51" Score="20.4">
+          <Sequence>TGACAGTCCTCTGCTTTACGCATGAATGTCTGAA</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4577364" LocusId="CLOLEP_02366" Name="rplS" Function="LSU ribosomal protein L19p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00558" RegulationMode="RF00558">
+      <Regulator Key="L20_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32416" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L20_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOLEP_03303" Name="infC" Position="-79" Score="34.5">
+          <Sequence>TACAACAAAGCAGAGCAGTGTGTTCTCACCTGTGGGGTTTCGTCCGGCATGGGTCAATACAGGAAAGATACTTTCTTTCATGAGAGTTTTTAGGTGTATTGTGCGCGGACGGAGCATTCTGTCCGCGCTTTGTATTTTTC</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4578301" LocusId="CLOLEP_03303" Name="infC" Function="Translation initiation factor 3" />
+          <Members vimssId="4578300" LocusId="CLOLEP_03302" Name="rpmI" Function="LSU ribosomal protein L35p" />
+          <Members vimssId="4578299" LocusId="CLOLEP_03301" Name="rplT" Function="LSU ribosomal protein L20p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00559" RegulationMode="RF00559">
+      <Regulator Key="L21_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32441" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L21_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOLEP_02654" Name="rplU" Position="-88" Score="24.3">
+          <Sequence>ATCATTGATAAGCCGCATATTGCGGGCTTTTTAAGCGAGCCTACGCTCCGCCTGACAGTAGCGAGTTCAAAAGAAGGTAG</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4577652" LocusId="CLOLEP_02654" Name="rplU" Function="LSU ribosomal protein L21p" />
+          <Members vimssId="4577653" LocusId="CLOLEP_02655" Name="ysxB" Function="FIG139598: Potential ribosomal protein" />
+          <Members vimssId="4577654" LocusId="CLOLEP_02656" Name="rpmA" Function="LSU ribosomal protein L27p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00168" RegulationMode="RF00168">
+      <Regulator Key="Lysine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32491" />
+      <Effector>Lysine</Effector>
+      <Pathway>Lysine biosynthesis</Pathway>
+      <LocusTag Key="Lysine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOLEP_03139" Name="asd" Position="-320" Score="104.9">
+          <Sequence>CCTAAGATAGAGGTGCGTCTTTAGATGATTAGCTGGTTCGAGGTTGCCGAAACCGCAGACATCCAGTAAAAGGCTTTGGTCGCCGAAGGAAAAGAGTTGGCAGCCCTTTTCCTGGGTGCATTAGCGAACAGCGGTGCAACTGTCATCATGAATTTATGATGGAGAGCTATCTGTGCATT</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4578137" LocusId="CLOLEP_03139" Name="asd" Function="Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11)" />
+          <Members vimssId="4578138" LocusId="CLOLEP_03140" Name="dapA" Function="Dihydrodipicolinate synthase (EC 4.2.1.52)" />
+          <Members vimssId="4578139" LocusId="CLOLEP_03141" Name="dapB" Function="Dihydrodipicolinate reductase (EC 1.3.1.26)" />
+          <Members vimssId="4578140" LocusId="CLOLEP_03142" Name="lysC2" Function="Aspartokinase II ( EC:2.7.2.4 )" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00162" RegulationMode="RF00162">
+      <Regulator Key="SAM" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32691" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="SAM" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOLEP_01532" Name="metK" Position="-35" Score="79.8">
+          <Sequence>CCTTATCAAGAGAGGCGGAGGGAACAGACCCTGTGATGCCCGGCAACCTGCGGTTTGCAAGGTGCCAATTTCTGCGGGAAAACCGGAAGATGAGGTTA</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4576530" LocusId="CLOLEP_01532" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ala)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32766" />
+      <Effector>Ala-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOLEP_01892" Name="alaS" Position="-245" Score="84.3">
+          <Sequence>AATAGGCTGTGAAGGGCAAGAGAAAGCAAAAAAAAGCGGGTAAGAGAGGGTGCTCCCGGCTGCAAGGCGCCCCTGCTTTTGCTTTCGGCCGGTCTGGAGCTCCGGCTTGAGGAAAGCCGGCGGGCCTTTCCCGTTATCGAAGGCTTAAGCGGCGCGCTTTGACGCGCAATTTGGGTGGTACCACGGATTCCTCCGTCCCATTGTG</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4576890" LocusId="CLOLEP_01892" Name="alaS" Function="Alanyl-tRNA synthetase (EC 6.1.1.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Asn)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32816" />
+      <Effector>Asn-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOLEP_02147" Name="aspS" Position="-463" Score="77.8">
+          <Sequence>AAATGGCAACGATGGGAAGAGTAGACCGGATTTTGCGTCTCAGAGAGCCGGCGCGTGGTGAAAGCCGGAACAAGGAATCCGGAGGAAGAACATCCCGGAGCAGCCAACCGAAAGCCCCGACCTCCGTTAACAGAACCGCCGGCGACCGTGCGGAAATGTTATGTGAGAAGAGAAATGAATAAGCGGCGGGAGAAAAATTCTCAAACGGCTGTGTTTTTTCTTGATGTGGTTAGGAGCCGGTAGGCTTGGACGCGGGCGGCGCGTTATCGCCGCAAACCATAGTGTTATGAGTGGGCCTTCGGCCTATTTGGGTGGTACCGCGGAGAGCATCAGCCTTTCGTCCCAGTGAT</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4577145" LocusId="CLOLEP_02147" Name="aspS" Function="Aspartyl-tRNA synthetase (EC 6.1.1.12)" />
+          <Members vimssId="4577146" LocusId="CLOLEP_02148" Name="gatA" Function="Aspartyl-tRNA(Asn) amidotransferase subunit A (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit A (EC 6.3.5.7)" />
+          <Members vimssId="4577147" LocusId="CLOLEP_02149" Name="gatB" Function="Aspartyl-tRNA(Asn) amidotransferase subunit B (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit B (EC 6.3.5.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ile)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32966" />
+      <Effector>Ile-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOLEP_00230" Name="ilvB" Position="-483" Score="125.2">
+          <Sequence>GACAAATGCGTTGATAGGGAAGAGTAATTTGGTTCCCGCTTTCAGAGAGCCGCCGGGTGGTGCGAGGCGGCAGGGGAGAAAAATGAAAATCGCCCTTGAGCAGCACGCTGAACCCCGAAAGGGTAGTAAGCGGTGCCGGTTCCCTCCGTTACCGGGGCAGCATTCGGCATTCGGCCCGATGTGAACAGAGAGGCCCTGGACAGCAGGGCAATAAGAGTGGTACCGCGGGGGAGCAAGACCTTCGTCTCTTAA</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4575228" LocusId="CLOLEP_00230" Name="ilvB" Function="Acetolactate synthase large subunit (EC 2.2.1.6)" />
+          <Members vimssId="4575227" LocusId="CLOLEP_00229" Name="ilvH1" Function="Acetolactate synthase small subunit (EC 2.2.1.6)" />
+          <Members vimssId="4575226" LocusId="CLOLEP_00228" Name="leuA" Function="2-isopropylmalate synthase (EC 2.3.3.13)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Leu)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33021" />
+      <Effector>Leu-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOLEP_01755" Name="leuA1" Position="-281" Score="110.2">
+          <Sequence>TAAATACGATGAAGAGGAAGAGTAGGAGCTTTTTAACATGCAGAGAGCCGCTGGGTGGTGAGAAGCGGTTGGGCGAAAGCTTTGAACTGGCCTTGAAGTAGCACGCTGAAAGAATTGTCAAGTAGGCGGAGCCGGAGCCCGACCGTTACAGCGGGAGGATATAAGCCGGAGTATCGGCCGTATCTGCAATGAGGGCACGCCGTAAGGCGTGAAATTAGAGTGGTACCGCGTGAGACTTTTGAAAGTCTTTCGTCTCTATTTG</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4576753" LocusId="CLOLEP_01755" Name="leuA1" Function="2-isopropylmalate synthase (EC 2.3.3.13)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Phe)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33186" />
+      <Effector>Phe-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOLEP_02088" Name="pheS" Position="-317" Score="117.3">
+          <Sequence>AGAGAACGCAGTGAAAAAGGAAGTAGTCCTTTAGAGCGGTTTTTCAGAGAGGCCGGGTATGTTTTTCATGCTGAAAGTCCGGCTATTACTGTAAAAGGATGAAGTTCCCTTTGGAGCGGCATGGCTGAACCTCTTATGTAGGCCATGACGGCCGGCACCGTTATCCGCCGAAAGAGTGTTTGCTCTGCTGCAAAAATTAGGGTGGTACCGCGGAGATACGTCTTCGTCCCTTTC</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4577086" LocusId="CLOLEP_02088" Name="pheS" Function="Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)" />
+          <Members vimssId="4577085" LocusId="CLOLEP_02087" Name="pheT" Function="Phenylalanyl-tRNA synthetase beta chain (EC 6.1.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Thr)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33351" />
+      <Effector>Thr-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOLEP_03968" Name="thrS" Position="-241" Score="85.1">
+          <Sequence>CAAAAACGTTGAGAAGGAAGGAAAAGCCATCAGTTTTCCTATAGAGAGCAGACGTCACCGGCTGAAAGCGTCTGCGGTAAAACCGGCTTCTTCTACCGCCTTCGAGTGTGCCGCGAAGAGAGCAACGTTCTATAAGCGGCGCCGGCCGGCCCCGTTACAGGCCAGTTGAGGGCAAAGGGAGATTTTCCTTTTGCTGAATTTGGGTGGAAACACGGAGCGCAAAGCCTCGTCCCTTTTTG</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4578966" LocusId="CLOLEP_03968" Name="thrS" Function="Threonyl-tRNA synthetase (EC 6.1.1.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Trp)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33406" />
+      <Effector>Trp-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOLEP_01664" Name="trpE" Position="-453" Score="88.9">
+          <Sequence>ATTCAAACCGTTGAAGCGGAGATAACGGCAATGATGCCTTTACAGAGAGCCTGCGATGCTGAGAATCAGGCAAGAAACAAGTTGTCAAATGGACCGCTGAGGGCGCAGTCAAATGTGATTCTCACAGAGTATTCTGCGACGTTGCAGGCAGACGTCATTTGCCGAGGATATGTTGGTATCCTGCTAAGCGCACGGGTCATACCGTGAACCAAGGTGGCACCGCGGATAAATGTTTTATTCGTCCTTGAC</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOLEP_00758" Name="trpB2" Position="-194" Score="100.7">
+          <Sequence>AGAAACCGTGGAGCAAGAAAAGTAAGTAAAGACGGGTGTATCAGAGAGCCGCTGGCTGGTGTGAATGCGGCAGCATAGAATTTACTGAATGGCCTTGCGAGGGCGGCCTGAAACCGAAAGATTCGGGAGTAGGCGTCGACGGGAGCCCTGTCCGTTATCAGCGGGGTGCATATGATAGTATGTAAATTGAGTGGATGGTTATAATCATCAAACCGGGTGGTACCGCAGAAGTTAAGGCTTTTGTCCCAGTAAT</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4575756" LocusId="CLOLEP_00758" Name="trpB2" Function="Tryptophan synthase beta chain like (EC 4.2.1.20)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4576662" LocusId="CLOLEP_01664" Name="trpE" Function="Anthranilate synthase, aminase component (EC 4.1.3.27) # TrpAa" />
+          <Members vimssId="4576661" LocusId="CLOLEP_01663" Name="trpG" Function="Anthranilate synthase, amidotransferase component (EC 4.1.3.27) @ Para-aminobenzoate synthase, amidotransferase component (EC 2.6.1.85) # TrpAb@PabAb" />
+          <Members vimssId="4576660" LocusId="CLOLEP_01662" Name="trpD" Function="Anthranilate phosphoribosyltransferase (EC 2.4.2.18)" />
+          <Members vimssId="4576659" LocusId="CLOLEP_01661" Name="trpC" Function="Indole-3-glycerol phosphate synthase (EC 4.1.1.48)" />
+          <Members vimssId="4576658" LocusId="CLOLEP_01660" Name="trpF" Function="Phosphoribosylanthranilate isomerase (EC 5.3.1.24)" />
+          <Members vimssId="4576657" LocusId="CLOLEP_01659" Name="trpB" Function="Tryptophan synthase beta chain (EC 4.2.1.20)" />
+          <Members vimssId="4576656" LocusId="CLOLEP_01658" Name="trpA" Function="Tryptophan synthase alpha chain (EC 4.2.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Tyr)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33461" />
+      <Effector>Tyr-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOLEP_03157" Name="tyrS" Position="-296" Score="129.5">
+          <Sequence>CATATCGGCTGTGAAAAGAAGGAGTAAAAAAGCTTTATCTTGCGAAGAGACCCGCCGGGTGGTGTAAGGCGGGGAAGAAGGCTTTTTGAAATACATCTTGGAGCCGCGGAGCTGAATTTTTAAGTAGGCTTCGCCGTATTTGCGCACGTTACAGCGCCAGGGTATTATCGTACCCGTGAGGCCATGGCTGTGAGGCTGTGGTGAATTGAGGTGGTACCGCGGATTTTCCGCCCTCTGC</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4578154" LocusId="CLOLEP_03157" Name="tyrS" Function="Tyrosyl-tRNA synthetase (EC 6.1.1.1) ## cluster 1" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33566" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CLOLEP_00999" Name="COG0011" Position="-199" Score="60">
+          <Sequence>ATAGAATACCGGGGTGCTGAGAAAATCGGCTGAGAGCAGGCTGAAGCCTGAAACCCTTAACTTGATCCGGGTAATGCCGGCGTAAGGAATCAAAAGCAAAAAGGA</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CLOLEP_00018" Name="ykoF" Position="-291" Score="63.3">
+          <Sequence>TAGAATTCTAGGGGGACTCTTTATAGAGTTGAGATAGATTCATCTGACCCTTTGAACCTGATGGTTAAGACCAGCGTAGGGAAGCAATTCTAACACGATGA</Sequence>
+          <Bacteria>Clostridium leptum DSM 753</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4575016" LocusId="CLOLEP_00018" Name="ykoF" Function="Additional substrate-binding component of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4575997" LocusId="CLOLEP_00999" Name="COG0011" Function="Cytoplasmic thiamin-binding component of thiamin ABC transporter, COG0011 family" />
+          <Members vimssId="4575998" LocusId="CLOLEP_01000" Name="thiX" Function="Thiamin ABC transporter, transmembrane component" />
+          <Members vimssId="4575999" LocusId="CLOLEP_01001" Name="thiY" Function="Thiamin ABC transporter, substrate-binding component" />
+          <Members vimssId="4576000" LocusId="CLOLEP_01002" Name="thiZ" Function="Thiamin ABC transporter, ATPase component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

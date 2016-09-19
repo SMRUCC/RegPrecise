@@ -1,0 +1,1518 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Mesorhizobium sp. BNC1" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="AglR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49439" />
+      <Effector>Alpha-glucoside; Maltose; Trehalose; Sucrose</Effector>
+      <Pathway>Alpha-glucosides utilization</Pathway>
+      <LocusTag Key="Meso_2854" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1781734&amp;disp=0" />
+      <BiologicalProcess>Alpha-glucosides utilization</BiologicalProcess>
+      <Regulog Key="AglR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5008" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_2855" Name="aglE" Position="-105" Score="6.2">
+          <Sequence>TTCTCAAAGCGCTTTGAGCT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2854" Name="aglR" Position="-127" Score="6.2">
+          <Sequence>AGCTCAAAGCGCTTTGAGAA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1781735" LocusId="Meso_2855" Name="aglE" Function="Alpha-glucoside ABC transporter periplasmic sugar-binding protein" />
+          <Members vimssId="1781736" LocusId="Meso_2856" Name="aglF" Function="Alpha-glucoside ABC transporter permease protein" />
+          <Members vimssId="1781737" LocusId="Meso_2857" Name="aglG" Function="Alpha-glucoside ABC transporter permease protein" />
+          <Members vimssId="1781738" LocusId="Meso_2858" Name="aglK" Function="Alpha-glucoside transport ATP-binding protein AglK" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1781734" LocusId="Meso_2854" Name="aglR" Function="Transcriptional regulator of alpha-glucoside utilization, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5008</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51352" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="Meso_4426" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1778734&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5207" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_4426" Name="cadR2" Position="-34" Score="5.1">
+          <Sequence>ATGCTTTAGTCGCCAGAGGAT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_4216" Name="PF00501" Position="-64" Score="4.4">
+          <Sequence>ATTCTGTAGTGGCCACAGGAA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_4216" Name="PF00501" Position="-280" Score="5">
+          <Sequence>ATTCTTTAGTGGCTACAGAAT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2849" Name="cadA" Position="-57" Score="6.2">
+          <Sequence>CTCCTATAGTCACTAGAGGAA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_4129" Name="cadA2" Position="-57" Score="5.3">
+          <Sequence>ACCCTCTAGCTGCTATAGGTC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1778534" LocusId="Meso_4216" Name="PF00501" Function="Coenzyme F390 synthetase" />
+          <Members vimssId="1778533" LocusId="Meso_4214" Name="czcD" Function="Co/Zn/Cd efflux protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1778734" LocusId="Meso_4426" Name="cadR2" Function="Cadmium resistance transcriptional regulator, MerR family" />
+          <Members vimssId="1778733" LocusId="Meso_4425" Name="null" Function="hypothetical protein" />
+          <Members vimssId="1778732" LocusId="Meso_4424" Name="czcD" Function="Co/Zn/Cd efflux protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1778456" LocusId="Meso_4129" Name="cadA2" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1781729" LocusId="Meso_2849" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5207</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="CueR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50960" />
+      <Effector>Copper ion, (Cu+)</Effector>
+      <Pathway>Copper resistance</Pathway>
+      <LocusTag Key="Meso_4039" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1782910&amp;disp=0" />
+      <BiologicalProcess>Copper resistance</BiologicalProcess>
+      <Regulog Key="CueR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5165" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_2667" Name="copA" Position="-49" Score="5.5">
+          <Sequence>ACCTTCCAGTAACTGGAAGGA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_3894" Name="copZ" Position="-35" Score="5.3">
+          <Sequence>ACCTTCCAACGGTGGGAAGCC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_3893" Name="copA" Position="-66" Score="5.4">
+          <Sequence>ACCTTCCCATCGTTGGAAGCC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_3893" Name="copA" Position="-115" Score="5.3">
+          <Sequence>GGCTTCCCACCGTTGGAAGGT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1781548" LocusId="Meso_2667" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1782765" LocusId="Meso_3894" Name="copZ" Function="Copper chaperone" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1782764" LocusId="Meso_3893" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="1782763" LocusId="Meso_3892" Name="cueR" Function="Copper-responsive transcriptional regulator, MerR family" />
+          <Members vimssId="1782762" LocusId="Meso_3891" Name="copG" Function="Predicted metal binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5165</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="">
+      <Regulator Key="EutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63670" />
+      <Effector>Ethanolamine</Effector>
+      <Pathway>Ethanolamine utilization</Pathway>
+      <LocusTag Key="Meso_1872" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1780769&amp;disp=0" />
+      <BiologicalProcess>Ethanolamine utilization</BiologicalProcess>
+      <Regulog Key="EutR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6569" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_1871" Name="eutA" Position="-89" Score="5.4">
+          <Sequence>GGTGAAGAGAATTTTTCAAA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_1872" Name="eutR" Position="-123" Score="4.5">
+          <Sequence>TTTGAAATTAATCATTCAGA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_1871" Name="eutA" Position="-47" Score="4.5">
+          <Sequence>TCTGAATGATTAATTTCAAA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_1872" Name="eutR" Position="-81" Score="5.4">
+          <Sequence>TTTGAAAAATTCTCTTCACC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1780768" LocusId="Meso_1871" Name="eutA" Function="putative N-formylglutamate amidohydrolase family protein" />
+          <Members vimssId="1780767" LocusId="Meso_1870" Name="eutB" Function="glutamine synthetase family protein" />
+          <Members vimssId="1780766" LocusId="Meso_1869" Name="eutX" Function="Aldehyde dehydrogenase (EC 1.2.1.3)" />
+          <Members vimssId="1780765" LocusId="Meso_1868" Name="eutY" Function="Alcohol dehydrogenase (EC 1.1.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1780769" LocusId="Meso_1872" Name="eutR" Function="Transcriptional regulator of ethanolamine utilization, RpiR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6569</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LuxR" RegulationMode="activator">
+      <Regulator Key="FixJ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63325" />
+      <Effector>Oxygen</Effector>
+      <Pathway>Oxidative stress response</Pathway>
+      <LocusTag Key="Meso_2223" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1781119&amp;disp=0" />
+      <BiologicalProcess>Oxidative stress response</BiologicalProcess>
+      <Regulog Key="FixJ - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6526" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_2220" Name="fixK" Position="-86" Score="5.2">
+          <Sequence>CTACGTAGTTTCCCTTAG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1781116" LocusId="Meso_2220" Name="fixK" Function="Nitrogen fixation and oxygen response transcriptional regulator FixK, Crp family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6526</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="repressor (activator)">
+      <Regulator Key="FnrN/FixK/AadR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63110" />
+      <Effector>Oxygen</Effector>
+      <Pathway>Oxidative stress response; Nitrogen fixation</Pathway>
+      <LocusTag Key="Meso_2220" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1781116&amp;disp=0" />
+      <BiologicalProcess>Oxidative stress response; Nitrogen fixation</BiologicalProcess>
+      <Regulog Key="FnrN/FixK/AadR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6503" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_2243" Name="nirK" Position="-176" Score="4.7">
+          <Sequence>ACTTTGATCCAGCGCAACGT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2243" Name="nirK" Position="-83" Score="4.3">
+          <Sequence>TATTTGCGCCAGAGCAAAGA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_4273" Name="nirK" Position="-87" Score="4">
+          <Sequence>CGTTTGCGCCAGCGCAAAGA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2250" Name="ccoN" Position="-90" Score="5.1">
+          <Sequence>GATTTGATCCAGAGCAAAGT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_1022" Name="nuoA" Position="-136" Score="4.1">
+          <Sequence>GGTTTGACTTGCGTCACCGA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2247" Name="" Position="-166" Score="4.6">
+          <Sequence>ACATTGTCCTGAATCAAATC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2264" Name="osmY" Position="-131" Score="4.7">
+          <Sequence>GCTTTGATGAGCATCAACAT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2264" Name="osmY" Position="-94" Score="4.8">
+          <Sequence>GCGTTGACGCCGATCAACGC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2276" Name="hspC2" Position="-256" Score="4.7">
+          <Sequence>AAGTTGACGCACGTCAATGC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1781169" LocusId="Meso_2276" Name="hspC2" Function="Small heat shock protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1781157" LocusId="Meso_2264" Name="osmY" Function="Osmotically inducible protein Y precursor" />
+          <Members vimssId="1781156" LocusId="Meso_2263" Name="adhA" Function="Alcohol dehydrogenase (EC 1.1.1.1), zinc containing" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1781141" LocusId="Meso_2247" Name="null" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1781144" LocusId="Meso_2250" Name="ccoN" Function="Cytochrome c oxidase subunit CcoN (EC 1.9.3.1)" />
+          <Members vimssId="1781145" LocusId="Meso_2251" Name="ccoO" Function="Cytochrome c oxidase subunit CcoO (EC 1.9.3.1)" />
+          <Members vimssId="1781146" LocusId="Meso_2252" Name="ccoQ" Function="Cytochrome c oxidase subunit CcoQ (EC 1.9.3.1)" />
+          <Members vimssId="1781147" LocusId="Meso_2253" Name="ccoP" Function="Cytochrome c oxidase subunit CcoP (EC 1.9.3.1)" />
+          <Members vimssId="1781148" LocusId="Meso_2254" Name="COG5473" Function="Predicted integral membrane protein" />
+          <Members vimssId="1781149" LocusId="Meso_2255" Name="ccoI" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoI; Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="1781150" LocusId="Meso_2256" Name="ccoS" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoS, involved in heme b insertion" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1779923" LocusId="Meso_1022" Name="nuoA" Function="NADH ubiquinone oxidoreductase chain A (EC 1.6.5.3)" />
+          <Members vimssId="1779924" LocusId="Meso_1023" Name="nuoB" Function="NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)" />
+          <Members vimssId="1779925" LocusId="Meso_1024" Name="nuoC" Function="NADH-ubiquinone oxidoreductase chain C (EC 1.6.5.3)" />
+          <Members vimssId="1779926" LocusId="Meso_1025" Name="nouD" Function="NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)" />
+          <Members vimssId="1779927" LocusId="Meso_1026" Name="nuoE" Function="NADH-ubiquinone oxidoreductase chain E (EC 1.6.5.3)" />
+          <Members vimssId="1779928" LocusId="Meso_1027" Name="nuoF" Function="NADH-ubiquinone oxidoreductase chain F (EC 1.6.5.3)" />
+          <Members vimssId="1779929" LocusId="Meso_1028" Name="nuoG" Function="NADH-ubiquinone oxidoreductase chain G (EC 1.6.5.3)" />
+          <Members vimssId="1779930" LocusId="Meso_1029" Name="nuoH" Function="NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)" />
+          <Members vimssId="1779931" LocusId="Meso_1030" Name="nuoI" Function="NADH-ubiquinone oxidoreductase chain I (EC 1.6.5.3)" />
+          <Members vimssId="1779932" LocusId="Meso_1031" Name="nuoJ" Function="NADH-ubiquinone oxidoreductase chain J (EC 1.6.5.3)" />
+          <Members vimssId="1779933" LocusId="Meso_1032" Name="nuoK" Function="NADH-ubiquinone oxidoreductase chain K (EC 1.6.5.3)" />
+          <Members vimssId="1779934" LocusId="Meso_1033" Name="nuoL" Function="NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)" />
+          <Members vimssId="1779935" LocusId="Meso_1034" Name="nuoM" Function="NADH-ubiquinone oxidoreductase chain M (EC 1.6.5.3)" />
+          <Members vimssId="1779936" LocusId="Meso_1035" Name="nuoN" Function="NADH-ubiquinone oxidoreductase chain N (EC 1.6.5.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1781138" LocusId="Meso_2243" Name="nirK" Function="Copper-containing nitrite reductase (EC 1.7.2.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1778585" LocusId="Meso_4273" Name="nirK" Function="Copper-containing nitrite reductase (EC 1.7.2.1)" />
+          <Members vimssId="1778584" LocusId="Meso_4272" Name="nirV" Function="Nitrite reductase accessory protein NirV" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6503</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="activator (repressor)">
+      <Regulator Key="GlcC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19179" />
+      <Effector>Glycolate</Effector>
+      <Pathway>Glycolate utilization</Pathway>
+      <LocusTag Key="Meso_0366" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1779274&amp;disp=0" />
+      <BiologicalProcess>Glycolate utilization</BiologicalProcess>
+      <Regulog Key="GlcC - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2071" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_0366" Name="glcC" Position="-58" Score="4.1">
+          <Sequence>CATTGGACAAATAAGTTGACCAGTT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_0364" Name="glcD" Position="-36" Score="4.7">
+          <Sequence>AACTGGTAAATAGATTAGACCAGTG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_0365" Name="mlr6914" Position="-119" Score="4.2">
+          <Sequence>AACTGGTCAACTTATTTGTCCAATG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1779274" LocusId="Meso_0366" Name="glcC" Function="Glycolate utilization operon transcriptional activator" />
+          <Members vimssId="1779275" LocusId="Meso_0367" Name="ykgE" Function="L-lactate dehydrogenase, Fe-S oxidoreductase subunit YkgE" />
+          <Members vimssId="1779276" LocusId="Meso_0368" Name="ykgF" Function="L-lactate dehydrogenase, Iron-sulfur cluster-binding subunit YkgF" />
+          <Members vimssId="1779277" LocusId="Meso_0369" Name="ykgG" Function="L-lactate dehydrogenase, hypothetical protein subunit YkgG" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1779272" LocusId="Meso_0364" Name="glcD" Function="Glycolate dehydrogenase (EC 1.1.99.14), subunit GlcD" />
+          <Members vimssId="1779271" LocusId="Meso_0363" Name="glcE" Function="Glycolate dehydrogenase (EC 1.1.99.14), FAD-binding subunit GlcE" />
+          <Members vimssId="1779270" LocusId="Meso_0362" Name="NGR_c03940" Function="hypothetical protein" />
+          <Members vimssId="1779269" LocusId="Meso_0361" Name="glcF" Function="Glycolate dehydrogenase (EC 1.1.99.14), iron-sulfur subunit GlcF" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1779273" LocusId="Meso_0365" Name="mlr6914" Function="uncharacterized conserved membrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2071</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49729" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Meso_4017" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1782888&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5036" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_0358" Name="groS" Position="-94" Score="7.2">
+          <Sequence>TTAGCACTCTCCTACAGCGAGTGCTAA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_3096" Name="groS" Position="-167" Score="6.9">
+          <Sequence>TTGGCACTCTCAATAGGTGAGTGCTAA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1779266" LocusId="Meso_0358" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="1779265" LocusId="Meso_0357" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1781972" LocusId="Meso_3096" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="1781971" LocusId="Meso_3095" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5036</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="HutC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17387" />
+      <Effector>cis-Urocanic acid</Effector>
+      <Pathway>Histidine utilization</Pathway>
+      <LocusTag Key="Meso_2976" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1781852&amp;disp=0" />
+      <BiologicalProcess>Histidine utilization</BiologicalProcess>
+      <Regulog Key="HutC - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1876" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_2987" Name="hutF" Position="-84" Score="5.6">
+          <Sequence>TACATGTATATACATAAT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2986" Name="hutI" Position="-45" Score="5.6">
+          <Sequence>ATTATGTATATACATGTA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2976" Name="hutC" Position="-169" Score="4.8">
+          <Sequence>AATTAGTATAGACATAAT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1781852" LocusId="Meso_2976" Name="hutC" Function="Histidine utilization repressor, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1781863" LocusId="Meso_2987" Name="hutF" Function="Formiminoglutamic iminohydrolase (EC 3.5.3.13)" />
+          <Members vimssId="1781864" LocusId="Meso_2988" Name="hutC" Function="Histidine utilization repressor, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1781862" LocusId="Meso_2986" Name="hutI" Function="Imidazolonepropionase (EC 3.5.2.7)" />
+          <Members vimssId="1781861" LocusId="Meso_2985" Name="hutH" Function="Histidine ammonia-lyase (EC 4.3.1.3)" />
+          <Members vimssId="1781860" LocusId="Meso_2984" Name="hutG" Function="N-formylglutamate deformylase (EC 3.5.1.68)" />
+          <Members vimssId="1781859" LocusId="Meso_2983" Name="hutU" Function="Urocanate hydratase (EC 4.2.1.49)" />
+          <Members vimssId="1781858" LocusId="Meso_2982" Name="hutD" Function="Conserved hypothetical protein related to histidine degradation" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1876</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="activator (repressor)">
+      <Regulator Key="HypR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17763" />
+      <Effector>Proline</Effector>
+      <Pathway>Proline and 4-hydrohyproline utilization</Pathway>
+      <LocusTag Key="Meso_2569" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1781457&amp;disp=0" />
+      <BiologicalProcess>Proline and 4-hydrohyproline utilization</BiologicalProcess>
+      <Regulog Key="HypR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1918" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_2568" Name="hypD" Position="-71" Score="4.6">
+          <Sequence>TTGTGTCGACAAAC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2569" Name="hypR" Position="-143" Score="3.4">
+          <Sequence>ACGTGTTTACAATC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1781456" LocusId="Meso_2568" Name="hypD" Function="1-pyrroline-4-hydroxy-2-carboxylate deaminase (EC 3.5.4.22) # predicted" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1781457" LocusId="Meso_2569" Name="hypR" Function="Predicted regulator for proline and hydrohyproline utilization, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1918</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Irr" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=18335" />
+      <Effector>Heme</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="Meso_3940" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1782811&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Irr - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1981" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_0170" Name="fbpA" Position="-143" Score="6.9">
+          <Sequence>AGTTTAGAATAATTCTAAACT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_4072" Name="mbfA" Position="-37" Score="6.4">
+          <Sequence>AGTTTAGAATTATTCTAATCA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_1782" Name="sufS2" Position="-131" Score="6.5">
+          <Sequence>AGTTTAGAACTGTTCAAAACT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_4037" Name="fssA" Position="-44" Score="6">
+          <Sequence>ATTTTAGAATTGTTCCAAAAA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1782943" LocusId="Meso_4072" Name="mbfA" Function="membrane-bound ferritin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1780680" LocusId="Meso_1782" Name="sufS2" Function="Cysteine desulfurase (EC 2.8.1.7)" />
+          <Members vimssId="1780679" LocusId="Meso_1781" Name="sufB" Function="ABC transporter involved in Fe-S cluster assembly, permease protein" />
+          <Members vimssId="1780678" LocusId="Meso_1780" Name="sufC" Function="ABC transporter involved in Fe-S cluster assembly, ATP-binding protein" />
+          <Members vimssId="1780677" LocusId="Meso_1779" Name="sufD" Function="ABC transporter involved in Fe-S cluster assembly, permease protein" />
+          <Members vimssId="1780676" LocusId="Meso_1778" Name="sufS1" Function="Cysteine desulfurase (EC 2.8.1.7), SufS subfamily" />
+          <Members vimssId="1780675" LocusId="Meso_1777" Name="PF01883" Function="PaaD-like protein (DUF59) involved in Fe-S cluster assembly" />
+          <Members vimssId="1780674" LocusId="Meso_1776" Name="sufA" Function="Iron binding protein SufA for iron-sulfur cluster assembly" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1779079" LocusId="Meso_0170" Name="fbpA" Function="Ferric iron ABC transporter, periplasmic protein" />
+          <Members vimssId="1779078" LocusId="Meso_0169" Name="fbpB" Function="Ferric iron ABC transporter, permease protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1782908" LocusId="Meso_4037" Name="fssA" Function="putative nifU-like iron-sulphur cluster scaffold protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1981</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28373" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="Meso_1642" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1780541&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2985" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_3265" Name="imuA" Position="-30" Score="1.2">
+          <Sequence>GAACATAACAGGAAC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_1396" Name="uvrA" Position="-175" Score="5.2">
+          <Sequence>GTTCGTTCTTTGTTC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_0704" Name="PF04055" Position="-77" Score="5.7">
+          <Sequence>GTTCTTGATTTGTTC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_3583" Name="yifB" Position="-77" Score="4.9">
+          <Sequence>GTTCTTGATCTGATC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_1642" Name="lexA" Position="-38" Score="4.9">
+          <Sequence>GTTCTGGGTTTGTTT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_1397" Name="ssb" Position="-171" Score="0.9">
+          <Sequence>GAACAAAAAAGGAAC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_1015" Name="parE" Position="-88" Score="0.7">
+          <Sequence>GAACGGAACCGGAAC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_1988" Name="uvrD" Position="-54" Score="0.4">
+          <Sequence>GTACAAAAAGAAAAC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_0418" Name="rmuC" Position="-51" Score="5">
+          <Sequence>GTTCACGATTTGATC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_3376" Name="mgpS" Position="-175" Score="0.4">
+          <Sequence>GAACAAAAACAGAAT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_3807" Name="imuA" Position="-52" Score="0.4">
+          <Sequence>GAACAAATAGAGAAC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_1263" Name="recA" Position="-73" Score="0.9">
+          <Sequence>GAACAAAACGGGTAC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_1263" Name="recA" Position="-140" Score="0.6">
+          <Sequence>AAACAAAAAACGAAC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_1686" Name="xthA" Position="-17" Score="4.5">
+          <Sequence>GTTCTGGATTCGTGC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2118" Name="greA" Position="-58" Score="4.3">
+          <Sequence>GTTTTCTTTTTGTGT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_1344" Name="dinP" Position="-27" Score="5.3">
+          <Sequence>GTTCTTCTTATGTTC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1780541" LocusId="Meso_1642" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1780296" LocusId="Meso_1396" Name="uvrA" Function="Excinuclease ABC subunit A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1779608" LocusId="Meso_0704" Name="PF04055" Function="Radical SAM domain protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1780297" LocusId="Meso_1397" Name="ssb" Function="Single-stranded DNA-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1779916" LocusId="Meso_1015" Name="parE" Function="Topoisomerase IV subunit B (EC 5.99.1.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1780885" LocusId="Meso_1988" Name="uvrD" Function="ATP-dependent DNA helicase II" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1779326" LocusId="Meso_0418" Name="rmuC" Function="DNA recombination protein RmuC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1782251" LocusId="Meso_3376" Name="mgpS" Function="ATP-dependent helicase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1782678" LocusId="Meso_3807" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="1782679" LocusId="Meso_3808" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+          <Members vimssId="1782680" LocusId="Meso_3809" Name="dnaE2" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1780163" LocusId="Meso_1263" Name="recA" Function="Recombinase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1782141" LocusId="Meso_3265" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="1782140" LocusId="Meso_3264" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+          <Members vimssId="1782139" LocusId="Meso_3263" Name="dnaE2" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1780585" LocusId="Meso_1686" Name="xthA" Function="Exodeoxyribonuclease III (EC 3.1.11.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1781014" LocusId="Meso_2118" Name="greA" Function="Transcription elongation factor GreA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1780244" LocusId="Meso_1344" Name="dinP" Function="DNA polymerase IV (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1782456" LocusId="Meso_3583" Name="yifB" Function="Conserved hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2985</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="LiuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28569" />
+      <Effector />
+      <Pathway>Branched-chain amino acid degradation</Pathway>
+      <LocusTag Key="Meso_0024" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1778933&amp;disp=0" />
+      <BiologicalProcess>Branched-chain amino acid degradation</BiologicalProcess>
+      <Regulog Key="LiuR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3006" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_0723" Name="acdH2" Position="-93" Score="5.9">
+          <Sequence>TTTGACCTTTACGTAAGC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_0023" Name="acdH" Position="-77" Score="5.2">
+          <Sequence>TTTGACGTTTACGCGCAC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_3395" Name="mdh" Position="-182" Score="4.6">
+          <Sequence>GCTTACCCTTACGTAAAT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_1259" Name="liuR1" Position="-63" Score="5.2">
+          <Sequence>ATTGACTTTTACGTAATC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1779627" LocusId="Meso_0723" Name="acdH2" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1782270" LocusId="Meso_3395" Name="mdh" Function="Malate dehydrogenase (EC 1.1.1.37)" />
+          <Members vimssId="1782271" LocusId="Meso_3396" Name="sucC" Function="Succinyl-CoA ligase [ADP-forming] beta chain (EC 6.2.1.5)" />
+          <Members vimssId="1782272" LocusId="Meso_3397" Name="sucD" Function="Succinyl-CoA ligase [ADP-forming] alpha chain (EC 6.2.1.5)" />
+          <Members vimssId="1782273" LocusId="Meso_3398" Name="sucA" Function="2-oxoglutarate dehydrogenase E1 component (EC 1.2.4.2)" />
+          <Members vimssId="1782274" LocusId="Meso_3399" Name="sucB" Function="Dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase complex (EC 2.3.1.61)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1778932" LocusId="Meso_0023" Name="acdH" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+          <Members vimssId="1778931" LocusId="Meso_0022" Name="acdA" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16) @ Acetyl-CoA acetyltransferase (EC 2.3.1.9)" />
+          <Members vimssId="1778930" LocusId="Meso_0021" Name="acdB" Function="Enoyl-CoA hydratase [isoleucine degradation] (EC 4.2.1.17) / 3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35) / 3-hydroxybutyryl-CoA epimerase (EC 5.1.2.3)" />
+          <Members vimssId="1778929" LocusId="Meso_0020" Name="null" Function="Predicted thioesterase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1780159" LocusId="Meso_1259" Name="liuR1" Function="Predicted transcriptional regulator LiuR of leucine degradation pathway, MerR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3006</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="MntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50081" />
+      <Effector>Manganese ion, (Mn2+)</Effector>
+      <Pathway>Manganese homeostasis</Pathway>
+      <LocusTag Key="Meso_4423" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1778731&amp;disp=0" />
+      <BiologicalProcess>Manganese homeostasis</BiologicalProcess>
+      <Regulog Key="MntR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5075" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_4423" Name="mntR" Position="-46" Score="5.1">
+          <Sequence>TCCATAGCCGAGGCTATAAT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_4423" Name="mntR" Position="-109" Score="5.8">
+          <Sequence>ATTATAGCAAATGCTATTTC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_4422" Name="COG2132" Position="-73" Score="5.8">
+          <Sequence>GAAATAGCATTTGCTATAAT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_4422" Name="COG2132" Position="-136" Score="5.1">
+          <Sequence>ATTATAGCCTCGGCTATGGA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1778731" LocusId="Meso_4423" Name="mntR" Function="Manganese homeostasis transcriptional regulator MntR, DtxR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1778730" LocusId="Meso_4422" Name="COG2132" Function="Putative metal oxidase" />
+          <Members vimssId="1778729" LocusId="Meso_4421" Name="COG0428" Function="Putative metal cation transporter" />
+          <Members vimssId="1778728" LocusId="Meso_4420" Name="cycX" Function="Cytochrome c556" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5075</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Mur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19511" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Manganese homeostasis</Pathway>
+      <LocusTag Key="Meso_3947" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1782818&amp;disp=0" />
+      <BiologicalProcess>Manganese homeostasis</BiologicalProcess>
+      <Regulog Key="Mur - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2109" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_4120" Name="mntH" Position="-38" Score="5.2">
+          <Sequence>AATGCAAATAAGTCGCAAC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2853" Name="sitA" Position="-115" Score="5.8">
+          <Sequence>GTTGCAAATGGTTTGCAAT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1781733" LocusId="Meso_2853" Name="sitA" Function="Manganese ABC transporter, periplasmic-binding protein SitA" />
+          <Members vimssId="1781732" LocusId="Meso_2852" Name="sitB" Function="Manganese ABC transporter, ATP-binding protein SitB" />
+          <Members vimssId="1781731" LocusId="Meso_2851" Name="sitC" Function="Manganese ABC transporter, inner membrane permease protein SitC" />
+          <Members vimssId="1781730" LocusId="Meso_2850" Name="sitD" Function="Manganese ABC transporter, inner membrane permease protein SitD" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1778447" LocusId="Meso_4120" Name="mntH" Function="Manganese transport protein MntH" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2109</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NadQ" RegulationMode="repressor">
+      <Regulator Key="NadQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15229" />
+      <Effector />
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="Meso_2558" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1781446&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NadQ - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1634" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_2557" Name="nadA" Position="-60" Score="5.2">
+          <Sequence>TTATGCTCAGCGCAAGCATAT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2557" Name="nadA" Position="-34" Score="6.1">
+          <Sequence>ATATGCTCAATCGGAGCATAA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1781445" LocusId="Meso_2557" Name="nadA" Function="Quinolinate synthetase (EC 4.1.99.-)" />
+          <Members vimssId="1781444" LocusId="Meso_2556" Name="nadB" Function="L-aspartate oxidase (EC 1.4.3.16)" />
+          <Members vimssId="1781443" LocusId="Meso_2555" Name="nadC" Function="Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1634</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="NnrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16853" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Denitrification</Pathway>
+      <LocusTag Key="Meso_2246" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1781140&amp;disp=0" />
+      <BiologicalProcess>Denitrification</BiologicalProcess>
+      <Regulog Key="NnrR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1816" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_4284" Name="" Position="-142" Score="5.6">
+          <Sequence>CTTTGCGCTAGCGCAAAC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_4273" Name="nirK" Position="-234" Score="4.2">
+          <Sequence>CTTTGCGCGACGGGAACT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_4273" Name="nirK" Position="-86" Score="5.5">
+          <Sequence>GTTTGCGCCAGCGCAAAG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2243" Name="nirK" Position="-175" Score="4.9">
+          <Sequence>CTTTGATCCAGCGCAACG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2243" Name="nirK" Position="-82" Score="5.1">
+          <Sequence>ATTTGCGCCAGAGCAAAG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2245" Name="azu1" Position="-81" Score="5.2">
+          <Sequence>CTTTGCGCGAGCGCAAAT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_4276" Name="azu1" Position="-86" Score="4.9">
+          <Sequence>GTTTGCGTTGCAGCAAAG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_4290" Name="" Position="-229" Score="5.4">
+          <Sequence>GTTTGCGCTGGCGCAAAC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_4294" Name="" Position="-70" Score="4.8">
+          <Sequence>CTTTGCGGAAGTGCAAAG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_4293" Name="ubiD" Position="-65" Score="4.8">
+          <Sequence>CTTTGCACTTCCGCAAAG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_4277" Name="nnrR" Position="-143" Score="4.9">
+          <Sequence>CTTTGCTGCAACGCAAAC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2246" Name="nnrR" Position="-55" Score="5.2">
+          <Sequence>ATTTGCGCTCGCGCAAAG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_4289" Name="nnrS2" Position="-83" Score="5.4">
+          <Sequence>GTTTGCGCCAGCGCAAAC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2247" Name="PF08984" Position="-74" Score="5.1">
+          <Sequence>CTTTGCGCAAGCACAACG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1778596" LocusId="Meso_4284" Name="null" Function="hypothetical protein" />
+          <Members vimssId="1778595" LocusId="Meso_4283" Name="null" Function="hypothetical protein" />
+          <Members vimssId="1778594" LocusId="Meso_4282" Name="PF10006" Function="putative universal stress protein" />
+          <Members vimssId="1778593" LocusId="Meso_4281" Name="PF01883" Function="PaaD-like protein (DUF59) involved in Fe-S cluster assembly" />
+          <Members vimssId="1778592" LocusId="Meso_4280" Name="PF01152" Function="Truncated hemoglobin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1778585" LocusId="Meso_4273" Name="nirK" Function="Copper-containing nitrite reductase (EC 1.7.2.1)" />
+          <Members vimssId="1778584" LocusId="Meso_4272" Name="nirV" Function="Nitrite reductase accessory protein NirV" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1781138" LocusId="Meso_2243" Name="nirK" Function="Copper-containing nitrite reductase (EC 1.7.2.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1781139" LocusId="Meso_2245" Name="azu1" Function="Pseudoazurin precursor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1778588" LocusId="Meso_4276" Name="azu1" Function="Pseudoazurin precursor" />
+          <Members vimssId="1778587" LocusId="Meso_4275" Name="nnrS" Function="NnrS protein involved in response to NO" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1778602" LocusId="Meso_4290" Name="null" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1778606" LocusId="Meso_4294" Name="null" Function="hypothetical protein" />
+          <Members vimssId="1778607" LocusId="Meso_4295" Name="nnrX" Function="Putative lipid carrier protein" />
+          <Members vimssId="1778608" LocusId="Meso_4296" Name="PF01136" Function="Putative protease" />
+          <Members vimssId="1778609" LocusId="Meso_4297" Name="PF01136" Function="Putative protease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1778605" LocusId="Meso_4293" Name="ubiD" Function="3-polyprenyl-4-hydroxybenzoate carboxy-lyase (EC 4.1.1.-)" />
+          <Members vimssId="1778604" LocusId="Meso_4292" Name="ubiX" Function="3-polyprenyl-4-hydroxybenzoate carboxy-lyase UbiX (EC 4.1.1.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1778589" LocusId="Meso_4277" Name="nnrR" Function="Nitric oxide-responding transcriptional regulator NnrR, Crp family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1781140" LocusId="Meso_2246" Name="nnrR" Function="Nitric oxide-responding transcriptional regulator NnrR, Crp family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1778601" LocusId="Meso_4289" Name="nnrS2" Function="NnrS protein involved in response to NO" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1781141" LocusId="Meso_2247" Name="PF08984" Function="nitric oxide reductase subunit C, cytochrome c" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1816</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15583" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Meso_1135" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1780035&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1674" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_1332" Name="nrdJ" Position="-530" Score="5.2">
+          <Sequence>ACACAATATCTAGCGT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_1332" Name="nrdJ" Position="-284" Score="4.7">
+          <Sequence>ATGCTATATTTAGCGT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2703" Name="nrdA" Position="-310" Score="3.9">
+          <Sequence>CTACTAAATATAGCCC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1781584" LocusId="Meso_2703" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1780232" LocusId="Meso_1332" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1674</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19353" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="Meso_1618" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1780517&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2091" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_1450" Name="narK" Position="-325" Score="4.2">
+          <Sequence>TGCCTAAGAAATAAACA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_3237" Name="glnK" Position="-203" Score="4.7">
+          <Sequence>TGCACATTTTTTGTTCA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1782113" LocusId="Meso_3237" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="1782112" LocusId="Meso_3236" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1780350" LocusId="Meso_1450" Name="narK" Function="Nitrate/nitrite antiporter" />
+          <Members vimssId="1780351" LocusId="Meso_1451" Name="nasD" Function="Nitrite reductase, large subunit (EC 1.7.1.4)" />
+          <Members vimssId="1780352" LocusId="Meso_1452" Name="nasE" Function="Nitrite reductase, small subunit (EC 1.7.1.4)" />
+          <Members vimssId="1780353" LocusId="Meso_1453" Name="nasA" Function="Assimilatory nitrate reductase, large subunit (EC:1.7.99.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2091</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="PckR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49533" />
+      <Effector />
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="Meso_2846" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1781726&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="PckR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5015" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_3502" Name="pckA" Position="-162" Score="4.5">
+          <Sequence>GCGTTTAAACGATTTAGTGA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_3436" Name="fba" Position="-86" Score="4.8">
+          <Sequence>CATTTCAATCGATTAGGGAG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_3502" Name="pckA" Position="-132" Score="5.5">
+          <Sequence>TTTTTAAATCGATTAAAGAA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_0159" Name="zwf" Position="-53" Score="5.2">
+          <Sequence>TTATTAAATCGATTAGACTA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_3395" Name="mdh" Position="-158" Score="5">
+          <Sequence>CCATCTAAACGATTGAAAAA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_3595" Name="mgsA" Position="-40" Score="4.8">
+          <Sequence>AGCTTCAATCGATTTAGGAG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_3246" Name="sdhC" Position="-157" Score="4.7">
+          <Sequence>AACTTCAATCGATTCAGTCG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_0989" Name="glpX" Position="-129" Score="5">
+          <Sequence>TTATTCAATCGATTCATATT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1782468" LocusId="Meso_3595" Name="mgsA" Function="Methylglyoxal synthase (EC 4.2.3.3)" />
+          <Members vimssId="1782467" LocusId="Meso_3594" Name="glk" Function="Glucokinase (EC 2.7.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1782122" LocusId="Meso_3246" Name="sdhC" Function="Succinate dehydrogenase cytochrome b-556 subunit" />
+          <Members vimssId="1782121" LocusId="Meso_3245" Name="sdhD" Function="Succinate dehydrogenase hydrophobic membrane anchor protein" />
+          <Members vimssId="1782120" LocusId="Meso_3244" Name="sdhA" Function="Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1)" />
+          <Members vimssId="1782119" LocusId="Meso_3243" Name="sdhB" Function="Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1782270" LocusId="Meso_3395" Name="mdh" Function="Malate dehydrogenase (EC 1.1.1.37)" />
+          <Members vimssId="1782271" LocusId="Meso_3396" Name="sucC" Function="Succinyl-CoA ligase [ADP-forming] beta chain (EC 6.2.1.5)" />
+          <Members vimssId="1782272" LocusId="Meso_3397" Name="sucD" Function="Succinyl-CoA ligase [ADP-forming] alpha chain (EC 6.2.1.5)" />
+          <Members vimssId="1782273" LocusId="Meso_3398" Name="sucA" Function="2-oxoglutarate dehydrogenase E1 component (EC 1.2.4.2)" />
+          <Members vimssId="1782274" LocusId="Meso_3399" Name="sucB" Function="Dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase complex (EC 2.3.1.61)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1779068" LocusId="Meso_0159" Name="zwf" Function="Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)" />
+          <Members vimssId="1779067" LocusId="Meso_0158" Name="pgl" Function="6-phosphogluconolactonase (EC 3.1.1.31), eukaryotic type" />
+          <Members vimssId="1779066" LocusId="Meso_0157" Name="edd" Function="Phosphogluconate dehydratase (EC 4.2.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1782311" LocusId="Meso_3436" Name="fba" Function="Fructose-bisphosphate aldolase class I (EC 4.1.2.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1782377" LocusId="Meso_3502" Name="pckA" Function="Phosphoenolpyruvate carboxykinase (EC 4.1.1.49)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1779890" LocusId="Meso_0989" Name="glpX" Function="Fructose-1,6-bisphosphatase, GlpX type (EC 3.1.3.11)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5015</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60519" />
+      <Effector />
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="Meso_4362" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1778674&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6215" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_4362" Name="PdxR" Position="-70" Score="8.3">
+          <Sequence>ACATGCCTTG-(13)-CAATGGCCTG-(6)-CCTGCCAATT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1778674" LocusId="Meso_4362" Name="PdxR" Function="Transcriptional regulator for pyridoxine/pyridoxal homeostasis, GntR/MocR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6215</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="repressor">
+      <Regulator Key="RirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=18133" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="Meso_1445" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1780345&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="RirA - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1959" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_0338" Name="fhuA2" Position="-107" Score="4.9">
+          <Sequence>GTTGACATTGATAATCATG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_1440" Name="hmuR" Position="-144" Score="5">
+          <Sequence>CTTGACATCAATAATCAAC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_1441" Name="hmuP" Position="-91" Score="5">
+          <Sequence>GTTGATTATTGATGTCAAG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_1441" Name="hmuP" Position="-129" Score="3.8">
+          <Sequence>GTTGAGTAAATCTATCCGG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_4047" Name="bfd" Position="-232" Score="4.8">
+          <Sequence>CATGACCTTGAAAGTCAAG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_0170" Name="fbpA" Position="-155" Score="4.3">
+          <Sequence>CTTGACTACTATAGTTTAG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1780341" LocusId="Meso_1441" Name="hmuP" Function="Hemin ABC transporter, hemin uptake protein" />
+          <Members vimssId="1780342" LocusId="Meso_1442" Name="hmuT" Function="Hemin ABC transporter, periplasmic protein" />
+          <Members vimssId="1780343" LocusId="Meso_1443" Name="hmuU" Function="Hemin ABC transporter, permease protein" />
+          <Members vimssId="1780344" LocusId="Meso_1444" Name="hmuV" Function="Hemin ABC transporter, ATPase protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1780340" LocusId="Meso_1440" Name="hmuR" Function="TonB-dependent iron siderophore receptor protein" />
+          <Members vimssId="1780339" LocusId="Meso_1439" Name="null" Function="hypothetical protein" />
+          <Members vimssId="1780338" LocusId="Meso_1438" Name="exbB" Function="Ferric siderophore transport system, proton channel" />
+          <Members vimssId="1780337" LocusId="Meso_1437" Name="exbD" Function="Biopolymer transport protein ExbD/TolR" />
+          <Members vimssId="1780336" LocusId="Meso_1436" Name="exbD1" Function="Biopolymer transport protein ExbD/TolR" />
+          <Members vimssId="1780335" LocusId="Meso_1435" Name="tonB" Function="Ferric siderophore transport system energy transducer" />
+          <Members vimssId="1780334" LocusId="Meso_1434" Name="null" Function="hypothetical protein" />
+          <Members vimssId="1780333" LocusId="Meso_1433" Name="PF03992" Function="Hypothetical monooxygenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1779246" LocusId="Meso_0338" Name="fhuA2" Function="TonB-dependent siderophore receptor" />
+          <Members vimssId="1779245" LocusId="Meso_0337" Name="rhtX" Function="MFS family transporter" />
+          <Members vimssId="1779244" LocusId="Meso_0336" Name="mxcD" Function="Siderophore-interacting protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1779079" LocusId="Meso_0170" Name="fbpA" Function="Ferric iron ABC transporter, periplasmic protein" />
+          <Members vimssId="1779078" LocusId="Meso_0169" Name="fbpB" Function="Ferric iron ABC transporter, permease protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1782918" LocusId="Meso_4047" Name="bfd" Function="Bacterioferritin ferredoxin" />
+          <Members vimssId="1782919" LocusId="Meso_4048" Name="bfr" Function="bacterioferritin (Cytochrome B-1) (Cytochrome B-557)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1959</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30900" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="Meso_2041" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1780938&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3192" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_3652" Name="pntA" Position="-18" Score="5.3">
+          <Sequence>TGTTGACCAAAAGATAAAAT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2057" Name="pydX" Position="-64" Score="5.6">
+          <Sequence>ATTTGACTGATTGATAAAAA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2041" Name="rutR" Position="-130" Score="5.2">
+          <Sequence>TTTTGACCGTTTGGACAATC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2042" Name="praX" Position="-88" Score="4.9">
+          <Sequence>GATTGTCCAAACGGTCAAAA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1780954" LocusId="Meso_2057" Name="pydX" Function="Pyridine nucleotide-disulphide oxidoreductase associated with reductive pyrimidine catabolism" />
+          <Members vimssId="1780953" LocusId="Meso_2056" Name="Meso_2056" Function="Hypothetical protein" />
+          <Members vimssId="1780952" LocusId="Meso_2055" Name="pydA" Function="Dihydropyrimidine dehydrogenase [NADP+] (EC 1.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1780938" LocusId="Meso_2041" Name="rutR" Function="Transcriptional regulator RutR of pyrimidine catabolism, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1782524" LocusId="Meso_3652" Name="pntA" Function="Predicted nucleoside ABC transporter, ATP-binding protein" />
+          <Members vimssId="1782525" LocusId="Meso_3653" Name="pntB" Function="Predicted nucleoside ABC transporter, permease protein 1" />
+          <Members vimssId="1782526" LocusId="Meso_3654" Name="pntC" Function="Predicted nucleoside ABC transporter, permease protein 2" />
+          <Members vimssId="1782527" LocusId="Meso_3655" Name="cdd" Function="Cytidine deaminase (EC 3.5.4.5)" />
+          <Members vimssId="1782528" LocusId="Meso_3656" Name="deoD" Function="Purine nucleoside phosphorylase (EC 2.4.2.1)" />
+          <Members vimssId="1782529" LocusId="Meso_3657" Name="deoA" Function="Thymidine phosphorylase (EC 2.4.2.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1780939" LocusId="Meso_2042" Name="praX" Function="Omega-amino acid--pyruvate aminotransferase (EC 2.6.1.18)" />
+          <Members vimssId="1780940" LocusId="Meso_2043" Name="pydC" Function="Beta-ureidopropionase (EC 3.5.1.6)" />
+          <Members vimssId="1780941" LocusId="Meso_2044" Name="pytA" Function="Pyrimidine ABC transporter ATP-binding protein" />
+          <Members vimssId="1780942" LocusId="Meso_2045" Name="pytB" Function="Pyrimidine ABC transporter, permease protein 1" />
+          <Members vimssId="1780943" LocusId="Meso_2046" Name="pytC" Function="Pyrimidine ABC transporter, permease protein 2" />
+          <Members vimssId="1780944" LocusId="Meso_2047" Name="pytD" Function="Pyrimidine ABC transporter, substrate-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3192</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="SMb20014" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=54179" />
+      <Effector />
+      <Pathway>Sugar utilization</Pathway>
+      <LocusTag Key="Meso_0262" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1779170&amp;disp=0" />
+      <BiologicalProcess>Sugar utilization</BiologicalProcess>
+      <Regulog Key="SMb20014 - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5539" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_0266" Name="SMc20018" Position="-37" Score="6.1">
+          <Sequence>AATTGAAATCGATTTCATCG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1779174" LocusId="Meso_0266" Name="SMc20018" Function="Sugar ABC transporter, substrate-binding protein" />
+          <Members vimssId="1779173" LocusId="Meso_0265" Name="SMc20017" Function="Sugar ABC transporter, ATP-binding protein" />
+          <Members vimssId="1779172" LocusId="Meso_0264" Name="SMb20016" Function="Sugar ABC transporter, inner membrane protein" />
+          <Members vimssId="1779171" LocusId="Meso_0263" Name="SMb20015" Function="Sugar ABC transporter, inner membrane protein" />
+          <Members vimssId="1779170" LocusId="Meso_0262" Name="SMb20014" Function="Transcriptional regulator, LacI family" />
+          <Members vimssId="1779169" LocusId="Meso_0261" Name="SMb0013" Function="Dehydrogenase, putative" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5539</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="SMb20039" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58364" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Meso_0253" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1779161&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="SMb20039 - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5973" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_0254" Name="COG697" Position="-92" Score="12.3">
+          <Sequence>TACTGTACTGC-(7)-AGAGAACAGTT-(6)-AATTGTACCGC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1779162" LocusId="Meso_0254" Name="COG697" Function="Permease of the drug/metabolite transporter (DMT) superfamily, COG697(RhaT)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5973</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SahR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15785" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="Meso_2029" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1780926&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SahR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1696" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_2029" Name="sahR" Position="-36" Score="7">
+          <Sequence>ATATAAACATATCTTTATAT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_0328" Name="metH" Position="-53" Score="6.9">
+          <Sequence>ACATAAAGATATCTTTATGT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_3576" Name="ahcY" Position="-106" Score="6">
+          <Sequence>GAATAAAGATTTCTTTATAT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1782449" LocusId="Meso_3576" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1779236" LocusId="Meso_0328" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1780926" LocusId="Meso_2029" Name="sahR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+          <Members vimssId="1780925" LocusId="Meso_2028" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1696</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ROK" RegulationMode="repressor">
+      <Regulator Key="XylR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30333" />
+      <Effector>Xylose</Effector>
+      <Pathway>Xylose utilization</Pathway>
+      <LocusTag Key="Meso_3115" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1781991&amp;disp=0" />
+      <BiologicalProcess>Xylose utilization</BiologicalProcess>
+      <Regulog Key="XylR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3146" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_3114" Name="xylF" Position="-217" Score="5.8">
+          <Sequence>CTTTTTTCGAGGCTCGAAAAAAT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_3115" Name="xylR" Position="-44" Score="5.8">
+          <Sequence>ATTTTTTCGAGCCTCGAAAAAAG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2819" Name="xylB" Position="-72" Score="5.7">
+          <Sequence>TTTGTTTCGAGTCTCGAAATAAT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1781699" LocusId="Meso_2819" Name="xylB" Function="Xylulose kinase (EC 2.7.1.17)" />
+          <Members vimssId="1781700" LocusId="Meso_2820" Name="xylA" Function="Xylose isomerase (EC 5.3.1.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1781991" LocusId="Meso_3115" Name="xylR" Function="Xylose repressor XylR, ROK family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1781990" LocusId="Meso_3114" Name="xylF" Function="Xylose ABC transporter, periplasmic xylose-binding protein XylF" />
+          <Members vimssId="1781989" LocusId="Meso_3113" Name="xylH" Function="Xylose ABC transporter, permease protein XylH" />
+          <Members vimssId="1781988" LocusId="Meso_3112" Name="xylG" Function="Xylose ABC transporter, ATP-binding protein XylG" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3146</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16123" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="Meso_4003" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1782874&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1734" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_4006" Name="znuA2" Position="-105" Score="5.6">
+          <Sequence>CAAGTGTAATGTCATAACGTTTA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_4005" Name="znuC2" Position="-77" Score="5.5">
+          <Sequence>TAAACGTTATGACATTACACTTG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1782877" LocusId="Meso_4006" Name="znuA2" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1782876" LocusId="Meso_4005" Name="znuC2" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="1782875" LocusId="Meso_4004" Name="znuB2" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+          <Members vimssId="1782874" LocusId="Meso_4003" Name="zur" Function="Zinc uptake regulation protein Zur" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1734</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35989" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_2703" Name="nrdA" Position="-308" Score="134.1">
+          <Sequence>ACTAAATATAGCCCATCACGGTGCTGTCGAGTCGTTCGGGTCGAGAGCTTAAGAGGGAAGCCGGTGTGAGGCCGGCGCTGCCCCCGCAACTGTAAGCAGCGAGCTTGTGTCGCGTATTGCCACTGGTGCTCCTAGAGCGCTGGGAAGGCCTGACAGAAGCGATGACCTGCAAGCCAGGAGACCTGCCGTGATGAGCATTGAACGT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2701" Name="" Position="-348" Score="132.9">
+          <Sequence>GCAAATCTGCACACGTCGTGGTCCCCGGCGTCTTTCAGCGCCGGGGCTAAGAGGGAATTCGGTGCGCCCGTCAGCGCTATTGCGCTTTCCGAAAGCTGGTTTTGGTTTTCGGGGTTGATGTATCGGGTAATGCCGAAGCTGCCCCCGCAACTGTGAGCGGCGAGCTCTTCTCCAACATGCCACTGGAGACACCCGGGAAGGCGGAGAGAGGCTGTGACCCGCGAGCCAGGAGACCTGCCATGACGAGAACGTCCACG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2063" Name="btuB1" Position="-318" Score="116">
+          <Sequence>GTCTCGGCCGTGCCTGAGGTGCCCCGTCCGCAAACGGGGTTAAAAGGGAATATGGAAGGGCATTTTCCGCCCGAGCCATAGCTGCTCCCGCAACTGTCAGCGCTGAGGCTTCCTCAACATGCCACTGGGCCCTTTCGGCCTGGGAAGGCGAGGACGCCGTCGAAGCGCAAGCCAGGAAACCTGCCTTGGGTCGTCACCGTCCGGA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1781582" LocusId="Meso_2701" Name="null" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1780960" LocusId="Meso_2063" Name="btuB1" Function="Outer membrane cobalamin receptor protein" />
+          <Members vimssId="1780961" LocusId="Meso_2064" Name="btuF1" Function="Vitamin B12 ABC transporter, B12-binding component BtuF" />
+          <Members vimssId="1780962" LocusId="Meso_2065" Name="btuC1" Function="Vitamin B12 ABC transporter, permease component BtuC" />
+          <Members vimssId="1780963" LocusId="Meso_2066" Name="btuD1" Function="Vitamin B12 ABC transporter, ATPase component BtuD" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1781584" LocusId="Meso_2703" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00504" RegulationMode="RF00504">
+      <Regulator Key="Glycine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37479" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="Glycine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_1018" Name="gcvT" Position="-149" Score="48.7">
+          <Sequence>GGTTAGACACTCTGGAAAGTCGGGGCTTTTGCCCCGCGCCGAAGGTGTAAGCGTGGCCGACAGGGTTCCGGCGCGCGAGTCTCTCAGGCTTCAGACAGAGGGGCACGG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_1018" Name="gcvT" Position="-232" Score="53">
+          <Sequence>CTGCCCGTCCGTGGGAGAGAGCAGCCCGGCTGCCGCCGAAGGGGAAATCGCCCGAAATCTCTCAGGCAAAAGAACCGCGAATG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_4248" Name="" Position="-242" Score="54.8">
+          <Sequence>AACTGGTTGCGGGAGAGAGCAGCGCACGGCTGCCGCCGAAGGGGAATACGCCTAAAATCTCTCAGGCAAAAGAACCGTAAGCAGG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_4248" Name="" Position="-158" Score="45.5">
+          <Sequence>GGCGACACTCTGGAAAGACGGGGCCTGTCAAAGATCCCGCGCCGAAGGTGTAAGTGCTATCGGAGCCCTATCCGGCAGCGCGAGTCTCTCAGGCTTCAGACAGAGGGGCACGGAA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1778564" LocusId="Meso_4248" Name="null" Function="hypothetical protein" />
+          <Members vimssId="1778565" LocusId="Meso_4249" Name="serCA" Function="Phosphoserine aminotransferase (EC 2.6.1.52) / D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1779919" LocusId="Meso_1018" Name="gcvT" Function="Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10)" />
+          <Members vimssId="1779918" LocusId="Meso_1017" Name="gcvH" Function="Glycine cleavage system H protein" />
+          <Members vimssId="1779917" LocusId="Meso_1016" Name="gcvP" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P1 protein) (EC 1.4.4.2) / Glycine dehydrogenase [decarboxylating] (glycine cleavage system P2 protein) (EC 1.4.4.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00521" RegulationMode="RF00521">
+      <Regulator Key="SAM_alpha" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37539" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="SAM_alpha" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_3083" Name="metA" Position="-132" Score="77.8">
+          <Sequence>CAGGCGAACCCGTGGTGATTTGGCCGGTCGGCTTGCAGCCACGTAAAAGAAGTCGCTAAAAGGCCGTGGATACCAAGTC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_0098" Name="metY" Position="-118" Score="81.8">
+          <Sequence>TTTATCCCCGTGGTGATTTGGCCGGTCGGCTTGCAGCCACGTTAAAGAAGTCGCTAAAAAGGCCGTGCTCGAAGCTCGAA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1779007" LocusId="Meso_0098" Name="metY" Function="O-succinylhomoserine sulfhydrylase (EC 2.5.1.48) / O-acetylhomoserine sulfhydrylase (EC 2.5.1.49)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1781959" LocusId="Meso_3083" Name="metA" Function="Homoserine O-succinyltransferase (EC 2.3.1.46)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37239" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_3259" Name="thiB" Position="-136" Score="70.4">
+          <Sequence>TCGCTCTAACGGGGTGCCGTCGATTGACGGCTGAGAGGCAAAGGCCAACCCGCGGAACCTGATCCGGCTCATACCGGCGGAGGGATTAGACGCTGAGATAAAGC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Meso_2561" Name="" Position="-222" Score="78.9">
+          <Sequence>ACCATCACCAGGGGGGCCCGGACAACGGGCTGAGATACCGCTGGCTTCAAGCAGCGCGGTGACCCTTTGAACCTGATCCAGTTCATACTGGCGTAGGGATGGTGCGACGGCTTTCCGGG</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1781449" LocusId="Meso_2561" Name="null" Function="Thiamin biosynthesis protein ThiC" />
+          <Members vimssId="1781450" LocusId="Meso_2562" Name="null" Function="Glycine oxidase ThiO (EC 1.4.3.19)" />
+          <Members vimssId="1781451" LocusId="Meso_2563" Name="null" Function="Sulfur carrier protein ThiS" />
+          <Members vimssId="1781452" LocusId="Meso_2564" Name="null" Function="Thiazole biosynthesis protein ThiG" />
+          <Members vimssId="1781453" LocusId="Meso_2565" Name="null" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+          <Members vimssId="1781454" LocusId="Meso_2566" Name="null" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1782135" LocusId="Meso_3259" Name="thiB" Function="Thiamin ABC transporter, substrate-binding component" />
+          <Members vimssId="1782136" LocusId="Meso_3260" Name="thiP" Function="Thiamin ABC transporter, transmembrane component" />
+          <Members vimssId="1782137" LocusId="Meso_3261" Name="thiQ" Function="Thiamin ABC transporter, ATPase component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00513" RegulationMode="RF00513">
+      <Regulator Key="Trp_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37659" />
+      <Effector />
+      <Pathway>Tryptophan biosynthesis</Pathway>
+      <LocusTag Key="Trp_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_2199" Name="trpEG" Position="-138" Score="16.1">
+          <Sequence>AAAGCTTTGGTGGTGGGCCCGCTAACGAGCGGCCGGCGCTAGCATGAGCGTTTGAACTTCGACGATGGCCGCAGGTGAAAACCGGGCGGCCATTTTAGT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1781095" LocusId="Meso_2199" Name="trpEG" Function="Anthranilate synthase, aminase component (EC 4.1.3.27) / Anthranilate synthase, amidotransferase component (EC 4.1.3.27) @ Para-aminobenzoate synthase, amidotransferase component (EC 2.6.1.85) # TrpAa/TrpAb@PabAb" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01068" RegulationMode="RF01068">
+      <Regulator Key="mini-ykkC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37044" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="mini-ykkC" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_0982" Name="ykkc" Position="-66" Score="34">
+          <Sequence>TGCAGGGACGGCCTTGCTTTCTTCTATCCGGATGAGGACGGCCTCATC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1779883" LocusId="Meso_0982" Name="ykkc" Function="Quaternary ammonium compound-resistance protein sugE" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00517" RegulationMode="RF00517">
+      <Regulator Key="serC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37374" />
+      <Effector />
+      <Pathway>Serine biosynthesis</Pathway>
+      <LocusTag Key="serC" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_3162" Name="serC" Position="-56" Score="59.1">
+          <Sequence>GCAGCGGGCTACCCCTCCCCACCGAGGGGCGAGCTATCTGGAAGGATAGGAACA</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1782038" LocusId="Meso_3162" Name="serC" Function="Phosphoserine aminotransferase (EC 2.6.1.52)" />
+          <Members vimssId="1782037" LocusId="Meso_3161" Name="serA" Function="D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00518" RegulationMode="RF00518">
+      <Regulator Key="speF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37404" />
+      <Effector />
+      <Pathway>Ornithine degradation</Pathway>
+      <LocusTag Key="speF" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_2715" Name="speF" Position="-426" Score="257">
+          <Sequence>TTGCCCAAAGTCGCACGTGCCTGTGGGTGTCCGCCGGGCCTCGAAATGGCGAGGAAACCGGTACGGTACCTGGACCTAACCGCTCCAGTCGATCTTACGGCCAACCGAAGATCGAGGACATCTTGAAGCAACGACGGTGCGGGCCTTTCTGGTGTCTGCCGGTTGTCCAAAGACCGGGGTTACTGAAGAGGCACACCTTCATTGCCGGCAGTGCGGAGGGACATCCCATCCAAAGCTGAGGCAGACAAAGCGAGCCTTCGCCTTGCGGCGGAAGCTCATCGCAATGCGCAAGACGCGTCAACGGTCCGGT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1781596" LocusId="Meso_2715" Name="speF" Function="Ornithine decarboxylase (EC 4.1.1.17) / Arginine decarboxylase (EC 4.1.1.19)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00520" RegulationMode="RF00520">
+      <Regulator Key="ybhL" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37839" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="ybhL" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_3353" Name="ybhL" Position="-77" Score="27.3">
+          <Sequence>ACGCATGCTGGACTCCCGCCAGCGGCGAGCGGCGTTGTGCCGACACCCGACGGGAGAGTAGC</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1782228" LocusId="Meso_3353" Name="ybhL" Function="Integral membrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37449" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Meso_4106" Name="COG1971" Position="-311" Score="34.8">
+          <Sequence>CTCCCGGCCAATCAGGGAGTAGTCACCGCGCCCGCGCGGGACCGTGTCAACAGGCTTGTGCACATGCGCATGGCGCGGTCAGCCGATTCAACGGCCCGACAAGACTGTGGCGCCACTGCT</Sequence>
+          <Bacteria>Mesorhizobium sp. BNC1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1778434" LocusId="Meso_4106" Name="COG1971" Function="protein of unknown function DUF204" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

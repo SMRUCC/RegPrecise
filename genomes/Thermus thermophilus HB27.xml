@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Thermus thermophilus HB27" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor (activator)">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59018" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="TTC1194" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=500070&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Deinococcus-Thermus" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6050" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTC0247" Name="carB" Position="-69" Score="4.4">
+          <Sequence>TGCATATTTATGCC</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTC0838" Name="argF" Position="-148" Score="4.1">
+          <Sequence>CGCAAGGCCATGCG</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTC0838" Name="argF" Position="-38" Score="4.7">
+          <Sequence>TGCATAAGTTTGCG</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTC1701" Name="argG" Position="-46" Score="4.8">
+          <Sequence>TGTATACTTATGCA</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="499112" LocusId="TTC0247" Name="carB" Function="Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="500595" LocusId="TTC1701" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+          <Members vimssId="500596" LocusId="TTC1702" Name="argH" Function="Argininosuccinate lyase (EC 4.3.2.1)" />
+          <Members vimssId="500597" LocusId="TTC1703" Name="argA" Function="N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="500598" LocusId="TTC1704" Name="TTC1704" Function="Hypothetical protein, UPF0150" />
+          <Members vimssId="500599" LocusId="TTC1705" Name="TTC1705" Function="Hypothetical protein" />
+          <Members vimssId="500600" LocusId="TTC1706" Name="carA" Function="putative Carbamoyl-phosphate synthase small chain,(Carbamoyl- phosphate synthetase glutamine chain)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="499712" LocusId="TTC0838" Name="argF" Function="Ornithine carbamoyltransferase (EC 2.1.3.3)" />
+          <Members vimssId="499711" LocusId="TTC0837" Name="COG4636" Function="Conserved hypothetical protein, DUF820" />
+          <Members vimssId="499710" LocusId="TTC0836" Name="argC" Function="N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)" />
+          <Members vimssId="499709" LocusId="TTC0835" Name="argJ" Function="Glutamate N-acetyltransferase (EC 2.3.1.35) / N-acetylglutamate synthase (EC 2.3.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6050</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="BglR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52472" />
+      <Effector>Beta-glucoside</Effector>
+      <Pathway>Beta-glucosides utilization</Pathway>
+      <LocusTag Key="TTP0038" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=500934&amp;disp=0" />
+      <BiologicalProcess>Beta-glucosides utilization</BiologicalProcess>
+      <Regulog Key="BglR - Deinococcus-Thermus" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5345" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTP0038" Name="bglR" Position="-21" Score="6.3">
+          <Sequence>TCTTGCAAGCGCTTTCAACA</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="500934" LocusId="TTP0038" Name="bglR" Function="Transcriptional regulator for beta-glucoside utilization, LacI family" />
+          <Members vimssId="500935" LocusId="TTP0039" Name="bglE" Function="Predicted beta-glucoside ABC transporter, periplasmic component" />
+          <Members vimssId="500936" LocusId="TTP0040" Name="bglF" Function="Predicted beta-glucoside ABC transporter, permease component" />
+          <Members vimssId="500937" LocusId="TTP0041" Name="bglG" Function="Predicted beta-glucoside ABC transporter, permease component" />
+          <Members vimssId="500938" LocusId="TTP0042" Name="bglB" Function="Beta-glucosidase (EC 3.2.1.21)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5345</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57922" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="TTC1761" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=500660&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Deinococcus-Thermus" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5931" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTC0242" Name="bioB" Position="-35" Score="9.2">
+          <Sequence>TCGTAAACT---------------GGTTTACGA</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTC0548" Name="bioY" Position="-97" Score="9.4">
+          <Sequence>ACGTCAACC---------------GGTTGACGA</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="499421" LocusId="TTC0548" Name="bioY" Function="Substrate-specific component BioY of biotin ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="499107" LocusId="TTC0242" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5931</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58704" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="TTC1948" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=500853&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Deinococcus-Thermus" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6010" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTC1246" Name="COG2331" Position="-50" Score="6.4">
+          <Sequence>TTGACACTCAAGAAGGCTAAGCGTCAA</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTC1713" Name="groS" Position="-41" Score="7">
+          <Sequence>TTGACACTCTCACCCTTTGGGCGTCAA</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="500607" LocusId="TTC1713" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="500608" LocusId="TTC1714" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="500122" LocusId="TTC1246" Name="COG2331" Function="Conserved hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6010</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41977" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="TTC1860" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=500761&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Deinococcus-Thermus" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4335" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTC1930" Name="nrdJ" Position="-65" Score="4.6">
+          <Sequence>ACCCAACCGGTAGTAG</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTP0160" Name="achX" Position="-338" Score="5.1">
+          <Sequence>ATCCAACCTGTGGTAG</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="501056" LocusId="TTP0160" Name="achX" Function="Acyl-CoA hydrolase (EC 3.1.2.20)" />
+          <Members vimssId="501057" LocusId="TTP0161" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+          <Members vimssId="501058" LocusId="TTP0162" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="500835" LocusId="TTC1930" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1) @ intein-containing" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4335</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PaaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38499" />
+      <Effector>Phenylacetyl-CoA</Effector>
+      <Pathway>Phenylacetic acid degradation</Pathway>
+      <LocusTag Key="TTC0609" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=499483&amp;disp=0" />
+      <BiologicalProcess>Phenylacetic acid degradation</BiologicalProcess>
+      <Regulog Key="PaaR - Deinococcus-Thermus" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3928" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTC0609" Name="paaR" Position="-20" Score="6.1">
+          <Sequence>CTAACAAACGACCGTTAG</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTC0597" Name="livK" Position="-61" Score="4.9">
+          <Sequence>CGAACGGCCGTTAGTTTG</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="499471" LocusId="TTC0597" Name="livK" Function="Putative branched-chain amino acid ABC transporter, substrate-binding component" />
+          <Members vimssId="499472" LocusId="TTC0598" Name="livH" Function="Putative branched-chain amino acid ABC transporter, permease component" />
+          <Members vimssId="499473" LocusId="TTC0599" Name="livF" Function="Putative branched-chain amino acid ABC transporter, permease component 2" />
+          <Members vimssId="499474" LocusId="TTC0600" Name="livM" Function="Putative branched-chain amino acid ABC transporter, ATPase component" />
+          <Members vimssId="499475" LocusId="TTC0601" Name="paaI" Function="Phenylacetic acid degradation protein PaaI, thioesterase" />
+          <Members vimssId="499476" LocusId="TTC0602" Name="paaK" Function="Phenylacetate-coenzyme A ligase (EC 6.2.1.30)" />
+          <Members vimssId="499477" LocusId="TTC0603" Name="paaY" Function="thioesterase superfamily protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="499483" LocusId="TTC0609" Name="paaR" Function="Transcriptional regulator of phenylacetic acid degradation, TetR family" />
+          <Members vimssId="499482" LocusId="TTC0608" Name="paaA" Function="Phenylacetate-CoA oxygenase, PaaA subunit" />
+          <Members vimssId="499481" LocusId="TTC0607" Name="paaB" Function="Phenylacetate-CoA oxygenase, PaaB subunit" />
+          <Members vimssId="499480" LocusId="TTC0606" Name="paaC" Function="Phenylacetate-CoA oxygenase, PaaC subunit" />
+          <Members vimssId="499479" LocusId="TTC0605" Name="paaD" Function="Phenylacetate-CoA oxygenase, PaaD subunit" />
+          <Members vimssId="499478" LocusId="TTC0604" Name="paaZ" Function="Aldehyde dehydrogenase (EC 1.2.1.3), PaaZ" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3928</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29864" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="TTC1293" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=500169&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Deinococcus-Thermus" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3115" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTC1920" Name="nuoA" Position="-30" Score="5">
+          <Sequence>TCGTGAAGAAAGGCACGA</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="500824" LocusId="TTC1920" Name="nuoA" Function="NADH ubiquinone oxidoreductase chain A (EC 1.6.5.3)" />
+          <Members vimssId="500823" LocusId="TTC1919" Name="nuoB" Function="NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)" />
+          <Members vimssId="500822" LocusId="TTC1918" Name="nuoC" Function="NADH-ubiquinone oxidoreductase chain C (EC 1.6.5.3)" />
+          <Members vimssId="500821" LocusId="TTC1917" Name="nuoD" Function="NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)" />
+          <Members vimssId="500820" LocusId="TTC1916" Name="nuoE" Function="NADH-ubiquinone oxidoreductase chain E (EC 1.6.5.3)" />
+          <Members vimssId="500819" LocusId="TTC1915" Name="nuoF" Function="NADH-ubiquinone oxidoreductase chain F (EC 1.6.5.3)" />
+          <Members vimssId="500818" LocusId="TTC1914" Name="nuoG" Function="NADH-ubiquinone oxidoreductase chain G (EC 1.6.5.3)" />
+          <Members vimssId="500817" LocusId="TTC1913" Name="nuoH" Function="NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)" />
+          <Members vimssId="500816" LocusId="TTC1912" Name="nuoI" Function="NADH-ubiquinone oxidoreductase chain I (EC 1.6.5.3)" />
+          <Members vimssId="500815" LocusId="TTC1911" Name="nuoJ" Function="NADH-ubiquinone oxidoreductase chain J (EC 1.6.5.3)" />
+          <Members vimssId="500814" LocusId="TTC1910" Name="nuoK" Function="NADH-ubiquinone oxidoreductase chain K (EC 1.6.5.3)" />
+          <Members vimssId="500813" LocusId="TTC1909" Name="nuoL" Function="NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)" />
+          <Members vimssId="500812" LocusId="TTC1908" Name="nuoM" Function="NADH-ubiquinone oxidoreductase chain M (EC 1.6.5.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3115</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39103" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTP0007" Name="hoxN" Position="-209" Score="45.9">
+          <Sequence>AGGGGGAAGACCGGTGAAAGTCCGGCGCTGTGCCGCAACGGTAACCGGCCCTAAGCCACAGGCCTAGCGTCTTGGCCGGAAGCCCGGATACCCGC</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTC0390" Name="btuF" Position="-291" Score="60.5">
+          <Sequence>CCAGGTCCCGTAGCCCTGGTGCCTGGGCGCGTAGTCCAGGCTTAAAGTGGGGAAGTCCGGTGCAAGTCCGGCGCTGTCCCGCAACGGTAACCGGTCACGCGTCAGGCCCTTCGTCGCAGGCCGGAAGCCCGAATACCTGCCAGGGCCGTCCGCCCTTCCCC</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTP0160" Name="achX" Position="-240" Score="35.6">
+          <Sequence>GGAAGTCCGGTGAAAGTCCGGCGCTGTCCCGCAACGGTAACCGGCCCAAGCGTCGCGCCCTCCGCCCTGGCCGGAAGCCCGAGTACCCG</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="500903" LocusId="TTP0007" Name="hoxN" Function="HoxN/HupN/NixA family cobalt transporter" />
+          <Members vimssId="500904" LocusId="TTP0008" Name="cbiD" Function="Cobalt-precorrin-6 synthase, anaerobic" />
+          <Members vimssId="500905" LocusId="TTP0009" Name="cbiC" Function="Cobalt-precorrin-8x methylmutase (EC 5.4.1.2)" />
+          <Members vimssId="500906" LocusId="TTP0010" Name="cbiET" Function="Cobalt-precorrin-6y C5-methyltransferase (EC 2.1.1.-) / Cobalt-precorrin-6y C15-methyltransferase [decarboxylating] (EC 2.1.1.-)" />
+          <Members vimssId="500907" LocusId="TTP0011" Name="cbiL" Function="Cobalt-precorrin-2 C20-methyltransferase (EC 2.1.1.130)" />
+          <Members vimssId="500908" LocusId="TTP0012" Name="cbiF" Function="Cobalt-precorrin-4 C11-methyltransferase (EC 2.1.1.133)" />
+          <Members vimssId="500909" LocusId="TTP0013" Name="cbiH" Function="Cobalt-precorrin-3b C17-methyltransferase" />
+          <Members vimssId="500910" LocusId="TTP0014" Name="cbiG" Function="Cobalamin biosynthesis protein CbiG" />
+          <Members vimssId="500911" LocusId="TTP0015" Name="cbiX" Function="Sirohydrochlorin cobaltochelatase (EC 4.99.1.3)" />
+          <Members vimssId="500912" LocusId="TTP0016" Name="DUF3209" Function="Hypothetical protein implicated in coenzyme B12 biosynthesis" />
+          <Members vimssId="500913" LocusId="TTP0017" Name="cobA" Function="Uroporphyrinogen-III methyltransferase (EC 2.1.1.107)" />
+          <Members vimssId="500914" LocusId="TTP0018" Name="bluB" Function="Cob(II)yrinic acid a,c-diamide reductase" />
+          <Members vimssId="500915" LocusId="TTP0019" Name="cbiB" Function="Adenosylcobinamide-phosphate synthase (EC 6.3.1.10)" />
+          <Members vimssId="500916" LocusId="TTP0020" Name="TTP0020" Function="HEPN domain-containing nucleotidyltransferase" />
+          <Members vimssId="500917" LocusId="TTP0021" Name="TTP0021" Function="Nucleotidyltransferase" />
+          <Members vimssId="500918" LocusId="TTP0022" Name="cobD" Function="L-threonine 3-O-phosphate decarboxylase (EC 4.1.1.81)" />
+          <Members vimssId="500919" LocusId="TTP0023" Name="cbiP-cobU" Function="Cobyric acid synthase / Adenosylcobinamide-phosphate guanylyltransferase (EC 2.7.7.62)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="501056" LocusId="TTP0160" Name="achX" Function="Acyl-CoA hydrolase (EC 3.1.2.20)" />
+          <Members vimssId="501057" LocusId="TTP0161" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+          <Members vimssId="501058" LocusId="TTP0162" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="499261" LocusId="TTC0390" Name="btuF" Function="Vitamin B12 ABC transporter, B12-binding component BtuF" />
+          <Members vimssId="499262" LocusId="TTC0391" Name="btuC" Function="Vitamin B12 ABC transporter, permease component" />
+          <Members vimssId="499263" LocusId="TTC0392" Name="btuD" Function="Vitamin B12 ABC transporter, ATP-binding component" />
+          <Members vimssId="499264" LocusId="TTC0393" Name="COG3411" Function="Thioredoxin domain protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38978" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTC0699" Name="ribD" Position="-126" Score="98.5">
+          <Sequence>GCACCTCCTTCGGGGCGGGGTGGAAGTCCCCACCGGCGGTGAAAGCCCGCGAAGCCCCTAAAGGGGCCCGACCCGGTGGAATTCCGGGGCCGACGGTGAAAGTCCGGATGGGAGAAGGAGGGC</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="499574" LocusId="TTC0699" Name="ribD" Function="Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26) / 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)" />
+          <Members vimssId="499573" LocusId="TTC0698" Name="ribE" Function="Riboflavin synthase alpha chain (EC 2.5.1.9)" />
+          <Members vimssId="499572" LocusId="TTC0697" Name="ribBA" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase / GTP cyclohydrolase II (EC 3.5.4.25)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00557" RegulationMode="RF00557">
+      <Regulator Key="L10_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39173" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L10_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTC1777" Name="rplJ" Position="-123" Score="21.5">
+          <Sequence>GCCAAAGACAGCGGGGGGCCTTCGGGCCTTAAAAAGCCCGCCGAGGCGCTTGAGGGGGAGCGTTTCCTCGGAAAT</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="500676" LocusId="TTC1777" Name="rplJ" Function="LSU ribosomal protein L10p (P0)" />
+          <Members vimssId="500675" LocusId="TTC1776" Name="rplL" Function="LSU ribosomal protein L7/L12 (P1/P2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00515" RegulationMode="RF00515">
+      <Regulator Key="PyrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39118" />
+      <Effector>PyrR</Effector>
+      <Pathway>Pyrimidine metabolism</Pathway>
+      <LocusTag Key="PyrR" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTC0428" Name="pyrR" Position="-115" Score="29.6">
+          <Sequence>GCCTTTAAACCGGTCCCGCGAGGCCGGAAAGG</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="499299" LocusId="TTC0428" Name="pyrR" Function="Uracil phosphoribosyltransferase (EC 2.4.2.9) / Pyrimidine operon regulatory protein PyrR" />
+          <Members vimssId="499298" LocusId="TTC0427" Name="pyrB" Function="Aspartate carbamoyltransferase (EC 2.1.3.2)" />
+          <Members vimssId="499297" LocusId="TTC0426" Name="pyrC" Function="Dihydroorotase (EC 3.5.2.3)" />
+          <Members vimssId="499296" LocusId="TTC0425" Name="null" Function="Hypothetical conserved protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00162" RegulationMode="RF00162">
+      <Regulator Key="SAM" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38998" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="SAM" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTC0408" Name="metY" Position="-275" Score="49.3">
+          <Sequence>TCTCTTATCCAGAGCGGTGGAGGGTACGGCCCTGTGAAGCCGCGGCAACCTCCCGCCCCTTCCGTTCCATGGCCGGATGCGGGCGGGGCTGGTGCCAACGCCGGCCCGGGCGGGGGAAACGCCCGGGGACGATAAGAG</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="499279" LocusId="TTC0408" Name="metY" Function="O-acetylhomoserine sulfhydrylase (EC 2.5.1.49) / O-succinylhomoserine sulfhydrylase (EC 2.5.1.48)" />
+          <Members vimssId="499278" LocusId="TTC0407" Name="metX" Function="Homoserine O-acetyltransferase (EC 2.3.1.31)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ile)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39218" />
+      <Effector>Ile-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTC0702" Name="ileS" Position="-272" Score="47.2">
+          <Sequence>TAAAGGCGAGGATGGGGAGAGTACCCCTGCCCAAGAGCCCCAAGCGAGCCGGGGAGGGTGGGAGCCCGGCGGTGAGGGCAGGCGGGAAGATCGCCCCGGAGCCGCGGGAGGAAAGGGGCCCAAGGCCCCGAGTAATGCCCGCCGGGTGGCGCCCGTGATCGCGCCCCAACGAGGGCCTGGGGGCTTCCCCAGGAAGCGCGGTGGTACCGCGGAAGCCTTTCGTGGCTTTCGTCCGCGCCTT</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="499577" LocusId="TTC0702" Name="ileS" Function="Isoleucyl-tRNA synthetase (EC 6.1.1.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39038" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTC1456" Name="thiB" Position="-117" Score="66.7">
+          <Sequence>AGGCCGTCACCGGGGGTGCCCCAAAAGGGCTGAGAGCATACCCTTGGAACCTGATCCGGGTCATGCCGGCGTAGGGAAGGTGACGGCCATCCCCT</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTC0315" Name="thiE" Position="-179" Score="78.3">
+          <Sequence>GGGCAGGCTAGGGGTGCCCGAATGGAAGGGCTGAGAGCTGGGTTTCTCCCAGCAACCCTTGGAACCTGATCCGGGTAATGCCGGCGGAGGGAAGCCTATGCGGAAGACCCG</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="500338" LocusId="TTC1456" Name="thiB" Function="Thiamin ABC transporter, substrate-binding component" />
+          <Members vimssId="500337" LocusId="TTC1455" Name="thiP" Function="Thiamin ABC transporter, permease protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="499185" LocusId="TTC0315" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+          <Members vimssId="499186" LocusId="TTC0316" Name="thiS" Function="Sulfur carrier protein ThiS" />
+          <Members vimssId="499187" LocusId="TTC0317" Name="thiG" Function="Thiazole biosynthesis protein ThiG" />
+          <Members vimssId="499188" LocusId="TTC0318" Name="thiO" Function="Glycine oxidase ThiO (EC 1.4.3.19)" />
+          <Members vimssId="499189" LocusId="TTC0319" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+          <Members vimssId="499190" LocusId="TTC0320" Name="niaP" Function="Thiamin transporter, NiaP family" />
+          <Members vimssId="499191" LocusId="TTC0321" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39113" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTC0142" Name="ykoY" Position="-141" Score="42.2">
+          <Sequence>TACTGGGTCCGGTTGGGGAGTAGCCCCAAGGCCGGTACCCCGTCAGGACGGGCCTAAAGGCCCCGGGGGCCGGGAGGGCGAAAGCCCTCGGGCGAGACCACCGCGCCTGGC</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTC0540" Name="yugP" Position="-153" Score="49.2">
+          <Sequence>AAGTGAGTTCCGGGGAGTAGCCGCCCCGAAAGCGGGGCCAGCCGATCGTCAGGACGGGAGGCATCCCCGGTCGGCTGGGGCGCCTTTAGGCGCATGGCGAGACCACCGTTTGGGT</Sequence>
+          <Bacteria>Thermus thermophilus HB27</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="499413" LocusId="TTC0540" Name="yugP" Function="Zn-dependent protease-like protein" />
+          <Members vimssId="499414" LocusId="TTC0541" Name="null" Function="Hypothetical conserved protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="499007" LocusId="TTC0142" Name="ykoY" Function="Membrane protein TerC, possibly involved in tellurium resistance" />
+          <Members vimssId="499006" LocusId="TTC0141" Name="ykoX" Function="DedA family protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Methylibium petroleiphilum PM1" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51333" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="Mpe_A1657" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2130383&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5205" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A2353" Name="pbrT" Position="-78" Score="5.4">
+          <Sequence>ACCCTGTAGTGGCTACGGACT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A1655" Name="czcD" Position="-55" Score="6">
+          <Sequence>ACTCTGGAGCAGCTACAGGGT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2131083" LocusId="Mpe_A2353" Name="pbrT" Function="Pb(II) uptake protein, ILT family" />
+          <Members vimssId="2131084" LocusId="Mpe_A2354" Name="PF04116" Function="Sterol desaturase" />
+          <Members vimssId="2131085" LocusId="Mpe_A2355" Name="czcD" Function="Co/Zn/Cd efflux protein" />
+          <Members vimssId="2131086" LocusId="Mpe_A2356" Name="czcC" Function="Heavy metal efflux RND outer membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2130381" LocusId="Mpe_A1655" Name="czcD" Function="Co/Zn/Cd efflux protein" />
+          <Members vimssId="2130380" LocusId="Mpe_A1654" Name="PF01841" Function="Transglutaminase-like protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5205</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="CueR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=55935" />
+      <Effector>Copper ion, (Cu+)</Effector>
+      <Pathway>Copper resistance</Pathway>
+      <LocusTag Key="Mpe_A3534" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2132279&amp;disp=0" />
+      <BiologicalProcess>Copper resistance</BiologicalProcess>
+      <Regulog Key="CueR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5712" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A1644" Name="" Position="-81" Score="5.3">
+          <Sequence>ACCTTCCCACGTTGTCAAGGT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A1640" Name="copA" Position="-59" Score="4.8">
+          <Sequence>ACCTTGCCATCGTTAGAACCT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A3536" Name="copZ2" Position="-61" Score="5.5">
+          <Sequence>ACCTTCCCACCGGGGCAACGT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A3535" Name="copA" Position="-34" Score="5.7">
+          <Sequence>ACTTTGCCATGATGGGAAGGT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A1641" Name="copZ2" Position="-57" Score="5.2">
+          <Sequence>ACCTTCCAACAGTAGGAGGGT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2130366" LocusId="Mpe_A1640" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="2130365" LocusId="Mpe_A1639" Name="cueR2" Function="Copper-responsive transcriptional regulator, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2130370" LocusId="Mpe_A1644" Name="null" Function="hypothetical protein" />
+          <Members vimssId="2130371" LocusId="Mpe_A1645" Name="copA3" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2132281" LocusId="Mpe_A3536" Name="copZ2" Function="Copper chaperone" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2130367" LocusId="Mpe_A1641" Name="copZ2" Function="Copper chaperone" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2132280" LocusId="Mpe_A3535" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="2132279" LocusId="Mpe_A3534" Name="cueR2" Function="Copper-responsive transcriptional regulator, MerR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5712</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="Daci_0595" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59588" />
+      <Effector />
+      <Pathway>Metabolite transport</Pathway>
+      <LocusTag Key="Mpe_A0183" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2128886&amp;disp=0" />
+      <BiologicalProcess>Metabolite transport</BiologicalProcess>
+      <Regulog Key="Daci_0595 - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6115" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A0184" Name="PF00892" Position="-93" Score="15.8">
+          <Sequence>GGCGTGTGTCG-(10)-CAGTACAGATC-(15)-ATTCTGTACTG-(0)-TTAGTGTATTG</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2128887" LocusId="Mpe_A0184" Name="PF00892" Function="Permease of the drug/metabolite transporter (DMT) superfamily" />
+          <Members vimssId="2128888" LocusId="Mpe_A0185" Name="racX" Function="Uncharacterized protein YgeA of aspartate/glutamate/hydantoin racemase family" />
+          <Members vimssId="2128889" LocusId="Mpe_A0186" Name="COG1167" Function="Aspartate aminotransferase (AspB-4) (EC 2.6.1.1)" />
+          <Members vimssId="2128890" LocusId="Mpe_A0187" Name="phzF" Function="Phenazine biosynthesis protein PhzF" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6115</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="Daci_3836" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=55539" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Mpe_A0770" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2129486&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="Daci_3836 - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5666" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A0769" Name="Lcho_3026" Position="-96" Score="4.8">
+          <Sequence>TCTTGTATACCAAT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A0773" Name="uahA" Position="-33" Score="5.1">
+          <Sequence>TCTGGTACACAAGA</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2129485" LocusId="Mpe_A0769" Name="Lcho_3026" Function="ABC transporter, periplasmic ligand binding protein, Bmp family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2129489" LocusId="Mpe_A0773" Name="uahA" Function="Allophanate hydrolase (EC 3.5.1.54)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5666</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="">
+      <Regulator Key="FadP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31071" />
+      <Effector />
+      <Pathway>Fatty acid degradation</Pathway>
+      <LocusTag Key="Mpe_A0420" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2129133&amp;disp=0" />
+      <BiologicalProcess>Fatty acid degradation</BiologicalProcess>
+      <Regulog Key="FadP - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3210" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A1775" Name="fadB" Position="-47" Score="5.7">
+          <Sequence>TCGAACGATCGTTCTA</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A1296" Name="etfB" Position="-98" Score="5.1">
+          <Sequence>CCGAACGATCGTGCTT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A0420" Name="fadP" Position="-34" Score="5.8">
+          <Sequence>TAGAACGATCGTTCGA</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A1443" Name="etfD" Position="-87" Score="5.7">
+          <Sequence>TAGAACGACCGTTCGT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2130019" LocusId="Mpe_A1296" Name="etfB" Function="Electron transfer flavoprotein, beta subunit" />
+          <Members vimssId="2130020" LocusId="Mpe_A1297" Name="etfA" Function="Electron transfer flavoprotein, alpha subunit" />
+          <Members vimssId="2130021" LocusId="Mpe_A1298" Name="acdH2" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+          <Members vimssId="2130022" LocusId="Mpe_A1299" Name="null" Function="Dioxygenases related to 2-nitropropane dioxygenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2130166" LocusId="Mpe_A1443" Name="etfD" Function="Electron transfer flavoprotein-ubiquinone oxidoreductase (EC 1.5.5.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2129133" LocusId="Mpe_A0420" Name="fadP" Function="Predicted transcriptional regulator for fatty acid degradation FadP, TetR family" />
+          <Members vimssId="2129132" LocusId="Mpe_A0419" Name="acdH" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+          <Members vimssId="2129131" LocusId="Mpe_A0418" Name="null" Function="hypothetical protein" />
+          <Members vimssId="2129130" LocusId="Mpe_A0417" Name="acdB" Function="Enoyl-CoA hydratase (EC 4.2.1.17) / 3,2-trans-enoyl-CoA isomerase (EC 5.3.3.8) / 3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35)" />
+          <Members vimssId="2129129" LocusId="Mpe_A0416" Name="acdA" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16) @ Acetyl-CoA acetyltransferase (EC 2.3.1.9)" />
+          <Members vimssId="2129128" LocusId="Mpe_A0415" Name="null" Function="hypothetical protein" />
+          <Members vimssId="2129127" LocusId="Mpe_A0414" Name="echH" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2130505" LocusId="Mpe_A1775" Name="fadB" Function="Enoyl-CoA hydratase (EC 4.2.1.17) / Delta(3)-cis-delta(2)-trans-enoyl-CoA isomerase (EC 5.3.3.8) / 3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35) / 3-hydroxybutyryl-CoA epimerase (EC 5.1.2.3)" />
+          <Members vimssId="2130506" LocusId="Mpe_A1776" Name="fadA" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16)" />
+          <Members vimssId="2130507" LocusId="Mpe_A1777" Name="acdH3" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3210</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="FdsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58488" />
+      <Effector>Formate</Effector>
+      <Pathway>Formate oxydation</Pathway>
+      <LocusTag Key="Mpe_A3707" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2132454&amp;disp=0" />
+      <BiologicalProcess>Formate oxydation</BiologicalProcess>
+      <Regulog Key="FdsR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5985" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A3707" Name="fdsR" Position="-28" Score="5.8">
+          <Sequence>ATATGCGCTGAAGCGCCGAA</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A3708" Name="fdsG" Position="-167" Score="5.8">
+          <Sequence>TTCGGCGCTTCAGCGCATAT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2132454" LocusId="Mpe_A3707" Name="fdsR" Function="Formate dehydrogenase transcriptional regulator FdsR, ModE family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2132455" LocusId="Mpe_A3708" Name="fdsG" Function="NAD-dependent formate dehydrogenase (EC  1.2.1.2), gamma subunit" />
+          <Members vimssId="2132456" LocusId="Mpe_A3709" Name="fdsB" Function="NAD-dependent formate dehydrogenase (EC  1.2.1.2), beta subunit" />
+          <Members vimssId="2132457" LocusId="Mpe_A3710" Name="fdsA" Function="NAD-dependent formate dehydrogenase (EC  1.2.1.2), alpha subunit" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5985</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="GguR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62512" />
+      <Effector />
+      <Pathway>Glucarate utilization; Galactarate utilization; Galacturonate utilization; Glucuronate utilization</Pathway>
+      <LocusTag Key="Mpe_A0971" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2129688&amp;disp=0" />
+      <BiologicalProcess>Glucarate utilization; Galactarate utilization; Galacturonate utilization; Glucuronate utilization</BiologicalProcess>
+      <Regulog Key="GguR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6431" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A0972" Name="tctC1" Position="-77" Score="4.1">
+          <Sequence>ACGATGACGTACAACTA</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A0972" Name="tctC1" Position="-84" Score="5.1">
+          <Sequence>ATGTTGTACGATGACGT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A0971" Name="gguR" Position="-67" Score="4.9">
+          <Sequence>CGGTTGTCATACAACTG</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2129688" LocusId="Mpe_A0971" Name="gguR" Function="Predicted D-glucarate or D-galactorate utilization regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2129689" LocusId="Mpe_A0972" Name="tctC1" Function="Tripartite tricarboxylate transporter family receptor, putative transporter for uronates" />
+          <Members vimssId="2129690" LocusId="Mpe_A0973" Name="serA" Function="D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)" />
+          <Members vimssId="2129691" LocusId="Mpe_A0974" Name="garL" Function="2-dehydro-3-deoxyglucarate aldolase (EC 4.1.2.20)" />
+          <Members vimssId="2129692" LocusId="Mpe_A0975" Name="garR" Function="2-hydroxy-3-oxopropionate reductase (EC 1.1.1.60)" />
+          <Members vimssId="2129693" LocusId="Mpe_A0976" Name="garK" Function="D-glycerate 2-kinase (EC 2.7.1.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6431</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="GudR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62545" />
+      <Effector />
+      <Pathway>Glucarate utilization</Pathway>
+      <LocusTag Key="Mpe_A0968" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2129685&amp;disp=0" />
+      <BiologicalProcess>Glucarate utilization</BiologicalProcess>
+      <Regulog Key="GudR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6435" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A0968" Name="gudR" Position="-36" Score="5.5">
+          <Sequence>GGATGGTAGCGGTGTCATCT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A0969" Name="tctC4" Position="-73" Score="6">
+          <Sequence>GAACGGTAGCGCTACCATTT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A0969" Name="tctC4" Position="-51" Score="4.8">
+          <Sequence>AGACGATAGCGCTACCAGAT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2129686" LocusId="Mpe_A0969" Name="tctC4" Function="Tripartite tricarboxylate transporter family receptor, putative transporter for uronates" />
+          <Members vimssId="2129687" LocusId="Mpe_A0970" Name="gudD" Function="Glucarate dehydratase (EC 4.2.1.40)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2129685" LocusId="Mpe_A0968" Name="gudR" Function="Predicted D-glucarate utilization regulator, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6435</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49710" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Mpe_A3333" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2132070&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5034" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A3171" Name="rpoH" Position="-54" Score="7.2">
+          <Sequence>TTAGCACTCGTTTTACGTGAGTGCTAA</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A0427" Name="groS" Position="-129" Score="6.3">
+          <Sequence>CTAGCACTCGCGCAGACTGAGTGCTAA</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2131907" LocusId="Mpe_A3171" Name="rpoH" Function="Heat shock response RNA polymerase sigma factor RpoH (Sigma 32)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2129140" LocusId="Mpe_A0427" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="2129141" LocusId="Mpe_A0428" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5034</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17912" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="Mpe_A2263" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2130992&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1935" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A2263" Name="iscR" Position="-98" Score="5.1">
+          <Sequence>ATAATTGAGCTATTCAGTCGGGATT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2130992" LocusId="Mpe_A2263" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="2130991" LocusId="Mpe_A2262" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+          <Members vimssId="2130990" LocusId="Mpe_A2261" Name="iscU" Function="Iron-sulfur cluster assembly scaffold protein IscU" />
+          <Members vimssId="2130989" LocusId="Mpe_A2260" Name="iscA" Function="Iron binding protein IscA for iron-sulfur cluster assembly" />
+          <Members vimssId="2130988" LocusId="Mpe_A2259" Name="hscB" Function="Chaperone protein HscB" />
+          <Members vimssId="2130987" LocusId="Mpe_A2258" Name="hscA" Function="Chaperone protein HscA" />
+          <Members vimssId="2130986" LocusId="Mpe_A2257" Name="fdx" Function="ferredoxin, 2Fe-2S type, ISC system" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1935</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28354" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="Mpe_A1866" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2130596&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2983" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A0910" Name="Aave_0184" Position="-49" Score="5.4">
+          <Sequence>TACTGTATTTACGAACAGTA</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A1866" Name="lexA" Position="-67" Score="5.4">
+          <Sequence>CACTGGATAAAAATTCAGTG</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A1866" Name="lexA" Position="-86" Score="5.8">
+          <Sequence>AGCTGGATAAAAATACAGTC</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A2509" Name="PF04055" Position="-33" Score="6">
+          <Sequence>TACTGTACAAAAATACAGTA</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_B0048" Name="umuD" Position="-55" Score="5.3">
+          <Sequence>TACTGTATGGATGTACAGCA</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_B0052" Name="umuC" Position="-6" Score="5.8">
+          <Sequence>TACTGTATGTCCATACAGTA</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_B0617" Name="imuA" Position="-133" Score="5.2">
+          <Sequence>TACTGTATGCCCATACAGTC</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A0075" Name="recA" Position="-54" Score="5.3">
+          <Sequence>TACTGTACAAATAACCAGTT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A1534" Name="imuA" Position="-44" Score="5.7">
+          <Sequence>TACTGTATTTATGTACAGTA</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2129626" LocusId="Mpe_A0910" Name="Aave_0184" Function="Conserved hypothetical protein" />
+          <Members vimssId="2129625" LocusId="Mpe_A0909" Name="null" Function="DinG family ATP-dependent helicase CPE1197" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2130596" LocusId="Mpe_A1866" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2128777" LocusId="Mpe_A0075" Name="recA" Function="Recombinase A" />
+          <Members vimssId="2128776" LocusId="Mpe_A0074" Name="recX" Function="Regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2128672" LocusId="Mpe_B0617" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="2128673" LocusId="Mpe_B0618" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+          <Members vimssId="2128674" LocusId="Mpe_B0619" Name="dnaE2" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2128080" LocusId="Mpe_B0052" Name="umuC" Function="DNA polymerase V, subunit UmuC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2128076" LocusId="Mpe_B0048" Name="umuD" Function="DNA polymerase V, subunit UmuD" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2131241" LocusId="Mpe_A2509" Name="PF04055" Function="DNA repair photolyase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2130258" LocusId="Mpe_A1534" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="2130257" LocusId="Mpe_A1533" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+          <Members vimssId="2130256" LocusId="Mpe_A1532" Name="null" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2983</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="LiuQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31261" />
+      <Effector />
+      <Pathway>Branched-chain amino acid degradation</Pathway>
+      <LocusTag Key="Mpe_A3361" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2132098&amp;disp=0" />
+      <BiologicalProcess>Branched-chain amino acid degradation</BiologicalProcess>
+      <Regulog Key="LiuQ - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3230" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A3361" Name="liuQ" Position="-176" Score="5.1">
+          <Sequence>ATGAGTTTCACTCAA</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A3361" Name="liuQ" Position="-75" Score="5.4">
+          <Sequence>TTGAGCTTTACTCAA</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A3360" Name="liuA" Position="-114" Score="5.4">
+          <Sequence>TTGAGTAAAGCTCAA</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A3360" Name="liuA" Position="-13" Score="5.1">
+          <Sequence>TTGAGTGAAACTCAT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2132098" LocusId="Mpe_A3361" Name="liuQ" Function="Predicted transcriptional regulator LiuQ of leucine degradation pathway, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2132097" LocusId="Mpe_A3360" Name="liuA" Function="Isovaleryl-CoA dehydrogenase (EC 1.3.99.10); Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.99.2)" />
+          <Members vimssId="2132096" LocusId="Mpe_A3359" Name="liuB" Function="Methylcrotonyl-CoA carboxylase carboxyl transferase subunit (EC 6.4.1.4)" />
+          <Members vimssId="2132095" LocusId="Mpe_A3358" Name="liuC" Function="Methylglutaconyl-CoA hydratase (EC 4.2.1.18)" />
+          <Members vimssId="2132094" LocusId="Mpe_A3357" Name="null" Function="Probable transmembrane protein" />
+          <Members vimssId="2132093" LocusId="Mpe_A3356" Name="liuD" Function="Methylcrotonyl-CoA carboxylase biotin-containing subunit (EC 6.4.1.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3230</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="MdcY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61726" />
+      <Effector />
+      <Pathway>Malonate metabolism</Pathway>
+      <LocusTag Key="Mpe_A2899" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2131634&amp;disp=0" />
+      <BiologicalProcess>Malonate metabolism</BiologicalProcess>
+      <Regulog Key="MdcY - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6340" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A2899" Name="mdcY" Position="-62" Score="4.6">
+          <Sequence>ATGTATACAT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A2898" Name="Aave_1513" Position="-56" Score="4.6">
+          <Sequence>ATGTATACAT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2131633" LocusId="Mpe_A2898" Name="Aave_1513" Function="putative exported protein" />
+          <Members vimssId="2131632" LocusId="Mpe_A2897" Name="mdcR" Function="Malonate utilization transcriptional regulator, LysR family" />
+          <Members vimssId="2131631" LocusId="Mpe_A2896" Name="matC" Function="malonate transporter" />
+          <Members vimssId="2131630" LocusId="Mpe_A2895" Name="mdcA" Function="Malonate decarboxylase, alpha subunit" />
+          <Members vimssId="2131629" LocusId="Mpe_A2894" Name="mdcC" Function="Malonate decarboxylase delta subunit, acyl-carrier protein" />
+          <Members vimssId="2131628" LocusId="Mpe_A2893" Name="mdcD" Function="Malonate decarboxylase, beta subunit" />
+          <Members vimssId="2131627" LocusId="Mpe_A2892" Name="mdcE" Function="Malonate decarboxylase gamma subunit" />
+          <Members vimssId="2131626" LocusId="Mpe_A2891" Name="mdcB" Function="Triphosphoribosyl-dephospho-CoA synthetase (EC 2.7.8.25)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2131634" LocusId="Mpe_A2899" Name="mdcY" Function="Transcriptional regulator of malonate metabolism, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6340</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="MerR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51137" />
+      <Effector>Mercury ion, (Hg2+)</Effector>
+      <Pathway>Mercury resistance</Pathway>
+      <LocusTag Key="Mpe_A1661" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2130387&amp;disp=0" />
+      <BiologicalProcess>Mercury resistance</BiologicalProcess>
+      <Regulog Key="MerR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5184" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A1662" Name="merT" Position="-57" Score="5.6">
+          <Sequence>ACTCCGTACTCAGGTACGTACC</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2130388" LocusId="Mpe_A1662" Name="merT" Function="Mercury uptake inner membane protein" />
+          <Members vimssId="2130389" LocusId="Mpe_A1663" Name="merP" Function="Periplasmic mercury (+2) binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5184</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58545" />
+      <Effector>Tungsten</Effector>
+      <Pathway>Tungsten homeostasis</Pathway>
+      <LocusTag Key="Mpe_A2224" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2130953&amp;disp=0" />
+      <BiologicalProcess>Tungsten homeostasis</BiologicalProcess>
+      <Regulog Key="ModE3 - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5991" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A2223" Name="tupA" Position="-102" Score="5.3">
+          <Sequence>CTATGCATGCTCGTTCATAT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2130952" LocusId="Mpe_A2223" Name="tupA" Function="Tungstate ABC-type transporter, permease protein" />
+          <Members vimssId="2130951" LocusId="Mpe_A2222" Name="tupC" Function="Tungstate ABC-type transporter, ATP-binding protein" />
+          <Members vimssId="2130950" LocusId="Mpe_A2221" Name="tupB" Function="Tungstate ABC-type transporter, substrate-binding protein" />
+          <Members vimssId="2130949" LocusId="Mpe_A2220" Name="modA" Function="Molybdenum ABC transporter, periplasmic molybdenum-binding protein ModA (TC 3.A.1.8.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5991</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NikR" RegulationMode="repressor">
+      <Regulator Key="NikR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15930" />
+      <Effector>Nickel ion, (Ni2+)</Effector>
+      <Pathway>Nickel homeostasis</Pathway>
+      <LocusTag Key="Mpe_A2805" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2131539&amp;disp=0" />
+      <BiologicalProcess>Nickel homeostasis</BiologicalProcess>
+      <Regulog Key="NikR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1713" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A2804" Name="omp_Ni" Position="-76" Score="7.6">
+          <Sequence>GTATGAA-------------ATCATAC</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A2798" Name="omp_Ni-2" Position="-108" Score="7">
+          <Sequence>GTATGAG-------------ATCTTAC</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2131532" LocusId="Mpe_A2798" Name="omp_Ni-2" Function="Predicted outer membrane nickel transporter, TonB-dependent family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2131538" LocusId="Mpe_A2804" Name="omp_Ni" Function="Predicted outer membrane nickel transporter, TonB-dependent family" />
+          <Members vimssId="2131537" LocusId="Mpe_A2803" Name="nikK" Function="Additional periplasmic component NikK of nickel ECF transporter" />
+          <Members vimssId="2131536" LocusId="Mpe_A2802" Name="nikN" Function="Additional substrate-specific component NikN of nickel ECF transporter" />
+          <Members vimssId="2131535" LocusId="Mpe_A2801" Name="nikM" Function="Substrate-specific component NikM of nickel ECF transporter" />
+          <Members vimssId="2131534" LocusId="Mpe_A2800" Name="nikQ" Function="Transmembrane component NikQ of energizing module of nickel ECF transporter" />
+          <Members vimssId="2131533" LocusId="Mpe_A2799" Name="nikO" Function="ATPase component NikO of energizing module of nickel ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1713</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15564" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Mpe_A2939" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2131674&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1672" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A3214" Name="nrdA" Position="-294" Score="5.4">
+          <Sequence>GCGCTAGATATAGTGT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A1693" Name="Ajs_0086" Position="-1880" Score="5.6">
+          <Sequence>ACACTACCGGTAGTGT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A1693" Name="Ajs_0086" Position="-1848" Score="4.4">
+          <Sequence>CCACTACCGGTAGAGC</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A3214" Name="nrdA" Position="-325" Score="5.6">
+          <Sequence>ACGCTACATATAGTGC</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2130423" LocusId="Mpe_A1693" Name="Ajs_0086" Function="hypothetical protein" />
+          <Members vimssId="2130422" LocusId="Mpe_A1692" Name="nrdG" Function="Ribonucleotide reductase of class III (anaerobic), activating protein (EC 1.97.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2131951" LocusId="Mpe_A3214" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="2131950" LocusId="Mpe_A3213" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1672</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19334" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="Mpe_A2073" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2130802&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2089" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A2076" Name="glnA" Position="-244" Score="4.6">
+          <Sequence>GGCCCCGAAATGGTGCG</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2130805" LocusId="Mpe_A2076" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+          <Members vimssId="2130804" LocusId="Mpe_A2075" Name="ntrZ" Function="Conserved hypothetical signal peptide protein" />
+          <Members vimssId="2130803" LocusId="Mpe_A2074" Name="ntrB" Function="putative nitrogen regulation protein NR(II)" />
+          <Members vimssId="2130802" LocusId="Mpe_A2073" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2089</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PaaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38880" />
+      <Effector>Phenylacetyl-CoA</Effector>
+      <Pathway>Phenylacetic acid degradation</Pathway>
+      <LocusTag Key="Mpe_A0992" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2129709&amp;disp=0" />
+      <BiologicalProcess>Phenylacetic acid degradation</BiologicalProcess>
+      <Regulog Key="PaaR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3971" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A0984" Name="paaF" Position="-85" Score="5.7">
+          <Sequence>GTCTACCGACTGGTCGGTCAAT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A0983" Name="paaY2" Position="-78" Score="5.6">
+          <Sequence>ATTGACCGACCAGTCGGTAGAC</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2129701" LocusId="Mpe_A0984" Name="paaF" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+          <Members vimssId="2129702" LocusId="Mpe_A0985" Name="paaY" Function="thioesterase superfamily protein" />
+          <Members vimssId="2129703" LocusId="Mpe_A0986" Name="paaK" Function="Phenylacetate-coenzyme A ligase (EC 6.2.1.30)" />
+          <Members vimssId="2129704" LocusId="Mpe_A0987" Name="paaA" Function="Phenylacetate-CoA oxygenase, PaaA subunit" />
+          <Members vimssId="2129705" LocusId="Mpe_A0988" Name="paaB" Function="Phenylacetate-CoA oxygenase, PaaB subunit" />
+          <Members vimssId="2129706" LocusId="Mpe_A0989" Name="paaC" Function="Phenylacetate-CoA oxygenase, PaaC subunit" />
+          <Members vimssId="2129707" LocusId="Mpe_A0990" Name="paaD" Function="Phenylacetate-CoA oxygenase, PaaD subunit" />
+          <Members vimssId="2129708" LocusId="Mpe_A0991" Name="paaE" Function="Probable phenylacetic acid degradation NADH oxidoreductase paaE (EC 1.-.-.-)" />
+          <Members vimssId="2129709" LocusId="Mpe_A0992" Name="paaR" Function="Transcriptional regulator of phenylacetic acid degradation, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2129700" LocusId="Mpe_A0983" Name="paaY2" Function="phenylacetic acid degradation protein PaaY" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3971</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxQ3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58805" />
+      <Effector />
+      <Pathway>Metabolite transport; Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="Mpe_A2041" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2130771&amp;disp=0" />
+      <BiologicalProcess>Metabolite transport; Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxQ3 - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6026" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A2040" Name="PF01965" Position="-5" Score="12.3">
+          <Sequence>GTTGTATG-(1)-ATGACAAT-(6)-ATTGTATT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2130770" LocusId="Mpe_A2040" Name="PF01965" Function="ThiJ/PfpI domain-containing protein" />
+          <Members vimssId="2130769" LocusId="Mpe_A2039" Name="pdxO2" Function="Pyridoxamine 5'-phosphate oxidase-related, FMN-binding" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6026</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53223" />
+      <Effector />
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="Mpe_A2441" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2131173&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxR3 - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5433" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A2441" Name="pdxR3" Position="-141" Score="5">
+          <Sequence>TGGCCAATCGCCTGATAGTGGATC</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A2441" Name="pdxR3" Position="-217" Score="4.3">
+          <Sequence>GATCCACTTCGCTCGAAGTGGATT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A2442" Name="COG0596" Position="-147" Score="5">
+          <Sequence>GATCCACTATCAGGCGATTGGCCA</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A2442" Name="COG0596" Position="-71" Score="4.3">
+          <Sequence>AATCCACTTCGAGCGAAGTGGATC</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2131173" LocusId="Mpe_A2441" Name="pdxR3" Function="Transcriptional regulator, GntR/MocR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2131174" LocusId="Mpe_A2442" Name="COG0596" Function="Predicted hydrolases or acyltransferases (alpha/beta hydrolase superfamily)" />
+          <Members vimssId="2131175" LocusId="Mpe_A2443" Name="COG0657" Function="Esterase/lipase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5433</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PhnF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31653" />
+      <Effector />
+      <Pathway>Phosphonate utilization</Pathway>
+      <LocusTag Key="Mpe_B0420" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2128474&amp;disp=0" />
+      <BiologicalProcess>Phosphonate utilization</BiologicalProcess>
+      <Regulog Key="PhnF - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3272" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_B0420" Name="phnF" Position="-28" Score="4.4">
+          <Sequence>CCCAGATATCTAGACATCTGGA</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_B0456" Name="phnF" Position="-28" Score="4.4">
+          <Sequence>CCCAGATATCTAGACATCTGGA</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2128510" LocusId="Mpe_B0456" Name="phnF" Function="phophonate C-P lyase system transcriptional regulator PhnF, GntR family" />
+          <Members vimssId="2128511" LocusId="Mpe_B0457" Name="phnD" Function="Phosphonate ABC transporter phosphate-binding periplasmic component (TC 3.A.1.9.1)" />
+          <Members vimssId="2128512" LocusId="Mpe_B0458" Name="phnC" Function="Phosphonate ABC transporter ATP-binding protein (TC 3.A.1.9.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2128474" LocusId="Mpe_B0420" Name="phnF" Function="phophonate C-P lyase system transcriptional regulator PhnF, GntR family" />
+          <Members vimssId="2128475" LocusId="Mpe_B0421" Name="phnD" Function="Phosphonate ABC transporter phosphate-binding periplasmic component (TC 3.A.1.9.1)" />
+          <Members vimssId="2128476" LocusId="Mpe_B0422" Name="phnC" Function="Phosphonate ABC transporter ATP-binding protein (TC 3.A.1.9.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3272</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="SdhR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62155" />
+      <Effector />
+      <Pathway>Tricarboxylic acid cycle</Pathway>
+      <LocusTag Key="Mpe_A2171" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2130900&amp;disp=0" />
+      <BiologicalProcess>Tricarboxylic acid cycle</BiologicalProcess>
+      <Regulog Key="SdhR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6387" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A2172" Name="mdh" Position="-152" Score="7.4">
+          <Sequence>AAAGATGTCTTATATAAGACATAAGA</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A1889" Name="aceA" Position="-103" Score="6">
+          <Sequence>ATAGAAGTCTTATATAAGATAGAAGT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A2171" Name="sdhR" Position="-74" Score="7.4">
+          <Sequence>TCTTATGTCTTATATAAGACATCTTT</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2130900" LocusId="Mpe_A2171" Name="sdhR" Function="Transcriptional regulator of TCA cycle, GntR family" />
+          <Members vimssId="2130899" LocusId="Mpe_A2170" Name="sdhC" Function="Succinate dehydrogenase cytochrome b-556 subunit" />
+          <Members vimssId="2130898" LocusId="Mpe_A2169" Name="sdhD" Function="Succinate dehydrogenase hydrophobic membrane anchor protein" />
+          <Members vimssId="2130897" LocusId="Mpe_A2168" Name="sdhA" Function="Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1)" />
+          <Members vimssId="2130896" LocusId="Mpe_A2167" Name="sdhB" Function="Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1)" />
+          <Members vimssId="2130895" LocusId="Mpe_A2166" Name="COG2938" Function="succinate dehydrogenase iron-sulfur subunit" />
+          <Members vimssId="2130894" LocusId="Mpe_A2165" Name="gltA" Function="Citrate synthase (si) (EC 2.3.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2130901" LocusId="Mpe_A2172" Name="mdh" Function="Malate dehydrogenase (EC 1.1.1.37)" />
+          <Members vimssId="2130902" LocusId="Mpe_A2173" Name="null" Function="Citrate lyase beta chain (EC 4.1.3.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2130619" LocusId="Mpe_A1889" Name="aceA" Function="Isocitrate lyase (EC 4.1.3.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6387</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YdcR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59668" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Mpe_A0752" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2129468&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="YdcR - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6125" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A0753" Name="Mpe_A0753" Position="-46" Score="7.7">
+          <Sequence>AACTGATCTGGTTTT---------ATCTGAGCCTTCAAA</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2129469" LocusId="Mpe_A0753" Name="Mpe_A0753" Function="putative transmembrane protein" />
+          <Members vimssId="2129470" LocusId="Mpe_A0754" Name="COG2863" Function="Probable cytochrome c2" />
+          <Members vimssId="2129471" LocusId="Mpe_A0755" Name="COG3258" Function="Putative diheme cytochrome c-553" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6125</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YrdX" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=64067" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Mpe_A3480" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2132225&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="YrdX - Comamonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6610" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A3479" Name="PF02635" Position="-271" Score="7.1">
+          <Sequence>GTTGATCG---ATTGATCG</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A3479" Name="PF02635" Position="-139" Score="7.2">
+          <Sequence>CTTGATCG---ATTGATCG</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A3479" Name="PF02635" Position="-92" Score="4.8">
+          <Sequence>GTGGCACA---CGTGCAAA</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2132224" LocusId="Mpe_A3479" Name="PF02635" Function="probable GTP cyclohydrolase II/ATPase/Sulphur relay, DsrE/F-like protein" />
+          <Members vimssId="2132222" LocusId="Mpe_A3478" Name="COG388" Function="Nitrilase/cyanide hydratase and apolipoprotein N-acyltransferase (EC 3.5.5.7)" />
+          <Members vimssId="2132221" LocusId="Mpe_A3477" Name="COG2516" Function="Biotin synthase-related radical SAM domain protein" />
+          <Members vimssId="2132220" LocusId="Mpe_A3476" Name="COG3153" Function="GCN5-related N-acetyltransferase" />
+          <Members vimssId="2132219" LocusId="Mpe_A3475" Name="COG2144" Function="AIR synthase related protein/Selenophosphate synthetase-related" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6610</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01057" RegulationMode="RF01057">
+      <Regulator Key="SAH_riboswitch" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53898" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="SAH_riboswitch" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A3286" Name="ahcY" Position="-148" Score="63.1">
+          <Sequence>CTTTCGAGGAGCGTTGCAACTCCCGCCCGGGAGCCAGGCTCGAAAGTCATCCCCCGATGCAACGGCGCTCACCCGCAGG</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A0168" Name="metH" Position="-163" Score="41.2">
+          <Sequence>TGCTCGAGGAGCGTTGCGACGGTTGCCCAGGCTTTGGGACGACCGCCAGGCTCGGGCCGGCGGCACCGCGAGGGCTGCCCTGCAACGGCGCTCACCCCTCCG</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2132023" LocusId="Mpe_A3286" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+          <Members vimssId="2132024" LocusId="Mpe_A3287" Name="COG1189" Function="S-adenosyl-L-methionine-dependent ribosomal RNA methyltransferase" />
+          <Members vimssId="2132025" LocusId="Mpe_A3288" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2128871" LocusId="Mpe_A0168" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48686" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpe_A1610" Name="thiC" Position="-178" Score="56.8">
+          <Sequence>GAGCACTGCTCCGGGGTGCACGCTGTTCTGCGTGCTGAGACGGTTATCCGAACCCGCGAACTTGAACCGGTTAGTACCGGCGGAAGAAGAGCTCTCACTCCAGCG</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpe_A1495" Name="omp_thi" Position="-180" Score="50.7">
+          <Sequence>CGACACCAGCTAGGGGTGTTGACCCGCTCTCGCAAGAGGCCCGGGCTCGACTGAGAAAGTCCCTTCGAACCTGATTGAGGTAATCCTCGCGCAGGGAAGCGATCTTCGGTGTGC</Sequence>
+          <Bacteria>Methylibium petroleiphilum PM1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2130335" LocusId="Mpe_A1610" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+          <Members vimssId="2130334" LocusId="Mpe_A1609" Name="thiO" Function="Glycine oxidase ThiO (EC 1.4.3.19)" />
+          <Members vimssId="2130333" LocusId="Mpe_A1608" Name="thiS" Function="Sulfur carrier protein ThiS" />
+          <Members vimssId="2130332" LocusId="Mpe_A1607" Name="thiG" Function="Thiazole biosynthesis protein ThiG" />
+          <Members vimssId="2130331" LocusId="Mpe_A1606" Name="thiDE" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7) / Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2130219" LocusId="Mpe_A1495" Name="omp_thi" Function="Predicted thiamin-specific outer membrane transporter, TonB-dependent" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

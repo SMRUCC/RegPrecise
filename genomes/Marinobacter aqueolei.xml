@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Marinobacter aqueolei" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14958" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="Maqu_0702" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3522198&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1604" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Maqu_2757" Name="COG1040" Position="21" Score="8.1">
+          <Sequence>CTGTCAACC--------------GGTTAACAG</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_2757" Name="COG1040" Position="-42" Score="7.5">
+          <Sequence>CTGTTAACC--------------GGTTTACGG</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_2756" Name="bioB" Position="-41" Score="7.5">
+          <Sequence>CCGTAAACC--------------GGTTAACAG</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_2756" Name="bioB" Position="-104" Score="8.1">
+          <Sequence>CTGTTAACC--------------GGTTGACAG</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3524303" LocusId="Maqu_2757" Name="COG1040" Function="Competence protein F homolog, phosphoribosyltransferase domain" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3524302" LocusId="Maqu_2756" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="3524301" LocusId="Maqu_2755" Name="null" Function="8-amino-7-oxononanoate synthase (EC 2.3.1.47)" />
+          <Members vimssId="3524300" LocusId="Maqu_2754" Name="bioC" Function="Biotin synthesis protein BioC" />
+          <Members vimssId="3524299" LocusId="Maqu_2753" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1604</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51289" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="Maqu_3108" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3524654&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5200" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Maqu_1408" Name="czcD2" Position="-61" Score="5.9">
+          <Sequence>ACCTTATAGTGACTATATAGT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_3109" Name="czcD" Position="-55" Score="6.6">
+          <Sequence>ACCCTGTAGCAACTACAGGGT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_3273" Name="czcD2" Position="-61" Score="6.6">
+          <Sequence>ACCCTGTAGTGGCTACAGGGT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_4003" Name="czcD2" Position="-61" Score="5.5">
+          <Sequence>ACCTTATAGTAGCTTTATAGT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_1294" Name="czcD2" Position="-61" Score="6.6">
+          <Sequence>ACCCTGTAGTGGCTACAGGGT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_3210" Name="czcD2" Position="-61" Score="6.6">
+          <Sequence>ACCCTGTAGTGGCTACAGGGT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_0893" Name="czcD2" Position="-40" Score="5.5">
+          <Sequence>ACCTTATAGTAGCTTTATAGT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3524655" LocusId="Maqu_3109" Name="czcD" Function="Co/Zn/Cd efflux protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3524820" LocusId="Maqu_3273" Name="czcD2" Function="Co/Zn/Cd efflux protein" />
+          <Members vimssId="3524821" LocusId="Maqu_3274" Name="lspA" Function="Lipoprotein signal peptidase (EC 3.4.23.36)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3524757" LocusId="Maqu_3210" Name="czcD2" Function="Co/Zn/Cd efflux protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3521379" LocusId="Maqu_4003" Name="czcD2" Function="Co/Zn/Cd efflux protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3522811" LocusId="Maqu_1294" Name="czcD2" Function="Co/Zn/Cd efflux protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3522925" LocusId="Maqu_1408" Name="czcD2" Function="Co/Zn/Cd efflux protein" />
+          <Members vimssId="3522926" LocusId="Maqu_1409" Name="lspA" Function="Lipoprotein signal peptidase (EC 3.4.23.36)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3522399" LocusId="Maqu_0893" Name="czcD2" Function="Co/Zn/Cd efflux protein" />
+          <Members vimssId="3522398" LocusId="Maqu_0892" Name="PF00665" Function="ISPsy14, transposase" />
+          <Members vimssId="3522397" LocusId="Maqu_0891" Name="PF01695" Function="Transposase subunit" />
+          <Members vimssId="3522396" LocusId="Maqu_0890" Name="czcD2" Function="Co/Zn/Cd efflux protein" />
+          <Members vimssId="3522395" LocusId="Maqu_0889" Name="lspA" Function="Lipoprotein signal peptidase (EC 3.4.23.36)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5200</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="FabR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14422" />
+      <Effector>Unsaturated acyl-ACP; Unsaturated acyl-CoA</Effector>
+      <Pathway>Fatty acid biosynthesis</Pathway>
+      <LocusTag Key="Maqu_1708" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3523231&amp;disp=0" />
+      <BiologicalProcess>Fatty acid biosynthesis</BiologicalProcess>
+      <Regulog Key="FabR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1543" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Maqu_3149" Name="Maqu_3149" Position="-65" Score="5.8">
+          <Sequence>GGCTAACATGTGTACGCT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_3135" Name="hyIII" Position="-75" Score="5.8">
+          <Sequence>TGCGTACACTTGTACGCT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_3748" Name="OLE1" Position="-109" Score="6.1">
+          <Sequence>GGCTTACACCTGTACGCT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_3682" Name="plsC" Position="-45" Score="5.2">
+          <Sequence>GGCGTACACTTGTGCGCC</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_2215" Name="desA" Position="-71" Score="5.6">
+          <Sequence>AGCTAACAAGTGTGCGCT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3525231" LocusId="Maqu_3682" Name="plsC" Function="1-acyl-sn-glycerol-3-phosphate acyltransferase (EC 2.3.1.51)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3525297" LocusId="Maqu_3748" Name="OLE1" Function="Fatty acid desaturase (EC 1.14.19.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3524695" LocusId="Maqu_3149" Name="Maqu_3149" Function="AraC family transcriptional regulator" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3524681" LocusId="Maqu_3135" Name="hyIII" Function="COG1272: Predicted membrane protein hemolysin III homolog" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3523750" LocusId="Maqu_2215" Name="desA" Function="Fatty acid desaturase (EC 1.14.99.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1543</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="FabR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34319" />
+      <Effector>Unsaturated acyl-ACP; Unsaturated acyl-CoA</Effector>
+      <Pathway>Fatty acid biosynthesis</Pathway>
+      <LocusTag Key="Maqu_3820" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3525369&amp;disp=0" />
+      <BiologicalProcess>Fatty acid biosynthesis</BiologicalProcess>
+      <Regulog Key="FabR2 - Oceanospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3508" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Maqu_3819" Name="COG2072" Position="-80" Score="5.3">
+          <Sequence>GGTATACATGTGTCTACC</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_3819" Name="COG2072" Position="-104" Score="5.3">
+          <Sequence>GGTATACAGGTGTCTACT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3525368" LocusId="Maqu_3819" Name="COG2072" Function="probable flavin-containing monooxygenase, COG2072" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3508</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor (activator)">
+      <Regulator Key="GlcC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19110" />
+      <Effector>Glycolate</Effector>
+      <Pathway>Glycolate utilization</Pathway>
+      <LocusTag Key="Maqu_3306" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3524853&amp;disp=0" />
+      <BiologicalProcess>Glycolate utilization</BiologicalProcess>
+      <Regulog Key="GlcC - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2063" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Maqu_3306" Name="glcC" Position="-140" Score="6">
+          <Sequence>TACTGGTCCGACCAGTT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_3306" Name="glcC" Position="-25" Score="5.6">
+          <Sequence>AACTGGTCAGACCAGCA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_3305" Name="glcG" Position="-215" Score="5.6">
+          <Sequence>TGCTGGTCTGACCAGTT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_3305" Name="glcG" Position="-100" Score="6">
+          <Sequence>AACTGGTCGGACCAGTA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3524853" LocusId="Maqu_3306" Name="glcC" Function="Glycolate utilization operon transcriptional activator GlcC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3524852" LocusId="Maqu_3305" Name="glcG" Function="Hypothetical protein GlcG in glycolate utilization operon" />
+          <Members vimssId="3524851" LocusId="Maqu_3304" Name="glcD" Function="Glycolate dehydrogenase (EC 1.1.99.14), subunit GlcD" />
+          <Members vimssId="3524850" LocusId="Maqu_3303" Name="glcE" Function="Glycolate dehydrogenase (EC 1.1.99.14), FAD-binding subunit GlcE" />
+          <Members vimssId="3524849" LocusId="Maqu_3302" Name="glcF" Function="Glycolate dehydrogenase (EC 1.1.99.14), iron-sulfur subunit GlcF" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2063</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor (activator)">
+      <Regulator Key="HexR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=20464" />
+      <Effector>2-keto-3-deoxy-6-phosphogluconate</Effector>
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="Maqu_1835" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3523358&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="HexR2 - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2217" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Maqu_1834" Name="zwf" Position="-63" Score="5.1">
+          <Sequence>TAAAACTACTAC</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_1835" Name="hexR" Position="-156" Score="-0.8">
+          <Sequence>GTAGTAGTTTTA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_1831" Name="pykA" Position="-175" Score="5.1">
+          <Sequence>TAACTTTACTAC</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_1830" Name="edd" Position="-112" Score="-0">
+          <Sequence>GTAGTAAAGTTA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3523358" LocusId="Maqu_1835" Name="hexR" Function="Central carbohydrate metabolism transcription regulator HexR, RpiR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3523357" LocusId="Maqu_1834" Name="zwf" Function="Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)" />
+          <Members vimssId="3523356" LocusId="Maqu_1833" Name="pgl" Function="6-phosphogluconolactonase (EC 3.1.1.31), eukaryotic type" />
+          <Members vimssId="3523355" LocusId="Maqu_1832" Name="eda" Function="4-Hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16) / 2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3523353" LocusId="Maqu_1830" Name="edd" Function="Phosphogluconate dehydratase (EC 4.2.1.12)" />
+          <Members vimssId="3523352" LocusId="Maqu_1829" Name="glk" Function="Glucokinase (EC 2.7.1.2)" />
+          <Members vimssId="3523351" LocusId="Maqu_1828" Name="null" Function="Hypothetical protein VC0266 (sugar utilization related?)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3523354" LocusId="Maqu_1831" Name="pykA" Function="Pyruvate kinase (EC 2.7.1.40)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2217</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17862" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="Maqu_1121" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3522633&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1929" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Maqu_1121" Name="iscR" Position="-78" Score="5.9">
+          <Sequence>ATACTTGACTGTTTTAGTTGGTCAA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_3151" Name="sufB" Position="-223" Score="6.3">
+          <Sequence>ATACCTGACTATTTTACTCTGGTAT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_1525" Name="nfuA" Position="-82" Score="5.5">
+          <Sequence>ATGCCCGACTATTTTACTTGGTCTT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_0694" Name="erpA" Position="-87" Score="6">
+          <Sequence>ATAGTTGATTGTTTTAGTCAGGAAT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3522185" LocusId="Maqu_0694" Name="erpA" Function="ErpA, essential respiratory protein A / probable iron binding protein from the HesB_IscA_SufA family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3523044" LocusId="Maqu_1525" Name="nfuA" Function="NfuA Fe-S protein maturation" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3522633" LocusId="Maqu_1121" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="3522634" LocusId="Maqu_1122" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3524697" LocusId="Maqu_3151" Name="sufB" Function="Iron-sulfur cluster assembly protein SufB" />
+          <Members vimssId="3524698" LocusId="Maqu_3152" Name="sufC" Function="Iron-sulfur cluster assembly ATPase protein SufC" />
+          <Members vimssId="3524699" LocusId="Maqu_3153" Name="sufD" Function="Iron-sulfur cluster assembly protein SufD" />
+          <Members vimssId="3524700" LocusId="Maqu_3154" Name="sufS" Function="Cysteine desulfurase (EC 2.8.1.7), SufS subfamily" />
+          <Members vimssId="3524701" LocusId="Maqu_3155" Name="sufA" Function="Iron binding protein SufA for iron-sulfur cluster assembly" />
+          <Members vimssId="3524702" LocusId="Maqu_3156" Name="sufT" Function="Iron sulfur cluster assembly protein SufT" />
+          <Members vimssId="3524703" LocusId="Maqu_3157" Name="sufE" Function="Sulfur acceptor protein SufE for iron-sulfur cluster assembly" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1929</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28310" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="Maqu_2007" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3523536&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2978" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Maqu_2082" Name="recA" Position="-108" Score="5.7">
+          <Sequence>TACTGTTCAAATATACAGGA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_3364" Name="recN" Position="-62" Score="5.8">
+          <Sequence>CACTGTATGAAAAAACAGTA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_0975" Name="imuA" Position="-34" Score="6.5">
+          <Sequence>TACTGTATATATAAACAGTA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_2332" Name="dinB" Position="-41" Score="5.1">
+          <Sequence>GGCTGTATAAACGTACAGAT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_2007" Name="lexA" Position="-42" Score="5.9">
+          <Sequence>CACTGTATAAAAAAACAGGA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_2961" Name="yebG" Position="-88" Score="6.1">
+          <Sequence>TACTGTATAAATATACACTA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_3642" Name="uvrD" Position="-20" Score="5">
+          <Sequence>GGCTGTAAATTTAACCAGTA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_1208" Name="umuD" Position="-33" Score="6.2">
+          <Sequence>TACTGTATATTCAAACAGTA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_0977" Name="intIA" Position="-37" Score="5.9">
+          <Sequence>TACTGTATATTTATACATAA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3523617" LocusId="Maqu_2082" Name="recA" Function="Recombinase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3523536" LocusId="Maqu_2007" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+          <Members vimssId="3523535" LocusId="Maqu_2006" Name="sulA" Function="Cell division inhibitor sulA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3523867" LocusId="Maqu_2332" Name="dinB" Function="DNA polymerase IV (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3522484" LocusId="Maqu_0975" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="3522483" LocusId="Maqu_0974" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+          <Members vimssId="3522482" LocusId="Maqu_0973" Name="dnaE2" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3524912" LocusId="Maqu_3364" Name="recN" Function="DNA repair protein RecN" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3524507" LocusId="Maqu_2961" Name="yebG" Function="SOS regulon DNA damage-inducible protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3525191" LocusId="Maqu_3642" Name="uvrD" Function="ATP-dependent DNA helicase II" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3522724" LocusId="Maqu_1208" Name="umuD" Function="DNA polymerase V, subunit UmuD" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3522486" LocusId="Maqu_0977" Name="intIA" Function="Integron integrase IntI4" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2978</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="LiuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28506" />
+      <Effector />
+      <Pathway>Branched-chain amino acid degradation</Pathway>
+      <LocusTag Key="Maqu_2120" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3523655&amp;disp=0" />
+      <BiologicalProcess>Branched-chain amino acid degradation</BiologicalProcess>
+      <Regulog Key="LiuR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2999" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Maqu_2878" Name="ldh" Position="-172" Score="5.8">
+          <Sequence>GTTGACGTTCACGTAAAC</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_1382" Name="bkdA1" Position="-130" Score="6.2">
+          <Sequence>GTTTACGTTAAGGTAAAG</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_2119" Name="ivdG" Position="-83" Score="6.3">
+          <Sequence>GTTTACGTAAACGTAAAG</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_2119" Name="ivdG" Position="-89" Score="5.2">
+          <Sequence>GTTAAAGTTTACGTAAAC</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_2120" Name="liuR" Position="-46" Score="5.2">
+          <Sequence>GTTTACGTAAACTTTAAC</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_2120" Name="liuR" Position="-52" Score="6.3">
+          <Sequence>CTTTACGTTTACGTAAAC</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3524424" LocusId="Maqu_2878" Name="ldh" Function="Leucine dehydrogenase (EC 1.4.1.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3522899" LocusId="Maqu_1382" Name="bkdA1" Function="Branched-chain alpha-keto acid dehydrogenase, E1 component, alpha subunit (EC 1.2.4.4)" />
+          <Members vimssId="3522898" LocusId="Maqu_1381" Name="bkdA2" Function="Branched-chain alpha-keto acid dehydrogenase, E1 component, beta subunit (EC 1.2.4.4)" />
+          <Members vimssId="3522897" LocusId="Maqu_1380" Name="bkdB" Function="Dihydrolipoamide acyltransferase component of branched-chain alpa-keto acid dehydrogenase complex (EC 2.3.1.168)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3523654" LocusId="Maqu_2119" Name="ivdG" Function="3-hydroxyacyl-CoA dehydrogenase [isoleucine degradation] (EC 1.1.1.35)" />
+          <Members vimssId="3523653" LocusId="Maqu_2118" Name="acdH" Function="Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.99.2)" />
+          <Members vimssId="3523652" LocusId="Maqu_2117" Name="ivdA" Function="3-ketoacyl-CoA thiolase [isoleucine degradation] (EC 2.3.1.16)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3523655" LocusId="Maqu_2120" Name="liuR" Function="Predicted transcriptional regulator LiuR of leucine degradation pathway, MerR family" />
+          <Members vimssId="3523656" LocusId="Maqu_2121" Name="liuA" Function="Isovaleryl-CoA dehydrogenase (EC 1.3.99.10); Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.99.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2999</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="LldR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16582" />
+      <Effector>L-lactate</Effector>
+      <Pathway>Lactate utilization</Pathway>
+      <LocusTag Key="Maqu_0362" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3521851&amp;disp=0" />
+      <BiologicalProcess>Lactate utilization</BiologicalProcess>
+      <Regulog Key="LldR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1786" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Maqu_0362" Name="lldR" Position="-41" Score="5.7">
+          <Sequence>TATTGGTAAGACCAATT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_0362" Name="lldR" Position="-180" Score="6.4">
+          <Sequence>AATTGGTATTACCAATT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_0363" Name="lldP" Position="-58" Score="6.3">
+          <Sequence>AATTGGTAATACCAATT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_0363" Name="lldP" Position="-197" Score="6.3">
+          <Sequence>AATTGGTCTTACCAATA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3521851" LocusId="Maqu_0362" Name="lldR" Function="Lactate-responsive regulator LldR, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3521852" LocusId="Maqu_0363" Name="lldP" Function="L-lactate permease" />
+          <Members vimssId="3521853" LocusId="Maqu_0364" Name="lldE" Function="L-lactate dehydrogenase, Fe-S oxidoreductase subunit LldE" />
+          <Members vimssId="3521854" LocusId="Maqu_0365" Name="lldF" Function="L-lactate dehydrogenase, iron-sulfur cluster-binding subunit LldF" />
+          <Members vimssId="3521855" LocusId="Maqu_0366" Name="lldG" Function="L-lactate dehydrogenase, subunit LldG" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1786</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="MerR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51093" />
+      <Effector>Mercury ion, (Hg2+)</Effector>
+      <Pathway>Mercury resistance</Pathway>
+      <LocusTag Key="Maqu_0238" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3521727&amp;disp=0" />
+      <BiologicalProcess>Mercury resistance</BiologicalProcess>
+      <Regulog Key="MerR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5179" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Maqu_1394" Name="merT" Position="-65" Score="6.1">
+          <Sequence>ACTCCGTAGCTGACTACGGAAG</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_4013" Name="merT" Position="-65" Score="6.4">
+          <Sequence>ACTCCGTACTTGACTACGGAAG</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_0239" Name="merT" Position="-65" Score="5.7">
+          <Sequence>ATTCCGTAGCTGACTACGGGAG</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3522911" LocusId="Maqu_1394" Name="merT" Function="Mercury uptake inner membane protein" />
+          <Members vimssId="3522910" LocusId="Maqu_1393" Name="merP" Function="Periplasmic mercury(+2) binding protein" />
+          <Members vimssId="3522909" LocusId="Maqu_1392" Name="merA" Function="Mercuric ion reductase (EC 1.16.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3521728" LocusId="Maqu_0239" Name="merT" Function="Mercury uptake inner membane protein" />
+          <Members vimssId="3521729" LocusId="Maqu_0240" Name="merP" Function="Periplasmic mercury(+2) binding protein" />
+          <Members vimssId="3521730" LocusId="Maqu_0241" Name="merF" Function="Putative mercury resistance protein" />
+          <Members vimssId="3521731" LocusId="Maqu_0242" Name="merA" Function="Mercuric ion reductase (EC 1.16.1.1)" />
+          <Members vimssId="3521732" LocusId="Maqu_0243" Name="merB" Function="Organomercurial lyase (EC 4.99.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3521389" LocusId="Maqu_4013" Name="merT" Function="Mercury uptake inner membane protein" />
+          <Members vimssId="3521388" LocusId="Maqu_4012" Name="merP" Function="Periplasmic mercury(+2) binding protein" />
+          <Members vimssId="3521387" LocusId="Maqu_4011" Name="merF" Function="Putative mercury resistance protein" />
+          <Members vimssId="3521386" LocusId="Maqu_4010" Name="merA" Function="Mercuric ion reductase (EC 1.16.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5179</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor (activator)">
+      <Regulator Key="MetR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56637" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="Maqu_0810" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3522311&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5786" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Maqu_0809" Name="metE" Position="-104" Score="4.6">
+          <Sequence>GTGAATCTTTTTCAT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_0809" Name="metE" Position="-83" Score="4.1">
+          <Sequence>GTGAAATAATACCAT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_0810" Name="metR" Position="-21" Score="4.1">
+          <Sequence>ATGGTATTATTTCAC</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_0810" Name="metR" Position="0" Score="4.6">
+          <Sequence>ATGAAAAAGATTCAC</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3522311" LocusId="Maqu_0810" Name="metR" Function="Homocysteine-responsive transcriptional regulator of methionine metabolism, LysR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3522310" LocusId="Maqu_0809" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5786</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15514" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Maqu_0842" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3522343&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1666" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Maqu_3857" Name="nrdA" Position="-280" Score="3.7">
+          <Sequence>CGGCCCTATATAGTGA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_1085" Name="nrdJa" Position="-118" Score="5.4">
+          <Sequence>ACACCATATATAGTGA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_1085" Name="nrdJa" Position="-284" Score="4.6">
+          <Sequence>ACACTATATCCTGTTA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_1085" Name="nrdJa" Position="-252" Score="4.7">
+          <Sequence>AGCCCATATATAGGGT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_3857" Name="nrdA" Position="-248" Score="4.9">
+          <Sequence>CTACCATATATTGTGA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3525406" LocusId="Maqu_3857" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="3525405" LocusId="Maqu_3856" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3522596" LocusId="Maqu_1085" Name="nrdJa" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+          <Members vimssId="3522595" LocusId="Maqu_1084" Name="nrdJa" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent), alpha subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1666</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19284" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="Maqu_0766" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3522267&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2083" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Maqu_0523" Name="glnK" Position="-208" Score="5.2">
+          <Sequence>TGCACCACAACAGTGCA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_0769" Name="glnA" Position="-297" Score="4.9">
+          <Sequence>TGCACCATAATTATGCG</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_0769" Name="glnA" Position="-267" Score="5.4">
+          <Sequence>TGCACCACGATGGTGCA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_0769" Name="glnA" Position="-254" Score="5">
+          <Sequence>TGCACTGCAGTGGTGCA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_0767" Name="ntrB" Position="-211" Score="5.2">
+          <Sequence>CGCACCACCATGGTGCA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_3001" Name="urtA" Position="-146" Score="4.5">
+          <Sequence>CGCACCAATTCATTGCA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_3001" Name="urtA" Position="-201" Score="4.5">
+          <Sequence>TGCACCAATTGAGGGCG</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3524547" LocusId="Maqu_3001" Name="urtA" Function="Urea ABC transporter, substrate-binding component" />
+          <Members vimssId="3524546" LocusId="Maqu_3000" Name="urtB" Function="Urea ABC transporter, permease component 1" />
+          <Members vimssId="3524545" LocusId="Maqu_2999" Name="urtC" Function="Urea ABC transporter, permease component 2" />
+          <Members vimssId="3524544" LocusId="Maqu_2998" Name="urtD" Function="Urea ABC transporter, ATP-binding component 1" />
+          <Members vimssId="3524543" LocusId="Maqu_2997" Name="urtE" Function="Urea ABC transporter, ATP-binding component 2" />
+          <Members vimssId="3524542" LocusId="Maqu_2996" Name="ureD" Function="Urease accessory protein, UreD" />
+          <Members vimssId="3524541" LocusId="Maqu_2995" Name="ureA" Function="Urease, gamma subunit (EC 3.5.1.5)" />
+          <Members vimssId="3524540" LocusId="Maqu_2994" Name="ureB" Function="Urease, beta subunit (EC 3.5.1.5)" />
+          <Members vimssId="3524539" LocusId="Maqu_2993" Name="ureC" Function="Urease, alpha subunit (EC 3.5.1.5)" />
+          <Members vimssId="3524538" LocusId="Maqu_2992" Name="ureE" Function="Urease accessory protein, UreE" />
+          <Members vimssId="3524537" LocusId="Maqu_2991" Name="ureF" Function="Urease accessory protein, UreF" />
+          <Members vimssId="3524536" LocusId="Maqu_2990" Name="ureG" Function="Urease accessory protein, UreG" />
+          <Members vimssId="3524535" LocusId="Maqu_2989" Name="ureJ" Function="Urease accessory protein, UreJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3522268" LocusId="Maqu_0767" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="3522267" LocusId="Maqu_0766" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3522270" LocusId="Maqu_0769" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3522013" LocusId="Maqu_0523" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="3522012" LocusId="Maqu_0522" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2083</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxW" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61193" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="Maqu_2951" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3524497&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxW - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6284" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Maqu_2952" Name="pdxO" Position="-101" Score="12.1">
+          <Sequence>CACTGGTCCTAT-(11)-ATCTGGGTCTTT-(2)-AGGGTATCAGAA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3524498" LocusId="Maqu_2952" Name="pdxO" Function="Pyridoxamine 5'-phosphate oxidase-related, FMN-binding" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6284</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PhnF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31609" />
+      <Effector />
+      <Pathway>Phosphonate utilization</Pathway>
+      <LocusTag Key="Maqu_0213" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3521702&amp;disp=0" />
+      <BiologicalProcess>Phosphonate utilization</BiologicalProcess>
+      <Regulog Key="PhnF - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3267" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Maqu_4033" Name="PhnF" Position="-10" Score="4.5">
+          <Sequence>TTGTATAGACAT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_4037" Name="phnG" Position="-35" Score="4.4">
+          <Sequence>ATGTATAGACAT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_0213" Name="PhnF" Position="-10" Score="4.5">
+          <Sequence>TTGTATAGACAT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_0217" Name="phnG" Position="-35" Score="4.4">
+          <Sequence>ATGTATAGACAT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3521702" LocusId="Maqu_0213" Name="PhnF" Function="phosphonates metabolism transcriptional regulator PhnF" />
+          <Members vimssId="3521703" LocusId="Maqu_0214" Name="phnD" Function="Phosphonate ABC transporter phosphate-binding periplasmic component (TC 3.A.1.9.1)" />
+          <Members vimssId="3521704" LocusId="Maqu_0215" Name="phnC" Function="Phosphonate ABC transporter ATP-binding protein (TC 3.A.1.9.1)" />
+          <Members vimssId="3521705" LocusId="Maqu_0216" Name="phnE" Function="Phosphonate ABC transporter permease protein phnE (TC 3.A.1.9.1)" />
+          <Members vimssId="3521706" LocusId="Maqu_0217" Name="phnG" Function="putative phosphonate metabolism protein PhnG; K06166 PhnG protein" />
+          <Members vimssId="3521707" LocusId="Maqu_0218" Name="phnH" Function="carbon-phosphorus lyase complex subunit phnH" />
+          <Members vimssId="3521708" LocusId="Maqu_0219" Name="phnI" Function="phosphonate metabolism protein PhnI" />
+          <Members vimssId="3521709" LocusId="Maqu_0220" Name="phnJ" Function="carbon-phosphorus lyase complex subunit phnJ" />
+          <Members vimssId="3521710" LocusId="Maqu_0221" Name="phnK" Function="Phosphonates transport ATP-binding protein PhnK" />
+          <Members vimssId="3521711" LocusId="Maqu_0222" Name="phnL" Function="Phosphonates transport ATP-binding protein PhnL" />
+          <Members vimssId="3521712" LocusId="Maqu_0223" Name="phnM" Function="Metal-dependent hydrolase involved in phosphonate metabolism" />
+          <Members vimssId="3521713" LocusId="Maqu_0224" Name="phnN" Function="ATP-binding protein PhnN; Guanylate kinase (EC 2.7.4.8)" />
+          <Members vimssId="3521714" LocusId="Maqu_0225" Name="phnP" Function="Metal-dependent hydrolases of the beta-lactamase superfamily I; PhnP protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3521409" LocusId="Maqu_4033" Name="PhnF" Function="phosphonates metabolism transcriptional regulator PhnF" />
+          <Members vimssId="3521410" LocusId="Maqu_4034" Name="phnD" Function="Phosphonate ABC transporter phosphate-binding periplasmic component (TC 3.A.1.9.1)" />
+          <Members vimssId="3521411" LocusId="Maqu_4035" Name="phnC" Function="Phosphonate ABC transporter ATP-binding protein (TC 3.A.1.9.1)" />
+          <Members vimssId="3521412" LocusId="Maqu_4036" Name="phnE" Function="Phosphonate ABC transporter permease protein phnE (TC 3.A.1.9.1)" />
+          <Members vimssId="3521413" LocusId="Maqu_4037" Name="phnG" Function="putative phosphonate metabolism protein PhnG; K06166 PhnG protein" />
+          <Members vimssId="3521414" LocusId="Maqu_4038" Name="phnH" Function="carbon-phosphorus lyase complex subunit phnH" />
+          <Members vimssId="3521415" LocusId="Maqu_4039" Name="phnI" Function="phosphonate metabolism protein PhnI" />
+          <Members vimssId="3521416" LocusId="Maqu_4040" Name="phnJ" Function="carbon-phosphorus lyase complex subunit phnJ" />
+          <Members vimssId="3521417" LocusId="Maqu_4041" Name="phnK" Function="Phosphonates transport ATP-binding protein PhnK" />
+          <Members vimssId="3521418" LocusId="Maqu_4042" Name="phnL" Function="Phosphonates transport ATP-binding protein PhnL" />
+          <Members vimssId="3521419" LocusId="Maqu_4043" Name="phnM" Function="Metal-dependent hydrolase involved in phosphonate metabolism" />
+          <Members vimssId="3521420" LocusId="Maqu_4044" Name="phnN" Function="ATP-binding protein PhnN; Guanylate kinase (EC 2.7.4.8)" />
+          <Members vimssId="3521421" LocusId="Maqu_4045" Name="phnP" Function="Metal-dependent hydrolases of the beta-lactamase superfamily I; PhnP protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3267</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PrpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17138" />
+      <Effector>2-methylcitrate</Effector>
+      <Pathway>Methylcitrate utilization</Pathway>
+      <LocusTag Key="Maqu_1667" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3523187&amp;disp=0" />
+      <BiologicalProcess>Methylcitrate utilization</BiologicalProcess>
+      <Regulog Key="PrpR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1848" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Maqu_1730" Name="prpE" Position="-52" Score="4.3">
+          <Sequence>GTTGTCGATAAC</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_1667" Name="prpR" Position="-66" Score="5.4">
+          <Sequence>ATTGTTGACAAT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_1667" Name="prpR" Position="-14" Score="4.2">
+          <Sequence>ATTGTTAACAAA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3523253" LocusId="Maqu_1730" Name="prpE" Function="Propionyl-CoA synthetase (EC 6.2.1.17)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3523187" LocusId="Maqu_1667" Name="prpR" Function="Propionate catabolism transcriptional regulator, GntR family" />
+          <Members vimssId="3523186" LocusId="Maqu_1666" Name="prpB" Function="Methylisocitrate lyase (EC 4.1.3.30)" />
+          <Members vimssId="3523185" LocusId="Maqu_1665" Name="prpC" Function="2-methylcitrate synthase (EC 2.3.3.5)" />
+          <Members vimssId="3523184" LocusId="Maqu_1664" Name="acnD" Function="Aconitate hydratase, predicted 2-methylcitrate dehydratase FeS dependent (EC 4.2.1.79)" />
+          <Members vimssId="3523183" LocusId="Maqu_1663" Name="prpF" Function="Aconitase accessory protein PrpF" />
+          <Members vimssId="3523182" LocusId="Maqu_1662" Name="prpD" Function="2-methylcitrate dehydratase (EC 4.2.1.79)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1848</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PsrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29677" />
+      <Effector>Oleate</Effector>
+      <Pathway>Fatty acid degradation</Pathway>
+      <LocusTag Key="Maqu_1938" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3523467&amp;disp=0" />
+      <BiologicalProcess>Fatty acid degradation</BiologicalProcess>
+      <Regulog Key="PsrA - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3097" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Maqu_2750" Name="acdH1" Position="-115" Score="5.8">
+          <Sequence>TTTCAAACGAGTGTTTAATT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_1144" Name="fadB" Position="-132" Score="5.9">
+          <Sequence>ATTCAAACGACTGTATGAAT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_1531" Name="scp" Position="-158" Score="5">
+          <Sequence>ATTAAAACAAGCGTTCGATC</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_1471" Name="etfB" Position="-172" Score="5.4">
+          <Sequence>AATCAAACAAACGTTTGTTT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_1471" Name="etfB" Position="-168" Score="5.7">
+          <Sequence>AAACAAACGTTTGTTTGAAA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_1467" Name="" Position="-31" Score="5.5">
+          <Sequence>ATTCATACATTCGTTTGAAC</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_1938" Name="psrA" Position="-50" Score="5.4">
+          <Sequence>CTTCAAACGTATGTTTCAAA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_1938" Name="psrA" Position="-37" Score="5.3">
+          <Sequence>TTTCAAACAGACGTTTGCTA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_1472" Name="etfD" Position="-170" Score="5.6">
+          <Sequence>TTTCAAACAAACGTTTGTTT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_1472" Name="etfD" Position="-166" Score="5.6">
+          <Sequence>AAACAAACGTTTGTTTGATT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_0515" Name="" Position="-91" Score="5.4">
+          <Sequence>ATTCAAACGCCCGTATGAAG</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3522005" LocusId="Maqu_0515" Name="null" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3522989" LocusId="Maqu_1471" Name="etfB" Function="Electron transfer flavoprotein, beta subunit" />
+          <Members vimssId="3522988" LocusId="Maqu_1470" Name="etfA" Function="Electron transfer flavoprotein, alpha subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3522985" LocusId="Maqu_1467" Name="null" Function="putative saccharopine dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3524296" LocusId="Maqu_2750" Name="acdH1" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3522658" LocusId="Maqu_1144" Name="fadB" Function="Enoyl-CoA hydratase (EC 4.2.1.17) / Delta(3)-cis-delta(2)-trans-enoyl-CoA isomerase (EC 5.3.3.8) / 3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35) / 3-hydroxybutyryl-CoA epimerase (EC 5.1.2.3)" />
+          <Members vimssId="3522659" LocusId="Maqu_1145" Name="fadA" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16) @ Acetyl-CoA acetyltransferase (EC 2.3.1.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3523467" LocusId="Maqu_1938" Name="psrA" Function="Predicted transcriptional regulator for fatty acid degradation PsrA, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3522990" LocusId="Maqu_1472" Name="etfD" Function="Electron transfer flavoprotein-ubiquinone oxidoreductase (EC 1.5.5.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3523050" LocusId="Maqu_1531" Name="scp" Function="Sterol-binding domain protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3097</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SahR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15716" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="Maqu_3041" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3524587&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SahR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1688" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Maqu_3042" Name="metK" Position="-125" Score="6.8">
+          <Sequence>ATATCAAAAACTTTTGATAT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_3041" Name="sahR" Position="-62" Score="7.1">
+          <Sequence>ATATCAAAAAATTTTGATAT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3524587" LocusId="Maqu_3041" Name="sahR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3524588" LocusId="Maqu_3042" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+          <Members vimssId="3524589" LocusId="Maqu_3043" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+          <Members vimssId="3524590" LocusId="Maqu_3044" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1688</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YjiR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61800" />
+      <Effector />
+      <Pathway>Metabolite transport</Pathway>
+      <LocusTag Key="Maqu_2096" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3523631&amp;disp=0" />
+      <BiologicalProcess>Metabolite transport</BiologicalProcess>
+      <Regulog Key="YjiR2 - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6347" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Maqu_2098" Name="PF02567" Position="-440" Score="16.1">
+          <Sequence>TACAGAT-(18)-CACAGTT-(13)-ATCTGTA-(24)-ATCTGTT</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3523633" LocusId="Maqu_2098" Name="PF02567" Function="Phenazine biosynthesis PhzC/PhzF protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6347</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16054" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="Maqu_3775" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3525324&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1726" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Maqu_3429" Name="zbp" Position="-39" Score="5.6">
+          <Sequence>AAAATGTTATAACATATCAAATA</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_1892" Name="znuA" Position="-48" Score="6.3">
+          <Sequence>ATATTGTTATATTATAACGTTTC</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3523421" LocusId="Maqu_1892" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3524978" LocusId="Maqu_3429" Name="zbp" Function="Predicted zinc-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1726</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48607" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Maqu_1200" Name="thiB" Position="-141" Score="69.7">
+          <Sequence>ACTCAACTCAACGGGGTGCCTGGAAGGGCTGAGACCATACCCGCGGAACCTGACCCGGTTAATACCGGCGTAGGGATTGAGTCACCACCTTTC</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Maqu_0803" Name="thiC" Position="-106" Score="60.3">
+          <Sequence>GCGTCTTGACGGGGTGCTGATTCGCCTGAACCAGGCGATCGGCTGAGATTGCAACGCAGAACCCGCGACCTGATCCGGATAATACCGGCGGAGGGATTAAGGCCAGATGAACCGC</Sequence>
+          <Bacteria>Marinobacter aqueolei</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3522304" LocusId="Maqu_0803" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3522715" LocusId="Maqu_1200" Name="thiB" Function="Thiamin ABC transporter, substrate-binding component" />
+          <Members vimssId="3522714" LocusId="Maqu_1199" Name="thiP" Function="Thiamin ABC transporter, permease component" />
+          <Members vimssId="3522713" LocusId="Maqu_1198" Name="thiQ" Function="Thiamin ABC transporter, ATPase component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

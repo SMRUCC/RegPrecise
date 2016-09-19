@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Synechococcus sp. JA-3-3Ab" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="ArsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14179" />
+      <Effector>Arsenite</Effector>
+      <Pathway>Arsenic resistance</Pathway>
+      <LocusTag Key="CYA_1125" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1305387&amp;disp=0" />
+      <BiologicalProcess>Arsenic resistance</BiologicalProcess>
+      <Regulog Key="ArsR - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1515" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CYA_1717" Name="arsB" Position="-48" Score="5.1">
+          <Sequence>AACAAGTTGTTTTGAT</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1305976" LocusId="CYA_1717" Name="arsB" Function="Arsenite transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1515</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor">
+      <Regulator Key="CcmR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13217" />
+      <Effector />
+      <Pathway>Carbon dioxide fixation</Pathway>
+      <LocusTag Key="CYA_1081" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1305342&amp;disp=0" />
+      <BiologicalProcess>Carbon dioxide fixation</BiologicalProcess>
+      <Regulog Key="CcmR - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1419" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CYA_0894" Name="cmpA" Position="-185" Score="4.2">
+          <Sequence>ATAAACGGAAGTCTAT</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_0640" Name="ndhF3" Position="-107" Score="5">
+          <Sequence>CTTGATTTTTGTCTAT</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_0894" Name="cmpA" Position="-153" Score="4.4">
+          <Sequence>ATTGTATTGTTTCTAT</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1305156" LocusId="CYA_0894" Name="cmpA" Function="Bicarbontate ABC transporter, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1304904" LocusId="CYA_0640" Name="ndhF3" Function="NADH dehydrogenase subunit F" />
+          <Members vimssId="1304903" LocusId="CYA_0639" Name="ndhD3" Function="NADH dehydrogenase subunit D" />
+          <Members vimssId="1304902" LocusId="CYA_0638" Name="cupA" Function="CO2 uptake protein" />
+          <Members vimssId="1304901" LocusId="CYA_0636" Name="cupS" Function="CO2 uptake transporter, small subunit" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1419</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="repressor (activator)">
+      <Regulator Key="Crp" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=12117" />
+      <Effector>Cyclic 3',5'-AMP</Effector>
+      <Pathway />
+      <LocusTag Key="CYA_1331" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1305590&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="Crp - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1306" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CYA_0077" Name="murF" Position="-32" Score="3.8">
+          <Sequence>ATTGACTAGAGTCATG</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_0638" Name="cupA" Position="-325" Score="4.3">
+          <Sequence>TGTGATTTTGCTCAAC</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_2225" Name="apcC" Position="5" Score="3.7">
+          <Sequence>CATGTTTAAGATCACG</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1304346" LocusId="CYA_0077" Name="murF" Function="UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase (EC 6.3.2.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1304902" LocusId="CYA_0638" Name="cupA" Function="Carbon dioxide hydration protein" />
+          <Members vimssId="1304901" LocusId="CYA_0636" Name="cupS" Function="Carbon dioxide uptake protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1306482" LocusId="CYA_2225" Name="apcC" Function="Phycobilisome linker polypeptide, allophycocyanin-associated" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1306</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10651" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="CYA_0030" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1304299&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1162" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CYA_2647" Name="psbD" Position="-106" Score="3">
+          <Sequence>TTTATTAATTTTTCGTAAG</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_2794" Name="afuC" Position="-26" Score="3.8">
+          <Sequence>AGTGAAAATCTTTTGCAAC</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_0643" Name="fdx" Position="-92" Score="2.8">
+          <Sequence>ATTAAAAATATGATTTAAA</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1304907" LocusId="CYA_0643" Name="fdx" Function="Predicted ferredoxin" />
+          <Members vimssId="1304906" LocusId="CYA_0642" Name="psbM" Function="Photosystem II reaction center M protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1306905" LocusId="CYA_2647" Name="psbD" Function="Photosystem II, reaction center protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1307051" LocusId="CYA_2794" Name="afuC" Function="Predicted Fe(3+) ABC transport system, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1162</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13358" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="CYA_2590" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1306848&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1432" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CYA_0332" Name="groEL2" Position="-131" Score="10.2">
+          <Sequence>TTAGCACTC---------GAGTGCTAA</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_1406" Name="groES" Position="-108" Score="9.7">
+          <Sequence>CTAGCACTC---------GAGTGCTAA</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1304598" LocusId="CYA_0332" Name="groEL2" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1305665" LocusId="CYA_1406" Name="groES" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="1305666" LocusId="CYA_1407" Name="groEL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1432</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10665" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="" Value="" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1163" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CYA_0805" Name="SYNPCC7002_A0856" Position="-39" Score="3.7">
+          <Sequence>GCTACAGGAGTAGT</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1305067" LocusId="CYA_0805" Name="SYNPCC7002_A0856" Function="Conserved hypothetical protein, no COGs" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1163</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="NtcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10707" />
+      <Effector>2-oxoglutarate</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="CYA_1799" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1306058&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtcA - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1166" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CYA_0030" Name="fur" Position="-66" Score="3.6">
+          <Sequence>GCTATTATCAATTACA</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_0570" Name="SYNPCC7002_A2395" Position="-139" Score="3.9">
+          <Sequence>GGTAAGATAAAATACA</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_0570" Name="SYNPCC7002_A2395" Position="-81" Score="4.2">
+          <Sequence>CGTATCAAAGGCTACT</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_1363" Name="glnA" Position="-138" Score="4.3">
+          <Sequence>CGTATCAGAAACTACA</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_1508" Name="glnB" Position="-74" Score="4.5">
+          <Sequence>TGTATCCGTTTTTACA</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_0612" Name="nirA" Position="-72" Score="3.9">
+          <Sequence>TGTAACTGCCAATACC</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_1799" Name="ntcA" Position="-181" Score="4.7">
+          <Sequence>TGTAGCTCCTGCTACA</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_0984" Name="ntcB" Position="-89" Score="4.2">
+          <Sequence>TGTAACGGTGTTTACA</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_1920" Name="urtE" Position="-248" Score="3.9">
+          <Sequence>AGAAACAGAAGCTACA</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_1924" Name="urtA" Position="-272" Score="3.7">
+          <Sequence>GGTATCCCGCGATACA</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1304299" LocusId="CYA_0030" Name="fur" Function="Ferric uptake regulator, Fur family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1304835" LocusId="CYA_0570" Name="SYNPCC7002_A2395" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1305622" LocusId="CYA_1363" Name="glnA" Function="glutamine synthetase, type I" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1305767" LocusId="CYA_1508" Name="glnB" Function="nitrogen regulatory protein P-II" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1304876" LocusId="CYA_0612" Name="nirA" Function="Nitrite reductase, ferredoxin dependent" />
+          <Members vimssId="1304877" LocusId="CYA_0613" Name="nrtA" Function="Nitrate/nitrite ABC transporter, substrate-binding protein" />
+          <Members vimssId="1304878" LocusId="CYA_0614" Name="nrtB" Function="Nitrate/nitrite ABC transporter, permease protein" />
+          <Members vimssId="1304879" LocusId="CYA_0615" Name="nrtC" Function="Nitrate/nitrite ABC transporter, ATP-binding protein 1" />
+          <Members vimssId="1304880" LocusId="CYA_0616" Name="nrtD" Function="Nitrate/nitrite ABC transporter, ATP-binding protein 2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1306058" LocusId="CYA_1799" Name="ntcA" Function="Global nitrogen transcription regulator, Crp family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1305246" LocusId="CYA_0984" Name="ntcB" Function="Nitrogen assimilation transcriptional activator, LysR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1306179" LocusId="CYA_1920" Name="urtE" Function="Urea ABC transporter, ATP-binding protein 2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1306183" LocusId="CYA_1924" Name="urtA" Function="Urea ABC transporter, substrate-binding protein" />
+          <Members vimssId="1306182" LocusId="CYA_1923" Name="urtB" Function="Urea ABC transporter, permease protein 1" />
+          <Members vimssId="1306181" LocusId="CYA_1922" Name="urtC" Function="Urea ABC transporter, permease protein 2" />
+          <Members vimssId="1306180" LocusId="CYA_1921" Name="urtD" Function="Urea ABC transporter, ATP-binding protein 1" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1166</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="activator (repressor)">
+      <Regulator Key="NtcB" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10721" />
+      <Effector>Nitrite</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="CYA_0984" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1305246&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtcB - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1167" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CYA_0612" Name="nirA" Position="-101" Score="4.4">
+          <Sequence>ATGACAAAACTGCAT</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_2428" Name="psbL" Position="-26" Score="4.2">
+          <Sequence>ATGCAGTTTATTCAA</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1304876" LocusId="CYA_0612" Name="nirA" Function="ferredoxin--nitrite reductase" />
+          <Members vimssId="1304877" LocusId="CYA_0613" Name="nrtA" Function="nitrate/nitrite ABC transport system, substrate-binding protein" />
+          <Members vimssId="1304878" LocusId="CYA_0614" Name="nrtB" Function="nitrate/nitrite ABC transport system, permease protein" />
+          <Members vimssId="1304879" LocusId="CYA_0615" Name="nrtC" Function="nitrate/nitrite ABC transport system, ATP-binding protein" />
+          <Members vimssId="1304880" LocusId="CYA_0616" Name="nrtD" Function="nitrate/nitrite ABC transport system, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1306685" LocusId="CYA_2428" Name="psbL" Function="photosystem II protein L" />
+          <Members vimssId="1306684" LocusId="CYA_2427" Name="psbJ" Function="photosystem II protein J" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1167</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LuxR" RegulationMode="repressor (activator)">
+      <Regulator Key="PedR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13486" />
+      <Effector>Trx, thioredoxin protein</Effector>
+      <Pathway>Photosynthesis; Carbon fixation</Pathway>
+      <LocusTag Key="CYA_2351" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1306608&amp;disp=0" />
+      <BiologicalProcess>Photosynthesis; Carbon fixation</BiologicalProcess>
+      <Regulog Key="PedR - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1447" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CYA_0520" Name="ndhD" Position="-18" Score="4">
+          <Sequence>GAGTATTTATTCCC</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_0085" Name="CYA_0085" Position="-109" Score="3.5">
+          <Sequence>AACCATATTTTCTC</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1304354" LocusId="CYA_0085" Name="CYA_0085" Function="hypothetical protein" />
+          <Members vimssId="1304353" LocusId="CYA_0084" Name="rpe" Function="Ribulose-phosphate 3-epimerase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1304785" LocusId="CYA_0520" Name="ndhD" Function="NADH dehydrogenase subunit" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1447</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="OmpR" RegulationMode="repressor (activator)">
+      <Regulator Key="SphR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10016" />
+      <Effector>Inorganic phosphate</Effector>
+      <Pathway>Phosphate metabolism</Pathway>
+      <LocusTag Key="CYA_1033" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1305294&amp;disp=0" />
+      <BiologicalProcess>Phosphate metabolism</BiologicalProcess>
+      <Regulog Key="SphR - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1103" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CYA_1552" Name="pstS" Position="-203" Score="10.2">
+          <Sequence>AATAACCT-(3)-TTTAACCT-(3)-GTTAACCA</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_1732" Name="pstS" Position="-75" Score="9.6">
+          <Sequence>GTTAACCT-(3)-GATATCCT-(3)-GTTAACTT</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_1541" Name="cysR" Position="-172" Score="10.5">
+          <Sequence>CTTAACCT-(3)-CATAACCT-(3)-CTTTACTT</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_2506" Name="phoD" Position="-129" Score="7.9">
+          <Sequence>CTTAAACA-(3)-GCTAACCC-(3)-TTTCACCG</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1305800" LocusId="CYA_1541" Name="cysR" Function="Transcription regulator, Fnr-Crp family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1305811" LocusId="CYA_1552" Name="pstS" Function="Phosphate ABC transporter, substrate-binding protein" />
+          <Members vimssId="1305812" LocusId="CYA_1553" Name="pstC" Function="Phosphate ABC transporter, transmembrane protein 1" />
+          <Members vimssId="1305813" LocusId="CYA_1554" Name="pstA" Function="Phosphate ABC transporter, transmembrane protein 2" />
+          <Members vimssId="1305814" LocusId="CYA_1555" Name="pstB" Function="Phosphate ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1306764" LocusId="CYA_2506" Name="phoD" Function="Phosphodiesterase/alkaline phosphatase D" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1305991" LocusId="CYA_1732" Name="pstS" Function="Phosphate ABC transporter, substrate-binding protein" />
+          <Members vimssId="1305992" LocusId="CYA_1733" Name="pstC" Function="Phosphate ABC transporter, transmembrane protein 1" />
+          <Members vimssId="1305993" LocusId="CYA_1734" Name="pstA" Function="Phosphate ABC transporter, transmembrane protein 2" />
+          <Members vimssId="1305994" LocusId="CYA_1735" Name="pstB" Function="Phosphate ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1103</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="[Other]" RegulationMode="repressor">
+      <Regulator Key="SufR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=11879" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="CYA_2189" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1306446&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="SufR - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1281" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CYA_2190" Name="sufB" Position="-67" Score="5.3">
+          <Sequence>TTAAGCAACAACCGTGTTGTTTTA</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_2189" Name="sufR" Position="-119" Score="6">
+          <Sequence>TAAAACAACACGGTTGTTGCTTAA</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1306446" LocusId="CYA_2189" Name="sufR" Function="Iron-sulfur cluster biogenesis regulator SufR in Cyanobacteria" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1306447" LocusId="CYA_2190" Name="sufB" Function="Iron-sulfur assembly protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1281</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10735" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="CYA_1383" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1305642&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1168" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CYA_2533" Name="sufE" Position="-39" Score="5.7">
+          <Sequence>TTATGATTGATTATCATTCTCAT</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1306791" LocusId="CYA_2533" Name="sufE" Function="Cysteine desulfuration protein" />
+          <Members vimssId="1306790" LocusId="CYA_2532" Name="znuA" Function="Zinc ABC transporter, substrate-binding protein" />
+          <Members vimssId="1306789" LocusId="CYA_2531" Name="znuB" Function="Zinc ABC transporter, ATP-binding protein" />
+          <Members vimssId="1306788" LocusId="CYA_2529" Name="znuC" Function="Zinc ABC transporter, permease protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1168</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14121" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CYA_1108" Name="btuB" Position="-182" Score="46.7">
+          <Sequence>GAGGAAAGCCGTGCCGTCAGGTTGTCCTGGGGATCAGCCAGGGCAAGCAATGGGGAAAGTCCGGTGCAAATCCGGCGCTGTGCCGCAACTGTGATGGGCTGAGGCCCTCAGTCAGGATGCCCGCCTGCGGCTTTGGCTCAAAG</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_0167" Name="metE" Position="-612" Score="45.8">
+          <Sequence>TAGGATAAAGTCTACTGTCGGTTCTGACGGGGATCAGCCGTCAGAGGCAACGGGGAAAGTGCAGTGAGAATCTGCCGCTGTCCCGCAGCTGTGAGCCGGTTTTGGACTTGGGATCCCTAGTTCGTTGTTGCAAGAGGCCTTGAAACGCAAGCCAGCCCCTCCAAAACTGAGCAAGTCAGAATGCCCGCCGGCGGTTTTTCCACAGTT</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_2373" Name="cbiX" Position="-172" Score="38.1">
+          <Sequence>GGGCTTGGTGAACGGCAGGCGGCAAGCTAACCTAAGAAGCTCGGGCAGACTGGGGAAAGCGCGGTGCAAATCCGCCACTGTGACGCAACTGTGATGGGATCCCTCCCTCAGCCAGAACACCCACCTGCCCTTGTCCTGTACCCCT</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1305370" LocusId="CYA_1108" Name="btuB" Function="Outer membrane vitamin B12 receptor BtuB" />
+          <Members vimssId="1305369" LocusId="CYA_1107" Name="cfrX" Function="Predicted cobalamin biosynthesis-related protein" />
+          <Members vimssId="1305368" LocusId="CYA_1106" Name="cbiW" Function="Putative ferredoxin" />
+          <Members vimssId="1305367" LocusId="CYA_1105" Name="CYA_1105" Function="Hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1306630" LocusId="CYA_2373" Name="cbiX" Function="Sirohydrochlorin cobaltochelatase (EC 4.99.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1304436" LocusId="CYA_0167" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00557" RegulationMode="RF00557">
+      <Regulator Key="L10_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=24936" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L10_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CYA_1782" Name="rplJ" Position="-228" Score="60.5">
+          <Sequence>CACAGTCGAATAGCGAGCCGAAGACAGCAGGGGCCAAGGGGCTTAATGTCCTGCCGAGGTTTGAGCGGAGTGCTAAGGGATCCCGTTGTGGACTGCTAGGTTACGCTTGTCTCAATGCGTCTCGGCTATGGCTGAGGCGCATTCTCTTTGGCGGCTC</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1306041" LocusId="CYA_1782" Name="rplJ" Function="50S ribosomal protein L10" />
+          <Members vimssId="1306042" LocusId="CYA_1784" Name="rplL" Function="ribosomal protein L7/L12" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00559" RegulationMode="RF00559">
+      <Regulator Key="L21_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=25404" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L21_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CYA_2052" Name="rplU" Position="-55" Score="18.9">
+          <Sequence>ATGCTCGGATCAGGTTGCAAGACCCCTAGGGGCACCTGTACGGCAAG</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1306310" LocusId="CYA_2052" Name="rplU" Function="ribosomal protein L21" />
+          <Members vimssId="1306309" LocusId="CYA_2051" Name="rpmA" Function="ribosomal protein L27" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00162" RegulationMode="RF00162">
+      <Regulator Key="SAM" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21547" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="SAM" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CYA_1186" Name="metK" Position="-429" Score="74.6">
+          <Sequence>TTCTTTATCCAGAGCAGACTGAGGGATCAGGCCCAACGAAGCTGCGGCAACCGGCGGAAGCCTCCGCTACGGTGCCAACTCCTGCGGTTAGTCAGTAACCGAAAGATAAAGG</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1305448" LocusId="CYA_1186" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13962" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CYA_0011" Name="thiC" Position="-107" Score="66.2">
+          <Sequence>CACAACACGCTAGGAGTGTCTGGGGGCTGCCCCCAGGCTGAGATTACATCCTCAGAACCTGATCTGGGTCATACCAGCGTAGGAAAGCGAGTACCGGAGTTG</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1304280" LocusId="CYA_0011" Name="thiC" Function="Phosphomethylpyrimidine synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01739" RegulationMode="RF01739">
+      <Regulator Key="glnA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47252" />
+      <Effector>L-glutamine</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="glnA" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CYA_0922" Name="IF17" Position="-188" Score="48.9">
+          <Sequence>AATCGTTCATCCTCTCGCCTGCTGTTTGGCTTATCGTGGAGCAAGACGGCAGCCGGAGGACGGAAGTAGGGAGCTATCCCGAAGGAACGCGCC</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1305184" LocusId="CYA_0922" Name="IF17" Function="Glutamine synthetase inactivating factor IF17" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=23639" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CYA_0706" Name="COG2119" Position="-227" Score="57.9">
+          <Sequence>ATTCAGGCTAGAAAGGGAGTAGTCAGGCGGCTTACCGCCCTCTGCATCGACATACTGGCTAAAAACAGCCCGGTGCAAGAGACAAAGCAAGCCCGGCAGGCTGCTTTGGTGACGAGACTTTCACTGAGTTC</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CYA_0678" Name="COG2119" Position="-227" Score="58.9">
+          <Sequence>CATTCAGACGGAAAGGGAGTAGTCAGGCGGCTTACCGCCCTCTGCATCGACATACTGGCTAAAAACAGCCCGGTGCAAGAGACAAAGCAAGCCCGGCAGGCTGCTTTGGTGACGAGACTTTCACTGAGTTC</Sequence>
+          <Bacteria>Synechococcus sp. JA-3-3Ab</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1304969" LocusId="CYA_0706" Name="COG2119" Function="Transmembrane protein, COG2119" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1304941" LocusId="CYA_0678" Name="COG2119" Function="Transmembrane protein, COG2119" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

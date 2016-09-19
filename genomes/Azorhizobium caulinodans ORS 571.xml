@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Azorhizobium caulinodans ORS 571" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="BioR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53121" />
+      <Effector />
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="AZC_0363" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3726992&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BioR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5421" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_0362" Name="bioY" Position="28" Score="4.8">
+          <Sequence>TTATCTATAA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_0363" Name="bioR" Position="-13" Score="4.8">
+          <Sequence>TTATCTATAA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3726992" LocusId="AZC_0363" Name="bioR" Function="Biotin metabolism regulatory protein BioR, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3726991" LocusId="AZC_0362" Name="bioY" Function="Substrate-specific component BioY of biotin ECF transporter" />
+          <Members vimssId="3726990" LocusId="AZC_0361" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5421</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51360" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="AZC_1457" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3728098&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5207" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_1456" Name="cadA" Position="-55" Score="6.4">
+          <Sequence>CTCCTCTAGTGACTAGAGGAC</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3728097" LocusId="AZC_1456" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5207</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LuxR" RegulationMode="activator">
+      <Regulator Key="FixJ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63319" />
+      <Effector>Oxygen</Effector>
+      <Pathway>Oxidative stress response</Pathway>
+      <LocusTag Key="AZC_4654" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3731343&amp;disp=0" />
+      <BiologicalProcess>Oxidative stress response</BiologicalProcess>
+      <Regulog Key="FixJ - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6526" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_4653" Name="fixK" Position="-118" Score="4">
+          <Sequence>CTCCGTAAAATCACCTAC</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_4653" Name="fixK" Position="-104" Score="4.6">
+          <Sequence>CTACGCAATACTACTTAA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_4653" Name="fixK" Position="-90" Score="3.7">
+          <Sequence>TTAAGGGCTGGGCCCTAA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_1049" Name="nifA" Position="-114" Score="3.1">
+          <Sequence>CTCCGCGGTTTCCATTAT</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3731342" LocusId="AZC_4653" Name="fixK" Function="Nitrogen fixation and oxygen response transcriptional regulator FixK, Crp family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3727689" LocusId="AZC_1049" Name="nifA" Function="Nitrogen fixation transcriptional regulator NifA, Fis family" />
+          <Members vimssId="3727688" LocusId="AZC_1048" Name="AZC_1048" Function="(FeS)4 cluster domain protein, co-localized with NifA" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6526</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="repressor (activator)">
+      <Regulator Key="FnrN/FixK/AadR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63104" />
+      <Effector>Oxygen</Effector>
+      <Pathway>Oxidative stress response; Nitrogen fixation</Pathway>
+      <LocusTag Key="AZC_4653" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3731342&amp;disp=0" />
+      <BiologicalProcess>Oxidative stress response; Nitrogen fixation</BiologicalProcess>
+      <Regulog Key="FnrN/FixK/AadR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6503" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_0334" Name="hemA" Position="-84" Score="4.7">
+          <Sequence>CACTTGATCGAGCGCAAGGG</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_4523" Name="ccoN" Position="-93" Score="5">
+          <Sequence>CCTTTGACTTGTATCAAGGT</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_3742" Name="ompW" Position="-61" Score="5.5">
+          <Sequence>GATTTGATCTAGGTCAAACT</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_0320" Name="adhA" Position="-175" Score="5.3">
+          <Sequence>GCGTTGATCCGCATCAAGCA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_0320" Name="adhA" Position="-67" Score="5.5">
+          <Sequence>AGCTTGATGCGGATCAAGGT</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_0581" Name="cydR" Position="-55" Score="5.1">
+          <Sequence>AGGTTGCTCCAGATCAAACC</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3731212" LocusId="AZC_4523" Name="ccoN" Function="Cytochrome c oxidase subunit CcoN (EC 1.9.3.1)" />
+          <Members vimssId="3731213" LocusId="AZC_4524" Name="ccoO" Function="Cytochrome c oxidase subunit CcoO (EC 1.9.3.1)" />
+          <Members vimssId="3731214" LocusId="AZC_4525" Name="ccoQ" Function="Cytochrome c oxidase subunit CcoQ (EC 1.9.3.1)" />
+          <Members vimssId="3731215" LocusId="AZC_4526" Name="ccoP" Function="Cytochrome c oxidase subunit CcoP (EC 1.9.3.1)" />
+          <Members vimssId="3731216" LocusId="AZC_4527" Name="ccoG" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoG, involved in Cu oxidation" />
+          <Members vimssId="3731217" LocusId="AZC_4528" Name="ccoH" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoH" />
+          <Members vimssId="3731218" LocusId="AZC_4529" Name="ccoI" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoI; Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="3731219" LocusId="AZC_4530" Name="ccoS" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoS, involved in heme b insertion" />
+          <Members vimssId="3731220" LocusId="AZC_4531" Name="PF00083" Function="Predicted transporter, MFS family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3730412" LocusId="AZC_3742" Name="ompW" Function="Outer membrane protein W precursor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3726949" LocusId="AZC_0320" Name="adhA" Function="Alcohol dehydrogenase (EC 1.1.1.1), zinc containing" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3727210" LocusId="AZC_0581" Name="cydR" Function="Predicted transcriptional regulator, ArsR family" />
+          <Members vimssId="3727211" LocusId="AZC_0582" Name="cydD" Function="ATP-binding/permease protein CydD" />
+          <Members vimssId="3727212" LocusId="AZC_0583" Name="cydC" Function="ATP-binding/permease protein CydC" />
+          <Members vimssId="3727213" LocusId="AZC_0584" Name="cydA" Function="Cytochrome d ubiquinol oxidase subunit I (EC 1.10.3.-)" />
+          <Members vimssId="3727214" LocusId="AZC_0585" Name="cydB" Function="Cytochrome d ubiquinol oxidase subunit II (EC 1.10.3.-)" />
+          <Members vimssId="3727215" LocusId="AZC_0586" Name="cydX" Function="Cytochrome d ubiquinol oxidase subunit CydX (EC 1.10.3.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3726963" LocusId="AZC_0334" Name="hemA" Function="5-aminolevulinate synthase (EC 2.3.1.37)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6503</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="">
+      <Regulator Key="GulR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63018" />
+      <Effector />
+      <Pathway>Glucarate utilization; Galactarate utilization</Pathway>
+      <LocusTag Key="AZC_2639" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3729296&amp;disp=0" />
+      <BiologicalProcess>Glucarate utilization; Galactarate utilization</BiologicalProcess>
+      <Regulog Key="GulR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6496" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_2640" Name="gudP" Position="-304" Score="5.5">
+          <Sequence>ATCAATCCAAAAAATGGAATGAT</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_2638" Name="kdgD" Position="-70" Score="5.4">
+          <Sequence>ACTGATCCCAAAAACGCATCGAT</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3729295" LocusId="AZC_2638" Name="kdgD" Function="5-dehydro-4-deoxyglucarate dehydratase (EC 4.2.1.41)" />
+          <Members vimssId="3729294" LocusId="AZC_2637" Name="kgsD" Function="Alpha-ketoglutaric semialdehyde dehydrogenase (EC 1.2.1.26)" />
+          <Members vimssId="3729293" LocusId="AZC_2636" Name="garD" Function="D-galactarate dehydratase (EC 4.2.1.42)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3729297" LocusId="AZC_2640" Name="gudP" Function="D-glucarate permease / D-galactarate permease" />
+          <Members vimssId="3729296" LocusId="AZC_2639" Name="gulR" Function="Predicted glucarate/galactarate utilization regulator, LysR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6496</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49737" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="AZC_4287" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3730969&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5036" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_2311" Name="groS" Position="-184" Score="6.7">
+          <Sequence>TTGGCACTCATGGGAGAGGAGTGCTAA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_0425" Name="groS" Position="-71" Score="6.5">
+          <Sequence>TTGGCACTCCCATCCGGTGAGTGCCAG</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3728966" LocusId="AZC_2311" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="3728967" LocusId="AZC_2312" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3727054" LocusId="AZC_0425" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="3727053" LocusId="AZC_0424" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5036</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="IdnR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=54616" />
+      <Effector>L-idonate</Effector>
+      <Pathway>Idonate utilization</Pathway>
+      <LocusTag Key="AZC_2611" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3729268&amp;disp=0" />
+      <BiologicalProcess>Idonate utilization</BiologicalProcess>
+      <Regulog Key="IdnR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5572" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_2613" Name="idnD" Position="-62" Score="6">
+          <Sequence>GCATGTTATCGGTAACAAAA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_2614" Name="idnO" Position="-96" Score="6">
+          <Sequence>TTTTGTTACCGATAACATGC</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3729271" LocusId="AZC_2614" Name="idnO" Function="Gluconate 5-dehydrogenase (EC 1.1.1.69)" />
+          <Members vimssId="3729272" LocusId="AZC_2615" Name="Atu4687" Function="putative ABC transporter, substrate-binding component" />
+          <Members vimssId="3729273" LocusId="AZC_2616" Name="Atu4688" Function="putative ABC transporter, membrane spanning protein" />
+          <Members vimssId="3729274" LocusId="AZC_2617" Name="Atu4689" Function="putative ABC transporter, membrane spanning protein" />
+          <Members vimssId="3729275" LocusId="AZC_2618" Name="Atu4690" Function="putative ABC transporter, ATPase protein" />
+          <Members vimssId="3729276" LocusId="AZC_2619" Name="COG1063" Function="Threonine dehydrogenase and related Zn-dependent dehydrogenases" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3729270" LocusId="AZC_2613" Name="idnD" Function="L-idonate 5-dehydrogenase (EC 1.1.1.264)" />
+          <Members vimssId="3729269" LocusId="AZC_2612" Name="SSF54909" Function="Dimeric alpha-beta barrel" />
+          <Members vimssId="3729268" LocusId="AZC_2611" Name="idnR" Function="Predicted transcriptional regulator of L-idonate utilization, LacI family" />
+          <Members vimssId="3729267" LocusId="AZC_2610" Name="gnd" Function="6-phosphogluconate dehydrogenase EC=1.1.1.44" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5572</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Irr" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=18343" />
+      <Effector>Heme</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="AZC_3445" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3730109&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Irr - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1981" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_1632" Name="hmuR" Position="-82" Score="3.9">
+          <Sequence>ACACTGAAACAGTTATAAATA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_0183" Name="cbrA" Position="-155" Score="5.1">
+          <Sequence>TGTTTGGAATAAATCGAAAAA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_1578" Name="hmuP" Position="-77" Score="5">
+          <Sequence>AATATTGAATCGCTCTAAAGT</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_4058" Name="PF00033" Position="-38" Score="5.2">
+          <Sequence>AGTCTGGACCGGTTCTAAACA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_1626" Name="fhuA" Position="-53" Score="5.3">
+          <Sequence>AGATTTGAATACTTCTGAACT</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_2246" Name="bfr" Position="-66" Score="5.3">
+          <Sequence>AGTTTGGAATTGGTCTAATTA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_1578" Name="hmuP" Position="-17" Score="5">
+          <Sequence>AGTTTGGAGTCATTCAAATGA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_4085" Name="mbfA" Position="-36" Score="5.6">
+          <Sequence>AAATTAGAAGAGTTCTAAAAA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_4385" Name="hmuT" Position="-65" Score="3.7">
+          <Sequence>CAAGTTGATTACCTCTAAACT</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_3616" Name="sufS2" Position="-99" Score="6">
+          <Sequence>TATTTAGAATAATTCTAATGT</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3728900" LocusId="AZC_2246" Name="bfr" Function="Bacterioferritin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3730284" LocusId="AZC_3616" Name="sufS2" Function="Cysteine desulfurase (EC 2.8.1.7)" />
+          <Members vimssId="3730283" LocusId="AZC_3615" Name="sufB" Function="ABC transporter involved in Fe-S cluster assembly, permease protein" />
+          <Members vimssId="3730282" LocusId="AZC_3614" Name="sufC" Function="ABC transporter involved in Fe-S cluster assembly, ATP-binding protein" />
+          <Members vimssId="3730281" LocusId="AZC_3613" Name="sufD" Function="ABC transporter involved in Fe-S cluster assembly, permease protein" />
+          <Members vimssId="3730280" LocusId="AZC_3612" Name="sufS1" Function="Cysteine desulfurase (EC 2.8.1.7), SufS subfamily" />
+          <Members vimssId="3730279" LocusId="AZC_3611" Name="PF01883" Function="PaaD-like protein (DUF59) involved in Fe-S cluster assembly" />
+          <Members vimssId="3730278" LocusId="AZC_3610" Name="PF00903" Function="putative lactoylglutathione lyase" />
+          <Members vimssId="3730277" LocusId="AZC_3609" Name="sufA" Function="Iron binding protein SufA for iron-sulfur cluster assembly" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3730759" LocusId="AZC_4085" Name="mbfA" Function="membrane-bound ferritin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3726809" LocusId="AZC_0183" Name="cbrA" Function="iron siderophore ABC transporter, ATPase protein" />
+          <Members vimssId="3726810" LocusId="AZC_0184" Name="cbrB" Function="iron siderophore ABC transporter, permease protein" />
+          <Members vimssId="3726811" LocusId="AZC_0185" Name="cbrC" Function="iron siderophore ABC transporter, permease protein" />
+          <Members vimssId="3726812" LocusId="AZC_0186" Name="cbrD" Function="iron siderophore ABC transporter, substrate bindiing protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3731067" LocusId="AZC_4385" Name="hmuT" Function="Hemin ABC transporter, hemin-binding protein" />
+          <Members vimssId="3731068" LocusId="AZC_4386" Name="hmuU" Function="Hemin ABC transporter, permease protein" />
+          <Members vimssId="3731069" LocusId="AZC_4387" Name="hmuV" Function="Hemin ABC transporter, ATPase component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3730731" LocusId="AZC_4058" Name="PF00033" Function="cytochrome b561" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3728274" LocusId="AZC_1626" Name="fhuA" Function="Ferric hydroxamate outer membrane receptor FhuA" />
+          <Members vimssId="3728273" LocusId="AZC_1625" Name="fhuC" Function="Ferric hydroxamate ABC transporter (TC 3.A.1.14.3), ATP-binding protein FhuC" />
+          <Members vimssId="3728272" LocusId="AZC_1624" Name="fhuD" Function="Ferric hydroxamate ABC transporter (TC 3.A.1.14.3), periplasmic substrate binding protein FhuD" />
+          <Members vimssId="3728271" LocusId="AZC_1623" Name="fhuB" Function="Ferric hydroxamate ABC transporter (TC 3.A.1.14.3), permease component FhuB" />
+          <Members vimssId="3728270" LocusId="AZC_1622" Name="PF08021" Function="iron-chelator utilization protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3728280" LocusId="AZC_1632" Name="hmuR" Function="TonB-dependent haem/haemoglobin receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3728223" LocusId="AZC_1578" Name="hmuP" Function="Hemin ABC transporter, hemin uptake protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1981</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="KglR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=54305" />
+      <Effector />
+      <Pathway>Sugar utilization</Pathway>
+      <LocusTag Key="AZC_4404" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3731086&amp;disp=0" />
+      <BiologicalProcess>Sugar utilization</BiologicalProcess>
+      <Regulog Key="KglR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5548" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_4404" Name="kglR" Position="-163" Score="5.6">
+          <Sequence>GTTTTAGATCGGTCTAAAAA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3731086" LocusId="AZC_4404" Name="kglR" Function="Transcriptional regulator, LacI family" />
+          <Members vimssId="3731087" LocusId="AZC_4405" Name="Sma0079" Function="amino acid ABC transporter, inner membrane protein" />
+          <Members vimssId="3731088" LocusId="AZC_4406" Name="Sma0081" Function="amino acid ABC transporter, inner membrane protein" />
+          <Members vimssId="3731089" LocusId="AZC_4407" Name="Sma0082" Function="amino acid ABC transporter, substrate-binding protein" />
+          <Members vimssId="3731090" LocusId="AZC_4408" Name="Sma0083" Function="amino acid ABC transporter, ATP-binding protein" />
+          <Members vimssId="3731091" LocusId="AZC_4409" Name="dgoK" Function="2-dehydro-3-deoxygalactonokinase (EC 2.7.1.58)" />
+          <Members vimssId="3731092" LocusId="AZC_4410" Name="dgoA" Function="2-dehydro-3-deoxyphosphogalactonate aldolase (EC 4.1.2.21)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5548</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28381" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="AZC_2201" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3728855&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2985" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_2855" Name="recA" Position="-61" Score="1.1">
+          <Sequence>GAACAAATGAGGTAC</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_2855" Name="recA" Position="-79" Score="1.6">
+          <Sequence>GAACATATTGCGAAC</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_2201" Name="lexA" Position="-80" Score="5.3">
+          <Sequence>GTTCCTGATTTGTTT</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_2887" Name="uvrA" Position="-21" Score="5">
+          <Sequence>GTTCTATTTATGTTC</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_4342" Name="yifB" Position="-80" Score="4.3">
+          <Sequence>GTTCGCAATCTGTTC</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_0799" Name="rmuC" Position="-44" Score="4.9">
+          <Sequence>GTTCGCTGTTTGTTC</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_0428" Name="PF04055" Position="2" Score="5.4">
+          <Sequence>GTTCTTGTTTCGTTC</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_2201" Name="lexA" Position="-106" Score="0.1">
+          <Sequence>GAACAAACAAGAAAC</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_2886" Name="ssb" Position="-187" Score="1.4">
+          <Sequence>GAACATAAATAGAAC</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_3127" Name="uvrB" Position="-61" Score="4.6">
+          <Sequence>GGTCCCCTTTTGTTC</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_3906" Name="imuA" Position="-20" Score="0.5">
+          <Sequence>GAACAAAACGGGAAC</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_2886" Name="ssb" Position="-265" Score="1.1">
+          <Sequence>GAACGTAACAGGAAC</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3730577" LocusId="AZC_3906" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="3730576" LocusId="AZC_3905" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+          <Members vimssId="3730575" LocusId="AZC_3904" Name="dnaE2" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3728855" LocusId="AZC_2201" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3729548" LocusId="AZC_2887" Name="uvrA" Function="Excinuclease ABC subunit A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3727057" LocusId="AZC_0428" Name="PF04055" Function="Radical SAM domain protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3729516" LocusId="AZC_2855" Name="recA" Function="Recombinase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3729789" LocusId="AZC_3127" Name="uvrB" Function="Excinuclease ABC subunit B" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3729547" LocusId="AZC_2886" Name="ssb" Function="Single-stranded DNA-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3731024" LocusId="AZC_4342" Name="yifB" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3727434" LocusId="AZC_0799" Name="rmuC" Function="DNA recombination protein RmuC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2985</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="MdcY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61667" />
+      <Effector />
+      <Pathway>Malonate metabolism</Pathway>
+      <LocusTag Key="AZC_3296" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3729960&amp;disp=0" />
+      <BiologicalProcess>Malonate metabolism</BiologicalProcess>
+      <Regulog Key="MdcY - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6335" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_3296" Name="mdcY" Position="-42" Score="4.3">
+          <Sequence>ATGTATGCAA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_3297" Name="matA" Position="-174" Score="4.3">
+          <Sequence>TTGCATACAT</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3729961" LocusId="AZC_3297" Name="matA" Function="Malonyl-CoA decarboxylase (EC 4.1.1.9)" />
+          <Members vimssId="3729962" LocusId="AZC_3298" Name="matB" Function="Malonyl-CoA synthase" />
+          <Members vimssId="3729963" LocusId="AZC_3299" Name="matP" Function="TRAP malonate transporter, periplasmic subunit" />
+          <Members vimssId="3729964" LocusId="AZC_3300" Name="matQ" Function="TRAP malonate transporter, small permease subunit" />
+          <Members vimssId="3729965" LocusId="AZC_3301" Name="matM" Function="TRAP malonate transporter, large permease subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3729960" LocusId="AZC_3296" Name="mdcY" Function="Transcriptional regulator of malonate metabolism, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6335</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21282" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdenum homeostasis</Pathway>
+      <LocusTag Key="AZC_1791" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3728441&amp;disp=0" />
+      <BiologicalProcess>Molybdenum homeostasis</BiologicalProcess>
+      <Regulog Key="ModE - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2305" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_2368" Name="modA" Position="-41" Score="5.4">
+          <Sequence>GCTATATATGAGGAGATATAAC</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3729024" LocusId="AZC_2368" Name="modA" Function="Molybdate ABC transporter, substrate-binding protein" />
+          <Members vimssId="3729025" LocusId="AZC_2369" Name="modB" Function="Molybdate ABC transporter, permease protein" />
+          <Members vimssId="3729026" LocusId="AZC_2370" Name="modC" Function="Molybdate ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2305</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Mur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19519" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Manganese homeostasis</Pathway>
+      <LocusTag Key="AZC_0006" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3726632&amp;disp=0" />
+      <BiologicalProcess>Manganese homeostasis</BiologicalProcess>
+      <Regulog Key="Mur - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2109" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_3295" Name="mntH" Position="-83" Score="5.4">
+          <Sequence>CTTGCAAATCGTTCGCATT</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3729959" LocusId="AZC_3295" Name="mntH" Function="Manganese transport protein MntH" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2109</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator">
+      <Regulator Key="NifA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63763" />
+      <Effector />
+      <Pathway>Nitrogen fixation</Pathway>
+      <LocusTag Key="AZC_1049" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3727689&amp;disp=0" />
+      <BiologicalProcess>Nitrogen fixation</BiologicalProcess>
+      <Regulog Key="NifA - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6581" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_1051" Name="ahpC" Position="-161" Score="5.6">
+          <Sequence>TGTCGGAAAGCCGACA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_1051" Name="ahpC" Position="-206" Score="4.3">
+          <Sequence>CGGCGGGTTCCCGACA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_1041" Name="nifH" Position="-281" Score="4.7">
+          <Sequence>TGTCGCGTTTGAAACA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_3414" Name="nifB" Position="-138" Score="5.1">
+          <Sequence>TGTTGGCAACGCGACA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_3442" Name="cheY" Position="-192" Score="4.8">
+          <Sequence>TGTCTCGAACCTGACA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_3442" Name="cheY" Position="-163" Score="4.3">
+          <Sequence>TGTTGGAAAGGAAACA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_0303" Name="fer2" Position="-67" Score="3.8">
+          <Sequence>TGTGGGGCCTCCGGCA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_1052" Name="xdhC" Position="-190" Score="4.3">
+          <Sequence>TGTCGGGAACCCGCCG</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_1043" Name="fdxN" Position="-142" Score="5.2">
+          <Sequence>TGTCGGGGGCGCGACA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_1052" Name="xdhC" Position="-235" Score="5.6">
+          <Sequence>TGTCGGCTTTCCGACA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_3437" Name="bolA" Position="-128" Score="5.4">
+          <Sequence>TGTCGCATGTGCGACA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_1043" Name="fdxN" Position="-160" Score="5.3">
+          <Sequence>TGTCGCAGTCGCGACA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_3409" Name="iscN" Position="-116" Score="4.3">
+          <Sequence>GGTCTGCTTCGCGACA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_3409" Name="iscN" Position="-134" Score="5.5">
+          <Sequence>TGTCGCAAAGGCGACA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_3447" Name="fixB" Position="-113" Score="4.2">
+          <Sequence>TGTGGCATGCCAGACA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_3447" Name="fixB" Position="-179" Score="5">
+          <Sequence>TGTCGCATTCCCGACG</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_3437" Name="bolA" Position="-121" Score="4.1">
+          <Sequence>TGTGCGACATGCGACA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_3443" Name="nifH" Position="-284" Score="4.3">
+          <Sequence>TGTTTCCTTTCCAACA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_3443" Name="nifH" Position="-255" Score="4.8">
+          <Sequence>TGTCAGGTTCGAGACA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_3446" Name="nifW" Position="-192" Score="4.1">
+          <Sequence>TGTCGCCTTCGGGGCA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3726932" LocusId="AZC_0303" Name="fer2" Function="Ferredoxin, 2Fe-2S (AaFd4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3727683" LocusId="AZC_1043" Name="fdxN" Function="4Fe-4S ferredoxin, nitrogenase-associated" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3730078" LocusId="AZC_3414" Name="nifB" Function="Nitrogenase FeMo-cofactor synthesis FeS core scaffold and assembly protein NifB" />
+          <Members vimssId="3730079" LocusId="AZC_3415" Name="frxA" Function="2(4Fe-4S) ferredoxin in Nif regulon, iron-sulfur compound bisynthesis" />
+          <Members vimssId="3730080" LocusId="AZC_3416" Name="hesB" Function="probable iron binding protein from the HesB_IscA_SufA family in Nif operon" />
+          <Members vimssId="3730081" LocusId="AZC_3417" Name="RPA4627" Function="Conserved hypothetical protein, associated with nitrogen fixation genes" />
+          <Members vimssId="3730082" LocusId="AZC_3418" Name="PF05484" Function="LRV (FeS)4 cluster domain protein clustered with nitrogenase cofactor synthesis" />
+          <Members vimssId="3730083" LocusId="AZC_3419" Name="nifZ" Function="Nitrogen fixation protein NifZ" />
+          <Members vimssId="3730084" LocusId="AZC_3420" Name="nifZ" Function="Nitrogen fixation protein NifZ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3730073" LocusId="AZC_3409" Name="iscN" Function="Fe-S cofactor nitrogenase synthesis protein IscN" />
+          <Members vimssId="3730074" LocusId="AZC_3410" Name="nifU" Function="Iron-sulfur cluster assembly scaffold protein NifU" />
+          <Members vimssId="3730075" LocusId="AZC_3411" Name="nifS" Function="Cysteine desulfurase (EC 2.8.1.7), NifS subfamily" />
+          <Members vimssId="3730076" LocusId="AZC_3412" Name="nifT" Function="Nitrogen fixation protein NifT" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3730111" LocusId="AZC_3447" Name="fixB" Function="Electron transfer flavoprotein, beta subunit" />
+          <Members vimssId="3730112" LocusId="AZC_3448" Name="fixA" Function="Electron transfer flavoprotein, alpha subunit" />
+          <Members vimssId="3730113" LocusId="AZC_3449" Name="fixC" Function="Electron-transferring-flavoprotein dehydrogenase" />
+          <Members vimssId="3730114" LocusId="AZC_3450" Name="fixX" Function="Ferredoxin-like protein, FixX" />
+          <Members vimssId="3730115" LocusId="AZC_3451" Name="PF05082" Function="Conserved hypothetical protein, probably related to nitrogen fixation protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3730110" LocusId="AZC_3446" Name="nifW" Function="Nitrogenase stabilizing/protective protein NifW" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3730107" LocusId="AZC_3443" Name="nifH" Function="Nitrogenase (molybdenum-iron) reductase and maturation protein NifH" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3727692" LocusId="AZC_1052" Name="xdhC" Function="Xanthine and CO dehydrogenases maturation factor, XdhC/CoxF family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3727691" LocusId="AZC_1051" Name="ahpC" Function="Alkyl hydroperoxide reductase protein C (EC 1.6.4.-)" />
+          <Members vimssId="3727690" LocusId="AZC_1050" Name="ahpD" Function="Alkylhydroperoxidase protein D" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3727681" LocusId="AZC_1041" Name="nifH" Function="Nitrogenase (molybdenum-iron) reductase and maturation protein NifH" />
+          <Members vimssId="3727680" LocusId="AZC_1040" Name="nifD" Function="Nitrogenase (molybdenum-iron) alpha chain (EC 1.18.6.1)" />
+          <Members vimssId="3727679" LocusId="AZC_1039" Name="nifK" Function="Nitrogenase (molybdenum-iron) beta chain (EC 1.18.6.1)" />
+          <Members vimssId="3727678" LocusId="AZC_1038" Name="nifE" Function="Nitrogenase FeMo-cofactor scaffold and assembly protein NifE" />
+          <Members vimssId="3727677" LocusId="AZC_1037" Name="nifN" Function="Nitrogenase FeMo-cofactor scaffold and assembly protein NifN" />
+          <Members vimssId="3727676" LocusId="AZC_1036" Name="nifX" Function="Nitrogenase FeMo-cofactor carrier protein NifX" />
+          <Members vimssId="3727675" LocusId="AZC_1035" Name="PF03270" Function="Conserved hypothetical protein, probably related to nitrogen fixation protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3730106" LocusId="AZC_3442" Name="cheY" Function="Predicted response regulator receiver protein" />
+          <Members vimssId="3730105" LocusId="AZC_3441" Name="nifO" Function="Nitrogenase-associated protein NifO" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3730101" LocusId="AZC_3437" Name="bolA" Function="BolA protein, predicted transcription regulator" />
+          <Members vimssId="3730102" LocusId="AZC_3438" Name="grlA" Function="Glutaredoxin-related protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6581</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15591" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="AZC_1262" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3727903&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1674" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_1268" Name="nrdJ" Position="-262" Score="5.1">
+          <Sequence>TCACTATATTTAGTAG</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3727909" LocusId="AZC_1268" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1674</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19361" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="AZC_3086" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3729748&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2091" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_1511" Name="dppA" Position="-159" Score="4.8">
+          <Sequence>TGCTCAATTTTTAATCT</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_0686" Name="nrtA" Position="-242" Score="4.6">
+          <Sequence>TGCTCATTTTTTGATCT</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_4227" Name="glnK" Position="-241" Score="4">
+          <Sequence>CGCCTATTTTTAAGGCA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_1758" Name="urtA" Position="-179" Score="4.6">
+          <Sequence>TGCCTAAATTATAGTCA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_4397" Name="uctA" Position="-230" Score="3.8">
+          <Sequence>TGGCTAAAATTTAGACA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_1602" Name="glnB" Position="-134" Score="4.4">
+          <Sequence>CGCATACTATTTAGGCA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3728154" LocusId="AZC_1511" Name="dppA" Function="Dipeptide ABC transporter, substrate-binding component" />
+          <Members vimssId="3728155" LocusId="AZC_1512" Name="dppB" Function="Dipeptide ABC transporter, permease component 1" />
+          <Members vimssId="3728156" LocusId="AZC_1513" Name="dppC" Function="Dipeptide ABC transporter, permease component 2" />
+          <Members vimssId="3728157" LocusId="AZC_1514" Name="dppDE" Function="Dipeptide ABC transporter, ATP-binding component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3727321" LocusId="AZC_0686" Name="nrtA" Function="Nitrate ABC transporter, substrate-binding component" />
+          <Members vimssId="3727320" LocusId="AZC_0685" Name="nrtB" Function="Nitrate ABC transporter, permease component" />
+          <Members vimssId="3727319" LocusId="AZC_0684" Name="nrtC" Function="Nitrate ABC transporter, ATP-binding component" />
+          <Members vimssId="3727318" LocusId="AZC_0683" Name="hmp" Function="Nitric oxide dioxygenase" />
+          <Members vimssId="3727317" LocusId="AZC_0682" Name="nasB" Function="Assimilatory nitrate reductase, small subunit (EC:1.7.99.4)" />
+          <Members vimssId="3727316" LocusId="AZC_0681" Name="nirA" Function="Ferredoxin--nitrite reductase (EC 1.7.7.1)" />
+          <Members vimssId="3727315" LocusId="AZC_0680" Name="nasB2" Function="Assimilatory nitrate reductase, large subunit (EC:1.7.99.4)" />
+          <Members vimssId="3727314" LocusId="AZC_0679" Name="nasA" Function="Assimilatory nitrate reductase, large subunit (EC:1.7.99.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3728247" LocusId="AZC_1602" Name="glnB" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="3728246" LocusId="AZC_1601" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3728408" LocusId="AZC_1758" Name="urtA" Function="Urea ABC transporter, substrate-binding component" />
+          <Members vimssId="3728409" LocusId="AZC_1759" Name="urtB" Function="Urea ABC transporter, permease component 1" />
+          <Members vimssId="3728410" LocusId="AZC_1760" Name="urtC" Function="Urea ABC transporter, permease component 2" />
+          <Members vimssId="3728411" LocusId="AZC_1761" Name="urtD" Function="Urea ABC transporter, ATP-binding component 1" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3731079" LocusId="AZC_4397" Name="uctA" Function="Urea carboxylase-related ABC transporter, substrate-binding component" />
+          <Members vimssId="3731080" LocusId="AZC_4398" Name="uctB" Function="Urea carboxylase-related ABC transporter, permease component" />
+          <Members vimssId="3731081" LocusId="AZC_4399" Name="uctC" Function="Urea carboxylase-related ABC transporter, ATP-binding component" />
+          <Members vimssId="3731082" LocusId="AZC_4400" Name="uahC" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="3731083" LocusId="AZC_4401" Name="uahB" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="3731084" LocusId="AZC_4402" Name="uahA" Function="Urea carboxylase (EC 6.3.4.6)" />
+          <Members vimssId="3731085" LocusId="AZC_4403" Name="atzF2" Function="Allophanate hydrolase (EC 3.5.1.54)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3730908" LocusId="AZC_4227" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="3730907" LocusId="AZC_4226" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2091</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="OapR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60784" />
+      <Effector />
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="AZC_0730" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3727365&amp;disp=0" />
+      <BiologicalProcess>Amino acid metabolism</BiologicalProcess>
+      <Regulog Key="OapR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6242" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_0729" Name="oapT" Position="-80" Score="9.4">
+          <Sequence>CACTGTATCGGT-(6)-ACCATAACAGCT-(17)-ATCTGTATATAT</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3727364" LocusId="AZC_0729" Name="oapT" Function="Omega-amino acid--pyruvate aminotransferase (EC 2.6.1.18), PLP dependent" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6242</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="PckR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49526" />
+      <Effector />
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="AZC_4468" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3731155&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="PckR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5015" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_4063" Name="pckA" Position="-128" Score="5.2">
+          <Sequence>AAATTCAAACGATTTGAACG</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_4207" Name="hpr" Position="-100" Score="5.1">
+          <Sequence>TGATTAAAACGATTGAACTA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3730736" LocusId="AZC_4063" Name="pckA" Function="Phosphoenolpyruvate carboxykinase (EC 4.1.1.49)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3730888" LocusId="AZC_4207" Name="hpr" Function="Glyoxylate reductase (EC 1.1.1.79) / Hydroxypyruvate reductase (EC 1.1.1.81)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5015</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxQ3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58843" />
+      <Effector />
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="AZC_4467" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3731154&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxQ3 - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6030" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_4466" Name="COG5457" Position="-98" Score="10.7">
+          <Sequence>ATTGCTCC-(1)-AGTGCAAT-(6)-ATTGCGCT</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3731153" LocusId="AZC_4466" Name="COG5457" Function="Uncharacterized conserved small protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6030</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxW" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60395" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="AZC_0405" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3727034&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxW - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6203" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_0404" Name="pdxO" Position="-90" Score="9.6">
+          <Sequence>GATTGGTC-(16)-TATTGGAT-(9)-GTCCAATC</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3727033" LocusId="AZC_0404" Name="pdxO" Function="Pyridoxamine 5'-phosphate oxidase-related, FMN-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6203</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PhnF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31680" />
+      <Effector />
+      <Pathway>Phosphonate utilization</Pathway>
+      <LocusTag Key="AZC_3391" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3730055&amp;disp=0" />
+      <BiologicalProcess>Phosphonate utilization</BiologicalProcess>
+      <Regulog Key="PhnF - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3274" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_3391" Name="phnF" Position="-63" Score="4.6">
+          <Sequence>TTGTATAAAAGTCTATACAA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_3391" Name="phnF" Position="-55" Score="4.8">
+          <Sequence>AAGTCTATACAAATAGGCAA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3730055" LocusId="AZC_3391" Name="phnF" Function="Transcriptional regulator for phosphonate utilization, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3274</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="RL3595" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49496" />
+      <Effector />
+      <Pathway>Sugar utilization</Pathway>
+      <LocusTag Key="AZC_2856" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3729517&amp;disp=0" />
+      <BiologicalProcess>Sugar utilization</BiologicalProcess>
+      <Regulog Key="RL3595 - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5013" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_2856" Name="RL3595" Position="-28" Score="6.7">
+          <Sequence>TAGCGGGAACGTTCCCATCA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_2857" Name="PF00701" Position="-93" Score="6.7">
+          <Sequence>TGATGGGAACGTTCCCGCTA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3729518" LocusId="AZC_2857" Name="PF00701" Function="Dihydrodipicolinate synthase-like protein" />
+          <Members vimssId="3729519" LocusId="AZC_2858" Name="PF00083" Function="Putative sugar phosphate permease, MFS superfamily" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3729517" LocusId="AZC_2856" Name="RL3595" Function="Putative regulator of PF00701, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5013</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="SMb20039" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58358" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="AZC_0292" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3726921&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="SMb20039 - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5973" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_0293" Name="COG697" Position="-110" Score="10.8">
+          <Sequence>AACTGTGTGGT-(8)-TCCATACTGTT-(6)-AACCGTATGGC</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3726922" LocusId="AZC_0293" Name="COG697" Function="Permease of the drug/metabolite transporter (DMT) superfamily, COG697(RhaT)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5973</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="SMb20667" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50271" />
+      <Effector />
+      <Pathway>Sugar utilization</Pathway>
+      <LocusTag Key="AZC_2778" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3729436&amp;disp=0" />
+      <BiologicalProcess>Sugar utilization</BiologicalProcess>
+      <Regulog Key="SMb20667 - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5090" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_2778" Name="SMb20667" Position="-2" Score="6.6">
+          <Sequence>TTTTGGCAGCGCTGCCATTT</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_2778" Name="SMb20667" Position="-58" Score="6.6">
+          <Sequence>TTTTGGCAGCGCTGCCATTT</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_2777" Name="ygbJ" Position="-125" Score="6.6">
+          <Sequence>AAATGGCAGCGCTGCCAAAA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_2777" Name="ygbJ" Position="-69" Score="6.6">
+          <Sequence>AAATGGCAGCGCTGCCAAAA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3729435" LocusId="AZC_2777" Name="ygbJ" Function="3-hydroxyacid dehydrogenase/reductase" />
+          <Members vimssId="3729434" LocusId="AZC_2776" Name="ygbM" Function="Hydroxypyruvate isomerase (EC 5.3.1.22)" />
+          <Members vimssId="3729433" LocusId="AZC_2775" Name="ygbK" Function="Uncharacterized protein conserved in bacteria" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3729436" LocusId="AZC_2778" Name="SMb20667" Function="Putative transcriptional regulator SMb20667, LacI family" />
+          <Members vimssId="3729437" LocusId="AZC_2779" Name="ygbL" Function="Ribulose-5-phosphate 4-epimerase and related epimerases and aldolases" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5090</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SahR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15793" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="AZC_4339" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3731021&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SahR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1696" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_4042" Name="ahcY" Position="-81" Score="6.6">
+          <Sequence>ATATAAACATTTCTTTATAT</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_4339" Name="sahR" Position="-16" Score="7.1">
+          <Sequence>ATATAAAGATATCTTTATGT</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3731021" LocusId="AZC_4339" Name="sahR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+          <Members vimssId="3731022" LocusId="AZC_4340" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+          <Members vimssId="3731023" LocusId="AZC_4341" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3730715" LocusId="AZC_4042" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1696</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YrdX" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=64082" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="AZC_0074" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3726700&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="YrdX - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6612" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_0073" Name="PF02635" Position="-66" Score="5.7">
+          <Sequence>CTGGCACA---ATTGCAAA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_0073" Name="PF02635" Position="-127" Score="7.2">
+          <Sequence>TTTGAATG---TTTGAATG</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3726699" LocusId="AZC_0073" Name="PF02635" Function="probable GTP cyclohydrolase II/ATPase/Sulphur relay, DsrE/F-like protein" />
+          <Members vimssId="3726698" LocusId="AZC_0072" Name="COG388" Function="Nitrilase/cyanide hydratase and apolipoprotein N-acyltransferase (EC 3.5.5.7)" />
+          <Members vimssId="3726697" LocusId="AZC_0071" Name="COG2516" Function="Biotin synthase-related radical SAM domain protein" />
+          <Members vimssId="3726696" LocusId="AZC_0070" Name="COG3153" Function="GCN5-related N-acetyltransferase" />
+          <Members vimssId="3726695" LocusId="AZC_0069" Name="COG2144" Function="AIR synthase related protein/Selenophosphate synthetase-related" />
+          <Members vimssId="3726694" LocusId="AZC_0068" Name="COG438 (RfaG)" Function="Glycosyltransferase" />
+          <Members vimssId="3726693" LocusId="AZC_0067" Name="AZC_0067" Function="NAD/NADP transhydrogenase alpha subunit" />
+          <Members vimssId="3726692" LocusId="AZC_0066" Name="COG2072 (TrkA)" Function="FAD dependent oxidoreductase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6612</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35997" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_0148" Name="cbtC" Position="-316" Score="106.9">
+          <Sequence>GCTAAGGTGTCATCGGGAAGGTGCGGCCCTTTGGGGCCGTGAAAAGGGAATCCGGTGCGGCCACAAGGCCCAGGCCGGAGCTGCCCCCGCAACTGTAAGCGGCCGAAGACGCGATCCTCATGCCACGGGCACGCCCCGGAAGGCGATCGCGGACAGGACGCGAGCCAGGAGACCTGCCTTCTCGCAACTGAACTCG</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_3933" Name="cfrX" Position="-310" Score="94.9">
+          <Sequence>TTAGTGGCCCCATCGATGGTCCCGGTCGGGCGGCGTTCTGCTCTGCCGGGTGAAAAGGGAATGCGAAGCGGGCCGGCGCCTTCAGGCGCCAAGGTCCGTCAACCGCAGCTGCCCCCGCAACTGTAGGCGGTGAGTCGGTGCCACGAGCCACTGGACGCCAGGAGACATCCGGCGCCGGGAAGGCGGCACAGGACCGTGACCCGCAAGCCAGGAGACCTGCCATTGATGAGGAACGCGCCGG</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3730606" LocusId="AZC_3933" Name="cfrX" Function="Predicted metal-binding protein" />
+          <Members vimssId="3730607" LocusId="AZC_3934" Name="cobW" Function="CobW GTPase involved in cobalt insertion for B12 biosynthesis" />
+          <Members vimssId="3730608" LocusId="AZC_3935" Name="cobN" Function="CobN component of cobalt chelatase involved in B12 biosynthesis" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3726774" LocusId="AZC_0148" Name="cbtC" Function="Predicted cobalt transporter CbtC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00504" RegulationMode="RF00504">
+      <Regulator Key="Glycine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37487" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="Glycine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_4245" Name="gcvT" Position="-318" Score="50.7">
+          <Sequence>TGATCCCTGCGGGAGAGACCGGAAGCTGTCGAAAGGCAGGATCCGGCGCCGAAGGCGCAACCGCCCCGGAACCGCTCAGGCACAAAGGGCCGCAGGGTGACGAG</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_4245" Name="gcvT" Position="-213" Score="32">
+          <Sequence>CTCTGGAAAGCAGTCGCGGATGCGATGCTGGTCCGGAGCGTTTGGCGTTTTGCGCCTCGCTTCCGGCTGCATGGATCAAGCGACTCACCGAAGGAGTAAGCCGGCCCTTCCGCGTGACGGGGTTCCGGTGAATCTCTCAGGTTCCTGCGACAGAGGGG</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_2080" Name="dppA" Position="-18" Score="50.4">
+          <Sequence>CCAGAAGACGTCCGGAGAGTGACCGGCCCTGCCGGTCCGCCGAAGGAGCAAGCCGCGTCAGCGGTGAATCTCTCAGGCCCAGAACGGACGGGGCGAC</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_2080" Name="dppA" Position="-104" Score="60.4">
+          <Sequence>AATGGCAGCACCGGGAGAGACCGGATCGATCCGGCACCGAAGGAGCAACCGCCCCGGAAACTCTCAGGTCAAAGGACCGGTGCCT</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3728732" LocusId="AZC_2080" Name="dppA" Function="putative ABC transporter (substrate-binding protein)" />
+          <Members vimssId="3728731" LocusId="AZC_2079" Name="dppB" Function="Dipeptide transport system permease protein DppB (TC 3.A.1.5.2)" />
+          <Members vimssId="3728730" LocusId="AZC_2078" Name="dppC" Function="Dipeptide transport system permease protein DppC (TC 3.A.1.5.2)" />
+          <Members vimssId="3728729" LocusId="AZC_2077" Name="dppD" Function="Dipeptide transport system ATP-binding protein DppD" />
+          <Members vimssId="3728728" LocusId="AZC_2076" Name="RPA1213" Function="MlrC-like protein" />
+          <Members vimssId="3728727" LocusId="AZC_2075" Name="abgB" Function="Hippurate hydrolase (EC 3.5.1.32)" />
+          <Members vimssId="3728726" LocusId="AZC_2074" Name="argE" Function="blr5597; putative carboxypeptidase precursor (EC 3.4.17.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3730926" LocusId="AZC_4245" Name="gcvT" Function="Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10)" />
+          <Members vimssId="3730927" LocusId="AZC_4246" Name="gcvH" Function="Glycine cleavage system H protein" />
+          <Members vimssId="3730928" LocusId="AZC_4247" Name="NGR_b19840" Function="OsmC/Ohr family protein" />
+          <Members vimssId="3730929" LocusId="AZC_4248" Name="gcvP1" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P1 protein) (EC 1.4.4.2)" />
+          <Members vimssId="3730930" LocusId="AZC_4249" Name="gcvP2" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P2 protein) (EC 1.4.4.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00521" RegulationMode="RF00521">
+      <Regulator Key="SAM_alpha" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37547" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="SAM_alpha" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_4021" Name="metY" Position="-131" Score="58.5">
+          <Sequence>CCCCGGCTCGTGGAGAATTTGAGCCGGCCGGCTTGCTGCCACGTTAAACAGATCGCTAAAAGGCCGGGGACGTGGCAGGCG</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3730694" LocusId="AZC_4021" Name="metY" Function="O-succinylhomoserine sulfhydrylase (EC 2.5.1.48) / O-acetylhomoserine sulfhydrylase (EC 2.5.1.49)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37247" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_2607" Name="thiC" Position="-245" Score="63.9">
+          <Sequence>CTTATTCCAAGGGGGGCCCCGCGAGGGGGCTGAGATATCGTCTTCCGGTCCGGCCGTAATGGTCCCCGGCGCCACGATGACCCTTCGAACCTGATCCGGGTCATGCCGGCGAAGGGATCGGAATCAGCCTGGCGCCC</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AZC_1826" Name="thiD" Position="-144" Score="46.8">
+          <Sequence>CCATCTCGTCGGGGTGCCGTCCGTCACGGGCGGCTGAGAGGCCAACGCCAACCCGCGAACCTGATCCGGATCATGCCGGCGGAGGGAACCGAGACTGCGGCGCGCTT</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3729263" LocusId="AZC_2607" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3728476" LocusId="AZC_1826" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01068" RegulationMode="RF01068">
+      <Regulator Key="mini-ykkC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37052" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="mini-ykkC" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_4400" Name="amt1" Position="-76" Score="36.4">
+          <Sequence>GACCGGGACGACCCGGTTGCTGTCGAGGGGCCCGGCCGGGACGACCCGGCA</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3731082" LocusId="AZC_4400" Name="amt1" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="3731083" LocusId="AZC_4401" Name="amt2" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="3731084" LocusId="AZC_4402" Name="ucaA" Function="Urea carboxylase (EC 6.3.4.6)" />
+          <Members vimssId="3731085" LocusId="AZC_4403" Name="ucaB" Function="Allophanate hydrolase (EC 3.5.1.54) # truncated" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00517" RegulationMode="RF00517">
+      <Regulator Key="serC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37382" />
+      <Effector />
+      <Pathway>Serine biosynthesis</Pathway>
+      <LocusTag Key="serC" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_0984" Name="serC" Position="-50" Score="58.6">
+          <Sequence>CGCGGGACACTCCCCCCCAACGGGGAGCGCCCATCTGAAAGGATGGACACATG</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3727624" LocusId="AZC_0984" Name="serC" Function="Phosphoserine aminotransferase (EC 2.6.1.52)" />
+          <Members vimssId="3727625" LocusId="AZC_0985" Name="serA" Function="D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00518" RegulationMode="RF00518">
+      <Regulator Key="speF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37412" />
+      <Effector />
+      <Pathway>Ornithine degradation</Pathway>
+      <LocusTag Key="speF" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_0333" Name="speF" Position="-495" Score="144">
+          <Sequence>TCCTGCCCAATTTCGCACGTGCCTGTGGTTGCGTGCCGATCGGCGGAAGTCCGGACAAGAGGCCGGAAAGCCGCCAGCCAGATCGGTAGCCGGAGGGAACCGGCCCACCCTGCTCTCAGCAGGGGACGTGACTTGAAGCAACGACGTAGCGGGCTTTTTTGGTCTCTGCCGGCCCTCCAAAGGTCGGGGTTACTGAAGAGGCACTACATCTTGCCGGCCGTGCGGAGAGGGAATTCCCTTTCCAATCGTGCGCATCATCTTCCCAACGCCTGGCGTTTTTGCCGCGCGAAGGGAGCGGTGCCGCTCGG</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3726962" LocusId="AZC_0333" Name="speF" Function="Ornithine decarboxylase (EC 4.1.1.17) / Arginine decarboxylase (EC 4.1.1.19)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00442" RegulationMode="RF00442">
+      <Regulator Key="ykkC-yxkD" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37592" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="ykkC-yxkD" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AZC_4397" Name="uctB" Position="-113" Score="72.8">
+          <Sequence>GAGTTGGTGGCTAGGGTTCCGGCGCCGGAAGGCGTGTCTGGTCCGAGAGCTGCCACCGGTCCGGGAGACATCCGGATCGGGCGCACGGCGGGATAAAAGCCCGGGAGACCT</Sequence>
+          <Bacteria>Azorhizobium caulinodans ORS 571</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3731079" LocusId="AZC_4397" Name="uctB" Function="Urea carboxylase-related ABC transporter, periplasmic substrate-binding protein" />
+          <Members vimssId="3731080" LocusId="AZC_4398" Name="uctP" Function="Urea carboxylase-related ABC transporter, permease protein" />
+          <Members vimssId="3731081" LocusId="AZC_4399" Name="uctA" Function="Urea carboxylase-related ABC transporter, ATPase protein" />
+          <Members vimssId="3731082" LocusId="AZC_4400" Name="amt3" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="3731083" LocusId="AZC_4401" Name="amt4" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="3731084" LocusId="AZC_4402" Name="ucaA" Function="Urea carboxylase (EC 6.3.4.6) # [Carbamoyl-phosphate synthase large chain (EC 6.3.5.5), ATP binding domain/Biotin carboxylase (EC 6.3.4.14)/Allophanate hydrolase 2 subunit 2 (EC 3.5.1.54)/Allophanate hydrolase 2 subunit 1 (EC 3.5.1.54)/Biotin carboxyl ..." />
+          <Members vimssId="3731085" LocusId="AZC_4403" Name="ucaB2" Function="Allophanate hydrolase (EC 3.5.1.54) # truncated" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

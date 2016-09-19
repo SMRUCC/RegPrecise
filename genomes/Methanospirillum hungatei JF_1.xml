@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Methanospirillum hungatei JF-1" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="Phr" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53197" />
+      <Effector />
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Mhun_2633" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1259332&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="Phr - Methanomicrobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5429" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mhun_2633" Name="phr" Position="-21" Score="5.7">
+          <Sequence>TTCACTAACATAGAGTTAGTGAT</Sequence>
+          <Bacteria>Methanospirillum hungatei JF-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mhun_0129" Name="grpE" Position="-182" Score="5">
+          <Sequence>TACACTAACTTCAAGTAAATACT</Sequence>
+          <Bacteria>Methanospirillum hungatei JF-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1256787" LocusId="Mhun_0129" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="1256786" LocusId="Mhun_0128" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="1256785" LocusId="Mhun_0127" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1259332" LocusId="Mhun_2633" Name="phr" Function="Heat shock response regulator Phr, ArsR family" />
+          <Members vimssId="1259333" LocusId="Mhun_2634" Name="hsp20-2" Function="Small heat shock protein 20" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5429</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="[Other]" RegulationMode="">
+      <Regulator Key="RbkR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66605" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="Mhun_1259" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1257938&amp;disp=0" />
+      <BiologicalProcess>Riboflavin biosynthesis</BiologicalProcess>
+      <Regulog Key="RbkR - Methanomicrobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6884" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mhun_1259" Name="rbkR" Position="-68" Score="5">
+          <Sequence>CATATCACTTATGATATC</Sequence>
+          <Bacteria>Methanospirillum hungatei JF-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mhun_1259" Name="rbkR" Position="-18" Score="5.1">
+          <Sequence>CATCTCACATATGATATC</Sequence>
+          <Bacteria>Methanospirillum hungatei JF-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1257938" LocusId="Mhun_1259" Name="rbkR" Function="DNA-binding HTH domain in riboflavin kinase / CTP-dependent archaeal riboflavin kinase" />
+          <Members vimssId="1257937" LocusId="Mhun_1258" Name="ribB" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6884</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

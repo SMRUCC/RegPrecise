@@ -1,0 +1,1841 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Pseudomonas syringae pv. tomato str. DC3000" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14972" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="PSPTO0610" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=333636&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1605" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO0494" Name="bioB" Position="-128" Score="8.8">
+          <Sequence>ATGTAAACC---------------GGTTGACAG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO0493" Name="COG1040" Position="5" Score="8.8">
+          <Sequence>CTGTCAACC---------------GGTTTACAT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="333522" LocusId="PSPTO0494" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="333523" LocusId="PSPTO0495" Name="bioF" Function="8-amino-7-oxononanoate synthase (EC 2.3.1.47)" />
+          <Members vimssId="333524" LocusId="PSPTO0496" Name="bioH" Function="hypothetical protein" />
+          <Members vimssId="333525" LocusId="PSPTO0497" Name="bioC" Function="Biotin synthesis protein bioC" />
+          <Members vimssId="333526" LocusId="PSPTO0498" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="333521" LocusId="PSPTO0493" Name="COG1040" Function="Competence protein F homolog, phosphoribosyltransferase domain; protein YhgH required for utilization of DNA as sole source of carbon and energy" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1605</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51303" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="PSPTO5280" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=338190&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5201" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO5279" Name="cadA" Position="-59" Score="6.5">
+          <Sequence>ACCCTATAGTGGCTACAGGGT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="338189" LocusId="PSPTO5279" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5201</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="CueR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50911" />
+      <Effector>Copper ion, (Cu+)</Effector>
+      <Pathway>Copper resistance</Pathway>
+      <LocusTag Key="PSPTO0749" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=333775&amp;disp=0" />
+      <BiologicalProcess>Copper resistance</BiologicalProcess>
+      <Regulog Key="CueR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5159" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO0752" Name="copZ" Position="-59" Score="6">
+          <Sequence>ACCTTGCCATGATGGCAAGGT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO0750" Name="copA" Position="-59" Score="5.4">
+          <Sequence>ACCTTGCCCATGTGGCAAGGT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="333778" LocusId="PSPTO0752" Name="copZ" Function="Copper chaperone" />
+        </Operon>
+        <Operon>
+          <Members vimssId="333776" LocusId="PSPTO0750" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="333775" LocusId="PSPTO0749" Name="cueR" Function="Copper-responsive transcriptional regulator, MerR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5159</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="DesT" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14436" />
+      <Effector>Unsaturated acyl-CoA; Unsaturated acyl-ACP</Effector>
+      <Pathway>Fatty acid biosynthesis</Pathway>
+      <LocusTag Key="PSPTO4908" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=337820&amp;disp=0" />
+      <BiologicalProcess>Fatty acid biosynthesis</BiologicalProcess>
+      <Regulog Key="DesT - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1544" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO2211" Name="fabA" Position="-163" Score="5.7">
+          <Sequence>AGTGTACAGGTGTACTTT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="335211" LocusId="PSPTO2211" Name="fabA" Function="3-hydroxydecanoyl-[acyl-carrier-protein] dehydratase (EC 4.2.1.60)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1544</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="FruR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=20697" />
+      <Effector>Fructose-1-phosphate; Fructose-1,6-diphosphate</Effector>
+      <Pathway>Fructose utilization</Pathway>
+      <LocusTag Key="PSPTO0953" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=333971&amp;disp=0" />
+      <BiologicalProcess>Fructose utilization</BiologicalProcess>
+      <Regulog Key="FruR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2239" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO0953" Name="fruR" Position="-204" Score="5">
+          <Sequence>GCTGAATCGTTTAATC</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO0954" Name="fruB" Position="-166" Score="4.5">
+          <Sequence>GATTAAACGATTCAGC</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="333972" LocusId="PSPTO0954" Name="fruB" Function="Fructose-specific phosphocarrier protein HPr (EC 2.7.1.69) / PTS system, fructose-specific IIA component (EC 2.7.1.69)" />
+          <Members vimssId="333973" LocusId="PSPTO0955" Name="fruK" Function="1-phosphofructokinase (EC 2.7.1.56)" />
+          <Members vimssId="333974" LocusId="PSPTO0956" Name="fruA" Function="PTS system, fructose-specific IIB component (EC 2.7.1.69) / PTS system, fructose-specific IIC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="333971" LocusId="PSPTO0953" Name="fruR" Function="Fructose operon transcriptional regulator FruR, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2239</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TyrR" RegulationMode="activator">
+      <Regulator Key="GcvR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60195" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="PSPTO1280" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=334288&amp;disp=0" />
+      <BiologicalProcess>Glycine metabolism</BiologicalProcess>
+      <Regulog Key="GcvR - Pseudomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6180" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO1277" Name="gcvH" Position="-156" Score="5.8">
+          <Sequence>CCGTAGCGATTTCGCTACAG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO1277" Name="gcvH" Position="-256" Score="5.4">
+          <Sequence>GCGAAACGAAATCGTTCCAC</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO1277" Name="gcvH" Position="-237" Score="5.4">
+          <Sequence>CCGTAACGATTACATTACAG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="334286" LocusId="PSPTO1277" Name="gcvH" Function="Glycine cleavage system H protein" />
+          <Members vimssId="334285" LocusId="PSPTO1276" Name="gcvP" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P protein) (EC 1.4.4.2)" />
+          <Members vimssId="334284" LocusId="PSPTO1275" Name="gcvT" Function="Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6180</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="GguR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62998" />
+      <Effector />
+      <Pathway>Glucuronate utilization; Glucarate utilization; Galacturonate utilization; Galactarate utilization</Pathway>
+      <LocusTag Key="PSPTO3283" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=336245&amp;disp=0" />
+      <BiologicalProcess>Glucuronate utilization; Glucarate utilization; Galacturonate utilization; Galactarate utilization</BiologicalProcess>
+      <Regulog Key="GguR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6493" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO4549" Name="kdgD" Position="-77" Score="5.1">
+          <Sequence>CAGTTGTACGATGACTT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO3323" Name="kgsD" Position="-163" Score="5.1">
+          <Sequence>AAGTTGTACGATGACTG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO1053" Name="udh" Position="-48" Score="5.1">
+          <Sequence>AAGTCATACGACAACAG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO5219" Name="exuT" Position="-385" Score="4.2">
+          <Sequence>CAGTCATCGTATAACGA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO5219" Name="exuT" Position="-265" Score="5.6">
+          <Sequence>ATGTTGTACGACAACAT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="336285" LocusId="PSPTO3323" Name="kgsD" Function="Alpha-ketoglutaric semialdehyde dehydrogenase (EC 1.2.1.26)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="337481" LocusId="PSPTO4549" Name="kdgD" Function="5-dehydro-4-deoxyglucarate dehydratase (EC 4.2.1.41)" />
+          <Members vimssId="337480" LocusId="PSPTO4548" Name="garP" Function="D-galactarate permease" />
+          <Members vimssId="337479" LocusId="PSPTO4547" Name="garD" Function="D-galactarate dehydratase (EC 4.2.1.42)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="338129" LocusId="PSPTO5219" Name="exuT" Function="Hexuronate transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="334068" LocusId="PSPTO1053" Name="udh" Function="Uronate dehydrogenase (EC 1.1.1.203)" />
+          <Members vimssId="334067" LocusId="PSPTO1052" Name="uxuL" Function="Predicted glucuronolactone/galactarolactone lactonase" />
+          <Members vimssId="334066" LocusId="PSPTO1051" Name="uxuP" Function="Predicted glucuronate /galacturonate TRAP-type transporter, periplasmic component" />
+          <Members vimssId="334065" LocusId="PSPTO1050" Name="uxuQ" Function="Predicted glucuronate /galacturonate TRAP-type transporter, small permease component" />
+          <Members vimssId="334064" LocusId="PSPTO1049" Name="uxuM" Function="Predicted glucuronate /galacturonate TRAP-type transporter, large permease component" />
+          <Members vimssId="334063" LocusId="PSPTO1048" Name="PF00892" Function="Drug/metabolite transporter" />
+          <Members vimssId="334062" LocusId="PSPTO1047" Name="aldE" Function="Aldose 1-epimerase (EC 5.1.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6493</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="GntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49848" />
+      <Effector>Gluconate</Effector>
+      <Pathway>Gluconate utilization</Pathway>
+      <LocusTag Key="PSPTO3563" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=336521&amp;disp=0" />
+      <BiologicalProcess>Gluconate utilization</BiologicalProcess>
+      <Regulog Key="GntR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5049" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO3564" Name="gntK" Position="-238" Score="5.7">
+          <Sequence>ATAAGGTAGCGCTGTCTCAT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO3564" Name="gntK" Position="-74" Score="5.8">
+          <Sequence>CAAAGACAGCGCTGTCTCCA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO3565" Name="gntT" Position="-82" Score="5.9">
+          <Sequence>AAAAGACAGCGCTGTCTTGC</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO3563" Name="gntR" Position="-229" Score="5.8">
+          <Sequence>TGGAGACAGCGCTGTCTTTG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO3563" Name="gntR" Position="-65" Score="5.7">
+          <Sequence>ATGAGACAGCGCTACCTTAT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="336523" LocusId="PSPTO3565" Name="gntT" Function="High-affinity H+/gluconate symporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="336522" LocusId="PSPTO3564" Name="gntK" Function="Thermoresistant gluconokinase (EC 2.7.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="336521" LocusId="PSPTO3563" Name="gntR" Function="Gluconate utilization transcriptional regulator GntR, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5049</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor (activator)">
+      <Regulator Key="HexR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=20498" />
+      <Effector>2-keto-3-deoxy-6-phosphogluconate</Effector>
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="PSPTO1299" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=334307&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="HexR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2219" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO1288" Name="edd" Position="-140" Score="6.9">
+          <Sequence>ATtTTGT------ACAACta</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO1300" Name="zwf" Position="-85" Score="7.8">
+          <Sequence>ATGTTGT------ACTACAT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO1288" Name="edd" Position="-201" Score="7.5">
+          <Sequence>TTGTTGT------ACAAGAT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO1299" Name="hexR" Position="-154" Score="7.8">
+          <Sequence>ATGTAGT------ACAACAT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO1287" Name="gapA" Position="-98" Score="6.3">
+          <Sequence>TTGTAGA------ACAAAAT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO1287" Name="gapA" Position="-39" Score="7.5">
+          <Sequence>ATCTTGT------ACAACAA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="334307" LocusId="PSPTO1299" Name="hexR" Function="Central carbohydrate metabolism transcription regulator HexR, RpiR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="334296" LocusId="PSPTO1288" Name="edd" Function="Phosphogluconate dehydratase (EC 4.2.1.12)" />
+          <Members vimssId="334297" LocusId="PSPTO1289" Name="glk" Function="Glucokinase (EC 2.7.1.2)" />
+          <Members vimssId="334298" LocusId="PSPTO1290" Name="gltR" Function="DNA-binding response regulator GltR, controls specific porins for the entry of glucose" />
+          <Members vimssId="334299" LocusId="PSPTO1291" Name="gltS" Function="Integral membrane sensor signal transduction histidine kinase (EC 2.7.13.3), glucose catabolism cluster" />
+        </Operon>
+        <Operon>
+          <Members vimssId="334308" LocusId="PSPTO1300" Name="zwf" Function="Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)" />
+          <Members vimssId="334309" LocusId="PSPTO1301" Name="pgl" Function="6-phosphogluconolactonase (EC 3.1.1.31), eukaryotic type" />
+          <Members vimssId="334310" LocusId="PSPTO1302" Name="eda" Function="4-Hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16) / 2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="334295" LocusId="PSPTO1287" Name="gapA" Function="NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2219</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor (activator)">
+      <Regulator Key="HexR1" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14808" />
+      <Effector>2-keto-3-deoxy-6-phosphogluconate</Effector>
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="PSPTO5515" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=338418&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="HexR1 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1586" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO5005" Name="aceE" Position="-127" Score="6.2">
+          <Sequence>TTGTAGTAAAACTACAC</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO5005" Name="aceE" Position="-179" Score="5.4">
+          <Sequence>CTGTAGTTTTACTACTG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO5515" Name="hexR1" Position="-61" Score="6.3">
+          <Sequence>ATGTAGTATAACTACAA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="337917" LocusId="PSPTO5005" Name="aceE" Function="Pyruvate dehydrogenase E1 component (EC 1.2.4.1)" />
+          <Members vimssId="337918" LocusId="PSPTO5006" Name="aceF" Function="Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex (EC 2.3.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="338418" LocusId="PSPTO5515" Name="hexR1" Function="Central carbohydrate metabolism transcription regulator HexR, RpiR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1586</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="IclR" RegulationMode="repressor">
+      <Regulator Key="HmgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60211" />
+      <Effector>Homogentisate</Effector>
+      <Pathway>Tyrosine degradation</Pathway>
+      <LocusTag Key="PSPTO3552" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=336511&amp;disp=0" />
+      <BiologicalProcess>Tyrosine degradation</BiologicalProcess>
+      <Regulog Key="HmgR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6182" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO3554" Name="hmgB" Position="-62" Score="4.7">
+          <Sequence>TGCGTAATGTGGTTACAAA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO3551" Name="hmgA" Position="-63" Score="5.5">
+          <Sequence>TGCGTAATTGTTTTACGAT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO3552" Name="hmgR" Position="-84" Score="5.5">
+          <Sequence>ATCGTAAAACAATTACGCA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="336511" LocusId="PSPTO3552" Name="hmgR" Function="Tyrosine degradation transcriptional regulator, IclR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="336513" LocusId="PSPTO3554" Name="hmgB" Function="Maleylacetoacetate isomerase (EC 5.2.1.2)" />
+          <Members vimssId="336512" LocusId="PSPTO3553" Name="hpd" Function="4-hydroxyphenylpyruvate dioxygenase (EC 1.13.11.27)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="336510" LocusId="PSPTO3551" Name="hmgA" Function="Homogentisate 1,2-dioxygenase (EC 1.13.11.5)" />
+          <Members vimssId="336509" LocusId="PSPTO3550" Name="hmgC" Function="Fumarylacetoacetase (EC 3.7.1.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6182</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="HpxS" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57079" />
+      <Effector />
+      <Pathway>Allantoin utilization</Pathway>
+      <LocusTag Key="PSPTO1873" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=334875&amp;disp=0" />
+      <BiologicalProcess>Allantoin utilization</BiologicalProcess>
+      <Regulog Key="HpxS - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5836" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO1873" Name="hpxS" Position="-63" Score="4.6">
+          <Sequence>TCTTGTATACGATC</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="334875" LocusId="PSPTO1873" Name="hpxS" Function="Transcriptional regulator for allantoin utilization, GntR family" />
+          <Members vimssId="334876" LocusId="PSPTO1874" Name="hyuE" Function="Hydantoin racemase (EC 5.1.99.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5836</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="HutC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17332" />
+      <Effector>cis-Urocanic acid</Effector>
+      <Pathway>Histidine utilization</Pathway>
+      <LocusTag Key="PSPTO5172" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=338082&amp;disp=0" />
+      <BiologicalProcess>Histidine utilization</BiologicalProcess>
+      <Regulog Key="HutC - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1869" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO5171" Name="hutF" Position="-41" Score="5">
+          <Sequence>GTATATGTATATACAAATTA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO5270" Name="hutU" Position="-10" Score="4.6">
+          <Sequence>TTGATTGCATATGCTTGTAT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO5270" Name="hutU" Position="0" Score="5.9">
+          <Sequence>ATGCTTGTATGTACAAGTAG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO5172" Name="hutC" Position="-142" Score="5.3">
+          <Sequence>TAATTTGTATATACATATAC</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="338082" LocusId="PSPTO5172" Name="hutC" Function="Histidine utilization repressor, GntR family" />
+          <Members vimssId="338083" LocusId="PSPTO5173" Name="hutD" Function="Conserved hypothetical protein related to histidine degradation" />
+        </Operon>
+        <Operon>
+          <Members vimssId="338081" LocusId="PSPTO5171" Name="hutF" Function="Formiminoglutamic iminohydrolase (EC 3.5.3.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="338180" LocusId="PSPTO5270" Name="hutU" Function="Urocanate hydratase (EC 4.2.1.49)" />
+          <Members vimssId="338181" LocusId="PSPTO5271" Name="hutX" Function="Histidine ABC transporter, histidine-binding protein (TC 3.A.1)" />
+          <Members vimssId="338182" LocusId="PSPTO5272" Name="hutW" Function="Histidine ABC transporter, permease protein (TC 3.A.1)" />
+          <Members vimssId="338183" LocusId="PSPTO5273" Name="hutV" Function="Histidine ABC transporter, ATP-binding protein" />
+          <Members vimssId="338184" LocusId="PSPTO5274" Name="hutH2" Function="Histidine ammonia-lyase (EC 4.3.1.3)" />
+          <Members vimssId="338185" LocusId="PSPTO5275" Name="hutH" Function="Histidine ammonia-lyase (EC 4.3.1.3)" />
+          <Members vimssId="338186" LocusId="PSPTO5276" Name="hisT" Function="Histidine transport protein (permease)" />
+          <Members vimssId="338187" LocusId="PSPTO5277" Name="hutI" Function="Imidazolonepropionase (EC 3.5.2.7)" />
+          <Members vimssId="338188" LocusId="PSPTO5278" Name="hutG" Function="N-formylglutamate deformylase (EC 3.5.1.68)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1869</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17876" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="PSPTO1422" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=334427&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1930" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO1422" Name="iscR" Position="-65" Score="7.1">
+          <Sequence>ATAGTTGACTAATTTGCTCGGGAAT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO0605" Name="erpA" Position="-93" Score="6.9">
+          <Sequence>ATAGTTGACCGATTTTCTAGGAGAA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="333631" LocusId="PSPTO0605" Name="erpA" Function="ErpA, essential respiratory protein A / probable iron binding protein from the HesB_IscA_SufA family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="334427" LocusId="PSPTO1422" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="334428" LocusId="PSPTO1423" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+          <Members vimssId="334429" LocusId="PSPTO1424" Name="iscU" Function="Iron-sulfur cluster assembly scaffold protein IscU" />
+          <Members vimssId="334430" LocusId="PSPTO1425" Name="iscA" Function="Iron binding protein IscA for iron-sulfur cluster assembly" />
+          <Members vimssId="334431" LocusId="PSPTO1426" Name="hscB" Function="Chaperone protein HscB" />
+          <Members vimssId="334432" LocusId="PSPTO1427" Name="hscA" Function="Chaperone protein HscA" />
+          <Members vimssId="334433" LocusId="PSPTO1428" Name="fdx" Function="ferredoxin, 2Fe-2S type, ISC system" />
+          <Members vimssId="334434" LocusId="PSPTO1429" Name="yfhJ" Function="putative Fe-S cluster assembly protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1930</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28324" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="PSPTO3510" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=336469&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2979" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO4507" Name="recN" Position="-40" Score="6">
+          <Sequence>ACTGTATAAATATCCAGA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO3510" Name="lexA" Position="-46" Score="5.5">
+          <Sequence>ACTGTATATAATCCCAGT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO3510" Name="lexA" Position="-27" Score="5.7">
+          <Sequence>ACTGTATAAAAAGCCAGA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO1197" Name="PF07130" Position="-224" Score="5.9">
+          <Sequence>ACTGTATAAAAACACAGT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO4120" Name="dinG" Position="-48" Score="5.2">
+          <Sequence>ACTGAAAATTTATCCAGC</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO1197" Name="yebG" Position="-224" Score="5.9">
+          <Sequence>ACTGTATAAAAACACAGT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO4033" Name="recA" Position="-67" Score="5.1">
+          <Sequence>ACTGTTTACTTATACAGG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO5254" Name="PF04055" Position="-34" Score="5.3">
+          <Sequence>ACTGTACGGATAAACAGT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO3272" Name="PF08774" Position="-22" Score="4.9">
+          <Sequence>TCTGTACGGATAACCAGT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO2365" Name="PF07867" Position="-37" Score="4.8">
+          <Sequence>ACTGTATGCCCGTACAGC</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO2478" Name="topB" Position="-87" Score="5.2">
+          <Sequence>TCTGTATATCCATACAGA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTOA0002" Name="umuD" Position="-46" Score="5.3">
+          <Sequence>ACTGTACGTCTATACAGT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="337060" LocusId="PSPTO4120" Name="dinG" Function="ATP-dependent helicase DinG/Rad3" />
+        </Operon>
+        <Operon>
+          <Members vimssId="334208" LocusId="PSPTO1197" Name="yebG" Function="SOS regulon DNA damage-inducible protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="336974" LocusId="PSPTO4033" Name="recA" Function="Recombinase A" />
+          <Members vimssId="336973" LocusId="PSPTO4032" Name="recX" Function="Regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="335469" LocusId="PSPTO2478" Name="topB" Function="DNA topoisomerase III (EC 5.99.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2209183" LocusId="PSPTOA0002" Name="umuD" Function="DNA polymerase V, subunit UmuD" />
+        </Operon>
+        <Operon>
+          <Members vimssId="335360" LocusId="PSPTO2365" Name="PF07867" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="336469" LocusId="PSPTO3510" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+          <Members vimssId="336470" LocusId="PSPTO3511" Name="sulA" Function="Cell division inhibitor sulA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="337439" LocusId="PSPTO4507" Name="recN" Function="DNA repair protein RecN" />
+        </Operon>
+        <Operon>
+          <Members vimssId="338164" LocusId="PSPTO5254" Name="PF04055" Function="DNA repair photolyase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="336234" LocusId="PSPTO3272" Name="PF08774" Function="Hypothetical protein, restriction endonuclease-like VRR-NUC domain" />
+        </Operon>
+        <Operon>
+          <Members vimssId="334208" LocusId="PSPTO1197" Name="PF07130" Function="Conserved hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2979</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28729" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="PSPTO2792" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=335776&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA2 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3022" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO2792" Name="lexA2" Position="-17" Score="6.8">
+          <Sequence>GAGTACAAATGTACTC</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="335776" LocusId="PSPTO2792" Name="lexA2" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+          <Members vimssId="335777" LocusId="PSPTO2793" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="335778" LocusId="PSPTO2794" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+          <Members vimssId="335779" LocusId="PSPTO2795" Name="dnaE2" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3022</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="LiuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28520" />
+      <Effector />
+      <Pathway>Branched-chain amino acid degradation</Pathway>
+      <LocusTag Key="PSPTO2743" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=335728&amp;disp=0" />
+      <BiologicalProcess>Branched-chain amino acid degradation</BiologicalProcess>
+      <Regulog Key="LiuR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3000" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO2739" Name="liuA" Position="109" Score="6.5">
+          <Sequence>gTTTACGTTAACGTAAAG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO2743" Name="liuR" Position="-62" Score="5.7">
+          <Sequence>CTTGACGCTTACGTAAAG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="335724" LocusId="PSPTO2739" Name="liuA" Function="Isovaleryl-CoA dehydrogenase (EC 1.3.99.10)" />
+          <Members vimssId="335723" LocusId="PSPTO2738" Name="liuB" Function="Methylcrotonyl-CoA carboxylase carboxyl transferase subunit (EC 6.4.1.4)" />
+          <Members vimssId="335722" LocusId="PSPTO2737" Name="liuC" Function="Methylglutaconyl-CoA hydratase (EC 4.2.1.18)" />
+          <Members vimssId="335721" LocusId="PSPTO2736" Name="liuD" Function="Methylcrotonyl-CoA carboxylase biotin-containing subunit (EC 6.4.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="335728" LocusId="PSPTO2743" Name="liuR" Function="Predicted transcriptional regulator LiuR of leucine degradation pathway, MerR family" />
+          <Members vimssId="335727" LocusId="PSPTO2742" Name="liuE" Function="Hydroxymethylglutaryl-CoA lyase (EC 4.1.3.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3000</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor (activator)">
+      <Regulator Key="MetR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56651" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="PSPTO4180" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=337120&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5787" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO4179" Name="metE" Position="-64" Score="5.5">
+          <Sequence>AATGAGTTTGTCTCATG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO4180" Name="metR" Position="-59" Score="5.5">
+          <Sequence>CATGAGACAAACTCATT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO2732" Name="metH" Position="-99" Score="4.9">
+          <Sequence>CATGAATGATTTTCATG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="335717" LocusId="PSPTO2732" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase, B12-dependent (EC 2.1.1.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="337120" LocusId="PSPTO4180" Name="metR" Function="Homocysteine-responsive transcriptional regulator of methionine metabolism, LysR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="337119" LocusId="PSPTO4179" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5787</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21219" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdenum homeostasis</Pathway>
+      <LocusTag Key="PSPTO0492" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=333520&amp;disp=0" />
+      <BiologicalProcess>Molybdenum homeostasis</BiologicalProcess>
+      <Regulog Key="ModE - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2298" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO2973" Name="modA" Position="-128" Score="6.9">
+          <Sequence>CGCTATATATTTAAATATATAGCG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="335949" LocusId="PSPTO2973" Name="modA" Function="Molybdate ABC transporter, substrate-binding protein" />
+          <Members vimssId="335950" LocusId="PSPTO2974" Name="modB" Function="Molybdate ABC transporter, permease protein" />
+          <Members vimssId="335951" LocusId="PSPTO2975" Name="modC" Function="Molybdate ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2298</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15528" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="PSPTO0689" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=333715&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1667" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO3514" Name="topA" Position="-71" Score="5.7">
+          <Sequence>CCACTATATATAGCGT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO1671" Name="nrdA" Position="-352" Score="5">
+          <Sequence>ACCCTACATGTAGGGT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO1661" Name="nrdB" Position="-447" Score="4.4">
+          <Sequence>TCACTATATGCTGCGC</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO1661" Name="nrdB" Position="-415" Score="3.9">
+          <Sequence>ACACTACATAAGGGAT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="334665" LocusId="PSPTO1661" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="334675" LocusId="PSPTO1671" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="336473" LocusId="PSPTO3514" Name="topA" Function="DNA topoisomerase I (EC 5.99.1.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1667</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19298" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="PSPTO0352" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=333380&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2084" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO5500" Name="alsT" Position="-47" Score="4.8">
+          <Sequence>TGCACCGGTATAGTGCG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO2059" Name="ybdK" Position="-119" Score="5">
+          <Sequence>TGCACAGGAATGGTGCG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO0359" Name="glnA" Position="-208" Score="4.9">
+          <Sequence>AGCGCCATAACGGTGCG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO0353" Name="ntrB" Position="-50" Score="4.2">
+          <Sequence>AGCACCAGCATTGCGCG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO0353" Name="ntrB" Position="-267" Score="5.3">
+          <Sequence>AGCACCTTTTTGGTGCA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO0217" Name="glnK" Position="-315" Score="4.9">
+          <Sequence>AGCACCATTGTTGTGCA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO0217" Name="glnK" Position="-348" Score="4.6">
+          <Sequence>TGCACGCTTATGGCGCG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="333247" LocusId="PSPTO0217" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="333248" LocusId="PSPTO0218" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="338403" LocusId="PSPTO5500" Name="alsT" Function="Predicted alanin/sodium symporter" />
+          <Members vimssId="338404" LocusId="PSPTO5501" Name="ansA" Function="L-asparaginase I (EC 3.5.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="335061" LocusId="PSPTO2059" Name="ybdK" Function="Carboxylate-amine ligase" />
+          <Members vimssId="335062" LocusId="PSPTO2060" Name="PF04168" Function="Conserved hypothetical protein" />
+          <Members vimssId="335063" LocusId="PSPTO2061" Name="PF01841" Function="Transglutaminase-like protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="333387" LocusId="PSPTO0359" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="333381" LocusId="PSPTO0353" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="333380" LocusId="PSPTO0352" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2084</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="PA1520" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57461" />
+      <Effector />
+      <Pathway>Xanthine utilization; Allantoin utilization</Pathway>
+      <LocusTag Key="PSPTO3664" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=336617&amp;disp=0" />
+      <BiologicalProcess>Xanthine utilization; Allantoin utilization</BiologicalProcess>
+      <Regulog Key="PA1520 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5879" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO3666" Name="PA1517" Position="-78" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO3665" Name="PA1518" Position="-89" Score="4.6">
+          <Sequence>TTGTGTACAG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO3664" Name="PA1520" Position="-53" Score="4.6">
+          <Sequence>CTGTGTACAA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO3665" Name="PA1518" Position="-283" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO3666" Name="PA1517" Position="-272" Score="4.6">
+          <Sequence>CTGTACACAA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="336617" LocusId="PSPTO3664" Name="PA1520" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="336618" LocusId="PSPTO3665" Name="PA1518" Function="5-hydroxyisourate hydrolase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="336619" LocusId="PSPTO3666" Name="PA1517" Function="putative uricase" />
+          <Members vimssId="336620" LocusId="PSPTO3667" Name="uraO" Function="Urate oxidase (EC 1.7.3.3)" />
+          <Members vimssId="336621" LocusId="PSPTO3668" Name="alc" Function="Allantoicase (EC 3.5.3.4)" />
+          <Members vimssId="336622" LocusId="PSPTO3669" Name="allA" Function="Ureidoglycolate hydrolase (EC 3.5.3.19)" />
+          <Members vimssId="336623" LocusId="PSPTO3670" Name="PA1513" Function="conserved hypothetical membrane protein, paralogue of Y20848" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5879</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="PFL_0254" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51688" />
+      <Effector />
+      <Pathway>Sugar utilization</Pathway>
+      <LocusTag Key="PSPTO0347" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=333376&amp;disp=0" />
+      <BiologicalProcess>Sugar utilization</BiologicalProcess>
+      <Regulog Key="PFL_0254 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5243" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO0347" Name="PFL_0254" Position="-106" Score="6.9">
+          <Sequence>CGTTGTTAGCGCTAACATCG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="333376" LocusId="PSPTO0347" Name="PFL_0254" Function="Transcriptional regulator, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5243</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="PSPTO0485" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51718" />
+      <Effector />
+      <Pathway>Sugar utilization</Pathway>
+      <LocusTag Key="PSPTO0485" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=333513&amp;disp=0" />
+      <BiologicalProcess>Sugar utilization</BiologicalProcess>
+      <Regulog Key="PSPTO0485 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5247" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO0485" Name="PSPTO0485" Position="-29" Score="4.8">
+          <Sequence>CAATGAGATCGATCTCAAAG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="333513" LocusId="PSPTO0485" Name="PSPTO0485" Function="Predicted sugar utilization transcriptional regulator, LacI family" />
+          <Members vimssId="333514" LocusId="PSPTO0486" Name="RSc1791" Function="Predicted sugar ABC transporter, substrate-binding protein" />
+          <Members vimssId="333515" LocusId="PSPTO0487" Name="RSc1792" Function="Predicted sugar ABC transporter, permease protein 1" />
+          <Members vimssId="333516" LocusId="PSPTO0488" Name="RSc1793" Function="ABC transporter, permease protein" />
+          <Members vimssId="333517" LocusId="PSPTO0489" Name="RSc1794" Function="ABC transporter, ATP-binding protein" />
+          <Members vimssId="333518" LocusId="PSPTO0490" Name="RSc1795" Function="3',5'-cyclic-nucleotide phosphodiesterase (EC 3.1.4.17)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5247</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="PSPTO1352" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57473" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="PSPTO1352" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=334358&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="PSPTO1352 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5881" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO1361" Name="" Position="-26" Score="5.1">
+          <Sequence>TCTTGTATACATGA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="334367" LocusId="PSPTO1361" Name="null" Function="Amidase family protein" />
+          <Members vimssId="334366" LocusId="PSPTO1360" Name="null" Function="Bmp family protein" />
+          <Members vimssId="334365" LocusId="PSPTO1359" Name="null" Function="ABC transporter, permease protein" />
+          <Members vimssId="334364" LocusId="PSPTO1358" Name="null" Function="ABC transporter, permease protein" />
+          <Members vimssId="334363" LocusId="PSPTO1357" Name="amiE" Function="Formamidase amiF (EC 3.5.1.49)" />
+          <Members vimssId="334362" LocusId="PSPTO1356" Name="null" Function="Isochorismatase (EC 3.3.2.1)" />
+          <Members vimssId="334361" LocusId="PSPTO1355" Name="null" Function="ABC transporter, ATP-binding protein" />
+          <Members vimssId="334360" LocusId="PSPTO1354" Name="null" Function="Isochorismatase (EC 3.3.2.1)" />
+          <Members vimssId="334359" LocusId="PSPTO1353" Name="null" Function="no significant database hits" />
+          <Members vimssId="334358" LocusId="PSPTO1352" Name="PSPTO1352" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5881</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="PSPTO5027" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56886" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="PSPTO5027" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=337939&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="PSPTO5027 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5816" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO5377" Name="COG1914" Position="-107" Score="4.9">
+          <Sequence>AATTGTTCAACAATA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO5376" Name="PSPTO5027" Position="-163" Score="4.9">
+          <Sequence>TATTGTTGAACAATT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO5028" Name="PSPTO5028" Position="-311" Score="4.7">
+          <Sequence>GTTTGCTGAACAATC</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="338282" LocusId="PSPTO5376" Name="PSPTO5027" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="338283" LocusId="PSPTO5377" Name="COG1914" Function="Mn2+ and Fe2+ transporters of the NRAMP family" />
+          <Members vimssId="338284" LocusId="PSPTO5378" Name="COG1540" Function="Uncharacterized proteins, homologs of lactam utilization protein B" />
+          <Members vimssId="338285" LocusId="PSPTO5379" Name="COG4336" Function="hypothetical protein possibly connected to lactam utilization and allophanate hydrolase" />
+          <Members vimssId="338286" LocusId="PSPTO5380" Name="alhAB" Function="Putative allophanate hydrolase 2, subunits 1 and 2 fusion (EC 3.5.1.54)" />
+          <Members vimssId="338287" LocusId="PSPTO5381" Name="alhC" Function="Urea carboxylase (EC 6.3.4.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="337940" LocusId="PSPTO5028" Name="PSPTO5028" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5816</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxW2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66447" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine biosynthesis</Pathway>
+      <LocusTag Key="PSPTO5504" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=338407&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine biosynthesis</BiologicalProcess>
+      <Regulog Key="PdxW2 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6865" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO5505" Name="pdxO2" Position="-87" Score="13.3">
+          <Sequence>ATTGGCTCT-(15)-AATGGATCT-(5)-CAGACCAAT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="338408" LocusId="PSPTO5505" Name="pdxO2" Function="Pyridoxamine 5'-phosphate oxidase-related, FMN-binding" />
+          <Members vimssId="338409" LocusId="PSPTO5506" Name="COG456 (RimI), PF00583" Function="GCN5-related N-acetyltransferase (GNAT) domain" />
+          <Members vimssId="338410" LocusId="PSPTO5507" Name="COG1670 (RimL), PF00583" Function="GCN5-related N-acetyltransferase (GNAT) domain" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6865</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TyrR" RegulationMode="activator (repressor)">
+      <Regulator Key="PhhR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=11149" />
+      <Effector>Tyrosine; Phenylalanine</Effector>
+      <Pathway>Aromatic amino acid metabolism</Pathway>
+      <LocusTag Key="PSPTO1823" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=334826&amp;disp=0" />
+      <BiologicalProcess>Aromatic amino acid metabolism</BiologicalProcess>
+      <Regulog Key="PhhR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1210" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO1823" Name="phhR" Position="-88" Score="4.9">
+          <Sequence>GTGTAACGTATTGTTGACGG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO1823" Name="phhR" Position="-161" Score="5.5">
+          <Sequence>TCGTAACGAAAACTTTACGA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO1822" Name="phhA" Position="-206" Score="4.9">
+          <Sequence>CCGTCAACAATACGTTACAC</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO1822" Name="phhA" Position="-133" Score="5.5">
+          <Sequence>TCGTAAAGTTTTCGTTACGA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="334826" LocusId="PSPTO1823" Name="phhR" Function="Phenylalanine degradation transcriptional activator, TyrR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="334825" LocusId="PSPTO1822" Name="phhA" Function="Phenylalanine-4-hydroxylase (EC 1.14.16.1)" />
+          <Members vimssId="334824" LocusId="PSPTO1821" Name="phhB" Function="Pterin-4-alpha-carbinolamine dehydratase (EC 4.2.1.96)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1210</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PhnF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31623" />
+      <Effector />
+      <Pathway>Phosphonate utilization</Pathway>
+      <LocusTag Key="PSPTO2558" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=335547&amp;disp=0" />
+      <BiologicalProcess>Phosphonate utilization</BiologicalProcess>
+      <Regulog Key="PhnF - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3268" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO2558" Name="phnF" Position="6" Score="5.2">
+          <Sequence>TTGTCTAGACAA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="335547" LocusId="PSPTO2558" Name="phnF" Function="Transcriptional regulator for phosphonates utilization, GntR family" />
+          <Members vimssId="335548" LocusId="PSPTO2559" Name="phnG" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnG" />
+          <Members vimssId="335549" LocusId="PSPTO2560" Name="phnH" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnH" />
+          <Members vimssId="335550" LocusId="PSPTO2561" Name="phnI" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnI" />
+          <Members vimssId="335551" LocusId="PSPTO2562" Name="phnJ" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnJ" />
+          <Members vimssId="335552" LocusId="PSPTO2563" Name="phnK" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnK" />
+          <Members vimssId="335553" LocusId="PSPTO2564" Name="phnL" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnL" />
+          <Members vimssId="335554" LocusId="PSPTO2565" Name="pnhM" Function="Alpha-D-ribose-1-methylphosphonate-5-triphosphate hydrolase" />
+          <Members vimssId="335555" LocusId="PSPTO2566" Name="phnN" Function="Ribose 1,5-bisphosphokinase activity (phosphoribosyl diphosphate forming)" />
+          <Members vimssId="335556" LocusId="PSPTO2567" Name="phnP" Function="Phosphoribosyl 1,2-cyclic phosphodiesterase (EC 3.1.4.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3268</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PhnR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31819" />
+      <Effector />
+      <Pathway>Phosphonate utilization; 2-aminoethylphosphonate utilization</Pathway>
+      <LocusTag Key="PSPTO3877" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=336827&amp;disp=0" />
+      <BiologicalProcess>Phosphonate utilization; 2-aminoethylphosphonate utilization</BiologicalProcess>
+      <Regulog Key="PhnR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3289" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO3877" Name="phnR" Position="-304" Score="4.7">
+          <Sequence>TGGTCTAGATCA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO3877" Name="phnR" Position="-24" Score="5.3">
+          <Sequence>TGGTCTAGTCCA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO3878" Name="phnS" Position="-345" Score="5.4">
+          <Sequence>TGGACTAGACCA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO3878" Name="phnS" Position="-65" Score="5.4">
+          <Sequence>TGATCTAGACCA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="336827" LocusId="PSPTO3877" Name="phnR" Function="2-aminoethylphosphonate uptake and metabolism regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="336828" LocusId="PSPTO3878" Name="phnS" Function="2-aminoethylphosphonate ABC transporter, periplasmic binding component (TC 3.A.1.9.1)" />
+          <Members vimssId="336829" LocusId="PSPTO3879" Name="PF01663" Function="type I phosphodiesterase" />
+          <Members vimssId="336830" LocusId="PSPTO3880" Name="phnU" Function="2-aminoethylphosphonate ABC transporter, permease protein I (TC 3.A.1.9.1)" />
+          <Members vimssId="336831" LocusId="PSPTO3881" Name="phnV" Function="2-aminoethylphosphonate ABC transporter, permease protein II (TC 3.A.1.9.1)" />
+          <Members vimssId="336832" LocusId="PSPTO3882" Name="phnT" Function="2-aminoethylphosphonate ABC transporter, ATP-binding protein (TC 3.A.1.9.1)" />
+          <Members vimssId="336833" LocusId="PSPTO3883" Name="COG0560" Function="Phosphoserine phosphatase (EC 3.1.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3289</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="PhrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66406" />
+      <Effector>Blue light; Adenosylcobalamin</Effector>
+      <Pathway>Light-dependent DNA repair</Pathway>
+      <LocusTag Key="PSPTO1122" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=334135&amp;disp=0" />
+      <BiologicalProcess>Light-dependent DNA repair</BiologicalProcess>
+      <Regulog Key="PhrR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6859" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO1127" Name="COG1090" Position="-240" Score="5.5">
+          <Sequence>TGTACAATCTTCTTGTTTGGTATA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO1126" Name="COG3380" Position="-71" Score="5.4">
+          <Sequence>TATACCAAACAAGAAGATTGTACA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO3689" Name="phrB" Position="-47" Score="6">
+          <Sequence>TGTACAAAAATTTACATTGGTACA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO1183" Name="folM" Position="-101" Score="6.1">
+          <Sequence>TGTACAAAAAAATTCTCTGGTATA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO1123" Name="COG3272" Position="-101" Score="6.1">
+          <Sequence>TCTACAAAGAATTTGACTTGTACA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO1123" Name="COG3272" Position="-51" Score="4.9">
+          <Sequence>TGTACAGCACAGTTAATCTGTACA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="334139" LocusId="PSPTO1126" Name="COG3380" Function="Predicted NAD/FAD-dependent oxidoreductase" />
+          <Members vimssId="334138" LocusId="PSPTO1125" Name="PF09493" Function="Tryptophan-rich protein (DUF2389)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="334140" LocusId="PSPTO1127" Name="COG1090" Function="Predicted nucleoside-diphosphate sugar epimerase" />
+          <Members vimssId="334141" LocusId="PSPTO1128" Name="hemH" Function="Ferrochelatase, protoheme ferro-lyase (EC 4.99.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="334194" LocusId="PSPTO1183" Name="folM" Function="FolM Alternative dihydrofolate reductase 1" />
+          <Members vimssId="334193" LocusId="PSPTO1182" Name="folE" Function="GTP cyclohydrolase I (EC 3.5.4.16) type 1" />
+          <Members vimssId="334192" LocusId="PSPTO1181" Name="folB" Function="Dihydroneopterin triphosphate epimerase" />
+          <Members vimssId="334191" LocusId="PSPTO1180" Name="PF06844" Function="protein of unknown function DUF1244" />
+          <Members vimssId="334190" LocusId="PSPTO1179" Name="PF08888" Function="HopJ type III effector protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="336642" LocusId="PSPTO3689" Name="phrB" Function="DNA photolyase PhrB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="334136" LocusId="PSPTO1123" Name="COG3272" Function="COG1683: Uncharacterized conserved protein / COG3272: Hypothetical protein YbgA" />
+          <Members vimssId="334135" LocusId="PSPTO1122" Name="phrR" Function="Transcriptional regulator, MerR family, associated with photolyase" />
+          <Members vimssId="334134" LocusId="PSPTO1121" Name="phr" Function="Deoxyribodipyrimidine photolyase (EC 4.1.99.3)" />
+          <Members vimssId="334133" LocusId="PSPTO1120" Name="PF07366" Function="Protein of unknown function DUF1486" />
+          <Members vimssId="334132" LocusId="PSPTO1119" Name="PF00106" Function="Oxidoreductase, short-chain dehydrogenase/reductase family (EC 1.1.1.-)" />
+          <Members vimssId="334131" LocusId="PSPTO1118" Name="PF01593" Function="Flavin containing amine oxidoreductase" />
+          <Members vimssId="334130" LocusId="PSPTO1117" Name="PF07103" Function="Protein of unknown function DUF1365" />
+          <Members vimssId="334129" LocusId="PSPTO1116" Name="PF02353" Function="S-adenosyl-L-methionine dependent methyltransferase, similar to cyclopropane-fatty-acyl-phospholipid synthase" />
+          <Members vimssId="334128" LocusId="PSPTO1115" Name="PF11086" Function="Protein of unknown function DUF2878" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6859</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PrpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17152" />
+      <Effector>2-methylcitrate</Effector>
+      <Pathway>Methylcitrate utilization</Pathway>
+      <LocusTag Key="PSPTO2286" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=335284&amp;disp=0" />
+      <BiologicalProcess>Methylcitrate utilization</BiologicalProcess>
+      <Regulog Key="PrpR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1849" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO2286" Name="prpR" Position="-31" Score="4.8">
+          <Sequence>GGTGTCGACAAT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO2286" Name="prpR" Position="-104" Score="5.3">
+          <Sequence>ATTGTCGACAGT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="335284" LocusId="PSPTO2286" Name="prpR" Function="Propionate catabolism transcriptional regulator, GntR family" />
+          <Members vimssId="335285" LocusId="PSPTO2287" Name="prpB" Function="Methylisocitrate lyase (EC 4.1.3.30)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1849</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PsrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29691" />
+      <Effector>Oleate</Effector>
+      <Pathway>Fatty acid degradation</Pathway>
+      <LocusTag Key="PSPTO3508" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=336467&amp;disp=0" />
+      <BiologicalProcess>Fatty acid degradation</BiologicalProcess>
+      <Regulog Key="PsrA - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3098" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO3508" Name="psrA" Position="-31" Score="5.6">
+          <Sequence>TTTCAAACGTTCGTTTGTTA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO2192" Name="" Position="-68" Score="4.8">
+          <Sequence>TTTCAAACAAACGTTTTGAC</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO3517" Name="fadB" Position="-180" Score="5.7">
+          <Sequence>AATCAAACGGGCGTATGAAA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO2185" Name="etfB" Position="-373" Score="5.6">
+          <Sequence>ATACAAACGTTTGTTTGAAT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO2726" Name="" Position="-89" Score="5.8">
+          <Sequence>TTTCAAACGAGCGTATGTTT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO1565" Name="rpoS" Position="-427" Score="4.8">
+          <Sequence>CCTCAAACGGCAGTTTGAAT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO0134" Name="algQ" Position="-180" Score="5.3">
+          <Sequence>TATTAAACGCTTGTATGAAC</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO0500" Name="acdH1" Position="-113" Score="5.6">
+          <Sequence>TTTCAAACACCTGTTTGACC</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="335192" LocusId="PSPTO2192" Name="null" Function="Proteinase inhibitor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="336476" LocusId="PSPTO3517" Name="fadB" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+          <Members vimssId="336475" LocusId="PSPTO3516" Name="fadA" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="333528" LocusId="PSPTO0500" Name="acdH1" Function="probable acyl-CoA dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="335185" LocusId="PSPTO2185" Name="etfB" Function="Electron transfer flavoprotein, beta subunit" />
+          <Members vimssId="335186" LocusId="PSPTO2186" Name="etfA" Function="Electron transfer flavoprotein, alpha subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="336467" LocusId="PSPTO3508" Name="psrA" Function="Predicted transcriptional regulator for fatty acid degradation PsrA, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="335711" LocusId="PSPTO2726" Name="null" Function="Phosphoglycerate mutase family protein" />
+          <Members vimssId="335710" LocusId="PSPTO2725" Name="scp" Function="Sterol-binding domain protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="333172" LocusId="PSPTO0134" Name="algQ" Function="Regulator of RNA polymerase sigma(70) subunit, Rsd/AlgQ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="334569" LocusId="PSPTO1565" Name="rpoS" Function="RNA polymerase sigma factor RpoS" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3098</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="RbsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21061" />
+      <Effector>Ribose</Effector>
+      <Pathway>Ribose utilization</Pathway>
+      <LocusTag Key="PSPTO2370" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=335365&amp;disp=0" />
+      <BiologicalProcess>Ribose utilization</BiologicalProcess>
+      <Regulog Key="RbsR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2280" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO2367" Name="rbsB" Position="-84" Score="6.6">
+          <Sequence>CCTCGCAAACGTTTGCGTGT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="335362" LocusId="PSPTO2367" Name="rbsB" Function="Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)" />
+          <Members vimssId="335363" LocusId="PSPTO2368" Name="rbsA" Function="Ribose ABC transport system, ATP-binding protein RbsA (TC 3.A.1.2.1)" />
+          <Members vimssId="335364" LocusId="PSPTO2369" Name="rbsC" Function="Ribose ABC transport system, permease protein RbsC (TC 3.A.1.2.1)" />
+          <Members vimssId="335365" LocusId="PSPTO2370" Name="rbsR" Function="Transcriptional repressor of ribose utilization, LacI family" />
+          <Members vimssId="335366" LocusId="PSPTO2371" Name="rbsK" Function="Ribokinase (EC 2.7.1.15)" />
+          <Members vimssId="335367" LocusId="PSPTO2372" Name="rbsD" Function="D-ribose pyranase (D-ribose mutarotase) (EC 5.5.1.n1)" />
+          <Members vimssId="335368" LocusId="PSPTO2373" Name="uriH" Function="Inosine-uridine preferring nucleoside hydrolase (EC 3.2.2.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2280</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30851" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="PSPTO0771" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=333797&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3186" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO3671" Name="tsx" Position="-98" Score="5.4">
+          <Sequence>AGCTGACCAGACAGACAAAA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO3666" Name="COG0726" Position="-169" Score="6">
+          <Sequence>AACTGACCAGTCAGGCAGGT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO0772" Name="pbuT" Position="-83" Score="5.1">
+          <Sequence>ACCTGAGCAGGTGGACAGTT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO0769" Name="ppuA" Position="-64" Score="5.6">
+          <Sequence>ACCTGACCCATTGGCCAGGA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="336624" LocusId="PSPTO3671" Name="tsx" Function="Nucleoside-binding outer membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="336619" LocusId="PSPTO3666" Name="COG0726" Function="putative polysaccharide deacetylase family protein" />
+          <Members vimssId="336620" LocusId="PSPTO3667" Name="pucL" Function="Uricase (EC 1.7.3.3)" />
+          <Members vimssId="336621" LocusId="PSPTO3668" Name="allC" Function="Allantoicase (EC 3.5.3.4)" />
+          <Members vimssId="336622" LocusId="PSPTO3669" Name="allA" Function="Ureidoglycolate hydrolase (EC 3.5.3.19)" />
+          <Members vimssId="336623" LocusId="PSPTO3670" Name="COG3748" Function="hypothetical protein, COG3748" />
+        </Operon>
+        <Operon>
+          <Members vimssId="333795" LocusId="PSPTO0769" Name="ppuA" Function="Predicted ABC transporter, ATP-binding protein" />
+          <Members vimssId="333794" LocusId="PSPTO0768" Name="ppuC" Function="Predicted ABC transporter, permease protein" />
+          <Members vimssId="333793" LocusId="PSPTO0767" Name="ppuD" Function="Predicted ABC transporter, inner membrane protein precursor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="333798" LocusId="PSPTO0772" Name="pbuT" Function="Xanthine/uracil permease" />
+          <Members vimssId="333797" LocusId="PSPTO0771" Name="rutR" Function="Transcriptional regulator RutR of pyrimidine catabolism, TetR family" />
+          <Members vimssId="333796" LocusId="PSPTO0770" Name="COG1739" Function="hypothetical protein, COG1739" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3186</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34762" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="PSPTO3698" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=336651&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR3 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3554" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO3660" Name="xdhA" Position="-72" Score="4.5">
+          <Sequence>AATTGACCCAATTGGCAGAG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO3660" Name="xdhA" Position="-95" Score="4.6">
+          <Sequence>TCCTGACTTAAGAGTCAGAA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="336613" LocusId="PSPTO3660" Name="xdhA" Function="Xanthine dehydrogenase, iron-sulfur cluster and FAD-binding subunit A (1.17.1.4)" />
+          <Members vimssId="336614" LocusId="PSPTO3661" Name="xdhB" Function="Xanthine dehydrogenase, molybdenum binding subunit (EC 1.17.1.4)" />
+          <Members vimssId="336615" LocusId="PSPTO3662" Name="xdhC" Function="XdhC protein (assists in molybdopterin insertion into xanthine dehydrogenase)" />
+          <Members vimssId="336616" LocusId="PSPTO3663" Name="guaD" Function="Guanine deaminase (EC 3.5.4.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3554</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR4" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34720" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="PSPTO1158" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=334171&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR4 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3545" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO1158" Name="rutR4" Position="-214" Score="5.8">
+          <Sequence>AGCAGACCATTTGGTCTGAA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO1157" Name="rutA" Position="-68" Score="5.8">
+          <Sequence>TTCAGACCAAATGGTCTGCT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="334170" LocusId="PSPTO1157" Name="rutA" Function="Pyrimidine oxygenase" />
+          <Members vimssId="334169" LocusId="PSPTO1156" Name="rutB" Function="Peroxyureidoacrylate / ureidoacrylate amido hydrolase" />
+          <Members vimssId="334168" LocusId="PSPTO1155" Name="rutC" Function="Aminoacrylate peracid reductase" />
+          <Members vimssId="334167" LocusId="PSPTO1154" Name="rutD" Function="Aminoacrylate hydrolase" />
+          <Members vimssId="334166" LocusId="PSPTO1153" Name="rutF" Function="Flavin reductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="334171" LocusId="PSPTO1158" Name="rutR4" Function="Transcriptional regulator RutR of pyrimidine catabolism, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3545</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SahR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15730" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="PSPTO0384" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=333412&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SahR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1689" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO0384" Name="sahR" Position="-62" Score="7.2">
+          <Sequence>ATATCAAAACTTTTTGATAT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="333412" LocusId="PSPTO0384" Name="sahR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+          <Members vimssId="333411" LocusId="PSPTO0383" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1689</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="ScrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52789" />
+      <Effector>Sucrose</Effector>
+      <Pathway>Sucrose utilization</Pathway>
+      <LocusTag Key="PSPTO0884" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=333902&amp;disp=0" />
+      <BiologicalProcess>Sucrose utilization</BiologicalProcess>
+      <Regulog Key="ScrR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5383" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO0889" Name="aglE" Position="-46" Score="6.4">
+          <Sequence>CGATGTTAACGTTAACTTTT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO0890" Name="scrY" Position="-96" Score="6.4">
+          <Sequence>AAAAGTTAACGTTAACATCG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="333908" LocusId="PSPTO0890" Name="scrY" Function="Sucrose-specific outer membrane porin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="333907" LocusId="PSPTO0889" Name="aglE" Function="Alpha-glucoside ABC transporter periplasmic sugar-binding protein" />
+          <Members vimssId="333906" LocusId="PSPTO0888" Name="aglF" Function="Alpha-glucoside ABC transporter permease protein" />
+          <Members vimssId="333905" LocusId="PSPTO0887" Name="aglG" Function="Alpha-glucoside ABC transporter permease protein" />
+          <Members vimssId="333904" LocusId="PSPTO0886" Name="aglK" Function="Alpha-glucoside ABC transporter ATP-binding protein" />
+          <Members vimssId="333903" LocusId="PSPTO0885" Name="cscA" Function="Sucrose-6-phosphate hydrolase (EC 3.2.1.26)" />
+          <Members vimssId="333902" LocusId="PSPTO0884" Name="scrR" Function="Sucrose utilization transcriptional regulator, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5383</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="SdaR" RegulationMode="activator">
+      <Regulator Key="SdaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63647" />
+      <Effector>D-glycerate</Effector>
+      <Pathway>Glycerate utilization</Pathway>
+      <LocusTag Key="PSPTO3281" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=336243&amp;disp=0" />
+      <BiologicalProcess>Glycerate utilization</BiologicalProcess>
+      <Regulog Key="SdaR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6567" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO1906" Name="grtT" Position="-133" Score="5.3">
+          <Sequence>CGTTGTGCAATCACACAACA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="334908" LocusId="PSPTO1906" Name="grtT" Function="Predicted D-glycerate transporter, MFS family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6567</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="SdaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57519" />
+      <Effector />
+      <Pathway>Glucarate utilization; Galactarate utilization</Pathway>
+      <LocusTag Key="PSPTOA0035" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2209213&amp;disp=0" />
+      <BiologicalProcess>Glucarate utilization; Galactarate utilization</BiologicalProcess>
+      <Regulog Key="SdaR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5886" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTOA0036" Name="COG579" Position="-37" Score="5.9">
+          <Sequence>AGGTTGTCAGACAACCT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTOA0035" Name="sdaR" Position="-29" Score="4.3">
+          <Sequence>TGATTGTCTGACAACAG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO_B0042" Name="COG579" Position="-36" Score="5.5">
+          <Sequence>ATGTTGTCAGACAACCT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2209285" LocusId="PSPTO_B0042" Name="COG579" Function="2-hydroxyglutarate dehydrogenase" />
+          <Members vimssId="2209286" LocusId="PSPTO_B0043" Name="sdaP" Function="Predicted glucarate/galactarate transporter, MFS superfamily" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2209214" LocusId="PSPTOA0036" Name="COG579" Function="2-hydroxyglutarate dehydrogenase" />
+          <Members vimssId="2209215" LocusId="PSPTOA0037" Name="sdaP" Function="Predicted glucarate/galactarate transporter, MFS superfamily" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2209213" LocusId="PSPTOA0035" Name="sdaR" Function="Predicted regulator of D-glucarate/D-galactarate utilization, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5886</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="UreR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57214" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="PSPTO5244" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=338154&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="UreR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5850" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO5245" Name="ureA" Position="-249" Score="4.6">
+          <Sequence>ACTGTTCAGGCCAGT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO5245" Name="ureA" Position="-240" Score="4.1">
+          <Sequence>GCCAGTCAGTCCAGT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO5245" Name="ureA" Position="-124" Score="5.9">
+          <Sequence>ACTGGTCAGACCAGT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO5244" Name="ureR" Position="-141" Score="5.9">
+          <Sequence>ACTGGTCTGACCAGT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO5244" Name="ureR" Position="-25" Score="4.1">
+          <Sequence>ACTGGACTGACTGGC</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO5244" Name="ureR" Position="-16" Score="4.6">
+          <Sequence>ACTGGCCTGAACAGT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="338154" LocusId="PSPTO5244" Name="ureR" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="338155" LocusId="PSPTO5245" Name="ureA" Function="Amino acid ABC transporter, periplasmic amino acid-binding protein" />
+          <Members vimssId="338156" LocusId="PSPTO5246" Name="ureB" Function="Amino acid ABC transporter, permease protein" />
+          <Members vimssId="338157" LocusId="PSPTO5247" Name="ureC" Function="Amino acid ABC transporter, permease protein" />
+          <Members vimssId="338158" LocusId="PSPTO5248" Name="ureD" Function="Amino acid ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5850</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="VanR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31427" />
+      <Effector>Vanillate</Effector>
+      <Pathway>Vanillate utilization</Pathway>
+      <LocusTag Key="PSPTO2906" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=335883&amp;disp=0" />
+      <BiologicalProcess>Vanillate utilization</BiologicalProcess>
+      <Regulog Key="VanR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3247" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO2904" Name="vanA" Position="-138" Score="4.6">
+          <Sequence>CATGGATCCATT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO2904" Name="vanA" Position="-42" Score="4.6">
+          <Sequence>TGTGGATCCATA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="335881" LocusId="PSPTO2904" Name="vanA" Function="Vanillate O-demethylase oxygenase subunit (EC 1.14.13.82)" />
+          <Members vimssId="335882" LocusId="PSPTO2905" Name="vanB" Function="Flavodoxin reductases (ferredoxin-NADPH reductases) family 1; Vanillate O-demethylase oxidoreductase (EC 1.14.13.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3247</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YjiR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61780" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="PSPTO0096" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=333134&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="YjiR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6345" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO0097" Name="yjiS" Position="-86" Score="16.2">
+          <Sequence>TACAGAT-(17)-TTCAGCA-(13)-TTCTGTA-(23)-ATCTGTA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="333135" LocusId="PSPTO0097" Name="yjiS" Function="putative cytoplasmic protein of unknown function DUF1127" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6345</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16068" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="PSPTO5267" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=338177&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1727" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO5268" Name="znuA" Position="-46" Score="4.7">
+          <Sequence>GAGACGTTATTATGTTACCTGTT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO5267" Name="zur" Position="-44" Score="4.2">
+          <Sequence>AACAGGTAACATAATAACGTCTC</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO5526" Name="yciC" Position="-108" Score="5.4">
+          <Sequence>GTGTTGTTATACTATAACATCAT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO2578" Name="folE2" Position="-108" Score="5.4">
+          <Sequence>ATGATGTTATAGTGTAACGAATT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO5527" Name="PA5537" Position="-56" Score="5.5">
+          <Sequence>ATGATGTTATAGTATAACAACAC</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO0683" Name="zbp" Position="-54" Score="5.7">
+          <Sequence>CACTTGTTATAAGATCACATAAC</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="338429" LocusId="PSPTO5526" Name="yciC" Function="Putative metal chaperone, GTPase of COG0523 family" />
+          <Members vimssId="338428" LocusId="PSPTO5525" Name="PF08856" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="335567" LocusId="PSPTO2578" Name="folE2" Function="GTP cyclohydrolase I (EC 3.5.4.16) type 2" />
+          <Members vimssId="335568" LocusId="PSPTO2579" Name="can" Function="Carbonic anhydrase (EC 4.2.1.1)" />
+          <Members vimssId="335569" LocusId="PSPTO2580" Name="PA4838" Function="membrane protein-like protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="338430" LocusId="PSPTO5527" Name="PA5537" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="333709" LocusId="PSPTO0683" Name="zbp" Function="Predicted zinc-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="338177" LocusId="PSPTO5267" Name="zur" Function="Zinc uptake regulation protein ZUR" />
+          <Members vimssId="338176" LocusId="PSPTO5266" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="338175" LocusId="PSPTO5265" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="338178" LocusId="PSPTO5268" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1727</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41285" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO3151" Name="cbtB" Position="-309" Score="110.3">
+          <Sequence>CTGTGCACCTTGTTTCGGGTGCCCCTCACGGGGTGAAACGGGAAACCGGTGCGCTCAACCTGTTGAGCAAGTCCGGTGCTGCCCCCGCAACGGTAAGCGAGAGAAGGTCTGATCCACTGTGCTCTGGCATGGGAAGGTGACCTTGAAGGTCTGAACGCACACGTGTTCAAGCCCCTCGCGAGCCCGGAGACCGGCCCGACATTTTTCCAATGACAC</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO3256" Name="btuF" Position="-159" Score="123.6">
+          <Sequence>TTACCATGCCGGCCGTCGGTTTCCGAGAGGAACTAACAGGGAATTCGCCAGCTTTGTTTCAAAGGCCAAAACGAAACTGCCCCCGCAACTGTAGGCATCGAGCCTGCTCCAAGACTGCCACTGGATTCAGATCCGGGAAGGCCGGAGCATGGTGATGACATGCCAGTCAGGAGACCTGCCGACCCGATTCAACCAACTAA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO1708" Name="btuR" Position="-304" Score="113.9">
+          <Sequence>CTTCGCGGCTTGTTTCAGGTGCTCTGCAATCCTCGATTGGCAGGGTGAAACAGGGAAGCCGGTGTGGATCGACCGATCCGATCCCGGCGCTGCCCCCGCAACGGTAAATGAGTCAAGGCTGTGCATCGTGCCACTGTGTTTCGACACGGGAAGGCGCGCAGCCGGGGTAACCCGCTCATGAGCCCGGAGACCGGCCTGAACCACTCAATGGCATCA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO3150" Name="" Position="-339" Score="106.8">
+          <Sequence>CGTAGCCTTGCCGGTTCGAGGTTCTTCATGTGTAAAGCGTTACGACATGAAGCTAAGACGGGAATGCGGTACATGCCGCAGCTGCCCCCGCAACTGTAAACGGTCATGTTCATTGCACAGCCACTGCTGCGGCGGGAAGGCGCGATGAATGTGTGTCGGCAAGGTGTTCAACGCCCGCCACACGCTGCCGTGAGCCAGGAGACCTGCCTCGAACCGGGCTGACAAA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="336218" LocusId="PSPTO3256" Name="btuF" Function="Vitamin B12 ABC transporter, B12-binding  component BtuF" />
+          <Members vimssId="336219" LocusId="PSPTO3257" Name="btuC" Function="Vitamin B12 ABC transporter, permease component BtuC" />
+          <Members vimssId="336220" LocusId="PSPTO3258" Name="btuD" Function="Vitamin B12 ABC transporter, ATPase component BtuD" />
+        </Operon>
+        <Operon>
+          <Members vimssId="334712" LocusId="PSPTO1708" Name="btuR" Function="Cob(I)alamin adenosyltransferase (EC 2.5.1.17)" />
+          <Members vimssId="334713" LocusId="PSPTO1709" Name="cbiA" Function="Cobyrinic acid A,C-diamide synthase" />
+          <Members vimssId="334714" LocusId="PSPTO1710" Name="bluB" Function="Cobalamin biosynthesis protein BluB @ 5,6-dimethylbenzimidazole synthase, flavin destructase family" />
+          <Members vimssId="334715" LocusId="PSPTO1711" Name="cbiB" Function="Adenosylcobinamide-phosphate synthase" />
+          <Members vimssId="334716" LocusId="PSPTO1712" Name="cobD" Function="L-threonine 3-O-phosphate decarboxylase (EC 4.1.1.81)" />
+          <Members vimssId="334717" LocusId="PSPTO1713" Name="cbiP" Function="Cobyric acid synthase" />
+          <Members vimssId="334718" LocusId="PSPTO1714" Name="cobU" Function="Adenosylcobinamide-phosphate guanylyltransferase (EC 2.7.7.62)" />
+          <Members vimssId="334719" LocusId="PSPTO1715" Name="cobT" Function="Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase (EC 2.4.2.21)" />
+          <Members vimssId="334720" LocusId="PSPTO1716" Name="cobC" Function="Alpha-ribazole-5'-phosphate phosphatase (EC 3.1.3.73)" />
+          <Members vimssId="334721" LocusId="PSPTO1717" Name="cobS" Function="Cobalamin synthase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="336122" LocusId="PSPTO3151" Name="cbtB" Function="hypothetical protein" />
+          <Members vimssId="336123" LocusId="PSPTO3152" Name="cbtA" Function="Predicted cobalt transporter CbtA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="336121" LocusId="PSPTO3150" Name="null" Function="CobW GTPase involved in cobalt insertion for B12 biosynthesis" />
+          <Members vimssId="336120" LocusId="PSPTO3149" Name="null" Function="CobN component of cobalt chelatase involved in B12 biosynthesis" />
+          <Members vimssId="336119" LocusId="PSPTO3148" Name="chII" Function="ChlI component of cobalt chelatase involved in B12 biosynthesis" />
+          <Members vimssId="336118" LocusId="PSPTO3147" Name="chlD" Function="ChlD component of cobalt chelatase involved in B12 biosynthesis" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41317" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO1839" Name="ribH2" Position="-301" Score="100.3">
+          <Sequence>GTAACGTTCTCAGGGCGGGGTGCAACTCCCCACCGGCGGTAATGGCGCGCAATGCGTCTAGCCCGCGAGCGCTTGGGGGTTTCAGCTTTGGCTGACGACCTGCAAGGTCAGCAGACCCGGTGTGATTCCGGGGCCGACGGTCATAGTCCGGATGAAGAGAGAGCGGGA</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="334842" LocusId="PSPTO1839" Name="ribH2" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00114" RegulationMode="RF00114">
+      <Regulator Key="S15" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41261" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="S15" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO4487" Name="rpsO" Position="-53" Score="45.2">
+          <Sequence>GCCTGTTGGAAACGTTTCCCCGGAAGCGCTTCCCTGAAATAAGGATTGCCCACATGGCACTCAGCGTTGAAGAAAAAGCTCAGATCGTAACCGACTACCAGCAAGCTGTT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="337420" LocusId="PSPTO4487" Name="rpsO" Function="SSU ribosomal protein S15p (S13e)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01057" RegulationMode="RF01057">
+      <Regulator Key="SAH_riboswitch" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40981" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="SAH_riboswitch" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO5068" Name="ahcY" Position="-132" Score="60.7">
+          <Sequence>TGTCCGAGGGGCGCTGCAGCAGGTTTACCCTGTCAGGCTCGGATGGGGCGTTGTTTGTCAGGTTGATCACAGCCGGCAAGCCTTAAACGCACAACGGCGCCCATTCGCATT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="337979" LocusId="PSPTO5068" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+          <Members vimssId="337980" LocusId="PSPTO5069" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40965" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO4976" Name="thiC" Position="-262" Score="86">
+          <Sequence>CGCGTTCTTGTCGGGGTGCCTTGCTATGAGGCTGAGATCGGTTAAACCGGATCCCGTTGAACCTGATCAGGTTAGCGCCTGCGTAGGGAACAAGATTTCTCGTCTC</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="337888" LocusId="PSPTO4976" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+          <Members vimssId="337887" LocusId="PSPTO4975" Name="null" Function="Predicted hydroxymethylpyrimidine transporter CytX" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01068" RegulationMode="RF01068">
+      <Regulator Key="mini-ykkC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41029" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="mini-ykkC" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO4243" Name="ucaA" Position="-92" Score="41">
+          <Sequence>GCAACGGACGACCGTTGCGTAGATAGATCAATAGCGGGACGGCCCGCTT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="337183" LocusId="PSPTO4243" Name="ucaA" Function="Urea carboxylase (EC 6.3.4.6) # [Carbamoyl-phosphate synthase large chain (EC 6.3.5.5), ATP binding domain/Biotin carboxylase (EC 6.3.4.14)/Allophanate hydrolase 2 subunit 2 (EC 3.5.1.54)/Allophanate hydrolase 2 subunit 1 (EC 3.5.1.54)/Biotin carboxyl ..." />
+          <Members vimssId="337184" LocusId="PSPTO4244" Name="ucaB" Function="Allophanate hydrolase (EC 3.5.1.54)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00442" RegulationMode="RF00442">
+      <Regulator Key="ykkC-yxkD" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41141" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="ykkC-yxkD" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO4238" Name="uctB1" Position="-165" Score="93.8">
+          <Sequence>CAATAGCCGACTAGGGTTCCGACTTGCCGACAGGCAAGTGGCTGGTCCGAGAGTTGGCGACCTCCAGTAGAGGTTACACGGCGGGACAAAAGCCCGGGAGACAG</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="337178" LocusId="PSPTO4238" Name="uctB1" Function="Urea carboxylase-related ABC transporter, periplasmic substrate-binding protein" />
+          <Members vimssId="337179" LocusId="PSPTO4239" Name="uctP" Function="Urea carboxylase-related ABC transporter, permease protein" />
+          <Members vimssId="337180" LocusId="PSPTO4240" Name="uctA" Function="Urea carboxylase-related ABC transporter, ATPase protein" />
+          <Members vimssId="337181" LocusId="PSPTO4241" Name="amt1" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="337182" LocusId="PSPTO4242" Name="amt2" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="337183" LocusId="PSPTO4243" Name="ucaA" Function="Urea carboxylase (EC 6.3.4.6) # [Carbamoyl-phosphate synthase large chain (EC 6.3.5.5), ATP binding domain/Biotin carboxylase (EC 6.3.4.14)/Allophanate hydrolase 2 subunit 2 (EC 3.5.1.54)/Allophanate hydrolase 2 subunit 1 (EC 3.5.1.54)/Biotin carboxyl ..." />
+          <Members vimssId="337184" LocusId="PSPTO4244" Name="ucaB" Function="Allophanate hydrolase (EC 3.5.1.54)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40925" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSPTO3755" Name="COG1971" Position="-176" Score="55.9">
+          <Sequence>CGGCCCTTGTTGGGGAGTAGCCTGTTCGTGACCCCGGTCACTGAGCGTTCGTATCAACATTCTCGGCAGCATGCCGTGGTACGAACACCTTCTGGTTGGCGAGACCAACGATGCATCCAT</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSPTO1145" Name="COG2119" Position="-208" Score="43.6">
+          <Sequence>CCGCTCCGTCCTAGGGGAGTAGTCTCCCACGAGCGCCATGCTCGTCCGGCACGTATCAACATACTTGGTCCTCAGACCATGGTACGTGCGACCCGGAATCCGCTCAGACGGATCAGTGGTTTGACAAGACCTATGACACGAAC</Sequence>
+          <Bacteria>Pseudomonas syringae pv. tomato str. DC3000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="334158" LocusId="PSPTO1145" Name="COG2119" Function="Probable transmembrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="336708" LocusId="PSPTO3755" Name="COG1971" Function="Integral membrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

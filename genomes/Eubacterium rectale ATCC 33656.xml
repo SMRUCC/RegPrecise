@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Eubacterium rectale ATCC 33656" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor (activator)">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47484" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="EUBREC_2206" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7499569&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4785" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBREC_1607" Name="argG" Position="-155" Score="5.9">
+          <Sequence>ATGTATAATTATACAT</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_1608" Name="argC" Position="-68" Score="5.9">
+          <Sequence>ATGTATAATTATACAT</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_0731" Name="carA" Position="-207" Score="5">
+          <Sequence>ATACATAAATATGCAT</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_0731" Name="carA" Position="-197" Score="4.9">
+          <Sequence>ATGCATATTTATGTAA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7498973" LocusId="EUBREC_1608" Name="argC" Function="N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)" />
+          <Members vimssId="7498974" LocusId="EUBREC_1609" Name="GNAT" Function="Acetyltransferase, GNAT family (EC 2.3.1.-)" />
+          <Members vimssId="7498975" LocusId="EUBREC_1610" Name="argB" Function="Acetylglutamate kinase (EC 2.7.2.8)" />
+          <Members vimssId="7498976" LocusId="EUBREC_1611" Name="argD" Function="Acetylornithine aminotransferase (EC 2.6.1.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7498972" LocusId="EUBREC_1607" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7498102" LocusId="EUBREC_0731" Name="carA" Function="Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)" />
+          <Members vimssId="7498103" LocusId="EUBREC_0732" Name="carB" Function="Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4785</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57903" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="EUBREC_0058" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7497430&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5929" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBREC_0920" Name="bioB" Position="-70" Score="9">
+          <Sequence>TTGTTAAC----------------GTTGACAA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_3289" Name="bioY" Position="-104" Score="8.9">
+          <Sequence>TTGTAAAC----------------GTTGACAA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7500648" LocusId="EUBREC_3289" Name="bioY" Function="Substrate-specific component BioY of biotin ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7498287" LocusId="EUBREC_0920" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5929</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="CzrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62653" />
+      <Effector>Zinc ion, (Zn2+); Silver ion, (Ag+); Nickel ion, (Ni2+); Copper ion, (Cu2+); Cobalt ion, (Co2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Zinc resistance; Nickel resistance; Copper resistance; Cobalt resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="EUBREC_2967" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7500327&amp;disp=0" />
+      <BiologicalProcess>Zinc resistance; Nickel resistance; Copper resistance; Cobalt resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CzrA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6446" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBREC_2969" Name="PF00403" Position="-78" Score="6.2">
+          <Sequence>CATATGAACAATCATTCATATG</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7500329" LocusId="EUBREC_2969" Name="PF00403" Function="Heavy-metal-associated domain" />
+          <Members vimssId="7500328" LocusId="EUBREC_2968" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5); Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6446</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62761" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="EUBREC_1585" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7498950&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6458" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBREC_1371" Name="feoB2" Position="-41" Score="5.8">
+          <Sequence>GTTGAGAAAAATTATCAAT</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_1233" Name="BACPEC_03058" Position="-174" Score="5.7">
+          <Sequence>AGTGATAAACTTTATCAAT</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_1581" Name="BACPEC_02635" Position="-54" Score="5.2">
+          <Sequence>AATGATGTTTTTTATCATT</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7498737" LocusId="EUBREC_1371" Name="feoB2" Function="Ferrous iron transport protein B" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7498946" LocusId="EUBREC_1581" Name="BACPEC_02635" Function="hypothetical protein" />
+          <Members vimssId="7498947" LocusId="EUBREC_1582" Name="feoA" Function="Ferrous iron transport protein A" />
+          <Members vimssId="7498948" LocusId="EUBREC_1583" Name="feoB" Function="Ferrous iron transport protein B" />
+          <Members vimssId="7498949" LocusId="EUBREC_1584" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7498950" LocusId="EUBREC_1585" Name="fur" Function="Transcriptional regulator for iron transport and metabolism, Fur family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7498599" LocusId="EUBREC_1233" Name="BACPEC_03058" Function="hypothetical protein" />
+          <Members vimssId="7498600" LocusId="EUBREC_1234" Name="COG2217" Function="Cation transporting ATPase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6458</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TrpR" RegulationMode="repressor">
+      <Regulator Key="HisR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=54593" />
+      <Effector>Histidine</Effector>
+      <Pathway>Histidine biosynthesis</Pathway>
+      <LocusTag Key="EUBREC_1393" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7498759&amp;disp=0" />
+      <BiologicalProcess>Histidine biosynthesis</BiologicalProcess>
+      <Regulog Key="HisR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5569" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBREC_1393" Name="hisR" Position="-37" Score="5.3">
+          <Sequence>AACTTTAATATGTTAAAATT</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_2005" Name="hisX" Position="-83" Score="5.2">
+          <Sequence>TACTTTAGCGTGATAATTTG</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_1685" Name="hisZ" Position="23" Score="4.6">
+          <Sequence>CACTTTACTACAAGAAAGCG</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7499368" LocusId="EUBREC_2005" Name="hisX" Function="Histidine ABC transporter, histidine-binding protein (TC 3.A.1)" />
+          <Members vimssId="7499367" LocusId="EUBREC_2004" Name="hisY" Function="Histidine ABC transporter, permease protein" />
+          <Members vimssId="7499366" LocusId="EUBREC_2003" Name="hisZ" Function="Histidine ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7498759" LocusId="EUBREC_1393" Name="hisR" Function="Predicted histidine repressor, TrpR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7499050" LocusId="EUBREC_1685" Name="hisZ" Function="ATP phosphoribosyltransferase regulatory subunit (EC 2.4.2.17)" />
+          <Members vimssId="7499051" LocusId="EUBREC_1686" Name="hisG" Function="ATP phosphoribosyltransferase catalytic subunit (EC 2.4.2.17)" />
+          <Members vimssId="7499052" LocusId="EUBREC_1687" Name="hisD" Function="Histidinol dehydrogenase (EC 1.1.1.23)" />
+          <Members vimssId="7499053" LocusId="EUBREC_1688" Name="hisB" Function="Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)" />
+          <Members vimssId="7499054" LocusId="EUBREC_1689" Name="hisIE" Function="Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19) / Phosphoribosyl-ATP pyrophosphatase (EC 3.6.1.31)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5569</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47498" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="EUBREC_1909" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7499274&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4786" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBREC_1574" Name="" Position="-400" Score="7.5">
+          <Sequence>TTAGCACTCACTATTTTTGAGTGCTAA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_2271" Name="groES" Position="-20" Score="7.3">
+          <Sequence>TTAGCACTCGAAAGAAATGAGTGCTAA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_1909" Name="hrcA" Position="-123" Score="6.2">
+          <Sequence>TTAGCACTCGAGGGTTGACATTGCTAA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_1909" Name="hrcA" Position="-64" Score="7.1">
+          <Sequence>TTAGCACTCCAAAATACAGAGTGCTAA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_3394" Name="hsp20" Position="-157" Score="7.4">
+          <Sequence>TTAGCACTCTCTATTGACGAGTGCTAA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_3358" Name="hsp20" Position="-157" Score="7.3">
+          <Sequence>TTAGCACTCGCTATTGACGAGTGCTAA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_3351" Name="hsp20" Position="-204" Score="7.3">
+          <Sequence>TTAGCACTCGCTATTGACGAGTGCTAA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_2855" Name="hsp20" Position="-109" Score="7.3">
+          <Sequence>TTAGCACTCGCTATTGACGAGTGCTAA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_2562" Name="clpB" Position="-133" Score="7.2">
+          <Sequence>TTAGCACTCTCACTTGACGAGTGCTAA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7499923" LocusId="EUBREC_2562" Name="clpB" Function="ATP-dependent Clp protease ATP-binding subunit ClpB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7499634" LocusId="EUBREC_2271" Name="groES" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="7499633" LocusId="EUBREC_2270" Name="groEL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7498939" LocusId="EUBREC_1574" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7498938" LocusId="EUBREC_1573" Name="htpG" Function="Heat shock chaperone protein 90" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7500215" LocusId="EUBREC_2855" Name="hsp20" Function="Heat shock protein Hsp20" />
+          <Members vimssId="7500214" LocusId="EUBREC_2854" Name="dnaJ2" Function="Chaperone protein DnaJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7500710" LocusId="EUBREC_3351" Name="hsp20" Function="Heat shock protein Hsp20" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7500717" LocusId="EUBREC_3358" Name="hsp20" Function="Heat shock protein Hsp20" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7500753" LocusId="EUBREC_3394" Name="hsp20" Function="Heat shock protein Hsp20" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7499274" LocusId="EUBREC_1909" Name="hrcA" Function="heat-inducible transcription repressor HrcA" />
+          <Members vimssId="7499273" LocusId="EUBREC_1908" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="7499272" LocusId="EUBREC_1907" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7499271" LocusId="EUBREC_1906" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="7499270" LocusId="EUBREC_1905" Name="dnaJ" Function="Chaperone protein DnaJ" />
+          <Members vimssId="7499269" LocusId="EUBREC_1904" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4786</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="IdeR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63066" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="EUBREC_2328" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7499690&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="IdeR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6500" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBREC_2328" Name="ideR" Position="-180" Score="5.8">
+          <Sequence>ATAGTTAGTATACACTAACGCG</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_1581" Name="" Position="-130" Score="5">
+          <Sequence>AAAGTAAGAAAAATCTAAAAAA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_1581" Name="" Position="-90" Score="5.4">
+          <Sequence>CACGTTAGAGTATACTAACACC</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_1583" Name="feoB" Position="-59" Score="5.4">
+          <Sequence>TAGGTTAGTAAATACAAACTAT</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_1233" Name="" Position="-53" Score="4.4">
+          <Sequence>CTTGTAAGTAAACTTTAACTAT</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_2823" Name="eno" Position="-112" Score="5.4">
+          <Sequence>TTAGTTAGATTAAACTAACTGT</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7498599" LocusId="EUBREC_1233" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7498600" LocusId="EUBREC_1234" Name="COG2217" Function="Cation transporting ATPase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7498948" LocusId="EUBREC_1583" Name="feoB" Function="Ferrous iron transport protein B" />
+          <Members vimssId="7498949" LocusId="EUBREC_1584" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7498950" LocusId="EUBREC_1585" Name="fur" Function="Transcriptional regulator for iron transport and metabolism, Fur family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7498946" LocusId="EUBREC_1581" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7498947" LocusId="EUBREC_1582" Name="feoA" Function="Ferrous iron transport protein A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7499690" LocusId="EUBREC_2328" Name="ideR" Function="Predicted iron-dependent repressor, DtxR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7500183" LocusId="EUBREC_2823" Name="eno" Function="Enolase (EC 4.2.1.11)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6500</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47456" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="EUBREC_1701" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7499066&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4783" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBREC_2228" Name="recA" Position="-35" Score="5.1">
+          <Sequence>ACGAACGTTTGTTCGC</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_1701" Name="lexA" Position="-210" Score="5">
+          <Sequence>CCGAACATGTGTTTGT</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_1701" Name="lexA" Position="-169" Score="4.9">
+          <Sequence>TCGAACAATCGTTTGT</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_1701" Name="lexA" Position="-143" Score="4.7">
+          <Sequence>ACGAACAAAATTTCGG</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_1131" Name="umuC" Position="-49" Score="5.4">
+          <Sequence>ACAAACATATGTTCTT</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_2296" Name="COG4277" Position="-55" Score="4.7">
+          <Sequence>CCGAACATATGTTGTA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_2296" Name="COG4277" Position="-35" Score="4.9">
+          <Sequence>GCAAACAGATGTTCGA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_1702" Name="PF01476" Position="-75" Score="4.7">
+          <Sequence>CCGAAATTTTGTTCGT</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_1702" Name="PF01476" Position="-49" Score="4.9">
+          <Sequence>ACAAACGATTGTTCGA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_1702" Name="PF01476" Position="-8" Score="5">
+          <Sequence>ACAAACACATGTTCGG</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7499591" LocusId="EUBREC_2228" Name="recA" Function="Recombination protein A" />
+          <Members vimssId="7499590" LocusId="EUBREC_2227" Name="recX" Function="regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7499066" LocusId="EUBREC_1701" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7499659" LocusId="EUBREC_2296" Name="COG4277" Function="Predicted DNA-binding protein with the Helix-hairpin-helix motif" />
+          <Members vimssId="7499658" LocusId="EUBREC_2295" Name="BACPEC_02112" Function="Uracil-DNA glycosylase, family 1" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7498497" LocusId="EUBREC_1131" Name="umuC" Function="DNA polymerase V involved in DNA-repair" />
+          <Members vimssId="7498498" LocusId="EUBREC_1132" Name="BACPEC_01776" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7499067" LocusId="EUBREC_1702" Name="PF01476" Function="Peptidoglycan-binding lysin domain" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4783</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NiaR" RegulationMode="repressor">
+      <Regulator Key="NiaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47442" />
+      <Effector>Niacin</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="EUBREC_1036" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7498402&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NiaR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4782" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBREC_1033" Name="nadA" Position="-173" Score="6.3">
+          <Sequence>TACAACTGACAAGACACCTGTA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_1034" Name="nadB" Position="-129" Score="6.3">
+          <Sequence>TACAGGTGTCTTGTCAGTTGTA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7498400" LocusId="EUBREC_1034" Name="nadB" Function="L-aspartate oxidase (EC 1.4.3.16)" />
+          <Members vimssId="7498401" LocusId="EUBREC_1035" Name="nadC" Function="Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)" />
+          <Members vimssId="7498402" LocusId="EUBREC_1036" Name="niaR" Function="NAD biosynthesis transcription regulator, HTH_11 family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7498399" LocusId="EUBREC_1033" Name="nadA" Function="Quinolinate synthetase (EC 4.1.99.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4782</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=64322" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="EUBREC_1429" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7498795&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6635" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBREC_2400" Name="nrdD" Position="-284" Score="4.7">
+          <Sequence>CTACAAAATATTGTTG</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_2400" Name="nrdD" Position="-253" Score="4.9">
+          <Sequence>CAACAATATCTTGTAT</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_2400" Name="nrdD" Position="-26" Score="5.5">
+          <Sequence>ATACTATATATAGTAC</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7499761" LocusId="EUBREC_2400" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6635</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61483" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine biosynthesis</Pathway>
+      <LocusTag Key="EUBREC_2949" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7500309&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine biosynthesis</BiologicalProcess>
+      <Regulog Key="PdxR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6312" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBREC_0262" Name="pdxU" Position="-170" Score="10.6">
+          <Sequence>AACTGGATA-(15)-AATTGGATA-(8)-ATGCCACAT</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7497633" LocusId="EUBREC_0262" Name="pdxU" Function="Substrate-specific component PdxU of predicted pyridoxin-related ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6312</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="RUMGNA_00848" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57038" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux</Pathway>
+      <LocusTag Key="EUBREC_2159" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7499522&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux</BiologicalProcess>
+      <Regulog Key="RUMGNA_00848 - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5831" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBREC_3591" Name="RUMGNA_00848" Position="-8" Score="5.6">
+          <Sequence>TGAATATAATGTACTTGTACGATAAGTACATTAAAGAAC</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_3591" Name="RUMGNA_00848" Position="-17" Score="5.3">
+          <Sequence>CGTTTGCCTTGAATATAATGTACTTGTACGATAAGTACA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_2159" Name="RUMGNA_00848" Position="-58" Score="7">
+          <Sequence>TGTATATAGTGTATATATAACACATAAACAGTTGATAAA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_2159" Name="RUMGNA_00848" Position="-67" Score="5.8">
+          <Sequence>ACACCATGATGTATATAGTGTATATATAACACATAAACA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7499522" LocusId="EUBREC_2159" Name="RUMGNA_00848" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="7499521" LocusId="EUBREC_2158" Name="BH0652" Function="ABC-type multidrug transport system, ATPase component" />
+          <Members vimssId="7499520" LocusId="EUBREC_2157" Name="BH0653" Function="ABC-type multidrug transport system, permease component" />
+          <Members vimssId="7499519" LocusId="EUBREC_2156" Name="BH0653" Function="ABC-type multidrug transport system, permease component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7500949" LocusId="EUBREC_3591" Name="RUMGNA_00848" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="7500948" LocusId="EUBREC_3590" Name="BH0652" Function="ABC-type multidrug transport system, ATPase component" />
+          <Members vimssId="7500947" LocusId="EUBREC_3589" Name="BH0653" Function="ABC-type multidrug transport system, permease component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5831</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47470" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="EUBREC_1967" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7499331&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4784" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBREC_1522" Name="gap" Position="-78" Score="5.2">
+          <Sequence>TAGTGAAAATTTTAACAA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_2002" Name="pckA" Position="-82" Score="5.1">
+          <Sequence>TTGATTTTTTTTTAACAA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_0700" Name="fba" Position="-78" Score="5">
+          <Sequence>GTGTTAAAAATTTAACTT</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_2390" Name="phf1" Position="-219" Score="5.3">
+          <Sequence>TTGTGAAAAAAATAACAA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_2843" Name="aroE" Position="-98" Score="5">
+          <Sequence>TTGTTAAGTTTTTAACGA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_0733" Name="" Position="-111" Score="5.3">
+          <Sequence>TTGACAAATTATTAACAA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_0733" Name="" Position="-54" Score="5.4">
+          <Sequence>TTGTTAAAAAATTAACAG</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_1058" Name="pfkA" Position="-18" Score="5.3">
+          <Sequence>ATGATAATTTTTTAACAT</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_3075" Name="cat2" Position="-60" Score="5.2">
+          <Sequence>TTGTTATTTTTTTAACGT</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_1017" Name="crt" Position="-91" Score="4.8">
+          <Sequence>TTGACAAAAATTTGTCAA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_1967" Name="rex" Position="-225" Score="4.8">
+          <Sequence>ATGTTAAATTCTTAACAC</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7498383" LocusId="EUBREC_1017" Name="crt" Function="3-hydroxybutyryl-CoA dehydratase (EC 4.2.1.55)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7500435" LocusId="EUBREC_3075" Name="cat2" Function="4-hydroxybutyrate:acetyl-CoA CoA transferase (EC 2.3.1.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7498424" LocusId="EUBREC_1058" Name="pfkA" Function="6-phosphofructokinase (EC 2.7.1.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7498104" LocusId="EUBREC_0733" Name="null" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7500203" LocusId="EUBREC_2843" Name="aroE" Function="Shikimate/quinate 5-dehydrogenase I beta (EC 1.1.1.282)" />
+          <Members vimssId="7500202" LocusId="EUBREC_2842" Name="kefA" Function="potassium efflux system KefA" />
+          <Members vimssId="7500201" LocusId="EUBREC_2841" Name="aroD" Function="3-dehydroquinate dehydratase I (EC 4.2.1.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7499751" LocusId="EUBREC_2390" Name="phf1" Function="[Fe] hydrogenase (EC 1.12.7.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7499331" LocusId="EUBREC_1967" Name="rex" Function="Redox-sensitive transcriptional regulator (AT-rich DNA-binding protein)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7498071" LocusId="EUBREC_0700" Name="fba" Function="Fructose-bisphosphate aldolase class II (EC 4.1.2.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7499365" LocusId="EUBREC_2002" Name="pckA" Function="Phosphoenolpyruvate carboxykinase [ATP] (EC 4.1.1.49)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7498888" LocusId="EUBREC_1522" Name="gap" Function="NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4784</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="YtrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57203" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux; Antibiotic resistance</Pathway>
+      <LocusTag Key="EUBREC_2290" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7499653&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux; Antibiotic resistance</BiologicalProcess>
+      <Regulog Key="YtrA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5849" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBREC_2290" Name="ytrA" Position="-119" Score="5.2">
+          <Sequence>AGGTGTATCACGTTGGATAGTACACTG</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7499653" LocusId="EUBREC_2290" Name="ytrA" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="7499652" LocusId="EUBREC_2289" Name="ytrB" Function="ABC-type multidrug transport system, ATPase component" />
+          <Members vimssId="7499651" LocusId="EUBREC_2288" Name="ytrD" Function="ABC-type transport system, permease component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5849</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48830" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBREC_3132" Name="ribD" Position="-345" Score="107.5">
+          <Sequence>AATTATTCTTCAGGGCAGGGTGCAATTCCCTACCGGTGGTATAGCCCACGAGCCGCAAGGCATGATTTCGGTGAGATTCCGAAGCCGACAGTAAAGTCTGGATGAAAGAAGATGTGA</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBREC_0834" Name="ribU" Position="-244" Score="110.3">
+          <Sequence>GAATTCTTCAGGGCAGGGTGAGATTCCCTACCGGTGGTACAGCCCACGAGCCGCAAGGCATGATTCGGTGTGATTCCGAAGCCGACAGTATAGTCTGGATGAGAGAAGATTATTAG</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7500492" LocusId="EUBREC_3132" Name="ribD" Function="Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26) / 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)" />
+          <Members vimssId="7500491" LocusId="EUBREC_3131" Name="ribE" Function="Riboflavin synthase alpha chain (EC 2.5.1.9)" />
+          <Members vimssId="7500490" LocusId="EUBREC_3130" Name="ribBA" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase / GTP cyclohydrolase II (EC 3.5.4.25)" />
+          <Members vimssId="7500489" LocusId="EUBREC_3129" Name="ribH" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7498202" LocusId="EUBREC_0834" Name="ribU" Function="Substrate-specific component RibU of riboflavin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48844" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBREC_2530" Name="thiM" Position="-163" Score="46.8">
+          <Sequence>AAAAACACAACAGGGGAGCTGGTGTTTAGCCGGCTGAGAGTAGACTGGTAGTGTCTTGACCCATAACCTGATTTGGATAATGCCAACGTAGGATAATATCGCACGATTTTT</Sequence>
+          <Bacteria>Eubacterium rectale ATCC 33656</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7499891" LocusId="EUBREC_2530" Name="thiM" Function="Hydroxyethylthiazole kinase (EC 2.7.1.50)" />
+          <Members vimssId="7499890" LocusId="EUBREC_2529" Name="null" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Psychrobacter sp. PRwf-1" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="HutC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17340" />
+      <Effector>cis-Urocanic acid</Effector>
+      <Pathway>Histidine utilization</Pathway>
+      <LocusTag Key="PsycPRwf_0853" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6960903&amp;disp=0" />
+      <BiologicalProcess>Histidine utilization</BiologicalProcess>
+      <Regulog Key="HutC - Moraxellaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1870" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PsycPRwf_0851" Name="COG3314" Position="-207" Score="4">
+          <Sequence>TAATTTGTCTATAGACATAG</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PsycPRwf_0851" Name="COG3314" Position="-28" Score="4">
+          <Sequence>TTATTGCTACAGACAAGGAT</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PsycPRwf_0853" Name="hutC" Position="-156" Score="5">
+          <Sequence>GATTTTGTATATACAAATTA</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PsycPRwf_0852" Name="hutU" Position="-54" Score="5">
+          <Sequence>TAATTTGTATATACAAAATC</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6960902" LocusId="PsycPRwf_0852" Name="hutU" Function="Urocanate hydratase (EC 4.2.1.49)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6960901" LocusId="PsycPRwf_0851" Name="COG3314" Function="Predicted histidine uptake transporter" />
+          <Members vimssId="6960900" LocusId="PsycPRwf_0850" Name="hutH" Function="Histidine ammonia-lyase (EC 4.3.1.3)" />
+          <Members vimssId="6960899" LocusId="PsycPRwf_0849" Name="hutG2" Function="Formiminoglutamase (EC 3.5.3.8)" />
+          <Members vimssId="6960898" LocusId="PsycPRwf_0848" Name="hutI" Function="Imidazolonepropionase (EC 3.5.2.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6960903" LocusId="PsycPRwf_0853" Name="hutC" Function="Histidine utilization repressor, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1870</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17884" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="PsycPRwf_1628" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6961688&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Moraxellaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1931" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PsycPRwf_1628" Name="iscR" Position="-75" Score="8.1">
+          <Sequence>AATCTTGACTAGTTTACTCGGGATT</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6961688" LocusId="PsycPRwf_1628" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="6961689" LocusId="PsycPRwf_1629" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+          <Members vimssId="6961690" LocusId="PsycPRwf_1630" Name="null" Function="Iron-sulfur cluster assembly scaffold protein IscU" />
+          <Members vimssId="6961691" LocusId="PsycPRwf_1631" Name="iscA" Function="Iron binding protein IscA for iron-sulfur cluster assembly" />
+          <Members vimssId="6961692" LocusId="PsycPRwf_1632" Name="hscB" Function="Chaperone protein HscB" />
+          <Members vimssId="6961693" LocusId="PsycPRwf_1633" Name="hscA" Function="Chaperone protein HscA" />
+          <Members vimssId="6961694" LocusId="PsycPRwf_1634" Name="fdx" Function="ferredoxin, 2Fe-2S type, ISC system" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1931</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NadQ" RegulationMode="repressor">
+      <Regulator Key="NadQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15182" />
+      <Effector />
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="PsycPRwf_1963" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6962034&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NadQ - Moraxellaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1628" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PsycPRwf_1963" Name="nadQ" Position="-337" Score="6.7">
+          <Sequence>TTATGCTCATTTTGAGTATAA</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PsycPRwf_1964" Name="nadA" Position="-105" Score="6.7">
+          <Sequence>TTATACTCAAAATGAGCATAA</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PsycPRwf_1962" Name="nadC" Position="-148" Score="6.3">
+          <Sequence>TTATGCTCATAATGAGCATTA</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6962035" LocusId="PsycPRwf_1964" Name="nadA" Function="Quinolinate synthetase (EC 4.1.99.-)" />
+          <Members vimssId="6962036" LocusId="PsycPRwf_1965" Name="nadB" Function="L-aspartate oxidase (EC 1.4.3.16)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6962034" LocusId="PsycPRwf_1963" Name="nadQ" Function="Transcriptional regulator of NAD metabolism, COG4111 family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6962033" LocusId="PsycPRwf_1962" Name="nadC" Function="Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1628</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15536" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="PsycPRwf_2386" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6962488&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Moraxellaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1668" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PsycPRwf_1577" Name="" Position="-111" Score="5.3">
+          <Sequence>ACCCCATATATTGTGT</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PsycPRwf_1577" Name="" Position="-78" Score="4.8">
+          <Sequence>ACACTATATATTGGGG</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6961637" LocusId="PsycPRwf_1577" Name="null" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="6961638" LocusId="PsycPRwf_1578" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+          <Members vimssId="6961639" LocusId="PsycPRwf_1579" Name="yfaE" Function="Ferredoxin" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1668</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="repressor">
+      <Regulator Key="NsrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14612" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="PsycPRwf_0763" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6960813&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="NsrR - Moraxellaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1564" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PsycPRwf_0670" Name="hmp" Position="-142" Score="6.9">
+          <Sequence>AGATTCATTTGAAATGAATCT</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PsycPRwf_1520" Name="norB" Position="-188" Score="6.5">
+          <Sequence>ACATTCATTTTAAATGAATGT</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PsycPRwf_1520" Name="norB" Position="-53" Score="6.8">
+          <Sequence>ACATTCATTTTAAATGAATCT</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PsycPRwf_0765" Name="nnrS" Position="-135" Score="6.3">
+          <Sequence>ACATTCATTATAAATACATCT</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6960815" LocusId="PsycPRwf_0765" Name="nnrS" Function="NnrS protein involved in response to NO" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6961577" LocusId="PsycPRwf_1520" Name="norB" Function="Nitric-oxide reductase (EC 1.7.99.7), quinol-dependent" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6960717" LocusId="PsycPRwf_0670" Name="hmp" Function="Flavohemoprotein (Hemoglobin-like protein) (Flavohemoglobin) (Nitric oxide dioxygenase) (EC 1.14.12.17)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1564</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19306" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="PsycPRwf_1805" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6961869&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Moraxellaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2085" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PsycPRwf_1804" Name="ntrB" Position="-93" Score="4.6">
+          <Sequence>TGAGCCAATTTGGCGCA</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PsycPRwf_1804" Name="ntrB" Position="-168" Score="4.8">
+          <Sequence>TGCACTAAAATAAATCA</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PsycPRwf_1804" Name="ntrB" Position="-137" Score="4.7">
+          <Sequence>TGCACTATTTATGAGCA</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PsycPRwf_1792" Name="COG0733" Position="-282" Score="4.6">
+          <Sequence>TGATTCATTATTAAGCA</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PsycPRwf_1645" Name="glnA" Position="-447" Score="4.8">
+          <Sequence>TGCACAATATTGGTGCG</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PsycPRwf_1645" Name="glnA" Position="-414" Score="4.2">
+          <Sequence>TGCCCTAATTTGGTTTA</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6961707" LocusId="PsycPRwf_1645" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6961868" LocusId="PsycPRwf_1804" Name="ntrB" Function="Nitrogen regulation protein ntrB (EC 2.7.3.-)" />
+          <Members vimssId="6961869" LocusId="PsycPRwf_1805" Name="ntrC" Function="Nitrogen regulation protein NR(I)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6961856" LocusId="PsycPRwf_1792" Name="COG0733" Function="Predicted sodium dependent transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2085</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TrpR" RegulationMode="repressor">
+      <Regulator Key="TrpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19630" />
+      <Effector>Tryptophan</Effector>
+      <Pathway>Tryptophan biosynthesis</Pathway>
+      <LocusTag Key="PsycPRwf_1155" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6961206&amp;disp=0" />
+      <BiologicalProcess>Tryptophan biosynthesis</BiologicalProcess>
+      <Regulog Key="TrpR - Moraxellaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2123" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PsycPRwf_1460" Name="trpB" Position="-130" Score="4.8">
+          <Sequence>CGTATCAGTGTACTAGAACA</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PsycPRwf_1155" Name="trpR" Position="-48" Score="5">
+          <Sequence>TGTACTACTGTACTAGAATA</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6961513" LocusId="PsycPRwf_1460" Name="trpB" Function="Tryptophan synthase beta chain like (EC 4.2.1.20)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6961206" LocusId="PsycPRwf_1155" Name="trpR" Function="Trp operon repressor" />
+          <Members vimssId="6961205" LocusId="PsycPRwf_1154" Name="trpE" Function="Anthranilate synthase, aminase component (EC 4.1.3.27)" />
+          <Members vimssId="6961204" LocusId="PsycPRwf_1153" Name="trpG" Function="Anthranilate synthase, amidotransferase component (EC 4.1.3.27)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2123</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16076" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="PsycPRwf_0184" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6960219&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Moraxellaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1728" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PsycPRwf_1910" Name="znuA2" Position="-100" Score="6.4">
+          <Sequence>TTATTGTTATAATATAACATACT</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PsycPRwf_0184" Name="zur" Position="-408" Score="5.8">
+          <Sequence>GATATGTTATACTATAACTAATA</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PsycPRwf_2339" Name="omr2" Position="-97" Score="5">
+          <Sequence>AAAACGTTATGTTATACTATAAC</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PsycPRwf_2339" Name="omr1" Position="-92" Score="6.8">
+          <Sequence>GTTATGTTATACTATAACATAAC</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PsycPRwf_2340" Name="omr1" Position="-86" Score="6.8">
+          <Sequence>GTTATGTTATAGTATAACATAAC</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PsycPRwf_1926" Name="PsycPRwf_1926" Position="-121" Score="6.6">
+          <Sequence>TTAATGTTATGTTATAACATAAT</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PsycPRwf_0185" Name="znuA" Position="-142" Score="6.1">
+          <Sequence>TATTAGTTATAGTATAACATATC</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6960220" LocusId="PsycPRwf_0185" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6962441" LocusId="PsycPRwf_2339" Name="omr1" Function="Zinc-regulated outer membrane receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6962442" LocusId="PsycPRwf_2340" Name="omr1" Function="Zinc-regulated outer membrane receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6960219" LocusId="PsycPRwf_0184" Name="zur" Function="Zinc uptake regulation protein ZUR" />
+          <Members vimssId="6960218" LocusId="PsycPRwf_0183" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="6960217" LocusId="PsycPRwf_0182" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6961980" LocusId="PsycPRwf_1910" Name="znuA2" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6962441" LocusId="PsycPRwf_2339" Name="omr2" Function="Zinc-regulated outer membrane receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6961997" LocusId="PsycPRwf_1926" Name="PsycPRwf_1926" Function="LSU ribosomal protein L36p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1728</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48641" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PsycPRwf_2272" Name="thiC" Position="-426" Score="61.5">
+          <Sequence>ATTAAGACTCGGGGTGCAGACCTTGCGTTATCTGATAGCCGCTGAAATGCGATTATAGATAACCACGCGTTTGCTGAGACATCACCCGTTGAACCTGATGCGGTTAATACCGCCGTAGGAAAGTCATTGCAACTCCCCTA</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PsycPRwf_0830" Name="thiM" Position="-191" Score="69.1">
+          <Sequence>TAAGTTATCACAGGGGCGCCCTTGGGCTGAGATGCACCCTTTGAACCTGATCCAGATTATACTGGCGTAGGGAGTGTATAGCGATAACGG</Sequence>
+          <Bacteria>Psychrobacter sp. PRwf-1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6960880" LocusId="PsycPRwf_0830" Name="thiM" Function="Hydroxyethylthiazole kinase (EC 2.7.1.50)" />
+          <Members vimssId="6960879" LocusId="PsycPRwf_0829" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+          <Members vimssId="6960878" LocusId="PsycPRwf_0828" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6962373" LocusId="PsycPRwf_2272" Name="thiC" Function="Thiamine biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

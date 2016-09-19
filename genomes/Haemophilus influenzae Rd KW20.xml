@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Haemophilus influenzae Rd KW20" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor (activator)">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21716" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="HI1209" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7554&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2348" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI0811" Name="argH" Position="-34" Score="4.9">
+          <Sequence>ATAGAATAATTAATTAAA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0811" Name="argH" Position="-55" Score="4.9">
+          <Sequence>TATGAATAAATATGCACA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1209" Name="argR" Position="-51" Score="5">
+          <Sequence>AGTGAATTTTTATGCAAT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1180" Name="artP" Position="-82" Score="3.7">
+          <Sequence>TGGGATTTTTTATTAATA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1180" Name="artP" Position="-61" Score="5">
+          <Sequence>CTTGCATAATTATGCATA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7160" LocusId="HI0811" Name="argH" Function="Argininosuccinate lyase (EC 4.3.2.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7554" LocusId="HI1209" Name="argR" Function="Arginine metabolism transcriptional regulator ArgR" />
+          <Members vimssId="7553" LocusId="HI1208" Name="yfcH" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7525" LocusId="HI1180" Name="artP" Function="Arginine ABC transporter, ATP-binding protein" />
+          <Members vimssId="7524" LocusId="HI1179" Name="artI" Function="Arginine ABC transporter, substrate-binding protein ArtI" />
+          <Members vimssId="7523" LocusId="HI1178" Name="artQ" Function="Arginine ABC transporter, permease protein 1" />
+          <Members vimssId="7522" LocusId="HI1177" Name="artM" Function="Arginine ABC transporter, permease protein 2" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2348</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="CueR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50872" />
+      <Effector>Copper ion, (Cu+)</Effector>
+      <Pathway>Copper resistance</Pathway>
+      <LocusTag Key="HI0293" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6649&amp;disp=0" />
+      <BiologicalProcess>Copper resistance</BiologicalProcess>
+      <Regulog Key="CueR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5155" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI0292" Name="copA0" Position="-63" Score="5">
+          <Sequence>ACCTTAACCTTATGTAAAGGT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0293" Name="cueR" Position="-34" Score="5">
+          <Sequence>ACCTTTACATAAGGTTAAGGT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6649" LocusId="HI0293" Name="cueR" Function="Copper-responsive transcriptional regulator, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6648" LocusId="HI0292" Name="copA0" Function="truncated copper-transporting P-type ATPase" />
+          <Members vimssId="6647" LocusId="HI0291" Name="copA0" Function="truncated copper-transporting P-type ATPase" />
+          <Members vimssId="6646" LocusId="HI0290" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5155</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="FabR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14397" />
+      <Effector>Unsaturated acyl-ACP; Unsaturated acyl-CoA</Effector>
+      <Pathway>Fatty acid biosynthesis</Pathway>
+      <LocusTag Key="HI0570" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6916&amp;disp=0" />
+      <BiologicalProcess>Fatty acid biosynthesis</BiologicalProcess>
+      <Regulog Key="FabR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1540" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI1325" Name="fabA" Position="-96" Score="5.7">
+          <Sequence>TGCGAACAAGTGTTAGCT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0002" Name="lcfH" Position="-20" Score="5.7">
+          <Sequence>AGCGCACAACTGTTCGCT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7665" LocusId="HI1325" Name="fabA" Function="3-hydroxydecanoyl-[acyl-carrier-protein] dehydratase (EC 4.2.1.60)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6364" LocusId="HI0002" Name="lcfH" Function="putative long-chain-fatty-acid--CoA ligase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1540</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor (activator)">
+      <Regulator Key="FadR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16377" />
+      <Effector>Palmitoyl-CoA; Oleoyl-CoA</Effector>
+      <Pathway>Fatty acid degradation</Pathway>
+      <LocusTag Key="HI0426" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6776&amp;disp=0" />
+      <BiologicalProcess>Fatty acid degradation</BiologicalProcess>
+      <Regulog Key="FadR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1763" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI1325" Name="fabA" Position="-114" Score="4.2">
+          <Sequence>GACTGCTCCGACAAGTT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7665" LocusId="HI1325" Name="fabA" Function="3-hydroxydecanoyl-[acyl-carrier-protein] dehydratase (EC 4.2.1.60)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1763</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor (activator)">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19417" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="HI0190" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6548&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2098" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI0661" Name="hgp2" Position="-85" Score="4.4">
+          <Sequence>AATAATGAGAATAGTTTTT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0661" Name="hgp2" Position="2" Score="4.9">
+          <Sequence>GAGAATTATTATTATTTTT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0253" Name="exbB" Position="-62" Score="4.1">
+          <Sequence>ATGATTGAAATTCATTCTC</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0253" Name="exbB" Position="-56" Score="4.2">
+          <Sequence>GAAATTCATTCTCAATTAT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0635" Name="hbp" Position="-67" Score="4.3">
+          <Sequence>ATATATGACAATTATTATC</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0635" Name="hbp" Position="-61" Score="4.6">
+          <Sequence>GACAATTATTATCATTAAG</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0990" Name="iga" Position="-198" Score="5">
+          <Sequence>AAAAATTATTATCATTACC</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0712" Name="hbp" Position="-33" Score="5">
+          <Sequence>AATAATTATTATCATTAAA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0635" Name="hbp" Position="-232" Score="4.2">
+          <Sequence>AATCATCATAATGATTACT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0712" Name="hbp" Position="-36" Score="4.4">
+          <Sequence>TATAATAATTATTATCATT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0712" Name="hbp" Position="-39" Score="4.6">
+          <Sequence>ATGTATAATAATTATTATC</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0712" Name="hbp" Position="-134" Score="4.2">
+          <Sequence>AAAAATGATTTTCTTTTAT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1610" Name="tyrS" Position="-160" Score="4.7">
+          <Sequence>GCTATTGATAACAATTATC</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1610" Name="tyrS" Position="-190" Score="4.1">
+          <Sequence>AGGAATTATTTTCATTTAA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1153" Name="hpt" Position="-200" Score="4.4">
+          <Sequence>GAAATTGAGAATAATTCTT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1153" Name="hpt" Position="-194" Score="4.3">
+          <Sequence>GAGAATAATTCTTATTGAC</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1217" Name="cjrC" Position="-39" Score="4.7">
+          <Sequence>GATAATCATAATATTTCTC</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0854" Name="hugZ" Position="-36" Score="4.2">
+          <Sequence>AATAATAAAAATTAATTGT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0113" Name="hemR" Position="-33" Score="4.6">
+          <Sequence>ATAAATAATTATCATTAAG</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1069" Name="nrfA" Position="-160" Score="4.6">
+          <Sequence>GATAATAATACTCAAAATT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1069" Name="nrfA" Position="26" Score="5.1">
+          <Sequence>GATATTAATAATAATTCTC</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0362" Name="sitA" Position="-127" Score="4.5">
+          <Sequence>TATTTTGATAATCATTCCC</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0362" Name="sitA" Position="-121" Score="4.2">
+          <Sequence>GATAATCATTCCCATTCCA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0990" Name="iga" Position="-204" Score="4.5">
+          <Sequence>AATATCAAAAATTATTATC</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7500" LocusId="HI1153" Name="hpt" Function="Hypoxanthine-guanine phosphoribosyltransferase (EC 2.4.2.8)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7059" LocusId="HI0712" Name="hbp" Function="Hemoglobin-binding protein, TonB-dependent receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7342" LocusId="HI0990" Name="iga" Function="Immunoglobulin A1 protease autotransporter (EC 3.4.21.72)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1744254" LocusId="HI0635" Name="hbp" Function="Hemoglobin-binding protein, TonB-dependent receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6611" LocusId="HI0253" Name="exbB" Function="Ferric siderophore transport system, biopolymer transport protein ExbB" />
+          <Members vimssId="6610" LocusId="HI0252" Name="exbD" Function="TonB system transport protein ExbD type-2/biopolymer transport protein" />
+          <Members vimssId="6609" LocusId="HI0251" Name="tonB" Function="Ferric siderophore transport system, periplasmic binding protein TonB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6713" LocusId="HI0362" Name="sitA" Function="Manganese ABC transporter, periplasmic-binding protein SitA" />
+          <Members vimssId="6712" LocusId="HI0361" Name="sitB" Function="Manganese ABC transporter, ATP-binding protein SitB" />
+          <Members vimssId="6711" LocusId="HI0360" Name="sitC" Function="Manganese ABC transporter, inner membrane permease protein SitC" />
+          <Members vimssId="6710" LocusId="HI0359" Name="sitD" Function="Manganese ABC transporter, inner membrane permease protein SitD" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1744290" LocusId="HI1069" Name="nrfA" Function="Cytochrome c552 precursor (EC 1.7.2.2)" />
+          <Members vimssId="1744289" LocusId="HI1068" Name="nrfB" Function="Cytochrome c-type protein NrfB precursor" />
+          <Members vimssId="7414" LocusId="HI1067" Name="nrfC" Function="NrfC protein" />
+          <Members vimssId="7413" LocusId="HI1066" Name="nrfD" Function="NrfD protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6476" LocusId="HI0113" Name="hemR" Function="TonB-dependent hemin receptor, outer membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7203" LocusId="HI0854" Name="hugZ" Function="Putative heme iron utilization protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7562" LocusId="HI1217" Name="cjrC" Function="TonB-dependent receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7941" LocusId="HI1610" Name="tyrS" Function="Tyrosyl-tRNA synthetase (EC 6.1.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7010" LocusId="HI0661" Name="hgp2" Function="Probable hemoglobin and hemoglobin-haptoglobin-binding protein, TonB-dependent receptor" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2098</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="GalR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51835" />
+      <Effector>Galactose</Effector>
+      <Pathway>Galactose utilization</Pathway>
+      <LocusTag Key="HI0821" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7170&amp;disp=0" />
+      <BiologicalProcess>Galactose utilization</BiologicalProcess>
+      <Regulog Key="GalR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5263" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI0820" Name="galT" Position="-39" Score="6.2">
+          <Sequence>TAATGTAATCGTTTACATTG</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0821" Name="galR" Position="-188" Score="5.9">
+          <Sequence>CAATGTAAACGATTACATTA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0822" Name="mglB" Position="-113" Score="6.1">
+          <Sequence>TTATGTAATCATTTTCATTT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7170" LocusId="HI0821" Name="galR" Function="Transcriptional regulator for galactose utilization, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7169" LocusId="HI0820" Name="galT" Function="Galactose-1-phosphate uridylyltransferase (EC 2.7.7.10)" />
+          <Members vimssId="1744269" LocusId="HI0819" Name="galK" Function="Galactokinase (EC 2.7.1.6)" />
+          <Members vimssId="7167" LocusId="HI0818" Name="galM" Function="Aldose 1-epimerase (EC 5.1.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1744270" LocusId="HI0822" Name="mglB" Function="Galactose/methyl galactoside ABC transport system, D-galactose-binding periplasmic protein MglB (TC 3.A.1.2.3)" />
+          <Members vimssId="7172" LocusId="HI0823" Name="mglA" Function="Galactose/methyl galactoside ABC transport system, ATP-binding protein MglA (EC 3.6.3.17)" />
+          <Members vimssId="7173" LocusId="HI0824" Name="mglC" Function="Galactose/methyl galactoside ABC transporter, permease protein mglC (TC 3.A.1.2.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5263</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17837" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="HI0379" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6729&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1926" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI0433" Name="nfuA" Position="-38" Score="4.8">
+          <Sequence>ATTCCCGATACTTTCTCTCAAGTAT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0379" Name="iscR" Position="-60" Score="6.3">
+          <Sequence>ATAATTGACTAAATTAGTCAGATAT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6783" LocusId="HI0433" Name="nfuA" Function="NfuA Fe-S protein maturation" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6729" LocusId="HI0379" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="1744228" LocusId="HI0378" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+          <Members vimssId="1744227" LocusId="HI0377" Name="iscU" Function="Iron-sulfur cluster assembly scaffold protein IscU" />
+          <Members vimssId="6726" LocusId="HI0376" Name="iscA" Function="Iron binding protein IscA for iron-sulfur cluster assembly" />
+          <Members vimssId="6725" LocusId="HI0375" Name="hscB" Function="Chaperone protein HscB" />
+          <Members vimssId="6724" LocusId="HI0374" Name="DUF2625" Function="conserved hypothetical protein, DUF2625" />
+          <Members vimssId="6723" LocusId="HI0373" Name="hscA" Function="Chaperone protein HscA" />
+          <Members vimssId="6722" LocusId="HI0372" Name="fdx" Function="ferredoxin, 2Fe-2S type, ISC system" />
+          <Members vimssId="6721" LocusId="HI0371" Name="yfhJ" Function="putative Fe-S cluster assembly protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1926</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28285" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="HI0749" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1744264&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2975" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI0749" Name="lexA" Position="-46" Score="5.2">
+          <Sequence>ATCTGTATACAATACCAGTT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1546" Name="impA" Position="-88" Score="4.9">
+          <Sequence>CCCTGTATGAAATATCAGTA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1546" Name="impA" Position="-62" Score="4.9">
+          <Sequence>AACTGTACAAAAAAACAAGG</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0600" Name="recA" Position="-60" Score="5.1">
+          <Sequence>ACCTGTACATCAATACAGAT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0749" Name="lexA" Position="-26" Score="5">
+          <Sequence>ATCTGTGTTTAAAAACAGGA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1188" Name="uvrD" Position="-32" Score="5.5">
+          <Sequence>AACTGTAAATTTAAACAGAT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0250" Name="ssb" Position="-93" Score="5.1">
+          <Sequence>ATCTGTGCAAATATCCAGTT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1258" Name="mfd" Position="-96" Score="5.6">
+          <Sequence>AACTGTTTTTTTAAACAGTT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0249" Name="uvrA" Position="-80" Score="5.2">
+          <Sequence>AACTGGATATTTGCACAGAT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0313" Name="ruvA" Position="-64" Score="4.7">
+          <Sequence>AACTGGATGTTCGTCCAGTT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0070" Name="recN" Position="-55" Score="5.1">
+          <Sequence>TACTGTAAATTAAGTCAGTT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7884" LocusId="HI1546" Name="impA" Function="SOS-response transcriptional repressors (RecA-mediated autopeptidases)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6668" LocusId="HI0313" Name="ruvA" Function="Holliday junction DNA helicase RuvA" />
+          <Members vimssId="6667" LocusId="HI0312" Name="ruvB" Function="Holliday junction DNA helicase RuvB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6432" LocusId="HI0070" Name="recN" Function="DNA repair protein RecN" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6608" LocusId="HI0250" Name="ssb" Function="Single-stranded DNA-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7533" LocusId="HI1188" Name="uvrD" Function="ATP-dependent DNA helicase II" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7602" LocusId="HI1258" Name="mfd" Function="Transcription-repair coupling factor (superfamily II helicase)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6946" LocusId="HI0600" Name="recA" Function="Recombinase A" />
+          <Members vimssId="6945" LocusId="HI0599" Name="recX" Function="Regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1744264" LocusId="HI0749" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6607" LocusId="HI0249" Name="uvrA" Function="Excinuclease ABC subunit A" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2975</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MetJ" RegulationMode="repressor">
+      <Regulator Key="MetJ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56444" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Methionine metabolism; Methionine biosynthesis</Pathway>
+      <LocusTag Key="HI0294" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6650&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism; Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetJ - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5764" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI1172" Name="metK" Position="-50" Score="6.7">
+          <Sequence>AGCCGTCTATACGTCA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0294" Name="metJ" Position="-83" Score="6">
+          <Sequence>AGCCGTCTAGATTGTT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1263" Name="metX" Position="-87" Score="7.8">
+          <Sequence>AGCCGTTTAGACGGCT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1702" Name="metE" Position="-52" Score="7.9">
+          <Sequence>AGACGTTTAGCCGTCT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0294" Name="metJ" Position="-91" Score="7">
+          <Sequence>GGAAGTTTAGCCGTCT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0621" Name="metN" Position="-61" Score="7.3">
+          <Sequence>AGCAATCTAGACATCT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="8033" LocusId="HI1702" Name="metE" Function="5-methyltetrahydropteroyltriglutamate-- homocysteine S-methyltransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7519" LocusId="HI1172" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7607" LocusId="HI1263" Name="metX" Function="Homoserine O-acetyltransferase (EC 2.3.1.31)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6969" LocusId="HI0621" Name="metN" Function="Methionine ABC transporter ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6650" LocusId="HI0294" Name="metJ" Function="S-adenosylmethionine-responsive transcriptional repressor MetJ" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5764</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor (activator)">
+      <Regulator Key="MetR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56612" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="HI1739" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=8070&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5783" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI1739" Name="metR" Position="-13" Score="5.2">
+          <Sequence>ATGAATATTATTAAT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1739" Name="metR" Position="-82" Score="5">
+          <Sequence>ATTAATTTTATTAAT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1702" Name="metE" Position="-128" Score="5.2">
+          <Sequence>ATGAATTTATTTAAT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0889" Name="glyA" Position="-109" Score="5.5">
+          <Sequence>ATGAATTAATTTCAT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1444" Name="metF" Position="-100" Score="4.7">
+          <Sequence>ATTAATAATAATCAT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0736" Name="HI0736" Position="-55" Score="4.8">
+          <Sequence>ATGATTAGATTTCAT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="8033" LocusId="HI1702" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7084" LocusId="HI0736" Name="HI0736" Function="hypothetical sodium-dependent transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="8070" LocusId="HI1739" Name="metR" Function="Homocysteine-responsive transcriptional regulator of methionine metabolism, LysR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7239" LocusId="HI0889" Name="glyA" Function="Serine hydroxymethyltransferase (EC 2.1.2.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7785" LocusId="HI1444" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5783</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21180" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdenum homeostasis</Pathway>
+      <LocusTag Key="HI1694" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=8025&amp;disp=0" />
+      <BiologicalProcess>Molybdenum homeostasis</BiologicalProcess>
+      <Regulog Key="ModE - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2294" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI1694" Name="modE" Position="-118" Score="5.9">
+          <Sequence>AACGTTATTTACTTGATTATATATTGAA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0105" Name="ybgI" Position="-161" Score="6.5">
+          <Sequence>ATCGCTATAAATTTATGTATATAATGAA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1525" Name="momA" Position="-60" Score="6.8">
+          <Sequence>TTCATTATACAATTTTATATATATCGAT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1693" Name="modA" Position="-101" Score="6.2">
+          <Sequence>AGCGTTATATATTTTACTAAATAATTTT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1676" Name="moaA" Position="-246" Score="6.8">
+          <Sequence>TTCATTATGTATTTTTTTATATAATTGA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1744208" LocusId="HI0105" Name="ybgI" Function="Conserved metal-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="8007" LocusId="HI1676" Name="moaA" Function="Molybdenum cofactor biosynthesis protein A" />
+          <Members vimssId="8006" LocusId="HI1675" Name="moaC" Function="Molybdenum cofactor biosynthesis protein C" />
+          <Members vimssId="8005" LocusId="HI1674" Name="moaD" Function="Molybdopterin synthase sulfur carrier subunit" />
+          <Members vimssId="8004" LocusId="HI1673" Name="moaE" Function="Molybdopterin synthase catalytic subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7863" LocusId="HI1525" Name="momA" Function="Predicted ABC transporter, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="8024" LocusId="HI1693" Name="modA" Function="Molybdate ABC transporter, substrate-binding protein" />
+          <Members vimssId="8023" LocusId="HI1692" Name="modB" Function="Molybdate ABC transporter, permease protein" />
+          <Members vimssId="8022" LocusId="HI1691" Name="modC" Function="Molybdate ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="8025" LocusId="HI1694" Name="modE" Function="Molybdate-responsive transcriptional regulator ModE" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2294</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LuxR" RegulationMode="activator (repressor)">
+      <Regulator Key="NarP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41734" />
+      <Effector>Nitrite; Nitrate</Effector>
+      <Pathway>Nitrate and nitrite respiration</Pathway>
+      <LocusTag Key="HI0726" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7073&amp;disp=0" />
+      <BiologicalProcess>Nitrate and nitrite respiration</BiologicalProcess>
+      <Regulog Key="NarP - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4311" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI0932" Name="eno" Position="-23" Score="4.2">
+          <Sequence>TAACTTAATTGAGGAA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0644" Name="torY" Position="-48" Score="4.6">
+          <Sequence>TAACTATAAGTAGTTA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1047" Name="dmsA" Position="-105" Score="4.5">
+          <Sequence>TACCTATTAATGATTA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1069" Name="nrfA" Position="-99" Score="4.7">
+          <Sequence>TACCTCTTTTTGAGTA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0835" Name="frdA" Position="-151" Score="4.6">
+          <Sequence>TAGCTTTTTTGAGGTA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0809" Name="pckA" Position="-126" Score="3.8">
+          <Sequence>TCACTAAAAAGAGGTA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0932" Name="eno" Position="-37" Score="4.2">
+          <Sequence>TAACCCGTTTTAATTA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1089" Name="ccmA" Position="-84" Score="4.6">
+          <Sequence>TACTTCTAAAGAGTTA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1210" Name="mdh" Position="-19" Score="3.8">
+          <Sequence>TAACACATAAGGAGTA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1047" Name="dmsA" Position="-47" Score="4.7">
+          <Sequence>TAACTCGTTTTAGTTA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0884" Name="arcA" Position="-83" Score="3.7">
+          <Sequence>CACTTTTTTATTGTTA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7184" LocusId="HI0835" Name="frdA" Function="Fumarate reductase subunit A (EC 1.3.5.4)" />
+          <Members vimssId="7183" LocusId="HI0834" Name="frdB" Function="Fumarate reductase subunit B (EC 1.3.5.4)" />
+          <Members vimssId="7182" LocusId="HI0833" Name="frdC" Function="Fumarate reductase subunit C (EC 1.3.5.4)" />
+          <Members vimssId="7181" LocusId="HI0832" Name="frdD" Function="Fumarate reductase subunit D (EC 1.3.5.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7555" LocusId="HI1210" Name="mdh" Function="Malate dehydrogenase (EC 1.1.1.37)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7395" LocusId="HI1047" Name="dmsA" Function="Dimethyl sulfoxide reductase, chain A (EC 1.8.99.-)" />
+          <Members vimssId="7394" LocusId="HI1046" Name="dmsB" Function="Dimethyl sulfoxide reductase, chain B (EC 1.8.99.-)" />
+          <Members vimssId="7393" LocusId="HI1045" Name="dmsC" Function="Dimethyl sulfoxide reductase, chain C (EC 1.8.99.-)" />
+          <Members vimssId="7392" LocusId="HI1044" Name="dmsD" Function="Dimethyl sulfoxide reductase chaperone protein dmsD" />
+          <Members vimssId="7391" LocusId="HI1043" Name="dmsX" Function="Predicted ferredoxin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1744255" LocusId="HI0644" Name="torY" Function="Biotin sulfoxide reductase, cytochrome c-type" />
+          <Members vimssId="6992" LocusId="HI0643" Name="torZ" Function="Biotin sulfoxide reductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7234" LocusId="HI0884" Name="arcA" Function="Anaerobic metabolism transcriptional regulator arcA, OmpR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7435" LocusId="HI1089" Name="ccmA" Function="ABC transporter involved in cytochrome c biogenesis, ATPase component CcmA" />
+          <Members vimssId="7436" LocusId="HI1090" Name="ccmB" Function="ABC transporter involved in cytochrome c biogenesis, CcmB subunit" />
+          <Members vimssId="7437" LocusId="HI1091" Name="ccmC" Function="Cytochrome c-type biogenesis protein CcmC, putative heme lyase for CcmE" />
+          <Members vimssId="7438" LocusId="HI1092" Name="ccmD" Function="Cytochrome c-type biogenesis protein CcmD, interacts with CcmCE" />
+          <Members vimssId="7439" LocusId="HI1093" Name="ccmE" Function="Cytochrome c-type biogenesis protein CcmE, heme chaperone" />
+          <Members vimssId="7440" LocusId="HI1094" Name="ccmF" Function="Cytochrome c heme lyase, subunit CcmF" />
+          <Members vimssId="7441" LocusId="HI1095" Name="ccmG" Function="Cytochrome c-type biogenesis protein CcmG/DsbE, thiol:disulfide oxidoreductase" />
+          <Members vimssId="7442" LocusId="HI1096m" Name="ccmH" Function="Cytochrome c heme lyase, subunit CcmH" />
+          <Members vimssId="7443" LocusId="HI1097m" Name="ccmH" Function="Cytochrome c heme lyase, subunit CcmH" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1744290" LocusId="HI1069" Name="nrfA" Function="Nitrite reductase, cytochrome c(552)" />
+          <Members vimssId="1744289" LocusId="HI1068" Name="nrfB" Function="Cytochrome c-type protein NrfB precursor" />
+          <Members vimssId="7414" LocusId="HI1067" Name="nrfC" Function="Nitrite reductase, Fe-S center subunit" />
+          <Members vimssId="7413" LocusId="HI1066" Name="nrfD" Function="Nitrite reductase, NrfD component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7281" LocusId="HI0932" Name="eno" Function="Enolase (EC 4.2.1.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7158" LocusId="HI0809" Name="pckA" Function="Phosphoenolpyruvate carboxykinase (EC 4.1.1.49)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4311</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="NimR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49592" />
+      <Effector>Nickel ion, (Ni2+)</Effector>
+      <Pathway>Nickel homeostasis</Pathway>
+      <LocusTag Key="HI1623" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7955&amp;disp=0" />
+      <BiologicalProcess>Nickel homeostasis</BiologicalProcess>
+      <Regulog Key="NimR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5021" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI1623" Name="nimR" Position="-44" Score="6.4">
+          <Sequence>AATATGAAGTAACTTTAGAAT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1624" Name="nikK" Position="-66" Score="6.4">
+          <Sequence>ATTCTAAAGTTACTTCATATT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7954" LocusId="HI1624" Name="nikK" Function="Additional periplasmic component NikK of nickel ECF transporter" />
+          <Members vimssId="7953" LocusId="HI1622" Name="nikL" Function="Additional component NikL of nickel ECF transporter" />
+          <Members vimssId="7952" LocusId="HI1621" Name="nikM" Function="Substrate-specific component NikM of nickel ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7955" LocusId="HI1623" Name="nimR" Function="Nickel-responsive transcriptional regulator, MerR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5021</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="NmlR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50368" />
+      <Effector>Diamide</Effector>
+      <Pathway>Carbonyl stress response</Pathway>
+      <LocusTag Key="HI0186" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6543&amp;disp=0" />
+      <BiologicalProcess>Carbonyl stress response</BiologicalProcess>
+      <Regulog Key="NmlR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5098" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI0185" Name="adhC" Position="-81" Score="5.7">
+          <Sequence>TTTAGAGTGAACTCTAAA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0186" Name="nmlR" Position="-59" Score="6.1">
+          <Sequence>TTTAGAGTTCACTCTAAA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6542" LocusId="HI0185" Name="adhC" Function="S-(hydroxymethyl)glutathione dehydrogenase (EC 1.1.1.284)" />
+          <Members vimssId="6541" LocusId="HI0184" Name="estD" Function="S-formylglutathione hydrolase (EC 3.1.2.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6543" LocusId="HI0186" Name="nmlR" Function="Carbonyl stress transcriptional regulator, MerR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5098</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15489" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="HI0943" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7292&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1663" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI0075" Name="nrdD" Position="-55" Score="4.3">
+          <Sequence>GATCTATATATAGTGC</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0075" Name="nrdD" Position="-87" Score="5.5">
+          <Sequence>ACACTACATATTGTGT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0075" Name="nrdD" Position="-23" Score="5.1">
+          <Sequence>ACACTATATATTGGAG</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1659" Name="nrdA" Position="-56" Score="5.6">
+          <Sequence>ACACTATATCTTGTGT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1659" Name="nrdA" Position="-87" Score="5.1">
+          <Sequence>ACACATTATCTTGTGG</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6437" LocusId="HI0075" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1744337" LocusId="HI1659" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="7991" LocusId="HI1660" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1663</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="PurR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=20848" />
+      <Effector>Hypoxanthine; Guanine</Effector>
+      <Pathway>Purine metabolism</Pathway>
+      <LocusTag Key="HI1635" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7966&amp;disp=0" />
+      <BiologicalProcess>Purine metabolism</BiologicalProcess>
+      <Regulog Key="PurR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2256" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI0464" Name="rpiA" Position="-35" Score="4.9">
+          <Sequence>ACACAATCGTTTACTT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0609" Name="folD" Position="-45" Score="5.1">
+          <Sequence>TAGCAAACGCTTTCTT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1615" Name="purE" Position="-76" Score="5.8">
+          <Sequence>TAGCAAACGTTTGCCT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1726" Name="purC" Position="-78" Score="5.9">
+          <Sequence>TAGCAAACGTTTGCTT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0887" Name="purH" Position="-64" Score="6.2">
+          <Sequence>AAGCAAACGTTTGCGT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1429" Name="HI1429" Position="-63" Score="6.1">
+          <Sequence>TCGCAAACGTTTGCTT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1206" Name="cvpA" Position="-83" Score="6.1">
+          <Sequence>ACGCAAACGTTTTCTT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0125" Name="yjcD" Position="-84" Score="5.9">
+          <Sequence>ACGCAAACGTTTACTT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1744347" LocusId="HI1726" Name="purC" Function="Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6814" LocusId="HI0464" Name="rpiA" Function="Ribose 5-phosphate isomerase A (EC 5.3.1.6)" />
+          <Members vimssId="6815" LocusId="HI0465" Name="serA" Function="D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6956" LocusId="HI0609" Name="folD" Function="Methylenetetrahydrofolate dehydrogenase (NADP+) (EC 1.5.1.5) / Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7551" LocusId="HI1206" Name="cvpA" Function="Colicin V production protein" />
+          <Members vimssId="7552" LocusId="HI1207" Name="purF" Function="Amidophosphoribosyltransferase (EC 2.4.2.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6486" LocusId="HI0125" Name="yjcD" Function="Prediceted xanthine/uracil permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7946" LocusId="HI1615" Name="purE" Function="Phosphoribosylaminoimidazole carboxylase catalytic subunit (EC 4.1.1.21)" />
+          <Members vimssId="7947" LocusId="HI1616" Name="purK" Function="Phosphoribosylaminoimidazole carboxylase ATPase subunit (EC 4.1.1.21)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7767" LocusId="HI1429" Name="HI1429" Function="Phosphoribosylformylglycinamidine cyclo-ligase (EC 6.3.3.1)" />
+          <Members vimssId="7766" LocusId="HI1428" Name="purN" Function="Phosphoribosylglycinamide formyltransferase (EC 2.1.2.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7237" LocusId="HI0887" Name="purH" Function="IMP cyclohydrolase (EC 3.5.4.10) / Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3)" />
+          <Members vimssId="7238" LocusId="HI0888" Name="purD" Function="Phosphoribosylamine-glycine ligase (EC 6.3.4.13)" />
+          <Members vimssId="7239" LocusId="HI0889" Name="glyA" Function="Serine hydroxymethyltransferase (EC 2.1.2.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2256</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="RbsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21022" />
+      <Effector>Ribose</Effector>
+      <Pathway>Ribose utilization</Pathway>
+      <LocusTag Key="HI0506" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6853&amp;disp=0" />
+      <BiologicalProcess>Ribose utilization</BiologicalProcess>
+      <Regulog Key="RbsR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2276" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI0501" Name="rbsD" Position="-37" Score="6">
+          <Sequence>TTATCGAAACGTTTCGATAA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6848" LocusId="HI0501" Name="rbsD" Function="D-ribose pyranase (D-ribose mutarotase) (EC 5.5.1.n1)" />
+          <Members vimssId="6849" LocusId="HI0502" Name="rbsA" Function="Ribose ABC transport system, ATP-binding protein RbsA (TC 3.A.1.2.1)" />
+          <Members vimssId="6850" LocusId="HI0503" Name="rbsC" Function="Ribose ABC transport system, permease protein RbsC (TC 3.A.1.2.1)" />
+          <Members vimssId="6851" LocusId="HI0504" Name="rbsB" Function="Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)" />
+          <Members vimssId="6852" LocusId="HI0505" Name="rbsK" Function="Ribokinase (EC 2.7.1.15)" />
+          <Members vimssId="6853" LocusId="HI0506" Name="rbsR" Function="Transcriptional repressor of ribose utilization, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2276</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor (activator)">
+      <Regulator Key="SiaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=18835" />
+      <Effector>Glucosamine-6-phosphate</Effector>
+      <Pathway>Sialic acid utilization</Pathway>
+      <LocusTag Key="HI0143" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6501&amp;disp=0" />
+      <BiologicalProcess>Sialic acid utilization</BiologicalProcess>
+      <Regulog Key="SiaR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2035" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI0145" Name="nanE" Position="-163" Score="4.8">
+          <Sequence>TATGAAAAAACACTTCAAA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0146" Name="siaP" Position="-205" Score="4.8">
+          <Sequence>TTTGAAGTGTTTTTTCATA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6503" LocusId="HI0145" Name="nanE" Function="N-acetylmannosamine-6-phosphate 2-epimerase (EC 5.1.3.9)" />
+          <Members vimssId="6502" LocusId="HI0144" Name="nanK" Function="N-acetylmannosamine kinase (EC 2.7.1.60)" />
+          <Members vimssId="6501" LocusId="HI0143" Name="siaR" Function="Sialic acid utilization regulator, RpiR family" />
+          <Members vimssId="6500" LocusId="HI0142" Name="nanA" Function="N-acetylneuraminate lyase (EC 4.1.3.3)" />
+          <Members vimssId="6499" LocusId="HI0141" Name="nagB" Function="Glucosamine-6-phosphate deaminase (EC 3.5.99.6)" />
+          <Members vimssId="6498" LocusId="HI0140" Name="nagA" Function="N-acetylglucosamine-6-phosphate deacetylase (EC 3.5.1.25)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6504" LocusId="HI0146" Name="siaP" Function="Sialic acid-binding periplasmic protein SiaP (N-acetylneuraminic-binding protein) (Neu5Ac-binding protein)(Extracytoplasmic solute receptor protein siaP)" />
+          <Members vimssId="6505" LocusId="HI0147" Name="siaT" Function="TRAP-type transport system, large permease component, N-acetylneuraminate transporter / TRAP-type transport system, small permease component, N-acetylneuraminate transporter" />
+          <Members vimssId="6506" LocusId="HI0148" Name="nanM" Function="Sialic acid-induced transmembrane protein YjhT(NanM), possible mutarotase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2035</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TrpR" RegulationMode="repressor">
+      <Regulator Key="TrpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19583" />
+      <Effector>Tryptophan</Effector>
+      <Pathway>Tryptophan biosynthesis</Pathway>
+      <LocusTag Key="HI0830" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7179&amp;disp=0" />
+      <BiologicalProcess>Tryptophan biosynthesis</BiologicalProcess>
+      <Regulog Key="TrpR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2118" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI0830" Name="trpR" Position="-36" Score="6.7">
+          <Sequence>TGCACTAGTTTAATAGTGTA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0287" Name="mtr" Position="-41" Score="6.5">
+          <Sequence>TGTACTACTATAATAGTGCA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1547" Name="aroG" Position="-81" Score="6.2">
+          <Sequence>CGAACTAGTTTACTAGTACA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1430" Name="COG4221" Position="-46" Score="6.5">
+          <Sequence>TGTACTACTTTAATAGTACA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1387" Name="trpE" Position="-45" Score="6.8">
+          <Sequence>TGCACTAGTTTAATAGTACA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7179" LocusId="HI0830" Name="trpR" Function="trp operon repressor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6643" LocusId="HI0287" Name="mtr" Function="Tryptophan-specific transport protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7768" LocusId="HI1430" Name="COG4221" Function="Short-chain alcohol dehydrogenase of unknown specificity" />
+          <Members vimssId="7769" LocusId="HI1431" Name="trpB" Function="Tryptophan synthase beta chain (EC 4.2.1.20)" />
+          <Members vimssId="7770" LocusId="HI1432" Name="trpA" Function="Tryptophan synthase alpha chain (EC 4.2.1.20)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7728" LocusId="HI1387" Name="trpE" Function="Anthranilate synthase, aminase component (EC 4.1.3.27)" />
+          <Members vimssId="7729" LocusId="HI1388" Name="trpG" Function="Anthranilate synthase, amidotransferase component (EC 4.1.3.27)" />
+          <Members vimssId="7730" LocusId="HI1388.1" Name="HI1388.1" Function="hypothetical protein" />
+          <Members vimssId="7731" LocusId="HI1389" Name="trpD" Function="Anthranilate phosphoribosyltransferase (EC 2.4.2.18)" />
+          <Members vimssId="7732" LocusId="HI1389.1" Name="trpC" Function="Indole-3-glycerol phosphate synthase (EC 4.1.1.48) / Phosphoribosylanthranilate isomerase (EC 5.3.1.24)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7885" LocusId="HI1547" Name="aroG" Function="2-keto-3-deoxy-D-arabino-heptulosonate-7-phosphate synthase (EC 2.5.1.54)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2118</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TyrR" RegulationMode="activator (repressor)">
+      <Regulator Key="TyrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13473" />
+      <Effector>Tyrosine; Phenylalanine</Effector>
+      <Pathway>Aromatic amino acid metabolism</Pathway>
+      <LocusTag Key="HI0410" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6761&amp;disp=0" />
+      <BiologicalProcess>Aromatic amino acid metabolism</BiologicalProcess>
+      <Regulog Key="TyrR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1446" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI0410" Name="tyrR" Position="-74" Score="5.6">
+          <Sequence>ATGTAAAATAATATTTACAC</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1290" Name="tyrA" Position="-43" Score="5.8">
+          <Sequence>TTGTAATTAATTTTTTACAA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1290" Name="tyrA" Position="-20" Score="4.8">
+          <Sequence>ATGTAAGATAAAAATTACAG</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7631" LocusId="HI1290" Name="tyrA" Function="Chorismate mutase I (EC 5.4.99.5) / Cyclohexadienyl dehydrogenase (EC 1.3.1.12)(EC 1.3.1.43)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6761" LocusId="HI0410" Name="tyrR" Function="Transcriptional regulator of aromatic amino acid biosynthesis" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1446</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="UxuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19904" />
+      <Effector>Glucuronate</Effector>
+      <Pathway>Glucuronate utilization</Pathway>
+      <LocusTag Key="HI0054" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1744203&amp;disp=0" />
+      <BiologicalProcess>Glucuronate utilization</BiologicalProcess>
+      <Regulog Key="UxuR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2155" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI0053" Name="HI0053" Position="-150" Score="5.6">
+          <Sequence>AAATTGGTATTCCAATTT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0053" Name="HI0053" Position="-100" Score="4.7">
+          <Sequence>TATTTGGTATTCCAAAAA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0054" Name="uxuR" Position="-78" Score="4.7">
+          <Sequence>TTTTTGGAATACCAAATA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0054" Name="uxuR" Position="-28" Score="5.6">
+          <Sequence>AAATTGGAATACCAATTT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6415" LocusId="HI0053" Name="HI0053" Function="Oxidoreductase, zinc-binding dehydrogenase family (EC 1.1.1.-)" />
+          <Members vimssId="6414" LocusId="HI0052" Name="uxuP" Function="predicted glucuronate TRAP transporter, periplasmic subunit" />
+          <Members vimssId="6413" LocusId="HI0051" Name="uxuQ" Function="predicted hexuronate TRAP transporter, small subunit" />
+          <Members vimssId="6412" LocusId="HI0050m" Name="uxuM" Function="predicted hexuronate TRAP transporter, large subunit" />
+          <Members vimssId="6411" LocusId="HI0049" Name="kdgK" Function="2-dehydro-3-deoxygluconate kinase (EC 2.7.1.45)" />
+          <Members vimssId="6410" LocusId="HI0048" Name="uxuB" Function="D-mannonate oxidoreductase (EC 1.1.1.57)" />
+          <Members vimssId="6409" LocusId="HI0047" Name="eda" Function="2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1744203" LocusId="HI0054" Name="uxuR" Function="Hexuronate utilization operon transcriptional repressor UxuR" />
+          <Members vimssId="6417" LocusId="HI0055" Name="uxuA" Function="Mannonate dehydratase (EC 4.2.1.8)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2155</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40550" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI0764" Name="ribB" Position="-265" Score="114.1">
+          <Sequence>CGCATTCTCAGGGCAGGGTGAAATTCCCTACCGGTGGTAAAGCCCACGAGCGTTTAAAAGTGCGGTCAATTTTTGGCAAATTTTTCCTGCGAAATTGTCCTGATTTTCACTTTTAAAGTCAGCAGATTTGGTGAAATTCCAAAGCCGACAGTAAAGTCTGGATGAAAGAGAATAAAACG</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7112" LocusId="HI0764" Name="ribB" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00504" RegulationMode="RF00504">
+      <Regulator Key="Glycine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40721" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="Glycine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI0883" Name="glyP" Position="-303" Score="31.4">
+          <Sequence>GATGAAGGTAGCTGGAGAGCGGGAAATTGACCCCACACCGACGATGTAAAATCTTTCAGGTGCGATGGCAGGGACTGTTAC</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0883" Name="glyP" Position="-222" Score="58.8">
+          <Sequence>TGGACGAACCCTTGGAGAGATCCATTTTAGAAATGGACGCCGAAGCGCAAAAGAGCGGTTAATTTTTCAATCGTTTTTCAAACGCTCAGGCAAAAGGACAGGGGCAAAAGA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7233" LocusId="HI0883" Name="glyP" Function="Sodium/glycine symporter GlyP" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00514" RegulationMode="RF00514">
+      <Regulator Key="His_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40442" />
+      <Effector />
+      <Pathway>Histidine biosynthesis</Pathway>
+      <LocusTag Key="His_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI0325" Name="yuiF" Position="-218" Score="77.4">
+          <Sequence>CATCATCACCATTCAACTGAATAATCTTTCAGGTTTTTGGTGTGCTTGGAAGATTTCTTCCGAGCTGACAGGATAATAAAAATCTTACCCCTCGGAAGGCAACTTTCGAGGGGTTTTGTTTTA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0468" Name="hisG" Position="-165" Score="65.2">
+          <Sequence>CATCATCACCACACCTGATTATCTTTCAGGCGTGATTGTATGTTTGGAAGATAATAAAATATCTTCCGAGTGTAATAAAAATCAGTGTAAAAGCAATAAATACCCCTCGGAAGGCAATTTTCGAGGGGTTTTCTTTTA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6679" LocusId="HI0325" Name="yuiF" Function="Histidine permease YuiF" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6818" LocusId="HI0468" Name="hisG" Function="ATP phosphoribosyltransferase (EC 2.4.2.17)" />
+          <Members vimssId="6819" LocusId="HI0469" Name="hisD" Function="Histidinol dehydrogenase (EC 1.1.1.23)" />
+          <Members vimssId="6820" LocusId="HI0470" Name="hisC" Function="Histidinol-phosphate aminotransferase (EC 2.6.1.9)" />
+          <Members vimssId="6821" LocusId="HI0471" Name="hisB" Function="Histidinol-phosphatase (EC 3.1.3.15) / Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)" />
+          <Members vimssId="6822" LocusId="HI0472" Name="hisH" Function="Imidazole glycerol phosphate synthase amidotransferase subunit (EC 2.4.2.-)" />
+          <Members vimssId="6823" LocusId="HI0473" Name="hisA" Function="Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase (EC 5.3.1.16)" />
+          <Members vimssId="6824" LocusId="HI0474" Name="hisF" Function="Imidazole glycerol phosphate synthase cyclase subunit (EC 4.1.3.-)" />
+          <Members vimssId="6825" LocusId="HI0475" Name="hisI" Function="Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19) / Phosphoribosyl-ATP pyrophosphatase (EC 3.6.1.31)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00557" RegulationMode="RF00557">
+      <Regulator Key="L10_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40397" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L10_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI0640" Name="rplJ" Position="-169" Score="21.1">
+          <Sequence>GACCTATTCAAGCCCCATCCAAGACCGTAGGGGAGTAATCTTAATTATCCTACGTAGATGGTGAACAGAATAAGAATTTTTCTTGCTTCTGGG</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6989" LocusId="HI0640" Name="rplJ" Function="LSU ribosomal protein L10p (P0)" />
+          <Members vimssId="6990" LocusId="HI0641" Name="rplL" Function="LSU ribosomal protein L7/L12 (P1/P2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00512" RegulationMode="RF00512">
+      <Regulator Key="Leu_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40433" />
+      <Effector />
+      <Pathway>Branched-chain amino acid biosynthesis</Pathway>
+      <LocusTag Key="Leu_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI0986" Name="leuA" Position="-225" Score="17.7">
+          <Sequence>TTTATTTATGTTTCGTATTGTTTCTTTATCTCTCAACCTACTGCTCTCACATTTTGTGTGCGGCTAAGTTGTGGATAAAAAAACAGTCAGATGTAAATACCCAATTTTAAACCCGCACTTTATAAGTTGCGGGTTTTTTA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1744283" LocusId="HI0986" Name="leuA" Function="2-isopropylmalate synthase (EC 2.3.3.13)" />
+          <Members vimssId="7339" LocusId="HI0987" Name="leuB" Function="3-isopropylmalate dehydrogenase (EC 1.1.1.85)" />
+          <Members vimssId="7340" LocusId="HI0988" Name="leuC" Function="3-isopropylmalate dehydratase large subunit (EC 4.2.1.33)" />
+          <Members vimssId="7341" LocusId="HI0989" Name="leuD" Function="3-isopropylmalate dehydratase small subunit (EC 4.2.1.33)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00168" RegulationMode="RF00168">
+      <Regulator Key="Lysine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40460" />
+      <Effector>Lysine</Effector>
+      <Pathway>Lysine biosynthesis</Pathway>
+      <LocusTag Key="Lysine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI1586" Name="lysW" Position="-196" Score="127.7">
+          <Sequence>CTACAAAAGTAGAGGCGCAATTATTATAAGTATTTTTTCAGAGTGGATAACGAAGAAGAAAAAAGAAAGGAATAGTTGCCGAAATCAAATAAAAGTCGTTTTGTTTGGTTGGTGGCGTGCTCGAAAGGGGCGACACTGTCATAGTTTTTCTGATTAACTATGGAGTGCTACGGTTGTT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7920" LocusId="HI1586" Name="lysW" Function="Predicted lysine transporter, NhaC family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01055" RegulationMode="RF01055">
+      <Regulator Key="MOCO_RNA_motif" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40640" />
+      <Effector>Molybdenum</Effector>
+      <Pathway>Molybdopterin biosynthesis; Molybdenum homeostasis</Pathway>
+      <LocusTag Key="MOCO_RNA_motif" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI1676" Name="moaA" Position="-130" Score="83.3">
+          <Sequence>ATTTAACGCATAACTCCGAGCTTGTTTAGCCTAAGTTTCATAGAAATACGGTGGCAAGCCAATAACGCGCTACGTTATTCAGGGATACGCTGGAAACGGTTTATCCTCTCCGTATTTAGAAAGGTGTAAAATGCAATCCATT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="8007" LocusId="HI1676" Name="moaA" Function="Molybdenum cofactor biosynthesis protein MoaA" />
+          <Members vimssId="8006" LocusId="HI1675" Name="moaC" Function="Molybdenum cofactor biosynthesis protein MoaC" />
+          <Members vimssId="8005" LocusId="HI1674" Name="moaD" Function="Molybdenum cofactor biosynthesis protein MoaD" />
+          <Members vimssId="8004" LocusId="HI1673" Name="moaE" Function="Molybdenum cofactor biosynthesis protein MoaE" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00522" RegulationMode="RF00522">
+      <Regulator Key="PreQ1" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40532" />
+      <Effector>Pre-queuosine1</Effector>
+      <Pathway>Queuosine biosynthesis</Pathway>
+      <LocusTag Key="PreQ1" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI1191" Name="queC" Position="-47" Score="42">
+          <Sequence>ACCCCCCGTAGTTCGCAAACCTCCTACAATAAAAAACTAGGTAAAA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7536" LocusId="HI1191" Name="queC" Function="Queuosine Biosynthesis QueC ATPase" />
+          <Members vimssId="7535" LocusId="HI1190" Name="queD" Function="Queuosine biosynthesis QueD, PTPS-I" />
+          <Members vimssId="7534" LocusId="HI1189" Name="queE" Function="Queuosine Biosynthesis QueE Radical SAM" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00114" RegulationMode="RF00114">
+      <Regulator Key="S15" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40568" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="S15" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI1468" Name="rpsO" Position="-61" Score="78.3">
+          <Sequence>CACTTCCGTCATAAATCCATTTTTGAATTGCTATTTGATCGCTCTTTTTTAGGAGTAAAAAATGTCTCTAAGTACTGAAAAAAAAGCAGCAATCGTTGCTGAATTTGGTCGTGATGCG</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1328" Name="rpsO" Position="-63" Score="102.4">
+          <Sequence>GTCATCGCTGAGTTAGAGATCGGCGAATGATGTATTAACAACACTACCTTTTAGGAGTAAAAAATGTCTCTAAGTACTGAAAAAAAAGCAGCAATCGTTGCTGAATTTGGTCGTGATGCGAA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7668" LocusId="HI1328" Name="rpsO" Function="SSU ribosomal protein S15p (S13e)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7808" LocusId="HI1468" Name="rpsO" Function="SSU ribosomal protein S15p (S13e)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40856" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI0354" Name="thiZ" Position="-161" Score="55.8">
+          <Sequence>GTTTTTAGTCGGGGTGCCGAAAGGCTGAGATGATACCCGTGAACCTGAAACAGTTAGCACTGACGTAGGAAACTAATATGCCAAAAAATC</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI1019" Name="thiB" Position="-139" Score="57.9">
+          <Sequence>AAGCCTAGTCGGGGTGCAATACGCTGAGATCATACCCGTGAACCTGAAACAGTTAATACTGACGTAGGAAACTAGGAATATAACCTTAT</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HI0415" Name="thiM" Position="-211" Score="55">
+          <Sequence>ACTTTTAGTCGGGGTGCCGAAAGGCTGAGATGATACCCGTGAACCTGAAACAGTTAGCACTGACGTAGGAAACTAATATGCCACATATTC</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7368" LocusId="HI1019" Name="thiB" Function="Thiamin ABC transporter, substrate-binding component" />
+          <Members vimssId="7369" LocusId="HI1020" Name="thiP" Function="Thiamin ABC transporter, transmembrane component" />
+          <Members vimssId="7370" LocusId="HI1021" Name="thiQ" Function="Thiamin ABC transporter, ATPase component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6766" LocusId="HI0415" Name="thiM" Function="Hydroxyethylthiazole kinase (EC 2.7.1.50)" />
+          <Members vimssId="6767" LocusId="HI0416" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+          <Members vimssId="6768" LocusId="HI0417" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+          <Members vimssId="6769" LocusId="HI0418" Name="thiU" Function="Predicted thiazole transporter ThiU" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6706" LocusId="HI0354" Name="thiZ" Function="Hydroxymethylpyrimidine ABC transporter, ATPase component" />
+          <Members vimssId="6707" LocusId="HI0355" Name="thiX" Function="Hydroxymethylpyrimidine ABC transporter, transmembrane component" />
+          <Members vimssId="6708" LocusId="HI0357" Name="thiY" Function="Hydroxymethylpyrimidine ABC transporter, substrate-binding component" />
+          <Members vimssId="6709" LocusId="HI0358" Name="tenA" Function="Thiaminase II (EC 3.5.99.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00506" RegulationMode="RF00506">
+      <Regulator Key="Thr_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40676" />
+      <Effector />
+      <Pathway>Threonine biosynthesis</Pathway>
+      <LocusTag Key="Thr_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HI0089" Name="thrA" Position="-152" Score="62.2">
+          <Sequence>ATCATTAGCACGATTACCGCCATTATGATGACCATTATTATGATTAATGGTGCGGGTTAGTGCAGCAAAAACAAGATACAGAAAACCCGCGATTCAACTGAATAGCGGGTTTTTTTATA</Sequence>
+          <Bacteria>Haemophilus influenzae Rd KW20</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6451" LocusId="HI0089" Name="thrA" Function="Aspartokinase (EC 2.7.2.4) / Homoserine dehydrogenase (EC 1.1.1.3)" />
+          <Members vimssId="6450" LocusId="HI0088" Name="thrB" Function="Homoserine kinase (EC 2.7.1.39)" />
+          <Members vimssId="6449" LocusId="HI0087" Name="thrC" Function="Threonine synthase (EC 4.2.3.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

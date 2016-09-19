@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Geobacter sp. FRC-32" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15075" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="Geob_2384" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6906851&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1617" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Geob_3008" Name="bioB" Position="-74" Score="8.4">
+          <Sequence>TCGTCAACC--------------GGTTGACAA</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_2084" Name="bioF" Position="-90" Score="7.1">
+          <Sequence>TCGTTAACC--------------GGTTGACGA</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6907488" LocusId="Geob_3008" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="6907489" LocusId="Geob_3009" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+          <Members vimssId="6907490" LocusId="Geob_3010" Name="bioA" Function="Adenosylmethionine-8-amino-7-oxononanoate aminotransferase (EC 2.6.1.62)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6906549" LocusId="Geob_2084" Name="bioF" Function="8-amino-7-oxononanoate synthase (EC 2.3.1.47)" />
+          <Members vimssId="6906550" LocusId="Geob_2085" Name="bioH" Function="Biotin synthesis protein bioH" />
+          <Members vimssId="6906551" LocusId="Geob_2086" Name="bioC" Function="Biotin synthesis protein bioC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1617</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor (activator)">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19559" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="Geob_2252" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6906718&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2114" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Geob_0727" Name="Gmet_2833" Position="-57" Score="5.6">
+          <Sequence>TTGACATTGATTTTCAA</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_2252" Name="fur" Position="-30" Score="5.8">
+          <Sequence>GTGAAAATCATTTTCAA</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_2253" Name="feoB1" Position="-41" Score="5.7">
+          <Sequence>TTGAAAATGACTATCAA</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_1748" Name="psp" Position="-180" Score="4.8">
+          <Sequence>TTGAAATCTACTTTCAG</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_1748" Name="psp" Position="-79" Score="5.1">
+          <Sequence>ATGAAAATCACAATCAG</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6906719" LocusId="Geob_2253" Name="feoB1" Function="Ferrous iron transport protein B" />
+          <Members vimssId="6906720" LocusId="Geob_2254" Name="Gura_3000" Function="hypothetical protein" />
+          <Members vimssId="6906721" LocusId="Geob_2255" Name="ideR" Function="iron (metal) dependent repressor, DtxR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6906718" LocusId="Geob_2252" Name="fur" Function="Ferric uptake regulation protein FUR" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6906206" LocusId="Geob_1748" Name="psp" Function="Iron-regulated porin, similar to phosphate-selective porin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6905173" LocusId="Geob_0727" Name="Gmet_2833" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2114</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="Gbem_0803" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60938" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Geob_1843" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6906302&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="Gbem_0803 - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6258" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Geob_1842" Name="" Position="-234" Score="11.9">
+          <Sequence>TACAGTTC-(17)-AACAGTTG-(12)-AACTGCTG</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6906301" LocusId="Geob_1842" Name="null" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6258</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="HcpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62682" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="Geob_1003" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6905453&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="HcpR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6450" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Geob_1617" Name="hcp" Position="-150" Score="4.8">
+          <Sequence>TATTGACTTTTGTCAAAG</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_0943" Name="SSF140683" Position="-73" Score="5.4">
+          <Sequence>TTTTGACCCAGGTCATAA</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_1234" Name="ygbA" Position="-39" Score="4.7">
+          <Sequence>ATTTGACTTTTGTCATAT</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_1248" Name="COG1917" Position="-87" Score="5">
+          <Sequence>TCTTGACCTGCATCAATT</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6905688" LocusId="Geob_1234" Name="ygbA" Function="hypothetical protein involved in nitrosative stress" />
+          <Members vimssId="6905689" LocusId="Geob_1235" Name="frdX1" Function="Ferredoxin fused to uncharacterized domain" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6905702" LocusId="Geob_1248" Name="COG1917" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6906074" LocusId="Geob_1617" Name="hcp" Function="Hydroxylamine reductase (EC 1.7.-.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6905393" LocusId="Geob_0943" Name="SSF140683" Function="SP0561-like superfamily hypothetical protein" />
+          <Members vimssId="6905394" LocusId="Geob_0944" Name="frdX2" Function="Ferredoxin fused to uncharacterized domain" />
+          <Members vimssId="6905395" LocusId="Geob_0945" Name="COG3945" Function="Hemerythrin HHE cation binding domain hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6450</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49777" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Geob_1105" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6905555&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5041" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Geob_0795" Name="rpoH" Position="-58" Score="7.2">
+          <Sequence>TTAGCACTCGATTCTGAAGAGTGCTAA</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_1105" Name="hrcA" Position="-49" Score="7.5">
+          <Sequence>TTAGCACTCAAATTCTTTGAGTGCTAA</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_0399" Name="groS" Position="-81" Score="7">
+          <Sequence>TTAGCACTCAGCTACAAGGAGTGCTAA</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6905555" LocusId="Geob_1105" Name="hrcA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="6905556" LocusId="Geob_1106" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="6905557" LocusId="Geob_1107" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="6905558" LocusId="Geob_1108" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6905243" LocusId="Geob_0795" Name="rpoH" Function="Heat shock response RNA polymerase sigma factor RpoH (Sigma 32)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6904843" LocusId="Geob_0399" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="6904842" LocusId="Geob_0398" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5041</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17979" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="Geob_1981" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6906446&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1942" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Geob_1982" Name="cysE" Position="-69" Score="7">
+          <Sequence>ATAATTGACTGAAATAGTAAGGTAT</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6906447" LocusId="Geob_1982" Name="cysE" Function="Serine acetyltransferase (EC 2.3.1.30)" />
+          <Members vimssId="6906446" LocusId="Geob_1981" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="6906445" LocusId="Geob_1980" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1942</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15631" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Geob_2674" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6907145&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1679" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Geob_3024" Name="nrdJ" Position="-89" Score="5.2">
+          <Sequence>GCCATATATGTTGTGG</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_3024" Name="nrdJ" Position="-57" Score="4.3">
+          <Sequence>CCACTAAATATAGTAT</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6907508" LocusId="Geob_3024" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1679</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19401" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="Geob_1720" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6906178&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2096" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Geob_1718" Name="nifR" Position="-42" Score="5.4">
+          <Sequence>TGCCCAAAATTTAGGCA</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_2399" Name="gdhA" Position="-191" Score="4.5">
+          <Sequence>TGAATAATTAATGTGCA</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_2399" Name="gdhA" Position="-172" Score="4.1">
+          <Sequence>TGCTTCTTGTTTGAGCA</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_2399" Name="gdhA" Position="-98" Score="4.8">
+          <Sequence>TGCCTGTTTATGGTGCA</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_2581" Name="nifEN" Position="-219" Score="5.3">
+          <Sequence>TGCCCAAATTATAGGCA</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_1817" Name="Gmet_0693" Position="-323" Score="4.4">
+          <Sequence>TGCACAAAAAATAATCA</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_2994" Name="glnB" Position="-255" Score="4.5">
+          <Sequence>TGGTTATATATTGGGCA</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_2994" Name="glnB" Position="-224" Score="4.7">
+          <Sequence>TGCCTAATTTATGGGCT</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6906866" LocusId="Geob_2399" Name="gdhA" Function="NADP-specific glutamate dehydrogenase (EC 1.4.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6906276" LocusId="Geob_1817" Name="Gmet_0693" Function="Conserved hypothetical protein" />
+          <Members vimssId="6906277" LocusId="Geob_1818" Name="glnK1" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="6906278" LocusId="Geob_1819" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6907049" LocusId="Geob_2581" Name="nifEN" Function="Nitrogenase FeMo-cofactor scaffold and assembly protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6907472" LocusId="Geob_2994" Name="glnB" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="6907471" LocusId="Geob_2993" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6906176" LocusId="Geob_1718" Name="nifR" Function="Predicted oxidoreductase, FAD binding" />
+          <Members vimssId="6906177" LocusId="Geob_1719" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="6906178" LocusId="Geob_1720" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2096</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PrpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17255" />
+      <Effector>2-methylcitrate</Effector>
+      <Pathway>Methylcitrate utilization</Pathway>
+      <LocusTag Key="Geob_0515" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6904961&amp;disp=0" />
+      <BiologicalProcess>Methylcitrate utilization</BiologicalProcess>
+      <Regulog Key="PrpR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1861" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Geob_0515" Name="prpR" Position="-11" Score="4.4">
+          <Sequence>GGTGTCGACACT</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_0515" Name="prpR" Position="-84" Score="4.8">
+          <Sequence>AATGTCGACACT</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6904961" LocusId="Geob_0515" Name="prpR" Function="Propionate catabolism transcriptional regulator, GntR family" />
+          <Members vimssId="6904960" LocusId="Geob_0514" Name="prpC" Function="2-methylcitrate synthase (EC 2.3.3.5)" />
+          <Members vimssId="6904959" LocusId="Geob_0513" Name="ach" Function="Acetyl-CoA hydrolase (EC 3.1.2.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1861</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SahR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15833" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="Geob_2249" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6906715&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SahR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1701" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Geob_2249" Name="sahR" Position="-41" Score="6.1">
+          <Sequence>ATATCAAGAAAAATTGATAT</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6906715" LocusId="Geob_2249" Name="sahR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+          <Members vimssId="6906716" LocusId="Geob_2250" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1701</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="SdhR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62176" />
+      <Effector />
+      <Pathway>Tricarboxylic acid cycle</Pathway>
+      <LocusTag Key="Geob_0562" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6905008&amp;disp=0" />
+      <BiologicalProcess>Tricarboxylic acid cycle</BiologicalProcess>
+      <Regulog Key="SdhR2 - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6389" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Geob_0461" Name="hemL" Position="-196" Score="5.9">
+          <Sequence>TAGTATACTGTATACAG</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_1607" Name="sfrB" Position="-101" Score="6.5">
+          <Sequence>TTGCATACTGTATACAA</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_2663" Name="icd" Position="-181" Score="6.8">
+          <Sequence>TTGTATACTGTATACAA</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_1882" Name="sdhC" Position="-266" Score="5.7">
+          <Sequence>TAGTATACAGTATACAT</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_0462" Name="nuoA-1" Position="-114" Score="5.9">
+          <Sequence>CTGTATACAGTATACTA</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_0562" Name="sdhR2" Position="-41" Score="6.8">
+          <Sequence>TTGTATACTGTATACAA</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_0563" Name="Gura_4160" Position="-137" Score="6.8">
+          <Sequence>TTGTATACAGTATACAA</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_3549" Name="gltA" Position="-214" Score="5.1">
+          <Sequence>TTGTATACAGTATATTT</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_2657" Name="acnB" Position="-105" Score="5.9">
+          <Sequence>TTGTATACAGTATGCCA</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6907128" LocusId="Geob_2657" Name="acnB" Function="Aconitate hydratase 2 (EC 4.2.1.3) / 2-methylisocitrate dehydratase (EC 4.2.1.99)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6908039" LocusId="Geob_3549" Name="gltA" Function="Citrate synthase (si) (EC 2.3.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6906341" LocusId="Geob_1882" Name="sdhC" Function="Succinate dehydrogenase cytochrome b558 subunit" />
+          <Members vimssId="6906342" LocusId="Geob_1883" Name="sdhA" Function="Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1)" />
+          <Members vimssId="6906343" LocusId="Geob_1884" Name="frdB" Function="Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6906064" LocusId="Geob_1607" Name="sfrB" Function="Fe(III) reductase, beta subunit" />
+          <Members vimssId="6906065" LocusId="Geob_1608" Name="sfrA" Function="Fe(III) reductase, alpha subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6904908" LocusId="Geob_0462" Name="nuoA-1" Function="NADH ubiquinone oxidoreductase chain A (EC 1.6.5.3)" />
+          <Members vimssId="6904909" LocusId="Geob_0463" Name="nuoB" Function="NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)" />
+          <Members vimssId="6904910" LocusId="Geob_0464" Name="nuoC" Function="NADH-ubiquinone oxidoreductase chain C (EC 1.6.5.3)" />
+          <Members vimssId="6904911" LocusId="Geob_0465" Name="nouD" Function="NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)" />
+          <Members vimssId="6904912" LocusId="Geob_0466" Name="nuoE-1" Function="NADH-ubiquinone oxidoreductase chain E (EC 1.6.5.3)" />
+          <Members vimssId="6904913" LocusId="Geob_0467" Name="nouF" Function="NADH-ubiquinone oxidoreductase chain F (EC 1.6.5.3)" />
+          <Members vimssId="6904914" LocusId="Geob_0468" Name="Gura_4238" Function="NADH-ubiquinone oxidoreductase chain G (EC 1.6.5.3)" />
+          <Members vimssId="6904915" LocusId="Geob_0469" Name="nuoH-1" Function="NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)" />
+          <Members vimssId="6904916" LocusId="Geob_0470" Name="Geob_0470" Function="NADH-quinone oxidoreductase, chain I" />
+          <Members vimssId="6904917" LocusId="Geob_0471" Name="nuoJ" Function="NADH-ubiquinone oxidoreductase chain J (EC 1.6.5.3)" />
+          <Members vimssId="6904918" LocusId="Geob_0472" Name="nuoK" Function="NADH-ubiquinone oxidoreductase chain K (EC 1.6.5.3)" />
+          <Members vimssId="6904919" LocusId="Geob_0473" Name="nuoL-1" Function="NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)" />
+          <Members vimssId="6904920" LocusId="Geob_0474" Name="nuoM-1" Function="NADH-ubiquinone oxidoreductase chain M (EC 1.6.5.3)" />
+          <Members vimssId="6904921" LocusId="Geob_0475" Name="nuoN-2" Function="NADH-ubiquinone oxidoreductase chain N (EC 1.6.5.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6907134" LocusId="Geob_2663" Name="icd" Function="Isocitrate dehydrogenase [NADP] (EC 1.1.1.42); Monomeric isocitrate dehydrogenase [NADP] (EC 1.1.1.42)" />
+          <Members vimssId="6907135" LocusId="Geob_2664" Name="mdh" Function="Malate dehydrogenase (EC 1.1.1.37)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6905008" LocusId="Geob_0562" Name="sdhR2" Function="Transcriptional regulator of central carbohydrate metabolism, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6904907" LocusId="Geob_0461" Name="hemL" Function="Glutamate-1-semialdehyde aminotransferase (EC 5.4.3.8)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6905009" LocusId="Geob_0563" Name="Gura_4160" Function="K+ transport systems, NAD-binding component" />
+          <Members vimssId="6905010" LocusId="Geob_0564" Name="Gura_4159" Function="Sugar phosphate isomerases/epimerases" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6389</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16171" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="Geob_0042" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6904482&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1739" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Geob_0042" Name="zur" Position="-51" Score="7.9">
+          <Sequence>TAAAAAGAAATGATTTCTATTTA</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6904482" LocusId="Geob_0042" Name="zur" Function="Zinc uptake regulation protein Zur" />
+          <Members vimssId="6904483" LocusId="Geob_0043" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+          <Members vimssId="6904484" LocusId="Geob_0044" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="6904485" LocusId="Geob_0045" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1739</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01055" RegulationMode="RF01055">
+      <Regulator Key="MOCO_RNA_motif" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=55439" />
+      <Effector>Molybdenum</Effector>
+      <Pathway>Molybdopterin biosynthesis; Tungsten homeostasis; Molybdenum homeostasis</Pathway>
+      <LocusTag Key="MOCO_RNA_motif" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Geob_0269" Name="aor" Position="-148" Score="67.5">
+          <Sequence>TCATGTATCATCTCCGAGCCGTGCAGCCTAACAGGTTCCCTCATGGTGCCCGGCCTACGGGTTTCGCTGGAAACGGCGGGGCCTCCCTTTCGGAAAGGAGTAAGCAAGCCCTTGCG</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_0273" Name="tupP" Position="-429" Score="70.3">
+          <Sequence>GCTCGAACTTTCTCCGAGCCTGTCCGCCTACCGGGAATATTCCCCATGGTGTCAGGCCTGTGGGCTCTGCTGGAAACGGCAGGACCTTCCTTTGAAAAGGAGAACCTCTCGCCACGCTAT</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_0273" Name="tupP" Position="-218" Score="68.7">
+          <Sequence>GATTCTCAACTCTCCGAGCCACGCCGCCTAAAGGGTAGTTTTCCCATGGCGACCGGCTAGGGTGCCGCTGGAAACGGCTGTGCCTCCCTTTTGGAAAGGAGAGCCTCAAAGTACCGGAC</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_1629" Name="tupA" Position="-274" Score="62.3">
+          <Sequence>TTAAAAACTAAATCTCCGAGTCGTAATTGCCTACCGGGGATGACAAAGCTGTCATTCCCATGGCAACCGACCATTGGGTCCTGCTGGAAACGGCAGCGCCTCCCTTTTGGAAAGGAGAGTCACCGAACGGCAT</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Geob_0113" Name="aor" Position="-140" Score="70.3">
+          <Sequence>TGACAAAACAAGTCTCCGAGCCTCCATTGCCTAAAGGGCGTCAAACCCCACGGCATGGAGGCCTGCAGGCCGGGCCGGAAACGGCCGGACCTCCCTTTCGGAAAGGAGACTGCAAATAATCACT</Sequence>
+          <Bacteria>Geobacter sp. FRC-32</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6904714" LocusId="Geob_0273" Name="tupP" Function="Predicted molybdate/tungstate porin" />
+          <Members vimssId="6904715" LocusId="Geob_0274" Name="tupB" Function="ABC-type tungstate transport system, periplasmic binding protein" />
+          <Members vimssId="6904716" LocusId="Geob_0275" Name="tupC" Function="ABC-type tungstate transport system, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6906087" LocusId="Geob_1629" Name="tupA" Function="ABC-type tungstate transport system, permease protein" />
+          <Members vimssId="6906086" LocusId="Geob_1628" Name="tupC" Function="ABC-type tungstate transport system, ATP-binding protein" />
+          <Members vimssId="6906085" LocusId="Geob_1627" Name="moeA" Function="Molybdopterin biosynthesis protein MoeA" />
+          <Members vimssId="6906084" LocusId="Geob_1626" Name="moaC" Function="Molybdenum cofactor biosynthesis protein MoaC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6904710" LocusId="Geob_0269" Name="aor" Function="Tungsten-containing aldehyde ferredoxin oxidoreductase (EC 1.2.7.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6904554" LocusId="Geob_0113" Name="aor" Function="Tungsten-containing aldehyde ferredoxin oxidoreductase (EC 1.2.7.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Archaeoglobus profundus DSM 5631" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="Phr" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53168" />
+      <Effector />
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Arcpr_0812" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10344670&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="Phr - Archaeoglobales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5425" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Arcpr_1089" Name="hsp20-2" Position="-48" Score="6.2">
+          <Sequence>TTTACTAACTAAAGGTTAGTAGT</Sequence>
+          <Bacteria>Archaeoglobus profundus DSM 5631</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Arcpr_0812" Name="phr" Position="-43" Score="6.5">
+          <Sequence>TTTACTAACCAAAAGTTAGTAAA</Sequence>
+          <Bacteria>Archaeoglobus profundus DSM 5631</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10344670" LocusId="Arcpr_0812" Name="phr" Function="Heat shock response regulator Phr, ArsR family" />
+          <Members vimssId="10344669" LocusId="Arcpr_0811" Name="vat" Function="ATPase, AAA+ family" />
+          <Members vimssId="10344668" LocusId="Arcpr_0810" Name="hsp20-1" Function="Small heat shock protein 20" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10344963" LocusId="Arcpr_1089" Name="hsp20-2" Function="Small heat shock protein 20" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5425</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="[Other]" RegulationMode="">
+      <Regulator Key="RbkR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66572" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="Arcpr_1275" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10345159&amp;disp=0" />
+      <BiologicalProcess>Riboflavin biosynthesis</BiologicalProcess>
+      <Regulog Key="RbkR - Archaeoglobales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6879" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Arcpr_1140" Name="ribBA" Position="-49" Score="6.3">
+          <Sequence>TTTGAGATATATCTCAAA</Sequence>
+          <Bacteria>Archaeoglobus profundus DSM 5631</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Arcpr_1275" Name="rbkR" Position="-24" Score="5.2">
+          <Sequence>CTTGAGAATCATCTCACG</Sequence>
+          <Bacteria>Archaeoglobus profundus DSM 5631</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10345159" LocusId="Arcpr_1275" Name="rbkR" Function="DNA-binding HTH domain in riboflavin kinase / CTP-dependent archaeal riboflavin kinase" />
+          <Members vimssId="10345158" LocusId="Arcpr_1274" Name="ribB" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10345018" LocusId="Arcpr_1140" Name="ribBA" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase / GTP cyclohydrolase II (EC 3.5.4.25)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6879</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

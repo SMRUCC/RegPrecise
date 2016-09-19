@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Parachlamydia sp. UWE25" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58721" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="pc1497" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=546883&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Chlamydiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6013" />
+      <RegulatorySites>
+        <FastaObject LocusTag="pc1497" Name="hcrA" Position="-90" Score="7.2">
+          <Sequence>ATAGCACTCGATATAATCGAGTGCTAA</Sequence>
+          <Bacteria>Parachlamydia sp. UWE25</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="pc1179" Name="groS" Position="-138" Score="6">
+          <Sequence>TTAGCAATTAAGTTGATTCACTGCTAA</Sequence>
+          <Bacteria>Parachlamydia sp. UWE25</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="546883" LocusId="pc1497" Name="hcrA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="546884" LocusId="pc1498" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="546885" LocusId="pc1499" Name="dnaK" Function="Chaperone protein DnaK" />
+        </Operon>
+        <Operon>
+          <Members vimssId="546561" LocusId="pc1179" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="546562" LocusId="pc1180" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6013</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41967" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="pc1799" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=547192&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Chlamydiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4333" />
+      <RegulatorySites>
+        <FastaObject LocusTag="pc0111" Name="nrdD" Position="-137" Score="3.6">
+          <Sequence>TTAAAATAAATTCTGT</Sequence>
+          <Bacteria>Parachlamydia sp. UWE25</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="pc0111" Name="nrdD" Position="-44" Score="4.8">
+          <Sequence>CTACAAGATCTTGTAT</Sequence>
+          <Bacteria>Parachlamydia sp. UWE25</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="545467" LocusId="pc0111" Name="nrdD" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4333</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

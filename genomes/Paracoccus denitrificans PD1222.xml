@@ -1,0 +1,1706 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Paracoccus denitrificans PD1222" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="AnsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59886" />
+      <Effector />
+      <Pathway>Asparagine degradation; Aspartate utilization</Pathway>
+      <LocusTag Key="Pden_4243" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1842279&amp;disp=0" />
+      <BiologicalProcess>Asparagine degradation; Aspartate utilization</BiologicalProcess>
+      <Regulog Key="AnsR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6148" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_4244" Name="ansA" Position="-64" Score="5.7">
+          <Sequence>AGCTGTCAGACAGAT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1842280" LocusId="Pden_4244" Name="ansA" Function="L-asparaginase (EC 3.5.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6148</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="BioR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53141" />
+      <Effector />
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="Pden_2922" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1840958&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BioR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5422" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_2916" Name="bioB" Position="-80" Score="4.2">
+          <Sequence>TAATAGATAA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_2916" Name="bioB" Position="-37" Score="4.1">
+          <Sequence>TTATAGATAC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1432" Name="bioY" Position="-84" Score="4.8">
+          <Sequence>TTATCTATAA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1432" Name="bioY" Position="-40" Score="4.4">
+          <Sequence>TTATAGATAG</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_2922" Name="bioR" Position="-39" Score="4.3">
+          <Sequence>TTATCGACAA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1431" Name="bioR" Position="-13" Score="4.8">
+          <Sequence>TTATCTATAA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1840958" LocusId="Pden_2922" Name="bioR" Function="Biotin metabolism regulatory protein BioR, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1839441" LocusId="Pden_1431" Name="bioR" Function="Biotin metabolism regulatory protein BioR, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1840952" LocusId="Pden_2916" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="1840953" LocusId="Pden_2917" Name="bioF" Function="8-amino-7-oxononanoate synthase (EC 2.3.1.47)" />
+          <Members vimssId="1840954" LocusId="Pden_2918" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+          <Members vimssId="1840955" LocusId="Pden_2919" Name="bioA" Function="Adenosylmethionine-8-amino-7-oxononanoate aminotransferase (EC 2.6.1.62)" />
+          <Members vimssId="1840956" LocusId="Pden_2920" Name="bioG" Function="Biotin synthesis protein bioG" />
+          <Members vimssId="1840957" LocusId="Pden_2921" Name="bioC" Function="Biotin synthesis protein bioC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1839442" LocusId="Pden_1432" Name="bioY" Function="Core component BioY of biotin ECF transporter" />
+          <Members vimssId="1839443" LocusId="Pden_1433" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5422</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51363" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="Pden_0211" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1838211&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5208" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_2344" Name="cadA" Position="-75" Score="6.1">
+          <Sequence>AAGCTCTAGTCGCTAGAGGAA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_0212" Name="cadA" Position="-37" Score="5.8">
+          <Sequence>AACCTCTAGTTGCTAGAGATC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1838212" LocusId="Pden_0212" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1840378" LocusId="Pden_2344" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5208</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="CceR (GapR)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=54574" />
+      <Effector>6-phosphogluconate</Effector>
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="Pden_1978" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1840010&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="CceR (GapR) - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5568" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_1952" Name="zwf" Position="-65" Score="4.1">
+          <Sequence>GCCTGAAACCGCTATCATCC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1245" Name="eda" Position="-85" Score="5">
+          <Sequence>CTCAGTTAACGCTAACACAC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1955" Name="edd" Position="-48" Score="5.4">
+          <Sequence>CAATGTTACCGCTAACAGGA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_2276" Name="pykA" Position="-32" Score="5.2">
+          <Sequence>CGACGATAGCGCAAACATGC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_2852" Name="pckA" Position="-132" Score="4.6">
+          <Sequence>AAATGATTGCGCTAACCGTC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_2852" Name="pckA" Position="-113" Score="4.5">
+          <Sequence>CTCTGATTGCGCTAACCCTG</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1978" Name="cceR" Position="-39" Score="4.1">
+          <Sequence>AAAAGATAACGGTAACATGA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1920" Name="fba" Position="-74" Score="4.6">
+          <Sequence>TTCCGTTAGCGCAATCGCGA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_2946" Name="scrK" Position="-77" Score="4.9">
+          <Sequence>GGCAGTTACCGCTATCAGGA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4465" Name="gapB" Position="-124" Score="4">
+          <Sequence>CAATTGCACCGCTAACATCG</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_3815" Name="atpH" Position="-153" Score="4.7">
+          <Sequence>AGGTGTTTGCGCAATCGGTT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1839976" LocusId="Pden_1952" Name="zwf" Function="Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)" />
+          <Members vimssId="1839975" LocusId="Pden_1951" Name="pgl" Function="6-phosphogluconolactonase (EC 3.1.1.31), eukaryotic type" />
+          <Members vimssId="1839974" LocusId="Pden_1950" Name="pgi" Function="Glucose-6-phosphate isomerase (EC 5.3.1.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1840310" LocusId="Pden_2276" Name="pykA" Function="Pyruvate kinase (EC 2.7.1.40)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1840888" LocusId="Pden_2852" Name="pckA" Function="Phosphoenolpyruvate carboxykinase (EC 4.1.1.49)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1839943" LocusId="Pden_1920" Name="fba" Function="Fructose-bisphosphate aldolase class I (EC 4.1.2.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1842502" LocusId="Pden_4465" Name="gapB" Function="Glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1840010" LocusId="Pden_1978" Name="cceR" Function="Transcriptional regulator for central carbohydrate metabolism, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1839254" LocusId="Pden_1245" Name="eda" Function="2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1839979" LocusId="Pden_1955" Name="edd" Function="Phosphogluconate dehydratase (EC 4.2.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1840982" LocusId="Pden_2946" Name="scrK" Function="Fructokinase (EC 2.7.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1841852" LocusId="Pden_3815" Name="atpH" Function="ATP synthase delta chain (EC 3.6.3.14)" />
+          <Members vimssId="1841853" LocusId="Pden_3816" Name="atpA" Function="ATP synthase alpha chain (EC 3.6.3.14)" />
+          <Members vimssId="1841854" LocusId="Pden_3817" Name="atpG" Function="ATP synthase gamma chain (EC 3.6.3.14)" />
+          <Members vimssId="1841855" LocusId="Pden_3818" Name="atpD" Function="ATP synthase beta chain (EC 3.6.3.14)" />
+          <Members vimssId="1841856" LocusId="Pden_3819" Name="atpC" Function="ATP synthase epsilon chain (EC 3.6.3.14)" />
+          <Members vimssId="1841857" LocusId="Pden_3820" Name="atpI" Function="ATP synthase protein I" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5568</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="EutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63917" />
+      <Effector />
+      <Pathway>Ectoine utilization</Pathway>
+      <LocusTag Key="Pden_0279" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1838279&amp;disp=0" />
+      <BiologicalProcess>Ectoine utilization</BiologicalProcess>
+      <Regulog Key="EutR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6596" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_0280" Name="ehuA" Position="-55" Score="6.2">
+          <Sequence>ATTGACCTGATTTAAT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_0280" Name="ehuA" Position="-77" Score="5.9">
+          <Sequence>ATTGTTATGATATTAT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1838280" LocusId="Pden_0280" Name="ehuA" Function="ectoine/hydroxyectoine ABC transporter, ATP-binding protein" />
+          <Members vimssId="1838281" LocusId="Pden_0281" Name="ehuB" Function="ectoine/hydroxyectoine ABC transporter solute-binding protein" />
+          <Members vimssId="1838282" LocusId="Pden_0282" Name="ehuC" Function="ectoine/hydroxyectoine ABC transporter, permease protein EhuC" />
+          <Members vimssId="1838283" LocusId="Pden_0283" Name="ehuD" Function="ectoine/hydroxyectoine ABC transporter, permease protein EhuD" />
+          <Members vimssId="1838284" LocusId="Pden_0284" Name="eutA" Function="ectoine utilization protein, pyridoxal-5'-phosphate-dependent decarboxylase/isomerase" />
+          <Members vimssId="1838285" LocusId="Pden_0285" Name="eutB" Function="ectoine utilization protein, threonine dehydratase (EC 4.3.1.19)" />
+          <Members vimssId="1838286" LocusId="Pden_0286" Name="eutC" Function="ectoine utilization protein EutC" />
+          <Members vimssId="1838287" LocusId="Pden_0287" Name="eutD" Function="ectoine utilization protein EutD, dipeptidase" />
+          <Members vimssId="1838288" LocusId="Pden_0288" Name="eutE" Function="ectoine utilization protein EutE, deacylase" />
+          <Members vimssId="1838289" LocusId="Pden_0289" Name="doeC" Function="Succinate-semialdehyde dehydrogenase (EC 1.2.1.16)" />
+          <Members vimssId="1838290" LocusId="Pden_0290" Name="doeD" Function="Gamma-aminobutyrate:alpha-ketoglutarate aminotransferase (EC 2.6.1.19)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6596</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="">
+      <Regulator Key="EutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63654" />
+      <Effector>Ethanolamine</Effector>
+      <Pathway>Ethanolamine utilization</Pathway>
+      <LocusTag Key="Pden_4542" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1842579&amp;disp=0" />
+      <BiologicalProcess>Ethanolamine utilization</BiologicalProcess>
+      <Regulog Key="EutR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6568" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_4543" Name="eutA" Position="-93" Score="4.1">
+          <Sequence>TTCGTAACATTCTTAACAGG</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4543" Name="eutA" Position="-63" Score="5.1">
+          <Sequence>TCTGAAAAATAATTGACAGA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4542" Name="eutR" Position="-48" Score="4.1">
+          <Sequence>CCTGTTAAGAATGTTACGAA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4542" Name="eutR" Position="-78" Score="5.1">
+          <Sequence>TCTGTCAATTATTTTTCAGA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1842580" LocusId="Pden_4543" Name="eutA" Function="COG3931: Predicted N-formylglutamate amidohydrolase" />
+          <Members vimssId="1842581" LocusId="Pden_4544" Name="eutQ" Function="TRAP-type ethanolamine transport system, small permease component" />
+          <Members vimssId="1842582" LocusId="Pden_4545" Name="eutM" Function="TRAP-type ethanolamine transport system, large permease component" />
+          <Members vimssId="1842583" LocusId="Pden_4546" Name="eutP" Function="TRAP-type ethanolamine transport system, periplasmic component" />
+          <Members vimssId="1842584" LocusId="Pden_4547" Name="eutB" Function="glutamine synthetase family protein" />
+          <Members vimssId="1842585" LocusId="Pden_4548" Name="eutX" Function="Aldehyde dehydrogenase (EC 1.2.1.3)" />
+          <Members vimssId="1842586" LocusId="Pden_4549" Name="eutY" Function="Alcohol dehydrogenase (EC 1.1.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1842579" LocusId="Pden_4542" Name="eutR" Function="Transcriptional regulator of ethanolamine utilization, RpiR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6568</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator (repressor)">
+      <Regulator Key="FnrN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63370" />
+      <Effector>Oxygen</Effector>
+      <Pathway>Oxidative stress response; Nitrogen fixation</Pathway>
+      <LocusTag Key="Pden_1850" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1839870&amp;disp=0" />
+      <BiologicalProcess>Oxidative stress response; Nitrogen fixation</BiologicalProcess>
+      <Regulog Key="FnrN - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6530" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_1850" Name="fnrN" Position="-131" Score="5.3">
+          <Sequence>ACCTTGACCCAAATCAAATG</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1851" Name="hemN" Position="-51" Score="5.3">
+          <Sequence>CATTTGATTTGGGTCAAGGT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1822" Name="hemA" Position="-40" Score="5.4">
+          <Sequence>GGCTTGATGCGTATCAAGGT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1849" Name="uspA" Position="-146" Score="5.3">
+          <Sequence>ACTTTGATCTGCGTCAATCT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_3636" Name="ompW" Position="-51" Score="5.5">
+          <Sequence>ATCTTGATCCAGATCAACGT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_0893" Name="ccpR" Position="-141" Score="5.1">
+          <Sequence>CATCTGACCCAGATCAAAGC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1848" Name="ccoN" Position="-124" Score="5.3">
+          <Sequence>AGATTGACGCAGATCAAAGT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1844" Name="ccoG" Position="-70" Score="5.3">
+          <Sequence>CGCTTGACGCAGATCAATGC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1839869" LocusId="Pden_1849" Name="uspA" Function="Predicted universal stress protein UspA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1839870" LocusId="Pden_1850" Name="fnrN" Function="Nitrogen fixation and oxygen response transcriptional regulator FnrN, Crp family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1839842" LocusId="Pden_1822" Name="hemA" Function="5-aminolevulinate synthase (EC 2.3.1.37)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1839864" LocusId="Pden_1844" Name="ccoG" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoG, involved in Cu oxidation" />
+          <Members vimssId="1839863" LocusId="Pden_1843" Name="ccoH" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoH" />
+          <Members vimssId="1839862" LocusId="Pden_1842" Name="ccoI" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoI; Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="1839861" LocusId="Pden_1841" Name="ccoS" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoS, involved in heme b insertion" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1839868" LocusId="Pden_1848" Name="ccoN" Function="Cytochrome c oxidase subunit CcoN (EC 1.9.3.1)" />
+          <Members vimssId="1839867" LocusId="Pden_1847" Name="ccoO" Function="Cytochrome c oxidase subunit CcoO (EC 1.9.3.1)" />
+          <Members vimssId="1839866" LocusId="Pden_1846" Name="ccoQ" Function="Cytochrome c oxidase subunit CcoQ (EC 1.9.3.1)" />
+          <Members vimssId="1839865" LocusId="Pden_1845" Name="ccoP" Function="Cytochrome c oxidase subunit CcoP (EC 1.9.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1838900" LocusId="Pden_0893" Name="ccpR" Function="Cytochrome c551 peroxidase (EC 1.11.1.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1841673" LocusId="Pden_3636" Name="ompW" Function="Outer membrane protein W precursor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1839871" LocusId="Pden_1851" Name="hemN" Function="Coproporphyrinogen III oxidase, oxygen-independent (EC 1.3.99.22)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6530</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="activator (repressor)">
+      <Regulator Key="GlcC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19190" />
+      <Effector>Glycolate</Effector>
+      <Pathway>Glycolate utilization</Pathway>
+      <LocusTag Key="Pden_4400" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1842437&amp;disp=0" />
+      <BiologicalProcess>Glycolate utilization</BiologicalProcess>
+      <Regulog Key="GlcC - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2072" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_4399" Name="glcD" Position="-71" Score="6.1">
+          <Sequence>ATGTGGTCTGAAAATTATACCAAGA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1842436" LocusId="Pden_4399" Name="glcD" Function="Glycolate dehydrogenase (EC 1.1.99.14), subunit GlcD" />
+          <Members vimssId="1842435" LocusId="Pden_4398" Name="glcE" Function="Glycolate dehydrogenase (EC 1.1.99.14), FAD-binding subunit GlcE" />
+          <Members vimssId="1842434" LocusId="Pden_4397" Name="glcF" Function="Glycolate dehydrogenase (EC 1.1.99.14), iron-sulfur subunit GlcF" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2072</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49740" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Pden_0009" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1838003&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5037" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_3654" Name="groL" Position="-396" Score="7.2">
+          <Sequence>TTGGCACTCACCCGAGCCGAGTGCCAA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1841691" LocusId="Pden_3654" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5037</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="HutC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17398" />
+      <Effector>cis-Urocanic acid</Effector>
+      <Pathway>Histidine utilization</Pathway>
+      <LocusTag Key="Pden_4940" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1842977&amp;disp=0" />
+      <BiologicalProcess>Histidine utilization</BiologicalProcess>
+      <Regulog Key="HutC - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1877" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_0710" Name="hutI" Position="-73" Score="4.4">
+          <Sequence>AATAAGTTTAGACATAGA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_0709" Name="hutF" Position="-41" Score="4.4">
+          <Sequence>TCTATGTCTAAACTTATT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_0709" Name="hutF" Position="-64" Score="4.4">
+          <Sequence>TCTATGTCTAAACTTATT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_0710" Name="hutI" Position="-50" Score="4.4">
+          <Sequence>AATAAGTTTAGACATAGA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1838715" LocusId="Pden_0710" Name="hutI" Function="Imidazolonepropionase (EC 3.5.2.7)" />
+          <Members vimssId="1838716" LocusId="Pden_0711" Name="hutH" Function="Histidine ammonia-lyase (EC 4.3.1.3)" />
+          <Members vimssId="1838717" LocusId="Pden_0712" Name="hutG" Function="N-formylglutamate deformylase (EC 3.5.1.68)" />
+          <Members vimssId="1838718" LocusId="Pden_0713" Name="COG1804 (CaiB)" Function="CAIB/BAIF family protein" />
+          <Members vimssId="1838719" LocusId="Pden_0714" Name="COG1960 (CaiA)" Function="Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.99.2)" />
+          <Members vimssId="1838720" LocusId="Pden_0715" Name="hutU" Function="Urocanate hydratase (EC 4.2.1.49)" />
+          <Members vimssId="1838721" LocusId="Pden_0716" Name="COG834 (HisJ)" Function="ABC amino acid transporter, periplasmic binding protein" />
+          <Members vimssId="1838722" LocusId="Pden_0717" Name="COG765 (HisM)" Function="ABC amino acid transporter, permease component" />
+          <Members vimssId="1838723" LocusId="Pden_0718" Name="COG4160 (ArtM)" Function="ABC amino acid transporter, permease component" />
+          <Members vimssId="1838724" LocusId="Pden_0719" Name="COG1126 (GlnQ)" Function="ABC amino acid transporter, ATPase component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1838714" LocusId="Pden_0709" Name="hutF" Function="Formiminoglutamic iminohydrolase (EC 3.5.3.13)" />
+          <Members vimssId="1838713" LocusId="Pden_0708" Name="hutC" Function="Histidine utilization repressor, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1877</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="activator (repressor)">
+      <Regulator Key="HypR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17774" />
+      <Effector>4-hydroxyproline</Effector>
+      <Pathway>Proline and 4-hydrohyproline utilization</Pathway>
+      <LocusTag Key="Pden_4868" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1842905&amp;disp=0" />
+      <BiologicalProcess>Proline and 4-hydrohyproline utilization</BiologicalProcess>
+      <Regulog Key="HypR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1919" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_4864" Name="hypM" Position="-111" Score="3.5">
+          <Sequence>TTTTGTATATTAGT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4868" Name="hypR" Position="-41" Score="3.4">
+          <Sequence>AGTTGTCGACGTCA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4867" Name="hypD" Position="-88" Score="4.8">
+          <Sequence>CTTTGTCGACAAAT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4865" Name="hypH" Position="-94" Score="4">
+          <Sequence>TTTTGCATACATGA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4866" Name="hypS" Position="-53" Score="4">
+          <Sequence>TCATGTATGCAAAA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1842903" LocusId="Pden_4866" Name="hypS" Function="Putative L-lactate/Malate dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1842904" LocusId="Pden_4867" Name="hypD" Function="1-pyrroline-4-hydroxy-2-carboxylate deaminase (EC 3.5.4.22) # predicted" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1842902" LocusId="Pden_4865" Name="hypH" Function="Ketoglutarate semialdehyde dehydrogenase (EC 1.2.1.26) # hydroxy-L-proline-inducible" />
+          <Members vimssId="1842901" LocusId="Pden_4864" Name="hypM" Function="Predicted hydroxyproline ABC transporter, substrate-binding protein" />
+          <Members vimssId="1842900" LocusId="Pden_4863" Name="hypN" Function="Predicted hydroxyproline ABC transporter, permease protein" />
+          <Members vimssId="1842899" LocusId="Pden_4862" Name="hypP" Function="Predicted hydroxyproline ABC transporter, permease protein" />
+          <Members vimssId="1842898" LocusId="Pden_4861" Name="hypQ" Function="Predicted hydroxyproline ABC transporter, ATP-binding protein" />
+          <Members vimssId="1842897" LocusId="Pden_4860" Name="hypO" Function="D-amino acid dehydrogenase (EC 1.4.99.1) family protein in hydroxy-L-proline catabolic cluster" />
+          <Members vimssId="1842896" LocusId="Pden_4859" Name="hypE" Function="Proline racemase /4-hydroxyproline epimerase (EC 5.1.1.8)" />
+          <Members vimssId="1842895" LocusId="Pden_4858" Name="hypA" Function="Predicted hydroxyproline TRAP-type transport system, small permease component" />
+          <Members vimssId="1842894" LocusId="Pden_4857" Name="hypB" Function="Predicted hydroxyproline TRAP-type transport system, large permease component" />
+          <Members vimssId="1842893" LocusId="Pden_4856" Name="hypC" Function="Predicted hydroxyproline TRAP-type transport system, periplasmic component" />
+          <Members vimssId="1842892" LocusId="Pden_4855" Name="hypS" Function="Putative L-lactate/Malate dehydrogenase" />
+          <Members vimssId="1842891" LocusId="Pden_4854" Name="hypX" Function="Putative citrate/isocitrate isomerase or aconitase ## predicted from clustering to proline racemase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1842905" LocusId="Pden_4868" Name="hypR" Function="Predicted regulator for proline and hydrohyproline utilization, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1919</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="HypR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66517" />
+      <Effector>4-hydroxyproline</Effector>
+      <Pathway>Proline and 4-hydrohyproline utilization</Pathway>
+      <LocusTag Key="Pden_1183" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1839190&amp;disp=0" />
+      <BiologicalProcess>Proline and 4-hydrohyproline utilization</BiologicalProcess>
+      <Regulog Key="HypR2 - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6872" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_1183" Name="hypR2" Position="-178" Score="4.3">
+          <Sequence>TTTCGTATACTATA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1184" Name="hypY" Position="-50" Score="4.3">
+          <Sequence>TATAGTATACGAAA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1839191" LocusId="Pden_1184" Name="hypY" Function="Proline racemase /4-hydroxyproline epimerase (EC 5.1.1.8)" />
+          <Members vimssId="1839192" LocusId="Pden_1185" Name="COG2423" Function="Predicted ornithine cyclodeaminase, mu-crystallin homolog" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1839190" LocusId="Pden_1183" Name="hypR2" Function="Predicted regulator for proline and hydrohyproline utilization, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6872</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="repressor (activator)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17942" />
+      <Effector>Iron-sulfur cluster redox state; Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis; Iron homeostasis</Pathway>
+      <LocusTag Key="Pden_2958" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1840994&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis; Iron homeostasis</BiologicalProcess>
+      <Regulog Key="IscR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1938" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_3522" Name="fecB" Position="-128" Score="4.1">
+          <Sequence>TCCTATTCTTTTTGTCGGA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1139" Name="fhuA" Position="24" Score="4.3">
+          <Sequence>CCTGAGTTAATAGCTCGGA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4201" Name="hmuR" Position="-89" Score="4.1">
+          <Sequence>ATTGACAGTTTTACTAAGA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1138" Name="araX" Position="-81" Score="3.8">
+          <Sequence>CCAGAGTTTTTCAATCAAC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4141" Name="hemP" Position="-53" Score="4.3">
+          <Sequence>TCCTAGGAAATTTGTCAGG</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_3521" Name="RSP_3417" Position="-164" Score="4.1">
+          <Sequence>TCCGACAAAAAGAATAGGA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1839146" LocusId="Pden_1138" Name="araX" Function="Iron-regulated transcriptional regulator, AraC family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1841559" LocusId="Pden_3522" Name="fecB" Function="ABC-type Fe3+-hydroxamate transport system, periplasmic component" />
+          <Members vimssId="1841560" LocusId="Pden_3523" Name="fecC" Function="ABC-type Fe3+-siderophore transport system, permease component" />
+          <Members vimssId="1841561" LocusId="Pden_3524" Name="fecD" Function="ABC-type Fe3+-siderophore transport system, permease component" />
+          <Members vimssId="1841562" LocusId="Pden_3525" Name="fecE" Function="ABC Fe+3-siderophore transporter, ATPase subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1839147" LocusId="Pden_1139" Name="fhuA" Function="Ferric hydroxamate outer membrane receptor FhuA" />
+          <Members vimssId="1839148" LocusId="Pden_1140" Name="fhuD" Function="Ferric hydroxamate ABC transporter (TC 3.A.1.14.3), periplasmic substrate binding protein FhuD" />
+          <Members vimssId="1839149" LocusId="Pden_1141" Name="fhuB" Function="Ferric hydroxamate ABC transporter (TC 3.A.1.14.3), permease component FhuB" />
+          <Members vimssId="1839150" LocusId="Pden_1142" Name="fhuC" Function="Ferric hydroxamate ABC transporter (TC 3.A.1.14.3), ATP-binding protein FhuC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1842237" LocusId="Pden_4201" Name="hmuR" Function="TonB-dependent hemin , ferrichrome receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1841558" LocusId="Pden_3521" Name="RSP_3417" Function="Ferrichrome-iron receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1842177" LocusId="Pden_4141" Name="hemP" Function="Hemin uptake protein HemP" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1938</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="Jann_1459" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51601" />
+      <Effector />
+      <Pathway>Sugar utilization</Pathway>
+      <LocusTag Key="Pden_4766" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1842803&amp;disp=0" />
+      <BiologicalProcess>Sugar utilization</BiologicalProcess>
+      <Regulog Key="Jann_1459 - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5231" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_4766" Name="Jann_1459" Position="-62" Score="4.9">
+          <Sequence>GTCTGCAATCGATTGCAAAC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4767" Name="COG1082" Position="-54" Score="4.9">
+          <Sequence>GTTTGCAATCGATTGCAGAC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1842803" LocusId="Pden_4766" Name="Jann_1459" Function="Transcriptional regulator, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1842804" LocusId="Pden_4767" Name="COG1082" Function="Sugar phosphate isomerases/epimerases" />
+          <Members vimssId="1842805" LocusId="Pden_4768" Name="COG0673" Function="Predicted dehydrogenases and related proteins" />
+          <Members vimssId="1842806" LocusId="Pden_4769" Name="SMb20718" Function="Sugar ABC transport system, ATP-binding protein" />
+          <Members vimssId="1842807" LocusId="Pden_4770" Name="SMb20719" Function="SugarABC transport system, inner membrane protein" />
+          <Members vimssId="1842808" LocusId="Pden_4771" Name="SMb20720" Function="Sugar ABC transport system, substrate-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5231</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="KglR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=54325" />
+      <Effector />
+      <Pathway>Sugar utilization</Pathway>
+      <LocusTag Key="Pden_5078" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1843115&amp;disp=0" />
+      <BiologicalProcess>Sugar utilization</BiologicalProcess>
+      <Regulog Key="KglR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5549" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_5079" Name="Sma0079" Position="-52" Score="6.4">
+          <Sequence>GATTTAGATCGTTCTAAATC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1843116" LocusId="Pden_5079" Name="Sma0079" Function="amino acid ABC transporter, inner membrane protein" />
+          <Members vimssId="1843117" LocusId="Pden_5080" Name="Sma0081" Function="amino acid ABC transporter, inner membrane protein" />
+          <Members vimssId="1843118" LocusId="Pden_5081" Name="Sma0082" Function="amino acid ABC transporter, substrate-binding protein" />
+          <Members vimssId="1843119" LocusId="Pden_5082" Name="Sma0083" Function="amino acid ABC transporter, ATP-binding protein" />
+          <Members vimssId="1843120" LocusId="Pden_5083" Name="PF00389" Function="D-isomer specific 2-hydroxyacid dehydrogenase, NAD-binding" />
+          <Members vimssId="1843121" LocusId="Pden_5084" Name="Pden_5084" Function="sugar kinase, PfkB family" />
+          <Members vimssId="1843122" LocusId="Pden_5085" Name="COG3971" Function="2-keto-4-pentenoate hydratase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5549</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28384" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="Pden_2142" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1840176&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2986" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_4289" Name="imuA" Position="-56" Score="0.7">
+          <Sequence>GAACAAATCAGGAAC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_2142" Name="lexA" Position="-47" Score="1.4">
+          <Sequence>GAACAATCAACGAAC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_0597" Name="recA" Position="-77" Score="1">
+          <Sequence>GAACAACCCGTGAAC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_0696" Name="ruvC" Position="-44" Score="5.1">
+          <Sequence>GTTCGCCTTTCGTGC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_2252" Name="uvrA" Position="-81" Score="4.7">
+          <Sequence>GTTCCTGTGATGTTC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_3951" Name="PF04055" Position="-27" Score="4.8">
+          <Sequence>GTTCTCTAAATGTTC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1550" Name="PF06319" Position="-26" Score="4.8">
+          <Sequence>GTTTCCGTTTCGTTC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1842325" LocusId="Pden_4289" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="1842326" LocusId="Pden_4290" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+          <Members vimssId="1842327" LocusId="Pden_4291" Name="dnaE2" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1840176" LocusId="Pden_2142" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1838602" LocusId="Pden_0597" Name="recA" Function="Recombinase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1838701" LocusId="Pden_0696" Name="ruvC" Function="Crossover junction endodeoxyribonuclease RuvC (EC 3.1.22.4)" />
+          <Members vimssId="1838700" LocusId="Pden_0695" Name="ruvA" Function="Holliday junction DNA helicase RuvA" />
+          <Members vimssId="1838699" LocusId="Pden_0694" Name="htpx" Function="Zn-dependent protease with chaperone function" />
+          <Members vimssId="1838698" LocusId="Pden_0693" Name="ruvB" Function="Holliday junction DNA helicase RuvB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1840286" LocusId="Pden_2252" Name="uvrA" Function="Excinuclease ABC subunit A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1841988" LocusId="Pden_3951" Name="PF04055" Function="Radical SAM domain protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1839561" LocusId="Pden_1550" Name="PF06319" Function="Transcription elongation factor" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2986</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="LiuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28580" />
+      <Effector />
+      <Pathway>Branched-chain amino acid degradation</Pathway>
+      <LocusTag Key="Pden_2866" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1840902&amp;disp=0" />
+      <BiologicalProcess>Branched-chain amino acid degradation</BiologicalProcess>
+      <Regulog Key="LiuR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3007" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_2867" Name="liuR" Position="5" Score="5.3">
+          <Sequence>CCTTACGCGAACGTCAAC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1840903" LocusId="Pden_2867" Name="liuR" Function="Predicted transcriptional regulator LiuR of leucine degradation pathway, MerR family" />
+          <Members vimssId="1840904" LocusId="Pden_2868" Name="acdH" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+          <Members vimssId="1840905" LocusId="Pden_2869" Name="PF04828" Function="Glutathione S-transferase, unnamed subgroup (EC 2.5.1.18)" />
+          <Members vimssId="1840906" LocusId="Pden_2870" Name="acdA" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16) @ Acetyl-CoA acetyltransferase (EC 2.3.1.9)" />
+          <Members vimssId="1840907" LocusId="Pden_2871" Name="acdB" Function="Enoyl-CoA hydratase [isoleucine degradation] (EC 4.2.1.17) / 3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35) / 3-hydroxybutyryl-CoA epimerase (EC 5.1.2.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3007</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="LldR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16662" />
+      <Effector>L-lactate</Effector>
+      <Pathway>Lactate utilization</Pathway>
+      <LocusTag Key="Pden_2929" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1840965&amp;disp=0" />
+      <BiologicalProcess>Lactate utilization</BiologicalProcess>
+      <Regulog Key="LldR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1795" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_2928" Name="dld" Position="-102" Score="6">
+          <Sequence>ATGGTCAAATTATTTTACCAA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_2929" Name="lldR" Position="-133" Score="6.5">
+          <Sequence>TTGGTAAAATAATTTGACCAT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1840964" LocusId="Pden_2928" Name="dld" Function="D-Lactate dehydrogenase" />
+          <Members vimssId="1840963" LocusId="Pden_2927" Name="lldP" Function="L-lactate permease" />
+          <Members vimssId="1840962" LocusId="Pden_2926" Name="lldE" Function="L-lactate dehydrogenase, Fe-S oxidoreductase subunit LldE" />
+          <Members vimssId="1840961" LocusId="Pden_2925" Name="lldF" Function="L-lactate dehydrogenase, Iron-sulfur cluster-binding subunit LldF" />
+          <Members vimssId="1840960" LocusId="Pden_2924" Name="lldG" Function="L-lactate dehydrogenase, subunit LldG" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1840965" LocusId="Pden_2929" Name="lldR" Function="Lactate-responsive regulator LldR, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1795</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="MdcY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61703" />
+      <Effector />
+      <Pathway>Malonate metabolism</Pathway>
+      <LocusTag Key="Pden_1722" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1839734&amp;disp=0" />
+      <BiologicalProcess>Malonate metabolism</BiologicalProcess>
+      <Regulog Key="MdcY - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6338" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_1722" Name="mdcY" Position="-79" Score="4.1">
+          <Sequence>TTGTATATAT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1721" Name="matC" Position="-122" Score="4.1">
+          <Sequence>ATATATACAA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1839734" LocusId="Pden_1722" Name="mdcY" Function="Transcriptional regulator of malonate metabolism, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1839733" LocusId="Pden_1721" Name="matC" Function="malonate transporter" />
+          <Members vimssId="1839732" LocusId="Pden_1720" Name="matA" Function="Malonyl-CoA decarboxylase (EC 4.1.1.9)" />
+          <Members vimssId="1839731" LocusId="Pden_1719" Name="matB" Function="Malonyl-CoA synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6338</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor (activator)">
+      <Regulator Key="MetR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56711" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="Pden_2318" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1840352&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5794" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_2319" Name="metF" Position="-58" Score="4.9">
+          <Sequence>ATGAATTTGTCTCAC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_2318" Name="metR" Position="-47" Score="4.9">
+          <Sequence>GTGAGACAAATTCAT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1840353" LocusId="Pden_2319" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1840352" LocusId="Pden_2318" Name="metR" Function="Homocysteine-responsive transcriptional regulator of methionine metabolism, LysR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5794</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21285" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdenum homeostasis</Pathway>
+      <LocusTag Key="Pden_2664" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1840699&amp;disp=0" />
+      <BiologicalProcess>Molybdenum homeostasis</BiologicalProcess>
+      <Regulog Key="ModE2 - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2306" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_2665" Name="" Position="-37" Score="5.2">
+          <Sequence>GTTATGTCCGTTTGAACATAAT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1840700" LocusId="Pden_2665" Name="null" Function="Molybdenum ABC transporter, periplasmic molybdenum-binding protein ModA (TC 3.A.1.8.1)" />
+          <Members vimssId="1840701" LocusId="Pden_2666" Name="modB" Function="Molybdate ABC transporter, permease protein" />
+          <Members vimssId="1840702" LocusId="Pden_2667" Name="null" Function="Molybdenum transport ATP-binding protein ModC (TC 3.A.1.8.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2306</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Mur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19522" />
+      <Effector>Manganese ion, (Mn2+)</Effector>
+      <Pathway>Manganese homeostasis</Pathway>
+      <LocusTag Key="Pden_1260" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1839269&amp;disp=0" />
+      <BiologicalProcess>Manganese homeostasis</BiologicalProcess>
+      <Regulog Key="Mur - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2110" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_1260" Name="mur" Position="-35" Score="4.6">
+          <Sequence>GTTGCAATTTCTTCGCATC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1259" Name="sitA" Position="-89" Score="4.6">
+          <Sequence>GATGCGAAGAAATTGCAAC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1259" Name="sitA" Position="-60" Score="4.6">
+          <Sequence>GTTGAGAATGGTTCGCAGA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1260" Name="mur" Position="-64" Score="4.6">
+          <Sequence>TCTGCGAACCATTCTCAAC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1839269" LocusId="Pden_1260" Name="mur" Function="Manganese uptake regulation protein Mur" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1839268" LocusId="Pden_1259" Name="sitA" Function="Manganese ABC transporter, periplasmic-binding protein SitA" />
+          <Members vimssId="1839267" LocusId="Pden_1258" Name="sitB" Function="Manganese ABC transporter, ATP-binding protein SitB" />
+          <Members vimssId="1839266" LocusId="Pden_1257" Name="sitC" Function="Manganese ABC transporter, inner membrane permease protein SitC" />
+          <Members vimssId="1839265" LocusId="Pden_1256" Name="sitD" Function="Manganese ABC transporter, inner membrane permease protein SitD" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2110</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="NagQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=18738" />
+      <Effector>N-acetylglucosamine</Effector>
+      <Pathway>N-acetylglucosamine utilization</Pathway>
+      <LocusTag Key="Pden_2475" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1840510&amp;disp=0" />
+      <BiologicalProcess>N-acetylglucosamine utilization</BiologicalProcess>
+      <Regulog Key="NagQ - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2025" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_2474" Name="nagK" Position="-38" Score="6.3">
+          <Sequence>TGGTATTGTTTTGGTATC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_2473" Name="murQ" Position="-132" Score="-2">
+          <Sequence>GATACCAAAACAATACCA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1840508" LocusId="Pden_2473" Name="murQ" Function="N-acetylmuramic acid 6-phosphate etherase (EC 4.2.-.-)" />
+          <Members vimssId="1840507" LocusId="Pden_2472" Name="nagT" Function="N-Acetyl-D-glucosamine ABC transport system, sugar-binding protein" />
+          <Members vimssId="1840506" LocusId="Pden_2471" Name="nagU" Function="N-Acetyl-D-glucosamine ABC transport system, permease protein 1" />
+          <Members vimssId="1840505" LocusId="Pden_2470" Name="nagV" Function="N-Acetyl-D-glucosamine ABC transport system, permease protein 2" />
+          <Members vimssId="1840504" LocusId="Pden_2469" Name="nagW" Function="N-Acetyl-D-glucosamine ABC transport system ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1840509" LocusId="Pden_2474" Name="nagK" Function="N-acetylglucosamine kinase of eukaryotic type (EC 2.7.1.59)" />
+          <Members vimssId="1840510" LocusId="Pden_2475" Name="nagQ" Function="Transcriptional regulator of N-Acetylglucosamine utilization, GntR family" />
+          <Members vimssId="1840511" LocusId="Pden_2476" Name="nagB2" Function="Glucosamine-6-phosphate deaminase [isomerizing], alternative (EC 3.5.99.6)" />
+          <Members vimssId="1840512" LocusId="Pden_2477" Name="nagA" Function="N-acetylglucosamine-6-phosphate deacetylase (EC 3.5.1.25)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2025</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15594" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Pden_1562" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1839573&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1675" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_1384" Name="nrdJ" Position="-168" Score="5">
+          <Sequence>CCACCAGATCTTGTGT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1839394" LocusId="Pden_1384" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1675</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="repressor">
+      <Regulator Key="NsrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14670" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="Pden_3024" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1841063&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="NsrR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1571" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_1689" Name="hmp" Position="-71" Score="4.7">
+          <Sequence>GATGTATCCAGAATACATG</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1690" Name="nsrR2" Position="-73" Score="4.7">
+          <Sequence>CATGTATTCTGGATACATC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_3025" Name="dnrN" Position="-131" Score="6.1">
+          <Sequence>TTGGTATTGACAATACCGA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_3025" Name="dnrN" Position="-96" Score="5.4">
+          <Sequence>TCGGTATTGCAAGTACCGA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_3024" Name="nsrR" Position="-66" Score="5.4">
+          <Sequence>TCGGTACTTGCAATACCGA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_3024" Name="nsrR" Position="-31" Score="6.1">
+          <Sequence>TCGGTATTGTCAATACCAA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1841063" LocusId="Pden_3024" Name="nsrR" Function="Nitrite-sensitive transcriptional repressor NsrR" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1841064" LocusId="Pden_3025" Name="dnrN" Function="Nitric oxide-dependent regulator DnrN or NorA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1839701" LocusId="Pden_1689" Name="hmp" Function="Flavohemoprotein (Hemoglobin-like protein) (Flavohemoglobin) (Nitric oxide dioxygenase) (EC 1.14.12.17)" />
+          <Members vimssId="1839700" LocusId="Pden_1688" Name="null" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1839702" LocusId="Pden_1690" Name="nsrR2" Function="Nitrite-sensitive transcriptional repressor NsrR" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1571</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19364" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="Pden_4129" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1842165&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2092" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_2032" Name="amtB2" Position="-130" Score="4">
+          <Sequence>TGCCCTTATTTCGGGCA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4131" Name="nifR3" Position="-121" Score="4.3">
+          <Sequence>TGCCGACTATTTAGGCA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4461" Name="glnB" Position="-148" Score="4.4">
+          <Sequence>CGCACATAATTCAGGCA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4461" Name="glnB" Position="-128" Score="4.9">
+          <Sequence>TGCATAATATTCGGGCA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4455" Name="nasT" Position="-140" Score="4">
+          <Sequence>CGCCCGAACCATGGGCA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1842498" LocusId="Pden_4461" Name="glnB" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="1842499" LocusId="Pden_4462" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1840065" LocusId="Pden_2032" Name="amtB2" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1842167" LocusId="Pden_4131" Name="nifR3" Function="Predicted oxidoreductase, FAD binding" />
+          <Members vimssId="1842166" LocusId="Pden_4130" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="1842165" LocusId="Pden_4129" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+          <Members vimssId="1842164" LocusId="Pden_4128" Name="ntrY" Function="Nitrogen regulation protein NtrY, sensor kinase (EC 2.7.3.-)" />
+          <Members vimssId="1842163" LocusId="Pden_4127" Name="ntrX" Function="Nitrogen assimilation transcriptional regulator NtrX, Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1842492" LocusId="Pden_4455" Name="nasT" Function="Nitrogen assimilation attenuator protein NasT" />
+          <Members vimssId="1842491" LocusId="Pden_4454" Name="nrtA2" Function="Nitrate ABC transporter, substrate-binding component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2092</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PaaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38911" />
+      <Effector>Phenylacetyl-CoA</Effector>
+      <Pathway>Phenylacetic acid degradation</Pathway>
+      <LocusTag Key="" Value="" />
+      <BiologicalProcess>Phenylacetic acid degradation</BiologicalProcess>
+      <Regulog Key="PaaR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3974" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_4799" Name="paaF" Position="-74" Score="6.6">
+          <Sequence>ATTGACCGGCCGGTCGGTTTAT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="paaZ2" Name="paaZ2" Position="-20" Score="6.6">
+          <Sequence>ATAAACCGACCGGCCGGTCAAT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4811" Name="paaJ" Position="-61" Score="6">
+          <Sequence>ATTGACCAATCGGTCGGTGAAT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4813" Name="" Position="-74" Score="5.9">
+          <Sequence>ATTGACCGACCGAACGGTTAAC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1842836" LocusId="Pden_4799" Name="paaF" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+          <Members vimssId="1842837" LocusId="Pden_4800" Name="paaY" Function="thioesterase superfamily protein" />
+          <Members vimssId="1842838" LocusId="Pden_4801" Name="paaK" Function="Phenylacetate-coenzyme A ligase (EC 6.2.1.30)" />
+          <Members vimssId="1842839" LocusId="Pden_4802" Name="paaR" Function="Transcriptional regulator of phenylacetic acid degradation, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1842848" LocusId="Pden_4811" Name="paaJ" Function="Beta-ketoadipyl CoA thiolase (EC 2.3.1.-)" />
+          <Members vimssId="1842847" LocusId="Pden_4810" Name="paaA" Function="Phenylacetate-CoA oxygenase, PaaA subunit" />
+          <Members vimssId="1842846" LocusId="Pden_4809" Name="paaB" Function="Phenylacetate-CoA oxygenase, PaaB subunit" />
+          <Members vimssId="1842845" LocusId="Pden_4808" Name="paaC" Function="Phenylacetate-CoA oxygenase, PaaC subunit" />
+          <Members vimssId="1842844" LocusId="Pden_4807" Name="paaD" Function="Phenylacetate-CoA oxygenase, PaaD subunit" />
+          <Members vimssId="1842843" LocusId="Pden_4806" Name="paaE" Function="Probable phenylacetic acid degradation NADH oxidoreductase paaE (EC 1.-.-.-)" />
+          <Members vimssId="1842842" LocusId="Pden_4805" Name="Pden_4805" Function="Phenylacetic acid catabolic protein" />
+          <Members vimssId="1842841" LocusId="Pden_4804" Name="paaZ" Function="Aldehyde dehydrogenase (EC 1.2.1.3), PaaZ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1842850" LocusId="Pden_4813" Name="null" Function="Penicillin G acylase" />
+          <Members vimssId="1842849" LocusId="Pden_4812" Name="paaX" Function="Phenylacetic acid degradation operon negative regulatory protein paaX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1842835" LocusId="paaZ2" Name="paaZ2" Function="Aldehyde dehydrogenase (EC 1.2.1.3), PaaZ" />
+          <Members vimssId="1842834" LocusId="Pden_4797" Name="livK" Function="Putative branched-chain amino acid ABC transporter, substrate-binding component" />
+          <Members vimssId="1842833" LocusId="Pden_4796" Name="livH" Function="Putative branched-chain amino acid ABC transporter, permease component" />
+          <Members vimssId="1842832" LocusId="Pden_4795" Name="livF" Function="Putative branched-chain amino acid ABC transporter, permease component 2" />
+          <Members vimssId="1842831" LocusId="Pden_4794" Name="livM1" Function="utative branched-chain amino acid ABC transporter, ATPase component 1" />
+          <Members vimssId="1842830" LocusId="Pden_4793" Name="livM2" Function="utative branched-chain amino acid ABC transporter, ATPase component 2" />
+          <Members vimssId="1842829" LocusId="Pden_4792" Name="fadB" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3974</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="Pden_0318" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56920" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Pden_0318" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1838318&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="Pden_0318 - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5819" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_0319" Name="COG1914" Position="-114" Score="4.7">
+          <Sequence>TGTTGTTCAACAATT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_0318" Name="Pden_0318" Position="-194" Score="4.7">
+          <Sequence>AATTGTTGAACAACA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1838319" LocusId="Pden_0319" Name="COG1914" Function="Mn2+ and Fe2+ transporters of the NRAMP family" />
+          <Members vimssId="1838320" LocusId="Pden_0320" Name="COG1540" Function="Uncharacterized proteins, homologs of lactam utilization protein B" />
+          <Members vimssId="1838321" LocusId="Pden_0321" Name="COG4336" Function="hypothetical protein possibly connected to lactam utilization and allophanate hydrolase" />
+          <Members vimssId="1838322" LocusId="Pden_0322" Name="alhAB" Function="Putative allophanate hydrolase 2, subunits 1 and 2 fusion (EC 3.5.1.54)" />
+          <Members vimssId="1838323" LocusId="Pden_0323" Name="alhC" Function="Urea carboxylase (EC 6.3.4.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1838318" LocusId="Pden_0318" Name="Pden_0318" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5819</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="Pden_3389" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59933" />
+      <Effector />
+      <Pathway>Glycolate utilization; Lactate utilization</Pathway>
+      <LocusTag Key="Pden_3389" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1841427&amp;disp=0" />
+      <BiologicalProcess>Glycolate utilization; Lactate utilization</BiologicalProcess>
+      <Regulog Key="Pden_3389 - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6153" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_3389" Name="Pden_3389" Position="-184" Score="3.9">
+          <Sequence>ACATTGCATGCAATGT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_3389" Name="Pden_3389" Position="-100" Score="4.1">
+          <Sequence>TGTTTGCATGCAACTG</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_3389" Name="Pden_3389" Position="-38" Score="4.5">
+          <Sequence>AGATTGCATGCAACTT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_3388" Name="" Position="-112" Score="3.9">
+          <Sequence>ACATTGCATGCAATGT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_3388" Name="" Position="-196" Score="4.1">
+          <Sequence>CAGTTGCATGCAAACA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1841427" LocusId="Pden_3389" Name="Pden_3389" Function="Transcriptional regulator associated with tricarboxylic transport, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1841426" LocusId="Pden_3388" Name="null" Function="Homoserine dehydrogenase (EC 1.1.1.3)" />
+          <Members vimssId="1841425" LocusId="Pden_3387" Name="tctC" Function="Tricarboxylate transport protein TctC, periplasmic binding subunit" />
+          <Members vimssId="1841424" LocusId="Pden_3386" Name="null" Function="Kynurenine formamidase, bacterial (EC 3.5.1.9)" />
+          <Members vimssId="1841423" LocusId="Pden_3385" Name="tctB" Function="Tricarboxylate transport protein TctB, small permease component" />
+          <Members vimssId="1841422" LocusId="Pden_3384" Name="tctA" Function="Tricarboxylate transport membrane protein TctA, large permease component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6153</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="Pden_4836" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58386" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Pden_4836" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1842873&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="Pden_4836 - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5975" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_4837" Name="ACIAD1896" Position="-112" Score="11.7">
+          <Sequence>AACTGTATGGG-(8)-GCCATACGGAT-(6)-AATCGTATCGC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1842874" LocusId="Pden_4837" Name="ACIAD1896" Function="Permease of the drug/metabolite transporter (DMT) superfamily" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5975</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60329" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="Pden_4833" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1842870&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxQ - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6196" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_4832" Name="pdxO2" Position="-114" Score="12.6">
+          <Sequence>AACTGGACCAT-(13)-AACTGGACATT-(4)-ACCAGCCAGAC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1842869" LocusId="Pden_4832" Name="pdxO2" Function="Pyridoxamine 5'-phosphate oxidase-related, FMN-binding" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6196</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61099" />
+      <Effector />
+      <Pathway>Pyridoxine biosynthesis</Pathway>
+      <LocusTag Key="Pden_1434" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1839444&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine biosynthesis</BiologicalProcess>
+      <Regulog Key="PdxR2 - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6276" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_1435" Name="PF00117" Position="-86" Score="14.2">
+          <Sequence>ACCGGCCTA-(14)-ACTGGCACT-(6)-TAGGCCAGT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1839445" LocusId="Pden_1435" Name="PF00117" Function="Glutamine amidotransferase class-I" />
+          <Members vimssId="1839446" LocusId="Pden_1436" Name="PF03473" Function="Molybdenum cofactor sulfurase, C-terminal" />
+          <Members vimssId="1839447" LocusId="Pden_1437" Name="pdxK" Function="Pyridoxal kinase (EC 2.7.1.35)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6276</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PhnF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31683" />
+      <Effector />
+      <Pathway>Phosphonate utilization</Pathway>
+      <LocusTag Key="Pden_4783" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1842820&amp;disp=0" />
+      <BiologicalProcess>Phosphonate utilization</BiologicalProcess>
+      <Regulog Key="PhnF - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3275" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_4782" Name="phnG" Position="-53" Score="5.6">
+          <Sequence>TTGTCTAGTTGTATAGAAAA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4782" Name="phnG" Position="-45" Score="5.8">
+          <Sequence>TTGTATAGAAAACTAGACAA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4783" Name="phnF" Position="-85" Score="5.4">
+          <Sequence>TTTTCTATACAACTAGACAA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4783" Name="phnF" Position="-93" Score="5.9">
+          <Sequence>TTGTCTAGTTTTCTATACAA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1842819" LocusId="Pden_4782" Name="phnG" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnG" />
+          <Members vimssId="1842818" LocusId="Pden_4781" Name="phnH" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnH" />
+          <Members vimssId="1842817" LocusId="Pden_4780" Name="phnI" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnI" />
+          <Members vimssId="1842816" LocusId="Pden_4779" Name="phnJ" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnJ" />
+          <Members vimssId="1842815" LocusId="Pden_4778" Name="phnK" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnK" />
+          <Members vimssId="1842814" LocusId="Pden_4777" Name="phnL" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnL" />
+          <Members vimssId="1842813" LocusId="Pden_4776" Name="phnN" Function="Ribose 1,5-bisphosphokinase activity (phosphoribosyl diphosphate forming)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1842820" LocusId="Pden_4783" Name="phnF" Function="Transcriptional regulator for phosphonate utilization, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3275</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="RspR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=64481" />
+      <Effector>L-gulonate; D-mannonate</Effector>
+      <Pathway>L-gulonate utilization</Pathway>
+      <LocusTag Key="" Value="" />
+      <BiologicalProcess>L-gulonate utilization</BiologicalProcess>
+      <Regulog Key="RspR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6654" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_5067" Name="rspR" Position="-48" Score="5.8">
+          <Sequence>TTTACTAGTATGCAAGTATG</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1843104" LocusId="Pden_5067" Name="rspR" Function="Transcriptional regulator for L-gulonate utilization, GntR family" />
+          <Members vimssId="1843103" LocusId="Pden_5066" Name="rspP" Function="L-gulonate/D-mannonate-specific TRAP-type transport system, periplasmic component" />
+          <Members vimssId="1843102" LocusId="Pden_5065" Name="rspQ" Function="L-gulonate/D-mannonate-specific TRAP-type transport system, small permease component" />
+          <Members vimssId="1843101" LocusId="Pden_5064" Name="rspM" Function="L-gulonate/D-mannonate-specific TRAP-type transport system, large permease component" />
+          <Members vimssId="1843100" LocusId="Pden_5063" Name="rspB" Function="L-gulonate dehydrogenase, COG1063 family" />
+          <Members vimssId="1843099" LocusId="Pden_5062" Name="COG1304" Function="L-lactate dehydrogenase (FMN-dependent) and related alpha-hydroxy acid dehydrogenases" />
+          <Members vimssId="1843098" LocusId="Pden_5061" Name="uxuA" Function="Mannonate dehydratase (EC 4.2.1.8)" />
+          <Members vimssId="1843097" LocusId="Pden_5060" Name="uxuB" Function="D-mannonate oxidoreductase (EC 1.1.1.57)" />
+          <Members vimssId="1843096" LocusId="Pden_5059" Name="kdgK" Function="2-dehydro-3-deoxygluconate kinase (EC 2.7.1.45)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6654</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30911" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="Pden_1121" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1839129&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3193" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_1113" Name="pydC" Position="-225" Score="5.1">
+          <Sequence>TATTGACTGGTTGATAAAAT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1839121" LocusId="Pden_1113" Name="pydC" Function="Beta-ureidopropionase (EC 3.5.1.6)" />
+          <Members vimssId="1839120" LocusId="Pden_1112" Name="pydB" Function="phenylhydantoinase" />
+          <Members vimssId="1839119" LocusId="Pden_1111" Name="pydP" Function="Pyrimidine permease in reductive pathway" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3193</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="SmoR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50306" />
+      <Effector>Sorbitol</Effector>
+      <Pathway>Sorbitol utilization; Mannitol utilization</Pathway>
+      <LocusTag Key="Pden_4846" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1842883&amp;disp=0" />
+      <BiologicalProcess>Sorbitol utilization; Mannitol utilization</BiologicalProcess>
+      <Regulog Key="SmoR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5092" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_4846" Name="smoR" Position="-54" Score="4.6">
+          <Sequence>GTCTTTACGCGAGACAATAT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4851" Name="Pden_4851" Position="-122" Score="5.4">
+          <Sequence>AATTTGACACGCGTAAAATA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4845" Name="smoE" Position="-87" Score="5.8">
+          <Sequence>AATTTTTCGCGCGTAAAAAT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1842883" LocusId="Pden_4846" Name="smoR" Function="Transcriptional regulator for sorbitol and mannitol utilization, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1842888" LocusId="Pden_4851" Name="Pden_4851" Function="Putative sugar polyol ABC transporter, substrate-binding component" />
+          <Members vimssId="1842887" LocusId="Pden_4850" Name="Pden_4850" Function="Putative sugar polyol ABC transporter, ATP-binding protein" />
+          <Members vimssId="1842886" LocusId="Pden_4849" Name="Pden_4849" Function="Putative sugar polyol ABC transporter, permease components" />
+          <Members vimssId="1842885" LocusId="Pden_4848" Name="scrK" Function="Fructokinase (EC 2.7.1.4)" />
+          <Members vimssId="1842884" LocusId="Pden_4847" Name="pfkZ" Function="6-phosphofructokinase (EC 2.7.1.11), PF08013 family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1842882" LocusId="Pden_4845" Name="smoE" Function="Various polyols ABC transporter, substrate-binding protein" />
+          <Members vimssId="1842881" LocusId="Pden_4844" Name="smoF" Function="Various polyols ABC transporter, inner membrane component 1" />
+          <Members vimssId="1842880" LocusId="Pden_4843" Name="smoG" Function="ABC sorbitol/mannitol transporter, inner membrane component 2" />
+          <Members vimssId="1842879" LocusId="Pden_4842" Name="smoK" Function="Various polyols ABC transporter, ATP-binding component" />
+          <Members vimssId="1842878" LocusId="Pden_4841" Name="smoS" Function="Sorbitol dehydrogenase (EC 1.1.1.14)" />
+          <Members vimssId="1842877" LocusId="Pden_4840" Name="smoD" Function="Putative mannitol dehydrogenase (EC 1.1.1.67), similar to arabinitol dehydrogenase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5092</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="TauR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62065" />
+      <Effector>Taurine</Effector>
+      <Pathway>Taurine utilization</Pathway>
+      <LocusTag Key="Pden_4274" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1842310&amp;disp=0" />
+      <BiologicalProcess>Taurine utilization</BiologicalProcess>
+      <Regulog Key="TauR - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6378" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_4273" Name="tpa2" Position="-93" Score="8.5">
+          <Sequence>CTGGCTCCAT------------CTGGCTCTAT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1647" Name="tauK" Position="-114" Score="8.6">
+          <Sequence>CTGGACCTAT------------CTGGACATAT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1842309" LocusId="Pden_4273" Name="tpa2" Function="Taurine--pyruvate aminotransferase (EC 2.6.1.77)" />
+          <Members vimssId="1842310" LocusId="Pden_4274" Name="tauR" Function="Taurine utilization regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1839659" LocusId="Pden_1647" Name="tauK" Function="TRAP-type taurine transporter, periplasmatic component" />
+          <Members vimssId="1839658" LocusId="Pden_1646" Name="tauM" Function="TRAP-type taurine transporter, small permease component" />
+          <Members vimssId="1839657" LocusId="Pden_1645" Name="tauL" Function="TRAP-type taurine transporter, large permease component" />
+          <Members vimssId="1839656" LocusId="Pden_1644" Name="tauX" Function="Putative small subunit of taurine dehydrogenase" />
+          <Members vimssId="1839655" LocusId="Pden_1643" Name="tauY" Function="Taurine dehydrogenase, large subunit" />
+          <Members vimssId="1839654" LocusId="Pden_1642" Name="xsc" Function="Sulfoacetaldehyde acetyltransferase (EC 2.3.3.15)" />
+          <Members vimssId="1839653" LocusId="Pden_1641" Name="tauZ" Function="Probable sulfate exporter tauZ" />
+          <Members vimssId="1839652" LocusId="Pden_1640" Name="pta" Function="Phosphate acetyltransferase (EC 2.3.1.8)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6378</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16134" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="Pden_4139" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1842175&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Rhodobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1735" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_1338" Name="yciC" Position="-33" Score="5.7">
+          <Sequence>GTAACGTAATAACATTACATTTA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4140" Name="znuA" Position="-83" Score="5.4">
+          <Sequence>ATGATGTTATATCGTTACATTTT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4139" Name="zur" Position="-49" Score="5.3">
+          <Sequence>TTTATGTTATATCGTAACCCGTC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1842175" LocusId="Pden_4139" Name="zur" Function="Zinc uptake regulation protein Zur" />
+          <Members vimssId="1842174" LocusId="Pden_4138" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="1842173" LocusId="Pden_4137" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1839348" LocusId="Pden_1338" Name="yciC" Function="Putative zinc chaperone, COG0523 family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1842176" LocusId="Pden_4140" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1735</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45508" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_2530" Name="cfrX" Position="-277" Score="85.2">
+          <Sequence>CACAGACATGGGGCGCTGGTTCCTGTCCTATGACAGGCTAAGAGGGAATGCGACAGGCAACCGCCTGAAAGCAGCCGCCCCCGCGACCGTGACCGGAAAGGTCGCCCCTCTGCCACTGGCGAAAGCCGGGAAGGCGGGGCGGCCGTGGGCCCAGGCCCGAATCCGCAAGCCGGGAGACCTGCCGGTGCAGAAGGATTGACCGG</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_2524" Name="cbtB" Position="-241" Score="133.6">
+          <Sequence>TAACATATGCGTGTATCGGTGCCCCTTTCGGGGCCAAAAGGGAATGCGGTGCCGTCTCCGGCGTCTTGGGGACCAAATCCGCAGCCGCCCCCGCGACTGTAGGCGGAGAGCGGACGCCCATCGTGCCACTGGCCATCCGGCCGGGAAGGCGGGCGTCAGCCGTGACCCGCGAGCCAGGAGACCTGCCGATGCGTGAAACCGCAATGT</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1368" Name="btuB" Position="-347" Score="131.2">
+          <Sequence>GCCATGAGGGCCGAGCTACGGTTCCGGCGGCGTGCCTCCGGATTAAAAGGGAATCCCGGTGCGCCTGACCTGTTCAGGCAATGCCGGAGCTGCCCCCGCAACTGTATGCGGTGAGTGACGGTCGATCATGCCACTGGCGCGAATGCGCCGGGAAGGCCGGCCCGAACGATGACCCGCAAGCCAGGAGACCTGCCGCAGCAATCACCCATTTC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4382" Name="btuB" Position="-349" Score="101.9">
+          <Sequence>CAATGCGGGGCCGCTACGGTTCCGGCGCGATCTGCCGGATGAAAAGGGAACACCGGCGCGCCCATCGCCGCGATGCGGACGGGCAAGGCCGGGGCTGCCCCCGCAACTGTAGGCGGTGAGCGAAGGCCGAAGGCGCCACTGGGAAGATCCCCGGGAAGGCCGGCCCGAGCGATGATCCGCCAGCCAGGAGACCTGCCGCAGCGATCACCCATTTCCG</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1362" Name="btuF" Position="-293" Score="104.1">
+          <Sequence>GCGCTATGGCGGAGTTGTCGGTTTCCGCAAGGAATTGAAAGGGAATCCGCCGGGGCATCAGCCCCGAACCGGAACTGCCCCCGCAACTGTAGGCGGCGAGCAGGGTGCGAAACAGCCACTGTGGCCCATGCCATGGGAAGGCCGCATCCCTGCCGTGACCCGTCAGTCAGGAGACCTGCCGACGCGATGACCAACCCG</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_2980" Name="btuF" Position="-322" Score="101.5">
+          <Sequence>TACCAAGTCGCTGCATCGGTTTCCGCAAGGAATGAAAAGGGAATCCAGCGCGCCCGATGGGCGCGAAACGGAACTGCCCCCGCAACTGTAGGCGGCGAGCGCGATCTGGCAGGCCACTGGGCACGATGTCCGGGAAGGCAGGATCCGCGCAACGACCCGCCAGTCAGGAGACCTGCCGGCGCGAATTCACCAGAC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4375" Name="nrdH" Position="-284" Score="121.4">
+          <Sequence>CTAACTGCAACGGTCATGGTTGTCCCGGGGCCGACTCGGGGATGAAAAGGGAAGCCGGTGAAAAGCCGGCACTGCCCCCGCAGCTGTAAGCGGAGAGCGACGCCGGATCACCACTGGGGCCACGCGCCCCGGGAAGGCCGGCCAAGCCGAGACCCGCAAGTCAGAAGACCTGCCATGACGCGAAAGGACGAAAC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_1354" Name="Cseg_1811" Position="-326" Score="132.3">
+          <Sequence>TTTTACCGTCAGATCAAGGTGCCGGGGAAATCTCCGGGTAAAAGGGAATTCGGTGAGGCTGTCGCCAAATCCGAAGCTGCCCCCGCAACTGTAGGCGGAGAGCCTGTCCGACATGCCACTGGCGCGGATTTCGCGCCGGGAAAGCTGGACCAGGTAAAGATCCGCAAGTCAGGAAACCTGCCTGGATCAATCACCTGTTCCG</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_4827" Name="btuB" Position="-408" Score="127.9">
+          <Sequence>CTACACGGTCGGGTGACGGTTTCCGATTTCGGAATGAAAAGGGAACGCAGTGCGGACCAGCCGGTCCCATGCTGCGGCTGCCCCCGCAACTGTAGGCGGATAGCCTTTGCCAACGGCCACTGGGTGCGACCCCGGGAAGGCGGCGACAGGCGACGACCCGCGAGCCAGGAGACCTGCCGTCAGCCGTTGTCACGCGTG</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_2989" Name="nrdD" Position="-414" Score="119">
+          <Sequence>CCCTATATGTAGGCATCACGGTTCTTTCGGGTCGATCCGACCCGAAAGCGAAGAGGGAAGCCGGTGCGCCTTTCGGGGCAAGGCCGGCGCTGCCCCCGCAACTGTAAGCAGCGAGCCTGCGCCGGATCACGCCACTGGTGCCGCACGGCATTGGGAAGGCCGGCAAGGGCAGCGACCTGCGAGCCAGGAGACCTGCCGTGATGATGACGATGAAC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1840559" LocusId="Pden_2524" Name="cbtB" Function="Putative cobalt transporter, subunit CbtB" />
+          <Members vimssId="1840560" LocusId="Pden_2525" Name="cbtA" Function="Predicted cobalt transporter CbtA" />
+          <Members vimssId="1840561" LocusId="Pden_2526" Name="Pden_2526" Function="hypothetical protein" />
+          <Members vimssId="1840562" LocusId="Pden_2527" Name="bluB" Function="Cobalamin biosynthesis protein BluB @ 5,6-dimethylbenzimidazole synthase, flavin destructase family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1841028" LocusId="Pden_2989" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+          <Members vimssId="1841027" LocusId="Pden_2988" Name="Pden_2988" Function="hypothetical protein" />
+          <Members vimssId="1841026" LocusId="Pden_2987" Name="nrdG" Function="Ribonucleotide reductase of class III (anaerobic), activating protein (EC 1.97.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1842864" LocusId="Pden_4827" Name="btuB" Function="Outer membrane (iron.B12.siderophore.hemin) receptor" />
+          <Members vimssId="1842865" LocusId="Pden_4828" Name="btuD" Function="ABC transporter (iron.B12.siderophore.hemin) , ATP-binding component" />
+          <Members vimssId="1842866" LocusId="Pden_4829" Name="btuF" Function="ABC transporter (iron.B12.siderophore.hemin) , periplasmic substrate-binding component" />
+          <Members vimssId="1842867" LocusId="Pden_4830" Name="btuC" Function="ABC transporter (iron.B12.siderophore.hemin) , permease component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1839363" LocusId="Pden_1354" Name="Cseg_1811" Function="hypothetical protein" />
+          <Members vimssId="1839364" LocusId="Pden_1355" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1842412" LocusId="Pden_4375" Name="nrdH" Function="Glutaredoxin-like protein NrdH, required for reduction of Ribonucleotide reductase class Ib" />
+          <Members vimssId="1842413" LocusId="Pden_4376" Name="nrdI" Function="Ribonucleotide reduction protein NrdI" />
+          <Members vimssId="1842414" LocusId="Pden_4377" Name="nrdA" Function="Ribonucleotide reductase of class Ib (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="1842415" LocusId="Pden_4378" Name="nrdB" Function="Ribonucleotide reductase of class Ib (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1841019" LocusId="Pden_2980" Name="btuF" Function="ABC transporter (iron.B12.siderophore.hemin) , periplasmic substrate-binding component" />
+          <Members vimssId="1841020" LocusId="Pden_2981" Name="btuC" Function="ABC transporter (iron.B12.siderophore.hemin) , permease component" />
+          <Members vimssId="1841021" LocusId="Pden_2982" Name="btuD" Function="ABC transporter (iron.B12.siderophore.hemin) , ATP-binding component" />
+          <Members vimssId="1841022" LocusId="Pden_2983" Name="petE" Function="Pseudoazurin precursor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1839371" LocusId="Pden_1362" Name="btuF" Function="ABC transporter (iron.B12.siderophore.hemin) , periplasmic substrate-binding component" />
+          <Members vimssId="1839370" LocusId="Pden_1361" Name="btuC" Function="ABC transporter (iron.B12.siderophore.hemin) , permease component" />
+          <Members vimssId="1839369" LocusId="Pden_1360" Name="btuD" Function="ABC transporter (iron.B12.siderophore.hemin) , ATP-binding component" />
+          <Members vimssId="1839368" LocusId="Pden_1359" Name="petE" Function="Pseudoazurin precursor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1842419" LocusId="Pden_4382" Name="btuB" Function="Outer membrane vitamin B12 receptor BtuB" />
+          <Members vimssId="1842420" LocusId="Pden_4383" Name="btuF" Function="Vitamin B12 ABC transporter, B12-binding component BtuF" />
+          <Members vimssId="1842421" LocusId="Pden_4384" Name="btuC" Function="Vitamin B12 ABC transporter, permease component BtuC" />
+          <Members vimssId="1842422" LocusId="Pden_4385" Name="btuD" Function="Vitamin B12 ABC transporter, ATPase component BtuD" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1839377" LocusId="Pden_1368" Name="btuB" Function="Outer membrane vitamin B12 receptor BtuB" />
+          <Members vimssId="1839376" LocusId="Pden_1367" Name="btuF" Function="Vitamin B12 ABC transporter, B12-binding component BtuF" />
+          <Members vimssId="1839375" LocusId="Pden_1366" Name="COG3313" Function="COG3313: Predicted Fe-S protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1840565" LocusId="Pden_2530" Name="cfrX" Function="Predicted metal-binding protein" />
+          <Members vimssId="1840566" LocusId="Pden_2531" Name="cobW" Function="CobW GTPase involved in cobalt insertion for B12 biosynthesis" />
+          <Members vimssId="1840567" LocusId="Pden_2532" Name="cobN" Function="CobN component of cobalt chelatase involved in B12 biosynthesis" />
+          <Members vimssId="1840568" LocusId="Pden_2533" Name="cobG" Function="Cobalamin biosynthesis protein CobG" />
+          <Members vimssId="1840569" LocusId="Pden_2534" Name="cbiC" Function="Cobalt-precorrin-8x methylmutase (EC 5.4.1.2)" />
+          <Members vimssId="1840570" LocusId="Pden_2535" Name="cbiL" Function="Cobalt-precorrin-2 C20-methyltransferase (EC 2.1.1.130)" />
+          <Members vimssId="1840571" LocusId="Pden_2536" Name="cbiH" Function="Cobalt-precorrin-3b C17-methyltransferase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46003" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_4679" Name="ribH2" Position="-198" Score="113.6">
+          <Sequence>CGTGTTCTCGGGGCGGGGTGCAATTCCCCACCGGCGGTTACAGCCCGCGAGCGCCTGCAATCCGCAGGGTCAGCAGATCCGGTGAAACTCCGGGGCCGACGGTATAGTCCGGATGAAAGAGAATGGACGG</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1842716" LocusId="Pden_4679" Name="ribH2" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00504" RegulationMode="RF00504">
+      <Regulator Key="Glycine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46243" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="Glycine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_2348" Name="gcvT" Position="-223" Score="57.6">
+          <Sequence>AGGTCGGAAATCGGGAGACATTGGCGCAAGCCAGGGCCGAAGGAGCAACCGCCCCGGGAATCTCTCAGGCAAAGGGACCGTTTTCCGCCG</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_2348" Name="gcvT" Position="-130" Score="23.2">
+          <Sequence>GCTCTGGAGAGAGGCGGCTTGCGCCGCCCGCCGAAGGGATAACGATCTCAGGCGCCCCCGTTTCGGGGTAGGGACAGAG</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_0183" Name="dadA" Position="-211" Score="48.4">
+          <Sequence>ACAGGAGAGTCGGGTTCCCACCCGCGCCGACGGAGCAACGCCCCGGAATCTCTCAGGCACCAGGACTG</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_0183" Name="dadA" Position="-141" Score="64.3">
+          <Sequence>GGACCGCCACTCTGGAGAGAGATGCGACAGCATCCGCCGAAGGAGAAAGCCGCGAAGCGCGGCGATACTCTCAGGCAAAAGGACAGAGGGGGGATG</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1840382" LocusId="Pden_2348" Name="gcvT" Function="Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10)" />
+          <Members vimssId="1840381" LocusId="Pden_2347" Name="gcvH" Function="Glycine cleavage system H protein" />
+          <Members vimssId="1840380" LocusId="Pden_2346" Name="gcvP" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P protein) (EC 1.4.4.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1838184" LocusId="Pden_0183" Name="dadA" Function="D-amino acid dehydrogenase small subunit (EC 1.4.99.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01727" RegulationMode="RF01727">
+      <Regulator Key="SAM-SAH" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47275" />
+      <Effector>S-adenosylmethionine; S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="SAM-SAH" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_1873" Name="metK" Position="-53" Score="60">
+          <Sequence>GACCGCCACAACGGCTTCCTGGCGTGGCGGCGTCATTTCAACGGAGCATC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1839894" LocusId="Pden_1873" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45733" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_3673" Name="tenA" Position="-196" Score="52.9">
+          <Sequence>GCGCCACCAAGGGGAGCCCCGGCAAGGGGCTGAGAAACCGCTGGCCTCGATCGTCCCGGCGACGGGCGGCGCGGTGACCCTTTGAACCTGACCCGGATCATGCCGGCGGAGGAATGGGACAGATGCACCTGCC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_2944" Name="thiC" Position="-253" Score="51">
+          <Sequence>CCTCACGTCAGGGGAGTCCCGCCTAGGGGACTGAGAGGCTGACAGGGACCGCCCATGGGCGGTTCCGGTGAAGCGACCCTTTGAACCTGACCCAGTTGATGCTGGCGTAGGAAGACCGAAGGGCAGCTTTCC</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pden_0042" Name="thiD" Position="-145" Score="82.4">
+          <Sequence>ACTCATACACTTGGGGAGCCTCGCACGAGGCTGAGAGGTGCCGGGCACCGACCCATCGAACCTGATCCGGGTCATGCCGGCGTAGGGAAGGGTAGAGTGAAGCGG</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1841710" LocusId="Pden_3673" Name="tenA" Function="Thiaminase II (EC 3.5.99.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1840980" LocusId="Pden_2944" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1838036" LocusId="Pden_0042" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+          <Members vimssId="1838035" LocusId="Pden_0041" Name="thiO" Function="Glycine oxidase ThiO (EC 1.4.3.19)" />
+          <Members vimssId="1838034" LocusId="Pden_0040" Name="thiS" Function="Sulfur carrier protein ThiS" />
+          <Members vimssId="1838033" LocusId="Pden_0039" Name="thiG" Function="Thiazole biosynthesis protein ThiG" />
+          <Members vimssId="1838032" LocusId="Pden_0038" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+          <Members vimssId="1838031" LocusId="Pden_0037" Name="thiF" Function="Thiamine biosynthesis protein ThiF" />
+          <Members vimssId="1838030" LocusId="Pden_0036" Name="thiY" Function="Hydroxymethylpyrimidine ABC transporter, substrate-binding component" />
+          <Members vimssId="1838029" LocusId="Pden_0035" Name="tenA" Function="Thiaminase II (EC 3.5.99.2)" />
+          <Members vimssId="1838028" LocusId="Pden_0034" Name="thiZ" Function="Hydroxymethylpyrimidine ABC transporter, ATPase component" />
+          <Members vimssId="1838027" LocusId="Pden_0033" Name="thiX" Function="Hydroxymethylpyrimidine ABC transporter, transmembrane component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00517" RegulationMode="RF00517">
+      <Regulator Key="serC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45658" />
+      <Effector />
+      <Pathway>Serine biosynthesis</Pathway>
+      <LocusTag Key="serC" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_0813" Name="serC" Position="-50" Score="59.5">
+          <Sequence>AGCGGGACACGCCGCCCCAACGCGGCGCTTATAGCTGGAAGGCTAACATCATG</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1838819" LocusId="Pden_0813" Name="serC" Function="Phosphoserine aminotransferase (EC 2.6.1.52)" />
+          <Members vimssId="1838820" LocusId="Pden_0814" Name="serA" Function="D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00442" RegulationMode="RF00442">
+      <Regulator Key="ykkC-yxkD" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45853" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="ykkC-yxkD" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pden_1761" Name="PF00892" Position="-148" Score="39.8">
+          <Sequence>TGAGTGGTGACTAGGGTTCCGGGCGATCCGCCGCAGGACCGAGCGTTGCAGAGACCGGGGGAGTTCCCTGGCTGCACCCAAGGGACAAAAGCCCAGGGGAGGA</Sequence>
+          <Bacteria>Paracoccus denitrificans PD1222</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1839775" LocusId="Pden_1761" Name="PF00892" Function="Permeases of the drug/metabolite transporter (DMT) superfamily" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

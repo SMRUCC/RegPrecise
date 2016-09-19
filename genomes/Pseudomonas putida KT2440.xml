@@ -1,0 +1,2196 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Pseudomonas putida KT2440" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14971" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="PP0437" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=216139&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1605" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP0362" Name="bioB" Position="-127" Score="8.6">
+          <Sequence>TTGTAAACC---------------AGTTGACAG</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP0361" Name="COG1040" Position="5" Score="8.6">
+          <Sequence>CTGTCAACT---------------GGTTTACAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="216064" LocusId="PP0361" Name="COG1040" Function="Competence protein F homolog, phosphoribosyltransferase domain; protein YhgH required for utilization of DNA as sole source of carbon and energy" />
+        </Operon>
+        <Operon>
+          <Members vimssId="216065" LocusId="PP0362" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="216066" LocusId="PP0363" Name="bioF" Function="8-amino-7-oxononanoate synthase (EC 2.3.1.47)" />
+          <Members vimssId="216067" LocusId="PP0364" Name="bioH" Function="hypothetical protein" />
+          <Members vimssId="216068" LocusId="PP0365" Name="bioC" Function="Biotin synthesis protein bioC" />
+          <Members vimssId="216069" LocusId="PP0366" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1605</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51302" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="PP5140" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=220777&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5201" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP1438" Name="czcR" Position="-56" Score="5.8">
+          <Sequence>ACCCTGATGTCACTACAGGGT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP5139" Name="cadA" Position="-58" Score="6.5">
+          <Sequence>ACCCTATAGTGGCTACAGGGT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="220776" LocusId="PP5139" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="217132" LocusId="PP1438" Name="czcR" Function="DNA-binding heavy metal response regulator" />
+          <Members vimssId="217131" LocusId="PP1437" Name="PF00512" Function="Heavy metal sensor histidine kinase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5201</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="CueR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50910" />
+      <Effector>Copper ion, (Cu+)</Effector>
+      <Pathway>Copper resistance</Pathway>
+      <LocusTag Key="PP0585" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=216284&amp;disp=0" />
+      <BiologicalProcess>Copper resistance</BiologicalProcess>
+      <Regulog Key="CueR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5159" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP5393" Name="copZ2" Position="-71" Score="5.2">
+          <Sequence>ACCTTGTCATCGTGTCAAGGT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP0588" Name="copZ" Position="-56" Score="5.3">
+          <Sequence>ACCTTGTCCTGATGGCAAGCT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP0586" Name="copA" Position="-53" Score="5.3">
+          <Sequence>ACCTTGCCTGCGTGGCAAGGT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="216287" LocusId="PP0588" Name="copZ" Function="Copper chaperone" />
+        </Operon>
+        <Operon>
+          <Members vimssId="216285" LocusId="PP0586" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="216284" LocusId="PP0585" Name="cueR" Function="Copper-responsive transcriptional regulator, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="221030" LocusId="PP5393" Name="copZ2" Function="Copper chaperone" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5159</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="DesT" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14435" />
+      <Effector>Unsaturated acyl-CoA; Unsaturated acyl-ACP</Effector>
+      <Pathway>Fatty acid biosynthesis</Pathway>
+      <LocusTag Key="PP4859" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=220500&amp;disp=0" />
+      <BiologicalProcess>Fatty acid biosynthesis</BiologicalProcess>
+      <Regulog Key="DesT - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1544" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP4174" Name="fabA" Position="-149" Score="6">
+          <Sequence>AGTGCACACCTGTACTTC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP1844" Name="plsC" Position="-48" Score="5.6">
+          <Sequence>AGTGCACACCCGTACACT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="219827" LocusId="PP4174" Name="fabA" Function="3-hydroxydecanoyl-[acyl-carrier-protein] dehydratase (EC 4.2.1.60)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="217535" LocusId="PP1844" Name="plsC" Function="1-acyl-sn-glycerol-3-phosphate acyltransferase (EC 2.3.1.51)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1544</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="EutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58312" />
+      <Effector />
+      <Pathway>Ectoine utilization</Pathway>
+      <LocusTag Key="PP4429" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=220078&amp;disp=0" />
+      <BiologicalProcess>Ectoine utilization</BiologicalProcess>
+      <Regulog Key="EutR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5968" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP4430" Name="eutB" Position="-74" Score="4.9">
+          <Sequence>ATTGCCCTAGTACATT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4429" Name="eutR" Position="-75" Score="5.1">
+          <Sequence>ATTGCACTAGGACAAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4428" Name="ehuB" Position="-184" Score="5.1">
+          <Sequence>ATTGTCCTAGTGCAAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="220079" LocusId="PP4430" Name="eutB" Function="ectoine utilization protein, threonine dehydratase (EC 4.3.1.19)" />
+          <Members vimssId="220080" LocusId="PP4431" Name="eutC" Function="ectoine utilization protein EutC" />
+          <Members vimssId="220081" LocusId="PP4432" Name="eutD" Function="ectoine utilization protein EutD, dipeptidase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="220077" LocusId="PP4428" Name="ehuB" Function="ectoine/hydroxyectoine ABC transporter, solute-binding protein" />
+          <Members vimssId="220076" LocusId="PP4427" Name="ehuC" Function="ectoine/hydroxyectoine ABC transporter, permease protein EhuC" />
+          <Members vimssId="220075" LocusId="PP4426" Name="ehuD" Function="ectoine/hydroxyectoine ABC transporter, permease protein EhuD" />
+          <Members vimssId="220074" LocusId="PP4425" Name="ehuA" Function="ectoine/hydroxyectoine ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="220078" LocusId="PP4429" Name="eutR" Function="Transcriptional regulator of ectoine utilization, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5968</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="FruR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=20696" />
+      <Effector>Fructose-1-phosphate; Fructose-1,6-diphosphate</Effector>
+      <Pathway>Fructose utilization</Pathway>
+      <LocusTag Key="PP0792" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=216489&amp;disp=0" />
+      <BiologicalProcess>Fructose utilization</BiologicalProcess>
+      <Regulog Key="FruR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2239" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP0792" Name="fruR" Position="-171" Score="4.8">
+          <Sequence>GCTGAAACGTTTAATC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP0793" Name="fruB" Position="-129" Score="4.5">
+          <Sequence>GATTAAACGTTTCAGC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="216489" LocusId="PP0792" Name="fruR" Function="Fructose operon transcriptional regulator FruR, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="216490" LocusId="PP0793" Name="fruB" Function="Fructose-specific phosphocarrier protein HPr (EC 2.7.1.69) / PTS system, fructose-specific IIA component (EC 2.7.1.69)" />
+          <Members vimssId="216491" LocusId="PP0794" Name="fruK" Function="1-phosphofructokinase (EC 2.7.1.56)" />
+          <Members vimssId="216492" LocusId="PP0795" Name="fruA" Function="PTS system, fructose-specific IIB component (EC 2.7.1.69) / PTS system, fructose-specific IIC component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2239</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="GabR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59996" />
+      <Effector>Gamma-aminobutyric acid</Effector>
+      <Pathway>Gamma-aminobutyrate utilization</Pathway>
+      <LocusTag Key="PP2542" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=218223&amp;disp=0" />
+      <BiologicalProcess>Gamma-aminobutyrate utilization</BiologicalProcess>
+      <Regulog Key="GabR2 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6159" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP2543" Name="gabP" Position="-78" Score="6">
+          <Sequence>TGATGTACAGGT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="218224" LocusId="PP2543" Name="gabP" Function="Gamma-aminobutyrate permease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6159</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TyrR" RegulationMode="activator">
+      <Regulator Key="GcvR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60193" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="PP0997" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=216694&amp;disp=0" />
+      <BiologicalProcess>Glycine metabolism</BiologicalProcess>
+      <Regulog Key="GcvR - Pseudomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6180" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP0989" Name="gcvH" Position="-166" Score="5.7">
+          <Sequence>CTGTAACGATATCATTCCAC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP0989" Name="gcvH" Position="-266" Score="5.2">
+          <Sequence>ATGTATCGTTTTCGCTACGT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP0989" Name="gcvH" Position="-247" Score="5.4">
+          <Sequence>TCGTAGCGAAAACGATACAC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="216686" LocusId="PP0989" Name="gcvH" Function="Glycine cleavage system H protein" />
+          <Members vimssId="216685" LocusId="PP0988" Name="gcvP" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P protein) (EC 1.4.4.2)" />
+          <Members vimssId="216684" LocusId="PP0987" Name="sdaA" Function="L-serine dehydratase (EC 4.3.1.17)" />
+          <Members vimssId="216683" LocusId="PP0986" Name="gcvT" Function="Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6180</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="GguR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62996" />
+      <Effector />
+      <Pathway>Glucuronate utilization; Glucarate utilization; Galacturonate utilization; Galactarate utilization</Pathway>
+      <LocusTag Key="PP3603" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=219275&amp;disp=0" />
+      <BiologicalProcess>Glucuronate utilization; Glucarate utilization; Galacturonate utilization; Galactarate utilization</BiologicalProcess>
+      <Regulog Key="GguR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6493" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP4758" Name="gguT" Position="-79" Score="5.1">
+          <Sequence>ATCTTGTCGTACAACTT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3599" Name="kdgD" Position="-71" Score="5.3">
+          <Sequence>AGGTTGTACGATAACTT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP1171" Name="udh" Position="-43" Score="5.1">
+          <Sequence>AAGTCATACGACAACCT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4759" Name="gguR" Position="-104" Score="5.1">
+          <Sequence>AAGTTGTACGACAAGAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3603" Name="gguR" Position="-47" Score="4.6">
+          <Sequence>ATGTGATCGTACAACCG</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="216867" LocusId="PP1171" Name="udh" Function="Uronate dehydrogenase (EC 1.1.1.203)" />
+          <Members vimssId="216866" LocusId="PP1170" Name="uxuL" Function="Predicted glucuronolactone/galactarolactone lactonase" />
+          <Members vimssId="216865" LocusId="PP1169" Name="uxuP" Function="Predicted glucuronate /galacturonate TRAP-type transporter, periplasmic component" />
+          <Members vimssId="216864" LocusId="PP_1168" Name="uxuQ" Function="Predicted glucuronate /galacturonate TRAP-type transporter, small permease component" />
+          <Members vimssId="216863" LocusId="PP1167" Name="uxuM" Function="Predicted glucuronate /galacturonate TRAP-type transporter, large permease component" />
+          <Members vimssId="216862" LocusId="PP1166" Name="PF00892" Function="Drug/metabolite transporter" />
+          <Members vimssId="216861" LocusId="PP1165" Name="aldE" Function="Aldose 1-epimerase (EC 5.1.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219271" LocusId="PP3599" Name="kdgD" Function="5-dehydro-4-deoxyglucarate dehydratase (EC 4.2.1.41)" />
+          <Members vimssId="219272" LocusId="PP3600" Name="garP" Function="D-galactarate permease" />
+          <Members vimssId="219273" LocusId="PP3601" Name="garD" Function="D-galactarate dehydratase (EC 4.2.1.42)" />
+          <Members vimssId="219274" LocusId="PP3602" Name="kgsD" Function="Alpha-ketoglutaric semialdehyde dehydrogenase (EC 1.2.1.26)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="220400" LocusId="PP4758" Name="gguT" Function="Predicted hexarate transporter" />
+          <Members vimssId="220399" LocusId="PP4757" Name="gudD" Function="Glucarate dehydratase (EC 4.2.1.40)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219275" LocusId="PP3603" Name="gguR" Function="Predicted D-glucarate or D-galactorate utilization regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="220401" LocusId="PP4759" Name="gguR" Function="Predicted D-glucarate or D-galactorate utilization regulator, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6493</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="activator (repressor)">
+      <Regulator Key="GlcC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19123" />
+      <Effector>Glycolate</Effector>
+      <Pathway>Glycolate utilization</Pathway>
+      <LocusTag Key="PP3744" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=219411&amp;disp=0" />
+      <BiologicalProcess>Glycolate utilization</BiologicalProcess>
+      <Regulog Key="GlcC - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2064" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP3745" Name="glcD" Position="-107" Score="5.1">
+          <Sequence>AACTGGTAGGACCAGTC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3745" Name="glcD" Position="-182" Score="4.2">
+          <Sequence>TGCTGGTAGGACCACTT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3744" Name="glcC" Position="-77" Score="6.1">
+          <Sequence>GACTGGTCCTACCAGTT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3744" Name="glcC" Position="-2" Score="5.8">
+          <Sequence>AAGTGGTCCTACCAGCA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="219411" LocusId="PP3744" Name="glcC" Function="Glycolate utilization operon transcriptional activator GlcC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219412" LocusId="PP3745" Name="glcD" Function="Glycolate dehydrogenase (EC 1.1.99.14), subunit GlcD" />
+          <Members vimssId="219413" LocusId="PP3746" Name="glcE" Function="Glycolate dehydrogenase (EC 1.1.99.14), FAD-binding subunit GlcE" />
+          <Members vimssId="219414" LocusId="PP3747" Name="glcF" Function="Glycolate dehydrogenase (EC 1.1.99.14), iron-sulfur subunit GlcF" />
+          <Members vimssId="219415" LocusId="PP3748" Name="glcG" Function="Hypothetical protein GlcG in glycolate utilization operon" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2064</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="GntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49847" />
+      <Effector>Gluconate</Effector>
+      <Pathway>Gluconate utilization</Pathway>
+      <LocusTag Key="PP3415" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=219089&amp;disp=0" />
+      <BiologicalProcess>Gluconate utilization</BiologicalProcess>
+      <Regulog Key="GntR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5049" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP3415" Name="gntR" Position="-191" Score="5.9">
+          <Sequence>GTGAGATAGCGCTGTCTCGC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3415" Name="gntR" Position="-62" Score="6">
+          <Sequence>CTGAGACAGCGCTACCTTAG</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3416" Name="gntK" Position="-164" Score="6">
+          <Sequence>CTAAGGTAGCGCTGTCTCAG</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3416" Name="gntK" Position="-35" Score="5.9">
+          <Sequence>GCGAGACAGCGCTATCTCAC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3417" Name="gntT" Position="-88" Score="5.5">
+          <Sequence>CAAAGACAGCGCTACCCCAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="219089" LocusId="PP3415" Name="gntR" Function="Gluconate utilization transcriptional regulator GntR, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219091" LocusId="PP3417" Name="gntT" Function="High-affinity H+/gluconate symporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219090" LocusId="PP3416" Name="gntK" Function="Thermoresistant gluconokinase (EC 2.7.1.12)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5049</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor (activator)">
+      <Regulator Key="HexR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=20496" />
+      <Effector>2-keto-3-deoxy-6-phosphogluconate</Effector>
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="PP_1021" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=216718&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="HexR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2219" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP1010" Name="edd" Position="-142" Score="7">
+          <Sequence>ATtTTGT-------ACAACga</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP1022" Name="zwf" Position="-85" Score="7.8">
+          <Sequence>ATGTTGT-------ACTACAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP1010" Name="edd" Position="-203" Score="7.5">
+          <Sequence>TTGTTGT-------ACAAGAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP_1021" Name="hexR" Position="-138" Score="7.8">
+          <Sequence>ATGTAGT-------ACAACAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP1009" Name="gapA" Position="-145" Score="7">
+          <Sequence>TCGTTGT-------ACAAAAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP1009" Name="gapA" Position="-82" Score="7.5">
+          <Sequence>ATCTTGT-------ACAACAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="216718" LocusId="PP_1021" Name="hexR" Function="Central carbohydrate metabolism transcription regulator HexR, RpiR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="216707" LocusId="PP1010" Name="edd" Function="Phosphogluconate dehydratase (EC 4.2.1.12)" />
+          <Members vimssId="216708" LocusId="PP1011" Name="glk" Function="Glucokinase (EC 2.7.1.2)" />
+          <Members vimssId="216709" LocusId="PP1012" Name="gltR" Function="DNA-binding response regulator GltR, controls specific porins for the entry of glucose" />
+          <Members vimssId="216710" LocusId="PP1013" Name="gltS" Function="Integral membrane sensor signal transduction histidine kinase (EC 2.7.13.3), glucose catabolism cluster" />
+        </Operon>
+        <Operon>
+          <Members vimssId="216706" LocusId="PP1009" Name="gapA" Function="NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="216719" LocusId="PP1022" Name="zwf" Function="Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)" />
+          <Members vimssId="216720" LocusId="PP1023" Name="pgl" Function="6-phosphogluconolactonase (EC 3.1.1.31), eukaryotic type" />
+          <Members vimssId="216721" LocusId="PP1024" Name="eda" Function="4-Hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16) / 2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2219</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor (activator)">
+      <Regulator Key="HexR1" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14807" />
+      <Effector>2-keto-3-deoxy-6-phosphogluconate</Effector>
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="PP5350" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=220987&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="HexR1 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1586" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP0339" Name="aceE" Position="-177" Score="5.7">
+          <Sequence>ATGTAGTTTTACTACTA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP0339" Name="aceE" Position="-125" Score="6.3">
+          <Sequence>ATGTAGTAAAACTACAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP5350" Name="hexR1" Position="-60" Score="6.3">
+          <Sequence>ATGTAGTATAACTACAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP5351" Name="zwf" Position="-45" Score="6.3">
+          <Sequence>TTGTAGTTATACTACAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="216042" LocusId="PP0339" Name="aceE" Function="Pyruvate dehydrogenase E1 component (EC 1.2.4.1)" />
+          <Members vimssId="216041" LocusId="PP0338" Name="aceF" Function="Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex (EC 2.3.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="220987" LocusId="PP5350" Name="hexR1" Function="Central carbohydrate metabolism transcription regulator HexR, RpiR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="220988" LocusId="PP5351" Name="zwf" Function="Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1586</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="IclR" RegulationMode="repressor">
+      <Regulator Key="HmgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60209" />
+      <Effector>Homogentisate</Effector>
+      <Pathway>Tyrosine degradation</Pathway>
+      <LocusTag Key="PP4622" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=220267&amp;disp=0" />
+      <BiologicalProcess>Tyrosine degradation</BiologicalProcess>
+      <Regulog Key="HmgR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6182" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP4621" Name="hmgA" Position="-42" Score="6.4">
+          <Sequence>TTCGTAATCTGATTACGAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4622" Name="hmgR" Position="-89" Score="6.4">
+          <Sequence>ATCGTAATCAGATTACGAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="220267" LocusId="PP4622" Name="hmgR" Function="Tyrosine degradation transcriptional regulator, IclR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="220266" LocusId="PP4621" Name="hmgA" Function="Homogentisate 1,2-dioxygenase (EC 1.13.11.5)" />
+          <Members vimssId="220265" LocusId="PP4620" Name="hmgC" Function="Fumarylacetoacetase (EC 3.7.1.2)" />
+          <Members vimssId="220264" LocusId="PP4619" Name="hmgB" Function="Maleylacetoacetate isomerase (EC 5.2.1.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6182</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="HutC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17331" />
+      <Effector>cis-Urocanic acid</Effector>
+      <Pathway>Histidine utilization</Pathway>
+      <LocusTag Key="PP5035" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=220672&amp;disp=0" />
+      <BiologicalProcess>Histidine utilization</BiologicalProcess>
+      <Regulog Key="HutC - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1869" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP5036" Name="hutF" Position="-40" Score="5.4">
+          <Sequence>GTATATGTATATACAAGTTA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP5033" Name="hutU" Position="-82" Score="6.5">
+          <Sequence>ATGCTTGTACATACAAGTAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP5035" Name="hutC" Position="-88" Score="5.5">
+          <Sequence>TAACTTGTATATACATATAC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="220672" LocusId="PP5035" Name="hutC" Function="Histidine utilization repressor, GntR family" />
+          <Members vimssId="220671" LocusId="PP5034" Name="hutD" Function="Conserved hypothetical protein related to histidine degradation" />
+        </Operon>
+        <Operon>
+          <Members vimssId="220673" LocusId="PP5036" Name="hutF" Function="Formiminoglutamic iminohydrolase (EC 3.5.3.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="220670" LocusId="PP5033" Name="hutU" Function="Urocanate hydratase (EC 4.2.1.49)" />
+          <Members vimssId="220669" LocusId="PP5032" Name="hutH" Function="Histidine ammonia-lyase (EC 4.3.1.3)" />
+          <Members vimssId="220668" LocusId="PP5031" Name="hisT" Function="Histidine transport protein (permease)" />
+          <Members vimssId="220667" LocusId="PP5030" Name="hutI" Function="Imidazolonepropionase (EC 3.5.2.7)" />
+          <Members vimssId="220666" LocusId="PP5029" Name="hutG" Function="N-formylglutamate deformylase (EC 3.5.1.68)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1869</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17875" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="PP0841" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=216538&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1930" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP0433" Name="erpA" Position="-32" Score="6.9">
+          <Sequence>ATTCTTGACCGATTTTCTCGGGAAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP0841" Name="iscR" Position="-70" Score="7">
+          <Sequence>ATAGTTGACTTAAATGCTCGGGAAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="216135" LocusId="PP0433" Name="erpA" Function="ErpA, essential respiratory protein A / probable iron binding protein from the HesB_IscA_SufA family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="216538" LocusId="PP0841" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="216539" LocusId="PP0842" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+          <Members vimssId="216540" LocusId="PP0843" Name="iscU" Function="Iron-sulfur cluster assembly scaffold protein IscU" />
+          <Members vimssId="216541" LocusId="PP0844" Name="iscA" Function="Iron binding protein IscA for iron-sulfur cluster assembly" />
+          <Members vimssId="216542" LocusId="PP0845" Name="hscB" Function="Chaperone protein HscB" />
+          <Members vimssId="216543" LocusId="PP0846" Name="hscA" Function="Chaperone protein HscA" />
+          <Members vimssId="216544" LocusId="PP0847" Name="fdx" Function="ferredoxin, 2Fe-2S type, ISC system" />
+          <Members vimssId="216545" LocusId="PP0848" Name="yfhJ" Function="putative Fe-S cluster assembly protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1930</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28323" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="PP2143" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=217828&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2979" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP4729" Name="recN" Position="-41" Score="5.9">
+          <Sequence>ACTGTATAAATAACCAGA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2143" Name="lexA" Position="-46" Score="5.7">
+          <Sequence>ACTGTATATAATTCCAGT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2143" Name="lexA" Position="-27" Score="5.4">
+          <Sequence>ACTGTACAAAAAGACAGA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3773" Name="PF07867" Position="9" Score="5.5">
+          <Sequence>ACTGTACGAATATACAGC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP1974" Name="uvrB" Position="-39" Score="5">
+          <Sequence>ACTGGCTAAATTTACAGC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4616" Name="PF07130" Position="-58" Score="5.9">
+          <Sequence>ACTGTATATAGATACAGT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3901" Name="PF07867" Position="-36" Score="5.3">
+          <Sequence>ACTGTCTATGCATACAGT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP1125" Name="dinG" Position="-38" Score="5.4">
+          <Sequence>ACTGAAAATATATCCAGC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2109" Name="PA0922" Position="-32" Score="5.7">
+          <Sequence>GCTGTATATAAATACAGT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP1203" Name="dinB" Position="-32" Score="5.3">
+          <Sequence>TCTGTATGAATTTACAGT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4616" Name="yebG" Position="-58" Score="5.9">
+          <Sequence>ACTGTATATAGATACAGT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP1629" Name="recA" Position="-60" Score="4.8">
+          <Sequence>ACTGGCTACTTATACAGG</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP0099" Name="PF04055" Position="-31" Score="6">
+          <Sequence>ACTGTATATTAATACAGT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2924" Name="PSEEN2356" Position="-5" Score="5.3">
+          <Sequence>ACTGTATGAATACTCAGT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2838" Name="PF08774" Position="-46" Score="5.6">
+          <Sequence>TCTGTATGTATAAACAGT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2452" Name="PF07867" Position="-36" Score="5.3">
+          <Sequence>ACTGTATGTGCATACAGC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4019" Name="topB" Position="-86" Score="4.5">
+          <Sequence>CCTGTACATCCATCCAGA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="218136" LocusId="PP2452" Name="PF07867" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="216822" LocusId="PP1125" Name="dinG" Function="ATP-dependent helicase DinG/Rad3" />
+        </Operon>
+        <Operon>
+          <Members vimssId="215805" LocusId="PP0099" Name="PF04055" Function="DNA repair photolyase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="220261" LocusId="PP4616" Name="yebG" Function="SOS regulon DNA damage-inducible protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219685" LocusId="PP4019" Name="topB" Function="DNA topoisomerase III (EC 5.99.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="217322" LocusId="PP1629" Name="recA" Function="Recombinase A" />
+          <Members vimssId="217323" LocusId="PP1630" Name="recX" Function="Regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="216899" LocusId="PP1203" Name="dinB" Function="DNA polymerase IV (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="217795" LocusId="PP2109" Name="PA0922" Function="Predicted replication protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="217828" LocusId="PP2143" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+          <Members vimssId="217827" LocusId="PP2142" Name="sulA" Function="Cell division inhibitor sulA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="220373" LocusId="PP4729" Name="recN" Function="DNA repair protein RecN" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219567" LocusId="PP3901" Name="PF07867" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="218604" LocusId="PP2924" Name="PSEEN2356" Function="Radical SAM domain protein" />
+          <Members vimssId="218603" LocusId="PP2923" Name="PSEEN2355" Function="Domain often clustered or fused with uracil-DNA glycosylase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="218518" LocusId="PP2838" Name="PF08774" Function="Hypothetical protein, restriction endonuclease-like VRR-NUC domain" />
+          <Members vimssId="218519" LocusId="PP2839" Name="COG1199" Function="Rad3-related DNA helicases" />
+        </Operon>
+        <Operon>
+          <Members vimssId="217661" LocusId="PP1974" Name="uvrB" Function="Excinuclease ABC subunit B" />
+        </Operon>
+        <Operon>
+          <Members vimssId="220261" LocusId="PP4616" Name="PF07130" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219439" LocusId="PP3773" Name="PF07867" Function="Hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2979</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28727" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="PP3116" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=218796&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA2 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3022" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP3116" Name="lexA2" Position="-17" Score="6.7">
+          <Sequence>GAGTACAAATGTGCTC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3901" Name="PA2381" Position="-85" Score="6.7">
+          <Sequence>GAGTACAAATGTGCTC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="218796" LocusId="PP3116" Name="lexA2" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+          <Members vimssId="218797" LocusId="PP3117" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="218798" LocusId="PP3118" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+          <Members vimssId="218799" LocusId="PP_3119" Name="dnaE2" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219567" LocusId="PP3901" Name="PA2381" Function="Hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3022</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="LiuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28519" />
+      <Effector />
+      <Pathway>Branched-chain amino acid degradation</Pathway>
+      <LocusTag Key="PP3539" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=219212&amp;disp=0" />
+      <BiologicalProcess>Branched-chain amino acid degradation</BiologicalProcess>
+      <Regulog Key="LiuR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3000" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP4063" Name="aacS" Position="-80" Score="5.9">
+          <Sequence>CTTTACGTAAACGTAAAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4063" Name="aacS" Position="-131" Score="6.5">
+          <Sequence>CTTTACGTTAACGTAAAC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3539" Name="liuR" Position="-59" Score="5.5">
+          <Sequence>CTTGACGTATACGTCAAC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4064" Name="liuA" Position="-97" Score="6.5">
+          <Sequence>GTTTACGTTAACGTAAAG</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4064" Name="liuA" Position="-148" Score="5.9">
+          <Sequence>ATTTACGTTTACGTAAAG</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="219726" LocusId="PP4064" Name="liuA" Function="Isovaleryl-CoA dehydrogenase (EC 1.3.99.10)" />
+          <Members vimssId="219727" LocusId="PP4065" Name="liuB" Function="Methylcrotonyl-CoA carboxylase carboxyl transferase subunit (EC 6.4.1.4)" />
+          <Members vimssId="219728" LocusId="PP4066" Name="liuC" Function="Methylglutaconyl-CoA hydratase (EC 4.2.1.18)" />
+          <Members vimssId="219729" LocusId="PP4067" Name="liuD" Function="Methylcrotonyl-CoA carboxylase biotin-containing subunit (EC 6.4.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219212" LocusId="PP3539" Name="liuR" Function="Predicted transcriptional regulator LiuR of leucine degradation pathway, MerR family" />
+          <Members vimssId="219213" LocusId="PP3540" Name="liuE" Function="Hydroxymethylglutaryl-CoA lyase (EC 4.1.3.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219725" LocusId="PP4063" Name="aacS" Function="Acetoacetyl-CoA synthetase (EC 6.2.1.16)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3000</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="LldR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16595" />
+      <Effector>L-lactate</Effector>
+      <Pathway>Lactate utilization</Pathway>
+      <LocusTag Key="PP4734" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=220378&amp;disp=0" />
+      <BiologicalProcess>Lactate utilization</BiologicalProcess>
+      <Regulog Key="LldR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1787" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP4735" Name="lldP" Position="-62" Score="6.5">
+          <Sequence>AATTGGTCTTACCAATT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4734" Name="lldR" Position="-211" Score="6.1">
+          <Sequence>AATTGGTAAGACCAATT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="220378" LocusId="PP4734" Name="lldR" Function="Lactate-responsive regulator LldR in Enterobacteria, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="220379" LocusId="PP4735" Name="lldP" Function="L-lactate permease" />
+          <Members vimssId="220380" LocusId="PP4736" Name="lldD" Function="L-lactate dehydrogenase (EC 1.1.2.3)" />
+          <Members vimssId="220381" LocusId="PP4737" Name="dld" Function="D-Lactate dehydrogenase (EC 1.1.2.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1787</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor (activator)">
+      <Regulator Key="MetR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56650" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="PP1063" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=216760&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5787" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP4638" Name="metF2" Position="-172" Score="5.2">
+          <Sequence>ATTGAGACAAACTCATT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4637" Name="metE2" Position="-72" Score="5.2">
+          <Sequence>AATGAGTTTGTCTCAAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4638" Name="metF2" Position="-152" Score="4">
+          <Sequence>TTTGAGATGAACCCAAG</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4637" Name="metE2" Position="-92" Score="4">
+          <Sequence>CTTGGGTTCATCTCAAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP1469" Name="dsbC" Position="-119" Score="4.7">
+          <Sequence>GATGAATGTTTTTCATG</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP1063" Name="metR" Position="17" Score="3.8">
+          <Sequence>CCTGAAAACCCTTCATG</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2699" Name="PF08908" Position="-66" Score="4.1">
+          <Sequence>CTTCAATATCATTCATG</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2699" Name="PF08908" Position="-76" Score="3.9">
+          <Sequence>TGTGAAATAACTTCAAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP1063" Name="metR" Position="-57" Score="5.3">
+          <Sequence>CATGAGAGAAACTCAAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2375" Name="metH" Position="-98" Score="4.4">
+          <Sequence>CATGAGCAGTTTTCATG</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="220283" LocusId="PP4638" Name="metF2" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="220282" LocusId="PP4637" Name="metE2" Function="Methionine synthase II, vitamin-B12 independent (EC 2.1.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="217163" LocusId="PP1469" Name="dsbC" Function="Thiol:disulfide interchange protein DsbC" />
+          <Members vimssId="217164" LocusId="PP1470" Name="hom" Function="Homoserine dehydrogenase (EC 1.1.1.3)" />
+          <Members vimssId="217165" LocusId="PP1471" Name="thrC" Function="Threonine synthase (EC 4.2.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="218060" LocusId="PP2375" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase, B12-dependent (EC 2.1.1.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="218379" LocusId="PP2699" Name="PF08908" Function="Protein of unknown function DUF1852" />
+          <Members vimssId="218378" LocusId="PP2698" Name="metE2" Function="Methionine synthase II, vitamin-B12 independent (EC 2.1.1.14)" />
+          <Members vimssId="218377" LocusId="PP2697" Name="PF01613" Function="Flavin reductase-like, FMN-binding" />
+          <Members vimssId="218376" LocusId="PP2696" Name="metR" Function="Homocysteine-responsive transcriptional regulator of methionine metabolism, LysR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="216760" LocusId="PP1063" Name="metR" Function="Homocysteine-responsive transcriptional regulator of methionine metabolism, LysR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5787</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21218" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdenum homeostasis</Pathway>
+      <LocusTag Key="PP0360" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=216063&amp;disp=0" />
+      <BiologicalProcess>Molybdenum homeostasis</BiologicalProcess>
+      <Regulog Key="ModE - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2298" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP3828" Name="modA" Position="-46" Score="6.3">
+          <Sequence>CGCTATATAGTTAAGGCTATAACG</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="219494" LocusId="PP3828" Name="modA" Function="Molybdate ABC transporter, substrate-binding protein" />
+          <Members vimssId="219495" LocusId="PP3829" Name="modB" Function="Molybdate ABC transporter, permease protein" />
+          <Members vimssId="219496" LocusId="PP3830" Name="modC" Function="Molybdate ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2298</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NikR" RegulationMode="repressor">
+      <Regulator Key="NikR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15893" />
+      <Effector>Nickel ion, (Ni2+)</Effector>
+      <Pathway>Nickel homeostasis</Pathway>
+      <LocusTag Key="PP3341" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=219017&amp;disp=0" />
+      <BiologicalProcess>Nickel homeostasis</BiologicalProcess>
+      <Regulog Key="NikR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1708" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP3342" Name="nikA" Position="-74" Score="7.4">
+          <Sequence>GTAAGAT--------------ATCATAC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3341" Name="NikR" Position="-41" Score="7.4">
+          <Sequence>GTATGAT--------------ATCTTAC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="219017" LocusId="PP3341" Name="NikR" Function="Nickel responsive regulator NikR, CopG family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219018" LocusId="PP3342" Name="nikA" Function="Nickel ABC transporter, periplasmic nickel-binding protein NikA (TC 3.A.1.5.3)" />
+          <Members vimssId="219019" LocusId="PP3343" Name="nikB" Function="Nickel transport system permease protein NikB (TC 3.A.1.5.3)" />
+          <Members vimssId="219020" LocusId="PP3344" Name="nikC" Function="Nickel transport system permease protein NikC (TC 3.A.1.5.3)" />
+          <Members vimssId="219021" LocusId="PP3345" Name="nikD" Function="Nickel transport ATP-binding protein NikD (TC 3.A.1.5.3)" />
+          <Members vimssId="219022" LocusId="PP3346" Name="nikE" Function="Nickel transport ATP-binding protein NikE (TC 3.A.1.5.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1708</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NorR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16965" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="PP0807" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=216504&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="NorR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1828" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP0807" Name="norR" Position="-29" Score="4.5">
+          <Sequence>TATAGTCATATCGACCCAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP0807" Name="norR" Position="-10" Score="5.3">
+          <Sequence>AGGAGTCCATATGACTACA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP0808" Name="hmp" Position="-145" Score="4.5">
+          <Sequence>ATGGGTCGATATGACTATA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP0808" Name="hmp" Position="-164" Score="5.3">
+          <Sequence>TGTAGTCATATGGACTCCT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2840" Name="nnrS" Position="-140" Score="4.2">
+          <Sequence>GCCAGTCTGAATGACCGCA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="216505" LocusId="PP0808" Name="hmp" Function="Flavohemoprotein (Hemoglobin-like protein) (Flavohemoglobin) (Nitric oxide dioxygenase) (EC 1.14.12.17)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="216504" LocusId="PP0807" Name="norR" Function="anaerobic nitric oxide reductase transcription regulator, Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="218520" LocusId="PP2840" Name="nnrS" Function="NnrS protein involved in response to NO" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1828</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15527" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="PP_0513" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=216212&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1667" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP1179" Name="nrdA" Position="-428" Score="3.4">
+          <Sequence>CCGCATTATCTTGTAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP1179" Name="nrdA" Position="-397" Score="5.6">
+          <Sequence>CCACTAGATATAGGGG</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2139" Name="topA" Position="-73" Score="5.7">
+          <Sequence>CCACTATATATAGCGG</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP1177" Name="nrdB" Position="-343" Score="4.7">
+          <Sequence>GCACAACATATAGGTT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP1177" Name="nrdB" Position="-375" Score="3.8">
+          <Sequence>ACACCATATGATGTGC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="216873" LocusId="PP1177" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="216875" LocusId="PP1179" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="217824" LocusId="PP2139" Name="topA" Function="DNA topoisomerase I (EC 5.99.1.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1667</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19297" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="PP5048" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=220685&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2084" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP2106" Name="amtB2" Position="-72" Score="4.7">
+          <Sequence>GGCACCGATTCGGTGCA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2688" Name="ybdK" Position="-256" Score="4.1">
+          <Sequence>CGCCCTTTTTTGATGCG</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2688" Name="ybdK" Position="-295" Score="4.5">
+          <Sequence>CGCCCCATTTCGGTTCA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP5046" Name="glnA" Position="-205" Score="4.4">
+          <Sequence>CGCATCGTAAGGGTGCA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP5046" Name="glnA" Position="-236" Score="5.3">
+          <Sequence>CGCACCCTATTGGTGCG</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP5047" Name="ntrB" Position="-257" Score="4.7">
+          <Sequence>TGCTCTATCTTGGTGCA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP5234" Name="glnK" Position="-299" Score="4.6">
+          <Sequence>TGCACATTTTTCGCGCA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP5234" Name="glnK" Position="-266" Score="5.4">
+          <Sequence>CGCACCGAAATTGTGCA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="217792" LocusId="PP2106" Name="amtB2" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="220871" LocusId="PP5234" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="220870" LocusId="PP5233" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="220683" LocusId="PP5046" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="218368" LocusId="PP2688" Name="ybdK" Function="Carboxylate-amine ligase" />
+          <Members vimssId="218367" LocusId="PP2687" Name="PF04168" Function="Conserved hypothetical protein" />
+          <Members vimssId="218366" LocusId="PP2686" Name="PF01841" Function="Transglutaminase-like protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="220684" LocusId="PP5047" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="220685" LocusId="PP5048" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2084</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="PA1520" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57459" />
+      <Effector />
+      <Pathway>Xanthine utilization; Allantoin utilization</Pathway>
+      <LocusTag Key="PP4283" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=219935&amp;disp=0" />
+      <BiologicalProcess>Xanthine utilization; Allantoin utilization</BiologicalProcess>
+      <Regulog Key="PA1520 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5879" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP4297" Name="gcl" Position="-35" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4297" Name="gcl" Position="-175" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4309" Name="PA0476" Position="-427" Score="4.8">
+          <Sequence>TTGTACACAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4309" Name="PA0476" Position="-166" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4643" Name="PA2938" Position="-181" Score="4.3">
+          <Sequence>TTGTACACAC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4643" Name="PA2938" Position="-78" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4284" Name="PA1519" Position="-146" Score="4.8">
+          <Sequence>TTGTACACAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4284" Name="PA1519" Position="-245" Score="4.6">
+          <Sequence>TTGTACACAG</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4283" Name="PA1520" Position="-45" Score="4.6">
+          <Sequence>CTGTGTACAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4283" Name="PA1520" Position="-144" Score="4.8">
+          <Sequence>TTGTGTACAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4296" Name="PA1503" Position="-232" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4296" Name="PA1503" Position="-92" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4286" Name="PA1517" Position="-86" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4286" Name="PA1517" Position="-291" Score="4.8">
+          <Sequence>TTGTACACAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4285" Name="PA1518" Position="-323" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4285" Name="PA1518" Position="-118" Score="4.8">
+          <Sequence>TTGTGTACAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="219961" LocusId="PP4309" Name="PA0476" Function="Hydantoin permease" />
+          <Members vimssId="219962" LocusId="PP4310" Name="PSEEN1659" Function="Hydantoin racemase (EC 5.1.99.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219949" LocusId="PP4297" Name="gcl" Function="Glyoxylate carboligase (EC 4.1.1.47)" />
+          <Members vimssId="219950" LocusId="PP4298" Name="hyi" Function="Hydroxypyruvate isomerase (EC 5.3.1.22)" />
+          <Members vimssId="219951" LocusId="PP4299" Name="garR" Function="2-hydroxy-3-oxopropionate reductase (EC 1.1.1.60)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219935" LocusId="PP4283" Name="PA1520" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219937" LocusId="PP4285" Name="PA1518" Function="5-hydroxyisourate hydrolase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219938" LocusId="PP4286" Name="PA1517" Function="putative uricase" />
+          <Members vimssId="219939" LocusId="PP4287" Name="uraO" Function="Urate oxidase (EC 1.7.3.3)" />
+          <Members vimssId="219940" LocusId="PP4288" Name="allA" Function="Ureidoglycolate hydrolase (EC 3.5.3.19)" />
+          <Members vimssId="219941" LocusId="PP4289" Name="PA1513" Function="conserved hypothetical membrane protein, paralogue of Y20848" />
+          <Members vimssId="219942" LocusId="PP4290" Name="PA1507" Function="Xanthine/uracil permease" />
+          <Members vimssId="219943" LocusId="PP4291" Name="null" Function="Nucleoside-binding outer membrane protein" />
+          <Members vimssId="219944" LocusId="PP4292" Name="null" Function="hypothetical protein" />
+          <Members vimssId="219945" LocusId="PP4293" Name="PSEEN1679" Function="Nucleoside-binding outer membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="220288" LocusId="PP4643" Name="PA2938" Function="Xanthine/uracil permease family protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219948" LocusId="PP4296" Name="PA1503" Function="GlcG protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219936" LocusId="PP4284" Name="PA1519" Function="Xanthine/uracil/thiamine/ascorbate permease family protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5879</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="PA2299" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57421" />
+      <Effector />
+      <Pathway>Alkanesulfonates utilization</Pathway>
+      <LocusTag Key="PP0204" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=215909&amp;disp=0" />
+      <BiologicalProcess>Alkanesulfonates utilization</BiologicalProcess>
+      <Regulog Key="PA2299 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5874" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP0204" Name="PA2299" Position="-38" Score="6">
+          <Sequence>ACTTGTTATAACGAGT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="215909" LocusId="PP0204" Name="PA2299" Function="Putative alkanesulfonate metabolism utilization regulator, GntR family" />
+          <Members vimssId="215910" LocusId="PP0205" Name="PA2298" Function="Putative reductase (alkanesulfonate metabolism)" />
+          <Members vimssId="215911" LocusId="PP0206" Name="PA2297" Function="Probable ferredoxin" />
+          <Members vimssId="215912" LocusId="PP0207" Name="PA2296" Function="Alkanesulfonates ABC transporter, substrate-binding protein" />
+          <Members vimssId="215913" LocusId="PP0208" Name="PA2295" Function="Alkanesulfonates ABC transporter, permease protein" />
+          <Members vimssId="215914" LocusId="PP0209" Name="PA2294" Function="Alkanesulfonates ABC transporter, ATPase component" />
+          <Members vimssId="215915" LocusId="PP0210" Name="PA2293" Function="FOG: HEAT repeat protein" />
+          <Members vimssId="215916" LocusId="PP0211" Name="PA2292" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5874</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PP0486" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63891" />
+      <Effector />
+      <Pathway>Metabolite transport</Pathway>
+      <LocusTag Key="PP0486" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=216188&amp;disp=0" />
+      <BiologicalProcess>Metabolite transport</BiologicalProcess>
+      <Regulog Key="PP0486 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6592" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP0486" Name="" Position="-53" Score="4.7">
+          <Sequence>ATAAATTCAACTCAAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP0487" Name="COG0730" Position="-88" Score="6.3">
+          <Sequence>ATTGAATCGACTCAAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP0487" Name="COG0730" Position="-109" Score="4.7">
+          <Sequence>ATTGAGTTGAATTTAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP0486" Name="" Position="-74" Score="6.3">
+          <Sequence>ATTGAGTCGATTCAAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="216188" LocusId="PP0486" Name="null" Function="Transcriptional regulator, GntR family domain / Aspartate aminotransferase (EC 2.6.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="216189" LocusId="PP0487" Name="COG0730" Function="Membrane protein" />
+          <Members vimssId="216190" LocusId="PP0488" Name="COG4221" Function="Short-chain dehydrogenase/reductase SDR( EC:1.1.1.276 )" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6592</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PP2642" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60617" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="PP2642" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=218322&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="PP2642 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6224" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP2641)" Name="COG2871 (NqrF" Position="-11" Score="13.2">
+          <Sequence>AGCTGGACCA-(14)-AACTGGAGGT-(5)-TGGTCCTGGA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="218321" LocusId="PP2641" Name="COG2871 (NqrF)" Function="iron-sulfur cluster-binding protein\NADH:ubiquinone oxidoreductase, subunit NqrF" />
+          <Members vimssId="218320" LocusId="PP2640" Name="PF00583" Function="GCN5-related N-acetyltransferase (GNAT) domain" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6224</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PP2948" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58377" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="PP2948" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=218628&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="PP2948 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5974" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP2949" Name="COG697" Position="-112" Score="13.6">
+          <Sequence>AACTGTGCTGG-(8)-GCATAACAGTT-(6)-AAGTGTATTGG</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="218629" LocusId="PP2949" Name="COG697" Function="Permease of the drug/metabolite transporter (DMT) superfamily, COG697(RhaT)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5974</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxW2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66445" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine biosynthesis</Pathway>
+      <LocusTag Key="PP5342" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=220979&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine biosynthesis</BiologicalProcess>
+      <Regulog Key="PdxW2 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6865" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP5343" Name="pdxO2" Position="-86" Score="14.4">
+          <Sequence>ATTGGACCT-(15)-AATGGATCT-(5)-AGAACCAAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="220980" LocusId="PP5343" Name="pdxO2" Function="Pyridoxamine 5'-phosphate oxidase-related, FMN-binding" />
+          <Members vimssId="220981" LocusId="PP5344" Name="COG456 (RimI), PF00583" Function="GCN5-related N-acetyltransferase (GNAT) domain" />
+          <Members vimssId="220982" LocusId="PP5345" Name="COG1670 (RimL), PF00583" Function="GCN5-related N-acetyltransferase (GNAT) domain" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6865</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TyrR" RegulationMode="activator (repressor)">
+      <Regulator Key="PhhR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=11147" />
+      <Effector>Tyrosine; Phenylalanine</Effector>
+      <Pathway>Aromatic amino acid metabolism</Pathway>
+      <LocusTag Key="PP4489" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=220136&amp;disp=0" />
+      <BiologicalProcess>Aromatic amino acid metabolism</BiologicalProcess>
+      <Regulog Key="PhhR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1210" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP4490" Name="phhA" Position="-212" Score="5.2">
+          <Sequence>TCGTAAAGATAAGCTGACAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4490" Name="phhA" Position="-139" Score="5.4">
+          <Sequence>TTGTAAAATTATCGTTACGA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4489" Name="phhR" Position="-138" Score="5.4">
+          <Sequence>TCGTAACGATAATTTTACAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4489" Name="phhR" Position="-65" Score="5.2">
+          <Sequence>TTGTCAGCTTATCTTTACGA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="220136" LocusId="PP4489" Name="phhR" Function="Phenylalanine degradation transcriptional activator, TyrR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="220137" LocusId="PP4490" Name="phhA" Function="Phenylalanine-4-hydroxylase (EC 1.14.16.1)" />
+          <Members vimssId="220138" LocusId="PP4491" Name="phhB" Function="Pterin-4-alpha-carbinolamine dehydratase (EC 4.2.1.96)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1210</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PhnR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31818" />
+      <Effector />
+      <Pathway>Phosphonate utilization; 2-aminoethylphosphonate utilization</Pathway>
+      <LocusTag Key="PP1727" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=217420&amp;disp=0" />
+      <BiologicalProcess>Phosphonate utilization; 2-aminoethylphosphonate utilization</BiologicalProcess>
+      <Regulog Key="PhnR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3289" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP1727" Name="phnR" Position="-28" Score="5.3">
+          <Sequence>TGGACTAGTCCA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP1727" Name="phnR" Position="-251" Score="4.1">
+          <Sequence>TGGTCTAGGTCA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP1726" Name="phnS" Position="-311" Score="5.3">
+          <Sequence>TGGACTAGTCCA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP1726" Name="phnS" Position="-88" Score="5.3">
+          <Sequence>TGACCTAGACCA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="217420" LocusId="PP1727" Name="phnR" Function="2-aminoethylphosphonate uptake and metabolism regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="217419" LocusId="PP1726" Name="phnS" Function="2-aminoethylphosphonate ABC transporter, periplasmic binding component (TC 3.A.1.9.1)" />
+          <Members vimssId="217418" LocusId="PP1725" Name="PF01663" Function="type I phosphodiesterase" />
+          <Members vimssId="217417" LocusId="PP1724" Name="phnU" Function="2-aminoethylphosphonate ABC transporter, permease protein I (TC 3.A.1.9.1)" />
+          <Members vimssId="217416" LocusId="PP1723" Name="phnV" Function="2-aminoethylphosphonate ABC transporter, permease protein II (TC 3.A.1.9.1)" />
+          <Members vimssId="217415" LocusId="PP1722" Name="phnT" Function="2-aminoethylphosphonate ABC transporter, ATP-binding protein (TC 3.A.1.9.1)" />
+          <Members vimssId="217414" LocusId="PP1721" Name="COG0560" Function="Phosphoserine phosphatase (EC 3.1.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3289</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="PhrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66404" />
+      <Effector>Blue light; Adenosylcobalamin</Effector>
+      <Pathway>Light-dependent DNA repair</Pathway>
+      <LocusTag Key="PP0740" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=216437&amp;disp=0" />
+      <BiologicalProcess>Light-dependent DNA repair</BiologicalProcess>
+      <Regulog Key="PhrR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6859" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP0743" Name="COG1090" Position="-136" Score="5.3">
+          <Sequence>TGTACAATGCCAAAATTATGTATA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP0742" Name="COG3380" Position="-74" Score="5.8">
+          <Sequence>TATACATAATTTTGGCATTGTACA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2511" Name="" Position="-35" Score="4.7">
+          <Sequence>TATACAAAAACTTGTACAAGCATG</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2511" Name="" Position="-23" Score="5.1">
+          <Sequence>TGTACAAGCATGAGAGGTTGTACA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP0741" Name="COG3272" Position="-95" Score="5.6">
+          <Sequence>TATACAAAAATACTAGTTTGCATA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2738" Name="PF07366" Position="-94" Score="6.1">
+          <Sequence>TATACAAGACCGTTGACTTGTATA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2738" Name="PF07366" Position="-43" Score="5.7">
+          <Sequence>TGTACAACAATTCAATTTTGTACA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP0741" Name="COG3272" Position="-45" Score="5">
+          <Sequence>TGTACAAGTTTCGAGTCACGTACA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="216439" LocusId="PP0742" Name="COG3380" Function="Predicted NAD/FAD-dependent oxidoreductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="216440" LocusId="PP0743" Name="COG1090" Function="Predicted nucleoside-diphosphate sugar epimerase" />
+          <Members vimssId="216441" LocusId="PP0744" Name="hemH" Function="Ferrochelatase, protoheme ferro-lyase (EC 4.99.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="218195" LocusId="PP2511" Name="null" Function="Cell division inhibitor" />
+          <Members vimssId="218196" LocusId="PP2512" Name="folE" Function="GTP cyclohydrolase I (EC 3.5.4.16) type 1" />
+        </Operon>
+        <Operon>
+          <Members vimssId="216438" LocusId="PP0741" Name="COG3272" Function="COG1683: Uncharacterized conserved protein / COG3272: Hypothetical protein YbgA" />
+          <Members vimssId="216437" LocusId="PP0740" Name="phrR" Function="Transcriptional regulator, MerR family, associated with photolyase" />
+          <Members vimssId="216436" LocusId="PP0739" Name="phr" Function="Deoxyribodipyrimidine photolyase (EC 4.1.99.3)" />
+          <Members vimssId="216435" LocusId="PP0738" Name="PF00106" Function="Oxidoreductase, short-chain dehydrogenase/reductase family (EC 1.1.1.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="218418" LocusId="PP2738" Name="PF07366" Function="Protein of unknown function DUF1486" />
+          <Members vimssId="218417" LocusId="PP2737" Name="PF00106" Function="Oxidoreductase, short-chain dehydrogenase/reductase family (EC 1.1.1.-)" />
+          <Members vimssId="218416" LocusId="PP2736" Name="PF01593" Function="Flavin containing amine oxidoreductase" />
+          <Members vimssId="218415" LocusId="PP2735" Name="PF07103" Function="Protein of unknown function DUF1365" />
+          <Members vimssId="218414" LocusId="PP2734" Name="PF02353" Function="S-adenosyl-L-methionine dependent methyltransferase, similar to cyclopropane-fatty-acyl-phospholipid synthase" />
+          <Members vimssId="218413" LocusId="PP2733" Name="PF11086" Function="Protein of unknown function DUF2878" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6859</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PrpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17151" />
+      <Effector>2-methylcitrate</Effector>
+      <Pathway>Methylcitrate utilization</Pathway>
+      <LocusTag Key="PP2333" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=218018&amp;disp=0" />
+      <BiologicalProcess>Methylcitrate utilization</BiologicalProcess>
+      <Regulog Key="PrpR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1849" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP2333" Name="prpR" Position="-12" Score="4.8">
+          <Sequence>GGTGTCGACAAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2333" Name="prpR" Position="-85" Score="5.8">
+          <Sequence>ATTGTCGACAAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="218018" LocusId="PP2333" Name="prpR" Function="Propionate catabolism transcriptional regulator, GntR family" />
+          <Members vimssId="218019" LocusId="PP2334" Name="prpB" Function="Methylisocitrate lyase (EC 4.1.3.30)" />
+          <Members vimssId="218020" LocusId="PP2335" Name="prpC" Function="2-methylcitrate synthase (EC 2.3.3.5)" />
+          <Members vimssId="218021" LocusId="PP2336" Name="acnD" Function="Aconitate hydratase, predicted 2-methylcitrate dehydratase FeS dependent (EC 4.2.1.79)" />
+          <Members vimssId="218022" LocusId="PP2337" Name="prpF" Function="Aconitase accessory protein PrpF" />
+          <Members vimssId="218023" LocusId="PP2338" Name="prpD" Function="2-methylcitrate dehydratase (EC 4.2.1.79)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1849</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PsrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29690" />
+      <Effector>Oleate</Effector>
+      <Pathway>Fatty acid degradation</Pathway>
+      <LocusTag Key="PP2144" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=217829&amp;disp=0" />
+      <BiologicalProcess>Fatty acid degradation</BiologicalProcess>
+      <Regulog Key="PsrA - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3098" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP2144" Name="psrA" Position="-54" Score="5">
+          <Sequence>GCTGAAACGTATGTTTCAAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2144" Name="psrA" Position="-41" Score="5.7">
+          <Sequence>TTTCAAACACCTGTTTGTCT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4195" Name="" Position="-83" Score="5.5">
+          <Sequence>TTTCAAACGACTGTTTGAGC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2008" Name="fadH" Position="-54" Score="5">
+          <Sequence>ATTCAAACGGCTGTTTAATG</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2136" Name="fadB" Position="-161" Score="5.7">
+          <Sequence>AATCAAACGGGCGTATGAAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4202" Name="etfB" Position="-392" Score="5.6">
+          <Sequence>ATACAAACGTTTGTTTGAAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3923" Name="" Position="-98" Score="5.3">
+          <Sequence>TTTCAAACAACCTTTTCAAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3923" Name="" Position="-85" Score="5.7">
+          <Sequence>TTTCAAACGCTTGTATGTTT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4203" Name="etfD" Position="-163" Score="5.9">
+          <Sequence>ATTCAAACAAACGTTTGTAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP1623" Name="rpoS" Position="-431" Score="5.1">
+          <Sequence>CTTCAAACGGTAGTTTGAAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP0191" Name="algQ" Position="-182" Score="5.2">
+          <Sequence>TATTAAACACTTGTATGAAC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP0368" Name="acdH1" Position="-73" Score="5.8">
+          <Sequence>TTTCAAACAACTGTTTGATC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="217694" LocusId="PP2008" Name="fadH" Function="2,4-dienoyl-CoA reductase [NADPH] (EC 1.3.1.34)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219848" LocusId="PP4195" Name="null" Function="Proteinase inhibitor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="217821" LocusId="PP2136" Name="fadB" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+          <Members vimssId="217822" LocusId="PP2137" Name="fadA" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="216071" LocusId="PP0368" Name="acdH1" Function="probable acyl-CoA dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="217829" LocusId="PP2144" Name="psrA" Function="Predicted transcriptional regulator for fatty acid degradation PsrA, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219856" LocusId="PP4203" Name="etfD" Function="Electron transfer flavoprotein-ubiquinone oxidoreductase (EC 1.5.5.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219589" LocusId="PP3923" Name="null" Function="Phosphoglycerate mutase family protein" />
+          <Members vimssId="219590" LocusId="PP3924" Name="scp" Function="Sterol-binding domain protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="215896" LocusId="PP0191" Name="algQ" Function="Regulator of RNA polymerase sigma(70) subunit, Rsd/AlgQ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219855" LocusId="PP4202" Name="etfB" Function="Electron transfer flavoprotein, beta subunit" />
+          <Members vimssId="219854" LocusId="PP4201" Name="etfA" Function="Electron transfer flavoprotein, alpha subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="217316" LocusId="PP1623" Name="rpoS" Function="RNA polymerase sigma factor RpoS" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3098</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="PtxS" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52085" />
+      <Effector>2-keto-D-gluconate</Effector>
+      <Pathway>2-ketogluconate utilization</Pathway>
+      <LocusTag Key="PP3380" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=219056&amp;disp=0" />
+      <BiologicalProcess>2-ketogluconate utilization</BiologicalProcess>
+      <Regulog Key="PtxS - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5297" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP3380" Name="ptxS" Position="-47" Score="6.6">
+          <Sequence>TATTGAAACCGGTTTCATCA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3384" Name="gadC" Position="-136" Score="6.4">
+          <Sequence>GCATGAAACCGGTTTCAAAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3379" Name="kguE" Position="-31" Score="6.7">
+          <Sequence>AAATGAAACCGGTTTCATAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="219056" LocusId="PP3380" Name="ptxS" Function="2-ketogluconate utilization repressor PtxS, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219060" LocusId="PP3384" Name="gadC" Function="Gluconate 2-dehydrogenase (EC 1.1.99.3), membrane-bound, gamma subunit" />
+          <Members vimssId="219059" LocusId="PP3383" Name="gadB" Function="Gluconate 2-dehydrogenase (EC 1.1.99.3), membrane-bound, flavoprotein" />
+          <Members vimssId="219058" LocusId="PP3382" Name="gadA" Function="Gluconate 2-dehydrogenase (EC 1.1.99.3), membrane-bound, cytochrome c" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219055" LocusId="PP3379" Name="kguE" Function="Epimerase KguE" />
+          <Members vimssId="219054" LocusId="PP3378" Name="kguK" Function="2-ketogluconate kinase (EC 2.7.1.13)" />
+          <Members vimssId="219053" LocusId="PP3377" Name="kguT" Function="2-ketogluconate transporter" />
+          <Members vimssId="219052" LocusId="PP3376" Name="kguD" Function="2-ketogluconate 6-phosphate reductase (EC 1.1.1.43)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5297</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="RbsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21060" />
+      <Effector>Ribose</Effector>
+      <Pathway>Ribose utilization</Pathway>
+      <LocusTag Key="PP2457" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=218141&amp;disp=0" />
+      <BiologicalProcess>Ribose utilization</BiologicalProcess>
+      <Regulog Key="RbsR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2280" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP2454" Name="rbsB" Position="-53" Score="6.4">
+          <Sequence>CAACGCAAACGTTTGCTATC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="218138" LocusId="PP2454" Name="rbsB" Function="Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)" />
+          <Members vimssId="218139" LocusId="PP2455" Name="rbsA" Function="Ribose ABC transport system, ATP-binding protein RbsA (TC 3.A.1.2.1)" />
+          <Members vimssId="218140" LocusId="PP2456" Name="rbsC" Function="Ribose ABC transport system, permease protein RbsC (TC 3.A.1.2.1)" />
+          <Members vimssId="218141" LocusId="PP2457" Name="rbsR" Function="Transcriptional repressor of ribose utilization, LacI family" />
+          <Members vimssId="218142" LocusId="PP2458" Name="rbsK" Function="Ribokinase (EC 2.7.1.15)" />
+          <Members vimssId="218143" LocusId="PP2459" Name="rbsD" Function="D-ribose pyranase (D-ribose mutarotase) (EC 5.5.1.n1)" />
+          <Members vimssId="218144" LocusId="PP2460" Name="uriH" Function="Inosine-uridine preferring nucleoside hydrolase (EC 3.2.2.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2280</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30850" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="PP0594" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=216293&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3186" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP4286" Name="COG0726" Position="-189" Score="6">
+          <Sequence>AGCTGACCAAACAGGCAGGT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4293" Name="tsx" Position="-231" Score="5.2">
+          <Sequence>TACTGACCGCTCAGTCAATG</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="219938" LocusId="PP4286" Name="COG0726" Function="putative polysaccharide deacetylase family protein" />
+          <Members vimssId="219939" LocusId="PP4287" Name="pucL" Function="Uricase (EC 1.7.3.3)" />
+          <Members vimssId="219940" LocusId="PP4288" Name="allA" Function="Ureidoglycolate hydrolase (EC 3.5.3.19)" />
+          <Members vimssId="219941" LocusId="PP4289" Name="COG3748" Function="hypothetical protein, COG3748" />
+          <Members vimssId="219942" LocusId="PP4290" Name="pbuT2" Function="Xanthine/uracil permease" />
+          <Members vimssId="219943" LocusId="PP4291" Name="tsx2" Function="Nucleoside-binding outer membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219945" LocusId="PP4293" Name="tsx" Function="Nucleoside-binding outer membrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3186</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34747" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="" Value="" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR2 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3552" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP4035" Name="pydP" Position="-266" Score="6.6">
+          <Sequence>TCCTGTCAGTCCTGACAAGA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="219699" LocusId="PP4035" Name="pydP" Function="Pyrimidine permease in reductive pathway" />
+          <Members vimssId="219698" LocusId="PP4034" Name="pydC" Function="Beta-ureidopropionase (EC 3.5.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3552</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34760" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="PP4295" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=219947&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR3 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3554" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP4278" Name="xdhA" Position="-93" Score="5.2">
+          <Sequence>TCTTGACCCTTGAGTCAGAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4278" Name="xdhA" Position="-70" Score="4.7">
+          <Sequence>TATTGACCTGCTAGACAGGT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4284" Name="pbuT" Position="-114" Score="5.3">
+          <Sequence>TCTTGACCCATAAGTCAACA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4293" Name="tsx" Position="-74" Score="4.8">
+          <Sequence>AGCTGACTCAAAAGACAAAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="219930" LocusId="PP4278" Name="xdhA" Function="Xanthine dehydrogenase, iron-sulfur cluster and FAD-binding subunit A (1.17.1.4)" />
+          <Members vimssId="219931" LocusId="PP4279" Name="xdhB" Function="Xanthine dehydrogenase, molybdenum binding subunit (EC 1.17.1.4)" />
+          <Members vimssId="219932" LocusId="PP4280" Name="xdhC" Function="XdhC protein (assists in molybdopterin insertion into xanthine dehydrogenase)" />
+          <Members vimssId="219933" LocusId="PP4281" Name="guaD" Function="Guanine deaminase (EC 3.5.4.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219936" LocusId="PP4284" Name="pbuT" Function="Xanthine/uracil permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219945" LocusId="PP4293" Name="tsx" Function="Nucleoside-binding outer membrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3554</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SahR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15729" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="PP4966" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=220605&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SahR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1689" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP4966" Name="sahR" Position="-62" Score="7.2">
+          <Sequence>ATATCAAAACTTTTTGATAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="220605" LocusId="PP4966" Name="sahR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+          <Members vimssId="220606" LocusId="PP4967" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1689</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="SdaR" RegulationMode="activator">
+      <Regulator Key="SdaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63645" />
+      <Effector>D-glycerate</Effector>
+      <Pathway>Glycerate utilization</Pathway>
+      <LocusTag Key="PP3177" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=218857&amp;disp=0" />
+      <BiologicalProcess>Glycerate utilization</BiologicalProcess>
+      <Regulog Key="SdaR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6567" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP3177" Name="sdaR" Position="-4" Score="6">
+          <Sequence>CTTTGTGCTTTTGCACAGCG</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3176" Name="grtT" Position="-107" Score="6">
+          <Sequence>CGCTGTGCAAAAGCACAAAG</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="218857" LocusId="PP3177" Name="sdaR" Function="Glycerate utilization transcriptional regulator SdaR, SdaR family" />
+          <Members vimssId="218858" LocusId="PP3178" Name="garK" Function="Glycerate kinase (EC 2.7.1.31)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="218856" LocusId="PP3176" Name="grtT" Function="Predicted D-glycerate transporter, MFS family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6567</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="SoxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50574" />
+      <Effector>Paraquat</Effector>
+      <Pathway>Superoxide stress response</Pathway>
+      <LocusTag Key="PP2060" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=217746&amp;disp=0" />
+      <BiologicalProcess>Superoxide stress response</BiologicalProcess>
+      <Regulog Key="SoxR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5121" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP2235" Name="PF03992" Position="-71" Score="6.1">
+          <Sequence>ACCTTGACTTTACTTGAGGT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2064" Name="mexH" Position="-76" Score="6.2">
+          <Sequence>ACCTCAAGTAAAGTTGAGCT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2506" Name="PF09933" Position="-26" Score="6.3">
+          <Sequence>ACCTCGAGTTAAGTCAAGGT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3522" Name="PF01042" Position="-60" Score="6.6">
+          <Sequence>ACCTCGAGTTAACTTAAGGT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2060" Name="soxR" Position="-29" Score="6">
+          <Sequence>AGCTCAACTTAACTTTAGGT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="217746" LocusId="PP2060" Name="soxR" Function="Redox-sensitive transcriptional activator, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="218190" LocusId="PP2506" Name="PF09933" Function="Membrane protein" />
+          <Members vimssId="218191" LocusId="PP2507" Name="PF00106" Function="oxidoreductase, short-chain dehydrogenase/reductase family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="217750" LocusId="PP2064" Name="mexH" Function="RND transporter, membrane fusion protein" />
+          <Members vimssId="217751" LocusId="PP2065" Name="mexI" Function="RND transporter, membrane fusion protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219195" LocusId="PP3522" Name="PF01042" Function="Endoribonuclease L-PSP" />
+        </Operon>
+        <Operon>
+          <Members vimssId="217920" LocusId="PP2235" Name="PF03992" Function="Monooxygenase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5121</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="UreR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57212" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="PP2254" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=217939&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="UreR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5850" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP2255" Name="dctA" Position="-85" Score="4.8">
+          <Sequence>ACCGGTAAGACCACA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2255" Name="dctA" Position="-160" Score="5.7">
+          <Sequence>ACTGGTCAGACCGGT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="217940" LocusId="PP2255" Name="dctA" Function="C4-dicarboxylate transport protein" />
+          <Members vimssId="217939" LocusId="PP2254" Name="ureR" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5850</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="VanR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31426" />
+      <Effector>Vanillate</Effector>
+      <Pathway>Vanillate utilization</Pathway>
+      <LocusTag Key="PP3738" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=219406&amp;disp=0" />
+      <BiologicalProcess>Vanillate utilization</BiologicalProcess>
+      <Regulog Key="VanR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3247" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP3736" Name="vanA" Position="-41" Score="5.3">
+          <Sequence>AATGGATCCATT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3736" Name="vanA" Position="-126" Score="4.8">
+          <Sequence>AATGGATCCACT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3740" Name="vanK" Position="-195" Score="4.8">
+          <Sequence>TGTGGATCCATT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="219404" LocusId="PP3736" Name="vanA" Function="Vanillate O-demethylase oxygenase subunit (EC 1.14.13.82)" />
+          <Members vimssId="219405" LocusId="PP3737" Name="vanB" Function="Flavodoxin reductases (ferredoxin-NADPH reductases) family 1; Vanillate O-demethylase oxidoreductase (EC 1.14.13.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219407" LocusId="PP3740" Name="vanK" Function="4-hydroxybenzoate/vanillate transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3247</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YdcR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59703" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="PP3544" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=219217&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="YdcR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6128" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP3543" Name="COG0348" Position="-98" Score="8.8">
+          <Sequence>ATCTGATATGGTTTT---------ATCTGAACCTGTGCT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="219216" LocusId="PP3543" Name="COG0348" Function="Polyferredoxin" />
+          <Members vimssId="219217" LocusId="PP3544" Name="ydcR" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6128</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YjiR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61778" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="PP5275" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=220912&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="YjiR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6345" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP5274" Name="yjiS" Position="-50" Score="16.3">
+          <Sequence>TACAGTT-(17)-TTCAGTC-(13)-TTCTGTA-(23)-ATCTGTA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="220911" LocusId="PP5274" Name="yjiS" Function="putative cytoplasmic protein of unknown function DUF1127" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6345</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16067" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="PP0119" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=215825&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1727" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP0120" Name="znuA" Position="-45" Score="4.7">
+          <Sequence>GAGACGTTATTATGTTACCTGTT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP0119" Name="zur" Position="-122" Score="4.2">
+          <Sequence>AACAGGTAACATAATAACGTCTC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP1446" Name="omr" Position="-53" Score="5.3">
+          <Sequence>GTTATGTTATGTTGTAACACTAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP5361" Name="yciC" Position="-65" Score="5.1">
+          <Sequence>GTATTGTTACCTTATAACATTAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3320" Name="hisI2" Position="-84" Score="5.1">
+          <Sequence>TAAGTGTTATAACATAACATCTA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3321" Name="PP3321" Position="-3" Score="5.3">
+          <Sequence>TAGATGTTATGTTATAACACTTA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP5362" Name="PA5537" Position="-72" Score="5.8">
+          <Sequence>ATAATGTTATAAGGTAACAATAC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP0508" Name="zbp" Position="-48" Score="5.7">
+          <Sequence>ATCTTGTTATAACATAACCCTAT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="218999" LocusId="PP3320" Name="hisI2" Function="Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="219000" LocusId="PP3321" Name="PP3321" Function="hypothetical protein" />
+          <Members vimssId="219001" LocusId="PP3322" Name="hemB2" Function="Porphobilinogen synthase (EC 4.2.1.24)" />
+          <Members vimssId="219002" LocusId="PP3323" Name="yciC3" Function="Putative metal chaperone, GTPase of COG0523 family" />
+          <Members vimssId="219003" LocusId="PP3324" Name="folE2" Function="GTP cyclohydrolase I (EC 3.5.4.16) type 2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="217140" LocusId="PP1446" Name="omr" Function="Zinc-regulated outer membrane receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="220999" LocusId="PP5362" Name="PA5537" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="220998" LocusId="PP5361" Name="yciC" Function="Putative metal chaperone, GTPase of COG0523 family" />
+          <Members vimssId="220997" LocusId="PP5360" Name="PF08856" Function="hypothetical protein" />
+          <Members vimssId="220996" LocusId="PP5359" Name="yciC2" Function="Putative metal chaperone, GTPase of COG0523 family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="216208" LocusId="PP0508" Name="zbp" Function="Predicted zinc-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="215825" LocusId="PP0119" Name="zur" Function="Zinc uptake regulation protein ZUR" />
+          <Members vimssId="215824" LocusId="PP0118" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="215823" LocusId="PP0117" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="215826" LocusId="PP0120" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1727</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41284" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP2418" Name="btuF" Position="-226" Score="102.8">
+          <Sequence>GTCTACCATGCGGGCCGCCGGTTTCCACCACGGAACTAACAGGGAATCCCAGGCCTGCCAATACAGGCCAATCGGAACTGCCCCCGCAACTGTAGGTGCCGAGCCTGCTCCATCGATGCCACTGGGCCTGCCGCCCGGGAAGGCCGGAGCCGGGCCGTGACGCACCAGTCAGGAGACCTGCCGGCCTACATTCACCAACC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP1672" Name="btuR" Position="-340" Score="87.4">
+          <Sequence>CTTCGCGGCGTGTTTCAGGTGCCCTGCCAGCCCCGACTGGGCAGGGTGAAACTGGGAAGCCGGTGGGCGCCAGCATGGCGCGATTCCGGCGCTGCCCCCGCAACGGTGGATGAGTAAAAGGCCGCGCAGGGCCACTGGATGCCAGCATCCGGGAAGGCGCGCAGGCCAGGGCCAAGGCCCACTCACAAGCCCGGAGACCGGCCTGATACTGCCAACGGCATCA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP3508" Name="cobW" Position="-307" Score="100.8">
+          <Sequence>CGTAGCCTTGCCACTTCGAGGTTCTTCGGCCTGGCCGAAGCTAAGACGGGAACGCGGTACAAGCCGCGGCTGCCCCCGCAACTGTAAGCACCGACAACGGATCGACACAGCCACTGCGCCAACGCGCGGGAAGGCGTCATCCCGCCAGCCCGAACGGGGACATGGAACGGTGCAAGCCAGGAGACCTGCCTCGTCACGTTTTCGACTT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP2420" Name="btuB" Position="-258" Score="119.2">
+          <Sequence>CAGATGCGCGCCAGTTTCAGGTGCCCTGCGCCGCCGCGCGCAGGGTGAAACGGGAAACCGGTGCGTCGTGTTGCCCACGACAAGTCCGGTGCTGCCCCCGCAACGGTAAGCGAGCGAACCCTTCGAGATACCACTGTGCTCAAGCATGGGAAGGTGAAGGTTTCATGCCCCTCGCAAGCCCGGAGACCGGCCTGGAGCTTCACTTGGCAA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="219181" LocusId="PP3508" Name="cobW" Function="CobW GTPase involved in cobalt insertion for B12 biosynthesis" />
+          <Members vimssId="219180" LocusId="PP3507" Name="null" Function="CobN component of cobalt chelatase involved in B12 biosynthesis" />
+          <Members vimssId="219179" LocusId="PP3506" Name="chII" Function="ChlI component of cobalt chelatase involved in B12 biosynthesis" />
+          <Members vimssId="219178" LocusId="PP3505" Name="chlD" Function="ChlD component of cobalt chelatase involved in B12 biosynthesis" />
+        </Operon>
+        <Operon>
+          <Members vimssId="218104" LocusId="PP2420" Name="btuB" Function="Outer membrane vitamin B12 receptor BtuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="218102" LocusId="PP2418" Name="btuF" Function="Vitamin B12 ABC transporter, B12-binding  component BtuF" />
+          <Members vimssId="218101" LocusId="PP2417" Name="btuC" Function="Vitamin B12 ABC transporter, permease component BtuC" />
+          <Members vimssId="218100" LocusId="PP2416" Name="btuD" Function="Vitamin B12 ABC transporter, ATPase component BtuD" />
+        </Operon>
+        <Operon>
+          <Members vimssId="217365" LocusId="PP1672" Name="btuR" Function="Cob(I)alamin adenosyltransferase (EC 2.5.1.17)" />
+          <Members vimssId="217366" LocusId="PP1673" Name="cbiA" Function="Cobyrinic acid A,C-diamide synthase" />
+          <Members vimssId="217367" LocusId="PP1674" Name="bluB" Function="Cobalamin biosynthesis protein BluB @ 5,6-dimethylbenzimidazole synthase, flavin destructase family" />
+          <Members vimssId="217368" LocusId="PP1675" Name="cbiB" Function="Adenosylcobinamide-phosphate synthase" />
+          <Members vimssId="217369" LocusId="PP1676" Name="cobD" Function="L-threonine 3-O-phosphate decarboxylase (EC 4.1.1.81)" />
+          <Members vimssId="217370" LocusId="PP1677" Name="cbiP" Function="Cobyric acid synthase" />
+          <Members vimssId="217371" LocusId="PP1678" Name="cobU" Function="Adenosylcobinamide-phosphate guanylyltransferase (EC 2.7.7.62)" />
+          <Members vimssId="217372" LocusId="PP1679" Name="cobT" Function="Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase (EC 2.4.2.21)" />
+          <Members vimssId="217373" LocusId="PP1680" Name="cobC" Function="Alpha-ribazole-5'-phosphate phosphatase (EC 3.1.3.73)" />
+          <Members vimssId="217374" LocusId="PP1681" Name="cobS" Function="Cobalamin synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41316" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP0530" Name="ribB" Position="-223" Score="111.7">
+          <Sequence>GGTCGGTCTTCAGGGCGGGGTGTAAGTCCCCACCGGCGGTAAATCGAAAGATGAGCCCGCGAGCGCCCCGACCATGTCGGGGGTCAGCAGATCTGGTGCAACTCCAGAGCCGACGGTCATAGTCCGGATGAAAGAAGGCGTCA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="216229" LocusId="PP0530" Name="ribB" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00114" RegulationMode="RF00114">
+      <Regulator Key="S15" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41260" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="S15" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP_4709" Name="rpsO" Position="-41" Score="53.6">
+          <Sequence>ATTGGACCCCGCATGCGGGATCCGTTATCAGGAGAAGCCACATGGCCCTCAGCGTTGAAGAAAAAGCTCAGATCGTTGCCGAATATCAGCAAGCCGCC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="220354" LocusId="PP_4709" Name="rpsO" Function="SSU ribosomal protein S15p (S13e)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40964" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP3185" Name="tenA" Position="-192" Score="69.1">
+          <Sequence>GCGCCACCAAGGGGAGCCCGGCAATGGGCTGAGAAACCGCTGAACGCTACAGCGCGGTGACCCTTCGAACCTGATCCGGATCATGCCGGCGAAGGGATGGGGCTTGTAACCTGCCT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PP4922" Name="thiC" Position="-262" Score="79.8">
+          <Sequence>CATGTTCTTGTCGGGGTGCCTTGAAGCAAAGGCTGAGATCGCAGAGGTGCGGATCCCGTTGAACCTGATCAGGTTAGCGCCTGCGTAGGGAACAAGATTGCTCGCCTT</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="220561" LocusId="PP4922" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+          <Members vimssId="220560" LocusId="PP4921" Name="null" Function="Predicted hydroxymethylpyrimidine transporter CytX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="218865" LocusId="PP3185" Name="tenA" Function="Thiaminase II (EC 3.5.99.2)" />
+          <Members vimssId="218866" LocusId="PP3186" Name="null" Function="Thiaminase II (EC 3.5.99.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01068" RegulationMode="RF01068">
+      <Regulator Key="mini-ykkC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41028" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="mini-ykkC" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP1701" Name="ykkC1" Position="-78" Score="38.4">
+          <Sequence>ACGGTGAGGACGACCTCACGACGCACCGCGTGACCACTCCGGGGACGGCCCCA</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="217394" LocusId="PP1701" Name="ykkC1" Function="Quaternary ammonium compound-resistance protein sugE" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40924" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PP0760" Name="COG2119" Position="-229" Score="41.8">
+          <Sequence>CCGCACCGTCCTAGGGGAGTAGTCTCCCGCGAGCACCCAGCTCGCCCGGTACGCGTCAACATACTTGGTCCACAGACCATGGCGCGTGCGACCCACCATGCACGCCTGCATGGAGAGATCCGCATAGACGGATCGAGGGTTTGACAAGACCTATGACACGCAC</Sequence>
+          <Bacteria>Pseudomonas putida KT2440</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="216457" LocusId="PP0760" Name="COG2119" Function="Probable transmembrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Thermotogales bacterium TBF 19.5.1" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=7197" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="Kole_1528" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7512981&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Thermotogales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=745" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Kole_0369" Name="feoA" Position="-40" Score="6.4">
+          <Sequence>ATTGAGAATTATTCTCAAT</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7511802" LocusId="Kole_0369" Name="feoA" Function="ferrous iron transport protein A" />
+          <Members vimssId="7511803" LocusId="Kole_0370" Name="feoB" Function="ferrous iron transport protein B" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=745</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="HcpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=7230" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="Kole_1156" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7512601&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="HcpR - Thermotogales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=748" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Kole_1156" Name="hcpR" Position="-28" Score="6.6">
+          <Sequence>TCGGTAACATATGTTACGGA</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Kole_1155" Name="ytfE" Position="-86" Score="6.6">
+          <Sequence>TCCGTAACATATGTTACCGA</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7512601" LocusId="Kole_1156" Name="hcpR" Function="Transcriptional regulator HcpR, Crp/Fnr family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7512600" LocusId="Kole_1155" Name="ytfE" Function="Regulator of cell morphogenesis and NO signaling" />
+          <Members vimssId="7512599" LocusId="Kole_1154" Name="hcp" Function="Hydroxylamine reductase (EC 1.7.-.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=748</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=7241" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Kole_1384" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7512829&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Thermotogales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=749" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Kole_0886" Name="dnaK" Position="-82" Score="5.6">
+          <Sequence>ATGGCAAACTTGACATTCGATTGCTAA</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Kole_1626" Name="groS" Position="-71" Score="6.3">
+          <Sequence>TTAGCAGACTCATATAAAGAGTGCTAA</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Kole_1384" Name="hrcA" Position="-28" Score="5.6">
+          <Sequence>TTAGCAGTCTCCAGGGAGGAGTGCTAA</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7513082" LocusId="Kole_1626" Name="groS" Function="GroES chaperonin" />
+          <Members vimssId="7513083" LocusId="Kole_1627" Name="groL" Function="GroEL chaperonin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7512325" LocusId="Kole_0886" Name="dnaK" Function="Chaperone Hsp70" />
+          <Members vimssId="7512324" LocusId="Kole_0885" Name="hsp20" Function="Chaperone Hsp20" />
+          <Members vimssId="7512323" LocusId="Kole_0884" Name="clpB" Function="Chaperone protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7512829" LocusId="Kole_1384" Name="hrcA" Function="Heat shock response regulator, HrcA family" />
+          <Members vimssId="7512830" LocusId="Kole_1385" Name="grpE" Function="Heat shock protein" />
+          <Members vimssId="7512831" LocusId="Kole_1386" Name="dnaJ" Function="Chaperone Hsp40" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=749</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=7307" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Kole_2031" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7513499&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Thermotogales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=755" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Kole_0584" Name="TM0152" Position="-154" Score="4.5">
+          <Sequence>TTTCTATATGTTGTGA</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Kole_0584" Name="TM0152" Position="-126" Score="4.1">
+          <Sequence>CTCCAATACATTGTGT</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Kole_0530" Name="nrdD" Position="-35" Score="3.7">
+          <Sequence>TTACTATTTATAGGGA</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Kole_0530" Name="nrdD" Position="-66" Score="4.9">
+          <Sequence>ATACTATATATAGTAC</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7511964" LocusId="Kole_0530" Name="nrdD" Function="Anaerobic ribonucleoside-triphosphate reductase (EC 1.17.4.2)" />
+          <Members vimssId="7511963" LocusId="Kole_0529" Name="nrdX" Function="Anaerobic ribonucleoside-triphosphate reductase-activating protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7512020" LocusId="Kole_0584" Name="TM0152" Function="Conserved hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=755</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="OmpR" RegulationMode="activator">
+      <Regulator Key="PhoB" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=12564" />
+      <Effector>Inorganic phosphate</Effector>
+      <Pathway>Phosphate metabolism</Pathway>
+      <LocusTag Key="Kole_0706" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7512142&amp;disp=0" />
+      <BiologicalProcess>Phosphate metabolism</BiologicalProcess>
+      <Regulog Key="PhoB - Thermotogales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1353" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Kole_0711" Name="pstS" Position="-79" Score="6">
+          <Sequence>ATAAAAA---CCTAATA</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7512147" LocusId="Kole_0711" Name="pstS" Function="Phosphate ABC transport system, substrate-binding protein" />
+          <Members vimssId="7512146" LocusId="Kole_0710" Name="pstC" Function="Phosphate ABC transport system, permease protein 1" />
+          <Members vimssId="7512145" LocusId="Kole_0709" Name="pstA" Function="Phosphate ABC transport system, permease protein 2" />
+          <Members vimssId="7512144" LocusId="Kole_0708" Name="pstB" Function="Phosphate ABC transport system, ATP-binding protein" />
+          <Members vimssId="7512143" LocusId="Kole_0707" Name="phoU" Function="Regulator of phosphate transport" />
+          <Members vimssId="7512142" LocusId="Kole_0706" Name="phoB" Function="Phosphate starvation responsive two-component system, responsive regulator" />
+          <Members vimssId="7512141" LocusId="Kole_0705" Name="phoR" Function="Phosphate starvation responsive two-component system, sensor kinase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1353</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="RbsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=7318" />
+      <Effector>Ribose</Effector>
+      <Pathway>Ribose utilization</Pathway>
+      <LocusTag Key="Kole_0605" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7512041&amp;disp=0" />
+      <BiologicalProcess>Ribose utilization</BiologicalProcess>
+      <Regulog Key="RbsR - Thermotogales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=756" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Kole_0605" Name="rbsR" Position="-39" Score="5">
+          <Sequence>TCATGTAAACGTTTACGTAA</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Kole_0605" Name="rbsR" Position="-27" Score="5.6">
+          <Sequence>TTACGTAAACGTTTTCAGGA</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7512041" LocusId="Kole_0605" Name="rbsR" Function="Predicted regulator of ribose utilization, LacI family" />
+          <Members vimssId="7512040" LocusId="Kole_0604" Name="rbsA" Function="Ribose ABC transport system, ATP-binding protein RbsA (TC 3.A.1.2.1)" />
+          <Members vimssId="7512039" LocusId="Kole_0603" Name="rbsC" Function="Ribose ABC transport system, permease protein RbsC (TC 3.A.1.2.1)" />
+          <Members vimssId="7512038" LocusId="Kole_0602" Name="rbsB" Function="Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)" />
+          <Members vimssId="7512037" LocusId="Kole_0601" Name="rbsK" Function="Ribokinase (EC 2.7.1.15)" />
+          <Members vimssId="7512036" LocusId="Kole_0600" Name="rbsD" Function="D-ribose pyranase (D-ribose mutarotase) (EC 5.5.1.n1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=756</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=7340" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="Kole_1558" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7513011&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Thermotogales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=758" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Kole_0742" Name="adhA" Position="-111" Score="4.8">
+          <Sequence>cTGTGAAAAaaTTCACAt</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Kole_0180" Name="hycA" Position="-71" Score="4.6">
+          <Sequence>aaGTGAAAtaaaTaACAt</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Kole_2018" Name="dnaX" Position="-90" Score="5.4">
+          <Sequence>TaGTtAAtAaTTTCACAA</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Kole_0742" Name="adhA" Position="-33" Score="5.2">
+          <Sequence>AAGTGAAAAAATTCACAA</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Kole_0172" Name="hycD" Position="-57" Score="4.7">
+          <Sequence>TTGATAGAAAATTCACAA</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7511598" LocusId="Kole_0172" Name="hycD" Function="NAD-reducing Fe-hydrogenase, subunit HycD (EC 1.12.7.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7513486" LocusId="Kole_2018" Name="dnaX" Function="DNA polymerase III subunits gamma and tau" />
+          <Members vimssId="7513487" LocusId="Kole_2019" Name="TM0687" Function="conserved probable DNA binding protein, similar to YbaB family" />
+          <Members vimssId="7513488" LocusId="Kole_2020" Name="gap" Function="NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)" />
+          <Members vimssId="7513489" LocusId="Kole_2021" Name="pgk" Function="Phosphoglycerate kinase (EC 2.7.2.3)" />
+          <Members vimssId="7513490" LocusId="Kole_2022" Name="tpi" Function="Triosephosphate isomerase (EC 5.3.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7512178" LocusId="Kole_0742" Name="adhA" Function="Alcohol dehydrogenase (EC 1.1.1.1), Fe-dependent" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7511606" LocusId="Kole_0180" Name="hycA" Function="NAD-reducing Fe-hydrogenase, subunit HycA (EC 1.12.7.2)" />
+          <Members vimssId="7511607" LocusId="Kole_0181" Name="hycB" Function="NAD-reducing Fe-hydrogenase, subunit HycB (EC 1.12.7.2)" />
+          <Members vimssId="7511608" LocusId="Kole_0182" Name="hycC" Function="NAD-reducing Fe-hydrogenase, subunit HycC (EC 1.12.7.2)" />
+          <Members vimssId="7511609" LocusId="Kole_0183" Name="hycE" Function="NAD-reducing Fe-hydrogenase, subunit HycE (EC 1.12.7.2)" />
+          <Members vimssId="7511610" LocusId="Kole_0184" Name="hycF" Function="NAD-reducing Fe-hydrogenase, subunit HycF (EC 1.12.7.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=758</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="THA_1503" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52895" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux</Pathway>
+      <LocusTag Key="Kole_0656" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7512092&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux</BiologicalProcess>
+      <Regulog Key="THA_1503 - Thermotogales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5395" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Kole_0655" Name="THA_1504" Position="-49" Score="6.3">
+          <Sequence>AGTGTTCTAATAAAGTAGAACACT</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7512091" LocusId="Kole_0655" Name="THA_1504" Function="hypothetical protein" />
+          <Members vimssId="7512092" LocusId="Kole_0656" Name="THA_1503" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="7512093" LocusId="Kole_0657" Name="THA_1502" Function="ABC transporter, permease protein" />
+          <Members vimssId="7512094" LocusId="Kole_0658" Name="THA_1501" Function="ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5395</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ROK" RegulationMode="repressor">
+      <Regulator Key="TreR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=7373" />
+      <Effector>Trehalose</Effector>
+      <Pathway>Trehalose utilization</Pathway>
+      <LocusTag Key="Kole_0300" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7511727&amp;disp=0" />
+      <BiologicalProcess>Trehalose utilization</BiologicalProcess>
+      <Regulog Key="TreR - Thermotogales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=761" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Kole_0299" Name="treT" Position="-75" Score="5.6">
+          <Sequence>ATTTATTCAATACATGAACAAAG</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Kole_0303" Name="treX" Position="-74" Score="5.6">
+          <Sequence>CTTTATTCAAGACTTGAATTTAT</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7511726" LocusId="Kole_0299" Name="treT" Function="Trehalose synthase, nucleoside diphosphate glucose dependent" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7511730" LocusId="Kole_0303" Name="treX" Function="Predicted trehalose ABC transporter, substrate-binding component (Archaea-type)" />
+          <Members vimssId="7511729" LocusId="Kole_0302" Name="treY" Function="Predicted trehalose ABC transporter, permease component 1  (Archaea-type)" />
+          <Members vimssId="7511728" LocusId="Kole_0301" Name="treZ" Function="Predicted trehalose ABC transporter, permease component 2  (Archaea-type)" />
+          <Members vimssId="7511727" LocusId="Kole_0300" Name="treR" Function="Regulator of trehalose utilization TreR, ROK family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=761</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor">
+      <Regulator Key="UgtR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=12464" />
+      <Effector />
+      <Pathway>Sugar utilization</Pathway>
+      <LocusTag Key="Kole_0815" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7512254&amp;disp=0" />
+      <BiologicalProcess>Sugar utilization</BiologicalProcess>
+      <Regulog Key="UgtR - Thermotogales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1344" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Kole_0811" Name="ugtE" Position="-73" Score="5.2">
+          <Sequence>GatGAAAATaTTCTtC</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7512250" LocusId="Kole_0811" Name="ugtE" Function="hypothetical sugar ABC transporter, solute-binding protein UgtE" />
+          <Members vimssId="7512251" LocusId="Kole_0812" Name="ugtF" Function="hypothetical sugar ABC transporter, membrane protein UgtF" />
+          <Members vimssId="7512252" LocusId="Kole_0813" Name="ugtG" Function="hypothetical sugar ABC transporter, membrane protein UgtG" />
+          <Members vimssId="7512253" LocusId="Kole_0814" Name="TM1229" Function="glycosyl transferase family 2" />
+          <Members vimssId="7512254" LocusId="Kole_0815" Name="ugtR" Function="predicted sugar catabolic transcriptional regulator UgtR, RpiR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1344</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14071" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Kole_1602" Name="btuF" Position="-268" Score="100.3">
+          <Sequence>TGATCCGATTTAAAGATCTGGACAGACACTTCTCAAGGTAAACGCATAACCGGACAACAACGTCGGGATCAGGGAAACCGGTGAAAATCCGGTGCGGGCCCGCCACTGTGAGTGGGGACAAAATCCGCAATTATGCCACTGGCGAAAGCTGGGAAGGCGCGGAGAGTAGGATGATCCACGAGCCAGGAGACCTCCCCGACGTTTAAGGTTCGCC</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7513056" LocusId="Kole_1602" Name="btuF" Function="Vitamin B12 ABC transporter, B12-binding component BtuF" />
+          <Members vimssId="7513055" LocusId="Kole_1601" Name="btuC" Function="Vitamin B12 ABC transporter, permease component BtuC" />
+          <Members vimssId="7513054" LocusId="Kole_1600" Name="btuD" Function="Vitamin B12 ABC transporter, ATPase component BtuD" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13610" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Kole_1231" Name="ribD" Position="-208" Score="119.8">
+          <Sequence>AAATTCTCCGGGGCAGGGTGAAATTCCCGACCGGCGGTGAAAGCCCGCGAGCTCCTGAAGGAGTTGATCCGGTGGAATTCCGGAGCCGACGGTGAAAGTCCGGATGGGAGGAGAATTGATA</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7512676" LocusId="Kole_1231" Name="ribD" Function="Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26)  / 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)" />
+          <Members vimssId="7512677" LocusId="Kole_1232" Name="ribE" Function="Riboflavin synthase alpha chain (EC 2.5.1.9)" />
+          <Members vimssId="7512678" LocusId="Kole_1233" Name="ribBA" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase / GTP cyclohydrolase II (EC 3.5.4.25)" />
+          <Members vimssId="7512679" LocusId="Kole_1234" Name="ribH" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00557" RegulationMode="RF00557">
+      <Regulator Key="L10_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=24886" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L10_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Kole_1840" Name="rplJ" Position="-150" Score="41.2">
+          <Sequence>AAGTGAAAGTGAATATGTACCGAAGACAGTAGGTTTCTAAAGGTTTTCCATACCGCCTACCGAGGTACGCGGAAAAGATTGAAAGAATAATTTTTCACATATTTCTGCGGCCTCAATGGCCGCTTTTTTTGAAAGGAG</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7513306" LocusId="Kole_1840" Name="rplJ" Function="LSU ribosomal protein L10p (P0)" />
+          <Members vimssId="7513305" LocusId="Kole_1839" Name="rplL" Function="LSU ribosomal protein L7/L12 (P1/P2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00168" RegulationMode="RF00168">
+      <Regulator Key="Lysine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=20540" />
+      <Effector>Lysine</Effector>
+      <Pathway>Lysine biosynthesis</Pathway>
+      <LocusTag Key="Lysine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Kole_0108" Name="asd" Position="-259" Score="95.3">
+          <Sequence>TTTACCCCACAGAGGTGCACCGGAGATGAGTAAACCGTCCATCATGGGGATCGGGACGGATTGAAAGGCGAAGGTGCCGAAGGATACAGGGTACCCCAAGCTCTGTACTCCTGGGTATACGGGGAATACCCGTATAACTGTCACGGGGCTGTGTCTCGTGGAGCGCTGGTGGGCAT</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7511531" LocusId="Kole_0108" Name="asd" Function="Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11)" />
+          <Members vimssId="7511530" LocusId="Kole_0107" Name="dapF" Function="Diaminopimelate epimerase (EC 5.1.1.7)" />
+          <Members vimssId="7511529" LocusId="Kole_0106" Name="dapA" Function="Dihydrodipicolinate synthase (EC 4.2.1.52)" />
+          <Members vimssId="7511528" LocusId="Kole_0105" Name="dapB" Function="Dihydrodipicolinate reductase (EC 1.3.1.26)" />
+          <Members vimssId="7511527" LocusId="Kole_0104" Name="dapD" Function="2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase (EC 2.3.1.89)" />
+          <Members vimssId="7511526" LocusId="Kole_0103" Name="lysC" Function="Aspartokinase (EC 2.7.2.4)" />
+          <Members vimssId="7511525" LocusId="Kole_0102" Name="argD" Function="Acetylornithine aminotransferase (EC 2.6.1.11)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13882" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Kole_2154" Name="thiB" Position="-141" Score="76.4">
+          <Sequence>ATGGAACTGCCGGGGGAGCCTGTACAGGCTGAGAGTGCGTTCGGCGCAGACCCCTTGAACCTGATCCGGGTAATACCGGCGAAGGGAGGGCGTTTTCGAACCGT</Sequence>
+          <Bacteria>Thermotogales bacterium TBF 19.5.1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7513625" LocusId="Kole_2154" Name="thiB" Function="Thiamin ABC transporter, substrate-binding component" />
+          <Members vimssId="7513624" LocusId="Kole_2153" Name="thiP" Function="Thiamin ABC transporter, transmembrane component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

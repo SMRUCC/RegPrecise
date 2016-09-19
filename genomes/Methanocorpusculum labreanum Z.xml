@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Methanocorpusculum labreanum Z" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="Phr" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53195" />
+      <Effector />
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Mlab_1236" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2103585&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="Phr - Methanomicrobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5429" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mlab_1236" Name="phr" Position="-28" Score="4.3">
+          <Sequence>TCCCCTTACATAATGTAATCTCG</Sequence>
+          <Bacteria>Methanocorpusculum labreanum Z</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mlab_1294" Name="hsp20-1" Position="-55" Score="5.2">
+          <Sequence>GTGACTTACTATTAGTAAATCAC</Sequence>
+          <Bacteria>Methanocorpusculum labreanum Z</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2103585" LocusId="Mlab_1236" Name="phr" Function="Heat shock response regulator Phr, ArsR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2103650" LocusId="Mlab_1294" Name="hsp20-1" Function="Small heat shock protein 20" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5429</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="[Other]" RegulationMode="">
+      <Regulator Key="RbkR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66603" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="Mlab_1629" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2103996&amp;disp=0" />
+      <BiologicalProcess>Riboflavin biosynthesis</BiologicalProcess>
+      <Regulog Key="RbkR - Methanomicrobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6884" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mlab_0397" Name="ribE" Position="-100" Score="4.6">
+          <Sequence>TAACTCATTTTTGATTGG</Sequence>
+          <Bacteria>Methanocorpusculum labreanum Z</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2102709" LocusId="Mlab_0397" Name="ribE" Function="Riboflavin synthase alpha chain (EC 2.5.1.9)" />
+          <Members vimssId="2102708" LocusId="Mlab_0396" Name="ribB" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase" />
+          <Members vimssId="2102707" LocusId="Mlab_0395" Name="ribH" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6884</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

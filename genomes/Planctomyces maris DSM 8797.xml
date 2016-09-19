@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Planctomyces maris DSM 8797" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58734" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="PM8797T_01334" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4596936&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Planctomycetes" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6016" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PM8797T_17684" Name="recA" Position="-47" Score="5.4">
+          <Sequence>CTCGAACTCATTGCGGG</Sequence>
+          <Bacteria>Planctomyces maris DSM 8797</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PM8797T_01334" Name="lexA" Position="-101" Score="3.7">
+          <Sequence>CCCAAAATGTTTTTTTG</Sequence>
+          <Bacteria>Planctomyces maris DSM 8797</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4596936" LocusId="PM8797T_01334" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="4596313" LocusId="PM8797T_17684" Name="recA" Function="Recombinase A" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6016</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41972" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="PM8797T_08339" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4596152&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Planctomycetes" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4334" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PM8797T_04865" Name="nrdA" Position="-126" Score="4.5">
+          <Sequence>TCACTATTTGTGGGGC</Sequence>
+          <Bacteria>Planctomyces maris DSM 8797</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4591227" LocusId="PM8797T_04865" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="4591226" LocusId="PM8797T_04860" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4334</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

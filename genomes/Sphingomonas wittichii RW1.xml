@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Sphingomonas wittichii RW1" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="ELI_12480" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57348" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux</Pathway>
+      <LocusTag Key="Swit_0076" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7093065&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux</BiologicalProcess>
+      <Regulog Key="ELI_12480 - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5865" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Swit_0261" Name="ELI_11155" Position="-72" Score="3.3">
+          <Sequence>CGCCGTATCGCTTGAATAATGCACCC</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_4745" Name="rndA" Position="-70" Score="4.2">
+          <Sequence>AGGTGACGTATTGAGATAATACAGCT</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_0076" Name="ELI_12480" Position="-25" Score="4.8">
+          <Sequence>TGCTGTGTTAGCACAGTGTGACGCCA</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7093252" LocusId="Swit_0261" Name="ELI_11155" Function="Uncharacterized protein involved in tellurite resistance" />
+          <Members vimssId="7093251" LocusId="Swit_0260" Name="ELI_11160" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7097785" LocusId="Swit_4745" Name="rndA" Function="RND family efflux transporter MFP subunit" />
+          <Members vimssId="7097784" LocusId="Swit_4744" Name="rndB" Function="RND multidrug efflux transporter transmembrane subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7093065" LocusId="Swit_0076" Name="ELI_12480" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5865</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator (repressor)">
+      <Regulator Key="FnrN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63361" />
+      <Effector>Oxygen</Effector>
+      <Pathway>Oxidative stress response; Nitrogen fixation</Pathway>
+      <LocusTag Key="Swit_1945" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7094952&amp;disp=0" />
+      <BiologicalProcess>Oxidative stress response; Nitrogen fixation</BiologicalProcess>
+      <Regulog Key="FnrN - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6529" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Swit_1801" Name="ccoN" Position="-200" Score="5.1">
+          <Sequence>GATTTGATCTGGCGCAAGGC</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7094808" LocusId="Swit_1801" Name="ccoN" Function="Cytochrome c oxidase subunit CcoN (EC 1.9.3.1)" />
+          <Members vimssId="7094807" LocusId="Swit_1800" Name="ccoO" Function="Cytochrome c oxidase subunit CcoO (EC 1.9.3.1)" />
+          <Members vimssId="7094806" LocusId="Swit_1799" Name="ccoQ" Function="Cytochrome c oxidase subunit CcoQ (EC 1.9.3.1)" />
+          <Members vimssId="7094805" LocusId="Swit_1798" Name="ccoP" Function="Cytochrome c oxidase subunit CcoP (EC 1.9.3.1)" />
+          <Members vimssId="7094804" LocusId="Swit_1797" Name="ccoX" Function="Predicted integral membrane protein CcoX" />
+          <Members vimssId="7094803" LocusId="Swit_1796" Name="ccoI" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoI; Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="7094802" LocusId="Swit_1795" Name="ccoS" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoS, involved in heme b insertion" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6529</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor (activator)">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19550" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="Swit_2385" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7095394&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2112" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Swit_3225" Name="omp4" Position="-85" Score="4.9">
+          <Sequence>AATGAGAATCATTCTCAGA</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_3225" Name="omp4" Position="-61" Score="5.1">
+          <Sequence>TTTGCGATTCATTTTCAAT</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_4047" Name="tonB" Position="-56" Score="5.3">
+          <Sequence>ATTGCGATTGATTTGCACT</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_3561" Name="omp3" Position="-72" Score="5.1">
+          <Sequence>ATTGCGTTTGATTCGCATT</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_3138" Name="bfd" Position="-50" Score="4.7">
+          <Sequence>ATTGATAGTCAGTTGCAAT</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_2982" Name="nuoA" Position="-104" Score="5.5">
+          <Sequence>GTTGCGAATCATTCTCACT</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_3823" Name="hemA" Position="-96" Score="5.2">
+          <Sequence>ATTGGGAATCGTTCGCACT</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_2450" Name="feoA" Position="-19" Score="4.8">
+          <Sequence>ATTGATAATCACTCGCAGC</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_0430" Name="PF03929" Position="-93" Score="5.8">
+          <Sequence>ATTGCGAACAGTTCGCATT</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_2730" Name="" Position="-62" Score="5.6">
+          <Sequence>ATTGCGATTGACTCGCAAT</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7095750" LocusId="Swit_2730" Name="null" Function="Hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7097082" LocusId="Swit_4047" Name="tonB" Function="Ferric siderophore transport system, periplasmic binding protein TonB" />
+          <Members vimssId="7097081" LocusId="Swit_4046" Name="piuC" Function="Iron-uptake factor PiuC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7095460" LocusId="Swit_2450" Name="feoA" Function="Ferrous iron transport protein A" />
+          <Members vimssId="7095461" LocusId="Swit_2451" Name="feoB" Function="Ferrous iron transport protein B" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7096159" LocusId="Swit_3138" Name="bfd" Function="Bacterioferritin-associated ferredoxin" />
+          <Members vimssId="7096160" LocusId="Swit_3139" Name="bfr" Function="Bacterioferritin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7096592" LocusId="Swit_3561" Name="omp3" Function="TonB-dependent siderophore receptor" />
+          <Members vimssId="7096591" LocusId="Swit_3560" Name="omp2" Function="TonB-dependent siderophore receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7096002" LocusId="Swit_2982" Name="nuoA" Function="NADH ubiquinone oxidoreductase chain A (EC 1.6.5.3)" />
+          <Members vimssId="7096003" LocusId="Swit_2983" Name="nuoB" Function="NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)" />
+          <Members vimssId="7096004" LocusId="Swit_2984" Name="nuoC" Function="NADH-ubiquinone oxidoreductase chain C (EC 1.6.5.3)" />
+          <Members vimssId="7096005" LocusId="Swit_2985" Name="nuoD" Function="NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)" />
+          <Members vimssId="7096006" LocusId="Swit_2986" Name="nuoE" Function="NADH-ubiquinone oxidoreductase chain E (EC 1.6.5.3)" />
+          <Members vimssId="7096007" LocusId="Swit_2987" Name="null" Function="Hypothetical protein" />
+          <Members vimssId="7096008" LocusId="Swit_2988" Name="nuoF" Function="NADH-ubiquinone oxidoreductase chain F (EC 1.6.5.3)" />
+          <Members vimssId="7096009" LocusId="Swit_2989" Name="null" Function="Hypothetical protein" />
+          <Members vimssId="7096010" LocusId="Swit_2990" Name="null" Function="Hypothetical protein" />
+          <Members vimssId="7096011" LocusId="Swit_2991" Name="nuoG" Function="NADH-ubiquinone oxidoreductase chain G (EC 1.6.5.3)" />
+          <Members vimssId="7096012" LocusId="Swit_2992" Name="nuoH" Function="NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)" />
+          <Members vimssId="7096013" LocusId="Swit_2993" Name="nuoI" Function="NADH-ubiquinone oxidoreductase chain I (EC 1.6.5.3)" />
+          <Members vimssId="7096014" LocusId="Swit_2994" Name="nuoJ" Function="NADH-ubiquinone oxidoreductase chain J (EC 1.6.5.3)" />
+          <Members vimssId="7096015" LocusId="Swit_2995" Name="nuoK" Function="NADH-ubiquinone oxidoreductase chain K (EC 1.6.5.3)" />
+          <Members vimssId="7096016" LocusId="Swit_2996" Name="nuoL" Function="NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)" />
+          <Members vimssId="7096017" LocusId="Swit_2997" Name="nuoM" Function="NADH-ubiquinone oxidoreductase chain M (EC 1.6.5.3)" />
+          <Members vimssId="7096018" LocusId="Swit_2998" Name="nuoN" Function="NADH-ubiquinone oxidoreductase chain N (EC 1.6.5.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7096246" LocusId="Swit_3225" Name="omp4" Function="TonB-dependent siderophore receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7096855" LocusId="Swit_3823" Name="hemA" Function="5-aminolevulinate synthase (EC 2.3.1.37)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7093423" LocusId="Swit_0430" Name="PF03929" Function="PepSY-associated TM helix domain protein" />
+          <Members vimssId="7093422" LocusId="Swit_0429" Name="COG3656" Function="Periplasmic-like protein" />
+          <Members vimssId="7093421" LocusId="Swit_0428" Name="null" Function="Putative exported protein" />
+          <Members vimssId="7093420" LocusId="Swit_0427" Name="apbE" Function="ApbE family lipoprotein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2112</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49768" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Swit_0566" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7093563&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5039" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Swit_3375" Name="groS" Position="-100" Score="6.4">
+          <Sequence>CTGGCACTCGCTTCCGGTGAGTGCTAA</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7096397" LocusId="Swit_3375" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="7096398" LocusId="Swit_3376" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5039</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="HutC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17426" />
+      <Effector>cis-Urocanic acid</Effector>
+      <Pathway>Histidine utilization</Pathway>
+      <LocusTag Key="Swit_4635" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7097673&amp;disp=0" />
+      <BiologicalProcess>Histidine utilization</BiologicalProcess>
+      <Regulog Key="HutC - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1879" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Swit_4633" Name="hutI" Position="-61" Score="5.9">
+          <Sequence>ATAATGTCTATACATTAT</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_4634" Name="hutF" Position="-32" Score="5.9">
+          <Sequence>ATAATGTATAGACATTAT</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7097672" LocusId="Swit_4634" Name="hutF" Function="Formiminoglutamic iminohydrolase (EC 3.5.3.13)" />
+          <Members vimssId="7097673" LocusId="Swit_4635" Name="hutC" Function="Histidine utilization repressor, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7097671" LocusId="Swit_4633" Name="hutI" Function="Imidazolonepropionase (EC 3.5.2.7)" />
+          <Members vimssId="7097670" LocusId="Swit_4632" Name="hutH" Function="Histidine ammonia-lyase (EC 4.3.1.3)" />
+          <Members vimssId="7097669" LocusId="Swit_4631" Name="hutG" Function="N-formylglutamate deformylase (EC 3.5.1.68)" />
+          <Members vimssId="7097668" LocusId="Swit_4630" Name="hutU" Function="Urocanate hydratase (EC 4.2.1.49)" />
+          <Members vimssId="7097667" LocusId="Swit_4629" Name="hutD" Function="Conserved hypothetical protein related to histidine degradation" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1879</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17970" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="Swit_2919" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7095939&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1940" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Swit_2919" Name="iscR" Position="-38" Score="6.7">
+          <Sequence>CAATCGGATCGAATCAGTCCGATTG</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7095939" LocusId="Swit_2919" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="7095938" LocusId="Swit_2918" Name="sufB" Function="Iron-sulfur cluster assembly protein SufB" />
+          <Members vimssId="7095937" LocusId="Swit_2917" Name="sufC" Function="Iron-sulfur cluster assembly ATPase protein SufC" />
+          <Members vimssId="7095936" LocusId="Swit_2916" Name="sufD" Function="Iron-sulfur cluster assembly protein SufD" />
+          <Members vimssId="7095935" LocusId="Swit_2915" Name="sufS" Function="Cysteine desulfurases, SufS subfamily" />
+          <Members vimssId="7095934" LocusId="Swit_2914" Name="sufT" Function="Iron sulfur cluster assembly protein SufT" />
+          <Members vimssId="7095933" LocusId="Swit_2913" Name="sufA" Function="Iron binding protein SufA for iron-sulfur cluster assembly" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1940</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28412" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="Swit_3216" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7096237&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2988" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Swit_3216" Name="lexA" Position="-44" Score="4.9">
+          <Sequence>GTTGCCTAAATGTTC</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_4095" Name="PF04055" Position="-20" Score="4.6">
+          <Sequence>GTTCATGATATGTTC</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_4092" Name="radA" Position="-28" Score="4.2">
+          <Sequence>GTTCTTGGTTCGTTC</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_0512" Name="recA" Position="-89" Score="5">
+          <Sequence>GTTCTCCCCTTGTTC</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_0232" Name="rmuC" Position="-28" Score="4.7">
+          <Sequence>GTTCCCATTCTGTTC</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_3565" Name="yoaA" Position="-39" Score="5.3">
+          <Sequence>GTTCCCCAATCGTTC</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_1121" Name="imuA" Position="-15" Score="0.9">
+          <Sequence>GAACAAAAATAGAAC</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_2823" Name="PF06319" Position="-9" Score="4.8">
+          <Sequence>GTTCCCGCAATGTTC</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_3107" Name="uvrA" Position="-25" Score="0.8">
+          <Sequence>GAACAAATCTGGAAC</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7096596" LocusId="Swit_3565" Name="yoaA" Function="DinG family ATP-dependent helicase YoaA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7094124" LocusId="Swit_1121" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="7094123" LocusId="Swit_1120" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+          <Members vimssId="7094122" LocusId="Swit_1119" Name="dnaE2" Function="DNA polymerase III alpha chain" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7096237" LocusId="Swit_3216" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7095843" LocusId="Swit_2823" Name="PF06319" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7097130" LocusId="Swit_4095" Name="PF04055" Function="Radical SAM domain protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7097127" LocusId="Swit_4092" Name="radA" Function="DNA repair protein RadA" />
+          <Members vimssId="7097128" LocusId="Swit_4093" Name="cvpA" Function="Colicin V production protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7093223" LocusId="Swit_0232" Name="rmuC" Function="DNA recombination protein RmuC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7096128" LocusId="Swit_3107" Name="uvrA" Function="Excinuclease ABC subunit A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7093507" LocusId="Swit_0512" Name="recA" Function="Recombinase A" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2988</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="LiuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28608" />
+      <Effector />
+      <Pathway>Branched-chain amino acid degradation</Pathway>
+      <LocusTag Key="Swit_0576" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7093573&amp;disp=0" />
+      <BiologicalProcess>Branched-chain amino acid degradation</BiologicalProcess>
+      <Regulog Key="LiuR - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3009" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Swit_4100" Name="etfD" Position="-90" Score="4.7">
+          <Sequence>GTTGACGAAGGCGTCAAT</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7097135" LocusId="Swit_4100" Name="etfD" Function="Electron transfer flavoprotein-ubiquinone oxidoreductase (EC 1.5.5.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3009</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="MerR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51195" />
+      <Effector>Mercury ion, (Hg2+)</Effector>
+      <Pathway>Mercury resistance</Pathway>
+      <LocusTag Key="Swit_1123" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7094126&amp;disp=0" />
+      <BiologicalProcess>Mercury resistance</BiologicalProcess>
+      <Regulog Key="MerR - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5189" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Swit_1124" Name="grxC" Position="-65" Score="4.1">
+          <Sequence>CAACCGTACCATGGTACAGCCC</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7094127" LocusId="Swit_1124" Name="grxC" Function="Glutaredoxin" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5189</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21313" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdenum homeostasis</Pathway>
+      <LocusTag Key="Swit_4419" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7097454&amp;disp=0" />
+      <BiologicalProcess>Molybdenum homeostasis</BiologicalProcess>
+      <Regulog Key="ModE2 - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2308" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Swit_4418" Name="modA" Position="-54" Score="5.2">
+          <Sequence>GCCATATATTATGGGATATAGC</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7097453" LocusId="Swit_4418" Name="modA" Function="Molybdate ABC transporter, substrate-binding protein" />
+          <Members vimssId="7097452" LocusId="Swit_4417" Name="modB" Function="Molybdate ABC transporter, permease protein" />
+          <Members vimssId="7097451" LocusId="Swit_4416" Name="modC" Function="Molybdate ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2308</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="NnrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16892" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Denitrification</Pathway>
+      <LocusTag Key="Swit_5204" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7098019&amp;disp=0" />
+      <BiologicalProcess>Denitrification</BiologicalProcess>
+      <Regulog Key="NnrR - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1819" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Swit_5203" Name="hmp1" Position="-71" Score="5.4">
+          <Sequence>GTTTGCGCCAGCGCAAAC</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_5204" Name="nnrR" Position="10" Score="5.4">
+          <Sequence>GTTTGCGCTGGCGCAAAC</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7098019" LocusId="Swit_5204" Name="nnrR" Function="Nitric oxide responding transcriptional regulator NnrR (Crp/Fnr family)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7098018" LocusId="Swit_5203" Name="hmp1" Function="Flavohemoprotein, nitric oxide dioxygenase" />
+          <Members vimssId="7098017" LocusId="Swit_5202" Name="tehB" Function="possible tellurite resistance protein" />
+          <Members vimssId="7098016" LocusId="Swit_5201" Name="Swit_5201" Function="hypothetical protein" />
+          <Members vimssId="7098015" LocusId="Swit_5200" Name="norB" Function="Nitric-oxide reductase (EC 1.7.99.7), quinol-dependent" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1819</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15622" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Swit_1132" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7094135&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1677" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Swit_1504" Name="nrdA" Position="-234" Score="5">
+          <Sequence>GCACTATAGGTTGTGT</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_1504" Name="nrdA" Position="-203" Score="4.3">
+          <Sequence>GCGCTAGAGATGGTGG</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_1505" Name="" Position="-191" Score="4.8">
+          <Sequence>ACACAAGCTCTTGTGG</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7094510" LocusId="Swit_1504" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7094511" LocusId="Swit_1505" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7094512" LocusId="Swit_1506" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1677</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19392" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="Swit_0247" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7093238&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2094" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Swit_1918" Name="glnK" Position="-159" Score="5.4">
+          <Sequence>TGCCTAAAAAACGGGCA</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_1918" Name="glnK" Position="-141" Score="4">
+          <Sequence>GGCTCAACTTTTAGACA</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_4832" Name="glnB" Position="-145" Score="5.4">
+          <Sequence>TGCCCATTTTTCAGGCA</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_0245" Name="nifR3" Position="-27" Score="4.9">
+          <Sequence>TGCCGCTTTTTTAGGCA</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7097873" LocusId="Swit_4832" Name="glnB" Function="Glutamate synthase, large chain (EC 1.4.1.13)" />
+          <Members vimssId="7097872" LocusId="Swit_4831" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7093236" LocusId="Swit_0245" Name="nifR3" Function="Nitrogen assimilation transcriptional regulator NtrX, Fis family" />
+          <Members vimssId="7093237" LocusId="Swit_0246" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="7093238" LocusId="Swit_0247" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7094925" LocusId="Swit_1918" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="7094924" LocusId="Swit_1917" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2094</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxQ2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59430" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine/pyridoxal homeostasis; Metabolite transport</Pathway>
+      <LocusTag Key="Swit_4755" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7097795&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis; Metabolite transport</BiologicalProcess>
+      <Regulog Key="PdxQ2 - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6100" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Swit_4757" Name="PF01810" Position="-285" Score="8.5">
+          <Sequence>TTTAATGTCAC-GTGACAATATG</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_4755" Name="pdxQ2" Position="-31" Score="8.5">
+          <Sequence>CATATTGTCAC-GTGACATTAAA</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7097795" LocusId="Swit_4755" Name="pdxQ2" Function="Transcriptional regulator, GntR/MocR family" />
+          <Members vimssId="7097794" LocusId="Swit_4754" Name="pdxH" Function="Pyridoxamine 5'-phosphate oxidase (EC 1.4.3.5)" />
+          <Members vimssId="7097793" LocusId="Swit_4753" Name="ELI_13440" Function="Cobalt-zinc-cadmium resistance protein" />
+          <Members vimssId="7097792" LocusId="Swit_4752" Name="phzF" Function="Phenazine biosynthesis protein PhzF" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7097797" LocusId="Swit_4757" Name="PF01810" Function="Transporter, LysE family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6100</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SahR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15824" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="Swit_2402" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7095411&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SahR - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1699" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Swit_4786" Name="" Position="-558" Score="6.3">
+          <Sequence>ATATAAAGTTTTCTTTATAT</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_3373" Name="metK" Position="-79" Score="5.7">
+          <Sequence>ATATAACGAAGTCTTTATAT</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_2674" Name="ahcY" Position="-102" Score="6.3">
+          <Sequence>ATATAAAGAAACCTTTATAT</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_2402" Name="sahR" Position="-16" Score="6.7">
+          <Sequence>ATATAAAGATTTCTTTATGT</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7096395" LocusId="Swit_3373" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7095694" LocusId="Swit_2674" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7097827" LocusId="Swit_4786" Name="null" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7095411" LocusId="Swit_2402" Name="sahR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+          <Members vimssId="7095410" LocusId="Swit_2401" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+          <Members vimssId="7095409" LocusId="Swit_2400" Name="metH2" Function="5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)" />
+          <Members vimssId="7095408" LocusId="Swit_2399" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1699</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="Swit_4344" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58903" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Swit_4344" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7097380&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="Swit_4344 - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6036" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Swit_4345" Name="COG4117" Position="-143" Score="6.6">
+          <Sequence>CGATGGTCCA--------------TTCCGGTCCT</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7097381" LocusId="Swit_4345" Name="COG4117" Function="Thiosulfate reductase cytochrome B subunit (membrane anchoring protein)" />
+          <Members vimssId="7097382" LocusId="Swit_4346" Name="COG2041" Function="oxidoreductase, molybdopterin binding" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6036</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YrdX3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=64180" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Swit_2764" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7095784&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="YrdX3 - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6620" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Swit_2764" Name="yrdX3" Position="-43" Score="7.8">
+          <Sequence>TTTGTATGGCT-----AACCATACATA</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_2765" Name="COG5349" Position="-65" Score="7.8">
+          <Sequence>TATGTATGGTT-----AGCCATACAAA</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7095785" LocusId="Swit_2765" Name="COG5349" Function="conserved hypothetical protein in cyt c oxidase gene clusters" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7095784" LocusId="Swit_2764" Name="yrdX3" Function="Transcriptional regulator, GntR family domain / Aspartate aminotransferase (EC 2.6.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6620</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16162" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="Swit_1462" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7094468&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1737" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Swit_1463" Name="PF03203" Position="-55" Score="5.4">
+          <Sequence>GCAATGATATATTGTATCTTCGA</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Swit_2441" Name="tonB1" Position="-70" Score="5.1">
+          <Sequence>CCATCGTAATGATGTATCATTGC</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7095451" LocusId="Swit_2441" Name="tonB1" Function="Ferric siderophore transport system, periplasmic binding protein TonB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7094469" LocusId="Swit_1463" Name="PF03203" Function="MerC-like membrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1737</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48802" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Swit_3201" Name="thiC" Position="-147" Score="53.8">
+          <Sequence>TTACATCCCCGGGGAGCCGAAGGCTGAGAGGTGGCGCTGCGATGCCCACGACCCGCTGAACCTGATCCGGCTCGCACCGGCGTAGGGAGGGAACGCCGCCAGCGGTC</Sequence>
+          <Bacteria>Sphingomonas wittichii RW1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7096222" LocusId="Swit_3201" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

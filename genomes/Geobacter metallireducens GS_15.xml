@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Geobacter metallireducens GS-15" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15072" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="Gmet_1987" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1090498&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1617" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gmet_0842" Name="bioF" Position="-65" Score="8.4">
+          <Sequence>TTGTCAACC--------------GGTTGACGA</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_1582" Name="bioB" Position="-75" Score="7.9">
+          <Sequence>TTGTTAACC--------------AGTTGACAA</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1090080" LocusId="Gmet_1582" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="1090079" LocusId="Gmet_1581" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+          <Members vimssId="1090078" LocusId="Gmet_1580" Name="bioA" Function="Adenosylmethionine-8-amino-7-oxononanoate aminotransferase (EC 2.6.1.62)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1089323" LocusId="Gmet_0842" Name="bioF" Function="8-amino-7-oxononanoate synthase (EC 2.3.1.47)" />
+          <Members vimssId="1089324" LocusId="Gmet_0843" Name="bioH" Function="Biotin synthesis protein bioH" />
+          <Members vimssId="1089325" LocusId="Gmet_0844" Name="bioC" Function="Biotin synthesis protein bioC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1617</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor (activator)">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19556" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="Gmet_2445" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1090957&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2114" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gmet_2445" Name="fur" Position="-29" Score="5.7">
+          <Sequence>TTGAAAATCACTTTCAG</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_2833" Name="Gmet_2833" Position="-38" Score="5.4">
+          <Sequence>ATGAAATGGAATTTCAA</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_2444" Name="feoB1" Position="-47" Score="5.5">
+          <Sequence>TTGAAAGTGAATATCAA</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_2944" Name="psp" Position="-199" Score="5.4">
+          <Sequence>TTGAAAAAGACTTTCAT</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_2944" Name="psp" Position="-100" Score="5.4">
+          <Sequence>ATGAATATGAATTTCAA</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1090957" LocusId="Gmet_2445" Name="fur" Function="Ferric uptake regulation protein FUR" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1090956" LocusId="Gmet_2444" Name="feoB1" Function="Ferrous iron transport protein B" />
+          <Members vimssId="1090955" LocusId="Gmet_2443" Name="Gura_3000" Function="hypothetical protein" />
+          <Members vimssId="1090954" LocusId="Gmet_2442" Name="ideR" Function="iron (metal) dependent repressor, DtxR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1091345" LocusId="Gmet_2833" Name="Gmet_2833" Function="hypothetical protein" />
+          <Members vimssId="1091344" LocusId="Gmet_2832" Name="PF10087" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1091463" LocusId="Gmet_2944" Name="psp" Function="Iron-regulated porin, similar to phosphate-selective porin" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2114</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="HcpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62681" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="Gmet_0092" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1088565&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="HcpR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6450" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gmet_2834" Name="hcp" Position="-150" Score="5.5">
+          <Sequence>TCTTGACCAAGGTCAAAG</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_0295" Name="nrfH" Position="-112" Score="5.3">
+          <Sequence>CTTTGACATAAGTCAAGG</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_0296" Name="nrfA" Position="-196" Score="5.3">
+          <Sequence>CCTTGACTTATGTCAAAG</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_3041" Name="ndh" Position="-81" Score="5.3">
+          <Sequence>TTTTGACCACGGTCAAGG</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_2513" Name="SSF140683" Position="-73" Score="4.6">
+          <Sequence>TTTTGATTCACATCATAA</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_3184" Name="ygbA" Position="-2" Score="5">
+          <Sequence>TTTTGACATTGGTCATGA</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_0691" Name="COG1917" Position="-24" Score="5.2">
+          <Sequence>TTTTGACCGGGGTCAAAC</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1091346" LocusId="Gmet_2834" Name="hcp" Function="Hydroxylamine reductase (EC 1.7.-.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1091025" LocusId="Gmet_2513" Name="SSF140683" Function="SP0561-like superfamily hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1089172" LocusId="Gmet_0691" Name="COG1917" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1091703" LocusId="Gmet_3184" Name="ygbA" Function="hypothetical protein involved in nitrosative stress" />
+          <Members vimssId="1091704" LocusId="Gmet_3185" Name="frdX1" Function="Ferredoxin fused to uncharacterized domain" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1091560" LocusId="Gmet_3041" Name="ndh" Function="NADH dehydrogenase (EC 1.6.99.3)" />
+          <Members vimssId="1091559" LocusId="Gmet_3040" Name="COG2006" Function="Iron-sulfur cluster-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1088769" LocusId="Gmet_0295" Name="nrfH" Function="Cytochrome c nitrite reductase, small subunit NrfH" />
+          <Members vimssId="1088768" LocusId="Gmet_0294" Name="nrfA" Function="Cytochrome c552 precursor (EC 1.7.2.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1088770" LocusId="Gmet_0296" Name="nrfA" Function="Cytochrome c552 precursor (EC 1.7.2.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6450</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49774" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Gmet_3534" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1092064&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5041" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gmet_2854" Name="rpoH" Position="-64" Score="7.3">
+          <Sequence>TTAGCACTCAGACAAACCGAGTGCTAA</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_0028" Name="groS" Position="-81" Score="7.4">
+          <Sequence>TTAGCACTCAGCTGTATCGAGTGCTAA</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_3534" Name="hrcA" Position="-46" Score="7.4">
+          <Sequence>TTAGCACTCACCAACTCTGAGTGCTAA</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1092064" LocusId="Gmet_3534" Name="hrcA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="1092063" LocusId="Gmet_3533" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="1092062" LocusId="Gmet_3532" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="1092061" LocusId="Gmet_3531" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1088501" LocusId="Gmet_0028" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="1088502" LocusId="Gmet_0029" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1091367" LocusId="Gmet_2854" Name="rpoH" Function="Heat shock response RNA polymerase sigma factor RpoH (Sigma 32)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5041</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17976" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="Gmet_0871" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1089353&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1942" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gmet_0991" Name="iscU" Position="-62" Score="6.4">
+          <Sequence>ATACCTGACAATTTTGCTATAGTAT</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_0870" Name="cysE" Position="-138" Score="7.1">
+          <Sequence>ATAGTTGACAGATTTTGTAAGGTAT</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1089473" LocusId="Gmet_0991" Name="iscU" Function="Iron-sulfur cluster assembly scaffold protein IscU" />
+          <Members vimssId="1089474" LocusId="Gmet_0992" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1089352" LocusId="Gmet_0870" Name="cysE" Function="Serine acetyltransferase (EC 2.3.1.30)" />
+          <Members vimssId="1089353" LocusId="Gmet_0871" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="1089354" LocusId="Gmet_0872" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1942</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28418" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="Gmet_1439" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1089936&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2990" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gmet_1439" Name="lexA" Position="-35" Score="5.4">
+          <Sequence>GGTTGGCACATGTGAACC</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1089936" LocusId="Gmet_1439" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+          <Members vimssId="1089937" LocusId="Gmet_1440" Name="Gmet_1440" Function="Conserved hypothetical protein" />
+          <Members vimssId="1089938" LocusId="Gmet_1441" Name="dinB" Function="DNA polymerase IV (EC 2.7.7.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2990</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NikR" RegulationMode="repressor">
+      <Regulator Key="NikR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15994" />
+      <Effector>Nickel ion, (Ni2+)</Effector>
+      <Pathway>Nickel homeostasis</Pathway>
+      <LocusTag Key="Gmet_0494" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1088970&amp;disp=0" />
+      <BiologicalProcess>Nickel homeostasis</BiologicalProcess>
+      <Regulog Key="NikR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1720" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gmet_2441" Name="nikMN" Position="-62" Score="7.7">
+          <Sequence>GTGTTAC-------------GTAACAC</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1090953" LocusId="Gmet_2441" Name="nikMN" Function="Substrate-specific component NikM of nickel ECF transporter / Additional substrate-specific component NikN of nickel ECF transporter" />
+          <Members vimssId="1090952" LocusId="Gmet_2440" Name="nikQ" Function="Transmembrane component NikQ of energizing module of nickel ECF transporter" />
+          <Members vimssId="1090951" LocusId="Gmet_2439" Name="nikO" Function="ATPase component NikO of energizing module of nickel ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1720</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15628" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Gmet_1623" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1090121&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1679" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gmet_1297" Name="nrdJ" Position="-101" Score="5">
+          <Sequence>GCCATACATATTGTGG</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1089786" LocusId="Gmet_1297" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1679</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19398" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="Gmet_2563" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1091075&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2096" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gmet_2561" Name="nifR" Position="-46" Score="5">
+          <Sequence>TGCTTAAATTTTAAGCA</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_1186" Name="gdhA" Position="-152" Score="4.5">
+          <Sequence>TGCCGCAAATTCGGGCA</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_0669" Name="nifEN" Position="-217" Score="4.9">
+          <Sequence>TGCATAAAATGTGTGCA</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_0693" Name="Gmet_0693" Position="-349" Score="5">
+          <Sequence>TGCTTATATAATGTGCA</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_1351" Name="glnB" Position="-259" Score="4.3">
+          <Sequence>TGCTTCTGATTTGTGCA</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1089842" LocusId="Gmet_1351" Name="glnB" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="1089843" LocusId="Gmet_1352" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1091073" LocusId="Gmet_2561" Name="nifR" Function="Predicted oxidoreductase, FAD binding" />
+          <Members vimssId="1091074" LocusId="Gmet_2562" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="1091075" LocusId="Gmet_2563" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1089174" LocusId="Gmet_0693" Name="Gmet_0693" Function="Conserved hypothetical protein" />
+          <Members vimssId="1089175" LocusId="Gmet_0694" Name="glnK1" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="1089176" LocusId="Gmet_0695" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1089150" LocusId="Gmet_0669" Name="nifEN" Function="Nitrogenase FeMo-cofactor scaffold and assembly protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1089674" LocusId="Gmet_1186" Name="gdhA" Function="NADP-specific glutamate dehydrogenase (EC 1.4.1.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2096</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PrpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17252" />
+      <Effector>2-methylcitrate</Effector>
+      <Pathway>Methylcitrate utilization</Pathway>
+      <LocusTag Key="Gmet_1121" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1089604&amp;disp=0" />
+      <BiologicalProcess>Methylcitrate utilization</BiologicalProcess>
+      <Regulog Key="PrpR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1861" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gmet_1121" Name="prpR" Position="-85" Score="4.8">
+          <Sequence>AGTGTCGACACT</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_1121" Name="prpR" Position="-12" Score="4.1">
+          <Sequence>GGTGTCGACAAA</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1089604" LocusId="Gmet_1121" Name="prpR" Function="Propionate catabolism transcriptional regulator, GntR family" />
+          <Members vimssId="1089605" LocusId="Gmet_1122" Name="prpB" Function="Methylisocitrate lyase (EC 4.1.3.30)" />
+          <Members vimssId="1089606" LocusId="Gmet_1123" Name="prpD" Function="2-methylcitrate dehydratase (EC 4.2.1.79)" />
+          <Members vimssId="1089607" LocusId="Gmet_1124" Name="prpC" Function="2-methylcitrate synthase (EC 2.3.3.5)" />
+          <Members vimssId="1089608" LocusId="Gmet_1125" Name="ach" Function="Acetyl-CoA hydrolase (EC 3.1.2.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1861</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="SdhR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62175" />
+      <Effector />
+      <Pathway>Tricarboxylic acid cycle</Pathway>
+      <LocusTag Key="Gmet_0062" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1088535&amp;disp=0" />
+      <BiologicalProcess>Tricarboxylic acid cycle</BiologicalProcess>
+      <Regulog Key="SdhR2 - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6389" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gmet_2689" Name="gltA" Position="-215" Score="6.2">
+          <Sequence>TTGTATACAGTATACTA</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_3023" Name="sfrB" Position="-99" Score="6.5">
+          <Sequence>TTGCATACTGTATACAA</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_2397" Name="sdhC" Position="-243" Score="5.9">
+          <Sequence>TAGTATACAGTATACAG</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_3356" Name="hemL" Position="-224" Score="5.9">
+          <Sequence>GCGTATACTGTATACAA</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_0063" Name="Gura_4160" Position="-135" Score="6.8">
+          <Sequence>TTGTATACAGTATACAA</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_1359" Name="icd" Position="-145" Score="6.2">
+          <Sequence>TTGCATACTGTATACAC</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_0062" Name="sdhR2" Position="-47" Score="6.8">
+          <Sequence>TTGTATACTGTATACAA</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_3355" Name="nuoA-1" Position="-111" Score="5.9">
+          <Sequence>TTGTATACAGTATACGC</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_1912" Name="acnB" Position="-94" Score="5.7">
+          <Sequence>TTGTATACAGTATCCAT</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1091878" LocusId="Gmet_3356" Name="hemL" Function="Glutamate-1-semialdehyde aminotransferase (EC 5.4.3.8)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1090421" LocusId="Gmet_1912" Name="acnB" Function="Aconitate hydratase 2 (EC 4.2.1.3) / 2-methylisocitrate dehydratase (EC 4.2.1.99)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1091201" LocusId="Gmet_2689" Name="gltA" Function="Citrate synthase (si) (EC 2.3.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1090909" LocusId="Gmet_2397" Name="sdhC" Function="Succinate dehydrogenase cytochrome b558 subunit" />
+          <Members vimssId="1090908" LocusId="Gmet_2396" Name="sdhA" Function="Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1)" />
+          <Members vimssId="1090907" LocusId="Gmet_2395" Name="frdB" Function="Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1091542" LocusId="Gmet_3023" Name="sfrB" Function="Fe(III) reductase, beta subunit" />
+          <Members vimssId="1091541" LocusId="Gmet_3022" Name="sfrA" Function="Fe(III) reductase, alpha subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1091877" LocusId="Gmet_3355" Name="nuoA-1" Function="NADH ubiquinone oxidoreductase chain A (EC 1.6.5.3)" />
+          <Members vimssId="1091876" LocusId="Gmet_3354" Name="nuoB" Function="NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)" />
+          <Members vimssId="1091875" LocusId="Gmet_3353" Name="nuoC" Function="NADH-ubiquinone oxidoreductase chain C (EC 1.6.5.3)" />
+          <Members vimssId="1091874" LocusId="Gmet_3352" Name="nouD" Function="NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)" />
+          <Members vimssId="1091873" LocusId="Gmet_3351" Name="nuoE-1" Function="NADH-ubiquinone oxidoreductase chain E (EC 1.6.5.3)" />
+          <Members vimssId="1091872" LocusId="Gmet_3350" Name="nouF" Function="NADH-ubiquinone oxidoreductase chain F (EC 1.6.5.3)" />
+          <Members vimssId="1091871" LocusId="Gmet_3349" Name="Gura_4238" Function="NADH-ubiquinone oxidoreductase chain G (EC 1.6.5.3)" />
+          <Members vimssId="1091870" LocusId="Gmet_3348" Name="nuoH-1" Function="NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)" />
+          <Members vimssId="1091869" LocusId="Gmet_3347" Name="nuoI-1" Function="NADH-ubiquinone oxidoreductase chain I (EC 1.6.5.3)" />
+          <Members vimssId="1091868" LocusId="Gmet_3346" Name="nuoJ" Function="NADH-ubiquinone oxidoreductase chain J (EC 1.6.5.3)" />
+          <Members vimssId="1091867" LocusId="Gmet_3345" Name="nuoK" Function="NADH-ubiquinone oxidoreductase chain K (EC 1.6.5.3)" />
+          <Members vimssId="1091866" LocusId="Gmet_3344" Name="nuoL-1" Function="NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)" />
+          <Members vimssId="1091865" LocusId="Gmet_3343" Name="nuoM-1" Function="NADH-ubiquinone oxidoreductase chain M (EC 1.6.5.3)" />
+          <Members vimssId="1091864" LocusId="Gmet_3342" Name="nuoN-2" Function="NADH-ubiquinone oxidoreductase chain N (EC 1.6.5.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1089852" LocusId="Gmet_1359" Name="icd" Function="Isocitrate dehydrogenase [NADP] (EC 1.1.1.42); Monomeric isocitrate dehydrogenase [NADP] (EC 1.1.1.42)" />
+          <Members vimssId="1089853" LocusId="Gmet_1360" Name="mdh" Function="Malate dehydrogenase (EC 1.1.1.37)" />
+          <Members vimssId="1089854" LocusId="Gmet_1361" Name="Gura_2192" Function="2-oxoglutarate oxidoreductase, delta subunit, putative (EC 1.2.7.3)" />
+          <Members vimssId="1089855" LocusId="Gmet_1362" Name="Gura_2191" Function="2-oxoglutarate oxidoreductase, alpha subunit (EC 1.2.7.3)" />
+          <Members vimssId="1089856" LocusId="Gmet_1363" Name="Gura_2190" Function="2-oxoglutarate oxidoreductase, beta subunit (EC 1.2.7.3)" />
+          <Members vimssId="1089857" LocusId="Gmet_1364" Name="Gura_2189" Function="2-oxoglutarate oxidoreductase, gamma subunit (EC 1.2.7.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1088535" LocusId="Gmet_0062" Name="sdhR2" Function="Transcriptional regulator of central carbohydrate metabolism, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1088536" LocusId="Gmet_0063" Name="Gura_4160" Function="K+ transport systems, NAD-binding component" />
+          <Members vimssId="1088537" LocusId="Gmet_0064" Name="Gura_4159" Function="Sugar phosphate isomerases/epimerases" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6389</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01055" RegulationMode="RF01055">
+      <Regulator Key="MOCO_RNA_motif" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=55438" />
+      <Effector>Molybdenum</Effector>
+      <Pathway>Molybdopterin biosynthesis; Tungsten homeostasis; Molybdenum homeostasis</Pathway>
+      <LocusTag Key="MOCO_RNA_motif" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gmet_1802" Name="aor" Position="-467" Score="77.1">
+          <Sequence>TTTAAAACCGTCTCCGAGCCGCGGCGCCTAAAGGGAACATCCCCATGGCGGTCCGGCCTATGGGTATCGCTGGAAACGGCGTTGCCTTCCTTATGCAAAGGGGACCCAGCGACGCGGAGGT</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_1045" Name="aor" Position="-149" Score="69.4">
+          <Sequence>AACAACCAACACTCTCCGAGCCTGCAAGCCTAACAGGGAAACCTCACGGCCCAGGGCCACCGGGTGCCGCCGGAAACGGCGGCGCCTCCCTTTCGGAAAGGAGAACCATCAATGAGAAA</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_1042" Name="tupP" Position="-242" Score="67.4">
+          <Sequence>ATACTAGTTTTTTCTCCGATCCGTCATACCTACCAGGCGCAGAGCCTCACGGTATGCGGTCAACGGGTTCCGCTGGAAACGGCGGTGCCTCCCTTTTGGAAAGGAGAACTCTTTATTCCCCT</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1090303" LocusId="Gmet_1802" Name="aor" Function="Tungsten-containing aldehyde ferredoxin oxidoreductase (EC 1.2.7.5)" />
+          <Members vimssId="1090304" LocusId="Gmet_1803" Name="COG0437" Function="Fe-S-cluster-containing hydrogenase components" />
+          <Members vimssId="1090305" LocusId="Gmet_1804" Name="moeA" Function="Molybdopterin biosynthesis protein MoeA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1089525" LocusId="Gmet_1042" Name="tupP" Function="Predicted molybdate/tungstate porin" />
+          <Members vimssId="1089524" LocusId="Gmet_1041" Name="tupB" Function="ABC-type tungstate transport system, periplasmic binding protein" />
+          <Members vimssId="1089523" LocusId="Gmet_1040" Name="tupA" Function="ABC-type tungstate transport system, permease protein" />
+          <Members vimssId="1089522" LocusId="Gmet_1039" Name="tupC" Function="ABC-type tungstate transport system, ATP-binding protein" />
+          <Members vimssId="1089521" LocusId="Gmet_1038" Name="moeA" Function="Molybdopterin biosynthesis protein MoeA" />
+          <Members vimssId="1089520" LocusId="Gmet_1037" Name="moaC" Function="Molybdenum cofactor biosynthesis protein MoaC" />
+          <Members vimssId="1089519" LocusId="Gmet_1036" Name="moaB" Function="Molybdenum cofactor biosynthesis protein MoaB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1089528" LocusId="Gmet_1045" Name="aor" Function="Tungsten-containing aldehyde ferredoxin oxidoreductase (EC 1.2.7.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48813" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gmet_2909" Name="thiED" Position="-164" Score="74.2">
+          <Sequence>CAGCCTGCTGGGGGAGTTCTTCGAGAACTGAGACGGGCACCGCCCGAACCCTTACCACCTGATCCGGGTAATGCCGGCGTAGGGAAGCGGCCAGAGACCTCGTT</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gmet_2933" Name="thiS" Position="-99" Score="72.3">
+          <Sequence>CAACTCGCTAGGGGAGTTTCGACTGAGAGTCCGACGCGCTGCTACGGACAACCCTTTGAACCTGATCCGGATAATGCCGGCGTAGGGAAGCGTTCCACCATGGTCTA</Sequence>
+          <Bacteria>Geobacter metallireducens GS-15</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1091452" LocusId="Gmet_2933" Name="thiS" Function="Thiamine biosynthesis protein ThiS" />
+          <Members vimssId="1091453" LocusId="Gmet_2934" Name="thiG" Function="Thiazole synthase" />
+          <Members vimssId="1091454" LocusId="Gmet_2935" Name="thiE" Function="Thiamine monophosphate synthase" />
+          <Members vimssId="1091455" LocusId="Gmet_2936" Name="COG1242" Function="Predicted Fe-S oxidoreductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1091427" LocusId="Gmet_2909" Name="thiED" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3) / Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

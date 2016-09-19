@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Chlamydophila abortus S26/3" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59478" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="" Value="" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Chlamydiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6105" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CAB530" Name="glnP" Position="-47" Score="5.4">
+          <Sequence>ATTGCATGATTATGCTTT</Sequence>
+          <Bacteria>Chlamydophila abortus S26/3</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CAB530" Name="glnP" Position="-26" Score="4.8">
+          <Sequence>TGTAAATAAATATGCGTT</Sequence>
+          <Bacteria>Chlamydophila abortus S26/3</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="837335" LocusId="CAB530" Name="glnP" Function="amino acid ABC transporter, permease protein" />
+          <Members vimssId="837336" LocusId="CAB531" Name="glnQ" Function="amino acid ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6105</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58718" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="CAB239" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=837030&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Chlamydiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6013" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CAB239" Name="hcrA" Position="-101" Score="6">
+          <Sequence>TTAGCATTCTTTGAGGTTGAGTGCCAA</Sequence>
+          <Bacteria>Chlamydophila abortus S26/3</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CAB614" Name="groS" Position="-113" Score="6.6">
+          <Sequence>ATGGCGCTTGATATTATTAAGTGCTAA</Sequence>
+          <Bacteria>Chlamydophila abortus S26/3</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="837030" LocusId="CAB239" Name="hcrA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="837029" LocusId="CAB238" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="837028" LocusId="CAB237" Name="dnaK" Function="Chaperone protein DnaK" />
+        </Operon>
+        <Operon>
+          <Members vimssId="837426" LocusId="CAB614" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="837427" LocusId="CAB615" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6013</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41963" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="CAB207" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=837000&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Chlamydiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4333" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CAB745" Name="nrdA" Position="-211" Score="5.7">
+          <Sequence>TTCCTATATATGGTAT</Sequence>
+          <Bacteria>Chlamydophila abortus S26/3</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CAB745" Name="nrdA" Position="-179" Score="5.4">
+          <Sequence>TCACTACATATTGGGT</Sequence>
+          <Bacteria>Chlamydophila abortus S26/3</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="837567" LocusId="CAB745" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="837566" LocusId="CAB744" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4333</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Chlamydia muridarum Nigg" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58716" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="TC0673" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=370985&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Chlamydiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6013" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TC0673" Name="hcrA" Position="-72" Score="5.8">
+          <Sequence>CTAGCACTCTTTGCTCGCGAGCGCTAA</Sequence>
+          <Bacteria>Chlamydia muridarum Nigg</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TC0387" Name="groS" Position="-161" Score="6.1">
+          <Sequence>ATAGCAGTTGAGGTGCTCAACTGCTAA</Sequence>
+          <Bacteria>Chlamydia muridarum Nigg</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="370985" LocusId="TC0673" Name="hcrA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="370986" LocusId="TC0674" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="370987" LocusId="TC0675" Name="dnaK" Function="Chaperone protein DnaK" />
+        </Operon>
+        <Operon>
+          <Members vimssId="370703" LocusId="TC0387" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="370702" LocusId="TC0386" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6013</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41961" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="TC0686" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=370998&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Chlamydiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4333" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TC0214" Name="nrdA" Position="-201" Score="5.4">
+          <Sequence>CTTCTATATATGGTAT</Sequence>
+          <Bacteria>Chlamydia muridarum Nigg</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TC0214" Name="nrdA" Position="-169" Score="5.2">
+          <Sequence>TCACAATATCTTGGGT</Sequence>
+          <Bacteria>Chlamydia muridarum Nigg</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="370533" LocusId="TC0214" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="370534" LocusId="TC0215" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4333</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

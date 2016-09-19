@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Prochlorococcus marinus str. MIT 9313" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="ArsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14177" />
+      <Effector>Arsenite</Effector>
+      <Pathway>Arsenic resistance</Pathway>
+      <LocusTag Key="PMT1001" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=568114&amp;disp=0" />
+      <BiologicalProcess>Arsenic resistance</BiologicalProcess>
+      <Regulog Key="ArsR - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1515" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PMT1001" Name="arsR" Position="-94" Score="5.2">
+          <Sequence>ATCAAAATATCTTGAT</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PMT1001" Name="arsR" Position="-76" Score="4.3">
+          <Sequence>ATCAACCATAGTCGAT</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="568114" LocusId="PMT1001" Name="arsR" Function="Arsenic stress response regulator, ArsR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1515</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="repressor (activator)">
+      <Regulator Key="Crp" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=12115" />
+      <Effector>Cyclic 3',5'-AMP</Effector>
+      <Pathway />
+      <LocusTag Key="PMT2151" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=569294&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="Crp - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1306" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PMT0464" Name="SYNPCC7002_A0129" Position="-222" Score="3.8">
+          <Sequence>AGTGATCAGAATGCCC</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PMT1607" Name="sufR" Position="-71" Score="3.9">
+          <Sequence>CCTGATCTAAGGCAAC</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PMT0719" Name="SYNPCC7002_A0687" Position="17" Score="3.7">
+          <Sequence>TTTGAAACAATTCACC</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="568731" LocusId="PMT1607" Name="sufR" Function="Iron-sulfur cluster biogenesis regulator, DeoR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="567828" LocusId="PMT0719" Name="SYNPCC7002_A0687" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="567570" LocusId="PMT0464" Name="SYNPCC7002_A0129" Function="Transcription regulator, AbrB family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1306</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10650" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="PMT0858" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=567970&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1162" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PMT1340" Name="ctaA" Position="-30" Score="2.6">
+          <Sequence>ATTTAAATTATTTTATTGT</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="568458" LocusId="PMT1340" Name="ctaA" Function="Heme A synthase" />
+          <Members vimssId="568457" LocusId="PMT1339" Name="ctaB" Function="Protoheme IX farnesyltransferase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1162</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13356" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="PMT2026" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=569168&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1432" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PMT1450" Name="groES" Position="-81" Score="9.2">
+          <Sequence>TTGGCACTC---------GAGTGCTAC</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="568571" LocusId="PMT1450" Name="groES" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="568570" LocusId="PMT1449" Name="groEL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1432</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10664" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="PMT0380" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=567485&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1163" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PMT0635" Name="umuD" Position="-20" Score="4.4">
+          <Sequence>GGAACGGGTGTACT</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PMT0638" Name="umuC" Position="-52" Score="4.5">
+          <Sequence>AGTATCTTTGTACT</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PMT0380" Name="lexA" Position="-28" Score="4.6">
+          <Sequence>GGTACACATGTATT</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PMT1727" Name="recA" Position="-145" Score="4.9">
+          <Sequence>GGTACGTCTGTACT</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="567746" LocusId="PMT0638" Name="umuC" Function="DNA polymerase V, subunit C" />
+        </Operon>
+        <Operon>
+          <Members vimssId="567743" LocusId="PMT0635" Name="umuD" Function="DNA polymerase V, subunit D" />
+        </Operon>
+        <Operon>
+          <Members vimssId="567485" LocusId="PMT0380" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="568861" LocusId="PMT1727" Name="recA" Function="Recombinase A" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1163</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10678" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="PMT1667" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=568798&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1164" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PMT0793" Name="nrdJ" Position="-9" Score="5">
+          <Sequence>GCACTGTCGATGGTGT</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PMT0793" Name="nrdJ" Position="20" Score="3.9">
+          <Sequence>ACACcATgagTgGcGg</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="567903" LocusId="PMT0793" Name="nrdJ" Function="ribonucleotide reductase (Class II)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1164</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="NtcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10706" />
+      <Effector>2-oxoglutarate</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="PMT1831" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=568970&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtcA - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1166" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PMT1853" Name="amt1" Position="-160" Score="3.8">
+          <Sequence>TGTAACAAAATGAACT</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PMT0601" Name="glnA" Position="-79" Score="4.2">
+          <Sequence>GGTACCTGTTGCTACA</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PMT2229" Name="urtA" Position="-146" Score="4">
+          <Sequence>TGTTGCAACAGCTACC</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PMT2229" Name="urtA" Position="-95" Score="4.7">
+          <Sequence>TGTATCATTCACTACA</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="569373" LocusId="PMT2229" Name="urtA" Function="Urea ABC transporter, substrate-binding protein" />
+          <Members vimssId="569372" LocusId="PMT2228" Name="urtB" Function="Urea ABC transporter, permease protein 1" />
+          <Members vimssId="569371" LocusId="PMT2227" Name="urtC" Function="Urea ABC transporter, permease protein 2" />
+          <Members vimssId="569370" LocusId="PMT2226" Name="urtD" Function="Urea ABC transporter, ATP-binding protein 1" />
+          <Members vimssId="569369" LocusId="PMT2225" Name="urtE" Function="Urea ABC transporter, ATP-binding protein 2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="568993" LocusId="PMT1853" Name="amt1" Function="ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="567709" LocusId="PMT0601" Name="glnA" Function="glutamine synthetase, type I" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1166</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LuxR" RegulationMode="repressor (activator)">
+      <Regulator Key="PedR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13484" />
+      <Effector>Trx, thioredoxin protein</Effector>
+      <Pathway>Photosynthesis; Carbon fixation</Pathway>
+      <LocusTag Key="PMT2014" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=569156&amp;disp=0" />
+      <BiologicalProcess>Photosynthesis; Carbon fixation</BiologicalProcess>
+      <Regulog Key="PedR - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1447" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PMT0427" Name="ndhD" Position="-155" Score="4.2">
+          <Sequence>GAGTAGATATACTC</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PMT2014" Name="pedR" Position="-366" Score="3.7">
+          <Sequence>AAGTAAATCTGATT</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="569156" LocusId="PMT2014" Name="pedR" Function="Thioredoxin status sensitive transcription regulator, LuxR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="567533" LocusId="PMT0427" Name="ndhD" Function="NADH dehydrogenase subunit" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1447</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="[Other]" RegulationMode="repressor">
+      <Regulator Key="SufR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=11877" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="PMT1607" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=568731&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="SufR - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1281" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PMT1607" Name="sufR" Position="-204" Score="5">
+          <Sequence>AAACGAAACCTATTGGTTTCGTTT</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PMT1606" Name="sufB" Position="-194" Score="5">
+          <Sequence>AAACGAAACCAATAGGTTTCGTTT</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="568731" LocusId="PMT1607" Name="sufR" Function="Iron-sulfur cluster biogenesis regulator SufR in Cyanobacteria" />
+        </Operon>
+        <Operon>
+          <Members vimssId="568730" LocusId="PMT1606" Name="sufB" Function="Iron-sulfur assembly protein" />
+          <Members vimssId="568729" LocusId="PMT1605" Name="sufC" Function="Iron-sulfur assembly ATPase" />
+          <Members vimssId="568728" LocusId="PMT1604" Name="sufD" Function="Iron-sulfur assembly protein" />
+          <Members vimssId="568727" LocusId="PMT1603" Name="sufS" Function="Cysteine desulfurase (EC 2.8.1.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1281</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10734" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="PMT2208" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=569351&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1168" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PMT2202" Name="cce_1485" Position="-111" Score="6">
+          <Sequence>ATGAGAATGATTCCCATTTTTAT</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PMT2203" Name="cce_1484" Position="-34" Score="6">
+          <Sequence>ATAAAAATGGGAATCATTCTCAT</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="569345" LocusId="PMT2202" Name="cce_1485" Function="Predicted Mn/Zn chelate ABC transporter, ATP-binding protein" />
+          <Members vimssId="569344" LocusId="PMT2201" Name="cce_1486" Function="Predicted Mn/Zn chelate ABC transporter, permease protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="569346" LocusId="PMT2203" Name="cce_1484" Function="Predicted Mn/Zn chelate ABC transporter, substrate-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1168</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14120" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PMT0232" Name="hupE" Position="-207" Score="53.2">
+          <Sequence>ATGATTGAATCCATCAATCGGTTTCAGCAGGGATCAGCTGCTGAAGGAAACGGGGAAAGTTCGGCGAAAATCCGGCACTGTCCCGCAGCTGTAAAGCGCAACCACCCTTCTTAGAGCACTTGCGCGAGTCAGAATACCCGCCGAATTTCCATCGACGAGG</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="567332" LocusId="PMT0232" Name="hupE" Function="HupE-UreJ family cobalt transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13960" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PMT0160" Name="thiC" Position="-147" Score="66.9">
+          <Sequence>CAAAACACTAGGGGTGCCATTCAGCAATCGCTGAGTGGCTGAGATCACACCCTCCGAACCTGATACGGGTTGTGCCGGCGCAGGGAAGTGAAATGACGTGATCAT</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="567252" LocusId="PMT0160" Name="thiC" Function="Phosphomethylpyrimidine synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01739" RegulationMode="RF01739">
+      <Regulator Key="glnA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47250" />
+      <Effector>L-glutamine</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="glnA" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PMT1479" Name="" Position="-137" Score="35.2">
+          <Sequence>ACGTTGAGCTAGGTCATCGCATCGTCGTTGATCCATCAGCCGGAAGTAGCCCTCCGCAAGGCGAAGCAACGCTCCTT</Sequence>
+          <Bacteria>Prochlorococcus marinus str. MIT 9313</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="568600" LocusId="PMT1479" Name="null" Function="possible Extracellular link domain" />
+          <Members vimssId="568601" LocusId="PMT1480" Name="null" Function="hypothetical protein" />
+          <Members vimssId="568602" LocusId="PMT1481" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

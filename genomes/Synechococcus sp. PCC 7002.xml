@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Synechococcus sp. PCC 7002" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="ArsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14180" />
+      <Effector>Arsenite</Effector>
+      <Pathway>Arsenic resistance</Pathway>
+      <LocusTag Key="SYNPCC7002_A0590" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5418109&amp;disp=0" />
+      <BiologicalProcess>Arsenic resistance</BiologicalProcess>
+      <Regulog Key="ArsR - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1515" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SYNPCC7002_A0590" Name="arsR" Position="-19" Score="5.7">
+          <Sequence>ATCAATTATTTTTGAT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A0589" Name="arsB" Position="-55" Score="5.9">
+          <Sequence>ATCAATTTTTTTTGAT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5418109" LocusId="SYNPCC7002_A0590" Name="arsR" Function="Arsenic stress response regulator, ArsR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5418108" LocusId="SYNPCC7002_A0589" Name="arsB" Function="Arsenite transporter" />
+          <Members vimssId="5418107" LocusId="SYNPCC7002_A0588" Name="arsC" Function="Arsenate reductase (EC 1.20.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1515</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor">
+      <Regulator Key="CcmR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13218" />
+      <Effector />
+      <Pathway>Carbon dioxide fixation</Pathway>
+      <LocusTag Key="SYNPCC7002_A0171" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5417690&amp;disp=0" />
+      <BiologicalProcess>Carbon dioxide fixation</BiologicalProcess>
+      <Regulog Key="CcmR - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1419" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SYNPCC7002_A2371" Name="bicA" Position="-123" Score="5.2">
+          <Sequence>ATAGATATTAAACTAT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A0472" Name="sbtB" Position="-131" Score="4.6">
+          <Sequence>ATAGACTTAAAGATAT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A0472" Name="sbtB" Position="-99" Score="4.2">
+          <Sequence>ATAGAGTCTTGTCTTT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_G0011" Name="porB" Position="-294" Score="4.4">
+          <Sequence>ATAGTCGAAAGACTAT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A0470" Name="sbtA" Position="-134" Score="4.9">
+          <Sequence>ATAGAGCTAAATCTAT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A0171" Name="ccmR" Position="-63" Score="5">
+          <Sequence>ATTGACTCTAGTCTAT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5417365" LocusId="SYNPCC7002_G0011" Name="porB" Function="Low-CO2 inducible, outer membrane bicarbonate porin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5417989" LocusId="SYNPCC7002_A0470" Name="sbtA" Function="High-affinity, low-flux sodium dependent bicarbonate transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419890" LocusId="SYNPCC7002_A2371" Name="bicA" Function="Bicarbonate transporter" />
+          <Members vimssId="5419891" LocusId="SYNPCC7002_A2372" Name="nhaS" Function="Predicted sodium/hydrogen exchanger" />
+          <Members vimssId="5419892" LocusId="SYNPCC7002_A2373" Name="mnhC" Function="Na/H antiporter, subunit C" />
+          <Members vimssId="5419893" LocusId="SYNPCC7002_A2374" Name="mnhD" Function="Na/H antiporter, subunit D" />
+          <Members vimssId="5419894" LocusId="SYNPCC7002_A2375" Name="mnhD" Function="Na/H antiporter, subunit D" />
+          <Members vimssId="5419895" LocusId="SYNPCC7002_A2376" Name="mnhE" Function="Predicted Na/H antiporter, subunit E" />
+          <Members vimssId="5419896" LocusId="SYNPCC7002_A2377" Name="mnhF" Function="Na/H antiporter, subunit F" />
+          <Members vimssId="5419897" LocusId="SYNPCC7002_A2378" Name="mnhG" Function="Na/H antiporter, subunit G" />
+          <Members vimssId="5419898" LocusId="SYNPCC7002_A2379" Name="slr2011" Function="Predicted subunit of the Na/H antiporter" />
+          <Members vimssId="5419899" LocusId="SYNPCC7002_A2380" Name="mnhB" Function="Na/H antiporter, subunit B" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5417991" LocusId="SYNPCC7002_A0472" Name="sbtB" Function="Predicted membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5417690" LocusId="SYNPCC7002_A0171" Name="ccmR" Function="Carbon assimilation transcriptional regulator, LysR family" />
+          <Members vimssId="5417691" LocusId="SYNPCC7002_A0172" Name="ndhF3" Function="NADH dehydrogenase subunit F" />
+          <Members vimssId="5417692" LocusId="SYNPCC7002_A0173" Name="ndhD3" Function="NADH dehydrogenase subunit D" />
+          <Members vimssId="5417693" LocusId="SYNPCC7002_A0174" Name="cupA" Function="CO2 uptake protein" />
+          <Members vimssId="5417694" LocusId="SYNPCC7002_A0175" Name="cupS" Function="CO2 uptake transporter, small subunit" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1419</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="repressor (activator)">
+      <Regulator Key="Crp" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=12118" />
+      <Effector>Cyclic 3',5'-AMP</Effector>
+      <Pathway />
+      <LocusTag Key="SYNPCC7002_A1789" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5419308&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="Crp - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1306" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SYNPCC7002_A1600" Name="SYNPCC7002_A1600" Position="-141" Score="4.5">
+          <Sequence>CGTGATCAGAGTCACG</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A2693" Name="murF" Position="-92" Score="4.1">
+          <Sequence>GGTGACAAATATCACT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A0106" Name="gap2" Position="-65" Score="3.7">
+          <Sequence>TATGATTGGGGTCATC</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A0174" Name="cupA" Position="-300" Score="4">
+          <Sequence>CGTGATTTTGCTCAAC</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A1924" Name="sigF" Position="-223" Score="4.3">
+          <Sequence>TTTGATAAAAATCAAT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5420212" LocusId="SYNPCC7002_A2693" Name="murF" Function="UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase (EC 6.3.2.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419119" LocusId="SYNPCC7002_A1600" Name="SYNPCC7002_A1600" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5417625" LocusId="SYNPCC7002_A0106" Name="gap2" Function="Glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.59)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5417693" LocusId="SYNPCC7002_A0174" Name="cupA" Function="Carbon dioxide hydration protein" />
+          <Members vimssId="5417694" LocusId="SYNPCC7002_A0175" Name="cupS" Function="Carbon dioxide uptake protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419443" LocusId="SYNPCC7002_A1924" Name="sigF" Function="RNA polymerase sigma-37" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1306</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10641" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="SYNPCC7002_A1649" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5419168&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1162" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SYNPCC7002_A2347" Name="chlL" Position="-126" Score="3.6">
+          <Sequence>TTTTATAAAAACTCTAAGT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_G0137" Name="exbB" Position="-279" Score="4.2">
+          <Sequence>ATTAAGAGATTATCTCAAT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_G0099" Name="pchR" Position="-94" Score="3.7">
+          <Sequence>ATTTCTTATTAATATAAAT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_G0006" Name="iutA" Position="-38" Score="4.6">
+          <Sequence>TTTGAGAATTATTTTTAGT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A1631" Name="apcF" Position="-257" Score="3.3">
+          <Sequence>TTTTATTATTTTTTTTAAA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A0913" Name="SYNPCC7002_A0913" Position="-146" Score="2.2">
+          <Sequence>TTTTTACAACATTTTTAAA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A0913" Name="SYNPCC7002_A0913" Position="-68" Score="3.8">
+          <Sequence>AATGAGAAAATTTTGATAT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A1018" Name="chlH" Position="-57" Score="3.8">
+          <Sequence>ATAGTTATAAATTTTTAAT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A1443" Name="nifJ" Position="-165" Score="2.2">
+          <Sequence>TTTTCTTATAACTTTTAGC</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A0871" Name="afuC" Position="-83" Score="5.1">
+          <Sequence>GTTGAGAATAGTTCTTAAT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A2351" Name="SYNPCC7002_A2351" Position="-216" Score="2.9">
+          <Sequence>TTTATTATTGTTTTTTAGT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A1961" Name="psaA" Position="-206" Score="3.4">
+          <Sequence>AGTTTTAAATATTGTTAAT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_G0061" Name="SYNPCC7002_G0061" Position="-62" Score="4.1">
+          <Sequence>ATTGATAAATAATTTAAGT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A1649" Name="fur" Position="-88" Score="3.5">
+          <Sequence>GTTAGTATTTATTTGCAAT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_G0138" Name="iutA" Position="-67" Score="4.6">
+          <Sequence>ATTGAGATAATCTCTTAAT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_G0090" Name="SYNPCC7002_G0090" Position="-83" Score="5.2">
+          <Sequence>ATTGAAATAAATTCTTATT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_G0104" Name="pchR" Position="-68" Score="5.4">
+          <Sequence>ATTGAGAATAATTAGTAAT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_G0103" Name="fhuA" Position="-46" Score="3.2">
+          <Sequence>ATTAAGAACTTTTTGAAGT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5419866" LocusId="SYNPCC7002_A2347" Name="chlL" Function="Light-independent protochlorophyllide reductase, iron-sulfur ATP-binding protein" />
+          <Members vimssId="5419865" LocusId="SYNPCC7002_A2346" Name="cce_4533" Function="Conserved hypothetical protein" />
+          <Members vimssId="5419864" LocusId="SYNPCC7002_A2345" Name="chlN" Function="Light-independent protochlorophyllide reductase, subunit N" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5417457" LocusId="SYNPCC7002_G0103" Name="fhuA" Function="Outer membrane ferrichrome-iron receptor" />
+          <Members vimssId="5417456" LocusId="SYNPCC7002_G0102" Name="fecB" Function="Fe(3+) dicitrate ABC transport system, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5417360" LocusId="SYNPCC7002_G0006" Name="iutA" Function="Ferric aerobactin receptor" />
+          <Members vimssId="5417359" LocusId="SYNPCC7002_G0005" Name="fecB" Function="Fe(3+) dicitrate ABC transport system, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5417458" LocusId="SYNPCC7002_G0104" Name="pchR" Function="Predicted siderophore synthesis regulator, AraC family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5417492" LocusId="SYNPCC7002_G0138" Name="iutA" Function="Ferric aerobactin receptor" />
+          <Members vimssId="5417493" LocusId="SYNPCC7002_G0139" Name="fepB" Function="Fe(3+) dicitrate ABC transport system, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5417444" LocusId="SYNPCC7002_G0090" Name="SYNPCC7002_G0090" Function="TonB family protein" />
+          <Members vimssId="5417443" LocusId="SYNPCC7002_G0089" Name="SYNPCC7002_G0089" Function="Conserved hypothetical protein" />
+          <Members vimssId="5417442" LocusId="SYNPCC7002_G0088" Name="fecC" Function="Fe(3+) dicitrate ABC transport system, permease protein 1" />
+          <Members vimssId="5417441" LocusId="SYNPCC7002_G0087" Name="fecD" Function="Fe(3+) dicitrate ABC transport system, permease protein 2" />
+          <Members vimssId="5417440" LocusId="SYNPCC7002_G0086" Name="fecE" Function="Fe(3+) dicitrate ABC transport system, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5417491" LocusId="SYNPCC7002_G0137" Name="exbB" Function="Iron-siderophore complex transporter" />
+          <Members vimssId="5417490" LocusId="SYNPCC7002_G0136" Name="exbD" Function="Iron-siderophore complex transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419870" LocusId="SYNPCC7002_A2351" Name="SYNPCC7002_A2351" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5417415" LocusId="SYNPCC7002_G0061" Name="SYNPCC7002_G0061" Function="Two-component sensor histidine kinase" />
+          <Members vimssId="5417416" LocusId="SYNPCC7002_G0062" Name="SYNPCC7002_G0062" Function="Two-component response regulator, LuxR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5418390" LocusId="SYNPCC7002_A0871" Name="afuC" Function="Predicted Fe(3+) ABC transport system, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419150" LocusId="SYNPCC7002_A1631" Name="apcF" Function="Allophycocyanin, beta subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419480" LocusId="SYNPCC7002_A1961" Name="psaA" Function="Photosystem I P700 chlorophyll A apoprotein A1" />
+          <Members vimssId="5419481" LocusId="SYNPCC7002_A1962" Name="psaB" Function="Photosystem I P700 chlorophyll A apoprotein A2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5418962" LocusId="SYNPCC7002_A1443" Name="nifJ" Function="Pyruvate-flavodoxin oxidoreductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5418537" LocusId="SYNPCC7002_A1018" Name="chlH" Function="Protoporphyrin IX magnesium chelatase, subunit H" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5418432" LocusId="SYNPCC7002_A0913" Name="SYNPCC7002_A0913" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419168" LocusId="SYNPCC7002_A1649" Name="fur" Function="Ferric uptake regulator, Fur family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5417453" LocusId="SYNPCC7002_G0099" Name="pchR" Function="Predicted siderophore synthesis regulator, AraC family" />
+          <Members vimssId="5417452" LocusId="SYNPCC7002_G0098" Name="SYNPCC7002_G0098" Function="Predicted TonB-dependent siderophore receptor" />
+          <Members vimssId="5417451" LocusId="SYNPCC7002_G0097" Name="fecB" Function="Fe(3+) dicitrate ABC transport system, substrate-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1162</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13359" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="SYNPCC7002_A2003" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5419522&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1432" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SYNPCC7002_A0147" Name="groEL2" Position="-65" Score="9.6">
+          <Sequence>TTAGCAGTC---------GAGTGCTAA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A0107" Name="SYNPCC7002_A0107" Position="-238" Score="8.6">
+          <Sequence>TTAGCACTC---------AACTGCTAA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A2457" Name="groES" Position="-76" Score="10.2">
+          <Sequence>TTAGCACTC---------GAGTGCTAA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5417666" LocusId="SYNPCC7002_A0147" Name="groEL2" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5417626" LocusId="SYNPCC7002_A0107" Name="SYNPCC7002_A0107" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419976" LocusId="SYNPCC7002_A2457" Name="groES" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="5419977" LocusId="SYNPCC7002_A2458" Name="groEL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1432</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10655" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="SYNPCC7002_A1849" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5419368&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1163" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SYNPCC7002_A0426" Name="recA" Position="-64" Score="4.3">
+          <Sequence>AGTACGATTGAACT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A0119" Name="ssb" Position="-25" Score="3.9">
+          <Sequence>AGAACAGTTGTATG</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5417945" LocusId="SYNPCC7002_A0426" Name="recA" Function="Recombinase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5417638" LocusId="SYNPCC7002_A0119" Name="ssb" Function="single-stranded DNA-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1163</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrtR" RegulationMode="repressor">
+      <Regulator Key="NrtR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=18992" />
+      <Effector>Adenosine diphosphate ribose</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="SYNPCC7002_A2383" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5419902&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NrtR2 - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2052" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SYNPCC7002_A1784" Name="nadE" Position="-123" Score="5.7">
+          <Sequence>TTGATGTAGAATCGACACTAA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A0508" Name="pncB" Position="-50" Score="5.5">
+          <Sequence>TTATTGTAAAATAAACACTAA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A0642" Name="pncA" Position="-66" Score="4.2">
+          <Sequence>aatGTGTtttTaaaACACcAc</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5418027" LocusId="SYNPCC7002_A0508" Name="pncB" Function="Nicotinate phosphoribosyltransferase (EC 2.4.2.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419303" LocusId="SYNPCC7002_A1784" Name="nadE" Function="NAD synthetase (EC 6.3.1.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5418161" LocusId="SYNPCC7002_A0642" Name="pncA" Function="Nicotinamidase (EC 3.5.1.19)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2052</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="NtcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10697" />
+      <Effector>2-oxoglutarate</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="SYNPCC7002_A1675" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5419194&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtcA - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1166" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SYNPCC7002_A2208" Name="amt1" Position="-52" Score="3.7">
+          <Sequence>GGTTACTTCTGCTACC</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A0076" Name="SYNPCC7002_A0076" Position="-97" Score="4.2">
+          <Sequence>AGTATTGAAATATACA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A2395" Name="SYNPCC7002_A2395" Position="-200" Score="4.5">
+          <Sequence>TGTTACTTAAATTACA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A2395" Name="SYNPCC7002_A2395" Position="-92" Score="4.5">
+          <Sequence>TGTAGTAGACGTTACA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A1954" Name="SYNPCC7002_A1954" Position="-243" Score="4.7">
+          <Sequence>TGTAACAGGAGTTACA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A0643" Name="cynS" Position="-237" Score="4.5">
+          <Sequence>CGTATCTTTAATTACA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A0860" Name="cynA" Position="-221" Score="4.1">
+          <Sequence>TGTAATTGATTTAACA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A0582" Name="gifA" Position="-96" Score="5">
+          <Sequence>TGTATCAAATTTTACA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A1630" Name="glnA" Position="-125" Score="3.5">
+          <Sequence>TGTgACccAgacTACA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A1827" Name="nirA" Position="-111" Score="4">
+          <Sequence>CGTAGTTAACACTACA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A0496" Name="nrrA" Position="-75" Score="4.1">
+          <Sequence>CGTAACCACGGTTACA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A1675" Name="ntcA" Position="-177" Score="3.9">
+          <Sequence>TGAAGCAAAAAGTACA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A1632" Name="ntcB" Position="-87" Score="3.9">
+          <Sequence>TGTAACATccGgaACA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A2101" Name="SYNPCC7002_A2101" Position="67" Score="5">
+          <Sequence>TGTATCATtaaATACA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A0264" Name="SYNPCC7002_A0264" Position="-29" Score="5">
+          <Sequence>TGTATCAAATACTACA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A0398" Name="urtA" Position="-127" Score="4.1">
+          <Sequence>TGTATCAAGTGTCACA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A1443" Name="nifJ" Position="-272" Score="4.1">
+          <Sequence>TTTATCATTTTCTACA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5417917" LocusId="SYNPCC7002_A0398" Name="urtA" Function="Urea ABC transporter, substrate-binding protein" />
+          <Members vimssId="5417916" LocusId="SYNPCC7002_A0397" Name="urtB" Function="Urea ABC transporter, permease protein 1" />
+          <Members vimssId="5417915" LocusId="SYNPCC7002_A0396" Name="urtC" Function="Urea ABC transporter, permease protein 2" />
+          <Members vimssId="5417914" LocusId="SYNPCC7002_A0395" Name="urtD" Function="Urea ABC transporter, ATP-binding protein 1" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419727" LocusId="SYNPCC7002_A2208" Name="amt1" Function="ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5417595" LocusId="SYNPCC7002_A0076" Name="SYNPCC7002_A0076" Function="hypothetical protein" />
+          <Members vimssId="5417596" LocusId="SYNPCC7002_A0077" Name="SYNPCC7002_A0077" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419914" LocusId="SYNPCC7002_A2395" Name="SYNPCC7002_A2395" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419473" LocusId="SYNPCC7002_A1954" Name="SYNPCC7002_A1954" Function="putative two-component sensor histidine kinase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5418162" LocusId="SYNPCC7002_A0643" Name="cynS" Function="cyanate hydratase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5418379" LocusId="SYNPCC7002_A0860" Name="cynA" Function="cyanate ABC transporter, substrate binding protein" />
+          <Members vimssId="5418380" LocusId="SYNPCC7002_A0861" Name="cynB" Function="cyanate ABC transporter, permease protein" />
+          <Members vimssId="5418381" LocusId="SYNPCC7002_A0862" Name="cynD" Function="cyanate ABC transporter, ATP-binding protein" />
+          <Members vimssId="5418382" LocusId="SYNPCC7002_A0863" Name="cynS" Function="cyanate hydratase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5418101" LocusId="SYNPCC7002_A0582" Name="gifA" Function="glutamine synthetase inactivating factor IF" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419149" LocusId="SYNPCC7002_A1630" Name="glnA" Function="glutamine synthetase, type I" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419346" LocusId="SYNPCC7002_A1827" Name="nirA" Function="Nitrite reductase, ferredoxin dependent" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5418015" LocusId="SYNPCC7002_A0496" Name="nrrA" Function="Transcriptional regulator, OmpR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419194" LocusId="SYNPCC7002_A1675" Name="ntcA" Function="Global nitrogen transcription regulator, Crp family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419151" LocusId="SYNPCC7002_A1632" Name="ntcB" Function="Nitrogen assimilation transcriptional activator, LysR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419620" LocusId="SYNPCC7002_A2101" Name="SYNPCC7002_A2101" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5417783" LocusId="SYNPCC7002_A0264" Name="SYNPCC7002_A0264" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5418962" LocusId="SYNPCC7002_A1443" Name="nifJ" Function="Pyruvate-flavodoxin oxidoreductase (EC 1.2.7.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1166</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="activator (repressor)">
+      <Regulator Key="NtcB" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10711" />
+      <Effector>Nitrite</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="SYNPCC7002_A1632" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5419151&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtcB - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1167" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SYNPCC7002_A1827" Name="nirA" Position="-162" Score="4">
+          <Sequence>ATGCGGCGATCGCAT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A1632" Name="ntcB" Position="-56" Score="4.4">
+          <Sequence>ATGCAGTAAACTCAT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A0232" Name="psbL" Position="-30" Score="4.2">
+          <Sequence>ATGCAGTTTATTCAA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A2151" Name="psbM" Position="-289" Score="4.5">
+          <Sequence>ATGCGGAACCTGCAT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A1732" Name="yrdC" Position="-51" Score="4.8">
+          <Sequence>ATGCAGCAATTGCAT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5419346" LocusId="SYNPCC7002_A1827" Name="nirA" Function="ferredoxin--nitrite reductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419151" LocusId="SYNPCC7002_A1632" Name="ntcB" Function="nitrogen assimilation transcriptional activator NtcB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5417751" LocusId="SYNPCC7002_A0232" Name="psbL" Function="photosystem II protein L" />
+          <Members vimssId="5417752" LocusId="SYNPCC7002_A0233" Name="psbJ" Function="photosystem II protein J" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419670" LocusId="SYNPCC7002_A2151" Name="psbM" Function="photosystem II reaction centre M protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419251" LocusId="SYNPCC7002_A1732" Name="yrdC" Function="putative YrdC-like RNA-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1167</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LuxR" RegulationMode="repressor (activator)">
+      <Regulator Key="PedR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13487" />
+      <Effector>Trx, thioredoxin protein</Effector>
+      <Pathway>Photosynthesis; Carbon fixation</Pathway>
+      <LocusTag Key="SYNPCC7002_A0641" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5418160&amp;disp=0" />
+      <BiologicalProcess>Photosynthesis; Carbon fixation</BiologicalProcess>
+      <Regulog Key="PedR - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1447" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SYNPCC7002_A1219" Name="slr1957" Position="-217" Score="5">
+          <Sequence>AAGTAATTATACCC</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A0641" Name="pedR" Position="-257" Score="3.7">
+          <Sequence>AAGAAAGTTTATCT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A1973" Name="ndhD" Position="-20" Score="4.5">
+          <Sequence>AAGTATTTTTTCCT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A1792" Name="sll0296" Position="-63" Score="4.1">
+          <Sequence>AAGCATAAATTCCC</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A1652" Name="chlB" Position="-14" Score="4.6">
+          <Sequence>GAGTAAAAATACCT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5418160" LocusId="SYNPCC7002_A0641" Name="pedR" Function="Thioredoxin status sensitive transcription regulator, LuxR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5418738" LocusId="SYNPCC7002_A1219" Name="slr1957" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419171" LocusId="SYNPCC7002_A1652" Name="chlB" Function="Light-independent protochlorophyllide reductase subunit B" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419492" LocusId="SYNPCC7002_A1973" Name="ndhD" Function="NADH dehydrogenase subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419311" LocusId="SYNPCC7002_A1792" Name="sll0296" Function="Conserved hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1447</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="PerR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13438" />
+      <Effector>Manganese ion, (Mn2+)</Effector>
+      <Pathway>Peroxide stress response</Pathway>
+      <LocusTag Key="SYNPCC7002_A1836" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5419355&amp;disp=0" />
+      <BiologicalProcess>Peroxide stress response</BiologicalProcess>
+      <Regulog Key="PerR - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1440" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SYNPCC7002_A1292" Name="isiA" Position="-273" Score="4.9">
+          <Sequence>TGAGAATAATTGTAG</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A0793" Name="ahpC" Position="-79" Score="5.5">
+          <Sequence>TAAGAATTATTCTGG</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5418312" LocusId="SYNPCC7002_A0793" Name="ahpC" Function="Peroxiredoxin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5418811" LocusId="SYNPCC7002_A1292" Name="isiA" Function="Iron stress-induced chlorophyll-binding protein" />
+          <Members vimssId="5418810" LocusId="SYNPCC7002_A1291" Name="isiB" Function="Flavodoxin" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1440</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor">
+      <Regulator Key="PirR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13557" />
+      <Effector />
+      <Pathway>Salt stress response</Pathway>
+      <LocusTag Key="SYNPCC7002_A2718" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5420237&amp;disp=0" />
+      <BiologicalProcess>Salt stress response</BiologicalProcess>
+      <Regulog Key="PirR - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1454" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SYNPCC7002_A2718" Name="pirR" Position="-143" Score="5.1">
+          <Sequence>TTGCCGCCAAATAAAAGACAA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A2718" Name="pirR" Position="-102" Score="5.3">
+          <Sequence>ATGTATCTCAAAAAGAAACAA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A2717" Name="pirA" Position="-115" Score="5.3">
+          <Sequence>TTGTTTCTTTTTGAGATACAT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A2717" Name="pirA" Position="-74" Score="5.1">
+          <Sequence>TTGTCTTTTATTTGGCGGCAA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5420236" LocusId="SYNPCC7002_A2717" Name="pirA" Function="Pirin-like protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5420237" LocusId="SYNPCC7002_A2718" Name="pirR" Function="Salt stress response transcriptional regulator, LysR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1454</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SmtB" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13986" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc resistance</Pathway>
+      <LocusTag Key="SYNPCC7002_A2564" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5420083&amp;disp=0" />
+      <BiologicalProcess>Zinc resistance</BiologicalProcess>
+      <Regulog Key="SmtB - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1497" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SYNPCC7002_A2564" Name="smtB" Position="-43" Score="7.2">
+          <Sequence>AACACATGAACAATTATTCAGGTATT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A2564" Name="smtB" Position="-75" Score="6.2">
+          <Sequence>AATAGTTGAACGATTGTTCACATTTT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A2563" Name="smtA" Position="-85" Score="7.2">
+          <Sequence>AATACCTGAATAATTGTTCATGTGTT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A2563" Name="smtA" Position="-53" Score="6.2">
+          <Sequence>AAAATGTGAACAATCGTTCAACTATT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5420082" LocusId="SYNPCC7002_A2563" Name="smtA" Function="Metallothionein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5420083" LocusId="SYNPCC7002_A2564" Name="smtB" Function="Zinc stress transcriptional regulator, ArsR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1497</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="OmpR" RegulationMode="repressor (activator)">
+      <Regulator Key="SphR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10017" />
+      <Effector>Inorganic phosphate</Effector>
+      <Pathway>Phosphate metabolism</Pathway>
+      <LocusTag Key="SYNPCC7002_A0851" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5418370&amp;disp=0" />
+      <BiologicalProcess>Phosphate metabolism</BiologicalProcess>
+      <Regulog Key="SphR - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1103" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SYNPCC7002_A1357" Name="SYNPCC7002_A1357" Position="-125" Score="7.8">
+          <Sequence>GCTAACCT-(3)-CTATATTT-(3)-TTTTATTT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A2352" Name="phoA1" Position="-182" Score="7.5">
+          <Sequence>ATTTAATT-(3)-TTTAGTTG-(3)-CTTAGCTA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A2352" Name="phoA1" Position="-91" Score="9.5">
+          <Sequence>ATTAAACT-(3)-CTTAGTTT-(3)-TTTAACTC</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A1232" Name="cysR" Position="-126" Score="8.7">
+          <Sequence>CTTAAACT-(3)-GATTACAT-(3)-ATTTAACT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A2120" Name="ndbB" Position="-309" Score="7.6">
+          <Sequence>CTAAAATT-(3)-TTTTACTA-(3)-TTTGATCA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5418876" LocusId="SYNPCC7002_A1357" Name="SYNPCC7002_A1357" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419871" LocusId="SYNPCC7002_A2352" Name="phoA1" Function="Alkaline phosphatase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5418751" LocusId="SYNPCC7002_A1232" Name="cysR" Function="Transcription regulator, Fnr-Crp family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419639" LocusId="SYNPCC7002_A2120" Name="ndbB" Function="Type 2 NADH dehydrogenase" />
+          <Members vimssId="5419640" LocusId="SYNPCC7002_A2121" Name="yjjG" Function="HAD-superfamily hydrolase, subfamily IA, variant 1" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1103</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="[Other]" RegulationMode="repressor">
+      <Regulator Key="SufR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=11880" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="SYNPCC7002_A1815" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5419334&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="SufR - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1281" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SYNPCC7002_A1815" Name="sufR" Position="-39" Score="5.8">
+          <Sequence>TTTAACAACAAAAAAGTTGTCAAA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A1443" Name="nifJ" Position="-152" Score="5.1">
+          <Sequence>TTTAGCAAGCATTTTGTTGTTAAA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A1814" Name="sufB" Position="-145" Score="5.2">
+          <Sequence>TTTGACAACTTTTTTGTTGTTAAA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A1814" Name="sufB" Position="-104" Score="5.6">
+          <Sequence>TAAAACAACCAAACAGTTGTTAAA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A1815" Name="sufR" Position="-80" Score="5.5">
+          <Sequence>TTTAACAACTGTTTGGTTGTTTTA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5419334" LocusId="SYNPCC7002_A1815" Name="sufR" Function="Iron-sulfur cluster biogenesis regulator SufR in Cyanobacteria" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5418962" LocusId="SYNPCC7002_A1443" Name="nifJ" Function="Pyruvate oxidoreductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5419333" LocusId="SYNPCC7002_A1814" Name="sufB" Function="Iron-sulfur assembly protein" />
+          <Members vimssId="5419332" LocusId="SYNPCC7002_A1813" Name="sufC" Function="Iron-sulfur assembly ATPase" />
+          <Members vimssId="5419331" LocusId="SYNPCC7002_A1812" Name="sufD" Function="Iron-sulfur assembly protein" />
+          <Members vimssId="5419330" LocusId="SYNPCC7002_A1811" Name="sufS" Function="Cysteine desulfurase (EC 2.8.1.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1281</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10725" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="SYNPCC7002_A2498" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5420017&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Cyanobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1168" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SYNPCC7002_G0127" Name="hemB2" Position="-25" Score="5.9">
+          <Sequence>TCGAGAATGATTATCATTTTTTA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_G0132" Name="PF07992" Position="-70" Score="6.4">
+          <Sequence>TTGATAATAATTATCATTTTTAT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="SYNPCC7002_A2501" Name="znuA" Position="-39" Score="5.5">
+          <Sequence>ATAAGAACGATTATCATTTCAAG</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5417481" LocusId="SYNPCC7002_G0127" Name="hemB2" Function="Porphobilinogen synthase (EC 4.2.1.24)" />
+          <Members vimssId="5417482" LocusId="SYNPCC7002_G0128" Name="folE2" Function="GTP cyclohydrolase I (EC 3.5.4.16)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5417486" LocusId="SYNPCC7002_G0132" Name="PF07992" Function="Predicted FAD-dependent oxidoreductase, PF07992 family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5420020" LocusId="SYNPCC7002_A2501" Name="znuA" Function="Zinc ABC transporter, substrate-binding protein" />
+          <Members vimssId="5420019" LocusId="SYNPCC7002_A2500" Name="znuB" Function="Zinc ABC transporter, ATP-binding protein" />
+          <Members vimssId="5420018" LocusId="SYNPCC7002_A2499" Name="znuC" Function="Zinc ABC transporter, permease protein" />
+          <Members vimssId="5420017" LocusId="SYNPCC7002_A2498" Name="zur" Function="Zinc uptake transcription regulator, Fur family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1168</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14111" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SYNPCC7002_A0637" Name="btuB" Position="-512" Score="62.1">
+          <Sequence>ATATAATTAGACTCTGTTCGGTTTTATCGGGGATCAGCCGATAAAAGCAATGGGGAAAGAACGGTGCAAATCCGTCGCTGTCCCGCAGCTGTAAGGAAATTTTCAGCAATTTCTAAGTCAGAATGCCCGCCGAGCCAAGCATAAACGTT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5418156" LocusId="SYNPCC7002_A0637" Name="btuB" Function="Outer membrane vitamin B12 receptor BtuB" />
+          <Members vimssId="5418155" LocusId="SYNPCC7002_A0636" Name="cpdA" Function="Metallo-dependent phosphatases" />
+          <Members vimssId="5418154" LocusId="SYNPCC7002_A0635" Name="btuF1" Function="Vitamin B12 ABC transporter, B12-binding component BtuF1" />
+          <Members vimssId="5418153" LocusId="SYNPCC7002_A0634" Name="btuC1" Function="Vitamin B12 ABC transporter, permease component BtuC1" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00557" RegulationMode="RF00557">
+      <Regulator Key="L10_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=24926" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L10_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SYNPCC7002_A1027" Name="rplJ" Position="-193" Score="62.4">
+          <Sequence>TAAATAGATTTTATTCATGCCAGAGACAGCAGGGGCGATCGCTTAATATCCTGCCGAGGTAAAACGCTACAAGACTAAACAAGTTTTTTTCCAAGTTTGCTTGGAAGAAGAGCGTGACCCTGGCATTGTCGCTGGGGTCTATTTTTTTGTCCCT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5418546" LocusId="SYNPCC7002_A1027" Name="rplJ" Function="50S ribosomal protein L10" />
+          <Members vimssId="5418545" LocusId="SYNPCC7002_A1026" Name="rplL" Function="ribosomal protein L7/L12" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13963" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SYNPCC7002_A0831" Name="thiC" Position="-110" Score="68.3">
+          <Sequence>TTGCCATAGCTAGGGGTGTCTGTCATAGGAATCAGACTGAGATAGTCCCTTAGAACCTGAGACTGGGTAATACCAGCGTAGGGAAGCTGTTAATAGAGGAT</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5418350" LocusId="SYNPCC7002_A0831" Name="thiC" Function="Phosphomethylpyrimidine synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00379" RegulationMode="RF00379">
+      <Regulator Key="ydaO-yuaA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=23746" />
+      <Effector />
+      <Pathway>Cell wall metabolism; Osmotic stress response</Pathway>
+      <LocusTag Key="ydaO-yuaA" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="SYNPCC7002_G0016" Name="tauC" Position="-262" Score="56.2">
+          <Sequence>CTGAGTAAGTCAGCTTAGTTCAAGGTTACAAAGCCTTGAAGCGGGGGAACCACCCGTCAACCCAACCGGGAAGACACCGGGGCTTATTTTCTGAGATATGCAGAAAAGGGACATCTTCCAGTCCTAGCCCGTCAGCTAACCTCGTCAGCATCGGAAGAAGACTGA</Sequence>
+          <Bacteria>Synechococcus sp. PCC 7002</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5417370" LocusId="SYNPCC7002_G0016" Name="tauC" Function="ABC-type nitrate/sulfonate/bicarbonate transport system, permease component" />
+          <Members vimssId="5417369" LocusId="SYNPCC7002_G0015" Name="tauA" Function="ABC-type nitrate/sulfonate/bicarbonate transport system, substrate-binding protein" />
+          <Members vimssId="5417368" LocusId="SYNPCC7002_G0014" Name="tauB" Function="ABC-type nitrate/sulfonate/bicarbonate transport system, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

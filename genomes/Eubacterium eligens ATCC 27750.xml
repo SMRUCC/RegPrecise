@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Eubacterium eligens ATCC 27750" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor (activator)">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47483" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="EUBELI_01081" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7502248&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4785" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBELI_00592" Name="argG" Position="-128" Score="4.6">
+          <Sequence>TTGTATATTAATGTAT</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_00592" Name="argG" Position="-149" Score="5.6">
+          <Sequence>ATTTATATTTATACAT</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_00593" Name="argC" Position="-164" Score="4.6">
+          <Sequence>ATACATTAATATACAA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_00593" Name="argC" Position="-143" Score="5.6">
+          <Sequence>ATGTATAAATATAAAT</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_20411" Name="carA" Position="-182" Score="5.1">
+          <Sequence>ATGCATTTTTATGCAA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7501760" LocusId="EUBELI_00593" Name="argC" Function="N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)" />
+          <Members vimssId="7501761" LocusId="EUBELI_00594" Name="argJ" Function="Glutamate N-acetyltransferase (EC 2.3.1.35) / N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="7501762" LocusId="EUBELI_00595" Name="argB" Function="Acetylglutamate kinase (EC 2.7.2.8)" />
+          <Members vimssId="7501763" LocusId="EUBELI_00596" Name="argD" Function="Acetylornithine aminotransferase (EC 2.6.1.11)" />
+          <Members vimssId="7501764" LocusId="EUBELI_00597" Name="COG2182" Function="Periplasmic binding protein-like II" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7501759" LocusId="EUBELI_00592" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7503645" LocusId="EUBELI_20411" Name="carA" Function="Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)" />
+          <Members vimssId="7503644" LocusId="EUBELI_20410" Name="carB" Function="Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4785</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57902" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="EUBELI_01675" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7502841&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5929" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBELI_01172" Name="bioY" Position="-95" Score="8.8">
+          <Sequence>ATGTCAAC---------------GTTGACAA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_20420" Name="bioB" Position="-14" Score="8.5">
+          <Sequence>ATGTCAAC---------------GTTGACAT</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7503654" LocusId="EUBELI_20420" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7502339" LocusId="EUBELI_01172" Name="bioY" Function="Substrate-specific component BioY of biotin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5929</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="CzrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62652" />
+      <Effector>Zinc ion, (Zn2+); Silver ion, (Ag+); Nickel ion, (Ni2+); Copper ion, (Cu2+); Cobalt ion, (Co2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Zinc resistance; Nickel resistance; Copper resistance; Cobalt resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="EUBELI_01432" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7502599&amp;disp=0" />
+      <BiologicalProcess>Zinc resistance; Nickel resistance; Copper resistance; Cobalt resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CzrA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6446" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBELI_01434" Name="PF00403" Position="-63" Score="7.3">
+          <Sequence>CATATGAATGAATGTTCATATG</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7502601" LocusId="EUBELI_01434" Name="PF00403" Function="Heavy-metal-associated domain" />
+          <Members vimssId="7502600" LocusId="EUBELI_01433" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5); Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="7502599" LocusId="EUBELI_01432" Name="czrA" Function="Cadmium-dependent transcriptuin regulator, ArsR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6446</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62760" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="EUBELI_00576" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7501743&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6458" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBELI_20391" Name="feoB2" Position="-57" Score="5.8">
+          <Sequence>ATTGAGAAGAATTATCAAT</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_00572" Name="BACPEC_02635" Position="-1" Score="5.8">
+          <Sequence>AATGAAAAACATTATCAAT</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_00577" Name="BACPEC_03058" Position="-47" Score="5.7">
+          <Sequence>ATTGAGAAGATTTCTCAAT</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7503625" LocusId="EUBELI_20391" Name="feoB2" Function="Ferrous iron transport protein B" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7501744" LocusId="EUBELI_00577" Name="BACPEC_03058" Function="hypothetical protein" />
+          <Members vimssId="7501745" LocusId="EUBELI_00578" Name="COG2217" Function="Cation transporting ATPase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7501739" LocusId="EUBELI_00572" Name="BACPEC_02635" Function="hypothetical protein" />
+          <Members vimssId="7501740" LocusId="EUBELI_00573" Name="feoA" Function="Ferrous iron transport protein A" />
+          <Members vimssId="7501741" LocusId="EUBELI_00574" Name="feoB" Function="Ferrous iron transport protein B" />
+          <Members vimssId="7501742" LocusId="EUBELI_00575" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7501743" LocusId="EUBELI_00576" Name="fur" Function="Transcriptional regulator for iron transport and metabolism, Fur family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6458</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TrpR" RegulationMode="repressor">
+      <Regulator Key="HisR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=54592" />
+      <Effector>Histidine</Effector>
+      <Pathway>Histidine biosynthesis</Pathway>
+      <LocusTag Key="EUBELI_01562" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7502728&amp;disp=0" />
+      <BiologicalProcess>Histidine biosynthesis</BiologicalProcess>
+      <Regulog Key="HisR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5569" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBELI_01562" Name="hisR" Position="-68" Score="4.7">
+          <Sequence>AACTTCACTGTGTTAAAATT</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_01397" Name="hisX" Position="-44" Score="5.1">
+          <Sequence>TGATTTACTGTGGTAAAGTG</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_01024" Name="hisZ" Position="-47" Score="4.4">
+          <Sequence>CACTTCAACGCATTAAAGCA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7502564" LocusId="EUBELI_01397" Name="hisX" Function="Histidine ABC transporter, histidine-binding protein (TC 3.A.1)" />
+          <Members vimssId="7502563" LocusId="EUBELI_01396" Name="hisZ" Function="Histidine ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7502191" LocusId="EUBELI_01024" Name="hisZ" Function="ATP phosphoribosyltransferase regulatory subunit (EC 2.4.2.17)" />
+          <Members vimssId="7502190" LocusId="EUBELI_01023" Name="hisG" Function="ATP phosphoribosyltransferase catalytic subunit (EC 2.4.2.17)" />
+          <Members vimssId="7502189" LocusId="EUBELI_01022" Name="hisD" Function="Histidinol dehydrogenase (EC 1.1.1.23)" />
+          <Members vimssId="7502188" LocusId="EUBELI_01021" Name="hisB" Function="Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)" />
+          <Members vimssId="7502187" LocusId="EUBELI_01020" Name="hisA" Function="Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase (EC 5.3.1.16)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7502728" LocusId="EUBELI_01562" Name="hisR" Function="Predicted histidine repressor, TrpR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5569</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47497" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="EUBELI_01362" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7502529&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4786" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBELI_00519" Name="groES" Position="-16" Score="7.2">
+          <Sequence>TTAGCACTCGAAAAGAATGAGTGCTAA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_01321" Name="htpG" Position="-105" Score="7.3">
+          <Sequence>TTAGCACTCTTATTTAAGGAGTGCTAA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_01362" Name="hrcA" Position="-16" Score="7.2">
+          <Sequence>TTAGCACTCCAATCTGATGAGTGCTAA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_20272" Name="hsp20" Position="-178" Score="7.1">
+          <Sequence>TTAGCACTCACCCCTTGACAGTGCTAA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_01260" Name="clpB" Position="-115" Score="7.2">
+          <Sequence>TTAGCACTCACCTCTTGACAGTGCTAA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7502427" LocusId="EUBELI_01260" Name="clpB" Function="ATP-dependent Clp protease ATP-binding subunit ClpB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7502529" LocusId="EUBELI_01362" Name="hrcA" Function="heat-inducible transcription repressor HrcA" />
+          <Members vimssId="7502528" LocusId="EUBELI_01361" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="7502527" LocusId="EUBELI_01360" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="7502526" LocusId="EUBELI_01359" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7501686" LocusId="EUBELI_00519" Name="groES" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="7501687" LocusId="EUBELI_00520" Name="groEL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7502488" LocusId="EUBELI_01321" Name="htpG" Function="Heat shock chaperone protein 90" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7503506" LocusId="EUBELI_20272" Name="hsp20" Function="Heat shock protein Hsp20" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4786</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="IdeR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63067" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="EUBELI_20503" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7503737&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="IdeR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6500" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBELI_00572" Name="" Position="-29" Score="5.8">
+          <Sequence>ACCATTAGAATATACTAACCGA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_00574" Name="feoB" Position="-89" Score="5.4">
+          <Sequence>CAGGTTAGCATAATCTAATTAA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_00569" Name="PF10087" Position="-112" Score="4.9">
+          <Sequence>ATAGTTAGTTAAAGCTAACTGA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_01395" Name="eno" Position="-176" Score="4.3">
+          <Sequence>AATTTATGTGTATACAAACTAA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_01395" Name="eno" Position="-55" Score="5.9">
+          <Sequence>AAAGTTAGAAGAAACTAACTTA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7501741" LocusId="EUBELI_00574" Name="feoB" Function="Ferrous iron transport protein B" />
+          <Members vimssId="7501742" LocusId="EUBELI_00575" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7501743" LocusId="EUBELI_00576" Name="fur" Function="Transcriptional regulator for iron transport and metabolism, Fur family" />
+          <Members vimssId="7501744" LocusId="EUBELI_00577" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7501745" LocusId="EUBELI_00578" Name="COG2217" Function="Cation transporting ATPase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7501739" LocusId="EUBELI_00572" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7501740" LocusId="EUBELI_00573" Name="feoA" Function="Ferrous iron transport protein A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7501736" LocusId="EUBELI_00569" Name="PF10087" Function="Uncharacterized protein conserved in bacteria" />
+          <Members vimssId="7501737" LocusId="EUBELI_00570" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7501738" LocusId="EUBELI_00571" Name="COG0716" Function="Flavodoxins" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7502562" LocusId="EUBELI_01395" Name="eno" Function="Enolase (EC 4.2.1.11)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6500</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47455" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="EUBELI_01008" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7502175&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4783" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBELI_01121" Name="recA" Position="-32" Score="4.7">
+          <Sequence>ACGAACACATGTTCAA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_01008" Name="lexA" Position="-147" Score="4.5">
+          <Sequence>TCAAACAAGTGTTCTG</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_20063" Name="COG4277" Position="-8" Score="5.1">
+          <Sequence>TCGAACAAATGTTTTA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_20063" Name="COG4277" Position="10" Score="4.7">
+          <Sequence>ATGAACACATGTTCGA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7502175" LocusId="EUBELI_01008" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7503299" LocusId="EUBELI_20063" Name="COG4277" Function="Predicted DNA-binding protein with the Helix-hairpin-helix motif" />
+          <Members vimssId="7503298" LocusId="EUBELI_20062" Name="BACPEC_02112" Function="Uracil-DNA glycosylase, family 1" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7502288" LocusId="EUBELI_01121" Name="recA" Function="Recombination protein A" />
+          <Members vimssId="7502287" LocusId="EUBELI_01120" Name="recX" Function="regulatory protein RecX" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4783</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NiaR" RegulationMode="repressor">
+      <Regulator Key="NiaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47441" />
+      <Effector>Niacin</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="EUBELI_01428" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7502595&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NiaR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4782" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBELI_01431" Name="nadA" Position="-102" Score="6.5">
+          <Sequence>TACAACTGTCTTGTCACATGTA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7502598" LocusId="EUBELI_01431" Name="nadA" Function="Quinolinate synthetase (EC 4.1.99.-)" />
+          <Members vimssId="7502597" LocusId="EUBELI_01430" Name="nadB" Function="L-aspartate oxidase (EC 1.4.3.16)" />
+          <Members vimssId="7502596" LocusId="EUBELI_01429" Name="nadC" Function="Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)" />
+          <Members vimssId="7502595" LocusId="EUBELI_01428" Name="niaR" Function="NAD biosynthesis transcription regulator, HTH_11 family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4782</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=64321" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="EUBELI_01329" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7502496&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6635" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBELI_01571" Name="nrdD" Position="-178" Score="5.1">
+          <Sequence>TTACAAGATATTGTGT</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_01571" Name="nrdD" Position="-146" Score="4.6">
+          <Sequence>AGCCTATATGTTGTAT</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7502737" LocusId="EUBELI_01571" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6635</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61482" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine biosynthesis</Pathway>
+      <LocusTag Key="EUBELI_20396" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7503630&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine biosynthesis</BiologicalProcess>
+      <Regulog Key="PdxR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6312" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBELI_20439" Name="pdxS" Position="-106" Score="12">
+          <Sequence>TTCTGGCAT-(15)-AATTGGATA-(8)-TGACCAGTT</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7503673" LocusId="EUBELI_20439" Name="pdxS" Function="Pyridoxine biosynthesis glutamine amidotransferase, synthase subunit (EC 2.4.2.-)" />
+          <Members vimssId="7503674" LocusId="EUBELI_20440" Name="pdxT" Function="Pyridoxine biosynthesis glutamine amidotransferase, glutaminase subunit (EC 2.4.2.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6312</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="RUMGNA_00848" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57037" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux</Pathway>
+      <LocusTag Key="EUBELI_01751" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7502917&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux</BiologicalProcess>
+      <Regulog Key="RUMGNA_00848 - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5831" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBELI_01751" Name="RUMGNA_00848" Position="2" Score="5.6">
+          <Sequence>GGCTCTTATTTTGTATATTTTTAATAAACAGTATATAAC</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7502917" LocusId="EUBELI_01751" Name="RUMGNA_00848" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="7502916" LocusId="EUBELI_01750" Name="BH0652" Function="ABC-type multidrug transport system, ATPase component" />
+          <Members vimssId="7502915" LocusId="EUBELI_01749" Name="BH0653" Function="ABC-type multidrug transport system, permease component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5831</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47469" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="EUBELI_01381" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7502548&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4784" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBELI_02054" Name="adhE" Position="-54" Score="5.6">
+          <Sequence>TTGTTAAATTATTATCAA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_02006" Name="bdh" Position="-28" Score="5.4">
+          <Sequence>TTGTTTATAATTTAACAA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_01190" Name="gap" Position="-57" Score="5">
+          <Sequence>TAGTTGAAATTTTAACAA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_01188" Name="tpi" Position="-144" Score="5.3">
+          <Sequence>TTGTTATTTATTTCACAA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_20348" Name="ladH" Position="-170" Score="5">
+          <Sequence>TTGTTATAAGTATAACAT</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_20348" Name="ladH" Position="-78" Score="5">
+          <Sequence>TTGTTATTATTTTGTCAT</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_01169" Name="pckA" Position="-110" Score="5">
+          <Sequence>TCGAGAAAAATTTAACAA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_01258" Name="ppsA" Position="-71" Score="5.6">
+          <Sequence>ATGTTATAATTTTAACAA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_01405" Name="phf1" Position="-40" Score="4.8">
+          <Sequence>TCGATAATTTTTTGTCAA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_01680" Name="pfkA" Position="-93" Score="5.1">
+          <Sequence>TTGGTAAAAAATTATCAA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_01381" Name="rex" Position="-114" Score="4.8">
+          <Sequence>TGGTTAAAATTTTGACAT</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7503220" LocusId="EUBELI_02054" Name="adhE" Function="Alcohol dehydrogenase (EC 1.1.1.1), Fe-dependent; Acetaldehyde dehydrogenase (EC 1.2.1.10)" />
+          <Members vimssId="7503221" LocusId="EUBELI_02055" Name="stpK" Function="Mn2+-dependent serine/threonine protein kinase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7502548" LocusId="EUBELI_01381" Name="rex" Function="Redox-sensitive transcriptional regulator (AT-rich DNA-binding protein)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7502846" LocusId="EUBELI_01680" Name="pfkA" Function="6-phosphofructokinase (EC 2.7.1.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7502572" LocusId="EUBELI_01405" Name="phf1" Function="[Fe] hydrogenase (EC 1.12.7.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7502425" LocusId="EUBELI_01258" Name="ppsA" Function="Pyruvate,phosphate dikinase (EC 2.7.9.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7502336" LocusId="EUBELI_01169" Name="pckA" Function="Phosphoenolpyruvate carboxykinase [ATP] (EC 4.1.1.49)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7503582" LocusId="EUBELI_20348" Name="ladH" Function="Lactaldehyde reductase (EC 1.1.1.77)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7502355" LocusId="EUBELI_01188" Name="tpi" Function="Triosephosphate isomerase (EC 5.3.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7502357" LocusId="EUBELI_01190" Name="gap" Function="NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)" />
+          <Members vimssId="7502356" LocusId="EUBELI_01189" Name="pgk" Function="Phosphoglycerate kinase (EC 2.7.2.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7503172" LocusId="EUBELI_02006" Name="bdh" Function="Butanol dehydrogenase; Butyraldehyde dehydrogenase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4784</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="UxuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63051" />
+      <Effector />
+      <Pathway>Glucuronate utilization</Pathway>
+      <LocusTag Key="EUBELI_00906" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7502073&amp;disp=0" />
+      <BiologicalProcess>Glucuronate utilization</BiologicalProcess>
+      <Regulog Key="UxuR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6499" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBELI_00907" Name="uxaB" Position="-105" Score="5.7">
+          <Sequence>TTATGAAAGCGCTTACATGC</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_00907" Name="uxaB" Position="-233" Score="6.5">
+          <Sequence>AAATGTAAGCGCTTACATAT</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_00906" Name="uxuR" Position="-211" Score="5.7">
+          <Sequence>GCATGTAAGCGCTTTCATAA</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="EUBELI_00906" Name="uxuR" Position="-83" Score="6.5">
+          <Sequence>ATATGTAAGCGCTTACATTT</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7502074" LocusId="EUBELI_00907" Name="uxaB" Function="Altronate oxidoreductase (EC 1.1.1.58)" />
+          <Members vimssId="7502075" LocusId="EUBELI_00908" Name="uxaA" Function="Altronate hydrolase (EC 4.2.1.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7502073" LocusId="EUBELI_00906" Name="uxuR" Function="Predicted transcription regulator for glucuronate utilization, LacI family" />
+          <Members vimssId="7502072" LocusId="EUBELI_00905" Name="uxaC" Function="Uronate isomerase (EC 5.3.1.12)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6499</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="YtrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57202" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux; Antibiotic resistance</Pathway>
+      <LocusTag Key="EUBELI_00141" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7501308&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux; Antibiotic resistance</BiologicalProcess>
+      <Regulog Key="YtrA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5849" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBELI_00141" Name="ytrA" Position="-77" Score="7">
+          <Sequence>AACTGTACTAATTAACATAGTACAGTT</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7501308" LocusId="EUBELI_00141" Name="ytrA" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="7501309" LocusId="EUBELI_00142" Name="ytrB" Function="ABC-type multidrug transport system, ATPase component" />
+          <Members vimssId="7501310" LocusId="EUBELI_00143" Name="ytrD" Function="ABC-type transport system, permease component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5849</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48831" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBELI_20114" Name="ribD" Position="-847" Score="109.3">
+          <Sequence>TATGGAACTTCAGGGCAGGGTGTGATTCCCTACCGGTGGTAAAGCCCACGAGCCGAGGCGTAAGCCAGAGCATGATTCGGTGTAATTCCGAAGCCGACAGTAAAGTCTGGATGAAAGAAGTGATAT</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7503350" LocusId="EUBELI_20114" Name="ribD" Function="Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26) / 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)" />
+          <Members vimssId="7503349" LocusId="EUBELI_20113" Name="ribE" Function="Riboflavin synthase alpha chain (EC 2.5.1.9)" />
+          <Members vimssId="7503348" LocusId="EUBELI_20112" Name="ribBA" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase / GTP cyclohydrolase II (EC 3.5.4.25)" />
+          <Members vimssId="7503347" LocusId="EUBELI_20111" Name="ribH" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48845" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="EUBELI_00711" Name="thiC" Position="-159" Score="48.8">
+          <Sequence>TATATTTGCAGGGGAGCATAAGGGCTGTGTAAGCAGTGGCTGCTGAGAGGGATTAAGTTCCGACCCATAACCTGATGTGGATAATGCCACCGTAGGGATTCTTTAGAGGGCTTTTAGC</Sequence>
+          <Bacteria>Eubacterium eligens ATCC 27750</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7501878" LocusId="EUBELI_00711" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

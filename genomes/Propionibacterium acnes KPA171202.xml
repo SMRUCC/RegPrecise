@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Propionibacterium acnes KPA171202" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58971" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="PPA0586" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=612342&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Frankineae/Propionibacterineae/Pseudonocardiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6044" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PPA2201" Name="argG" Position="-20" Score="4.7">
+          <Sequence>CTGCATATATATGCGC</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA1350" Name="argC" Position="59" Score="5.2">
+          <Sequence>GTGTATAAATATGCAC</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="613948" LocusId="PPA2201" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="613115" LocusId="PPA1350" Name="argC" Function="N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)" />
+          <Members vimssId="613114" LocusId="PPA1349" Name="argJ" Function="Glutamate N-acetyltransferase (EC 2.3.1.35) / N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="613113" LocusId="PPA1348" Name="argB" Function="Acetylglutamate kinase (EC 2.7.2.8)" />
+          <Members vimssId="613112" LocusId="PPA1347" Name="argD" Function="Acetylornithine aminotransferase (EC 2.6.1.11)" />
+          <Members vimssId="613111" LocusId="PPA1346" Name="argH" Function="Argininosuccinate lyase (EC 4.3.2.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6044</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="BioQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=8037" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="PPA1406" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=613175&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BioQ - Actinomycetales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=816" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PPA1407" Name="bioB" Position="9" Score="5">
+          <Sequence>ATTGAATCCCGTTCAAT</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA1407" Name="bioB" Position="26" Score="5.6">
+          <Sequence>CCTGAACGGCGTTCAGG</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA0967" Name="bioA" Position="-121" Score="6">
+          <Sequence>CCTGAACACTGTTCAAG</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA1866" Name="bioWF" Position="-50" Score="5.5">
+          <Sequence>ATTGAATGGTGTTCAAT</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA1406" Name="bioQ" Position="-55" Score="5.6">
+          <Sequence>CCTGAACGCCGTTCAGG</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA1406" Name="bioQ" Position="-38" Score="5">
+          <Sequence>ATTGAACGGGATTCAAT</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA1400" Name="bioY" Position="-75" Score="5.9">
+          <Sequence>ACTGAACGGTGTTCAAT</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="613166" LocusId="PPA1400" Name="bioY" Function="Substrate-specific component BioY of biotin ECF transporter" />
+          <Members vimssId="613165" LocusId="PPA1399" Name="bioM" Function="ATPase component BioM of energizing module of biotin ECF transporter" />
+          <Members vimssId="613164" LocusId="PPA1398" Name="bioN" Function="Transmembrane component BioN of energizing module of biotin ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="613175" LocusId="PPA1406" Name="bioQ" Function="biotin repressor, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="613617" LocusId="PPA1866" Name="bioWF" Function="pimeloyl-CoA synthetase/8-amino-7-oxononanoate synthase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="612724" LocusId="PPA0967" Name="bioA" Function="adenosylmethionine-8-amino-7-oxononanoate aminotransferase" />
+          <Members vimssId="612725" LocusId="PPA0968" Name="bioD" Function="dethiobiotin synthetase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="613176" LocusId="PPA1407" Name="bioB" Function="biotin synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=816</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="BioQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62828" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="PPA1406" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=613175&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BioQ - Frankineae/Propionibacterineae/Pseudonocardiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6468" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PPA1407" Name="bioB" Position="9" Score="4.6">
+          <Sequence>ATTGAATCCCGTTCAAT</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA1407" Name="bioB" Position="26" Score="6.3">
+          <Sequence>CCTGAACGGCGTTCAGG</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA1400" Name="bioY" Position="-75" Score="5.6">
+          <Sequence>ACTGAACGGTGTTCAAT</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA0967" Name="bioA" Position="-121" Score="5.9">
+          <Sequence>CCTGAACACTGTTCAAG</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA1406" Name="bioQ" Position="-55" Score="6.3">
+          <Sequence>CCTGAACGCCGTTCAGG</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA1866" Name="bioWF" Position="-50" Score="5.1">
+          <Sequence>ATTGAATGGTGTTCAAT</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="612724" LocusId="PPA0967" Name="bioA" Function="Adenosylmethionine-8-amino-7-oxononanoate aminotransferase (EC 2.6.1.62)" />
+          <Members vimssId="612725" LocusId="PPA0968" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="613166" LocusId="PPA1400" Name="bioY" Function="Substrate-specific component BioY of biotin ECF transporter" />
+          <Members vimssId="613165" LocusId="PPA1399" Name="bioM" Function="ATPase component BioM of energizing module of biotin ECF transporter" />
+          <Members vimssId="613164" LocusId="PPA1398" Name="bioN" Function="Transmembrane component BioN of energizing module of biotin ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="613176" LocusId="PPA1407" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="613617" LocusId="PPA1866" Name="bioWF" Function="Pimeloyl-CoA synthase (EC 6.2.1.14) / 8-amino-7-oxononanoate synthase (EC 2.3.1.47)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="613175" LocusId="PPA1406" Name="bioQ" Function="Biotin repressor, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6468</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="DasR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63540" />
+      <Effector>Glucosamine-6-phosphate</Effector>
+      <Pathway>N-acetylglucosamine utilization</Pathway>
+      <LocusTag Key="PPA0676" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=612433&amp;disp=0" />
+      <BiologicalProcess>N-acetylglucosamine utilization</BiologicalProcess>
+      <Regulog Key="DasR - Frankineae/Propionibacterineae/Pseudonocardiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6552" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PPA0675" Name="nagE" Position="-51" Score="4.9">
+          <Sequence>AGTGGTCCATACCACC</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA0676" Name="dasR" Position="-140" Score="4.9">
+          <Sequence>GGTGGTATGGACCACT</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA0678" Name="nagF" Position="-89" Score="4.8">
+          <Sequence>AGTTGTCTGGACCACT</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="612432" LocusId="PPA0675" Name="nagE" Function="PTS system, N-acetylglucosamine-specific IIB component (EC 2.7.1.69) / PTS system, N-acetylglucosamine-specific IIC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="612435" LocusId="PPA0678" Name="nagF" Function="PTS system N-acetylglucosamine-specific EIIB component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="612433" LocusId="PPA0676" Name="dasR" Function="Transcriptional regulator of N-Acetylglucosamine utilization, GntR family" />
+          <Members vimssId="612434" LocusId="PPA0677" Name="nagF" Function="PTS system N-acetylglucosamine-specific EIIB component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6552</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58651" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="PPA0915" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=612671&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Frankineae/Propionibacterineae/Pseudonocardiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6003" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PPA0915" Name="hrcA" Position="-67" Score="6.7">
+          <Sequence>GTGGCACTCGGCACCCGAGAGTGCCAA</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA0453" Name="groL2" Position="-195" Score="6.5">
+          <Sequence>TTGGCACTCGACAAGCGAGAGTGCTAC</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA0453" Name="groL2" Position="-230" Score="6.5">
+          <Sequence>TTTGCACTCGCTGGGTGTGAGTGCTAA</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA1773" Name="groS" Position="-132" Score="6.5">
+          <Sequence>TTGGCACTCTCGTGGTGAGTGTGCCAA</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA1773" Name="groS" Position="-179" Score="6.4">
+          <Sequence>CTGGCACTCCCGTTGCCTGAGTGCCAA</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="613530" LocusId="PPA1773" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="613529" LocusId="PPA1772" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="612671" LocusId="PPA0915" Name="hrcA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="612672" LocusId="PPA0916" Name="dnaJ" Function="Chaperone protein DnaJ" />
+          <Members vimssId="612673" LocusId="PPA0917" Name="rsmE" Function="16S ribosomal RNA methyltransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="612199" LocusId="PPA0453" Name="groL2" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6003</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="IolR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56820" />
+      <Effector />
+      <Pathway>Inositol utilization</Pathway>
+      <LocusTag Key="PPA0462" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=612208&amp;disp=0" />
+      <BiologicalProcess>Inositol utilization</BiologicalProcess>
+      <Regulog Key="IolR - Frankineae/Propionibacterineae/Pseudonocardiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5806" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PPA0456" Name="iolC" Position="-73" Score="4.2">
+          <Sequence>CAATTGTATTGACATATG</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA0468" Name="iolE" Position="-77" Score="4.1">
+          <Sequence>TATTTGACAGGACATATA</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA0461" Name="iolA" Position="-101" Score="4.3">
+          <Sequence>TATTTGTTAGTACAAATT</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA0468" Name="iolE" Position="-141" Score="4.1">
+          <Sequence>CTAATGTTAGCACAAAGC</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA0461" Name="iolA" Position="-253" Score="3.8">
+          <Sequence>AACATGTTAGCACAATTG</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA0463" Name="iolG" Position="-100" Score="4.5">
+          <Sequence>TCCTTGACAGGACAAACT</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA0455" Name="iolR" Position="-159" Score="4.2">
+          <Sequence>CATATGTCAATACAATTG</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA0469" Name="iolG" Position="-57" Score="4.1">
+          <Sequence>TATATGTCCTGTCAAATA</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA0469" Name="iolG" Position="7" Score="4.1">
+          <Sequence>GCTTTGTGCTAACATTAG</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA0454" Name="tal" Position="-87" Score="4.4">
+          <Sequence>TATTTGACAGGACAAATT</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA0466" Name="iolG" Position="-65" Score="4.5">
+          <Sequence>TTTTTGACAGGACAAATG</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="612214" LocusId="PPA0468" Name="iolE" Function="Inosose dehydratase (EC 4.2.1.44)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="612207" LocusId="PPA0461" Name="iolA" Function="Methylmalonate-semialdehyde dehydrogenase (EC 1.2.1.27)" />
+          <Members vimssId="612208" LocusId="PPA0462" Name="iolR1" Function="Inositol utilization transcriptional regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="612209" LocusId="PPA0463" Name="iolG" Function="Myo-inositol 2-dehydrogenase 2 (EC 1.1.1.18)" />
+          <Members vimssId="612210" LocusId="PPA0464" Name="iolE" Function="Inosose dehydratase (EC 4.2.1.44)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="612201" LocusId="PPA0455" Name="iolR" Function="Inositol utilization transcriptional regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="612212" LocusId="PPA0466" Name="iolG" Function="Myo-inositol 2-dehydrogenase (EC 1.1.1.18)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="612215" LocusId="PPA0469" Name="iolG" Function="Myo-inositol 2-dehydrogenase (EC 1.1.1.18)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="612200" LocusId="PPA0454" Name="tal" Function="Transaldolase (EC 2.2.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="612202" LocusId="PPA0456" Name="iolC" Function="5-keto-2-deoxygluconokinase (EC 2.7.1.92)" />
+          <Members vimssId="612203" LocusId="PPA0457" Name="iolJ" Function="5-keto-2-deoxy-D-gluconate-6 phosphate aldolase (EC 4.1.2.29)" />
+          <Members vimssId="612204" LocusId="PPA0458" Name="iolB" Function="5-deoxy-glucuronate isomerase (EC 5.3.1.-)" />
+          <Members vimssId="612205" LocusId="PPA0459" Name="iolD" Function="Epi-inositol hydrolase (EC 3.7.1.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5806</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58745" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="" Value="" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Frankineae/Propionibacterineae/Pseudonocardiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6018" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PPA1757" Name="PPA1757" Position="-83" Score="4">
+          <Sequence>TCGATCGTGGGATCGT</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="613514" LocusId="PPA1757" Name="PPA1757" Function="Hypothetical protein" />
+          <Members vimssId="613513" LocusId="PPA1756" Name="uvrD" Function="ATP-dependent DNA helicase II" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6018</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="LldR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56782" />
+      <Effector>L-lactate</Effector>
+      <Pathway>Lactate utilization</Pathway>
+      <LocusTag Key="PPA0165" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=611913&amp;disp=0" />
+      <BiologicalProcess>Lactate utilization</BiologicalProcess>
+      <Regulog Key="LldR - Frankineae/Propionibacterineae/Pseudonocardiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5802" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PPA0165" Name="" Position="-272" Score="5.4">
+          <Sequence>TTTGGTCCGACCAAT</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA0166" Name="lldP" Position="-77" Score="5.4">
+          <Sequence>ATTGGTCGGACCAAA</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="611913" LocusId="PPA0165" Name="null" Function="Lactate-responsive regulator LldR in Actinobacteria, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="611914" LocusId="PPA0166" Name="lldP" Function="L-lactate permease" />
+          <Members vimssId="611915" LocusId="PPA0167" Name="lldE" Function="L-lactate dehydrogenase, Fe-S oxidoreductase subunit LldE" />
+          <Members vimssId="611916" LocusId="PPA0168" Name="lldF" Function="L-lactate dehydrogenase, Iron-sulfur cluster-binding subunit LldF" />
+          <Members vimssId="611917" LocusId="PPA0169" Name="lldG" Function="L-lactate dehydrogenase, subunit LldG" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5802</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57658" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="PPA1025" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=612782&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Frankineae/Propionibacterineae/Pseudonocardiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5903" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PPA2137" Name="nrdD" Position="-285" Score="5">
+          <Sequence>GCACCAGATGTAGGGG</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA1025" Name="nrdR" Position="-128" Score="4.7">
+          <Sequence>ATACCAGATGTTGTGG</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA2137" Name="nrdD" Position="-317" Score="4.2">
+          <Sequence>ACCCTTTATCTTGTGC</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA1025" Name="nrdR" Position="-97" Score="4">
+          <Sequence>TCCCTATAAGTTGTGT</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA2121" Name="nrdA" Position="-321" Score="4.2">
+          <Sequence>GCCCTTCATATAGTGA</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="613881" LocusId="PPA2137" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+          <Members vimssId="613880" LocusId="PPA2136" Name="nrdG" Function="Ribonucleotide reductase of class III (anaerobic), activating protein (EC 1.97.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="613865" LocusId="PPA2121" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="613866" LocusId="PPA2122" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="612782" LocusId="PPA1025" Name="nrdR" Function="Ribonucleotide reductase transcriptional regulator NrdR" />
+          <Members vimssId="612783" LocusId="PPA1026" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1) @ intein-containing" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5903</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="activator">
+      <Regulator Key="PdxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61913" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine biosynthesis</Pathway>
+      <LocusTag Key="PPA0964" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=612721&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine biosynthesis</BiologicalProcess>
+      <Regulog Key="PdxR - Frankineae/Propionibacterineae/Pseudonocardiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6359" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PPA0965" Name="pdxS" Position="-61" Score="13.6">
+          <Sequence>AAAGTGGTCT-(14)-TATATGGATC-(7)-GAACCACAAT</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="612722" LocusId="PPA0965" Name="pdxS" Function="Pyridoxine biosynthesis glutamine amidotransferase, synthase subunit (EC 2.4.2.-)" />
+          <Members vimssId="612723" LocusId="PPA0966" Name="pdxT" Function="Pyridoxine biosynthesis glutamine amidotransferase, glutaminase subunit (EC 2.4.2.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6359</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42030" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="PPA0948" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=612704&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Actinobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4339" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PPA0617" Name="znuA" Position="-46" Score="4.7">
+          <Sequence>ATACGACAATGGTTATCACTT</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA2158" Name="rpmB2" Position="-44" Score="5">
+          <Sequence>ATATGATAATGATTCTCATAT</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA2157" Name="rpmE2" Position="-73" Score="5">
+          <Sequence>ATATGAGAATCATTATCATAT</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA1500" Name="sapD" Position="-49" Score="5.3">
+          <Sequence>AATCGATAACCGTTCTCATTA</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="613266" LocusId="PPA1500" Name="sapD" Function="Conserved hypothetical protein CHP03773, ABC transporter-like" />
+          <Members vimssId="613267" LocusId="PPA1501" Name="troA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+          <Members vimssId="613268" LocusId="PPA1502" Name="DIP0439" Function="Surface-anchored repeat, actinobacteria" />
+          <Members vimssId="613269" LocusId="PPA1503" Name="DIP0440" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="613270" LocusId="PPA1504" Name="DIP0441" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="613904" LocusId="PPA2158" Name="rpmB2" Function="LSU ribosomal protein L28p" />
+          <Members vimssId="613905" LocusId="PPA2160" Name="rpmG2" Function="LSU ribosomal protein L33p" />
+          <Members vimssId="613906" LocusId="PPA2161" Name="rpsN2" Function="SSU ribosomal protein S14p (S29e)" />
+          <Members vimssId="613907" LocusId="PPA2162" Name="rpmF2" Function="LSU ribosomal protein L32p" />
+        </Operon>
+        <Operon>
+          <Members vimssId="612374" LocusId="PPA0617" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+          <Members vimssId="612373" LocusId="PPA0616" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="612372" LocusId="PPA0615" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="613903" LocusId="PPA2157" Name="rpmE2" Function="LSU ribosomal protein L31p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4339</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62934" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="PPA0948" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=612704&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Frankineae/Propionibacterineae/Pseudonocardiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6484" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PPA2158" Name="rpmB2" Position="-43" Score="5.1">
+          <Sequence>TATGATAATGATTCTCATA</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA1500" Name="TIGR03773" Position="-48" Score="5.7">
+          <Sequence>ATCGATAACCGTTCTCATT</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA2157" Name="rpmE2" Position="-72" Score="5.1">
+          <Sequence>TATGAGAATCATTATCATA</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PPA0617" Name="znuA" Position="-45" Score="5.1">
+          <Sequence>TACGACAATGGTTATCACT</Sequence>
+          <Bacteria>Propionibacterium acnes KPA171202</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="613904" LocusId="PPA2158" Name="rpmB2" Function="LSU ribosomal protein L28p" />
+          <Members vimssId="613905" LocusId="PPA2160" Name="rpmG2" Function="LSU ribosomal protein L33p" />
+          <Members vimssId="613906" LocusId="PPA2161" Name="rpsN2" Function="SSU ribosomal protein S14p" />
+          <Members vimssId="613907" LocusId="PPA2162" Name="rpmF2" Function="LSU ribosomal protein L32p" />
+        </Operon>
+        <Operon>
+          <Members vimssId="613266" LocusId="PPA1500" Name="TIGR03773" Function="Conserved hypothetical protein CHP03773, ABC transporter-like" />
+          <Members vimssId="613267" LocusId="PPA1501" Name="znuA3" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+          <Members vimssId="613268" LocusId="PPA1502" Name="PPA1502" Function="Surface-anchored repeat, actinobacteria" />
+          <Members vimssId="613269" LocusId="PPA1503" Name="znuC3" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="613270" LocusId="PPA1504" Name="znuB3" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="612374" LocusId="PPA0617" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+          <Members vimssId="612373" LocusId="PPA0616" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="612372" LocusId="PPA0615" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="613903" LocusId="PPA2157" Name="rpmE2" Function="LSU ribosomal protein L31p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6484</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

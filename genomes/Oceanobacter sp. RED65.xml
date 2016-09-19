@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Oceanobacter sp. RED65" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14960" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="RED65_15628" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2916188&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1604" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RED65_04570" Name="bioB" Position="-152" Score="8.3">
+          <Sequence>CTGTAAACC--------------GGTTGACTG</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2917024" LocusId="RED65_04570" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="2917023" LocusId="RED65_04565" Name="null" Function="8-amino-7-oxononanoate synthase" />
+          <Members vimssId="2917022" LocusId="RED65_04560" Name="bioH" Function="Biotin synthesis protein BioH" />
+          <Members vimssId="2917021" LocusId="RED65_04555" Name="bioC" Function="Biotin synthesis protein BioC" />
+          <Members vimssId="2917020" LocusId="RED65_04550" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1604</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17864" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="RED65_06117" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2916810&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1929" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RED65_06117" Name="iscR" Position="-74" Score="6.2">
+          <Sequence>AAAGTTGACTAAAATACTCGGGTTT</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_11832" Name="erpA" Position="-70" Score="5.7">
+          <Sequence>TTAGTTGACTAGAATACTCGGGTTT</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_07139" Name="nfuA" Position="-78" Score="5.3">
+          <Sequence>ATACCCGAGTAAAAAACTAGGGATT</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2917781" LocusId="RED65_11832" Name="erpA" Function="ErpA, essential respiratory protein A / probable iron binding protein from the HesB_IscA_SufA family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2917704" LocusId="RED65_07139" Name="nfuA" Function="NfuA Fe-S protein maturation" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2916810" LocusId="RED65_06117" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="2916809" LocusId="RED65_06112" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+          <Members vimssId="2916808" LocusId="RED65_06107" Name="sufB" Function="Iron-sulfur cluster assembly protein SufB" />
+          <Members vimssId="2916807" LocusId="RED65_06102" Name="sufC" Function="Iron-sulfur cluster assembly ATPase protein SufC" />
+          <Members vimssId="2916806" LocusId="RED65_06097" Name="sufD" Function="Iron-sulfur cluster assembly protein SufD" />
+          <Members vimssId="2916805" LocusId="RED65_06092" Name="sufS" Function="Cysteine desulfurase (EC 2.8.1.7), SufS subfamily" />
+          <Members vimssId="2916804" LocusId="RED65_06087" Name="sufA" Function="Iron binding protein SufA for iron-sulfur cluster assembly" />
+          <Members vimssId="2916803" LocusId="RED65_06082" Name="sufT" Function="Iron sulfur cluster assembly protein SufT" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1929</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28312" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="RED65_00670" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2915160&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2978" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RED65_13487" Name="recN" Position="-70" Score="5.9">
+          <Sequence>TACTGTATAAATAAACATAT</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_02924" Name="dnaQ" Position="-41" Score="6">
+          <Sequence>TACTGTATATAAATACAGCT</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_02924" Name="dnaQ" Position="-54" Score="5.1">
+          <Sequence>CACTTTATAAATATACTGTA</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_07869" Name="recA" Position="-102" Score="5.3">
+          <Sequence>TACTGGTTAAATTTACAGTG</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_01690" Name="imuA" Position="-38" Score="6.6">
+          <Sequence>TACTGTATATATATACAGTA</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_00670" Name="lexA" Position="-65" Score="5.2">
+          <Sequence>TACTTTACATACATACAGCA</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_00670" Name="lexA" Position="-30" Score="5.3">
+          <Sequence>CTCTGTATATAAAAACAGAT</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_10319" Name="dinB" Position="-28" Score="5.7">
+          <Sequence>CACTGTATGTTAATACAGTA</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_05144" Name="ruvA" Position="-51" Score="5.3">
+          <Sequence>CACTGATTAAATTTACAGTA</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2915160" LocusId="RED65_00670" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2915821" LocusId="RED65_13487" Name="recN" Function="DNA repair protein RecN" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2917376" LocusId="RED65_07869" Name="recA" Function="Recombinase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2914833" LocusId="RED65_10319" Name="dinB" Function="DNA polymerase IV (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2915367" LocusId="RED65_01690" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="2915366" LocusId="RED65_01685" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+          <Members vimssId="2915365" LocusId="RED65_01680" Name="dnaE2" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2916682" LocusId="RED65_05144" Name="ruvA" Function="Holliday junction DNA helicase RuvA" />
+          <Members vimssId="2916683" LocusId="RED65_05149" Name="ruvB" Function="Holliday junction DNA helicase RuvB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2917006" LocusId="RED65_02924" Name="dnaQ" Function="DNA polymerase III epsilon subunit (EC 2.7.7.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2978</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor (activator)">
+      <Regulator Key="MetR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56639" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="RED65_10519" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2914875&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5786" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RED65_09029" Name="metH" Position="-106" Score="4.4">
+          <Sequence>ATGAGTAGTATTCAA</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_13432" Name="PF08908" Position="-86" Score="4.2">
+          <Sequence>ATGAGATAAAATCAA</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_13432" Name="PF08908" Position="-76" Score="4.6">
+          <Sequence>ATCAATTTTTTTCAT</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_10519" Name="metR" Position="-29" Score="3.7">
+          <Sequence>CTGTATCTCATTCAT</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_10519" Name="metR" Position="-53" Score="3.6">
+          <Sequence>ATGAATATTCCTAAT</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2914875" LocusId="RED65_10519" Name="metR" Function="Homocysteine-responsive transcriptional regulator of methionine metabolism, LysR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2915810" LocusId="RED65_13432" Name="PF08908" Function="Protein of unknown function DUF1852" />
+          <Members vimssId="2915809" LocusId="RED65_13427" Name="metE2" Function="Methionine synthase II, vitamin-B12 independent (EC 2.1.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2914560" LocusId="RED65_09029" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)" />
+          <Members vimssId="2914559" LocusId="RED65_09024" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5786</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15516" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="RED65_16086" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2916031&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1666" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RED65_10534" Name="nrdA" Position="-170" Score="4.6">
+          <Sequence>ACCCATTATCTTGTGT</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_10534" Name="nrdA" Position="-202" Score="5.2">
+          <Sequence>ACACTATATATGGGGT</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2914878" LocusId="RED65_10534" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="2914879" LocusId="RED65_10539" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+          <Members vimssId="2914880" LocusId="RED65_10544" Name="yfaE" Function="Ferredoxin" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1666</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19286" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="RED65_16401" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2916094&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2083" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RED65_16381" Name="glnA" Position="-245" Score="5.2">
+          <Sequence>TGCACTTTTATGGTGCG</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_16381" Name="glnA" Position="-215" Score="4.4">
+          <Sequence>TGCACAACCTGAGTGCA</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_16396" Name="ntrB" Position="-240" Score="5.3">
+          <Sequence>CGCACTATTTTGGTGCT</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_07204" Name="ureD" Position="-65" Score="4.8">
+          <Sequence>TGCACCTTCGTGGTGCG</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_07244" Name="PF09694" Position="-245" Score="4.3">
+          <Sequence>TGCAACAAAATAGAGCT</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_07244" Name="PF09694" Position="-316" Score="4.3">
+          <Sequence>TGTTCTATTTTGGTGCT</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2917308" LocusId="RED65_07244" Name="PF09694" Function="Conserved hypothetical protein, nitrogen assimilation associated" />
+          <Members vimssId="2917309" LocusId="RED65_07249" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="2917310" LocusId="RED65_07254" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2916093" LocusId="RED65_16396" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="2916094" LocusId="RED65_16401" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2916090" LocusId="RED65_16381" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2917300" LocusId="RED65_07204" Name="ureD" Function="Urease accessory protein, UreD" />
+          <Members vimssId="2917301" LocusId="RED65_07209" Name="ureA" Function="Urease, gamma subunit (EC 3.5.1.5)" />
+          <Members vimssId="2917302" LocusId="RED65_07214" Name="ureB" Function="Urease, beta subunit (EC 3.5.1.5)" />
+          <Members vimssId="2917303" LocusId="RED65_07219" Name="ureC" Function="Urease, alpha subunit (EC 3.5.1.5)" />
+          <Members vimssId="2917304" LocusId="RED65_07224" Name="ureE" Function="Urease accessory protein, UreE" />
+          <Members vimssId="2917305" LocusId="RED65_07229" Name="ureF" Function="Urease accessory protein, UreF" />
+          <Members vimssId="2917306" LocusId="RED65_07234" Name="ureG" Function="Urease accessory protein, UreG" />
+          <Members vimssId="2917307" LocusId="RED65_07239" Name="ureJ" Function="Urease accessory protein, UreJ" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2083</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PrpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17140" />
+      <Effector>2-methylcitrate</Effector>
+      <Pathway>Methylcitrate utilization</Pathway>
+      <LocusTag Key="RED65_03680" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2916477&amp;disp=0" />
+      <BiologicalProcess>Methylcitrate utilization</BiologicalProcess>
+      <Regulog Key="PrpR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1848" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RED65_03680" Name="prpR" Position="-16" Score="5.1">
+          <Sequence>ATTGTAGACAAT</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_03680" Name="prpR" Position="-78" Score="4.6">
+          <Sequence>TTTGTCTACAAT</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2916477" LocusId="RED65_03680" Name="prpR" Function="Propionate catabolism transcriptional regulator, GntR family" />
+          <Members vimssId="2916476" LocusId="RED65_03675" Name="prpB" Function="Methylisocitrate lyase (EC 4.1.3.30)" />
+          <Members vimssId="2916475" LocusId="RED65_03670" Name="prpC" Function="2-methylcitrate synthase (EC 2.3.3.5)" />
+          <Members vimssId="2916474" LocusId="RED65_03665" Name="acnD" Function="Aconitate hydratase, predicted 2-methylcitrate dehydratase FeS dependent (EC 4.2.1.79)" />
+          <Members vimssId="2916473" LocusId="RED65_03660" Name="prpF" Function="Aconitase accessory protein PrpF" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1848</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PsrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29679" />
+      <Effector>Oleate</Effector>
+      <Pathway>Fatty acid degradation</Pathway>
+      <LocusTag Key="RED65_00695" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2915165&amp;disp=0" />
+      <BiologicalProcess>Fatty acid degradation</BiologicalProcess>
+      <Regulog Key="PsrA - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3097" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RED65_07784" Name="acdH1" Position="-122" Score="5.5">
+          <Sequence>TTGCAAACGTATGTTTCAAA</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_07784" Name="acdH1" Position="-109" Score="5.8">
+          <Sequence>TTTCAAACACTTGTTTGAAG</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_01305" Name="fadB" Position="-138" Score="5.7">
+          <Sequence>ATTCAAACGGGCGTATGAAT</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_07029" Name="etfD" Position="-236" Score="6">
+          <Sequence>ATTCAAACGCGCGTTTGAAT</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_00695" Name="psrA" Position="-46" Score="4.8">
+          <Sequence>TTCAGAACGTATGTTTAAAA</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_00695" Name="psrA" Position="-33" Score="6.1">
+          <Sequence>TTTAAAACAATCGTTTGAAT</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2915287" LocusId="RED65_01305" Name="fadB" Function="Enoyl-CoA hydratase (EC 4.2.1.17) / Delta(3)-cis-delta(2)-trans-enoyl-CoA isomerase (EC 5.3.3.8) / 3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35) / 3-hydroxybutyryl-CoA epimerase (EC 5.1.2.3)" />
+          <Members vimssId="2915288" LocusId="RED65_01310" Name="fadA" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16) @ Acetyl-CoA acetyltransferase (EC 2.3.1.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2917359" LocusId="RED65_07784" Name="acdH1" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2917682" LocusId="RED65_07029" Name="etfD" Function="Electron transfer flavoprotein-ubiquinone oxidoreductase (EC 1.5.5.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2915165" LocusId="RED65_00695" Name="psrA" Function="Predicted transcriptional regulator for fatty acid degradation PsrA, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3097</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30839" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="RED65_04280" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2916350&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3185" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RED65_12897" Name="pbuT" Position="-127" Score="4.4">
+          <Sequence>TTTTAACCCTCTGGTCAGGT</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_04290" Name="xdhA" Position="-230" Score="5.4">
+          <Sequence>AACTGACCATATGGACAGAA</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_04290" Name="xdhA" Position="-125" Score="5.7">
+          <Sequence>AGCTGACTAATTGGTCAGAT</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_11380" Name="add" Position="-35" Score="4.9">
+          <Sequence>TCCTGATCAGATAGTCAATT</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2916507" LocusId="RED65_11380" Name="add" Function="Adenosine deaminase (EC 3.5.4.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2917191" LocusId="RED65_12897" Name="pbuT" Function="Xanthine/uracil permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2916352" LocusId="RED65_04290" Name="xdhA" Function="Xanthine dehydrogenase, iron-sulfur cluster and FAD-binding subunit A (1.17.1.4)" />
+          <Members vimssId="2916353" LocusId="RED65_04295" Name="xdhB" Function="Xanthine dehydrogenase, molybdenum binding subunit (EC 1.17.1.4)" />
+          <Members vimssId="2916354" LocusId="RED65_04300" Name="xdhC" Function="XdhC protein (assists in molybdopterin insertion into xanthine dehydrogenase)" />
+          <Members vimssId="2916355" LocusId="RED65_04305" Name="allC" Function="Allantoicase (EC 3.5.3.4)" />
+          <Members vimssId="2916356" LocusId="RED65_04310" Name="pucL" Function="Uricase (EC 1.7.3.3)" />
+          <Members vimssId="2916357" LocusId="RED65_04315" Name="pucM" Function="Hydroxyisourate hydrolase (EC 3.5.2.17)" />
+          <Members vimssId="2916358" LocusId="RED65_04320" Name="allA" Function="Ureidoglycolate hydrolase (EC 3.5.3.19)" />
+          <Members vimssId="2916359" LocusId="RED65_04325" Name="guaD" Function="Guanine deaminase (EC 3.5.4.3)" />
+          <Members vimssId="2916360" LocusId="RED65_04330" Name="COG3748" Function="Predicted inner membrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3185</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SahR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15718" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="RED65_14437" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2917504&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SahR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1688" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RED65_14437" Name="sahR" Position="-61" Score="7">
+          <Sequence>ATATCAAAATATTTTGATAT</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2917504" LocusId="RED65_14437" Name="sahR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+          <Members vimssId="2917505" LocusId="RED65_14442" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+          <Members vimssId="2917506" LocusId="RED65_14447" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+          <Members vimssId="2917507" LocusId="RED65_14452" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1688</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16056" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="RED65_11929" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2915612&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1726" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RED65_11939" Name="PF08856" Position="-47" Score="5">
+          <Sequence>GATATAATATATCATATCTTTTA</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_11939" Name="PF08856" Position="-52" Score="5.4">
+          <Sequence>CAAAAGATATAATATATCATATC</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2915614" LocusId="RED65_11939" Name="PF08856" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1726</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48609" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RED65_02148" Name="thiC" Position="-304" Score="64.8">
+          <Sequence>ACATTAGCTCACGGGGTGCCCAATGTGCCATGCGCATAAGGCTGAGATTATGACCCGTAGAACCTGATCCGACTAGCATCGGCGTAGGAATGAGCTAAATGTAATAA</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RED65_08869" Name="omp_thi" Position="-185" Score="72.8">
+          <Sequence>AATTATCCAGGGGGAGGCCATTCTAAAGGCCTGAGATGACTGTTAATCAGCGAACCCCTAGAACCTGATCCGGTTAATGCCGGCGTAGGAATGGACAAAACCGCTTTATT</Sequence>
+          <Bacteria>Oceanobacter sp. RED65</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2914528" LocusId="RED65_08869" Name="omp_thi" Function="Predicted thiamin-specific outer membrane transporter, TonB-dependent" />
+          <Members vimssId="2914529" LocusId="RED65_08874" Name="HCH_01843" Function="hypothetical protein" />
+          <Members vimssId="2914530" LocusId="RED65_08879" Name="pnuT" Function="Predicted thiamin transporter PnuT" />
+          <Members vimssId="2914531" LocusId="RED65_08884" Name="thiK" Function="Predicted thiamine kinase, aminoglycoside phosphotransferase family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2917522" LocusId="RED65_02148" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+          <Members vimssId="2917521" LocusId="RED65_02143" Name="thiO" Function="Glycine oxidase ThiO (EC 1.4.3.19)" />
+          <Members vimssId="2917520" LocusId="RED65_02138" Name="thiS" Function="Sulfur carrier protein ThiS" />
+          <Members vimssId="2917519" LocusId="RED65_02133" Name="thiG" Function="Thiazole biosynthesis protein ThiG" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

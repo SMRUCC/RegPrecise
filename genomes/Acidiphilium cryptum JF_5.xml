@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Acidiphilium cryptum JF-5" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="FruR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=55307" />
+      <Effector>Fructose-1-phosphate</Effector>
+      <Pathway>Fructose utilization</Pathway>
+      <LocusTag Key="Acry_0186" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3513593&amp;disp=0" />
+      <BiologicalProcess>Fructose utilization</BiologicalProcess>
+      <Regulog Key="FruR2 - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5640" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Acry_0187" Name="fruB" Position="-48" Score="4.8">
+          <Sequence>ACATGAAAACGTTTTCAGTC</Sequence>
+          <Bacteria>Acidiphilium cryptum JF-5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Acry_0186" Name="fruR2" Position="-166" Score="4.8">
+          <Sequence>GACTGAAAACGTTTTCATGT</Sequence>
+          <Bacteria>Acidiphilium cryptum JF-5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3513594" LocusId="Acry_0187" Name="fruB" Function="PTS system, fructose-specific IIA component (EC 2.7.1.69) / Phosphotransferase system, phosphocarrier protein HPr / Phosphoenolpyruvate-protein phosphotransferase of PTS system (EC 2.7.3.9)" />
+          <Members vimssId="3513595" LocusId="Acry_0188" Name="fruK" Function="1-phosphofructokinase (EC 2.7.1.56)" />
+          <Members vimssId="3513596" LocusId="Acry_0189" Name="fruA" Function="PTS system, fructose-specific IIB component (EC 2.7.1.69) / PTS system, fructose-specific IIC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3513593" LocusId="Acry_0186" Name="fruR2" Function="Transcriptional regulator for fructose utilization, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5640</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

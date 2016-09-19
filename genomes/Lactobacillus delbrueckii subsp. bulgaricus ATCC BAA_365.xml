@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="CcpA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34345" />
+      <Effector>HPr, phosphocarrier protein; Fructose-1,6-bisphosphate</Effector>
+      <Pathway>Carbon catabolism</Pathway>
+      <LocusTag Key="LBUL_1473" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1865946&amp;disp=0" />
+      <BiologicalProcess>Carbon catabolism</BiologicalProcess>
+      <Regulog Key="CcpA - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3511" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_0058" Name="glpF2" Position="-132" Score="4.7">
+          <Sequence>ATAAAAGCGCATTCAT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_1889" Name="fruR" Position="-164" Score="4">
+          <Sequence>GAGAAAGCCTTTACAA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_0512" Name="ptsH" Position="-108" Score="4.7">
+          <Sequence>ATGAAAACATTTACAA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_1474" Name="pepQ" Position="-89" Score="4">
+          <Sequence>GTGCAATCGCTTACAG</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_2034" Name="spxB" Position="-76" Score="4">
+          <Sequence>TTGATAGCACTTGCAA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1866391" LocusId="LBUL_2034" Name="spxB" Function="Pyruvate oxidase (EC 1.2.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1866268" LocusId="LBUL_1889" Name="fruR" Function="Fructose utilization transcriptional regulator FruR, DeoR family" />
+          <Members vimssId="1866267" LocusId="LBUL_1888" Name="fruB" Function="1-phosphofructokinase (EC 2.7.1.56)" />
+          <Members vimssId="1866266" LocusId="LBUL_1887" Name="fruA" Function="Fructose-specific PTS system, IIABC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1865947" LocusId="LBUL_1474" Name="pepQ" Function="Xaa-Pro dipeptidase (EC 3.4.13.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1865131" LocusId="LBUL_0512" Name="ptsH" Function="Phosphotransferase system, HPr-related protein" />
+          <Members vimssId="1865132" LocusId="LBUL_0513" Name="ptsI" Function="Phosphoenolpyruvate-protein kinase, PTS system component (EC 2.7.3.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1864726" LocusId="LBUL_0058" Name="glpF2" Function="Glycerol uptake facilitator protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3511</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="SorC" RegulationMode="repressor">
+      <Regulator Key="CggR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35868" />
+      <Effector>Fructose-1,6-bisphosphate</Effector>
+      <Pathway>Glycolysis</Pathway>
+      <LocusTag Key="LBUL_0566" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1865179&amp;disp=0" />
+      <BiologicalProcess>Glycolysis</BiologicalProcess>
+      <Regulog Key="CggR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3635" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_0566" Name="cggR" Position="1" Score="6.9">
+          <Sequence>TGAACACGGATTTATCCCTGCTCGAACTGCTTGTTCC</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865179" LocusId="LBUL_0566" Name="cggR" Function="Transcriptional regulator of central glycolytic gene, SorC family" />
+          <Members vimssId="1865180" LocusId="LBUL_0567" Name="gap" Function="NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)" />
+          <Members vimssId="1865181" LocusId="LBUL_0568" Name="pgk" Function="Phosphoglycerate kinase (EC 2.7.2.3)" />
+          <Members vimssId="1865182" LocusId="LBUL_0569" Name="tpiA" Function="Triosephosphate isomerase (EC 5.3.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3635</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CopY" RegulationMode="repressor">
+      <Regulator Key="CopR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34804" />
+      <Effector>Copper ion, (Cu2+)</Effector>
+      <Pathway>Copper homeostasis</Pathway>
+      <LocusTag Key="LBUL_0587" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1865198&amp;disp=0" />
+      <BiologicalProcess>Copper homeostasis</BiologicalProcess>
+      <Regulog Key="CopR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3558" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_0587" Name="copR" Position="-31" Score="6">
+          <Sequence>AAGGTTATAGATGTAAACGA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_0587" Name="copR" Position="-72" Score="4.8">
+          <Sequence>TTGTCGACAAATGTAAACCA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865198" LocusId="LBUL_0587" Name="copR" Function="Copper transport transcriptional regulator CopR, CopY family" />
+          <Members vimssId="1865199" LocusId="LBUL_0588" Name="copA2" Function="Copper-exporting ATPase (EC 3.6.3.4)" />
+          <Members vimssId="1865200" LocusId="LBUL_0589" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3558</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="CzcR1" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46949" />
+      <Effector />
+      <Pathway>Zinc resistance; Cobalt resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="LBUL_1221" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1865730&amp;disp=0" />
+      <BiologicalProcess>Zinc resistance; Cobalt resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CzcR1 - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4738" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_1220" Name="czcD" Position="-76" Score="6.4">
+          <Sequence>ATATACCAAAAATGATATAT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_1221" Name="czcR1" Position="-88" Score="6.4">
+          <Sequence>ATATATCATTTTTGGTATAT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_1220" Name="czcD" Position="-113" Score="5">
+          <Sequence>GTATATTATTTTTGTAATAT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_1221" Name="czcR1" Position="-51" Score="5">
+          <Sequence>ATATTACAAAAATAATATAC</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865730" LocusId="LBUL_1221" Name="czcR1" Function="Cobalt-zinc-cadmium resistance transcriptional regulator CzcR1, ArsR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1865729" LocusId="LBUL_1220" Name="czcD" Function="Cobalt-zinc-cadmium resistance protein CzcD" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4738</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator (repressor)">
+      <Regulator Key="FlpA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46994" />
+      <Effector>Oxygen</Effector>
+      <Pathway>Heavy metal resistance</Pathway>
+      <LocusTag Key="LBUL_0159" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1864818&amp;disp=0" />
+      <BiologicalProcess>Heavy metal resistance</BiologicalProcess>
+      <Regulog Key="FlpA - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4741" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_0427" Name="cadA" Position="-77" Score="5.3">
+          <Sequence>ATCTTGATAGAAATCAATTG</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865053" LocusId="LBUL_0427" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC:3.6.3.-)" />
+          <Members vimssId="1865054" LocusId="LBUL_0428" Name="copZ" Function="Copper chaperone" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4741</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DeoR" RegulationMode="repressor">
+      <Regulator Key="FruR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45216" />
+      <Effector>Fructose-6-phosphate</Effector>
+      <Pathway>Fructose utilization</Pathway>
+      <LocusTag Key="LBUL_1889" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1866268&amp;disp=0" />
+      <BiologicalProcess>Fructose utilization</BiologicalProcess>
+      <Regulog Key="FruR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4663" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_1889" Name="fruR" Position="-189" Score="4.6">
+          <Sequence>TGACGGAAAATGATTGCTTT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1866268" LocusId="LBUL_1889" Name="fruR" Function="Fructose utilization transcriptional regulator FruR, DeoR family" />
+          <Members vimssId="1866267" LocusId="LBUL_1888" Name="fruB" Function="1-phosphofructokinase (EC 2.7.1.56)" />
+          <Members vimssId="1866266" LocusId="LBUL_1887" Name="fruA" Function="Fructose-specific PTS, EIIABC component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4663</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42200" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="LBUL_1229" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1865738&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4352" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_0510" Name="clpL" Position="-201" Score="6.9">
+          <Sequence>TTAGCACTTGACTAACTAGAGTGCTAA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_1229" Name="hrcA" Position="-92" Score="5.7">
+          <Sequence>TTAGCATTCTCCTTGACTAACTGCTAA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_0559" Name="clpP" Position="-49" Score="7.1">
+          <Sequence>TTAGCACTGTATCTAAATGAGTGCTAA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_0243" Name="hsp" Position="-154" Score="6">
+          <Sequence>TTAGCAGTCAAAAAAGCTGAATGCTAA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_1497" Name="groS" Position="-140" Score="6.5">
+          <Sequence>TTAGCACTCTCGACTAAAAAGTGCTAT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_1497" Name="groS" Position="-65" Score="6.7">
+          <Sequence>TTAGCACTTGATCAAGATGAGTGCTAA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865129" LocusId="LBUL_0510" Name="clpL" Function="ATP-dependent Clp protease, ATP-binding subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1865738" LocusId="LBUL_1229" Name="hrcA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="1865737" LocusId="LBUL_1228" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="1865736" LocusId="LBUL_1227" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="1865735" LocusId="LBUL_1226" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1865175" LocusId="LBUL_0559" Name="clpP" Function="ATP-dependent Clp protease proteolytic subunit (EC 3.4.21.92)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1864890" LocusId="LBUL_0243" Name="hsp" Function="Small heat shock protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1865970" LocusId="LBUL_1497" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="1865969" LocusId="LBUL_1496" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4352</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MarR" RegulationMode="">
+      <Regulator Key="LBA0573" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47024" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="LBUL_1068" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1865595&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance</BiologicalProcess>
+      <Regulog Key="LBA0573 - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4743" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_1068" Name="LBA0573" Position="-51" Score="5.5">
+          <Sequence>TAGTCTACACAGAGACTA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865595" LocusId="LBUL_1068" Name="LBA0573" Function="Predicted multidrug resistance transcriptional regulator, MarR family" />
+          <Members vimssId="1865596" LocusId="LBUL_1069" Name="LBA0574" Function="Predicted multidrug ABC transporter, ATP-binding and permease protein" />
+          <Members vimssId="1865597" LocusId="LBUL_1070" Name="LBA0575" Function="Predicted multidrug ABC transporter, ATP-binding and permease protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4743</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="LBA1638" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47099" />
+      <Effector />
+      <Pathway>Transport</Pathway>
+      <LocusTag Key="LBUL_1758" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1866155&amp;disp=0" />
+      <BiologicalProcess>Transport</BiologicalProcess>
+      <Regulog Key="LBA1638 - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4748" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_1758" Name="LBA1638" Position="-89" Score="5.9">
+          <Sequence>TGTAGATTGAAACCTTCA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1866155" LocusId="LBUL_1758" Name="LBA1638" Function="Predicted transcriptional regulator, TetR family" />
+          <Members vimssId="1866154" LocusId="LBUL_1757" Name="ydgH" Function="Predicted drug exporter protein, RND superfamily" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4748</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46365" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="LBUL_1265" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1865771&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4690" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_1313" Name="LJ1544" Position="-71" Score="4.4">
+          <Sequence>TCGAATACTCGTTCGT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_1313" Name="LJ1544" Position="-44" Score="4.4">
+          <Sequence>ACAAACAGGCGTTCGA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_0535" Name="recA" Position="-84" Score="4.1">
+          <Sequence>TTGAACGTTAGTTCGG</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_0549" Name="uvrB" Position="-64" Score="4.1">
+          <Sequence>TAGAATCTATGTTCGG</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_1265" Name="lexA" Position="-85" Score="4.1">
+          <Sequence>TAGAACGCCCGTTTGC</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865167" LocusId="LBUL_0549" Name="uvrB" Function="Excinuclease ABC, subunit B" />
+          <Members vimssId="1865168" LocusId="LBUL_0550" Name="uvrA" Function="Excinuclease ABC, subunit A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1865816" LocusId="LBUL_1313" Name="LJ1544" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1865771" LocusId="LBUL_1265" Name="lexA" Function="SOS-response regulator and protease LexA, LexA family (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1865154" LocusId="LBUL_0535" Name="recA" Function="DNA recombinase A" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4690</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="NagR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63165" />
+      <Effector>N-acetylglucosamine-6-phosphate</Effector>
+      <Pathway>N-acetylglucosamine utilization</Pathway>
+      <LocusTag Key="LBUL_0399" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1865029&amp;disp=0" />
+      <BiologicalProcess>N-acetylglucosamine utilization</BiologicalProcess>
+      <Regulog Key="NagR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6513" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_2010" Name="nagB" Position="-92" Score="4.5">
+          <Sequence>TTATCGGTCTAGACCTTGAC</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_2010" Name="nagB" Position="-53" Score="5.7">
+          <Sequence>AAAATGGACTATACCAATAT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_0440" Name="glmS" Position="-29" Score="4.7">
+          <Sequence>AAATTGAACTAGACCAAAGG</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_2009" Name="PF00248" Position="-166" Score="5.7">
+          <Sequence>ATATTGGTATAGTCCATTTT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_2009" Name="PF00248" Position="-127" Score="4.5">
+          <Sequence>GTCAAGGTCTAGACCGATAA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_0170" Name="LBA0143" Position="-85" Score="4.6">
+          <Sequence>AAACTGGTATAGGCTATTTT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1864827" LocusId="LBUL_0170" Name="LBA0143" Function="Maltodextrin glucosidase (EC 3.2.1.20)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1866368" LocusId="LBUL_2009" Name="PF00248" Function="Oxidoreductase, aldo/keto reductase family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1866369" LocusId="LBUL_2010" Name="nagB" Function="Glucosamine-6-phosphate deaminase (EC 3.5.99.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1865064" LocusId="LBUL_0440" Name="glmS" Function="Glucosamine--fructose-6-phosphate aminotransferase [isomerizing] (EC 2.6.1.16)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6513</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42275" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="LBUL_1404" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1865897&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4357" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_0185" Name="nrdD" Position="-173" Score="5.3">
+          <Sequence>CCACAATATCTGGTAT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_0185" Name="nrdD" Position="-131" Score="4.6">
+          <Sequence>AAACAAGATGTAGTGG</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_2017" Name="dgk1" Position="-34" Score="3.6">
+          <Sequence>AACGTAGATCTAGTAT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_2017" Name="dgk1" Position="-64" Score="4.2">
+          <Sequence>GCACTATATCTTGCAA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_0079" Name="nrdJ" Position="-138" Score="3.7">
+          <Sequence>ACACAGTTTCTCGTGT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_0079" Name="nrdJ" Position="-107" Score="5.4">
+          <Sequence>ACACTACATCTTGTGT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1864745" LocusId="LBUL_0079" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+          <Members vimssId="1864746" LocusId="LBUL_0080" Name="cbrX" Function="Additional lipoprotein component of predicted cobalamin ECF transporter" />
+          <Members vimssId="1864747" LocusId="LBUL_0081" Name="cbrT" Function="Substrate-specific component CbrT of predicted cobalamin ECF transporter" />
+          <Members vimssId="1864748" LocusId="LBUL_0082" Name="pduO" Function="Cob(I)alamin adenosyltransferase PduO (EC 2.5.1.17)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1864842" LocusId="LBUL_0185" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+          <Members vimssId="1864843" LocusId="LBUL_0186" Name="nrdG" Function="Ribonucleotide reductase of class III (anaerobic), activating protein (EC 1.97.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1866375" LocusId="LBUL_2017" Name="dgk1" Function="Deoxyadenosine kinase (EC 2.7.1.76) / Deoxyguanosine kinase (EC 2.7.1.113)" />
+          <Members vimssId="1866376" LocusId="LBUL_2018" Name="dgk2" Function="Deoxyadenosine kinase (EC 2.7.1.76) / Deoxyguanosine kinase (EC 2.7.1.113)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4357</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrtR" RegulationMode="">
+      <Regulator Key="NrtR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35705" />
+      <Effector>Adenosine diphosphate ribose</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="LBUL_0282" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1864925&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NrtR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3624" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_0279" Name="pncA" Position="-55" Score="6">
+          <Sequence>TTTAGGTAAGTTATACTTTTA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1864922" LocusId="LBUL_0279" Name="pncA" Function="Nicotinamidase (EC 3.5.1.19)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3624</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="PurR" RegulationMode="repressor">
+      <Regulator Key="PurR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38123" />
+      <Effector>5-phosphoribosyl 1-pyrophosphate</Effector>
+      <Pathway>Purine metabolism</Pathway>
+      <LocusTag Key="LBUL_0302" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1864944&amp;disp=0" />
+      <BiologicalProcess>Purine metabolism</BiologicalProcess>
+      <Regulog Key="PurR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3863" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_0246" Name="guaC" Position="-111" Score="4.5">
+          <Sequence>AAATCCGAATAAT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_2021" Name="pbuO" Position="-30" Score="4.2">
+          <Sequence>AATTCCGAACGTT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_0302" Name="purR" Position="-54" Score="4.3">
+          <Sequence>AAAAACAGACATT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_1338" Name="purC" Position="-60" Score="3.4">
+          <Sequence>AATTACGAATAGT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_0246" Name="guaC" Position="-4" Score="5">
+          <Sequence>AAAAATGAACAAT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1864892" LocusId="LBUL_0246" Name="guaC" Function="GMP reductase (EC 1.7.1.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1865838" LocusId="LBUL_1338" Name="purC" Function="Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6)" />
+          <Members vimssId="1865837" LocusId="LBUL_1337" Name="purS" Function="Phosphoribosylformylglycinamidine synthase, PurS subunit (EC 6.3.5.3)" />
+          <Members vimssId="1865836" LocusId="LBUL_1336" Name="purQ" Function="Phosphoribosylformylglycinamidine synthase, glutamine amidotransferase subunit (EC 6.3.5.3)" />
+          <Members vimssId="1865835" LocusId="LBUL_1335" Name="purL" Function="Phosphoribosylformylglycinamidine synthase, synthetase subunit (EC 6.3.5.3)" />
+          <Members vimssId="1865834" LocusId="LBUL_1334" Name="purF" Function="Amidophosphoribosyltransferase (EC 2.4.2.14)" />
+          <Members vimssId="1865833" LocusId="LBUL_1333" Name="purM" Function="Phosphoribosylformylglycinamidine cyclo-ligase (EC 6.3.3.1)" />
+          <Members vimssId="1865832" LocusId="LBUL_1332" Name="purN" Function="Phosphoribosylglycinamide formyltransferase (EC 2.1.2.2)" />
+          <Members vimssId="1865831" LocusId="LBUL_1331" Name="purH" Function="IMP cyclohydrolase (EC 3.5.4.10) / Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3)" />
+          <Members vimssId="1865830" LocusId="LBUL_1330" Name="purD" Function="Phosphoribosylamine--glycine ligase (EC 6.3.4.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1866379" LocusId="LBUL_2021" Name="pbuO" Function="Guanine/hypoxanthine permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1864944" LocusId="LBUL_0302" Name="purR" Function="Purine metabolism transcriptional regulator PurR, PurR family" />
+          <Members vimssId="1864945" LocusId="LBUL_0303" Name="glmU" Function="N-acetylglucosamine-1-phosphate uridyltransferase (EC 2.7.7.23) / Glucosamine-1-phosphate N-acetyltransferase (EC 2.3.1.157)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3863</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29848" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="LBUL_1498" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1865971&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3114" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_1581" Name="adhE" Position="-47" Score="5.2">
+          <Sequence>TTGAGAAATTGATCACAA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_1498" Name="rex" Position="-141" Score="4.9">
+          <Sequence>TTGTGAAAAAGTTCAATA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865971" LocusId="LBUL_1498" Name="rex" Function="Redox-sensitive transcriptional regulator Rex" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1866048" LocusId="LBUL_1581" Name="adhE" Function="Alcohol dehydrogenase (EC 1.1.1.1), Fe-dependent; Acetaldehyde dehydrogenase (EC 1.2.1.10)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3114</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="YhcF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57269" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux</Pathway>
+      <LocusTag Key="LBUL_1563" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1866032&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux</BiologicalProcess>
+      <Regulog Key="YhcF - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5857" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_1019" Name="ytsC" Position="-45" Score="4.4">
+          <Sequence>GGTGTATTACAACGGTAATACACC</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_0989" Name="ytsC" Position="-45" Score="4.4">
+          <Sequence>GGTGTATTACAACGGTAATACACC</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_1563" Name="yhcF" Position="-38" Score="6.4">
+          <Sequence>AGTGTATTAGGTAACTAGTACAGT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1866032" LocusId="LBUL_1563" Name="yhcF" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="1866031" LocusId="LBUL_1562" Name="yhcG" Function="ABC-type multidrug transport system, ATPase component" />
+          <Members vimssId="1866030" LocusId="LBUL_1561" Name="yhcI" Function="ABC-type multidrug transport system, permease component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1865530" LocusId="LBUL_0989" Name="ytsC" Function="Putative antimicrobial peptide ABC exporter, ATP-binding subunit" />
+          <Members vimssId="1865531" LocusId="LBUL_0990" Name="ytsB" Function="ABC-type antimicrobial peptide transport system, permease component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1865553" LocusId="LBUL_1019" Name="ytsC" Function="Putative antimicrobial peptide ABC exporter, ATP-binding subunit" />
+          <Members vimssId="1865552" LocusId="LBUL_1018" Name="ytsB" Function="ABC-type antimicrobial peptide transport system, permease component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5857</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="YtrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46710" />
+      <Effector />
+      <Pathway>Hypothetical ABC transporter</Pathway>
+      <LocusTag Key="LBUL_1589" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1866056&amp;disp=0" />
+      <BiologicalProcess>Hypothetical ABC transporter</BiologicalProcess>
+      <Regulog Key="YtrA - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4720" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_1589" Name="ytrA" Position="-50" Score="6.7">
+          <Sequence>GTGTACTAGAATAAATAGTACAG</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1866056" LocusId="LBUL_1589" Name="ytrA" Function="Predicted transcriptional regulator, GntR family" />
+          <Members vimssId="1866055" LocusId="LBUL_1588" Name="ytrB" Function="Predicted ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4720</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="YxeR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47069" />
+      <Effector />
+      <Pathway>Antibiotic resistance</Pathway>
+      <LocusTag Key="LBUL_1914" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1866292&amp;disp=0" />
+      <BiologicalProcess>Antibiotic resistance</BiologicalProcess>
+      <Regulog Key="YxeR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4746" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_1914" Name="yxeR" Position="-73" Score="3.1">
+          <Sequence>GTGTTGGAACGGTGTCACTTT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_1914" Name="yxeR" Position="-29" Score="3.5">
+          <Sequence>AGGGTGACACGGTGTCACGGA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1866292" LocusId="LBUL_1914" Name="yxeR" Function="Predicted antibiotic resistance transcriptional reguator, TetR family" />
+          <Members vimssId="1866291" LocusId="LBUL_1913" Name="yxeA" Function="Predicted antimicrobial peptide transporter, permease protein" />
+          <Members vimssId="1866290" LocusId="LBUL_1912" Name="yxeB" Function="Predicted antimicrobial peptide transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4746</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28912" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_0772" Name="ribU" Position="-195" Score="84.7">
+          <Sequence>GTTGTCTTCGGGGCAGGGTGAAAATCCCGACCGGCGGTGCAAGTCCGCGAGCCACGCGAGTGGTTGAATGCTGTAAAGCTACCGATAGTTATAGTCTAGATGGGAGAAGGCAGACGT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865363" LocusId="LBUL_0772" Name="ribU" Function="Substrate-specific component RibU of riboflavin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00557" RegulationMode="RF00557">
+      <Regulator Key="L10_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28817" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L10_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_1537" Name="rplJ" Position="-164" Score="69.3">
+          <Sequence>AGATAAAGTAAATTTCTAACCTAAGACGTGGGTGGCGTAAAGCCTCAATACAATCCCGCCGAGGCCAGAAGATAATGAAGATTGTTAAACTCTCCATGTCTTTCTTGGCATGGAGGTTTTTAGGCCTTGTA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1866008" LocusId="LBUL_1537" Name="rplJ" Function="50S ribosomal protein L10" />
+          <Members vimssId="1866007" LocusId="LBUL_1536" Name="rplL" Function="LSU ribosomal protein L7/L12 (P1/P2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00555" RegulationMode="RF00555">
+      <Regulator Key="L13_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29082" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L13_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_0382" Name="rplM" Position="-121" Score="43.6">
+          <Sequence>GTATGTTTGTCCACGGTAGGCCCCGGAAACTTATTGTATTCAAACTACGAATT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865019" LocusId="LBUL_0382" Name="rplM" Function="LSU ribosomal protein L13p (L13Ae)" />
+          <Members vimssId="1865020" LocusId="LBUL_0383" Name="rpsI" Function="SSU ribosomal protein S9p (S16e)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00556" RegulationMode="RF00556">
+      <Regulator Key="L19_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29112" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L19_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_1273" Name="rplS" Position="-56" Score="23">
+          <Sequence>ATGGGTGTTCCGCTGGCCCAGAGAGGTTGATGAATGCCGT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865779" LocusId="LBUL_1273" Name="rplS" Function="LSU ribosomal protein L19p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00558" RegulationMode="RF00558">
+      <Regulator Key="L20_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29142" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L20_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_1398" Name="infC" Position="-160" Score="67.2">
+          <Sequence>TGAGAACAAGAAGAAGCCCCCGCTTCTCGCCTAAGTTATTTAACCTCTGGGCAAATCGATATTTTCTGTTGATTTTAAAGGCGGGTGCTATATGCCCGCCTTTTTCTTGTCCT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865891" LocusId="LBUL_1398" Name="infC" Function="Translation initiation factor 3" />
+          <Members vimssId="1865890" LocusId="LBUL_1397" Name="rpmI" Function="LSU ribosomal protein L35p" />
+          <Members vimssId="1865889" LocusId="LBUL_1396" Name="rplT" Function="LSU ribosomal protein L20p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00559" RegulationMode="RF00559">
+      <Regulator Key="L21_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29182" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L21_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_1326" Name="rplU" Position="-94" Score="62.2">
+          <Sequence>CTCGATTCTGCAACCGCGCAGATAAGGTTGACAAGCCTGCTTTGGGCAGCACCTTTGATGGCGAGTCTAAGTAATTTT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865828" LocusId="LBUL_1326" Name="rplU" Function="LSU ribosomal protein L21p" />
+          <Members vimssId="1865827" LocusId="LBUL_1325" Name="rpmA" Function="LSU ribosomal protein L27p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00168" RegulationMode="RF00168">
+      <Regulator Key="Lysine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29242" />
+      <Effector>Lysine</Effector>
+      <Pathway>Lysine biosynthesis</Pathway>
+      <LocusTag Key="Lysine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_0145" Name="lysX" Position="-297" Score="78.2">
+          <Sequence>CCAATACAATAGAGGTCGCGATCGTTCACAAAAGCAAGGGGAGCTCACTGACAGTGTTGAGCCTTGTTATTAAGGGACATCGCCGAAATCAGCAGTGGGGTCGTGCGCGCTGTTGGTTGGGCTGCAGGAGAAAATTCTGCAGACTGTCCTAGTTTTCTAGGGAGCGCTATAATTTTT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1864804" LocusId="LBUL_0145" Name="lysX" Function="Predicted lysine ABC transporter, fusion of binding protein and permease protein" />
+          <Members vimssId="1864803" LocusId="LBUL_0144" Name="lysY" Function="Predicted lysine ABC transporter, ATPase component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00167" RegulationMode="RF00167">
+      <Regulator Key="Purine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29362" />
+      <Effector>Adenine; Guanine</Effector>
+      <Pathway>Purine metabolism</Pathway>
+      <LocusTag Key="Purine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_0250" Name="xpt" Position="-166" Score="59.1">
+          <Sequence>TAACTTAACAAATGTTTCTGCTTATATATCGCTGCGATACGGGTAGCAGTCTCTACCCGGAGCCGTAAACTCCGGACTATAGGTAAAGAAGGGCCGGTA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1864896" LocusId="LBUL_0250" Name="xpt" Function="Xanthine phosphoribosyltransferase (EC 2.4.2.22)" />
+          <Members vimssId="1864895" LocusId="LBUL_0249" Name="pbuX" Function="Xanthine/uracil permease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00515" RegulationMode="RF00515">
+      <Regulator Key="PyrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28942" />
+      <Effector>PyrR</Effector>
+      <Pathway>Pyrimidine metabolism</Pathway>
+      <LocusTag Key="PyrR" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_1953" Name="pyrB" Position="-125" Score="46.8">
+          <Sequence>ATCAACCATTTAATTGACTCCAGAGAGGGCCAGAAGGGTTGCTTAGTTTTTCGTATACAAAAATACGGAGAAGAAGCCTGGAGCAATTAAATGCTTCAGGCTTCTTTTGA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_1422" Name="pyrF" Position="-140" Score="19.2">
+          <Sequence>TGAGCTTTAATTGGTACAGAGAGACCACAAGCAGCACAATCTTTTTGGTATGCACGCATTCTGCCCGCCTGGGGTCTCTGTAGACTCTGGCGGGCTTTTCTTA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_1954" Name="pyrR" Position="-116" Score="50">
+          <Sequence>AATGTCCTTTAAAATTAGTCCCGTGAGGTTAGCAAGGCAGGCATAAATATTACTAAAAGCTCCTAGTCTCAATGTAGGCCGGGAGCTTTTTTCAT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_0487" Name="pyrP" Position="-79" Score="41">
+          <Sequence>GAACCTTTAAATTCAGTCCCGTGAGGCTGACAAGGACATTTCTGTTCCGGGTTCCAGTATTTGAAAAGGAAGATTTCTTTTGAAA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865107" LocusId="LBUL_0487" Name="pyrP" Function="Xanthine/uracil permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1865912" LocusId="LBUL_1422" Name="pyrF" Function="Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23)" />
+          <Members vimssId="1865913" LocusId="LBUL_1423" Name="pyrE" Function="Orotate phosphoribosyltransferase (EC 2.4.2.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1866328" LocusId="LBUL_1954" Name="pyrR" Function="Uracil phosphoribosyltransferase (EC 2.4.2.9) / Pyrimidine operon regulatory protein PyrR" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1866327" LocusId="LBUL_1953" Name="pyrB" Function="Aspartate carbamoyltransferase (EC 2.1.3.2)" />
+          <Members vimssId="1866326" LocusId="LBUL_1952" Name="pyrC" Function="Dihydroorotase (EC 3.5.2.3)" />
+          <Members vimssId="1866325" LocusId="LBUL_1951" Name="carA" Function="Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)" />
+          <Members vimssId="1866324" LocusId="LBUL_1950" Name="carB" Function="Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00114" RegulationMode="RF00114">
+      <Regulator Key="S15" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29426" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="S15" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_0706" Name="rpsO" Position="-82" Score="14.1">
+          <Sequence>GTGAACCCCGGACGTTGTCTTTACGTTTCACCTAACGGCTGACGCTGTCCGGGGCAATTTTTCAAAAGAAAGGTGCAGAAACATGGCAGTTTCAAAAGAAAGAAAGAACGAAATCATCAAGGAATACGCAACTCACGAAGG</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865312" LocusId="LBUL_0706" Name="rpsO" Function="SSU ribosomal protein S15p (S13e)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01767" RegulationMode="RF01767">
+      <Regulator Key="SMK_box_riboswitch" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47287" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="SMK_box_riboswitch" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_1455" Name="metK" Position="-86" Score="63.1">
+          <Sequence>TATTTGTTACAAGTCCTGATAGGATTCACCAAATTGGTGAAGATGCCTTGTAACCGTGTAGCTAGTCTATAGGGGGACACATATAGATG</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865938" LocusId="LBUL_1455" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ala)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30393" />
+      <Effector>Ala-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_1486" Name="alaS" Position="-213" Score="49.4">
+          <Sequence>AGAGACGCTTAAGATATGTTTTCTGTCCAGGCGATTCAAAGAGAGAACCGGCAGCTGGGAAGGGTTTATCACCAGGCAGGAAATGCTACTTAAAGTGATTAATTTAAGATAATCAAGAGGTAACAAGCATTGTTGCAATCAAGGTGGTACCGCGTCTAGAGCGTCCTTGAA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865959" LocusId="LBUL_1486" Name="alaS" Function="Alanyl-tRNA synthetase (EC 6.1.1.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Asn)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30423" />
+      <Effector>Asn-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_1110" Name="asnA" Position="-303" Score="91.7">
+          <Sequence>GTCAAAAGATGAGAAAGACGAGTAGGAAAGCACAATCTTGCAGAGAGTTGCCAGCTGGTGAAAAGGCAACAGACCCTGGCTTTCTGAATAACACTTTTTCCAGATCGCCGGCTGAAGTCACAGTAAGCCGTGCCGCCTGCAGGACGTTACCCTGCTAGAGCATGTTGGTGCTCGAAGTGGTTCGTTTAGAACAAGGTGGGTGGTACCGCGGAAAGATGCCTTTCGTCCCTGTAGT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865633" LocusId="LBUL_1110" Name="asnA" Function="Aspartate--ammonia ligase (EC 6.3.1.1)" />
+          <Members vimssId="1865634" LocusId="LBUL_1111" Name="asnS" Function="Asparaginyl-tRNA synthetase (EC 6.1.1.22)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Asp)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30453" />
+      <Effector>Asp-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_0812" Name="hisS" Position="-230" Score="37.8">
+          <Sequence>AATTATCAATGACAAAGAATGAAGATAGCCCGGCCTTTTTAGAGATTGCCCGTTTGGTGAAAGAGCAGATGGCTGCTAGCTGTGACCCTTTAGCAGATAATGGTTCGTTTCGTCAGCGTTAATGACAGCAAACAAAAGGTGGTACCGTGCTGTTTTCAAGCGCCCTTGATTA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865398" LocusId="LBUL_0812" Name="hisS" Function="Histidyl-tRNA synthetase (EC 6.1.1.21)" />
+          <Members vimssId="1865399" LocusId="LBUL_0813" Name="aspS" Function="Aspartyl-tRNA synthetase (EC 6.1.1.12)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Gly)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30593" />
+      <Effector>Gly-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_1167" Name="glyQ" Position="-214" Score="54.7">
+          <Sequence>TATATTGGTAATGATGAGGAAATATAAAAGTACCGCGGCAGCGAGTATCGGTTGGTGGAAGGATACAGCGGGAAAAGGCCCCTCTAGCCAAGCTAATTAAGAGCAGGAGGTAAATAGGCTTCCTGAATTAGGGTGGAACCGCGAATACTTTTTCGTCCCTATG</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865680" LocusId="LBUL_1167" Name="glyQ" Function="Glycyl-tRNA synthetase alpha chain (EC 6.1.1.14)" />
+          <Members vimssId="1865679" LocusId="LBUL_1166" Name="glyS" Function="Glycyl-tRNA synthetase beta chain (EC 6.1.1.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ile)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30653" />
+      <Effector>Ile-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_0681" Name="ileS" Position="-242" Score="45.1">
+          <Sequence>TTAATAAATCAGACTGACAGTCCTGCTTAAAGGCGACCTAGCGAGTTAATGATGGTGGAAGATTAACACAAGCCGGCGAGGGATCAGCTGCCGATTGGTCTGAGCGGGGGCCGGCACGATAAGCCGGCAGGAGTGGGGCCCTTCGAGGCTCAATTTAGGTGGTACCACGATAGTCTCGTCCTATTTTA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865287" LocusId="LBUL_0681" Name="ileS" Function="Isoleucyl-tRNA synthetase (EC 6.1.1.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Leu)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32991" />
+      <Effector>Leu-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_1451" Name="leuS" Position="-239" Score="90.4">
+          <Sequence>ATAAAGGGCAGGGACTAGTAGAAATTTTTCTTTCTTCAGAGAAGAGCCGGTGGCTGCGAGGCTTGAAAGAGGAATTTTGAACTCACCCGGACAATGCCAAAGTGTTGTTTCGCTTTAAGAAACATTTGAGTGTCACGCGAAAGCGTGGAACTTAGGTGGTACCGCGAAACAATTCGTCCTATGT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865935" LocusId="LBUL_1451" Name="leuS" Function="Leucyl-tRNA synthetase (EC 6.1.1.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Met)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33101" />
+      <Effector>Met-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_0723" Name="metQ" Position="-330" Score="90.3">
+          <Sequence>AAGTTATCTCGAAAAGCAGAGTAGTCGGGTGACGATCCTTTACAGAGAGGCGGCAGATGGTGAAAGCCGCCAGGAGAGTTCCGGTGAACATGTGCTTGGAATGATATGCCGCGGTGATATTTAGCCGCTACCGGGGTTGCTCTCGTTAAACAAGCAAGCTGTTTCTATTTATCAGAGACAGCTGGTGAGATTTATTACGCAAGTAATGAATGAACTAAAGGTGGTACCACGAGCGCTCGTCCTTTATCA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_1233" Name="rhc" Position="-375" Score="67.2">
+          <Sequence>GGGAAAAGCTCTGAAGAGAAGAGTAACTGATTTAACAAGATTCAAAGAGAATCCGGTTGGTGAAAAAGGATATCTTAACAATCAGCGAATATGAACTCTGAATAGTGCAATTAAGTTAACGCTTGGTTGTAGGCTGTGACCGTTAACTCACAGGGTATCAATTATGAGAATTTGGAATAATTGGCACTTTCAGAGGTATTGCTTGCGAGAGTAATACGAATTCAGGGTGGTACAGCGAAGCATTCGCCCCTCCG</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_0325" Name="oppA" Position="-426" Score="57">
+          <Sequence>AGCAAAGCTTAAGAAGATGAGTAGTCAGGGGAAGCCTCTACAGAGAACTGTTGGTGCTGAGAAACAGGAGGCGGAAGCTGGCGAAGATGGTCTTGTGTTGGCATGGTCCCGGCGAGTCGCTGATAAGCCGGACCCGCTTAACGCCCGTTAGCGCGTTCAGATCTTCTGACTGGAAGACTTTAAGGGCCCTGGCCGTGAGGCGGGGCTGAATAAAGGGTGGTAACGCGCGAAGACGTCCCTTGGCC</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865326" LocusId="LBUL_0723" Name="metQ" Function="Methionine ABC transporter substrate-binding protein" />
+          <Members vimssId="1865327" LocusId="LBUL_0724" Name="metN" Function="Methionine ABC transporter ATP-binding protein" />
+          <Members vimssId="1865328" LocusId="LBUL_0725" Name="metP" Function="Methionine ABC transporter permease protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1865742" LocusId="LBUL_1233" Name="rhc" Function="S-ribosylhomocysteine lyase (EC 4.4.1.21) / Autoinducer-2 production protein LuxS" />
+          <Members vimssId="1865741" LocusId="LBUL_1232" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1864967" LocusId="LBUL_0325" Name="oppA" Function="ABC-type oligopeptide transport system, periplasmic component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Phe)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33156" />
+      <Effector>Phe-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_1383" Name="pheS" Position="-258" Score="107.8">
+          <Sequence>ATTAATTACTAAGAACAAGACTAGTAGCAAGTTCGGTCTTTGACAGGGAGGTTTCTTGGCAACTGAAAGGAAACCAAAGAGCGGCTTGCGAATTTCATCTTGCGAGTAGGATCTAATCAATTCCGGCTGCCACCGTTATCGGTATAGAGCGTAGGCCTTTTTGGGCCTAAACTAGGGTGGTACCGCGAAGCTTCGTCCCTTTT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865876" LocusId="LBUL_1383" Name="pheS" Function="Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)" />
+          <Members vimssId="1865875" LocusId="LBUL_1382" Name="pheT" Function="Phenylalanyl-tRNA synthetase beta chain (EC 6.1.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ser)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33266" />
+      <Effector>Ser-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_1748" Name="serS" Position="-251" Score="68.8">
+          <Sequence>GCGAATAGCATAGAATAGAGACAAACACGAAATCCCTAGACTGCCGACAGAGAGTCCGCGTATGCTGAGAGCGGACGGCGGTCGCTTCCAGATTTCATTAGTGTGGGCAATTAATCATTGCACGGCCGGGCACCGTTAACGCTCAACTGAGTGCGGCTCTTTGAGCCGAAACTGGGTGGTACCGCGAACCGTGCGCCGATTCGTCCCAAGA</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1866146" LocusId="LBUL_1748" Name="serS" Function="Seryl-tRNA synthetase (EC 6.1.1.11)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Thr)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33321" />
+      <Effector>Thr-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_1401" Name="thrS" Position="-239" Score="49.6">
+          <Sequence>AGTAAATAGAAGACATGATTCCTCCCGCTTCAGAGAGAGGGGCCCAGTTCTGAAAGCCCCCATTTGGGAGGAACCCCACCTTCTATGACCCCAAAAGATAAATGACAAGGTTGGACGCCGTTATCAGTCCAATAAGAGAGGCCGCTTTAGGCCTGAATTTTGGGTGGAACCACGATAATTAATCGTCCCGAGC</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865894" LocusId="LBUL_1401" Name="thrS" Function="Threonyl-tRNA synthetase (EC 6.1.1.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Tyr)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33431" />
+      <Effector>Tyr-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_0219" Name="tyrS" Position="-222" Score="49.1">
+          <Sequence>AAAACGCGACAATGAAGTAGCTGCTTGGTTCAGCGTTCAGAGAACTAGCGGTTGGTGCGAGCTAGACAGGCCAGGCAGACGAAATACAGCGCGGGGAAGGAGAACCCCGTTAAGAAGCTCCCAAGAGGCACTTTGTGCGAACGTGGGTGGTACCACGGCTAAGACAGAATTTAGTCGTCCCTGGATC</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_1680" Name="tyrT" Position="-305" Score="57.7">
+          <Sequence>AAAATTCGAGTGATCTTTTAGTAGCTGCCAGGCTCAGCGCTCATAAAACCGGTGGTTGATGCGAACCGGACAGGCCTGGAGCAGCGAATTACGGGATCAAGCAGTTCGGCCGGTCTAGCCCCGTTACGGCTAAAGCAAGTGCAGCATGCTGCAAAGTTGGGTGGTACCGTGCCTATAAGCGCCCCAGCCTG</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1866120" LocusId="LBUL_1680" Name="tyrT" Function="Predicted tyrosine transporter, NhaC family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1864875" LocusId="LBUL_0219" Name="tyrS" Function="Tyrosyl-tRNA synthetase (EC 6.1.1.1) ## cluster 1" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Val)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33486" />
+      <Effector>Val-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_0659" Name="valS" Position="-231" Score="63.7">
+          <Sequence>ACAAAGCCAAGATCAAGAGGTGGCGCTTCATGACAGAGAAAGGTCATTTAAGCTGAGAGACCGGAAGGCGCCTGGTAGCTTGATTCGCTGGCCGGCTGAACCAGGAGTAAGCCGGTCCGGTACCCGCACCGTTACCGCGTTTAAGCGGAGCATTATGCTCAATTTAGGTGGTACCGCGGTTATATATCGTCCTAGACAT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865265" LocusId="LBUL_0659" Name="valS" Function="Valyl-tRNA synthetase (EC 6.1.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28862" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_0454" Name="ykoE" Position="-167" Score="60.9">
+          <Sequence>AAAGCCACTAGGGGAGCGAAAGCTGAGATGACGAAAGTCGACCCTTTGAACCTGACCAAGGTAATTCTTGCGCAAGGGAAGTGTTTCTTAAACATGAT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="LBUL_0126" Name="ykoD" Position="-118" Score="37.8">
+          <Sequence>GACGAATCAACGGGGTGCCGGAAGGCTGAGATGATACCCATGGAACCTGGCCAGGTAATGCTGGCAAGGGAAAATGCTGCTGCTTATGG</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1864786" LocusId="LBUL_0126" Name="ykoD" Function="Duplicated ATPase component YkoD of energizing module of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine" />
+          <Members vimssId="1864785" LocusId="LBUL_0125" Name="ykoC" Function="Transmembrane component YkoC of energizing module of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1865076" LocusId="LBUL_0454" Name="ykoE" Function="Substrate-specific component YkoE of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00380" RegulationMode="RF00380">
+      <Regulator Key="ykoK" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30240" />
+      <Effector>Magnesium ion, (Mg2+)</Effector>
+      <Pathway>Magnesium homeostasis</Pathway>
+      <LocusTag Key="ykoK" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_0296" Name="mgtB" Position="-252" Score="128.7">
+          <Sequence>AAATGAACTGTTAGGTGAGACTCCTACGTGAACACACGCTATCGCCCAGAAACATCCAGAGATGCCAACGGGTTAAATAGAAATTGTCGAAATAAGGCACTTTCCAGGTAGCTAGCATGTGCTTACGTCACGTAGTGTTAAAGCTGAGCGATTAGTCAATAGCGC</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1864938" LocusId="LBUL_0296" Name="mgtB" Function="Mg(2+) transport ATPase, P-type 2" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30300" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="LBUL_0406" Name="atcL" Position="-155" Score="48.1">
+          <Sequence>ATCATGTCATAAGGGAGTAACGGCAAGCATAGCTTGCGACAAGCCCAACAGCCGGGAGCCGTGTTGGTTTCCTGGGCTTGTCTTAATTAGTGAGACTTATGTGCTTTTGTT</Sequence>
+          <Bacteria>Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1865036" LocusId="LBUL_0406" Name="atcL" Function="Calcium-transporting ATPase (EC 3.6.3.8)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

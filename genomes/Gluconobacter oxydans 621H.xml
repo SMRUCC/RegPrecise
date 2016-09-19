@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Gluconobacter oxydans 621H" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator (repressor)">
+      <Regulator Key="FnrN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63386" />
+      <Effector>Oxygen</Effector>
+      <Pathway>Oxidative stress response; Nitrogen fixation</Pathway>
+      <LocusTag Key="GOX0974" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=856591&amp;disp=0" />
+      <BiologicalProcess>Oxidative stress response; Nitrogen fixation</BiologicalProcess>
+      <Regulog Key="FnrN - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6532" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GOX0973" Name="ompW" Position="-75" Score="5.4">
+          <Sequence>GACTTGATTCAGGTCAACGT</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GOX0974" Name="fnrN" Position="-90" Score="5.4">
+          <Sequence>ACGTTGACCTGAATCAAGTC</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="856591" LocusId="GOX0974" Name="fnrN" Function="Nitrogen fixation and oxygen response transcriptional regulator FnrN, Crp family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="856590" LocusId="GOX0973" Name="ompW" Function="Outer membrane protein W precursor" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6532</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor (activator)">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19543" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="GOX0771" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=856388&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2111" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GOX1417" Name="fcuA" Position="-61" Score="5.5">
+          <Sequence>GTTGCGAATAACTCGCATT</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GOX1246" Name="omp2" Position="-99" Score="5.3">
+          <Sequence>AATGAGAATCTTTCGCAAT</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GOX1246" Name="omp2" Position="-66" Score="5.6">
+          <Sequence>ATTGAGAATTAGTCGCATT</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GOX0673" Name="feoA" Position="-105" Score="5">
+          <Sequence>GATGCAAATCATTCTCACT</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GOX0536" Name="omp5" Position="-152" Score="4.5">
+          <Sequence>ATTGCTAATGAGAATCATT</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GOX0536" Name="omp5" Position="-146" Score="5.8">
+          <Sequence>AATGAGAATCATTTGCATT</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GOX0641" Name="omp6" Position="-59" Score="5.2">
+          <Sequence>GTTGAGAATAATTATCATT</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GOX0532" Name="exbB" Position="-60" Score="5.3">
+          <Sequence>AGTGAGAATGACTCTCATT</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="856258" LocusId="GOX0641" Name="omp6" Function="TonB-dependent siderophore receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="857034" LocusId="GOX1417" Name="fcuA" Function="TonB-dependent siderophore receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="856153" LocusId="GOX0536" Name="omp5" Function="TonB-dependent siderophore receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="856863" LocusId="GOX1246" Name="omp2" Function="TonB-dependent siderophore receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="856290" LocusId="GOX0673" Name="feoA" Function="Ferrous iron transport protein A" />
+          <Members vimssId="856291" LocusId="GOX0674" Name="feoB" Function="Ferrous iron transport protein B" />
+        </Operon>
+        <Operon>
+          <Members vimssId="856149" LocusId="GOX0532" Name="exbB" Function="biopolymer transport ExbB protein" />
+          <Members vimssId="856148" LocusId="GOX0531" Name="exbD" Function="biopolymer transport ExbD protein" />
+          <Members vimssId="856147" LocusId="GOX0530" Name="tonB" Function="Ferric siderophore transport system, periplasmic binding protein TonB" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2111</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49761" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="GOX1283" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=856900&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5038" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GOX1901" Name="groS" Position="-92" Score="7.1">
+          <Sequence>TTGGCACTCTCCATGTGAGAGTGCCAA</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="857518" LocusId="GOX1901" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="857519" LocusId="GOX1902" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5038</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="HutC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17419" />
+      <Effector>cis-Urocanic acid</Effector>
+      <Pathway>Histidine utilization</Pathway>
+      <LocusTag Key="GOX1162" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=856779&amp;disp=0" />
+      <BiologicalProcess>Histidine utilization</BiologicalProcess>
+      <Regulog Key="HutC - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1878" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GOX1171" Name="hisC" Position="-20" Score="5.5">
+          <Sequence>TGGTTGTATTTACAAGTT</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GOX1164" Name="hutF" Position="-96" Score="5.4">
+          <Sequence>TGGTGGTATATACAAGTC</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GOX1166" Name="hutU" Position="-35" Score="5.4">
+          <Sequence>TATTGGTATATACAAGTT</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GOX1163" Name="hutI" Position="-50" Score="5.3">
+          <Sequence>GACTTGTATATACCACCA</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="856780" LocusId="GOX1163" Name="hutI" Function="Imidazolonepropionase (EC 3.5.2.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="856783" LocusId="GOX1166" Name="hutU" Function="Urocanate hydratase (EC 4.2.1.49)" />
+          <Members vimssId="856784" LocusId="GOX1167" Name="hutH" Function="Histidine ammonia-lyase (EC 4.3.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="856788" LocusId="GOX1171" Name="hisC" Function="Histidinol-phosphate aminotransferase" />
+          <Members vimssId="856787" LocusId="GOX1170" Name="COG277 (GlcD)" Function="FAD linked oxidase domain protein" />
+          <Members vimssId="856786" LocusId="GOX1169" Name="hutD" Function="Conserved hypothetical protein related to histidine degradation" />
+        </Operon>
+        <Operon>
+          <Members vimssId="856781" LocusId="GOX1164" Name="hutF" Function="Formiminoglutamic iminohydrolase (EC 3.5.3.13)" />
+          <Members vimssId="856782" LocusId="GOX1165" Name="hutG" Function="N-formylglutamate deformylase (EC 3.5.1.68)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1878</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34650" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="GOX0099" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=855718&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR2 - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3536" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GOX0099" Name="iscR2" Position="-51" Score="6.3">
+          <Sequence>AATCAGGACTTAGCAAGTCTTGAAT</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="855718" LocusId="GOX0099" Name="iscR2" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="855717" LocusId="GOX0098" Name="sufB" Function="Iron-sulfur cluster assembly protein SufB" />
+          <Members vimssId="855716" LocusId="GOX0097" Name="sufC" Function="Iron-sulfur cluster assembly ATPase protein SufC" />
+          <Members vimssId="855715" LocusId="GOX0096" Name="sufD" Function="Iron-sulfur (Fe-S) assembly protein SufD" />
+          <Members vimssId="855714" LocusId="GOX0095" Name="sufS" Function="cysteine desulfurase SufS" />
+          <Members vimssId="855713" LocusId="GOX0094" Name="sufT" Function="Iron sulfur cluster assembly protein SufT" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3536</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28405" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="GOX2276" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=857893&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2987" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GOX1522" Name="recA" Position="-116" Score="2.1">
+          <Sequence>GAACATTTTGCGAAC</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GOX2276" Name="lexA" Position="-24" Score="1.6">
+          <Sequence>GAACCTATAAGGAAC</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GOX1904" Name="yoaA" Position="-71" Score="4.1">
+          <Sequence>TTTCACGTTCCGTTC</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GOX0844" Name="dinB" Position="-39" Score="4.6">
+          <Sequence>GATCTTGTTTCGTTC</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GOX0056" Name="recG" Position="-90" Score="4.5">
+          <Sequence>GGTTTCGTTTTGTTC</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="857521" LocusId="GOX1904" Name="yoaA" Function="DinG family ATP-dependent helicase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="855675" LocusId="GOX0056" Name="recG" Function="ATP-dependent DNA helicase RecG (EC 3.6.1.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="857139" LocusId="GOX1522" Name="recA" Function="Recombinase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="856461" LocusId="GOX0844" Name="dinB" Function="DNA polymerase IV (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="857893" LocusId="GOX2276" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2987</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="MntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50113" />
+      <Effector>Manganese ion, (Mn2+)</Effector>
+      <Pathway>Manganese homeostasis</Pathway>
+      <LocusTag Key="GOX2068" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=857685&amp;disp=0" />
+      <BiologicalProcess>Manganese homeostasis</BiologicalProcess>
+      <Regulog Key="MntR - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5077" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GOX2068" Name="mntR" Position="-140" Score="5.6">
+          <Sequence>AATATTCAACATGCTATATT</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GOX2068" Name="mntR" Position="-49" Score="4.6">
+          <Sequence>TTTATTCCGCCGTGAATAAT</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GOX2067" Name="mntH" Position="-28" Score="5.6">
+          <Sequence>AATATAGCATGTTGAATATT</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GOX2067" Name="mntH" Position="-119" Score="4.6">
+          <Sequence>ATTATTCACGGCGGAATAAA</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="857684" LocusId="GOX2067" Name="mntH" Function="Manganese transporter, NRAMP family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="857685" LocusId="GOX2068" Name="mntR" Function="Manganese homeostasis transcriptional regulator MntR, DtxR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5077</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15615" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="GOX2414" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=858031&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1676" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GOX1993" Name="nrdA" Position="-163" Score="5.2">
+          <Sequence>CCACTATATCTAGGGC</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="857610" LocusId="GOX1993" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="857611" LocusId="GOX1994" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1676</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="repressor">
+      <Regulator Key="NsrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14691" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="GOX0860" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=856477&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="NsrR - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1572" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GOX0861" Name="hmp" Position="-35" Score="5.4">
+          <Sequence>GATGTATTTCAAATAAACC</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GOX0860" Name="nsrR" Position="-64" Score="5.4">
+          <Sequence>GGTTTATTTGAAATACATC</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="856478" LocusId="GOX0861" Name="hmp" Function="Flavohemoprotein (Hemoglobin-like protein) (Flavohemoglobin) (Nitric oxide dioxygenase) (EC 1.14.12.17)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="856477" LocusId="GOX0860" Name="nsrR" Function="Nitrite-sensitive transcriptional repressor NsrR" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1572</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16155" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="GOX0811" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=856428&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1736" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GOX0562" Name="omr1" Position="-178" Score="5.6">
+          <Sequence>ATTATGTTATATCATAACAGTTC</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GOX2212" Name="yciC" Position="-73" Score="6.1">
+          <Sequence>CGATTGTTATGTTATAACATAAT</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GOX2213" Name="PF08856" Position="-46" Score="5.4">
+          <Sequence>TGATCATTATGTTATAACATAAC</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GOX0561" Name="omr" Position="-80" Score="6.4">
+          <Sequence>GAACTGTTATGATATAACATAAT</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GOX1044" Name="znuA2" Position="-50" Score="5.3">
+          <Sequence>GATGTGTTACTTTATAACGCTAC</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="857830" LocusId="GOX2213" Name="PF08856" Function="Hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="856179" LocusId="GOX0562" Name="omr1" Function="Predicted zinc-regulated TonB-dependent outer membrane transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="856178" LocusId="GOX0561" Name="omr" Function="Predicted zinc-regulated TonB-dependent outer membrane transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="856661" LocusId="GOX1044" Name="znuA2" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+          <Members vimssId="856662" LocusId="GOX1045" Name="znuC2" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="856663" LocusId="GOX1046" Name="znuB2" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="857829" LocusId="GOX2212" Name="yciC" Function="Putative zinc chaperone, COG0523 family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1736</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48779" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GOX0978" Name="ribD" Position="-274" Score="113.1">
+          <Sequence>GACGTTCTCAGGGCGGGGTGAAATTCTCCACCGGCGGTATTGGCGGATTTCTCCGCCTCAGCCCGCGAGCGCCTTCCGGATTTCGGTTCGGAAGGGACAAGCAGATCCGGTGAGACTCCGGAGCCGACGGTTAGAGTCCGGATGGAAGAGAACGCAGCA</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="856595" LocusId="GOX0978" Name="ribD" Function="Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26) / 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)" />
+          <Members vimssId="856596" LocusId="GOX0979" Name="ribE" Function="Riboflavin synthase alpha chain (EC 2.5.1.9)" />
+          <Members vimssId="856597" LocusId="GOX0980" Name="ribBA" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase / GTP cyclohydrolase II" />
+          <Members vimssId="856598" LocusId="GOX0981" Name="ribH" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48788" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GOX2225" Name="thiC" Position="-269" Score="54.4">
+          <Sequence>CGGCTCGTCAGGGGGGTCCCGCCTTAAGGGACTGAGAGGCTGATTGGTGTTGTCGGGAAACCGGCTGCACGGTGAAGCGACCCTTTGAACCTGACCCAGTTGATACTGGCGTAGGAAGACCGAAGGGCTCTCATTT</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GOX1347" Name="omp_thi" Position="-223" Score="63.1">
+          <Sequence>ACGCTTCACCGTGGGGGGCTCCGGCATGGGGCTGAGATTCTGCTGGTGTGACCCTTAAAAGTCATGCGGTGCAGTGACCCATTGAACCTGATCCAGTTCATACTGGCGGAGGGATGGTGGTCGCTGTCTGC</Sequence>
+          <Bacteria>Gluconobacter oxydans 621H</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="857842" LocusId="GOX2225" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+          <Members vimssId="857843" LocusId="GOX2226" Name="thiO" Function="Glycine oxidase ThiO (EC 1.4.3.19)" />
+          <Members vimssId="857844" LocusId="GOX2227" Name="thiG" Function="Thiazole biosynthesis protein ThiG" />
+          <Members vimssId="857845" LocusId="GOX2228" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+          <Members vimssId="857846" LocusId="GOX2229" Name="thiF" Function="Sulfur carrier protein adenylyltransferase" />
+          <Members vimssId="857847" LocusId="GOX2230" Name="thiD" Function="Phosphomethylpyrimidine kinase ThiD (EC 2.7.4.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="856964" LocusId="GOX1347" Name="omp_thi" Function="Predicted thiamin-specific outer membrane transporter, TonB-dependent" />
+          <Members vimssId="856963" LocusId="GOX1346" Name="thiK" Function="predicted thiamine kinase, aminoglycoside phosphotransferase family" />
+          <Members vimssId="856962" LocusId="GOX1345" Name="pnuT" Function="Predicted thiamin transporter PnuT" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Mycobacterium sp. JLS" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="TetR" RegulationMode="">
+      <Regulator Key="AcnR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63621" />
+      <Effector>Citrate</Effector>
+      <Pathway>Tricarboxylic acid cycle</Pathway>
+      <LocusTag Key="Mjls_2485" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2146067&amp;disp=0" />
+      <BiologicalProcess>Tricarboxylic acid cycle</BiologicalProcess>
+      <Regulog Key="AcnR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6561" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_0629" Name="aceA" Position="-252" Score="5.3">
+          <Sequence>CAGTACGGGCGTACTG</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_2486" Name="acnA" Position="-74" Score="5.6">
+          <Sequence>CAGGACAAACGTACTG</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2144199" LocusId="Mjls_0629" Name="aceA" Function="Isocitrate lyase (EC 4.1.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2146068" LocusId="Mjls_2486" Name="acnA" Function="Aconitate hydratase (EC 4.2.1.3)" />
+          <Members vimssId="2146067" LocusId="Mjls_2485" Name="acnR" Function="Aconitase gene transcriptional regulator AcnR, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6561</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="AmtR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62452" />
+      <Effector>GlnK-AMP, signal transduction protein</Effector>
+      <Pathway>Nitrogen metabolism</Pathway>
+      <LocusTag Key="Mjls_1823" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2145399&amp;disp=0" />
+      <BiologicalProcess>Nitrogen metabolism</BiologicalProcess>
+      <Regulog Key="AmtR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6423" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_1819" Name="amt1" Position="-116" Score="5.4">
+          <Sequence>AAAACCTGTCACATGACAGACACA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_1819" Name="amt1" Position="-21" Score="6.2">
+          <Sequence>GAAAACTGTCAGGTGACAGAAATG</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_1823" Name="amtR" Position="-67" Score="6.3">
+          <Sequence>CGTTTCTGTCGTGTGACAGAAACC</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2145395" LocusId="Mjls_1819" Name="amt1" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="2145396" LocusId="Mjls_1820" Name="amt2" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="2145397" LocusId="Mjls_1821" Name="ucaA" Function="Urea carboxylase (EC 6.3.4.6)" />
+          <Members vimssId="2145398" LocusId="Mjls_1822" Name="ucaB" Function="Allophanate hydrolase (EC 3.5.1.54)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2145399" LocusId="Mjls_1823" Name="amtR" Function="Transcriptional regulator of urea utilization, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6423</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor (activator)">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58992" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="Mjls_2982" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2146568&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6046" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_2987" Name="argC" Position="-21" Score="5.5">
+          <Sequence>TTTGCATTTAACTGCATA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2146573" LocusId="Mjls_2987" Name="argC" Function="N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)" />
+          <Members vimssId="2146572" LocusId="Mjls_2986" Name="argJ" Function="Glutamate N-acetyltransferase (EC 2.3.1.35) / N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="2146571" LocusId="Mjls_2985" Name="argB" Function="Acetylglutamate kinase (EC 2.7.2.8)" />
+          <Members vimssId="2146570" LocusId="Mjls_2984" Name="argD" Function="Acetylornithine aminotransferase (EC 2.6.1.11)" />
+          <Members vimssId="2146569" LocusId="Mjls_2983" Name="argF" Function="Ornithine carbamoyltransferase (EC 2.1.3.3)" />
+          <Members vimssId="2146568" LocusId="Mjls_2982" Name="argR" Function="Arginine metabolism transcriptional regulator ArgR, ArgR family" />
+          <Members vimssId="2146567" LocusId="Mjls_2981" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+          <Members vimssId="2146566" LocusId="Mjls_2980" Name="argH" Function="Argininosuccinate lyase (EC 4.3.2.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6046</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="ArsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62569" />
+      <Effector>Arsenite; Arsenate</Effector>
+      <Pathway>Arsenic resistance</Pathway>
+      <LocusTag Key="Mjls_1441" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2145014&amp;disp=0" />
+      <BiologicalProcess>Arsenic resistance</BiologicalProcess>
+      <Regulog Key="ArsR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6437" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_4906" Name="arsR" Position="-25" Score="5.4">
+          <Sequence>CATTGATCAACGTCAATA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_4906" Name="arsR" Position="-9" Score="4.9">
+          <Sequence>TATCGATGTATGTCGAAT</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_1441" Name="arsR" Position="-25" Score="5.7">
+          <Sequence>TATCGATAACTGTCAATA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_1441" Name="arsR" Position="-9" Score="5.5">
+          <Sequence>TATCGATGTATGTCGAAA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2148518" LocusId="Mjls_4906" Name="arsR" Function="Arsenic resistance transcriptional regulator ArsR, ArsR family" />
+          <Members vimssId="2148517" LocusId="Mjls_4905" Name="arsB" Function="Arsenite efflux membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2145014" LocusId="Mjls_1441" Name="arsR" Function="Arsenic resistance transcriptional regulator ArsR, ArsR family" />
+          <Members vimssId="2145015" LocusId="Mjls_1442" Name="arsB" Function="Arsenite efflux membrane protein" />
+          <Members vimssId="2145016" LocusId="Mjls_1443" Name="arsC" Function="Arsenate reductase (EC 1.20.4.1)" />
+          <Members vimssId="2145017" LocusId="Mjls_1444" Name="arsC" Function="Arsenate reductase (EC 1.20.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6437</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="BioQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=8030" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="Mjls_3091" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2146679&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BioQ - Actinomycetales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=816" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_3090" Name="bioB" Position="-110" Score="5.9">
+          <Sequence>CCTGAACGGTGTTCAAT</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_3094" Name="bioF" Position="-43" Score="5.9">
+          <Sequence>CCTGAACGGTGTTCAAT</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_3091" Name="bioQ" Position="-30" Score="5.9">
+          <Sequence>ATTGAACACCGTTCAGG</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2146678" LocusId="Mjls_3090" Name="bioB" Function="biotin synthase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2146682" LocusId="Mjls_3094" Name="bioF" Function="8-amino-7-oxononanoate synthase" />
+          <Members vimssId="2146681" LocusId="Mjls_3093" Name="bioD" Function="dethiobiotin synthetase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2146679" LocusId="Mjls_3091" Name="bioQ" Function="biotin repressor, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=816</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="BioQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62731" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="Mjls_3091" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2146679&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BioQ - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6454" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_3090" Name="bioB" Position="-110" Score="5.9">
+          <Sequence>CCTGAACGGTGTTCAAT</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_3094" Name="bioF" Position="-43" Score="5.9">
+          <Sequence>CCTGAACGGTGTTCAAT</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_3091" Name="bioQ" Position="-30" Score="5.9">
+          <Sequence>ATTGAACACCGTTCAGG</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2146682" LocusId="Mjls_3094" Name="bioF" Function="8-amino-7-oxononanoate synthase (EC 2.3.1.47)" />
+          <Members vimssId="2146681" LocusId="Mjls_3093" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2146678" LocusId="Mjls_3090" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="2146677" LocusId="Mjls_3089" Name="MAB_2683c" Function="hypothetical protein" />
+          <Members vimssId="2146676" LocusId="Mjls_3088" Name="MAB_2682c" Function="hypothetical protein Rv1591" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2146679" LocusId="Mjls_3091" Name="bioQ" Function="Biotin repressor, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6454</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="">
+      <Regulator Key="EutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63712" />
+      <Effector>Ethanolamine</Effector>
+      <Pathway>Ethanolamine utilization</Pathway>
+      <LocusTag Key="" Value="" />
+      <BiologicalProcess>Ethanolamine utilization</BiologicalProcess>
+      <Regulog Key="EutR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6574" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_0224" Name="COG0121" Position="-80" Score="4.9">
+          <Sequence>TATGTCATGAATGTTTCAAG</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_0224" Name="COG0121" Position="-69" Score="4.7">
+          <Sequence>TGTTTCAAGTTCTTTAAAAT</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_0223" Name="eutB" Position="-66" Score="4.7">
+          <Sequence>ATTTTAAAGAACTTGAAACA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_0223" Name="eutB" Position="-55" Score="4.9">
+          <Sequence>CTTGAAACATTCATGACATA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2143793" LocusId="Mjls_0224" Name="COG0121" Function="Predicted glutamine amidotransferase" />
+          <Members vimssId="2143794" LocusId="Mjls_0225" Name="eutR" Function="Transcriptional regulator of ethanolamine utilization, RpiR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2143792" LocusId="Mjls_0223" Name="eutB" Function="glutamine synthetase family protein" />
+          <Members vimssId="2143791" LocusId="Mjls_0222" Name="eutT" Function="Ethanolamine permease, APC family" />
+          <Members vimssId="2143790" LocusId="Mjls_0221" Name="PF04909" Function="Amidohydrolase 2" />
+          <Members vimssId="2143789" LocusId="Mjls_0220" Name="COG1982" Function="Arginine/lysine/ornithine decarboxylases" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6574</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58678" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Mjls_3471" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2147065&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6006" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_4761" Name="hsp18" Position="-99" Score="7">
+          <Sequence>CTAGCACTCGCATGTGTCGAGTGCTAA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_4670" Name="COG2331" Position="-53" Score="6.8">
+          <Sequence>CTAGCACTTGAGCCGGTAGAGTGCTAA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_0598" Name="groL2" Position="-141" Score="6.8">
+          <Sequence>CTGGCACTCGCGACCGGTGAGTGCTAG</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_0598" Name="groL2" Position="-176" Score="6.8">
+          <Sequence>CTTGCACTCTCCCTGGTCGAGTGCTAA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_1180" Name="groS" Position="-86" Score="7">
+          <Sequence>CTAGCACTCGCATGTATAGAGTGCTAG</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2148369" LocusId="Mjls_4761" Name="hsp18" Function="Small heat shock protein 18" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2144753" LocusId="Mjls_1180" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="2144754" LocusId="Mjls_1181" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2148277" LocusId="Mjls_4670" Name="COG2331" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2144168" LocusId="Mjls_0598" Name="groL2" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6006</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="HspR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=64842" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Mjls_0452" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2144022&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HspR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6696" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_2802" Name="lon" Position="-33" Score="5.1">
+          <Sequence>TTGAGTCGATCTGACTGAA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_0247" Name="hsp" Position="-78" Score="5.3">
+          <Sequence>ATGAGCGCGGTCGACTCAA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_0449" Name="dnaK" Position="-114" Score="5.6">
+          <Sequence>TTGAGTGAACTTCGCTCAA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_0449" Name="dnaK" Position="-59" Score="5.4">
+          <Sequence>TTGAGTGCGGTCCGCTCAG</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_0467" Name="clpB" Position="-74" Score="5.6">
+          <Sequence>TTGAGCGGAACAGACTCAA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2143816" LocusId="Mjls_0247" Name="hsp" Function="Heat shock protein Hsp20" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2146384" LocusId="Mjls_2802" Name="lon" Function="ATP-dependent Lon protease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2144019" LocusId="Mjls_0449" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="2144020" LocusId="Mjls_0450" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="2144021" LocusId="Mjls_0451" Name="dnaJ" Function="Chaperone protein DnaJ" />
+          <Members vimssId="2144022" LocusId="Mjls_0452" Name="hspR" Function="Heat shock response transcriptional regulator HspR, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2144037" LocusId="Mjls_0467" Name="clpB" Function="ATP-dependent chaperone ClpB" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6696</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58759" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="Mjls_2157" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2145735&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6020" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_2335" Name="splB" Position="35" Score="5.1">
+          <Sequence>TCGAACCTACGTTCGA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_2304" Name="ruvC" Position="-8" Score="4.8">
+          <Sequence>TCGAACAGGTGTTCTC</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_1210" Name="dnaE2" Position="-28" Score="5.7">
+          <Sequence>TCGAACGCGTGTTCGA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_1201" Name="Rv3395c" Position="-52" Score="5.5">
+          <Sequence>TCGAACATGAGTTCGA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_4657" Name="alkB" Position="-29" Score="5.4">
+          <Sequence>TCGAACGCGTGTGCGA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_2134" Name="recA" Position="-138" Score="5.2">
+          <Sequence>TCGAACAGGTGTTCGT</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_2157" Name="lexA" Position="-48" Score="5.6">
+          <Sequence>TCGAACACATGTTTGA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_2157" Name="lexA" Position="-139" Score="5.4">
+          <Sequence>TCGATCAGGTGTTCGA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2145712" LocusId="Mjls_2134" Name="recA" Function="Recombinase A" />
+          <Members vimssId="2145713" LocusId="Mjls_2135" Name="recX" Function="Regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2145917" LocusId="Mjls_2335" Name="splB" Function="DNA repair photolyase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2148263" LocusId="Mjls_4657" Name="alkB" Function="DNA repair system specific for alkylated DNA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2144783" LocusId="Mjls_1210" Name="dnaE2" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2144774" LocusId="Mjls_1201" Name="Rv3395c" Function="Recombinase-like hypothetical protein" />
+          <Members vimssId="2144775" LocusId="Mjls_1202" Name="COG0389" Function="DNA polymerase-like protein PA0670" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2145735" LocusId="Mjls_2157" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2145886" LocusId="Mjls_2304" Name="ruvC" Function="Crossover junction endodeoxyribonuclease RuvC (EC 3.1.22.4)" />
+          <Members vimssId="2145887" LocusId="Mjls_2305" Name="ruvA" Function="Holliday junction DNA helicase RuvA" />
+          <Members vimssId="2145888" LocusId="Mjls_2306" Name="ruvB" Function="Holliday junction DNA helicase RuvB" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6020</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="LldR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56800" />
+      <Effector>L-lactate</Effector>
+      <Pathway>Lactate utilization</Pathway>
+      <LocusTag Key="Mjls_4765" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2148373&amp;disp=0" />
+      <BiologicalProcess>Lactate utilization</BiologicalProcess>
+      <Regulog Key="LldR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5804" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_4766" Name="lldE" Position="-36" Score="6.2">
+          <Sequence>TGTGGTCAGACCACA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_4765" Name="lldR" Position="-23" Score="6.2">
+          <Sequence>TGTGGTCTGACCACA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_4765" Name="lldR" Position="1" Score="6">
+          <Sequence>TGTGGTCGGACCACA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_4766" Name="lldE" Position="-60" Score="6">
+          <Sequence>TGTGGTCCGACCACA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2148373" LocusId="Mjls_4765" Name="lldR" Function="Lactate-responsive regulator LldR in Actinobacteria, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2148374" LocusId="Mjls_4766" Name="lldE" Function="L-lactate dehydrogenase, Fe-S oxidoreductase subunit LldE" />
+          <Members vimssId="2148375" LocusId="Mjls_4767" Name="lldF" Function="L-lactate dehydrogenase, Iron-sulfur cluster-binding subunit LldF" />
+          <Members vimssId="2148376" LocusId="Mjls_4768" Name="lldG" Function="L-lactate dehydrogenase, subunit LldG" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5804</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="IclR" RegulationMode="repressor">
+      <Regulator Key="LtbR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63005" />
+      <Effector />
+      <Pathway>Leucine biosynthesis</Pathway>
+      <LocusTag Key="Mjls_1900" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2145478&amp;disp=0" />
+      <BiologicalProcess>Leucine biosynthesis</BiologicalProcess>
+      <Regulog Key="LtbR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6494" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_1901" Name="leuC" Position="-84" Score="4.4">
+          <Sequence>TGTCTCACAGGGAGATACT</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_1901" Name="leuC" Position="-63" Score="4.9">
+          <Sequence>CCTCCCGCAATGTGAGATT</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_1900" Name="ltbR" Position="-11" Score="4.4">
+          <Sequence>AGTATCTCCCTGTGAGACA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_1900" Name="ltbR" Position="-32" Score="4.9">
+          <Sequence>AATCTCACATTGCGGGAGG</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2145478" LocusId="Mjls_1900" Name="ltbR" Function="Leucine and tryptophan biosynthesis transcriptional regulator LtbR, IclR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2145479" LocusId="Mjls_1901" Name="leuC" Function="3-isopropylmalate dehydratase large subunit (EC 4.2.1.33)" />
+          <Members vimssId="2145480" LocusId="Mjls_1902" Name="leuD" Function="3-isopropylmalate dehydratase small subunit (EC 4.2.1.33)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6494</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DeoR" RegulationMode="">
+      <Regulator Key="MSMEG_3264" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=65768" />
+      <Effector />
+      <Pathway>Erythritol utilization; D-threitol utilization</Pathway>
+      <LocusTag Key="Mjls_2592" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2146174&amp;disp=0" />
+      <BiologicalProcess>Erythritol utilization; D-threitol utilization</BiologicalProcess>
+      <Regulog Key="MSMEG_3264 - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6793" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_2593" Name="MSMEG_3265" Position="-71" Score="8">
+          <Sequence>TGAACAGATGTTCTGGACAGATGTGCA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_2592" Name="MSMEG_3264" Position="-73" Score="5.3">
+          <Sequence>TGCACATCTGTCCAGAACATCTGTTCA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_2592" Name="MSMEG_3264" Position="-60" Score="4.5">
+          <Sequence>AGAACATCTGTTCAGGGAGAATCTGTT</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2146174" LocusId="Mjls_2592" Name="MSMEG_3264" Function="Transcriptional regulator for D-threitol and erythritol utilization, DeoR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2146175" LocusId="Mjls_2593" Name="MSMEG_3265" Function="homolog of sorbitol dehydrogenase" />
+          <Members vimssId="2146176" LocusId="Mjls_2594" Name="MSMEG_3266" Function="Predicted erythritol ABC transporter 1, substrate-binding component" />
+          <Members vimssId="2146177" LocusId="Mjls_2595" Name="MSMEG_3267" Function="Predicted erythritol ABC transporter, permease protein" />
+          <Members vimssId="2146178" LocusId="Mjls_2596" Name="MSMEG_3268" Function="Predicted erythritol ABC transporter, permease protein" />
+          <Members vimssId="2146179" LocusId="Mjls_2597" Name="MSMEG_3269" Function="Predicted erythritol ABC transporter 1, ATP-binding protein" />
+          <Members vimssId="2146180" LocusId="Mjls_2598" Name="MSMEG_3270" Function="Predicted erythritol ABC transporter 1, ATP-binding protein" />
+          <Members vimssId="2146181" LocusId="Mjls_2599" Name="MSMEG_3271" Function="D-erythrulose kinase" />
+          <Members vimssId="2146182" LocusId="Mjls_2600" Name="MSMEG_3272" Function="D-erythrulose 4-phosphate isomerase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6793</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DeoR" RegulationMode="">
+      <Regulator Key="MSMEG_3606" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=65777" />
+      <Effector />
+      <Pathway>D-threitol utilization</Pathway>
+      <LocusTag Key="Mjls_2817" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2146399&amp;disp=0" />
+      <BiologicalProcess>D-threitol utilization</BiologicalProcess>
+      <Regulog Key="MSMEG_3606 - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6794" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_2817" Name="MSMEG_3606" Position="-68" Score="4.7">
+          <Sequence>TATGCTCATATGTCAACG</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_2817" Name="MSMEG_3606" Position="-48" Score="6.1">
+          <Sequence>GGTGCACATATGTGCACG</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_2816" Name="Mjls_2816" Position="-127" Score="6.1">
+          <Sequence>CGTGCACATATGTGCACC</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_2816" Name="Mjls_2816" Position="-107" Score="4.7">
+          <Sequence>CGTTGACATATGAGCATA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2146398" LocusId="Mjls_2816" Name="Mjls_2816" Function="sugar isomerase (SIS)" />
+          <Members vimssId="2146397" LocusId="Mjls_2815" Name="Mjls_2815" Function="Carbohydrate kinase, FGGY family cluster with sorbitoldehydrogenase" />
+          <Members vimssId="2146396" LocusId="Mjls_2814" Name="Mjls_2814" Function="ribulose-phosphate 3-epimerase" />
+          <Members vimssId="2146395" LocusId="Mjls_2813" Name="MSMEG_3605" Function="weak D-sorbitol / D-xylitol dehydrogenase" />
+          <Members vimssId="2146394" LocusId="Mjls_2812" Name="MSMEG_3604" Function="weak D-sorbitol dehydrogenase" />
+          <Members vimssId="2146393" LocusId="Mjls_2811" Name="MSMEG_3603" Function="oxidoreductase, zinc-binding dehydrogenase family protein" />
+          <Members vimssId="2146392" LocusId="Mjls_2810" Name="MSMEG_3602" Function="D-threitol ABC transporter, ATP-binding protein" />
+          <Members vimssId="2146391" LocusId="Mjls_2809" Name="MSMEG_3601" Function="D-threitol ABC transporter, permease protein" />
+          <Members vimssId="2146390" LocusId="Mjls_2808" Name="MSMEG_3599" Function="D-threitol ABC transporter, substrate-binding component (D-threitol, xylitol)" />
+          <Members vimssId="2146389" LocusId="Mjls_2807" Name="MSMEG_3598" Function="Sugar polyol ABC transporter, substrate-binding component (Xylitol, sorbitol)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2146399" LocusId="Mjls_2817" Name="MSMEG_3606" Function="Transcriptional regulator for D-threitol utilization, DeoR family" />
+          <Members vimssId="2146400" LocusId="Mjls_2818" Name="MSMEG_3912" Function="D-threitol dehydrogenase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6794</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="MSMEG_4140" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60090" />
+      <Effector />
+      <Pathway>Metabolite transport</Pathway>
+      <LocusTag Key="Mjls_5379" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2149000&amp;disp=0" />
+      <BiologicalProcess>Metabolite transport</BiologicalProcess>
+      <Regulog Key="MSMEG_4140 - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6170" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_5378" Name="pcaC" Position="-69" Score="9.1">
+          <Sequence>GGATTGGCCCAC------------GAATTGAACCAT</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_4486" Name="PF07883" Position="-70" Score="7.3">
+          <Sequence>TGATTGGCCCAC------------GAAATGGACCGG</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2148999" LocusId="Mjls_5378" Name="pcaC" Function="4-carboxymuconolactone decarboxylase domain/alkylhydroperoxidase AhpD family core domain protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2148091" LocusId="Mjls_4486" Name="PF07883" Function="Cupin 2, conserved barrel domain protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6170</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="Mce2R" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56966" />
+      <Effector />
+      <Pathway>Fatty acid metabolism</Pathway>
+      <LocusTag Key="Mjls_2757" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2146339&amp;disp=0" />
+      <BiologicalProcess>Fatty acid metabolism</BiologicalProcess>
+      <Regulog Key="Mce2R - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5824" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_2757" Name="mce2R" Position="-54" Score="6.2">
+          <Sequence>CTAACTGGTCAGACCACTTGA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2146339" LocusId="Mjls_2757" Name="mce2R" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="2146340" LocusId="Mjls_2758" Name="fah" Function="Fatty acid hydroxylase FAH1P" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5824</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="MntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62736" />
+      <Effector>Manganese ion, (Mn2+)</Effector>
+      <Pathway>Manganese homeostasis</Pathway>
+      <LocusTag Key="Mjls_2080" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2145658&amp;disp=0" />
+      <BiologicalProcess>Manganese homeostasis</BiologicalProcess>
+      <Regulog Key="MntR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6455" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_4747" Name="mntH" Position="-51" Score="6.7">
+          <Sequence>GTTTTCGGCTAACCTAACTT</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_5425" Name="COG2119" Position="-218" Score="4.3">
+          <Sequence>GAATACGGCTGTCCGAAAAC</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2148354" LocusId="Mjls_4747" Name="mntH" Function="Manganese transport protein MntH" />
+          <Members vimssId="2148355" LocusId="Mjls_4748" Name="PF05908" Function="Protein of unknown function DUF867" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2149046" LocusId="Mjls_5425" Name="COG2119" Function="Predicted manganese transporter, COG2119 family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6455</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41984" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Mjls_2159" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2145737&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4336" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_1796" Name="nrdH" Position="-260" Score="4.9">
+          <Sequence>TCAGAACATCTTGTAT</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_1796" Name="nrdH" Position="-228" Score="5.3">
+          <Sequence>CCACTAGGTGTAGTGT</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_1809" Name="nrdF" Position="-89" Score="4.6">
+          <Sequence>ACACAACGAGTAGTGT</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_1809" Name="nrdF" Position="-121" Score="4">
+          <Sequence>ACCCAATATGTGGGGT</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2145385" LocusId="Mjls_1809" Name="nrdF" Function="Ribonucleotide reductase of class Ib (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2145372" LocusId="Mjls_1796" Name="nrdH" Function="Glutaredoxin-like protein NrdH, required for reduction of Ribonucleotide reductase class Ib" />
+          <Members vimssId="2145373" LocusId="Mjls_1797" Name="nrdI" Function="Ribonucleotide reduction protein NrdI" />
+          <Members vimssId="2145374" LocusId="Mjls_1798" Name="nrdE" Function="Ribonucleotide reductase of class Ib (aerobic), alpha subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4336</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrtR" RegulationMode="repressor">
+      <Regulator Key="NrtR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42051" />
+      <Effector>Adenosine diphosphate ribose</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="Mjls_3086" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2146674&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NrtR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4341" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_3085" Name="nadA" Position="-46" Score="7.5">
+          <Sequence>GTTTTCGATTGTAAGTCGAAAAC</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_3086" Name="nrtR" Position="-23" Score="7.5">
+          <Sequence>GTTTTCGACTTACAATCGAAAAC</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2146673" LocusId="Mjls_3085" Name="nadA" Function="Quinolinate synthetase (EC 4.1.99.-)" />
+          <Members vimssId="2146672" LocusId="Mjls_3084" Name="nadB" Function="L-aspartate oxidase (EC 1.4.3.16)" />
+          <Members vimssId="2146671" LocusId="Mjls_3083" Name="nadC" Function="Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2146674" LocusId="Mjls_3086" Name="nrtR" Function="Nudix-related transcriptional regulator NrtR" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4341</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=64278" />
+      <Effector />
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="Mjls_1835" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2145411&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxR3 - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6630" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_1836" Name="COG2364" Position="-215" Score="16">
+          <Sequence>GCAGCCAGTAT-(4)-CAACTGGCTAT-(7)-CAAGCCAGTCG</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2145412" LocusId="Mjls_1836" Name="COG2364" Function="putative integral membrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6630</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="PhnF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56831" />
+      <Effector />
+      <Pathway>Phosphonate utilization; 2-aminoethylphosphonate utilization</Pathway>
+      <LocusTag Key="Mjls_1316" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2144889&amp;disp=0" />
+      <BiologicalProcess>Phosphonate utilization; 2-aminoethylphosphonate utilization</BiologicalProcess>
+      <Regulog Key="PhnF - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5808" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_1318" Name="COG0665" Position="-89" Score="6.4">
+          <Sequence>ATTGGTCTATACCAAT</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_1319" Name="phnX" Position="-90" Score="6">
+          <Sequence>ATTGGTATAGACCAGT</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_1319" Name="phnX" Position="-32" Score="4.3">
+          <Sequence>ATTGGCCCAGACCACA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_1317" Name="COG4341" Position="-34" Score="6.4">
+          <Sequence>ATTGGTATAGACCAAT</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2144890" LocusId="Mjls_1317" Name="COG4341" Function="HD phosphohydrolase-like protein" />
+          <Members vimssId="2144889" LocusId="Mjls_1316" Name="phnF" Function="Transcriptional regulator for phosphonate utilization, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2144892" LocusId="Mjls_1319" Name="phnX" Function="Phosphonoacetaldehyde hydrolase (EC 3.11.1.1)" />
+          <Members vimssId="2144893" LocusId="Mjls_1320" Name="phnD" Function="Phosphonate ABC transporter phosphate-binding periplasmic component (TC 3.A.1.9.1)" />
+          <Members vimssId="2144894" LocusId="Mjls_1321" Name="phnC" Function="Phosphonate ABC transporter ATP-binding protein" />
+          <Members vimssId="2144895" LocusId="Mjls_1322" Name="phnE" Function="Phosphonate ABC transporter permease protein phnE (TC 3.A.1.9.1)" />
+          <Members vimssId="2144896" LocusId="Mjls_1323" Name="COG1063" Function="Phosphonate catabolism associated alcohol dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2144891" LocusId="Mjls_1318" Name="COG0665" Function="Putative FAD dependent oxidoreductase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5808</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="RhaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52177" />
+      <Effector>Rhamnose</Effector>
+      <Pathway>Rhamnose utilization</Pathway>
+      <LocusTag Key="Mjls_4769" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2148377&amp;disp=0" />
+      <BiologicalProcess>Rhamnose utilization</BiologicalProcess>
+      <Regulog Key="RhaR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5310" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_4774" Name="rhaM" Position="-35" Score="7.1">
+          <Sequence>GTATTGAAACGTTTCAACCC</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2148382" LocusId="Mjls_4774" Name="rhaM" Function="L-rhamnose mutarotase" />
+          <Members vimssId="2148381" LocusId="Mjls_4773" Name="null" Function="Predicted L-rhamnose permease RhaY" />
+          <Members vimssId="2148380" LocusId="Mjls_4772" Name="null" Function="Predicted L-rhamnose isomerase RhaI (EC 5.3.1.14)" />
+          <Members vimssId="2148379" LocusId="Mjls_4771" Name="rhaEW" Function="Predicted rhamnulose-1-phosphate aldolase (EC 4.1.2.19) / Predicted lactaldehyde dehydrogenase (EC 1.2.1.22)" />
+          <Members vimssId="2148378" LocusId="Mjls_4770" Name="null" Function="Rhamnulokinase (EC 2.7.1.5)" />
+          <Members vimssId="2148377" LocusId="Mjls_4769" Name="null" Function="Transcriptional regulator of rhamnose utilization, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5310</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62340" />
+      <Effector>Sulfate</Effector>
+      <Pathway>Sulfur metabolism</Pathway>
+      <LocusTag Key="Mjls_4696" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2148303&amp;disp=0" />
+      <BiologicalProcess>Sulfur metabolism</BiologicalProcess>
+      <Regulog Key="SutR - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6411" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_4696" Name="sutR" Position="-41" Score="5.5">
+          <Sequence>ATTCATCAATCGGTCAAT</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2148303" LocusId="Mjls_4696" Name="sutR" Function="Predicted sulfate transport transcriptional regulator SutR, ArsR family" />
+          <Members vimssId="2148302" LocusId="Mjls_4695" Name="sufP" Function="Predicted sulfate permease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6411</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="">
+      <Regulator Key="Znr" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=54028" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="Mjls_3457" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2147051&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Znr - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5527" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_3457" Name="znr" Position="-34" Score="5.4">
+          <Sequence>CATGCGAATCGATGCATG</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2147051" LocusId="Mjls_3457" Name="znr" Function="Zinc homeostasis transcriptional regulator Znr, ArsR family" />
+          <Members vimssId="2147052" LocusId="Mjls_3458" Name="zur" Function="Zinc homeostasis transcriptional regulator Zur, Fur family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5527</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42013" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="Mjls_3458" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2147052&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Mycobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4338" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_3457" Name="znr" Position="-2" Score="5.7">
+          <Sequence>TAATGAAAATCGTTTCCAGCA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_5110" Name="znuB2" Position="-90" Score="6.2">
+          <Sequence>TGTTGAAAATGATTTTCATTA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_5116" Name="rpmB1" Position="-34" Score="5.7">
+          <Sequence>TGTCGAAAATGGTTTTCAATA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_5116" Name="rpmB1" Position="-89" Score="5.7">
+          <Sequence>TGTTGAGAACGATTGTCAATA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_5117" Name="yciC" Position="-88" Score="5.7">
+          <Sequence>TATTGAAAACCATTTTCGACA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_5117" Name="yciC" Position="-33" Score="5.7">
+          <Sequence>TATTGACAATCGTTCTCAACA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_5104" Name="znuA" Position="-88" Score="5.5">
+          <Sequence>AAATGCAAACCGTTATCATTA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_5111" Name="znuC2" Position="-2" Score="6.2">
+          <Sequence>TAATGAAAATCATTTTCAACA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2148729" LocusId="Mjls_5116" Name="rpmB1" Function="50S ribosomal protein L28" />
+          <Members vimssId="2148728" LocusId="Mjls_5115" Name="rpmG1" Function="50S ribosomal protein L33" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2147051" LocusId="Mjls_3457" Name="znr" Function="Zinc homeostasis transcriptional regulator Znr, ArsR family" />
+          <Members vimssId="2147052" LocusId="Mjls_3458" Name="zur" Function="Zinc homeostasis transcriptional regulator Zur, Fur family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2148723" LocusId="Mjls_5110" Name="znuB2" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+          <Members vimssId="2148722" LocusId="Mjls_5109" Name="znuB2" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+          <Members vimssId="2148721" LocusId="Mjls_5108" Name="znuA2" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+          <Members vimssId="2148720" LocusId="Mjls_5107" Name="Mflv_3560" Function="putative secreted protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2148730" LocusId="Mjls_5117" Name="yciC" Function="Putative metal chaperone, involved in Zn homeostasis, GTPase of COG0523 family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2148717" LocusId="Mjls_5104" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+          <Members vimssId="2148716" LocusId="Mjls_5103" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="2148715" LocusId="Mjls_5102" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2148724" LocusId="Mjls_5111" Name="znuC2" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="2148725" LocusId="Mjls_5112" Name="lamB" Function="Conserved hypothetical protein (LamB/YcsF)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4338</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39686" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_5141" Name="" Position="-101" Score="25.1">
+          <Sequence>AGGAATCTGGTGAGAATCCAGAACGGTCGCGCCACTGTGAGAGTCAGAC</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2148754" LocusId="Mjls_5141" Name="null" Function="Hypothetical protein" />
+          <Members vimssId="2148753" LocusId="Mjls_5140" Name="cbtA" Function="Predicted cobalt transporter CbtA" />
+          <Members vimssId="2148752" LocusId="Mjls_5139" Name="phoE" Function="Probable phosphoglycerate mutase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00504" RegulationMode="RF00504">
+      <Regulator Key="Glycine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39614" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="Glycine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_2871" Name="gcvB" Position="-267" Score="45.1">
+          <Sequence>TCGCCCGTGTGCGGGAGAGCTCCGTGATCGCCAGTCACGGGCGCCGAAGGAGCAACACCTCTCCGTCAACCTCTCAGGCACCCAGGACCGCGCACG</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_2871" Name="gcvB" Position="-170" Score="23.8">
+          <Sequence>CCTCGATGCCTCTGGAAAGCGGTGGACACCAGTGGTCCGCCCGCCCATGGGGAAAGGCGCGCCCGGCGAGCTGTTCGGACGCGGCCGAATCTCTCAGGCGCCCGCCCCGGGTCGACGACAGAGGGAGAGGG</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2146453" LocusId="Mjls_2871" Name="gcvB" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P protein) (EC 1.4.4.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00515" RegulationMode="RF00515">
+      <Regulator Key="PyrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39308" />
+      <Effector>PyrR</Effector>
+      <Pathway>Pyrimidine metabolism</Pathway>
+      <LocusTag Key="PyrR" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_2403" Name="pyrR" Position="-51" Score="25.8">
+          <Sequence>CATCCTTTAACGATCCGTCCGGCGAGGCGGAGAAGGAGGTCTGGATCGCGCGTGGGCAGTCCTGACAACCCCGACCGGGAATTGATGA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2145985" LocusId="Mjls_2403" Name="pyrR" Function="Uracil phosphoribosyltransferase (EC 2.4.2.9) / Pyrimidine operon regulatory protein PyrR" />
+          <Members vimssId="2145986" LocusId="Mjls_2404" Name="pyrB" Function="Aspartate carbamoyltransferase (EC 2.1.3.2)" />
+          <Members vimssId="2145987" LocusId="Mjls_2405" Name="pyrC" Function="Dihydroorotase (EC 3.5.2.3)" />
+          <Members vimssId="2145988" LocusId="Mjls_2406" Name="null" Function="Integral membrane protein" />
+          <Members vimssId="2145989" LocusId="Mjls_2407" Name="carA" Function="Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)" />
+          <Members vimssId="2145990" LocusId="Mjls_2408" Name="carB" Function="Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)" />
+          <Members vimssId="2145991" LocusId="Mjls_2409" Name="pyrF" Function="Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01057" RegulationMode="RF01057">
+      <Regulator Key="SAH_riboswitch" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39758" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="SAH_riboswitch" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_3161" Name="metH" Position="-107" Score="23.5">
+          <Sequence>TCTGGTCGAGAGGCGTTGCAACGGGTTCTGGGGGAGGTCTGCGTCCTTCCCGGTATCCGCCACGCTCGGCAGAGTCAAGGACGCCTTCCGCTA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2146749" LocusId="Mjls_3161" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase, MetH" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00634" RegulationMode="RF00634">
+      <Regulator Key="SAM-IV" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39326" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Sulfur metabolism</Pathway>
+      <LocusTag Key="SAM-IV" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_0848" Name="" Position="-143" Score="45">
+          <Sequence>AGCTCACGAGCGGACGGCAGTTTGGGTACCTGGCCCGTCGTCCCGGCAACCGCGCGACCACCGCACGGTGCCCCAGGGGAAGAGCGGGCGCGGCTTACGTGCAAGTGGTGGAC</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_1235" Name="metY" Position="-162" Score="107.4">
+          <Sequence>CGGTCATGAGTGCCAGCGTCAAGCCCCGGCTTGCTGGCCGGCAACCCTCCAACCGCGGTGGGGTGCCCCGGGTGATGACCAGGTTGAGTAGCCGTGACGGCTACGCGGCAAGCGCGGGTC</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2144419" LocusId="Mjls_0848" Name="null" Function="Hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2144808" LocusId="Mjls_1235" Name="metY" Function="O-acetylhomoserine sulfhydrylase (EC 2.5.1.49) / O-succinylhomoserine sulfhydrylase (EC 2.5.1.48)" />
+          <Members vimssId="2144807" LocusId="Mjls_1234" Name="metX" Function="Homoserine O-acetyltransferase (EC 2.3.1.31)" />
+          <Members vimssId="2144806" LocusId="Mjls_1233" Name="null" Function="Methyltransferase (EC 2.1.1.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39542" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_0554" Name="thiD" Position="-100" Score="54.1">
+          <Sequence>CCACCGACCACGCGGGAGCGCGCACCAGCGCGCTGAGAGGACGACTGGGGTCGTCGACCGTACGAACCTGACCGGGTAATGCCGGCGTAGGGAGTTTTCGATGACCGATA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_5653" Name="ykoE" Position="-102" Score="53.3">
+          <Sequence>CGATAACCCACGCGGGAGTGCACACCGAGTGCGCTGAGAGGACGGCTGGGGCCGTCGACCGTATGAACCTGACCGGGTAATGCCGGCGTAGGGAGTGAACTGATGACCGAC</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_0535" Name="thiO" Position="-105" Score="43.7">
+          <Sequence>TGATGGCCGACACGGGAGTCCCGGGACAGCGGGACTGAGAGTGGGCCAGACGATCCGGCCCTTACCGTCGGACCTGATCCGGGTCATGCCGGCGAAGGGAGGGCCATGCCACCGGACAG</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2144105" LocusId="Mjls_0535" Name="thiO" Function="Glycine oxidase ThiO (EC 1.4.3.19)" />
+          <Members vimssId="2144106" LocusId="Mjls_0536" Name="thiS" Function="Sulfur carrier protein ThiS" />
+          <Members vimssId="2144107" LocusId="Mjls_0537" Name="thiG" Function="Thiazole biosynthesis protein ThiG" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2144124" LocusId="Mjls_0554" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2149275" LocusId="Mjls_5653" Name="ykoE" Function="Substrate-specific component YkoE of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine" />
+          <Members vimssId="2149274" LocusId="Mjls_5652" Name="ykoD" Function="ATPase component YkoD of energizing module of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine" />
+          <Members vimssId="2149273" LocusId="Mjls_5651" Name="ykoC" Function="Transmembrane component YkoC of energizing module of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00379" RegulationMode="RF00379">
+      <Regulator Key="ydaO-yuaA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39344" />
+      <Effector />
+      <Pathway>Osmotic stress response; Cell wall metabolism</Pathway>
+      <LocusTag Key="ydaO-yuaA" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_4862" Name="rpfA" Position="-213" Score="40.7">
+          <Sequence>GCCCGATAGCGCCGAGCTCCATCCGTCGACGCGGGGGACCACGAACCACCTGGATGGAGGCGGGGGACCCACCGGTCCACCGAAGGACCTGGGGCCGCCAGCGGCCCCTTGGGGTGAAGCCGAGACCGGGCAACCGGAATCGGCCGGGTGACCTCTCCCACCCGAACCCGACAGCTGACCTCGCGGGCGCCGACGAGAGGACCTAT</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2148470" LocusId="Mjls_4862" Name="rpfA" Function="Probable resuscitation-promoting factor RpfA" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=39443" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mjls_5425" Name="COG2119" Position="-153" Score="56.5">
+          <Sequence>AAGTCAGCGAAGGGGAGTAGCCCCTAATCGTCGTGTCGACATACTGGCCTTCGGGCCCGGCCGGCGAACCGCACCCTCGGTGGGCGAGACCTTCGACTCAGACGC</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mjls_5171" Name="ykoY" Position="-141" Score="61.5">
+          <Sequence>ATTCTCATCCGGAGGGGAGTATTCCTTCGCCGCGGTGTCGTCATTACGTCGTCCGTCATCGGACGACCGGTGCTGCGGGCCGACGCGTCGGGCGTCGGCGGAAGAGACCTCCGGCGTGTTA</Sequence>
+          <Bacteria>Mycobacterium sp. JLS</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2149046" LocusId="Mjls_5425" Name="COG2119" Function="Possible transmambrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2148784" LocusId="Mjls_5171" Name="ykoY" Function="Membrane protein TerC, possibly involved in tellurium resistance" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

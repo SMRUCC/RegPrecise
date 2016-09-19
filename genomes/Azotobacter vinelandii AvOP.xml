@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Azotobacter vinelandii AvOP" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14976" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="Avin_06050" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6917051&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1605" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_05970" Name="COG1040" Position="-16" Score="9">
+          <Sequence>CTGTCAACC---------------GGTTTACAA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_05980" Name="bioB" Position="-139" Score="9">
+          <Sequence>TTGTAAACC---------------GGTTGACAG</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6917043" LocusId="Avin_05970" Name="COG1040" Function="Competence protein F homolog, phosphoribosyltransferase domain; protein YhgH required for utilization of DNA as sole source of carbon and energy" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6917044" LocusId="Avin_05980" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="6917045" LocusId="Avin_05990" Name="bioF" Function="8-amino-7-oxononanoate synthase (EC 2.3.1.47)" />
+          <Members vimssId="6917046" LocusId="Avin_06000" Name="bioH" Function="hypothetical protein" />
+          <Members vimssId="6917047" LocusId="Avin_06010" Name="bioC" Function="Biotin synthesis protein bioC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1605</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51307" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="Avin_46190" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6921066&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5201" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_18520" Name="cadA" Position="-114" Score="6.3">
+          <Sequence>ACTCTGTAGTGGCTACAGAGT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_24510" Name="czcD" Position="-58" Score="6.1">
+          <Sequence>ACCCTGAAGCCGCTACAGGGT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6918303" LocusId="Avin_18520" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6918897" LocusId="Avin_24510" Name="czcD" Function="Co/Zn/Cd efflux protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5201</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="CueR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50915" />
+      <Effector>Copper ion, (Cu+)</Effector>
+      <Pathway>Copper resistance</Pathway>
+      <LocusTag Key="Avin_10060" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6917450&amp;disp=0" />
+      <BiologicalProcess>Copper resistance</BiologicalProcess>
+      <Regulog Key="CueR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5159" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_10070" Name="copZ" Position="-59" Score="5.2">
+          <Sequence>ACCTTGCCCGGGGGGCAAGCT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6917451" LocusId="Avin_10070" Name="copZ" Function="Copper chaperone" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5159</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="FruR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=20701" />
+      <Effector>Fructose-1-phosphate; Fructose-1,6-diphosphate</Effector>
+      <Pathway>Fructose utilization</Pathway>
+      <LocusTag Key="Avin_12180" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6917663&amp;disp=0" />
+      <BiologicalProcess>Fructose utilization</BiologicalProcess>
+      <Regulog Key="FruR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2239" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_12180" Name="fruR" Position="-81" Score="5.3">
+          <Sequence>GCTGAATCGTTTCACT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_12190" Name="fruB" Position="-109" Score="4.8">
+          <Sequence>AGTGAAACGATTCAGC</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6917664" LocusId="Avin_12190" Name="fruB" Function="Fructose-specific phosphocarrier protein HPr (EC 2.7.1.69) / PTS system, fructose-specific IIA component (EC 2.7.1.69)" />
+          <Members vimssId="6917665" LocusId="Avin_12200" Name="fruK" Function="1-phosphofructokinase (EC 2.7.1.56)" />
+          <Members vimssId="6917666" LocusId="Avin_12210" Name="fruA" Function="PTS system, fructose-specific IIB component (EC 2.7.1.69) / PTS system, fructose-specific IIC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6917663" LocusId="Avin_12180" Name="fruR" Function="Fructose operon transcriptional regulator FruR, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2239</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TyrR" RegulationMode="activator">
+      <Regulator Key="GcvR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60188" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="Avin_25940" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6919043&amp;disp=0" />
+      <BiologicalProcess>Glycine metabolism</BiologicalProcess>
+      <Regulog Key="GcvR - Pseudomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6180" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_26020" Name="gcvP" Position="-180" Score="5.7">
+          <Sequence>CCGTAACGATTTCGTTCCGA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_26020" Name="gcvP" Position="-250" Score="5.3">
+          <Sequence>TCGTAACGATTTCGAAACAA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6919050" LocusId="Avin_26020" Name="gcvP" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P protein) (EC 1.4.4.2)" />
+          <Members vimssId="6919051" LocusId="Avin_26040" Name="sdaA" Function="L-serine dehydratase (EC 4.3.1.17)" />
+          <Members vimssId="6919052" LocusId="Avin_26050" Name="gcvT" Function="Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6180</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="GguR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62991" />
+      <Effector />
+      <Pathway>Glucuronate utilization; Glucarate utilization; Galacturonate utilization; Galactarate utilization</Pathway>
+      <LocusTag Key="Avin_32950" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6919740&amp;disp=0" />
+      <BiologicalProcess>Glucuronate utilization; Glucarate utilization; Galacturonate utilization; Galactarate utilization</BiologicalProcess>
+      <Regulog Key="GguR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6493" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_05220" Name="kdgD" Position="-72" Score="4.9">
+          <Sequence>AAGTCATACGATAACGT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_05190" Name="gguR" Position="-213" Score="4.5">
+          <Sequence>ATGTCATCATATGACTT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_05190" Name="gguR" Position="-63" Score="4.5">
+          <Sequence>CTATTGTCGTACGACTT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6916968" LocusId="Avin_05220" Name="kdgD" Function="5-dehydro-4-deoxyglucarate dehydratase (EC 4.2.1.41)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6916965" LocusId="Avin_05190" Name="gguR" Function="Predicted D-glucarate or D-galactorate utilization regulator, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6493</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="activator (repressor)">
+      <Regulator Key="GlcC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19128" />
+      <Effector>Glycolate</Effector>
+      <Pathway>Glycolate utilization</Pathway>
+      <LocusTag Key="Avin_43340" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6920782&amp;disp=0" />
+      <BiologicalProcess>Glycolate utilization</BiologicalProcess>
+      <Regulog Key="GlcC - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2064" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_43330" Name="glcD" Position="-157" Score="5.3">
+          <Sequence>AACTGGTATGACCAGCT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_43330" Name="glcD" Position="-255" Score="4.4">
+          <Sequence>AACTGGTAGGACCATGA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_43340" Name="glcC" Position="-30" Score="4.8">
+          <Sequence>TCATGGTCCTACCAGTT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_43340" Name="glcC" Position="-128" Score="5.8">
+          <Sequence>AGCTGGTCATACCAGTT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6920782" LocusId="Avin_43340" Name="glcC" Function="Glycolate utilization operon transcriptional activator GlcC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6920781" LocusId="Avin_43330" Name="glcD" Function="Glycolate dehydrogenase (EC 1.1.99.14), subunit GlcD" />
+          <Members vimssId="6920780" LocusId="Avin_43320" Name="glcE" Function="Glycolate dehydrogenase (EC 1.1.99.14), FAD-binding subunit GlcE" />
+          <Members vimssId="6920779" LocusId="Avin_43310" Name="glcF" Function="Glycolate dehydrogenase (EC 1.1.99.14), iron-sulfur subunit GlcF" />
+          <Members vimssId="6920778" LocusId="Avin_43300" Name="glcG" Function="Hypothetical protein GlcG in glycolate utilization operon" />
+          <Members vimssId="6920777" LocusId="Avin_43290" Name="glcB" Function="Malate synthase G (EC 2.3.3.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2064</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="GntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49852" />
+      <Effector>Gluconate</Effector>
+      <Pathway>Gluconate utilization</Pathway>
+      <LocusTag Key="Avin_27300" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6919175&amp;disp=0" />
+      <BiologicalProcess>Gluconate utilization</BiologicalProcess>
+      <Regulog Key="GntR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5049" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_27300" Name="gntR" Position="-167" Score="5.5">
+          <Sequence>CGAGGACAGCGCTATCCTGT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_27310" Name="gntK" Position="-177" Score="5.5">
+          <Sequence>ACAGGATAGCGCTGTCCTCG</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_22480" Name="gntK" Position="-30" Score="5.5">
+          <Sequence>AAAAGATAGCGCTATCTACC</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_22480" Name="gntK" Position="-176" Score="5.9">
+          <Sequence>ATAAGATAGCGCTGTCTTTA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_22470" Name="gntT" Position="-57" Score="5.9">
+          <Sequence>GAAAGATAGCGCTGTCTCGC</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6918692" LocusId="Avin_22470" Name="gntT" Function="High-affinity H+/gluconate symporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6919175" LocusId="Avin_27300" Name="gntR" Function="Gluconate utilization transcriptional regulator GntR, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6919176" LocusId="Avin_27310" Name="gntK" Function="Thermoresistant gluconokinase (EC 2.7.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6918693" LocusId="Avin_22480" Name="gntK" Function="Thermoresistant gluconokinase (EC 2.7.1.12)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5049</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor (activator)">
+      <Regulator Key="HexR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=20491" />
+      <Effector>2-keto-3-deoxy-6-phosphogluconate</Effector>
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="Avin_27270" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6919172&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="HexR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2219" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_17630" Name="zwf" Position="-84" Score="6.9">
+          <Sequence>TTGTTTT-----ACAACAT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_15710" Name="pgl" Position="-127" Score="7">
+          <Sequence>TCGTAGT-----ACAACAT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_27260" Name="zwf" Position="-84" Score="5.5">
+          <Sequence>ATGTaGT-----ACgcaAT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_27270" Name="hexR" Position="-111" Score="5.5">
+          <Sequence>ATtgcGT-----ACtACAT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_15700" Name="hexR" Position="-66" Score="7">
+          <Sequence>ATGTTGT-----ACtACga</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6919171" LocusId="Avin_27260" Name="zwf" Function="Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)" />
+          <Members vimssId="6919170" LocusId="Avin_27250" Name="eda" Function="4-Hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16) / 2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14)" />
+          <Members vimssId="6919169" LocusId="Avin_27240" Name="pykA" Function="Pyruvate kinase" />
+          <Members vimssId="6919168" LocusId="Avin_27230" Name="null" Function="hypothetical protein" />
+          <Members vimssId="6919167" LocusId="Avin_27220" Name="eno" Function="Enolase" />
+          <Members vimssId="6919166" LocusId="Avin_27210" Name="gapN" Function="NADP-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6918020" LocusId="Avin_15710" Name="pgl" Function="6-phosphogluconolactonase (EC 3.1.1.31), eukaryotic type" />
+          <Members vimssId="6918021" LocusId="Avin_15720" Name="eda" Function="4-Hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16) / 2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6918215" LocusId="Avin_17630" Name="zwf" Function="Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)" />
+          <Members vimssId="6918216" LocusId="Avin_17640" Name="pgl" Function="6-phosphogluconolactonase (EC 3.1.1.31), eukaryotic type" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6919172" LocusId="Avin_27270" Name="hexR" Function="Central carbohydrate metabolism transcription regulator HexR, RpiR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6918019" LocusId="Avin_15700" Name="hexR" Function="Central carbohydrate metabolism transcription regulator HexR, RpiR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2219</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor (activator)">
+      <Regulator Key="HexR1" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14812" />
+      <Effector>2-keto-3-deoxy-6-phosphogluconate</Effector>
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="Avin_02030" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6916646&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="HexR1 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1586" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_02030" Name="hexR1" Position="-61" Score="6.1">
+          <Sequence>ATGTAGTATAACTACAG</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_02020" Name="zwf" Position="-43" Score="6.1">
+          <Sequence>CTGTAGTTATACTACAT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_44900" Name="aceE" Position="-114" Score="6.4">
+          <Sequence>TTGTAGTAAAACTACAA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6920936" LocusId="Avin_44900" Name="aceE" Function="Pyruvate dehydrogenase E1 component (EC 1.2.4.1)" />
+          <Members vimssId="6920937" LocusId="Avin_44910" Name="aceF" Function="Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex (EC 2.3.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6916645" LocusId="Avin_02020" Name="zwf" Function="Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6916646" LocusId="Avin_02030" Name="hexR1" Function="Central carbohydrate metabolism transcription regulator HexR, RpiR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1586</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="activator">
+      <Regulator Key="HmgQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60196" />
+      <Effector>4-hydroxyphenylpyruvate</Effector>
+      <Pathway>Tyrosine degradation</Pathway>
+      <LocusTag Key="Avin_50160" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6921452&amp;disp=0" />
+      <BiologicalProcess>Tyrosine degradation</BiologicalProcess>
+      <Regulog Key="HmgQ - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6181" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_50170" Name="hpd" Position="-126" Score="6">
+          <Sequence>ATCTATTTTTTAGAT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_50160" Name="hmgQ" Position="-38" Score="5.3">
+          <Sequence>ATCTAAAAAATAGAT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6921452" LocusId="Avin_50160" Name="hmgQ" Function="Tyrosine degradation transcriptional regulator, LysR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6921453" LocusId="Avin_50170" Name="hpd" Function="4-hydroxyphenylpyruvate dioxygenase (EC 1.13.11.27)" />
+          <Members vimssId="6921454" LocusId="Avin_50180" Name="gloA" Function="Predicted homogentisate dioxygenase, GloA family" />
+          <Members vimssId="6921455" LocusId="Avin_50190" Name="hmgC" Function="Fumarylacetoacetase (EC 3.7.1.2)" />
+          <Members vimssId="6921456" LocusId="Avin_50200" Name="hmgB" Function="Maleylacetoacetate isomerase (EC 5.2.1.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6181</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17880" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="Avin_40410" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6920489&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1930" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_40410" Name="iscR" Position="-65" Score="6.1">
+          <Sequence>ATAGTTGATCCTGTTTGTCGGGTAT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6920489" LocusId="Avin_40410" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="6920488" LocusId="Avin_40400" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+          <Members vimssId="6920487" LocusId="Avin_40390" Name="iscU" Function="Iron-sulfur cluster assembly scaffold protein IscU" />
+          <Members vimssId="6920486" LocusId="Avin_40380" Name="iscA" Function="Iron binding protein IscA for iron-sulfur cluster assembly" />
+          <Members vimssId="6920485" LocusId="Avin_40370" Name="hscB" Function="Chaperone protein HscB" />
+          <Members vimssId="6920484" LocusId="Avin_40360" Name="hscA" Function="Chaperone protein HscA" />
+          <Members vimssId="6920483" LocusId="Avin_40350" Name="fdx" Function="ferredoxin, 2Fe-2S type, ISC system" />
+          <Members vimssId="6920482" LocusId="Avin_40340" Name="yfhJ" Function="putative Fe-S cluster assembly protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1930</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28328" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="Avin_14510" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6917897&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2979" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_42990" Name="recN" Position="-40" Score="5.9">
+          <Sequence>ACTGTATATATACACAGA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_14510" Name="lexA" Position="-46" Score="5.6">
+          <Sequence>ACTGTATATAATCACAGT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_14510" Name="lexA" Position="-27" Score="5.4">
+          <Sequence>ACTGGATAAAAAGACAGA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_38560" Name="recA" Position="-60" Score="5.6">
+          <Sequence>ACTGTCTACTTATACAGT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_19450" Name="dinG" Position="-36" Score="5">
+          <Sequence>ACTGAAAATTTGTCCAGT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_27190" Name="topB" Position="-75" Score="5.1">
+          <Sequence>TCTGTATGGACATACAGA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6919164" LocusId="Avin_27190" Name="topB" Function="DNA topoisomerase III (EC 5.99.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6917897" LocusId="Avin_14510" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+          <Members vimssId="6917896" LocusId="Avin_14500" Name="sulA" Function="Cell division inhibitor sulA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6920747" LocusId="Avin_42990" Name="recN" Function="DNA repair protein RecN" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6918401" LocusId="Avin_19450" Name="dinG" Function="ATP-dependent helicase DinG/Rad3" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6920307" LocusId="Avin_38560" Name="recA" Function="Recombinase A" />
+          <Members vimssId="6920306" LocusId="Avin_38550" Name="recX" Function="Regulatory protein RecX" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2979</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="LiuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28524" />
+      <Effector />
+      <Pathway>Branched-chain amino acid degradation</Pathway>
+      <LocusTag Key="Avin_49570" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6921394&amp;disp=0" />
+      <BiologicalProcess>Branched-chain amino acid degradation</BiologicalProcess>
+      <Regulog Key="LiuR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3000" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_49570" Name="liuR" Position="-32" Score="5.4">
+          <Sequence>GTTTACGTAAAGGTAATA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_49570" Name="liuR" Position="-38" Score="6.3">
+          <Sequence>GTTTACGTTTACGTAAAG</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6921394" LocusId="Avin_49570" Name="liuR" Function="Predicted transcriptional regulator LiuR of leucine degradation pathway, MerR family" />
+          <Members vimssId="6921393" LocusId="Avin_49560" Name="liuA" Function="Isovaleryl-CoA dehydrogenase (EC 1.3.99.10)" />
+          <Members vimssId="6921392" LocusId="Avin_49550" Name="liuB" Function="Methylcrotonyl-CoA carboxylase carboxyl transferase subunit (EC 6.4.1.4)" />
+          <Members vimssId="6921391" LocusId="Avin_49530" Name="liuC" Function="Methylglutaconyl-CoA hydratase (EC 4.2.1.18)" />
+          <Members vimssId="6921390" LocusId="Avin_49520" Name="liuD" Function="Methylcrotonyl-CoA carboxylase biotin-containing subunit (EC 6.4.1.4)" />
+          <Members vimssId="6921389" LocusId="Avin_49510" Name="liuE" Function="Hydroxymethylglutaryl-CoA lyase (EC 4.1.3.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3000</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="LldR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16600" />
+      <Effector>L-lactate</Effector>
+      <Pathway>Lactate utilization</Pathway>
+      <LocusTag Key="Avin_43060" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6920753&amp;disp=0" />
+      <BiologicalProcess>Lactate utilization</BiologicalProcess>
+      <Regulog Key="LldR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1787" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_43060" Name="lldR" Position="-222" Score="6.3">
+          <Sequence>AATTGGTAATACCAATT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_43060" Name="lldR" Position="-42" Score="4.1">
+          <Sequence>AACTGGTCAAGCCAGTA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_43070" Name="lldP" Position="-149" Score="6.4">
+          <Sequence>AATTGGTATTACCAATT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_43070" Name="lldP" Position="-329" Score="4">
+          <Sequence>TACTGGCTTGACCAGTT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6920753" LocusId="Avin_43060" Name="lldR" Function="Lactate-responsive regulator LldR in Enterobacteria, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6920754" LocusId="Avin_43070" Name="lldP" Function="L-lactate permease" />
+          <Members vimssId="6920755" LocusId="Avin_43080" Name="lldE" Function="L-lactate dehydrogenase, Fe-S oxidoreductase subunit LldE" />
+          <Members vimssId="6920756" LocusId="Avin_43090" Name="lldF" Function="L-lactate dehydrogenase, iron-sulfur cluster-binding subunit LldF" />
+          <Members vimssId="6920757" LocusId="Avin_43100" Name="lldG" Function="L-lactate dehydrogenase, subunit LldG" />
+          <Members vimssId="6920758" LocusId="Avin_43110" Name="dld" Function="D-Lactate dehydrogenase (EC 1.1.2.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1787</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor (activator)">
+      <Regulator Key="MetR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56655" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="Avin_13970" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6917838&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5787" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_13980" Name="metE" Position="-66" Score="4.9">
+          <Sequence>TCTGAGTTTGTCTCATG</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_13970" Name="metR" Position="-58" Score="4.9">
+          <Sequence>CATGAGACAAACTCAGA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6917839" LocusId="Avin_13980" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6917838" LocusId="Avin_13970" Name="metR" Function="Homocysteine-responsive transcriptional regulator of methionine metabolism, LysR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5787</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21223" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdenum homeostasis</Pathway>
+      <LocusTag Key="Avin_50680" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6921502&amp;disp=0" />
+      <BiologicalProcess>Molybdenum homeostasis</BiologicalProcess>
+      <Regulog Key="ModE - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2298" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_50680" Name="modE" Position="-46" Score="4.7">
+          <Sequence>CTTTATATAAAACTGGATAAATAG</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_50680" Name="modE" Position="-164" Score="4.8">
+          <Sequence>CGCTATATCATTTGCACTATAAAT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6921502" LocusId="Avin_50680" Name="modE" Function="Molybdate-responsive transcriptional regulator ModE" />
+          <Members vimssId="6921501" LocusId="Avin_50670" Name="modA" Function="Molybdate ABC transporter, substrate-binding protein" />
+          <Members vimssId="6921500" LocusId="Avin_50660" Name="modB" Function="Molybdate ABC transporter, permease protein" />
+          <Members vimssId="6921499" LocusId="Avin_50650" Name="modC" Function="Molybdate ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2298</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="NmlR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50411" />
+      <Effector>Diamide</Effector>
+      <Pathway>Carbonyl stress response</Pathway>
+      <LocusTag Key="Avin_02350" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6916678&amp;disp=0" />
+      <BiologicalProcess>Carbonyl stress response</BiologicalProcess>
+      <Regulog Key="NmlR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5102" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_02350" Name="nmlR" Position="-33" Score="5.2">
+          <Sequence>CTTGGAGCGCACTCGAAC</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6916678" LocusId="Avin_02350" Name="nmlR" Function="Carbonyl stress transcriptional regulator, MerR family" />
+          <Members vimssId="6916677" LocusId="Avin_02340" Name="pcaC" Function="4-carboxymuconolactone decarboxylase (EC 4.1.1.44)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5102</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NorR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16970" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="Avin_51080" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6921540&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="NorR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1828" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_51080" Name="norR" Position="-29" Score="5">
+          <Sequence>CGTTGTCAATAAGACTGCT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_51080" Name="norR" Position="-54" Score="5">
+          <Sequence>TGCAGTCGTTTCGACTACG</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_51080" Name="norR" Position="-10" Score="4.3">
+          <Sequence>CGTTATCCGAATGACTACA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_51090" Name="hmp" Position="-178" Score="4.3">
+          <Sequence>TGTAGTCATTCGGATAACG</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_51090" Name="hmp" Position="-159" Score="5">
+          <Sequence>AGCAGTCTTATTGACAACG</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_51090" Name="hmp" Position="-134" Score="5">
+          <Sequence>CGTAGTCGAAACGACTGCA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6921540" LocusId="Avin_51080" Name="norR" Function="anaerobic nitric oxide reductase transcription regulator, Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6921541" LocusId="Avin_51090" Name="hmp" Function="Flavohemoprotein (Hemoglobin-like protein) (Flavohemoglobin) (Nitric oxide dioxygenase) (EC 1.14.12.17)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1828</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15532" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Avin_06700" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6917119&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1667" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_33290" Name="nrdA" Position="-163" Score="5.4">
+          <Sequence>CCACTAGATGTTGTGG</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_14470" Name="topA" Position="-222" Score="5.4">
+          <Sequence>CCACTATATATAGCGC</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_33290" Name="nrdA" Position="-352" Score="5">
+          <Sequence>CCCCTACATATAGGGA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6919773" LocusId="Avin_33290" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="6919774" LocusId="Avin_33300" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6917893" LocusId="Avin_14470" Name="topA" Function="DNA topoisomerase I (EC 5.99.1.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1667</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19302" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="Avin_45900" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6921032&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2084" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_37690" Name="ybdK" Position="-298" Score="4.6">
+          <Sequence>TGCATTTTTTTGGTGCG</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_45850" Name="glnA" Position="-100" Score="4.1">
+          <Sequence>TGCTCCCTTGTGGCGCG</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_45850" Name="glnA" Position="-232" Score="4.1">
+          <Sequence>CGCACCAAAATGAAACA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_45890" Name="ntrB" Position="-179" Score="4.2">
+          <Sequence>CGCCCTGTTTTGGGGCG</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_47790" Name="glnK" Position="-296" Score="4.9">
+          <Sequence>CGCACGGTTTTCGTGCG</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6921225" LocusId="Avin_47790" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="6921224" LocusId="Avin_47780" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6921028" LocusId="Avin_45850" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6920221" LocusId="Avin_37690" Name="ybdK" Function="Carboxylate-amine ligase" />
+          <Members vimssId="6920220" LocusId="Avin_37680" Name="PF04168" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6921031" LocusId="Avin_45890" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="6921032" LocusId="Avin_45900" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2084</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="PFL_0254" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51681" />
+      <Effector />
+      <Pathway>Sugar utilization</Pathway>
+      <LocusTag Key="Avin_21780" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6918624&amp;disp=0" />
+      <BiologicalProcess>Sugar utilization</BiologicalProcess>
+      <Regulog Key="PFL_0254 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5243" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_21780" Name="PFL_0254" Position="-168" Score="6.1">
+          <Sequence>TTATGTCAGCGCTAACATGC</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6918624" LocusId="Avin_21780" Name="PFL_0254" Function="Transcriptional regulator, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5243</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PP2948" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58372" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Avin_48160" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6921262&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="PP2948 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5974" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_48150" Name="COG697" Position="-110" Score="13.8">
+          <Sequence>AACTGTACTGG-(8)-ACATAACAGTT-(6)-AATTGTGTTGG</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6921261" LocusId="Avin_48150" Name="COG697" Function="Permease of the drug/metabolite transporter (DMT) superfamily, COG697(RhaT)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5974</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="PhrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66399" />
+      <Effector>Blue light; Adenosylcobalamin</Effector>
+      <Pathway>Light-dependent DNA repair</Pathway>
+      <LocusTag Key="Avin_41410" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6920587&amp;disp=0" />
+      <BiologicalProcess>Light-dependent DNA repair</BiologicalProcess>
+      <Regulog Key="PhrR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6859" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_10270" Name="folM" Position="-78" Score="4.4">
+          <Sequence>TGTACAAAGCGGGACACTGCTATA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_41400" Name="COG3272" Position="-43" Score="5">
+          <Sequence>TATACAAATCATGAAAGCTGTACA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_41400" Name="COG3272" Position="-94" Score="5.7">
+          <Sequence>TGTACAAACTGTTGATCATGTACA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6920586" LocusId="Avin_41400" Name="COG3272" Function="COG1683: Uncharacterized conserved protein / COG3272: Hypothetical protein YbgA" />
+          <Members vimssId="6920587" LocusId="Avin_41410" Name="phrR" Function="Transcriptional regulator, MerR family, associated with photolyase" />
+          <Members vimssId="6920588" LocusId="Avin_41430" Name="phr" Function="Deoxyribodipyrimidine photolyase (EC 4.1.99.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6917471" LocusId="Avin_10270" Name="folM" Function="FolM Alternative dihydrofolate reductase 1" />
+          <Members vimssId="6917470" LocusId="Avin_10260" Name="folB" Function="Dihydroneopterin triphosphate epimerase" />
+          <Members vimssId="6917469" LocusId="Avin_10250" Name="PF06844" Function="protein of unknown function DUF1244" />
+          <Members vimssId="6917468" LocusId="Avin_10240" Name="PF08888" Function="HopJ type III effector protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6859</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PrpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17156" />
+      <Effector>2-methylcitrate</Effector>
+      <Pathway>Methylcitrate utilization</Pathway>
+      <LocusTag Key="Avin_23200" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6918763&amp;disp=0" />
+      <BiologicalProcess>Methylcitrate utilization</BiologicalProcess>
+      <Regulog Key="PrpR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1849" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_23200" Name="prpR" Position="-12" Score="5.8">
+          <Sequence>ATTGTCGACAAT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_23200" Name="prpR" Position="-85" Score="5.8">
+          <Sequence>ATTGTCGACAAT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6918763" LocusId="Avin_23200" Name="prpR" Function="Propionate catabolism transcriptional regulator, GntR family" />
+          <Members vimssId="6918764" LocusId="Avin_23210" Name="prpB" Function="Methylisocitrate lyase (EC 4.1.3.30)" />
+          <Members vimssId="6918765" LocusId="Avin_23220" Name="prpC" Function="2-methylcitrate synthase (EC 2.3.3.5)" />
+          <Members vimssId="6918766" LocusId="Avin_23230" Name="acnD" Function="Aconitate hydratase, predicted 2-methylcitrate dehydratase FeS dependent (EC 4.2.1.79)" />
+          <Members vimssId="6918768" LocusId="Avin_23250" Name="prpF" Function="Aconitase accessory protein PrpF" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1849</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PsrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29695" />
+      <Effector>Oleate</Effector>
+      <Pathway>Fatty acid degradation</Pathway>
+      <LocusTag Key="Avin_14520" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6917898&amp;disp=0" />
+      <BiologicalProcess>Fatty acid degradation</BiologicalProcess>
+      <Regulog Key="PsrA - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3098" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_38680" Name="rpoS" Position="-422" Score="4.8">
+          <Sequence>CCTCAAACGGCAGTTTGAAT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6920318" LocusId="Avin_38680" Name="rpoS" Function="RNA polymerase sigma factor RpoS" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3098</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="PtxS" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52080" />
+      <Effector>2-keto-D-gluconate</Effector>
+      <Pathway>2-ketogluconate utilization</Pathway>
+      <LocusTag Key="Avin_26870" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6919132&amp;disp=0" />
+      <BiologicalProcess>2-ketogluconate utilization</BiologicalProcess>
+      <Regulog Key="PtxS - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5297" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_00890" Name="gadC" Position="-334" Score="5.8">
+          <Sequence>CAATGAAATCGGTTTCAATC</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_26880" Name="kguE" Position="-31" Score="6.5">
+          <Sequence>AAATGAAACCGGTTTCAGAG</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_26870" Name="ptxS" Position="-65" Score="6.4">
+          <Sequence>TACTGAAACCGGTTTCAAGC</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6919132" LocusId="Avin_26870" Name="ptxS" Function="2-ketogluconate utilization repressor PtxS, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6916533" LocusId="Avin_00890" Name="gadC" Function="Gluconate 2-dehydrogenase (EC 1.1.99.3), membrane-bound, gamma subunit" />
+          <Members vimssId="6916534" LocusId="Avin_00900" Name="gadB" Function="Gluconate 2-dehydrogenase (EC 1.1.99.3), membrane-bound, flavoprotein" />
+          <Members vimssId="6916535" LocusId="Avin_00910" Name="gadA" Function="Gluconate 2-dehydrogenase (EC 1.1.99.3), membrane-bound, cytochrome c" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6919133" LocusId="Avin_26880" Name="kguE" Function="Epimerase KguE" />
+          <Members vimssId="6919134" LocusId="Avin_26890" Name="kguK" Function="2-ketogluconate kinase (EC 2.7.1.13)" />
+          <Members vimssId="6919135" LocusId="Avin_26900" Name="kguT" Function="2-ketogluconate transporter" />
+          <Members vimssId="6919136" LocusId="Avin_26910" Name="kguD" Function="2-ketogluconate 6-phosphate reductase (EC 1.1.1.43)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5297</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SahR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15734" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="Avin_05540" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6917000&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SahR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1689" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_05540" Name="sahR" Position="-62" Score="6.9">
+          <Sequence>ATATCAAAACTTTTTGATAC</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6917000" LocusId="Avin_05540" Name="sahR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+          <Members vimssId="6916999" LocusId="Avin_05530" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1689</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="ScrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52782" />
+      <Effector>Sucrose</Effector>
+      <Pathway>Sucrose utilization</Pathway>
+      <LocusTag Key="Avin_51820" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6921604&amp;disp=0" />
+      <BiologicalProcess>Sucrose utilization</BiologicalProcess>
+      <Regulog Key="ScrR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5383" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_51800" Name="cscB" Position="-42" Score="5.2">
+          <Sequence>CGATGTTAACGTTACCTCAA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_51790" Name="scrY" Position="-241" Score="5.2">
+          <Sequence>TTGAGGTAACGTTAACATCG</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6921601" LocusId="Avin_51790" Name="scrY" Function="Sucrose-specific outer membrane porin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6921602" LocusId="Avin_51800" Name="cscB" Function="Sucrose permease, major facilitator superfamily" />
+          <Members vimssId="6921603" LocusId="Avin_51810" Name="cscA" Function="Sucrose-6-phosphate hydrolase (EC 3.2.1.26)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5383</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="SdaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57512" />
+      <Effector />
+      <Pathway>Glucarate utilization; Galactarate utilization</Pathway>
+      <LocusTag Key="Avin_26860" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6919131&amp;disp=0" />
+      <BiologicalProcess>Glucarate utilization; Galactarate utilization</BiologicalProcess>
+      <Regulog Key="SdaR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5886" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_26860" Name="sdaR" Position="-31" Score="4.8">
+          <Sequence>ATAATGTCAGACAACCT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6919131" LocusId="Avin_26860" Name="sdaR" Function="Predicted regulator of D-glucarate/D-galactarate utilization, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5886</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="SdaR" RegulationMode="activator">
+      <Regulator Key="SdaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63640" />
+      <Effector>D-glycerate</Effector>
+      <Pathway>Glycerate utilization</Pathway>
+      <LocusTag Key="Avin_43380" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6920786&amp;disp=0" />
+      <BiologicalProcess>Glycerate utilization</BiologicalProcess>
+      <Regulog Key="SdaR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6567" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_43380" Name="sdaR" Position="-154" Score="5.2">
+          <Sequence>GCTTGTGCAGATGAACAATG</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_43390" Name="garK" Position="-132" Score="5.6">
+          <Sequence>TTTTGTGCGTTTGCACAGAA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6920787" LocusId="Avin_43390" Name="garK" Function="Glycerate kinase (EC 2.7.1.31)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6920786" LocusId="Avin_43380" Name="sdaR" Function="Glycerate utilization transcriptional regulator SdaR, SdaR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6567</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16072" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="Avin_00840" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6916528&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1727" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_00830" Name="znuA" Position="-44" Score="4.6">
+          <Sequence>GAGACGTTATTCTATTACACTTT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_00840" Name="zur" Position="-41" Score="4.5">
+          <Sequence>AAAGTGTAATAGAATAACGTCTC</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_29230" Name="PA5537" Position="-44" Score="4.8">
+          <Sequence>AAAATGTTATATAGTTTCATCCT</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_29210" Name="folE2" Position="-118" Score="5.3">
+          <Sequence>CTTTTGTTATGTTATAACACATA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_22970" Name="dksA2" Position="-119" Score="5.2">
+          <Sequence>AAAATGTTATGTTATAACTATAA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_29220" Name="amiA" Position="-68" Score="5">
+          <Sequence>TATGTGTTATAACATAACAAAAG</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Avin_06650" Name="zbp" Position="-40" Score="5.8">
+          <Sequence>AACTCGTTATAACGTAACAAAAC</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6919370" LocusId="Avin_29230" Name="PA5537" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6919368" LocusId="Avin_29210" Name="folE2" Function="GTP cyclohydrolase I (EC 3.5.4.16) type 2" />
+          <Members vimssId="6919367" LocusId="Avin_29200" Name="can" Function="Carbonic anhydrase (EC 4.2.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6918740" LocusId="Avin_22970" Name="dksA2" Function="C4-type zinc finger protein, DksA/TraR family" />
+          <Members vimssId="6918741" LocusId="Avin_22980" Name="yciC" Function="Putative metal chaperone, GTPase of COG0523 family" />
+          <Members vimssId="6918742" LocusId="Avin_22990" Name="PF08856" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6917114" LocusId="Avin_06650" Name="zbp" Function="Predicted zinc-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6919369" LocusId="Avin_29220" Name="amiA" Function="N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6916528" LocusId="Avin_00840" Name="zur" Function="Zinc uptake regulation protein ZUR" />
+          <Members vimssId="6916529" LocusId="Avin_00850" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="6916530" LocusId="Avin_00860" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6916527" LocusId="Avin_00830" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1727</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41289" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_33130" Name="btuB2-btuM-btuR" Position="-310" Score="91.3">
+          <Sequence>CCCTGCGCGCCTCGCTTCAGGTGCCCCAAGGGTGAAACAGGGAAGCCGGTGCGTGCCGCGACCATTCGCGGCGCAAGGCCGGCGCTGCCCCCGCAACGGTAGACGAGTCGCGAAACCGCAATAGCCACTGTGTTGCTCGGACACGGGAAGGCGCGGTTTCGGAAGCCGCCGCATGGCGCTTCGCTCGTGAGCCCGGAGACCGGCCTGTGGCGATCCATGGCGG</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6919757" LocusId="Avin_33130" Name="btuB2-btuM-btuR" Function="Outer membrane vitamin B12 receptor BtuB / Optional hypothetical component of the B12 transporter BtuM / Cob(I)alamin adenosyltransferase (EC 2.5.1.17)" />
+          <Members vimssId="6919756" LocusId="Avin_33120" Name="cbiA" Function="Cobyrinic acid A,C-diamide synthase" />
+          <Members vimssId="6919755" LocusId="Avin_33110" Name="bluB" Function="Cobalamin biosynthesis protein BluB @ 5,6-dimethylbenzimidazole synthase, flavin destructase family" />
+          <Members vimssId="6919754" LocusId="Avin_33100" Name="cbiB" Function="Adenosylcobinamide-phosphate synthase" />
+          <Members vimssId="6919753" LocusId="Avin_33090" Name="cobD" Function="L-threonine 3-O-phosphate decarboxylase (EC 4.1.1.81)" />
+          <Members vimssId="6919752" LocusId="Avin_33080" Name="cbiP" Function="Cobyric acid synthase" />
+          <Members vimssId="6919751" LocusId="Avin_33070" Name="null" Function="hypothetical protein" />
+          <Members vimssId="6919750" LocusId="Avin_33060" Name="cobU" Function="Adenosylcobinamide-phosphate guanylyltransferase (EC 2.7.7.62)" />
+          <Members vimssId="6919749" LocusId="Avin_33050" Name="cobT" Function="Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase (EC 2.4.2.21)" />
+          <Members vimssId="6919748" LocusId="Avin_33040" Name="cobC" Function="Alpha-ribazole-5'-phosphate phosphatase (EC 3.1.3.73)" />
+          <Members vimssId="6919747" LocusId="Avin_33030" Name="cobS" Function="Cobalamin synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41321" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_06730" Name="ribE2" Position="-273" Score="97.1">
+          <Sequence>GACGTTCTCAGGGCGGGGTGGAATTCCCCACCGGCGGTGATGACGCCCAGGCGTCCAGCCCGCGAGCGCTTGCCACGGGGCAACCCCCGCGCAAGGTCAGCAGATCCGGTGCGATTCCGGAGCCGACGGTCAGAGTCCGGATGAGAGAGAGCGGGATG</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6917122" LocusId="Avin_06730" Name="ribE2" Function="Riboflavin synthase alpha chain (EC 2.5.1.9)" />
+          <Members vimssId="6917123" LocusId="Avin_06740" Name="ribBA" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase / GTP cyclohydrolase II (EC 3.5.4.25)" />
+          <Members vimssId="6917124" LocusId="Avin_06750" Name="ribH" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00114" RegulationMode="RF00114">
+      <Regulator Key="S15" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41265" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="S15" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_42790" Name="rpsO" Position="-68" Score="42">
+          <Sequence>CCCGGCCTGCTGAAGCCGTCCGACGCCGCATTGGCCCGCACGGTTTCCCGACAGAGAGGATGCCCATCATGGCACTCACCGTTGAAGAAAAAGCCCAGATCGTCAACGAGTACAAGCAAGCTGAA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6920726" LocusId="Avin_42790" Name="rpsO" Function="SSU ribosomal protein S15p (S13e)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01057" RegulationMode="RF01057">
+      <Regulator Key="SAH_riboswitch" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40985" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="SAH_riboswitch" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_03570" Name="ahcY" Position="-123" Score="65.1">
+          <Sequence>CCCTTCCGAGGGGCGCTGCAGCAGGCCTGCCAACGGCCTGTCAGGCTCGGAAGGGGCGTTTTCCGAACGCATCAACGGCGCCCATTCGCA</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6916799" LocusId="Avin_03570" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40969" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_44600" Name="thiC" Position="-196" Score="73.1">
+          <Sequence>CCGGTACTTGTCGGGGTGCCCCTGTGGGGGCTGAGATCGGCCGAGGCCGGGTCCCGTTGAACCTGATCAGGGTGACGCCTGCGTAGGGAACAAGACGTCCTCGCTG</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6920906" LocusId="Avin_44600" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40929" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Avin_41250" Name="COG2119" Position="-205" Score="30.9">
+          <Sequence>GCGCCGTCCTGGGGGAGTAGTCTCCCGCGAGCGACCGCTCGCCCGGCACCCGTCAACATGCTTGGCCCGCAGGCCATGGCGGGTGCGACCCCGGCCTCATGCAGGCCGCAGGGTTCGACAAGACCCATGACACGTACAC</Sequence>
+          <Bacteria>Azotobacter vinelandii AvOP</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6920571" LocusId="Avin_41250" Name="COG2119" Function="Probable transmembrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Thermoanaerobacter tengcongensis MB4" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor (activator)">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59032" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="TTE1301" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=239073&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6052" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTE2498" Name="argC" Position="-52" Score="5.2">
+          <Sequence>TTGCATAAATATAAAT</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE0815" Name="carA" Position="-156" Score="5.6">
+          <Sequence>ATGTATAATTATAAAA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="240176" LocusId="TTE2498" Name="argC" Function="N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)" />
+          <Members vimssId="240175" LocusId="TTE2497" Name="argJ" Function="Glutamate N-acetyltransferase (EC 2.3.1.35) / N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="240174" LocusId="TTE2496" Name="argB" Function="Acetylglutamate kinase (EC 2.7.2.8)" />
+          <Members vimssId="240173" LocusId="TTE2495" Name="argD" Function="Acetylornithine aminotransferase (EC 2.6.1.11)" />
+          <Members vimssId="240172" LocusId="TTE2494" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+          <Members vimssId="240171" LocusId="TTE2493" Name="argH" Function="Argininosuccinate lyase (EC 4.3.2.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="238620" LocusId="TTE0815" Name="carA" Function="Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)" />
+          <Members vimssId="238621" LocusId="TTE0816" Name="carB" Function="Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6052</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57892" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="TTE1965" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=239692&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5928" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTE0777" Name="bioY1" Position="-88" Score="8.4">
+          <Sequence>TAGTTAAC---------------GTTGACAA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="238582" LocusId="TTE0777" Name="bioY1" Function="Substrate-specific component BioY of biotin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5928</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="Csac_2166" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57369" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux</Pathway>
+      <LocusTag Key="TTE0438" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=238270&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux</BiologicalProcess>
+      <Regulog Key="Csac_2166 - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5868" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTE0439" Name="THA_1504" Position="-49" Score="7.2">
+          <Sequence>ACTGTTATATTATTATATAACAGT</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="238271" LocusId="TTE0439" Name="THA_1504" Function="hypothetical protein" />
+          <Members vimssId="238270" LocusId="TTE0438" Name="Csac_2166" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="238269" LocusId="TTE0437" Name="THA_1502" Function="ABC transporter, permease protein" />
+          <Members vimssId="238268" LocusId="TTE0436" Name="THA_1501" Function="ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5868</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62885" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="TTE1252" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=239024&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6476" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTE0959" Name="ftn" Position="78" Score="5.3">
+          <Sequence>ATGGAGAATTATTTTCAAG</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE2673" Name="sufC" Position="-120" Score="5.3">
+          <Sequence>AAAGAAAATAATTATCAAC</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE0242" Name="feoA1" Position="-33" Score="6.1">
+          <Sequence>ATTGATAATGATTTTCACT</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE1252" Name="fur" Position="-56" Score="6.1">
+          <Sequence>ATTGAAAATGAATATCATA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE0105" Name="mmt1" Position="-109" Score="5.6">
+          <Sequence>ATTGAAGTTGATTTTCAAT</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE1861" Name="feoA3" Position="-71" Score="6.2">
+          <Sequence>AATGAGAATTATTCTCAAT</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="240340" LocusId="TTE2673" Name="sufC" Function="Iron-sulfur cluster assembly ATPase protein SufC" />
+          <Members vimssId="240339" LocusId="TTE2672" Name="sufB" Function="Iron-sulfur cluster assembly protein SufB" />
+          <Members vimssId="240338" LocusId="TTE2671" Name="sufD" Function="Iron-sulfur cluster assembly protein SufD" />
+          <Members vimssId="240337" LocusId="TTE2670" Name="sufS" Function="Cysteine desulfurase (EC 2.8.1.7), SufS subfamily" />
+          <Members vimssId="240336" LocusId="TTE2669" Name="sufE" Function="Putative iron-sulfur cluster assembly scaffold protein for SUF system, SufE2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="238763" LocusId="TTE0959" Name="ftn" Function="Ferritin, Dps family protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="239596" LocusId="TTE1861" Name="feoA3" Function="Ferrous iron transport protein A" />
+          <Members vimssId="239595" LocusId="TTE1860" Name="feoA2" Function="Ferrous iron transport protein A" />
+          <Members vimssId="239594" LocusId="TTE1858" Name="feoB2" Function="Ferrous iron transport protein B" />
+        </Operon>
+        <Operon>
+          <Members vimssId="239024" LocusId="TTE1252" Name="fur" Function="Transcriptional regulator for iron transport and metabolism, Fur family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="237957" LocusId="TTE0105" Name="mmt1" Function="Cobalt-zinc-cadmium resistance protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="238086" LocusId="TTE0242" Name="feoA1" Function="Ferrous iron transport protein A" />
+          <Members vimssId="238087" LocusId="TTE0243" Name="feoB1" Function="Ferrous iron transport protein B" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6476</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TrpR" RegulationMode="repressor">
+      <Regulator Key="HisR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60267" />
+      <Effector>Histidine</Effector>
+      <Pathway>Histidine biosynthesis</Pathway>
+      <LocusTag Key="TTE0603" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=238421&amp;disp=0" />
+      <BiologicalProcess>Histidine biosynthesis</BiologicalProcess>
+      <Regulog Key="HisR - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6189" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTE2140" Name="hisZ" Position="-43" Score="5.3">
+          <Sequence>TACTTTATCACGTTACAAAG</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="239853" LocusId="TTE2140" Name="hisZ" Function="ATP phosphoribosyltransferase regulatory subunit (EC 2.4.2.17)" />
+          <Members vimssId="239852" LocusId="TTE2139" Name="hisG" Function="ATP phosphoribosyltransferase catalytic subunit (EC 2.4.2.17)" />
+          <Members vimssId="239851" LocusId="TTE2138" Name="hisD" Function="Histidinol dehydrogenase (EC 1.1.1.23)" />
+          <Members vimssId="239850" LocusId="TTE2137" Name="hisC" Function="Histidinol-phosphate aminotransferase (EC 2.6.1.9)" />
+          <Members vimssId="239849" LocusId="TTE2136" Name="hisB" Function="Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)" />
+          <Members vimssId="239848" LocusId="TTE2135" Name="hisH" Function="Imidazole glycerol phosphate synthase amidotransferase subunit (EC 2.4.2.-)" />
+          <Members vimssId="239847" LocusId="TTE2134" Name="hisA" Function="Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase (EC 5.3.1.16)" />
+          <Members vimssId="239846" LocusId="TTE2133" Name="hisF" Function="Imidazole glycerol phosphate synthase cyclase subunit (EC 4.1.3.-)" />
+          <Members vimssId="239845" LocusId="TTE2132" Name="hisIE" Function="Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19) / Phosphoribosyl-ATP pyrophosphatase (EC 3.6.1.31)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6189</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58714" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="TTE0953" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=238757&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6012" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTE0579" Name="groS" Position="-54" Score="7.6">
+          <Sequence>TTAGCACTCATAGAAGTTGAGTGCTAA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE0953" Name="hrcA" Position="-47" Score="7.5">
+          <Sequence>TTAGCACTCAATGAGTGAGAGTGCTAA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="238757" LocusId="TTE0953" Name="hrcA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="238758" LocusId="TTE0954" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="238759" LocusId="TTE0955" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="238760" LocusId="TTE0956" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="238398" LocusId="TTE0579" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="238399" LocusId="TTE0580" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6012</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="IolR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52032" />
+      <Effector />
+      <Pathway>Inositol utilization</Pathway>
+      <LocusTag Key="TTE1952" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=239679&amp;disp=0" />
+      <BiologicalProcess>Inositol utilization</BiologicalProcess>
+      <Regulog Key="IolR - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5290" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTE1952" Name="iolR" Position="-30" Score="6.2">
+          <Sequence>TTATGTAATCTGTTACATAG</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="239679" LocusId="TTE1952" Name="iolR" Function="Predicted inositol utilization transcriptional regulator IolR, LacI family" />
+          <Members vimssId="239678" LocusId="TTE1951" Name="iolG2" Function="Myo-inositol 2-dehydrogenase 1 (EC 1.1.1.18)" />
+          <Members vimssId="239677" LocusId="TTE1950" Name="iolG1" Function="Myo-inositol 2-dehydrogenase (EC 1.1.1.18)" />
+          <Members vimssId="239676" LocusId="TTE1949" Name="iolE" Function="Inosose dehydratase (EC 4.2.1.44)" />
+          <Members vimssId="239675" LocusId="TTE1948" Name="iolI" Function="Inosose isomerase (EC 5.3.99.-)" />
+          <Members vimssId="239674" LocusId="TTE1947" Name="iolT" Function="Putative myo-inositol transporter" />
+          <Members vimssId="239673" LocusId="TTE1946" Name="gyaR" Function="Putative glyoxylate reductase  (EC 1.1.1.26)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5290</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="KojR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51908" />
+      <Effector>Kojibiose</Effector>
+      <Pathway>Kojibiose utilization</Pathway>
+      <LocusTag Key="TTE0797" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=238602&amp;disp=0" />
+      <BiologicalProcess>Kojibiose utilization</BiologicalProcess>
+      <Regulog Key="KojR - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5273" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTE0797" Name="kojR" Position="-31" Score="6.4">
+          <Sequence>TAACCAAAACGTTTTGGGAA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE0798" Name="kojP" Position="-45" Score="6.3">
+          <Sequence>CATCCAAAACGTTTCGGATA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="238602" LocusId="TTE0797" Name="kojR" Function="Kojibiose utilization transcriptional regulator KojR, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="238603" LocusId="TTE0798" Name="kojP" Function="Kojibiose phosphorylase (EC 2.4.1.230)" />
+          <Members vimssId="238604" LocusId="TTE0799" Name="kojE" Function="Kojibiose ABC transporter, substrate-binding protein" />
+          <Members vimssId="238605" LocusId="TTE0800" Name="kojF" Function="Kojibiose ABC transporter, permease protein 1" />
+          <Members vimssId="238606" LocusId="TTE0801" Name="kojG" Function="Kojibiose ABC transporter, permease protein 2" />
+          <Members vimssId="238607" LocusId="TTE0802" Name="pgmB" Function="Beta-phosphoglucomutase (EC 5.4.2.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5273</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="MalR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51741" />
+      <Effector>Maltose</Effector>
+      <Pathway>Maltose utilization; Maltodextrin utilization</Pathway>
+      <LocusTag Key="TTE2576" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=240248&amp;disp=0" />
+      <BiologicalProcess>Maltose utilization; Maltodextrin utilization</BiologicalProcess>
+      <Regulog Key="MalR2 - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5250" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTE1832" Name="amyA" Position="-229" Score="5">
+          <Sequence>ATGAGCAAAAGCTTGCAGAG</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE1813" Name="" Position="-40" Score="5.2">
+          <Sequence>TATAACAAACGTTTGCACAA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE1832" Name="amyA" Position="-107" Score="5.5">
+          <Sequence>TAGCGCAAGCGATTGCAATA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE1805" Name="glgP2" Position="-76" Score="6.2">
+          <Sequence>TTGTGCAAACACTTGCATAA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="239553" LocusId="TTE1813" Name="null" Function="Glucoamylase (EC 3.2.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="239571" LocusId="TTE1832" Name="amyA" Function="Cyclomaltodextrin glucanotransferase (EC 2.4.1.19); Maltogenic alpha-amylase (EC 3.2.1.133)" />
+          <Members vimssId="239570" LocusId="TTE1831" Name="malE" Function="Maltose/maltodextrin ABC transporter, substrate binding protein" />
+          <Members vimssId="239569" LocusId="TTE1830" Name="malF" Function="Maltose/maltodextrin ABC transporter, permease protein 1" />
+          <Members vimssId="239568" LocusId="TTE1829" Name="malG" Function="Maltose/maltodextrin ABC transporter, permease protein 2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="239545" LocusId="TTE1805" Name="glgP2" Function="Glycogen phosphorylase (EC 2.4.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5250</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NikR" RegulationMode="repressor">
+      <Regulator Key="NikR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57808" />
+      <Effector>Nickel ion, (Ni2+)</Effector>
+      <Pathway>Nickel homeostasis</Pathway>
+      <LocusTag Key="TTE0250" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=238094&amp;disp=0" />
+      <BiologicalProcess>Nickel homeostasis</BiologicalProcess>
+      <Regulog Key="NikR - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5919" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTE0250" Name="nikR" Position="-1" Score="8.6">
+          <Sequence>AGTGCTAT--------------ATAGCACA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="238094" LocusId="TTE0250" Name="nikR" Function="Nickel responsive regulator NikR, CopG family" />
+          <Members vimssId="238093" LocusId="TTE0249" Name="nikM" Function="Substrate-specific component NikM of nickel ECF transporter" />
+          <Members vimssId="238092" LocusId="TTE0248" Name="nikN" Function="Additional substrate-specific component NikN of nickel ECF transporter" />
+          <Members vimssId="238091" LocusId="TTE0247" Name="nikQ" Function="Transmembrane component NikQ of energizing module of nickel ECF transporter" />
+          <Members vimssId="238090" LocusId="TTE0246" Name="nikO" Function="ATPase component NikO of energizing module of nickel ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5919</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=64311" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="TTE1634" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=239384&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6634" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTE2336" Name="nrdJ" Position="-139" Score="5.5">
+          <Sequence>ATACAAAATATTGTGT</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE2336" Name="nrdJ" Position="-171" Score="4.4">
+          <Sequence>ACACAACAAAATGTAT</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE1850" Name="nrdD" Position="-88" Score="4.8">
+          <Sequence>ATACTAAATATTGAGG</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE1850" Name="nrdD" Position="-57" Score="5.3">
+          <Sequence>CTACTATATTTTGTGT</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="240025" LocusId="TTE2336" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="239587" LocusId="TTE1850" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+          <Members vimssId="239586" LocusId="TTE1849" Name="nrdG2" Function="Ribonucleotide reductase of class III (anaerobic), activating protein (EC 1.97.1.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6634</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="RbsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53305" />
+      <Effector>Ribose</Effector>
+      <Pathway>Ribose utilization</Pathway>
+      <LocusTag Key="TTE0201" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=238050&amp;disp=0" />
+      <BiologicalProcess>Ribose utilization</BiologicalProcess>
+      <Regulog Key="RbsR - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5445" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTE0201" Name="rbsR" Position="-53" Score="6.4">
+          <Sequence>ATAGTTAAGCGTTTTACTAA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE0201" Name="rbsR" Position="-40" Score="6.2">
+          <Sequence>TTACTAAAACGTTAAACTAT</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="238050" LocusId="TTE0201" Name="rbsR" Function="Transcriptional repressor of ribose utilization, LacI famil" />
+          <Members vimssId="238051" LocusId="TTE0202" Name="rbsK" Function="Ribokinase (EC 2.7.1.15)" />
+          <Members vimssId="238052" LocusId="TTE0203" Name="rbsD" Function="D-ribose pyranase (D-ribose mutarotase) (EC 5.5.1.n1)" />
+          <Members vimssId="238053" LocusId="TTE0204" Name="rbsA" Function="Ribose ABC transporter, ATP-binding protein (TC 3.A.1.2.1)" />
+          <Members vimssId="238054" LocusId="TTE0205" Name="rbsC" Function="Ribose ABC transporter, permease protein 2 (TC 3.A.1.2.1)" />
+          <Members vimssId="238055" LocusId="TTE0206" Name="rbsB" Function="Ribose ABC transporter, substrate-binding protein (TC 3.A.1.2.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5445</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38765" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="TTE0543" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=238367&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3958" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTE0695" Name="adhB" Position="-96" Score="5.2">
+          <Sequence>TTGACAAATTTTTAACTA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE0695" Name="adhB" Position="-63" Score="5.1">
+          <Sequence>TTGCAAAAAATTTAACAA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE0694" Name="fnorB" Position="-116" Score="5.5">
+          <Sequence>TTGGTAAAAAAATAACAA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE0123" Name="echA" Position="-144" Score="5.9">
+          <Sequence>TTGTTAAAATAATAACAA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE0696" Name="adhA" Position="-213" Score="5.2">
+          <Sequence>TTGATATAAATTTTACAA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE1568" Name="hydG" Position="-93" Score="5.5">
+          <Sequence>TTGTTGAAAATTTAACAA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE0890" Name="hydC" Position="-82" Score="5">
+          <Sequence>ATGATATAATATTAACGA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE0696" Name="adhA" Position="-246" Score="5.2">
+          <Sequence>TTGATTATTTTTTAACAA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE0543" Name="rex" Position="-60" Score="4.7">
+          <Sequence>TTGACAAGAAATTTACAA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE0890" Name="hydC" Position="-104" Score="5.2">
+          <Sequence>TTGTTAAAAAATTAATGA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE0622" Name="TTE0622" Position="-73" Score="5.2">
+          <Sequence>TTGATAAATATTTGACAT</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE2131" Name="PF00724" Position="-35" Score="5.5">
+          <Sequence>CTGTTAATAAATTAACAA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE0545" Name="bcd" Position="-33" Score="5.4">
+          <Sequence>ATGTTAAAAAAATATCAA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE2486" Name="ndh" Position="-58" Score="5">
+          <Sequence>ATGATAAAATATTGACTA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE2486" Name="ndh" Position="-34" Score="5.2">
+          <Sequence>TTGTTATAATTATATCAA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE1884" Name="noxE" Position="-107" Score="4.8">
+          <Sequence>TTGATATTTTATTGACAT</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE1884" Name="noxE" Position="-158" Score="4.5">
+          <Sequence>TTGTCAACAAAAAATCAA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE2157" Name="COG4739" Position="-94" Score="5.5">
+          <Sequence>TTGATAAAATTTTATCAA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="238506" LocusId="TTE0696" Name="adhA" Function="Alcohol dehydrogenase (EC 1.1.1.1), Fe-dependent" />
+        </Operon>
+        <Operon>
+          <Members vimssId="238367" LocusId="TTE0543" Name="rex" Function="Redox-sensitive transcriptional regulator Rex" />
+        </Operon>
+        <Operon>
+          <Members vimssId="239320" LocusId="TTE1568" Name="hydG" Function="[Fe] hydrogenase maturation protein HydG" />
+        </Operon>
+        <Operon>
+          <Members vimssId="238694" LocusId="TTE0890" Name="hydC" Function="NAD-reducing Fe-hydrogenase, subunit HydC (EC 1.12.7.2)" />
+          <Members vimssId="238695" LocusId="TTE0891" Name="CLOLEP_03890" Function="histidine kinase" />
+          <Members vimssId="238696" LocusId="TTE0892" Name="hydD" Function="NAD-reducing Fe-hydrogenase, ferredoxin subunit HydD (EC 1.12.7.2)" />
+          <Members vimssId="238697" LocusId="TTE0893" Name="hydB" Function="NAD-reducing Fe-hydrogenase, subunit HydB (EC 1.12.7.2)" />
+          <Members vimssId="238698" LocusId="TTE0894" Name="hydA" Function="NAD-reducing Fe-hydrogenase, subunit HydA (EC 1.12.7.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="238504" LocusId="TTE0694" Name="fnorB" Function="ferredoxin-NADP(+) reductase subunit beta" />
+          <Members vimssId="238503" LocusId="TTE0693" Name="fnorA" Function="ferredoxin-NADP(+) reductase subunit alpha" />
+        </Operon>
+        <Operon>
+          <Members vimssId="238505" LocusId="TTE0695" Name="adhB" Function="Alcohol dehydrogenase (EC 1.1.1.1), Zn-dependent" />
+        </Operon>
+        <Operon>
+          <Members vimssId="238439" LocusId="TTE0622" Name="TTE0622" Function="membrane spanning protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="239616" LocusId="TTE1884" Name="noxE" Function="NADH oxidase (EC 1.6.99.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="237975" LocusId="TTE0123" Name="echA" Function="Energy-conserving Ni-Fe hydrogenase (ferredoxin), subunit A" />
+          <Members vimssId="237976" LocusId="TTE0124" Name="echB" Function="Energy-conserving Ni-Fe hydrogenase (ferredoxin), subunit B" />
+          <Members vimssId="237977" LocusId="TTE0125" Name="echC" Function="Energy-conserving Ni-Fe hydrogenase (ferredoxin), subunit C" />
+          <Members vimssId="237978" LocusId="TTE0126" Name="echD" Function="Energy-conserving Ni-Fe hydrogenase (ferredoxin), subunit D" />
+          <Members vimssId="237979" LocusId="TTE0127" Name="echE" Function="Energy-conserving Ni-Fe hydrogenase (ferredoxin), subunit E" />
+          <Members vimssId="237980" LocusId="TTE0128" Name="echF" Function="Energy-conserving Ni-Fe hydrogenase (ferredoxin), subunit F" />
+          <Members vimssId="237981" LocusId="TTE0129" Name="hypA" Function="[NiFe] hydrogenase nickel incorporation protein HypA" />
+          <Members vimssId="237982" LocusId="TTE0130" Name="hypB" Function="[NiFe] hydrogenase nickel incorporation-associated protein HypB" />
+          <Members vimssId="237983" LocusId="TTE0131" Name="hypF" Function="[NiFe] hydrogenase metallocenter assembly protein HypF" />
+          <Members vimssId="237984" LocusId="TTE0132" Name="hypC" Function="[NiFe] hydrogenase metallocenter assembly protein HypC" />
+          <Members vimssId="237985" LocusId="TTE0133" Name="hypD" Function="[NiFe] hydrogenase metallocenter assembly protein HypD" />
+          <Members vimssId="237986" LocusId="TTE0134" Name="hypE" Function="[NiFe] hydrogenase metallocenter assembly protein HypE" />
+        </Operon>
+        <Operon>
+          <Members vimssId="240164" LocusId="TTE2486" Name="ndh" Function="NADH dehydrogenase (EC 1.6.99.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="238369" LocusId="TTE0545" Name="bcd" Function="Butyryl-CoA dehydrogenase (EC 1.3.99.2)" />
+          <Members vimssId="238370" LocusId="TTE0546" Name="etfB" Function="Electron transfer flavoprotein, beta subunit" />
+          <Members vimssId="238371" LocusId="TTE0547" Name="etfA" Function="Electron transfer flavoprotein, alpha subunit" />
+          <Members vimssId="238372" LocusId="TTE0548" Name="hbd" Function="3-hydroxybutyryl-CoA dehydrogenase (EC 1.1.1.157)" />
+          <Members vimssId="238373" LocusId="TTE0549" Name="acoA" Function="Acetyl-CoA acetyltransferase (EC 2.3.1.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="239844" LocusId="TTE2131" Name="PF00724" Function="NADH:flavin oxidoreductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="239867" LocusId="TTE2157" Name="COG4739" Function="Ferredoxin domain containing protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3958</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="TreR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51941" />
+      <Effector>Trehalose</Effector>
+      <Pathway>Trehalose utilization</Pathway>
+      <LocusTag Key="TTE0803" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=238608&amp;disp=0" />
+      <BiologicalProcess>Trehalose utilization</BiologicalProcess>
+      <Regulog Key="TreR - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5277" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTE0803" Name="treR" Position="-41" Score="7.1">
+          <Sequence>AACTGTAAGCGGTTACAGTA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE0804" Name="treF" Position="-63" Score="6.1">
+          <Sequence>AACTGTAAGCGCTTTCAATA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="238609" LocusId="TTE0804" Name="treF" Function="Predicted trehalose utilization ABC transporter, permease protein 1" />
+          <Members vimssId="238610" LocusId="TTE0805" Name="treG" Function="Predicted trehalose utilization ABC transporter, permease protein 2" />
+          <Members vimssId="238611" LocusId="TTE0806" Name="treE" Function="Predicted trehalose utilization ABC transporter, substrate-binding protein" />
+          <Members vimssId="238612" LocusId="TTE0807" Name="treP" Function="Trehalose phosphorylase (EC 2.4.1.64)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="238608" LocusId="TTE0803" Name="treR" Function="Predicted trehalose utilization transcriptional regulator, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5277</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48917" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTE0534" Name="ribU" Position="-217" Score="121.3">
+          <Sequence>AAAATCTTCGGGGCAGGGTGGAATTCCCGACCGGCAGTGAAAGCCTGCGAGCCGCATATGCGGTTGACTCGGTGAAATTCCGAGGCCGACGGTAAAAGTCCGGATGGGAGAAGATTTACTT</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="238358" LocusId="TTE0534" Name="ribU" Function="Substrate-specific component RibU of riboflavin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48924" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TTE2512" Name="thiT" Position="-168" Score="76">
+          <Sequence>TTATGTCCGCTGGGGGAGCCTGAAAAGGCTGAGACGGCAGAAATGCCGAACCCTTGGAACCTGATGAGGGTAATGCCTCCGTAGGGAATGCGGGCTCAAAAGGCA</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE1565" Name="thiC" Position="-172" Score="85">
+          <Sequence>ACTCAAGTGCTAGGGGAGCCAAAAATGGCTGAGAGGGGATTCGTTCCCGACCCTTAGAACCTGACCAGGGTAATGCCTGCGAAGGGAAGCACGTTTTACGAAAT</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TTE2235" Name="thiD" Position="-163" Score="85.5">
+          <Sequence>ATCAAAGTGCTAGGGGAGCCAGAAATGGCTGAGAGGGGATTCGTTCCCGACCCTTAGAACCTGACCAGGGTAATGCCTGCGAAGGGAAGCACGTTTTACGGAAT</Sequence>
+          <Bacteria>Thermoanaerobacter tengcongensis MB4</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="239933" LocusId="TTE2235" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+          <Members vimssId="239932" LocusId="TTE2234" Name="oarX" Function="Thiamin-related 3-oxoacyl-[acyl-carrier protein] reductase OarX" />
+          <Members vimssId="239931" LocusId="TTE2233" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+          <Members vimssId="239930" LocusId="TTE2232" Name="thiM" Function="Hydroxyethylthiazole kinase (EC 2.7.1.50)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="239317" LocusId="TTE1565" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="240189" LocusId="TTE2512" Name="thiT" Function="Substrate-specific component ThiT of thiamin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

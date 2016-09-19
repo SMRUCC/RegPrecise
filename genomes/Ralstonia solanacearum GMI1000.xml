@@ -1,0 +1,1556 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Ralstonia solanacearum GMI1000" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51236" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="RS05447" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=172037&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5194" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RS05448" Name="cadA" Position="-57" Score="5.6">
+          <Sequence>ACCCTGGAGTTCCTTCAGGGT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="172036" LocusId="RS05448" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5194</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="CueR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50856" />
+      <Effector>Copper ion, (Cu+)</Effector>
+      <Pathway>Copper resistance</Pathway>
+      <LocusTag Key="RS02622" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=171622&amp;disp=0" />
+      <BiologicalProcess>Copper resistance</BiologicalProcess>
+      <Regulog Key="CueR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5153" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RS02623" Name="copA" Position="-61" Score="5.3">
+          <Sequence>ACCTTCCTAATATGGGAAGGT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS02624" Name="copZ" Position="-69" Score="4.9">
+          <Sequence>CGTTTCCCATGGTGGGAAGGT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="171624" LocusId="RS02624" Name="copZ" Function="Copper chaperone" />
+        </Operon>
+        <Operon>
+          <Members vimssId="171623" LocusId="RS02623" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="171622" LocusId="RS02622" Name="cueR" Function="Copper-responsive transcriptional regulator, MerR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5153</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="Dnr" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9898" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Denitrification</Pathway>
+      <LocusTag Key="RS02297" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=172683&amp;disp=0" />
+      <BiologicalProcess>Denitrification</BiologicalProcess>
+      <Regulog Key="Dnr - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1086" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RS03038" Name="RSp1503" Position="-42" Score="4.4">
+          <Sequence>GTTTGCGCTGTGTCAAAG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSp1368" Name="nosZ" Position="-126" Score="4.7">
+          <Sequence>GTGTGACGAAAGTCAATT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="173218" LocusId="RS03038" Name="RSp1503" Function="Copper-containing nitrite reductase (NirK)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="173083" LocusId="RSp1368" Name="nosZ" Function="nitrous oxide reductase" />
+          <Members vimssId="173084" LocusId="RSp1369" Name="nosR" Function="putative transmembrane regulatory protein nosR" />
+          <Members vimssId="173085" LocusId="RSp1370" Name="nosD" Function="putative copper binding periplasmic protein" />
+          <Members vimssId="173086" LocusId="RSp1371" Name="nosF" Function="putative copper ATP-binding ABC transporter" />
+          <Members vimssId="173087" LocusId="RSp1372" Name="nosY" Function="putative NosY transmembrane protein" />
+          <Members vimssId="173088" LocusId="RSp1373" Name="nosL" Function="NosL family protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1086</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="">
+      <Regulator Key="FadP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10001" />
+      <Effector />
+      <Pathway>Fatty acid degradation</Pathway>
+      <LocusTag Key="RS04423" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=168749&amp;disp=0" />
+      <BiologicalProcess>Fatty acid degradation</BiologicalProcess>
+      <Regulog Key="FadP - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1100" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RS04423" Name="fadP" Position="-136" Score="5.7">
+          <Sequence>TTGAACGATCGTTCGA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc0923" Name="etfB" Position="-95" Score="5.2">
+          <Sequence>TAGCACGACCGTTCGT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc1567" Name="etfD" Position="-120" Score="5.6">
+          <Sequence>TCGAACGACCGTTCAA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc0780" Name="fadD2" Position="-58" Score="5.3">
+          <Sequence>TAGAACGATCGTTCAG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS02959" Name="RSc1772" Position="41" Score="5">
+          <Sequence>AAGAACGATCGTTCAG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS02946" Name="fadB" Position="-101" Score="5.5">
+          <Sequence>TTGAACGACCGTGCTA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc2013" Name="paaH1" Position="-49" Score="4.9">
+          <Sequence>TCGCACGCTCGTGCTA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc2857" Name="fadD1" Position="-47" Score="5.2">
+          <Sequence>TCGAACGACCATTCGA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS03611" Name="RSc2046" Position="-63" Score="5.5">
+          <Sequence>TAGCACGACCGTTCAA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc1637" Name="bktB" Position="-59" Score="4.8">
+          <Sequence>TCGAACGATCGTTTGC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc1749" Name="alkK" Position="-42" Score="4.6">
+          <Sequence>TAGAACGGTTGTTCAG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="169844" LocusId="RSc1567" Name="etfD" Function="Electron transfer flavoprotein-ubiquinone oxidoreductase (EC 1.5.5.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="169200" LocusId="RSc0923" Name="etfB" Function="Electron transfer flavoprotein, beta subunit" />
+          <Members vimssId="169201" LocusId="RSc0924" Name="etfA" Function="Electron transfer flavoprotein alpha subunit" />
+          <Members vimssId="169202" LocusId="RS04489" Name="acdH2" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="168749" LocusId="RS04423" Name="fadP" Function="Predicted transcriptional regulator for fatty acid degradation FadP, TetR family" />
+          <Members vimssId="168750" LocusId="RS04422" Name="acdH" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+          <Members vimssId="168751" LocusId="RS04421" Name="acdB" Function="Enoyl-CoA hydratase (EC 4.2.1.17) / 3,2-trans-enoyl-CoA isomerase (EC 5.3.3.8) / 3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35)" />
+          <Members vimssId="168752" LocusId="RS04420" Name="acdA" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16) @ Acetyl-CoA acetyltransferase (EC 2.3.1.9)" />
+          <Members vimssId="168753" LocusId="RS04419" Name="echH" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="169057" LocusId="RSc0780" Name="fadD2" Function="Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="170049" LocusId="RS02959" Name="RSc1772" Function="Alpha/beta hydrolase fold-3 domain protein" />
+          <Members vimssId="170050" LocusId="RS02960" Name="Rsc1773" Function="putative 4-hydroxybenzoyl-CoA thioesterase" />
+          <Members vimssId="170051" LocusId="RS02961" Name="Rsc1774" Function="GCN5-related N-acetyltransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="170036" LocusId="RS02946" Name="fadB" Function="Enoyl-CoA hydratase (EC 4.2.1.17) / Delta(3)-cis-delta(2)-trans-enoyl-CoA isomerase (EC 5.3.3.8) / 3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35) / 3-hydroxybutyryl-CoA epimerase (EC 5.1.2.3)" />
+          <Members vimssId="170037" LocusId="RSc1760" Name="pncA" Function="Nicotinamidase (EC 3.5.1.19)" />
+          <Members vimssId="170038" LocusId="RS02948" Name="fadA" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16)" />
+          <Members vimssId="170039" LocusId="RS02949" Name="acdH3" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="170290" LocusId="RSc2013" Name="paaH1" Function="3-hydroxybutyryl-CoA dehydrogenase, phenylacetic acid degradation" />
+          <Members vimssId="170291" LocusId="RSc2014" Name="paaG4" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+          <Members vimssId="170292" LocusId="RS03583" Name="BPSL1236" Function="Putative phosphoglycerate mutase" />
+          <Members vimssId="170293" LocusId="RS03584" Name="BPSL1235" Function="Phosphotransferase enzyme family protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="171134" LocusId="RSc2857" Name="fadD1" Function="Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="170323" LocusId="RS03611" Name="RSc2046" Function="conserved hypothetical protein, DUF1178" />
+          <Members vimssId="170322" LocusId="RS03610" Name="acdQ" Function="Acyl-CoA dehydrogenase (EC 1.3.99.-)" />
+          <Members vimssId="170321" LocusId="RS03609" Name="acdP" Function="acyl-CoA dehydrogenase domain protein" />
+          <Members vimssId="170320" LocusId="RS03608" Name="maoC" Function="Putative (R)-specific enoyl-CoA hydratase, MaoC- like" />
+          <Members vimssId="170319" LocusId="RS03607" Name="echI" Function="MaoC domain protein dehydratase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="169914" LocusId="RSc1637" Name="bktB" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16)" />
+          <Members vimssId="169915" LocusId="RS04012" Name="RSc1638" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="170026" LocusId="RSc1749" Name="alkK" Function="Medium-chain-fatty-acid-CoA ligase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1100</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="FruR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52285" />
+      <Effector>Fructose-1-phosphate</Effector>
+      <Pathway>Fructose utilization</Pathway>
+      <LocusTag Key="RSc2860" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=171137&amp;disp=0" />
+      <BiologicalProcess>Fructose utilization</BiologicalProcess>
+      <Regulog Key="FruR2 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5323" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RSc2861" Name="fruB" Position="-83" Score="6.2">
+          <Sequence>CAATGTAATCGATTTCAATC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc2861" Name="fruB" Position="-226" Score="5.4">
+          <Sequence>CGCTGAAATCGTTTCCAAAG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc2860" Name="fruR2" Position="-20" Score="5.4">
+          <Sequence>CTTTGGAAACGATTTCAGCG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc2860" Name="fruR2" Position="-163" Score="6.2">
+          <Sequence>GATTGAAATCGATTACATTG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="171137" LocusId="RSc2860" Name="fruR2" Function="Transcriptional regulator for fructose utilization, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="171138" LocusId="RSc2861" Name="fruB" Function="PTS system, fructose-specific IIA component (EC 2.7.1.69) / Phosphotransferase system, phosphocarrier protein HPr / Phosphoenolpyruvate-protein phosphotransferase of PTS system (EC 2.7.3.9)" />
+          <Members vimssId="171139" LocusId="RSc2862" Name="fruK" Function="1-phosphofructokinase (EC 2.7.1.56)" />
+          <Members vimssId="171140" LocusId="RSc2863" Name="fruA" Function="PTS system, fructose-specific IIB component (EC 2.7.1.69) / PTS system, fructose-specific IIC component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5323</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor (activator)">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9939" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="RSp0247" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=171964&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1092" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RSc1963" Name="tonB" Position="-287" Score="5">
+          <Sequence>AATGGGAATCATTATCGTT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc1966" Name="hemP" Position="-82" Score="5.5">
+          <Sequence>AATGATAACGATTCTCATT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS03722" Name="RSp0244" Position="-223" Score="5.5">
+          <Sequence>ATTGATAATGATTCTTATT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS03722" Name="RSp0244" Position="-217" Score="4.1">
+          <Sequence>AATGATTCTTATTTGCATT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS00511" Name="RSc3067" Position="-81" Score="5.3">
+          <Sequence>AACGAGAATCATTCTCATT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS03714" Name="RSp0252" Position="-66" Score="4.9">
+          <Sequence>AATGAAAACGATTCGCATT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc0349" Name="bfd" Position="-77" Score="5">
+          <Sequence>AACAAGAATTGTTCTCATT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS02469" Name="RSp1062" Position="-153" Score="5.1">
+          <Sequence>AATGGGAATTGTTCTCATT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS00872" Name="RSp0415" Position="-237" Score="5.6">
+          <Sequence>AATGAGAATTATTCTCAAT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS00872" Name="RSp0415" Position="-53" Score="5">
+          <Sequence>AATGAGAATCATTCTTGAT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS02198" Name="RSp1640" Position="-48" Score="5.2">
+          <Sequence>AATGAGAATCATTATCATC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS00871" Name="RSp0414" Position="-254" Score="5">
+          <Sequence>ATCAAGAATGATTCTCATT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS00871" Name="RSp0414" Position="-70" Score="5.6">
+          <Sequence>ATTGAGAATAATTCTCATT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS04230" Name="RSc1807" Position="-126" Score="5.6">
+          <Sequence>AATGAGAATGATTATCAAT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS00176" Name="RSc2918" Position="-56" Score="5.4">
+          <Sequence>AATAAGAATTCTTCTCATT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS04237" Name="RSc1811" Position="-33" Score="5">
+          <Sequence>AATGAGAATCATTTTCATC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS03023" Name="RSp0100" Position="-59" Score="4.6">
+          <Sequence>AGTGATAATCACTCTCATT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="171817" LocusId="RS03023" Name="RSp0100" Function="putative iron-regulated TonB-dependent transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="171195" LocusId="RS00176" Name="RSc2918" Function="Putative extracytoplasmic function sigma factor (iron-regulated) transcription regulator protein" />
+          <Members vimssId="171196" LocusId="RS00175" Name="RSc2919" Function="Putative iron transport-sensory transduction transmembrane protein" />
+          <Members vimssId="171197" LocusId="RS00173" Name="RSc2920" Function="Probable iron-regulated ABC transporter, composite ATP-binding transmembrane protein, hydroxamate-type" />
+        </Operon>
+        <Operon>
+          <Members vimssId="171344" LocusId="RS00511" Name="RSc3067" Function="Uncharacterized iron-regulated membrane protein, DUF337 family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="171961" LocusId="RS03722" Name="RSp0244" Function="TonB-dependent outer-membrane hemin transporter" />
+          <Members vimssId="171960" LocusId="RS03723" Name="RSp0243" Function="hemin transport protein HmuS; putative Hemin-degrading" />
+        </Operon>
+        <Operon>
+          <Members vimssId="170243" LocusId="RSc1966" Name="hemP" Function="putative hemin uptake protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="170088" LocusId="RS04237" Name="RSc1811" Function="Putative siderophore synthetase protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="170084" LocusId="RS04230" Name="RSc1807" Function="Probable iron-regulated TonB-dependent transporter" />
+          <Members vimssId="170085" LocusId="RS04232" Name="RSc1808" Function="Probable iron-regulated ABC transporter, composite ATP-binding transmembrane protein" />
+          <Members vimssId="170086" LocusId="RS04233" Name="RSc1809" Function="Probable iron-regulated ABC transporter, composite ATP-binding transmembrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="168626" LocusId="RSc0349" Name="bfd" Function="Bacterioferritin-associated ferredoxin" />
+          <Members vimssId="168627" LocusId="RSc0350" Name="bfr" Function="Bacterioferritin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="172131" LocusId="RS00871" Name="RSp0414" Function="putative iron-regulated TonB-dependent siderophore transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="172779" LocusId="RS02469" Name="RSp1062" Function="putative iron-regulated TonB-dependent transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="172132" LocusId="RS00872" Name="RSp0415" Function="Probable RNA polymerase sigma factor FecI" />
+          <Members vimssId="172133" LocusId="RS00873" Name="RSp0416" Function="putative iron-regulated TonB-dependent siderophore transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="173355" LocusId="RS02198" Name="RSp1640" Function="putative transmembrane lipoprotein" />
+          <Members vimssId="173356" LocusId="RS02199" Name="RSp1641" Function="hypothetical protein" />
+          <Members vimssId="173357" LocusId="RS02200" Name="RSp1642" Function="Uncharacterized iron-regulated membrane protein, DUF337 family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="171969" LocusId="RS03714" Name="RSp0252" Function="Ferrous iron transport protein A" />
+          <Members vimssId="171968" LocusId="RSp0251" Name="feoB" Function="Ferrous iron transport protein B" />
+          <Members vimssId="171967" LocusId="RS03716" Name="RSp0250" Function="putative transmembrane protein involved in ferrous iron transport" />
+        </Operon>
+        <Operon>
+          <Members vimssId="170240" LocusId="RSc1963" Name="tonB" Function="Component of outer membrane metal uptake system, TonB family" />
+          <Members vimssId="170241" LocusId="RSc1964" Name="exbB1" Function="Component of outer membrane metal uptake system, ExbB family" />
+          <Members vimssId="170242" LocusId="RSc1965" Name="exbD1" Function="Component of outer membrane metal uptake system, ExbD family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1092</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="GabR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59181" />
+      <Effector>Gamma-aminobutyric acid</Effector>
+      <Pathway>Gamma-aminobutyrate utilization</Pathway>
+      <LocusTag Key="RS01853" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=168307&amp;disp=0" />
+      <BiologicalProcess>Gamma-aminobutyrate utilization</BiologicalProcess>
+      <Regulog Key="GabR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6067" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RSc0029" Name="gabT" Position="-97" Score="13.1">
+          <Sequence>ATTGGCTC-(15)-ATTGGGTC-(10)-GGGCCAAT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS02922" Name="gbtA" Position="-131" Score="12.4">
+          <Sequence>AATGGCTC-(15)-ATTGGGTC-(8)-AAGACCAT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="168306" LocusId="RSc0029" Name="gabT" Function="Gamma-aminobutyrate:alpha-ketoglutarate aminotransferase (EC 2.6.1.19)" />
+          <Members vimssId="168305" LocusId="RSc0028" Name="gabD" Function="Succinate-semialdehyde dehydrogenase [NADP+] (EC 1.2.1.16)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="170011" LocusId="RS02922" Name="gbtA" Function="Predicted gamma-aminobutyrate ABC transporter, ATP-binding component" />
+          <Members vimssId="170010" LocusId="RS02921" Name="gbtD" Function="Predicted gamma-aminobutyrate ABC transporter, periplasmic binding protein" />
+          <Members vimssId="170009" LocusId="RS02920" Name="gbtB" Function="Predicted gamma-aminobutyrate ABC transporter, permease component" />
+          <Members vimssId="170008" LocusId="RS02919" Name="gbtC" Function="Predicted gamma-aminobutyrate ABC transporter, permease component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6067</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="GguR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62543" />
+      <Effector />
+      <Pathway>Glucarate utilization; Galactarate utilization</Pathway>
+      <LocusTag Key="RS04109" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=169355&amp;disp=0" />
+      <BiologicalProcess>Glucarate utilization; Galactarate utilization</BiologicalProcess>
+      <Regulog Key="GguR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6434" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RSc1079" Name="gudD" Position="-26" Score="5.1">
+          <Sequence>ATGTTGTACGACGACTG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS04109" Name="gguR" Position="-90" Score="5.1">
+          <Sequence>CAGTCGTCGTACAACAT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="169355" LocusId="RS04109" Name="gguR" Function="Predicted D-glucarate or D-galactorate utilization regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="169356" LocusId="RSc1079" Name="gudD" Function="Glucarate dehydratase (EC 4.2.1.40)" />
+          <Members vimssId="169357" LocusId="RSc1080" Name="exuT" Function="Hexuronate transporter, MFS family" />
+          <Members vimssId="169358" LocusId="RS04106" Name="agl" Function="Alpha-glucosidase (EC 3.2.1.20)" />
+          <Members vimssId="169359" LocusId="RS04105" Name="omp" Function="Outer membrane porin protein 32 precursor" />
+          <Members vimssId="169360" LocusId="RS04104" Name="aldE" Function="Aldose 1-epimerase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6434</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="">
+      <Regulator Key="GulR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63037" />
+      <Effector />
+      <Pathway>Glucuronate utilization; Galacturonate utilization; Galactarate utilization; Glucarate utilization</Pathway>
+      <LocusTag Key="RS05372" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=172540&amp;disp=0" />
+      <BiologicalProcess>Glucuronate utilization; Galacturonate utilization; Galactarate utilization; Glucarate utilization</BiologicalProcess>
+      <Regulog Key="GulR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6497" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RS05369" Name="kdgD" Position="-109" Score="6.4">
+          <Sequence>ATCGATTCAAAAAATGAATTGAT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS05371" Name="uxuL2" Position="-111" Score="6.1">
+          <Sequence>ATCGATTCAAAACGTATATCGAT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="172543" LocusId="RS05369" Name="kdgD" Function="5-dehydro-4-deoxyglucarate dehydratase (EC 4.2.1.41)" />
+          <Members vimssId="172544" LocusId="RS05368" Name="kgsD" Function="Alpha-ketoglutaric semialdehyde dehydrogenase (EC 1.2.1.26)" />
+          <Members vimssId="172545" LocusId="RSp0828" Name="gudP" Function="D-glucarate permease / D-galactarate permease" />
+          <Members vimssId="172546" LocusId="RSp0829" Name="gudD2" Function="Glucarate dehydratase (EC 4.2.1.40)" />
+          <Members vimssId="172547" LocusId="RSp0830" Name="garD" Function="D-galactarate dehydratase (EC 4.2.1.42)" />
+          <Members vimssId="172548" LocusId="RS05364" Name="udh" Function="Uronate dehydrogenase (EC 1.1.1.203)" />
+          <Members vimssId="172549" LocusId="RS05363" Name="uxuL" Function="Predicted glucuronolactone/galactarolactone lactonase" />
+          <Members vimssId="172550" LocusId="RSp0833" Name="pgl" Function="Polygalacturonase (EC 3.2.1.15)" />
+          <Members vimssId="172551" LocusId="RSp0834" Name="exuT2" Function="Hexuronate transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="172541" LocusId="RS05371" Name="uxuL2" Function="Predicted glucuronolactone/galactarolactone lactonase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6497</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="H16_A0970" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60962" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="RS04846" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=168876&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="H16_A0970 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6260" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RS04847" Name="RSc0598" Position="-137" Score="20.5">
+          <Sequence>ACAGATACAGACGG-(11)-ACCGTAACAGATGA-(10)-TGCCCTGCTCTGGT-(10)-ACGTCTGTGTCTGT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="168875" LocusId="RS04847" Name="RSc0598" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6260</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="H16_A2655" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59599" />
+      <Effector />
+      <Pathway>Metabolite transport</Pathway>
+      <LocusTag Key="RS04303" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=169266&amp;disp=0" />
+      <BiologicalProcess>Metabolite transport</BiologicalProcess>
+      <Regulog Key="H16_A2655 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6116" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RS04304" Name="h16_A2657" Position="-101" Score="15">
+          <Sequence>AAACTGTACAG-(13)-AAAGTGTACAG-(0)-GTACTGTACAG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="169265" LocusId="RS04304" Name="h16_A2657" Function="Threonyl/alanyl tRNA synthetase, SAD" />
+          <Members vimssId="169264" LocusId="RS04305" Name="PF00892" Function="Permease of the drug/metabolite transporter (DMT) superfamily" />
+          <Members vimssId="169263" LocusId="RS04306" Name="h16_A1735" Function="putative endoribonuclease; L-PSP family" />
+          <Members vimssId="169262" LocusId="RS04307" Name="aspB" Function="Aspartate aminotransferase (AspB-4) (EC 2.6.1.1)" />
+          <Members vimssId="169261" LocusId="RS04308" Name="h16_A2663" Function="Glutathione S-transferase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6116</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor (activator)">
+      <Regulator Key="HexR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9874" />
+      <Effector>2-keto-3-deoxy-6-phosphogluconate</Effector>
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="RSp1556" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=173271&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="HexR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1082" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RSp1560" Name="edd" Position="-220" Score="5.5">
+          <Sequence>TTGTAGTATTACTACAT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSp1560" Name="edd" Position="-42" Score="4.6">
+          <Sequence>TTGTAGGAAAATTACAT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSp1559" Name="zwf" Position="-338" Score="4.6">
+          <Sequence>ATGTAATTTTCCTACAA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSp1559" Name="zwf" Position="-160" Score="5.5">
+          <Sequence>ATGTAGTAATACTACAA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="173275" LocusId="RSp1560" Name="edd" Function="Phosphogluconate dehydratase (EC 4.2.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="173274" LocusId="RSp1559" Name="zwf" Function="Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)" />
+          <Members vimssId="173273" LocusId="RSp1558" Name="pgl" Function="6-phosphogluconolactonase (EC 3.1.1.31), eukaryotic type" />
+          <Members vimssId="173272" LocusId="RSp1557" Name="glk" Function="Glucokinase (EC 2.7.1.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1082</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49613" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="RSc2649" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=170926&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5023" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RSc0641" Name="groS" Position="-117" Score="7.2">
+          <Sequence>TTGGCACTCGCCTGGAGGGAGTGCTAA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc0374" Name="rpoH" Position="-70" Score="7.4">
+          <Sequence>TTAGCACTCATCCAGCCGGAGTGCTAA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="168918" LocusId="RSc0641" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="168919" LocusId="RSc0642" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="168651" LocusId="RSc0374" Name="rpoH" Function="Heat shock response RNA polymerase sigma factor RpoH (Sigma 32)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5023</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="HutC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66555" />
+      <Effector>cis-Urocanic acid</Effector>
+      <Pathway>Histidine utilization</Pathway>
+      <LocusTag Key="RSc2648" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=170925&amp;disp=0" />
+      <BiologicalProcess>Histidine utilization</BiologicalProcess>
+      <Regulog Key="HutC - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6875" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RSc2647" Name="hutU" Position="-53" Score="5.8">
+          <Sequence>TTATTTGTATATACAACATA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc2648" Name="hutC" Position="-99" Score="5.8">
+          <Sequence>TATGTTGTATATACAAATAA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="170925" LocusId="RSc2648" Name="hutC" Function="Histidine utilization repressor, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="170924" LocusId="RSc2647" Name="hutU" Function="Urocanate hydratase (EC 4.2.1.49)" />
+          <Members vimssId="170923" LocusId="RSc2646" Name="hutH" Function="Histidine ammonia-lyase (EC 4.3.1.3)" />
+          <Members vimssId="170922" LocusId="RS04571" Name="hutG2" Function="Formiminoglutamase (EC 3.5.3.8)" />
+          <Members vimssId="170921" LocusId="RSc2644" Name="hutI" Function="Imidazolonepropionase (EC 3.5.2.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6875</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="repressor">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9880" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="RS04257" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=169295&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1083" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RS04257" Name="iscR" Position="-36" Score="6.5">
+          <Sequence>ATACTTGAGCAAAACGATCAGGTAT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS04257" Name="iscR" Position="-65" Score="6.3">
+          <Sequence>TTAGTTGACTGATTTTGTCGGGTTC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="169295" LocusId="RS04257" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="169296" LocusId="RSc1019" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+          <Members vimssId="169297" LocusId="RSc1020" Name="iscU" Function="Iron-sulfur cluster assembly scaffold protein IscU" />
+          <Members vimssId="169298" LocusId="RS04236" Name="iscA" Function="Iron binding protein IscA for iron-sulfur cluster assembly" />
+          <Members vimssId="169299" LocusId="RS04245" Name="RSc1022" Function="hypothetical protein" />
+          <Members vimssId="169300" LocusId="RSc1023" Name="hscB" Function="Chaperone protein HscB" />
+          <Members vimssId="169301" LocusId="RSc1024" Name="hscA" Function="Chaperone protein HscA" />
+          <Members vimssId="169302" LocusId="RSc1025" Name="fdx" Function="ferredoxin, 2Fe-2S type, ISC system" />
+          <Members vimssId="169303" LocusId="RS04227" Name="yhfJ" Function="putative Fe-S cluster assembly protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1083</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9995" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="RSc1304" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=169581&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1099" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RS01909" Name="imuA" Position="-159" Score="6.2">
+          <Sequence>TACTGTATATCCATACAGTA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc0551" Name="recA" Position="-180" Score="5.5">
+          <Sequence>CACTGGTTTTTTATACAGTA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc1304" Name="lexA" Position="-25" Score="5.4">
+          <Sequence>ACCTGTTCAAATATACAGTG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc1304" Name="lexA" Position="-44" Score="5.3">
+          <Sequence>CACTGTATAAAATCACAGCA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS05321" Name="uvrD" Position="-39" Score="6">
+          <Sequence>TGCTGTATATTTATACAGTT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS00884" Name="BPSS1334" Position="-29" Score="5.2">
+          <Sequence>CAGTGTACGTATATACAGTC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS00884" Name="BPSS1334" Position="-44" Score="5.9">
+          <Sequence>GCCTGTATATATTTACAGTG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="172515" LocusId="RS01909" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="172516" LocusId="RS01908" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+          <Members vimssId="172517" LocusId="RSp0800" Name="dnaE2" Function="macromolecule metabolism; macromolecule synthesis, modification; dna - replication, repair, restr./modif." />
+        </Operon>
+        <Operon>
+          <Members vimssId="168828" LocusId="RSc0551" Name="recA" Function="Recombinase A" />
+          <Members vimssId="168829" LocusId="RSc0552" Name="recX" Function="Regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="169581" LocusId="RSc1304" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="172144" LocusId="RS00884" Name="BPSS1334" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="172991" LocusId="RS05321" Name="uvrD" Function="ATP-dependent DNA helicase II" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1099</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="">
+      <Regulator Key="LiuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9956" />
+      <Effector />
+      <Pathway>Branched-chain amino acid degradation</Pathway>
+      <LocusTag Key="RS03247" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=168557&amp;disp=0" />
+      <BiologicalProcess>Branched-chain amino acid degradation</BiologicalProcess>
+      <Regulog Key="LiuR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1094" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RS05766" Name="paaH" Position="-53" Score="5.2">
+          <Sequence>TATGACGTTGACGTAAAC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS05766" Name="paaH" Position="-47" Score="5.7">
+          <Sequence>GTTGACGTAAACGTCAAT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS00697" Name="serA" Position="-34" Score="6">
+          <Sequence>CTTGACGTATACGTCAAC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS00669" Name="mcm" Position="-113" Score="6.6">
+          <Sequence>GTTGACGTTTACGTAAAC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS03248" Name="RSc0281" Position="-77" Score="6.3">
+          <Sequence>ATTGACGTTTACGTTAGC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS03248" Name="RSc0281" Position="-71" Score="4.9">
+          <Sequence>GTTTACGTTAGCGTCAAA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS03247" Name="liuR" Position="-101" Score="4.8">
+          <Sequence>GCTAACGTAAACGTCAAT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS03247" Name="liuR" Position="-107" Score="6.1">
+          <Sequence>TTTGACGCTAACGTAAAC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS03246" Name="liuA" Position="-131" Score="5.3">
+          <Sequence>GTTTACGTAAACGTCAAT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS03246" Name="liuA" Position="-137" Score="6.6">
+          <Sequence>GTTGACGTTTACGTAAAC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="168556" LocusId="RS03246" Name="liuA" Function="Isovaleryl-CoA dehydrogenase (EC 1.3.99.10); Butyryl-CoA dehydrogenase (EC 1.3.99.2)" />
+          <Members vimssId="168555" LocusId="RSc0278" Name="aceK" Function="Isocitrate dehydrogenase phosphatase (EC 2.7.11.5)/kinase (EC 3.1.3.-)" />
+          <Members vimssId="168554" LocusId="RS03244" Name="cah" Function="Carbonic anhydrase (EC 4.2.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="168539" LocusId="RS00697" Name="serA" Function="D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)" />
+          <Members vimssId="168538" LocusId="RS00696" Name="liuE" Function="Hydroxymethylglutaryl-CoA lyase (EC 4.1.3.4)" />
+          <Members vimssId="168537" LocusId="RS00695" Name="dcp" Function="Peptidyl-dipeptidase dcp (EC 3.4.15.5)" />
+          <Members vimssId="168536" LocusId="RS00694" Name="RSc0259" Function="Protein of unknown function DUF1289" />
+          <Members vimssId="168535" LocusId="RS00693" Name="RSc0258" Function="Beta-lactamase domain protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="170811" LocusId="RS05766" Name="paaH" Function="3-hydroxyacyl-CoA dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="168557" LocusId="RS03247" Name="liuR" Function="Transcriptional regulator, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="168514" LocusId="RS00669" Name="mcm" Function="Methylmalonyl-CoA mutase (EC 5.4.99.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="168558" LocusId="RS03248" Name="RSc0281" Function="Metallo-beta-lactamase family protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1094</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="">
+      <Regulator Key="MetR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56596" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="RSp0677" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=172394&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5781" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RSp0677" Name="metR" Position="-38" Score="5.5">
+          <Sequence>GTTGAATTGAATTCATA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSp0676" Name="metE" Position="-94" Score="5.5">
+          <Sequence>TATGAATTCAATTCAAC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="172393" LocusId="RSp0676" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="172394" LocusId="RSp0677" Name="metR" Function="Homocysteine-responsive transcriptional regulator of methionine metabolism, LysR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5781</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor">
+      <Regulator Key="ModE" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9920" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdenum homeostasis</Pathway>
+      <LocusTag Key="RS05434" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=172870&amp;disp=0" />
+      <BiologicalProcess>Molybdenum homeostasis</BiologicalProcess>
+      <Regulog Key="ModE - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1089" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RSp0106" Name="modA" Position="-57" Score="4.8">
+          <Sequence>GGCGTTATATCGGCCCGTATATTACGAT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="171823" LocusId="RSp0106" Name="modA" Function="Molybdenum ABC transporter, periplasmic molybdenum-binding protein ModA (TC 3.A.1.8.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1089</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58482" />
+      <Effector>Tungsten</Effector>
+      <Pathway>Tungsten homeostasis</Pathway>
+      <LocusTag Key="RS03657" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=170369&amp;disp=0" />
+      <BiologicalProcess>Tungsten homeostasis</BiologicalProcess>
+      <Regulog Key="ModE3 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5984" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RS03658" Name="tupB" Position="-50" Score="5.2">
+          <Sequence>TCATGCAGCATCCGACATAA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS03657" Name="modE3" Position="-109" Score="5.2">
+          <Sequence>TTATGTCGGATGCTGCATGA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="170370" LocusId="RS03658" Name="tupB" Function="Tungstate ABC-type transporter, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="170369" LocusId="RS03657" Name="modE3" Function="Molybdate-responsive transcriptional regulator ModE2" />
+          <Members vimssId="170368" LocusId="RS03656" Name="H16_A1022" Function="Putative ABC-type transporter, permease protein" />
+          <Members vimssId="170367" LocusId="RS03655" Name="H16_A1023" Function="Putative heme-binding protein" />
+          <Members vimssId="170366" LocusId="RS03654" Name="H16_A1024" Function="Conserved hypothetical protein, DUF924" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5984</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NorR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9892" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="RS02290" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=172676&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="NorR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1085" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RS02290" Name="norR" Position="-36" Score="4">
+          <Sequence>CAAGGTTCTTTTCACCCTC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS02290" Name="norR" Position="-62" Score="4.7">
+          <Sequence>CTGGGTAAAATCGACCGCA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS02289" Name="norA" Position="-122" Score="4.7">
+          <Sequence>TGCGGTCGATTTTACCCAG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS02289" Name="norA" Position="-148" Score="4">
+          <Sequence>GAGGGTGAAAAGAACCTTG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS02289" Name="norA" Position="-168" Score="4.2">
+          <Sequence>CATGGTTGGAATTACCTGA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="172676" LocusId="RS02290" Name="norR" Function="anaerobic nitric oxide reductase transcription regulator, Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="172675" LocusId="RS02289" Name="norA" Function="Nitric oxide-dependent regulator DnrN or NorA" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1085</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9850" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="RS05125" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=169005&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1078" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RSc2805" Name="nrdA" Position="-220" Score="3.7">
+          <Sequence>CCACTATACTTAGTGC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc2805" Name="nrdA" Position="-189" Score="5.3">
+          <Sequence>ACACTAGATATAGTGG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSp0963" Name="nrdD" Position="-50" Score="4.6">
+          <Sequence>CCACAACATCTAGTGC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSp0963" Name="nrdD" Position="-19" Score="3.9">
+          <Sequence>CCACTATATGGAGTAC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="171082" LocusId="RSc2805" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="171081" LocusId="RSc2804" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="172680" LocusId="RSp0963" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+          <Members vimssId="172681" LocusId="RS02295" Name="RSp0964" Function="hypothetical protein" />
+          <Members vimssId="172682" LocusId="RSp0965" Name="nrdG" Function="Ribonucleotide reductase of class III (anaerobic), activating protein (EC 1.97.1.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1078</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="repressor">
+      <Regulator Key="NsrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14621" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="RS01705" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=171672&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="NsrR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1566" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RS01706" Name="hmp" Position="-133" Score="4.3">
+          <Sequence>GTGGTATTTAATATGCATG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS03037" Name="PF10006" Position="-103" Score="3.7">
+          <Sequence>CAAGTATCTGATATACATC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS03037" Name="PF10006" Position="-53" Score="5.8">
+          <Sequence>GATGCATTCTCAATGCATC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS03038" Name="nirK" Position="-203" Score="5.8">
+          <Sequence>GATGCATTGAGAATGCATC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS03038" Name="nirK" Position="-153" Score="3.7">
+          <Sequence>GATGTATATCAGATACTTG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS01705" Name="nsrR" Position="-134" Score="4.3">
+          <Sequence>CATGCATATTAAATACCAC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="171673" LocusId="RS01706" Name="hmp" Function="Flavohemoprotein (Hemoglobin-like protein) (Flavohemoglobin) (Nitric oxide dioxygenase) (EC 1.14.12.17)" />
+          <Members vimssId="171674" LocusId="RS01707" Name="nnrS" Function="NnrS protein involved in response to NO" />
+        </Operon>
+        <Operon>
+          <Members vimssId="173218" LocusId="RS03038" Name="nirK" Function="Copper-containing nitrite reductase (EC 1.7.2.1)" />
+          <Members vimssId="173217" LocusId="RS03039" Name="PF03781" Function="Probable signal peptide protein, PF03781" />
+          <Members vimssId="173216" LocusId="RS03040" Name="PF02630" Function="electron transport protein SCO1/SenC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="173219" LocusId="RS03037" Name="PF10006" Function="hypothetical protein, PF10006" />
+          <Members vimssId="173220" LocusId="RSp1505" Name="norB" Function="Nitric-oxide reductase (EC 1.7.99.7), quinol-dependent" />
+        </Operon>
+        <Operon>
+          <Members vimssId="171672" LocusId="RS01705" Name="nsrR" Function="Nitrite-sensitive transcriptional repressor NsrR" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1566</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19243" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="RSc1261" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=169538&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2078" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RSc2870" Name="dppA" Position="-193" Score="4.6">
+          <Sequence>TGCACCAATTTGTGGCG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS03167" Name="narK" Position="-258" Score="4.8">
+          <Sequence>TGCACCGAAACCGTGCA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc1258" Name="glnA" Position="-334" Score="5.1">
+          <Sequence>CGCACTATGATGGTGCG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="172940" LocusId="RS03167" Name="narK" Function="Nitrate/nitrite antiporter" />
+          <Members vimssId="172939" LocusId="RSp1222" Name="nasD" Function="Nitrite reductase, large subunit (EC 1.7.1.4)" />
+          <Members vimssId="172938" LocusId="RSp1221" Name="nasE" Function="Nitrite reductase, small subunit (EC 1.7.1.4)" />
+          <Members vimssId="172937" LocusId="RS03164" Name="nasB" Function="Assimilatory nitrate reductase, small subunit (EC:1.7.99.4)" />
+          <Members vimssId="172936" LocusId="RSp1219" Name="nasA" Function="Assimilatory nitrate reductase, large subunit (EC:1.7.99.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="169535" LocusId="RSc1258" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+          <Members vimssId="169536" LocusId="RS02776" Name="ntrZ" Function="Conserved hypothetical signal peptide protein" />
+          <Members vimssId="169537" LocusId="RSc1260" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="169538" LocusId="RSc1261" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="171147" LocusId="RSc2870" Name="dppA" Function="Dipeptide ABC transporter, substrate-binding component" />
+          <Members vimssId="171146" LocusId="RSc2869" Name="dppB" Function="Dipeptide ABC transporter, permease component 1" />
+          <Members vimssId="171145" LocusId="RSc2868" Name="dppC" Function="Dipeptide ABC transporter, permease component 2" />
+          <Members vimssId="171144" LocusId="RSc2867" Name="dppD" Function="Dipeptide ABC transporter, ATP-binding component 1" />
+          <Members vimssId="171143" LocusId="RSc2866" Name="dppF" Function="Dipeptide ABC transporter, ATP-binding component 2" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2078</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="OapR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60771" />
+      <Effector />
+      <Pathway>Gamma-aminobutyrate utilization</Pathway>
+      <LocusTag Key="RS02394" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=172774&amp;disp=0" />
+      <BiologicalProcess>Gamma-aminobutyrate utilization</BiologicalProcess>
+      <Regulog Key="OapR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6239" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RS02393" Name="oapT" Position="-114" Score="14.4">
+          <Sequence>ACCTATACAGTT-(15)-ATCTGTGCATGT-(15)-CTCTGTACAGTT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="172773" LocusId="RS02393" Name="oapT" Function="Omega-amino acid--pyruvate aminotransferase (EC 2.6.1.18), PLP dependent" />
+          <Members vimssId="172772" LocusId="RS02392" Name="oapD" Function="Predicted NAD-dependent succinate-semialdehyde dehydrogenase  (EC 1.2.1.16)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6239</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PaaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38874" />
+      <Effector>Phenylacetyl-CoA</Effector>
+      <Pathway>Phenylacetic acid degradation</Pathway>
+      <LocusTag Key="RS03754" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=172330&amp;disp=0" />
+      <BiologicalProcess>Phenylacetic acid degradation</BiologicalProcess>
+      <Regulog Key="PaaR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3970" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RSp0604" Name="paaA" Position="-97" Score="6.3">
+          <Sequence>ATTGACCGACCGGTCGGACGAT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc2872" Name="paaF2" Position="-53" Score="6.5">
+          <Sequence>ATTAACCGACCGGTTGGTCGGC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc2873" Name="paaF" Position="-48" Score="6.2">
+          <Sequence>GCCGACCAACCGGTCGGTTAAT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="171150" LocusId="RSc2873" Name="paaF" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+          <Members vimssId="171151" LocusId="RSc2874" Name="paaY" Function="thioesterase superfamily protein" />
+          <Members vimssId="171152" LocusId="RSc2875" Name="paaK" Function="Phenylacetate-coenzyme A ligase (EC 6.2.1.30)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="172321" LocusId="RSp0604" Name="paaA" Function="Phenylacetate-CoA oxygenase, PaaA subunit" />
+          <Members vimssId="172322" LocusId="RSp0605" Name="paaB" Function="Phenylacetate-CoA oxygenase, PaaB subunit" />
+          <Members vimssId="172323" LocusId="RSp0606" Name="paaC" Function="Phenylacetate-CoA oxygenase, PaaC subunit" />
+          <Members vimssId="172324" LocusId="RSp0607" Name="paaD" Function="Phenylacetate-CoA oxygenase, PaaD subunit" />
+          <Members vimssId="172325" LocusId="RSp0608" Name="paaE" Function="Probable phenylacetic acid degradation NADH oxidoreductase paaE (EC 1.-.-.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="171149" LocusId="RSc2872" Name="paaF2" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3970</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxW" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60741" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="RS00574" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=171396&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxW - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6236" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RS00575" Name="pdxO" Position="-96" Score="10.5">
+          <Sequence>TGTGGCTCCAT-(13)-TGTGGGTCTAC-(2)-ATGGTGCCATG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="171397" LocusId="RS00575" Name="pdxO" Function="Pyridoxamine 5'-phosphate oxidase-related, FMN-binding" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6236</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PsrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10007" />
+      <Effector>Oleate</Effector>
+      <Pathway>Fatty acid degradation</Pathway>
+      <LocusTag Key="RS04928" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=168815&amp;disp=0" />
+      <BiologicalProcess>Fatty acid degradation</BiologicalProcess>
+      <Regulog Key="PsrA - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1102" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RS04928" Name="psrA" Position="-122" Score="4.6">
+          <Sequence>TTTAAAACATCCGTTCCTAA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="168815" LocusId="RS04928" Name="psrA" Function="Transcriptional regulator for fatty acid degradation PsrA, TetR family" />
+          <Members vimssId="168814" LocusId="RS04929" Name="fadE" Function="Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.99.2)" />
+          <Members vimssId="168813" LocusId="RS04930" Name="fabG" Function="3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1102</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="RSc1790" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52348" />
+      <Effector />
+      <Pathway>Sugar utilization</Pathway>
+      <LocusTag Key="RS04189" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=170067&amp;disp=0" />
+      <BiologicalProcess>Sugar utilization</BiologicalProcess>
+      <Regulog Key="RSc1790 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5331" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RS04189" Name="RSc1790" Position="-38" Score="6.1">
+          <Sequence>CGATGTAAACGTTTACAAGC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="170067" LocusId="RS04189" Name="RSc1790" Function="Predicted sugar utilization transcriptional regulator, LacI family" />
+          <Members vimssId="170068" LocusId="RS04190" Name="RSc1791" Function="Predicted sugar ABC transporter, substrate-binding protein" />
+          <Members vimssId="170069" LocusId="RS04191" Name="RSc1792" Function="Predicted sugar ABC transporter, permease protein 1" />
+          <Members vimssId="170070" LocusId="RS04192" Name="RSc1793" Function="Predicted sugar ABC transporter, permease protein 2" />
+          <Members vimssId="170071" LocusId="RS04193" Name="RSc1794" Function="Predicted sugar ABC transporter, ATP-binding protein" />
+          <Members vimssId="170072" LocusId="RS04195" Name="RSc1795" Function="3',5'-cyclic-nucleotide phosphodiesterase (EC 3.1.4.17)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5331</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="RbsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21006" />
+      <Effector>Ribose</Effector>
+      <Pathway>Ribose utilization</Pathway>
+      <LocusTag Key="RS04266" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=169291&amp;disp=0" />
+      <BiologicalProcess>Ribose utilization</BiologicalProcess>
+      <Regulog Key="RbsR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2274" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RS04260" Name="rbsB" Position="-108" Score="6.7">
+          <Sequence>ATACGCAAACGTTTGCGAGC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="169294" LocusId="RS04260" Name="rbsB" Function="Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)" />
+          <Members vimssId="169293" LocusId="RS04262" Name="rbsA" Function="Ribose ABC transport system, ATP-binding protein RbsA (TC 3.A.1.2.1)" />
+          <Members vimssId="169292" LocusId="RS04264" Name="rbsC" Function="Ribose ABC transport system, permease protein RbsC (TC 3.A.1.2.1)" />
+          <Members vimssId="169291" LocusId="RS04266" Name="rbsR" Function="Transcriptional repressor of ribose utilization, LacI family" />
+          <Members vimssId="169290" LocusId="RS04269" Name="rbsK" Function="Ribokinase (EC 2.7.1.15)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2274</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="ScrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53342" />
+      <Effector>Sucrose-6-phosphate</Effector>
+      <Pathway>Sucrose utilization</Pathway>
+      <LocusTag Key="RSp1286" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=173001&amp;disp=0" />
+      <BiologicalProcess>Sucrose utilization</BiologicalProcess>
+      <Regulog Key="ScrR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5449" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RSp1285" Name="scrA" Position="-45" Score="6.7">
+          <Sequence>ATGTGGTATCGATACCATGT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSp1286" Name="scrR" Position="7" Score="6.3">
+          <Sequence>GCATGGTATCGATCCCACAA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="173001" LocusId="RSp1286" Name="scrR" Function="Sucrose utilization regulator ScrR, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="173000" LocusId="RSp1285" Name="scrA" Function="PTS system, sucrose-specific IIBC component (EC 2.7.1.69)" />
+          <Members vimssId="172999" LocusId="RSp1284" Name="scrB" Function="Sucrose-6-phosphate hydrolase (EC 3.2.1.26)" />
+          <Members vimssId="172998" LocusId="RS05328" Name="scrO" Function="Predicted sucrose-specific porin" />
+          <Members vimssId="172997" LocusId="RS05327" Name="scrC" Function="PTS system, sucrose-specific IIA component and PEP phosphotransferas (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5449</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="SdhR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62146" />
+      <Effector />
+      <Pathway>Tricarboxylic acid cycle</Pathway>
+      <LocusTag Key="RS03565" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=170274&amp;disp=0" />
+      <BiologicalProcess>Tricarboxylic acid cycle</BiologicalProcess>
+      <Regulog Key="SdhR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6385" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RSc2490" Name="icd" Position="-168" Score="5.5">
+          <Sequence>TCTTGTGTCTTATATAAGAGTTGCGG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc1358" Name="aceA" Position="-104" Score="6.2">
+          <Sequence>TCTACACTCTTATATAAGACATATGA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc1998" Name="mdh" Position="-296" Score="7.7">
+          <Sequence>TCTTATGTCTTATATAAGACAGAAGA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS03565" Name="sdhR" Position="-62" Score="7.7">
+          <Sequence>TCTTCTGTCTTATATAAGACATAAGA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="170275" LocusId="RSc1998" Name="mdh" Function="Malate dehydrogenase (EC 1.1.1.37)" />
+          <Members vimssId="170276" LocusId="RS03567" Name="citE" Function="Citrate lyase beta chain (EC 4.1.3.6)" />
+          <Members vimssId="170277" LocusId="RSc2000" Name="prpB2" Function="2-methylisocitrate lyase (EC 4.1.3.30)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="170274" LocusId="RS03565" Name="sdhR" Function="Transcriptional regulator of TCA cycle, GntR family" />
+          <Members vimssId="170273" LocusId="RSc1996" Name="sdhC" Function="Succinate dehydrogenase cytochrome b-556 subunit" />
+          <Members vimssId="170272" LocusId="RSc1995" Name="sdhD" Function="Succinate dehydrogenase hydrophobic membrane anchor protein" />
+          <Members vimssId="170271" LocusId="RSc1994" Name="sdhA" Function="Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1)" />
+          <Members vimssId="170270" LocusId="RSc1993" Name="sdhB" Function="Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1)" />
+          <Members vimssId="170269" LocusId="RS03560" Name="COG2938" Function="succinate dehydrogenase iron-sulfur subunit" />
+          <Members vimssId="170268" LocusId="RSc1991" Name="gltA" Function="Citrate synthase (si) (EC 2.3.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="169635" LocusId="RSc1358" Name="aceA" Function="Isocitrate lyase (EC 4.1.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="170767" LocusId="RSc2490" Name="icd" Function="Isocitrate dehydrogenase [NADP] (EC 1.1.1.42)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6385</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="UraR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57242" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="RS01487" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=170394&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="UraR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5854" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RS01488" Name="pucM" Position="-317" Score="4">
+          <Sequence>CCTGTTGACAAT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS01488" Name="pucM" Position="-285" Score="5.2">
+          <Sequence>ATTGTCAACAAA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS01487" Name="uraR" Position="-93" Score="5.2">
+          <Sequence>TTTGTTGACAAT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS01487" Name="uraR" Position="-61" Score="4">
+          <Sequence>ATTGTCAACAGG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="170393" LocusId="RS01488" Name="pucM" Function="5-hydroxyisourate hydrolase (HIUHase)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="170394" LocusId="RS01487" Name="uraR" Function="Predicted transcriptional regulator for pyrimidine utilization, GntR family" />
+          <Members vimssId="170395" LocusId="RS01486" Name="pbuT" Function="Xanthine/uracil permease" />
+          <Members vimssId="170396" LocusId="RSc2119" Name="atzB" Function="Guanine deaminase (EC 3.5.4.3)" />
+          <Members vimssId="170397" LocusId="RS01484" Name="COG0726" Function="putative polysaccharide deacetylase family protein" />
+          <Members vimssId="170398" LocusId="RS01483" Name="uraO" Function="Urate oxidase (EC 1.7.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5854</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="UreR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57228" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="RS01502" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=170379&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="UreR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5852" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RS01502" Name="ureR" Position="-41" Score="4.9">
+          <Sequence>ACCGGTCAGACCACG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="170379" LocusId="RS01502" Name="ureR" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="170380" LocusId="RS01501" Name="ureA" Function="amino acid ABC transporter, periplasmic substrate-binding protein" />
+          <Members vimssId="170381" LocusId="RS01500" Name="ureB" Function="Amino acid ABC transporter, permease protein" />
+          <Members vimssId="170382" LocusId="RS01499" Name="ureC" Function="Amino acid ABC transporter, permease protein" />
+          <Members vimssId="170383" LocusId="RS01498" Name="ureD" Function="Amino acid ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5852</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YrdX3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61844" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="RS03409" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=170134&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="YrdX3 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6351" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RSc1858" Name="cyoA2" Position="-192" Score="14.8">
+          <Sequence>GTTGTATGGTC-(21)-CTTGTATGGGT-(37)-ATCCATACATC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="170135" LocusId="RSc1858" Name="cyoA2" Function="Cytochrome O ubiquinol oxidase subunit II (EC 1.10.3.-)" />
+          <Members vimssId="170136" LocusId="RSc1859" Name="cyoB2" Function="Cytochrome O ubiquinol oxidase subunit I (EC 1.10.3.-)" />
+          <Members vimssId="170137" LocusId="RSc1860" Name="cyoC2" Function="Cytochrome O ubiquinol oxidase subunit III (EC 1.10.3.-)" />
+          <Members vimssId="170138" LocusId="RSc1861" Name="cyoD2" Function="Cytochrome O ubiquinol oxidase subunit IV (EC 1.10.3.-)" />
+          <Members vimssId="170139" LocusId="RSc1862" Name="cysI2" Function="Sulfite reductase [NADPH] hemoprotein beta-component (EC 1.8.1.2)" />
+          <Members vimssId="170140" LocusId="RS03423" Name="h16_A1638" Function="Oxidoreductase probably involved in sulfite reduction" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6351</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9927" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="RSc0048" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=168325&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1090" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RS00125" Name="omr2" Position="-114" Score="6.1">
+          <Sequence>TATTTGCAACAGAGTTGCAAATT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS04852" Name="RSc0594" Position="-95" Score="5.7">
+          <Sequence>AATTCGCAACTTAGTTGCATTGG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc1963" Name="tonB" Position="-220" Score="6">
+          <Sequence>TTGTCGCAACACTGTTGCATGAA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RS01372" Name="zip" Position="-37" Score="5.9">
+          <Sequence>TTCTTGCAACTCTGTTGCGTTTG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="171006" LocusId="RS00125" Name="omr2" Function="predicted zinc-related TonB-dependent outer membrane transporter" />
+          <Members vimssId="171005" LocusId="RS00126" Name="RSc2728" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="168871" LocusId="RS04852" Name="RSc0594" Function="hypothetical transmembrane protein" />
+          <Members vimssId="168872" LocusId="RS04851" Name="omr" Function="predicted zinc-related TonB-dependent outer membrane transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="170240" LocusId="RSc1963" Name="tonB" Function="Component of outer membrane metal uptake system, TonB family" />
+          <Members vimssId="170241" LocusId="RSc1964" Name="exbB" Function="Component of outer membrane metal uptake system, ExbB family" />
+          <Members vimssId="170242" LocusId="RSc1965" Name="exbD" Function="Component of outer membrane metal uptake system, ExbD family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="170504" LocusId="RS01372" Name="zip" Function="Zinc transporter, ZIP family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1090</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14093" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RS02718" Name="btuB" Position="-396" Score="49">
+          <Sequence>GTTACACTCGCCGCGTCCTGGTGCCCGCAGAGCCGATCTGCAGTTAAACGGGAAGCAGGGAGCGGCCGCCCCAAACGGTGCGCCAACCTGCGCTGCCCCCGCAACGGTAAGCGAACGCCGTCGAAGGCCGCGCTACCTCTGGCCAGAAGAGGGCGCGGCGTCGCGCAGGTCCGTCCACATGCCACTGTTCCGCGGAACGGGAAGGCGGCCGGACCCGGTTCGCCAGCCCGGATACCGGCCAGGACAGTGGGTTTCAGA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSp0628" Name="hoxN" Position="-278" Score="121.5">
+          <Sequence>CATCCCGCCTCACGATGATGGTGCCCTTCCAGGGTGAAACGGGAACGCGGTGCGATGCCGCGGCTGCCCCCGCAACTGTAAGCGACGAGTCTGCGCCAACCAGCCACCGCACGATGCCGGGAAGGCGGCGCCAGGCGATGACGCGCGAGCCAGGAGACCGGCCATCTCCTTCTGTCGACGT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="172345" LocusId="RSp0628" Name="hoxN" Function="HoxN/HupN/NixA family cobalt transporter" />
+          <Members vimssId="172344" LocusId="RS03740" Name="cbiW" Function="Putative 2Fe-2S ferredoxin CbiW involved in B12 biosynthesis" />
+          <Members vimssId="172343" LocusId="RSp0626" Name="cobN" Function="CobN component of cobalt chelatase involved in B12 biosynthesis" />
+          <Members vimssId="172342" LocusId="RS03742" Name="chlID" Function="ChlI component of cobalt chelatase involved in B12 biosynthesis / ChlD component of cobalt chelatase involved in B12 biosynthesis" />
+        </Operon>
+        <Operon>
+          <Members vimssId="170677" LocusId="RS02718" Name="btuB" Function="Outer membrane vitamin B12 receptor BtuB" />
+          <Members vimssId="170676" LocusId="RS02719" Name="btuC" Function="Vitamin B12 ABC transporter, permease component BtuC" />
+          <Members vimssId="170675" LocusId="RS02720" Name="btuD" Function="Vitamin B12 ABC transporter, ATPase component BtuD" />
+          <Members vimssId="170674" LocusId="RSc2397" Name="cobT" Function="Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase (EC 2.4.2.21)" />
+          <Members vimssId="170673" LocusId="RSc2396" Name="cobS" Function="Cobalamin synthase" />
+          <Members vimssId="170672" LocusId="RS02727" Name="cobC" Function="Alpha-ribazole-5'-phosphate phosphatase (EC 3.1.3.73)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13616" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RSp1191" Name="ribB" Position="-170" Score="96.1">
+          <Sequence>GCGGAACGATGCGCGCCCGCGCCGCGGGTGCGGCCTGCCTTGCGCCGGCCGCGCCTTCGCGCGGCGCGGGCGCGCGCTTCCGCGTGCCCTGGAACGTCTTGTCGCCCATTTCAGCGAGGAGCGTTTCCATGTTGTCCACACAGCCATCCCACGCAGTG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="172908" LocusId="RSp1191" Name="ribB" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00504" RegulationMode="RF00504">
+      <Regulator Key="Glycine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21391" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="Glycine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RSc3293" Name="gcvT" Position="-363" Score="40.7">
+          <Sequence>CCATCCATCCGGGAGAGCGCGTCGGCCGCATACGGCCAGTCGCCGCCGAAGGGGTAGCACCCGAAAACTCTCAGGCATCCAGGACCGGGTGGATCGGCT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RSc3293" Name="gcvT" Position="-252" Score="32.8">
+          <Sequence>GGCCGCACTCTGGAGAGCGGCGCCGCGTCACCATCGCGGGCGCCCACCGAAGGGGCTCACGGAACCGTCGCACGCGTTGTGTCGCTTCCCAATCTCTCAGGTACCAAGGACAGAGGGGCCACCCG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="171568" LocusId="RSc3293" Name="gcvT" Function="Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10)" />
+          <Members vimssId="171569" LocusId="RSc3294" Name="gcvH" Function="Glycine cleavage system H protein" />
+          <Members vimssId="171570" LocusId="RSc3295" Name="gcvP" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P protein) (EC 1.4.4.2)" />
+          <Members vimssId="171571" LocusId="RSc3296" Name="sdaA" Function="L-serine dehydratase (EC 4.3.1.17)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01057" RegulationMode="RF01057">
+      <Regulator Key="SAH_riboswitch" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=22441" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="SAH_riboswitch" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RSc0093" Name="ahcY" Position="-200" Score="59.4">
+          <Sequence>CCATTCCGAGGAGCGTTGCAACGGACCGGCATCCGCCCGGCCGCCAGGCTCGGAAGTTCAAACGGCGCTCGCACTAT</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="168370" LocusId="RSc0093" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+          <Members vimssId="168369" LocusId="RS02279" Name="PF04020" Function="Predicted membrane protein" />
+          <Members vimssId="168368" LocusId="RSc0091" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13912" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RSc0113" Name="thiC" Position="-196" Score="59.8">
+          <Sequence>TTGGATGAAACAGGGGTGCCGTGCGGATGGGCCGCGCGGCTGAGAGAGTCCCTTCGCACCCGATCCGGTTCGTACCGGCGTGGGAAGTTTCTTCAGAACACCG</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="168390" LocusId="RSc0113" Name="thiC" Function="Phosphomethylpyrimidine synthase" />
+          <Members vimssId="168389" LocusId="RS00982" Name="thiO" Function="Glycine oxidase ThiO (EC 1.4.3.19)" />
+          <Members vimssId="168388" LocusId="RS00981" Name="thiS" Function="Sulfur carrier protein ThiS" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01070" RegulationMode="RF01070">
+      <Regulator Key="sucA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=24557" />
+      <Effector />
+      <Pathway>Tricarboxylic acid cycle</Pathway>
+      <LocusTag Key="sucA" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RSc1269" Name="sucA" Position="-86" Score="77.8">
+          <Sequence>TGCGATCCGCTAACCGGTCAAGCCGTGTCGCGGAAGGTTGATGAACCCGCTGAACTCCGGCAGACCCGGAGAAAGGTGAGCGCC</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="169546" LocusId="RSc1269" Name="sucA" Function="2-oxoglutarate dehydrogenase E1 component (EC 1.2.4.2)" />
+          <Members vimssId="169547" LocusId="RSc1270" Name="sucB" Function="Dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase complex (EC 2.3.1.61)" />
+          <Members vimssId="169548" LocusId="RS02809" Name="lpdA" Function="Dihydrolipoamide dehydrogenase of 2-oxoglutarate dehydrogenase (EC 1.8.1.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=23611" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RS04438" Name="ykoY" Position="-215" Score="74.5">
+          <Sequence>CGACTTCCTCAAAGGGGAGTAGCTCGGGGGTTCTTCAGCCCCAGGCACGATCGTCATGACGAAGCGCACGCTTCCGGTCGTGCCGGCATCCGCAGGTTCCTGGCCTGCCGGTGTCGAGCAAGACCTTTGCAACCGGA</Sequence>
+          <Bacteria>Ralstonia solanacearum GMI1000</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="169226" LocusId="RS04438" Name="ykoY" Function="Membrane protein TerC, possibly involved in tellurium resistance" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

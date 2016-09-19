@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Bifidobacterium gallicum DSM 20093" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="AraQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=65165" />
+      <Effector />
+      <Pathway>Central carbohydrate metabolism; Arabinose utilization; Arabinose oligosaccharide utilization</Pathway>
+      <LocusTag Key="BIFGAL_00652" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6286843&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism; Arabinose utilization; Arabinose oligosaccharide utilization</BiologicalProcess>
+      <Regulog Key="AraQ - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6731" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BIFGAL_00353" Name="pyk" Position="-125" Score="5.5">
+          <Sequence>CTATGTTAACGCTAACAACA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_01223" Name="eno" Position="-104" Score="4.5">
+          <Sequence>ACATGTGAACACTCACTGCA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_00651" Name="araB" Position="-2" Score="5.7">
+          <Sequence>AAATGTTAGCGCTAACATAC</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6286544" LocusId="BIFGAL_00353" Name="pyk" Function="Pyruvate kinase (EC 2.7.1.40)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6286842" LocusId="BIFGAL_00651" Name="araB" Function="Ribulokinase (EC 2.7.1.16)" />
+          <Members vimssId="6286841" LocusId="BIFGAL_00650" Name="araD" Function="L-ribulose-5-phosphate 4-epimerase (EC 5.1.3.4)" />
+          <Members vimssId="6286839" LocusId="BIFGAL_00649" Name="araA" Function="L-arabinose isomerase (EC 5.3.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6287414" LocusId="BIFGAL_01223" Name="eno" Function="Enolase (EC 4.2.1.11)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6731</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor (activator)">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66217" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="BIFGAL_01783" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6287974&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6842" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BIFGAL_01041" Name="artX" Position="-90" Score="3.9">
+          <Sequence>ATGCTTGCTTGTGCAT</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_01788" Name="argC" Position="-61" Score="4.2">
+          <Sequence>ATGCAGTTTCATGCAT</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_01782" Name="argG" Position="-29" Score="5.8">
+          <Sequence>ATGCATAATTATGCAG</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6287973" LocusId="BIFGAL_01782" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+          <Members vimssId="6287972" LocusId="BIFGAL_01781" Name="null" Function="hypothetical protein" />
+          <Members vimssId="6287971" LocusId="BIFGAL_01780" Name="null" Function="hypothetical protein" />
+          <Members vimssId="6287970" LocusId="BIFGAL_01779" Name="argH" Function="Argininosuccinate lyase (EC 4.3.2.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6287232" LocusId="BIFGAL_01041" Name="artX" Function="Predicted arginine ABC transporter, substrate-binding protein" />
+          <Members vimssId="6287233" LocusId="BIFGAL_01042" Name="artY" Function="Predicted arginine ABC transporter, permease protein" />
+          <Members vimssId="6287234" LocusId="BIFGAL_01043" Name="artZ" Function="Predicted arginine ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6287979" LocusId="BIFGAL_01788" Name="argC" Function="N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)" />
+          <Members vimssId="6287978" LocusId="BIFGAL_01787" Name="argJ" Function="Glutamate N-acetyltransferase (EC 2.3.1.35) / N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="6287977" LocusId="BIFGAL_01786" Name="argB" Function="Acetylglutamate kinase (EC 2.7.2.8)" />
+          <Members vimssId="6287976" LocusId="BIFGAL_01785" Name="argD" Function="Acetylornithine aminotransferase (EC 2.6.1.11) / N-succinyl-L,L-diaminopimelate aminotransferase (EC 2.6.1.17)" />
+          <Members vimssId="6287975" LocusId="BIFGAL_01784" Name="argF" Function="Ornithine carbamoyltransferase (EC 2.1.3.3)" />
+          <Members vimssId="6287974" LocusId="BIFGAL_01783" Name="argR" Function="Arginine metabolism transcriptional regulator ArgR, ArgR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6842</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ROK" RegulationMode="">
+      <Regulator Key="BLA_0357" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=65601" />
+      <Effector />
+      <Pathway>Galactooligosaccharide utilization</Pathway>
+      <LocusTag Key="BIFGAL_00794" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6286985&amp;disp=0" />
+      <BiologicalProcess>Galactooligosaccharide utilization</BiologicalProcess>
+      <Regulog Key="BLA_0357 - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6775" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BIFGAL_00794" Name="BLA_0357" Position="-395" Score="5">
+          <Sequence>TTTTGCAAAGTGAGTTGTGAAAA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6286985" LocusId="BIFGAL_00794" Name="BLA_0357" Function="Transcriptional regulator, ROK family" />
+          <Members vimssId="6286984" LocusId="BIFGAL_00793" Name="glgX" Function="Glycogen debranching enzyme (EC 3.2.1.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6775</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="">
+      <Regulator Key="Crp" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=65591" />
+      <Effector />
+      <Pathway>Tricarboxylic acid cycle; Energy metabolism</Pathway>
+      <LocusTag Key="BIFGAL_00440" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6286632&amp;disp=0" />
+      <BiologicalProcess>Tricarboxylic acid cycle; Energy metabolism</BiologicalProcess>
+      <Regulog Key="Crp - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6774" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BIFGAL_00796" Name="adh" Position="-94" Score="5.3">
+          <Sequence>ATTAGTGAATCAGGTCACATTG</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_01295" Name="pflB" Position="-116" Score="5.8">
+          <Sequence>AAATGTGACCAAGGTCACGCTG</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_01466" Name="pta" Position="-283" Score="5.9">
+          <Sequence>GATTGTGACACAGGTCACGTTC</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6287486" LocusId="BIFGAL_01295" Name="pflB" Function="Pyruvate formate-lyase (EC 2.3.1.54)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6287657" LocusId="BIFGAL_01466" Name="pta" Function="Phosphate acetyltransferase (EC 2.3.1.8)" />
+          <Members vimssId="6287656" LocusId="BIFGAL_01465" Name="ackA" Function="Acetate kinase (EC 2.7.2.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6286987" LocusId="BIFGAL_00796" Name="adh" Function="Alcohol dehydrogenase (EC 1.1.1.1); Acetaldehyde dehydrogenase (EC 1.2.1.10)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6774</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="CscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=65115" />
+      <Effector>Sucrose</Effector>
+      <Pathway>Sucrose utilization</Pathway>
+      <LocusTag Key="BIFGAL_00339" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6286530&amp;disp=0" />
+      <BiologicalProcess>Sucrose utilization</BiologicalProcess>
+      <Regulog Key="CscR - Bifidobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6726" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BIFGAL_00341" Name="cscB" Position="-167" Score="6.1">
+          <Sequence>AACGTCAATCGTTTGACGCA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_00341" Name="cscB" Position="-121" Score="6.6">
+          <Sequence>TGCGTCAATCGTTTGACGTC</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_00341" Name="cscB" Position="-107" Score="6.2">
+          <Sequence>GACGTCAAACGTTTGACGCG</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6286532" LocusId="BIFGAL_00341" Name="cscB" Function="Sucrose permease, major facilitator superfamily" />
+          <Members vimssId="6286533" LocusId="BIFGAL_00342" Name="cscA" Function="Sucrase (EC 3.2.1.26)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6726</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ROK" RegulationMode="">
+      <Regulator Key="FruR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=65451" />
+      <Effector />
+      <Pathway>Fructose utilization</Pathway>
+      <LocusTag Key="BIFGAL_01106" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6287298&amp;disp=0" />
+      <BiologicalProcess>Fructose utilization</BiologicalProcess>
+      <Regulog Key="FruR - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6760" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BIFGAL_01109" Name="fruK" Position="-211" Score="7.3">
+          <Sequence>ATTGATTAACTGTGTTAATATAT</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6287300" LocusId="BIFGAL_01109" Name="fruK" Function="Fructokinase (EC 2.7.1.4)" />
+          <Members vimssId="6287301" LocusId="BIFGAL_01110" Name="fruP" Function="Predicted fructose transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6760</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DeoR" RegulationMode="">
+      <Regulator Key="GalR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=65581" />
+      <Effector />
+      <Pathway>Galactose utilization</Pathway>
+      <LocusTag Key="BIFGAL_00449" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6286640&amp;disp=0" />
+      <BiologicalProcess>Galactose utilization</BiologicalProcess>
+      <Regulog Key="GalR - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6773" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BIFGAL_00449" Name="galR" Position="-75" Score="7.6">
+          <Sequence>ATGTGCG---ATGTTCA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6286640" LocusId="BIFGAL_00449" Name="galR" Function="Transcriptional regulator of galactose metabolism, DeoR family" />
+          <Members vimssId="6286641" LocusId="BIFGAL_00450" Name="galT1" Function="Galactose-1-phosphate uridylyltransferase (EC 2.7.7.10)" />
+          <Members vimssId="6286642" LocusId="BIFGAL_00451" Name="galK" Function="Galactokinase (EC 2.7.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6773</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66247" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="BIFGAL_01682" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6287873&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6845" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BIFGAL_01682" Name="hrcA" Position="-274" Score="7.4">
+          <Sequence>TTAGCACTCTGGCGCCAAGAGTGCTAA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_01875" Name="groL" Position="-134" Score="7">
+          <Sequence>TTGGCACTCGACCAAGGAGAGTGCTAA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_01875" Name="groL" Position="-98" Score="7.1">
+          <Sequence>TTAGCACTCGAGGCGTGAGAGTGATAA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_00768" Name="groS" Position="-167" Score="7.2">
+          <Sequence>TTAGCACTCGAATTGGCAGAGTGCTAA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6288066" LocusId="BIFGAL_01875" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6286959" LocusId="BIFGAL_00768" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6287873" LocusId="BIFGAL_01682" Name="hrcA" Function="Heat-inducible transcription repressor HrcA" />
+          <Members vimssId="6287872" LocusId="BIFGAL_01681" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6845</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66257" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="BIFGAL_00302" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6286493&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6846" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BIFGAL_00191" Name="recA" Position="-152" Score="5.7">
+          <Sequence>TCGAACATTTGTTCGC</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_00302" Name="lexA" Position="-25" Score="5.7">
+          <Sequence>TCGAACATTTGTTCGC</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_00302" Name="lexA" Position="11" Score="5.6">
+          <Sequence>TCGCACATTTGTTCGA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_01661" Name="ruvA" Position="-125" Score="5.8">
+          <Sequence>GCGAACATCTGTTCGA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_01317" Name="lhr" Position="-8" Score="5">
+          <Sequence>TCGAACATATGAGCGA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_01091" Name="dinP1" Position="-8" Score="6.3">
+          <Sequence>TCGAACATATGTTCGA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_01848" Name="rarA" Position="-68" Score="6.3">
+          <Sequence>TCGAACATATGTTCGA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_01593" Name="uvrA" Position="-102" Score="6">
+          <Sequence>TCGAACATGTGTTCGA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6286381" LocusId="BIFGAL_00191" Name="recA" Function="Recombinase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6287508" LocusId="BIFGAL_01317" Name="lhr" Function="Probable ATP-dependent helicase lhr (EC 3.6.1.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6287852" LocusId="BIFGAL_01661" Name="ruvA" Function="Holliday junction DNA helicase RuvA" />
+          <Members vimssId="6287851" LocusId="BIFGAL_01660" Name="ruvB" Function="Holliday junction DNA helicase RuvB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6286493" LocusId="BIFGAL_00302" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6288039" LocusId="BIFGAL_01848" Name="rarA" Function="Recombination factor protein RarA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6287785" LocusId="BIFGAL_01593" Name="uvrA" Function="Excinuclease ABC subunit A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6287282" LocusId="BIFGAL_01091" Name="dinP1" Function="DNA polymerase IV (EC 2.7.7.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6846</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="IclR" RegulationMode="repressor">
+      <Regulator Key="LtbR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66277" />
+      <Effector />
+      <Pathway>Leucine biosynthesis</Pathway>
+      <LocusTag Key="BIFGAL_00075" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6286266&amp;disp=0" />
+      <BiologicalProcess>Leucine biosynthesis</BiologicalProcess>
+      <Regulog Key="LtbR - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6848" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BIFGAL_00075" Name="ltbR" Position="-34" Score="6.1">
+          <Sequence>CATTTCATTATGTGAGATG</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_00074" Name="" Position="-221" Score="6.1">
+          <Sequence>CATCTCACATAATGAAATG</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6286265" LocusId="BIFGAL_00074" Name="null" Function="hypothetical protein" />
+          <Members vimssId="6286264" LocusId="BIFGAL_00073" Name="leuC" Function="3-isopropylmalate dehydratase large subunit (EC 4.2.1.33)" />
+          <Members vimssId="6286263" LocusId="BIFGAL_00072" Name="leuD" Function="3-isopropylmalate dehydratase small subunit (EC 4.2.1.33)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6286266" LocusId="BIFGAL_00075" Name="ltbR" Function="Leucine biosynthesis transcriptional regulator LtbR, IclR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6848</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="MalR1/MalR2/MalR3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66208" />
+      <Effector>Maltose</Effector>
+      <Pathway>Maltose utilization; Maltodextrin utilization</Pathway>
+      <LocusTag Key="BIFGAL_00114" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6286305&amp;disp=0" />
+      <BiologicalProcess>Maltose utilization; Maltodextrin utilization</BiologicalProcess>
+      <Regulog Key="MalR1/MalR2/MalR3 - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6841" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BIFGAL_00112" Name="malE" Position="-119" Score="4.9">
+          <Sequence>ATGATTACGTTTGCAA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_00117" Name="" Position="-424" Score="4.7">
+          <Sequence>TTGCAAACGTTTGTTG</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_00114" Name="malR1" Position="-181" Score="4.7">
+          <Sequence>CAACAAACGTTTGCAA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_00121" Name="malQ" Position="-149" Score="5.1">
+          <Sequence>TTGCAAACGATGGCAG</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_00008" Name="pgi" Position="-207" Score="4.8">
+          <Sequence>ATGCAAACGTATGCTG</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_01952" Name="glgP" Position="-168" Score="5.1">
+          <Sequence>ATGACTACGTTTGCAA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_01952" Name="glgP" Position="-101" Score="4.7">
+          <Sequence>CTGAGAACGTATGCAT</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_01825" Name="ppgK" Position="-233" Score="4.8">
+          <Sequence>ATGCAAACGTTTGTTA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_00133" Name="malR3" Position="-206" Score="5">
+          <Sequence>GTGAGAACGTTTGCAA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_01513" Name="aapA" Position="-228" Score="5.1">
+          <Sequence>TTGACAACGTATGCAT</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_00126" Name="malE1" Position="-129" Score="5.5">
+          <Sequence>TTGAATACGTTTGCAA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_00125" Name="agl3" Position="-106" Score="5.5">
+          <Sequence>TTGCAAACGTATTCAA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6286199" LocusId="BIFGAL_00008" Name="pgi" Function="Glucose-6-phosphate isomerase (EC 5.3.1.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6286305" LocusId="BIFGAL_00114" Name="malR1" Function="Transcriptional regulator of maltose/maltodextrin utilization, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6288016" LocusId="BIFGAL_01825" Name="ppgK" Function="Polyphosphate glucokinase (EC 2.7.1.63)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6286317" LocusId="BIFGAL_00126" Name="malE1" Function="Maltose/maltodextrin ABC transporter, substrate binding protein" />
+          <Members vimssId="6286318" LocusId="BIFGAL_00127" Name="malF1" Function="Maltose/maltodextrin ABC transporter, permease protein 1" />
+          <Members vimssId="6286319" LocusId="BIFGAL_00128" Name="malG1" Function="Maltose/maltodextrin ABC transporter, permease protein 2" />
+          <Members vimssId="6286321" LocusId="BIFGAL_00129" Name="pulA" Function="Pullulanase (EC 3.2.1.41)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6288143" LocusId="BIFGAL_01952" Name="glgP" Function="Glycogen phosphorylase (EC 2.4.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6286303" LocusId="BIFGAL_00112" Name="malE" Function="Maltose/maltodextrin ABC transporter, substrate binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6286308" LocusId="BIFGAL_00117" Name="null" Function="hypothetical protein" />
+          <Members vimssId="6286309" LocusId="BIFGAL_00118" Name="malF" Function="Maltose/maltodextrin ABC transporter, permease protein 1" />
+          <Members vimssId="6286310" LocusId="BIFGAL_00119" Name="malG" Function="Maltose/maltodextrin ABC transporter, permease protein 2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6286312" LocusId="BIFGAL_00121" Name="malQ" Function="4-alpha-glucanotransferase (amylomaltase) (EC 2.4.1.25)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6286324" LocusId="BIFGAL_00133" Name="malR3" Function="Transcriptional regulator of maltose/maltodextrin utilization, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6287704" LocusId="BIFGAL_01513" Name="aapA" Function="Alpha-amylase EC 3.2.1.1 / Pullulanase (EC 3.2.1.41)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6286316" LocusId="BIFGAL_00125" Name="agl3" Function="Alpha-glucosidase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6841</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="NanR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=65787" />
+      <Effector>Sialic acid</Effector>
+      <Pathway>Sialic acid utilization</Pathway>
+      <LocusTag Key="BIFGAL_01415" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6287606&amp;disp=0" />
+      <BiologicalProcess>Sialic acid utilization</BiologicalProcess>
+      <Regulog Key="NanR - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6795" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BIFGAL_00397" Name="SSF51658" Position="-220" Score="6.1">
+          <Sequence>GTAAGACATCAGATGTCTGAT</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_00396" Name="nanB" Position="-12" Score="6.2">
+          <Sequence>ATCAGACATCTGATGTCTTAC</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6286588" LocusId="BIFGAL_00397" Name="SSF51658" Function="Xylose isomerase-like, TIM barrel domain" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6286587" LocusId="BIFGAL_00396" Name="nanB" Function="Predicted sialic acid ABC transporter, solute binding component" />
+          <Members vimssId="6286586" LocusId="BIFGAL_00395" Name="nanC" Function="Predicted sialic acid ABC transporter, permease component" />
+          <Members vimssId="6286585" LocusId="BIFGAL_00394" Name="nanD" Function="Predicted sialic acid ABC transporter, permease component and ATP-binding component" />
+          <Members vimssId="6286584" LocusId="BIFGAL_00393" Name="nanF" Function="Predicted sialic acid ABC transporter, ATP binding component" />
+          <Members vimssId="6286583" LocusId="BIFGAL_00392" Name="nanA" Function="N-acetylneuraminate lyase (EC 2.5.1.56)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6795</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66237" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="BIFGAL_00299" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6286490&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6844" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BIFGAL_00567" Name="nrdD" Position="-144" Score="4.1">
+          <Sequence>CCACCATATCTAGTCA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_00567" Name="nrdD" Position="-113" Score="4.5">
+          <Sequence>GAACTAGATATAGGGG</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6286758" LocusId="BIFGAL_00567" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+          <Members vimssId="6286757" LocusId="BIFGAL_00566" Name="nrdG" Function="Ribonucleotide reductase of class III (anaerobic), activating protein (EC 1.97.1.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6844</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="PtsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=65349" />
+      <Effector />
+      <Pathway>Carbohydrate metabolism</Pathway>
+      <LocusTag Key="BIFGAL_00153" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6286344&amp;disp=0" />
+      <BiologicalProcess>Carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="PtsR - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6750" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BIFGAL_00155" Name="hpr" Position="-234" Score="5.4">
+          <Sequence>AGCGGTAATCGTTTTCTAGG</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_00157" Name="ptsI" Position="-255" Score="5.4">
+          <Sequence>CCTAGAAAACGATTACCGCT</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6286345" LocusId="BIFGAL_00155" Name="hpr" Function="Phosphotransferase system, phosphocarrier HPr protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6286348" LocusId="BIFGAL_00157" Name="ptsI" Function="PTS system, enzyme I" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6750</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="RbsR3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=65260" />
+      <Effector>Ribose</Effector>
+      <Pathway>Ribonucleoside utilization</Pathway>
+      <LocusTag Key="BIFGAL_01913" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6288105&amp;disp=0" />
+      <BiologicalProcess>Ribonucleoside utilization</BiologicalProcess>
+      <Regulog Key="RbsR3 - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6742" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BIFGAL_01915" Name="rihC" Position="-94" Score="6.9">
+          <Sequence>TTGATAAAACGTTTTATCAA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_01002" Name="nupC" Position="-187" Score="6.3">
+          <Sequence>ATGCTAAAACGTTTTATTAT</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_01080" Name="iunH" Position="-47" Score="5.9">
+          <Sequence>TTGCAAAAACGTTTTAGCGA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_01913" Name="rbsR3" Position="-163" Score="5.5">
+          <Sequence>ATGGTAAATCGTTTTATTTT</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6288105" LocusId="BIFGAL_01913" Name="rbsR3" Function="Transcriptional regulator of ribonucleside utilization, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6287271" LocusId="BIFGAL_01080" Name="iunH" Function="Inosine-uridine preferring nucleoside hydrolase (EC 3.2.2.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6287193" LocusId="BIFGAL_01002" Name="nupC" Function="Ribonucleoside permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6288107" LocusId="BIFGAL_01915" Name="rihC" Function="Non-specific ribonucleoside hydrolase (EC 3.2.-.-)" />
+          <Members vimssId="6288108" LocusId="BIFGAL_01916" Name="rbsK" Function="Ribokinase (EC 2.7.1.15)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6742</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="XosR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=65095" />
+      <Effector />
+      <Pathway>Xylooligosacharides utilization</Pathway>
+      <LocusTag Key="BIFGAL_00973" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6287164&amp;disp=0" />
+      <BiologicalProcess>Xylooligosacharides utilization</BiologicalProcess>
+      <Regulog Key="XosR - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6724" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BIFGAL_00972" Name="xosR" Position="-17" Score="5.9">
+          <Sequence>ACTACGAAAGTTTCGATAT</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_00973" Name="xosA" Position="-327" Score="5.9">
+          <Sequence>ATATCGAAACTTTCGTAGT</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6287163" LocusId="BIFGAL_00972" Name="xosR" Function="Transcriptional regulator of xylooligosacharides utilization, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6287164" LocusId="BIFGAL_00973" Name="xosA" Function="Xylooligosacharides ABC transporter, substrate binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6724</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ROK" RegulationMode="">
+      <Regulator Key="XylR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=65846" />
+      <Effector>Xylose</Effector>
+      <Pathway>Xylose utilization</Pathway>
+      <LocusTag Key="BIFGAL_00988" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6287179&amp;disp=0" />
+      <BiologicalProcess>Xylose utilization</BiologicalProcess>
+      <Regulog Key="XylR - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6802" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BIFGAL_00986" Name="xylB" Position="-339" Score="5.9">
+          <Sequence>TATAATTAAATCATTAAACTATT</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_00988" Name="xylR" Position="-293" Score="5.9">
+          <Sequence>AATAGTTTAATGATTTAATTATA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_00965" Name="xylA" Position="-164" Score="5.1">
+          <Sequence>TATAATTCAATGATTTGACAAAT</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_00965" Name="xylA" Position="-142" Score="5.1">
+          <Sequence>TATAGTTTAACGGTTTTACCATG</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6287177" LocusId="BIFGAL_00986" Name="xylB" Function="Xylulose kinase (EC 2.7.1.17)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6287179" LocusId="BIFGAL_00988" Name="xylR" Function="Xylose repressor XylR, ROK family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6287157" LocusId="BIFGAL_00965" Name="xylA" Function="Xylose isomerase (EC 5.3.1.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6802</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66287" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="BIFGAL_01073" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6287264&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6849" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BIFGAL_00364" Name="znuC" Position="-103" Score="6">
+          <Sequence>AAATGGGAATGATTGTCAATA</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_00753" Name="znuA" Position="-285" Score="5.9">
+          <Sequence>TACTGATAATCATTATCAATT</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6286944" LocusId="BIFGAL_00753" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6286555" LocusId="BIFGAL_00364" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="6286556" LocusId="BIFGAL_00365" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6849</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48860" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BIFGAL_01827" Name="ribU" Position="-137" Score="81.8">
+          <Sequence>CATAGTTTCAGGGAAGGTGCAATTCCTTACTGGCGGTAACGCTAGGCCGGGTCCATAACCGGTATTCGACGCGAAGCCCGCAACCCGCATGACGCGGTTGATCCGGTGTGAATCCGGGGCCAACGGTTACAGTCCGGATGGAAGAAACGGAAGGT</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6288018" LocusId="BIFGAL_01827" Name="ribU" Function="Substrate-specific component RibU of riboflavin ECF transporter" />
+          <Members vimssId="6288019" LocusId="BIFGAL_01828" Name="ecfAAT" Function="Duplicated ATPase component of energizing module of riboflavin ECF transporter / Transmembrane component of energizing module of riboflavin ECF transporter / Transmembrane component of energizing module of riboflavin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48869" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BIFGAL_01225" Name="thiP" Position="-235" Score="43.4">
+          <Sequence>AACGCGACACGGGGTGCCCGCACCGAACCCTTAATGTTGGCTGGAATGCTTGAGTATGCACGAAAGCCGGGCGACAGGGGCTGAGATTATACCCGCGAACCTGATGTAGTTAACCCTACCGGAGGAATTGTCCATGACCGGCTTCAT</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_00330" Name="thiM" Position="-117" Score="48.3">
+          <Sequence>GAATCAAGCAGGGGGGCCTGTGGAGTCAAGCATTGTGCTTGGTTCAGCAAGCTGAGATTGGCGTTACGCCTGACCCTTCGAACCTGTTGGTTAGAACCAGTGTAGGGAGCGTTCGCAATGAATATGC</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BIFGAL_01797" Name="ykoE" Position="-271" Score="51.1">
+          <Sequence>CGTCAACCGACACGGGGGCTGGCCCTGCGCCTGTTGCGTTATAGCGACTCATATGCTGCAGTACAGCGGTATATTCGACGACTTGCGTAACTGGCATGCGGAACGCCGGCTGAGAAGGGAATGGTTCCCTGACCGATTGAACGTGAATCCGGATAATGCCGGCGCACGGACGTCGTTATCGCCCGTGC</Sequence>
+          <Bacteria>Bifidobacterium gallicum DSM 20093</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6286521" LocusId="BIFGAL_00330" Name="thiM" Function="Hydroxyethylthiazole kinase (EC 2.7.1.50)" />
+          <Members vimssId="6286522" LocusId="BIFGAL_00331" Name="thiED" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3) / Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6287416" LocusId="BIFGAL_01225" Name="thiP" Function="Thiamin ABC transporter, permease protein" />
+          <Members vimssId="6287417" LocusId="BIFGAL_01226" Name="thiB" Function="Thiamin ABC transporter, substrate-binding component" />
+          <Members vimssId="6287418" LocusId="BIFGAL_01227" Name="thiQ" Function="Thiamin ABC transporter, ATPase component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6287988" LocusId="BIFGAL_01797" Name="ykoE" Function="Substrate-specific component YkoE of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

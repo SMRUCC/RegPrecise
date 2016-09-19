@@ -1,0 +1,1572 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Rhodopseudomonas palustris CGA009" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51356" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="RPA3261" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=572709&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5207" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA3260" Name="cadA" Position="-59" Score="4.6">
+          <Sequence>ACCCTGTAGCCGCTACAGGGT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="572708" LocusId="RPA3260" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5207</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LuxR" RegulationMode="activator">
+      <Regulator Key="FixJ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63330" />
+      <Effector>Oxygen</Effector>
+      <Pathway>Oxidative stress response</Pathway>
+      <LocusTag Key="RPA4247" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=573705&amp;disp=0" />
+      <BiologicalProcess>Oxidative stress response</BiologicalProcess>
+      <Regulog Key="FixJ - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6526" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA4250" Name="fixK" Position="-105" Score="5.1">
+          <Sequence>CTACGTAGACCTACTTAG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4250" Name="fixK" Position="-91" Score="4.7">
+          <Sequence>TTAGGGGAACCCACTTAA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="573708" LocusId="RPA4250" Name="fixK" Function="Nitrogen fixation and oxygen response transcriptional regulator FixK, Crp family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6526</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="repressor (activator)">
+      <Regulator Key="FnrN/FixK/AadR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63115" />
+      <Effector>Oxygen</Effector>
+      <Pathway>Oxidative stress response; Nitrogen fixation</Pathway>
+      <LocusTag Key="RPA4250" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=573708&amp;disp=0" />
+      <BiologicalProcess>Oxidative stress response; Nitrogen fixation</BiologicalProcess>
+      <Regulog Key="FnrN/FixK/AadR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6503" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA4145" Name="nirK" Position="-85" Score="3.9">
+          <Sequence>AGCTTGTGCTGGGACAAACA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1006" Name="mhpA" Position="-69" Score="4.9">
+          <Sequence>TATTTGACGCACGTCAAATA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1505" Name="hemC" Position="-243" Score="4.5">
+          <Sequence>CTTTTGACCTTGCTCAATAT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1505" Name="hemC" Position="-143" Score="4.4">
+          <Sequence>GAATTGTCCGAGATCAACGA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4242" Name="COG2187" Position="-149" Score="5.2">
+          <Sequence>GAATTGATCAAGGTCAAACC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA0019" Name="ccoN" Position="-79" Score="5.1">
+          <Sequence>ATTTTGATTTCGATCAAACG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA0854" Name="hemA" Position="-169" Score="5.2">
+          <Sequence>GCATTGATCTTCATCAAGCC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA0657" Name="badD" Position="-120" Score="5.4">
+          <Sequence>AATTTGATCCGCATCAAATT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA0260" Name="RPA0260" Position="13" Score="5">
+          <Sequence>GTTTTGATCCAGAGCAAAGA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA0746" Name="mtrA" Position="-234" Score="5.4">
+          <Sequence>TAATTGATCTCGATCAAATA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4241" Name="COG2524" Position="-161" Score="5.2">
+          <Sequence>GGTTTGACCTTGATCAATTC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4243" Name="phaC" Position="-235" Score="5">
+          <Sequence>GGCTTGAGCAAGGTCAAGCG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1014" Name="bsr3073" Position="-58" Score="5.7">
+          <Sequence>CGTTTGATCCAGATCAAACT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA2339" Name="irr" Position="-70" Score="4.5">
+          <Sequence>GATTTGACTGCGGTCAATTC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA2339" Name="irr" Position="-188" Score="5.3">
+          <Sequence>TCCTTGATGCACATCAAATG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1668" Name="bchE" Position="-71" Score="5">
+          <Sequence>CGTTTGATCTGCGTCAACAA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1224" Name="iorA" Position="-100" Score="4.4">
+          <Sequence>CCGTTGACTTAGCGCAAATA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1224" Name="iorA" Position="-173" Score="4">
+          <Sequence>GAATTGACTCAGCACAAAAG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA0670" Name="hbaB" Position="-65" Score="4.4">
+          <Sequence>TGCTTGACTTTGGTCATGGA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA3015" Name="phyB1" Position="-119" Score="4.2">
+          <Sequence>CTCTTGATCTTGCGCAAAAC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1525" Name="pufB" Position="-451" Score="4.6">
+          <Sequence>GATTTGAGCTAGAACAATGC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4694" Name="COG3181" Position="3" Score="4">
+          <Sequence>AGCTTGATCCGACGCATTGT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4249" Name="bll2758" Position="-92" Score="4.8">
+          <Sequence>GGATTGAGACAGATCAATCC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4645" Name="cbbF" Position="-221" Score="4">
+          <Sequence>CTTCTGATCTAAATCACGGC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4264" Name="nuoA" Position="-130" Score="5">
+          <Sequence>GAGTTGATCCGCGTCAACCA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4462" Name="" Position="-107" Score="4.7">
+          <Sequence>CGGTTGCGCCAGATCAATGT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4502" Name="ompW" Position="-98" Score="5.6">
+          <Sequence>CATTTGATCCAGATCAAATC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1919" Name="ccmI" Position="-157" Score="5.3">
+          <Sequence>CCTTTGATTCAAATCAAGTT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1090" Name="RPA1090" Position="-72" Score="5.2">
+          <Sequence>CGGTTGATCAAGATCAACTG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4234" Name="aadR" Position="-127" Score="5.2">
+          <Sequence>ACCTTGATCTGTGTCAAGCT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4235" Name="blr6062" Position="-21" Score="5.2">
+          <Sequence>AGCTTGACACAGATCAAGGT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="570937" LocusId="RPA1505" Name="hemC" Function="Porphobilinogen deaminase (EC 2.5.1.61)" />
+          <Members vimssId="570938" LocusId="RPA1506" Name="bchI" Function="Protoporphyrin IX Mg-chelatase subunit I (EC 6.6.1.1)" />
+          <Members vimssId="570939" LocusId="RPA1507" Name="bchD" Function="Protoporphyrin IX Mg-chelatase subunit D (EC 6.6.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="573692" LocusId="RPA4234" Name="aadR" Function="Nitrogen fixation and oxygen response transcriptional regulator AadR, Crp family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="573693" LocusId="RPA4235" Name="blr6062" Function="Putative cytochrome C6 precursor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="569437" LocusId="RPA0019" Name="ccoN" Function="Cytochrome c oxidase subunit CcoN (EC 1.9.3.1)" />
+          <Members vimssId="569436" LocusId="RPA0018" Name="ccoO" Function="Cytochrome c oxidase subunit CcoO (EC 1.9.3.1)" />
+          <Members vimssId="569435" LocusId="RPA0017" Name="ccoQ" Function="Cytochrome c oxidase subunit CcoQ (EC 1.9.3.1)" />
+          <Members vimssId="569434" LocusId="RPA0016" Name="ccoP" Function="Cytochrome c oxidase subunit CcoP (EC 1.9.3.1)" />
+          <Members vimssId="569433" LocusId="RPA0015" Name="ccoG" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoG, involved in Cu oxidation" />
+          <Members vimssId="569432" LocusId="RPA0014" Name="ccoH" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoH" />
+          <Members vimssId="569431" LocusId="RPA0013" Name="ccoI" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoI; Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="569430" LocusId="RPA0012" Name="ccoS" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoS, involved in heme b insertion" />
+        </Operon>
+        <Operon>
+          <Members vimssId="573965" LocusId="RPA4502" Name="ompW" Function="Outer membrane protein W precursor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="574110" LocusId="RPA4645" Name="cbbF" Function="Fructose-1,6-bisphosphatase, type I (EC 3.1.3.11)" />
+          <Members vimssId="574109" LocusId="RPA4644" Name="cbbP" Function="Phosphoribulokinase (EC 2.7.1.19)" />
+          <Members vimssId="574108" LocusId="RPA4643" Name="cbbT1" Function="Transketolase (EC 2.2.1.1)" />
+          <Members vimssId="574107" LocusId="RPA4642" Name="cbbA" Function="Fructose-bisphosphate aldolase class II (EC 4.1.2.13)" />
+          <Members vimssId="574106" LocusId="RPA4641" Name="cbbM" Function="Ribulose bisphosphate carboxylase (EC 4.1.1.39)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="571353" LocusId="RPA1919" Name="ccmI" Function="Cytochrome c heme lyase subunit CcmI" />
+          <Members vimssId="571354" LocusId="RPA1920" Name="ccmE" Function="Cytochrome c-type biogenesis protein CcmE, heme chaperone" />
+          <Members vimssId="571355" LocusId="RPA1921" Name="ccmF" Function="Cytochrome c heme lyase subunit CcmF" />
+          <Members vimssId="571356" LocusId="RPA1922" Name="ccmH" Function="Cytochrome c heme lyase subunit CcmH" />
+        </Operon>
+        <Operon>
+          <Members vimssId="571101" LocusId="RPA1668" Name="bchE" Function="Mg-protoporphyrin IX monomethyl ester oxidative cyclase (EC 1.14.13.81)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="571774" LocusId="RPA2339" Name="irr" Function="Iron-responsive regulator Irr, Fur family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="573699" LocusId="RPA4241" Name="COG2524" Function="Predicted transcriptional regulator, contains C-terminal CBS domains" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570284" LocusId="RPA0854" Name="hemA" Function="5-aminolevulinate synthase (EC 2.3.1.37)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="573700" LocusId="RPA4242" Name="COG2187" Function="Predicted kinase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570522" LocusId="RPA1090" Name="RPA1090" Function="Predicted transcriptional regulator, Crp family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="573926" LocusId="RPA4462" Name="null" Function="Lipocalin-related protein and Bos/Can/Equ allergen" />
+        </Operon>
+        <Operon>
+          <Members vimssId="573722" LocusId="RPA4264" Name="nuoA" Function="NADH ubiquinone oxidoreductase chain A (EC 1.6.5.3)" />
+          <Members vimssId="573721" LocusId="RPA4263" Name="nuoB" Function="NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)" />
+          <Members vimssId="573720" LocusId="RPA4262" Name="nouD" Function="NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)" />
+          <Members vimssId="573719" LocusId="RPA4261" Name="nuoE" Function="NADH-ubiquinone oxidoreductase chain E (EC 1.6.5.3)" />
+          <Members vimssId="573718" LocusId="RPA4260" Name="nuoF" Function="NADH-ubiquinone oxidoreductase chain F (EC 1.6.5.3)" />
+          <Members vimssId="573717" LocusId="RPA4259" Name="nuoG" Function="NADH-ubiquinone oxidoreductase chain G (EC 1.6.5.3)" />
+          <Members vimssId="573716" LocusId="RPA4258" Name="nuoH" Function="NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)" />
+          <Members vimssId="573715" LocusId="RPA4257" Name="nuoI" Function="NADH-ubiquinone oxidoreductase chain I (EC 1.6.5.3)" />
+          <Members vimssId="573714" LocusId="RPA4256" Name="nuoJ" Function="NADH-ubiquinone oxidoreductase chain J (EC 1.6.5.3)" />
+          <Members vimssId="573713" LocusId="RPA4255" Name="nuoK" Function="NADH-ubiquinone oxidoreductase chain K (EC 1.6.5.3)" />
+          <Members vimssId="573712" LocusId="RPA4254" Name="nuoL" Function="NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)" />
+          <Members vimssId="573711" LocusId="RPA4253" Name="nuoM" Function="NADH-ubiquinone oxidoreductase chain M (EC 1.6.5.3)" />
+          <Members vimssId="573710" LocusId="RPA4252" Name="nuoN" Function="NADH-ubiquinone oxidoreductase chain N (EC 1.6.5.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="573707" LocusId="RPA4249" Name="bll2758" Function="Predicted transcriptional regulator, two-component, OmpR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="572461" LocusId="RPA3015" Name="phyB1" Function="Phytochrome, two-component sensor histidine kinase (EC 2.7.3.-); Cyanobacterial phytochrome B" />
+          <Members vimssId="572462" LocusId="RPA3016" Name="phyB2" Function="Phytochrome, two-component sensor histidine kinase (EC 2.7.3.-); Cyanobacterial phytochrome B" />
+          <Members vimssId="572463" LocusId="RPA3017" Name="rphyB" Function="Two-component system response regulator" />
+          <Members vimssId="572464" LocusId="RPA3018" Name="COG0642" Function="Hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570437" LocusId="RPA1006" Name="mhpA" Function="Protocatechuate 4,5-dioxygenase alpha chain (EC 1.13.11.8)" />
+          <Members vimssId="570438" LocusId="RPA1007" Name="mhpB" Function="Protocatechuate 4,5-dioxygenase beta chain (EC 1.13.11.8)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570957" LocusId="RPA1525" Name="pufB" Function="Light-harvesting LHI, beta subunit" />
+          <Members vimssId="570958" LocusId="RPA1526" Name="pufA" Function="Light-harvesting LHI, alpha subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="574166" LocusId="RPA4694" Name="COG3181" Function="Conserved hypothetical protein" />
+          <Members vimssId="574167" LocusId="RPA4695" Name="ligR" Function="Transcriptional regulator LigR, LysR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570099" LocusId="RPA0670" Name="hbaB" Function="4-hydroxybenzoyl-CoA reductase, gamma subunit (EC 1.3.99.20)" />
+          <Members vimssId="570100" LocusId="RPA0671" Name="hbaC" Function="4-hydroxybenzoyl-CoA reductase, alpha subunit (EC 1.3.99.20)" />
+          <Members vimssId="570101" LocusId="RPA0672" Name="hbaD" Function="4-hydroxybenzoyl-CoA reductase, beta subunit (EC 1.3.99.20)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570656" LocusId="RPA1224" Name="iorA" Function="Indolepyruvate oxidoreductase subunit IorA (EC 1.2.7.8)" />
+          <Members vimssId="570657" LocusId="RPA1225" Name="iorB" Function="Indolepyruvate oxidoreductase subunit IorB (EC 1.2.7.8) / Ferredoxin" />
+          <Members vimssId="570658" LocusId="RPA1226" Name="korA" Function="2-oxoglutarate oxidoreductase, alpha subunit (EC 1.2.7.3)" />
+          <Members vimssId="570659" LocusId="RPA1227" Name="korB" Function="2-oxoglutarate oxidoreductase, beta subunit (EC 1.2.7.3)" />
+          <Members vimssId="570660" LocusId="RPA1228" Name="korC" Function="2-oxoglutarate oxidoreductase, gamma subunit (EC 1.2.7.3)" />
+          <Members vimssId="570661" LocusId="RPA1229" Name="paaK" Function="Phenylacetate-coenzyme A ligase (EC 6.2.1.30)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="573701" LocusId="RPA4243" Name="phaC" Function="Polyhydroxyalkanoic acid synthase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="573603" LocusId="RPA4145" Name="nirK" Function="Copper-containing nitrite reductase (EC 1.7.2.1)" />
+          <Members vimssId="573604" LocusId="RPA4146" Name="nirV" Function="Nitrite reductase accessory protein NirV" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570175" LocusId="RPA0746" Name="mtrA" Function="Decaheme cytochrome c MtrA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570086" LocusId="RPA0657" Name="badD" Function="Benzoyl-CoA reductase subunit BadD (EC 1.3.99.15)" />
+          <Members vimssId="570087" LocusId="RPA0658" Name="badE" Function="Benzoyl-CoA reductase subunit BadE (EC 1.3.99.15)" />
+          <Members vimssId="570088" LocusId="RPA0659" Name="badF" Function="Benzoyl-CoA reductase subunit BadF (EC 1.3.99.15)" />
+          <Members vimssId="570089" LocusId="RPA0660" Name="badG" Function="Benzoyl-CoA reductase subunit BadG (EC 1.3.99.15)" />
+          <Members vimssId="570090" LocusId="RPA0661" Name="badA" Function="Benzoate-CoA ligase (EC 6.2.1.25)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="569682" LocusId="RPA0260" Name="RPA0260" Function="Possible photosynthesis gene regulator, AppA/PpaA family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570445" LocusId="RPA1014" Name="bsr3073" Function="Conserved hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6503</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49733" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="RPA0330" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=569753&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5036" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA1141" Name="groS" Position="-109" Score="6.5">
+          <Sequence>TTAGCACTCTTGCAGTACGACTGCCAA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA2165" Name="groS" Position="-69" Score="6.2">
+          <Sequence>CTGGCACTCTTCGCCCGCGACTGCCAA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="570573" LocusId="RPA1141" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="570572" LocusId="RPA1140" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="571600" LocusId="RPA2165" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="571599" LocusId="RPA2164" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5036</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Irr" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=18339" />
+      <Effector>Heme</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="RPA0424" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=569849&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Irr - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1981" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA2124" Name="hmuR" Position="-162" Score="3.9">
+          <Sequence>AAGTTATAATTGCTTTAATCA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4152" Name="fbpA" Position="-98" Score="4.2">
+          <Sequence>cGgcTgGAATagTTCTAAtCg</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4636" Name="" Position="-79" Score="4.9">
+          <Sequence>CTGTTACAATCGTTCTAAACT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA3600" Name="bfr" Position="-67" Score="5">
+          <Sequence>GATCTAGAATTATTCTAATTC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4303" Name="mbfA" Position="-34" Score="6.1">
+          <Sequence>TATTTAGAAGCGTTCTAAACT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA2121" Name="hmuP" Position="-87" Score="3.8">
+          <Sequence>CGTTTATAGTAATTATAAGAC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA3876" Name="fumA" Position="-82" Score="3.8">
+          <Sequence>CCCTTAGAGGTATACTAAATG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1876" Name="fhuA" Position="-223" Score="5.5">
+          <Sequence>TGATTTGAACGATTCAAAAAT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA3195" Name="iorAB" Position="-74" Score="5.3">
+          <Sequence>AGCTTAGACTGGTTCGAAACA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="573761" LocusId="RPA4303" Name="mbfA" Function="membrane-bound ferritin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="573056" LocusId="RPA3600" Name="bfr" Function="Bacterioferritin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="574101" LocusId="RPA4636" Name="null" Function="Ferrous iron transport protein A" />
+          <Members vimssId="574100" LocusId="RPA4635" Name="feoB" Function="Ferrous iron transport protein B" />
+        </Operon>
+        <Operon>
+          <Members vimssId="571556" LocusId="RPA2121" Name="hmuP" Function="HmuP hemin uptake protein" />
+          <Members vimssId="571555" LocusId="RPA2120" Name="hmuT" Function="Hemin ABC transporter, hemin-binding protein" />
+          <Members vimssId="571554" LocusId="RPA2119" Name="hmuU" Function="Hemin ABC transporter, permease protein" />
+          <Members vimssId="571553" LocusId="RPA2118" Name="hmuV" Function="Hemin ABC transporter, ATPase component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="573610" LocusId="RPA4152" Name="fbpA" Function="Ferric iron ABC transporter, periplasmic protein" />
+          <Members vimssId="573611" LocusId="RPA4153" Name="fbpB" Function="Ferric iron ABC transporter, permease protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="571559" LocusId="RPA2124" Name="hmuR" Function="TonB-dependent haem/haemoglobin receptor" />
+          <Members vimssId="571560" LocusId="RPA2125" Name="null" Function="Hypothetical, distant similarity with heme-degrading oxygenase IsdG" />
+          <Members vimssId="571561" LocusId="RPA2126" Name="null" Function="Putative heme iron utilization protein" />
+          <Members vimssId="571562" LocusId="RPA2127" Name="exbB1" Function="putative exbB, uptake of enterochelin; tonB-dependent uptake of B colicins" />
+          <Members vimssId="571563" LocusId="RPA2128" Name="exbD1" Function="biopolymer transport protein ExbD/TolR" />
+          <Members vimssId="571564" LocusId="RPA2129" Name="tonB" Function="possible energy transducer TonB, C-terminal region" />
+        </Operon>
+        <Operon>
+          <Members vimssId="573332" LocusId="RPA3876" Name="fumA" Function="Fumarate hydratase class I, aerobic (EC 4.2.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="571310" LocusId="RPA1876" Name="fhuA" Function="Ferric hydroxamate outer membrane receptor FhuA" />
+          <Members vimssId="571309" LocusId="RPA1875" Name="PF03929" Function="putative iron-regulated membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="572643" LocusId="RPA3195" Name="iorAB" Function="Indolepyruvate ferredoxin oxidoreductase, alpha and beta subunits" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1981</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28377" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="RPA2903" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=572347&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2985" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA3851" Name="recA" Position="-102" Score="1.6">
+          <Sequence>GAACATATTGCGAAC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA2903" Name="lexA" Position="6" Score="5.2">
+          <Sequence>GTTCATGATTTGTTT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA2816" Name="uvrA" Position="-97" Score="5.1">
+          <Sequence>GTTCTTCCTATGTTC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1099" Name="ruvC" Position="-44" Score="4.5">
+          <Sequence>GTTGCTATTTTGTTC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA0318" Name="yifB" Position="-67" Score="4.4">
+          <Sequence>GTTCACTTAATGTTC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1033" Name="PF04055" Position="-38" Score="5.7">
+          <Sequence>GTTCTTGATTTGTTC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA2802" Name="uvrD2" Position="-53" Score="0.4">
+          <Sequence>GAACAAAGCAGGAAT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA3089" Name="radA" Position="-54" Score="1.6">
+          <Sequence>GAACAAAATGTGAAC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA0620" Name="rmuC" Position="-18" Score="4.8">
+          <Sequence>GTTCTATCTTCGTTC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA3851" Name="recA" Position="-84" Score="0.7">
+          <Sequence>GAACAAATGGGGTAC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4380" Name="rna" Position="-63" Score="4.5">
+          <Sequence>GTTCTTGAAACGTTC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1801" Name="imuA" Position="-76" Score="1.8">
+          <Sequence>GAACATATCATGAAC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA2814" Name="ssb" Position="-229" Score="1.1">
+          <Sequence>GAACAAAAATAGAAC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="571235" LocusId="RPA1801" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="571236" LocusId="RPA1802" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+          <Members vimssId="571237" LocusId="RPA1803" Name="dnaE2" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="572347" LocusId="RPA2903" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="572261" LocusId="RPA2816" Name="uvrA" Function="Excinuclease ABC subunit A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570464" LocusId="RPA1033" Name="PF04055" Function="Radical SAM domain protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="572247" LocusId="RPA2802" Name="uvrD2" Function="ATP-dependent DNA helicase II" />
+        </Operon>
+        <Operon>
+          <Members vimssId="572535" LocusId="RPA3089" Name="radA" Function="DNA repair protein RadA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="573307" LocusId="RPA3851" Name="recA" Function="Recombinase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="573838" LocusId="RPA4380" Name="rna" Function="Ribonuclease T2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570531" LocusId="RPA1099" Name="ruvC" Function="Crossover junction endodeoxyribonuclease RuvC (EC 3.1.22.4)" />
+          <Members vimssId="570532" LocusId="RPA1100" Name="ruvA" Function="Holliday junction DNA helicase RuvA" />
+          <Members vimssId="570533" LocusId="RPA1101" Name="cdd" Function="Cytidine deaminase (EC 3.5.4.5)" />
+          <Members vimssId="570534" LocusId="RPA1102" Name="ruvB" Function="Holliday junction DNA helicase RuvB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="569741" LocusId="RPA0318" Name="yifB" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570048" LocusId="RPA0620" Name="rmuC" Function="DNA recombination protein RmuC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="572259" LocusId="RPA2814" Name="ssb" Function="Single-stranded DNA-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2985</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58453" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdopterin biosynthesis</Pathway>
+      <LocusTag Key="RPA0147" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=569567&amp;disp=0" />
+      <BiologicalProcess>Molybdopterin biosynthesis</BiologicalProcess>
+      <Regulog Key="ModE - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5981" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA0152" Name="RPA0152" Position="-79" Score="5.2">
+          <Sequence>TTGTTTACTCAGATTACATAT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4718" Name="modE" Position="-54" Score="4.5">
+          <Sequence>TTATATAGTTCTTGCATATGA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="574190" LocusId="RPA4718" Name="modE" Function="Molybdate-responsive transcriptional regulator ModE" />
+          <Members vimssId="574189" LocusId="RPA4717" Name="modA" Function="Molybdenum ABC transporter, periplasmic molybdenum-binding protein ModA (TC 3.A.1.8.1)" />
+          <Members vimssId="574188" LocusId="RPA4716" Name="modB" Function="Molybdenum transport system permease protein ModB (TC 3.A.1.8.1)" />
+          <Members vimssId="574187" LocusId="RPA4715" Name="modC" Function="Molybdate ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="569572" LocusId="RPA0152" Name="RPA0152" Function="Hypothetical protein" />
+          <Members vimssId="569571" LocusId="RPA0151" Name="RPA0151" Function="Putative ABC transporter, substrate-binding protein" />
+          <Members vimssId="569570" LocusId="RPA0150" Name="RPA0150" Function="Putative ABC transporter, permease protein" />
+          <Members vimssId="569569" LocusId="RPA0149" Name="RPA0149" Function="Putative ABC transporter, ATP-binding protein" />
+          <Members vimssId="569568" LocusId="RPA0148" Name="modC2" Function="ABC-type molybdate transport system, ATP-binding protein" />
+          <Members vimssId="569567" LocusId="RPA0147" Name="modE" Function="Molybdate-responsive transcriptional regulator ModE" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5981</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Mur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19515" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Manganese homeostasis</Pathway>
+      <LocusTag Key="RPA0450" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=569875&amp;disp=0" />
+      <BiologicalProcess>Manganese homeostasis</BiologicalProcess>
+      <Regulog Key="Mur - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2109" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA2706" Name="mntH" Position="-47" Score="5.8">
+          <Sequence>ATTGCAAATGACTTGCAAG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA0424" Name="irr1" Position="-85" Score="4.3">
+          <Sequence>GTTGCGAAGCGCTTGCACC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="572149" LocusId="RPA2706" Name="mntH" Function="Manganese transport protein MntH" />
+        </Operon>
+        <Operon>
+          <Members vimssId="569849" LocusId="RPA0424" Name="irr1" Function="Iron-responsive regulator Irr paralog" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2109</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NadQ" RegulationMode="repressor">
+      <Regulator Key="NadQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15233" />
+      <Effector />
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="RPA1063" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=570494&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NadQ - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1634" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA1055" Name="nadA" Position="-186" Score="5.9">
+          <Sequence>TTATGCTCTGAATGAGGATAA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1055" Name="nadA" Position="-48" Score="6.3">
+          <Sequence>ATATGCTCAAACTGAGTATAT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="570486" LocusId="RPA1055" Name="nadA" Function="Quinolinate synthetase (EC 4.1.99.-)" />
+          <Members vimssId="570485" LocusId="RPA1054" Name="nadB" Function="L-aspartate oxidase (EC 1.4.3.16)" />
+          <Members vimssId="570484" LocusId="RPA1053" Name="nadC" Function="Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1634</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator">
+      <Regulator Key="NifA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63774" />
+      <Effector />
+      <Pathway>Nitrogen fixation</Pathway>
+      <LocusTag Key="RPA4632" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=574097&amp;disp=0" />
+      <BiologicalProcess>Nitrogen fixation</BiologicalProcess>
+      <Regulog Key="NifA - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6581" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA4631" Name="fdxN" Position="-129" Score="4.3">
+          <Sequence>TGTCGGGGGCCTTACA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4610" Name="iscN" Position="-123" Score="5.3">
+          <Sequence>TGTCGGACCTCCGACA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4605" Name="fixB" Position="-184" Score="5.5">
+          <Sequence>TGTCGCCTTCCCGACA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4631" Name="fdxN" Position="-147" Score="5.1">
+          <Sequence>TGTCAGACTTGCGACA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4620" Name="nifH" Position="-252" Score="4.4">
+          <Sequence>TGTCGGATTCTAAACA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4610" Name="iscN" Position="-140" Score="4">
+          <Sequence>CGTCGGCTTCACGACG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1373" Name="nifE" Position="-198" Score="4.5">
+          <Sequence>TGTCGGATTTTTGACG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1373" Name="nifE" Position="-223" Score="4.4">
+          <Sequence>TGTCAGATTCACAACA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4633" Name="fixR" Position="-161" Score="4.6">
+          <Sequence>TGTCGCAAAGCCAACG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4633" Name="fixR" Position="-118" Score="3.7">
+          <Sequence>TGTCGTTGTGATGACA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA0962" Name="hupS" Position="-202" Score="3.7">
+          <Sequence>TGTCAGCGCCGCAACC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1001" Name="cheY" Position="-147" Score="4.5">
+          <Sequence>TGTCAGGTTTGCGACC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4634" Name="xdhC" Position="-111" Score="4.6">
+          <Sequence>CGTTGGCTTTGCGACA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="570393" LocusId="RPA0962" Name="hupS" Function="Uptake hydrogenase small subunit precursor (EC 1.12.99.6)" />
+          <Members vimssId="570394" LocusId="RPA0963" Name="hupL" Function="Uptake hydrogenase large subunit (EC 1.12.99.6)" />
+          <Members vimssId="570395" LocusId="RPA0964" Name="hupC" Function="Ni,Fe-hydrogenase I cytochrome b subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570806" LocusId="RPA1373" Name="nifE" Function="Nitrogenase FeMo-cofactor scaffold and assembly protein NifE" />
+          <Members vimssId="570805" LocusId="RPA1372" Name="nifN" Function="Nitrogenase FeMo-cofactor scaffold and assembly protein NifN" />
+          <Members vimssId="570804" LocusId="RPA1371" Name="nifX" Function="Nitrogenase FeMo-cofactor carrier protein NifX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="574070" LocusId="RPA4605" Name="fixB" Function="Electron transfer flavoprotein, beta subunit" />
+          <Members vimssId="574069" LocusId="RPA4604" Name="fixA" Function="Electron transfer flavoprotein, alpha subunit" />
+          <Members vimssId="574068" LocusId="RPA4603" Name="fixC" Function="Electron-transferring-flavoprotein dehydrogenase" />
+          <Members vimssId="574067" LocusId="RPA4602" Name="fixX" Function="Ferredoxin-like protein, FixX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="574075" LocusId="RPA4610" Name="iscN" Function="Fe-S cofactor nitrogenase synthesis protein IscN" />
+          <Members vimssId="574074" LocusId="RPA4609" Name="nifU" Function="Iron-sulfur cluster assembly scaffold protein NifU" />
+          <Members vimssId="574073" LocusId="RPA4608" Name="nifS" Function="Cysteine desulfurase (EC 2.8.1.7), NifS subfamily" />
+          <Members vimssId="574072" LocusId="RPA4607" Name="nifV" Function="Homocitrate synthase (EC 2.3.3.14)" />
+          <Members vimssId="574071" LocusId="RPA4606" Name="nifW" Function="Nitrogenase stabilizing/protective protein NifW" />
+        </Operon>
+        <Operon>
+          <Members vimssId="574085" LocusId="RPA4620" Name="nifH" Function="Nitrogenase (molybdenum-iron) reductase and maturation protein NifH" />
+          <Members vimssId="574084" LocusId="RPA4619" Name="nifD" Function="Nitrogenase (molybdenum-iron) alpha chain (EC 1.18.6.1)" />
+          <Members vimssId="574083" LocusId="RPA4618" Name="nifK" Function="Nitrogenase (molybdenum-iron) beta chain (EC 1.18.6.1)" />
+          <Members vimssId="574082" LocusId="RPA4617" Name="nifE" Function="Nitrogenase FeMo-cofactor scaffold and assembly protein NifE" />
+          <Members vimssId="574081" LocusId="RPA4616" Name="nifN" Function="Nitrogenase FeMo-cofactor scaffold and assembly protein NifN" />
+          <Members vimssId="574080" LocusId="RPA4615" Name="nifX" Function="Nitrogenase FeMo-cofactor carrier protein NifX" />
+          <Members vimssId="574079" LocusId="RPA4614" Name="PF03270" Function="Conserved hypothetical protein, probably related to nitrogen fixation protein" />
+          <Members vimssId="574078" LocusId="RPA4613" Name="PF05082" Function="Conserved hypothetical protein, probably related to nitrogen fixation protein" />
+          <Members vimssId="574077" LocusId="RPA4612" Name="fdxB" Function="Nitrogenase specific ferredoxin III protein FdxB" />
+          <Members vimssId="574076" LocusId="RPA4611" Name="nifQ" Function="Nitrogenase FeMo-cofactor synthesis molybdenum delivery protein NifQ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="574096" LocusId="RPA4631" Name="fdxN" Function="4Fe-4S ferredoxin, nitrogenase-associated" />
+          <Members vimssId="574095" LocusId="RPA4630" Name="nifB" Function="Nitrogenase FeMo-cofactor synthesis FeS core scaffold and assembly protein NifB" />
+          <Members vimssId="574094" LocusId="RPA4629" Name="frxA" Function="2(4Fe-4S) ferredoxin in Nif regulon, iron-sulfur compound bisynthesis" />
+          <Members vimssId="574093" LocusId="RPA4628" Name="hesB" Function="probable iron binding protein from the HesB_IscA_SufA family in Nif operon" />
+          <Members vimssId="574092" LocusId="RPA4627" Name="RPA4627" Function="Conserved hypothetical protein, associated with nitrogen fixation genes" />
+          <Members vimssId="574091" LocusId="RPA4626" Name="PF05484" Function="LRV (FeS)4 cluster domain protein clustered with nitrogenase cofactor synthesis" />
+          <Members vimssId="574090" LocusId="RPA4625" Name="nifZ" Function="Nitrogen fixation protein NifZ" />
+          <Members vimssId="574089" LocusId="RPA4624" Name="nifZ" Function="Nitrogen fixation protein NifZ" />
+          <Members vimssId="574088" LocusId="RPA4623" Name="nifT" Function="Nitrogen fixation protein NifT" />
+        </Operon>
+        <Operon>
+          <Members vimssId="574099" LocusId="RPA4634" Name="xdhC" Function="Xanthine and CO dehydrogenases maturation factor, XdhC/CoxF family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570432" LocusId="RPA1001" Name="cheY" Function="Predicted response regulator receiver protein" />
+          <Members vimssId="570431" LocusId="RPA1000" Name="nifO" Function="Nitrogenase-associated protein NifO" />
+        </Operon>
+        <Operon>
+          <Members vimssId="574098" LocusId="RPA4633" Name="fixR" Function="Oxidoreductase, short chain dehydrogenase/reductase family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6581</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NikR" RegulationMode="repressor">
+      <Regulator Key="NikR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15953" />
+      <Effector>Nickel ion, (Ni2+)</Effector>
+      <Pathway>Nickel homeostasis</Pathway>
+      <LocusTag Key="RPA4756" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=574228&amp;disp=0" />
+      <BiologicalProcess>Nickel homeostasis</BiologicalProcess>
+      <Regulog Key="NikR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1715" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA4757" Name="omp_Ni" Position="-89" Score="7.7">
+          <Sequence>GTATGAA--------------GTCATAC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4756" Name="nikR" Position="-59" Score="7.7">
+          <Sequence>GTATGAC--------------TTCATAC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="574229" LocusId="RPA4757" Name="omp_Ni" Function="Predicted outer membrane nickel transporter, TonB-dependent family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="574228" LocusId="RPA4756" Name="nikR" Function="Nickel responsive regulator NikR, CopG family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1715</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="NnrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16857" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Denitrification</Pathway>
+      <LocusTag Key="RPA4143" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=573601&amp;disp=0" />
+      <BiologicalProcess>Denitrification</BiologicalProcess>
+      <Regulog Key="NnrR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1816" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA1455" Name="norC" Position="-101" Score="5">
+          <Sequence>CGTTGAGCCAGCACAAAG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1452" Name="" Position="-106" Score="4.7">
+          <Sequence>CGTTGTGCCGCGACAAAC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1452" Name="" Position="-69" Score="4.4">
+          <Sequence>GCTTGCGCCCCGACAAAC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1485" Name="nnrU" Position="-108" Score="4.1">
+          <Sequence>GGTTGACGCACGACAACG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4145" Name="nirK" Position="-190" Score="4.5">
+          <Sequence>CTTTGTCGCGCAACAACG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4145" Name="nirK" Position="-84" Score="4.6">
+          <Sequence>GCTTGTGCTGGGACAAAC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1486" Name="nnrS" Position="-89" Score="5">
+          <Sequence>GTTTGCGCTGGCACAACC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1453" Name="norE" Position="-86" Score="4.4">
+          <Sequence>GTTTGTCGGGGCGCAAGC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1453" Name="norE" Position="-49" Score="4.7">
+          <Sequence>GTTTGTCGCGGCACAACG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA0932" Name="nnrX" Position="-67" Score="5.1">
+          <Sequence>CTTTGATCAGGCGCAAAG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA0931" Name="ubiD" Position="-66" Score="5.1">
+          <Sequence>CTTTGCGCCTGATCAAAG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4143" Name="nnrR" Position="-229" Score="4.3">
+          <Sequence>ATTTGCGGTTCGGGAAAG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA2059" Name="PF02915" Position="-57" Score="5">
+          <Sequence>ATTTGCGCCAGCGCAAAT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA2060" Name="nosR" Position="-128" Score="5">
+          <Sequence>ATTTGCGCTGGCGCAAAT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="573603" LocusId="RPA4145" Name="nirK" Function="Copper-containing nitrite reductase (EC 1.7.2.1)" />
+          <Members vimssId="573604" LocusId="RPA4146" Name="nirV" Function="Nitrite reductase accessory protein NirV" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570917" LocusId="RPA1485" Name="nnrU" Function="NnrU family protein, required for expression of nitric oxide and nitrite reductases (Nir and Nor)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570885" LocusId="RPA1452" Name="null" Function="bsl3211; hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570918" LocusId="RPA1486" Name="nnrS" Function="NnrS protein involved in response to NO" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570886" LocusId="RPA1453" Name="norE" Function="Nitric oxide reductase activation protein NorE" />
+          <Members vimssId="570887" LocusId="RPA1454" Name="norF" Function="Nitric oxide reductase activation protein NorF" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570363" LocusId="RPA0932" Name="nnrX" Function="Putative lipid carrier protein" />
+          <Members vimssId="570364" LocusId="RPA0933" Name="PF01136" Function="Putative protease" />
+          <Members vimssId="570365" LocusId="RPA0934" Name="PF01136" Function="Putative protease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570362" LocusId="RPA0931" Name="ubiD" Function="3-polyprenyl-4-hydroxybenzoate carboxy-lyase (EC 4.1.1.-)" />
+          <Members vimssId="570361" LocusId="RPA0930" Name="ubiX" Function="3-polyprenyl-4-hydroxybenzoate carboxy-lyase UbiX (EC 4.1.1.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="573601" LocusId="RPA4143" Name="nnrR" Function="Nitric oxide-responding transcriptional regulator NnrR, Crp family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="571494" LocusId="RPA2059" Name="PF02915" Function="Rubrerythrin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="571495" LocusId="RPA2060" Name="nosR" Function="Nitrous oxide reductase maturation protein" />
+          <Members vimssId="571496" LocusId="RPA2061" Name="nosZ" Function="Nitrous-oxide reductase (EC 1.7.99.6)" />
+          <Members vimssId="571497" LocusId="RPA2062" Name="nosD" Function="Nitrous oxide reductase maturation protein NosD" />
+          <Members vimssId="571498" LocusId="RPA2063" Name="nosF" Function="Nitrous oxide reductase maturation protein NosF (ATPase)" />
+          <Members vimssId="571499" LocusId="RPA2064" Name="nosY" Function="Nitrous oxide reductase maturation transmembrane protein NosY" />
+          <Members vimssId="571500" LocusId="RPA2065" Name="nosL" Function="Nitrous oxide reductase maturation protein, outer-membrane lipoprotein NosL" />
+          <Members vimssId="571501" LocusId="RPA2066" Name="nosX" Function="Nitrous oxide reductase maturation periplasmic protein NosX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570888" LocusId="RPA1455" Name="norC" Function="Nitric-oxide reductase subunit C (EC 1.7.99.7)" />
+          <Members vimssId="570889" LocusId="RPA1456" Name="norB" Function="Nitric-oxide reductase subunit B (EC 1.7.99.7)" />
+          <Members vimssId="570890" LocusId="RPA1457" Name="norQ" Function="Nitric oxide reductase activation protein NorQ" />
+          <Members vimssId="570891" LocusId="RPA1458" Name="norD" Function="Nitric oxide reductase activation protein NorD" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1816</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15587" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="RPA2725" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=572169&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1674" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA2977" Name="nrdJ" Position="-409" Score="5.1">
+          <Sequence>CCACCACATTTAGTAT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="572424" LocusId="RPA2977" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1674</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19357" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="RPA2593" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=572035&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2091" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA1473" Name="dppA" Position="-132" Score="4.9">
+          <Sequence>TGCACATTATTTATGCA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA3669" Name="urtA" Position="-246" Score="4">
+          <Sequence>AGTGCAATAATTAATCA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA0274" Name="glnK" Position="-240" Score="4.4">
+          <Sequence>TGCCTGATTATTGATCA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1410" Name="uctA" Position="-243" Score="3.7">
+          <Sequence>TGCACATTGTTTGTGCC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA2591" Name="nifR3" Position="-92" Score="4.6">
+          <Sequence>TGCTCAAACATTGAGCG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA3669" Name="urtA" Position="-216" Score="4.3">
+          <Sequence>TGATCAATTGTTGTGCT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA2966" Name="glnB" Position="-320" Score="4.8">
+          <Sequence>TGCTGAATAATTGATCA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="572413" LocusId="RPA2966" Name="glnB" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="572414" LocusId="RPA2967" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="572033" LocusId="RPA2591" Name="nifR3" Function="Predicted oxidoreductase, FAD binding" />
+          <Members vimssId="572034" LocusId="RPA2592" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="572035" LocusId="RPA2593" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="573125" LocusId="RPA3669" Name="urtA" Function="Urea ABC transporter, substrate-binding component" />
+          <Members vimssId="573124" LocusId="RPA3668" Name="urtB" Function="Urea ABC transporter, permease component 1" />
+          <Members vimssId="573123" LocusId="RPA3667" Name="urtC" Function="Urea ABC transporter, permease component 2" />
+          <Members vimssId="573122" LocusId="RPA3666" Name="urtD" Function="Urea ABC transporter, ATP-binding component 1" />
+          <Members vimssId="573121" LocusId="RPA3665" Name="urtE" Function="Urea ABC transporter, ATP-binding component 2" />
+          <Members vimssId="573120" LocusId="RPA3664" Name="ureD" Function="Urease accessory protein, UreD" />
+          <Members vimssId="573119" LocusId="RPA3663" Name="ureA" Function="Urease, gamma subunit (EC 3.5.1.5)" />
+          <Members vimssId="573118" LocusId="RPA3662" Name="ureB" Function="Urease, beta subunit (EC 3.5.1.5)" />
+          <Members vimssId="573117" LocusId="RPA3661" Name="null" Function="Metal dependent phosphohydrolase" />
+          <Members vimssId="573116" LocusId="RPA3660" Name="ureC" Function="Urease, alpha subunit (EC 3.5.1.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570843" LocusId="RPA1410" Name="uctA" Function="Urea carboxylase-related ABC transporter, substrate-binding component" />
+          <Members vimssId="570842" LocusId="RPA1409" Name="uctB" Function="Urea carboxylase-related ABC transporter, permease component" />
+          <Members vimssId="570841" LocusId="RPA1408" Name="uctC" Function="Urea carboxylase-related ABC transporter, ATP-binding component" />
+          <Members vimssId="570840" LocusId="RPA1407" Name="uahC" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="570839" LocusId="RPA1406" Name="uahB" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="570838" LocusId="RPA1405" Name="uahA" Function="Urea carboxylase (EC 6.3.4.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="569697" LocusId="RPA0274" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="569698" LocusId="RPA0275" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570905" LocusId="RPA1473" Name="dppA" Function="Dipeptide ABC transporter, substrate-binding component" />
+          <Members vimssId="570904" LocusId="RPA1472" Name="dppB" Function="Dipeptide ABC transporter, permease component 1" />
+          <Members vimssId="570903" LocusId="RPA1471" Name="dppC" Function="Dipeptide ABC transporter, permease component 2" />
+          <Members vimssId="570902" LocusId="RPA1470" Name="dppDE" Function="Dipeptide ABC transporter, ATP-binding component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2091</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PaaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38898" />
+      <Effector>Phenylacetyl-CoA</Effector>
+      <Pathway>Phenylacetic acid degradation</Pathway>
+      <LocusTag Key="RPA3769" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=573225&amp;disp=0" />
+      <BiologicalProcess>Phenylacetic acid degradation</BiologicalProcess>
+      <Regulog Key="PaaR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3973" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA4019" Name="livK" Position="-144" Score="6.3">
+          <Sequence>ATTGACCGACCGTTCGGTTAAG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1724" Name="paaY" Position="-138" Score="5.7">
+          <Sequence>ATTGACTGACCGATCGTTCAAT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA3768" Name="paaA" Position="-53" Score="5.9">
+          <Sequence>ATTGACCGTCCAATTGGTCAAT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1725" Name="paaZ" Position="-108" Score="5.7">
+          <Sequence>ATTGAACGATCGGTCAGTCAAT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA3769" Name="paaR" Position="-91" Score="5.9">
+          <Sequence>ATTGACCAATTGGACGGTCAAT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="571159" LocusId="RPA1725" Name="paaZ" Function="Aldehyde dehydrogenase (EC 1.2.1.3), PaaZ" />
+          <Members vimssId="571160" LocusId="RPA1726" Name="blr2898" Function="putative zinc binding dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="573225" LocusId="RPA3769" Name="paaR" Function="Transcriptional regulator of phenylacetic acid degradation, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="573475" LocusId="RPA4019" Name="livK" Function="Putative branched-chain amino acid ABC transporter, substrate-binding component" />
+          <Members vimssId="573476" LocusId="RPA4020" Name="livH" Function="Putative branched-chain amino acid ABC transporter, permease component" />
+          <Members vimssId="573477" LocusId="RPA4021" Name="livF" Function="Putative branched-chain amino acid ABC transporter, permease component 2" />
+          <Members vimssId="573478" LocusId="RPA4022" Name="livM1" Function="utative branched-chain amino acid ABC transporter, ATPase component 1" />
+          <Members vimssId="573479" LocusId="RPA4023" Name="livM2" Function="utative branched-chain amino acid ABC transporter, ATPase component 2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="571158" LocusId="RPA1724" Name="paaY" Function="thioesterase superfamily protein" />
+          <Members vimssId="571157" LocusId="RPA1723" Name="paaK" Function="Phenylacetate-coenzyme A ligase (EC 6.2.1.30)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="573224" LocusId="RPA3768" Name="paaA" Function="Phenylacetate-CoA oxygenase, PaaA subunit" />
+          <Members vimssId="573223" LocusId="RPA3767" Name="paaB" Function="Phenylacetate-CoA oxygenase, PaaB subunit" />
+          <Members vimssId="573222" LocusId="RPA3766" Name="paaC" Function="Phenylacetate-CoA oxygenase, PaaC subunit" />
+          <Members vimssId="573221" LocusId="RPA3765" Name="paaD" Function="Phenylacetate-CoA oxygenase, PaaD subunit" />
+          <Members vimssId="573220" LocusId="RPA3764" Name="paaE" Function="Probable phenylacetic acid degradation NADH oxidoreductase paaE (EC 1.-.-.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3973</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60524" />
+      <Effector />
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="RPA2797" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=572242&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6215" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA2796" Name="glyA" Position="-128" Score="10.5">
+          <Sequence>AATTGGTTGG-(13)-AAGTGGAAGG-(6)-CAGACCACGC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA2798" Name="PF03594" Position="-58" Score="13.4">
+          <Sequence>AAATGGTCTG-(13)-TAATGGAGGG-(6)-CAGGCCACCG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="572243" LocusId="RPA2798" Name="PF03594" Function="Putative pyridoxine transport protein" />
+          <Members vimssId="572244" LocusId="RPA2799" Name="pdxK" Function="Pyridoxal kinase (EC 2.7.1.35)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="572241" LocusId="RPA2796" Name="glyA" Function="Serine hydroxymethyltransferase (EC 2.1.2.1)" />
+          <Members vimssId="572240" LocusId="RPA2795" Name="PF01168" Function="PLP-binding protein involved in PLP homeostasis" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6215</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PhnF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31676" />
+      <Effector />
+      <Pathway>Phosphonate utilization</Pathway>
+      <LocusTag Key="RPA0696" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=570125&amp;disp=0" />
+      <BiologicalProcess>Phosphonate utilization</BiologicalProcess>
+      <Regulog Key="PhnF - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3274" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA0695" Name="phnG" Position="-39" Score="6.5">
+          <Sequence>TTGTCTATTAACATAGACAA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA0696" Name="phnF" Position="-92" Score="6.5">
+          <Sequence>TTGTCTATGTTAATAGACAA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="570125" LocusId="RPA0696" Name="phnF" Function="Transcriptional regulator for phosphonate utilization, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570124" LocusId="RPA0695" Name="phnG" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnG" />
+          <Members vimssId="570123" LocusId="RPA0694" Name="phnH" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnH" />
+          <Members vimssId="570122" LocusId="RPA0693" Name="phnI" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnI" />
+          <Members vimssId="570121" LocusId="RPA0692" Name="phnJ" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnJ" />
+          <Members vimssId="570120" LocusId="RPA0691" Name="phnK" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnK" />
+          <Members vimssId="570119" LocusId="RPA0690" Name="phnL" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnL" />
+          <Members vimssId="570118" LocusId="RPA0689" Name="phnM" Function="Alpha-D-ribose-1-methylphosphonate-5-triphosphate hydrolase" />
+          <Members vimssId="570117" LocusId="RPA0688" Name="phnN" Function="Ribose 1,5-bisphosphokinase activity (phosphoribosyl diphosphate forming)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3274</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PsrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29744" />
+      <Effector>Oleate</Effector>
+      <Pathway>Fatty acid degradation</Pathway>
+      <LocusTag Key="RPA3290" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=572739&amp;disp=0" />
+      <BiologicalProcess>Fatty acid degradation</BiologicalProcess>
+      <Regulog Key="PsrA - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3104" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA3289" Name="acdH" Position="-214" Score="5.8">
+          <Sequence>ATTCAAACAGCTGTATGAAA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA3289" Name="acdH" Position="-201" Score="5.6">
+          <Sequence>TATGAAACTATCGTTTCACA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA3290" Name="psrA" Position="-63" Score="5.6">
+          <Sequence>TGTGAAACGATAGTTTCATA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA3290" Name="psrA" Position="-50" Score="5.8">
+          <Sequence>TTTCATACAGCTGTTTGAAT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="572739" LocusId="RPA3290" Name="psrA" Function="Transcriptional regulator for fatty acid degradation PsrA, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="572738" LocusId="RPA3289" Name="acdH" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3104</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="RPA0105" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62086" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="RPA0105" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=569525&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="RPA0105 - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6379" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA0112" Name="betB" Position="-64" Score="7.5">
+          <Sequence>CTGGCCCAAT-------------CTGGACCTTC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA0104" Name="COG1574" Position="-85" Score="9.3">
+          <Sequence>CTGGCTCCAT-------------CTGGCGCTAG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="569524" LocusId="RPA0104" Name="COG1574" Function="Amidohydrolase" />
+          <Members vimssId="569523" LocusId="RPA0103" Name="COG0523" Function="Cobalamin synthesis protein/P47K" />
+          <Members vimssId="569522" LocusId="RPA0102" Name="oppA" Function="Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)" />
+          <Members vimssId="569521" LocusId="RPA0101" Name="oppB" Function="Oligopeptide transport system permease protein OppB (TC 3.A.1.5.1)" />
+          <Members vimssId="569520" LocusId="RPA0100" Name="oppC" Function="Oligopeptide transport system permease protein OppC (TC 3.A.1.5.1)" />
+          <Members vimssId="569519" LocusId="RPA0099" Name="oppD" Function="Oligopeptide transport ATP-binding protein OppD (TC 3.A.1.5.1)" />
+          <Members vimssId="569518" LocusId="RPA0098" Name="oppF" Function="Oligopeptide transport ATP-binding protein OppF (TC 3.A.1.5.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="569532" LocusId="RPA0112" Name="betB" Function="Betaine aldehyde dehydrogenase (EC 1.2.1.8)" />
+          <Members vimssId="569531" LocusId="RPA0111" Name="COG0730" Function="protein of unknown function DUF81" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6379</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="TauR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63826" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="RPA0105" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=569525&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="TauR2 - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6586" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA0104" Name="COG1574" Position="-85" Score="9.3">
+          <Sequence>CTGGCTCCAT-------------CTGGCGCTAG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA0105" Name="TauR2" Position="-186" Score="7.1">
+          <Sequence>CTAGCGCCAG-------------ATGGAGCCAG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA0112)" Name="betB COG1012 (PutA" Position="-64" Score="7.5">
+          <Sequence>CTGGCCCAAT-------------CTGGACCTTC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="569525" LocusId="RPA0105" Name="TauR2" Function="Transcriptional regulator, GntR family domain / Aspartate aminotransferase (EC 2.6.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="569524" LocusId="RPA0104" Name="COG1574" Function="Amidohydrolase" />
+          <Members vimssId="569523" LocusId="RPA0103" Name="COG0523" Function="Cobalamin synthesis protein/P47K" />
+          <Members vimssId="569522" LocusId="RPA0102" Name="oppA" Function="Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)" />
+          <Members vimssId="569521" LocusId="RPA0101" Name="oppB" Function="Oligopeptide transport system permease protein OppB (TC 3.A.1.5.1)" />
+          <Members vimssId="569520" LocusId="RPA0100" Name="oppC" Function="Oligopeptide transport system permease protein OppC (TC 3.A.1.5.1)" />
+          <Members vimssId="569519" LocusId="RPA0099" Name="oppD" Function="Oligopeptide transport ATP-binding protein OppD (TC 3.A.1.5.1)" />
+          <Members vimssId="569518" LocusId="RPA0098" Name="oppF" Function="Oligopeptide transport ATP-binding protein OppF (TC 3.A.1.5.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="569532" LocusId="RPA0112" Name="betB COG1012 (PutA)" Function="Betaine aldehyde dehydrogenase (EC 1.2.1.8)" />
+          <Members vimssId="569531" LocusId="RPA0111" Name="COG0730" Function="Predicted permease, protein of unknown function DUF81" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6586</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="VanR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31480" />
+      <Effector>Vanillate</Effector>
+      <Pathway>Vanillate utilization</Pathway>
+      <LocusTag Key="RPA3620" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=573076&amp;disp=0" />
+      <BiologicalProcess>Vanillate utilization</BiologicalProcess>
+      <Regulog Key="VanR - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3253" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA3619" Name="vanA" Position="-108" Score="4.9">
+          <Sequence>TGTATACA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA3619" Name="vanA" Position="-44" Score="4.9">
+          <Sequence>TGTATACA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="573075" LocusId="RPA3619" Name="vanA" Function="Vanillate O-demethylase oxygenase subunit (EC 1.14.13.82)" />
+          <Members vimssId="573076" LocusId="RPA3620" Name="vanR" Function="Transcriptional regulator for ferulate or vanillate catabolism, GntR family" />
+          <Members vimssId="573077" LocusId="RPA3621" Name="vanB" Function="Flavodoxin reductases (ferredoxin-NADPH reductases) family 1; Vanillate O-demethylase oxidoreductase (EC 1.14.13.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3253</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16127" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="RPA0517" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=569943&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Rhizobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1734" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA4384" Name="PF11162" Position="-44" Score="5.2">
+          <Sequence>GCAATGTTACTTTATAACATCGG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA0858" Name="znuC" Position="-248" Score="5.1">
+          <Sequence>ATAATGTTATAATGTAACAGGTT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1462" Name="yciC2" Position="-65" Score="5.8">
+          <Sequence>TTTATGTAATGTTATAACGTTTC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="570894" LocusId="RPA1462" Name="yciC2" Function="Putative Putative zinc chaperone, COG0523 family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="573842" LocusId="RPA4384" Name="PF11162" Function="Conserved hypothetical protein" />
+          <Members vimssId="573843" LocusId="RPA4385" Name="omr" Function="Predicted zinc-regulated TonB-dependent outer membrane transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570288" LocusId="RPA0858" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="570289" LocusId="RPA0859" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+          <Members vimssId="570290" LocusId="RPA0860" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+          <Members vimssId="570291" LocusId="RPA0861" Name="yciC" Function="Putative zinc chaperone, COG0523 family" />
+          <Members vimssId="570292" LocusId="RPA0862" Name="PF00400" Function="Conserved hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1734</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35993" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA2397" Name="metE" Position="-303" Score="132.1">
+          <Sequence>ATAGTGATCGCCGTCGAGGTTCTTCGGGCACGATCGTCCCGAAGCTAAGAGGGAAGCCGGTGCAAGGCCGGCGCTGCCCCCGCAACTGTTAGCGGTGAGCCGACGTTCAGCAAAGCCACTGGGAGCGATCCCGGGAAGGTCGAACAAAGGCGATGACCCGCGAGCCAGGAGACCTGCCTCGTCGAACGAAACGTCCTC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4803" Name="btuB" Position="-310" Score="127.6">
+          <Sequence>CTTCTAATGGCGGTGACGGTTCCCGAGAGGGATGAAAAGGGAATACGGTGCGGACGCAGACACTTTCGCGTTCTAGGCCGTAGCTGTTCCCGCAACTGTAAGCGGATCGTCTTTCGTCGGATGCCACTGGGAACCTCGGTCCTGGGAAGGCGACGGAAGATCAACCGCGAGCCAGGAGACCTGCCGTCATTCGTGGTCACACGCG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA0713" Name="cfrX" Position="-217" Score="124">
+          <Sequence>CTAGCGTGCCAAGCGATGGTCCTTCCGTCAGGAAGGTGAAAAGGGAAGCCGGTGGGAGGCGCGGTGCGTCTCGATCCCGGAGCTGCCCCCGCAACTGTAAGCGACGAGCCATTGCCGAGGCCACTGGGAATTCCTGGGAAGGCGGCGAATGGCGGCGACTCGCGAGCCAGGAGACCTGCCATCGCGTATTGTGCTTTGAA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA2091" Name="" Position="-315" Score="119.3">
+          <Sequence>CCAAACATCGCGCGCCGACGGTGTCCTGTCTTCGGACAGGACGAAGAGGGAATATCGGAAGATCGCTGCCTGCAGCGGTCGCGCCGAAGCTGCCCCCGCAACTGTAAACGGTGAGCCGACGCAATACGCCACTGGATCATATCCGGGAAGGCCGCGTCGGCGACGACCCGTGAGCCAGGAGACCTGCCGTCGCCTGCTATGTTGAC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA0407" Name="btuB2" Position="-306" Score="136.6">
+          <Sequence>CAATACCGTGACCAGCGACGGTTCCCGAAAGGGATCAATAGGGAACGCGGTGCGGGCTTTAGGGCTCTATTCCGCGGCTGCCCCCGCAACTGTAAGCGGCGAGCCATTCGCCACACGCCACTGGGCTTTCGTCCTGGGAAGGCGGTGAACGGCAACGACCCGCGAGCCAGGAGACCTGCCGTCAGTCGTGGTCACACG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA0994" Name="crdX" Position="-389" Score="121.1">
+          <Sequence>CTGGTTTTGACGTCTTCGGTGCCTCGCGTGCGAGGTGAAACTGGGAATACGGTGCGGTGTTTTTCACCTAATCCGTAGCTGCCCCCGCAACTGTAGGCGGATCTGTCCGGATCATGTAGCCACTGACGTCCTCGGCGTCGGGAAGGCGGTCCAGGCGATATCCGTGAGCCAGGAGACCGGCCGAAGACGGGAAGCATCTAAC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA2094" Name="cobT" Position="-418" Score="111.5">
+          <Sequence>GTGGTGCCGCTCGCTTCGGTGCCCTTCGTTCGAAGGGTGAAACGGGAATGCGGTGCGGCGAGCAATCGCCAAGTCCGCGGCTGCCCCCGCAACTGTAAGCGGATCGTCTCCGGTCACTCCGCCACTGAGTTCGGCATCCTAGAGCCGCTCGGGAAGGCGACCGGGACAATGTCCGCGAGCCAGGAGACCGGCCGAAGTCCGCAACCAAGCC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA0724" Name="hoxN" Position="-289" Score="119.5">
+          <Sequence>ATTTGATCGCGCCCGTTCAGGTGTGCCGGGAATCGTCCGGCACAGGGAAGCCGGTGCGGGCCCAAGCTTATGGCCGCAAACCCAAATCCGGCGCTGCGCCCGCAACTGTGAGCGGTGAGCGATCCTTCAATCGGCCACTGGGCAGCACTTGCCCGGGAAGGCGAAGGATTGCGACGACCCGTGAGCCAGGAGACCGGCCTGAGTACGTCATCTTCCA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA2081" Name="btuF1" Position="-233" Score="122.9">
+          <Sequence>TAACCCGAGGTTGTACCGGTGCCTCTCGCCGAGAGAGGTGAAACGGGAATGCGGTGCGGGGCGATGCCCCAATGCCGCAGCTGCCCTCGCAACTGTGGGCGGATCGGAGCGTCCTCGCATGCCACTGACCAGATCGGTCGGGAAGGCGGACGCGCCGGATATCCGCGAGCCAGGAGACCGGCCGGTACAAGGTGTGCAACTCG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="570425" LocusId="RPA0994" Name="crdX" Function="Cobalamine-related hypothetical metal-binding protein CrdX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="571832" LocusId="RPA2397" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="571526" LocusId="RPA2091" Name="null" Function="Predicted non-orthologous displacement of CobG" />
+          <Members vimssId="571525" LocusId="RPA2090" Name="cbiC" Function="Cobalt-precorrin-8x methylmutase (EC 5.4.1.2)" />
+          <Members vimssId="571524" LocusId="RPA2089" Name="cbiL" Function="Cobalt-precorrin-2 C20-methyltransferase (EC 2.1.1.130)" />
+          <Members vimssId="571523" LocusId="RPA2088" Name="cbiH" Function="Cobalt-precorrin-3b C17-methyltransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570142" LocusId="RPA0713" Name="cfrX" Function="Predicted metal-binding protein" />
+          <Members vimssId="570143" LocusId="RPA0714" Name="cobU" Function="Adenosylcobinamide-phosphate guanylyltransferase (EC 2.7.7.62)" />
+          <Members vimssId="570144" LocusId="RPA0715" Name="cobW" Function="CobW GTPase involved in cobalt insertion for B12 biosynthesis" />
+          <Members vimssId="570145" LocusId="RPA0716" Name="cobN" Function="CobN component of cobalt chelatase involved in B12 biosynthesis" />
+          <Members vimssId="570146" LocusId="RPA0717" Name="btuR" Function="Cob(I)alamin adenosyltransferase (EC 2.5.1.17)" />
+          <Members vimssId="570147" LocusId="RPA0718" Name="cbiP" Function="Cobyric acid synthase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="571529" LocusId="RPA2094" Name="cobT" Function="Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase (EC 2.4.2.21)" />
+          <Members vimssId="571530" LocusId="RPA2095" Name="cobS" Function="Cobalamin synthase" />
+          <Members vimssId="571531" LocusId="RPA2096" Name="cbiP" Function="Cobyric acid synthase" />
+          <Members vimssId="571532" LocusId="RPA2097" Name="cobF" Function="Precorrin-6A synthase (EC 2.1.1.152)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570153" LocusId="RPA0724" Name="hoxN" Function="HoxN/HupN/NixA family cobalt transporter" />
+          <Members vimssId="570152" LocusId="RPA0723" Name="btuC1" Function="Vitamin B12 ABC transporter, permease component BtuC" />
+          <Members vimssId="570151" LocusId="RPA0722" Name="btuD1" Function="Vitamin B12 ABC transporter, ATPase component BtuD" />
+        </Operon>
+        <Operon>
+          <Members vimssId="571516" LocusId="RPA2081" Name="btuF1" Function="Vitamin B12 ABC transporter, B12-binding component BtuF" />
+        </Operon>
+        <Operon>
+          <Members vimssId="574276" LocusId="RPA4803" Name="btuB" Function="Outer membrane vitamin B12 receptor BtuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="569831" LocusId="RPA0407" Name="btuB2" Function="Outer membrane vitamin B12 receptor BtuB" />
+          <Members vimssId="569830" LocusId="RPA0406" Name="btuN" Function="Optional hypothetical component of the B12 transporter BtuN" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00504" RegulationMode="RF00504">
+      <Regulator Key="Glycine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37483" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="Glycine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA3848" Name="gcvT" Position="-223" Score="49.8">
+          <Sequence>TAAGTCGCGTCGGGAGAGATCGGCCGCAAGGCCGGCGCCGAAGGAGCAACCGCCCCGGAAACTCTCAGGCAAACGGACCGCGCGGCCG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA3848" Name="gcvT" Position="-136" Score="35.1">
+          <Sequence>GACTGACATCTGGAAAGAGACCCTGCCGGGCGATCCCGGGACGGGTCCGCCGACGGGATAATGCTCTCAGGCACAGCGACAGATGGGGCTCGAA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="573304" LocusId="RPA3848" Name="gcvT" Function="Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10)" />
+          <Members vimssId="573305" LocusId="RPA3849" Name="gcvH" Function="Glycine cleavage system H protein" />
+          <Members vimssId="573306" LocusId="RPA3850" Name="gcvP" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P1 protein) (EC 1.4.4.2) / Glycine dehydrogenase [decarboxylating] (glycine cleavage system P2 protein) (EC 1.4.4.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00521" RegulationMode="RF00521">
+      <Regulator Key="SAM_alpha" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37543" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="SAM_alpha" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA4437" Name="metX" Position="-184" Score="80.2">
+          <Sequence>AACCAGAACTCGTGGTCATTTGAGCCGGCCGGCTTGCAGCCACGTTAAACAACTCGCTAAACAGGCCGGGGACAGTTCCGA</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA4766" Name="metY" Position="-153" Score="86.2">
+          <Sequence>ACTTATCCCGTGGTGATTTGAGCCGGCCGGCTTGCAGCCACGTTAAACAAGTCGCTAAACAGGCCGGGGACGTTGTGGTCC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="574239" LocusId="RPA4766" Name="metY" Function="O-succinylhomoserine sulfhydrylase (EC 2.5.1.48) / O-acetylhomoserine sulfhydrylase (EC 2.5.1.49)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="573901" LocusId="RPA4437" Name="metX" Function="Homoserine O-acetyltransferase (EC 2.3.1.31)" />
+          <Members vimssId="573900" LocusId="RPA4436" Name="metW" Function="Methionine biosynthesis protein MetW" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37243" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA3573" Name="thiO" Position="-254" Score="60.2">
+          <Sequence>CCCGTTCCGAGGGGGGCTCCGACGAGGAGCTGAGATACCGCACGCTCGCCGCTTCGCTCCGCGAGGCACAGAGACCGCGGTGACCCTTTGAACCTGATCCGGGTCATGCCGGCGAAGGGACAGGGATGCATCAGACAGT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="573029" LocusId="RPA3573" Name="thiO" Function="Glycine oxidase ThiO (EC 1.4.3.19)" />
+          <Members vimssId="573030" LocusId="RPA3574" Name="thiS" Function="Thiamine biosynthesis protein ThiS" />
+          <Members vimssId="573031" LocusId="RPA3575" Name="thiG" Function="Thiazole biosynthesis protein ThiG" />
+          <Members vimssId="573032" LocusId="RPA3576" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+          <Members vimssId="573033" LocusId="RPA3577" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00513" RegulationMode="RF00513">
+      <Regulator Key="Trp_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37663" />
+      <Effector />
+      <Pathway>Tryptophan biosynthesis</Pathway>
+      <LocusTag Key="Trp_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA4498" Name="trpEG" Position="-138" Score="19.4">
+          <Sequence>ACGTCGTTGGTGGCGCACCTCCTGACCAGAGGTGGCCGTGCGATCCCGTTAATTTCCGATCGTCCTGAGGCCGCCACGCGAGGCGGCTTTCGTTT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="573961" LocusId="RPA4498" Name="trpEG" Function="Anthranilate synthase, aminase component (EC 4.1.3.27) / Anthranilate synthase, amidotransferase component (EC 4.1.3.27) @ Para-aminobenzoate synthase, amidotransferase component (EC 2.6.1.85) # TrpAa/TrpAb@PabAb" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01068" RegulationMode="RF01068">
+      <Regulator Key="mini-ykkC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37048" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="mini-ykkC" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA2284" Name="ykkc" Position="-132" Score="35.8">
+          <Sequence>ATCGAGGACGACCTCAAAATCACCTTTTCGGCCGGGACGACCCGG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="RPA1407" Name="amt1" Position="-73" Score="36">
+          <Sequence>CCGGCCGGGACGACCCGGCCGCACAGGGAGCATGAGCCGGGACGACCCGG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="571719" LocusId="RPA2284" Name="ykkc" Function="Quaternary ammonium compound-resistance protein sugE" />
+        </Operon>
+        <Operon>
+          <Members vimssId="570840" LocusId="RPA1407" Name="amt1" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="570839" LocusId="RPA1406" Name="amt2" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="570838" LocusId="RPA1405" Name="ucaA" Function="Urea carboxylase (EC 6.3.4.6)" />
+          <Members vimssId="570837" LocusId="RPA1404" Name="ucaB" Function="Allophanate hydrolase (EC 3.5.1.54)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00517" RegulationMode="RF00517">
+      <Regulator Key="serC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37378" />
+      <Effector />
+      <Pathway>Serine biosynthesis</Pathway>
+      <LocusTag Key="serC" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA4309" Name="serC" Position="-51" Score="62.8">
+          <Sequence>GCAGCGGGAAACCTCTCCCCACCGAGAGGCAGCTATCTGGAAGGATAGACTAT</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="573767" LocusId="RPA4309" Name="serC" Function="Phosphoserine aminotransferase (EC 2.6.1.52)" />
+          <Members vimssId="573766" LocusId="RPA4308" Name="serA" Function="D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00518" RegulationMode="RF00518">
+      <Regulator Key="speF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37408" />
+      <Effector />
+      <Pathway>Ornithine degradation</Pathway>
+      <LocusTag Key="speF" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA0870" Name="speF" Position="-467" Score="209">
+          <Sequence>CCTTGCCCAATTTCGCACGTGCCCGTGGTCGTGTGTCAGTCGGTAGGTATCCGGACAAGAGGCCGGACAGCCGCCAAGGGATGAAGAGCCGAGGGTCTCCAAGCGTTCGCGCAGCGAGGCCAGCATCTCTCTCAAGAGATGCCGTTGAAGGTGGCTTCCTCTCTTGCAACCGTGACTGACAGCCGGAGGCGAACCGGCGCACCTCGTTCTCAACGAGGGACGCGACTTAAAGCAACGACGGAGCGGGCTTTTTTGGTCTCTGCCGGCTTTCCATCAGCCGGCGCGAATACCGAAGAGGCTTGTCCTTCATTGCCAGTGAGCGGGCGGGATCCTTCCCAACCAATCCAAGGCAGCACTGCTCGTCCGAGCTGATCGCTCGTCGCGCCTCCATCGCGCGACGGCGCTGAAGCCGTCGG</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="570300" LocusId="RPA0870" Name="speF" Function="Ornithine decarboxylase (EC 4.1.1.17) / Arginine decarboxylase (EC 4.1.1.19)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00442" RegulationMode="RF00442">
+      <Regulator Key="ykkC-yxkD" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=37588" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="ykkC-yxkD" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="RPA1410" Name="uctB" Position="-181" Score="80.1">
+          <Sequence>CAGAGTTGGTGGCTAGGGTTCCGGCCTGTTTCAGGCGCTGGTCCGAGAGCTGCCCCCCGAAGGGAGAAATCCTTCGGACGCACGGCGGGACAAAAGCCCGGGAGAC</Sequence>
+          <Bacteria>Rhodopseudomonas palustris CGA009</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="570843" LocusId="RPA1410" Name="uctB" Function="Urea carboxylase-related ABC transporter, periplasmic substrate-binding protein" />
+          <Members vimssId="570842" LocusId="RPA1409" Name="uctP" Function="Urea carboxylase-related ABC transporter, permease protein" />
+          <Members vimssId="570841" LocusId="RPA1408" Name="uctA" Function="Urea carboxylase-related ABC transporter, ATPase protein" />
+          <Members vimssId="570840" LocusId="RPA1407" Name="amt3" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="570839" LocusId="RPA1406" Name="amt4" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="570838" LocusId="RPA1405" Name="ucaA" Function="Urea carboxylase (EC 6.3.4.6) # [Carbamoyl-phosphate synthase large chain (EC 6.3.5.5), ATP binding domain/Biotin carboxylase (EC 6.3.4.14)/Allophanate hydrolase 2 subunit 2 (EC 3.5.1.54)/Allophanate hydrolase 2 subunit 1 (EC 3.5.1.54)/Biotin carboxyl ..." />
+          <Members vimssId="570837" LocusId="RPA1404" Name="ucaB" Function="Allophanate hydrolase (EC 3.5.1.54)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Campylobacter lari RM2100" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48907" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Cla_1124" Name="thiD" Position="-118" Score="22.4">
+          <Sequence>TTTTAGCCAATGGGGAGCTTTTGCTGAGAGGAAGTTTGGCTTCGACCCTTGAGAAGTTTGGTAATGCAAACTTTGAATTTCTTGCAAAAACTT</Sequence>
+          <Bacteria>Campylobacter lari RM2100</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Cla_1025" Name="thiC" Position="-155" Score="53.7">
+          <Sequence>TTGCATAAATGACGGGAGCTTGTGTGACAGGCTGAGAGTAAGCTAAAGCTTAGACCGAACCAGAACTAGATAATGCTAGCGTTGGGAAGATTTATACTATATATG</Sequence>
+          <Bacteria>Campylobacter lari RM2100</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6888377" LocusId="Cla_1025" Name="thiC" Function="Thiamine biosynthesis protein ThiC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6888475" LocusId="Cla_1124" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+          <Members vimssId="6888474" LocusId="Cla_1123" Name="thiM" Function="Hydroxyethylthiazole kinase (EC 2.7.1.50)" />
+          <Members vimssId="6888473" LocusId="Cla_1122" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+          <Members vimssId="6888472" LocusId="Cla_1121" Name="hemD" Function="Uroporphyrinogen-III synthase (EC 4.2.1.75)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

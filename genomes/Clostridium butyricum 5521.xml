@@ -1,0 +1,2374 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Clostridium butyricum 5521" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="AgaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63128" />
+      <Effector />
+      <Pathway>N-acetylgalactosamine utilization</Pathway>
+      <LocusTag Key="CBY_3028" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5975227&amp;disp=0" />
+      <BiologicalProcess>N-acetylgalactosamine utilization</BiologicalProcess>
+      <Regulog Key="AgaR - Clostridia-1" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6506" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_3473" Name="CBY_3473" Position="-19" Score="4.7">
+          <Sequence>AAATTGGTTAATACCAAAAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3472" Name="agaA" Position="-285" Score="4.7">
+          <Sequence>TTTTTGGTATTAACCAATTT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3028" Name="agaR" Position="-201" Score="5.8">
+          <Sequence>TATTTGGTAATTACCACTTA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3029" Name="agaA2" Position="-51" Score="6">
+          <Sequence>TAAGTGGTAATTACCAGTTG</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3029" Name="agaA2" Position="-267" Score="5.8">
+          <Sequence>TAAGTGGTAATTACCAAATA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5974335" LocusId="CBY_3473" Name="CBY_3473" Function="PTS system, N-acetylgalactosamine- and galactosamine-specific IIB component (EC 2.7.1.69)" />
+          <Members vimssId="5974336" LocusId="CBY_3474" Name="CBY_3474" Function="PTS system, N-acetylgalactosamine- and galactosamine-specific IIC component (EC 2.7.1.69)" />
+          <Members vimssId="5974337" LocusId="CBY_3475" Name="CBY_3475" Function="PTS system, N-acetylgalactosamine- and galactosamine-specific IID component (EC 2.7.1.69)" />
+          <Members vimssId="5974338" LocusId="CBY_3476" Name="agaR" Function="Transcriptional regulator of N-Acetylgalactosamine utilization, GntR family" />
+          <Members vimssId="5974339" LocusId="CBY_3477" Name="agaS" Function="Galactosamine-6-phosphate isomerase (EC 5.3.1.-)" />
+          <Members vimssId="5974340" LocusId="CBY_3478" Name="CBY_3478" Function="PTS system, N-acetylgalactosamine- and galactosamine-specific IIA component (EC 2.7.1.69)" />
+          <Members vimssId="5974341" LocusId="CBY_3479" Name="agaY" Function="Tagatose 1,6-diphosphate aldolase (EC 4.1.2.40)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974334" LocusId="CBY_3472" Name="agaA" Function="N-acetylgalactosamine-6-phosphate deacetylase (EC 3.5.1.25)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975227" LocusId="CBY_3028" Name="agaR" Function="Transcriptional regulator of N-Acetylgalactosamine utilization, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975228" LocusId="CBY_3029" Name="agaA2" Function="N-acetylgalactosamine-6-phosphate deacetylase (EC 3.5.1.25)" />
+          <Members vimssId="5975229" LocusId="CBY_3030" Name="Cbei_4539" Function="Putative transcriptional regulator with PTS regulatory domain" />
+          <Members vimssId="5975230" LocusId="CBY_3031" Name="Cbei_4538" Function="PTS system, cellobiose-specific IIB component (EC 2.7.1.69)" />
+          <Members vimssId="5975231" LocusId="CBY_3032" Name="Cbei_4537" Function="PTS system, lichenan-, cellobiose-specific IIA component (EC 2.7.1.69); PTS system, cellobiose-specific IIC component (EC 2.7.1.69)" />
+          <Members vimssId="5975232" LocusId="CBY_3033" Name="agaK" Function="Predicted N-acetylgalactosamine kinase (EC 2.7.1.157)" />
+          <Members vimssId="5975233" LocusId="CBY_3034" Name="PF05913" Function="Bacterial protein of unknown function (DUF871)" />
+          <Members vimssId="5975234" LocusId="CBY_3035" Name="Cbei_4535" Function="PTS system, cellobiose-specific IIC component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6506</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47593" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="CBY_0608" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5972987&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Clostridia-1" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4799" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_1679" Name="argG" Position="-87" Score="5.6">
+          <Sequence>ATGTATAATTATAAAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2294" Name="argT" Position="-31" Score="5.1">
+          <Sequence>TTGTATATTTATAAAG</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2294" Name="argT" Position="0" Score="5.1">
+          <Sequence>ATGAATAATAATTCAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1781" Name="artP" Position="-110" Score="4.7">
+          <Sequence>TTTAATATTTATTTAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1781" Name="artP" Position="-76" Score="5.4">
+          <Sequence>TTGAATAATTATAAAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1781" Name="artP" Position="-56" Score="5.2">
+          <Sequence>ATGTATAATTATACTA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5973842" LocusId="CBY_1781" Name="artP" Function="Arginine ABC transporter, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974900" LocusId="CBY_1679" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+          <Members vimssId="5974899" LocusId="CBY_1678" Name="argH" Function="Argininosuccinate lyase (EC 4.3.2.1)" />
+          <Members vimssId="5974898" LocusId="CBY_1677" Name="argC" Function="N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975925" LocusId="CBY_2294" Name="argT" Function="Predicted arginine uptake transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4799</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57878" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="CBY_2753" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5972817&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Clostridia-1" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5926" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_3768" Name="bioY1" Position="-73" Score="9">
+          <Sequence>TTGTTAAC---------------GTTGACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0442" Name="CAC3455" Position="-142" Score="8.3">
+          <Sequence>TTGTTTAC---------------GTTGACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1671" Name="bioY2" Position="-106" Score="9">
+          <Sequence>TTGTTAAC---------------GTTGACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5974892" LocusId="CBY_1671" Name="bioY2" Function="Substrate-specific component BioY of biotin ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5973159" LocusId="CBY_0442" Name="CAC3455" Function="Iron-sulfur binding protein, hypothetical" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974467" LocusId="CBY_3768" Name="bioY1" Function="Substrate-specific component BioY of biotin ECF transporter" />
+          <Members vimssId="5974466" LocusId="CBY_3767" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+          <Members vimssId="5974465" LocusId="CBY_3766" Name="bioA" Function="Adenosylmethionine-8-amino-7-oxononanoate aminotransferase (EC 2.6.1.62)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5926</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="CBY_0654" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59523" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="CBY_0654" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5973026&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="CBY_0654 - Clostridia-1" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6109" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_0654" Name="CBY_0654" Position="-39" Score="7.8">
+          <Sequence>AAATTGTAT---AAACAATAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0653" Name="CBY_0653" Position="-92" Score="7.8">
+          <Sequence>ATATTGTTT---ATACAATTT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5973025" LocusId="CBY_0653" Name="CBY_0653" Function="Pyridoxal phosphate-dependent transferase, major region, subdomain 1" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5973026" LocusId="CBY_0654" Name="CBY_0654" Function="Transcriptional regulator, GntR family domain / Aspartate aminotransferase (EC 2.6.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6109</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor (activator)">
+      <Regulator Key="CcpA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46516" />
+      <Effector>HPr, phosphocarrier protein</Effector>
+      <Pathway>Carbohydrate metabolism</Pathway>
+      <LocusTag Key="CBY_2264" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5975895&amp;disp=0" />
+      <BiologicalProcess>Carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="CcpA - Clostridia-1" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4703" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_0413" Name="lrgA" Position="-80" Score="4.6">
+          <Sequence>ATAAAAAAGTTTTAAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2380" Name="" Position="-72" Score="4.1">
+          <Sequence>TTTAAAAAGTATTTTT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3808" Name="ulaE" Position="-66" Score="4">
+          <Sequence>TATAAAAAGTTATTTA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2380" Name="" Position="-42" Score="4.2">
+          <Sequence>TATAAAACTTTTTAAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2431" Name="xylR" Position="-95" Score="4">
+          <Sequence>AATAAAAATATATAAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2342" Name="xylB" Position="-34" Score="4.6">
+          <Sequence>TTGTAAATGTTTAATA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2342" Name="xylB" Position="-57" Score="4.5">
+          <Sequence>TTAAAAATGTTTTTAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2342" Name="xylB" Position="-77" Score="3.9">
+          <Sequence>TTTAAAAAGAATTTTA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2438" Name="tkt" Position="-42" Score="3.9">
+          <Sequence>TGGAAAACATTTGAAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2438" Name="tkt" Position="-59" Score="3.9">
+          <Sequence>ATGATTAAGATTTTAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2438" Name="tkt" Position="-76" Score="4.1">
+          <Sequence>ATGAATAAATTTACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0242" Name="" Position="-54" Score="4.4">
+          <Sequence>ATGTAAATAATTACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3715" Name="pelL2" Position="-115" Score="4.4">
+          <Sequence>AAGAAAATATTTACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3715" Name="pelL2" Position="-41" Score="4.2">
+          <Sequence>TTGTTAACGATAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0566" Name="sspA" Position="-116" Score="4.6">
+          <Sequence>AAGAAAATGATTTTAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1889" Name="nifJ2" Position="-228" Score="4.1">
+          <Sequence>TTTATAAAAATTTAAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2984" Name="lacR" Position="-77" Score="4.2">
+          <Sequence>ATATTAACGTTTTTAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2985" Name="CBY_2985" Position="-73" Score="3.9">
+          <Sequence>AAGTAAAAAAATTAAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0511" Name="" Position="-98" Score="4">
+          <Sequence>TTTAAAATGTAAAAAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0240" Name="" Position="-52" Score="3.9">
+          <Sequence>AAATAAATAATTTTAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3256" Name="glcA" Position="-223" Score="4.1">
+          <Sequence>TTGAAAAAATTTTAGT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3256" Name="glcA" Position="-130" Score="4.1">
+          <Sequence>AAGAAATAAATTTAAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1726" Name="galK" Position="55" Score="4.3">
+          <Sequence>CTGAAAATGTTTTCTT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3642" Name="nifJ2" Position="-186" Score="4.4">
+          <Sequence>AATTAAATGTTTAAAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0233" Name="nifJ2" Position="-166" Score="4.3">
+          <Sequence>TTGTAAACAATAAAAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3688" Name="kdpA" Position="-250" Score="4.3">
+          <Sequence>ATGTAAATGTTTTAAG</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1459" Name="ptnA" Position="-370" Score="4.2">
+          <Sequence>ATGAAAATAAATTAAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2409" Name="xylS" Position="-114" Score="4.2">
+          <Sequence>ATATAAAATTTTTAAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2409" Name="xylS" Position="-48" Score="4">
+          <Sequence>AATAAAAAATTATTAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_4099" Name="licT" Position="-170" Score="4.2">
+          <Sequence>ATGTAAAAAATAATAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_4099" Name="licT" Position="-147" Score="4.1">
+          <Sequence>TTGACAACGTTTTCTA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1093" Name="bglP" Position="-42" Score="4.3">
+          <Sequence>ATAAAAATAATTAAAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0247" Name="uxaB" Position="-150" Score="4.2">
+          <Sequence>TTGAAAATATTAATTA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0247" Name="uxaB" Position="-40" Score="4.1">
+          <Sequence>ATTTAAATTATTATAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3691" Name="dhaK" Position="-96" Score="4.2">
+          <Sequence>ATGAAATAGTTATATA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0508" Name="gldA" Position="-61" Score="4.5">
+          <Sequence>TTGTAAACGATATTAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2354" Name="" Position="-77" Score="4.1">
+          <Sequence>TTGAAATAAATTTATA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1564" Name="fucI" Position="-73" Score="4.7">
+          <Sequence>AAGAAAACGTTTAAAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2072" Name="" Position="-157" Score="4.6">
+          <Sequence>AAGAAAACGTTTAATA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1661" Name="manA" Position="-77" Score="4">
+          <Sequence>ATGTAAATGAATTTTA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2353" Name="pelX" Position="-164" Score="4.8">
+          <Sequence>ATGAAAACGATTATAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2353" Name="pelX" Position="-32" Score="4.1">
+          <Sequence>TTGTTAACGTTAACTA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1562" Name="fucO" Position="-66" Score="4.1">
+          <Sequence>TTGATAAAAATATAAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0041" Name="niaX" Position="-215" Score="4.8">
+          <Sequence>ATGTAAATGTTTTAAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2074" Name="" Position="-104" Score="4.5">
+          <Sequence>AAGAAAACATTTACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0874" Name="" Position="-228" Score="4.4">
+          <Sequence>AATAAAAAGATTAAAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0862" Name="CBY_0862" Position="-104" Score="4.7">
+          <Sequence>ATGAAAATGATTACTT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1554" Name="galU" Position="-147" Score="4.1">
+          <Sequence>TAATAAATGATTAAAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1554" Name="galU" Position="-99" Score="4.7">
+          <Sequence>ATTAAAACGTTTAAAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1710" Name="mglB" Position="-43" Score="4.7">
+          <Sequence>ATGTAAACGATTTTAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2940" Name="malH" Position="-226" Score="4.6">
+          <Sequence>TTGTAAAAGTTTACTT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1888" Name="cheY" Position="-220" Score="4.6">
+          <Sequence>AAGTAAAAGTTTTCAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1888" Name="cheY" Position="-195" Score="4.6">
+          <Sequence>TTGAAAATATTTTTAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1888" Name="cheY" Position="-84" Score="4.2">
+          <Sequence>ATGATAATAATTTATA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1978" Name="pflD" Position="-101" Score="4.6">
+          <Sequence>TTGTAAACGTTTATTT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3247" Name="ltaE" Position="-222" Score="4.6">
+          <Sequence>AAGAAAATGTTTACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3649" Name="" Position="-232" Score="4.1">
+          <Sequence>TTTTAAATATTTATTT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3649" Name="" Position="-64" Score="4.1">
+          <Sequence>ATGAAAACAAATATTT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1729" Name="agaN" Position="-58" Score="4.6">
+          <Sequence>TTGAAAACAATTTCAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3009" Name="ispF" Position="-90" Score="4.3">
+          <Sequence>ATGTAAATGTTTACCT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2696" Name="" Position="-153" Score="4.6">
+          <Sequence>ATGAAAAAAATTAAAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2799" Name="" Position="-93" Score="4.6">
+          <Sequence>ATGAAAAAGTTAAATA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0846" Name="bglA" Position="-153" Score="4.6">
+          <Sequence>ATGTAAACAATTAAAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0558" Name="ytxC" Position="-241" Score="4.2">
+          <Sequence>TTATAAATATTTTAAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0558" Name="ytxC" Position="-95" Score="4.2">
+          <Sequence>ATAAAAAAATTAAAAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_4133" Name="galM" Position="-118" Score="4.1">
+          <Sequence>TTAAAAAGGTTTTCAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_4133" Name="galM" Position="-32" Score="4.5">
+          <Sequence>ATGAAAACTATTACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0850" Name="bglC" Position="-34" Score="4.5">
+          <Sequence>ATGAAATCGATTTAAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_4067" Name="cggR" Position="-122" Score="4.1">
+          <Sequence>TTTTAAATAATTAAAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1741" Name="" Position="-77" Score="4.5">
+          <Sequence>ATGATAATGTTTATAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1585" Name="aroF" Position="-92" Score="4.1">
+          <Sequence>CTTTAAAAGTTTAAAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0842" Name="nanE" Position="-162" Score="4.1">
+          <Sequence>AAGAAAAAAATAACTT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0842" Name="nanE" Position="-66" Score="4.6">
+          <Sequence>TTGAAAATATTTTCAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5974806" LocusId="CBY_1585" Name="aroF" Function="2-keto-3-deoxy-D-arabino-heptulosonate-7-phosphate synthase I beta (EC 2.5.1.54)" />
+          <Members vimssId="5974807" LocusId="CBY_1586" Name="aroB" Function="3-dehydroquinate synthase (EC 4.2.3.4)" />
+          <Members vimssId="5974808" LocusId="CBY_1587" Name="aroA" Function="5-enolpyruvylshikimate-3-phosphate synthase (EC 2.5.1.19)" />
+          <Members vimssId="5974809" LocusId="CBY_1588" Name="aroC" Function="Chorismate synthase (EC 4.2.3.5)" />
+          <Members vimssId="5974810" LocusId="CBY_1589" Name="pheA" Function="Chorismate mutase I (EC 5.4.99.5) / Prephenate dehydratase (EC 4.2.1.51) # AroHI/PheAIp/ACT domain" />
+          <Members vimssId="5974811" LocusId="CBY_1590" Name="aroE" Function="Chorismate mutase I (EC 5.4.99.5) / Shikimate 5-dehydrogenase I alpha (EC 1.1.1.25)" />
+          <Members vimssId="5974812" LocusId="CBY_1591" Name="aroK" Function="Shikimate kinase I (EC 2.7.1.71)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974931" LocusId="CBY_1710" Name="mglB" Function="Galactose/methyl galactoside ABC transport system, D-galactose-binding periplasmic protein MglB (TC 3.A.1.2.3)" />
+          <Members vimssId="5974932" LocusId="CBY_1711" Name="mglA" Function="Galactose/methyl galactoside ABC transport system, ATP-binding protein (TC 3.A.1.2.3)" />
+          <Members vimssId="5974933" LocusId="CBY_1712" Name="mglC" Function="Galactose/methyl galactoside ABC transport system, permease protein (TC 3.A.1.2.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5973619" LocusId="CBY_0874" Name="null" Function="PTS system, cellobiose-specific IIA component (EC 2.7.1.69)" />
+          <Members vimssId="5973620" LocusId="CBY_0875" Name="null" Function="PTS system, cellobiose-specific IIB component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5973608" LocusId="CBY_0862" Name="CBY_0862" Function="PTS system, cellobiose-specific IIC component (EC 2.7.1.69)" />
+          <Members vimssId="5973609" LocusId="CBY_0863" Name="null" Function="PTS system, cellobiose-specific IIA component (EC 2.7.1.69)" />
+          <Members vimssId="5973610" LocusId="CBY_0864" Name="null" Function="PTS system, cellobiose-specific IIB component (EC 2.7.1.69)" />
+          <Members vimssId="5973611" LocusId="CBY_0865" Name="null" Function="Putative sugar kinase" />
+          <Members vimssId="5973612" LocusId="CBY_0866" Name="bglA" Function="6-phospho-beta-glucosidase (EC 3.2.1.86)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5973589" LocusId="CBY_0842" Name="nanE" Function="N-acetylmannosamine-6-phosphate 2-epimerase (EC 5.1.3.9)" />
+          <Members vimssId="5973588" LocusId="CBY_0841" Name="nanA" Function="N-acetylneuraminate lyase (EC 4.1.3.3)" />
+          <Members vimssId="5973587" LocusId="CBY_0840" Name="null" Function="Predicted sialic acid transporter" />
+          <Members vimssId="5973586" LocusId="CBY_0839" Name="null" Function="Conserved hypothetical protein" />
+          <Members vimssId="5973585" LocusId="CBY_0838" Name="nanK" Function="N-acetylmannosamine kinase (EC 2.7.1.60)" />
+          <Members vimssId="5973584" LocusId="CBY_0837" Name="siaR" Function="Transcription regulator of sialic acid utilization, RpiR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975741" LocusId="CBY_2409" Name="xylS" Function="Alpha-xylosidase (EC 3.2.1.177)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5973242" LocusId="CBY_1093" Name="bglP" Function="PTS system, beta-glucoside-specific IIBCA component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5972167" LocusId="CBY_4099" Name="licT" Function="Beta-glucoside bgl operon antiterminator, BglG family" />
+          <Members vimssId="5972166" LocusId="CBY_4098" Name="bglP" Function="PTS system, beta-glucoside-specific IIBCA component (EC 2.7.1.69)" />
+          <Members vimssId="5972165" LocusId="CBY_4097" Name="bglH2" Function="Aryl-phospho-beta-D-glucosidase (EC 3.2.1.86)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5972705" LocusId="CBY_2074" Name="null" Function="PTS system, cellobiose-specific IIA component (EC 2.7.1.69)" />
+          <Members vimssId="5972704" LocusId="CBY_2073" Name="null" Function="PTS system, cellobiose-specific IIB component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974220" LocusId="CBY_0566" Name="sspA" Function="Small acid-soluble spore protein beta" />
+          <Members vimssId="5974219" LocusId="CBY_0565" Name="null" Function="Methyltransferase (EC 2.1.1.-)" />
+          <Members vimssId="5974218" LocusId="CBY_0564" Name="hslO" Function="Chaperonin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5973224" LocusId="CBY_0508" Name="gldA" Function="Glycerol dehydrogenase (EC 1.1.1.6)" />
+          <Members vimssId="5973223" LocusId="CBY_0507" Name="dhaK" Function="Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), dihydroxyacetone binding subunit DhaK" />
+          <Members vimssId="5973222" LocusId="CBY_0506" Name="dhaM" Function="Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), ADP-binding subunit DhaL" />
+          <Members vimssId="5973221" LocusId="CBY_0505" Name="dhaL" Function="Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), subunit DhaM; DHA-specific IIA component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5972962" LocusId="CBY_0041" Name="niaX" Function="Substrate-specific component NiaX of predicted niacin ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974783" LocusId="CBY_1562" Name="fucO" Function="Lactaldehyde reductase (EC 1.1.1.77)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974188" LocusId="CBY_3691" Name="dhaK" Function="Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), dihydroxyacetone binding subunit DhaK" />
+          <Members vimssId="5974187" LocusId="CBY_3690" Name="dhaM" Function="Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), ADP-binding subunit DhaL" />
+          <Members vimssId="5974186" LocusId="CBY_3689" Name="dhaL" Function="Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), subunit DhaM; DHA-specific IIA component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975208" LocusId="CBY_3009" Name="ispF" Function="2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (EC 4.6.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974950" LocusId="CBY_1729" Name="agaN" Function="Alpha-galactosidase (EC 3.2.1.22)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975503" LocusId="CBY_2353" Name="pelX" Function="Pectate lyase (EC 4.2.2.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974882" LocusId="CBY_1661" Name="manA" Function="Mannose-6-phosphate isomerase (EC 5.3.1.8)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975504" LocusId="CBY_2354" Name="null" Function="Uncharacterized ABC transporter, ATP-binding protein" />
+          <Members vimssId="5975505" LocusId="CBY_2355" Name="null" Function="Uncharacterized ABC transporter, ATP-binding and permease protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974785" LocusId="CBY_1564" Name="fucI" Function="L-fucose isomerase" />
+          <Members vimssId="5974786" LocusId="CBY_1565" Name="null" Function="rhamnulokinase" />
+          <Members vimssId="5974787" LocusId="CBY_1566" Name="fucU" Function="L-fucose mutarotase (EC 5.1.3.n2)" />
+          <Members vimssId="5974788" LocusId="CBY_1567" Name="fucA" Function="L-fuculose phosphate aldolase (EC 4.1.2.17)" />
+          <Members vimssId="5974789" LocusId="CBY_1568" Name="fucP" Function="L-fucose:H+ symporter permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5972703" LocusId="CBY_2072" Name="null" Function="PTS system, cellobiose-specific IIC component (EC 2.7.1.69)" />
+          <Members vimssId="5972702" LocusId="CBY_2071" Name="Cbei_4468" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="5972700" LocusId="CBY_2069" Name="bglC" Function="Beta-glucosidase (EC 3.2.1.21)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5973227" LocusId="CBY_0511" Name="null" Function="Transcriptional regulator, MarR family" />
+          <Members vimssId="5973226" LocusId="CBY_0510" Name="null" Function="Predicted transporter protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974146" LocusId="CBY_3649" Name="null" Function="Predicted N-acetylglucosaminyltransferase (EC 2.4.1.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5973596" LocusId="CBY_0850" Name="bglC" Function="Aryl-phospho-beta-D-glucosidase (EC3.2.1.86)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5973803" LocusId="CBY_4133" Name="galM" Function="Aldose 1-epimerase (EC 5.1.3.3)" />
+          <Members vimssId="5973804" LocusId="CBY_4134" Name="cbgA" Function="Beta-galactosidase (EC 3.2.1.23)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5972320" LocusId="CBY_0558" Name="ytxC" Function="Putative sporulation protein YtxC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5973593" LocusId="CBY_0846" Name="bglA" Function="6-phospho-beta-glucosidase (EC 3.2.1.86)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5972858" LocusId="CBY_2799" Name="null" Function="Putative peptidoglycan N-acetylglucosamine deacetylase (EC 3.5.1.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975699" LocusId="CBY_2696" Name="null" Function="Hypothetical membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974947" LocusId="CBY_1726" Name="galK" Function="Galactokinase (EC 2.7.1.6)" />
+          <Members vimssId="5974946" LocusId="CBY_1725" Name="galE" Function="UDP-glucose 4-epimerase (EC 5.1.3.2)" />
+          <Members vimssId="5974945" LocusId="CBY_1724" Name="galT" Function="Galactose-1-phosphate uridylyltransferase (EC 2.7.7.10)" />
+          <Members vimssId="5974944" LocusId="CBY_1723" Name="galR" Function="Transcription regulator of galactose utilization, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5972342" LocusId="CBY_3247" Name="ltaE" Function="Low-specificity L-threonine aldolase (EC 4.1.2.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975458" LocusId="CBY_1741" Name="null" Function="PTS system, cellobiose-specific IIB component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975646" LocusId="CBY_4067" Name="cggR" Function="Central glycolytic genes regulator" />
+          <Members vimssId="5975647" LocusId="CBY_4068" Name="gapC" Function="NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)" />
+          <Members vimssId="5975648" LocusId="CBY_4069" Name="pgk" Function="Phosphoglycerate kinase (EC 2.7.2.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5973328" LocusId="CBY_1888" Name="cheY" Function="Chemotaxis protein cheY" />
+          <Members vimssId="5973327" LocusId="CBY_1887" Name="cheX" Function="Chemotaxis protein CheX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5973416" LocusId="CBY_1978" Name="pflD" Function="pyruvate formate-lyase" />
+          <Members vimssId="5973415" LocusId="CBY_1977" Name="pflC" Function="Pyruvate formate-lyase activating enzyme (EC 1.97.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975138" LocusId="CBY_2940" Name="malH" Function="Maltose/maltodextrin ABC transporter, periplasmic component" />
+          <Members vimssId="5975139" LocusId="CBY_2941" Name="malF" Function="Maltose/maltodextrin ABC transporter, permease protein MalF" />
+          <Members vimssId="5975140" LocusId="CBY_2942" Name="malG" Function="Maltose/maltodextrin ABC transporter, permease protein MalG" />
+          <Members vimssId="5975141" LocusId="CBY_2943" Name="malQ" Function="4-alpha-glucanotransferase (amylomaltase) (EC 2.4.1.25)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974185" LocusId="CBY_3688" Name="kdpA" Function="Potassium-transporting ATPase A chain (EC 3.6.3.12) (TC 3.A.3.7.1)" />
+          <Members vimssId="5974184" LocusId="CBY_3687" Name="kdpB" Function="Potassium-transporting ATPase B chain (EC 3.6.3.12) (TC 3.A.3.7.1)" />
+          <Members vimssId="5974183" LocusId="CBY_3686" Name="kdpC" Function="Potassium-transporting ATPase C chain (EC 3.6.3.12) (TC 3.A.3.7.1)" />
+          <Members vimssId="5974182" LocusId="CBY_3685" Name="null" Function="hypothetical protein" />
+          <Members vimssId="5974181" LocusId="CBY_3684" Name="kdpD" Function="Osmosensitive K+ channel histidine kinase KdpD (EC 2.7.3.-)" />
+          <Members vimssId="5974180" LocusId="CBY_3683" Name="kdpE" Function="Transcription regulator of potassium transport, OmpR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975433" LocusId="CBY_1459" Name="ptnA" Function="PTS system, mannose-specific IIBA component (EC 2.7.1.69)" />
+          <Members vimssId="5975434" LocusId="CBY_1460" Name="manY" Function="PTS system, mannose-specific IIC component (EC 2.7.1.69)" />
+          <Members vimssId="5975435" LocusId="CBY_1461" Name="ptnD" Function="PTS system, mannose-specific IID component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974775" LocusId="CBY_1554" Name="galU" Function="UTP-glucose-1-phosphate uridylyltransferase (EC 2.7.7.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5972351" LocusId="CBY_3256" Name="glcA" Function="L-lactate permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5973130" LocusId="CBY_0413" Name="lrgA" Function="Antiholin-like protein LrgA" />
+          <Members vimssId="5973129" LocusId="CBY_0412" Name="lrgB" Function="LrgA-associated membrane protein LrgB" />
+          <Members vimssId="5973128" LocusId="CBY_0411" Name="null" Function="Hypothetical protein" />
+          <Members vimssId="5973127" LocusId="CBY_0410" Name="null" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974139" LocusId="CBY_3642" Name="nifJ2" Function="Pyruvate-flavodoxin oxidoreductase (EC 1.2.7.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5973329" LocusId="CBY_1889" Name="nifJ2" Function="Pyruvate-flavodoxin oxidoreductase (EC 1.2.7.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5972374" LocusId="CBY_0233" Name="nifJ2" Function="Pyruvate-flavodoxin oxidoreductase (EC 1.2.7.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975183" LocusId="CBY_2984" Name="lacR" Function="Lactose phosphotransferase system repressor lacR" />
+          <Members vimssId="5975184" LocusId="CBY_2985" Name="CBY_2985" Function="PTS system, putative lactose-specific IIBC component (EC 2.7.1.69)" />
+          <Members vimssId="5975185" LocusId="CBY_2986" Name="CBY_2986" Function="PTS system, putative lactose-specific IIB component (EC 2.7.1.69)" />
+          <Members vimssId="5975186" LocusId="CBY_2987" Name="CBY_2987" Function="PTS system, putative lactose-specific IIC component (EC 2.7.1.69)" />
+          <Members vimssId="5975187" LocusId="CBY_2988" Name="lacA" Function="Galactose-6-phosphate isomerase, LacA subunit (EC 5.3.1.26)" />
+          <Members vimssId="5975188" LocusId="CBY_2989" Name="lacB" Function="Galactose-6-phosphate isomerase, LacB subunit (EC 5.3.1.26)" />
+          <Members vimssId="5975189" LocusId="CBY_2990" Name="agaY" Function="Tagatose-1,6-bisphosphate aldolase GatY (EC 4.1.2.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5972388" LocusId="CBY_0247" Name="uxaB" Function="Altronate oxidoreductase (EC 1.1.1.58)" />
+          <Members vimssId="5972387" LocusId="CBY_0246" Name="uxaA" Function="Altronate hydrolase (EC 4.2.1.7)" />
+          <Members vimssId="5972386" LocusId="CBY_0245" Name="kduD" Function="2-deoxy-D-gluconate 3-dehydrogenase (EC 1.1.1.125)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975763" LocusId="CBY_2431" Name="xylR" Function="Transcription repressor of xylose utilization, ROK family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975712" LocusId="CBY_2380" Name="null" Function="Hypothetical protein" />
+          <Members vimssId="5975711" LocusId="CBY_2379" Name="null" Function="Predicted xylose isomerase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974958" LocusId="CBY_3808" Name="ulaE" Function="L-ribulose-5-phosphate 3-epimerase (EC 5.1.3.22)" />
+          <Members vimssId="5974957" LocusId="CBY_3807" Name="tkt2" Function="Putative transketolase" />
+          <Members vimssId="5974956" LocusId="CBY_3806" Name="tkt3" Function="Transketolase" />
+          <Members vimssId="5974955" LocusId="CBY_3805" Name="tal" Function="Transaldolase (EC 2.2.1.2)" />
+          <Members vimssId="5974954" LocusId="CBY_3804" Name="rpe" Function="Ribulose-phosphate 3-epimerase (EC 5.1.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975492" LocusId="CBY_2342" Name="xylB" Function="Xylulose kinase (EC 2.7.1.17)" />
+          <Members vimssId="5975493" LocusId="CBY_2343" Name="xylR" Function="Transcription repressor of xylose utilization, ROK family" />
+          <Members vimssId="5975494" LocusId="CBY_2344" Name="tal" Function="Transaldolase (EC 2.2.1.2)" />
+          <Members vimssId="5975495" LocusId="CBY_2345" Name="tkt" Function="Transketolase (EC 2.2.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975770" LocusId="CBY_2438" Name="tkt" Function="Transketolase (EC 2.2.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975336" LocusId="CBY_3715" Name="pelL2" Function="Pectate lyase, secreted, polysaccharide lyase family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5972383" LocusId="CBY_0242" Name="null" Function="Conserved hypothetical protein" />
+          <Members vimssId="5972382" LocusId="CBY_0241" Name="null" Function="Predicted polysaccharide deacetylase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5972381" LocusId="CBY_0240" Name="null" Function="Permease of the Na:galactoside symporter family" />
+          <Members vimssId="5972380" LocusId="CBY_0239" Name="CBY_0239" Function="Glycoside hydrolase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4703</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="repressor">
+      <Regulator Key="CymR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38450" />
+      <Effector />
+      <Pathway>Cysteine metabolism</Pathway>
+      <LocusTag Key="CBY_1066" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5972282&amp;disp=0" />
+      <BiologicalProcess>Cysteine metabolism</BiologicalProcess>
+      <Regulog Key="CymR - Clostridiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3924" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_3239" Name="cysT" Position="-81" Score="5.6">
+          <Sequence>TAATTCATAGTAATTCTATAAGAATAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5972334" LocusId="CBY_3239" Name="cysT" Function="Sulfate transport system permease protein CysT" />
+          <Members vimssId="5972335" LocusId="CBY_3240" Name="cysW" Function="Sulfate transport system permease protein CysW" />
+          <Members vimssId="5972336" LocusId="CBY_3241" Name="cysA" Function="Sulfate and thiosulfate import ATP-binding protein CysA (EC 3.6.3.25)" />
+          <Members vimssId="5972337" LocusId="CBY_3242" Name="aprA" Function="Adenylylsulfate reductase alpha-subunit (EC 1.8.99.2)" />
+          <Members vimssId="5972338" LocusId="CBY_3243" Name="aprB" Function="Adenylylsulfate reductase beta-subunit (EC 1.8.99.2)" />
+          <Members vimssId="5972339" LocusId="CBY_3244" Name="cysD" Function="Sulfate adenylyltransferase subunit 2 (EC 2.7.7.4)" />
+          <Members vimssId="5972340" LocusId="CBY_3245" Name="cysN" Function="Sulfate adenylyltransferase subunit 1 (EC 2.7.7.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3924</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="CzrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63731" />
+      <Effector>Zinc ion, (Zn2+); Silver ion, (Ag+); Nickel ion, (Ni2+); Copper ion, (Cu2+); Cobalt ion, (Co2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Zinc resistance; Nickel resistance; Copper resistance; Cobalt resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="CBY_3037" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5975236&amp;disp=0" />
+      <BiologicalProcess>Zinc resistance; Nickel resistance; Copper resistance; Cobalt resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CzrA - Clostridia-1" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6577" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_3037" Name="czrA" Position="-41" Score="7.1">
+          <Sequence>CATATGAACAGATGCTCATATG</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5975236" LocusId="CBY_3037" Name="czrA" Function="Transcriptional repressor of multiple metal-sensing, ArsR family" />
+          <Members vimssId="5975237" LocusId="CBY_3038" Name="cadA" Function="Cadmium-transporting ATPase (EC 3.6.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6577</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="ExuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52550" />
+      <Effector>Galacturonate</Effector>
+      <Pathway>Galacturonate utilization</Pathway>
+      <LocusTag Key="CBY_3741" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5975362&amp;disp=0" />
+      <BiologicalProcess>Galacturonate utilization</BiologicalProcess>
+      <Regulog Key="ExuR - Clostridia-1" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5357" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_3715" Name="" Position="-43" Score="6">
+          <Sequence>AATTGTTAACGATAACAATA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2353" Name="pelX" Position="-34" Score="5.9">
+          <Sequence>AATTGTTAACGTTAACTATA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2353" Name="pelX" Position="-122" Score="5.3">
+          <Sequence>AATTGTTAACGTTAAACTTA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0243" Name="rhiN" Position="-197" Score="4.5">
+          <Sequence>TTTGGAAAACGTGTTCAATT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0243" Name="rhiN" Position="-96" Score="5">
+          <Sequence>AAATGTGCACGTGTGCAAAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5972384" LocusId="CBY_0243" Name="rhiN" Function="Rhamnogalacturonides degradation protein RhiN" />
+          <Members vimssId="5972383" LocusId="CBY_0242" Name="PF02589" Function="Domain of unknown function DUF162" />
+          <Members vimssId="5972382" LocusId="CBY_0241" Name="PF01522" Function="Polysaccharide deacetylase" />
+          <Members vimssId="5972381" LocusId="CBY_0240" Name="rhiT" Function="Putative rhamnogalacturonide transporter" />
+          <Members vimssId="5972380" LocusId="CBY_0239" Name="pgl" Function="Polygalacturonase (EC 3.2.1.15)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975336" LocusId="CBY_3715" Name="null" Function="Pectate lyase, secreted, polysaccharide lyase family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975503" LocusId="CBY_2353" Name="pelX" Function="Exopolygalacturonate lyase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5357</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="HcpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62891" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="CBY_3934" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5975084&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="HcpR - Clostridia-1" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6477" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_3927" Name="" Position="-98" Score="6.2">
+          <Sequence>CTGTAACTTATGTTACAG</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5975077" LocusId="CBY_3927" Name="null" Function="Conserved protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6477</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47571" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="CBY_3533" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5974030&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Clostridia-1" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4795" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_3533" Name="hrcA" Position="-44" Score="7.6">
+          <Sequence>TTAGCACTCGCTGCTAATGAGTGCTAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3050" Name="groES" Position="-84" Score="7.7">
+          <Sequence>TTAGCACTCGATGATGATGAGTGCTAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5974030" LocusId="CBY_3533" Name="hrcA" Function="Heat-inducible transcription repressor HrcA" />
+          <Members vimssId="5974029" LocusId="CBY_3532" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="5974028" LocusId="CBY_3531" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="5974027" LocusId="CBY_3530" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975249" LocusId="CBY_3050" Name="groES" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="5975250" LocusId="CBY_3051" Name="groEL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4795</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="repressor">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38235" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="CBY_2622" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5974729&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Clostridiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3897" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_2622" Name="iscR" Position="-61" Score="5.3">
+          <Sequence>CAATAGCCGAGTATTTTGATAAGATATAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5974729" LocusId="CBY_2622" Name="iscR" Function="Iron-sulfur cluster assembly transcription factor IscR" />
+          <Members vimssId="5974728" LocusId="CBY_2621" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7)" />
+          <Members vimssId="5974727" LocusId="CBY_2620" Name="iscU" Function="Iron-sulfur cluster assembly scaffold protein IscU/NifU-like" />
+          <Members vimssId="5974726" LocusId="CBY_2619" Name="trmU" Function="tRNA (5-methylaminomethyl-2-thiouridylate)-methyltransferase (EC 2.1.1.61)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3897</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47582" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="CBY_0192" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5975320&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Clostridia-1" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4797" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_0292" Name="recA" Position="-34" Score="5.1">
+          <Sequence>TAGAACATAAGTTCGA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2287" Name="Cbei_0030" Position="-33" Score="4.8">
+          <Sequence>ATGAACATATGTTTGC</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0192" Name="lexA" Position="-68" Score="4.4">
+          <Sequence>CAGAACATAGGTTTGC</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1843" Name="uvrB" Position="-44" Score="4.6">
+          <Sequence>ACGAATGTTTGTTCGA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5972324" LocusId="CBY_0292" Name="recA" Function="Recombination protein A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975320" LocusId="CBY_0192" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975918" LocusId="CBY_2287" Name="Cbei_0030" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5973904" LocusId="CBY_1843" Name="uvrB" Function="Excinuclease ABC subunit B" />
+          <Members vimssId="5973903" LocusId="CBY_1842" Name="uvrA" Function="Excinuclease ABC subunit A" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4797</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="MalR1" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51949" />
+      <Effector>Maltose</Effector>
+      <Pathway>Maltose utilization; Maltodextrin utilization</Pathway>
+      <LocusTag Key="CBY_3499" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5973996&amp;disp=0" />
+      <BiologicalProcess>Maltose utilization; Maltodextrin utilization</BiologicalProcess>
+      <Regulog Key="MalR1 - Clostridia-1" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5279" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_3499" Name="malR1" Position="-50" Score="6.3">
+          <Sequence>GAACGGTACCGTTACCGAAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5973996" LocusId="CBY_3499" Name="malR1" Function="Maltose/maltodextrin utilization transcriptional regulator MalR1, LacI family" />
+          <Members vimssId="5973995" LocusId="CBY_3498" Name="malQ" Function="4-alpha-glucanotransferase (amylomaltase) (EC 2.4.1.25)" />
+          <Members vimssId="5973994" LocusId="CBY_3497" Name="glgP" Function="Maltodextrin phosphorylase (EC 2.4.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5279</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="MalR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51885" />
+      <Effector>Maltose</Effector>
+      <Pathway>Maltose utilization; Maltodextrin utilization</Pathway>
+      <LocusTag Key="CBY_2944" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5975142&amp;disp=0" />
+      <BiologicalProcess>Maltose utilization; Maltodextrin utilization</BiologicalProcess>
+      <Regulog Key="MalR2 - Clostridia-1" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5270" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_2945" Name="malL" Position="-233" Score="6.3">
+          <Sequence>TAGTGCAAGCGATTGCAAAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2940" Name="malE" Position="-108" Score="6.5">
+          <Sequence>TTTTGCAAGCGATTGCATAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2943" Name="malM" Position="-55" Score="6.3">
+          <Sequence>TTATGCAAGCGATTGCTTAG</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5975138" LocusId="CBY_2940" Name="malE" Function="Maltose/maltodextrin ABC transporter, substrate-binding component" />
+          <Members vimssId="5975139" LocusId="CBY_2941" Name="malF" Function="Maltose/maltodextrin ABC transporter, permease protein 1" />
+          <Members vimssId="5975140" LocusId="CBY_2942" Name="malG" Function="Maltose/maltodextrin ABC transporter, permease protein 2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975141" LocusId="CBY_2943" Name="malM" Function="4-alpha-glucanotransferase (amylomaltase) (EC 2.4.1.25)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975143" LocusId="CBY_2945" Name="malL" Function="Alpha-glucosidase (EC 3.2.1.20)" />
+          <Members vimssId="5975144" LocusId="CBY_2946" Name="ptsG" Function="PTS system glucose-specific EIICBA component (EC 2.7.1.69)" />
+          <Members vimssId="5975145" LocusId="CBY_2947" Name="rgfB" Function="Exodeoxyribonuclease III (EC 3.1.11.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5270</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NiaR" RegulationMode="repressor">
+      <Regulator Key="NiaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34169" />
+      <Effector>Niacin</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="CBY_1477" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4729985&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NiaR - Clostridiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3494" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_0041" Name="niaX" Position="-144" Score="6">
+          <Sequence>TACTAATGTATATACACTAGTA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3922" Name="nadA" Position="-46" Score="5.6">
+          <Sequence>AAAAGGTGTATATACACCTGTA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5972962" LocusId="CBY_0041" Name="niaX" Function="Substrate-specific component NiaX of predicted niacin ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975072" LocusId="CBY_3922" Name="nadA" Function="Quinolinate synthetase (EC 4.1.99.-)" />
+          <Members vimssId="5975071" LocusId="CBY_3921" Name="nadB" Function="L-aspartate oxidase (EC 1.4.3.16)" />
+          <Members vimssId="5975070" LocusId="CBY_3920" Name="nadC" Function="Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3494</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NiaR" RegulationMode="repressor">
+      <Regulator Key="NiaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47555" />
+      <Effector>Niacin</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="CBY_1477" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=4729985&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NiaR - Clostridia-1" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4793" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_3922" Name="nadA" Position="-46" Score="6.3">
+          <Sequence>AAAAGGTGTATATACACCTGTA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0041" Name="niaX" Position="-144" Score="6.8">
+          <Sequence>TACTAATGTATATACACTAGTA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5972962" LocusId="CBY_0041" Name="niaX" Function="Substrate-specific component NiaX of predicted niacin ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975072" LocusId="CBY_3922" Name="nadA" Function="Quinolinate synthetase (EC 4.1.99.-)" />
+          <Members vimssId="5975071" LocusId="CBY_3921" Name="nadB" Function="L-aspartate oxidase (EC 1.4.3.16)" />
+          <Members vimssId="5975070" LocusId="CBY_3920" Name="nadC" Function="Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4793</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=64297" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="CBY_2597" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5974704&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Clostridia-1" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6632" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_2237" Name="nrdD" Position="-32" Score="5.5">
+          <Sequence>ATACAATATATTGTGC</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2237" Name="nrdD" Position="0" Score="4.8">
+          <Sequence>ATGCTATATGTTGTGA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2909" Name="nrdA" Position="-70" Score="5.2">
+          <Sequence>ATACGATATGTTGTAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2909" Name="nrdA" Position="-28" Score="5.1">
+          <Sequence>ACACAAGATATAGTGG</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5975107" LocusId="CBY_2909" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="5975108" LocusId="CBY_2910" Name="null" Function="hypothetical protein" />
+          <Members vimssId="5975109" LocusId="CBY_2911" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975869" LocusId="CBY_2237" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+          <Members vimssId="5975866" LocusId="CBY_2234" Name="nrdG" Function="Ribonucleotide reductase of class III (anaerobic), activating protein (EC 1.97.1.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6632</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="RbsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52027" />
+      <Effector>Ribose</Effector>
+      <Pathway>Ribose utilization</Pathway>
+      <LocusTag Key="CBY_2437" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5975769&amp;disp=0" />
+      <BiologicalProcess>Ribose utilization</BiologicalProcess>
+      <Regulog Key="RbsR - Clostridia-1" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5289" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_2443" Name="rbsD" Position="-120" Score="4.6">
+          <Sequence>TAATAGAAGCAGTTAAATTT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5975775" LocusId="CBY_2443" Name="rbsD" Function="D-ribose pyranase (D-ribose mutarotase) (EC 5.5.1.n1)" />
+          <Members vimssId="5975774" LocusId="CBY_2442" Name="rbsA" Function="Ribose ABC transport system, ATP-binding protein RbsA (TC 3.A.1.2.1)" />
+          <Members vimssId="5975773" LocusId="CBY_2441" Name="rbsC" Function="Ribose ABC transport system, permease protein RbsC (TC 3.A.1.2.1)" />
+          <Members vimssId="5975772" LocusId="CBY_2440" Name="rbsB" Function="Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)" />
+          <Members vimssId="5975771" LocusId="CBY_2439" Name="tal" Function="transaldolase" />
+          <Members vimssId="5975770" LocusId="CBY_2438" Name="tkt" Function="transketolase" />
+          <Members vimssId="5975769" LocusId="CBY_2437" Name="rbsR" Function="Ribose operon transcriptional regulator, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5289</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29870" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="CBY_3040" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5975239&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Clostridiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3116" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_3643" Name="fld" Position="-37" Score="5.5">
+          <Sequence>AAGTTAATTATTTAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2496" Name="fnorB" Position="-140" Score="4.6">
+          <Sequence>GTGAAAAAAATTTATCAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3040" Name="rex" Position="-57" Score="4.5">
+          <Sequence>TAGTTATAAATATAAAAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1562" Name="fucO" Position="-66" Score="5">
+          <Sequence>TTGATAAAAATATAATAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3016" Name="etfB" Position="-198" Score="5.3">
+          <Sequence>CTGTTAAAAAAATAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1290" Name="thlA" Position="-140" Score="5.3">
+          <Sequence>TTGTCTAAAATTTAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1290" Name="thlA" Position="-81" Score="5.4">
+          <Sequence>ATGTTAATAATTTAACGA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3041" Name="crt" Position="-166" Score="4.9">
+          <Sequence>TTGCAAAAAATTTAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3041" Name="crt" Position="-98" Score="5.6">
+          <Sequence>TTGTTATAATATTAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3747" Name="bdh" Position="-92" Score="5.4">
+          <Sequence>TTGACAAAAAAATAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3751" Name="bdh" Position="-122" Score="5">
+          <Sequence>ATGATAAAAATATTACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3325" Name="narA" Position="-148" Score="5.1">
+          <Sequence>TTGTTAAAAAAAGAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3325" Name="narA" Position="-169" Score="5.2">
+          <Sequence>TTATTAATTTTTTAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3753" Name="adhE" Position="-146" Score="5">
+          <Sequence>TTGACAAAAAATAAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3753" Name="adhE" Position="-104" Score="5.5">
+          <Sequence>GTGTTAAAAAAATAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2357" Name="maeB" Position="-185" Score="4.6">
+          <Sequence>TAGCAAATAAATTAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2357" Name="maeB" Position="-145" Score="5.4">
+          <Sequence>TTGTTAAAAAAGTAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3322" Name="asrA" Position="-61" Score="4.6">
+          <Sequence>AGGTGAAAAAAATAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0341" Name="noxE" Position="-52" Score="5.1">
+          <Sequence>TTGATTATTTATTAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2472" Name="butA" Position="-41" Score="5.3">
+          <Sequence>ATGTGAATTAATTAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0465" Name="pflB" Position="0" Score="4.8">
+          <Sequence>ATGTTAGAAAATGAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0502" Name="pflB2" Position="-70" Score="5.6">
+          <Sequence>TTGTTAAAATATTATCAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5974140" LocusId="CBY_3643" Name="fld" Function="Flavodoxin" />
+          <Members vimssId="5974139" LocusId="CBY_3642" Name="por" Function="Pyruvate-flavodoxin oxidoreductase (EC 1.2.7.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974783" LocusId="CBY_1562" Name="fucO" Function="Lactaldehyde reductase (EC 1.1.1.77)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975215" LocusId="CBY_3016" Name="etfB" Function="Electron transfer flavoprotein, beta subunit" />
+          <Members vimssId="5975216" LocusId="CBY_3017" Name="etfA" Function="Electron transfer flavoprotein, alpha subunit" />
+          <Members vimssId="5975217" LocusId="CBY_3018" Name="glcD" Function="Glycolate oxidase (EC 1.1.99.14), FAD/FMN-containing" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5973181" LocusId="CBY_0465" Name="pflB" Function="Pyruvate formate-lyase (EC 2.3.1.54)" />
+          <Members vimssId="5973180" LocusId="CBY_0464" Name="pflA" Function="pyruvate formate-lyase activating enzyme" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5973952" LocusId="CBY_2472" Name="butA" Function="2,3-butanediol dehydrogenase (EC 1.1.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5973218" LocusId="CBY_0502" Name="pflB2" Function="Pyruvate formate-lyase (EC 2.3.1.54)" />
+          <Members vimssId="5973217" LocusId="CBY_0501" Name="pflA2" Function="Pyruvate formate-lyase activating enzyme (EC 1.97.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975239" LocusId="CBY_3040" Name="rex" Function="Redox-sensitive transcriptional regulator Rex" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974450" LocusId="CBY_3751" Name="bdh" Function="Butanol dehydrogenase; Butyraldehyde dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974446" LocusId="CBY_3747" Name="bdh" Function="Butanol dehydrogenase; Butyraldehyde dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975240" LocusId="CBY_3041" Name="crt" Function="3-hydroxybutyryl-CoA dehydratase (EC 4.2.1.55)" />
+          <Members vimssId="5975241" LocusId="CBY_3042" Name="bcd" Function="Butyryl-CoA dehydrogenase (EC 1.3.99.2)" />
+          <Members vimssId="5975242" LocusId="CBY_3043" Name="etfB" Function="Electron transfer flavoprotein, beta subunit" />
+          <Members vimssId="5975243" LocusId="CBY_3044" Name="etfA" Function="Electron transfer flavoprotein, alpha subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5973977" LocusId="CBY_2496" Name="fnorB" Function="ferredoxin-NADP(+) reductase subunit beta" />
+          <Members vimssId="5973976" LocusId="CBY_2495" Name="fnorA" Function="ferredoxin-NADP(+) reductase subunit alpha" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975507" LocusId="CBY_2357" Name="maeB" Function="NAD-dependent malic enzyme (EC 1.1.1.38)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974452" LocusId="CBY_3753" Name="adhE" Function="Alcohol dehydrogenase (EC 1.1.1.1), Fe-dependent; Acetaldehyde dehydrogenase (EC 1.2.1.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5976201" LocusId="CBY_3322" Name="asrA" Function="Anaerobic sulfite reductase subunit A" />
+          <Members vimssId="5976202" LocusId="CBY_3323" Name="asrB" Function="Anaerobic sulfite reductase subunit B" />
+          <Members vimssId="5976203" LocusId="CBY_3324" Name="asrC" Function="Anaerobic sulfite reductase subunit C" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5972455" LocusId="CBY_0341" Name="noxE" Function="NADH oxidase (EC 1.6.99.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5976114" LocusId="CBY_1290" Name="thlA" Function="Acetyl-CoA acetyltransferase (EC 2.3.1.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5976204" LocusId="CBY_3325" Name="narA" Function="Assimilatory nitrate reductase large subunit (EC:1.7.99.4)" />
+          <Members vimssId="5976205" LocusId="CBY_3326" Name="narB" Function="Nitrite reductase probable electron transfer 4Fe-S subunit (EC 1.7.1.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3116</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47314" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="CBY_3040" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5975239&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Clostridia-1" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4767" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_3016" Name="etfB" Position="-198" Score="5.3">
+          <Sequence>CTGTTAAAAAAATAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3325" Name="narA" Position="-169" Score="5.2">
+          <Sequence>TTATTAATTTTTTAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3325" Name="narA" Position="-148" Score="5.1">
+          <Sequence>TTGTTAAAAAAAGAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3041" Name="crt" Position="-98" Score="5.6">
+          <Sequence>TTGTTATAATATTAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2919" Name="ptb" Position="-55" Score="5.4">
+          <Sequence>TTGATATAATTTTAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1290" Name="thlA" Position="-81" Score="5.4">
+          <Sequence>ATGTTAATAATTTAACGA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1290" Name="thlA" Position="-140" Score="5.3">
+          <Sequence>TTGTCTAAAATTTAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3751" Name="bdh" Position="-122" Score="5">
+          <Sequence>ATGATAAAAATATTACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3747" Name="bdh" Position="-92" Score="5.4">
+          <Sequence>TTGACAAAAAAATAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3643" Name="fld" Position="-37" Score="5.5">
+          <Sequence>AAGTTAATTATTTAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3753" Name="adhE" Position="-104" Score="5.5">
+          <Sequence>GTGTTAAAAAAATAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3753" Name="adhE" Position="-146" Score="5">
+          <Sequence>TTGACAAAAAATAAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2357" Name="maeB" Position="-145" Score="5.4">
+          <Sequence>TTGTTAAAAAAGTAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2472" Name="butA" Position="-41" Score="5.3">
+          <Sequence>ATGTGAATTAATTAACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5975215" LocusId="CBY_3016" Name="etfB" Function="Electron transfer flavoprotein, beta subunit" />
+          <Members vimssId="5975216" LocusId="CBY_3017" Name="etfA" Function="Electron transfer flavoprotein, alpha subunit" />
+          <Members vimssId="5975217" LocusId="CBY_3018" Name="glcD" Function="Glycolate oxidase (EC 1.1.99.14), FAD/FMN-containing" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5973952" LocusId="CBY_2472" Name="butA" Function="2,3-butanediol dehydrogenase (EC 1.1.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974446" LocusId="CBY_3747" Name="bdh" Function="NADPH-dependent butanol dehydrogenase (EC 1.1.1.-) / Butyraldehyde dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975507" LocusId="CBY_2357" Name="maeB" Function="NAD-dependent malic enzyme (EC 1.1.1.38)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974450" LocusId="CBY_3751" Name="bdh" Function="NADPH-dependent butanol dehydrogenase (EC 1.1.1.-) / Butyraldehyde dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5976114" LocusId="CBY_1290" Name="thlA" Function="Acetyl-CoA acetyltransferase (EC 2.3.1.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975117" LocusId="CBY_2919" Name="ptb" Function="Phosphate butyryltransferase (EC 2.3.1.19)" />
+          <Members vimssId="5975118" LocusId="CBY_2920" Name="buk" Function="Butyrate kinase (EC 2.7.2.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975240" LocusId="CBY_3041" Name="crt" Function="3-hydroxybutyryl-CoA dehydratase (EC 4.2.1.55)" />
+          <Members vimssId="5975241" LocusId="CBY_3042" Name="bcd" Function="Butyryl-CoA dehydrogenase (EC 1.3.99.2)" />
+          <Members vimssId="5975242" LocusId="CBY_3043" Name="etfB" Function="Electron transfer flavoprotein, beta subunit" />
+          <Members vimssId="5975243" LocusId="CBY_3044" Name="etfA" Function="Electron transfer flavoprotein, alpha subunit" />
+          <Members vimssId="5975244" LocusId="CBY_3045" Name="hbd" Function="3-hydroxybutyryl-CoA dehydrogenase (EC 1.1.1.157)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974452" LocusId="CBY_3753" Name="adhE" Function="Alcohol dehydrogenase (EC 1.1.1.1), Fe-dependent; Acetaldehyde dehydrogenase (EC 1.2.1.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5976204" LocusId="CBY_3325" Name="narA" Function="Nitrate reductase, catalytic subunit" />
+          <Members vimssId="5976205" LocusId="CBY_3326" Name="narB" Function="Nitrate reductase, electron transfer subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974140" LocusId="CBY_3643" Name="fld" Function="Flavodoxin" />
+          <Members vimssId="5974139" LocusId="CBY_3642" Name="por" Function="Pyruvate-flavodoxin oxidoreductase (EC 1.2.7.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4767</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="SdaR" RegulationMode="activator">
+      <Regulator Key="SdaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62247" />
+      <Effector>D-glycerate</Effector>
+      <Pathway>Glycerate utilization</Pathway>
+      <LocusTag Key="CBY_1135" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5974250&amp;disp=0" />
+      <BiologicalProcess>Glycerate utilization</BiologicalProcess>
+      <Regulog Key="SdaR - Clostridia-1" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6400" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_1134" Name="grtP" Position="-120" Score="6.4">
+          <Sequence>AATTGTTCAAATGCACAAAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5974249" LocusId="CBY_1134" Name="grtP" Function="D-glycerate transporter, GntP family" />
+          <Members vimssId="5974248" LocusId="CBY_1133" Name="garK" Function="Glycerate kinase (EC 2.7.1.31)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6400</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ROK" RegulationMode="repressor">
+      <Regulator Key="XylR1" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34233" />
+      <Effector>Xylose</Effector>
+      <Pathway>Xylose utilization</Pathway>
+      <LocusTag Key="CBY_2343" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5975493&amp;disp=0" />
+      <BiologicalProcess>Xylose utilization</BiologicalProcess>
+      <Regulog Key="XylR1 - Clostridiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3499" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_2344" Name="tal" Position="-70" Score="6.4">
+          <Sequence>ACTTATTAAATATATTTTTAAAAGA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2380" Name="CAC2611" Position="-87" Score="7.1">
+          <Sequence>ACTTATTAAAATACATTTAAAAAGT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2342" Name="xylB" Position="-92" Score="7.1">
+          <Sequence>ACTTATTAAAATACATTTAAAAAGA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2342" Name="xylB" Position="-80" Score="5.6">
+          <Sequence>ACATTTAAAAAGAATTTTAATAATT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5975492" LocusId="CBY_2342" Name="xylB" Function="Xylulose kinase (EC 2.7.1.17)" />
+          <Members vimssId="5975493" LocusId="CBY_2343" Name="xylR" Function="Xylose repressor XylR, ROK family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975712" LocusId="CBY_2380" Name="CAC2611" Function="hypothetical protein" />
+          <Members vimssId="5975711" LocusId="CBY_2379" Name="xylA-II" Function="novel xylose isomerase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975494" LocusId="CBY_2344" Name="tal" Function="Transaldolase (EC 2.2.1.2)" />
+          <Members vimssId="5975495" LocusId="CBY_2345" Name="tkt" Function="Transketolase (EC 2.2.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3499</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="YhcF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57287" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux</Pathway>
+      <LocusTag Key="CBY_3923" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5975073&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux</BiologicalProcess>
+      <Regulog Key="YhcF - Clostridia-1" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5859" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_3923" Name="yhcF" Position="-57" Score="5.1">
+          <Sequence>TTGTATTATAGACTTAGTACAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5975073" LocusId="CBY_3923" Name="yhcF" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="5975074" LocusId="CBY_3924" Name="yhcG" Function="ABC-type multidrug transport system, ATPase component" />
+          <Members vimssId="5975075" LocusId="CBY_3925" Name="yhcI" Function="ABC-type multidrug transport system, permease component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5859</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="YtrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57188" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux; Antibiotic resistance</Pathway>
+      <LocusTag Key="CBY_1392" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5976018&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux; Antibiotic resistance</BiologicalProcess>
+      <Regulog Key="YtrA - Clostridia-1" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5848" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_1391" Name="Cbei_1884" Position="-48" Score="6.7">
+          <Sequence>AGGTGTACTAGTTCAAATAGTACACCT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5976017" LocusId="CBY_1391" Name="Cbei_1884" Function="hypothetical protein" />
+          <Members vimssId="5976018" LocusId="CBY_1392" Name="ytrA" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="5976019" LocusId="CBY_1393" Name="ytrB" Function="ABC-type transport system, ATPase component" />
+          <Members vimssId="5976020" LocusId="CBY_1394" Name="ytrC" Function="ABC-type transport system, permease component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5848</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47563" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="CBY_0017" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5973285&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Clostridia-1" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4794" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_3339" Name="rpsD2" Position="-101" Score="5.6">
+          <Sequence>AAAATGATAATGAATTTCATTTA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3339" Name="rpsD2" Position="-95" Score="5.1">
+          <Sequence>ATAATGAATTTCATTTACATTTA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3660" Name="znuC" Position="-128" Score="6">
+          <Sequence>ATATTGCAAATCATTTGCAGATA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3975" Name="znuA" Position="-33" Score="5.9">
+          <Sequence>CAAATGCAAATCATATGCAAAAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1468" Name="feoA" Position="-88" Score="6.4">
+          <Sequence>ATATTGAAAATTATTTGCATTTA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5974157" LocusId="CBY_3660" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="5974158" LocusId="CBY_3661" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975554" LocusId="CBY_3975" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5976218" LocusId="CBY_3339" Name="rpsD2" Function="SSU ribosomal protein S4p paralog" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975442" LocusId="CBY_1468" Name="feoA" Function="ferrous iron transport protein A" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4794</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41897" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="CBY_0017" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5973285&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Clostridiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4328" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_3339" Name="rpsD2" Position="-101" Score="4.8">
+          <Sequence>AAAATGATAATGAATTTCATTTA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3975" Name="znuA" Position="-33" Score="6.4">
+          <Sequence>CAAATGCAAATCATATGCAAAAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3660" Name="znuC" Position="-128" Score="6.4">
+          <Sequence>ATATTGCAAATCATTTGCAGATA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5974157" LocusId="CBY_3660" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="5974158" LocusId="CBY_3661" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975554" LocusId="CBY_3975" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5976218" LocusId="CBY_3339" Name="rpsD2" Function="SSU ribosomal protein S4p paralog" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4328</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30681" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_3393" Name="cbiK" Position="-357" Score="110.9">
+          <Sequence>TAATAAATATGATTATAGGTTTTGGTTAGTATAAGTCTAATTAAATTAAAAGGGAAAGCAGTTAAAGTCTGCTACAGCCCCCGCTACTGTAATGGAGTACTGTCTCAAATAACCACTGGAATTTAATTCTGGGAAGGGTGAGTGTTCAGGTTGATACCAAAGTCAGGAGACCTGCCTATAAAATTTTGACTATTAC</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1415" Name="cbiM" Position="-417" Score="102.4">
+          <Sequence>CAAAAATATAATTATAGAAGGTGCCTGTGATTTCTCCGCAGGATAATAGGGAAAAGGGTGAAAATCCCTTACGGTCCCGCCGCTGTATTGGAAGAGTTATATCTTAAAAATATGTCACTGGATTTTCTGGGAAGACAAGATATGATTATGAAACCTAAGTCAGAATACCTGCCTTTTATAAGCGTATGTAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5972583" LocusId="CBY_3393" Name="cbiK" Function="Sirohydrochlorin cobaltochelatase CbiK (EC 4.99.1.3)" />
+          <Members vimssId="5972584" LocusId="CBY_3394" Name="cbiA" Function="Cobyrinic acid A,C-diamide synthase" />
+          <Members vimssId="5972585" LocusId="CBY_3395" Name="cbiC" Function="Cobalt-precorrin-8x methylmutase (EC 5.4.1.2)" />
+          <Members vimssId="5972586" LocusId="CBY_3396" Name="null" Function="hypothetical protein" />
+          <Members vimssId="5972587" LocusId="CBY_3397" Name="cbiD" Function="Cobalt-precorrin-6 synthase, anaerobic" />
+          <Members vimssId="5972588" LocusId="CBY_3398" Name="cbiE" Function="Cobalt-precorrin-6y C5-methyltransferase (EC 2.1.1.-)" />
+          <Members vimssId="5972589" LocusId="CBY_3399" Name="cbiT" Function="Cobalt-precorrin-6y C15-methyltransferase [decarboxylating] (EC 2.1.1.-)" />
+          <Members vimssId="5972590" LocusId="CBY_3400" Name="cbiL" Function="Cobalt-precorrin-2 C20-methyltransferase (EC 2.1.1.130)" />
+          <Members vimssId="5972591" LocusId="CBY_3401" Name="cbiF" Function="Cobalt-precorrin-4 C11-methyltransferase (EC 2.1.1.133)" />
+          <Members vimssId="5972592" LocusId="CBY_3402" Name="cbiG" Function="Cobalamin biosynthesis protein CbiG" />
+          <Members vimssId="5972593" LocusId="CBY_3403" Name="cbiH" Function="Cobalt-precorrin-3b C17-methyltransferase" />
+          <Members vimssId="5972594" LocusId="CBY_3404" Name="cbiJ" Function="Cobalt-precorrin-6x reductase (EC 1.3.1.54)" />
+          <Members vimssId="5972595" LocusId="CBY_3405" Name="cbiB" Function="Adenosylcobinamide-phosphate synthase" />
+          <Members vimssId="5972596" LocusId="CBY_3406" Name="cobD" Function="L-threonine 3-O-phosphate decarboxylase (EC 4.1.1.81)" />
+          <Members vimssId="5972597" LocusId="CBY_3407" Name="cbiP" Function="Cobyric acid synthase" />
+          <Members vimssId="5972598" LocusId="CBY_3408" Name="null" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975391" LocusId="CBY_1415" Name="cbiM" Function="Substrate-specific component CbiM of cobalt ECF transporter" />
+          <Members vimssId="5975390" LocusId="CBY_1414" Name="cbiN" Function="Additional substrate-specific component CbiN of cobalt ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30701" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_0685" Name="ribD" Position="-423" Score="112.2">
+          <Sequence>TATTAATCTTCAGGGCAGGGTGTAATTCCCTACTGGCGGTATAGCCCGCGAGCTTATTATTAGCAGATTCGGTTAAATTCCGAGGCCAACAGTATAGTCTGGATAAAAGAAGAGTATT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3957" Name="ribU" Position="-276" Score="118.9">
+          <Sequence>TATATCTTCAGGGCAGGGTGAAAATCCCTACTGGCGGTACAGCCCGCGAGCTATTTTAGCAGATTCGGTGTAATTCCGAAGCCAACAGTATAGTCTGGATGAAAGAAGGTAACCTA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5973056" LocusId="CBY_0685" Name="ribD" Function="Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26) / 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)" />
+          <Members vimssId="5973055" LocusId="CBY_0684" Name="ribE" Function="Riboflavin synthase alpha chain (EC 2.5.1.9)" />
+          <Members vimssId="5973054" LocusId="CBY_0683" Name="ribBA" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase / GTP cyclohydrolase II (EC 3.5.4.25)" />
+          <Members vimssId="5973053" LocusId="CBY_0682" Name="ribH" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975536" LocusId="CBY_3957" Name="ribU" Function="Substrate-specific component RibU of riboflavin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01051" RegulationMode="RF01051">
+      <Regulator Key="GEMM_RNA_motif" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32264" />
+      <Effector>Cyclic diguanylate</Effector>
+      <Pathway>Second messenger response</Pathway>
+      <LocusTag Key="GEMM_RNA_motif" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_3585" Name="flgB" Position="-402" Score="60.1">
+          <Sequence>ATAATTGAATACGCAAAGTTAATGAAAGTTAATGACGCAAAGCTATAGGGACTAAGAATTTTATTAAGAATTTATGTCAGCCAGTTGCCGGG</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0554" Name="cheY" Position="-148" Score="56">
+          <Sequence>TTCATATTGGGCAAAGCAGTTGAAAAGCTGTGACGCAAAGCTAGAGGGCCTTTCTTATAGAATGGCAGCCAGTTGCATAAAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5972316" LocusId="CBY_0554" Name="cheY" Function="Chemotaxis regulator - transmits chemoreceptor signals to flagelllar motor components CheY" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974082" LocusId="CBY_3585" Name="flgB" Function="Flagellar basal-body rod protein FlgB" />
+          <Members vimssId="5974081" LocusId="CBY_3584" Name="flgC" Function="Flagellar basal-body rod protein FlgC" />
+          <Members vimssId="5974080" LocusId="CBY_3583" Name="fliE" Function="Flagellar hook-basal body complex protein FliE" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00504" RegulationMode="RF00504">
+      <Regulator Key="Glycine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32289" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="Glycine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_0150" Name="glyP" Position="-425" Score="46.5">
+          <Sequence>GATGAAGATGGTGGGAGAGATATCATTTTATATTATTAATATTAAAATGATACACCGAAGAGGGAAATCTTTCAGGTATTAGGACCGCCATTGGACG</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0150" Name="glyP" Position="-327" Score="56.8">
+          <Sequence>GCCTCTGGAGAGACTTATTTAATAAGCACCGAAGGAGCAAGGTTGTATACAATACGTGTACAATTGAAACTCTCAGGTAAAAGGACAGGGG</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5974386" LocusId="CBY_0150" Name="glyP" Function="Sodium/glycine symporter GlyP" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00556" RegulationMode="RF00556">
+      <Regulator Key="L19_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32389" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L19_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_0541" Name="rplS" Position="-69" Score="24.5">
+          <Sequence>GGGCGTTCCTCTGTCTACATGAGAAACTGTGTTAAGAACGTCAAAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5972354" LocusId="CBY_0541" Name="rplS" Function="LSU ribosomal protein L19p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00559" RegulationMode="RF00559">
+      <Regulator Key="L21_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32439" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L21_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_4003" Name="rplU" Position="-80" Score="20.3">
+          <Sequence>GCACACGTAAGGTTTTTAGTAAAACAAAGTCAAATCTTTGTACCAAAAGTGGCGAGACCG</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5975582" LocusId="CBY_4003" Name="rplU" Function="LSU ribosomal protein L21p" />
+          <Members vimssId="5975583" LocusId="CBY_4004" Name="ysxB" Function="FIG139598: Potential ribosomal protein" />
+          <Members vimssId="5975584" LocusId="CBY_4005" Name="rpmA" Function="LSU ribosomal protein L27p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00168" RegulationMode="RF00168">
+      <Regulator Key="Lysine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32489" />
+      <Effector>Lysine</Effector>
+      <Pathway>Lysine biosynthesis</Pathway>
+      <LocusTag Key="Lysine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_2257" Name="lysW" Position="-425" Score="117.5">
+          <Sequence>CGAAAGAGGTAGAGGCGCAGTATTTAATAGTATTACTACGGAGGAAAGCACTGTGAAGTAGTAAGAAAGGAAATATTGCCGAAGCTTATAACTAATGCTTTAAAGTTATAAGGCTGGGGTTATGCAGAATATGCATAACACTGTCACAAAGATGTGATTTTGTGGTGAGCTATCATTCAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5975888" LocusId="CBY_2257" Name="lysW" Function="Predicted lysine transporter, NhaC family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01055" RegulationMode="RF01055">
+      <Regulator Key="MOCO_RNA_motif" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32514" />
+      <Effector>Molybdenum</Effector>
+      <Pathway>Molybdopterin biosynthesis; Molybdenum homeostasis</Pathway>
+      <LocusTag Key="MOCO_RNA_motif" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_3332" Name="moeA" Position="-461" Score="64.5">
+          <Sequence>AATTAAATAATCTCCGAACAACTGTATCTAAGGAGTAAATCTATGATGCTTTTGTCAAGCAGAATGTATGATGATAGTTTAATATACTACATTTTGTTTCAGGGTTCTATGGGAAACTATATTGCCTTCCGTGTTTGAAAAGGAGGATTATTTAAACTAAAAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5976211" LocusId="CBY_3332" Name="moeA" Function="Molybdopterin biosynthesis protein MoeA" />
+          <Members vimssId="5976212" LocusId="CBY_3333" Name="moeA" Function="Molybdopterin biosynthesis protein MoeA" />
+          <Members vimssId="5976213" LocusId="CBY_3334" Name="moaC" Function="Molybdenum cofactor biosynthesis protein MoaC" />
+          <Members vimssId="5976214" LocusId="CBY_3335" Name="mobB" Function="Molybdopterin-guanine dinucleotide biosynthesis protein MobB" />
+          <Members vimssId="5976215" LocusId="CBY_3336" Name="moaA" Function="Molybdenum cofactor biosynthesis protein MoaA" />
+          <Members vimssId="5976216" LocusId="CBY_3337" Name="moaB" Function="Molybdenum cofactor biosynthesis protein MoaB @ Molybdopterin biosynthesis Mog protein, molybdochelatase" />
+          <Members vimssId="5976217" LocusId="CBY_3338" Name="moaB" Function="Molybdenum cofactor biosynthesis protein MoaB @ Molybdopterin biosynthesis Mog protein, molybdochelatase (wtpC) / Molybdopterin-guanine dinucleotide biosynthesis protein MobB (moaB)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00522" RegulationMode="RF00522">
+      <Regulator Key="PreQ1" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32564" />
+      <Effector>Pre-queuosine1</Effector>
+      <Pathway>Queuosine biosynthesis</Pathway>
+      <LocusTag Key="PreQ1" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_1903" Name="queT" Position="-395" Score="17.2">
+          <Sequence>ATTATAGTCAGTTCGAAAGCCTCCTGACTTAAAATAAAACTACGGTTAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5973342" LocusId="CBY_1903" Name="queT" Function="Substrate-specific component QueT (COG4708) of predicted queuosine-regulated ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00167" RegulationMode="RF00167">
+      <Regulator Key="Purine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32589" />
+      <Effector>Adenine; Guanine</Effector>
+      <Pathway>Purine metabolism</Pathway>
+      <LocusTag Key="Purine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_3122" Name="add" Position="-156" Score="66.5">
+          <Sequence>ATTTAAATTAATAAATGAGTTTCGTATAATTCCAATAATATGGTTTGGAAGTCTCTACTAGGAACCTATAATTCCTAATTACGAAGAAAATTTTATGCAAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1905" Name="pbuX" Position="-340" Score="70.6">
+          <Sequence>CTGAGACGATAACACAAACACTCGTATATTTTCAGGAATATGGCTTGAAAGTTTCTACCTGCTACCGTTATTAGCAGACTATGAGGTGTAATATTGTAAAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3053" Name="guaB" Position="-246" Score="67.9">
+          <Sequence>ATACGGCACATTAAAAAACTCATATATACCCTGGATATGGCAGGGAGTATCTACCGGAAACCTTAAATTTCTGACTATGAGTGATATTAATATAAGCTG</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5972894" LocusId="CBY_3122" Name="add" Function="Adenosine deaminase (EC 3.5.4.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5973344" LocusId="CBY_1905" Name="pbuX" Function="Uracil-xanthine permease" />
+          <Members vimssId="5973343" LocusId="CBY_1904" Name="xpt" Function="Xanthine phosphoribosyltransferase (EC 2.4.2.22)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975252" LocusId="CBY_3053" Name="guaB" Function="Inosine-5'-monophosphate dehydrogenase (EC 1.1.1.205)" />
+          <Members vimssId="5975253" LocusId="CBY_3054" Name="guaA" Function="GMP synthase [glutamine-hydrolyzing] (EC 6.3.5.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00515" RegulationMode="RF00515">
+      <Regulator Key="PyrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32614" />
+      <Effector>PyrR</Effector>
+      <Pathway>Pyrimidine metabolism</Pathway>
+      <LocusTag Key="PyrR" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_2289" Name="carA" Position="-225" Score="29">
+          <Sequence>GATGCACTTTAACTTGGTCCTGTGAGGCCAAAAAGGTAGTATAACTATGATATTTAAATATTCAACGGTGAATTTCATAGCTTATTTTT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1339" Name="codB" Position="-231" Score="29.8">
+          <Sequence>AGTCCTTTAAGTTATGTCCTGTGAGACAAACAAGGTCGTATAACACATAGATGAAACACATTGATATTGTGGAGTATCAAAGATTATATAGATATTAAGGGACTGTTATACTAATTATTAATTAGTAGCAGTTCCTTTATTT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2768" Name="pyrB" Position="-158" Score="37">
+          <Sequence>AATAACCTTTAATTTGATTCAGAGAGATCAATAAGGAAGTTATATAACAATGTAGATGCATTAGGATTATTATGCCTTCCTTTAAATTAGGAAAGGCTTTTTTTAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3673" Name="pyrP" Position="-79" Score="27.1">
+          <Sequence>AGACATATTTTAATTCTAGTCCAGAGAGGCTAAAAAGGGAGAATATAAAGTTCTTCTTTTAAATTTGAGGAGGTATTGTATGTCA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5974170" LocusId="CBY_3673" Name="pyrP" Function="Uracil permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975920" LocusId="CBY_2289" Name="carA" Function="Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)" />
+          <Members vimssId="5975919" LocusId="CBY_2288" Name="carB" Function="Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5972831" LocusId="CBY_2768" Name="pyrB" Function="Aspartate carbamoyltransferase (EC 2.1.3.2)" />
+          <Members vimssId="5972830" LocusId="CBY_2767" Name="pyrI" Function="Aspartate carbamoyltransferase regulatory chain (PyrI)" />
+          <Members vimssId="5972829" LocusId="CBY_2766" Name="pyrC" Function="Dihydroorotase (EC 3.5.2.3)" />
+          <Members vimssId="5972828" LocusId="CBY_2765" Name="pyrF" Function="Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23)" />
+          <Members vimssId="5972827" LocusId="CBY_2764" Name="pyrK" Function="Dihydroorotate dehydrogenase electron transfer subunit (EC 1.3.3.1)" />
+          <Members vimssId="5972826" LocusId="CBY_2763" Name="pyrD" Function="Dihydroorotate dehydrogenase, catalytic subunit (EC 1.3.3.1)" />
+          <Members vimssId="5972825" LocusId="CBY_2762" Name="pyrE" Function="Orotate phosphoribosyltransferase (EC 2.4.2.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975966" LocusId="CBY_1339" Name="codB" Function="Cytosine/purine/uracil/thiamine/allantoin permease family protein" />
+          <Members vimssId="5975967" LocusId="CBY_1340" Name="codA" Function="Cytosine deaminase (EC 3.5.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00162" RegulationMode="RF00162">
+      <Regulator Key="SAM" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32689" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="SAM" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_2058" Name="metQ5" Position="-337" Score="90">
+          <Sequence>CAACTTATCAAGAGTGGTGGAGGGACTGGCCCTATGAAACCCGGCAACCGACATTTAGTTCATTTACTATATGTGACGGTGCTAATTCCTGCAGTTTATTTAAACTGGTAGATGAGAG</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0038" Name="msd" Position="-289" Score="91.2">
+          <Sequence>ACTTATCAAGAGTGGTGGAGGGACTGGCCCTGTGAAACCCGGCAACCAATATTTATTAGATGATATGAGGTGCCAAATCCTGCAGTTTTTATGACTGGTAGATAAGGTAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1316" Name="metK" Position="-295" Score="91.1">
+          <Sequence>TCTTATCAAGAGAGGTGGAGGGATAGGGCCCAGTGAAACCCGGCAACCTGTATATACAAGGTGCCAATTCCTGTAGATGTAATTCTACAAGATAAGAAAA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_4078" Name="metY" Position="-317" Score="79.6">
+          <Sequence>TTTTATCAAGAAAGACGGAGGGACTGGCCCTGTGATGTCTGGCAACCTGGAGGATATATCATATATATATTGTTTAAGGTGCTAATTCCTGCAGATTTTATATCTGAGAGATAAGAAGA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5976140" LocusId="CBY_1316" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975656" LocusId="CBY_4078" Name="metY" Function="O-acetylhomoserine sulfhydrylase (EC 2.5.1.49) / O-succinylhomoserine sulfhydrylase (EC 2.5.1.48)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5973495" LocusId="CBY_2058" Name="metQ5" Function="Methionine ABC transporter, substrate-binding component" />
+          <Members vimssId="5973494" LocusId="CBY_2057" Name="metN5" Function="Methionine ABC transporter, ATP-binding component" />
+          <Members vimssId="5973493" LocusId="CBY_2056" Name="metP5" Function="Methionine ABC transporter, permease component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5972959" LocusId="CBY_0038" Name="msd" Function="Methionine synthase activation domain (EC 2.1.1.13)" />
+          <Members vimssId="5972960" LocusId="CBY_0039" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ala)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32764" />
+      <Effector>Ala-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_2616" Name="alaS" Position="-352" Score="107.6">
+          <Sequence>ATATTAAGCGATGAATAGGAAAAGTAGAATTATTAATAGATATTAAGAGAGGAAGTGGCTGGTGAAAACTTCTTGCTATTGTATTTTGAAGCTGCCTAGGAGCTATAACTTACTAAGTGATGTATATTTTATACATAATTAGGGTGGTACCGCGGAATTTTAGCTTTCGTCCCTTGT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3896" Name="alaR" Position="-418" Score="115.3">
+          <Sequence>GTTAAAGATAGTGATAAGAAAGAGTAGTTTTAGATATACTTTTTAGAGAGCTGAAGTTTGGTGTGATTCAGTAAGTATACTTAAATGAAGCAGTCTTTGAATTTCATACTGAGAACTAAGAATAGATATTCTTAATTAGGTTATGACGTGTTCCTTACGTTACAAAGGATAGAATGTTTAGTTGACATTCTTACTGAGTGAATAGCATACGTGCTATTTATTAGGGTGGTACCGCGAAGTAGTTCCTTCGTCCCTTGT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5975046" LocusId="CBY_3896" Name="alaR" Function="Transcriptional regulator, AsnC family" />
+          <Members vimssId="5975045" LocusId="CBY_3895" Name="alaT" Function="aminotransferase, class I/II" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974723" LocusId="CBY_2616" Name="alaS" Function="Alanyl-tRNA synthetase (EC 6.1.1.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Arg)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32789" />
+      <Effector>Arg-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_2749" Name="argS" Position="-386" Score="98.2">
+          <Sequence>GAAAGATTTGATGATGAGGATAGTACTTTAGTTGAGTCCATAAGCGAGCTGGGAAATGGTGTAAGCCTGGTAGGATAGATTAATAGGAAGAGAACCTTGGAGAAGTCTCCTGAAATGAGTAGGGATGACCGCAGGTGAAAAAATGATCTGCGTTAAAGTTAAAGTGGCATATTTTAATTTAGAATATGCAATTAGAGTGGTACCGCGAATAATTCGTCTCTTGT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5972814" LocusId="CBY_2749" Name="argS" Function="Arginyl-tRNA synthetase (EC 6.1.1.19)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Cys)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32864" />
+      <Effector>Cys-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_4054" Name="cysK" Position="-477" Score="117.9">
+          <Sequence>TAAAAACTATGAAAAAGGAAAGTAGCATATTGGAACGTTAACAGAGAGGAAAGGAAGCTGAGAACTTTCTATCAGGAAACTATGTGAAGTGCCCTTTGGAGTTGAAATCTGAATAGTAGTAAGATTCTCCGGGTTCACCCGTTATAGTGATAGGCATGATTAGTGCTCGATTTGAGGTGGGATTATATTAATCCAATTAGAGTGGGACCGCGAAGTAACTTCGTCTCTATAAG</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5975633" LocusId="CBY_4054" Name="cysK" Function="Cysteine synthase (EC 2.5.1.47)" />
+          <Members vimssId="5975634" LocusId="CBY_4055" Name="cysE" Function="Serine acetyltransferase (EC 2.3.1.30)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Gly)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32914" />
+      <Effector>Gly-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_2185" Name="glyS" Position="-216" Score="80.8">
+          <Sequence>AAAATGCATGTTGATAAAGAAGAGTAGTTTAAAAATCAATTTTAGAGAGATAATGTGCGGTGGAAATTATCATTGATTTTAAATGAAAGGAACTTTTGAGTGTGAGCAAGAAAGATGGACTTAAGTCAAGAAGGGTGGAACCGCGGAATTATAATTTCGTCCCTTTG</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5975817" LocusId="CBY_2185" Name="glyS" Function="Glycyl-tRNA synthetase (EC 6.1.1.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ile)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32964" />
+      <Effector>Ile-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_2265" Name="ileS" Position="-386" Score="78.5">
+          <Sequence>ATAAAAGACTATGATTAGGAAAAGTATCTTAGAACTTATTTTTAGAGAGTAGCTGTTTGGTGCAAAGCTATAATAAATCTTAGAGAAAATCACCTAGGAGTTTGAGGCTGAAAGGCATATATTATTTATGTTTATTAAGTTATCACGTAAGAGCCTGCGTTAAAGGATAGAGTATGTATGTACTTGAAATTAAGCATTTAGTTTTAGATTGAATGTTCACCTTAGGTGGTTTGCGAATTTTACTTCGTCCTGTAG</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_2932" Name="ilvH" Position="-275" Score="48.8">
+          <Sequence>GAAATGCTAAGAAGGAGACAGTTATTAAACAGAAAAAAGTTTAAGAGAGTCGATGGTTGGTGTGAATCGATACTTTAGTTTTTTAATTATCACTCCTGAGCTGAATCGGGAAAGAGAATTATATGTTCTTGAGTAAAAGATATCCGGTGTGCATCCGTTATATGCAAGGGTTTGT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5975896" LocusId="CBY_2265" Name="ileS" Function="Isoleucyl-tRNA synthetase (EC 6.1.1.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975130" LocusId="CBY_2932" Name="ilvH" Function="Acetolactate synthase small subunit (EC 2.2.1.6)" />
+          <Members vimssId="5975131" LocusId="CBY_2933" Name="leuA" Function="2-isopropylmalate synthase (EC 2.3.3.13)" />
+          <Members vimssId="5975132" LocusId="CBY_2934" Name="leuC" Function="3-isopropylmalate dehydratase large subunit (EC 4.2.1.33)" />
+          <Members vimssId="5975133" LocusId="CBY_2935" Name="leuD" Function="3-isopropylmalate dehydratase small subunit (EC 4.2.1.33)" />
+          <Members vimssId="5975134" LocusId="CBY_2936" Name="leuB" Function="3-isopropylmalate dehydrogenase (EC 1.1.1.85)" />
+          <Members vimssId="5975135" LocusId="CBY_2937" Name="ilvD" Function="Dihydroxy-acid dehydratase (EC 4.2.1.9)" />
+          <Members vimssId="5975136" LocusId="CBY_2938" Name="ilvB" Function="Acetolactate synthase large subunit (EC 2.2.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Leu)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33019" />
+      <Effector>Leu-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_1194" Name="ilvB" Position="-461" Score="56.8">
+          <Sequence>TTACAAGTATGACAAGGAGAAGTACATAAATTATTTAAGCAAAGAGAGAGAATGGATGGTGTAAATTCTCATGAGATATTTATGGAACTAGCCTTTGACTTTTAAAAGAAATCTTTATAGAGAGTAGACTTAAACGGATACCCACCGTTATAAGGGTATAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1582" Name="leuS" Position="-379" Score="122.7">
+          <Sequence>ATATTAAGCTATGAGTAGAAGTAGTAACAATTTGTATATCTTTAGAGAGTTATTGGTTGGTGTAAAATAACGTTATATTATTGTGAACTTGTCTATGAGCTTATCTGTTTAGAAGCAGATACGGGATAACCCGTTACAGTATTCAAGTGAGAAGATTTATTTATTAAATCTTCTAATAAGAGTGGTACCACGGAATAACGCTTTCGTCTCTTGA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5974803" LocusId="CBY_1582" Name="leuS" Function="Leucyl-tRNA synthetase (EC 6.1.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5972192" LocusId="CBY_1194" Name="ilvB" Function="Acetolactate synthase large subunit (EC 2.2.1.6)" />
+          <Members vimssId="5972193" LocusId="CBY_1195" Name="ilvH1" Function="Acetolactate synthase small subunit (EC 2.2.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Met)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33129" />
+      <Effector>Met-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_2255" Name="metS" Position="-440" Score="96">
+          <Sequence>TTTAAATGCATTGAAAAGAAGAGTAGTAAAATAAACATTCTATAAGAGAGCTGATAATTGCTGAAAGTCAGTGTTTGCGAGTTTTATGAAGATGGTCTTAGAGTATATTTTCTGAGCTGGTAAGATATCAGTTAGGAGAGTACGGAAGCAGCCGTTATACTGCAGGGTGATGATAGTCACCTAGTGAGTTATTTATTGTGAAGTAAATAAGAAATAGAGTGGTAACACGTATAATACGTCTCTATA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5975886" LocusId="CBY_2255" Name="metS" Function="Methionyl-tRNA synthetase (EC 6.1.1.10)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Phe)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33184" />
+      <Effector>Phe-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_3151" Name="pheS" Position="-368" Score="95.2">
+          <Sequence>TAAAAATTGTGATTGAGAGAGTAGCTTTTATGAAGTTTTCAGGGAGAAAAGATCATTGGACTGGAAGTCTTTTTAAATGAAGTAATTGTGAAGTTCACTCAGGAGTTCCAGCTGTGAAGTAATAGTAGCATCTGGCGGCATATATATGTCGTTATTAAAATTAAGCTGGGTAGCCTTTTAGGTACCAATCAGGGTGGTAACGCGGATAATTCGTCCCTTTTTT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="4728665" LocusId="CBY_3151" Name="pheS" Function="Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)" />
+          <Members vimssId="5972475" LocusId="CBY_3152" Name="pheT" Function="Phenylalanyl-tRNA synthetase beta chain (EC 6.1.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Pro)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33239" />
+      <Effector>Pro-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_2151" Name="proS" Position="-394" Score="87.7">
+          <Sequence>TTTTAGAGCAATGATGGAGAATAGTAGAAGTCGCCCTTTAAGAGAAAAAGTCCTTAGGCTGTAAGACTTTTAATAGACTTTGAACCAGCTTCGGAGCAGTAGGAAAAAACTATCGGTTTAATACCGTTATCATTATTTAGAGAACAAATTTAGGTGGTACCGCGAGTTGATTCGCCCTAATA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5975782" LocusId="CBY_2151" Name="proS" Function="Prolyl-tRNA synthetase (EC 6.1.1.15) ## Bacterial type" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ser)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33294" />
+      <Effector>Ser-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_1480" Name="serS" Position="-293" Score="80.5">
+          <Sequence>AATAGGCGTTATTATAAAAGCTACGATTTATTAATATCTTCAGAGAGCTGGTGTATGGTGCGAACCAGTGATTATTATAAGTCTTTCCACTTTTAGAGCTGCTGATGATAAATCAGAAGGTTTATGCCCTTTATAGCATAGTTTAAGAGGTTAATGTAAGTTTTTATATTGACAATTTAGGTGGCAACGCGGATTCTATTCGTCCTATTATG</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5973303" LocusId="CBY_1480" Name="serS" Function="Seryl-tRNA synthetase (EC 6.1.1.11)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Thr)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33349" />
+      <Effector>Thr-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_1429" Name="thrZ" Position="-314" Score="99.1">
+          <Sequence>TATAGGCAATGAAAGGGAAAAGTATTATAGACTACAATTTTCAGAGAGAGAATATCAACCGGCTGAAAGTATTCTTAAATATGACTGTAAGAAAAACTACCCTGGAGCTATGGTTTATTAGCTTATAGATTTATAAGTGAAATGTCATCGGTGAAAATCGTTAATATTATTAAGATGAATTGAATTTTTAATTCAATTTGGGTGGAACCACGGATATATGCATTCGTCCCAAGCTT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3005" Name="thrS" Position="-376" Score="57">
+          <Sequence>AGATAACACGTTGATGAGGACAGTAAGCTAAAATCTTATTTTTCAGAGAGAGAATACACTGGTGTGAGTATTCTTAAATAACTTTAGACTGAAAACCACCTCTGAGTGGTCCTAATAAGACCCGTTATTATCACGTTACGATAATTTCAAGTGACCTAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5975405" LocusId="CBY_1429" Name="thrZ" Function="Threonyl-tRNA synthetase (EC 6.1.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975204" LocusId="CBY_3005" Name="thrS" Function="Threonyl-tRNA synthetase (EC 6.1.1.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Trp)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33404" />
+      <Effector>Trp-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_1065" Name="trpE" Position="-130" Score="22.7">
+          <Sequence>AAATTTGGGTGGCACCACGAGTCACTTCGTCCCA</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3915" Name="trpS" Position="-350" Score="76.5">
+          <Sequence>AATAAATCCAATGAAAAGGAAGAGTAGTTAAGTTAAGGTTCAATAAAGAGAACTAGGGATGGTGTAATCCTAGTAAGAAGGACTTAATGAATGGGCCTTGGAGGAATTAAGGGAAATCTGTTAGAAATTATTTTAACAGAAAGTATCTGATATGGTAGCTGCACCTTACAGCAGAAGCATTAATAGTATTATAATCTATAGATGTGAAATTTATATTGTAATTTTGTGCTGTATTTTATGCACATTTTAGGTGGTACAACGGATATATCTCCGTCCTATTT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_3675" Name="trpP" Position="-456" Score="92.3">
+          <Sequence>ATTAAATTCCAGGAAGAGGAAGAGTAGTCAGGATGCAATGTCAAAGAGAGCTGGAGATGGTGAGATTTCAGCACAGTAGCTAATGGTGAATGGGCCTCTGAGAAGCAAGATGAAATCTATTTAAATTTGGAGAGTAGTTGCGCCGTGTGTCGCACGTTATAGCGAATAGAGTATGTTAGTACTTGAAGTTGAGTGGTATTTTTGTTAAAGAAGATACAATTTAGGTGGCAACGCGGATATAATCCGTCCTATTT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5972281" LocusId="CBY_1065" Name="trpE" Function="Anthranilate synthase, aminase component (EC 4.1.3.27) # TrpAa" />
+          <Members vimssId="5972280" LocusId="CBY_1064" Name="trpG" Function="Anthranilate synthase, amidotransferase component (EC 4.1.3.27) @ Para-aminobenzoate synthase, amidotransferase component (EC 2.6.1.85) # TrpAb@PabAb" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5975065" LocusId="CBY_3915" Name="trpS" Function="Tryptophanyl-tRNA synthetase (EC 6.1.1.2) ## proteobacterial type" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974172" LocusId="CBY_3675" Name="trpP" Function="Substrate-specific component TrpP of tryptophan ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Val)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33514" />
+      <Effector>Val-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_0347" Name="valS" Position="-443" Score="107.3">
+          <Sequence>TAAAAGCAATGATAAAGAGGAGTAGAAATTTATAAGCATTATAAGAGAGAGGGAAGAGCTGAAAACCCTTATGTGGAGAATTTTGAAGGTAGCTTTTGAGCTTCTTTAGTGAATGTAAGTAGCTAAAGACGGTTATCTAAATCGTTATTTGAATTAAGAGTCCATTAGAACATATTTATTTTATATGTTTACGTGGAAATAAAGGTGGTAACGCGAGTCTTCGTCCTTTTTAG</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5972461" LocusId="CBY_0347" Name="valS" Function="Valyl-tRNA synthetase (EC 6.1.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33564" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_0451" Name="thiT" Position="-186" Score="70.2">
+          <Sequence>AAGTGTGCTAGGGGTGCCTTTGGCTGAGAGGTGATTTTATCACTAACCCTCAACACCTGATCTGGTTAGAACCAGCGTAGGGAAGTGTTTTGAATATTAATC</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_0917" Name="tenA" Position="-248" Score="76.1">
+          <Sequence>CAAAAATAACTAGGGGTGCTGAAAAAGCTGAGAGAGTAAAATTTACTTAACCCTTTGAACCTGTCTTGGGTAATTCCAACGTAGGGAAGTGAGCTTGTAAGTAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1699" Name="thiW" Position="-200" Score="67.6">
+          <Sequence>TAGATAACTAGGGGAGCTTTTGCTGAGATTGGAATAAATTCCTAAACCCTTATGACCTGATTTGGTTAAGACCAACGTAGGGAAGTGCAGAATTAATTAGTT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5976150" LocusId="CBY_0917" Name="tenA" Function="Thiaminase II (EC 3.5.99.2)" />
+          <Members vimssId="5976149" LocusId="CBY_0916" Name="thiZ" Function="Thiamin ABC transporter, ATPase component" />
+          <Members vimssId="5976148" LocusId="CBY_0915" Name="thiX" Function="Thiamin ABC transporter, transmembrane component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5973167" LocusId="CBY_0451" Name="thiT" Function="Substrate-specific component ThiT of thiamin ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974920" LocusId="CBY_1699" Name="thiW" Function="Substrate-specific component ThiW of predicted thiazole ECF transporter" />
+          <Members vimssId="5974921" LocusId="CBY_1700" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+          <Members vimssId="5974922" LocusId="CBY_1701" Name="thiC" Function="Thiamine biosynthesis protein ThiC" />
+          <Members vimssId="5974923" LocusId="CBY_1702" Name="thiM" Function="Hydroxyethylthiazole kinase (EC 2.7.1.50)" />
+          <Members vimssId="5974924" LocusId="CBY_1703" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00234" RegulationMode="RF00234">
+      <Regulator Key="glmS" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33539" />
+      <Effector>Glucosamine-6-phosphate</Effector>
+      <Pathway>Amino sugar metabolism</Pathway>
+      <LocusTag Key="glmS" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_2954" Name="glmS" Position="-431" Score="96.9">
+          <Sequence>AAATTTTTAAAGCGCCAGAACTTAAGTAAATTACTTTAGTTGATTGAATGTGGATGTTTAGAGTTTTTTTAAAAGGAAACTCGACTCACATACGTTCGCTGAGTAAGTTCCACTAACCAAATCATAGATTTGGATGCTCACTTAAGTTGACGAGGTTGGGGAGTTATCGAAACTTCGGCGGGTGCCCCACGGTATAGCACTACCGTTAACAGCTGGCAAAACTTTAAAGTGATTTAAAGTACAAATCCAGTTTGGTGTTAAAGCC</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5975153" LocusId="CBY_2954" Name="glmS" Function="Glucosamine--fructose-6-phosphate aminotransferase [isomerizing] (EC 2.6.1.16)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00442" RegulationMode="RF00442">
+      <Regulator Key="ykkC-yxkD" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33839" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="ykkC-yxkD" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_1736" Name="COG731" Position="-165" Score="81.1">
+          <Sequence>AAGATAAGTTTTCTAGGGTTCCGCAGTTTATAGCTGGTCAGGTCCAAGAGAAAACGCACAGTAAAATGTGTTCACGGAAGGATAAAAGCCTGGGAGAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5975453" LocusId="CBY_1736" Name="COG731" Function="Putative Fe-S oxidoreductase" />
+          <Members vimssId="5975452" LocusId="CBY_1735" Name="ykkD" Function="Quaternary ammonium compound-resistance protein sugE" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00380" RegulationMode="RF00380">
+      <Regulator Key="ykoK" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33864" />
+      <Effector>Magnesium ion, (Mg2+)</Effector>
+      <Pathway>Magnesium homeostasis</Pathway>
+      <LocusTag Key="ykoK" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_0446" Name="" Position="-422" Score="121.7">
+          <Sequence>AAAATAAATTTGTTAGGTGAGGCTCCTATAAAGATATATGCCGCTACCCAGAAAAATCGAGAGATTCCAACGGGTTAACAGAAATTATCGCAAAGGTAATTTTTAATGTGGCTGACTAGAAAGTCAAAGCTCTATAGTGCTAAAGCTCTACAACTAAGTAATTAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5973162" LocusId="CBY_0446" Name="null" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33914" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CBY_2688" Name="atcL" Position="-207" Score="46.4">
+          <Sequence>AAACATGTTCCTGGGGGAGTAGTTTGCATATATAATATGTGATTAGGTCAACAATCATGATACGTCATTAGAATGTATCTGGTCTAATCTTAAAAAGCGAGACTCATGTACAGCAT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CBY_1177" Name="atcL" Position="-203" Score="39">
+          <Sequence>TGGATTTGTTAAAGGGGAGTAGTCAAAAATATAGCATCAACAGCCGCGGCTTGTTTAGCCTGGTGTTATATACCTAAATGGTGATGAGACTTTTAATATAACT</Sequence>
+          <Bacteria>Clostridium butyricum 5521</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5975691" LocusId="CBY_2688" Name="atcL" Function="Calcium-transporting ATPase (EC 3.6.3.8)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5974534" LocusId="CBY_1177" Name="atcL" Function="Calcium-transporting ATPase (EC 3.6.3.8)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

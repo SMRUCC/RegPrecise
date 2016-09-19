@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Xylella fastidiosa 9a5c" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor (activator)">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19465" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="XF2344" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=51044&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Xanthomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2104" />
+      <RegulatorySites>
+        <FastaObject LocusTag="XF0175" Name="COG1272" Position="-37" Score="5.1">
+          <Sequence>AAATGCGAATTATTCGCGGTT</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="XF0932" Name="feoA" Position="-34" Score="4.7">
+          <Sequence>TATTGAGAACGATTCTTGTCA</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="XF0394" Name="bfd" Position="-64" Score="5.4">
+          <Sequence>AATTGACATTCATTCTCATCT</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="XF0395" Name="bfr" Position="-78" Score="4.9">
+          <Sequence>TAATGAGCACGATTTTCGTTC</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="XF0599" Name="fhuA" Position="-112" Score="5.6">
+          <Sequence>TATTGAAAATCATTCTCCTTT</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="49643" LocusId="XF0932" Name="feoA" Function="Ferrous iron transport protein A" />
+          <Members vimssId="49644" LocusId="XF0933" Name="feoB" Function="Ferrous iron transport protein B" />
+          <Members vimssId="49645" LocusId="XF0934" Name="XF0934" Function="conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="48889" LocusId="XF0175" Name="COG1272" Function="Predicted membrane protein hemolysin III homolog" />
+        </Operon>
+        <Operon>
+          <Members vimssId="49106" LocusId="XF0395" Name="bfr" Function="Bacterioferritin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="49105" LocusId="XF0394" Name="bfd" Function="Bacterioferritin-associated ferredoxin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="49310" LocusId="XF0599" Name="fhuA" Function="Ferrichrome-iron receptor, TonB-dependent" />
+          <Members vimssId="49309" LocusId="XF0598" Name="piuC" Function="Iron-uptake factor PiuC" />
+          <Members vimssId="49308" LocusId="XF0597" Name="pepSY" Function="putative transmembrane PepSY family protein" />
+          <Members vimssId="49307" LocusId="XF0596" Name="COG3656" Function="Predicted periplasmic protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2104</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TrpR" RegulationMode="repressor">
+      <Regulator Key="HisR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60275" />
+      <Effector>Histidine</Effector>
+      <Pathway>Histidine biosynthesis</Pathway>
+      <LocusTag Key="XF2221" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=50921&amp;disp=0" />
+      <BiologicalProcess>Histidine biosynthesis</BiologicalProcess>
+      <Regulog Key="HisR - Xanthomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6191" />
+      <RegulatorySites>
+        <FastaObject LocusTag="XF2221" Name="hisR" Position="-27" Score="6.2">
+          <Sequence>TGTAATAGTTCGCTATATCA</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="XF2220" Name="hisG" Position="-362" Score="6.2">
+          <Sequence>TGTAATAGTTCGCTATATCA</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="50921" LocusId="XF2221" Name="hisR" Function="Predicted histidine repressor, TrpR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="50920" LocusId="XF2220" Name="hisG" Function="ATP phosphoribosyltransferase (EC 2.4.2.17)" />
+          <Members vimssId="50919" LocusId="XF2219" Name="hisD" Function="Histidinol dehydrogenase (EC 1.1.1.23)" />
+          <Members vimssId="50918" LocusId="XF2218" Name="hisC" Function="Histidinol-phosphate aminotransferase (EC 2.6.1.9)" />
+          <Members vimssId="50917" LocusId="XF2217" Name="hisB" Function="Histidinol-phosphatase (EC 3.1.3.15) / Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)" />
+          <Members vimssId="50916" LocusId="XF2216" Name="hisH" Function="Imidazole glycerol phosphate synthase amidotransferase subunit (EC 2.4.2.-)" />
+          <Members vimssId="50915" LocusId="XF2215" Name="hisA" Function="Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase (EC 5.3.1.16)" />
+          <Members vimssId="50914" LocusId="XF2214" Name="hisF" Function="Imidazole glycerol phosphate synthase cyclase subunit (EC 4.1.3.-)" />
+          <Members vimssId="50913" LocusId="XF2213" Name="hisIE" Function="Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19) / Phosphoribosyl-ATP pyrophosphatase (EC 3.6.1.31)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6191</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49689" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="XF2342" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=51042&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Xanthomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5032" />
+      <RegulatorySites>
+        <FastaObject LocusTag="XF0616" Name="groS" Position="-75" Score="6.9">
+          <Sequence>TTAGCACTCATTACATAAGAGTGCTAA</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="49327" LocusId="XF0616" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="49326" LocusId="XF0615" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5032</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17885" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="XF1477" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=50187&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Xanthomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1932" />
+      <RegulatorySites>
+        <FastaObject LocusTag="XF1477" Name="iscR" Position="-45" Score="8.3">
+          <Sequence>AAAGCGTACAATTTCTGTCCGCTTT</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="50187" LocusId="XF1477" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="50186" LocusId="XF1476" Name="sufB" Function="Iron-sulfur cluster assembly protein SufB" />
+          <Members vimssId="50185" LocusId="XF1475" Name="sufC" Function="Iron-sulfur cluster assembly ATPase protein SufC" />
+          <Members vimssId="50184" LocusId="XF1474" Name="sufD" Function="Iron-sulfur cluster assembly protein SufD" />
+          <Members vimssId="50183" LocusId="XF1473" Name="sufS" Function="Cysteine desulfurase (EC 2.8.1.7), SufS subfamily" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1932</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28333" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="XF0122" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=48836&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Xanthomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2981" />
+      <RegulatorySites>
+        <FastaObject LocusTag="XF2313" Name="XF2297" Position="-140" Score="4.9">
+          <Sequence>GATTTAGTAAAATTACTAA</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="XF0122" Name="lexA" Position="15" Score="6.8">
+          <Sequence>TTATTAGTAATAATACTAA</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="51013" LocusId="XF2313" Name="XF2297" Function="Adenine DNA methyltransferase, phage-associated" />
+          <Members vimssId="51014" LocusId="XF2314" Name="XF1669" Function="Phage-related lysozyme" />
+          <Members vimssId="51015" LocusId="XF2315" Name="XF2315" Function="Hypothetical protein" />
+          <Members vimssId="51016" LocusId="XF2316" Name="XF2316" Function="Hypothetical protein" />
+          <Members vimssId="51017" LocusId="XF2317" Name="XF2317" Function="Hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="48836" LocusId="XF0122" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+          <Members vimssId="48837" LocusId="XF0123" Name="recA" Function="Recombinase A" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2981</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="MntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50041" />
+      <Effector>Manganese ion, (Mn2+)</Effector>
+      <Pathway>Manganese homeostasis</Pathway>
+      <LocusTag Key="XF1013" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=49724&amp;disp=0" />
+      <BiologicalProcess>Manganese homeostasis</BiologicalProcess>
+      <Regulog Key="MntR - Xanthomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5071" />
+      <RegulatorySites>
+        <FastaObject LocusTag="XF1015" Name="mntH" Position="9" Score="5.6">
+          <Sequence>GGTATAGCCAATGCTATAAG</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="XF1013" Name="mntR" Position="-193" Score="5.6">
+          <Sequence>CTTATAGCATTGGCTATACC</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="49724" LocusId="XF1013" Name="mntR" Function="Manganese homeostasis transcriptional regulator MntR, DtxR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="49726" LocusId="XF1015" Name="mntH" Function="Manganese transporter, NRAMP family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5071</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="NagR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14271" />
+      <Effector>N-acetylglucosamine</Effector>
+      <Pathway>N-acetylglucosamine utilization</Pathway>
+      <LocusTag Key="XF1463" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=50173&amp;disp=0" />
+      <BiologicalProcess>N-acetylglucosamine utilization</BiologicalProcess>
+      <Regulog Key="NagR - Xanthomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1526" />
+      <RegulatorySites>
+        <FastaObject LocusTag="XF1461" Name="" Position="-298" Score="5.7">
+          <Sequence>GATGACAACGGTATCAAT</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="XF1460" Name="nagK2" Position="-68" Score="5.7">
+          <Sequence>ATTGATACCGTTGTCATC</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="50171" LocusId="XF1461" Name="null" Function="hypothetical protein" />
+          <Members vimssId="50172" LocusId="XF1462" Name="nagP" Function="N-acetylglucosamine transporter, NagP" />
+          <Members vimssId="50173" LocusId="XF1463" Name="nagR" Function="Transcriptional regulator of N-acetylglucosamine utilization, LacI family" />
+          <Members vimssId="2137489" LocusId="XF1464" Name="nagB2" Function="Glucosamine-6-phosphate deaminase [isomerizing], alternative (EC 3.5.99.6)" />
+          <Members vimssId="50175" LocusId="XF1465" Name="nagA" Function="N-acetylglucosamine-6-phosphate deacetylase (EC 3.5.1.25)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="50170" LocusId="XF1460" Name="nagK2" Function="Predicted N-acetylglucosamine kinase, glucokinase-like (EC 2.7.1.59)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1526</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15537" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="XF0948" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=49659&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Xanthomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1669" />
+      <RegulatorySites>
+        <FastaObject LocusTag="XF1196" Name="nrdA" Position="-391" Score="5.5">
+          <Sequence>CCCCATTATCTTGTGG</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="XF1196" Name="nrdA" Position="-423" Score="5">
+          <Sequence>TCACAGCATTTTGTGT</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="49907" LocusId="XF1196" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="49908" LocusId="XF1197" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+          <Members vimssId="49909" LocusId="XF1198" Name="null" Function="putative flavodoxin" />
+          <Members vimssId="49910" LocusId="XF1199" Name="trxA" Function="Thioredoxin" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1669</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19307" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="XF1848" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=50555&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Xanthomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2086" />
+      <RegulatorySites>
+        <FastaObject LocusTag="XF1842" Name="glnA" Position="-35" Score="5.2">
+          <Sequence>TGCACCATATAAGTGCT</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="XF1849" Name="ntrB" Position="-17" Score="5.1">
+          <Sequence>GGCCCTACATTGGTGCA</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="50549" LocusId="XF1842" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="50556" LocusId="XF1849" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="50555" LocusId="XF1848" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2086</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SamR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62185" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="XF1617" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=50327&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SamR - Xanthomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6390" />
+      <RegulatorySites>
+        <FastaObject LocusTag="XF0863" Name="metX2" Position="-249" Score="6.7">
+          <Sequence>ATCTTTCTATCCGTATGGAGAGAT</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="XF1617" Name="samR" Position="-28" Score="5.8">
+          <Sequence>ATCTCTGTATCGAGATATAGACAT</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="XF1121" Name="metF2" Position="-55" Score="5">
+          <Sequence>TCACATTCATCCGGATGAAGAGAT</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="XF0392" Name="metK" Position="-33" Score="6.5">
+          <Sequence>ATCTTTTCATTCGAATTAAGGGAT</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="XF2272" Name="metE" Position="-408" Score="5.7">
+          <Sequence>ATCGCTATATCTGGATGAAGCGAT</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="49574" LocusId="XF0863" Name="metX2" Function="Homoserine O-acetyltransferase (EC 2.3.1.31)" />
+          <Members vimssId="49575" LocusId="XF0864" Name="metB" Function="Cystathionine gamma-synthase (EC 2.5.1.48)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="50972" LocusId="XF2272" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="49832" LocusId="XF1121" Name="metF2" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="49103" LocusId="XF0392" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="50327" LocusId="XF1617" Name="samR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6390</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TrpR" RegulationMode="repressor">
+      <Regulator Key="TrpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19631" />
+      <Effector>Tryptophan</Effector>
+      <Pathway>Tryptophan biosynthesis</Pathway>
+      <LocusTag Key="XF1920" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=50627&amp;disp=0" />
+      <BiologicalProcess>Tryptophan biosynthesis</BiologicalProcess>
+      <Regulog Key="TrpR - Xanthomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2124" />
+      <RegulatorySites>
+        <FastaObject LocusTag="XF1914" Name="trpE" Position="-52" Score="5.9">
+          <Sequence>CGTACTGATGTACCATTACA</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="50621" LocusId="XF1914" Name="trpE" Function="Anthranilate synthase, aminase component (EC 4.1.3.27)" />
+          <Members vimssId="50622" LocusId="XF1915" Name="trpG" Function="Anthranilate synthase, amidotransferase component (EC 4.1.3.27) @ Para-aminobenzoate synthase, amidotransferase component (EC 2.6.1.85)" />
+          <Members vimssId="50623" LocusId="XF1916" Name="COG1541" Function="Coenzyme F390 synthetase" />
+          <Members vimssId="50624" LocusId="XF1917" Name="SSF55729" Function="Acyl-CoA N-acyltransferase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2124</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16077" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="XF0821" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=49532&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Xanthomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1729" />
+      <RegulatorySites>
+        <FastaObject LocusTag="XF1830" Name="yciC" Position="-108" Score="4.2">
+          <Sequence>AGAATGATATAAAGTATCAAATT</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="XF2096" Name="folE2" Position="-196" Score="5.7">
+          <Sequence>GTTATGTTATTTTATAACATATT</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="XF0384" Name="omr1" Position="-122" Score="4.7">
+          <Sequence>TGAATGATATAATATTACCTTAC</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="50537" LocusId="XF1830" Name="yciC" Function="Putative zinc chaperone, COG0523 family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="49095" LocusId="XF0384" Name="omr1" Function="predicted zinc-related TonB-dependent outer membrane transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="50796" LocusId="XF2096" Name="folE2" Function="GTP cyclohydrolase I (EC 3.5.4.16) type 2" />
+          <Members vimssId="50795" LocusId="XF2095" Name="can" Function="Carbonic anhydrase, gamma class (EC 4.2.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1729</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48646" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="XF1888" Name="thiC" Position="-170" Score="54.1">
+          <Sequence>CTTTGAAGCGGGGGTACCATAGCCAAGCTGCGGTTGAGACACACCCTTCGAACCTGATCCGGTTTACACCGGCGTAGGAAAGCTTCGTGGACCGCGCCGC</Sequence>
+          <Bacteria>Xylella fastidiosa 9a5c</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2137509" LocusId="XF1888" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

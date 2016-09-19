@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Candidatus Methanosphaerula palustris E1-9c" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="Phr" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53194" />
+      <Effector />
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Mpal_2059" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5771770&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="Phr - Methanomicrobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5429" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpal_2059" Name="phr" Position="-21" Score="5.4">
+          <Sequence>CTCCCTAACATAAAGTAAATAAT</Sequence>
+          <Bacteria>Candidatus Methanosphaerula palustris E1-9c</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mpal_0298" Name="hsp20-1" Position="-69" Score="5.1">
+          <Sequence>ACCACTTACTTTTGGTTAGTTCA</Sequence>
+          <Bacteria>Candidatus Methanosphaerula palustris E1-9c</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5769962" LocusId="Mpal_0298" Name="hsp20-1" Function="Small heat shock protein 20" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5771770" LocusId="Mpal_2059" Name="phr" Function="Heat shock response regulator Phr, ArsR family" />
+          <Members vimssId="5771769" LocusId="Mpal_2058" Name="hsp20-2" Function="Small heat shock protein 20" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5429</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="[Other]" RegulationMode="">
+      <Regulator Key="RbkR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66602" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="Mpal_2512" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5772232&amp;disp=0" />
+      <BiologicalProcess>Riboflavin biosynthesis</BiologicalProcess>
+      <Regulog Key="RbkR - Methanomicrobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6884" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mpal_2512" Name="rbkR" Position="-17" Score="5.7">
+          <Sequence>CATCTCAATTTTGATATA</Sequence>
+          <Bacteria>Candidatus Methanosphaerula palustris E1-9c</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5772232" LocusId="Mpal_2512" Name="rbkR" Function="DNA-binding HTH domain in riboflavin kinase / CTP-dependent archaeal riboflavin kinase" />
+          <Members vimssId="5772233" LocusId="Mpal_2513" Name="ribB" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase" />
+          <Members vimssId="5772234" LocusId="Mpal_2514" Name="ribB" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6884</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

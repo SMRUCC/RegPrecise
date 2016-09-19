@@ -1,0 +1,2167 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Pseudomonas aeruginosa PAO1" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14969" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="PA4280" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=60730&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1605" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA0500" Name="bioB" Position="-129" Score="7.5">
+          <Sequence>ATGTAGTCC--------------GGTTGACAG</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="56951" LocusId="PA0500" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="56952" LocusId="PA0501" Name="bioF" Function="8-amino-7-oxononanoate synthase (EC 2.3.1.47)" />
+          <Members vimssId="56953" LocusId="PA0502" Name="bioH" Function="hypothetical protein" />
+          <Members vimssId="56954" LocusId="PA0503" Name="bioC" Function="Biotin synthesis protein bioC" />
+          <Members vimssId="56955" LocusId="PA0504" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1605</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51300" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="PA3689" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=60139&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5201" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA3690" Name="cadA" Position="-60" Score="6.4">
+          <Sequence>ACTCTGTAGTTGCTACAGGGT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="60140" LocusId="PA3690" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5201</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="CueR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50908" />
+      <Effector>Copper ion, (Cu+)</Effector>
+      <Pathway>Copper resistance</Pathway>
+      <LocusTag Key="PA4778" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=61226&amp;disp=0" />
+      <BiologicalProcess>Copper resistance</BiologicalProcess>
+      <Regulog Key="CueR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5159" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA3523" Name="" Position="-89" Score="5.1">
+          <Sequence>ACCTTGCCAAGGTGTCAAGGT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA3920" Name="copA" Position="-97" Score="4.9">
+          <Sequence>ACCTTGACACGATGTCAAGGC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="60369" LocusId="PA3920" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="59973" LocusId="PA3523" Name="null" Function="RND efflux system, membrane fusion protein" />
+          <Members vimssId="59972" LocusId="PA3522" Name="null" Function="RND efflux system, inner membrane transporter" />
+          <Members vimssId="59971" LocusId="PA3521" Name="PA3521" Function="RND efflux system, outer membrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5159</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="DesT" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14433" />
+      <Effector>Unsaturated acyl-CoA; Unsaturated acyl-ACP</Effector>
+      <Pathway>Fatty acid biosynthesis</Pathway>
+      <LocusTag Key="PA4890" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=61337&amp;disp=0" />
+      <BiologicalProcess>Fatty acid biosynthesis</BiologicalProcess>
+      <Regulog Key="DesT - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1544" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA1610" Name="fabA" Position="-153" Score="5.6">
+          <Sequence>AGTGAACATCTGTTCGCC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA4889" Name="desC" Position="-73" Score="5.3">
+          <Sequence>AGTGAACGCTTGTTGACT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="58061" LocusId="PA1610" Name="fabA" Function="3-hydroxydecanoyl-[acyl-carrier-protein] dehydratase (EC 4.2.1.60)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="61336" LocusId="PA4889" Name="desC" Function="Flavodoxin reductases (ferredoxin-NADPH reductases) family 1" />
+          <Members vimssId="61335" LocusId="PA4888" Name="desB" Function="Acyl-CoA delta-9-desaturase, DesB" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1544</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="">
+      <Regulator Key="EutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63691" />
+      <Effector>Ethanolamine</Effector>
+      <Pathway>Ethanolamine utilization</Pathway>
+      <LocusTag Key="PA5506" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=61953&amp;disp=0" />
+      <BiologicalProcess>Ethanolamine utilization</BiologicalProcess>
+      <Regulog Key="EutR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6572" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA5506" Name="eutR" Position="-83" Score="5">
+          <Sequence>AATGTAGTGAAAAAAACATT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="61953" LocusId="PA5506" Name="eutR" Function="Transcriptional regulator of ethanolamine utilization, RpiR family" />
+          <Members vimssId="61954" LocusId="PA5507" Name="COG1335" Function="Amidases related to nicotinamidase" />
+          <Members vimssId="61955" LocusId="PA5508" Name="eutB" Function="glutamine synthetase family protein" />
+          <Members vimssId="61956" LocusId="PA5509" Name="eutA" Function="putative N-formylglutamate amidohydrolase family protein" />
+          <Members vimssId="61957" LocusId="PA5510" Name="eutT" Function="Ethanolamine permease, APC family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6572</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="FabR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34330" />
+      <Effector>Unsaturated acyl-ACP; Unsaturated acyl-CoA</Effector>
+      <Pathway>Fatty acid biosynthesis</Pathway>
+      <LocusTag Key="PA1539" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=57990&amp;disp=0" />
+      <BiologicalProcess>Fatty acid biosynthesis</BiologicalProcess>
+      <Regulog Key="FabR2 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3509" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA1538" Name="COG2072" Position="-33" Score="5.5">
+          <Sequence>AGTATACAGATGTCTACA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1539" Name="fabR2" Position="-98" Score="5.5">
+          <Sequence>TGTAGACATCTGTATACT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="57990" LocusId="PA1539" Name="fabR2" Function="Unsaturated fatty acid biosythesis repressor FabR2, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="57989" LocusId="PA1538" Name="COG2072" Function="probable flavin-containing monooxygenase, COG2072" />
+          <Members vimssId="57988" LocusId="PA1537" Name="COG0300" Function="probable short-chain dehydrogenase, COG0300" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3509</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="FruR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=20694" />
+      <Effector>Fructose-1-phosphate; Fructose-1,6-diphosphate</Effector>
+      <Pathway>Fructose utilization</Pathway>
+      <LocusTag Key="PA3563" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=60013&amp;disp=0" />
+      <BiologicalProcess>Fructose utilization</BiologicalProcess>
+      <Regulog Key="FruR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2239" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA3563" Name="fruR" Position="-92" Score="5.3">
+          <Sequence>GCTGAATCGATTCACT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA3562" Name="fruB" Position="-251" Score="4.9">
+          <Sequence>AGTGAATCGATTCAGC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="60013" LocusId="PA3563" Name="fruR" Function="Fructose operon transcriptional regulator FruR, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="60012" LocusId="PA3562" Name="fruB" Function="Fructose-specific phosphocarrier protein HPr (EC 2.7.1.69) / PTS system, fructose-specific IIA component (EC 2.7.1.69)" />
+          <Members vimssId="60011" LocusId="PA3561" Name="fruK" Function="1-phosphofructokinase (EC 2.7.1.56)" />
+          <Members vimssId="60010" LocusId="PA3560" Name="fruA" Function="PTS system, fructose-specific IIB component (EC 2.7.1.69) / PTS system, fructose-specific IIC component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2239</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TyrR" RegulationMode="activator">
+      <Regulator Key="GcvR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60189" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="PA2449" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=58899&amp;disp=0" />
+      <BiologicalProcess>Glycine metabolism</BiologicalProcess>
+      <Regulog Key="GcvR - Pseudomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6180" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA2446" Name="gcvH" Position="-264" Score="4.4">
+          <Sequence>CTGTAACGCTTCGGTTACGA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2446" Name="gcvH" Position="-163" Score="5.4">
+          <Sequence>CTGTAACGAAAGCGTTCCAT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2446" Name="gcvH" Position="-244" Score="5.6">
+          <Sequence>GTGGAACGAATTCGTTCCGA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="58896" LocusId="PA2446" Name="gcvH" Function="Glycine cleavage system H protein" />
+          <Members vimssId="58895" LocusId="PA2445" Name="gcvP" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P protein) (EC 1.4.4.2)" />
+          <Members vimssId="58894" LocusId="PA2444" Name="glyA" Function="Serine hydroxymethyltransferase (EC 2.1.2.1)" />
+          <Members vimssId="58893" LocusId="PA2443" Name="sdaA" Function="L-serine dehydratase (EC 4.3.1.17)" />
+          <Members vimssId="58892" LocusId="PA2442" Name="gcvT" Function="Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6180</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="activator (repressor)">
+      <Regulator Key="GlcC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19121" />
+      <Effector>Glycolate</Effector>
+      <Pathway>Glycolate utilization</Pathway>
+      <LocusTag Key="PA5356" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=61803&amp;disp=0" />
+      <BiologicalProcess>Glycolate utilization</BiologicalProcess>
+      <Regulog Key="GlcC - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2064" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA5356" Name="glcC" Position="-31" Score="6.2">
+          <Sequence>AACTGGTCCTACCAGCG</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA5355" Name="glcD" Position="-103" Score="5.2">
+          <Sequence>TACTGGTAGGACCAGTT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA5355" Name="glcD" Position="-190" Score="4.6">
+          <Sequence>CGCTGGTAGGACCAGTT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA5356" Name="glcC" Position="-118" Score="6.4">
+          <Sequence>AACTGGTCCTACCAGTA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="61802" LocusId="PA5355" Name="glcD" Function="Glycolate dehydrogenase (EC 1.1.99.14), subunit GlcD" />
+          <Members vimssId="61801" LocusId="PA5354" Name="glcE" Function="Glycolate dehydrogenase (EC 1.1.99.14), FAD-binding subunit GlcE" />
+          <Members vimssId="61800" LocusId="PA5353" Name="glcF" Function="Glycolate dehydrogenase (EC 1.1.99.14), iron-sulfur subunit GlcF" />
+          <Members vimssId="61799" LocusId="PA5352" Name="glcG" Function="Hypothetical protein GlcG in glycolate utilization operon" />
+        </Operon>
+        <Operon>
+          <Members vimssId="61803" LocusId="PA5356" Name="glcC" Function="Glycolate utilization operon transcriptional activator GlcC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2064</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="GntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49845" />
+      <Effector>Gluconate</Effector>
+      <Pathway>Gluconate utilization</Pathway>
+      <LocusTag Key="PA2320" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=58770&amp;disp=0" />
+      <BiologicalProcess>Gluconate utilization</BiologicalProcess>
+      <Regulog Key="GntR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5049" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA2321" Name="gntK" Position="-34" Score="6">
+          <Sequence>CAAAGATAGCGCTGTCTCAC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2321" Name="gntK" Position="-162" Score="5.9">
+          <Sequence>CTAAGGTAGCGCTGTCTCGC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2320" Name="gntR" Position="-52" Score="5.9">
+          <Sequence>GCGAGACAGCGCTACCTTAG</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2322" Name="gntT" Position="-78" Score="5.5">
+          <Sequence>CAAAGATAGCGCTACCCCGA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2320" Name="gntR" Position="-180" Score="6">
+          <Sequence>GTGAGACAGCGCTATCTTTG</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="58772" LocusId="PA2322" Name="gntT" Function="High-affinity H+/gluconate symporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="58771" LocusId="PA2321" Name="gntK" Function="Thermoresistant gluconokinase (EC 2.7.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="58770" LocusId="PA2320" Name="gntR" Function="Gluconate utilization transcriptional regulator GntR, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5049</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor (activator)">
+      <Regulator Key="HexR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=20492" />
+      <Effector>2-keto-3-deoxy-6-phosphogluconate</Effector>
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="PA3184" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=59634&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="HexR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2219" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA3183" Name="zwf" Position="-81" Score="7.8">
+          <Sequence>ATGTTGT-----ACTACAT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA3194" Name="edd" Position="-43" Score="7.9">
+          <Sequence>ATGTTGT-----ACAACAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA3184" Name="hexR" Position="-125" Score="7.8">
+          <Sequence>ATGTAGT-----ACAACAT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA3195" Name="gapA" Position="-104" Score="7.9">
+          <Sequence>TTGTTGT-----ACAACAT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="59634" LocusId="PA3184" Name="hexR" Function="Central carbohydrate metabolism transcription regulator HexR, RpiR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="59644" LocusId="PA3194" Name="edd" Function="Phosphogluconate dehydratase (EC 4.2.1.12)" />
+          <Members vimssId="59643" LocusId="PA3193" Name="glk" Function="Glucokinase (EC 2.7.1.2)" />
+          <Members vimssId="59642" LocusId="PA3192" Name="gltR" Function="DNA-binding response regulator GltR, controls specific porins for the entry of glucose" />
+          <Members vimssId="59641" LocusId="PA3191" Name="gltS" Function="Integral membrane sensor signal transduction histidine kinase (EC 2.7.13.3), glucose catabolism cluster" />
+        </Operon>
+        <Operon>
+          <Members vimssId="59645" LocusId="PA3195" Name="gapA" Function="NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="59633" LocusId="PA3183" Name="zwf" Function="Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)" />
+          <Members vimssId="59632" LocusId="PA3182" Name="pgl" Function="6-phosphogluconolactonase (EC 3.1.1.31), eukaryotic type" />
+          <Members vimssId="59631" LocusId="PA3181" Name="eda" Function="4-Hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16) / 2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2219</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor (activator)">
+      <Regulator Key="HexR1" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14805" />
+      <Effector>2-keto-3-deoxy-6-phosphogluconate</Effector>
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="PA5438" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=61885&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="HexR1 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1586" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA5015" Name="aceE" Position="-129" Score="6.2">
+          <Sequence>CTGTAGTAAAACTACAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA5015" Name="aceE" Position="-181" Score="5.7">
+          <Sequence>ATGTAGTTTTACTACTA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA5438" Name="hexR1" Position="-45" Score="6.4">
+          <Sequence>TTGTAGTATAACTACAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA5439" Name="zwf" Position="-57" Score="6.4">
+          <Sequence>TTGTAGTTATACTACAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA3185" Name="aldE" Position="-67" Score="6">
+          <Sequence>ATGTAGTAAAACTACAC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="61886" LocusId="PA5439" Name="zwf" Function="Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="61462" LocusId="PA5015" Name="aceE" Function="Pyruvate dehydrogenase E1 component (EC 1.2.4.1)" />
+          <Members vimssId="61463" LocusId="PA5016" Name="aceF" Function="Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex (EC 2.3.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="61885" LocusId="PA5438" Name="hexR1" Function="Central carbohydrate metabolism transcription regulator HexR, RpiR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="59635" LocusId="PA3185" Name="aldE" Function="Aldose 1-epimerase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1586</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="IclR" RegulationMode="repressor">
+      <Regulator Key="HmgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60205" />
+      <Effector>Homogentisate</Effector>
+      <Pathway>Tyrosine degradation</Pathway>
+      <LocusTag Key="PA2010" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=58460&amp;disp=0" />
+      <BiologicalProcess>Tyrosine degradation</BiologicalProcess>
+      <Regulog Key="HmgR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6182" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA2010" Name="hmgR" Position="-86" Score="6.2">
+          <Sequence>ATCGTAATTCAATTACGCA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2009" Name="hmgA" Position="-93" Score="6.2">
+          <Sequence>TGCGTAATTGAATTACGAT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="58460" LocusId="PA2010" Name="hmgR" Function="Tyrosine degradation transcriptional regulator, IclR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="58459" LocusId="PA2009" Name="hmgA" Function="Homogentisate 1,2-dioxygenase (EC 1.13.11.5)" />
+          <Members vimssId="58458" LocusId="PA2008" Name="hmgC" Function="Fumarylacetoacetase (EC 3.7.1.2)" />
+          <Members vimssId="58457" LocusId="PA2007" Name="hmgB" Function="Maleylacetoacetate isomerase (EC 5.2.1.2)" />
+          <Members vimssId="58456" LocusId="PA2006" Name="COG2814" Function="Predicted tyrosine transporter, COG2814 family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6182</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="HutC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17329" />
+      <Effector>cis-Urocanic acid</Effector>
+      <Pathway>Histidine utilization</Pathway>
+      <LocusTag Key="PA5105" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=61552&amp;disp=0" />
+      <BiologicalProcess>Histidine utilization</BiologicalProcess>
+      <Regulog Key="HutC - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1869" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA5106" Name="hutF" Position="-43" Score="5.4">
+          <Sequence>GTATATGTATATACAAATAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA5100" Name="hutU" Position="-121" Score="5.9">
+          <Sequence>ATACTTGTATGTACAAGCAT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA5105" Name="hutC" Position="-77" Score="5.4">
+          <Sequence>TTATTTGTATATACATATAC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="61552" LocusId="PA5105" Name="hutC" Function="Histidine utilization repressor, GntR family" />
+          <Members vimssId="61551" LocusId="PA5104" Name="hutD" Function="Conserved hypothetical protein related to histidine degradation" />
+        </Operon>
+        <Operon>
+          <Members vimssId="61553" LocusId="PA5106" Name="hutF" Function="Formiminoglutamic iminohydrolase (EC 3.5.3.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="61547" LocusId="PA5100" Name="hutU" Function="Urocanate hydratase (EC 4.2.1.49)" />
+          <Members vimssId="61546" LocusId="PA5099" Name="COG1457 (CodB)" Function="Permease, cytosine/purines, uracil, thiamine, allantoin family protein" />
+          <Members vimssId="61545" LocusId="PA5098" Name="hutH" Function="Histidine ammonia-lyase (EC 4.3.1.3)" />
+          <Members vimssId="61544" LocusId="PA5097" Name="hisT" Function="Histidine transport protein (permease)" />
+          <Members vimssId="61543" LocusId="PA5096" Name="hutX" Function="Histidine ABC transporter, histidine-binding protein (TC 3.A.1)" />
+          <Members vimssId="61542" LocusId="PA5095" Name="hutW" Function="Histidine ABC transporter, permease protein (TC 3.A.1)" />
+          <Members vimssId="61541" LocusId="PA5094" Name="hutV" Function="Histidine ABC transporter, ATP-binding protein" />
+          <Members vimssId="61540" LocusId="PA5093" Name="hutH2" Function="Histidine ammonia-lyase (EC 4.3.1.3)" />
+          <Members vimssId="61539" LocusId="PA5092" Name="hutI" Function="Imidazolonepropionase (EC 3.5.2.7)" />
+          <Members vimssId="61538" LocusId="PA5091" Name="hutG" Function="N-formylglutamate deformylase (EC 3.5.1.68)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1869</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="activator (repressor)">
+      <Regulator Key="HypR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17705" />
+      <Effector>Proline; 4-hydroxyproline</Effector>
+      <Pathway>Proline and 4-hydrohyproline utilization</Pathway>
+      <LocusTag Key="PA1269" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=57720&amp;disp=0" />
+      <BiologicalProcess>Proline and 4-hydrohyproline utilization</BiologicalProcess>
+      <Regulog Key="HypR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1911" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA1254" Name="hypD" Position="-32" Score="3.7">
+          <Sequence>TTCGTATACGAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1260" Name="hypM" Position="-67" Score="3.8">
+          <Sequence>ATCGTATACGAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1269" Name="hypR" Position="-61" Score="4.5">
+          <Sequence>TTCGTATACAAT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="57720" LocusId="PA1269" Name="hypR" Function="Predicted regulator for proline and hydrohyproline utilization, GntR family" />
+          <Members vimssId="57719" LocusId="PA1268" Name="hypE" Function="Proline racemase /4-hydroxyproline epimerase (EC 5.1.1.8)" />
+          <Members vimssId="57718" LocusId="PA1267" Name="hypO" Function="D-amino acid dehydrogenase (EC 1.4.99.1) family protein in hydroxy-L-proline catabolic cluster" />
+        </Operon>
+        <Operon>
+          <Members vimssId="57711" LocusId="PA1260" Name="hypM" Function="Predicted hydroxyproline ABC transporter, substrate-binding protein" />
+          <Members vimssId="57710" LocusId="PA1259" Name="hypX" Function="Putative citrate/isocitrate isomerase or aconitase ## predicted from clustering to proline racemase" />
+          <Members vimssId="57709" LocusId="PA1258" Name="hypN" Function="Predicted hydroxyproline ABC transporter, permease protein" />
+          <Members vimssId="57708" LocusId="PA1257" Name="hypP" Function="Predicted hydroxyproline ABC transporter, permease protein" />
+          <Members vimssId="57707" LocusId="PA1256" Name="hypQ" Function="Predicted hydroxyproline ABC transporter, ATP-binding protein" />
+          <Members vimssId="57706" LocusId="PA1255" Name="hypY" Function="Proline racemase /4-hydroxyproline epimerase (EC 5.1.1.8)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="57705" LocusId="PA1254" Name="hypD" Function="1-pyrroline-4-hydroxy-2-carboxylate deaminase (EC 3.5.4.22) # predicted" />
+          <Members vimssId="57704" LocusId="PA1253" Name="hypH" Function="Ketoglutarate semialdehyde dehydrogenase (EC 1.2.1.26) # hydroxy-L-proline-inducible" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1911</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17873" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="PA3815" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=60264&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1930" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA0665" Name="erpA" Position="-81" Score="6.4">
+          <Sequence>TTAGTTGACCATTTTTCTGGGACAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA3815" Name="iscR" Position="-71" Score="7.1">
+          <Sequence>ATAGTTGACCTAATTACTCGGATAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="60264" LocusId="PA3815" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="60263" LocusId="PA3814" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+          <Members vimssId="60262" LocusId="PA3813" Name="iscU" Function="Iron-sulfur cluster assembly scaffold protein IscU" />
+          <Members vimssId="60261" LocusId="PA3812" Name="iscA" Function="Iron binding protein IscA for iron-sulfur cluster assembly" />
+          <Members vimssId="60260" LocusId="PA3811" Name="hscB" Function="Chaperone protein HscB" />
+          <Members vimssId="60259" LocusId="PA3810" Name="hscA" Function="Chaperone protein HscA" />
+          <Members vimssId="60258" LocusId="PA3809" Name="fdx" Function="ferredoxin, 2Fe-2S type, ISC system" />
+          <Members vimssId="60257" LocusId="PA3808" Name="yfhJ" Function="putative Fe-S cluster assembly protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="57116" LocusId="PA0665" Name="erpA" Function="ErpA, essential respiratory protein A / probable iron binding protein from the HesB_IscA_SufA family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1930</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28321" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="PA3007" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=59457&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2979" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA1865" Name="PF08774" Position="-5" Score="5.2">
+          <Sequence>TCTGTATGCATGAACAGT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA4763" Name="recN" Position="-41" Score="5.9">
+          <Sequence>ACTGTATAAATAACCAGA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA3007" Name="lexA" Position="-45" Score="5.5">
+          <Sequence>ACTGTATATAATCCCAGT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA3007" Name="lexA" Position="-26" Score="5.4">
+          <Sequence>ACTGGATAAAAACACAGA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA0671" Name="imuA" Position="-153" Score="5.6">
+          <Sequence>ACTGTATTTACATACAGT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA3413" Name="PF07130" Position="-57" Score="5.5">
+          <Sequence>ACTGTATGGATAACCAGT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2288" Name="PA2288" Position="-58" Score="5.7">
+          <Sequence>ACTGTATGAATGTACAGT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA3413" Name="yebG" Position="-57" Score="5.5">
+          <Sequence>ACTGTATGGATAACCAGT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA0922" Name="PA0922" Position="-69" Score="5.4">
+          <Sequence>ACTGTATATTCGTACAGC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA3617" Name="recA" Position="-60" Score="5.6">
+          <Sequence>ACTGTCTACTTATACAGT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA0069" Name="PF04055" Position="-37" Score="5.6">
+          <Sequence>ACTGTATCCATATACAGT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1045" Name="dinG" Position="-70" Score="5.2">
+          <Sequence>ACTGAAAATTTATCCAGC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="59863" LocusId="PA3413" Name="yebG" Function="SOS regulon DNA damage-inducible protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="56519" LocusId="PA0069" Name="PF04055" Function="DNA repair photolyase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="57373" LocusId="PA0922" Name="PA0922" Function="Predicted replication protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="57122" LocusId="PA0671" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="57121" LocusId="PA0670" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+          <Members vimssId="57120" LocusId="PA0669" Name="dnaE2" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="59457" LocusId="PA3007" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+          <Members vimssId="59458" LocusId="PA3008" Name="sulA" Function="Cell division inhibitor sulA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="61211" LocusId="PA4763" Name="recN" Function="DNA repair protein RecN" />
+        </Operon>
+        <Operon>
+          <Members vimssId="60067" LocusId="PA3617" Name="recA" Function="Recombinase A" />
+          <Members vimssId="60066" LocusId="PA3616" Name="recX" Function="Regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="57496" LocusId="PA1045" Name="dinG" Function="ATP-dependent helicase DinG/Rad3" />
+        </Operon>
+        <Operon>
+          <Members vimssId="58316" LocusId="PA1865" Name="PF08774" Function="Hypothetical protein, restriction endonuclease-like VRR-NUC domain" />
+          <Members vimssId="58317" LocusId="PA1866" Name="COG1199" Function="Rad3-related DNA helicases" />
+        </Operon>
+        <Operon>
+          <Members vimssId="58738" LocusId="PA2288" Name="PA2288" Function="Hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="59863" LocusId="PA3413" Name="PF07130" Function="Conserved hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2979</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="LiuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28517" />
+      <Effector />
+      <Pathway>Branched-chain amino acid degradation</Pathway>
+      <LocusTag Key="PA2016" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=58466&amp;disp=0" />
+      <BiologicalProcess>Branched-chain amino acid degradation</BiologicalProcess>
+      <Regulog Key="LiuR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3000" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA2557" Name="aacS" Position="-127" Score="6.5">
+          <Sequence>CTTTACGTTAACGTAAAC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2557" Name="aacS" Position="-133" Score="5.5">
+          <Sequence>GTTTACCTTTACGTTAAC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2016" Name="liuR" Position="-34" Score="5.5">
+          <Sequence>GTTAACGTAAAGGTAAAC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2016" Name="liuR" Position="-40" Score="6.5">
+          <Sequence>CTTTACGTTAACGTAAAG</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="59007" LocusId="PA2557" Name="aacS" Function="Acetoacetyl-CoA synthetase (EC 6.2.1.16)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="58466" LocusId="PA2016" Name="liuR" Function="Predicted transcriptional regulator LiuR of leucine degradation pathway, MerR family" />
+          <Members vimssId="58465" LocusId="PA2015" Name="liuA" Function="Isovaleryl-CoA dehydrogenase (EC 1.3.99.10)" />
+          <Members vimssId="58464" LocusId="PA2014" Name="liuB" Function="Methylcrotonyl-CoA carboxylase carboxyl transferase subunit (EC 6.4.1.4)" />
+          <Members vimssId="58463" LocusId="PA2013" Name="liuC" Function="Methylglutaconyl-CoA hydratase (EC 4.2.1.18)" />
+          <Members vimssId="58462" LocusId="PA2012" Name="liuD" Function="Methylcrotonyl-CoA carboxylase biotin-containing subunit (EC 6.4.1.4)" />
+          <Members vimssId="58461" LocusId="PA2011" Name="liuE" Function="Hydroxymethylglutaryl-CoA lyase (EC 4.1.3.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3000</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="LldR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16593" />
+      <Effector>L-lactate</Effector>
+      <Pathway>Lactate utilization</Pathway>
+      <LocusTag Key="PA4769" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=61217&amp;disp=0" />
+      <BiologicalProcess>Lactate utilization</BiologicalProcess>
+      <Regulog Key="LldR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1787" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA4769" Name="lldR" Position="-219" Score="6.1">
+          <Sequence>AATTGGTAAGACCAATT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA4770" Name="lldP" Position="-126" Score="6.5">
+          <Sequence>AATTGGTCTTACCAATT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="61217" LocusId="PA4769" Name="lldR" Function="Lactate-responsive regulator LldR in Enterobacteria, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="61218" LocusId="PA4770" Name="lldP" Function="L-lactate permease" />
+          <Members vimssId="61219" LocusId="PA4771" Name="lldD" Function="L-lactate dehydrogenase (EC 1.1.2.3)" />
+          <Members vimssId="61220" LocusId="PA4772" Name="dld" Function="D-Lactate dehydrogenase (EC 1.1.2.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1787</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor (activator)">
+      <Regulator Key="MetR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56648" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="PA3587" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=60037&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5787" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA1843" Name="metH" Position="-258" Score="5">
+          <Sequence>AATGAGCCAGACTCATT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1843" Name="metH" Position="-95" Score="5">
+          <Sequence>CTTGAATGAAATTCATG</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1927" Name="metE" Position="-69" Score="5.3">
+          <Sequence>ATTGAGTTTGTCTCATG</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA3587" Name="metR" Position="-59" Score="4.9">
+          <Sequence>TATGAGACAAACTCAAC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="58294" LocusId="PA1843" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase, B12-dependent (EC 2.1.1.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="60037" LocusId="PA3587" Name="metR" Function="Homocysteine-responsive transcriptional regulator of methionine metabolism, LysR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="58377" LocusId="PA1927" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5787</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21216" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdenum homeostasis</Pathway>
+      <LocusTag Key="PA0487" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=56938&amp;disp=0" />
+      <BiologicalProcess>Molybdenum homeostasis</BiologicalProcess>
+      <Regulog Key="ModE - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2298" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA1863" Name="modA" Position="-84" Score="5.8">
+          <Sequence>CGCTATATTCCAAAAGCCATAGCG</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="58314" LocusId="PA1863" Name="modA" Function="Molybdate ABC transporter, substrate-binding protein" />
+          <Members vimssId="58313" LocusId="PA1862" Name="modB" Function="Molybdate ABC transporter, permease protein" />
+          <Members vimssId="58312" LocusId="PA1861" Name="modC" Function="Molybdate ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2298</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="NagQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=18669" />
+      <Effector>N-acetylglucosamine</Effector>
+      <Pathway>N-acetylglucosamine utilization</Pathway>
+      <LocusTag Key="PA3757" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=60206&amp;disp=0" />
+      <BiologicalProcess>N-acetylglucosamine utilization</BiologicalProcess>
+      <Regulog Key="NagQ - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2017" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA3757" Name="nagQ" Position="-82" Score="5.3">
+          <Sequence>TGGCATTGACGTGGTATT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA3757" Name="nagQ" Position="-71" Score="5.5">
+          <Sequence>TGGTATTCAAGTGGTATT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="60206" LocusId="PA3757" Name="nagQ" Function="Predicted transcriptional regulator of N-Acetylglucosamine utilization, GntR family" />
+          <Members vimssId="60207" LocusId="PA3758" Name="null" Function="N-acetylglucosamine-6-phosphate deacetylase (EC 3.5.1.25)" />
+          <Members vimssId="60208" LocusId="PA3759" Name="nagB2" Function="Glucosamine-6-phosphate deaminase [isomerizing], alternative (EC 3.5.99.6)" />
+          <Members vimssId="60209" LocusId="PA3760" Name="ptsI" Function="PTS system, glucose-specific IIA component (EC 2.7.1.69) / Phosphocarrier protein of PTS system / Phosphoenolpyruvate-protein phosphotransferase of PTS system (EC 2.7.3.9)" />
+          <Members vimssId="60210" LocusId="PA3761" Name="null" Function="PTS system, N-acetylglucosamine-specific IIA component (EC 2.7.1.69) / PTS system, N-acetylglucosamine-specific IIB component (EC 2.7.1.69) / PTS system, N-acetylglucosamine-specific IIC component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2017</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NorR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16963" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="PA2665" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=59115&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="NorR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1828" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA2665" Name="norR" Position="-55" Score="5">
+          <Sequence>ATAGGTCATAATGACTGCA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2665" Name="norR" Position="-10" Score="4.4">
+          <Sequence>AGAGGTCGAAATGACCACC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2665" Name="norR" Position="-30" Score="5.2">
+          <Sequence>CAGAGTCATTAGGACTGCA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2664" Name="hmp" Position="-118" Score="5">
+          <Sequence>TGCAGTCATTATGACCTAT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2664" Name="hmp" Position="-163" Score="4.4">
+          <Sequence>GGTGGTCATTTCGACCTCT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2664" Name="hmp" Position="-143" Score="5.2">
+          <Sequence>TGCAGTCCTAATGACTCTG</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="59114" LocusId="PA2664" Name="hmp" Function="Flavohemoprotein (Hemoglobin-like protein) (Flavohemoglobin) (Nitric oxide dioxygenase) (EC 1.14.12.17)" />
+          <Members vimssId="59113" LocusId="PA2663" Name="null" Function="hypothetical protein" />
+          <Members vimssId="59112" LocusId="PA2662" Name="nnrS" Function="NnrS protein involved in response to NO" />
+        </Operon>
+        <Operon>
+          <Members vimssId="59115" LocusId="PA2665" Name="norR" Function="anaerobic nitric oxide reductase transcription regulator, Fis family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1828</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15525" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="PA4057" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=60506&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1667" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA3011" Name="topA" Position="-76" Score="5.7">
+          <Sequence>CCACTATATATAGCGG</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1156" Name="nrdA" Position="-398" Score="4.9">
+          <Sequence>CCCCTATATCTTGGGT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1156" Name="nrdA" Position="-194" Score="5">
+          <Sequence>CCACTAGGTATTGTGT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1920" Name="nrdD" Position="-57" Score="5.1">
+          <Sequence>CCACAACATATTGTTG</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1920" Name="nrdD" Position="-26" Score="4.5">
+          <Sequence>ACACATCATGTTGTGG</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA5497" Name="nrdJb" Position="-38" Score="4.6">
+          <Sequence>ACACAAGATATTGATT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA5497" Name="nrdJb" Position="-7" Score="4.6">
+          <Sequence>TAACTAGATGTTGCGT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="58370" LocusId="PA1920" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+          <Members vimssId="58369" LocusId="PA1919" Name="nrdG" Function="Ribonucleotide reductase of class III (anaerobic), activating protein (EC 1.97.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="61944" LocusId="PA5497" Name="nrdJb" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+          <Members vimssId="61943" LocusId="PA5496" Name="nrdJa" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent), alpha subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="57607" LocusId="PA1156" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="57606" LocusId="PA1155" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="59461" LocusId="PA3011" Name="topA" Function="DNA topoisomerase I (EC 5.99.1.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1667</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrtR" RegulationMode="repressor">
+      <Regulator Key="NrtR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15357" />
+      <Effector>Adenosine diphosphate ribose</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="PA4916" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=61363&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NrtR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1648" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA4917" Name="nadD" Position="-69" Score="5.4">
+          <Sequence>ATAATTCATCACGTGAAATAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA4918" Name="pncA" Position="-61" Score="5.4">
+          <Sequence>TTATTTCACGTGATGAATTAT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="61364" LocusId="PA4917" Name="nadD" Function="Nicotinate-nucleotide adenylyltransferase (EC 2.7.7.18) ## bacterial NadD family" />
+          <Members vimssId="61363" LocusId="PA4916" Name="nrtR" Function="Nudix-related transcriptional regulator NrtR" />
+        </Operon>
+        <Operon>
+          <Members vimssId="61365" LocusId="PA4918" Name="pncA" Function="Nicotinamidase (EC 3.5.1.19)" />
+          <Members vimssId="61366" LocusId="PA4919" Name="pncB" Function="Nicotinate phosphoribosyltransferase (EC 2.4.2.11)" />
+          <Members vimssId="61367" LocusId="PA4920" Name="nadE" Function="NAD synthetase (EC 6.3.1.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1648</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19295" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="PA5125" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=61572&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2084" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA1730" Name="ybdK" Position="-118" Score="4.5">
+          <Sequence>TGCACCAGACTGGGGCG</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA5124" Name="ntrB" Position="-182" Score="5.4">
+          <Sequence>CGCACCAGATTGGTGCG</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA5288" Name="glnK" Position="-338" Score="5.2">
+          <Sequence>TGCGCCTATTTGGTGCG</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA5119" Name="glnA" Position="-207" Score="5.3">
+          <Sequence>AGCACCATAACGGTGCA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA5119" Name="glnA" Position="-220" Score="5.1">
+          <Sequence>TGCACCAACATGGAGCA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="61571" LocusId="PA5124" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="61572" LocusId="PA5125" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="58181" LocusId="PA1730" Name="ybdK" Function="Carboxylate-amine ligase" />
+          <Members vimssId="58182" LocusId="PA1731" Name="PF04168" Function="Conserved hypothetical protein" />
+          <Members vimssId="58183" LocusId="PA1732" Name="PF01841" Function="Transglutaminase-like protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="61566" LocusId="PA5119" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="61735" LocusId="PA5288" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="61734" LocusId="PA5287" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2084</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PA0268" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59252" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="PA0268" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=56719&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="PA0268 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6080" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA0269" Name="PF02627" Position="-120" Score="14.4">
+          <Sequence>ATTGGCTAC-(15)-ATTGGCTCT-(5)-GAAGCCAAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="56720" LocusId="PA0269" Name="PF02627" Function="4-carboxymuconolactone decarboxylase domain/alkylhydroperoxidase AhpD family core domain protein" />
+          <Members vimssId="56721" LocusId="PA0270" Name="PF07883" Function="Cupin 2, conserved barrel" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6080</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="PA1520" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57455" />
+      <Effector />
+      <Pathway>Xanthine utilization; Allantoin utilization</Pathway>
+      <LocusTag Key="PA1520" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=57971&amp;disp=0" />
+      <BiologicalProcess>Xanthine utilization; Allantoin utilization</BiologicalProcess>
+      <Regulog Key="PA1520 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5879" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA2938" Name="PA2938" Position="-117" Score="3.9">
+          <Sequence>TTGTCTACAG</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2938" Name="PA2938" Position="-151" Score="4">
+          <Sequence>TTGTATACAT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA0476" Name="PA0476" Position="-68" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1519" Name="PA1519" Position="-283" Score="4.3">
+          <Sequence>GTGTACACAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1519" Name="PA1519" Position="-147" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1518" Name="PA1518" Position="-307" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA0476" Name="PA0476" Position="-295" Score="4.8">
+          <Sequence>TTGTGCACAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA0165" Name="PA0165" Position="-340" Score="4.8">
+          <Sequence>TTGTGTACAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1518" Name="PA1518" Position="-125" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1520" Name="PA1520" Position="-237" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1520" Name="PA1520" Position="-101" Score="4.3">
+          <Sequence>TTGTGTACAC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1502" Name="gcl" Position="-259" Score="4">
+          <Sequence>TTGTACCCAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1502" Name="gcl" Position="-193" Score="4">
+          <Sequence>TTGTATACAT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1502" Name="gcl" Position="-36" Score="4.8">
+          <Sequence>TTGTACACAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1503" Name="PA1503" Position="-302" Score="4.8">
+          <Sequence>TTGTGTACAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1503" Name="PA1503" Position="-145" Score="4">
+          <Sequence>ATGTATACAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1503" Name="PA1503" Position="-79" Score="4">
+          <Sequence>TTGGGTACAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1517" Name="PA1517" Position="-257" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1507" Name="PA1507" Position="-170" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1517" Name="PA1517" Position="-75" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="59388" LocusId="PA2938" Name="PA2938" Function="Xanthine/uracil permease family protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="57971" LocusId="PA1520" Name="PA1520" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="57969" LocusId="PA1518" Name="PA1518" Function="5-hydroxyisourate hydrolase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="57953" LocusId="PA1502" Name="gcl" Function="Glyoxylate carboligase (EC 4.1.1.47)" />
+          <Members vimssId="57952" LocusId="PA1501" Name="hyi" Function="Hydroxypyruvate isomerase (EC 5.3.1.22)" />
+          <Members vimssId="57951" LocusId="PA1500" Name="garR" Function="2-hydroxy-3-oxopropionate reductase (EC 1.1.1.60)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="56615" LocusId="PA0165" Name="PA0165" Function="Nucleoside-binding outer membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="57954" LocusId="PA1503" Name="PA1503" Function="GlcG protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="57958" LocusId="PA1507" Name="PA1507" Function="Xanthine/uracil permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="57968" LocusId="PA1517" Name="PA1517" Function="putative uricase" />
+          <Members vimssId="57967" LocusId="PA1516" Name="uraO" Function="Urate oxidase (EC 1.7.3.3)" />
+          <Members vimssId="57966" LocusId="PA1515" Name="alc" Function="Allantoicase (EC 3.5.3.4)" />
+          <Members vimssId="57965" LocusId="PA1514" Name="allA" Function="Ureidoglycolate hydrolase (EC 3.5.3.19)" />
+          <Members vimssId="57964" LocusId="PA1513" Name="PA1513" Function="conserved hypothetical membrane protein, paralogue of Y20848" />
+        </Operon>
+        <Operon>
+          <Members vimssId="56927" LocusId="PA0476" Name="PA0476" Function="Hydantoin permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="57970" LocusId="PA1519" Name="PA1519" Function="Xanthine/uracil/thiamine/ascorbate permease family protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5879</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PA2100" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63895" />
+      <Effector />
+      <Pathway>Multidrug efflux</Pathway>
+      <LocusTag Key="PA2100" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=58550&amp;disp=0" />
+      <BiologicalProcess>Multidrug efflux</BiologicalProcess>
+      <Regulog Key="PA2100 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6593" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA2101)" Name="COG697 (RhaT" Position="-167" Score="13.1">
+          <Sequence>ATTGAATC-(1)-GTGTCAAT-(6)-TTTGACCG</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="58551" LocusId="PA2101" Name="COG697 (RhaT)" Function="Permease of the drug/metabolite transporter (DMT) superfamily" />
+          <Members vimssId="58552" LocusId="PA2102" Name="COG1310" Function="Predicted metal-dependent protease of the PAD1/JAB1 superfamily" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6593</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="PA2299" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57417" />
+      <Effector />
+      <Pathway>Alkanesulfonates utilization</Pathway>
+      <LocusTag Key="PA2299" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=58749&amp;disp=0" />
+      <BiologicalProcess>Alkanesulfonates utilization</BiologicalProcess>
+      <Regulog Key="PA2299 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5874" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA2299" Name="PA2299" Position="-47" Score="6.4">
+          <Sequence>ACTTGTTATAACAAGT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="58749" LocusId="PA2299" Name="PA2299" Function="Putative alkanesulfonate metabolism utilization regulator, GntR family" />
+          <Members vimssId="58748" LocusId="PA2298" Name="PA2298" Function="Putative reductase (alkanesulfonate metabolism)" />
+          <Members vimssId="58747" LocusId="PA2297" Name="PA2297" Function="Probable ferredoxin" />
+          <Members vimssId="58746" LocusId="PA2296" Name="PA2296" Function="Alkanesulfonates ABC transporter, substrate-binding protein" />
+          <Members vimssId="58745" LocusId="PA2295" Name="PA2295" Function="Alkanesulfonates ABC transporter, permease protein" />
+          <Members vimssId="58744" LocusId="PA2294" Name="PA2294" Function="Alkanesulfonates ABC transporter, ATPase component" />
+          <Members vimssId="58743" LocusId="PA2293" Name="PA2293" Function="FOG: HEAT repeat protein" />
+          <Members vimssId="58742" LocusId="PA2292" Name="PA2292" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5874</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61086" />
+      <Effector />
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="PA4165" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=60614&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6275" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA4166" Name="PF00583" Position="-133" Score="13">
+          <Sequence>AAATGGTCTG-(13)-AATTGGTGGG-(6)-CAAGCCATTA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="60615" LocusId="PA4166" Name="PF00583" Function="acetyltransferase, GNAT family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6275</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxW2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66441" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine biosynthesis</Pathway>
+      <LocusTag Key="PA5431" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=61878&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine biosynthesis</BiologicalProcess>
+      <Regulog Key="PdxW2 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6865" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA5432, PF00583)" Name="COG456 (RimI" Position="-94" Score="14">
+          <Sequence>ATTGGACCT-(15)-AATGGATCT-(5)-CGGACCATT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="61879" LocusId="PA5432" Name="COG456 (RimI), PF00583" Function="GCN5-related N-acetyltransferase (GNAT) domain" />
+          <Members vimssId="61880" LocusId="PA5433" Name="COG1670 (RimL), PF00583" Function="GCN5-related N-acetyltransferase (GNAT) domain" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6865</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TyrR" RegulationMode="activator (repressor)">
+      <Regulator Key="PhhR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=11143" />
+      <Effector>Tyrosine; Phenylalanine</Effector>
+      <Pathway>Aromatic amino acid metabolism</Pathway>
+      <LocusTag Key="PA0873" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=57324&amp;disp=0" />
+      <BiologicalProcess>Aromatic amino acid metabolism</BiologicalProcess>
+      <Regulog Key="PhhR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1210" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA0865" Name="hpd" Position="-161" Score="4.4">
+          <Sequence>GCGTAAGGAATAGTTGCCAG</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA0865" Name="hpd" Position="-212" Score="5.6">
+          <Sequence>CTGTAAAGATAACTTTACGA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA0872" Name="phhA" Position="-217" Score="5.2">
+          <Sequence>CCGTCAAGAATATGTGACAG</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA0872" Name="phhA" Position="-144" Score="5.5">
+          <Sequence>TCGTAAGGAAAACTTTACGA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA0873" Name="phhR" Position="-159" Score="5.5">
+          <Sequence>TCGTAAAGTTTTCCTTACGA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA0873" Name="phhR" Position="-86" Score="5.2">
+          <Sequence>CTGTCACATATTCTTGACGG</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="57316" LocusId="PA0865" Name="hpd" Function="4-hydroxyphenylpyruvate dioxygenase (EC 1.13.11.27)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="57324" LocusId="PA0873" Name="phhR" Function="Phenylalanine degradation transcriptional activator, TyrR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="57323" LocusId="PA0872" Name="phhA" Function="Phenylalanine-4-hydroxylase (EC 1.14.16.1)" />
+          <Members vimssId="57322" LocusId="PA0871" Name="phhB" Function="Pterin-4-alpha-carbinolamine dehydratase (EC 4.2.1.96)" />
+          <Members vimssId="57321" LocusId="PA0870" Name="phhC" Function="Aromatic-amino-acid aminotransferase (EC 2.6.1.57)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1210</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PhnF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31620" />
+      <Effector />
+      <Pathway>Phosphonate utilization</Pathway>
+      <LocusTag Key="PA3381" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=59831&amp;disp=0" />
+      <BiologicalProcess>Phosphonate utilization</BiologicalProcess>
+      <Regulog Key="PhnF - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3268" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA3381" Name="phnF" Position="24" Score="5.2">
+          <Sequence>TTGTCTAGACAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="59831" LocusId="PA3381" Name="phnF" Function="Transcriptional regulator for phosphonates utilization, GntR family" />
+          <Members vimssId="59830" LocusId="PA3380" Name="phnG" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnG" />
+          <Members vimssId="59829" LocusId="PA3379" Name="phnH" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnH" />
+          <Members vimssId="59828" LocusId="PA3378" Name="phnI" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnI" />
+          <Members vimssId="59827" LocusId="PA3377" Name="phnJ" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnJ" />
+          <Members vimssId="59826" LocusId="PA3376" Name="phnK" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnK" />
+          <Members vimssId="59825" LocusId="PA3375" Name="phnL" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnL" />
+          <Members vimssId="59824" LocusId="PA3374" Name="pnhM" Function="Alpha-D-ribose-1-methylphosphonate-5-triphosphate hydrolase" />
+          <Members vimssId="59823" LocusId="PA3373" Name="phnN" Function="Ribose 1,5-bisphosphokinase activity (phosphoribosyl diphosphate forming)" />
+          <Members vimssId="59822" LocusId="PA3372" Name="phnP" Function="Phosphoribosyl 1,2-cyclic phosphodiesterase (EC 3.1.4.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3268</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PhnR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31816" />
+      <Effector />
+      <Pathway>Phosphonate utilization; 2-aminoethylphosphonate utilization</Pathway>
+      <LocusTag Key="PA2802" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=59252&amp;disp=0" />
+      <BiologicalProcess>Phosphonate utilization; 2-aminoethylphosphonate utilization</BiologicalProcess>
+      <Regulog Key="PhnR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3289" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA2802" Name="phnR3" Position="-114" Score="4.8">
+          <Sequence>TGGTCTAGGCCA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA3250" Name="phnS" Position="-348" Score="5.3">
+          <Sequence>TGGTCTAGTCCA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA3249" Name="phnR" Position="-27" Score="5.4">
+          <Sequence>TGGACTAGACCA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA3250" Name="phnS" Position="-93" Score="5.4">
+          <Sequence>TGATCTAGACCA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA3249" Name="phnR" Position="-282" Score="4.7">
+          <Sequence>TGGTCTAGATCA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1144" Name="" Position="-263" Score="5.4">
+          <Sequence>TGGTCTAGACCA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1144" Name="" Position="-84" Score="5.3">
+          <Sequence>TGGCCTAGACCA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA3255" Name="COG0560" Position="-50" Score="4.7">
+          <Sequence>TGGACGAGACCA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2803" Name="phnX" Position="-31" Score="5.3">
+          <Sequence>TGGCCTAGACCA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="59699" LocusId="PA3249" Name="phnR" Function="2-aminoethylphosphonate uptake and metabolism regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="59700" LocusId="PA3250" Name="phnS" Function="2-aminoethylphosphonate ABC transporter, periplasmic binding component (TC 3.A.1.9.1)" />
+          <Members vimssId="59701" LocusId="PA3251" Name="PF01663" Function="type I phosphodiesterase" />
+          <Members vimssId="59702" LocusId="PA3252" Name="phnU" Function="2-aminoethylphosphonate ABC transporter, permease protein I (TC 3.A.1.9.1)" />
+          <Members vimssId="59703" LocusId="PA3253" Name="phnV" Function="2-aminoethylphosphonate ABC transporter, permease protein II (TC 3.A.1.9.1)" />
+          <Members vimssId="59704" LocusId="PA3254" Name="phnT" Function="2-aminoethylphosphonate ABC transporter, ATP-binding protein (TC 3.A.1.9.1)" />
+          <Members vimssId="59705" LocusId="PA3255" Name="COG0560" Function="Phosphoserine phosphatase (EC 3.1.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="59252" LocusId="PA2802" Name="phnR3" Function="2-aminoethylphosphonate uptake and metabolism regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="59253" LocusId="PA2803" Name="phnX" Function="Phosphonoacetaldehyde hydrolase (EC 3.11.1.1)" />
+          <Members vimssId="59254" LocusId="PA2804" Name="COG4341" Function="COG4341: Predicted HD phosphohydrolase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="57595" LocusId="PA1144" Name="null" Function="probable MFS transporter" />
+          <Members vimssId="57594" LocusId="PA1143" Name="COG0560" Function="Phosphoserine phosphatase (EC 3.1.3.3)" />
+          <Members vimssId="57593" LocusId="PA1142" Name="phnR2" Function="2-aminoethylphosphonate uptake and metabolism regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="59705" LocusId="PA3255" Name="COG0560" Function="Phosphoserine phosphatase (EC 3.1.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3289</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="PhrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66400" />
+      <Effector>Blue light; Adenosylcobalamin</Effector>
+      <Pathway>Light-dependent DNA repair</Pathway>
+      <LocusTag Key="PA4659" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=61108&amp;disp=0" />
+      <BiologicalProcess>Light-dependent DNA repair</BiologicalProcess>
+      <Regulog Key="PhrR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6859" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA4657" Name="COG3380" Position="-73" Score="5.9">
+          <Sequence>TGTACATTAAATCAAGCTTGTACA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA4658" Name="COG3272" Position="-106" Score="5.9">
+          <Sequence>TATACAAATACATTGACCTGTACA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="61106" LocusId="PA4657" Name="COG3380" Function="Predicted NAD/FAD-dependent oxidoreductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="61107" LocusId="PA4658" Name="COG3272" Function="COG1683: Uncharacterized conserved protein / COG3272: Hypothetical protein YbgA" />
+          <Members vimssId="61108" LocusId="PA4659" Name="phrR" Function="Transcriptional regulator, MerR family, associated with photolyase" />
+          <Members vimssId="61109" LocusId="PA4660" Name="phr" Function="Deoxyribodipyrimidine photolyase (EC 4.1.99.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6859</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PrpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17149" />
+      <Effector>2-methylcitrate</Effector>
+      <Pathway>Methylcitrate utilization</Pathway>
+      <LocusTag Key="PA0797" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=57248&amp;disp=0" />
+      <BiologicalProcess>Methylcitrate utilization</BiologicalProcess>
+      <Regulog Key="PrpR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1849" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA0797" Name="prpR" Position="-33" Score="4.7">
+          <Sequence>ATTGTCGACACA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA0797" Name="prpR" Position="-96" Score="5.8">
+          <Sequence>ATTGTCGACAAT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="57248" LocusId="PA0797" Name="prpR" Function="Propionate catabolism transcriptional regulator, GntR family" />
+          <Members vimssId="57247" LocusId="PA0796" Name="prpB" Function="Methylisocitrate lyase (EC 4.1.3.30)" />
+          <Members vimssId="57246" LocusId="PA0795" Name="prpC" Function="2-methylcitrate synthase (EC 2.3.3.5)" />
+          <Members vimssId="57245" LocusId="PA0794" Name="acnD" Function="Aconitate hydratase, predicted 2-methylcitrate dehydratase FeS dependent (EC 4.2.1.79)" />
+          <Members vimssId="57244" LocusId="PA0793" Name="prpF" Function="Aconitase accessory protein PrpF" />
+          <Members vimssId="57243" LocusId="PA0792" Name="prpD" Function="2-methylcitrate dehydratase (EC 4.2.1.79)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1849</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PsrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29688" />
+      <Effector>Oleate</Effector>
+      <Pathway>Fatty acid degradation</Pathway>
+      <LocusTag Key="PA3006" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=59456&amp;disp=0" />
+      <BiologicalProcess>Fatty acid degradation</BiologicalProcess>
+      <Regulog Key="PsrA - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3098" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA3006" Name="psrA" Position="-45" Score="5">
+          <Sequence>GCTGAAACGTATGTTTCAAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA3006" Name="psrA" Position="-32" Score="5.8">
+          <Sequence>TTTCAAACAAGTGTTTGTCA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA0506" Name="acdH1" Position="-139" Score="5.5">
+          <Sequence>TTTCAAACGCCTGTTTGAGA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1831" Name="" Position="-84" Score="5.7">
+          <Sequence>ATTCAAACAAGCGTATGTTT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA3014" Name="fadB" Position="-180" Score="5.5">
+          <Sequence>AGTCAAACGGGCGTATGAAT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2953" Name="etfD" Position="-122" Score="5.9">
+          <Sequence>ATTCAAACAAACGTTTGTAT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA3622" Name="rpoS" Position="-427" Score="4.8">
+          <Sequence>CCTCAAACGGAAGTTTGAAT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA5255" Name="algQ" Position="-196" Score="5.5">
+          <Sequence>GATCAAACATCCGTATGAAT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2952" Name="etfB" Position="-218" Score="5.6">
+          <Sequence>ATACAAACGTTTGTTTGAAT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="56957" LocusId="PA0506" Name="acdH1" Function="probable acyl-CoA dehydrogenase" />
+          <Members vimssId="56958" LocusId="PA0507" Name="acdH2" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+          <Members vimssId="56959" LocusId="PA0508" Name="acdH3" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="58282" LocusId="PA1831" Name="null" Function="Phosphoglycerate mutase family protein" />
+          <Members vimssId="58281" LocusId="PA1830" Name="scp" Function="Sterol-binding domain protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="59464" LocusId="PA3014" Name="fadB" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+          <Members vimssId="59463" LocusId="PA3013" Name="fadA" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="60072" LocusId="PA3622" Name="rpoS" Function="RNA polymerase sigma factor RpoS" />
+        </Operon>
+        <Operon>
+          <Members vimssId="59403" LocusId="PA2953" Name="etfD" Function="Electron transfer flavoprotein-ubiquinone oxidoreductase (EC 1.5.5.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="59402" LocusId="PA2952" Name="etfB" Function="Electron transfer flavoprotein, beta subunit" />
+          <Members vimssId="59401" LocusId="PA2951" Name="etfA" Function="Electron transfer flavoprotein, alpha subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="61702" LocusId="PA5255" Name="algQ" Function="Regulator of RNA polymerase sigma(70) subunit, Rsd/AlgQ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="59456" LocusId="PA3006" Name="psrA" Function="Predicted transcriptional regulator for fatty acid degradation PsrA, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3098</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="PtxS" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52081" />
+      <Effector>2-keto-D-gluconate</Effector>
+      <Pathway>2-ketogluconate utilization</Pathway>
+      <LocusTag Key="PA2259" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=58709&amp;disp=0" />
+      <BiologicalProcess>2-ketogluconate utilization</BiologicalProcess>
+      <Regulog Key="PtxS - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5297" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA2259" Name="ptxS" Position="-87" Score="6.5">
+          <Sequence>TTCTGAAACCGGTTTCAACT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2260" Name="kguE" Position="-28" Score="6.5">
+          <Sequence>AAATGAAACCGGTTTCAGAG</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="58709" LocusId="PA2259" Name="ptxS" Function="2-ketogluconate utilization repressor PtxS, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="58710" LocusId="PA2260" Name="kguE" Function="Epimerase KguE" />
+          <Members vimssId="58711" LocusId="PA2261" Name="kguK" Function="2-ketogluconate kinase (EC 2.7.1.13)" />
+          <Members vimssId="58712" LocusId="PA2262" Name="kguT" Function="2-ketogluconate transporter" />
+          <Members vimssId="58713" LocusId="PA2263" Name="kguD" Function="2-ketogluconate 6-phosphate reductase (EC 1.1.1.43)" />
+          <Members vimssId="58714" LocusId="PA2264" Name="gadC" Function="Gluconate 2-dehydrogenase (EC 1.1.99.3), membrane-bound, gamma subunit" />
+          <Members vimssId="58715" LocusId="PA2265" Name="gadB" Function="Gluconate 2-dehydrogenase (EC 1.1.99.3), membrane-bound, flavoprotein" />
+          <Members vimssId="58716" LocusId="PA2266" Name="gadA" Function="Gluconate 2-dehydrogenase (EC 1.1.99.3), membrane-bound, cytochrome c" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5297</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="RbsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21058" />
+      <Effector>Ribose</Effector>
+      <Pathway>Ribose utilization</Pathway>
+      <LocusTag Key="PA1949" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=58399&amp;disp=0" />
+      <BiologicalProcess>Ribose utilization</BiologicalProcess>
+      <Regulog Key="RbsR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2280" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA1946" Name="rbsB" Position="-76" Score="6.5">
+          <Sequence>TAACGCAAACGTTTGCGTCT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="58396" LocusId="PA1946" Name="rbsB" Function="Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)" />
+          <Members vimssId="58397" LocusId="PA1947" Name="rbsA" Function="Ribose ABC transport system, ATP-binding protein RbsA (TC 3.A.1.2.1)" />
+          <Members vimssId="58398" LocusId="PA1948" Name="rbsC" Function="Ribose ABC transport system, permease protein RbsC (TC 3.A.1.2.1)" />
+          <Members vimssId="58399" LocusId="PA1949" Name="rbsR" Function="Transcriptional repressor of ribose utilization, LacI family" />
+          <Members vimssId="58400" LocusId="PA1950" Name="rbsK" Function="Ribokinase (EC 2.7.1.15)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2280</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30848" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="PA0167" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=56617&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3186" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA1517" Name="COG0726" Position="-157" Score="6">
+          <Sequence>AACTGACCAGTCGGGCAGGT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA0166" Name="pbuT" Position="-77" Score="5.3">
+          <Sequence>AGCTGATCACCTGGACAGCT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA0165" Name="tsx" Position="-62" Score="5.8">
+          <Sequence>GCCTGACCGCTCGGACAGGT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA0136" Name="ppuA" Position="-65" Score="5.4">
+          <Sequence>TCCTGACCTCCTGGCCAGGT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="57968" LocusId="PA1517" Name="COG0726" Function="putative polysaccharide deacetylase family protein" />
+          <Members vimssId="57967" LocusId="PA1516" Name="pucL" Function="Uricase (EC 1.7.3.3)" />
+          <Members vimssId="57966" LocusId="PA1515" Name="allC" Function="Allantoicase (EC 3.5.3.4)" />
+          <Members vimssId="57965" LocusId="PA1514" Name="allA" Function="Ureidoglycolate hydrolase (EC 3.5.3.19)" />
+          <Members vimssId="57964" LocusId="PA1513" Name="COG3748" Function="hypothetical protein, COG3748" />
+        </Operon>
+        <Operon>
+          <Members vimssId="56586" LocusId="PA0136" Name="ppuA" Function="Predicted ABC transporter, ATP-binding protein" />
+          <Members vimssId="56587" LocusId="PA0137" Name="ppuC" Function="Predicted ABC transporter, permease protein" />
+          <Members vimssId="56588" LocusId="PA0138" Name="ppuD" Function="Predicted ABC transporter, inner membrane protein precursor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="56615" LocusId="PA0165" Name="tsx" Function="Nucleoside-binding outer membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="56616" LocusId="PA0166" Name="pbuT" Function="Xanthine/uracil permease" />
+          <Members vimssId="56617" LocusId="PA0167" Name="rutR" Function="Transcriptional regulator RutR of pyrimidine catabolism, TetR family" />
+          <Members vimssId="56618" LocusId="PA0168" Name="COG1739" Function="hypothetical protein, COG1739" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3186</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34743" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="PA0436" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=56887&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR2 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3552" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA0443" Name="pydP" Position="-273" Score="5.7">
+          <Sequence>TCCTGACCGGGGCGACAGGC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA0441" Name="pydB" Position="-99" Score="7">
+          <Sequence>TCCTGTCAGCGCTGACAGGA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="56894" LocusId="PA0443" Name="pydP" Function="Pyrimidine permease in reductive pathway" />
+          <Members vimssId="56895" LocusId="PA0444" Name="pydC" Function="Beta-ureidopropionase (EC 3.5.1.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="56892" LocusId="PA0441" Name="pydB" Function="Dihydropyrimidinase (EC 3.5.2.2)" />
+          <Members vimssId="56891" LocusId="PA0440" Name="pydX" Function="Pyridine nucleotide-disulphide oxidoreductase associated with reductive pyrimidine catabolism" />
+          <Members vimssId="56890" LocusId="PA0439" Name="pydA" Function="Dihydropyrimidine dehydrogenase [NADP+] (EC 1.3.1.2); Dihydroorotate dehydrogenase (EC 1.3.3.1)" />
+          <Members vimssId="56889" LocusId="PA0438" Name="codB" Function="Cytosine permease" />
+          <Members vimssId="56888" LocusId="PA0437" Name="codA" Function="Cytosine deaminase protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3552</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34756" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="PA1504" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=57955&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR3 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3554" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA1524" Name="xdhA" Position="-139" Score="5.4">
+          <Sequence>ATTTGACTCAAAAGTCAGTT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1524" Name="xdhA" Position="-163" Score="4.1">
+          <Sequence>GACTGACCTACAGGTCAAAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1519" Name="pbuT" Position="-115" Score="5.8">
+          <Sequence>TCTTGACCCAGAGGTCAGAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="57975" LocusId="PA1524" Name="xdhA" Function="Xanthine dehydrogenase, iron-sulfur cluster and FAD-binding subunit A (1.17.1.4)" />
+          <Members vimssId="57974" LocusId="PA1523" Name="xdhB" Function="Xanthine dehydrogenase, molybdenum binding subunit (EC 1.17.1.4)" />
+          <Members vimssId="57973" LocusId="PA1522" Name="xdhC" Function="XdhC protein (assists in molybdopterin insertion into xanthine dehydrogenase)" />
+          <Members vimssId="57972" LocusId="PA1521" Name="guaD" Function="Guanine deaminase (EC 3.5.4.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="57970" LocusId="PA1519" Name="pbuT" Function="Xanthine/uracil permease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3554</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SahR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15727" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="PA0547" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=56998&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SahR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1689" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA0547" Name="sahR" Position="-62" Score="6.9">
+          <Sequence>ATATCAAAAATTTTTGATAC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="56998" LocusId="PA0547" Name="sahR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+          <Members vimssId="56997" LocusId="PA0546" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1689</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="SdaR" RegulationMode="activator">
+      <Regulator Key="SdaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63641" />
+      <Effector>D-glycerate</Effector>
+      <Pathway>Glycerate utilization</Pathway>
+      <LocusTag Key="PA1050" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=57501&amp;disp=0" />
+      <BiologicalProcess>Glycerate utilization</BiologicalProcess>
+      <Regulog Key="SdaR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6567" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA1051" Name="grtP" Position="-141" Score="5.6">
+          <Sequence>CACTGTGCAGTCGCACAAAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="57502" LocusId="PA1051" Name="grtP" Function="D-glycerate transporter, GntP family" />
+          <Members vimssId="57503" LocusId="PA1052" Name="garK" Function="Glycerate kinase (EC 2.7.1.31)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6567</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="SoxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50572" />
+      <Effector>Paraquat</Effector>
+      <Pathway>Superoxide stress response</Pathway>
+      <LocusTag Key="PA2273" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=58723&amp;disp=0" />
+      <BiologicalProcess>Superoxide stress response</BiologicalProcess>
+      <Regulog Key="SoxR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5121" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA2274" Name="PF03992" Position="-67" Score="6.4">
+          <Sequence>ACCTCAAGTTTGCTTGAGGT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA4205" Name="mexG" Position="-125" Score="6.9">
+          <Sequence>ACCTCAACTTAACTTGAGGT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA3718" Name="PF07690" Position="-83" Score="6.7">
+          <Sequence>ACCTCAAGTTAACTTGAGCT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2273" Name="soxR" Position="-30" Score="6.4">
+          <Sequence>ACCTCAAGCAAACTTGAGGT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="60167" LocusId="PA3718" Name="PF07690" Function="Permease of the major facilitator superfamily" />
+        </Operon>
+        <Operon>
+          <Members vimssId="60654" LocusId="PA4205" Name="mexG" Function="Membrane protein" />
+          <Members vimssId="60655" LocusId="PA4206" Name="mexH" Function="RND transporter, membrane fusion protein" />
+          <Members vimssId="60656" LocusId="PA4207" Name="mexI" Function="RND transporter, membrane fusion protein" />
+          <Members vimssId="60657" LocusId="PA4208" Name="opmD" Function="RND transporter, outer membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="58724" LocusId="PA2274" Name="PF03992" Function="Monooxygenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="58723" LocusId="PA2273" Name="soxR" Function="Redox-sensitive transcriptional activator, MerR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5121</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="UreR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57208" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="PA0120" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=56570&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="UreR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5850" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA0119" Name="dctA" Position="-74" Score="5.7">
+          <Sequence>ACTGGTCAGACCGGT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA0119" Name="dctA" Position="-65" Score="4.6">
+          <Sequence>ACCGGTAATACCACA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="56569" LocusId="PA0119" Name="dctA" Function="C4-dicarboxylate transport protein" />
+          <Members vimssId="56570" LocusId="PA0120" Name="ureR" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5850</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="VanR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31424" />
+      <Effector>Vanillate</Effector>
+      <Pathway>Vanillate utilization</Pathway>
+      <LocusTag Key="PA4906" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=61353&amp;disp=0" />
+      <BiologicalProcess>Vanillate utilization</BiologicalProcess>
+      <Regulog Key="VanR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3247" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA4904" Name="vanA" Position="-13" Score="3.5">
+          <Sequence>AGAGGATCCGAC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA4904" Name="vanA" Position="-222" Score="5.4">
+          <Sequence>ATTGGATCCATT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA4904" Name="vanA" Position="-38" Score="5.5">
+          <Sequence>ATTGGATCCAAT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA4903" Name="vanK" Position="-168" Score="5.4">
+          <Sequence>AATGGATCCAAT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="61351" LocusId="PA4904" Name="vanA" Function="Vanillate O-demethylase oxygenase subunit (EC 1.14.13.82)" />
+          <Members vimssId="61352" LocusId="PA4905" Name="vanB" Function="Flavodoxin reductases (ferredoxin-NADPH reductases) family 1; Vanillate O-demethylase oxidoreductase (EC 1.14.13.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="61350" LocusId="PA4903" Name="vanK" Function="4-hydroxybenzoate/vanillate transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3247</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YdcR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59699" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="PA4132" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=60581&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="YdcR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6128" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA4130" Name="cysI" Position="-183" Score="7.9">
+          <Sequence>ATCTGATGTGTTTTT---------ATCTGCCGCTGTTTC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA4133" Name="ccoN" Position="-137" Score="7.2">
+          <Sequence>ATCTGATACCCAAAT---------ACCTGAAGCTGTTTT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="60579" LocusId="PA4130" Name="cysI" Function="Sulfite reductase [NADPH] hemoprotein beta-component (EC 1.8.1.2)" />
+          <Members vimssId="60578" LocusId="PA4129" Name="COG3749" Function="Oxidoreductase probably involved in sulfite reduction" />
+        </Operon>
+        <Operon>
+          <Members vimssId="60582" LocusId="PA4133" Name="ccoN" Function="Cytochrome c oxidase subunit CcoN (EC 1.9.3.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6128</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YjiR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61774" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="PA2032" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=58482&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="YjiR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6345" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA2031" Name="yjiS" Position="-144" Score="16.2">
+          <Sequence>TACAGAT-(17)-TTCAGGC-(13)-ATCTGTA-(23)-ACCTGTA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="58481" LocusId="PA2031" Name="yjiS" Function="putative cytoplasmic protein of unknown function DUF1127" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6345</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16065" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="PA5499" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=61946&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1727" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA5498" Name="znuA" Position="-48" Score="4.6">
+          <Sequence>GAGACGTTATTATATTACCCGCT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA5499" Name="zur" Position="-44" Score="3.8">
+          <Sequence>AGCGGGTAATATAATAACGTCTC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA0781" Name="omr" Position="-121" Score="5">
+          <Sequence>AAAAAGAAATAATATAACATCCC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA5536" Name="dksA2" Position="-43" Score="5.5">
+          <Sequence>TAATTGTTATAGTATAACGTTTT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA4838" Name="PA4838" Position="-122" Score="5.1">
+          <Sequence>GAAATGATATACTATAACGCTAC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA5537" Name="PA5537" Position="-92" Score="5.2">
+          <Sequence>AAAACGTTATACTATAACAATTA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA5539" Name="folE2" Position="-63" Score="5.5">
+          <Sequence>AATACGTTATATTATAACATTCA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA3601" Name="rpmE2" Position="-38" Score="5.5">
+          <Sequence>AATATGTAACTATATAACATTAT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA5538" Name="amiA" Position="-59" Score="5.6">
+          <Sequence>TGAATGTTATAATATAACGTATT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA4063" Name="zbp" Position="-51" Score="5.7">
+          <Sequence>AATTCGTTATAACGTAACAAACT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="61946" LocusId="PA5499" Name="zur" Function="Zinc uptake regulation protein ZUR" />
+          <Members vimssId="61947" LocusId="PA5500" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="61948" LocusId="PA5501" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="57232" LocusId="PA0781" Name="omr" Function="Zinc-regulated outer membrane receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="60051" LocusId="PA3601" Name="rpmE2" Function="LSU ribosomal protein L31p" />
+          <Members vimssId="60050" LocusId="PA3600" Name="rpmJ" Function="LSU ribosomal protein L36p" />
+        </Operon>
+        <Operon>
+          <Members vimssId="61983" LocusId="PA5536" Name="dksA2" Function="C4-type zinc finger protein, DksA/TraR family" />
+          <Members vimssId="61982" LocusId="PA5535" Name="yciC" Function="Putative metal chaperone, GTPase of COG0523 family" />
+          <Members vimssId="61981" LocusId="PA5534" Name="PF08856" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="61285" LocusId="PA4838" Name="PA4838" Function="membrane protein-like protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="61984" LocusId="PA5537" Name="PA5537" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="61986" LocusId="PA5539" Name="folE2" Function="GTP cyclohydrolase I (EC 3.5.4.16) type 2" />
+          <Members vimssId="61987" LocusId="PA5540" Name="can" Function="Carbonic anhydrase (EC 4.2.1.1)" />
+          <Members vimssId="61988" LocusId="PA5541" Name="pyrC2" Function="Dihydroorotase (EC 3.5.2.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="61985" LocusId="PA5538" Name="amiA" Function="N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="60512" LocusId="PA4063" Name="zbp" Function="Predicted zinc-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="61945" LocusId="PA5498" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1727</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41282" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA2946" Name="cbtA" Position="-58" Score="77.8">
+          <Sequence>CTAGGCGGGTTGTCCCAGGTGTCTCGTGCCGGCGCGCACGAGGTGAAACGGGAAGCCGGTGACGCTCTCCGAGCCAGTCCGGCGCTGCCCCCGCAACGGTAAGCGCATCGCGCGCGAGCCCGGAGACCGGCCTGGAACCTTTCGTTTGATTC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2906" Name="cobG" Position="-252" Score="87.8">
+          <Sequence>GCATAATAGCGCGTTCGTCGGTGCCCGGCCCTTTCGCGTTAGCGCGGGGCCAACGAGGGCCGAAGAGGGAACACGGAGCCGCGGTCTTTTCGAAGCCCGGGCCTAGCCGTGGCTGCCCCCGCAACTGTATGCAGCCTGTATTCGCGCCATTCGCCACTGGATTACCGGGAAGGCGGCGCGAAGCGGAGGTTCCTCCCCCGGGTGGAACGCCGGGCTGCGAGCCAGGAGACCTGCCGCCGAAACCAGTCGCGAG</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2911" Name="btuB" Position="-303" Score="112.9">
+          <Sequence>CCATCCGGCCCGTTCCAGGTGCCTCCTGCCGCCGCGCAGGAGGTGAAACGGGAAGCCGGTGCGTCACTTCGGTGATCAGTCCGGCGCTGCCCCCGCAACGGTAAGCGAGCGAAATCCTCTTCAGGCCACTGTGCTCCGGCATGGGAAGGCGAGGATTTCACGACCCTCGCAAGCCCGGAGACCGGCCTGCAACGCCCTGTTGGCACA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA2945" Name="" Position="-238" Score="104.6">
+          <Sequence>CGTAGCCTTGCCGGTTCGAGGTTCCTCGCCGGCGACGGCGGGGCTAAGAGGGAACGCGGTCGATGCCGCGGCTGCCCCCGCAACTGTGAACGGCGATCGTTCCCCAATGCCACTGCGTGACGCGGGAAGGCGGGGAACCGGCGGAGACGCCAGACCGTGAGCCAGGAGACCTGCCTCGTCGATCCCGTGGCGC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1271" Name="btuB2" Position="-303" Score="82.3">
+          <Sequence>CTGCGCGCCTTGCGACAGGTGCCCCGCAAGGGGTGAAACAGGGAAGCTGGTGCGTTCCGTCGGAACCAGGCCAGCGCTGCCCCCGCAACGGTAGGCGAATCAGACAGCCGCTCGATGACCACTGTGCTCCGGCATGGGAAGGCGCGGCTGGAAGCGTCCAGCGCTTCGCTCGCGAGCCCGGAGACCGGCCTGACGCACCCACGGCATCGC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="59356" LocusId="PA2906" Name="cobG" Function="Cobalamin biosynthesis protein CobG" />
+          <Members vimssId="59355" LocusId="PA2905" Name="cbiC" Function="Cobalt-precorrin-8x methylmutase (EC 5.4.1.2)" />
+          <Members vimssId="59354" LocusId="PA2904" Name="cbiL" Function="Cobalt-precorrin-2 C20-methyltransferase (EC 2.1.1.130)" />
+          <Members vimssId="59353" LocusId="PA2903" Name="cbiGH" Function="Cobalamin biosynthesis protein CbiG / Cobalt-precorrin-3b C17-methyltransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="57722" LocusId="PA1271" Name="btuB2" Function="Outer membrane vitamin B12 receptor BtuB" />
+          <Members vimssId="57723" LocusId="PA1272" Name="btuR" Function="Cob(I)alamin adenosyltransferase (EC 2.5.1.17)" />
+          <Members vimssId="57724" LocusId="PA1273" Name="cbiA" Function="Cobyrinic acid A,C-diamide synthase" />
+          <Members vimssId="57725" LocusId="PA1274" Name="bluB" Function="Cobalamin biosynthesis protein BluB @ 5,6-dimethylbenzimidazole synthase, flavin destructase family" />
+          <Members vimssId="57726" LocusId="PA1275" Name="cbiB" Function="Adenosylcobinamide-phosphate synthase" />
+          <Members vimssId="57727" LocusId="PA1276" Name="cobD" Function="L-threonine 3-O-phosphate decarboxylase (EC 4.1.1.81)" />
+          <Members vimssId="57728" LocusId="PA1277" Name="cbiP" Function="Cobyric acid synthase" />
+          <Members vimssId="57729" LocusId="PA1278" Name="cobU" Function="Adenosylcobinamide-phosphate guanylyltransferase (EC 2.7.7.62)" />
+          <Members vimssId="57730" LocusId="PA1279" Name="cobT" Function="Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase (EC 2.4.2.21)" />
+          <Members vimssId="57731" LocusId="PA1280" Name="cobC" Function="Alpha-ribazole-5'-phosphate phosphatase (EC 3.1.3.73)" />
+          <Members vimssId="57732" LocusId="PA1281" Name="cobS" Function="Cobalamin synthase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="59396" LocusId="PA2946" Name="cbtA" Function="Predicted cobalt transporter CbtA" />
+          <Members vimssId="59397" LocusId="PA2947" Name="cobE" Function="Cobalamin biosynthesis protein CobE" />
+          <Members vimssId="59398" LocusId="PA2948" Name="cbiF" Function="Cobalt-precorrin-4 C11-methyltransferase (EC 2.1.1.133)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="59361" LocusId="PA2911" Name="btuB" Function="Outer membrane vitamin B12 receptor BtuB" />
+          <Members vimssId="59362" LocusId="PA2912" Name="btuD" Function="Vitamin B12 ABC transporter, ATPase component BtuD" />
+          <Members vimssId="59363" LocusId="PA2913" Name="btuF" Function="Vitamin B12 ABC transporter, B12-binding  component BtuF" />
+          <Members vimssId="59364" LocusId="PA2914" Name="btuC" Function="Vitamin B12 ABC transporter, permease component BtuC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="59395" LocusId="PA2945" Name="null" Function="CobW GTPase involved in cobalt insertion for B12 biosynthesis" />
+          <Members vimssId="59394" LocusId="PA2944" Name="cobN" Function="CobN component of cobalt chelatase involved in B12 biosynthesis" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41314" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA4055" Name="ribE2" Position="-347" Score="95.3">
+          <Sequence>GTAACGTTCTCAGGGCGGGGTGAAAGTCCCCACCGGCGGTAATGGCGCGCAAGGCGCCTAGCCCGCGAGCGCTTGCCGGACCGGCCACCGCCGGACGACAAGGTCAGCAGACCCGGTGCGATTCCGGGGCCGACGGTCATAGTCCGGATAAAGAGAGAACGGGA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="60504" LocusId="PA4055" Name="ribE2" Function="Riboflavin synthase alpha chain (EC 2.5.1.9)" />
+          <Members vimssId="60503" LocusId="PA4054" Name="ribBA" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase / GTP cyclohydrolase II (EC 3.5.4.25)" />
+          <Members vimssId="60502" LocusId="PA4053" Name="ribH" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00114" RegulationMode="RF00114">
+      <Regulator Key="S15" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41258" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="S15" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA4741" Name="rpsO" Position="-65" Score="50.4">
+          <Sequence>CGGTCATTCCTCCTTTTAAAACACGGGAAGCGATTCCCGGCCTGTTCACTCAGAGGAAGCCCATCATGGCACTGAGCGTTGAAGAAAAAGCGCAGATCGTTAACGAATACAAGCAAGCTGAA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="61189" LocusId="PA4741" Name="rpsO" Function="SSU ribosomal protein S15p (S13e)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01057" RegulationMode="RF01057">
+      <Regulator Key="SAH_riboswitch" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40978" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="SAH_riboswitch" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA0432" Name="ahcY" Position="-128" Score="38">
+          <Sequence>CCGTTCGAGGGGCGCTGCAGCAGGCCTAGGCCTGTCAGGCTCGAACGGA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="56883" LocusId="PA0432" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+          <Members vimssId="56882" LocusId="PA0431" Name="null" Function="Guanosine polyphosphate pyrophosphohydrolases/synthetases" />
+          <Members vimssId="56881" LocusId="PA0430" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40962" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA4973" Name="thiC" Position="-227" Score="62.5">
+          <Sequence>GGGGTTCTTGTCGGGGTGCCCTATACGAGGGGCTGAGATCGGATAGTTCCGGATCCCGTTGAACCTGATCGGGCTAGCGTCCGGTTCCGCCTCGCGCGGACCGCAGCAACCCGCGTAGGGAACAAGATGTCCGCGCCA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="61420" LocusId="PA4973" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01068" RegulationMode="RF01068">
+      <Regulator Key="mini-ykkC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41026" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="mini-ykkC" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA3265" Name="ykkC1" Position="-80" Score="31.3">
+          <Sequence>AGTGAGGACGACCTCACCACCCGCCTCCGGCCGGTGATCGAATGGGGACGGCCCCGCC</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA1882" Name="ykkC2" Position="-62" Score="42.5">
+          <Sequence>AAGCGGGACGACCCGTTTTCCCTCTTTCATTGCGCGGGGACGACCCTGCA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="58333" LocusId="PA1882" Name="ykkC2" Function="Quaternary ammonium compound-resistance protein sugE" />
+        </Operon>
+        <Operon>
+          <Members vimssId="59715" LocusId="PA3265" Name="ykkC1" Function="Quaternary ammonium compound-resistance protein sugE" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40922" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PA2910" Name="COG1971" Position="-176" Score="58.8">
+          <Sequence>GCCGGCCTTCCTTGGGGAGTAGCCTGCCGTCACCCGTTGACGGCGCGCTGGTCAACATTCTTGGCAACCTGCCATGGCCAGCGCATCCAACCGGATTGGTGAGACCAACGACATTCCT</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PA4629" Name="COG2119" Position="-213" Score="24">
+          <Sequence>GCCCCGTCCTAGGGGAGTAGTCTCCCGCGAGCGCCGCACCGGCCTCGCCCGGCACGCGTCAACACACTTGGTCCGCAGACCATGGCGCGCGCGACCCAAGCCTGCCCAGACAGGCCAAGGGTTTGACAAGACCTATGACACGCACGA</Sequence>
+          <Bacteria>Pseudomonas aeruginosa PAO1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="61079" LocusId="PA4629" Name="COG2119" Function="Probable transmembrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="59360" LocusId="PA2910" Name="COG1971" Function="Integral membrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

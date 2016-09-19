@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Caldicellulosiruptor saccharolyticus DSM 8903" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor (activator)">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59027" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="Csac_1897" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3531861&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6052" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Csac_1814" Name="argG" Position="-63" Score="5.4">
+          <Sequence>TTGAATAATTATTCAT</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Csac_1531" Name="argC" Position="-71" Score="5.2">
+          <Sequence>TTGTATTTTTATACAC</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Csac_2227" Name="carA" Position="-111" Score="5.2">
+          <Sequence>TTGTATTTTTATTCAT</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3531493" LocusId="Csac_1531" Name="argC" Function="N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)" />
+          <Members vimssId="3531492" LocusId="Csac_1530" Name="argB" Function="Acetylglutamate kinase (EC 2.7.2.8)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3532201" LocusId="Csac_2227" Name="carA" Function="Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)" />
+          <Members vimssId="3532202" LocusId="Csac_2228" Name="carB" Function="Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)" />
+          <Members vimssId="3532203" LocusId="Csac_2229" Name="argF" Function="Ornithine carbamoyltransferase (EC 2.1.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3531778" LocusId="Csac_1814" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+          <Members vimssId="3531777" LocusId="Csac_1813" Name="argH" Function="Argininosuccinate lyase (EC 4.3.2.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6052</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57887" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="Csac_0109" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3530045&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5928" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Csac_0304" Name="bioY3" Position="-73" Score="7.6">
+          <Sequence>TAGTAAAC----------------GTTGACAT</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Csac_0198" Name="bioY2" Position="-48" Score="7">
+          <Sequence>TAGTAAAC----------------GTTTACTT</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Csac_0307" Name="bioB" Position="-102" Score="6.3">
+          <Sequence>CAGTAAAT----------------GTTTACTA</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3530134" LocusId="Csac_0198" Name="bioY2" Function="Substrate-specific component BioY of biotin ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3530248" LocusId="Csac_0307" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3530245" LocusId="Csac_0304" Name="bioY3" Function="Substrate-specific component BioY of biotin ECF transporter" />
+          <Members vimssId="3530246" LocusId="Csac_0305" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+          <Members vimssId="3530247" LocusId="Csac_0306" Name="bioA" Function="Adenosylmethionine-8-amino-7-oxononanoate aminotransferase (EC 2.6.1.62)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5928</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="Csac_2166" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57364" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux</Pathway>
+      <LocusTag Key="Csac_2166" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3532132&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux</BiologicalProcess>
+      <Regulog Key="Csac_2166 - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5868" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Csac_2166" Name="Csac_2166" Position="-50" Score="7.5">
+          <Sequence>AGTGTTATATAATTATATAACACT</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3532132" LocusId="Csac_2166" Name="Csac_2166" Function="hypothetical protein" />
+          <Members vimssId="3532131" LocusId="Csac_2165" Name="THA_1503" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="3532130" LocusId="Csac_2164" Name="THA_1502" Function="ABC transporter, permease protein" />
+          <Members vimssId="3532129" LocusId="Csac_2163" Name="Athe_0962" Function="dipeptidyl aminopeptidase/acylaminoacyl-peptidase-like protein" />
+          <Members vimssId="3532128" LocusId="Csac_2162" Name="THA_1501" Function="ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5868</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="Csac_2497" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57043" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux</Pathway>
+      <LocusTag Key="Csac_2497" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3532478&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux</BiologicalProcess>
+      <Regulog Key="Csac_2497 - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5832" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Csac_2497" Name="Csac_2497" Position="-45" Score="6.1">
+          <Sequence>TGTATATACTGTATATATACAGTATGCAAAAGGGGAAAG</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Csac_2497" Name="Csac_2497" Position="-54" Score="7.6">
+          <Sequence>AATTAAAACTGTATATACTGTATATATACAGTATGCAAA</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3532478" LocusId="Csac_2497" Name="Csac_2497" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="3532479" LocusId="Csac_2498" Name="BH0652" Function="ABC-type multidrug transport system, ATPase component" />
+          <Members vimssId="3532480" LocusId="Csac_2499" Name="BH0653" Function="ABC-type multidrug transport system, permease component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5832</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62886" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="Csac_1741" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3531704&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6476" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Csac_1739" Name="feoA" Position="-98" Score="6.2">
+          <Sequence>ATTGAGAATAATTCTCAAT</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Csac_0536" Name="ftr" Position="-37" Score="5.8">
+          <Sequence>AGTGAAAATCAATTTCAAA</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Csac_0536" Name="ftr" Position="-43" Score="5.3">
+          <Sequence>ATTGAAAGTGAAAATCAAT</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3530480" LocusId="Csac_0536" Name="ftr" Function="High-affinity Fe2+ permease, FTR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3531702" LocusId="Csac_1739" Name="feoA" Function="Ferrous iron transport protein A" />
+          <Members vimssId="3531703" LocusId="Csac_1740" Name="feoB" Function="Ferrous iron transport protein B" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6476</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="HcpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62783" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="Csac_1623" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3531585&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="HcpR - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6461" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Csac_1623" Name="hcpR" Position="-44" Score="6.6">
+          <Sequence>GGTAACATATGTTACA</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Csac_1624" Name="frdX" Position="-77" Score="6.6">
+          <Sequence>TGTAACATATGTTACC</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3531586" LocusId="Csac_1624" Name="frdX" Function="4Fe-4S ferredoxin iron-sulfur binding domain protein" />
+          <Members vimssId="3531587" LocusId="Csac_1625" Name="hcp" Function="Hydroxylamine reductase (EC 1.7.-.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3531585" LocusId="Csac_1623" Name="hcpR" Function="Nitric oxide-resposive transcriptional regulator HcpR, Crp family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6461</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TrpR" RegulationMode="repressor">
+      <Regulator Key="HisR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60262" />
+      <Effector>Histidine</Effector>
+      <Pathway>Histidine biosynthesis</Pathway>
+      <LocusTag Key="Csac_2311" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3532292&amp;disp=0" />
+      <BiologicalProcess>Histidine biosynthesis</BiologicalProcess>
+      <Regulog Key="HisR - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6189" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Csac_2027" Name="hisZ" Position="-37" Score="5.6">
+          <Sequence>CACTTCATCATGATAAAGCA</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3531991" LocusId="Csac_2027" Name="hisZ" Function="ATP phosphoribosyltransferase regulatory subunit (EC 2.4.2.17)" />
+          <Members vimssId="3531990" LocusId="Csac_2026" Name="hisG" Function="ATP phosphoribosyltransferase catalytic subunit (EC 2.4.2.17)" />
+          <Members vimssId="3531989" LocusId="Csac_2025" Name="hisD" Function="Histidinol dehydrogenase (EC 1.1.1.23)" />
+          <Members vimssId="3531988" LocusId="Csac_2024" Name="hisC" Function="Histidinol-phosphate aminotransferase (EC 2.6.1.9)" />
+          <Members vimssId="3531987" LocusId="Csac_2023" Name="hisB" Function="Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)" />
+          <Members vimssId="3531986" LocusId="Csac_2022" Name="hisH" Function="Imidazole glycerol phosphate synthase amidotransferase subunit (EC 2.4.2.-)" />
+          <Members vimssId="3531985" LocusId="Csac_2021" Name="hisA" Function="Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase (EC 5.3.1.16)" />
+          <Members vimssId="3531984" LocusId="Csac_2020" Name="hisF" Function="Imidazole glycerol phosphate synthase cyclase subunit (EC 4.1.3.-)" />
+          <Members vimssId="3531983" LocusId="Csac_2019" Name="hisIE" Function="Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19) / Phosphoribosyl-ATP pyrophosphatase (EC 3.6.1.31)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6189</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58710" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Csac_1750" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3531714&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6012" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Csac_1291" Name="groS" Position="-54" Score="7.6">
+          <Sequence>TTAGCACTCACTCTCAATGAGTGCTAA</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Csac_1750" Name="hrcA" Position="-43" Score="7.4">
+          <Sequence>TTAGCACTCATCAAATGAGAGTGCTAA</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3531714" LocusId="Csac_1750" Name="hrcA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="3531715" LocusId="Csac_1751" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="3531716" LocusId="Csac_1752" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="3531717" LocusId="Csac_1753" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3531252" LocusId="Csac_1291" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="3531253" LocusId="Csac_1292" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6012</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="IolR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52037" />
+      <Effector />
+      <Pathway>Inositol utilization</Pathway>
+      <LocusTag Key="Csac_1171" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3531128&amp;disp=0" />
+      <BiologicalProcess>Inositol utilization</BiologicalProcess>
+      <Regulog Key="IolR - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5290" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Csac_1172" Name="iolG3" Position="-38" Score="6">
+          <Sequence>TTATGTAATCAATTACACTA</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Csac_1172" Name="iolG3" Position="-72" Score="4.8">
+          <Sequence>CGTTGTAATTGATTACACTA</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3531129" LocusId="Csac_1172" Name="iolG3" Function="Myo-inositol 2-dehydrogenase (EC 1.1.1.18)" />
+          <Members vimssId="3531130" LocusId="Csac_1173" Name="iolI" Function="Inosose isomerase (EC 5.3.99.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5290</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="KojR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51903" />
+      <Effector>Kojibiose</Effector>
+      <Pathway>Kojibiose utilization</Pathway>
+      <LocusTag Key="Csac_0443" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3530387&amp;disp=0" />
+      <BiologicalProcess>Kojibiose utilization</BiologicalProcess>
+      <Regulog Key="KojR - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5273" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Csac_0438" Name="pgmB" Position="-71" Score="4.8">
+          <Sequence>TATTGAAAACAATTCGAAAA</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Csac_0440" Name="kojE" Position="-53" Score="5.2">
+          <Sequence>TGTCGAAAACATTTCCGAAA</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3530384" LocusId="Csac_0440" Name="kojE" Function="Kojibiose ABC transporter, substrate-binding protein" />
+          <Members vimssId="3530385" LocusId="Csac_0441" Name="kojF" Function="Kojibiose ABC transporter, permease protein 1" />
+          <Members vimssId="3530386" LocusId="Csac_0442" Name="kojG" Function="Kojibiose ABC transporter, permease protein 2" />
+          <Members vimssId="3530387" LocusId="Csac_0443" Name="kojR" Function="Kojibiose utilization transcriptional regulator KojR, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3530382" LocusId="Csac_0438" Name="pgmB" Function="Beta-phosphoglucomutase (EC 5.4.2.6)" />
+          <Members vimssId="3530383" LocusId="Csac_0439" Name="kojP" Function="Kojibiose phosphorylase (EC 2.4.1.230)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5273</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="MalR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51736" />
+      <Effector>Maltose</Effector>
+      <Pathway>Maltose utilization; Maltodextrin utilization</Pathway>
+      <LocusTag Key="Csac_1228" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3531186&amp;disp=0" />
+      <BiologicalProcess>Maltose utilization; Maltodextrin utilization</BiologicalProcess>
+      <Regulog Key="MalR2 - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5250" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Csac_0427" Name="malF" Position="-46" Score="5.6">
+          <Sequence>AAGAGCAAACGATTGCACAC</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Csac_0426" Name="amyB" Position="-93" Score="5.8">
+          <Sequence>TTATGCAAACATTTGCATTA</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3530368" LocusId="Csac_0427" Name="malF" Function="Maltose/maltodextrin ABC transporter, permease protein 1" />
+          <Members vimssId="3530369" LocusId="Csac_0428" Name="malG" Function="Maltose/maltodextrin ABC transporter, permease protein 2" />
+          <Members vimssId="3530370" LocusId="Csac_0429" Name="glgP1" Function="Glycogen phosphorylase (EC 2.4.1.1)" />
+          <Members vimssId="3530371" LocusId="Csac_0430" Name="malR2" Function="Maltose/maltodextrin utilization transcriptional regulator MalR, LacI family" />
+          <Members vimssId="3530372" LocusId="Csac_0431" Name="malE" Function="Maltose/maltodextrin ABC transporter, substrate binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3530367" LocusId="Csac_0426" Name="amyB" Function="Neopullulanase (EC 3.2.1.135)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5250</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=64306" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Csac_2057" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3532021&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6634" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Csac_0774" Name="nrdD" Position="-83" Score="5.6">
+          <Sequence>ACACAATATATAGTGG</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Csac_0774" Name="nrdD" Position="-115" Score="5.1">
+          <Sequence>ATATAATATATTGTGT</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3530724" LocusId="Csac_0774" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6634</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61881" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine biosynthesis</Pathway>
+      <LocusTag Key="Csac_1035" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3530991&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine biosynthesis</BiologicalProcess>
+      <Regulog Key="PdxR - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6356" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Csac_1035" Name="pdxR" Position="-78" Score="9.9">
+          <Sequence>CGTATCGATATA-----------------------------------------------------------------------TGTATCGATACA</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Csac_1036" Name="pdxS" Position="-108" Score="11.2">
+          <Sequence>TGTATCGATACA-----------------------------------------------------------------------TATATCGATACG</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3530991" LocusId="Csac_1035" Name="pdxR" Function="Pyridoxine biosynthesis transcriptional regulator PdxR, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3530992" LocusId="Csac_1036" Name="pdxS" Function="Pyridoxine biosynthesis glutamine amidotransferase, synthase subunit (EC 2.4.2.-)" />
+          <Members vimssId="3530993" LocusId="Csac_1037" Name="pdxT" Function="Pyridoxine biosynthesis glutamine amidotransferase, glutaminase subunit (EC 2.4.2.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6356</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38764" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="Csac_1220" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3531177&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3958" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Csac_1534" Name="echA" Position="-45" Score="5">
+          <Sequence>TTGTTAACAAATTAACTT</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Csac_1220" Name="rex" Position="-39" Score="5.2">
+          <Sequence>ATGTCAAAAAAATATCAA</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Csac_1860" Name="hydC" Position="-38" Score="5.2">
+          <Sequence>ATGTTAAATTTCTAACAA</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Csac_2425" Name="" Position="-187" Score="5.5">
+          <Sequence>ATGTTATAATATTAACAA</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Csac_0622" Name="adhA3" Position="-30" Score="5.1">
+          <Sequence>ATGTTAATTTTTTAACAG</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Csac_0622" Name="adhA3" Position="-53" Score="4.7">
+          <Sequence>ATGTTTATATAATAATAA</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Csac_0622" Name="adhA3" Position="-70" Score="4.8">
+          <Sequence>TTGACAAAAAACAAACAA</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Csac_0407" Name="adhA2" Position="-46" Score="5.6">
+          <Sequence>ATGTTAAAATTATAACAA</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3531824" LocusId="Csac_1860" Name="hydC" Function="NAD-reducing Fe-hydrogenase, subunit HydC (EC 1.12.7.2)" />
+          <Members vimssId="3531825" LocusId="Csac_1861" Name="CLOLEP_03890" Function="histidine kinase" />
+          <Members vimssId="3531826" LocusId="Csac_1862" Name="hydD" Function="NAD-reducing Fe-hydrogenase, ferredoxin subunit HydD (EC 1.12.7.2)" />
+          <Members vimssId="3531827" LocusId="Csac_1863" Name="hydB" Function="NAD-reducing Fe-hydrogenase, subunit HydB (EC 1.12.7.2)" />
+          <Members vimssId="3531828" LocusId="Csac_1864" Name="hydA" Function="NAD-reducing Fe-hydrogenase, subunit HydA (EC 1.12.7.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3532406" LocusId="Csac_2425" Name="null" Function="hypothetical protein" />
+          <Members vimssId="3532405" LocusId="Csac_2424" Name="hydG" Function="[Fe] hydrogenase maturation protein HydG" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3531496" LocusId="Csac_1534" Name="echA" Function="Energy-conserving Ni-Fe hydrogenase (ferredoxin), subunit A" />
+          <Members vimssId="3531497" LocusId="Csac_1535" Name="echB" Function="Energy-conserving Ni-Fe hydrogenase (ferredoxin), subunit B" />
+          <Members vimssId="3531498" LocusId="Csac_1536" Name="echC" Function="Energy-conserving Ni-Fe hydrogenase (ferredoxin), subunit C" />
+          <Members vimssId="3531499" LocusId="Csac_1537" Name="echD" Function="Energy-conserving Ni-Fe hydrogenase (ferredoxin), subunit D" />
+          <Members vimssId="3531500" LocusId="Csac_1538" Name="echE" Function="Energy-conserving Ni-Fe hydrogenase (ferredoxin), subunit E" />
+          <Members vimssId="3531501" LocusId="Csac_1539" Name="echF" Function="Energy-conserving Ni-Fe hydrogenase (ferredoxin), subunit F" />
+          <Members vimssId="3531502" LocusId="Csac_1540" Name="hypA" Function="[NiFe] hydrogenase nickel incorporation protein HypA" />
+          <Members vimssId="3531503" LocusId="Csac_1541" Name="hypB" Function="[NiFe] hydrogenase nickel incorporation-associated protein HypB" />
+          <Members vimssId="3531504" LocusId="Csac_1542" Name="hypF" Function="[NiFe] hydrogenase metallocenter assembly protein HypF" />
+          <Members vimssId="3531505" LocusId="Csac_1543" Name="hypC" Function="[NiFe] hydrogenase metallocenter assembly protein HypC" />
+          <Members vimssId="3531506" LocusId="Csac_1544" Name="hypD" Function="[NiFe] hydrogenase metallocenter assembly protein HypD" />
+          <Members vimssId="3531507" LocusId="Csac_1545" Name="hypE" Function="[NiFe] hydrogenase metallocenter assembly protein HypE" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3531177" LocusId="Csac_1220" Name="rex" Function="Redox-sensitive transcriptional regulator Rex" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3530571" LocusId="Csac_0622" Name="adhA3" Function="Alcohol dehydrogenase (EC 1.1.1.1), iron-containing" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3530348" LocusId="Csac_0407" Name="adhA2" Function="Alcohol dehydrogenase (EC 1.1.1.1), Fe-containing" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3958</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="YhcF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59846" />
+      <Effector />
+      <Pathway>Metabolite transport; Multidrug efflux; Multidrug resistance</Pathway>
+      <LocusTag Key="Csac_0140" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3530076&amp;disp=0" />
+      <BiologicalProcess>Metabolite transport; Multidrug efflux; Multidrug resistance</BiologicalProcess>
+      <Regulog Key="YhcF - Thermoanaerobacterales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6144" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Csac_0140" Name="yhcF" Position="-43" Score="6.8">
+          <Sequence>AGTGTATTATTTAATTAACACACT</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3530076" LocusId="Csac_0140" Name="yhcF" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="3530077" LocusId="Csac_0141" Name="yhcG" Function="ABC-type multidrug transport system, ATPase component" />
+          <Members vimssId="3530078" LocusId="Csac_0142" Name="yhcI" Function="ABC-type multidrug transport system, permease component" />
+          <Members vimssId="3530079" LocusId="Csac_0143" Name="yhcJ" Function="Conserved membrane protein" />
+          <Members vimssId="3530080" LocusId="Csac_0144" Name="yhcH" Function="ABC transporter, ATP-binding protein" />
+          <Members vimssId="3530081" LocusId="Csac_0145" Name="yhcK" Function="Conserved membrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6144</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48921" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Csac_0794" Name="ribD" Position="-248" Score="114.9">
+          <Sequence>GTCCATCCTTCGGGGCGGGGTGAAATTCCCCACTGGCGGTAAAAGCCCGCGAGCAAAAGCCTTTCTGGCTTTTGCAGAACCGGTGGAATTCCGGTGCCAACGGTTACAGTCCGGATGGGAGAAGGAATGG</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3530744" LocusId="Csac_0794" Name="ribD" Function="Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26) / 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)" />
+          <Members vimssId="3530743" LocusId="Csac_0793" Name="ribE" Function="Riboflavin synthase alpha chain (EC 2.5.1.9)" />
+          <Members vimssId="3530742" LocusId="Csac_0792" Name="ribBA" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase / GTP cyclohydrolase II (EC 3.5.4.25)" />
+          <Members vimssId="3530741" LocusId="Csac_0791" Name="ribH" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01055" RegulationMode="RF01055">
+      <Regulator Key="MOCO_RNA_motif" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=55493" />
+      <Effector>Molybdenum</Effector>
+      <Pathway>Molybdopterin biosynthesis; Molybdenum homeostasis</Pathway>
+      <LocusTag Key="MOCO_RNA_motif" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Csac_0972" Name="tupB" Position="-216" Score="77.9">
+          <Sequence>TTTGAAAATCTTTCCGAGCCATTGCAACCTAAAAAGAGGGGTTTTTCCCTCTTCATGGTGCTTTGGCCGATAGGGTGCAGGTTTGGGAAACCACTGCGCCTCCCGCTTTGGAAAGGAAAGATTTAAAGGATACTCT</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3530927" LocusId="Csac_0972" Name="tupB" Function="ABC-type tungstate transport system, periplasmic binding protein" />
+          <Members vimssId="3530928" LocusId="Csac_0973" Name="tupA" Function="ABC-type tungstate transport system, permease protein" />
+          <Members vimssId="3530929" LocusId="Csac_0974" Name="tupC" Function="ABC-type tungstate transport system, ATP-binding protein" />
+          <Members vimssId="3530930" LocusId="Csac_0975" Name="moeA" Function="Molybdopterin biosynthesis protein MoeA" />
+          <Members vimssId="3530931" LocusId="Csac_0976" Name="moeA" Function="Molybdopterin biosynthesis protein MoeA" />
+          <Members vimssId="3530932" LocusId="Csac_0977" Name="moaA" Function="Molybdenum cofactor biosynthesis protein MoaA" />
+          <Members vimssId="3530933" LocusId="Csac_0978" Name="moaC" Function="Molybdenum cofactor biosynthesis protein MoaC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48928" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Csac_0250" Name="thiS" Position="-296" Score="61.9">
+          <Sequence>TGGTTTTAAGGGGGAGCTGAGCGGGGCAAAGCTCGGCTGAGAGTAGGCACTAAAAAATCCCCGTGCCTTGACCCTTTGAACCTGATCCGGGTAATGCCGGCGAAGGGAGGAAAAGTGCAAAAAATAA</Sequence>
+          <Bacteria>Caldicellulosiruptor saccharolyticus DSM 8903</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3530186" LocusId="Csac_0250" Name="thiS" Function="Sulfur carrier protein ThiS" />
+          <Members vimssId="3530187" LocusId="Csac_0251" Name="thiG" Function="Thiazole biosynthesis protein ThiG" />
+          <Members vimssId="3530188" LocusId="Csac_0252" Name="thiH" Function="2-iminoacetate synthase (EC 1.3.99.n2)" />
+          <Members vimssId="3530189" LocusId="Csac_0253" Name="thiF" Function="Sulfur carrier protein adenylyltransferase ThiF" />
+          <Members vimssId="3530190" LocusId="Csac_0254" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+          <Members vimssId="3530191" LocusId="Csac_0255" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+          <Members vimssId="3530192" LocusId="ThiD" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

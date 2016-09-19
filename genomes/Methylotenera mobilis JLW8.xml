@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Methylotenera mobilis JLW8" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15020" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="Mmol_0661" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7670863&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Various betaproteobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1611" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mmol_0572" Name="bioB" Position="-118" Score="7.3">
+          <Sequence>TTGTTCAAA---------------TGTTGACAA</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mmol_0571" Name="COG1040" Position="17" Score="7.3">
+          <Sequence>TTGTCAACA---------------TTTGAACAA</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7670768" LocusId="Mmol_0572" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="7670769" LocusId="Mmol_0573" Name="bioF" Function="8-amino-7-oxononanoate synthase (EC 2.3.1.47)" />
+          <Members vimssId="7670770" LocusId="Mmol_0574" Name="bioH" Function="Biotin synthesis protein bioH" />
+          <Members vimssId="7670771" LocusId="Mmol_0575" Name="bioC" Function="Biotin synthesis protein bioC" />
+          <Members vimssId="7670772" LocusId="Mmol_0576" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7670767" LocusId="Mmol_0571" Name="COG1040" Function="Competence protein F homolog, phosphoribosyltransferase domain; protein YhgH required for utilization of DNA as sole source of carbon and energy" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1611</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="CueR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50953" />
+      <Effector>Copper ion, (Cu+)</Effector>
+      <Pathway>Copper resistance</Pathway>
+      <LocusTag Key="Mmol_1488" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7671709&amp;disp=0" />
+      <BiologicalProcess>Copper resistance</BiologicalProcess>
+      <Regulog Key="CueR - Various betaproteobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5164" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mmol_1489" Name="copZ" Position="-115" Score="4.8">
+          <Sequence>TGCTTTCCACTATTGTAAGGT</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mmol_1489" Name="copZ" Position="-66" Score="5.6">
+          <Sequence>ACCTTACAATTGTTGGAAGCT</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mmol_1488" Name="cueR" Position="-156" Score="5.6">
+          <Sequence>AGCTTCCAACAATTGTAAGGT</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mmol_1488" Name="cueR" Position="-107" Score="4.8">
+          <Sequence>ACCTTACAATAGTGGAAAGCA</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mmol_1490" Name="cusC" Position="-290" Score="5.6">
+          <Sequence>ACCTTACAATTGTTGGAAGCT</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7671709" LocusId="Mmol_1488" Name="cueR" Function="Copper-responsive transcriptional regulator, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7671710" LocusId="Mmol_1489" Name="copZ" Function="Copper chaperone" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7671711" LocusId="Mmol_1490" Name="cusC" Function="Heavy metal efflux RND outer membrane protein, CzcC family" />
+          <Members vimssId="7671712" LocusId="Mmol_1491" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5164</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49722" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Mmol_1714" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7671938&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Various betaproteobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5035" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mmol_0429" Name="groS" Position="-94" Score="6.9">
+          <Sequence>TTAGCAATCGAGGTGCGCGAGTGCTAA</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mmol_1814" Name="rpoH" Position="-56" Score="7">
+          <Sequence>CTAGCACTCTCGAACGTAGAGTGCTAA</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7672040" LocusId="Mmol_1814" Name="rpoH" Function="Heat shock response RNA polymerase sigma factor RpoH (Sigma 32)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7670623" LocusId="Mmol_0429" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="7670622" LocusId="Mmol_0428" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5035</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17924" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="Mmol_1671" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7671895&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Various betaproteobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1936" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mmol_1671" Name="iscR" Position="-70" Score="6.3">
+          <Sequence>ATAGTTGACTAAAATTGTAAGGAAT</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7671895" LocusId="Mmol_1671" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="7671896" LocusId="Mmol_1672" Name="iscS1" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+          <Members vimssId="7671897" LocusId="Mmol_1673" Name="iscS2" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1936</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor (activator)">
+      <Regulator Key="MetR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56693" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="Mmol_0965" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7671174&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetR - Various betaproteobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5792" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mmol_0966" Name="metE" Position="-96" Score="5.4">
+          <Sequence>ATGAATAAAATTAAT</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mmol_0965" Name="metR" Position="-22" Score="5.4">
+          <Sequence>ATTAATTTTATTCAT</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7671174" LocusId="Mmol_0965" Name="metR" Function="Homocysteine-responsive transcriptional regulator of methionine metabolism, LysR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7671175" LocusId="Mmol_0966" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5792</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="Mfla_0336" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60826" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Mmol_0468" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7670663&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="Mfla_0336 - Various betaproteobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6247" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mmol_0470" Name="fdhA2" Position="-141" Score="7.8">
+          <Sequence>AACTGTGCTCTAAAA---------TTCTGTGCCTGTTTT</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7670665" LocusId="Mmol_0470" Name="fdhA2" Function="Putative formate dehydrogenase oxidoreductase protein" />
+          <Members vimssId="7670664" LocusId="Mmol_0469" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7670663" LocusId="Mmol_0468" Name="Mfla_0336" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6247</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58603" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdopterin biosynthesis</Pathway>
+      <LocusTag Key="Mmol_2126" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7672359&amp;disp=0" />
+      <BiologicalProcess>Molybdopterin biosynthesis</BiologicalProcess>
+      <Regulog Key="ModE2 - Various betaproteobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5999" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mmol_2126" Name="modE2" Position="-147" Score="6.4">
+          <Sequence>TTTGAATAATGTGCAATTTAATCACA</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mmol_2127" Name="Mfla_0622" Position="-139" Score="6.4">
+          <Sequence>TGTGATTAAATTGCACATTATTCAAA</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7672360" LocusId="Mmol_2127" Name="Mfla_0622" Function="Conserved hypothetical protein" />
+          <Members vimssId="7672361" LocusId="Mmol_2128" Name="modA" Function="Molybdenum ABC transporter, periplasmic molybdenum-binding protein ModA (TC 3.A.1.8.1)" />
+          <Members vimssId="7672362" LocusId="Mmol_2129" Name="modB" Function="Molybdenum transport system permease protein ModB (TC 3.A.1.8.1)" />
+          <Members vimssId="7672363" LocusId="Mmol_2130" Name="modC" Function="Molybdenum transport ATP-binding protein ModC (TC 3.A.1.8.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7672359" LocusId="Mmol_2126" Name="modE2" Function="Molybdate-responsive transcriptional regulator ModE2, ModE family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5999</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15576" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Mmol_1558" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7671779&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Various betaproteobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1673" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mmol_1920" Name="nrdA" Position="-442" Score="4.9">
+          <Sequence>TATCAATATATTGTGT</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mmol_0049" Name="nrdJa" Position="-148" Score="5.6">
+          <Sequence>ACACAATATATAGTGG</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7670228" LocusId="Mmol_0049" Name="nrdJa" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+          <Members vimssId="7670229" LocusId="Mmol_0050" Name="nrdJb" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent), alpha subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7672150" LocusId="Mmol_1920" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="7672151" LocusId="Mmol_1921" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1673</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="repressor">
+      <Regulator Key="NsrR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14652" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="Mmol_1062" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7671272&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="NsrR2 - Various betaproteobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1569" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mmol_1063" Name="hmp" Position="-36" Score="5.5">
+          <Sequence>GTAGCATTTTAAATGCAAC</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mmol_1062" Name="nsrR" Position="-41" Score="6">
+          <Sequence>GTTGCATATTAAATGCAAC</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7671273" LocusId="Mmol_1063" Name="hmp" Function="Flavohemoprotein (Hemoglobin-like protein) (Flavohemoglobin) (Nitric oxide dioxygenase) (EC 1.14.12.17)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7671272" LocusId="Mmol_1062" Name="nsrR" Function="Nitrite-sensitive transcriptional repressor NsrR" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1569</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19346" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="Mmol_2141" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7672374&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Various betaproteobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2090" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mmol_2138" Name="glnA" Position="-153" Score="5">
+          <Sequence>TGCATTGTATTGGTGCA</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mmol_2140" Name="ntrB" Position="-268" Score="5.7">
+          <Sequence>TGCACCTAAATGGTGCA</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mmol_2140" Name="ntrB" Position="-9" Score="4.9">
+          <Sequence>AGCACTATTATGGTTCA</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mmol_2138" Name="glnA" Position="-183" Score="5.3">
+          <Sequence>TGCACCAAAAATGTGCA</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mmol_2289" Name="CHP02001" Position="-288" Score="4.7">
+          <Sequence>CGCCCTTTAATAGTGCA</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mmol_1494" Name="amtB2" Position="-152" Score="5.1">
+          <Sequence>TGCACATATTTAGTGCA</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mmol_1494" Name="amtB2" Position="-122" Score="5.1">
+          <Sequence>TGCACAATGTTAGTGCA</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mmol_1652" Name="nasD" Position="-219" Score="4.3">
+          <Sequence>TGCACCAAAGTAGTAAA</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7672522" LocusId="Mmol_2289" Name="CHP02001" Function="Conserved hypothetical protein CHP02001" />
+          <Members vimssId="7672523" LocusId="Mmol_2290" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="7672524" LocusId="Mmol_2291" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7671715" LocusId="Mmol_1494" Name="amtB2" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7671876" LocusId="Mmol_1652" Name="nasD" Function="Nitrite reductase, large subunit (EC 1.7.1.4)" />
+          <Members vimssId="7671875" LocusId="Mmol_1651" Name="narK" Function="Nitrate/nitrite transporter" />
+          <Members vimssId="7671874" LocusId="Mmol_1650" Name="pkn" Function="Probable serine/threonine-protein kinase SCO3848" />
+          <Members vimssId="7671873" LocusId="Mmol_1649" Name="nasE" Function="Nitrite reductase, small subunit (EC 1.7.1.4)" />
+          <Members vimssId="7671872" LocusId="Mmol_1648" Name="nasA" Function="Assimilatory nitrate reductase, large subunit (EC:1.7.99.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7672373" LocusId="Mmol_2140" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="7672374" LocusId="Mmol_2141" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7672371" LocusId="Mmol_2138" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+          <Members vimssId="7672372" LocusId="Mmol_2139" Name="ntrZ" Function="Conserved hypothetical signal peptide protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2090</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxW2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61075" />
+      <Effector />
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="Mmol_1448" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7671669&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxW2 - Various betaproteobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6274" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mmol_1449" Name="" Position="-115" Score="13.5">
+          <Sequence>ATCTGGCATG-(10)-CTGTACAGTT-(17)-AATTGTACAT</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7671670" LocusId="Mmol_1449" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7671671" LocusId="Mmol_1450" Name="pdxO2" Function="Pyridoxamine 5'-phosphate oxidase-related, FMN-binding" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6274</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="SdhR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62163" />
+      <Effector />
+      <Pathway>Tricarboxylic acid cycle</Pathway>
+      <LocusTag Key="Mmol_0754" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7670956&amp;disp=0" />
+      <BiologicalProcess>Tricarboxylic acid cycle</BiologicalProcess>
+      <Regulog Key="SdhR - Various betaproteobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6388" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mmol_0754" Name="sdhR" Position="-115" Score="7.4">
+          <Sequence>TCTTATGTCTTATATAAGATATAAAA</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Mmol_0753" Name="COG2301" Position="-91" Score="7.4">
+          <Sequence>TTTTATATCTTATATAAGACATAAGA</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7670955" LocusId="Mmol_0753" Name="COG2301" Function="Citrate lyase beta subunit" />
+          <Members vimssId="7670954" LocusId="Mmol_0752" Name="COG2030" Function="Acyl dehydratase" />
+          <Members vimssId="7670953" LocusId="Mmol_0751" Name="citE" Function="Citrate lyase beta chain (EC 4.1.3.6)" />
+          <Members vimssId="7670952" LocusId="Mmol_0750" Name="prpB" Function="Methylisocitrate lyase (EC 4.1.3.30)" />
+          <Members vimssId="7670951" LocusId="Mmol_0749" Name="gltA" Function="2-methylcitrate synthase (EC 2.3.3.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7670956" LocusId="Mmol_0754" Name="sdhR" Function="Transcriptional regulator of TCA cycle, GntR family" />
+          <Members vimssId="7670957" LocusId="Mmol_0755" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7670958" LocusId="Mmol_0756" Name="MB2181_04035" Function="Malate dehydrogenase (oxaloacetate-decarboxylating) (NADP(+))" />
+          <Members vimssId="7670959" LocusId="Mmol_0757" Name="sdhC" Function="Succinate dehydrogenase cytochrome b-556 subunit" />
+          <Members vimssId="7670960" LocusId="Mmol_0758" Name="sdhD" Function="Succinate dehydrogenase, hydrophobic subunit, cytochrome b556" />
+          <Members vimssId="7670961" LocusId="Mmol_0759" Name="sdhA" Function="Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1)" />
+          <Members vimssId="7670962" LocusId="Mmol_0760" Name="sdhB" Function="Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1)" />
+          <Members vimssId="7670963" LocusId="Mmol_0761" Name="COG2938" Function="succinate dehydrogenase iron-sulfur subunit" />
+          <Members vimssId="7670964" LocusId="Mmol_0762" Name="citE" Function="Citrate lyase beta chain (EC 4.1.3.6)" />
+          <Members vimssId="7670965" LocusId="Mmol_0763" Name="MB2181_04000" Function="acetyl-coenzyme A synthetase family protein" />
+          <Members vimssId="7670966" LocusId="Mmol_0764" Name="fumA" Function="Fumarate hydratase class I (EC 4.2.1.2)" />
+          <Members vimssId="7670967" LocusId="Mmol_0765" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7670968" LocusId="Mmol_0766" Name="acnB" Function="Aconitate hydratase (EC 4.2.1.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6388</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YdcR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59677" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Mmol_1442" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7671663&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="YdcR - Various betaproteobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6126" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mmol_1441" Name="cysI" Position="-123" Score="8.8">
+          <Sequence>ATCTGTTATGCTTTT---------ATCTGTCTCTGTTAT</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7671662" LocusId="Mmol_1441" Name="cysI" Function="Sulfite reductase [NADPH] hemoprotein beta-component (EC 1.8.1.2)" />
+          <Members vimssId="7671661" LocusId="Mmol_1440" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7671660" LocusId="Mmol_1439" Name="COG0348" Function="Polyferredoxin" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6126</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01057" RegulationMode="RF01057">
+      <Regulator Key="SAH_riboswitch" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53968" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="SAH_riboswitch" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mmol_2191" Name="ahcY" Position="-169" Score="39.8">
+          <Sequence>TACTTCTGAGGGGCGTTGCGAGGCGTGTTAACCATACAGGCTCCCAGGCTCAGAACTTTGCAGTAAACGACGCTCACCAATA</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7672424" LocusId="Mmol_2191" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+          <Members vimssId="7672423" LocusId="Mmol_2190" Name="PF04020" Function="Predicted membrane protein" />
+          <Members vimssId="7672422" LocusId="Mmol_2189" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48710" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Mmol_0035" Name="thiC" Position="-181" Score="62.5">
+          <Sequence>CGCTAATTGCTAGGGGTCTGCGTTTTTAAACAAATGGTTTAACAAAATGCAGTGAGATATACCCTTCGAACCTGATGCGGGTCATGCCGCCGTAGGAAAGCATCAATCCGCTTTC</Sequence>
+          <Bacteria>Methylotenera mobilis JLW8</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7670214" LocusId="Mmol_0035" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

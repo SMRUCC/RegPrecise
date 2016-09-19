@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Listeria innocua Clip11262" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor (activator)">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59045" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="lin1404" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=160471&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6054" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lin2195" Name="argG" Position="-114" Score="4.5">
+          <Sequence>ATGTATTTTTAATCAT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin1633" Name="argC" Position="-88" Score="4.2">
+          <Sequence>TTAAATATTAATAAAA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2195" Name="argG" Position="-50" Score="4.4">
+          <Sequence>GTTAATATAAATACAA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2195" Name="argG" Position="-30" Score="4.9">
+          <Sequence>TTGTATATTTATGAAT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin1633" Name="argC" Position="-62" Score="4.5">
+          <Sequence>CATTATAAATATACAT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="161259" LocusId="lin2195" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+          <Members vimssId="161260" LocusId="lin2196" Name="argH" Function="Argininosuccinate lyase (EC 4.3.2.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="160700" LocusId="lin1633" Name="argC" Function="N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)" />
+          <Members vimssId="160699" LocusId="lin1632" Name="argJ" Function="Glutamate N-acetyltransferase (EC 2.3.1.35) / N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="160698" LocusId="lin1631" Name="argB" Function="Acetylglutamate kinase (EC 2.7.2.8)" />
+          <Members vimssId="160697" LocusId="lin1630" Name="argD" Function="Acetylornithine aminotransferase (EC 2.6.1.11)" />
+          <Members vimssId="160696" LocusId="lin1629" Name="argF" Function="Ornithine carbamoyltransferase (EC 2.1.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6054</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="BglR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51663" />
+      <Effector>Beta-glucoside</Effector>
+      <Pathway>Beta-glucosides utilization</Pathway>
+      <LocusTag Key="lin1838" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=160904&amp;disp=0" />
+      <BiologicalProcess>Beta-glucosides utilization</BiologicalProcess>
+      <Regulog Key="BglR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5240" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lin1840" Name="bglX" Position="-290" Score="6.7">
+          <Sequence>TCATAGAAACGTTTCGACAA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin1841" Name="bglA" Position="-158" Score="6.7">
+          <Sequence>TTGTCGAAACGTTTCTATGA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="160906" LocusId="lin1840" Name="bglX" Function="Beta-glucosidase (EC 3.2.1.21)" />
+          <Members vimssId="160905" LocusId="lin1839" Name="cbpA" Function="Cellobiose phosphorylase (EC 2.4.1.-)" />
+          <Members vimssId="160904" LocusId="lin1838" Name="bglR" Function="Transcriptional regulator for beta-glucoside utilization, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="160907" LocusId="lin1841" Name="bglA" Function="Predicted beta-glucoside ABC transport system, sugar-binding protein" />
+          <Members vimssId="160908" LocusId="lin1842" Name="bglB" Function="Predicted beta-glucoside ABC transport system, permease protein 1" />
+          <Members vimssId="160909" LocusId="lin1843" Name="bglC" Function="Predicted beta-glucoside ABC transport system, permease protein 2" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5240</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="BglR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53562" />
+      <Effector>Beta-glucoside-6-phosphate</Effector>
+      <Pathway>Beta-glucosides utilization</Pathway>
+      <LocusTag Key="lin0539" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=159613&amp;disp=0" />
+      <BiologicalProcess>Beta-glucosides utilization</BiologicalProcess>
+      <Regulog Key="BglR2 - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5480" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lin0540" Name="licH" Position="-77" Score="6.8">
+          <Sequence>ACCTGTAATGCATTACATGA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin0539" Name="bglR2" Position="-114" Score="6.8">
+          <Sequence>TCATGTAATGCATTACAGGT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin0288" Name="bglH2" Position="-66" Score="6.5">
+          <Sequence>ACCTGTAATGCATTACACAA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin0017" Name="bglH1" Position="-68" Score="6.6">
+          <Sequence>CTATGTAATGCATTACATAT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="159095" LocusId="lin0017" Name="bglH1" Function="Aryl-phospho-beta-D-glucosidase (EC 3.2.1.86)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="159614" LocusId="lin0540" Name="licH" Function="6-phospho-beta-glucosidase (EC 3.2.1.86)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="159613" LocusId="lin0539" Name="bglR2" Function="Transcriptional regulator for beta-glucoside utilization, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="159364" LocusId="lin0288" Name="bglH2" Function="Aryl-phospho-beta-D-glucosidase (EC 3.2.1.86)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5480</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57871" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="lin2018" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=161083&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5925" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lin0607" Name="bioY" Position="-48" Score="9.3">
+          <Sequence>ATGTTAAC---------------GTTTACAT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="159681" LocusId="lin0607" Name="bioY" Function="Substrate-specific component BioY of biotin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5925</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="CcpB" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56021" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="lin2880" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=161939&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="CcpB - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5721" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lin2881" Name="lmo2738" Position="-47" Score="6.6">
+          <Sequence>GAAATTGTCCGGAATATTTT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="161940" LocusId="lin2881" Name="lmo2738" Function="Conserved hypothetical protein" />
+          <Members vimssId="161939" LocusId="lin2880" Name="ccpB" Function="Predicted transcriptional regulator CcpB, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5721</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CsoR" RegulationMode="repressor">
+      <Regulator Key="CsoR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63614" />
+      <Effector>Copper ion, (Cu+)</Effector>
+      <Pathway>Copper resistance</Pathway>
+      <LocusTag Key="lin1968" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=161033&amp;disp=0" />
+      <BiologicalProcess>Copper resistance</BiologicalProcess>
+      <Regulog Key="CsoR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6560" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lin1968" Name="csoR" Position="-50" Score="7.1">
+          <Sequence>ATACCTATAGGGGGTAT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="161033" LocusId="lin1968" Name="csoR" Function="Copper-sensing transcriptional repressor" />
+          <Members vimssId="161032" LocusId="lin1967" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="161031" LocusId="lin1966" Name="copZ" Function="Copper chaperone" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6560</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="CzrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63724" />
+      <Effector>Zinc ion, (Zn2+); Silver ion, (Ag+); Nickel ion, (Ni2+); Copper ion, (Cu2+); Cobalt ion, (Co2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Zinc resistance; Nickel resistance; Copper resistance; Cobalt resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="lin2636" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=161697&amp;disp=0" />
+      <BiologicalProcess>Zinc resistance; Nickel resistance; Copper resistance; Cobalt resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CzrA - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6576" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lin2636" Name="czrA" Position="-42" Score="6.5">
+          <Sequence>CATATGAATATATGACCATATA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="161697" LocusId="lin2636" Name="czrA" Function="Transcriptional repressor of multiple metal-sensing, ArsR family" />
+          <Members vimssId="161696" LocusId="lin2635" Name="null" Function="Hypothetical protein" />
+          <Members vimssId="161695" LocusId="lin2634" Name="czcD" Function="Cation efflux transporter" />
+          <Members vimssId="161694" LocusId="lin2633" Name="csbA" Function="Hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6576</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor (activator)">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62577" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="lin2070" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=161135&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6439" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lin1513" Name="COG0635" Position="-10" Score="4.8">
+          <Sequence>ATTGATAAAAATGATAAAT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin0384" Name="efeU" Position="-47" Score="5.9">
+          <Sequence>TATGATAATGATAATCATT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin0384" Name="efeU" Position="-41" Score="6.3">
+          <Sequence>AATGATAATCATTTTCAAT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin0381" Name="lmo0362" Position="-46" Score="6.2">
+          <Sequence>GTTGATAATGATTATCATT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin0381" Name="lmo0362" Position="-40" Score="5.7">
+          <Sequence>AATGATTATCATTTTCAAC</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2290" Name="isdC" Position="-131" Score="5.6">
+          <Sequence>GTTGACAATGATAATCATT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2290" Name="isdC" Position="-125" Score="6.5">
+          <Sequence>AATGATAATCATTATCAAT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin0487" Name="isdG" Position="-84" Score="4.9">
+          <Sequence>ATTGACATTGAGAATCATT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin0487" Name="isdG" Position="-78" Score="6.3">
+          <Sequence>ATTGAGAATCATTATCAAT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin0545" Name="fepB" Position="-42" Score="5.2">
+          <Sequence>AACGATAATGAAAATCATT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin0545" Name="fepB" Position="-36" Score="6.1">
+          <Sequence>AATGAAAATCATTTTCAAT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2072" Name="fhuB" Position="-59" Score="6">
+          <Sequence>ATTGATAATTATTATCACT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2073" Name="fhuA" Position="-140" Score="5.8">
+          <Sequence>GGTGATAATCATTCTCAAT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2073" Name="fhuA" Position="-35" Score="5.1">
+          <Sequence>ACTGAGAATTGTTATCAGT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2074" Name="fhuC" Position="-149" Score="5.1">
+          <Sequence>ACTGATAACAATTCTCAGT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2074" Name="fhuC" Position="-44" Score="5.8">
+          <Sequence>ATTGAGAATGATTATCACC</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2208" Name="feoA" Position="-54" Score="5.7">
+          <Sequence>GTTGATAATGATTATCATG</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2208" Name="feoA" Position="-48" Score="5.3">
+          <Sequence>AATGATTATCATGTTCACT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2525" Name="fepB2" Position="-91" Score="5.6">
+          <Sequence>GATGAAAATAATTCTCAAT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2362" Name="lmo2261" Position="-66" Score="5.9">
+          <Sequence>AATGAAAATCATTCTCATA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2070" Name="fur" Position="-93" Score="5.2">
+          <Sequence>AATTATAATTATTATAAAC</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2070" Name="fur" Position="-60" Score="5.6">
+          <Sequence>AATGATAATGATGATAATT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin0942" Name="dps" Position="-35" Score="4.8">
+          <Sequence>AGTGATAATCATTACAAAA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2920" Name="katG" Position="-54" Score="5">
+          <Sequence>TTTAATAATTATTATAATT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin0824" Name="porA" Position="-46" Score="5.1">
+          <Sequence>AATAAGAATGATTATAAAA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="159460" LocusId="lin0384" Name="efeU" Function="Ferrous iron transport permease EfeU" />
+          <Members vimssId="159461" LocusId="lin0385" Name="efeO" Function="Ferrous iron transport periplasmic protein EfeO" />
+          <Members vimssId="159462" LocusId="lin0386" Name="efeB" Function="Ferrous iron transport peroxidase EfeB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="159457" LocusId="lin0381" Name="lmo0362" Function="Twin-arginine translocation protein TatA" />
+          <Members vimssId="159456" LocusId="lin0380" Name="lmo0361" Function="Twin-arginine translocation protein TatC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="160580" LocusId="lin1513" Name="COG0635" Function="Oxygen-independent coproporphyrinogen III oxidase, putative" />
+        </Operon>
+        <Operon>
+          <Members vimssId="161353" LocusId="lin2290" Name="isdC" Function="Haem uptake protein IsdC" />
+          <Members vimssId="161352" LocusId="lin2289" Name="isdA" Function="Cell surface protein IsdA, transfers heme from hemoglobin to apo-IsdC" />
+          <Members vimssId="161351" LocusId="lin2288" Name="isdE" Function="Heme ABC transporter, haem-binding protein IsdE" />
+          <Members vimssId="161350" LocusId="lin2287" Name="isdF" Function="Heme ABC transporter, permease component IsdF" />
+          <Members vimssId="161349" LocusId="lin2286" Name="ABC-type cobalamin/Fe3+-siderophores transport systems, ATPase components" Function="Heme transporter analogous to IsdDEF, ATP-binding protein" />
+          <Members vimssId="161348" LocusId="lin2285" Name="srtB" Function="Sortase, SrtB family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="159619" LocusId="lin0545" Name="fepB" Function="Ferrichrome-binding periplasmic protein precursor (TC 3.A.1.14.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="160010" LocusId="lin0942" Name="dps" Function="Iron-binding ferritin-like antioxidant protein / Ferroxidase (EC 1.16.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="161135" LocusId="lin2070" Name="fur" Function="Transcriptional regulator for iron transport and metabolism, Fur family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="161424" LocusId="lin2362" Name="lmo2261" Function="PaaD-like protein (DUF59) involved in Fe-S cluster assembly" />
+          <Members vimssId="161423" LocusId="lin2361" Name="lmo2260" Function="Acetyltransferase, GNAT family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="161586" LocusId="lin2525" Name="fepB2" Function="Ferrichrome-binding periplasmic protein precursor (TC 3.A.1.14.3)" />
+          <Members vimssId="161585" LocusId="lin2524" Name="fepD2" Function="Ferrichrome transport system permease protein (TC 3.A.1.14.3)" />
+          <Members vimssId="161584" LocusId="lin2523" Name="fepC2" Function="Ferrichrome transport ATP-binding protein (TC 3.A.1.14.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="161272" LocusId="lin2208" Name="feoA" Function="Ferrous iron transport protein A" />
+          <Members vimssId="161273" LocusId="lin2209" Name="feoB" Function="Ferrous iron transport protein B" />
+        </Operon>
+        <Operon>
+          <Members vimssId="159897" LocusId="lin0824" Name="porA" Function="Pyruvate-flavodoxin oxidoreductase (EC 1.2.7.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="161139" LocusId="lin2074" Name="fhuC" Function="Ferrichrome transport ATP-binding protein FhuC (TC 3.A.1.14.3)" />
+          <Members vimssId="161140" LocusId="lin2075" Name="PF07992" Function="Thioredoxin reductase (EC 1.8.1.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="161138" LocusId="lin2073" Name="fhuA" Function="Ferrichrome-binding periplasmic protein precursor (TC 3.A.1.14.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="159561" LocusId="lin0487" Name="isdG" Function="Heme-degrading cytoplasmic oxygenase IsdG" />
+        </Operon>
+        <Operon>
+          <Members vimssId="161137" LocusId="lin2072" Name="fhuB" Function="Ferrichrome transport system permease protein FhuB (TC 3.A.1.14.3)" />
+          <Members vimssId="161136" LocusId="lin2071" Name="fhuG" Function="Ferrichrome transport system permease protein FhuG" />
+        </Operon>
+        <Operon>
+          <Members vimssId="161978" LocusId="lin2920" Name="katG" Function="Catalase (EC 1.11.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6439</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="GmuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=55127" />
+      <Effector />
+      <Pathway>Glucomannan utilization</Pathway>
+      <LocusTag Key="lin0584" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=159658&amp;disp=0" />
+      <BiologicalProcess>Glucomannan utilization</BiologicalProcess>
+      <Regulog Key="GmuR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5620" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lin0583" Name="gmuD" Position="-63" Score="4.8">
+          <Sequence>ATAAGTTTATACTTTT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin0900" Name="gmuC" Position="-87" Score="5.8">
+          <Sequence>AAAAGACTAGACATTT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin0901" Name="gmuR1" Position="-42" Score="5.6">
+          <Sequence>AAATGGCTAGACATTT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2215" Name="manA" Position="-62" Score="4.8">
+          <Sequence>ATTAGTATATACTTTT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="161279" LocusId="lin2215" Name="manA" Function="Mannose-6-phosphate isomerase (EC 5.3.1.8)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="159973" LocusId="lin0901" Name="gmuR1" Function="Transcriptional regulator for glucomannan utilization, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="159972" LocusId="lin0900" Name="gmuC" Function="Glucomannan-related PTS system, IIC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="159657" LocusId="lin0583" Name="gmuD" Function="Mannoside-phospho-beta-d-glucosidase" />
+          <Members vimssId="159658" LocusId="lin0584" Name="gmuR2" Function="Transcriptional regulator for glucomannan utilization, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5620</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TrpR" RegulationMode="repressor">
+      <Regulator Key="HisR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60268" />
+      <Effector>Histidine</Effector>
+      <Pathway>Histidine biosynthesis</Pathway>
+      <LocusTag Key="lin1875" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=160940&amp;disp=0" />
+      <BiologicalProcess>Histidine biosynthesis</BiologicalProcess>
+      <Regulog Key="HisR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6190" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lin0578" Name="hisZ" Position="-55" Score="6.1">
+          <Sequence>CACTTTAACGTGCTAATATG</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin0579" Name="hisJ" Position="-116" Score="6.1">
+          <Sequence>CATATTAGCACGTTAAAGTG</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="159652" LocusId="lin0578" Name="hisZ" Function="ATP phosphoribosyltransferase regulatory subunit (EC 2.4.2.17)" />
+          <Members vimssId="159651" LocusId="lin0577" Name="hisG" Function="ATP phosphoribosyltransferase catalytic subunit (EC 2.4.2.17)" />
+          <Members vimssId="159650" LocusId="lin0576" Name="hisD" Function="Histidinol dehydrogenase (EC 1.1.1.23)" />
+          <Members vimssId="159649" LocusId="lin0575" Name="hisB" Function="Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)" />
+          <Members vimssId="159648" LocusId="lin0574" Name="hisH" Function="Imidazole glycerol phosphate synthase amidotransferase subunit (EC 2.4.2.-)" />
+          <Members vimssId="159647" LocusId="lin0573" Name="hisA" Function="Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase (EC 5.3.1.16)" />
+          <Members vimssId="159646" LocusId="lin0572" Name="hisF" Function="Imidazole glycerol phosphate synthase cyclase subunit (EC 4.1.3.-)" />
+          <Members vimssId="159645" LocusId="lin0571" Name="hisI" Function="Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19)" />
+          <Members vimssId="159644" LocusId="lin0570" Name="hisE" Function="Phosphoribosyl-ATP pyrophosphatase (EC 3.6.1.31)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="159653" LocusId="lin0579" Name="hisJ" Function="Histidinol-phosphatase (EC 3.1.3.15)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6190</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58705" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="lin1512" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=160579&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6011" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lin2175" Name="groS" Position="-65" Score="7.6">
+          <Sequence>TTAGCACTCTAATGTGTCGAGTGCTAA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin1512" Name="hrcA" Position="-41" Score="7.5">
+          <Sequence>TTAGCACTTGACGTTATTGAGTGCTAA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="161239" LocusId="lin2175" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="161238" LocusId="lin2174" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="160579" LocusId="lin1512" Name="hrcA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="160578" LocusId="lin1511" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="160577" LocusId="lin1510" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="160576" LocusId="lin1509" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6011</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58726" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="lin1340" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=160407&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6015" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lin0195" Name="srmB" Position="-57" Score="4.7">
+          <Sequence>TGATGCGAACGTAGGTTCTGTGTT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2426" Name="int" Position="-33" Score="4.6">
+          <Sequence>AAAAAAGAACGTATGTGCGAAAGG</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin1681" Name="lin1681" Position="-47" Score="4.6">
+          <Sequence>AAAAGGGAACGTATGTTTTATGAT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2632" Name="uvrB" Position="-163" Score="6.1">
+          <Sequence>GAATACGAAAATATGTTCGGTTTT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin1435" Name="recA" Position="-142" Score="6.3">
+          <Sequence>AAATACGAATAAATGTTCGCTTTT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin1340" Name="lexA" Position="-144" Score="6">
+          <Sequence>AAAAAAGAATGTACGTTCGCTTTT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin1340" Name="lexA" Position="-84" Score="5.6">
+          <Sequence>AAAAACGAACCTTTGTTTGCATAT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin1871" Name="pcrA" Position="-44" Score="5.8">
+          <Sequence>AAATAAGAACAAATGTTTGTATGG</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2325" Name="yhaO" Position="-42" Score="5.9">
+          <Sequence>TAATAAGAACGTATATTCGGTTTT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2369" Name="addB" Position="-30" Score="5.8">
+          <Sequence>AAATAAAAACATATGTTCGGTGGT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin1609" Name="dnaE" Position="-75" Score="5.6">
+          <Sequence>AAACGCGAACACACTTTCTTTTTT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2822" Name="lmo2675" Position="-73" Score="5.5">
+          <Sequence>AAACAAGAACGTTTGTTCGTATAA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2082" Name="dinP" Position="-38" Score="5.5">
+          <Sequence>GAATAAGAACGCTTGTTCGTTTTA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="159271" LocusId="lin0195" Name="srmB" Function="DinG family ATP-dependent helicase CPE1197" />
+          <Members vimssId="159272" LocusId="lin0196" Name="yxeH" Function="Cof-like hydrolase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="160748" LocusId="lin1681" Name="lin1681" Function="Conserved hypothetical protein" />
+          <Members vimssId="160747" LocusId="lin1680" Name="tag" Function="DNA-3-methyladenine glycosylase (EC 3.2.2.20)" />
+          <Members vimssId="160746" LocusId="lin1679" Name="lin1679" Function="Putative carboxypeptidase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="161882" LocusId="lin2822" Name="lmo2675" Function="Conserved hypothetical protein" />
+          <Members vimssId="161883" LocusId="lin2823" Name="uvrX" Function="Predicted UV-damage repair protein UvrX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="161693" LocusId="lin2632" Name="uvrB" Function="Excinuclease ABC, subunit B" />
+          <Members vimssId="161692" LocusId="lin2631" Name="uvrA" Function="Excinuclease ABC, subunit A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="160502" LocusId="lin1435" Name="recA" Function="DNA recombinase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="160407" LocusId="lin1340" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+          <Members vimssId="160406" LocusId="lin1339" Name="guaA" Function="Probable GMP synthase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="161431" LocusId="lin2369" Name="addB" Function="ATP-dependent nuclease, subunit B" />
+          <Members vimssId="161430" LocusId="lin2368" Name="addA" Function="ATP-dependent nuclease, subunit A" />
+          <Members vimssId="161429" LocusId="lin2367" Name="yisK" Function="Conserved hypothetical protein" />
+          <Members vimssId="161428" LocusId="lin2366" Name="PF07457" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="161388" LocusId="lin2325" Name="yhaO" Function="Predicted DNA double-strand break repair protein" />
+          <Members vimssId="161387" LocusId="lin2324" Name="yhaN" Function="Putative DNA double-strand break repair ATPase" />
+          <Members vimssId="161386" LocusId="lin2323" Name="yhaM" Function="Predicted 3'-5' exoribonuclease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="161147" LocusId="lin2082" Name="dinP" Function="DNA polymerase IV (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="160676" LocusId="lin1609" Name="dnaE" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="160936" LocusId="lin1871" Name="pcrA" Function="ATP-dependent DNA helicase UvrD/PcrA" />
+          <Members vimssId="160935" LocusId="lin1870" Name="ligA" Function="DNA ligase (EC 6.5.1.2)" />
+          <Members vimssId="160934" LocusId="lin1869" Name="yerH" Function="Putative lipoprotein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="161487" LocusId="lin2426" Name="int" Function="Integrase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6015</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="Lmo0031" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52061" />
+      <Effector />
+      <Pathway>Sugar utilization</Pathway>
+      <LocusTag Key="lin0030" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=159108&amp;disp=0" />
+      <BiologicalProcess>Sugar utilization</BiologicalProcess>
+      <Regulog Key="Lmo0031 - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5294" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lin0030" Name="lmo0031" Position="-92" Score="7.1">
+          <Sequence>TTTTGATAACGTTACCAAAT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin0030" Name="lmo0031" Position="-187" Score="7.3">
+          <Sequence>TTTTGGTAACGTTACCAAAT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin0031" Name="lmo0032" Position="-129" Score="7.1">
+          <Sequence>ATTTGGTAACGTTATCAAAA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin0031" Name="lmo0032" Position="-34" Score="7.3">
+          <Sequence>ATTTGGTAACGTTACCAAAA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="159109" LocusId="lin0031" Name="lmo0032" Function="Putative sugar kinase, ROK family" />
+          <Members vimssId="159110" LocusId="lin0032" Name="lmo0033" Function="glycosyl hydrolase, family 9" />
+          <Members vimssId="159111" LocusId="lin0033" Name="lmo0034" Function="Putative sugar PTS system, IIC component" />
+          <Members vimssId="159112" LocusId="lin0034" Name="lmo0035" Function="putative sugar-6-phosphate aminotransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="159108" LocusId="lin0030" Name="lmo0031" Function="Putative sugar utilization transcriptional regulator LacI family" />
+          <Members vimssId="159107" LocusId="lin0029" Name="lmo0030" Function="hydrolase, haloacid dehalogenase-like family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5294</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="MdxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53026" />
+      <Effector>Maltose</Effector>
+      <Pathway>Maltodextrin utilization; Maltose utilization</Pathway>
+      <LocusTag Key="lin2233" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=161297&amp;disp=0" />
+      <BiologicalProcess>Maltodextrin utilization; Maltose utilization</BiologicalProcess>
+      <Regulog Key="MdxR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5410" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lin2231" Name="mdxD" Position="-94" Score="6.5">
+          <Sequence>TCTTGTTACCGTTAACGAGC</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2230" Name="mdxE" Position="-172" Score="5.9">
+          <Sequence>TGTTGTTATCGGTAACATGT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="161295" LocusId="lin2231" Name="mdxD" Function="Intracellular maltogenic amylase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="161294" LocusId="lin2230" Name="mdxE" Function="Maltose/Maltodextrin ABC transporter, substrate binding periplasmic protein" />
+          <Members vimssId="161293" LocusId="lin2229" Name="mdxF" Function="Maltose/Maltodextrin ABC transporter, permease protein" />
+          <Members vimssId="161292" LocusId="lin2228" Name="mdxG" Function="Maltose/Maltodextrin ABC transporter, permease protein" />
+          <Members vimssId="161291" LocusId="lin2227" Name="malA" Function="Putative maltodextrin utilization protein" />
+          <Members vimssId="161290" LocusId="lin2226" Name="malK" Function="Maltose phosphorylase (EC 2.4.1.8)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5410</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="MntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62919" />
+      <Effector>Manganese ion, (Mn2+)</Effector>
+      <Pathway>Manganese homeostasis</Pathway>
+      <LocusTag Key="lin1991" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=161056&amp;disp=0" />
+      <BiologicalProcess>Manganese homeostasis</BiologicalProcess>
+      <Regulog Key="MntR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6482" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lin1463" Name="mntH" Position="-51" Score="6.4">
+          <Sequence>AATGTTTCCCGTAGTAAACTTT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin1963" Name="mntB" Position="-68" Score="6.3">
+          <Sequence>AAAGTTGCATTAAGGAAACATT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="161028" LocusId="lin1963" Name="mntB" Function="Manganese ABC transporter, inner membrane permease protein" />
+          <Members vimssId="161027" LocusId="lin1962" Name="mntC" Function="Manganese ABC transporter, inner membrane permease protein" />
+          <Members vimssId="161026" LocusId="lin1961" Name="mntA" Function="Manganese ABC transporter, inner membrane permease protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="160530" LocusId="lin1463" Name="mntH" Function="Manganese transport protein MntH" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6482</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="NagR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63118" />
+      <Effector>N-acetylglucosamine-6-phosphate</Effector>
+      <Pathway>N-acetylglucosamine utilization</Pathway>
+      <LocusTag Key="lin0957" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=160025&amp;disp=0" />
+      <BiologicalProcess>N-acetylglucosamine utilization</BiologicalProcess>
+      <Regulog Key="NagR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6504" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lin1996" Name="COG3469" Position="-123" Score="5.4">
+          <Sequence>GAATTGGTCTATATCAATTT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin0955" Name="nagA" Position="-39" Score="6">
+          <Sequence>TAATTGGTATAGACCGATTT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin0825" Name="fbp" Position="-95" Score="5">
+          <Sequence>CTTTTTGTATAGACCAATAA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin1606" Name="pfk" Position="-203" Score="4.7">
+          <Sequence>TCACAAGTATAGACCAATTA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin1606" Name="pfk" Position="-149" Score="5.1">
+          <Sequence>GAAATGGAATAGACCGATAT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="160673" LocusId="lin1606" Name="pfk" Function="6-phosphofructokinase (EC 2.7.1.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="159898" LocusId="lin0825" Name="fbp" Function="Fructose-1,6-bisphosphatase, Bacillus type (EC 3.1.3.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="161061" LocusId="lin1996" Name="COG3469" Function="Chitinase (EC 3.2.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="160023" LocusId="lin0955" Name="nagA" Function="N-acetylglucosamine-6-phosphate deacetylase (EC 3.5.1.25)" />
+          <Members vimssId="160024" LocusId="lin0956" Name="nagB" Function="Glucosamine-6-phosphate deaminase (EC 3.5.99.6)" />
+          <Members vimssId="160025" LocusId="lin0957" Name="nagR" Function="Transcriptional regulator of N-Acetylglucosamine utilization, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6504</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57671" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="lin1597" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=160664&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5905" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lin0305" Name="nrdD" Position="-61" Score="4.5">
+          <Sequence>AAACTTTATCTTGTGT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2259" Name="nrdA" Position="-176" Score="6">
+          <Sequence>ATACTATATATAGTAT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin0305" Name="nrdD" Position="-29" Score="5.4">
+          <Sequence>ACACAATATATAGTTA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2259" Name="nrdA" Position="-338" Score="4.3">
+          <Sequence>ACACTATAAGTAGTGG</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="161322" LocusId="lin2259" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="161321" LocusId="lin2258" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+          <Members vimssId="161320" LocusId="lin2257" Name="lin2257" Function="flavodoxin" />
+          <Members vimssId="161319" LocusId="lin2256" Name="lin2256" Function="thioredoxin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="159381" LocusId="lin0305" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+          <Members vimssId="159382" LocusId="lin0306" Name="nrdG" Function="Ribonucleotide reductase of class III (anaerobic), activating protein (EC 1.97.1.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5905</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61956" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine biosynthesis</Pathway>
+      <LocusTag Key="lin2204" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=161268&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine biosynthesis</BiologicalProcess>
+      <Regulog Key="PdxR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6364" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lin2205" Name="pdxS" Position="-105" Score="10.4">
+          <Sequence>AATTGGATG----------CATCCAATT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2204" Name="pdxR" Position="-46" Score="10.4">
+          <Sequence>AATTGGATG----------CATCCAATT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="161269" LocusId="lin2205" Name="pdxS" Function="Pyridoxine biosynthesis glutamine amidotransferase, synthase subunit (EC 2.4.2.-)" />
+          <Members vimssId="161270" LocusId="lin2206" Name="pdxT" Function="Pyridoxine biosynthesis glutamine amidotransferase, glutaminase subunit (EC 2.4.2.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="161268" LocusId="lin2204" Name="pdxR" Function="Predicted transcriptional regulator of pyridoxine metabolism, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6364</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="TreR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=55157" />
+      <Effector>Trehalose-6-phosphate</Effector>
+      <Pathway>Trehalose utilization</Pathway>
+      <LocusTag Key="lin1221" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=160289&amp;disp=0" />
+      <BiologicalProcess>Trehalose utilization</BiologicalProcess>
+      <Regulog Key="TreR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5625" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lin1223" Name="treP" Position="-35" Score="6.6">
+          <Sequence>AACTTGTATATACAAGTT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="160291" LocusId="lin1223" Name="treP" Function="Trehalose-specific PTS system, EIIABC component (EC 2.7.1.69)" />
+          <Members vimssId="160290" LocusId="lin1222" Name="treA" Function="Trehalose-6-phosphate hydrolase (EC 3.2.1.93)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5625</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="UriR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52447" />
+      <Effector>Pyrimidine nucleoside</Effector>
+      <Pathway>Nucleoside utilization</Pathway>
+      <LocusTag Key="lin2102" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=161167&amp;disp=0" />
+      <BiologicalProcess>Nucleoside utilization</BiologicalProcess>
+      <Regulog Key="UriR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5341" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lin2101" Name="pdp" Position="-89" Score="7.1">
+          <Sequence>TTAGTAAAACGGTTTACTTA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="161166" LocusId="lin2101" Name="pdp" Function="Pyrimidine-nucleoside phosphorylase (EC 2.4.2.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5341</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="YcjW" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53581" />
+      <Effector />
+      <Pathway>Sugar utilization</Pathway>
+      <LocusTag Key="lin2974" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=162031&amp;disp=0" />
+      <BiologicalProcess>Sugar utilization</BiologicalProcess>
+      <Regulog Key="YcjW - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5483" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lin2972" Name="ycjN" Position="-78" Score="5.7">
+          <Sequence>AACTGGGAGCGATTCCATAA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2973" Name="sucP" Position="-32" Score="6.2">
+          <Sequence>TTGTGGGAGCGCTCCCGGTT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin2974" Name="ycjW" Position="-210" Score="6.2">
+          <Sequence>AACCGGGAGCGCTCCCACAA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="162031" LocusId="lin2974" Name="ycjW" Function="Hypothetical sugar utilization transcriptional regulator YcjW, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="162030" LocusId="lin2973" Name="sucP" Function="Putative sucrose phosphorylase (EC 2.4.1.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="162029" LocusId="lin2972" Name="ycjN" Function="Sugar ABC transport system, periplasmic binding protein YcjN" />
+          <Members vimssId="162028" LocusId="lin2971" Name="ycjO" Function="Sugar ABC transport system, permease protein YcjO" />
+          <Members vimssId="162027" LocusId="lin2970" Name="ycjP" Function="Sugar ABC transport system, permease protein YcjP" />
+          <Members vimssId="162026" LocusId="lin2969" Name="ycjQ" Function="Zinc-type alcohol dehydrogenase YcjQ" />
+          <Members vimssId="162025" LocusId="lin2968" Name="null" Function="Sugar phosphate isomerases/epimerases family protein YcjR" />
+          <Members vimssId="162024" LocusId="lin2967" Name="ycjS" Function="Putative oxidoreductase YcjS (EC 1.-.-.-), NADH-binding" />
+          <Members vimssId="162023" LocusId="lin2966" Name="ycjT" Function="Uncharacterized sugar phosphorylase (EC 2.4.1.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5483</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="YhcF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=54509" />
+      <Effector />
+      <Pathway>Multidrug efflux; Multidrug resistance</Pathway>
+      <LocusTag Key="lin1836" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=160902&amp;disp=0" />
+      <BiologicalProcess>Multidrug efflux; Multidrug resistance</BiologicalProcess>
+      <Regulog Key="YhcF - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5563" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lin1836" Name="yhcF" Position="-49" Score="6.8">
+          <Sequence>AGTGTACTATTTACTTAATACACT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="160902" LocusId="lin1836" Name="yhcF" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="160901" LocusId="lin1835" Name="yhcG" Function="ABC-type multidrug transport system, ATPase component" />
+          <Members vimssId="160900" LocusId="lin1834" Name="yhcI" Function="ABC-type multidrug transport system, permease component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5563</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="YtrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52994" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux</Pathway>
+      <LocusTag Key="lin2343" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=161405&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux</BiologicalProcess>
+      <Regulog Key="YtrA - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5406" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lin2343" Name="ytrA" Position="-66" Score="7">
+          <Sequence>TACTGTACTATTATAACTAGTACAATT</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="161405" LocusId="lin2343" Name="ytrA" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="161404" LocusId="lin2342" Name="ytrB" Function="ABC transporter, ATP-binding protein" />
+          <Members vimssId="161403" LocusId="lin2341" Name="ytrC" Function="ABC transporter permease protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5406</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62573" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="lin1483" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=160550&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6438" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lin0191" Name="znuA" Position="-34" Score="6.1">
+          <Sequence>TAAATCGTAATCATTACGAAAAA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin0191" Name="znuA" Position="-97" Score="5.9">
+          <Sequence>CAAATAAGAATGATTACGTTTTA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin1779" Name="znuA2" Position="-37" Score="5.3">
+          <Sequence>TAAACAAGAACAATTTCGATTTA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin1779" Name="znuA2" Position="-69" Score="5.9">
+          <Sequence>TAAATCGTAATTGCTACGATTAG</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin1485" Name="znuC2" Position="-89" Score="6.2">
+          <Sequence>TAATTCGAAGTAATTACGATTTA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lin1995" Name="rpsN2" Position="-38" Score="6.3">
+          <Sequence>TAAATCGGAATGATTATTATTTA</Sequence>
+          <Bacteria>Listeria innocua Clip11262</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="159267" LocusId="lin0191" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+          <Members vimssId="159268" LocusId="lin0192" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="159269" LocusId="lin0193" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="160846" LocusId="lin1779" Name="znuA2" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="160552" LocusId="lin1485" Name="znuC2" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="160551" LocusId="lin1484" Name="znuB2" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+          <Members vimssId="160550" LocusId="lin1483" Name="zur" Function="Zinc homeostasis transcriptional regulator Zur, Fur family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="161060" LocusId="lin1995" Name="rpsN2" Function="SSU ribosomal protein S14p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6438</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

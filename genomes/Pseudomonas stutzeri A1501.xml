@@ -1,0 +1,1371 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Pseudomonas stutzeri A1501" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14975" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="PST_0763" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3558527&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1605" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_3867" Name="COG1040" Position="-21" Score="9">
+          <Sequence>CTGTCAACC--------------GGTTTACAA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3866" Name="bioB" Position="-104" Score="9">
+          <Sequence>TTGTAAACC--------------GGTTGACAG</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3561627" LocusId="PST_3866" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="3561626" LocusId="PST_3865" Name="bioF" Function="8-amino-7-oxononanoate synthase (EC 2.3.1.47)" />
+          <Members vimssId="3561625" LocusId="PST_3864" Name="bioH" Function="hypothetical protein" />
+          <Members vimssId="3561624" LocusId="PST_3863" Name="bioC" Function="Biotin synthesis protein bioC" />
+          <Members vimssId="3561623" LocusId="PST_3862" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3561628" LocusId="PST_3867" Name="COG1040" Function="Competence protein F homolog, phosphoribosyltransferase domain; protein YhgH required for utilization of DNA as sole source of carbon and energy" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1605</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51306" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="PST_0663" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3558426&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5201" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_0664" Name="cadA" Position="-210" Score="6.2">
+          <Sequence>ACCCTGTAGTGGCTTTAGGGT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_1619" Name="czcD" Position="-57" Score="6.6">
+          <Sequence>ACCCTGTAGTTGCTACAGGGT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3416" Name="czcD2" Position="-61" Score="5.9">
+          <Sequence>ACCTTGTAGTAGCTATAGGGC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3561177" LocusId="PST_3416" Name="czcD2" Function="Co/Zn/Cd efflux protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3558427" LocusId="PST_0664" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3559382" LocusId="PST_1619" Name="czcD" Function="Co/Zn/Cd efflux protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5201</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="CueR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50914" />
+      <Effector>Copper ion, (Cu+)</Effector>
+      <Pathway>Copper resistance</Pathway>
+      <LocusTag Key="PST_3614" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3561375&amp;disp=0" />
+      <BiologicalProcess>Copper resistance</BiologicalProcess>
+      <Regulog Key="CueR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5159" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_3613" Name="copA" Position="-58" Score="5.6">
+          <Sequence>ACCTTGCCATAGGGTTAAGGT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3386" Name="copZ2" Position="-65" Score="5.5">
+          <Sequence>ACCTTGCCGCTCTGGCAAGGT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_2713" Name="copZ2" Position="-67" Score="5.5">
+          <Sequence>ACCTTGCCATGGCGTCAAGGT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3612" Name="copZ" Position="-58" Score="5.3">
+          <Sequence>ACCTTGCCAGGGTGGCAAGCT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3561373" LocusId="PST_3612" Name="copZ" Function="Copper chaperone" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3561374" LocusId="PST_3613" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="3561375" LocusId="PST_3614" Name="cueR" Function="Copper-responsive transcriptional regulator, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3561147" LocusId="PST_3386" Name="copZ2" Function="Copper chaperone" />
+          <Members vimssId="3561146" LocusId="PST_3385" Name="copG" Function="Predicted metal-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3560473" LocusId="PST_2713" Name="copZ2" Function="Copper chaperone" />
+          <Members vimssId="3560474" LocusId="PST_2714" Name="copG" Function="Predicted metal-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5159</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="FruR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=20700" />
+      <Effector>Fructose-1-phosphate; Fructose-1,6-diphosphate</Effector>
+      <Pathway>Fructose utilization</Pathway>
+      <LocusTag Key="PST_0987" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3558751&amp;disp=0" />
+      <BiologicalProcess>Fructose utilization</BiologicalProcess>
+      <Regulog Key="FruR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2239" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_0987" Name="fruR" Position="-89" Score="5.5">
+          <Sequence>GCTGAAACGTTTCAGC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_0988" Name="fruB" Position="-105" Score="5.5">
+          <Sequence>GCTGAAACGTTTCAGC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3558752" LocusId="PST_0988" Name="fruB" Function="Fructose-specific phosphocarrier protein HPr (EC 2.7.1.69) / PTS system, fructose-specific IIA component (EC 2.7.1.69)" />
+          <Members vimssId="3558753" LocusId="PST_0989" Name="fruK" Function="1-phosphofructokinase (EC 2.7.1.56)" />
+          <Members vimssId="3558754" LocusId="PST_0990" Name="fruA" Function="PTS system, fructose-specific IIB component (EC 2.7.1.69) / PTS system, fructose-specific IIC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3558751" LocusId="PST_0987" Name="fruR" Function="Fructose operon transcriptional regulator FruR, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2239</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="activator (repressor)">
+      <Regulator Key="GlcC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19127" />
+      <Effector>Glycolate</Effector>
+      <Pathway>Glycolate utilization</Pathway>
+      <LocusTag Key="PST_0430" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3558193&amp;disp=0" />
+      <BiologicalProcess>Glycolate utilization</BiologicalProcess>
+      <Regulog Key="GlcC - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2064" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_0430" Name="glcC" Position="-134" Score="6.4">
+          <Sequence>AACTGGTCCTACCAGTT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_0431" Name="glcD" Position="-222" Score="5.2">
+          <Sequence>AGCTGGTAGGACCAGTT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_0431" Name="glcD" Position="-115" Score="5.6">
+          <Sequence>AACTGGTAGGACCAGTT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_0430" Name="glcC" Position="-27" Score="6.2">
+          <Sequence>AACTGGTCCTACCAGCT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3558194" LocusId="PST_0431" Name="glcD" Function="Glycolate dehydrogenase (EC 1.1.99.14), subunit GlcD" />
+          <Members vimssId="3558195" LocusId="PST_0432" Name="glcE" Function="Glycolate dehydrogenase (EC 1.1.99.14), FAD-binding subunit GlcE" />
+          <Members vimssId="3558196" LocusId="PST_0433" Name="glcF" Function="Glycolate dehydrogenase (EC 1.1.99.14), iron-sulfur subunit GlcF" />
+          <Members vimssId="3558197" LocusId="PST_0434" Name="glcG" Function="Hypothetical protein GlcG in glycolate utilization operon" />
+          <Members vimssId="3558198" LocusId="PST_0435" Name="glcB" Function="Malate synthase G (EC 2.3.3.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3558193" LocusId="PST_0430" Name="glcC" Function="Glycolate utilization operon transcriptional activator GlcC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2064</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="GntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49851" />
+      <Effector>Gluconate</Effector>
+      <Pathway>Gluconate utilization</Pathway>
+      <LocusTag Key="PST_2198" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3559959&amp;disp=0" />
+      <BiologicalProcess>Gluconate utilization</BiologicalProcess>
+      <Regulog Key="GntR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5049" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_2201" Name="gntKZ" Position="-104" Score="4.5">
+          <Sequence>GTTTGATAGCGCTAACATCC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3559962" LocusId="PST_2201" Name="gntKZ" Function="Thermoresistant gluconokinase (EC 2.7.1.12) / Predicted gluconate TRAP family transporter DctM subunit fusion" />
+          <Members vimssId="3559961" LocusId="PST_2200" Name="gntY" Function="Predicted gluconate TRAP family transporter, DctQ subunit" />
+          <Members vimssId="3559960" LocusId="PST_2199" Name="gntX" Function="Predicted gluconate TRAP family transporter, DctP subunit" />
+          <Members vimssId="3559959" LocusId="PST_2198" Name="gntR" Function="Gluconate utilization transcriptional regulator GntR, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5049</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor (activator)">
+      <Regulator Key="HexR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=20497" />
+      <Effector>2-keto-3-deoxy-6-phosphogluconate</Effector>
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="PST_3498" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3561259&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="HexR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2219" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_3497" Name="zwf" Position="-85" Score="7.8">
+          <Sequence>ATGTTGT------ACTACAT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3500" Name="edd" Position="-31" Score="6.6">
+          <Sequence>TTGTTAT------ACTACAA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3498" Name="hexR" Position="-178" Score="7.8">
+          <Sequence>ATGTAGT------ACAACAT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_2444" Name="edd" Position="-38" Score="6.8">
+          <Sequence>tgGTTGT------ACAAaAT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3560204" LocusId="PST_2444" Name="edd" Function="Phosphogluconate dehydratase (EC 4.2.1.12)" />
+          <Members vimssId="3560203" LocusId="PST_2443" Name="glk" Function="Glucokinase (EC 2.7.1.2)" />
+          <Members vimssId="3560202" LocusId="PST_2442" Name="gltR" Function="DNA-binding response regulator GltR, controls specific porins for the entry of glucose" />
+          <Members vimssId="3560201" LocusId="PST_2441" Name="gltS" Function="Integral membrane sensor signal transduction histidine kinase (EC 2.7.13.3), glucose catabolism cluster" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3561261" LocusId="PST_3500" Name="edd" Function="Phosphogluconate dehydratase (EC 4.2.1.12)" />
+          <Members vimssId="3561260" LocusId="PST_3499" Name="glk" Function="Glucokinase (EC 2.7.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3561259" LocusId="PST_3498" Name="hexR" Function="Central carbohydrate metabolism transcription regulator HexR, RpiR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3561258" LocusId="PST_3497" Name="zwf" Function="Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)" />
+          <Members vimssId="3561257" LocusId="PST_3496" Name="pgl" Function="6-phosphogluconolactonase (EC 3.1.1.31), eukaryotic type" />
+          <Members vimssId="3561256" LocusId="PST_3495" Name="eda" Function="4-Hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16) / 2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14)" />
+          <Members vimssId="3561255" LocusId="PST_3494" Name="gapN" Function="NADP-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.9)" />
+          <Members vimssId="3561254" LocusId="PST_3493" Name="PST_3493" Function="Aldo/keto reductase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2219</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor (activator)">
+      <Regulator Key="HexR1" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14811" />
+      <Effector>2-keto-3-deoxy-6-phosphogluconate</Effector>
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="PST_0183" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3557946&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="HexR1 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1586" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_0183" Name="hexR1" Position="-195" Score="5.6">
+          <Sequence>TTGTAGTATAACTACCG</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_0182" Name="zwf" Position="-59" Score="5.6">
+          <Sequence>CGGTAGTTATACTACAA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3852" Name="aceE" Position="-179" Score="5.6">
+          <Sequence>CTGTAGTTTTACTACTA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3852" Name="aceE" Position="-128" Score="6.2">
+          <Sequence>TTGTAGTAAAACTACAG</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3561613" LocusId="PST_3852" Name="aceE" Function="Pyruvate dehydrogenase E1 component (EC 1.2.4.1)" />
+          <Members vimssId="3561614" LocusId="PST_3853" Name="aceF" Function="Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex (EC 2.3.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3557945" LocusId="PST_0182" Name="zwf" Function="Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3557946" LocusId="PST_0183" Name="hexR1" Function="Central carbohydrate metabolism transcription regulator HexR, RpiR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1586</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17879" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="PST_3043" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3560803&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1930" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_3043" Name="iscR" Position="-4" Score="6.9">
+          <Sequence>ATAGTTGACTCAAATACTCGGGAAT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_0755" Name="erpA" Position="-76" Score="6.5">
+          <Sequence>ATAGTTGACCGGTTTTGTCAGGCAA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3560803" LocusId="PST_3043" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="3560802" LocusId="PST_3042" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+          <Members vimssId="3560801" LocusId="PST_3041" Name="iscU" Function="Iron-sulfur cluster assembly scaffold protein IscU" />
+          <Members vimssId="3560800" LocusId="PST_3040" Name="iscA" Function="Iron binding protein IscA for iron-sulfur cluster assembly" />
+          <Members vimssId="3560799" LocusId="PST_3039" Name="hscB" Function="Chaperone protein HscB" />
+          <Members vimssId="3560798" LocusId="PST_3038" Name="hscA" Function="Chaperone protein HscA" />
+          <Members vimssId="3560797" LocusId="PST_3037" Name="fdx" Function="ferredoxin, 2Fe-2S type, ISC system" />
+          <Members vimssId="3560796" LocusId="PST_3036" Name="yfhJ" Function="putative Fe-S cluster assembly protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3558518" LocusId="PST_0755" Name="erpA" Function="ErpA, essential respiratory protein A / probable iron binding protein from the HesB_IscA_SufA family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1930</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28327" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="PST_1734" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3559497&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2979" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_3329" Name="recN" Position="-41" Score="5.7">
+          <Sequence>ACTGTATAAATAGCCAGC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_1734" Name="lexA" Position="-215" Score="5.5">
+          <Sequence>ACTGTATATAATCCCAGT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_1734" Name="lexA" Position="-196" Score="5.5">
+          <Sequence>ACTGTATAAAAGAACAGA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3169" Name="PF07130" Position="-47" Score="5.3">
+          <Sequence>GCTGTACAAATAAACAGT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_2810" Name="ruvC" Position="-29" Score="5.4">
+          <Sequence>ACTGGATAAATAGACAGC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_1508" Name="recA" Position="-57" Score="5.6">
+          <Sequence>ACTGTCTACTTATACAGT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3169" Name="yebG" Position="-47" Score="5.3">
+          <Sequence>GCTGTACAAATAAACAGT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3962" Name="PSEEN2356" Position="-7" Score="5.5">
+          <Sequence>ACTGTATATGCAAACAGT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_2108" Name="PF08774" Position="-60" Score="5.7">
+          <Sequence>ACTGTATAAATAGCCAGC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_1523" Name="dinG" Position="-120" Score="5.4">
+          <Sequence>ACTGAAAATATATACAGC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_4159" Name="PF04055" Position="217" Score="6">
+          <Sequence>ACTGTATATATAAACAGC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_2913" Name="topB" Position="-184" Score="5.3">
+          <Sequence>ACTGTATGTCCATACAGA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_2344" Name="imuA" Position="24" Score="5.7">
+          <Sequence>ACTGTATCTATATACAGT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3560105" LocusId="PST_2344" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3560570" LocusId="PST_2810" Name="ruvC" Function="Crossover junction endodeoxyribonuclease RuvC (EC 3.1.22.4)" />
+          <Members vimssId="3560569" LocusId="PST_2809" Name="ruvA" Function="Holliday junction DNA helicase RuvA" />
+          <Members vimssId="3560568" LocusId="PST_2808" Name="ruvB" Function="Holliday junction DNA helicase RuvB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3560673" LocusId="PST_2913" Name="topB" Function="DNA topoisomerase III (EC 5.99.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3560928" LocusId="PST_3169" Name="yebG" Function="SOS regulon DNA damage-inducible protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3559286" LocusId="PST_1523" Name="dinG" Function="ATP-dependent helicase DinG/Rad3" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3561920" LocusId="PST_4159" Name="PF04055" Function="DNA repair photolyase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3559497" LocusId="PST_1734" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+          <Members vimssId="3559496" LocusId="PST_1733" Name="sulA" Function="Cell division inhibitor sulA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3561089" LocusId="PST_3329" Name="recN" Function="DNA repair protein RecN" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3561723" LocusId="PST_3962" Name="PSEEN2356" Function="Radical SAM domain protein" />
+          <Members vimssId="3561724" LocusId="PST_3963" Name="PSEEN2355" Function="Domain often clustered or fused with uracil-DNA glycosylase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3559271" LocusId="PST_1508" Name="recA" Function="Recombinase A" />
+          <Members vimssId="3559272" LocusId="PST_1509" Name="recX" Function="Regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3559870" LocusId="PST_2108" Name="PF08774" Function="Hypothetical protein, restriction endonuclease-like VRR-NUC domain" />
+          <Members vimssId="3559869" LocusId="PST_2107" Name="COG1199" Function="Rad3-related DNA helicases" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3560928" LocusId="PST_3169" Name="PF07130" Function="Conserved hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2979</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="LiuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28523" />
+      <Effector />
+      <Pathway>Branched-chain amino acid degradation</Pathway>
+      <LocusTag Key="PST_3221" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3560980&amp;disp=0" />
+      <BiologicalProcess>Branched-chain amino acid degradation</BiologicalProcess>
+      <Regulog Key="LiuR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3000" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_3208" Name="livG" Position="-70" Score="5.4">
+          <Sequence>GTTTACGTAAAGGTCATG</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3208" Name="livG" Position="-76" Score="5.2">
+          <Sequence>GTTATCGTTTACGTAAAG</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3208" Name="livG" Position="-99" Score="4.6">
+          <Sequence>CTTGCCGTATACGGAAAC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3211" Name="aacS" Position="-98" Score="6.2">
+          <Sequence>CTTTACGTTAACGTAATC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3211" Name="aacS" Position="-104" Score="4.6">
+          <Sequence>AGTTACCTTTACGTTAAC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3213" Name="liuA" Position="-133" Score="6.5">
+          <Sequence>CTTTACGTTAACGTAAAG</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3560967" LocusId="PST_3208" Name="livG" Function="Branched-chain amino acid ABC transporter, ATP-binding protein LivG" />
+          <Members vimssId="3560966" LocusId="PST_3207" Name="livF" Function="Branched-chain amino acid ABC transporter, ATP-binding protein LivF" />
+          <Members vimssId="3560965" LocusId="PST_3206" Name="livK" Function="Branched-chain amino acid ABC transporter, periplasmic component LivK" />
+          <Members vimssId="3560964" LocusId="PST_3205" Name="livH" Function="Branched-chain amino acid ABC transporter, permease protein LivH" />
+          <Members vimssId="3560963" LocusId="PST_3204" Name="livM" Function="Branched-chain amino acid ABC transporter, permease protein LivM" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3560970" LocusId="PST_3211" Name="aacS" Function="Acetoacetyl-CoA synthetase (EC 6.2.1.16)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3560972" LocusId="PST_3213" Name="liuA" Function="Isovaleryl-CoA dehydrogenase (EC 1.3.99.10)" />
+          <Members vimssId="3560973" LocusId="PST_3214" Name="liuB" Function="Methylcrotonyl-CoA carboxylase carboxyl transferase subunit (EC 6.4.1.4)" />
+          <Members vimssId="3560974" LocusId="PST_3215" Name="liuC" Function="Methylglutaconyl-CoA hydratase (EC 4.2.1.18)" />
+          <Members vimssId="3560975" LocusId="PST_3216" Name="liuD" Function="Methylcrotonyl-CoA carboxylase biotin-containing subunit (EC 6.4.1.4)" />
+          <Members vimssId="3560976" LocusId="PST_3217" Name="liuE" Function="Hydroxymethylglutaryl-CoA lyase (EC 4.1.3.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3000</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="LldR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16599" />
+      <Effector>L-lactate</Effector>
+      <Pathway>Lactate utilization</Pathway>
+      <LocusTag Key="PST_3335" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3561095&amp;disp=0" />
+      <BiologicalProcess>Lactate utilization</BiologicalProcess>
+      <Regulog Key="LldR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1787" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_3336" Name="lldP" Position="-125" Score="5.9">
+          <Sequence>AATTGGTCTTACCACTT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3336" Name="lldP" Position="-258" Score="5.2">
+          <Sequence>AAATGGTCTTACCAGTC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3335" Name="lldR" Position="-161" Score="5.5">
+          <Sequence>AAGTGGTAAGACCAATT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3335" Name="lldR" Position="-28" Score="4.5">
+          <Sequence>GACTGGTAAGACCATTT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3561095" LocusId="PST_3335" Name="lldR" Function="Lactate-responsive regulator LldR in Enterobacteria, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3561096" LocusId="PST_3336" Name="lldP" Function="L-lactate permease" />
+          <Members vimssId="3561097" LocusId="PST_3337" Name="lldE" Function="L-lactate dehydrogenase, Fe-S oxidoreductase subunit LldE" />
+          <Members vimssId="3561098" LocusId="PST_3338" Name="lldF" Function="L-lactate dehydrogenase, iron-sulfur cluster-binding subunit LldF" />
+          <Members vimssId="3561099" LocusId="PST_3339" Name="lldG" Function="L-lactate dehydrogenase, subunit LldG" />
+          <Members vimssId="3561100" LocusId="PST_3340" Name="dld" Function="D-Lactate dehydrogenase (EC 1.1.2.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1787</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="MerR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51110" />
+      <Effector>Mercury ion, (Hg2+)</Effector>
+      <Pathway>Mercury resistance</Pathway>
+      <LocusTag Key="PST_3431" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3561192&amp;disp=0" />
+      <BiologicalProcess>Mercury resistance</BiologicalProcess>
+      <Regulog Key="MerR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5180" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_3432" Name="merT" Position="-61" Score="6.8">
+          <Sequence>ATTCCGTACTTTGGTACGGAGT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3561193" LocusId="PST_3432" Name="merT" Function="Mercury uptake inner membane protein" />
+          <Members vimssId="3561194" LocusId="PST_3433" Name="merP" Function="Periplasmic mercury(+2) binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5180</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor (activator)">
+      <Regulator Key="MetR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56654" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="PST_2852" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3560612&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5787" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_2223" Name="metH" Position="-96" Score="4.2">
+          <Sequence>CCTGAATAATCTTCATG</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_2850" Name="metE" Position="-73" Score="4.8">
+          <Sequence>CGTGAGTTTGTTTCATT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_2852" Name="metR" Position="-89" Score="4.4">
+          <Sequence>GATGAGCCTCGCTCATC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3560610" LocusId="PST_2850" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3560612" LocusId="PST_2852" Name="metR" Function="Homocysteine-responsive transcriptional regulator of methionine metabolism, LysR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3559982" LocusId="PST_2223" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase, B12-dependent (EC 2.1.1.13)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5787</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21222" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdenum homeostasis</Pathway>
+      <LocusTag Key="PST_1348" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3559112&amp;disp=0" />
+      <BiologicalProcess>Molybdenum homeostasis</BiologicalProcess>
+      <Regulog Key="ModE - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2298" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_1348" Name="modE" Position="-168" Score="6.5">
+          <Sequence>CGCTATATACAAAACGATATAGCG</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3559112" LocusId="PST_1348" Name="modE" Function="Molybdate-responsive transcriptional regulator ModE" />
+          <Members vimssId="3559111" LocusId="PST_1347" Name="modA" Function="Molybdate ABC transporter, substrate-binding protein" />
+          <Members vimssId="3559110" LocusId="PST_1346" Name="modB" Function="Molybdate ABC transporter, permease protein" />
+          <Members vimssId="3559109" LocusId="PST_1345" Name="modC" Function="Molybdate ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2298</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15531" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="PST_0834" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3558598&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1667" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_1637" Name="nrdA" Position="-202" Score="5.2">
+          <Sequence>ACACAACATATTGTGT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_1729" Name="topA" Position="-241" Score="5.7">
+          <Sequence>CCACTATATATAGCGG</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3509" Name="nrdD" Position="-58" Score="4.6">
+          <Sequence>TCACACCATATTGTGG</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3509" Name="nrdD" Position="-27" Score="4.4">
+          <Sequence>ACACTACATATGGTTA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_1637" Name="nrdA" Position="-392" Score="5.1">
+          <Sequence>CCCCTAGATGTTGGGT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3561270" LocusId="PST_3509" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+          <Members vimssId="3561269" LocusId="PST_3508" Name="null" Function="hypothetical protein" />
+          <Members vimssId="3561268" LocusId="PST_3507" Name="nrdG" Function="Ribonucleotide reductase of class III (anaerobic), activating protein (EC 1.97.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3559400" LocusId="PST_1637" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="3559399" LocusId="PST_1636" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3559492" LocusId="PST_1729" Name="topA" Function="DNA topoisomerase I (EC 5.99.1.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1667</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19301" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="PST_0349" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3558112&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2084" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_0353" Name="glnA" Position="-212" Score="4.9">
+          <Sequence>CGCACCATTAACGCGCA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_0350" Name="ntrB" Position="1" Score="5.2">
+          <Sequence>TGCACCTGTTTGGTGCG</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_0502" Name="glnK" Position="-329" Score="4.8">
+          <Sequence>TGCACAAAAAATGAGCA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_0502" Name="glnK" Position="-296" Score="5.5">
+          <Sequence>CGCACCATTTTCGTGCG</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_0353" Name="glnA" Position="-243" Score="4.6">
+          <Sequence>CGCACCAAAACAATGCG</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3558113" LocusId="PST_0350" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="3558112" LocusId="PST_0349" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3558265" LocusId="PST_0502" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="3558266" LocusId="PST_0503" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3558116" LocusId="PST_0353" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2084</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="PA1520" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57460" />
+      <Effector />
+      <Pathway>Xanthine utilization; Allantoin utilization</Pathway>
+      <LocusTag Key="PST_3088" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3560847&amp;disp=0" />
+      <BiologicalProcess>Xanthine utilization; Allantoin utilization</BiologicalProcess>
+      <Regulog Key="PA1520 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5879" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_3099" Name="PA0165" Position="-398" Score="4.8">
+          <Sequence>TTGTGCACAA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3092" Name="PA1518" Position="-92" Score="4.6">
+          <Sequence>CTGTGTACAA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3090" Name="PA1519" Position="-94" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3088" Name="PA1520" Position="-225" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3088" Name="PA1520" Position="-112" Score="4.8">
+          <Sequence>TTGTGCACAA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3090" Name="PA1519" Position="-207" Score="4.8">
+          <Sequence>TTGTGCACAA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3092" Name="PA1518" Position="-229" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3093" Name="PA1517" Position="-137" Score="4.6">
+          <Sequence>TTGTACACAG</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3093" Name="PA1517" Position="0" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3560858" LocusId="PST_3099" Name="PA0165" Function="Nucleoside-binding outer membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3560851" LocusId="PST_3092" Name="PA1518" Function="5-hydroxyisourate hydrolase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3560847" LocusId="PST_3088" Name="PA1520" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3560852" LocusId="PST_3093" Name="PA1517" Function="putative uricase" />
+          <Members vimssId="3560853" LocusId="PST_3094" Name="uraO" Function="Urate oxidase (EC 1.7.3.3)" />
+          <Members vimssId="3560854" LocusId="PST_3095" Name="alc" Function="Allantoicase (EC 3.5.3.4)" />
+          <Members vimssId="3560855" LocusId="PST_3096" Name="allA" Function="Ureidoglycolate hydrolase (EC 3.5.3.19)" />
+          <Members vimssId="3560856" LocusId="PST_3097" Name="PA1513" Function="conserved hypothetical membrane protein, paralogue of Y20848" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3560849" LocusId="PST_3090" Name="PA1519" Function="Xanthine/uracil/thiamine/ascorbate permease family protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5879</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TyrR" RegulationMode="activator (repressor)">
+      <Regulator Key="PhhR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=11148" />
+      <Effector>Tyrosine; Phenylalanine</Effector>
+      <Pathway>Aromatic amino acid metabolism</Pathway>
+      <LocusTag Key="PST_3561" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3561322&amp;disp=0" />
+      <BiologicalProcess>Aromatic amino acid metabolism</BiologicalProcess>
+      <Regulog Key="PhhR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1210" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_0869" Name="hpd" Position="-143" Score="5.2">
+          <Sequence>CTGTAAGGAAAACCTGACAG</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_0869" Name="hpd" Position="-203" Score="4.8">
+          <Sequence>CTGTCAGCTTTTCGTTACGC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3561" Name="phhR" Position="-136" Score="4.9">
+          <Sequence>CTGTAAGAAATACATGACAG</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3561" Name="phhR" Position="-74" Score="5.4">
+          <Sequence>CTGTCAAATAATCTTGACGA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3562" Name="phhA" Position="-191" Score="5.4">
+          <Sequence>TCGTCAAGATTATTTGACAG</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3562" Name="phhA" Position="-129" Score="4.9">
+          <Sequence>CTGTCATGTATTTCTTACAG</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3558633" LocusId="PST_0869" Name="hpd" Function="4-hydroxyphenylpyruvate dioxygenase (EC 1.13.11.27)" />
+          <Members vimssId="3558634" LocusId="PST_0870" Name="hmgA" Function="Homogentisate 1,2-dioxygenase (EC 1.13.11.5)" />
+          <Members vimssId="3558635" LocusId="PST_0871" Name="hmgC" Function="Fumarylacetoacetase (EC 3.7.1.2)" />
+          <Members vimssId="3558636" LocusId="PST_0872" Name="hmgB" Function="Maleylacetoacetate isomerase (EC 5.2.1.2)" />
+          <Members vimssId="3558637" LocusId="PST_0873" Name="COG0733" Function="Predicted 4-Hydroxyphenylpyruvate transporter, SNF family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3561322" LocusId="PST_3561" Name="phhR" Function="Phenylalanine degradation transcriptional activator, TyrR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3561323" LocusId="PST_3562" Name="phhA" Function="Phenylalanine-4-hydroxylase (EC 1.14.16.1)" />
+          <Members vimssId="3561324" LocusId="PST_3563" Name="phhB" Function="Pterin-4-alpha-carbinolamine dehydratase (EC 4.2.1.96)" />
+          <Members vimssId="3561325" LocusId="PST_3564" Name="phhC" Function="Aromatic-amino-acid aminotransferase (EC 2.6.1.57)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1210</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="PhrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66405" />
+      <Effector>Blue light; Adenosylcobalamin</Effector>
+      <Pathway>Light-dependent DNA repair</Pathway>
+      <LocusTag Key="PST_1965" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3559728&amp;disp=0" />
+      <BiologicalProcess>Light-dependent DNA repair</BiologicalProcess>
+      <Regulog Key="PhrR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6859" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_1967" Name="COG1090" Position="-85" Score="5.2">
+          <Sequence>TGTACATTCGAATAACCATGTATA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_0951" Name="PF04134" Position="-57" Score="5.2">
+          <Sequence>TGTACAGGATTATTGTTTTGTTCA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_1966" Name="COG3272" Position="-217" Score="5.3">
+          <Sequence>TATACATGGTTATTCGAATGTACA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3559730" LocusId="PST_1967" Name="COG1090" Function="Predicted nucleoside-diphosphate sugar epimerase" />
+          <Members vimssId="3559731" LocusId="PST_1968" Name="hemH" Function="Ferrochelatase, protoheme ferro-lyase (EC 4.99.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3558715" LocusId="PST_0951" Name="PF04134" Function="Putative thiol-disulphide oxidoreductase DCC" />
+          <Members vimssId="3558716" LocusId="PST_0952" Name="phrB" Function="DNA photolyase PhrB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3559729" LocusId="PST_1966" Name="COG3272" Function="COG1683: Uncharacterized conserved protein / COG3272: Hypothetical protein YbgA" />
+          <Members vimssId="3559728" LocusId="PST_1965" Name="phrR" Function="Transcriptional regulator, MerR family, associated with photolyase" />
+          <Members vimssId="3559727" LocusId="PST_1964" Name="phr" Function="Deoxyribodipyrimidine photolyase (EC 4.1.99.3)" />
+          <Members vimssId="3559726" LocusId="PST_1963" Name="PF07366" Function="Protein of unknown function DUF1486" />
+          <Members vimssId="3559725" LocusId="PST_1962" Name="PF00106" Function="Oxidoreductase, short-chain dehydrogenase/reductase family (EC 1.1.1.-)" />
+          <Members vimssId="3559724" LocusId="PST_1961" Name="PF01593" Function="Flavin containing amine oxidoreductase" />
+          <Members vimssId="3559723" LocusId="PST_1960" Name="PF07103" Function="Protein of unknown function DUF1365" />
+          <Members vimssId="3559722" LocusId="PST_1959" Name="PF02353" Function="S-adenosyl-L-methionine dependent methyltransferase, similar to cyclopropane-fatty-acyl-phospholipid synthase" />
+          <Members vimssId="3559721" LocusId="PST_1958" Name="mcp4" Function="methyl-accepting chemotaxis protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6859</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PrpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17155" />
+      <Effector>2-methylcitrate</Effector>
+      <Pathway>Methylcitrate utilization</Pathway>
+      <LocusTag Key="PST_2033" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3559795&amp;disp=0" />
+      <BiologicalProcess>Methylcitrate utilization</BiologicalProcess>
+      <Regulog Key="PrpR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1849" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_2033" Name="prpR" Position="-13" Score="5.8">
+          <Sequence>ATTGTCGACAAT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_2033" Name="prpR" Position="-88" Score="4.8">
+          <Sequence>GGTGTCGACAAT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3559795" LocusId="PST_2033" Name="prpR" Function="Propionate catabolism transcriptional regulator, GntR family" />
+          <Members vimssId="3559796" LocusId="PST_2034" Name="prpB" Function="Methylisocitrate lyase (EC 4.1.3.30)" />
+          <Members vimssId="3559797" LocusId="PST_2035" Name="prpC" Function="2-methylcitrate synthase (EC 2.3.3.5)" />
+          <Members vimssId="3559798" LocusId="PST_2036" Name="acnD" Function="Aconitate hydratase, predicted 2-methylcitrate dehydratase FeS dependent (EC 4.2.1.79)" />
+          <Members vimssId="3559799" LocusId="PST_2037" Name="prpF" Function="Aconitase accessory protein PrpF" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1849</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PsrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29694" />
+      <Effector>Oleate</Effector>
+      <Pathway>Fatty acid degradation</Pathway>
+      <LocusTag Key="PST_1735" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3559498&amp;disp=0" />
+      <BiologicalProcess>Fatty acid degradation</BiologicalProcess>
+      <Regulog Key="PsrA - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3098" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_3860" Name="acdH1" Position="-71" Score="4.7">
+          <Sequence>GTCGAAACGTATGTTTCAAA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3860" Name="acdH1" Position="-58" Score="5.7">
+          <Sequence>TTTCAAACGCCTGTTTGACC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_1735" Name="psrA" Position="-32" Score="5.6">
+          <Sequence>TTTCAAACAGTTGTTTGTCT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_1726" Name="fadB" Position="-155" Score="5.7">
+          <Sequence>AATCAAACGGGCGTATGAAT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_2241" Name="" Position="-146" Score="5.6">
+          <Sequence>ATTCAAACAAACGTTCGAAT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_2605" Name="etfB" Position="-323" Score="5.6">
+          <Sequence>ATACAAACGTTTGTTTGAAT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_2607" Name="etfD" Position="-130" Score="5.9">
+          <Sequence>ATTCAAACAAACGTTTGTAT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_1572" Name="rpoS" Position="-421" Score="4.8">
+          <Sequence>CCTCAAACGGTAGTTTGAAT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3560365" LocusId="PST_2605" Name="etfB" Function="Electron transfer flavoprotein, beta subunit" />
+          <Members vimssId="3560364" LocusId="PST_2604" Name="etfA" Function="Electron transfer flavoprotein, alpha subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3559335" LocusId="PST_1572" Name="rpoS" Function="RNA polymerase sigma factor RpoS" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3560367" LocusId="PST_2607" Name="etfD" Function="Electron transfer flavoprotein-ubiquinone oxidoreductase (EC 1.5.5.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3560000" LocusId="PST_2241" Name="null" Function="Phosphoglycerate mutase family protein" />
+          <Members vimssId="3560001" LocusId="PST_2242" Name="scp" Function="Sterol-binding domain protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3559498" LocusId="PST_1735" Name="psrA" Function="Predicted transcriptional regulator for fatty acid degradation PsrA, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3561621" LocusId="PST_3860" Name="acdH1" Function="probable acyl-CoA dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3559489" LocusId="PST_1726" Name="fadB" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+          <Members vimssId="3559490" LocusId="PST_1727" Name="fadA" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3098</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30854" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="PST_2863" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3560623&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3186" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_3175" Name="upp" Position="-159" Score="5.3">
+          <Sequence>ACCTGACCGAACAGACTACT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_2862" Name="tsx" Position="-58" Score="5.5">
+          <Sequence>GCCTGACCGCTTGGACAACT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_2862" Name="tsx" Position="-224" Score="5.1">
+          <Sequence>AGCTGACGCATCGGTCAGGT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3090" Name="pbuT3" Position="-63" Score="5.1">
+          <Sequence>TCCTGACCTTTCGGTCAACT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3560934" LocusId="PST_3175" Name="upp" Function="Uracil phosphoribosyltransferase (EC 2.4.2.9)" />
+          <Members vimssId="3560935" LocusId="PST_3176" Name="uraA" Function="Uracil permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3560849" LocusId="PST_3090" Name="pbuT3" Function="Xanthine/uracil permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3560622" LocusId="PST_2862" Name="tsx" Function="Nucleoside-binding outer membrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3186</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34761" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="PST_3101" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3560860&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR3 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3554" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_3081" Name="xdhA" Position="-211" Score="5.8">
+          <Sequence>AGTTGACCGAAAAGTCAGAT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3081" Name="xdhA" Position="-234" Score="4.2">
+          <Sequence>CATTGACTTTTGAGTCAGGA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3560841" LocusId="PST_3081" Name="xdhA" Function="Xanthine dehydrogenase, iron-sulfur cluster and FAD-binding subunit A (1.17.1.4)" />
+          <Members vimssId="3560842" LocusId="PST_3082" Name="xdhB" Function="Xanthine dehydrogenase, molybdenum binding subunit (EC 1.17.1.4)" />
+          <Members vimssId="3560843" LocusId="PST_3083" Name="xdhC" Function="XdhC protein (assists in molybdopterin insertion into xanthine dehydrogenase)" />
+          <Members vimssId="3560844" LocusId="PST_3084" Name="guaD" Function="Guanine deaminase (EC 3.5.4.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3554</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR4" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34719" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="PST_3596" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3561357&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR4 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3545" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_3596" Name="rutR4" Position="-156" Score="6">
+          <Sequence>TGTGGACCATTTGGTCCGAA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3597" Name="rutA" Position="-157" Score="6">
+          <Sequence>TTCGGACCAAATGGTCCACA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3561358" LocusId="PST_3597" Name="rutA" Function="Pyrimidine oxygenase" />
+          <Members vimssId="3561359" LocusId="PST_3598" Name="rutB" Function="Peroxyureidoacrylate / ureidoacrylate amido hydrolase" />
+          <Members vimssId="3561360" LocusId="PST_3599" Name="rutC" Function="Aminoacrylate peracid reductase" />
+          <Members vimssId="3561361" LocusId="PST_3600" Name="rutD" Function="Aminoacrylate hydrolase" />
+          <Members vimssId="3561362" LocusId="PST_3601" Name="rutE" Function="3-hydroxy propionic acid dehydrogenase" />
+          <Members vimssId="3561363" LocusId="PST_3602" Name="rutF" Function="Flavin reductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3561357" LocusId="PST_3596" Name="rutR4" Function="Transcriptional regulator RutR of pyrimidine catabolism, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3545</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SahR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15733" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="PST_3925" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3561686&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SahR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1689" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_3925" Name="sahR" Position="-63" Score="7.2">
+          <Sequence>ATATCAAAACTTTTTGATAT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3561686" LocusId="PST_3925" Name="sahR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+          <Members vimssId="3561687" LocusId="PST_3926" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1689</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YdcR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59704" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="PST_2731" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3560491&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="YdcR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6128" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_2730" Name="COG0348" Position="-97" Score="8.8">
+          <Sequence>ATCTGATCCGTATTT---------ATCTGAGTCTGTTAT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3560490" LocusId="PST_2730" Name="COG0348" Function="Polyferredoxin" />
+          <Members vimssId="3560491" LocusId="PST_2731" Name="ydcR" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6128</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16071" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="PST_0043" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3557806&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1727" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_0044" Name="znuA" Position="-37" Score="4.8">
+          <Sequence>GAGACGTTATTATGTACCAATTC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_0043" Name="zur" Position="-44" Score="4.5">
+          <Sequence>GAATTGGTACATAATAACGTCTC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_2941" Name="PA4838" Position="-113" Score="5.2">
+          <Sequence>CTTTTGTTATAACGTATCGCACC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_3603" Name="dksA2" Position="-90" Score="4.7">
+          <Sequence>TAAACGTTATGTTATAACTAATC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_1798" Name="rpmE2" Position="-51" Score="5.6">
+          <Sequence>CTATTGTTATGTTATAACATCAT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_0827" Name="zbp" Position="-41" Score="6">
+          <Sequence>AAGTTGTTATAACGTAACGTACC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3560701" LocusId="PST_2941" Name="PA4838" Function="membrane protein-like protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3561364" LocusId="PST_3603" Name="dksA2" Function="C4-type zinc finger protein, DksA/TraR family" />
+          <Members vimssId="3561365" LocusId="PST_3604" Name="yciC" Function="Putative metal chaperone, GTPase of COG0523 family" />
+          <Members vimssId="3561366" LocusId="PST_3605" Name="PF08856" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3558591" LocusId="PST_0827" Name="zbp" Function="Predicted zinc-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3559561" LocusId="PST_1798" Name="rpmE2" Function="LSU ribosomal protein L31p" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3557806" LocusId="PST_0043" Name="zur" Function="Zinc uptake regulation protein ZUR" />
+          <Members vimssId="3557805" LocusId="PST_0042" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="3557804" LocusId="PST_0041" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3557807" LocusId="PST_0044" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1727</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41288" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_1289" Name="btuB2" Position="-373" Score="105.7">
+          <Sequence>ACCTCCGCGTCGCCTCAGGTGCCCCCTGGCCTTGTGCCAGACGGGTGAAACAGGGAAGCCGGTCCATTCTCACGAAGATTCCGGCGCTGCCCCCGCAACGGTAGGCGAGTCGAGAAACCGCAACGGCCACTGTGCATGACGCATGGGAAGGCGCGGTTTCGGGATGCCGCAAGGCATACGCTCGCAAGCCCGGAGACCGGCCTGTCGCATTTCACTGACAGT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_0846" Name="btuB1" Position="-314" Score="98.5">
+          <Sequence>GCGTTTTCTTATCCGCCCAGGTGTGCACGACCGCAAGGTCCGCATTAAACGGGAAGCCGGTGCGCTCGAAGAGCAAGGCCGGCGCTGCCCCCGCAACGGTAATCGACCGCGATCCTCAGGAATCGCCGTCCGCTCGACAACCACTGTGTTCCGACATGGGAAGGTGAGCGTGATGCGTGTCGAAAGCCCGGAGACCGGCCTGACGGATTCGACTGGTG</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3558610" LocusId="PST_0846" Name="btuB1" Function="Outer membrane vitamin B12 receptor BtuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3559052" LocusId="PST_1289" Name="btuB2" Function="Outer membrane vitamin B12 receptor BtuB" />
+          <Members vimssId="3559053" LocusId="PST_1290" Name="btuM" Function="Optional hypothetical component of the B12 transporter BtuM" />
+          <Members vimssId="3559054" LocusId="PST_1291" Name="btuR" Function="Cob(I)alamin adenosyltransferase (EC 2.5.1.17)" />
+          <Members vimssId="3559055" LocusId="PST_1292" Name="cbiA" Function="Cobyrinic acid A,C-diamide synthase" />
+          <Members vimssId="3559056" LocusId="PST_1293" Name="bluB" Function="Cobalamin biosynthesis protein BluB @ 5,6-dimethylbenzimidazole synthase, flavin destructase family" />
+          <Members vimssId="3559057" LocusId="PST_1294" Name="btuF" Function="Vitamin B12 ABC transporter, B12-binding  component BtuF" />
+          <Members vimssId="3559058" LocusId="PST_1295" Name="cbiB" Function="Adenosylcobinamide-phosphate synthase" />
+          <Members vimssId="3559059" LocusId="PST_1296" Name="cobD" Function="L-threonine 3-O-phosphate decarboxylase (EC 4.1.1.81)" />
+          <Members vimssId="3559060" LocusId="PST_1297" Name="cbiP" Function="Cobyric acid synthase" />
+          <Members vimssId="3559061" LocusId="PST_1298" Name="cobU" Function="Adenosylcobinamide-phosphate guanylyltransferase (EC 2.7.7.62)" />
+          <Members vimssId="3559062" LocusId="PST_1299" Name="cobT" Function="Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase (EC 2.4.2.21)" />
+          <Members vimssId="3559063" LocusId="PST_1300" Name="cobC" Function="Alpha-ribazole-5'-phosphate phosphatase (EC 3.1.3.73)" />
+          <Members vimssId="3559064" LocusId="PST_1301" Name="cobS" Function="Cobalamin synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41320" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_0836" Name="ribE2" Position="-269" Score="63">
+          <Sequence>TGAGCACTTCGAGGAGGAGCACAACGCAGCATGCTCTGCGCGCAGTAGCTTTCAATCGCGTCTAGCCCGCGAGCGCTTGCTTCGGCAAGGTCAGCAGACCCGGTGTGATTCCGGGGCCGACGGTATAGTCCGGATGAGAGAGAGCGGGATA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3558600" LocusId="PST_0836" Name="ribE2" Function="Riboflavin synthase alpha chain (EC 2.5.1.9)" />
+          <Members vimssId="3558601" LocusId="PST_0837" Name="ribBA" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase / GTP cyclohydrolase II (EC 3.5.4.25)" />
+          <Members vimssId="3558602" LocusId="PST_0838" Name="ribH" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00504" RegulationMode="RF00504">
+      <Regulator Key="Glycine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41304" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="Glycine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_4110" Name="dadA" Position="-248" Score="61.8">
+          <Sequence>CGATGTGCTAGCGGGAGAGACTGCCGTCAGGGCAGCGCCGAAGGAGCAACCGCCCCGGAAACTCTCAGGCAAAAGGACCGCTACCA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_4110" Name="dadA" Position="-162" Score="46.7">
+          <Sequence>CCGCTGAAACTCTGAAGAGCCGCCCGGTTTTCGTCGCCGGGCGCACCGAAGGAGCAAGCGAGCCGTCACGCGCTCGTGAATCTCTCAGGTCCAGAACAGAGGGGGCGCC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3561871" LocusId="PST_4110" Name="dadA" Function="D-amino acid dehydrogenase small subunit (EC 1.4.99.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00114" RegulationMode="RF00114">
+      <Regulator Key="S15" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41264" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="S15" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_3307" Name="rpsO" Position="-61" Score="52.7">
+          <Sequence>GTCATGCCTCTTTATTAAACACGGGGTCAATCCCCGGCCTGTTCACTCAAGGAGCCCTACCATGGCACTGAGCGTTGAAGAAAAAGCCCAGATCGTTAACGAGTACAAGCAAGCTGAA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3561067" LocusId="PST_3307" Name="rpsO" Function="SSU ribosomal protein S15p (S13e)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01057" RegulationMode="RF01057">
+      <Regulator Key="SAH_riboswitch" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40984" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="SAH_riboswitch" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_3935" Name="ahcY" Position="-110" Score="61">
+          <Sequence>CACCCGAGGGGCGCTGCAGCAGGTTCCAGAACCTGTCAGGCTCGGATGGGGCGTTTCCTCGAACGCATCAACGGCGCCCATTCGCAAC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3561696" LocusId="PST_3935" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+          <Members vimssId="3561697" LocusId="PST_3936" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40968" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_3816" Name="thiC" Position="-204" Score="82.4">
+          <Sequence>GGCGTTCTTGTCGGGGTGCCTTGAAGCGAAGGCTGAGATCGGAAAGTTCCGGATCCCGTTGAACCTGATCAGGTTAAGGCCTGCGTAGGGAACAAGATGTCCTCGTCT</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3561577" LocusId="PST_3816" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01068" RegulationMode="RF01068">
+      <Regulator Key="mini-ykkC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41032" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="mini-ykkC" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_3492" Name="ykkC3" Position="16" Score="31.9">
+          <Sequence>CGCCGCGGGACGACCCGGGGCGTGTCGAATCATGCGGGGACGGCCCTG</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3561253" LocusId="PST_3492" Name="ykkC3" Function="Quaternary ammonium compound-resistance protein sugE" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00442" RegulationMode="RF00442">
+      <Regulator Key="ykkC-yxkD" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41144" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="ykkC-yxkD" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_2011" Name="uctP" Position="-230" Score="92.4">
+          <Sequence>CGAAATAGCCGACTAGGGTTCCGACTCGCTCGCGAGTGGCTGGTCCGAGAGTTGGCGACCTCCAGTGAGGTTACACGGCGGGATAAAAGCCCGGGAGAA</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PST_2003" Name="uctB2" Position="-152" Score="83.1">
+          <Sequence>CTTCAAGGAGAACTAGGGTTCCGGCTCACAGGGAGTGGGCGCTGGTCCGAGAGTTCTCCGGTCCCAGGGACGGGACTACACGGAGGGATAAAAGCCCGGGAGAC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3559766" LocusId="PST_2003" Name="uctB2" Function="ABC transporter, periplasmic substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3559773" LocusId="PST_2011" Name="uctP" Function="Urea carboxylase-related ABC transporter, permease protein" />
+          <Members vimssId="3559772" LocusId="PST_2010" Name="uctA" Function="Urea carboxylase-related ABC transporter, ATPase protein" />
+          <Members vimssId="3559771" LocusId="PST_2009" Name="amt1" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="3559770" LocusId="PST_2008" Name="amt2" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40928" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PST_1115" Name="COG2119" Position="-215" Score="43.6">
+          <Sequence>GCCGCCGTCCTTGGGGGAGTAGTCTCCGACGAGCGCCCTGCTCGTCCGGCATGCGTCAACACACTTGGTCCGCAGACCATGGCGCATGCGACCGGCCAGCCTAGCAATAGCGCATGGCCCGGTTTGACAAGACCCATGACATGTAC</Sequence>
+          <Bacteria>Pseudomonas stutzeri A1501</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3558878" LocusId="PST_1115" Name="COG2119" Function="Probable transmembrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

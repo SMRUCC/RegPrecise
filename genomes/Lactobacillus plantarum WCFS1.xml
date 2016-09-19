@@ -1,0 +1,2973 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Lactobacillus plantarum WCFS1" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="AraR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28256" />
+      <Effector>Arabinose</Effector>
+      <Pathway>Arabinose utilization</Pathway>
+      <LocusTag Key="lp_3558" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=332118&amp;disp=0" />
+      <BiologicalProcess>Arabinose utilization</BiologicalProcess>
+      <Regulog Key="AraR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2972" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_3557" Name="araE" Position="-166" Score="6.5">
+          <Sequence>TGATTTATACGTATAAATAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3558" Name="araR" Position="-234" Score="5.2">
+          <Sequence>TTATTGATGCGGATAAATTG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3557" Name="araE" Position="-195" Score="4.7">
+          <Sequence>TAATTTGTGCTGATAAAACA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="332117" LocusId="lp_3557" Name="araE" Function="L-arabinose-proton symporter" />
+          <Members vimssId="332116" LocusId="lp_3556" Name="araK" Function="Ribulokinase (EC 2.7.1.16)" />
+          <Members vimssId="332115" LocusId="lp_3555" Name="araD" Function="L-ribulose-5-phosphate 4-epimerase (EC 5.1.3.4)" />
+          <Members vimssId="332114" LocusId="lp_3554" Name="araA" Function="L-arabinose isomerase (EC 5.3.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332118" LocusId="lp_3558" Name="araR" Function="Arabinoside utilization transcriptional repressor AraR, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2972</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor, activator">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42099" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine degradation; Arginine biosynthesis</Pathway>
+      <LocusTag Key="lp_1411" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=330390&amp;disp=0" />
+      <BiologicalProcess>Arginine degradation; Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4344" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_0527" Name="carA" Position="-169" Score="4.9">
+          <Sequence>ATTGAAAAAATATTCATT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0775" Name="argG" Position="-139" Score="4.1">
+          <Sequence>TCTGCATAAAAATTCTAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0528" Name="argC" Position="-117" Score="4.5">
+          <Sequence>AATGAATATTTTTTCAAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2111" Name="artPQ" Position="-17" Score="3.8">
+          <Sequence>CTTGCATAAATAATCATA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330983" LocusId="lp_2111" Name="artPQ" Function="Arginine ABC transporter, substrate-binding and permease protein" />
+          <Members vimssId="330982" LocusId="lp_2110" Name="artM" Function="Arginine ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329881" LocusId="lp_0775" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+          <Members vimssId="329882" LocusId="lp_0776" Name="argH" Function="Argininosuccinate lyase (EC 4.3.2.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329664" LocusId="lp_0528" Name="argC" Function="N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)" />
+          <Members vimssId="329665" LocusId="lp_0529" Name="argJ" Function="Glutamate N-acetyltransferase (EC 2.3.1.35) / N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="329666" LocusId="lp_0530" Name="argB" Function="Acetylglutamate kinase (EC 2.7.2.8)" />
+          <Members vimssId="329667" LocusId="lp_0531" Name="argD" Function="Acetylornithine aminotransferase (EC 2.6.1.11)" />
+          <Members vimssId="329668" LocusId="lp_0532" Name="argF" Function="Ornithine carbamoyltransferase (EC 2.1.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329663" LocusId="lp_0527" Name="carA" Function="Carbamoyl-phosphate synthase, small chain (EC 6.3.5.5)" />
+          <Members vimssId="329662" LocusId="lp_0526" Name="carB" Function="Carbamoyl-phosphate synthase, large chain (EC 6.3.5.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4344</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46505" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="lp_0854" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=329946&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4702" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_0336" Name="bioY" Position="-76" Score="7.7">
+          <Sequence>ACAGTAACC----------------GGTTACTGT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0854" Name="birA" Position="-158" Score="7.7">
+          <Sequence>ATTGTACAC----------------GGTTACATT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0854" Name="birA" Position="-55" Score="8.1">
+          <Sequence>TTAGTTAAC----------------GTTAACTAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="329506" LocusId="lp_0336" Name="bioY" Function="Substrate-specific component BioY of biotin ECF transporter" />
+          <Members vimssId="329507" LocusId="lp_0337" Name="birA" Function="Biotin biosynthesis repressor; Biotin-protein ligase (EC 6.3.4.15)" />
+          <Members vimssId="329508" LocusId="lp_0338" Name="yemC" Function="Zinc finger protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329946" LocusId="lp_0854" Name="birA" Function="Biotin biosynthesis repressor; Biotin-protein ligase (EC 6.3.4.15)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4702</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="CcpA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34349" />
+      <Effector>HPr, phosphocarrier protein; Fructose-1,6-bisphosphate</Effector>
+      <Pathway>Carbon catabolism</Pathway>
+      <LocusTag Key="lp_2256" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=331101&amp;disp=0" />
+      <BiologicalProcess>Carbon catabolism</BiologicalProcess>
+      <Regulog Key="CcpA - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3511" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_2757" Name="nplT" Position="-32" Score="4.9">
+          <Sequence>ATGTAATCGTTTACAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3623" Name="sorD" Position="-130" Score="3.9">
+          <Sequence>ATAACAGCGCTTTTTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3660" Name="rbsK" Position="-72" Score="4.9">
+          <Sequence>ATTAAAACGTTTTCAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3469" Name="lacZ" Position="-66" Score="4.6">
+          <Sequence>ATGAAAGCGCTTATCA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2781" Name="pts20B" Position="-68" Score="4.7">
+          <Sequence>ATGAAAGCGGTTTATT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0370" Name="glpK" Position="-46" Score="5">
+          <Sequence>ATGATAGCGTTTTCAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3436" Name="glpF2" Position="-82" Score="4.6">
+          <Sequence>AATAAAGCGTTTACAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2502" Name="pgi" Position="-77" Score="3.8">
+          <Sequence>GAGGAAGCGCTTTTCA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3436" Name="glpF2" Position="-104" Score="4.3">
+          <Sequence>TAGAAACCGCTTATTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0439" Name="gmuC" Position="-78" Score="5.1">
+          <Sequence>TTGTAAGCGCTTTTAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0168" Name="dhaK" Position="-58" Score="4.6">
+          <Sequence>TTGAAATCGGATTCAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3011" Name="bglB" Position="-43" Score="4.5">
+          <Sequence>AGGAAAGCGTTTTCCA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3469" Name="lacZ" Position="-177" Score="4.2">
+          <Sequence>AATAATACGCTTTCAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2256" Name="ccpA" Position="-121" Score="5.2">
+          <Sequence>ATGAAAGCGATTTCAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2256" Name="ccpA" Position="-51" Score="4">
+          <Sequence>ATGAAAACGGATGAAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0498" Name="rbsP" Position="-30" Score="4.8">
+          <Sequence>AAGAAAGCGCTAACAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3533" Name="malT2" Position="-72" Score="4.7">
+          <Sequence>TTGTAAACGTTTACGT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3533" Name="malT2" Position="-104" Score="4.6">
+          <Sequence>GTGTAAACGTTTACTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2095" Name="fruR" Position="-6" Score="4.3">
+          <Sequence>TTGAAAGTGCTTACAG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0575" Name="manL" Position="1" Score="4">
+          <Sequence>TGGTAAGCATTATCAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2544" Name="hcaD" Position="-200" Score="4.3">
+          <Sequence>TTGTAACCGTTTTAGT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_1729" Name="malT" Position="-65" Score="5">
+          <Sequence>TTGAAAGCGGTTTTAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3557" Name="araE" Position="-63" Score="4.6">
+          <Sequence>TTGAAAGGGCTTTCTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_1468" Name="sufC" Position="-138" Score="4.3">
+          <Sequence>ATGAAAACGGTTATAC</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_1468" Name="sufC" Position="-186" Score="4.5">
+          <Sequence>ATGAAAGGGCTTTTAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3529" Name="licT" Position="-160" Score="4.7">
+          <Sequence>TTGACACCGCTTACAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0230" Name="mtlA" Position="-63" Score="4.8">
+          <Sequence>TTGAAACCGCTTACCA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3596" Name="rhaY" Position="-33" Score="4.7">
+          <Sequence>ATGAAACCGCTTACCA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2629" Name="spxB" Position="-41" Score="4.1">
+          <Sequence>ACGAAAACGTATACAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0242" Name="ndk" Position="-37" Score="4.8">
+          <Sequence>ATGATACCGCTTTCAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3418" Name="pck" Position="-68" Score="4.8">
+          <Sequence>AAGAAAACGCTTTCTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0904" Name="licT" Position="-147" Score="4.5">
+          <Sequence>GAGAAAACGCTATCAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0152" Name="lhv_0924" Position="-193" Score="4.2">
+          <Sequence>ATGTAGCCGGTTACAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3133" Name="glclP" Position="-137" Score="4.6">
+          <Sequence>ATGTAAAGGCTTACAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3229" Name="glclP" Position="-246" Score="4.1">
+          <Sequence>TTGTAACGGCTTTCAC</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3051" Name="dhaT" Position="-36" Score="4.7">
+          <Sequence>ATGATAGCGATTACAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3054" Name="adhX" Position="-41" Score="4.5">
+          <Sequence>TTGTAAGCGGTTTACA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3054" Name="adhX" Position="-85" Score="4.6">
+          <Sequence>TTGTAAGCGCTTGAAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3092" Name="gabD" Position="-45" Score="4">
+          <Sequence>GATTAACCGTTTACAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3489" Name="yghZ" Position="-49" Score="4.6">
+          <Sequence>ATGAAAGCGGTAACTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3566" Name="LVIS_0439" Position="-190" Score="5.1">
+          <Sequence>AAGAAAGCGTTTACAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_1273" Name="ptsH" Position="-135" Score="4">
+          <Sequence>ATGAAAGGGCTTGTAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0187" Name="scrB" Position="-59" Score="4.6">
+          <Sequence>GTGTAAGCGGTTTTAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0187" Name="scrB" Position="-213" Score="4.3">
+          <Sequence>ATGCAAGCGCTTTACA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2258" Name="pepQ" Position="-158" Score="5.2">
+          <Sequence>TTGAAATCGCTTTCAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2154" Name="pdhA" Position="-67" Score="4.5">
+          <Sequence>ATGAAAACGATTACGA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2154" Name="pdhA" Position="-118" Score="4.1">
+          <Sequence>TTGGAAGGGCTTGCAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3240" Name="treP" Position="-118" Score="4.8">
+          <Sequence>AAGAAAGCGCTTTTAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0262" Name="treR" Position="-29" Score="4.7">
+          <Sequence>ATGAAAACGATAACAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3483" Name="lacL" Position="-43" Score="5">
+          <Sequence>TTGTAAGCGTTTTTAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0185" Name="scrA" Position="-58" Score="4.1">
+          <Sequence>TGTAAAGCGCTTGCAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0185" Name="scrA" Position="-157" Score="4">
+          <Sequence>ATGTCAGCGTTTCAAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0185" Name="scrA" Position="-212" Score="4.3">
+          <Sequence>ATAAAACCGCTTACAC</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2968" Name="ydgI" Position="-99" Score="4.8">
+          <Sequence>ATGATAGCGATTTCAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0060" Name="yxjF" Position="-96" Score="4.4">
+          <Sequence>ATGAAAGCGTAGTCAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3657" Name="sorD" Position="-61" Score="4.4">
+          <Sequence>ATGTATGCGCTTTCGT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3644" Name="msmX" Position="-187" Score="4.3">
+          <Sequence>TAATAAACGTTTTAAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3644" Name="msmX" Position="-49" Score="4.4">
+          <Sequence>GAGAAAGCGGTTACTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0764" Name="pgm" Position="-40" Score="4.4">
+          <Sequence>TTGTAAGCACTAACAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0849" Name="spxB" Position="-390" Score="4.3">
+          <Sequence>ATGTAAGCGTCATCAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0849" Name="spxB" Position="-86" Score="4.9">
+          <Sequence>ATAAAAGCGTTTACAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3598" Name="fucR" Position="-279" Score="4.9">
+          <Sequence>TTGTAAGCGCATACAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3598" Name="fucR" Position="-189" Score="3.9">
+          <Sequence>TAGTAATCGGTAAAAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3589" Name="spxB" Position="-77" Score="4.3">
+          <Sequence>ATGTAAGCGTTTGCTG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0193" Name="nplT" Position="-73" Score="4.2">
+          <Sequence>TTGTAAGCGGTACCTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3623" Name="sorD" Position="-62" Score="4.3">
+          <Sequence>TAGATAGCGTTTACAG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0913" Name="coaA" Position="-61" Score="4.2">
+          <Sequence>TTGATAAGGGTTTCAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3627" Name="nplT" Position="-73" Score="4.5">
+          <Sequence>ATGTAAGGGGTTACAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3531" Name="malR3" Position="-113" Score="4.4">
+          <Sequence>ACGTAAACGTTTACAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3531" Name="malR3" Position="-81" Score="4.4">
+          <Sequence>AAGTAAACGTTTACAC</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0175" Name="malX" Position="-101" Score="4">
+          <Sequence>CTGTTAACGTTAACAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330967" LocusId="lp_2095" Name="fruR" Function="Fructose utilization transcriptional regulator FruR, DeoR family" />
+          <Members vimssId="330968" LocusId="lp_2096" Name="fruB" Function="1-phosphofructokinase (EC 2.7.1.56)" />
+          <Members vimssId="330969" LocusId="lp_2097" Name="fruA" Function="Fructose-specific PTS system, IIABC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329993" LocusId="lp_0913" Name="coaA" Function="Pantothenate kinase (EC 2.7.1.33)" />
+          <Members vimssId="329994" LocusId="lp_0914" Name="guaA" Function="GMP synthase (EC 6.3.5.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332146" LocusId="lp_3589" Name="spxB" Function="Pyruvate oxidase (EC 1.2.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329639" LocusId="lp_0498" Name="rbsP" Function="Predicted ribose permease" />
+          <Members vimssId="329640" LocusId="lp_0499" Name="LAF_1741" Function="Hypothetical protein" />
+          <Members vimssId="329641" LocusId="lp_0500" Name="rbsK" Function="Ribokinase (EC 2.7.1.15)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329706" LocusId="lp_0575" Name="manL" Function="Mannose-specific PTS system, IIAB component (EC 2.7.1.69)" />
+          <Members vimssId="329707" LocusId="lp_0576" Name="manM" Function="Mannose-specific PTS system, IIC component (EC 2.7.1.69)" />
+          <Members vimssId="329708" LocusId="lp_0577" Name="manN" Function="Mannose-specific PTS system, IID component (EC 2.7.1.69)" />
+          <Members vimssId="329714" LocusId="lp_0583" Name="manO" Function="Predicted regulator of the mannose operon, ManO" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332155" LocusId="lp_3598" Name="fucR" Function="L-fucose utilization transcriptional regulator FucR, DeoR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332180" LocusId="lp_3627" Name="nplT" Function="Neopullulanase (EC 3.2.1.135)" />
+          <Members vimssId="332179" LocusId="lp_3626" Name="melB2" Function="Sugar transport protein" />
+          <Members vimssId="332178" LocusId="lp_3625" Name="malR3" Function="Predicted maltose/maltodextrin utilization transcriptional regulator MalR3, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329365" LocusId="lp_0175" Name="malX" Function="Maltose/maltodextrin ABC transporter, substrate-binding protein" />
+          <Members vimssId="329366" LocusId="lp_0176" Name="malC" Function="Maltose/maltodextrin ABC transporter, permease protein 1" />
+          <Members vimssId="329367" LocusId="lp_0177" Name="malD" Function="Maltose/maltodextrin ABC transporter, permease protein 2" />
+          <Members vimssId="329368" LocusId="lp_0178" Name="malA" Function="Maltodextrose utilization protein MalA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332095" LocusId="lp_3533" Name="malT2" Function="Predicted maltose/maltodextrin permease" />
+          <Members vimssId="332096" LocusId="lp_3534" Name="agl3" Function="Alpha-glucosidase (EC 3.2.1.20)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332210" LocusId="lp_3660" Name="rbsK" Function="Ribokinase (EC 2.7.1.15)" />
+          <Members vimssId="332209" LocusId="lp_3659" Name="rbsD" Function="Ribose ABC transport system, high affinity permease RbsD (TC 3.A.1.2.1)" />
+          <Members vimssId="332208" LocusId="lp_3658" Name="rbsU" Function="Ribose uptake protein RbsU (TC 2.A.7.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329535" LocusId="lp_0370" Name="glpK" Function="Glycerol kinase (EC 2.7.1.30)" />
+          <Members vimssId="329536" LocusId="lp_0371" Name="glpD" Function="Alpha-glycerophosphate oxidase (EC 1.1.3.21)" />
+          <Members vimssId="329537" LocusId="lp_0372" Name="glpF" Function="Glycerol uptake facilitator protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329591" LocusId="lp_0439" Name="gmuC" Function="PTS system, Oligo-beta-mannoside permease IIC component" />
+          <Members vimssId="329592" LocusId="lp_0440" Name="bglA" Function="6-phospho-beta-glucosidase (EC 3.2.1.86)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331495" LocusId="lp_2757" Name="nplT" Function="Neopullulanase (EC 3.2.1.135)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331299" LocusId="lp_2502" Name="pgi" Function="Glucose-6-phosphate isomerase (EC 5.3.1.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332014" LocusId="lp_3436" Name="glpF2" Function="Glycerol uptake facilitator protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331397" LocusId="lp_2629" Name="spxB" Function="Pyruvate oxidase (EC 1.2.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329419" LocusId="lp_0242" Name="ndk" Function="Nucleoside diphosphate kinase (EC 2.7.4.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329410" LocusId="lp_0230" Name="mtlA" Function="Mannitol-specific PTS system, IIBC component (EC 2.7.1.69)" />
+          <Members vimssId="329411" LocusId="lp_0231" Name="mtlR" Function="Mannitol operon antiterminator, BglG family" />
+          <Members vimssId="329412" LocusId="lp_0232" Name="mtlF" Function="Mannitol-specific PTS system, mannitol-specific IIA component (EC 2.7.1.69)" />
+          <Members vimssId="329413" LocusId="lp_0233" Name="mtlD" Function="Mannitol-1-phosphate 5-dehydrogenase (EC 1.1.1.17)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="330435" LocusId="lp_1468" Name="sufC" Function="Iron-sulfur cluster assembly ATPase protein" />
+          <Members vimssId="330436" LocusId="lp_1469" Name="sufD" Function="Iron-sulfur cluster assembly protein" />
+          <Members vimssId="330437" LocusId="lp_1470" Name="sufS" Function="Cysteine desulfurase (EC 2.8.1.7), SufS subfamily" />
+          <Members vimssId="330438" LocusId="lp_1471" Name="sufA" Function="Fe-S cluster formation protein, NifU-like" />
+          <Members vimssId="330439" LocusId="lp_1472" Name="sufB" Function="Fe-S cluster assembly ABC-type transport system, permease component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332092" LocusId="lp_3529" Name="licT" Function="Beta-glucoside bgl operon transcriptional antiterminator, BglG family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332153" LocusId="lp_3596" Name="rhaY" Function="Predicted L-rhamnose permease RhaY" />
+          <Members vimssId="332152" LocusId="lp_3595" Name="rhaB" Function="Rhamnulokinase (EC 2.7.1.5)" />
+          <Members vimssId="332151" LocusId="lp_3594" Name="rhaU" Function="L-rhamnose 1-epimerase (EC 5.1.3.-)" />
+          <Members vimssId="332150" LocusId="lp_3593" Name="rhaA" Function="L-rhamnose isomerase (EC 5.3.1.14)" />
+          <Members vimssId="332149" LocusId="lp_3592" Name="rhaD" Function="Rhamnulose-1-phosphate aldolase (EC 4.1.2.19)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331867" LocusId="lp_3240" Name="treP" Function="Trehalose-specific PTS system, EIIABC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329438" LocusId="lp_0262" Name="treR" Function="Trehalose utilization transcriptional regulator TreR, GntR family" />
+          <Members vimssId="329439" LocusId="lp_0263" Name="treA" Function="Trehalose-6-phosphate hydrolase (EC 3.2.1.93)" />
+          <Members vimssId="329440" LocusId="lp_0264" Name="treP" Function="Trehalose-specific PTS system, EIIABC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332000" LocusId="lp_3418" Name="pck" Function="Phosphoenolpyruvate carboxykinase (EC 4.1.1.49)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329986" LocusId="lp_0904" Name="licT" Function="Beta-glucoside bgl operon transcriptional antiterminator, BglG family" />
+          <Members vimssId="329987" LocusId="lp_0905" Name="bglP" Function="Beta-glucoside-specific PTS system, IIBCA component (EC 2.7.1.69)" />
+          <Members vimssId="329988" LocusId="lp_0906" Name="bglH" Function="6-phospho-beta-glucosidase (EC 3.2.1.86)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329345" LocusId="lp_0152" Name="lhv_0924" Function="Predicted transcriptional regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331791" LocusId="lp_3133" Name="glclP" Function="Beta-glucosides PTS, EIIBCA (EC 2.7.1.69)" />
+          <Members vimssId="331790" LocusId="lp_3132" Name="bglA2" Function="Beta-glucosidase (EC 3.2.1.21); 6-phospho-beta-glucosidase (EC 3.2.1.86)" />
+          <Members vimssId="331789" LocusId="lp_3131" Name="glcT" Function="Beta-glucoside bgl operon antiterminator, BglG family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331859" LocusId="lp_3229" Name="glclP" Function="Beta-glucosides PTS, EIIBCA (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331724" LocusId="lp_3051" Name="dhaT" Function="1,3-propanediol dehydrogenase (EC 1.1.1.202)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331725" LocusId="lp_3054" Name="adhX" Function="Zn conatining alcohol dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331101" LocusId="lp_2256" Name="ccpA" Function="Carbon catabolism global transcriptional regulator CcpA, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331516" LocusId="lp_2781" Name="pts20B" Function="PTS system, cellobiose-specific IIB component (EC 2.7.1.69)" />
+          <Members vimssId="331515" LocusId="lp_2780" Name="pts20A" Function="PTS system, cellobiose-specific IIA component (EC 2.7.1.69)" />
+          <Members vimssId="331514" LocusId="lp_2778" Name="bglA" Function="6-phospho-beta-glucosidase (EC 3.2.1.86)" />
+          <Members vimssId="331513" LocusId="lp_2777" Name="bglA" Function="6-phospho-beta-glucosidase (EC 3.2.1.86)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331755" LocusId="lp_3092" Name="gabD" Function="Succinate-semialdehyde dehydrogenase [NAD] (EC 1.2.1.24); Succinate-semialdehyde dehydrogenase [NADP+] (EC 1.2.1.16)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331102" LocusId="lp_2258" Name="pepQ" Function="Xaa-Pro dipeptidase (EC 3.4.13.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="330660" LocusId="lp_1729" Name="malT" Function="Predicted maltose/maltodextrin permease" />
+          <Members vimssId="330661" LocusId="lp_1730" Name="mapA" Function="Maltose phosphorylase (EC 2.4.1.8) / Trehalose phosphorylase (EC 2.4.1.64)" />
+          <Members vimssId="330662" LocusId="lp_1731" Name="galM" Function="Aldose 1-epimerase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="330285" LocusId="lp_1273" Name="ptsH" Function="Phosphotransferase system, HPr-related protein" />
+          <Members vimssId="330286" LocusId="lp_1274" Name="ptsI" Function="Phosphoenolpyruvate-protein kinase, PTS system component (EC 2.7.3.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329376" LocusId="lp_0187" Name="scrB" Function="Sucrose-6-phosphate hydrolase (EC 3.2.1.26)" />
+          <Members vimssId="329377" LocusId="lp_0188" Name="scrR" Function="Sucrose operon repressor ScrR, LacI family" />
+          <Members vimssId="329378" LocusId="lp_0189" Name="agl4" Function="Oligo-1,6-glucosidase (EC 3.2.1.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332055" LocusId="lp_3489" Name="yghZ" Function="Predicted oxidoreductase, aryl-alcohol dehydrogenase related" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332125" LocusId="lp_3566" Name="LVIS_0439" Function="Sugar phosphate isomerase/epimerase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329375" LocusId="lp_0185" Name="scrA" Function="Sucrose-specific PTS system, IIABC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331657" LocusId="lp_2968" Name="ydgI" Function="Putative NAD(P)H nitroreductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329273" LocusId="lp_0060" Name="yxjF" Function="Predicted short-chain alcohol dehydrogenase" />
+          <Members vimssId="329274" LocusId="lp_0061" Name="adc" Function="Probable acetoacetate decarboxylase" />
+          <Members vimssId="329275" LocusId="lp_0062" Name="ydgI" Function="Putative NAD(P)H nitroreductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331017" LocusId="lp_2154" Name="pdhA" Function="Dihydrolipoamide dehydrogenase complex (EC 1.8.1.4),  E1 component alpha-subunit" />
+          <Members vimssId="331016" LocusId="lp_2153" Name="pdhB" Function="Dihydrolipoamide dehydrogenase complex (EC 1.8.1.4),  E1 component beta-subunit" />
+          <Members vimssId="331015" LocusId="lp_2152" Name="pdhC" Function="Dihydrolipoamide dehydrogenase complex (EC 1.8.1.4),  E2 component" />
+          <Members vimssId="331014" LocusId="lp_2151" Name="pdhD" Function="Dihydrolipoamide dehydrogenase complex (EC 1.8.1.4),  E3 component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332049" LocusId="lp_3483" Name="lacL" Function="Beta-galactosidase large subunit (EC 3.2.1.23)" />
+          <Members vimssId="332050" LocusId="lp_3484" Name="lacM" Function="Beta-galactosidase small subunit (EC 3.2.1.23)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332207" LocusId="lp_3657" Name="sorD" Function="Sorbitol-6-phosphate 2-dehydrogenase (EC 1.1.1.140)" />
+          <Members vimssId="332206" LocusId="lp_3656" Name="srlM" Function="Sorbitol operon transcription regulator" />
+          <Members vimssId="332205" LocusId="lp_3655" Name="srlR" Function="Glucitol operon activator protein" />
+          <Members vimssId="332204" LocusId="lp_3654" Name="srlA" Function="Glucitol/sorbitol-specific PTS system, IIC component (EC 2.7.1.69)" />
+          <Members vimssId="332203" LocusId="lp_3653" Name="srlE" Function="Glucitol/sorbitol-specific PTS system, IIBC components (EC 2.7.1.69)" />
+          <Members vimssId="332202" LocusId="lp_3652" Name="srlB" Function="Glucitol/sorbitol-specific PTS system, IIA component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332177" LocusId="lp_3623" Name="sorD" Function="Sorbitol-6-phosphate 2-dehydrogenase (EC 1.1.1.140)" />
+          <Members vimssId="332176" LocusId="lp_3622" Name="srlM" Function="Sorbitol operon transcription regulator" />
+          <Members vimssId="332175" LocusId="lp_3621" Name="srlR" Function="Glucitol operon activator protein" />
+          <Members vimssId="332174" LocusId="lp_3620" Name="srlA" Function="Glucitol/sorbitol-specific PTS system, IIC component (EC 2.7.1.69)" />
+          <Members vimssId="332173" LocusId="lp_3619" Name="srlE" Function="Glucitol/sorbitol-specific PTS system, IIBC components (EC 2.7.1.69)" />
+          <Members vimssId="332172" LocusId="lp_3618" Name="srlB" Function="Glucitol/sorbitol-specific PTS system, IIA component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332036" LocusId="lp_3469" Name="lacZ" Function="Beta-galactosidase (EC 3.2.1.23)" />
+          <Members vimssId="332035" LocusId="lp_3468" Name="lacS" Function="Lactose and galactose permease, GPH translocator family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329872" LocusId="lp_0764" Name="pgm" Function="Phosphoglucomutase (EC 5.4.2.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332094" LocusId="lp_3531" Name="malR3" Function="Predicted maltose/maltodextrin utilization transcriptional regulator MalR3, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329942" LocusId="lp_0849" Name="spxB" Function="Pyruvate oxidase (EC 1.2.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329358" LocusId="lp_0168" Name="dhaK" Function="Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), dihydroxyacetone binding subunit DhaK" />
+          <Members vimssId="329359" LocusId="lp_0169" Name="dhaL" Function="Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), ADP-binding subunit DhaL" />
+          <Members vimssId="329360" LocusId="lp_0170" Name="dhaM" Function="Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), subunit DhaM; DHA-specific IIA component" />
+          <Members vimssId="329361" LocusId="lp_0171" Name="glpF2" Function="Glycerol uptake facilitator protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332195" LocusId="lp_3644" Name="msmX" Function="Multiple sugar ABC transporter, permease protein 2" />
+          <Members vimssId="332194" LocusId="lp_3643" Name="msmY" Function="Multiple sugar ABC transporter, permease protein 1" />
+          <Members vimssId="332193" LocusId="lp_3642" Name="msmZ" Function="Multiple sugar ABC transporter, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332117" LocusId="lp_3557" Name="araE" Function="Arabinose-proton symporter" />
+          <Members vimssId="332116" LocusId="lp_3556" Name="araB" Function="Ribulokinase (EC 2.7.1.16)" />
+          <Members vimssId="332115" LocusId="lp_3555" Name="araD" Function="L-ribulose-5-phosphate 4-epimerase (EC 5.1.3.4)" />
+          <Members vimssId="332114" LocusId="lp_3554" Name="araA" Function="L-arabinose isomerase (EC 5.3.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329381" LocusId="lp_0193" Name="nplT" Function="Neopullulanase (EC 3.2.1.135)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331689" LocusId="lp_3011" Name="bglB" Function="Beta-glucosidase (EC 3.2.1.21); 6-phospho-beta-glucosidase (EC 3.2.1.86)" />
+          <Members vimssId="331688" LocusId="lp_3010" Name="LBA0884" Function="PTS system, IIC component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331333" LocusId="lp_2544" Name="hcaD" Function="NADH peroxidase (EC 1.11.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3511</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="CcpB" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=44317" />
+      <Effector />
+      <Pathway>unknown</Pathway>
+      <LocusTag Key="lp_2602" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=331379&amp;disp=0" />
+      <BiologicalProcess>unknown</BiologicalProcess>
+      <Regulog Key="CcpB - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4592" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_2602" Name="ccpB" Position="-92" Score="5">
+          <Sequence>CTGGTACCGGTTTCAC</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="331379" LocusId="lp_2602" Name="ccpB" Function="Sugar utilization transcriptional regulator CcpB, LacI family" />
+          <Members vimssId="331378" LocusId="lp_2601" Name="ywbB" Function="Predicted sugar phosphate hydrolase, HAD superfamily" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4592</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="SorC" RegulationMode="repressor">
+      <Regulator Key="CggR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35872" />
+      <Effector>Fructose-1,6-bisphosphate</Effector>
+      <Pathway>Glycolysis</Pathway>
+      <LocusTag Key="lp_0788" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=329891&amp;disp=0" />
+      <BiologicalProcess>Glycolysis</BiologicalProcess>
+      <Regulog Key="CggR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3635" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_0788" Name="cggR" Position="1" Score="6.7">
+          <Sequence>TGCATTCAGATATTCAATGGATTGAGGCAATTGCCCC</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="329891" LocusId="lp_0788" Name="cggR" Function="Transcriptional regulator of central glycolytic gene, SorC family" />
+          <Members vimssId="329892" LocusId="lp_0789" Name="gap" Function="NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)" />
+          <Members vimssId="329893" LocusId="lp_0790" Name="pgk" Function="Phosphoglycerate kinase (EC 2.7.2.3)" />
+          <Members vimssId="329894" LocusId="lp_0791" Name="tpiA" Function="Triosephosphate isomerase (EC 5.3.1.1)" />
+          <Members vimssId="329895" LocusId="lp_0792" Name="enoA1" Function="Enolase (EC 4.2.1.11)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3635</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CopY" RegulationMode="repressor">
+      <Regulator Key="CopR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34808" />
+      <Effector>Copper ion, (Cu2+)</Effector>
+      <Pathway>Copper homeostasis</Pathway>
+      <LocusTag Key="lp_3365" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=331958&amp;disp=0" />
+      <BiologicalProcess>Copper homeostasis</BiologicalProcess>
+      <Regulog Key="CopR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3558" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_3363" Name="copB" Position="-43" Score="5.9">
+          <Sequence>TAAATTACAGATGTAGACAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3363" Name="copB" Position="-69" Score="4.7">
+          <Sequence>TCGTCTACAATTGTAAACTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3365" Name="copR" Position="-52" Score="5.2">
+          <Sequence>ACGTTTACGGTTGTAAACTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="331958" LocusId="lp_3365" Name="copR" Function="Copper transport transcriptional regulator CopR, CopY family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331957" LocusId="lp_3363" Name="copB" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3558</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CtsR" RegulationMode="repressor">
+      <Regulator Key="CtsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45272" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="lp_1018" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=330072&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="CtsR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4667" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_0786" Name="clpP" Position="-92" Score="5.8">
+          <Sequence>TTTCTTTTGACCTTCACTGACCTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2029" Name="hrcA" Position="-91" Score="5.9">
+          <Sequence>AATACTTTGTCTTTCCTTGACTTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_1903" Name="clpB" Position="-118" Score="6.5">
+          <Sequence>AAATCCTTGACCTTGTTTGACCTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_1269" Name="clpE" Position="-93" Score="-2.3">
+          <Sequence>AAGGTCAACAAAGGTCAAAGAGCC</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_1018" Name="ctsR" Position="-41" Score="-0.3">
+          <Sequence>ATAGTCAATATTAGTCAAAGATAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330072" LocusId="lp_1018" Name="ctsR" Function="Stress and heat shock response transcriptional regulator CtsR, CtsR family" />
+          <Members vimssId="330073" LocusId="lp_1019" Name="clpC" Function="ATP-dependent Clp protease ATP-binding subunit ClpC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="330284" LocusId="lp_1269" Name="clpE" Function="ATP-dependent Clp protease, ATP-binding subunit ClpE" />
+        </Operon>
+        <Operon>
+          <Members vimssId="330912" LocusId="lp_2029" Name="hrcA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="330911" LocusId="lp_2028" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="330910" LocusId="lp_2027" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="330909" LocusId="lp_2026" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329889" LocusId="lp_0786" Name="clpP" Function="ATP-dependent Clp protease proteolytic subunit (EC 3.4.21.92)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="330803" LocusId="lp_1903" Name="clpB" Function="ATP-binding subunit of Clp protease and DnaK/DnaJ chaperones" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4667</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="SorC" RegulationMode="repressor">
+      <Regulator Key="DeoR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35069" />
+      <Effector>Deoxyribose-5-phosphate</Effector>
+      <Pathway>Deoxynucleoside utilization</Pathway>
+      <LocusTag Key="lp_0495" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=329636&amp;disp=0" />
+      <BiologicalProcess>Deoxynucleoside utilization</BiologicalProcess>
+      <Regulog Key="DeoR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3578" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_0497" Name="deoC" Position="-21" Score="5.4">
+          <Sequence>AAGAAAGGGGTTTCAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="329638" LocusId="lp_0497" Name="deoC" Function="Deoxyribose-phosphate aldolase (EC 4.1.2.4)" />
+          <Members vimssId="329639" LocusId="lp_0498" Name="lp_0498" Function="Homolog of fucose/glucose/galactose permeases" />
+          <Members vimssId="329640" LocusId="lp_0499" Name="LAF_1741" Function="Conserved hypothetical protein" />
+          <Members vimssId="329641" LocusId="lp_0500" Name="rbsK1" Function="Ribokinase (EC 2.7.1.15)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3578</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator (repressor)">
+      <Regulator Key="FlpA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46998" />
+      <Effector>Oxygen</Effector>
+      <Pathway>Heavy metal resistance</Pathway>
+      <LocusTag Key="lp_3444" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=332019&amp;disp=0" />
+      <BiologicalProcess>Heavy metal resistance</BiologicalProcess>
+      <Regulog Key="FlpA - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4741" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_1442" Name="flpA" Position="-31" Score="5.3">
+          <Sequence>AAATTGACATAAATCAAGAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3435" Name="cadA" Position="-78" Score="6.1">
+          <Sequence>AACTTGACGCCTATCAAGTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3442" Name="copZ" Position="-75" Score="6">
+          <Sequence>TTCTTGACGGCCGTCAAGTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3444" Name="flpA" Position="-142" Score="6">
+          <Sequence>AACTTGACGGCCGTCAAGAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="332013" LocusId="lp_3435" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC:3.6.3.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332018" LocusId="lp_3442" Name="copZ" Function="Copper chaperone" />
+          <Members vimssId="332017" LocusId="lp_3441" Name="dps" Function="Non-specific DNA-binding protein Dps / Iron-binding ferritin-like antioxidant protein / Ferroxidase (EC 1.16.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="330413" LocusId="lp_1442" Name="flpA" Function="Heavy metal resistance transcriptional regulator FlpA, Crp family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332019" LocusId="lp_3444" Name="flpA" Function="Heavy metal resistance transcriptional regulator FlpA, Crp family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4741</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="FlrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47133" />
+      <Effector />
+      <Pathway>Drug resistance</Pathway>
+      <LocusTag Key="lp_3097" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=331760&amp;disp=0" />
+      <BiologicalProcess>Drug resistance</BiologicalProcess>
+      <Regulog Key="FlrR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4750" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_3097" Name="flrR" Position="-95" Score="6.1">
+          <Sequence>TGTTACACTTGTAACG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3098" Name="flr" Position="-47" Score="6.1">
+          <Sequence>CGTTACAAGTGTAACA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="331760" LocusId="lp_3097" Name="flrR" Function="Predicted drug resistance transcriptional regulator, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331761" LocusId="lp_3098" Name="flr" Function="putative NADPH-dependent flavonoid reductase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4750</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DeoR" RegulationMode="repressor">
+      <Regulator Key="FruR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=45220" />
+      <Effector>Fructose-6-phosphate</Effector>
+      <Pathway>Fructose utilization</Pathway>
+      <LocusTag Key="lp_2095" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=330967&amp;disp=0" />
+      <BiologicalProcess>Fructose utilization</BiologicalProcess>
+      <Regulog Key="FruR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4663" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_2095" Name="fruR" Position="-82" Score="5.2">
+          <Sequence>TGGATTATTTTGACGGTTTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2095" Name="fruR" Position="-72" Score="5.7">
+          <Sequence>TGACGGTTTTTGAAGGTTTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330967" LocusId="lp_2095" Name="fruR" Function="Fructose utilization transcriptional regulator FruR, DeoR family" />
+          <Members vimssId="330968" LocusId="lp_2096" Name="fruB" Function="1-phosphofructokinase (EC 2.7.1.56)" />
+          <Members vimssId="330969" LocusId="lp_2097" Name="fruA" Function="Fructose-specific PTS, EIIABC component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4663</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="GalR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42189" />
+      <Effector>Galactose</Effector>
+      <Pathway>Galactosides utilization; Galactose utilization</Pathway>
+      <LocusTag Key="lp_3488" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=332054&amp;disp=0" />
+      <BiologicalProcess>Galactosides utilization; Galactose utilization</BiologicalProcess>
+      <Regulog Key="GalR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4351" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_3486" Name="lacS2" Position="-88" Score="5.7">
+          <Sequence>CAAATTTTACTAAAAATCA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3483" Name="lacL" Position="-266" Score="5.9">
+          <Sequence>ATAGTTTTACTAAAATTTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3482" Name="galK" Position="-36" Score="6">
+          <Sequence>AAAATTTTAGTAAAACTAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="332049" LocusId="lp_3483" Name="lacL" Function="Beta-galactosidase large subunit (EC 3.2.1.23)" />
+          <Members vimssId="332050" LocusId="lp_3484" Name="lacM" Function="Beta-galactosidase small subunit (EC 3.2.1.23)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332052" LocusId="lp_3486" Name="lacS2" Function="Lactose and galactose permease, GPH translocator family" />
+          <Members vimssId="332051" LocusId="lp_3485" Name="melA" Function="Alpha-galactosidase (EC 3.2.1.22)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332048" LocusId="lp_3482" Name="galK" Function="Galactokinase (EC 2.7.1.6)" />
+          <Members vimssId="332047" LocusId="lp_3481" Name="galE" Function="UDP-glucose 4-epimerase (EC 5.1.3.2)" />
+          <Members vimssId="332046" LocusId="lp_3480" Name="galT" Function="Galactose-1-phosphate uridylyltransferase (EC 2.7.7.10)" />
+          <Members vimssId="332045" LocusId="lp_3479" Name="galR" Function="Galactose utilization transcriptional regulator GalR, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4351</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="GlnR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35351" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="lp_1580" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=330534&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="GlnR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3600" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_0802" Name="glnP" Position="-54" Score="5.5">
+          <Sequence>ATGTTATATTTTATGACAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0349" Name="nrgA" Position="-46" Score="6.2">
+          <Sequence>ATGTTATAATTTCTAACAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2830" Name="ansB" Position="-44" Score="5.6">
+          <Sequence>ATGTTAGAAGATATAACAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_1580" Name="glnR" Position="-82" Score="5.4">
+          <Sequence>GTGTGATATTTTCTAACAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="331556" LocusId="lp_2830" Name="ansB" Function="Aspartate ammonia-lyase (EC 4.3.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329903" LocusId="lp_0802" Name="glnP" Function="Glutamine ABC transporter, permease and substrate-binding protein" />
+          <Members vimssId="329904" LocusId="lp_0803" Name="glnQ" Function="Glutamine ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329516" LocusId="lp_0349" Name="nrgA" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="330534" LocusId="lp_1580" Name="glnR" Function="Nitrogen metabolism transcriptional regulator, MerR family" />
+          <Members vimssId="330535" LocusId="lp_1581" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3600</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="">
+      <Regulator Key="GntR1" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46773" />
+      <Effector>Gluconate</Effector>
+      <Pathway>Gluconate utilization</Pathway>
+      <LocusTag Key="lp_1157" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=330184&amp;disp=0" />
+      <BiologicalProcess>Gluconate utilization</BiologicalProcess>
+      <Regulog Key="GntR1 - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4725" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_1251" Name="gntZ" Position="-109" Score="6">
+          <Sequence>AATGAAAATAATTTACAAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_1251" Name="gntZ" Position="-77" Score="5.1">
+          <Sequence>TATGTAAATAGTTTTATTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330269" LocusId="lp_1251" Name="gntZ" Function="6-phosphogluconate dehydrogenase, decarboxylating (EC 1.1.1.44)" />
+          <Members vimssId="330268" LocusId="lp_1250" Name="gntK" Function="Gluconokinase (EC 2.7.1.12)" />
+          <Members vimssId="330267" LocusId="lp_1249" Name="gntP" Function="H+/gluconate symporter related permease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4725</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BglG" RegulationMode="activator">
+      <Regulator Key="GutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=44670" />
+      <Effector>HPr, phosphocarrier protein; GutB, sorbitol-specific PTS EIIB component</Effector>
+      <Pathway>Sorbitol utilization</Pathway>
+      <LocusTag Key="lp_3622" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=332176&amp;disp=0" />
+      <BiologicalProcess>Sorbitol utilization</BiologicalProcess>
+      <Regulog Key="GutR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4618" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_3623" Name="gutF" Position="-98" Score="7.6">
+          <Sequence>TTTTCG---------GGAAAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3657" Name="gutF" Position="-39" Score="7.1">
+          <Sequence>TTATCT---------AGAAAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="332207" LocusId="lp_3657" Name="gutF" Function="Sorbitol-6-phosphate 2-dehydrogenase (EC 1.1.1.140)" />
+          <Members vimssId="332206" LocusId="lp_3656" Name="gutR" Function="Sorbitol utilization transcriptional regulator GutR, BglG family" />
+          <Members vimssId="332205" LocusId="lp_3655" Name="gutM" Function="Glucitol operon activator protein" />
+          <Members vimssId="332204" LocusId="lp_3654" Name="gutC" Function="Sorbitol-specific PTS, EIIC component (EC 2.7.1.69)" />
+          <Members vimssId="332203" LocusId="lp_3653" Name="gutB" Function="Sorbitol-specific PTS, EIIB component (EC 2.7.1.69)" />
+          <Members vimssId="332202" LocusId="lp_3652" Name="gutA" Function="Sorbitol-specific PTS, EIIA component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332177" LocusId="lp_3623" Name="gutF" Function="Sorbitol-6-phosphate 2-dehydrogenase (EC 1.1.1.140)" />
+          <Members vimssId="332176" LocusId="lp_3622" Name="gutR" Function="Sorbitol utilization transcriptional regulator GutR, BglG family" />
+          <Members vimssId="332175" LocusId="lp_3621" Name="gutM" Function="Glucitol operon activator protein" />
+          <Members vimssId="332174" LocusId="lp_3620" Name="gutC" Function="Sorbitol-specific PTS, EIIC component (EC 2.7.1.69)" />
+          <Members vimssId="332173" LocusId="lp_3619" Name="gutB" Function="Sorbitol-specific PTS, EIIB component (EC 2.7.1.69)" />
+          <Members vimssId="332172" LocusId="lp_3618" Name="gutA" Function="Sorbitol-specific PTS, EIIA component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4618</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42204" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="lp_2029" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=330912&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4352" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_2029" Name="hrcA" Position="-191" Score="7.1">
+          <Sequence>TTAGCACTCGTAAGTAAGGAGTGCTAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0129" Name="hsp" Position="-149" Score="7.5">
+          <Sequence>TTAGCACTCGAGTTAAACGAGTGCTAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0727" Name="groS" Position="-51" Score="6.4">
+          <Sequence>TTAGCACTTGAGGTTGAGGAGTGCTAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2029" Name="hrcA" Position="-36" Score="6.7">
+          <Sequence>TTAGCACTCCATTAAGTTAAGTGCTAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330912" LocusId="lp_2029" Name="hrcA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="330911" LocusId="lp_2028" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="330910" LocusId="lp_2027" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="330909" LocusId="lp_2026" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329840" LocusId="lp_0727" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="329841" LocusId="lp_0728" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329327" LocusId="lp_0129" Name="hsp" Function="Small heat shock protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4352</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="LacR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=44366" />
+      <Effector>Lactose</Effector>
+      <Pathway>Lactose utilization</Pathway>
+      <LocusTag Key="lp_3470" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=332037&amp;disp=0" />
+      <BiologicalProcess>Lactose utilization</BiologicalProcess>
+      <Regulog Key="LacR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4596" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_3469" Name="lacZ" Position="-108" Score="5.6">
+          <Sequence>GATATTTAGTAATTATT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3470" Name="lacR" Position="-155" Score="5.6">
+          <Sequence>AATAATTACTAAATATC</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="332037" LocusId="lp_3470" Name="lacR" Function="Lactose utilization transcriptional regulator, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332036" LocusId="lp_3469" Name="lacZ" Function="Beta-galactosidase (EC 3.2.1.23)" />
+          <Members vimssId="332035" LocusId="lp_3468" Name="lacS" Function="Lactose and galactose permease, GPH translocator family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4596</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46369" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="lp_2063" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=330944&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4690" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_1840" Name="parE" Position="-185" Score="4.9">
+          <Sequence>GCGAACGTGTGTTTGC</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2301" Name="recA" Position="-90" Score="4.8">
+          <Sequence>ACGAACTTTTGTTCGC</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0308" Name="srmB" Position="-52" Score="4.6">
+          <Sequence>ACGAACAGATGTTTTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3023" Name="umuC" Position="-192" Score="4.9">
+          <Sequence>AAGAACATATGTTCTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2694" Name="addB" Position="-32" Score="4.3">
+          <Sequence>GAGAACGTTTGTTCAG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2280" Name="dinP" Position="-85" Score="4.8">
+          <Sequence>TTGAACGTATGTTCGT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0772" Name="uvrB" Position="-146" Score="5">
+          <Sequence>GCGAAAGTATGTTCGA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_1899" Name="dnaE" Position="-191" Score="4.3">
+          <Sequence>TAGAACAACTGTTTGG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2063" Name="lexA" Position="-81" Score="5">
+          <Sequence>CCGAACATTTGTTTGA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="329878" LocusId="lp_0772" Name="uvrB" Function="Excinuclease ABC, subunit B" />
+          <Members vimssId="329879" LocusId="lp_0773" Name="uvrA" Function="Excinuclease ABC, subunit A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331445" LocusId="lp_2694" Name="addB" Function="ATP-dependent nuclease, subunit B" />
+          <Members vimssId="331444" LocusId="lp_2693" Name="addA" Function="ATP-dependent nuclease, subunit A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="330944" LocusId="lp_2063" Name="lexA" Function="SOS-response regulator and protease LexA, LexA family (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="330800" LocusId="lp_1899" Name="dnaE" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331137" LocusId="lp_2301" Name="recA" Function="DNA recombinase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="330751" LocusId="lp_1840" Name="parE" Function="Topoisomerase IV subunit B (EC 5.99.1.-)" />
+          <Members vimssId="330750" LocusId="lp_1839" Name="parC" Function="Topoisomerase IV subunit A (EC 5.99.1.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331701" LocusId="lp_3023" Name="umuC" Function="UV-damage repair protein" />
+          <Members vimssId="331700" LocusId="lp_3022" Name="lp_3022" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329480" LocusId="lp_0308" Name="srmB" Function="DinG family ATP-dependent helicase" />
+          <Members vimssId="329479" LocusId="lp_0307" Name="lp_0307" Function="Conserved hypothetical protein" />
+          <Members vimssId="329478" LocusId="lp_0306" Name="lp_0306" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331124" LocusId="lp_2280" Name="dinP" Function="DNA polymerase IV (EC 2.7.7.7)" />
+          <Members vimssId="331123" LocusId="lp_2279" Name="nrnA" Function="3'-to-5' oligoribonuclease A" />
+          <Members vimssId="331122" LocusId="lp_2278" Name="rheB" Function="Putative ATP-dependent DNA/RNA helicase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4690</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="Lp_2742" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46684" />
+      <Effector />
+      <Pathway>Multidrug efflux; Multidrug resistance</Pathway>
+      <LocusTag Key="lp_2742" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=331484&amp;disp=0" />
+      <BiologicalProcess>Multidrug efflux; Multidrug resistance</BiologicalProcess>
+      <Regulog Key="Lp_2742 - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4718" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_2739" Name="lp_2739" Position="-59" Score="6.8">
+          <Sequence>TTAGTTACATAAGTAATTAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="331481" LocusId="lp_2739" Name="lp_2739" Function="Predicted antimicrobial peptide ABC transporter, ATP-binding protein" />
+          <Members vimssId="331482" LocusId="lp_2740" Name="lp_2740" Function="Predicted antimicrobial peptide ABC transporter, permease protein" />
+          <Members vimssId="331483" LocusId="lp_2741" Name="lp_2741" Function="Predicted integral membrane protein" />
+          <Members vimssId="331484" LocusId="lp_2742" Name="lp_2742" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="331485" LocusId="lp_2743" Name="lp_2743" Function="ABC-type multidrug transport system, ATPase component" />
+          <Members vimssId="331486" LocusId="lp_2744" Name="lp_2744" Function="ABC-type multidrug transport system, permease component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4718</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="Lp_3221" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=44140" />
+      <Effector />
+      <Pathway>Sugar utilization</Pathway>
+      <LocusTag Key="lp_3221" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=331851&amp;disp=0" />
+      <BiologicalProcess>Sugar utilization</BiologicalProcess>
+      <Regulog Key="Lp_3221 - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4569" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_3220" Name="agl4" Position="-35" Score="6.4">
+          <Sequence>AAGTGGAATCGATTCCAAAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3221" Name="lp_3221" Position="-36" Score="6.2">
+          <Sequence>TTATGGAAACGATTCCAAAC</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="331850" LocusId="lp_3220" Name="agl4" Function="Oligo-1,6-glucosidase" />
+          <Members vimssId="331849" LocusId="lp_3219" Name="scrT" Function="PTS system, sucrose-specific IIABC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331851" LocusId="lp_3221" Name="lp_3221" Function="Predicted sugar utilization transcriptional regulator, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4569</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="MalR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35039" />
+      <Effector>Maltose</Effector>
+      <Pathway>Maltose utilization; Maltodextrin utilization</Pathway>
+      <LocusTag Key="lp_0172" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=329362&amp;disp=0" />
+      <BiologicalProcess>Maltose utilization; Maltodextrin utilization</BiologicalProcess>
+      <Regulog Key="MalR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3576" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_1729" Name="malT" Position="-87" Score="6.3">
+          <Sequence>TCACGCAAACGCTTGCATAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0175" Name="malX" Position="-86" Score="6">
+          <Sequence>TTACGAAAACGCTTGCGAAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0175" Name="malX" Position="-74" Score="4.9">
+          <Sequence>TTGCGAAAGCGTTTGCACAG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0172" Name="malR" Position="-77" Score="6.2">
+          <Sequence>TTATGCAATCGCTTGCAATA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="329365" LocusId="lp_0175" Name="malX" Function="Maltose/maltodextrin ABC transporter, substrate-binding protein" />
+          <Members vimssId="329366" LocusId="lp_0176" Name="malC" Function="Maltose/maltodextrin ABC transporter, permease protein 1" />
+          <Members vimssId="329367" LocusId="lp_0177" Name="malD" Function="Maltose/maltodextrin ABC transporter, permease protein 2" />
+          <Members vimssId="329368" LocusId="lp_0178" Name="malA" Function="Maltodextrose utilization protein MalA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329362" LocusId="lp_0172" Name="malR" Function="Maltose utilization transcriptional regulator MalR, LacI family" />
+          <Members vimssId="329363" LocusId="lp_0173" Name="mdxR" Function="Maltose/maltodextrin utilization transcriptional repressor MdxR, LacI family" />
+          <Members vimssId="329364" LocusId="lp_0174" Name="agl1" Function="Oligo-1,6-glucosidase (EC 3.2.1.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="330660" LocusId="lp_1729" Name="malT" Function="Predicted maltose/maltodextrin permease" />
+          <Members vimssId="330661" LocusId="lp_1730" Name="mapA" Function="Maltose phosphorylase (EC 2.4.1.8) / Trehalose phosphorylase (EC 2.4.1.64)" />
+          <Members vimssId="330662" LocusId="lp_1731" Name="galM" Function="Aldose 1-epimerase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3576</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="MalR3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=44535" />
+      <Effector>Maltose</Effector>
+      <Pathway>Maltose utilization; Maltodextrin utilization</Pathway>
+      <LocusTag Key="lp_3531" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=332094&amp;disp=0" />
+      <BiologicalProcess>Maltose utilization; Maltodextrin utilization</BiologicalProcess>
+      <Regulog Key="MalR3 - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4609" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_3627" Name="nplT" Position="-52" Score="6.3">
+          <Sequence>TTAAGCAAACGTTTGCTTAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2757" Name="nplT" Position="-34" Score="5.5">
+          <Sequence>TAATGTAATCGTTTACATAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3533" Name="malT2" Position="-106" Score="5.5">
+          <Sequence>AAGTGTAAACGTTTACTTTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3533" Name="malT2" Position="-74" Score="5.8">
+          <Sequence>TATTGTAAACGTTTACGTTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3531" Name="malR3" Position="-115" Score="5.8">
+          <Sequence>TAACGTAAACGTTTACAATA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3531" Name="malR3" Position="-83" Score="5.5">
+          <Sequence>TAAAGTAAACGTTTACACTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="331495" LocusId="lp_2757" Name="nplT" Function="Neopullulanase (EC 3.2.1.135)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332094" LocusId="lp_3531" Name="malR3" Function="Predicted maltodextrin utilization transcriptional regulator MalR3, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332095" LocusId="lp_3533" Name="malT2" Function="Predicted maltose/maltodextrin permease" />
+          <Members vimssId="332096" LocusId="lp_3534" Name="agl" Function="Alpha-glucosidase (EC 3.2.1.20)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332180" LocusId="lp_3627" Name="nplT" Function="Neopullulanase (EC 3.2.1.135)" />
+          <Members vimssId="332179" LocusId="lp_3626" Name="malT2" Function="Predicted maltose/maltodextrin permease" />
+          <Members vimssId="332178" LocusId="lp_3625" Name="malR3" Function="Predicted maltodextrin utilization transcriptional regulator MalR3, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4609</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="activator">
+      <Regulator Key="MdxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=44471" />
+      <Effector>Maltose</Effector>
+      <Pathway>Maltose utilization; Maltodextrin utilization</Pathway>
+      <LocusTag Key="lp_0173" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=329363&amp;disp=0" />
+      <BiologicalProcess>Maltose utilization; Maltodextrin utilization</BiologicalProcess>
+      <Regulog Key="MdxR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4604" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_2757" Name="nplT" Position="-34" Score="5.8">
+          <Sequence>TAATGTAATCGTTTACATAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0175" Name="malX" Position="-103" Score="6.3">
+          <Sequence>TTCTGTTAACGTTAACATTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="331495" LocusId="lp_2757" Name="nplT" Function="Neopullulanase (EC 3.2.1.135)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329365" LocusId="lp_0175" Name="malX" Function="Maltose/maltodextrin ABC transporter, substrate-binding protein" />
+          <Members vimssId="329366" LocusId="lp_0176" Name="malC" Function="Maltose/maltodextrin ABC transporter, permease protein 1" />
+          <Members vimssId="329367" LocusId="lp_0177" Name="malD" Function="Maltose/maltodextrin ABC transporter, permease protein 2" />
+          <Members vimssId="329368" LocusId="lp_0178" Name="malA" Function="Maltodextrose utilization protein MalA" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4604</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="activator">
+      <Regulator Key="MleR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46908" />
+      <Effector>L-malate</Effector>
+      <Pathway>Malate utilization</Pathway>
+      <LocusTag Key="lp_1116" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=330154&amp;disp=0" />
+      <BiologicalProcess>Malate utilization</BiologicalProcess>
+      <Regulog Key="MleR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4734" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_1118" Name="mleS" Position="-138" Score="5.4">
+          <Sequence>TATTTAATATATTTATA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_1116" Name="mleR" Position="-53" Score="5.4">
+          <Sequence>TATAAATATATTAAATA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330154" LocusId="lp_1116" Name="mleR" Function="Malate utilization transcrtional regulator MleR, LysR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="330155" LocusId="lp_1118" Name="mleS" Function="Malolactic enzyme" />
+          <Members vimssId="330156" LocusId="lp_1119" Name="mleP" Function="L-malate permease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4734</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="MntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38190" />
+      <Effector>Manganese ion, (Mn2+)</Effector>
+      <Pathway>Manganese homeostasis</Pathway>
+      <LocusTag Key="lp_0996" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=330058&amp;disp=0" />
+      <BiologicalProcess>Manganese homeostasis</BiologicalProcess>
+      <Regulog Key="MntR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3884" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_1095" Name="mntC" Position="-82" Score="5.2">
+          <Sequence>AAGTTAACTGCACCTAACAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2992" Name="mntH" Position="-98" Score="5.3">
+          <Sequence>TTTGTAGGCATACCTAAAAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330136" LocusId="lp_1095" Name="mntC" Function="Manganese ABC transporter, permease protein" />
+          <Members vimssId="330137" LocusId="lp_1096" Name="mntB" Function="Manganese ABC transporter, ATP-binding protein" />
+          <Members vimssId="330138" LocusId="lp_1097" Name="mntA" Function="Manganese ABC transporter, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331675" LocusId="lp_2992" Name="mntH" Function="Manganese transport protein MntH" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3884</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor">
+      <Regulator Key="MtaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42249" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="lp_1857" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=330764&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MtaR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4355" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_1856" Name="yxjH" Position="-104" Score="6.3">
+          <Sequence>TATAGGTATTGCCTATT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_1857" Name="mtaR" Position="-102" Score="6.3">
+          <Sequence>AATAGGCAATACCTATA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330763" LocusId="lp_1856" Name="yxjH" Function="Methionine synthase II (cobalamin-independent)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="330764" LocusId="lp_1857" Name="mtaR" Function="Methionine metabolism transcriptional regulator MtaR, LysR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4355</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BglG" RegulationMode="activator">
+      <Regulator Key="MtlR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=44961" />
+      <Effector>HPr, phosphocarrier protein; MtlA, mannitol-specific enzyme IICB PTS component</Effector>
+      <Pathway>Mannitol utilization</Pathway>
+      <LocusTag Key="lp_0231" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=329411&amp;disp=0" />
+      <BiologicalProcess>Mannitol utilization</BiologicalProcess>
+      <Regulog Key="MtlR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4641" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_0230" Name="mtlA" Position="-104" Score="6.7">
+          <Sequence>TGTGGCACAGTTTCCTGTGCCACG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="329410" LocusId="lp_0230" Name="mtlA" Function="PTS system, mannitol-specific IIB component (EC 2.7.1.69) / PTS system, mannitol-specific IIC component (EC 2.7.1.69)" />
+          <Members vimssId="329411" LocusId="lp_0231" Name="mtlR" Function="Mannitol utilization transcription activator MtlR, BglG family" />
+          <Members vimssId="329412" LocusId="lp_0232" Name="mtlF" Function="PTS system, mannitol-specific IIA component (EC 2.7.1.69)" />
+          <Members vimssId="329413" LocusId="lp_0233" Name="mtlD" Function="Mannitol-1-phosphate 5-dehydrogenase (EC 1.1.1.17)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4641</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="">
+      <Regulator Key="MurR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38583" />
+      <Effector>N-acetylmuramate-6-phosphate</Effector>
+      <Pathway>N-acetylmuramate utilization</Pathway>
+      <LocusTag Key="lp_3521" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=332085&amp;disp=0" />
+      <BiologicalProcess>N-acetylmuramate utilization</BiologicalProcess>
+      <Regulog Key="MurR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3940" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_3524" Name="murX" Position="-110" Score="5.5">
+          <Sequence>AAGTAATTTAGTTTCTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="332088" LocusId="lp_3524" Name="murX" Function="Predicted outer membrane protein" />
+          <Members vimssId="332087" LocusId="lp_3523" Name="murQ" Function="N-acetylmuramic acid 6-phosphate etherase (EC 4.2.-.-)" />
+          <Members vimssId="332086" LocusId="lp_3522" Name="murP" Function="MurNAc-specific PTS system, EIIBC component" />
+          <Members vimssId="332085" LocusId="lp_3521" Name="murR" Function="N-acetylmuramate utilization transcriptional regulator MurR, RpiR family" />
+          <Members vimssId="332084" LocusId="lp_3520" Name="murO" Function="MurNAc-specific PTS system, EIIBA component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3940</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="NagR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63169" />
+      <Effector>N-acetylglucosamine-6-phosphate</Effector>
+      <Pathway>N-acetylglucosamine utilization</Pathway>
+      <LocusTag Key="lp_0563" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=329695&amp;disp=0" />
+      <BiologicalProcess>N-acetylglucosamine utilization</BiologicalProcess>
+      <Regulog Key="NagR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6513" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_0562" Name="nagA" Position="-55" Score="5.2">
+          <Sequence>AGTTTGGTCTATACCGATTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0822" Name="glmS" Position="-213" Score="4.1">
+          <Sequence>AGGTTAGACTAGACCAATTG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2531" Name="nagE" Position="-100" Score="4.2">
+          <Sequence>ACATTGGTCTATACACTTAG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2969" Name="nagE" Position="-97" Score="5">
+          <Sequence>CCAATGGACTATACCAATAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0226" Name="nagB" Position="-60" Score="5.4">
+          <Sequence>ATTTTAGTCTAGACCAATAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0226" Name="nagB" Position="-39" Score="4.8">
+          <Sequence>CAATTGGACTATACCAAACA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="329408" LocusId="lp_0226" Name="nagB" Function="Glucosamine-6-phosphate deaminase (EC 3.5.99.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331323" LocusId="lp_2531" Name="nagE" Function="N-acetylglucosamine and glucose PTS, EIICBA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331658" LocusId="lp_2969" Name="nagE" Function="N-acetylglucosamine and glucose PTS, EIICBA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329694" LocusId="lp_0562" Name="nagA" Function="N-acetylglucosamine-6-phosphate deacetylase (EC 3.5.1.25)" />
+          <Members vimssId="329695" LocusId="lp_0563" Name="nagR" Function="Transcriptional regulator of N-Acetylglucosamine utilization, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329921" LocusId="lp_0822" Name="glmS" Function="Glucosamine--fructose-6-phosphate aminotransferase [isomerizing] (EC 2.6.1.16)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6513</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NiaR" RegulationMode="repressor">
+      <Regulator Key="NiaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34215" />
+      <Effector>Niacin</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="lp_2770" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=331507&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NiaR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3497" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_2770" Name="niaR" Position="-121" Score="5.8">
+          <Sequence>TTTAGATGTCTTGACACCTATG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2771" Name="pncB" Position="-46" Score="5.8">
+          <Sequence>CATAGGTGTCAAGACATCTAAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="331507" LocusId="lp_2770" Name="niaR" Function="NAD biosynthesis transcription regulator, HTH_11 family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331508" LocusId="lp_2771" Name="pncB" Function="Nicotinate phosphoribosyltransferase (EC 2.4.2.11)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3497</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="NihR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47013" />
+      <Effector />
+      <Pathway>Nickel homeostasis</Pathway>
+      <LocusTag Key="lp_0103" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=329306&amp;disp=0" />
+      <BiologicalProcess>Nickel homeostasis</BiologicalProcess>
+      <Regulog Key="NihR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4742" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_0103" Name="nihR" Position="-148" Score="4.8">
+          <Sequence>GTTAACAAATGTATAC</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0104" Name="PF09861" Position="-120" Score="4.8">
+          <Sequence>GTATACATTTGTTAAC</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="329307" LocusId="lp_0104" Name="PF09861" Function="Conserved hypothetical protein, PF09861 family" />
+          <Members vimssId="329308" LocusId="lp_0105" Name="PF00731" Function="Predicted enzyme, PF00731 family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329306" LocusId="lp_0103" Name="nihR" Function="Predicted transcriptional regulator for nickel homeostasis, Crp family" />
+          <Members vimssId="329305" LocusId="lp_0102" Name="nikM" Function="Nickel ECF transporter, substrate-binding protein" />
+          <Members vimssId="329304" LocusId="lp_0101" Name="nikQ" Function="Nickel ECF transporter, transmembrane component" />
+          <Members vimssId="329303" LocusId="lp_0100" Name="nikO" Function="Nickel ECF transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4742</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42279" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="lp_1511" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=330475&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4357" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_1329" Name="dgk2" Position="-72" Score="3.9">
+          <Sequence>AAAGTCTATATGGTAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0694" Name="nrdH" Position="-86" Score="4.6">
+          <Sequence>ACCCTAGATGTTGTGT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_1329" Name="dgk2" Position="-40" Score="5.1">
+          <Sequence>ATACAATATATTGTGC</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_1011" Name="dgk1" Position="-99" Score="4.4">
+          <Sequence>TCACCAGATATTGCAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_1011" Name="dgk1" Position="-67" Score="5">
+          <Sequence>GTACAATATGTAGTGT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2932" Name="nrdD" Position="-49" Score="4.4">
+          <Sequence>GCACTATCAATTGTAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2932" Name="nrdD" Position="-80" Score="5.5">
+          <Sequence>CTACTATATATAGTAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0259" Name="pnuN" Position="-108" Score="5.7">
+          <Sequence>ATACAATATATTGTGT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0259" Name="pnuN" Position="-78" Score="4.8">
+          <Sequence>ACACTACATGTAGTAG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0694" Name="nrdH" Position="-54" Score="4.7">
+          <Sequence>TCACCACATGTTGTAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="331632" LocusId="lp_2932" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+          <Members vimssId="331631" LocusId="lp_2931" Name="nrdG" Function="Ribonucleotide reductase of class III (anaerobic), activating protein (EC 1.97.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329813" LocusId="lp_0694" Name="nrdH" Function="Glutaredoxin-like protein NrdH" />
+          <Members vimssId="329812" LocusId="lp_0693" Name="nrdE" Function="Ribonucleotide reductase of class Ib (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="329811" LocusId="lp_0692" Name="nrdF" Function="Ribonucleotide reductase of class Ib (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329435" LocusId="lp_0259" Name="pnuN" Function="NrdR-regulated deoxyribonucleotide transporter, PnuC-like" />
+        </Operon>
+        <Operon>
+          <Members vimssId="330070" LocusId="lp_1011" Name="dgk1" Function="Deoxyadenosine kinase (EC 2.7.1.76) / Deoxyguanosine kinase (EC 2.7.1.113)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="330327" LocusId="lp_1329" Name="dgk2" Function="Deoxyadenosine kinase (EC 2.7.1.76) / Deoxyguanosine kinase (EC 2.7.1.113)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4357</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrtR" RegulationMode="">
+      <Regulator Key="NrtR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35709" />
+      <Effector>Adenosine diphosphate ribose</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="lp_2515" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=331311&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NrtR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3624" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_2514" Name="niaP" Position="-61" Score="5.8">
+          <Sequence>TAAAGGTAAAAAATACCTAAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="331310" LocusId="lp_2514" Name="niaP" Function="Niacin transporter NiaP" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3624</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="PadR" RegulationMode="repressor">
+      <Regulator Key="PadR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35724" />
+      <Effector>p-Coumaric acid; Ferulic acid</Effector>
+      <Pathway>Phenolic acid stress response</Pathway>
+      <LocusTag Key="lp_3079" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=331745&amp;disp=0" />
+      <BiologicalProcess>Phenolic acid stress response</BiologicalProcess>
+      <Regulog Key="PadR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3625" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_3664" Name="padR" Position="-80" Score="6.9">
+          <Sequence>AATCATGTAATTTATTACATGTTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3665" Name="padC" Position="-59" Score="7.5">
+          <Sequence>AAACATGTAATAAATTACATGATT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="332215" LocusId="lp_3665" Name="padC" Function="Phenolic acid decarboxylase (EC 4.1.1.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332214" LocusId="lp_3664" Name="padR" Function="Phenolic acid stress response transcriptional regulator PadR, PadR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3625</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="PerR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35827" />
+      <Effector>Iron ion, (Fe2+); Manganese ion, (Mn2+); Hydrogen peroxide</Effector>
+      <Pathway>Manganese homeostasis; Oxidative stress response; Iron homeostasis</Pathway>
+      <LocusTag Key="lp_3247" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=331873&amp;disp=0" />
+      <BiologicalProcess>Manganese homeostasis; Oxidative stress response; Iron homeostasis</BiologicalProcess>
+      <Regulog Key="PerR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3632" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_2544" Name="npr" Position="-95" Score="5.1">
+          <Sequence>TTAGAATAATTACAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3327" Name="cadA" Position="-93" Score="5.4">
+          <Sequence>TTAGAATCATTCTTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3247" Name="perR" Position="-63" Score="4.8">
+          <Sequence>TTGGAATCCTTCTAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3247" Name="perR" Position="-79" Score="5">
+          <Sequence>TAGTAATGTTTCTAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3225" Name="ybbL" Position="-36" Score="6">
+          <Sequence>TTATAATGATTCTAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3360" Name="pcl2" Position="-37" Score="5.6">
+          <Sequence>TAATAATGATTATAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0355" Name="cueO" Position="-88" Score="5.6">
+          <Sequence>TTAAAATAATTCTAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="329521" LocusId="lp_0355" Name="cueO" Function="Predicted copper oxidase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331955" LocusId="lp_3360" Name="pcl2" Function="Predicted membrane protein" />
+          <Members vimssId="331954" LocusId="lp_3359" Name="pcl1" Function="Predicted membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331333" LocusId="lp_2544" Name="npr" Function="NADH peroxidase (EC 1.11.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331855" LocusId="lp_3225" Name="ybbL" Function="Predicted ABC transporter, ATP-binding protein" />
+          <Members vimssId="331854" LocusId="lp_3224" Name="ybbM" Function="Predicted ABC transporter, permease protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331930" LocusId="lp_3327" Name="cadA" Function="Predicted cation-transporting ATP-ase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331873" LocusId="lp_3247" Name="perR" Function="Peroxide stress response transcriptional regulator PerR, Fur family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3632</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DeoR" RegulationMode="repressor">
+      <Regulator Key="PflR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=35454" />
+      <Effector />
+      <Pathway>Formate metabolism</Pathway>
+      <LocusTag Key="lp_2597" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=331374&amp;disp=0" />
+      <BiologicalProcess>Formate metabolism</BiologicalProcess>
+      <Regulog Key="PflR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3607" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_2596" Name="pflA" Position="-84" Score="5.7">
+          <Sequence>TACTTTCGTTTGAAATTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2597" Name="pflR" Position="-69" Score="5.4">
+          <Sequence>TAATTTCAAACGAAAGTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2598" Name="pflB" Position="-47" Score="5.7">
+          <Sequence>TTATTACGTAAGAAAGTC</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="331373" LocusId="lp_2596" Name="pflA" Function="Pyruvate formate-lyase activating enzyme (EC 1.97.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331374" LocusId="lp_2597" Name="pflR" Function="Pyruvate-formate lyase operon transcriptional regulator, DeoR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331375" LocusId="lp_2598" Name="pflB" Function="Pyruvate formate-lyase (EC 2.3.1.54)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3607</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="PurR" RegulationMode="repressor">
+      <Regulator Key="PurR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38127" />
+      <Effector>5-phosphoribosyl 1-pyrophosphate</Effector>
+      <Pathway>Purine metabolism</Pathway>
+      <LocusTag Key="lp_0466" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=329614&amp;disp=0" />
+      <BiologicalProcess>Purine metabolism</BiologicalProcess>
+      <Regulog Key="PurR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3863" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_3269" Name="purB" Position="-201" Score="4.3">
+          <Sequence>AAAACCGAATGTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2729" Name="purE" Position="-104" Score="5">
+          <Sequence>TAACACGAACATT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0848" Name="pbuG" Position="-57" Score="5.3">
+          <Sequence>AAACACGAACGTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0466" Name="purR" Position="12" Score="4.3">
+          <Sequence>AGAAGCGAACGTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3270" Name="purA" Position="-135" Score="5.1">
+          <Sequence>AAACAAGAACATT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3270" Name="purA" Position="-239" Score="4.5">
+          <Sequence>AGAGACGAACAAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3270" Name="purA" Position="-280" Score="5.6">
+          <Sequence>AAACACGAACATT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="331473" LocusId="lp_2729" Name="purE" Function="Phosphoribosylaminoimidazole carboxylase catalytic subunit (EC 4.1.1.21)" />
+          <Members vimssId="331472" LocusId="lp_2728" Name="purK" Function="Phosphoribosylaminoimidazole carboxylase ATPase subunit (EC 4.1.1.21)" />
+          <Members vimssId="331471" LocusId="lp_2727" Name="purC" Function="Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6)" />
+          <Members vimssId="331470" LocusId="lp_2726" Name="purS" Function="Phosphoribosylformylglycinamidine synthase, PurS subunit (EC 6.3.5.3)" />
+          <Members vimssId="331469" LocusId="lp_2725" Name="purQ" Function="Phosphoribosylformylglycinamidine synthase, glutamine amidotransferase subunit (EC 6.3.5.3)" />
+          <Members vimssId="331468" LocusId="lp_2724" Name="purL" Function="Phosphoribosylformylglycinamidine synthase, synthetase subunit (EC 6.3.5.3)" />
+          <Members vimssId="331467" LocusId="lp_2723" Name="purF" Function="Amidophosphoribosyltransferase (EC 2.4.2.14)" />
+          <Members vimssId="331466" LocusId="lp_2722" Name="purM" Function="Phosphoribosylformylglycinamidine cyclo-ligase (EC 6.3.3.1)" />
+          <Members vimssId="331465" LocusId="lp_2721" Name="purN" Function="Phosphoribosylglycinamide formyltransferase (EC 2.1.2.2)" />
+          <Members vimssId="331464" LocusId="lp_2720" Name="purH" Function="IMP cyclohydrolase (EC 3.5.4.10) / Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3)" />
+          <Members vimssId="331463" LocusId="lp_2719" Name="purD" Function="Phosphoribosylamine--glycine ligase (EC 6.3.4.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331888" LocusId="lp_3269" Name="purB" Function="Adenylosuccinate lyase (EC 4.3.2.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331889" LocusId="lp_3270" Name="purA" Function="Adenylosuccinate synthetase (EC 6.3.4.4)" />
+          <Members vimssId="331890" LocusId="lp_3271" Name="guaC" Function="GMP reductase (EC 1.7.1.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329941" LocusId="lp_0848" Name="pbuG" Function="Guanine/hypoxanthine permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329614" LocusId="lp_0466" Name="purR" Function="Purine metabolism transcriptional regulator PurR, PurR family" />
+          <Members vimssId="329615" LocusId="lp_0467" Name="glmU" Function="N-acetylglucosamine-1-phosphate uridyltransferase (EC 2.7.7.23) / Glucosamine-1-phosphate N-acetyltransferase (EC 2.3.1.157)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3863</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="RbsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38651" />
+      <Effector>Ribose</Effector>
+      <Pathway>Ribose utilization</Pathway>
+      <LocusTag Key="lp_3661" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=332211&amp;disp=0" />
+      <BiologicalProcess>Ribose utilization</BiologicalProcess>
+      <Regulog Key="RbsR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3945" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_3660" Name="rbsK" Position="-74" Score="6.2">
+          <Sequence>TTATTAAAACGTTTTCATAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3660" Name="rbsK" Position="-61" Score="6.1">
+          <Sequence>TTCATAAAACGTTTTAATAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="332210" LocusId="lp_3660" Name="rbsK" Function="Ribokinase (EC 2.7.1.15)" />
+          <Members vimssId="332209" LocusId="lp_3659" Name="rbsD" Function="D-ribose pyranase (D-ribose mutarotase) (EC 5.5.1.n1)" />
+          <Members vimssId="332208" LocusId="lp_3658" Name="rbsU" Function="Putative ribose uptake protein RbsU, GRP transporter family (TC 2.A.7.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3945</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29852" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="lp_0725" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=329838&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3114" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_3662" Name="adhE" Position="-43" Score="5.5">
+          <Sequence>TTGTAAATTAATTCACAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3449" Name="noxE" Position="-36" Score="5">
+          <Sequence>TTGTGAATATAAACACAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3051" Name="dhaT" Position="-116" Score="5">
+          <Sequence>TTGTGAAAAATATAATTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="331724" LocusId="lp_3051" Name="dhaT" Function="1,3-propanediol dehydrogenase (EC 1.1.1.202)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332022" LocusId="lp_3449" Name="noxE" Function="NADH oxidase (EC 1.6.99.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="332212" LocusId="lp_3662" Name="adhE" Function="Alcohol dehydrogenase (EC 1.1.1.1), Fe-dependent; Acetaldehyde dehydrogenase (EC 1.2.1.10)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3114</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="ScrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34994" />
+      <Effector>Sucrose-6-phosphate</Effector>
+      <Pathway>Sucrose utilization</Pathway>
+      <LocusTag Key="lp_0188" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=329377&amp;disp=0" />
+      <BiologicalProcess>Sucrose utilization</BiologicalProcess>
+      <Regulog Key="ScrR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3573" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_0187" Name="scrB" Position="-171" Score="6">
+          <Sequence>TATGTCAAGCGTTTGATACA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0187" Name="scrB" Position="-82" Score="6.4">
+          <Sequence>AATGTCAAACGATTGACATA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0185" Name="scrA" Position="-193" Score="6.5">
+          <Sequence>TATGTCAATCGTTTGACATT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0185" Name="scrA" Position="-104" Score="6.1">
+          <Sequence>TGTATCAAACGCTTGACATA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="329375" LocusId="lp_0185" Name="scrA" Function="Sucrose-specific PTS system, EIIABC component (EC 2.7.1.69)" />
+          <Members vimssId="329374" LocusId="lp_0184" Name="scrK" Function="Fructokinase (EC 2.7.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329376" LocusId="lp_0187" Name="scrB" Function="Sucrose-6-phosphate hydrolase (EC 3.2.1.26)" />
+          <Members vimssId="329377" LocusId="lp_0188" Name="scrR" Function="Sucrose utilization transcriptional regulator ScrR, LacI family" />
+          <Members vimssId="329378" LocusId="lp_0189" Name="agl4" Function="Oligo-1,6-glucosidase (EC 3.2.1.10)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3573</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="TreR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38741" />
+      <Effector>Trehalose-6-phosphate</Effector>
+      <Pathway>Trehalose utilization</Pathway>
+      <LocusTag Key="lp_0262" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=329438&amp;disp=0" />
+      <BiologicalProcess>Trehalose utilization</BiologicalProcess>
+      <Regulog Key="TreR - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3956" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_0262" Name="treR" Position="-59" Score="5.6">
+          <Sequence>CAACTTGTCTAAACAAGTCT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="329438" LocusId="lp_0262" Name="treR" Function="Trehalose utilization transcriptional repressor TreR, GntR family" />
+          <Members vimssId="329439" LocusId="lp_0263" Name="treA" Function="Trehalose-6-phosphate hydrolase (EC 3.2.1.93)" />
+          <Members vimssId="329440" LocusId="lp_0264" Name="treP" Function="Trehalose-specific PTS system, EIIABC component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3956</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="repressor (activator)">
+      <Regulator Key="YdfD/YisV" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60020" />
+      <Effector />
+      <Pathway>Metabolite transport</Pathway>
+      <LocusTag Key="lp_1407" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=330387&amp;disp=0" />
+      <BiologicalProcess>Metabolite transport</BiologicalProcess>
+      <Regulog Key="YdfD/YisV - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6162" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_1409" Name="yisU" Position="-155" Score="8.6">
+          <Sequence>TGGTTGG----------------TGGTTGG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330388" LocusId="lp_1409" Name="yisU" Function="Hypothetical efflux transporter, LysE family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6162</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="YhcF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57273" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux</Pathway>
+      <LocusTag Key="lp_2615" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=331388&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux</BiologicalProcess>
+      <Regulog Key="YhcF - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5857" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_2615" Name="yhcF" Position="-39" Score="6.1">
+          <Sequence>ATTGTAATAGAAAAATAGAACACT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="331388" LocusId="lp_2615" Name="yhcF" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="331387" LocusId="lp_2614" Name="yhcG" Function="ABC-type multidrug transport system, ATPase component" />
+          <Members vimssId="331386" LocusId="lp_2613" Name="yhcI" Function="ABC-type multidrug transport system, permease component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5857</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="YtrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46714" />
+      <Effector />
+      <Pathway>Hypothetical ABC transporter</Pathway>
+      <LocusTag Key="lp_0325" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=329496&amp;disp=0" />
+      <BiologicalProcess>Hypothetical ABC transporter</BiologicalProcess>
+      <Regulog Key="YtrA - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4720" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_1959" Name="ytrA" Position="-49" Score="6.3">
+          <Sequence>GTGTACTAGTTGTAGTAATACAC</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330852" LocusId="lp_1959" Name="ytrA" Function="Predicted transcriptional regulator, GntR family" />
+          <Members vimssId="330851" LocusId="lp_1958" Name="ytrB" Function="Predicted ABC transporter, ATP-binding protein" />
+          <Members vimssId="330850" LocusId="lp_1957" Name="null" Function="ABC transporter, permease protein" />
+          <Members vimssId="330849" LocusId="lp_1956" Name="null" Function="ABC transporter, permease protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4720</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="PadR" RegulationMode="repressor">
+      <Regulator Key="YwzG" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=46740" />
+      <Effector />
+      <Pathway>Transport</Pathway>
+      <LocusTag Key="lp_3216" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=331846&amp;disp=0" />
+      <BiologicalProcess>Transport</BiologicalProcess>
+      <Regulog Key="YwzG - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4722" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_3216" Name="ywzG" Position="-37" Score="7.1">
+          <Sequence>ATACTATACGACGTATAATAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="331846" LocusId="lp_3216" Name="ywzG" Function="Predicted transcriptional regulator, PadR family" />
+          <Members vimssId="331847" LocusId="lp_3217" Name="lp_3217" Function="Predicted integral membrane protein" />
+          <Members vimssId="331848" LocusId="lp_3218" Name="lp_3218" Function="Conserved hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4722</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42323" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="lp_0868" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=329957&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Lactobacillaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4363" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_3302" Name="znuA" Position="-44" Score="6.6">
+          <Sequence>TTAACAGTAATGGTTACGATTTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0463" Name="znuC" Position="-51" Score="6.9">
+          <Sequence>AAAATAGTAATCATTACGATTTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3018" Name="znuA" Position="-88" Score="6.8">
+          <Sequence>TAAAACGTAAATATTACTATTTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3018" Name="znuA" Position="-39" Score="7.3">
+          <Sequence>TAAAACGTAATGATTACTATTTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2216" Name="rpsN2" Position="-125" Score="5.6">
+          <Sequence>AAAATAGTAGCTGTTACGATTTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0947" Name="lp_0947" Position="-36" Score="6.7">
+          <Sequence>TAAATGGTAATAATTACTATTTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0868" Name="zur" Position="-56" Score="6.9">
+          <Sequence>TAAATAGTAATGATTATGATTTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="331915" LocusId="lp_3302" Name="znuA" Function="Zinc ABC transporter, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329612" LocusId="lp_0463" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein" />
+          <Members vimssId="329613" LocusId="lp_0464" Name="znuB" Function="Zinc ABC transporter, permease protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331696" LocusId="lp_3018" Name="znuA" Function="Zinc ABC transporter, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331064" LocusId="lp_2216" Name="rpsN2" Function="Small subunit ribosomal protein S14, zinc-independent" />
+        </Operon>
+        <Operon>
+          <Members vimssId="330020" LocusId="lp_0947" Name="lp_0947" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329957" LocusId="lp_0868" Name="zur" Function="Zinc homeostasis transcriptional regulator Zur, Fur family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4363</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28915" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_1887" Name="ribU" Position="-246" Score="99.1">
+          <Sequence>GGTTCATCTTCAGGGCAGGGTGTGATTCCCGACCGGCGGTAATAACCCGCGACCTATGCGTGTGCATAGTGATTTGGTGCAATTCCAAAGTCGACAGTAAAGTCTGGTATAAAGAAGATCGAG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330790" LocusId="lp_1887" Name="ribU" Function="Substrate-specific component RibU of riboflavin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00557" RegulationMode="RF00557">
+      <Regulator Key="L10_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28820" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L10_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_0621" Name="rplJ" Position="-142" Score="73.1">
+          <Sequence>GTTAAGTAATATCTCTACCTAAGACTCAGGCGGCTTAACGGCCTTAATCTACCTGCCGAGGACATTGTTTTTTCTCTATGTCTTGGTGGACATAGGGATTTTTTTATAAATCCCT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="329747" LocusId="lp_0621" Name="rplJ" Function="50S ribosomal protein L10" />
+          <Members vimssId="329748" LocusId="lp_0622" Name="rplL" Function="LSU ribosomal protein L7/L12 (P1/P2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00555" RegulationMode="RF00555">
+      <Regulator Key="L13_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29085" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L13_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_1077" Name="rplM" Position="-75" Score="58.1">
+          <Sequence>GTATTGTTTGCCCCACGATAAGCCCCGGAAATCTTATTGAGTGTCAAACAAACACAGAAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330121" LocusId="lp_1077" Name="rplM" Function="LSU ribosomal protein L13p (L13Ae)" />
+          <Members vimssId="330122" LocusId="lp_1078" Name="rpsI" Function="SSU ribosomal protein S9p (S16e)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00556" RegulationMode="RF00556">
+      <Regulator Key="L19_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29115" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L19_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_1640" Name="rplS" Position="-54" Score="35.3">
+          <Sequence>CGATGTTCCGCTGACCAGGTTGTCACGAATGTCGGCG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330588" LocusId="lp_1640" Name="rplS" Function="LSU ribosomal protein L19p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00558" RegulationMode="RF00558">
+      <Regulator Key="L20_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29145" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L20_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_1515" Name="infC" Position="-146" Score="88.8">
+          <Sequence>AAAAAAAGCAGAAGCACCCGCTTCTCGCCTTGGTGACCAGAGTCATCGGGCAGATGAACGATGAATTGATTCCCATTAACGGGGTTGAGCGGGCGTACTATGCGCCCGCTCTTTTTGTGAATTTC</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330479" LocusId="lp_1515" Name="infC" Function="Translation initiation factor 3" />
+          <Members vimssId="330480" LocusId="lp_1516" Name="rpmI" Function="LSU ribosomal protein L35p" />
+          <Members vimssId="330481" LocusId="lp_1517" Name="rplT" Function="LSU ribosomal protein L20p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00559" RegulationMode="RF00559">
+      <Regulator Key="L21_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29185" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L21_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_1592" Name="rplU" Position="-95" Score="53.9">
+          <Sequence>TACAGCTACAACCGCACGGATTGAGTCTTAAGATCAGCAATGGCACTTACATTCGGCGAGTCTAAGTGATTTATA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330543" LocusId="lp_1592" Name="rplU" Function="LSU ribosomal protein L21p" />
+          <Members vimssId="330544" LocusId="lp_1593" Name="ysxB" Function="FIG139598: Potential ribosomal protein" />
+          <Members vimssId="330545" LocusId="lp_1594" Name="rpmA" Function="LSU ribosomal protein L27p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00168" RegulationMode="RF00168">
+      <Regulator Key="Lysine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29245" />
+      <Effector>Lysine</Effector>
+      <Pathway>Lysine biosynthesis</Pathway>
+      <LocusTag Key="Lysine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_1008" Name="lysP" Position="-324" Score="108.4">
+          <Sequence>TCGAAAGAAGAGGATGCGGTTAACAATAGTAGCCGGCTGGAAGTGGGTCACCACTTATGAAGGTCAGTGAACGGGGCAACCGCCGAAATCGATGGATCAGTGACCGATTCATCCGTTGGGCCTTGGTTGAATAAATCATGGACTGTCGCAGCTAGAATAGTTGCGGGGCGCTATCGACGATGA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330068" LocusId="lp_1008" Name="lysP" Function="Lysine-specific permease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00522" RegulationMode="RF00522">
+      <Regulator Key="PreQ1" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29335" />
+      <Effector>Pre-queuosine1</Effector>
+      <Pathway>Queuosine biosynthesis</Pathway>
+      <LocusTag Key="PreQ1" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_0533" Name="queT" Position="-53" Score="45.5">
+          <Sequence>AATACGTGGTTCGTAACCATCCCACGTTAAAAAAACTAGGAGGAATT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2825" Name="iunH" Position="-66" Score="48.2">
+          <Sequence>AGCTGGCCTGGTTCGTAAACTTCCCAGGATAAAAAACCAAGAACTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="329669" LocusId="lp_0533" Name="queT" Function="Substrate-specific component QueT (COG4708) of predicted queuosine-regulated ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331551" LocusId="lp_2825" Name="iunH" Function="preQ1-regulated inosine-uridine nucleoside hydrolase (EC 3.2.2.1)" />
+          <Members vimssId="331550" LocusId="lp_2824" Name="qrtT" Function="Substrate-specific component STY3230 of queuosine-regulated ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00167" RegulationMode="RF00167">
+      <Regulator Key="Purine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29365" />
+      <Effector>Adenine; Guanine</Effector>
+      <Pathway>Purine metabolism</Pathway>
+      <LocusTag Key="Purine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_2710" Name="pbuX" Position="-157" Score="64.9">
+          <Sequence>TCAAATAAGTGGTAATTGCCTATATAATGTCATGATATGGTTGACGAGTTTCTACCCAACCCCGTAAAGGTTGGACTATAAGCAAACGAGGTCATCCCGT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3334" Name="adeC" Position="-177" Score="70.3">
+          <Sequence>TTTATCAATACAACTAATTGCCTATATAATGCCATGATATGGATGGCGAGTTTCTACCCAGTGCCGTAAACACTGGACTATAAGCGAATTGAGTCGACGG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="331935" LocusId="lp_3334" Name="adeC" Function="Adenine deaminase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331456" LocusId="lp_2710" Name="pbuX" Function="Xanthine/uracil permease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00515" RegulationMode="RF00515">
+      <Regulator Key="PyrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28945" />
+      <Effector>PyrR</Effector>
+      <Pathway>Pyrimidine metabolism</Pathway>
+      <LocusTag Key="PyrR" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_2704" Name="pyrR" Position="-141" Score="59">
+          <Sequence>AAGCACCTTTAACTTAGTCCTGTGAGGCTAACAAGGGGAACGGTCATGTAGGGTCTCCCACGCTTTTCGCAGGAAAACAGGGTGACTCTTTTTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2371" Name="pyrP" Position="-146" Score="59.8">
+          <Sequence>CAGTTCCTTTAAATTAGCTCAGAGAGGCTGAAAAGGATGAACGGACGTGCGCTTTCAAGCAAGCTGTGCGTAATTTCGGACAGCCTAGCCGCTTTGAGTGGTGGGCTGTCTTTTCT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_1782" Name="pyrR" Position="-143" Score="25.4">
+          <Sequence>CGTCCTTTAATCCGGCCCTGCGAGACTGAAAGGCAAACTGTTAACAATAACTTTTCGTCGACGGCCGTGACACCTTGTCCGGCCGTCTTTCTTTGT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2703" Name="pyrB" Position="-136" Score="42.7">
+          <Sequence>TAAAACCATTTAATTGTTTCCAGAGAGGAACGAAACGGTTTGGTCATGCGTGACCACTTAATCGGAGTCTAGCCTCTTTGCAAACATTTTTGCGGAAGCTAGACTTTTTTTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="331454" LocusId="lp_2704" Name="pyrR" Function="Uracil phosphoribosyltransferase (EC 2.4.2.9) / Pyrimidine operon regulatory protein PyrR" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331195" LocusId="lp_2371" Name="pyrP" Function="Xanthine/uracil permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331453" LocusId="lp_2703" Name="pyrB" Function="Aspartate carbamoyltransferase (EC 2.1.3.2)" />
+          <Members vimssId="331452" LocusId="lp_2702" Name="pyrC" Function="Dihydroorotase (EC 3.5.2.3)" />
+          <Members vimssId="331451" LocusId="lp_2701" Name="carA" Function="Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)" />
+          <Members vimssId="331450" LocusId="lp_2700" Name="carB" Function="Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)" />
+          <Members vimssId="331449" LocusId="lp_2699" Name="pyrD" Function="Dihydroorotate dehydrogenase, catalytic subunit (EC 1.3.3.1)" />
+          <Members vimssId="331448" LocusId="lp_2698" Name="pyrF" Function="Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23)" />
+          <Members vimssId="331447" LocusId="lp_2697" Name="pyrE" Function="Orotate phosphoribosyltransferase (EC 2.4.2.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="330706" LocusId="lp_1782" Name="pyrR" Function="Uracil phosphoribosyltransferase (EC 2.4.2.9) / Pyrimidine operon regulatory protein PyrR" />
+          <Members vimssId="330707" LocusId="lp_1783" Name="carA" Function="Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01767" RegulationMode="RF01767">
+      <Regulator Key="SMK_box_riboswitch" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47291" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="SMK_box_riboswitch" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_1301" Name="metK" Position="-102" Score="58.5">
+          <Sequence>ATAGTTATGAGCCGTTCCCGAAAGGATAAGTTTAGCTTGTTCGACGAAGAATAAGTGATGCTTAGATGCCTTGTAACCGAAATTATCAAGGGGGAATTTATTGTGAG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330307" LocusId="lp_1301" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ala)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30396" />
+      <Effector>Ala-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_2277" Name="alaS" Position="-262" Score="60.2">
+          <Sequence>TTTCTATACTTTGCAAAGTAAGGACATATCTATCTCACATATCGGTCAAGAAACACTTTGGTTGCTGGAAAAAGTGCGGTGTGGGGTAGATGCTACCTAGAAGTAATGACTAGCAAACTAGTCCGTGTCTCAGCGTTAATGAGCTTAAGAGGTAAACGAACACATCGTTGCAAGCAGAGTGGTACCGCGTTAACAGCGTCTTTGCT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="331121" LocusId="lp_2277" Name="alaS" Function="Alanyl-tRNA synthetase (EC 6.1.1.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Arg)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30486" />
+      <Effector>Arg-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_1391" Name="argS" Position="-226" Score="82.7">
+          <Sequence>TACGTCTAATGAGAAAGAATAGTACGATGAACGTTTAGACCAGCGAGTTCGGGATGATGGGAGCCGAATCTAAACATTATTGGAAGCGCGCTTTTGAAGACGACAATTCGATAATAAGTGGATGTCATATCAATTAGAGTGGTACCGCGGGCACGTCTCGTCTCTTACAT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330373" LocusId="lp_1391" Name="argS" Function="Arginyl-tRNA synthetase (EC 6.1.1.19)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Asn)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30426" />
+      <Effector>Asn-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_0957" Name="asnA" Position="-330" Score="91.1">
+          <Sequence>ATAAAAAACGGAGGAAAGAGGAGTACGATTAGTCAACCTGCCAGTGAATCGGGAGTGAGTGGAAACCCGACCAGAACTTGACTAATCCGAAAAACACTTTCTTAGTTGCTAACTGAAATAACCTCGTTAAAGTAGGATTAGCCGTTAACCGGTACGTTACCATCGGTGGTGTATGTTTGTACACTATTTTAAAGCTGGTTTACTGTAAGGTAAACAACTTGGGTGGTACCGCGAAAGAGTCTTTCGTCCCTTGA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330029" LocusId="lp_0957" Name="asnA" Function="Aspartate--ammonia ligase (EC 6.3.1.1)" />
+          <Members vimssId="330028" LocusId="lp_0956" Name="asnS" Function="Asparaginyl-tRNA synthetase (EC 6.1.1.22)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Asp)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30456" />
+      <Effector>Asp-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_1981" Name="hisS" Position="-238" Score="48">
+          <Sequence>CAATCGACCGCAGAGAAAGTAAGAGCATTGTACGCCACTATAACCAGAGACCGGTAAGTGCTGAGAATTCCGGATAGTGCGCAATGAGGAGACGCTTTTGAGGTGAACGGCAGCGTTCCGCCTGTGATTACAGACGTTATCAATTAGTACTCAAAAAGGTGGTACCGCGCTAATAGCGCCCTTGGT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330873" LocusId="lp_1981" Name="hisS" Function="Histidyl-tRNA synthetase (EC 6.1.1.21)" />
+          <Members vimssId="330872" LocusId="lp_1980" Name="aspS" Function="Aspartyl-tRNA synthetase (EC 6.1.1.12)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Gly)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30596" />
+      <Effector>Gly-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_1965" Name="glyQ" Position="-283" Score="65.8">
+          <Sequence>TAGTTAAGTGTTGATGAGAGAAGGTTAACGGATTCGACTTACAGTGAGACCGTGATGGTGAAAAACGGTCAGTCAAAGTCGTTAATTGGCGCTTTCGGAGCTTTAATACCGTGTAATTAAGCTGCTGAGGTTACTCAGAAGTAGGGTGGAACCGCGAAACCAATCGTCCCTATG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330858" LocusId="lp_1965" Name="glyQ" Function="Glycyl-tRNA synthetase alpha chain (EC 6.1.1.14)" />
+          <Members vimssId="330857" LocusId="lp_1964" Name="glyS" Function="Glycyl-tRNA synthetase beta chain (EC 6.1.1.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(His)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30626" />
+      <Effector>His-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_2561" Name="hisZ" Position="-408" Score="101.4">
+          <Sequence>ATAAACGGTTGTGATTAGAACAAGTAATTAAGTCTTCCTCATCCAGAGAGCCCGGGTAGCTGAGAACCGGACAGACAGGCTTAACGAACACACATCTATGAACTGCTAAGGTGAACCAGTCTCATTAGCCTTAGCCGAATTGGTTTCGTTATCCAAGTTGACTTGATCAACATGAGGTCTGCCGTGCGAACGGTAGATGAAATAAGGTGGAACCACGCGTAAACGTCCTTTTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="331346" LocusId="lp_2561" Name="hisZ" Function="ATP phosphoribosyltransferase regulatory subunit (EC 2.4.2.17)" />
+          <Members vimssId="331345" LocusId="lp_2560" Name="hisG" Function="ATP phosphoribosyltransferase catalytic subunit (EC 2.4.2.17)" />
+          <Members vimssId="331344" LocusId="lp_2559" Name="hisD" Function="Histidinol dehydrogenase (EC 1.1.1.23)" />
+          <Members vimssId="331343" LocusId="lp_2558" Name="hisB" Function="Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)" />
+          <Members vimssId="331342" LocusId="lp_2557" Name="hisH" Function="Imidazole glycerol phosphate synthase amidotransferase subunit (EC 2.4.2.-)" />
+          <Members vimssId="331341" LocusId="lp_2556" Name="hisA" Function="Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase (EC 5.3.1.16)" />
+          <Members vimssId="331340" LocusId="lp_2554" Name="hisF" Function="Imidazole glycerol phosphate synthase cyclase subunit (EC 4.1.3.-)" />
+          <Members vimssId="331339" LocusId="lp_2553" Name="hisI" Function="Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19)" />
+          <Members vimssId="331338" LocusId="lp_2552" Name="hisE" Function="Phosphoribosyl-ATP pyrophosphatase (EC 3.6.1.31)" />
+          <Members vimssId="331337" LocusId="lp_2551" Name="hisC" Function="Histidinol-phosphate aminotransferase (EC 2.6.1.9) @ Biosynthetic Aromatic amino acid aminotransferase beta (EC 2.6.1.57)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ile)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30656" />
+      <Effector>Ile-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_2187" Name="ileS" Position="-284" Score="97.1">
+          <Sequence>ATTGAATGTATTGAGGAGAACAGCAAACAATTAACTAATACGCCCAGAGAGCTGCCGGCAATGGAAAGGCAGTCGTCCCTTAGTTAGTTGCAGATCATCTCTGAATGCTATCCTGAATTGAGTAAGGGTGGCCGGTCCATGGACGTTAACCATGCTAAGAGAGAATTTAAACAATTCTAAAATTGGGTGGTACCACGATAACTTCGTCCCTGGG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3466" Name="brnQ" Position="-349" Score="87.8">
+          <Sequence>CAAACACGCCGATGAACAAAGTAAACCTTCTGGAAATGCCTAGAGAGTGTCAGTTTGGTGCAATGACATCATGACCAGATCGTTGAAAATCAGTTCTGAGTGGCAGTGACGAGCTTGATGTTAGTTGCTGTTGGTTGCTCCCATTATTGAGCCGAAGTATCGCAAGTGGCCGGCCACTTGCCGTACTTTTTAAGGTGATTCGTCGTAAGGCAGTCACAAAGCTAAGGTGGTAACACGTGTTCAAACGTCCTGGTTTC</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="332034" LocusId="lp_3466" Name="brnQ" Function="Branched-chain amino acid transport system carrier protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331042" LocusId="lp_2187" Name="ileS" Function="Isoleucyl-tRNA synthetase (EC 6.1.1.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Leu)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=32994" />
+      <Effector>Leu-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_1316" Name="leuS" Position="-348" Score="96.6">
+          <Sequence>TTACGACTCTGAGAAGGAATAGTAGTGGCTGGTGTTTTGCAGAAACTCCGTGGTAGTTGCAAACGGGGATTCACCAATCATGAACTCACCTTCGAGTCTTCCGGCTGAACAAGATTGTAGGTACGGACGTGGTTTCGCGTTAAGATTCTCAAGAGGCCACGGTAACGTGGAATCATAGGTGGTACCGCGGAACCCGTTTTCGTCCTATAAGC</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330316" LocusId="lp_1316" Name="leuS" Function="Leucyl-tRNA synthetase (EC 6.1.1.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Lys)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33049" />
+      <Effector>Lys-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_3686" Name="oppA" Position="-321" Score="59">
+          <Sequence>GATTAAGCGAACGGCAGTCGAGGAGTCGGTTATCAGTCAGTTACAGCGAGTCGCGGATGATGAAAAGCGATCTGAACTGGTAGCTAAAAGTCGATTACTAGTGAGAAGTTGCGTGAAGCAATTTCCGGGTGTACCCGATAACGTACCAACATATCGTCAATAAATTTGGCCGTATGTAAGTGGTGAGTCTGACTGGCTCGCAAATGAGGTGGTACCGCGTGAAGACGTCCTTTTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="332230" LocusId="lp_3686" Name="oppA" Function="ABC-type oligopeptide transport system, periplasmic component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Met)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33104" />
+      <Effector>Met-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_2537" Name="metA" Position="-315" Score="70.6">
+          <Sequence>GATTAAGACGTTGAAGAGAAGAGTAATCGCATCACTGATTTGCAGAGAGCTTCGTAATGGTGAGAGAAGTATTCAGGAGTGCGGTGAAGATGAGCTTGGAGTCATGATGCGGGTCGTAGTGGCTACGCATGCGGTGGCAACCGATATATTGCGGGGTTTCCTAGATTTTTCAGGGTACTCGTCGAGGTTGTGATCGTGAGATGGCAGCGAACAACGGTGGTAACGCGAAAGCTTTCGTCCGTTAG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_1375" Name="metE" Position="-303" Score="94.3">
+          <Sequence>TGTAAACGTCCTGAAGAGGAAAGTAATCATCGCTACCCGTGCAGTGAGTTTGGAATAGTGCAAACCAAACCGGAAGACGATTGATGAAAAATGGCCTCCAAACGGCACCACTGAGCTTTTGCCAGGTGATGACAGTTAGCTACTGTTAATAAGCTTCCGTATGAAACGTACGGATTGAGGTCAATATCGTGAGGTGTTGACAAATTAAGGTGGTACCGCGAACGGCAACTTCGTCCTTTAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2352" Name="metN" Position="-303" Score="75.4">
+          <Sequence>AGTTATCATTTTGAAAAGATGAGTACGCGGTTATGATTACTTAGAGAGTCCCTGATTGGTGAAAGGGGATTAATCGTGAAGCTGAAGATGGTCTTGAAGTAATGAAGTTTAGTGAGCAGTCGCAAGCTAAGCTTGGGTCGCACCCATTATCATGCGGAGTTCAAAGTAACTCTTGAGACAACTGGCGTGAGCTAGTTGTGAAGATGGGTGGTACCACGAGGCTAAGCTTCTCGTCCTATTG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_1744" Name="metN" Position="-318" Score="72.7">
+          <Sequence>AATAAATACGTCTAAGATGAGTAGCCGTTGTTGGAATGCCTTAGAGAACTGCCGGTTGGTGCGAGGTAGCCATTTCGCAACGTTGAAGATGGTCTTATAATGCAAGTTTCAACGCTGAGCTGACGGGGTTAAGCGTTGACGGCTACGCCCGTTATGCGGTTAGAGTCTCGCTAAGAATTTTCAGTGGCGGTACTTGAAGTGCGGTGGCCTGTGAGGGTCATTTGAAGTAAGGTGGTAACACGGAAAAACGTCCATTCGTCCTTAATCT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_3283" Name="metE2" Position="-335" Score="77.7">
+          <Sequence>AAAGAACGATTAAAAGATGAGTAATTGGTGTCGCTGTTCAGCGAGTATCGGGTTGGTGAAACGGTATCGGCACAACCAATGAAGATGGTCTTCTCCCTAGTTCGTTTTGGTGAGTGTCTGGTGATCAACAAAGTAACCAGCATTAACTAAAGCCGGTTTAACAACCGTTACCCGCGTTAGCAATTGCCAATCATTTGGCAGCTGTATCGAGTAGACTAGTTCACTAGCCTAGAACTCAGGTGGTACCACGGCCCAACGTCGTCCTGAATAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0150" Name="mtsA" Position="-315" Score="63.6">
+          <Sequence>AGAAAAAGCTGTGACAAGATGAGTAAGCTAATTCTCGTGCTTAGAGAGTCGTATTTTTGGTGCAAAACGATGACGTGGTTAGTTGAAGATGGTCTTGAAGAAGCTACTGGGGCCATCTCAGTCGGAGCGATCCGTTACGATCATGATAAGTCCCTGTGGGAAAATCTCGGTGGTAACACGCAAACGCGTCCTAGAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2634" Name="metI" Position="-319" Score="68.8">
+          <Sequence>AAATAACATGTTGATGAGAAGAGTAGTCAGGTTATACCTTTGACAGGGAGCCGTGGGGAGTGTAAAGCGGTAAGGTAGCGCCTGATGAAGATGAACTCGGAATGCCCAGTTGCGGTCGCAAGGCTGTACTGGCGGGACTGGCCGATACTCCAGTGAGTCAATAATGACTTGATGAGTTTAACGGGGTGACCCGTAATTGAACTTGGGTGGTAACACGCGACCGGCGTCCCTTGA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330363" LocusId="lp_1375" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+          <Members vimssId="330362" LocusId="lp_1374" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331179" LocusId="lp_2352" Name="metN" Function="Methionine ABC transporter ATP-binding protein" />
+          <Members vimssId="331178" LocusId="lp_2351" Name="metP" Function="Methionine ABC transporter permease protein" />
+          <Members vimssId="331177" LocusId="lp_2350" Name="metQ" Function="Methionine ABC transporter substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331328" LocusId="lp_2537" Name="metA" Function="Homoserine O-succinyltransferase (EC 2.3.1.46)" />
+          <Members vimssId="331327" LocusId="lp_2536" Name="metY" Function="O-acetylhomoserine sulfhydrylase (EC 2.5.1.49) / O-succinylhomoserine sulfhydrylase (EC 2.5.1.48)" />
+          <Members vimssId="331326" LocusId="lp_2535" Name="hom" Function="Homoserine dehydrogenase (EC 1.1.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331401" LocusId="lp_2634" Name="metI" Function="Cystathionine gamma-synthase (EC 2.5.1.48)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331898" LocusId="lp_3283" Name="metE2" Function="Methionine synthase II, vitamin-B12 independent (EC 2.1.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="330674" LocusId="lp_1744" Name="metN" Function="Methionine ABC transporter ATP-binding protein" />
+          <Members vimssId="330675" LocusId="lp_1745" Name="metP" Function="Methionine ABC transporter permease protein" />
+          <Members vimssId="330676" LocusId="lp_1746" Name="metQ" Function="Methionine ABC transporter substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329343" LocusId="lp_0150" Name="mtsA" Function="Substrate-specific component MtsA of methionine-regulated ECF transporter" />
+          <Members vimssId="329342" LocusId="lp_0149" Name="mtsB" Function="Duplicated ATPase component MtsB of energizing module of methionine-regulated ECF transporter" />
+          <Members vimssId="329341" LocusId="lp_0148" Name="mtsC" Function="Transmembrane component MtsC of energizing module of methionine-regulated ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Phe)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33159" />
+      <Effector>Phe-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_1558" Name="pheS" Position="-280" Score="94.3">
+          <Sequence>TAAAAGCCTTGACGAGAAATAGTAGTTAGTTACGGCGTCGTAGGGACGGGTGTCACCGATTGAAAGCACCCTGGCGACCAAGATTGACGAATTCACTCTCTGAGCTGAAATTGGGCGTTTGTGTAAACAAATAATTTTCCGGTATCCCGACCGTTATGACGGGTAGTGAGTGTGCATAGTGACTACTATGCAAACAAGGGTGGTACCGCGATGACCTCGTCCCTTTTCA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330515" LocusId="lp_1558" Name="pheS" Function="Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)" />
+          <Members vimssId="330516" LocusId="lp_1559" Name="pheT" Function="Phenylalanyl-tRNA synthetase beta chain (EC 6.1.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Ser)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33269" />
+      <Effector>Ser-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_1012" Name="serS" Position="-240" Score="60.4">
+          <Sequence>TAAACACGGCGCGTTTTTAAGTAGACGTTCAGAGAACCGGTGGGTGGTGTGAATCGGTAGTCGAAACTCCGGCGCGACAATGTGGGCAGGTAATACTGCACGGCACGGCCGTTATCCGTTTAAGGGTGGGATTAATCATGATCCTGAACTTGGGTGGTACCGCGAATCGCAGTCTCTTCGTCCCAATTGG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0501" Name="serS" Position="-240" Score="70.2">
+          <Sequence>AAAGCGCAAACATAATGGGCTAGTAGTTAATCTGGTTATTTAGAAAGCCAACGGTTGCTGAAAGTTGGTTGATTGGACTGATGAATCCGCCATTTAGCGTTTGACTTCATTTTTAAGAGGTCGCGGTGAGACGATATACTCGTAGAGCAGTAAATTGGGTGGTACCACGTTGATAAAAAACGTCCCATAGTC</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330071" LocusId="lp_1012" Name="serS" Function="Seryl-tRNA synthetase (EC 6.1.1.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329642" LocusId="lp_0501" Name="serS" Function="Seryl-tRNA synthetase (EC 6.1.1.11)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Thr)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33324" />
+      <Effector>Thr-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_1514" Name="thrS" Position="-295" Score="65.3">
+          <Sequence>GAAAACAGATGCAAAAGACACGCTTTGTTTACCATGGATTGCAGAGACCAAGACCTTGTTCTGGAAGTCTTGGACCGGGTTTACGAAGATACCACTTTTGTGAACATGCTCAATTGAGCCGGAACGCTTCCGTTATTAGCGCTAATGAGTCAGTGTCTTTGATGACACTGAAAAATCGGGTGGAACCACGTCAATGACGTCCCTAATGC</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330478" LocusId="lp_1514" Name="thrS" Function="Threonyl-tRNA synthetase (EC 6.1.1.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Trp)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33379" />
+      <Effector>Trp-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_0092" Name="oppA" Position="-396" Score="84.1">
+          <Sequence>TTATAAACCAATGAGGTGGAGATCAAGATTATCGTGCCCGCACAGAGAGTCATCGTTGCTGAGAGTATGGCCGAACGCAGGTAATTAAATGGACCACCGAGGGCTTTGCCGAAATTAACGTCAGTTGAGAGTACGGAAAGACGTGCGACATACGTCAGTTGTCAGGGAAATGTTAGTTTCCTATGGAGTAGGAGTGTACGCGTGATTTAATCACTAAATTGGCGAACACTCAATTAAGGTGGCACCGCGGTTATCAAACCGTCCTTAAC</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0434" Name="trpS" Position="-246" Score="84.8">
+          <Sequence>ATTAATCGTTGAAGAAAAGAACAGTAAGGCGTCCAATAACAGAGACCTAGCGCGTGCTGAAAGCTGGGGCGGACTAATGAATTGGCTTTTTGGAGATTCGGTGAACACCGGGGACCCACCCTTATCGGTCAATGAGTGGCAGAGACAAGCTTTCTGCAATTTAGGTGGTACCACGGTGATGCGTCCTAATTAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_1652" Name="trpE" Position="-372" Score="77.7">
+          <Sequence>TGAAACCGATGAAGTGGAGATCAAGATAATGATGCCCGTAAAGAGAGTCGCCGTTGCTGAGAGTGCGATCGAACGCAAATTATTAAATGGACCACTGAGGGCGCGACTAACGAACAGTTTTGTTCTACTACCTCGCGACGATAGGGAGCCGTCAATTCCCGGGAATGTGTTTGCATTTCGCTAAGCTGGGACCCAAGTCTAACCTGAATGGGGTAATTTGGTGTCCAACCAAGGTGGTACCGCGGAAAAATCCGTCCTTGACTG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330594" LocusId="lp_1652" Name="trpE" Function="Anthranilate synthase, aminase component (EC 4.1.3.27) # TrpAa" />
+          <Members vimssId="330595" LocusId="lp_1653" Name="trpG" Function="Anthranilate synthase, amidotransferase component (EC 4.1.3.27) # TrpAb" />
+          <Members vimssId="330596" LocusId="lp_1654" Name="trpD" Function="Anthranilate phosphoribosyltransferase (EC 2.4.2.18)" />
+          <Members vimssId="330597" LocusId="lp_1655" Name="trpC" Function="Indole-3-glycerol phosphate synthase (EC 4.1.1.48)" />
+          <Members vimssId="330598" LocusId="lp_1656" Name="trpF" Function="Phosphoribosylanthranilate isomerase (EC 5.3.1.24)" />
+          <Members vimssId="330599" LocusId="lp_1657" Name="trpB" Function="Tryptophan synthase beta chain (EC 4.2.1.20)" />
+          <Members vimssId="330600" LocusId="lp_1658" Name="trpA" Function="Tryptophan synthase alpha chain (EC 4.2.1.20)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329587" LocusId="lp_0434" Name="trpS" Function="Tryptophanyl-tRNA synthetase (EC 6.1.1.2) ## type 2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329299" LocusId="lp_0092" Name="oppA" Function="Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Tyr)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33434" />
+      <Effector>Tyr-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_3338" Name="tyrT" Position="-362" Score="76.1">
+          <Sequence>TAACTGTACGATAACGTTACATCAAGTAGACATAGTGGTAGGTGTCAGGAAGCCGGTGGTTGCTGCGAACCGGTCAGCTACTATGATTGAAATACGGTAACCGAGTTTCGACTGAACGGATAATAACTAGAACCGTTATCTTCTAGTGAGTGGTGGATTAAGTGTCAATAATCCGCAACCTGGGTGGTACCGCGACTAGTCTAATCGTCCCTGTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0192" Name="tyrT" Position="-340" Score="65.3">
+          <Sequence>ATAACGAACGATAATCTTACTTTCAAGTAGCGAATTAACTGTGCGTCAGGAAGTCGGTGGGTGCTGCGAACCGATCAGGTTAATCTCGATGAAATACGGTAGGAGAGGTCCGGGTACGCCCGGCGGATAACAACTAGAGCCGTTAACTGCTAGTGAGTGGAGTCATATTGTGGCTCAAGCTGGGTGGTACCACGGTCTAATCAATCGTCCCTGTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_2807" Name="tyrS" Position="-249" Score="106.1">
+          <Sequence>TTAAAAAGTAGTGATCGTTAATTAGTAGTCGTTGACCCAACAGTCTAGCGACTCGGTGGGTGGTGCGAACCGAGCTGTGGTCAAAGATGAATTACATAACGTGAACTGCCATTGGCCGGATGATATCCGTTACTAATCAATGAGCGATCACATTTGGTGATAACTTGGGTGGTAACGCGGAAAACTCGTCCCTGTT</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="331538" LocusId="lp_2807" Name="tyrS" Function="Tyrosyl-tRNA synthetase (EC 6.1.1.1) ## cluster 1" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331937" LocusId="lp_3338" Name="tyrT" Function="Predicted tyrosine transporter, NhaC family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329380" LocusId="lp_0192" Name="tyrT" Function="Predicted tyrosine transporter, NhaC family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00230" RegulationMode="RF00230">
+      <Regulator Key="T-box(Val)" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=33489" />
+      <Effector>Val-tRNA</Effector>
+      <Pathway>Amino acid metabolism</Pathway>
+      <LocusTag Key="T-box" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_2322" Name="valS" Position="-287" Score="109.8">
+          <Sequence>ACAACCAGCAATGAGCAAGAGAGTAGCGATAAACAACGTCAACAGAGAGAGCGTGAACAGTGAAACACGCTTGGCGGTTTTAGCGTGAAGGTAGCTTGCGAGCTGCTATTCTGAACTGTTTTAGTAGGAATAGCCGGACGGGATACACCGTTCGTTAACAACGATGTTTAAGCTGTAAAGCGATCACTTGTGATGGCTTTAAAATTAGGTGGTACCGCGAAGTCCATTCGTCCTAGTC</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0399" Name="brnQ" Position="-444" Score="99.2">
+          <Sequence>TAAACGTGATGATCAGGAGAGTAAAGTCAGGGTAATCTTAAGCGAGCCGCTGGATGGTGTGAAGCGGTGGTGAGCCTGGCTGGAAAGTAGCCTGAGAACTGCTAATGCGACGAGCTGGAGTGTTAGCTGGGTGCCCCCATTAACGGGCCAACGTATCGTCAGTTAACATTACTGTTTGGGGAAACCCGTCATCGGTGTTGGTAATTGGCCGTACGCGCAAAGGTGACGAGCTGCGGTTCGTGACGAATTAAGGTGGTACCACGCGTTAGCGTCCTTACAAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="329557" LocusId="lp_0399" Name="brnQ" Function="Branched-chain amino acid transport system carrier protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="331154" LocusId="lp_2322" Name="valS" Function="Valyl-tRNA synthetase (EC 6.1.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28865" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_0219" Name="ykoE" Position="-197" Score="58.1">
+          <Sequence>TTCATAGCAACTGGGGTGCCATCACGGCTGAGATAATACCCATTGAACCTGAATCTGGACAATGCCAGCGCAGGGAGCAATGCTTTTATTTGGGG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lp_0113" Name="thiM" Position="-183" Score="67.4">
+          <Sequence>TTAAACACTAGGGGTGTCCAAAAATGGGCTGAGATGGTGCTGTAAGTACCGATCCCTTTGAACCTGTAAGCTCAAACTTGCGTAGGAAAGTGTCACAGCTAATGTTA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="329402" LocusId="lp_0219" Name="ykoE" Function="Substrate-specific component YkoE of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine" />
+          <Members vimssId="329401" LocusId="lp_0218" Name="ykoD" Function="Duplicated ATPase component YkoD of energizing module of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine" />
+          <Members vimssId="329400" LocusId="lp_0217" Name="ykoC" Function="Transmembrane component YkoC of energizing module of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine" />
+        </Operon>
+        <Operon>
+          <Members vimssId="329312" LocusId="lp_0113" Name="thiM" Function="Hydroxyethylthiazole kinase (EC 2.7.1.50)" />
+          <Members vimssId="329313" LocusId="lp_0114" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+          <Members vimssId="329314" LocusId="lp_0115" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+          <Members vimssId="329315" LocusId="lp_0116" Name="cytX" Function="Predicted hydroxymethylpyrimidine transporter CytX" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00234" RegulationMode="RF00234">
+      <Regulator Key="glmS" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29943" />
+      <Effector>Glucosamine-6-phosphate</Effector>
+      <Pathway>Amino sugar metabolism</Pathway>
+      <LocusTag Key="glmS" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_0822" Name="glmS" Position="-183" Score="94">
+          <Sequence>AAAGCGGAATAGCGCCAGGACTTTAGAATCTAAAGTTGACGAGGATGACGTTTATCGATAATCGACGGGTGACGTCAGGGACTGCACTCTACAGGTCAATTACAAAAACCGACTGTGAGGTTGGTGACAGATATATTGACCACGCAGCTAGAA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="329921" LocusId="lp_0822" Name="glmS" Function="Glucosamine--fructose-6-phosphate aminotransferase [isomerizing] (EC 2.6.1.16)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00380" RegulationMode="RF00380">
+      <Regulator Key="ykoK" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30243" />
+      <Effector>Magnesium ion, (Mg2+)</Effector>
+      <Pathway>Magnesium homeostasis</Pathway>
+      <LocusTag Key="ykoK" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_2077" Name="lp_2077" Position="-265" Score="125.5">
+          <Sequence>AATCAGTTGCAATTAGGTGAGGTTACTTTAAGAATATAGGTTATCGCCCAGAAATGTCGAGAGACAGGAATGAGTAAAGCAGAATTTGCCGAATTAAGGCTCTTTCAAGATAACTAGACTAGTTCTTACGTCTTAAAGTGCTAAAACTCAATGAATGCGTCGATG</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="330953" LocusId="lp_2077" Name="lp_2077" Function="ABC-type anion transport system, duplicated permease component" />
+          <Members vimssId="330952" LocusId="lp_2076" Name="lp_2076" Function="ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component" />
+          <Members vimssId="330951" LocusId="lp_2075" Name="lp_2075" Function="Cell envelope-associated transcriptional attenuator LytR-CpsA-Psr, subfamily F2 (as in PMID19099556)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30303" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lp_0567" Name="atcL" Position="-189" Score="64.1">
+          <Sequence>ATACAATCATAAGGGAGTAACTAGCAGAAATATTCTGCGGCAATATCGTCAGCAAGAAGCCAATCCGGTATTGTCTTAAATAGTGAGACTTATGTATGTTCACA</Sequence>
+          <Bacteria>Lactobacillus plantarum WCFS1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="329699" LocusId="lp_0567" Name="atcL" Function="Calcium-transporting ATPase (EC 3.6.3.8)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

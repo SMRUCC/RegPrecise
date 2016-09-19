@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Gluconacetobacter diazotrophicus PAl 5" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator (repressor)">
+      <Regulator Key="FnrN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63385" />
+      <Effector>Oxygen</Effector>
+      <Pathway>Oxidative stress response; Nitrogen fixation</Pathway>
+      <LocusTag Key="Gdia_1984" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5453475&amp;disp=0" />
+      <BiologicalProcess>Oxidative stress response; Nitrogen fixation</BiologicalProcess>
+      <Regulog Key="FnrN - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6532" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gdia_1984" Name="fnrN" Position="-126" Score="6">
+          <Sequence>GCATTGATTCAGATCAATTC</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_1985" Name="ompW" Position="-94" Score="4.8">
+          <Sequence>CGGTTGATTCATGTCAAGGC</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5453475" LocusId="Gdia_1984" Name="fnrN" Function="Nitrogen fixation and oxygen response transcriptional regulator FnrN, Crp family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5453476" LocusId="Gdia_1985" Name="ompW" Function="Outer membrane protein W precursor" />
+          <Members vimssId="5453477" LocusId="Gdia_1986" Name="hemN" Function="Coproporphyrinogen III oxidase, oxygen-independent (EC 1.3.99.22)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6532</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor (activator)">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19541" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="Gdia_2101" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5453593&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2111" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gdia_1948" Name="omp2" Position="-65" Score="5.3">
+          <Sequence>ATTGTGAGTAATTCGCATT</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_2044" Name="omp3" Position="-57" Score="5.3">
+          <Sequence>GTTGAGAATGATTATCATT</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_0995" Name="Gdia_0995" Position="-42" Score="5">
+          <Sequence>TATGCAAGTAACTTGCATT</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_1357" Name="SSF49503" Position="-53" Score="4.9">
+          <Sequence>AATGCGAACCAGTCGCGTT</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_2591" Name="omp1" Position="-57" Score="5.6">
+          <Sequence>ATTGCGAATCAGTCTCATT</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5454086" LocusId="Gdia_2591" Name="omp1" Function="TonB-dependent siderophore receptor" />
+          <Members vimssId="5454085" LocusId="Gdia_2590" Name="null" Function="Hypothetical protein" />
+          <Members vimssId="5454084" LocusId="Gdia_2589" Name="COG3182" Function="PepSY-associated TM helix domain protein" />
+          <Members vimssId="5454083" LocusId="Gdia_2588" Name="PF11804" Function="iron uptake protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5452830" LocusId="Gdia_1357" Name="SSF49503" Function="Cupredoxin" />
+          <Members vimssId="5452829" LocusId="Gdia_1356" Name="mtr2" Function="High-affinity Fe2+/Pb2+ permease" />
+          <Members vimssId="5452828" LocusId="Gdia_1355" Name="COG3470" Function="Uncharacterized protein probably involved in high-affinity Fe2+ transport" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5452457" LocusId="Gdia_0995" Name="Gdia_0995" Function="Short-chain dehydrogenase/reductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5453439" LocusId="Gdia_1948" Name="omp2" Function="TonB-dependent siderophore receptor" />
+          <Members vimssId="5453440" LocusId="Gdia_1949" Name="null" Function="2OG-Fe(II) oxygenase" />
+          <Members vimssId="5453441" LocusId="Gdia_1950" Name="null" Function="Sel1 domain protein repeat-containing protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5453536" LocusId="Gdia_2044" Name="omp3" Function="TonB-dependent siderophore receptor" />
+          <Members vimssId="5453537" LocusId="Gdia_2045" Name="null" Function="Sel1 domain protein repeat-containing protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2111</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="Gdia_0881" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61627" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Gdia_0881" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5452343&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="Gdia_0881 - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6328" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gdia_0881" Name="Gdia_0881" Position="-94" Score="5.2">
+          <Sequence>ATTGGTCCGGCCAAT</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_0880" Name="AZL_a06310" Position="-57" Score="5.2">
+          <Sequence>ATTGGCCGGACCAAT</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_0880" Name="AZL_a06310" Position="-78" Score="5.1">
+          <Sequence>ATTGGTCTGACCAAT</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_0881" Name="Gdia_0881" Position="-73" Score="5.1">
+          <Sequence>ATTGGTCAGACCAAT</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5452343" LocusId="Gdia_0881" Name="Gdia_0881" Function="Transcription regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5452342" LocusId="Gdia_0880" Name="AZL_a06310" Function="3-hydroxybutyrate dehydrogenase" />
+          <Members vimssId="5452341" LocusId="Gdia_0879" Name="mhpD" Function="5-carboxymethyl-2-hydroxymuconate Delta-isomerase" />
+          <Members vimssId="5452340" LocusId="Gdia_0878" Name="COG4948" Function="Mandelate racemase/muconate lactonizing protein" />
+          <Members vimssId="5452339" LocusId="Gdia_0877" Name="null" Function="short-chain dehydrogenase/reductase SDR" />
+          <Members vimssId="5452338" LocusId="Gdia_0876" Name="Gdia_0876" Function="RbsD or FucU transporter" />
+          <Members vimssId="5452337" LocusId="Gdia_0875" Name="null" Function="amidohydrolase 2" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6328</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49759" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Gdia_2083" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5453575&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5038" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gdia_0272" Name="groS" Position="-109" Score="7.3">
+          <Sequence>CTGGCACTCTCGTGCGGAGAGTGCCAA</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5451729" LocusId="Gdia_0272" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="5451728" LocusId="Gdia_0271" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5038</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="HutC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17417" />
+      <Effector>cis-Urocanic acid</Effector>
+      <Pathway>Histidine utilization</Pathway>
+      <LocusTag Key="Gdia_0721" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5452183&amp;disp=0" />
+      <BiologicalProcess>Histidine utilization</BiologicalProcess>
+      <Regulog Key="HutC - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1878" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gdia_0721" Name="hutC" Position="-57" Score="5.3">
+          <Sequence>TGGTTGTATAGACACCCA</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_1458" Name="hutH" Position="-32" Score="4.6">
+          <Sequence>CCAATGTCTATACAAGTA</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5452931" LocusId="Gdia_1458" Name="hutH" Function="Histidine ammonia-lyase (EC 4.3.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5452183" LocusId="Gdia_0721" Name="hutC" Function="Histidine utilization repressor, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1878</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34649" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="Gdia_3308" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5454813&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR2 - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3536" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gdia_3308" Name="iscR2" Position="-77" Score="7">
+          <Sequence>AATCAGGACTGATTTGGTCCGTTAT</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5454813" LocusId="Gdia_3308" Name="iscR2" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="5454814" LocusId="Gdia_3309" Name="sufB" Function="Iron-sulfur cluster assembly protein SufB" />
+          <Members vimssId="5454815" LocusId="Gdia_3310" Name="sufC" Function="Iron-sulfur cluster assembly ATPase protein SufC" />
+          <Members vimssId="5454816" LocusId="Gdia_3311" Name="sufD" Function="Iron-sulfur (Fe-S) assembly protein SufD" />
+          <Members vimssId="5454817" LocusId="Gdia_3312" Name="sufS" Function="cysteine desulfurase SufS" />
+          <Members vimssId="5454818" LocusId="Gdia_3313" Name="sufE2" Function="Putative iron-sulfur cluster assembly scaffold protein for SUF system, SufE2" />
+          <Members vimssId="5454819" LocusId="Gdia_3314" Name="sufT" Function="Iron sulfur cluster assembly protein SufT" />
+          <Members vimssId="5454820" LocusId="Gdia_3315" Name="sufA" Function="Iron binding protein SufA for iron-sulfur cluster assembly" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3536</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28403" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="Gdia_0145" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5451602&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2987" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gdia_0107" Name="recG" Position="-111" Score="4.5">
+          <Sequence>GGTTTCGTTTTGTTC</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_0538" Name="uvrA" Position="-65" Score="1.6">
+          <Sequence>GAACAGAGTATGAAC</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_0513" Name="recA" Position="-135" Score="4.5">
+          <Sequence>GATCATGTTTTGTTC</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_0145" Name="lexA" Position="-71" Score="4.5">
+          <Sequence>GTTTCCTGTTTGTTC</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_0269" Name="yoaA" Position="-20" Score="4.3">
+          <Sequence>GTGCCCTATATGTTC</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_3517" Name="PF04055" Position="-47" Score="5.5">
+          <Sequence>GTTCCCGTTTTGTTC</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5455034" LocusId="Gdia_3517" Name="PF04055" Function="Radical SAM domain protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5451974" LocusId="Gdia_0513" Name="recA" Function="Recombinase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5451602" LocusId="Gdia_0145" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5451726" LocusId="Gdia_0269" Name="yoaA" Function="DinG family ATP-dependent helicase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5451563" LocusId="Gdia_0107" Name="recG" Function="ATP-dependent DNA helicase RecG (EC 3.6.1.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5451999" LocusId="Gdia_0538" Name="uvrA" Function="Excinuclease ABC subunit A" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2987</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="MntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50111" />
+      <Effector>Manganese ion, (Mn2+)</Effector>
+      <Pathway>Manganese homeostasis</Pathway>
+      <LocusTag Key="Gdia_1353" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5452826&amp;disp=0" />
+      <BiologicalProcess>Manganese homeostasis</BiologicalProcess>
+      <Regulog Key="MntR - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5077" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gdia_1353" Name="mntR" Position="-179" Score="5.1">
+          <Sequence>AATATGCAATAAGCTATATG</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_1352" Name="mntH" Position="16" Score="5.1">
+          <Sequence>CATATAGCTTATTGCATATT</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5452825" LocusId="Gdia_1352" Name="mntH" Function="Manganese transporter, NRAMP family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5452826" LocusId="Gdia_1353" Name="mntR" Function="Manganese homeostasis transcriptional regulator MntR, DtxR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5077</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NadQ" RegulationMode="repressor">
+      <Regulator Key="NadQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15259" />
+      <Effector />
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="Gdia_1430" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5452904&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NadQ - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1636" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gdia_1429" Name="nadA" Position="-42" Score="6.4">
+          <Sequence>TTATACTCACAGTGAGTATAA</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5452903" LocusId="Gdia_1429" Name="nadA" Function="Quinolinate synthetase (EC 4.1.99.-)" />
+          <Members vimssId="5452902" LocusId="Gdia_1428" Name="nadB" Function="L-aspartate oxidase (EC 1.4.3.16)" />
+          <Members vimssId="5452901" LocusId="Gdia_1427" Name="nadC" Function="Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1636</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator">
+      <Regulator Key="NifA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63801" />
+      <Effector />
+      <Pathway>Nitrogen fixation</Pathway>
+      <LocusTag Key="Gdia_1577" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5453052&amp;disp=0" />
+      <BiologicalProcess>Nitrogen fixation</BiologicalProcess>
+      <Regulog Key="NifA - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6584" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gdia_1570" Name="nifH" Position="-156" Score="4">
+          <Sequence>TGTCAGGCTTCGCACA</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_1555" Name="fixB" Position="-181" Score="4.6">
+          <Sequence>TGTCGGAGTTGACACA</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_1560" Name="iscN" Position="-115" Score="4.2">
+          <Sequence>CGTTGCAAATCGGACA</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_1576" Name="nifB" Position="-120" Score="4.8">
+          <Sequence>TGTCGGACATGAGACA</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_1560" Name="iscN" Position="-132" Score="5.1">
+          <Sequence>CGTCGGGAATCCGACA</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_1579" Name="modA" Position="-125" Score="3.7">
+          <Sequence>TGTCGCCAAGCGGCCC</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5453051" LocusId="Gdia_1576" Name="nifB" Function="Nitrogenase FeMo-cofactor synthesis FeS core scaffold and assembly protein NifB" />
+          <Members vimssId="5453050" LocusId="Gdia_1575" Name="fdxN" Function="4Fe-4S ferredoxin, nitrogenase-associated" />
+          <Members vimssId="5453049" LocusId="Gdia_1574" Name="PF01816" Function="Leucine-rich FeS4 cluster domain protein" />
+          <Members vimssId="5453048" LocusId="Gdia_1573" Name="nifZ" Function="Nitrogen fixation protein NifZ" />
+          <Members vimssId="5453047" LocusId="Gdia_1572" Name="nifT" Function="Nitrogen fixation protein nifT" />
+          <Members vimssId="5453046" LocusId="Gdia_1571" Name="sir2" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5453035" LocusId="Gdia_1560" Name="iscN" Function="Fe-S cofactor nitrogenase synthesis protein IscN" />
+          <Members vimssId="5453034" LocusId="Gdia_1559" Name="nifU" Function="Iron-sulfur cluster assembly scaffold protein NifU" />
+          <Members vimssId="5453033" LocusId="Gdia_1558" Name="nifS" Function="Cysteine desulfurase (EC 2.8.1.7), NifS subfamily" />
+          <Members vimssId="5453032" LocusId="Gdia_1557" Name="nifV" Function="Homocitrate synthase (EC 2.3.3.14)" />
+          <Members vimssId="5453031" LocusId="Gdia_1556" Name="nifW" Function="Nitrogenase-stabilizing/protective protein nifW" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5453045" LocusId="Gdia_1570" Name="nifH" Function="Nitrogenase (molybdenum-iron) reductase and maturation protein NifH" />
+          <Members vimssId="5453044" LocusId="Gdia_1569" Name="nifD" Function="Nitrogenase (molybdenum-iron) alpha chain (EC 1.18.6.1)" />
+          <Members vimssId="5453043" LocusId="Gdia_1568" Name="nifK" Function="Nitrogenase (molybdenum-iron) beta chain (EC 1.18.6.1)" />
+          <Members vimssId="5453042" LocusId="Gdia_1567" Name="nifE" Function="Nitrogenase FeMo-cofactor scaffold and assembly protein NifE" />
+          <Members vimssId="5453041" LocusId="Gdia_1566" Name="nifN" Function="Nitrogenase FeMo-cofactor scaffold and assembly protein NifN" />
+          <Members vimssId="5453040" LocusId="Gdia_1565" Name="nifX" Function="Nitrogenase FeMo-cofactor carrier protein NifX" />
+          <Members vimssId="5453039" LocusId="Gdia_1564" Name="PF03270" Function="Conserved hypothetical protein, probably related to nitrogen fixation protein" />
+          <Members vimssId="5453038" LocusId="Gdia_1563" Name="PF05082" Function="Conserved hypothetical protein, probably related to nitrogen fixation protein" />
+          <Members vimssId="5453037" LocusId="Gdia_1562" Name="fdxB" Function="Nitrogenase specific ferredoxin III protein FdxB" />
+          <Members vimssId="5453036" LocusId="Gdia_1561" Name="nifQ" Function="Nitrogenase FeMo-cofactor synthesis molybdenum delivery protein NifQ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5453054" LocusId="Gdia_1579" Name="modA" Function="Molybdate ABC transporter,substrate-binding protein" />
+          <Members vimssId="5453055" LocusId="Gdia_1580" Name="modB" Function="Molybdate ABC transporter, permease protein" />
+          <Members vimssId="5453056" LocusId="Gdia_1581" Name="modC" Function="Molybdate ABC transporter, ATP-binding protein" />
+          <Members vimssId="5453057" LocusId="Gdia_1582" Name="rpoN" Function="RNA polymerase sigma-54 factor RpoN" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5453030" LocusId="Gdia_1555" Name="fixB" Function="Electron transfer flavoprotein, beta subunit" />
+          <Members vimssId="5453029" LocusId="Gdia_1554" Name="fixA" Function="Electron transfer flavoprotein, alpha subunit" />
+          <Members vimssId="5453028" LocusId="Gdia_1553" Name="fixC" Function="Electron-transferring-flavoprotein dehydrogenase" />
+          <Members vimssId="5453027" LocusId="Gdia_1552" Name="fixX" Function="Ferredoxin-like protein, FixX" />
+          <Members vimssId="5453026" LocusId="Gdia_1551" Name="modD" Function="Molybdenum transport system protein ModD" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6584</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15613" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Gdia_3535" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5455052&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1676" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gdia_0051" Name="nrdA" Position="-79" Score="4.9">
+          <Sequence>CCGCGATATGTAGGGG</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_1112" Name="nrdJ" Position="-78" Score="5.2">
+          <Sequence>CCACAATATACAGTGG</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5451505" LocusId="Gdia_0051" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="5451506" LocusId="Gdia_0052" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5452581" LocusId="Gdia_1112" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1676</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="repressor">
+      <Regulator Key="NsrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14689" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="Gdia_1513" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5452988&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="NsrR - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1572" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gdia_1514" Name="hmp" Position="-32" Score="4.7">
+          <Sequence>GATGCATCGTTTTTACATC</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_1513" Name="nsrR" Position="-65" Score="4.7">
+          <Sequence>GATGTAAAAACGATGCATC</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5452989" LocusId="Gdia_1514" Name="hmp" Function="Flavohemoprotein (Hemoglobin-like protein) (Flavohemoglobin) (Nitric oxide dioxygenase) (EC 1.14.12.17)" />
+          <Members vimssId="5452990" LocusId="Gdia_1515" Name="PF04343" Function="protein of unknown function DUF488" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5452988" LocusId="Gdia_1513" Name="nsrR" Function="Nitrite-sensitive transcriptional repressor NsrR" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1572</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19383" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="Gdia_0485" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5451946&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2093" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gdia_0487" Name="nifR3" Position="-101" Score="4.7">
+          <Sequence>TGCTTAAATCCTGGGCA</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_0597" Name="glnK" Position="-174" Score="4.2">
+          <Sequence>AGCCCATAAATCAGGCA</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5452059" LocusId="Gdia_0597" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="5452060" LocusId="Gdia_0598" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5451948" LocusId="Gdia_0487" Name="nifR3" Function="Nitrogen assimilation transcriptional regulator NtrX, Fis family" />
+          <Members vimssId="5451947" LocusId="Gdia_0486" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="5451946" LocusId="Gdia_0485" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+          <Members vimssId="5451945" LocusId="Gdia_0484" Name="ntrY" Function="Nitrogen regulation protein NtrY, sensor kinase (EC 2.7.3.-)" />
+          <Members vimssId="5451944" LocusId="Gdia_0483" Name="ntrX" Function="Nitrogen assimilation transcriptional regulator NtrX, Fis family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2093</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxQ2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59448" />
+      <Effector />
+      <Pathway>Metabolite transport; Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="Gdia_0682" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5452144&amp;disp=0" />
+      <BiologicalProcess>Metabolite transport; Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxQ2 - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6102" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gdia_0681" Name="" Position="-57" Score="5.7">
+          <Sequence>GAAATTGTACTAATACAATTGA</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_1401" Name="Gdia_1401" Position="-89" Score="9.2">
+          <Sequence>AAAAGTGTCACGTGACACTATA</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_0682" Name="pdxQ2" Position="-112" Score="5.7">
+          <Sequence>TCAATTGTATTAGTACAATTTC</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_0682" Name="pdxQ2" Position="-37" Score="6.7">
+          <Sequence>TATATTGTCATAGTTCAATCAA</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_0681" Name="" Position="-132" Score="6.7">
+          <Sequence>TTGATTGAACTATGACAATATA</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5452143" LocusId="Gdia_0681" Name="null" Function="hypothetical protein" />
+          <Members vimssId="5452142" LocusId="Gdia_0680" Name="phzF" Function="Phenazine biosynthesis protein PhzF" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5452874" LocusId="Gdia_1401" Name="Gdia_1401" Function="Antibiotic biosynthesis monooxygenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5452144" LocusId="Gdia_0682" Name="pdxQ2" Function="Transcriptional regulator, GntR/MocR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6102</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SahR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15815" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="Gdia_0808" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5452270&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SahR - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1698" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gdia_0808" Name="sahR" Position="-30" Score="5.1">
+          <Sequence>ATATAAGGATGTTGTTATAT</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_0807" Name="metE" Position="-366" Score="5.1">
+          <Sequence>ATATAACAACATCCTTATAT</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5452270" LocusId="Gdia_0808" Name="sahR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+          <Members vimssId="5452271" LocusId="Gdia_0809" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5452269" LocusId="Gdia_0807" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1698</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="SdaR" RegulationMode="activator">
+      <Regulator Key="SdaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62907" />
+      <Effector>D-glycerate</Effector>
+      <Pathway>Glycerate utilization</Pathway>
+      <LocusTag Key="Gdia_1382" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5452855&amp;disp=0" />
+      <BiologicalProcess>Glycerate utilization</BiologicalProcess>
+      <Regulog Key="SdaR - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6479" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gdia_1381" Name="grtT" Position="-128" Score="6.5">
+          <Sequence>TTTAGTGCAGATGCACAAAG</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_1382" Name="sdaR" Position="-73" Score="6.5">
+          <Sequence>CTTTGTGCATCTGCACTAAA</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5452855" LocusId="Gdia_1382" Name="sdaR" Function="Glycerate utilization transcriptional regulator SdaR, SdaR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5452854" LocusId="Gdia_1381" Name="grtT" Function="Predicted D-glycerate transporter, MFS family" />
+          <Members vimssId="5452853" LocusId="Gdia_1380" Name="garK" Function="Glycerate kinase (EC 2.7.1.31)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6479</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YrdX3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61857" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Gdia_2617" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5454112&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="YrdX3 - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6354" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gdia_2618" Name="" Position="-160" Score="17.7">
+          <Sequence>TTGTTTCC-(13)-TTGTATGG-(44)-TTGTATGG-(10)-CCATACAA</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5454113" LocusId="Gdia_2618" Name="null" Function="hypothetical protein" />
+          <Members vimssId="5454114" LocusId="Gdia_2619" Name="COG388" Function="Nitrilase/cyanide hydratase and apolipoprotein N-acyltransferase (EC 3.5.5.7)" />
+          <Members vimssId="5454115" LocusId="Gdia_2620" Name="COG2516" Function="Biotin synthase-related radical SAM domain protein" />
+          <Members vimssId="5454116" LocusId="Gdia_2621" Name="APA01_41640" Function="GCN5-related N-acetyltransferase" />
+          <Members vimssId="5454117" LocusId="Gdia_2622" Name="COG2144" Function="AIR synthase related protein/Selenophosphate synthetase-related" />
+          <Members vimssId="5454118" LocusId="Gdia_2623" Name="rfaG" Function="Glycosyltransferase" />
+          <Members vimssId="5454119" LocusId="Gdia_2624" Name="null" Function="hypothetical protein" />
+          <Members vimssId="5454120" LocusId="Gdia_2625" Name="trkA" Function="FAD dependent oxidoreductase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6354</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16153" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="Gdia_1959" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=5453450&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Rhodospirillales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1736" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gdia_1959" Name="zur" Position="-105" Score="5.6">
+          <Sequence>ACTATGTTATAATGTAACAAATA</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_1958" Name="znuA2" Position="-75" Score="6">
+          <Sequence>TATTTGTTACATTATAACATAGT</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Gdia_1456" Name="omr" Position="-89" Score="4.6">
+          <Sequence>GAAACGTTATATCATACGGTTTA</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5453450" LocusId="Gdia_1959" Name="zur" Function="Zinc uptake regulation protein Zur" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5452929" LocusId="Gdia_1456" Name="omr" Function="Predicted zinc-regulated TonB-dependent outer membrane transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="5453449" LocusId="Gdia_1958" Name="znuA2" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+          <Members vimssId="5453448" LocusId="Gdia_1957" Name="znuC2" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="5453447" LocusId="Gdia_1956" Name="znuB2" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1736</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48777" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gdia_1867" Name="ribD" Position="-319" Score="97.7">
+          <Sequence>TTGACGTTCTCGGGGCGGGGTGAAAGTCCCCACCGGCGGTATTTGCGCCCGGTCATCAGGCCGGGGTGCATCAGCCCGCGAGCGCCCGCCAGGCCTTTGGGCATGGCGGGGACAGCAGATCCGGTGTGATTCCGGAGCCGACGGTTACAGTCCGGATGATAGAGAACGATG</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5453354" LocusId="Gdia_1867" Name="ribD" Function="Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26) / 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)" />
+          <Members vimssId="5453353" LocusId="Gdia_1866" Name="ribE" Function="Riboflavin synthase alpha chain (EC 2.5.1.9)" />
+          <Members vimssId="5453352" LocusId="Gdia_1865" Name="ribBA" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase / GTP cyclohydrolase II" />
+          <Members vimssId="5453351" LocusId="Gdia_1864" Name="ribH" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48786" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Gdia_1390" Name="thiC" Position="-177" Score="66.3">
+          <Sequence>GTCGCGTTCTCCGGGGAGCCGCGTCAGAATGGCTGAGAGAGGGGCTAGCCCCTGACCCGTCGAACCTGATCCGGGTCATGCCGGCGAAGGGATGGGAATTGAGCGCGATG</Sequence>
+          <Bacteria>Gluconacetobacter diazotrophicus PAl 5</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="5452863" LocusId="Gdia_1390" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

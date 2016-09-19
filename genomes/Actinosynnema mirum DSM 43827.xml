@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Actinosynnema mirum DSM 43827" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="AcnR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63008" />
+      <Effector>Citrate</Effector>
+      <Pathway>Tricarboxylic acid cycle</Pathway>
+      <LocusTag Key="Amir_2120" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7336140&amp;disp=0" />
+      <BiologicalProcess>Tricarboxylic acid cycle</BiologicalProcess>
+      <Regulog Key="AcnR - Frankineae/Propionibacterineae/Pseudonocardiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6495" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Amir_2132" Name="acnA" Position="-103" Score="5.8">
+          <Sequence>CAGGACACGCGTACTG</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_2120" Name="acnR" Position="-53" Score="4.1">
+          <Sequence>CAATCCGTACGTACTG</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_6478" Name="icd" Position="-48" Score="5.8">
+          <Sequence>CAGTACGCTTGTCCTG</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7340520" LocusId="Amir_6478" Name="icd" Function="Isocitrate dehydrogenase [NADP] (EC 1.1.1.42)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7336140" LocusId="Amir_2120" Name="acnR" Function="Aconitase gene transcriptional regulator AcnR, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7336152" LocusId="Amir_2132" Name="acnA" Function="Aconitate hydratase (EC 4.2.1.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6495</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="Amir_6997" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56864" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Amir_6997" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7341049&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="Amir_6997 - Frankineae/Propionibacterineae/Pseudonocardiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5814" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Amir_6832" Name="alhA" Position="-58" Score="5.5">
+          <Sequence>GGTTGTTGAACAATC</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_5734" Name="COG2814" Position="-61" Score="5.8">
+          <Sequence>GATTGTTCAACAATC</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_6997" Name="Amir_6997" Position="-58" Score="5.5">
+          <Sequence>GGTTGTTGAACAATC</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_6996" Name="Amir_6996" Position="-134" Score="5.5">
+          <Sequence>GATTGTTCAACAACC</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7341048" LocusId="Amir_6996" Name="Amir_6996" Function="putative secreted protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7341049" LocusId="Amir_6997" Name="Amir_6997" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7340883" LocusId="Amir_6832" Name="alhA" Function="Putative allophanate hydrolase 2, subunit 1 (EC 3.5.1.54)" />
+          <Members vimssId="7340884" LocusId="Amir_6833" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7340885" LocusId="Amir_6834" Name="alhB" Function="Putative allophanate hydrolase 2, subunit 2 (EC 3.5.1.54)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7339772" LocusId="Amir_5734" Name="COG2814" Function="Major facilitator superfamily transporter" />
+          <Members vimssId="7339773" LocusId="Amir_5735" Name="COG4336" Function="hypothetical protein possibly connected to lactam utilization and allophanate hydrolase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5814</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58967" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="Amir_5451" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7339488&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Frankineae/Propionibacterineae/Pseudonocardiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6044" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Amir_5456" Name="argC" Position="-16" Score="4.8">
+          <Sequence>GTGCATACTTATCCGC</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_2046" Name="argG" Position="-36" Score="5.1">
+          <Sequence>GTGAATGATCATGCAT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_2046" Name="argG" Position="-16" Score="4.4">
+          <Sequence>GTGCATAATTGTCGAC</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7339493" LocusId="Amir_5456" Name="argC" Function="N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)" />
+          <Members vimssId="7339492" LocusId="Amir_5455" Name="argJ" Function="Glutamate N-acetyltransferase (EC 2.3.1.35) / N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="7339491" LocusId="Amir_5454" Name="argB" Function="Acetylglutamate kinase (EC 2.7.2.8)" />
+          <Members vimssId="7339490" LocusId="Amir_5453" Name="argD" Function="Acetylornithine aminotransferase (EC 2.6.1.11)" />
+          <Members vimssId="7339489" LocusId="Amir_5452" Name="argF" Function="Ornithine carbamoyltransferase (EC 2.1.3.3)" />
+          <Members vimssId="7339488" LocusId="Amir_5451" Name="argR" Function="Arginine metabolism transcriptional regulator ArgR, ArgR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7336066" LocusId="Amir_2046" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6044</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="DasR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63541" />
+      <Effector>Glucosamine-6-phosphate</Effector>
+      <Pathway>N-acetylglucosamine utilization</Pathway>
+      <LocusTag Key="Amir_0404" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7334394&amp;disp=0" />
+      <BiologicalProcess>N-acetylglucosamine utilization</BiologicalProcess>
+      <Regulog Key="DasR - Frankineae/Propionibacterineae/Pseudonocardiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6552" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Amir_5259" Name="dasR2" Position="-63" Score="5.1">
+          <Sequence>ACTGGTCTAGACCGGA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_6923" Name="nagK2" Position="-63" Score="5.3">
+          <Sequence>CTTGGTATAGACCAAT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_0403" Name="dasA" Position="-87" Score="5.6">
+          <Sequence>ATTGGTCTACACCACT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_0404" Name="dasR" Position="-173" Score="5.6">
+          <Sequence>AGTGGTGTAGACCAAT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_0400" Name="nagB2" Position="-63" Score="5.3">
+          <Sequence>ATTGGTCTAGACCTAA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_5336" Name="COG3179" Position="-75" Score="5.5">
+          <Sequence>ACTGGTGTAGACCAAT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_1220" Name="chiA" Position="-80" Score="5.4">
+          <Sequence>ATTGGTCTAGTCCACT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_1091" Name="hex" Position="-41" Score="4.4">
+          <Sequence>ATTGGTCCAGACCTTG</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_4031" Name="glcI" Position="-167" Score="4.6">
+          <Sequence>AGAGGTCTAGTCCACC</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_6558" Name="glmS" Position="-91" Score="5.5">
+          <Sequence>ATTGGTCTACACCAAA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_5258" Name="nagF" Position="-126" Score="5.1">
+          <Sequence>TCCGGTCTAGACCAGT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_5334" Name="chb" Position="-157" Score="5.1">
+          <Sequence>TATGGTCTAGACCAAG</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_0446" Name="nagT" Position="-100" Score="4.9">
+          <Sequence>TCTGGTCTAGACCTAC</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_6206" Name="chiC" Position="-80" Score="4.6">
+          <Sequence>AGTGGTCTAGACCTTG</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_6206" Name="chiC" Position="-57" Score="4.9">
+          <Sequence>AGTGGTCTGAACCACA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_5107" Name="chb" Position="-122" Score="4.7">
+          <Sequence>TATGGTCTAGACCGGC</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7340974" LocusId="Amir_6923" Name="nagK2" Function="Predicted N-acetylglucosamine kinase, glucokinase-like (EC 2.7.1.59)" />
+          <Members vimssId="7340975" LocusId="Amir_6924" Name="nagA" Function="N-acetylglucosamine-6-phosphate deacetylase (EC 3.5.1.25)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7334394" LocusId="Amir_0404" Name="dasR" Function="Transcriptional regulator of N-Acetylglucosamine utilization, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7334393" LocusId="Amir_0403" Name="dasA" Function="sugar transporter sugar binding protein" />
+          <Members vimssId="7334392" LocusId="Amir_0402" Name="dasB" Function="sugar transporter integral membrane protein" />
+          <Members vimssId="7334391" LocusId="Amir_0401" Name="dasC" Function="sugar transporter inner membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7339136" LocusId="Amir_5107" Name="chb" Function="Chitin binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7340248" LocusId="Amir_6206" Name="chiC" Function="Chitinase (EC 3.2.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7334436" LocusId="Amir_0446" Name="nagT" Function="N-Acetyl-D-glucosamine ABC transport system, sugar-binding protein" />
+          <Members vimssId="7334437" LocusId="Amir_0447" Name="nagU" Function="N-Acetyl-D-glucosamine ABC transport system, permease protein 1" />
+          <Members vimssId="7334438" LocusId="Amir_0448" Name="nagV" Function="N-Acetyl-D-glucosamine ABC transport system, permease protein 2" />
+          <Members vimssId="7334439" LocusId="Amir_0449" Name="hex" Function="Beta-hexosaminidase (EC 3.2.1.52)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7339367" LocusId="Amir_5334" Name="chb" Function="Chitin binding protein" />
+          <Members vimssId="7339366" LocusId="Amir_5333" Name="null" Function="putative lipoprotein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7339291" LocusId="Amir_5258" Name="nagF" Function="PTS system N-acetylglucosamine-specific EIIB component" />
+          <Members vimssId="7339290" LocusId="Amir_5257" Name="nagG" Function="PTS system N-acetylglucosamine-specific EIIA component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7334390" LocusId="Amir_0400" Name="nagB2" Function="Glucosamine-6-phosphate deaminase [isomerizing], alternative (EC 3.5.99.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7335228" LocusId="Amir_1220" Name="chiA" Function="Chitinase A precursor (EC 3.2.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7338055" LocusId="Amir_4031" Name="glcI" Function="Glucan endo-1,3-beta-glucosidase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7340601" LocusId="Amir_6558" Name="glmS" Function="Glucosamine--fructose-6-phosphate aminotransferase [isomerizing] (EC 2.6.1.16)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7339369" LocusId="Amir_5336" Name="COG3179" Function="Predicted chitinase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7335096" LocusId="Amir_1091" Name="hex" Function="Beta-hexosaminidase (EC 3.2.1.52)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7339292" LocusId="Amir_5259" Name="dasR2" Function="Transcriptional regulator of N-Acetylglucosamine utilization, GntR family" />
+          <Members vimssId="7339293" LocusId="Amir_5260" Name="nagE" Function="PTS system, N-acetylglucosamine-specific IIB component (EC 2.7.1.69) / PTS system, N-acetylglucosamine-specific IIC component (EC 2.7.1.69)" />
+          <Members vimssId="7339294" LocusId="Amir_5261" Name="ptsH" Function="Phosphotransferase system, phosphocarrier protein HPr" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6552</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58652" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Amir_1241" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7335249&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Frankineae/Propionibacterineae/Pseudonocardiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6003" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Amir_0626" Name="COG2331" Position="-50" Score="6.4">
+          <Sequence>TTGGCACTCGTGACGTGGGAGTGCCAA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_0442" Name="groL2" Position="-178" Score="6.9">
+          <Sequence>CTGGCACTCGGCACTGCTGAGTGCCAG</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_0442" Name="groL2" Position="-213" Score="6.8">
+          <Sequence>CTTGCACTCTCGGGTGGCGAGTGCTAA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_6544" Name="groS" Position="-128" Score="6.7">
+          <Sequence>TTGGCACTCGAATGGGTAGAGTGCTAG</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7334432" LocusId="Amir_0442" Name="groL2" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7334617" LocusId="Amir_0626" Name="COG2331" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7340587" LocusId="Amir_6544" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="7340586" LocusId="Amir_6543" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6003</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58746" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="Amir_3974" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7337998&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Frankineae/Propionibacterineae/Pseudonocardiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6018" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Amir_1692" Name="ruvC" Position="-58" Score="5">
+          <Sequence>TCGAACTGGTGTTCGC</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_1434" Name="lexA" Position="-184" Score="5.6">
+          <Sequence>TCGAACAACCGTTCGA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_1434" Name="lexA" Position="-168" Score="5.3">
+          <Sequence>TCGAACGCCCGTGCGA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_1434" Name="lexA" Position="-103" Score="5.6">
+          <Sequence>TCGAACAGGTGTTTGA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_3974" Name="lexA" Position="-157" Score="3.8">
+          <Sequence>ACGACCTCGTGCTCGA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_1419" Name="recA" Position="-151" Score="5.7">
+          <Sequence>TCGAACACCTGTTCGG</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_1419" Name="recA" Position="-264" Score="4.2">
+          <Sequence>CCGACCAGGCGTTGGA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_5483" Name="uvrA" Position="-38" Score="5.6">
+          <Sequence>TCGAACATGTGTTCGG</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_5585" Name="dprA" Position="-26" Score="5.8">
+          <Sequence>TCGAACAGACGTTCGA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_5585" Name="dprA" Position="-87" Score="4.2">
+          <Sequence>TCGACCACCCGGTCGT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_2280" Name="gyrB" Position="-100" Score="5.5">
+          <Sequence>TCGAACGCGTGTTTGA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_0958" Name="hsdR" Position="16" Score="4.1">
+          <Sequence>ACGAATCCGCGTTCGG</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7337998" LocusId="Amir_3974" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7339622" LocusId="Amir_5585" Name="dprA" Function="DNA protecting protein DprA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7335708" LocusId="Amir_1692" Name="ruvC" Function="Crossover junction endodeoxyribonuclease RuvC (EC 3.1.22.4)" />
+          <Members vimssId="7335707" LocusId="Amir_1691" Name="ruvA" Function="Holliday junction DNA helicase RuvA" />
+          <Members vimssId="7335706" LocusId="Amir_1690" Name="ruvB" Function="Holliday junction DNA helicase RuvB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7335445" LocusId="Amir_1434" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7336300" LocusId="Amir_2280" Name="gyrB" Function="Topoisomerase IV, subunit B (EC 5.99.1.-)" />
+          <Members vimssId="7336301" LocusId="Amir_2281" Name="gyrA" Function="Topoisomerase IV, subunit A (EC 5.99.1.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7339520" LocusId="Amir_5483" Name="uvrA" Function="Excinuclease ABC, subunit A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7335430" LocusId="Amir_1419" Name="recA" Function="Recombinase A" />
+          <Members vimssId="7335431" LocusId="Amir_1420" Name="recX" Function="Regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7334960" LocusId="Amir_0958" Name="hsdR" Function="Type I restriction-modification system, restriction subunit R (EC 3.1.21.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6018</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="LldR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56783" />
+      <Effector>L-lactate</Effector>
+      <Pathway>Lactate utilization</Pathway>
+      <LocusTag Key="Amir_3039" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7337060&amp;disp=0" />
+      <BiologicalProcess>Lactate utilization</BiologicalProcess>
+      <Regulog Key="LldR - Frankineae/Propionibacterineae/Pseudonocardiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5802" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Amir_3039" Name="" Position="1" Score="5.9">
+          <Sequence>TGTGGTCGGACCACA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_3038" Name="lldE" Position="-24" Score="5.9">
+          <Sequence>TGTGGTCCGACCACA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7337060" LocusId="Amir_3039" Name="null" Function="Lactate-responsive regulator LldR in Actinobacteria, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7337059" LocusId="Amir_3038" Name="lldE" Function="L-lactate dehydrogenase, Fe-S oxidoreductase subunit LldE" />
+          <Members vimssId="7337058" LocusId="Amir_3037" Name="lldF" Function="L-lactate dehydrogenase, Iron-sulfur cluster-binding subunit LldF" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5802</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="LndYR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57096" />
+      <Effector />
+      <Pathway>Antibiotic resistance</Pathway>
+      <LocusTag Key="Amir_6371" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7340413&amp;disp=0" />
+      <BiologicalProcess>Antibiotic resistance</BiologicalProcess>
+      <Regulog Key="LndYR - Frankineae/Propionibacterineae/Pseudonocardiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5839" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Amir_6371" Name="lndYR" Position="-53" Score="3.8">
+          <Sequence>GGTGTACCTGTTATCTAGTGTCTT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7340413" LocusId="Amir_6371" Name="lndYR" Function="Transcriptional regulator of landomycin production, GntR family" />
+          <Members vimssId="7340412" LocusId="Amir_6370" Name="lndWA" Function="Landomycin ABC transporter, ATP-binding protein" />
+          <Members vimssId="7340411" LocusId="Amir_6369" Name="lndWP" Function="Landomycin ABC transporter, permease protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5839</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="IclR" RegulationMode="repressor">
+      <Regulator Key="LtbR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62796" />
+      <Effector />
+      <Pathway>Leucine biosynthesis</Pathway>
+      <LocusTag Key="Amir_6007" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7340045&amp;disp=0" />
+      <BiologicalProcess>Leucine biosynthesis</BiologicalProcess>
+      <Regulog Key="LtbR - Frankineae/Propionibacterineae/Pseudonocardiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6464" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Amir_6006" Name="leuC" Position="-86" Score="4.4">
+          <Sequence>TGTCCCACAAGCCGATACT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_6006" Name="leuC" Position="-65" Score="4.4">
+          <Sequence>CTTCCCATTGACTGGGAAG</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_6007" Name="ltbR" Position="-32" Score="4.4">
+          <Sequence>CTTCCCAGTCAATGGGAAG</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_6007" Name="ltbR" Position="-11" Score="4.4">
+          <Sequence>AGTATCGGCTTGTGGGACA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7340044" LocusId="Amir_6006" Name="leuC" Function="3-isopropylmalate dehydratase large subunit (EC 4.2.1.33)" />
+          <Members vimssId="7340043" LocusId="Amir_6005" Name="leuD" Function="3-isopropylmalate dehydratase small subunit (EC 4.2.1.33)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7340045" LocusId="Amir_6007" Name="ltbR" Function="Leucine biosynthesis transcriptional regulator LtbR, IclR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6464</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57659" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Amir_1432" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7335443&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Frankineae/Propionibacterineae/Pseudonocardiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5903" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Amir_1432" Name="nrdR" Position="-105" Score="5.2">
+          <Sequence>CCCCCACATCTAGTGG</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_3157" Name="nrdA" Position="-373" Score="5.3">
+          <Sequence>CCACAACATGTAGTGT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7335443" LocusId="Amir_1432" Name="nrdR" Function="Ribonucleotide reductase transcriptional regulator NrdR" />
+          <Members vimssId="7335442" LocusId="Amir_1431" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1) @ intein-containing" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7337178" LocusId="Amir_3157" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="7337179" LocusId="Amir_3158" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5903</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60053" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine biosynthesis</Pathway>
+      <LocusTag Key="Amir_5991" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7340029&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine biosynthesis</BiologicalProcess>
+      <Regulog Key="PdxR2 - Frankineae/Propionibacterineae/Pseudonocardiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6165" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Amir_5990" Name="pdxO" Position="-68" Score="13.7">
+          <Sequence>AGTGGCATCC-(14)-ATTGGCACTT-(4)-GGGTGCCACT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_2108" Name="pdxS" Position="-104" Score="11.4">
+          <Sequence>AGTGGACTGC-(14)-ATTGGCTCCT-(4)-GCGGGCCACG</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7340028" LocusId="Amir_5990" Name="pdxO" Function="Pyridoxamine 5'-phosphate oxidase-related, FMN-binding" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7336128" LocusId="Amir_2108" Name="pdxS" Function="Pyridoxine biosynthesis glutamine amidotransferase, synthase subunit (EC 2.4.2.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6165</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29827" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="Amir_6731" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7340778&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Actinomycetales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3112" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Amir_6731" Name="rex" Position="-95" Score="5.3">
+          <Sequence>TTGTGCGTGCGTTCACAA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_6682" Name="nuoA" Position="-135" Score="6.1">
+          <Sequence>TTGTGAAGGCTTTCACAA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_6682" Name="nuoA" Position="-167" Score="5.4">
+          <Sequence>ATGTGAATCACTTCACAA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_6683" Name="COG0644" Position="-27" Score="5.4">
+          <Sequence>TTGTGAACAAGTGCACAA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_6289" Name="whiB" Position="-85" Score="6.1">
+          <Sequence>TCGTGAAAGCATTCACAA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7340331" LocusId="Amir_6289" Name="whiB" Function="WhiB-family transcriptional regulator involved in differentiation and sporulation" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7340730" LocusId="Amir_6683" Name="COG0644" Function="putative NAD-dependent reductase, COG0644" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7340729" LocusId="Amir_6682" Name="nuoA" Function="NADH ubiquinone oxidoreductase chain A (EC 1.6.5.3)" />
+          <Members vimssId="7340728" LocusId="Amir_6681" Name="nuoB" Function="NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)" />
+          <Members vimssId="7340727" LocusId="Amir_6680" Name="nuoCD" Function="NADH-ubiquinone oxidoreductase chain C, chainD (EC 1.6.5.3)" />
+          <Members vimssId="7340726" LocusId="Amir_6679" Name="nuoCD" Function="NADH-ubiquinone oxidoreductase chain C, chainD (EC 1.6.5.3)" />
+          <Members vimssId="7340725" LocusId="Amir_6678" Name="nuoE" Function="NADH-ubiquinone oxidoreductase chain E (EC 1.6.5.3)" />
+          <Members vimssId="7340724" LocusId="Amir_6677" Name="nuoF" Function="NADH-ubiquinone oxidoreductase chain F (EC 1.6.5.3)" />
+          <Members vimssId="7340723" LocusId="Amir_6676" Name="nuoG" Function="NADH-ubiquinone oxidoreductase chain G (EC 1.6.5.3)" />
+          <Members vimssId="7340722" LocusId="Amir_6675" Name="nuoH" Function="NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)" />
+          <Members vimssId="7340721" LocusId="Amir_6674" Name="nuoI" Function="NADH-quinone oxidoreductase, chain I" />
+          <Members vimssId="7340720" LocusId="Amir_6673" Name="nuoJ" Function="NADH-ubiquinone oxidoreductase chain J (EC 1.6.5.3)" />
+          <Members vimssId="7340719" LocusId="Amir_6672" Name="nuoK" Function="NADH-ubiquinone oxidoreductase chain K (EC 1.6.5.3)" />
+          <Members vimssId="7340718" LocusId="Amir_6671" Name="nuoL" Function="NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)" />
+          <Members vimssId="7340717" LocusId="Amir_6670" Name="nuoM" Function="NADH-ubiquinone oxidoreductase chain M (EC 1.6.5.3)" />
+          <Members vimssId="7340716" LocusId="Amir_6669" Name="nuoN" Function="NADH-ubiquinone oxidoreductase chain N (EC 1.6.5.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7340778" LocusId="Amir_6731" Name="rex" Function="Redox-sensitive transcriptional regulator Rex" />
+          <Members vimssId="7340777" LocusId="Amir_6730" Name="hemA" Function="Glutamyl-tRNA reductase (EC 1.2.1.70)" />
+          <Members vimssId="7340776" LocusId="Amir_6729" Name="hemC" Function="Porphobilinogen deaminase (EC 2.5.1.61)" />
+          <Members vimssId="7340775" LocusId="Amir_6728" Name="hemD" Function="Uroporphyrinogen-III methyltransferase (EC 2.1.1.107) / Uroporphyrinogen-III synthase (EC 4.2.1.75)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3112</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62222" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="Amir_6731" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7340778&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Frankineae/Propionibacterineae/Pseudonocardiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6396" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Amir_6289" Name="whiB" Position="-85" Score="6">
+          <Sequence>TCGTGAAAGCATTCACAA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_6731" Name="rex" Position="-95" Score="5.6">
+          <Sequence>TTGTGCGTGCGTTCACAA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_6682" Name="nuoA" Position="-135" Score="6.1">
+          <Sequence>TTGTGAAGGCTTTCACAA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_6682" Name="nuoA" Position="-167" Score="5.4">
+          <Sequence>ATGTGAATCACTTCACAA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_6683" Name="COG0644" Position="-27" Score="5.7">
+          <Sequence>TTGTGAACAAGTGCACAA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7340730" LocusId="Amir_6683" Name="COG0644" Function="Putative NAD-dependent reductase, COG0644" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7340729" LocusId="Amir_6682" Name="nuoA" Function="NADH ubiquinone oxidoreductase chain A (EC 1.6.5.3)" />
+          <Members vimssId="7340728" LocusId="Amir_6681" Name="nuoB" Function="NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)" />
+          <Members vimssId="7340727" LocusId="Amir_6680" Name="nuoC" Function="NADH-ubiquinone oxidoreductase chain C (EC 1.6.5.3)" />
+          <Members vimssId="7340726" LocusId="Amir_6679" Name="nuoD" Function="NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)" />
+          <Members vimssId="7340725" LocusId="Amir_6678" Name="nuoE" Function="NADH-ubiquinone oxidoreductase chain E (EC 1.6.5.3)" />
+          <Members vimssId="7340724" LocusId="Amir_6677" Name="nuoF" Function="NADH-ubiquinone oxidoreductase chain F (EC 1.6.5.3)" />
+          <Members vimssId="7340723" LocusId="Amir_6676" Name="nuoG" Function="NADH-ubiquinone oxidoreductase chain G (EC 1.6.5.3)" />
+          <Members vimssId="7340722" LocusId="Amir_6675" Name="nuoH" Function="NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)" />
+          <Members vimssId="7340721" LocusId="Amir_6674" Name="nuoI" Function="NADH-ubiquinone oxidoreductase chain I (EC 1.6.5.3)" />
+          <Members vimssId="7340720" LocusId="Amir_6673" Name="nuoJ" Function="NADH-ubiquinone oxidoreductase chain J (EC 1.6.5.3)" />
+          <Members vimssId="7340719" LocusId="Amir_6672" Name="nuoK" Function="NADH-ubiquinone oxidoreductase chain K (EC 1.6.5.3)" />
+          <Members vimssId="7340718" LocusId="Amir_6671" Name="nuoL" Function="NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)" />
+          <Members vimssId="7340717" LocusId="Amir_6670" Name="nuoM" Function="NADH-ubiquinone oxidoreductase chain M (EC 1.6.5.3)" />
+          <Members vimssId="7340716" LocusId="Amir_6669" Name="nuoN" Function="NADH-ubiquinone oxidoreductase chain N (EC 1.6.5.3)" />
+          <Members vimssId="7340715" LocusId="Amir_6668" Name="COG0142" Function="Octaprenyl-diphosphate synthase (EC 2.5.1.-) / Dimethylallyltransferase (EC 2.5.1.1) / Geranyltranstransferase (farnesyldiphosphate synthase) (EC 2.5.1.10) / Geranylgeranyl pyrophosphate synthetase (EC 2.5.1.29)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7340331" LocusId="Amir_6289" Name="whiB" Function="WhiB-family transcriptional regulator involved in differentiation and sporulation" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7340778" LocusId="Amir_6731" Name="rex" Function="Redox-sensitive transcriptional regulator Rex" />
+          <Members vimssId="7340777" LocusId="Amir_6730" Name="hemA" Function="Glutamyl-tRNA reductase (EC 1.2.1.70)" />
+          <Members vimssId="7340776" LocusId="Amir_6729" Name="hemC" Function="Porphobilinogen deaminase (EC 2.5.1.61)" />
+          <Members vimssId="7340775" LocusId="Amir_6728" Name="hemD" Function="Uroporphyrinogen-III methyltransferase (EC 2.1.1.107) / Uroporphyrinogen-III synthase (EC 4.2.1.75)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6396</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="RhaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52616" />
+      <Effector>Rhamnose</Effector>
+      <Pathway>Rhamnose utilization</Pathway>
+      <LocusTag Key="Amir_0975" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7334977&amp;disp=0" />
+      <BiologicalProcess>Rhamnose utilization</BiologicalProcess>
+      <Regulog Key="RhaR - Frankineae/Propionibacterineae/Pseudonocardiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5365" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Amir_3041" Name="rhaG" Position="-152" Score="4.6">
+          <Sequence>AGCTTGAAACGATTTAGCCG</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_3041" Name="rhaG" Position="-31" Score="5.1">
+          <Sequence>AGATTGAAACCTTTCATTCC</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_0970" Name="rhiL" Position="-132" Score="4.7">
+          <Sequence>CCTGTGAACCGATTCAACGC</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_0970" Name="rhiL" Position="-34" Score="5.1">
+          <Sequence>GGCTTGAACCGATTCAACCA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_3040" Name="rhaR" Position="-167" Score="5.1">
+          <Sequence>GGAATGAAAGGTTTCAATCT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_3040" Name="rhaR" Position="-46" Score="4.6">
+          <Sequence>CGGCTAAATCGTTTCAAGCT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7334972" LocusId="Amir_0970" Name="rhiL" Function="Putatuve rhamnogalacturonides ABC transporter, substrate-binding protein" />
+          <Members vimssId="7334973" LocusId="Amir_0971" Name="rhiF" Function="Putatuve rhamnogalacturonides ABC transporter, permease component 1" />
+          <Members vimssId="7334974" LocusId="Amir_0972" Name="rhiG" Function="Putatuve rhamnogalacturonides ABC transporter, permease component 2" />
+          <Members vimssId="7334975" LocusId="Amir_0973" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7334976" LocusId="Amir_0974" Name="rhaM" Function="L-rhamnose mutarotase" />
+          <Members vimssId="7334977" LocusId="Amir_0975" Name="rhaR" Function="Transcriptional regulator of rhamnose utilization, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7337061" LocusId="Amir_3040" Name="rhaR" Function="Transcriptional regulator of rhamnose utilization, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7337062" LocusId="Amir_3041" Name="rhaG" Function="L-rhamnose ABC transporter, duplicated ATP-binding component" />
+          <Members vimssId="7337063" LocusId="Amir_3042" Name="rhaH" Function="L-rhamnose ABC transporter, permease component 2" />
+          <Members vimssId="7337064" LocusId="Amir_3043" Name="rhaJ" Function="L-rhamnose ABC transporter, permease component 1" />
+          <Members vimssId="7337065" LocusId="Amir_3044" Name="rhaF" Function="L-rhamnose ABC transporter, duplicated periplasmic rhamnose-binding protein" />
+          <Members vimssId="7337066" LocusId="Amir_3045" Name="rhaI" Function="Predicted L-rhamnose isomerase RhaI (EC 5.3.1.14)" />
+          <Members vimssId="7337067" LocusId="Amir_3046" Name="rhaEW" Function="Predicted rhamnulose-1-phosphate aldolase (EC 4.1.2.19) / Predicted lactaldehyde dehydrogenase (EC 1.2.1.22)" />
+          <Members vimssId="7337068" LocusId="Amir_3047" Name="rhaB" Function="Rhamnulokinase (EC 2.7.1.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5365</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=42017" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="Amir_1261" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7335269&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Actinobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4339" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Amir_4413" Name="zur" Position="-56" Score="5.3">
+          <Sequence>AATTGAAAACGATTGTCTTTT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_0352" Name="znuA" Position="-50" Score="4.3">
+          <Sequence>ACTCGACAACGGTTACCATTC</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_4776" Name="sapD" Position="-61" Score="5.6">
+          <Sequence>TATTGAAAATGATTGTCCTTT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_4768" Name="troA" Position="-79" Score="5.1">
+          <Sequence>GATTGAAAACGGTTGTCGTTT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_3101" Name="" Position="-66" Score="5.5">
+          <Sequence>AGTTGAAAACCGTTGTCATTT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_4416" Name="yciC" Position="-53" Score="5.5">
+          <Sequence>AAATGACAATCGTTTCCGTTA</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_0607" Name="rpmB2" Position="-40" Score="5">
+          <Sequence>AGGTGAAAATGATTGTCATTC</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7338805" LocusId="Amir_4776" Name="sapD" Function="Conserved hypothetical protein CHP03773, ABC transporter-like" />
+          <Members vimssId="7338804" LocusId="Amir_4775" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7338803" LocusId="Amir_4774" Name="Amir_4774" Function="protein of unknown function DUF916 cell surface putative" />
+          <Members vimssId="7338802" LocusId="Amir_4773" Name="yciC3" Function="Putative metal chaperone, involved in Zn homeostasis, GTPase of COG0523 family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7338797" LocusId="Amir_4768" Name="troA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+          <Members vimssId="7338798" LocusId="Amir_4769" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7338799" LocusId="Amir_4770" Name="DIP0440" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="7338800" LocusId="Amir_4771" Name="DIP0441" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7337122" LocusId="Amir_3101" Name="null" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7338441" LocusId="Amir_4413" Name="zur" Function="Zinc uptake regulation protein Zur" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7334341" LocusId="Amir_0352" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+          <Members vimssId="7334342" LocusId="Amir_0353" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="7334343" LocusId="Amir_0354" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7334598" LocusId="Amir_0607" Name="rpmB2" Function="LSU ribosomal protein L28p" />
+          <Members vimssId="7334597" LocusId="Amir_0606" Name="rpmG2" Function="LSU ribosomal protein L33p" />
+          <Members vimssId="7334596" LocusId="Amir_0605" Name="rpsN2" Function="SSU ribosomal protein S14p (S29e)" />
+          <Members vimssId="7334595" LocusId="Amir_0604" Name="rpsR2" Function="SSU ribosomal protein S18p" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7338444" LocusId="Amir_4416" Name="yciC" Function="Putative metal chaperone, involved in Zn homeostasis, GTPase of COG0523 family" />
+          <Members vimssId="7338443" LocusId="Amir_4415" Name="rpmE2" Function="LSU ribosomal protein L31p" />
+          <Members vimssId="7338442" LocusId="Amir_4414" Name="rpmF2" Function="LSU ribosomal protein L32p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4339</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62927" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="Amir_1261" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7335269&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Frankineae/Propionibacterineae/Pseudonocardiaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6484" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Amir_0607" Name="rpmB2" Position="-39" Score="5.3">
+          <Sequence>GGTGAAAATGATTGTCATT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_4416" Name="yciC" Position="-52" Score="5.5">
+          <Sequence>AATGACAATCGTTTCCGTT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_3101" Name="Amir_3101" Position="-65" Score="5.7">
+          <Sequence>GTTGAAAACCGTTGTCATT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_0352" Name="znuA" Position="-49" Score="5.2">
+          <Sequence>CTCGACAACGGTTACCATT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_4413" Name="zur" Position="-55" Score="5.5">
+          <Sequence>ATTGAAAACGATTGTCTTT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_4768" Name="znuA3" Position="-78" Score="5.9">
+          <Sequence>ATTGAAAACGGTTGTCGTT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Amir_4776" Name="TIGR03773" Position="-60" Score="5.5">
+          <Sequence>ATTGAAAATGATTGTCCTT</Sequence>
+          <Bacteria>Actinosynnema mirum DSM 43827</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7338441" LocusId="Amir_4413" Name="zur" Function="Zinc homeostasis transcriptional regulator Zur, Fur family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7337122" LocusId="Amir_3101" Name="Amir_3101" Function="Surface-anchored repeat, actinobacteria" />
+          <Members vimssId="7337121" LocusId="Amir_3100" Name="Amir_3100" Function="Surface-anchored repeat, actinobacteria" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7334341" LocusId="Amir_0352" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+          <Members vimssId="7334342" LocusId="Amir_0353" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="7334343" LocusId="Amir_0354" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7334598" LocusId="Amir_0607" Name="rpmB2" Function="LSU ribosomal protein L28p" />
+          <Members vimssId="7334597" LocusId="Amir_0606" Name="rpmG2" Function="LSU ribosomal protein L33p" />
+          <Members vimssId="7334596" LocusId="Amir_0605" Name="rpsN2" Function="SSU ribosomal protein S14p" />
+          <Members vimssId="7334595" LocusId="Amir_0604" Name="rpsR2" Function="SSU ribosomal protein S18p" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7338797" LocusId="Amir_4768" Name="znuA3" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+          <Members vimssId="7338798" LocusId="Amir_4769" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7338799" LocusId="Amir_4770" Name="znuC3" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="7338800" LocusId="Amir_4771" Name="znuB3" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7338805" LocusId="Amir_4776" Name="TIGR03773" Function="Conserved hypothetical protein CHP03773, ABC transporter-like" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7338444" LocusId="Amir_4416" Name="yciC" Function="Putative metal chaperone, involved in Zn homeostasis, GTPase of COG0523 family" />
+          <Members vimssId="7338443" LocusId="Amir_4415" Name="rpmE2" Function="LSU ribosomal protein L31p" />
+          <Members vimssId="7338442" LocusId="Amir_4414" Name="rpmF2" Function="LSU ribosomal protein L32p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6484</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Listeria welshimeri serovar 6b str. SLCC5334" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="AlsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53580" />
+      <Effector>Allose-6-phosphate</Effector>
+      <Pathway>Allose utilization</Pathway>
+      <LocusTag Key="lwe0703" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2052112&amp;disp=0" />
+      <BiologicalProcess>Allose utilization</BiologicalProcess>
+      <Regulog Key="AlsR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5482" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lwe0703" Name="alsR" Position="-151" Score="5.3">
+          <Sequence>ACGGGTAATCGTTTTACCAT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe0703" Name="alsR" Position="-197" Score="5.6">
+          <Sequence>TTGAGATAACGATTACTCAT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe0703" Name="alsR" Position="-34" Score="5.4">
+          <Sequence>ATATATAAACGTTTACTCAA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe0704" Name="alsE" Position="-200" Score="5.4">
+          <Sequence>TTGAGTAAACGTTTATATAT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe0704" Name="alsE" Position="-37" Score="5.6">
+          <Sequence>ATGAGTAATCGTTATCTCAA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe0704" Name="alsE" Position="-83" Score="5.3">
+          <Sequence>ATGGTAAAACGATTACCCGT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2052113" LocusId="lwe0704" Name="alsE" Function="D-allulose-6-phosphate 3-epimerase (EC 5.1.3.-)" />
+          <Members vimssId="2052114" LocusId="lwe0705" Name="alsI" Function="D-allose-6-phosphate isomerase (EC 5.3.1.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2052112" LocusId="lwe0703" Name="alsR" Function="Transcriptional regulator of D-allose utilization, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5482</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor (activator)">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59048" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="lwe1382" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2052787&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6054" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lwe2111" Name="argG" Position="-30" Score="4.9">
+          <Sequence>TTGTATATTTATGAAT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe2111" Name="argG" Position="-114" Score="4.6">
+          <Sequence>ATGTATTTTTAAACAT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe2111" Name="argG" Position="-50" Score="4.4">
+          <Sequence>GTTAATATAAATACAA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe1604" Name="argC" Position="-62" Score="4.8">
+          <Sequence>CTTTATAAATATACAT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2053009" LocusId="lwe1604" Name="argC" Function="N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)" />
+          <Members vimssId="2053008" LocusId="lwe1603" Name="argJ" Function="Glutamate N-acetyltransferase (EC 2.3.1.35) / N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="2053007" LocusId="lwe1602" Name="argB" Function="Acetylglutamate kinase (EC 2.7.2.8)" />
+          <Members vimssId="2053006" LocusId="lwe1601" Name="argD" Function="Acetylornithine aminotransferase (EC 2.6.1.11)" />
+          <Members vimssId="2053005" LocusId="lwe1600" Name="argF" Function="Ornithine carbamoyltransferase (EC 2.1.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2053516" LocusId="lwe2111" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+          <Members vimssId="2053517" LocusId="lwe2112" Name="argH" Function="Argininosuccinate lyase (EC 4.3.2.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6054</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="BglR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51660" />
+      <Effector>Beta-glucoside</Effector>
+      <Pathway>Beta-glucosides utilization</Pathway>
+      <LocusTag Key="lwe1744" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2053149&amp;disp=0" />
+      <BiologicalProcess>Beta-glucosides utilization</BiologicalProcess>
+      <Regulog Key="BglR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5240" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lwe1747" Name="bglA" Position="-160" Score="6.7">
+          <Sequence>TTGTCGAAACGTTTCTATGA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe1746" Name="bglX" Position="-290" Score="6.7">
+          <Sequence>TCATAGAAACGTTTCGACAA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2053151" LocusId="lwe1746" Name="bglX" Function="Beta-glucosidase (EC 3.2.1.21)" />
+          <Members vimssId="2053150" LocusId="lwe1745" Name="cbpA" Function="Cellobiose phosphorylase (EC 2.4.1.-)" />
+          <Members vimssId="2053149" LocusId="lwe1744" Name="bglR" Function="Transcriptional regulator for beta-glucoside utilization, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2053152" LocusId="lwe1747" Name="bglA" Function="Predicted beta-glucoside ABC transport system, sugar-binding protein" />
+          <Members vimssId="2053153" LocusId="lwe1748" Name="bglB" Function="Predicted beta-glucoside ABC transport system, permease protein 1" />
+          <Members vimssId="2053154" LocusId="lwe1749" Name="bglC" Function="Predicted beta-glucoside ABC transport system, permease protein 2" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5240</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="BglR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53565" />
+      <Effector>Beta-glucoside-6-phosphate</Effector>
+      <Pathway>Beta-glucosides utilization</Pathway>
+      <LocusTag Key="lwe0495" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2051904&amp;disp=0" />
+      <BiologicalProcess>Beta-glucosides utilization</BiologicalProcess>
+      <Regulog Key="BglR2 - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5480" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lwe0495" Name="bglR2" Position="-114" Score="6.8">
+          <Sequence>TCATGTAATGCATTACAGGT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe0496" Name="licH" Position="-77" Score="6.8">
+          <Sequence>ACCTGTAATGCATTACATGA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe0230" Name="bglH2" Position="-66" Score="6.7">
+          <Sequence>ACCTGTAATGCATTACATAG</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe0018" Name="bglH1" Position="-66" Score="6.6">
+          <Sequence>CTATGTAATGCATTACATAT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2051429" LocusId="lwe0018" Name="bglH1" Function="Aryl-phospho-beta-D-glucosidase (EC 3.2.1.86)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2051905" LocusId="lwe0496" Name="licH" Function="6-phospho-beta-glucosidase (EC 3.2.1.86)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2051904" LocusId="lwe0495" Name="bglR2" Function="Transcriptional regulator for beta-glucoside utilization, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2051639" LocusId="lwe0230" Name="bglH2" Function="Aryl-phospho-beta-D-glucosidase (EC 3.2.1.86)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5480</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57874" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="lwe1923" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2053328&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5925" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lwe0568" Name="bioY" Position="-48" Score="9.3">
+          <Sequence>ATGTTAAC---------------GTTTACAT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2051977" LocusId="lwe0568" Name="bioY" Function="Substrate-specific component BioY of biotin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5925</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="CcpB" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56024" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="lwe2685" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2054090&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="CcpB - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5721" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lwe2686" Name="lmo2738" Position="-72" Score="6.9">
+          <Sequence>TAAATTGTCCGGAATATTTA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2054091" LocusId="lwe2686" Name="lmo2738" Function="Conserved hypothetical protein" />
+          <Members vimssId="2054090" LocusId="lwe2685" Name="ccpB" Function="Predicted transcriptional regulator CcpB, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5721</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CsoR" RegulationMode="repressor">
+      <Regulator Key="CsoR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63613" />
+      <Effector>Copper ion, (Cu+)</Effector>
+      <Pathway>Copper resistance</Pathway>
+      <LocusTag Key="lwe1873" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2053278&amp;disp=0" />
+      <BiologicalProcess>Copper resistance</BiologicalProcess>
+      <Regulog Key="CsoR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6560" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lwe1873" Name="csoR" Position="-50" Score="7.1">
+          <Sequence>ATACCTATAGGGGGTAT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2053278" LocusId="lwe1873" Name="csoR" Function="Copper-sensing transcriptional repressor" />
+          <Members vimssId="2053277" LocusId="lwe1872" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="2053276" LocusId="lwe1871" Name="copZ" Function="Copper chaperone" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6560</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="CzrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63727" />
+      <Effector>Zinc ion, (Zn2+); Silver ion, (Ag+); Nickel ion, (Ni2+); Copper ion, (Cu2+); Cobalt ion, (Co2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Zinc resistance; Nickel resistance; Copper resistance; Cobalt resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="lwe2441" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2053846&amp;disp=0" />
+      <BiologicalProcess>Zinc resistance; Nickel resistance; Copper resistance; Cobalt resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CzrA - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6576" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lwe2441" Name="czrA" Position="-43" Score="6.8">
+          <Sequence>CATATGAGTATATGAACATATA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2053846" LocusId="lwe2441" Name="czrA" Function="Transcriptional repressor of multiple metal-sensing, ArsR family" />
+          <Members vimssId="2053845" LocusId="lwe2440" Name="null" Function="Hypothetical protein" />
+          <Members vimssId="2053844" LocusId="lwe2439" Name="czcD" Function="Cation efflux transporter" />
+          <Members vimssId="2053843" LocusId="lwe2438" Name="csbA" Function="Hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6576</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor (activator)">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62580" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="lwe1982" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2053387&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6439" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lwe1491" Name="COG0635" Position="-10" Score="5.4">
+          <Sequence>ATTGATAATAATGATAAAT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe2203" Name="isdC" Position="-126" Score="5.8">
+          <Sequence>ATTGACAATGATAATCATT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe2203" Name="isdC" Position="-120" Score="6.5">
+          <Sequence>AATGATAATCATTATCAAT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe0452" Name="isdG" Position="-84" Score="5.4">
+          <Sequence>ATTGACAATGAGAATCATT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe0452" Name="isdG" Position="-78" Score="6.3">
+          <Sequence>AATGAGAATCATTATCAAT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe0511" Name="fepB" Position="-42" Score="5.2">
+          <Sequence>AACGATAATGAAAATCATT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe0511" Name="fepB" Position="-36" Score="6.1">
+          <Sequence>AATGAAAATCATTTTCAAT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe1984" Name="fhuB" Position="-59" Score="6">
+          <Sequence>ATTGATAATTATTATCACT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe1985" Name="fhuA" Position="-126" Score="5.8">
+          <Sequence>GGTGATAATCATTCTCAAT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe1985" Name="fhuA" Position="-35" Score="5.8">
+          <Sequence>ACTGAGAATTATTATCAAT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe1986" Name="fhuC" Position="-135" Score="5.8">
+          <Sequence>ATTGATAATAATTCTCAGT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe1986" Name="fhuC" Position="-44" Score="5.8">
+          <Sequence>ATTGAGAATGATTATCACC</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe2125" Name="feoA" Position="-54" Score="5.9">
+          <Sequence>GTTGATAATGATTATCATA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe2125" Name="feoA" Position="-48" Score="5.4">
+          <Sequence>AATGATTATCATATTCAGT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe2378" Name="fepB2" Position="-91" Score="5.9">
+          <Sequence>AATGAAAATAATTCTCAAT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe2276" Name="lmo2261" Position="-66" Score="5.6">
+          <Sequence>AATGAAAATCATTCTCAGA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe1982" Name="fur" Position="-93" Score="5.2">
+          <Sequence>AATTATAATTATTATAAAC</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe1982" Name="fur" Position="-60" Score="5.6">
+          <Sequence>AATGATAATGATGATAATT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe0820" Name="porA" Position="-46" Score="5.1">
+          <Sequence>AATAAGAATGATTATAAAA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe0921" Name="dps" Position="-35" Score="5.5">
+          <Sequence>AGTGATAATCATTATAAAA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe2731" Name="katG" Position="-54" Score="5">
+          <Sequence>TTTAATAATTATTATAAAT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2053390" LocusId="lwe1985" Name="fhuA" Function="Ferrichrome-binding periplasmic protein precursor (TC 3.A.1.14.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2053608" LocusId="lwe2203" Name="isdC" Function="Haem uptake protein IsdC" />
+          <Members vimssId="2053607" LocusId="lwe2202" Name="isdA" Function="Cell surface protein IsdA, transfers heme from hemoglobin to apo-IsdC" />
+          <Members vimssId="2053606" LocusId="lwe2201" Name="isdE" Function="Heme ABC transporter, haem-binding protein IsdE" />
+          <Members vimssId="2053605" LocusId="lwe2200" Name="isdF" Function="Heme ABC transporter, permease component IsdF" />
+          <Members vimssId="2053604" LocusId="lwe2199" Name="ABC-type cobalamin/Fe3+-siderophores transport systems, ATPase components" Function="Heme transporter analogous to IsdDEF, ATP-binding protein" />
+          <Members vimssId="2053603" LocusId="lwe2198" Name="srtB" Function="Sortase, SrtB family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2052896" LocusId="lwe1491" Name="COG0635" Function="Oxygen-independent coproporphyrinogen III oxidase, putative" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2051920" LocusId="lwe0511" Name="fepB" Function="Ferrichrome-binding periplasmic protein precursor (TC 3.A.1.14.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2052328" LocusId="lwe0921" Name="dps" Function="Iron-binding ferritin-like antioxidant protein / Ferroxidase (EC 1.16.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2053387" LocusId="lwe1982" Name="fur" Function="Transcriptional regulator for iron transport and metabolism, Fur family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2053681" LocusId="lwe2276" Name="lmo2261" Function="PaaD-like protein (DUF59) involved in Fe-S cluster assembly" />
+          <Members vimssId="2053680" LocusId="lwe2275" Name="lmo2260" Function="Acetyltransferase, GNAT family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2053783" LocusId="lwe2378" Name="fepB2" Function="Ferrichrome-binding periplasmic protein precursor (TC 3.A.1.14.3)" />
+          <Members vimssId="2053782" LocusId="lwe2377" Name="fepD2" Function="Ferrichrome transport system permease protein (TC 3.A.1.14.3)" />
+          <Members vimssId="2053781" LocusId="lwe2376" Name="fepC2" Function="Ferrichrome transport ATP-binding protein (TC 3.A.1.14.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2053530" LocusId="lwe2125" Name="feoA" Function="Ferrous iron transport protein A" />
+          <Members vimssId="2053531" LocusId="lwe2126" Name="feoB" Function="Ferrous iron transport protein B" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2052229" LocusId="lwe0820" Name="porA" Function="Pyruvate-flavodoxin oxidoreductase (EC 1.2.7.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2053391" LocusId="lwe1986" Name="fhuC" Function="Ferrichrome transport ATP-binding protein FhuC (TC 3.A.1.14.3)" />
+          <Members vimssId="2053392" LocusId="lwe1987" Name="PF07992" Function="Thioredoxin reductase (EC 1.8.1.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2051861" LocusId="lwe0452" Name="isdG" Function="Heme-degrading cytoplasmic oxygenase IsdG" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2053389" LocusId="lwe1984" Name="fhuB" Function="Ferrichrome transport system permease protein FhuB (TC 3.A.1.14.3)" />
+          <Members vimssId="2053388" LocusId="lwe1983" Name="fhuG" Function="Ferrichrome transport system permease protein FhuG" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2054136" LocusId="lwe2731" Name="katG" Function="Catalase (EC 1.11.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6439</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="GmuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=55130" />
+      <Effector />
+      <Pathway>Glucomannan utilization</Pathway>
+      <LocusTag Key="lwe0541" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2051950&amp;disp=0" />
+      <BiologicalProcess>Glucomannan utilization</BiologicalProcess>
+      <Regulog Key="GmuR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5620" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lwe0540" Name="gmuD" Position="-63" Score="4.8">
+          <Sequence>ATAAGTTTATACTTTT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe0886" Name="gmuC" Position="-87" Score="5.8">
+          <Sequence>AAAAGACTAGACATTT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe0887" Name="gmuR1" Position="-42" Score="5.6">
+          <Sequence>AAATGGCTAGACATTT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe2129" Name="manA" Position="-62" Score="4.8">
+          <Sequence>ATTAGTATATACTTTT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2053534" LocusId="lwe2129" Name="manA" Function="Mannose-6-phosphate isomerase (EC 5.3.1.8)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2052294" LocusId="lwe0887" Name="gmuR1" Function="Transcriptional regulator for glucomannan utilization, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2052293" LocusId="lwe0886" Name="gmuC" Function="Glucomannan-related PTS system, IIC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2051949" LocusId="lwe0540" Name="gmuD" Function="Mannoside-phospho-beta-d-glucosidase" />
+          <Members vimssId="2051950" LocusId="lwe0541" Name="gmuR2" Function="Transcriptional regulator for glucomannan utilization, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5620</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TrpR" RegulationMode="repressor">
+      <Regulator Key="HisR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60271" />
+      <Effector>Histidine</Effector>
+      <Pathway>Histidine biosynthesis</Pathway>
+      <LocusTag Key="lwe1781" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2053186&amp;disp=0" />
+      <BiologicalProcess>Histidine biosynthesis</BiologicalProcess>
+      <Regulog Key="HisR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6190" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lwe0535" Name="hisZ" Position="-55" Score="5.8">
+          <Sequence>TGCTTTAACGTGCTAATATG</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe0536" Name="hisJ" Position="-104" Score="5.8">
+          <Sequence>CATATTAGCACGTTAAAGCA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2051944" LocusId="lwe0535" Name="hisZ" Function="ATP phosphoribosyltransferase regulatory subunit (EC 2.4.2.17)" />
+          <Members vimssId="2051943" LocusId="lwe0534" Name="hisG" Function="ATP phosphoribosyltransferase catalytic subunit (EC 2.4.2.17)" />
+          <Members vimssId="2051942" LocusId="lwe0533" Name="hisD" Function="Histidinol dehydrogenase (EC 1.1.1.23)" />
+          <Members vimssId="2051941" LocusId="lwe0532" Name="hisB" Function="Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)" />
+          <Members vimssId="2051940" LocusId="lwe0531" Name="hisH" Function="Imidazole glycerol phosphate synthase amidotransferase subunit (EC 2.4.2.-)" />
+          <Members vimssId="2051939" LocusId="lwe0530" Name="hisA" Function="Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase (EC 5.3.1.16)" />
+          <Members vimssId="2051938" LocusId="lwe0529" Name="hisF" Function="Imidazole glycerol phosphate synthase cyclase subunit (EC 4.1.3.-)" />
+          <Members vimssId="2051937" LocusId="lwe0528" Name="hisI" Function="Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19)" />
+          <Members vimssId="2051936" LocusId="lwe0527" Name="hisE" Function="Phosphoribosyl-ATP pyrophosphatase (EC 3.6.1.31)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2051945" LocusId="lwe0536" Name="hisJ" Function="Histidinol-phosphatase (EC 3.1.3.15)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6190</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58708" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="lwe1490" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2052895&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6011" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lwe2090" Name="groS" Position="-65" Score="7.3">
+          <Sequence>TTAGCACTCTGATGCGTCGAGTGCTAA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe1490" Name="hrcA" Position="-41" Score="7.4">
+          <Sequence>TTAGCACTTGATGTTATTGAGTGCTAA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2053495" LocusId="lwe2090" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="2053494" LocusId="lwe2089" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2052895" LocusId="lwe1490" Name="hrcA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="2052894" LocusId="lwe1489" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="2052893" LocusId="lwe1488" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="2052892" LocusId="lwe1487" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6011</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58729" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="lwe1317" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2052722&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6015" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lwe1656" Name="lin1681" Position="-47" Score="5.1">
+          <Sequence>AAAACAGAACATATGTTTTATGAT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe2437" Name="uvrB" Position="-166" Score="6.4">
+          <Sequence>AAATACGAAAATATGTTCGGTTTT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe1414" Name="recA" Position="-143" Score="6.3">
+          <Sequence>AAATACGAATAAATGTTCGCTTTT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe1317" Name="lexA" Position="-84" Score="5.6">
+          <Sequence>AAAAACGAACCTTTGTTTGCATAT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe1317" Name="lexA" Position="-146" Score="5.9">
+          <Sequence>CAAAAAGAATGTATGTTCGCTTTT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe1776" Name="pcrA" Position="-38" Score="5.8">
+          <Sequence>AAATAAGAACAAATGTTTGTATGG</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe2239" Name="yhaO" Position="-39" Score="5.9">
+          <Sequence>TAATAAGAACGTATATTCGGTTTT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe2283" Name="addB" Position="-30" Score="5.8">
+          <Sequence>AAATAAAAACATATGTTCGGTGGT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe1587" Name="dnaE" Position="-75" Score="5.8">
+          <Sequence>AAACACGAACACACTTTCTTTTTT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe2624" Name="lmo2675" Position="-72" Score="5.1">
+          <Sequence>AAAATAGAACGCTTGTTCGTATAA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe1994" Name="dinP" Position="-41" Score="5.3">
+          <Sequence>GATTAAGAACGTTTGTTCGATTTT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2053644" LocusId="lwe2239" Name="yhaO" Function="Predicted DNA double-strand break repair protein" />
+          <Members vimssId="2053643" LocusId="lwe2238" Name="yhaN" Function="Putative DNA double-strand break repair ATPase" />
+          <Members vimssId="2053642" LocusId="lwe2237" Name="yhaM" Function="Predicted 3'-5' exoribonuclease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2053399" LocusId="lwe1994" Name="dinP" Function="DNA polymerase IV (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2054029" LocusId="lwe2624" Name="lmo2675" Function="Conserved hypothetical protein" />
+          <Members vimssId="2054030" LocusId="lwe2625" Name="uvrX" Function="Predicted UV-damage repair protein UvrX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2053688" LocusId="lwe2283" Name="addB" Function="ATP-dependent nuclease, subunit B" />
+          <Members vimssId="2053687" LocusId="lwe2282" Name="addA" Function="ATP-dependent nuclease, subunit A" />
+          <Members vimssId="2053686" LocusId="lwe2281" Name="yisK" Function="Conserved hypothetical protein" />
+          <Members vimssId="2053685" LocusId="lwe2280" Name="PF07457" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2053842" LocusId="lwe2437" Name="uvrB" Function="Excinuclease ABC, subunit B" />
+          <Members vimssId="2053841" LocusId="lwe2436" Name="uvrA" Function="Excinuclease ABC, subunit A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2052819" LocusId="lwe1414" Name="recA" Function="DNA recombinase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2052722" LocusId="lwe1317" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+          <Members vimssId="2052721" LocusId="lwe1316" Name="guaA" Function="Probable GMP synthase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2052992" LocusId="lwe1587" Name="dnaE" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2053181" LocusId="lwe1776" Name="pcrA" Function="ATP-dependent DNA helicase UvrD/PcrA" />
+          <Members vimssId="2053180" LocusId="lwe1775" Name="ligA" Function="DNA ligase (EC 6.5.1.2)" />
+          <Members vimssId="2053179" LocusId="lwe1774" Name="yerH" Function="Putative lipoprotein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2053061" LocusId="lwe1656" Name="lin1681" Function="Conserved hypothetical protein" />
+          <Members vimssId="2053060" LocusId="lwe1655" Name="tag" Function="DNA-3-methyladenine glycosylase (EC 3.2.2.20)" />
+          <Members vimssId="2053059" LocusId="lwe1654" Name="lin1679" Function="Putative carboxypeptidase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6015</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="MdxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53029" />
+      <Effector>Maltose</Effector>
+      <Pathway>Maltodextrin utilization; Maltose utilization</Pathway>
+      <LocusTag Key="lwe2148" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2053553&amp;disp=0" />
+      <BiologicalProcess>Maltodextrin utilization; Maltose utilization</BiologicalProcess>
+      <Regulog Key="MdxR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5410" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lwe2145" Name="mdxE" Position="-170" Score="5.9">
+          <Sequence>TGTTGTTATCGGTAACATGT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe2146" Name="mdxD" Position="-94" Score="6.5">
+          <Sequence>TCTTGTTACCGTTAACGAGC</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2053550" LocusId="lwe2145" Name="mdxE" Function="Maltose/Maltodextrin ABC transporter, substrate binding periplasmic protein" />
+          <Members vimssId="2053549" LocusId="lwe2144" Name="mdxF" Function="Maltose/Maltodextrin ABC transporter, permease protein" />
+          <Members vimssId="2053548" LocusId="lwe2143" Name="mdxG" Function="Maltose/Maltodextrin ABC transporter, permease protein" />
+          <Members vimssId="2053547" LocusId="lwe2142" Name="malA" Function="Putative maltodextrin utilization protein" />
+          <Members vimssId="2053546" LocusId="lwe2141" Name="malK" Function="Maltose phosphorylase (EC 2.4.1.8)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2053551" LocusId="lwe2146" Name="mdxD" Function="Intracellular maltogenic amylase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5410</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="MntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62922" />
+      <Effector>Manganese ion, (Mn2+)</Effector>
+      <Pathway>Manganese homeostasis</Pathway>
+      <LocusTag Key="lwe1897" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2053302&amp;disp=0" />
+      <BiologicalProcess>Manganese homeostasis</BiologicalProcess>
+      <Regulog Key="MntR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6482" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lwe1441" Name="mntH" Position="-51" Score="6.4">
+          <Sequence>AATGTTTCCCGTAGTAAACTTT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe1868" Name="mntB" Position="-68" Score="6.4">
+          <Sequence>AAAGTTGCTCTAAGGAAACATT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2053273" LocusId="lwe1868" Name="mntB" Function="Manganese ABC transporter, inner membrane permease protein" />
+          <Members vimssId="2053272" LocusId="lwe1867" Name="mntC" Function="Manganese ABC transporter, inner membrane permease protein" />
+          <Members vimssId="2053271" LocusId="lwe1866" Name="mntA" Function="Manganese ABC transporter, inner membrane permease protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2052846" LocusId="lwe1441" Name="mntH" Function="Manganese transport protein MntH" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6482</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="NagR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63121" />
+      <Effector>N-acetylglucosamine-6-phosphate</Effector>
+      <Pathway>N-acetylglucosamine utilization</Pathway>
+      <LocusTag Key="lwe0940" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2052347&amp;disp=0" />
+      <BiologicalProcess>N-acetylglucosamine utilization</BiologicalProcess>
+      <Regulog Key="NagR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6504" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lwe1902" Name="COG3469" Position="-123" Score="5.4">
+          <Sequence>GAATTGGTCTATATCAATTT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe0938" Name="nagA" Position="-39" Score="6">
+          <Sequence>TAATTGGTATAGACCGATTT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe0821" Name="fbp" Position="-95" Score="5.1">
+          <Sequence>CTTTTTGTATAGACCAATTT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe1584" Name="pfk" Position="-244" Score="4.8">
+          <Sequence>TCATTGGTATACACCAAAGA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe1584" Name="pfk" Position="-203" Score="4.5">
+          <Sequence>TCACAAGTATAGACCGATTA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe1584" Name="pfk" Position="-149" Score="5.1">
+          <Sequence>TAATAGGAATAGACCAATAC</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2052989" LocusId="lwe1584" Name="pfk" Function="6-phosphofructokinase (EC 2.7.1.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2052230" LocusId="lwe0821" Name="fbp" Function="Fructose-1,6-bisphosphatase, Bacillus type (EC 3.1.3.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2053307" LocusId="lwe1902" Name="COG3469" Function="Chitinase (EC 3.2.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2052345" LocusId="lwe0938" Name="nagA" Function="N-acetylglucosamine-6-phosphate deacetylase (EC 3.5.1.25)" />
+          <Members vimssId="2052346" LocusId="lwe0939" Name="nagB" Function="Glucosamine-6-phosphate deaminase (EC 3.5.99.6)" />
+          <Members vimssId="2052347" LocusId="lwe0940" Name="nagR" Function="Transcriptional regulator of N-Acetylglucosamine utilization, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6504</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57674" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="lwe1575" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2052980&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5905" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lwe2172" Name="nrdA" Position="-367" Score="4.7">
+          <Sequence>CTACTAAATATAGTTT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe0253" Name="nrdD" Position="-61" Score="4.6">
+          <Sequence>AAACTTCATATTGTGT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe0253" Name="nrdD" Position="-29" Score="5.4">
+          <Sequence>ACACAATATATAGTTA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe2172" Name="nrdA" Position="-336" Score="4.3">
+          <Sequence>ACACTATAAGTAGTGG</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe2172" Name="nrdA" Position="-174" Score="6">
+          <Sequence>ATACTATATATAGTAT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2053577" LocusId="lwe2172" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="2053576" LocusId="lwe2171" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+          <Members vimssId="2053575" LocusId="lwe2170" Name="lin2257" Function="flavodoxin" />
+          <Members vimssId="2053574" LocusId="lwe2169" Name="lin2256" Function="thioredoxin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2051662" LocusId="lwe0253" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+          <Members vimssId="2051663" LocusId="lwe0254" Name="nrdG" Function="Ribonucleotide reductase of class III (anaerobic), activating protein (EC 1.97.1.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5905</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61959" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine biosynthesis</Pathway>
+      <LocusTag Key="lwe2121" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2053526&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine biosynthesis</BiologicalProcess>
+      <Regulog Key="PdxR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6364" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lwe2121" Name="pdxR" Position="-47" Score="10.4">
+          <Sequence>AATTGGATG----------CATCCAATT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe2122" Name="pdxS" Position="-105" Score="10.4">
+          <Sequence>AATTGGATG----------CATCCAATT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2053527" LocusId="lwe2122" Name="pdxS" Function="Pyridoxine biosynthesis glutamine amidotransferase, synthase subunit (EC 2.4.2.-)" />
+          <Members vimssId="2053528" LocusId="lwe2123" Name="pdxT" Function="Pyridoxine biosynthesis glutamine amidotransferase, glutaminase subunit (EC 2.4.2.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2053526" LocusId="lwe2121" Name="pdxR" Function="Predicted transcriptional regulator of pyridoxine metabolism, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6364</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="TreR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=55160" />
+      <Effector>Trehalose-6-phosphate</Effector>
+      <Pathway>Trehalose utilization</Pathway>
+      <LocusTag Key="lwe1272" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2052677&amp;disp=0" />
+      <BiologicalProcess>Trehalose utilization</BiologicalProcess>
+      <Regulog Key="TreR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5625" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lwe1274" Name="treP" Position="-36" Score="6.6">
+          <Sequence>AACTTGTATATACAAGTT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2052679" LocusId="lwe1274" Name="treP" Function="Trehalose-specific PTS system, EIIABC component (EC 2.7.1.69)" />
+          <Members vimssId="2052678" LocusId="lwe1273" Name="treA" Function="Trehalose-6-phosphate hydrolase (EC 3.2.1.93)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5625</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="UriR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52444" />
+      <Effector>Pyrimidine nucleoside</Effector>
+      <Pathway>Nucleoside utilization</Pathway>
+      <LocusTag Key="lwe2014" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2053419&amp;disp=0" />
+      <BiologicalProcess>Nucleoside utilization</BiologicalProcess>
+      <Regulog Key="UriR - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5341" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lwe2013" Name="pdp" Position="-89" Score="7.1">
+          <Sequence>TTAGTAAAACGGTTTACTTA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2053418" LocusId="lwe2013" Name="pdp" Function="Pyrimidine-nucleoside phosphorylase (EC 2.4.2.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5341</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="YcjW" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53584" />
+      <Effector />
+      <Pathway>Sugar utilization</Pathway>
+      <LocusTag Key="lwe2771" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2054176&amp;disp=0" />
+      <BiologicalProcess>Sugar utilization</BiologicalProcess>
+      <Regulog Key="YcjW - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5483" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lwe2771" Name="ycjW" Position="-214" Score="6.2">
+          <Sequence>AACCGGGAGCGCTCCCACAA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe2769" Name="ycjN" Position="-78" Score="5.7">
+          <Sequence>AACTGGGAGCGATTCCATAA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe2770" Name="sucP" Position="-35" Score="6.2">
+          <Sequence>TTGTGGGAGCGCTCCCGGTT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2054176" LocusId="lwe2771" Name="ycjW" Function="Hypothetical sugar utilization transcriptional regulator YcjW, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2054175" LocusId="lwe2770" Name="sucP" Function="Putative sucrose phosphorylase (EC 2.4.1.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2054174" LocusId="lwe2769" Name="ycjN" Function="Sugar ABC transport system, periplasmic binding protein YcjN" />
+          <Members vimssId="2054173" LocusId="lwe2768" Name="ycjO" Function="Sugar ABC transport system, permease protein YcjO" />
+          <Members vimssId="2054172" LocusId="lwe2767" Name="ycjP" Function="Sugar ABC transport system, permease protein YcjP" />
+          <Members vimssId="2054171" LocusId="lwe2766" Name="ycjQ" Function="Zinc-type alcohol dehydrogenase YcjQ" />
+          <Members vimssId="2054170" LocusId="lwe2765" Name="ycjR" Function="Sugar phosphate isomerases/epimerases family protein YcjR" />
+          <Members vimssId="2054169" LocusId="lwe2764" Name="ycjS" Function="Putative oxidoreductase YcjS (EC 1.-.-.-), NADH-binding" />
+          <Members vimssId="2054168" LocusId="lwe2763" Name="ycjT" Function="Uncharacterized sugar phosphorylase (EC 2.4.1.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5483</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="YhcF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=54512" />
+      <Effector />
+      <Pathway>Multidrug efflux; Multidrug resistance</Pathway>
+      <LocusTag Key="lwe1742" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2053147&amp;disp=0" />
+      <BiologicalProcess>Multidrug efflux; Multidrug resistance</BiologicalProcess>
+      <Regulog Key="YhcF - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5563" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lwe1742" Name="yhcF" Position="-50" Score="6.8">
+          <Sequence>AGTGTACTATTTACTTAATACACT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2053147" LocusId="lwe1742" Name="yhcF" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="2053146" LocusId="lwe1741" Name="yhcG" Function="ABC-type multidrug transport system, ATPase component" />
+          <Members vimssId="2053145" LocusId="lwe1740" Name="yhcI" Function="ABC-type multidrug transport system, permease component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5563</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="YtrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52997" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux</Pathway>
+      <LocusTag Key="lwe2258" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2053663&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux</BiologicalProcess>
+      <Regulog Key="YtrA - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5406" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lwe2258" Name="ytrA" Position="-60" Score="7">
+          <Sequence>CAGTGTACTATTGTAACTAGTACAATT</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2053663" LocusId="lwe2258" Name="ytrA" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="2053662" LocusId="lwe2257" Name="ytrB" Function="ABC transporter, ATP-binding protein" />
+          <Members vimssId="2053661" LocusId="lwe2256" Name="ytrC" Function="ABC transporter permease protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5406</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62576" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="lwe1461" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2052866&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Listeriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6438" />
+      <RegulatorySites>
+        <FastaObject LocusTag="lwe0129" Name="znuA" Position="-97" Score="5.7">
+          <Sequence>CAAATAAGAATGATTACGTTTTG</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe0129" Name="znuA" Position="-34" Score="6.1">
+          <Sequence>TAAATCGTAATCATTACGAAAAA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe1689" Name="znuA2" Position="-37" Score="5.6">
+          <Sequence>TAAACAAGAATAATTTCGATTTA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe1689" Name="znuA2" Position="-69" Score="5.9">
+          <Sequence>TAAATCGTAATTGCTACGATTAG</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe1463" Name="znuC2" Position="-89" Score="6.2">
+          <Sequence>TAATTCGAAGTAATTACGATTTA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="lwe1901" Name="rpsN2" Position="-39" Score="6.3">
+          <Sequence>TAAATCGGAATGATTATTATTTA</Sequence>
+          <Bacteria>Listeria welshimeri serovar 6b str. SLCC5334</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2051538" LocusId="lwe0129" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+          <Members vimssId="2051539" LocusId="lwe0130" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="2051540" LocusId="lwe0131" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2052868" LocusId="lwe1463" Name="znuC2" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="2052867" LocusId="lwe1462" Name="znuB2" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+          <Members vimssId="2052866" LocusId="lwe1461" Name="zur" Function="Zinc homeostasis transcriptional regulator Zur, Fur family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2053094" LocusId="lwe1689" Name="znuA2" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2053306" LocusId="lwe1901" Name="rpsN2" Function="SSU ribosomal protein S14p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6438</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

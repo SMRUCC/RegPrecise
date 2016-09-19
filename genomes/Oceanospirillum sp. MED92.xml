@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Oceanospirillum sp. MED92" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51292" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="MED92_00240" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2830670&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5200" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED92_00235" Name="czcD" Position="-59" Score="6.5">
+          <Sequence>ACCCTATAGCTACTACAGGGT</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2830669" LocusId="MED92_00235" Name="czcD" Function="Co/Zn/Cd efflux protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5200</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor (activator)">
+      <Regulator Key="GlcC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19113" />
+      <Effector>Glycolate</Effector>
+      <Pathway>Glycolate utilization</Pathway>
+      <LocusTag Key="MED92_02419" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2830763&amp;disp=0" />
+      <BiologicalProcess>Glycolate utilization</BiologicalProcess>
+      <Regulog Key="GlcC - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2063" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED92_02414" Name="lldE" Position="-154" Score="5">
+          <Sequence>TCTTGGTCAGACCAGTT</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_02419" Name="glcC" Position="-43" Score="5">
+          <Sequence>AACTGGTCTGACCAAGA</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2830763" LocusId="MED92_02419" Name="glcC" Function="Glycolate utilization operon transcriptional activator GlcC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2830762" LocusId="MED92_02414" Name="lldE" Function="L-lactate dehydrogenase, Fe-S oxidoreductase subunit LldE" />
+          <Members vimssId="2830761" LocusId="MED92_02409" Name="lldF" Function="L-lactate dehydrogenase, Iron-sulfur cluster-binding subunit LldF" />
+          <Members vimssId="2830760" LocusId="MED92_02404" Name="lldG" Function="L-lactate dehydrogenase, subunit LldG" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2063</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17865" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="MED92_00535" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2831389&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1929" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED92_00535" Name="iscR" Position="-68" Score="5.4">
+          <Sequence>TTAATTGACCTTTTTGGTCGGGTAT</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_17445" Name="erpA" Position="-61" Score="6.1">
+          <Sequence>ATACTTGACTGAATTGCTTGGTTAA</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_12256" Name="nfuA" Position="-79" Score="6.1">
+          <Sequence>ATAGTTGATCAATTTACTCGGGATT</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2831175" LocusId="MED92_17445" Name="erpA" Function="ErpA, essential respiratory protein A / probable iron binding protein from the HesB_IscA_SufA family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2831139" LocusId="MED92_12256" Name="nfuA" Function="NfuA Fe-S protein maturation" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2831389" LocusId="MED92_00535" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="2831390" LocusId="MED92_00540" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+          <Members vimssId="2831391" LocusId="MED92_00545" Name="iscU" Function="Iron-sulfur cluster assembly scaffold protein IscU" />
+          <Members vimssId="2831392" LocusId="MED92_00550" Name="iscA" Function="Iron binding protein IscA for iron-sulfur cluster assembly" />
+          <Members vimssId="2831393" LocusId="MED92_00555" Name="hscB" Function="Chaperone protein HscB" />
+          <Members vimssId="2831394" LocusId="MED92_00560" Name="hscA" Function="Chaperone protein HscA" />
+          <Members vimssId="2831395" LocusId="MED92_00565" Name="fdx" Function="ferredoxin, 2Fe-2S type, ISC system" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1929</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28313" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="MED92_03977" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2829272&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2978" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED92_07346" Name="recN" Position="-28" Score="5.3">
+          <Sequence>CACTGTATAAAAACACATGT</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_08116" Name="recA" Position="-61" Score="5.7">
+          <Sequence>TACTGTCCATACATACAGTA</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_03977" Name="lexA" Position="-87" Score="5.8">
+          <Sequence>CACTGTATAAAAAAACATTA</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_03977" Name="lexA" Position="-28" Score="5.9">
+          <Sequence>TACTGTATAAACAACCAGAA</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_14483" Name="dinB" Position="-23" Score="6.5">
+          <Sequence>TACTGTATAAATAAACAGTA</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_05258" Name="uvrD" Position="-34" Score="5.2">
+          <Sequence>CACTGATTATTTATACAGTG</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_08737" Name="ruvC" Position="-30" Score="5.5">
+          <Sequence>GCCTGTATAAATAACCAGTA</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_07246" Name="umuD" Position="-34" Score="6.5">
+          <Sequence>TACTGTATATAAATACAGTA</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_11029" Name="topB" Position="-26" Score="5.7">
+          <Sequence>TACTGTTTTTATATACAGTG</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2828023" LocusId="MED92_07346" Name="recN" Function="DNA repair protein RecN" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2828588" LocusId="MED92_14483" Name="dinB" Function="DNA polymerase IV (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2829272" LocusId="MED92_03977" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+          <Members vimssId="2829271" LocusId="MED92_03972" Name="sulA" Function="Cell division inhibitor sulA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2828177" LocusId="MED92_08116" Name="recA" Function="Recombinase A" />
+          <Members vimssId="2828178" LocusId="MED92_08121" Name="recX" Function="Regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2828257" LocusId="MED92_05258" Name="uvrD" Function="ATP-dependent DNA helicase II" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2830903" LocusId="MED92_08737" Name="ruvC" Function="Crossover junction endodeoxyribonuclease RuvC (EC 3.1.22.4)" />
+          <Members vimssId="2830904" LocusId="MED92_08742" Name="MED92_08742" Function="Predicted inner membrane protein" />
+          <Members vimssId="2830905" LocusId="MED92_08747" Name="ruvA" Function="Holliday junction DNA helicase RuvA" />
+          <Members vimssId="2830906" LocusId="MED92_08752" Name="ruvB" Function="Holliday junction DNA helicase RuvB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2828003" LocusId="MED92_07246" Name="umuD" Function="DNA polymerase V, subunit UmuD" />
+          <Members vimssId="2828004" LocusId="MED92_07251" Name="umuC" Function="DNA polymerase V, subunit UmuC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2829698" LocusId="MED92_11029" Name="topB" Function="DNA topoisomerase III (EC 5.99.1.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2978</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="LiuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28509" />
+      <Effector />
+      <Pathway>Branched-chain amino acid degradation</Pathway>
+      <LocusTag Key="MED92_06078" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2828423&amp;disp=0" />
+      <BiologicalProcess>Branched-chain amino acid degradation</BiologicalProcess>
+      <Regulog Key="LiuR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2999" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED92_06078" Name="liuR" Position="-65" Score="4.6">
+          <Sequence>ATTGATCTTTACGTAAAC</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_06108" Name="ivdA" Position="-46" Score="5.7">
+          <Sequence>GTTGACGTTTACGTCAAC</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_12069" Name="aacS" Position="-108" Score="5.7">
+          <Sequence>GTTTCCGTTTACGTAAAC</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_06078" Name="liuR" Position="-59" Score="6">
+          <Sequence>CTTTACGTAAACGTCAAC</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2828429" LocusId="MED92_06108" Name="ivdA" Function="3-ketoacyl-CoA thiolase [isoleucine degradation] (EC 2.3.1.16)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2831461" LocusId="MED92_12069" Name="aacS" Function="Acetoacetyl-CoA synthetase (EC 6.2.1.16)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2828423" LocusId="MED92_06078" Name="liuR" Function="Predicted transcriptional regulator LiuR of leucine degradation pathway, MerR family" />
+          <Members vimssId="2828422" LocusId="MED92_06073" Name="liuA" Function="Isovaleryl-CoA dehydrogenase (EC 1.3.99.10); Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.99.2)" />
+          <Members vimssId="2828421" LocusId="MED92_06068" Name="liuB" Function="Methylcrotonyl-CoA carboxylase carboxyl transferase subunit (EC 6.4.1.4)" />
+          <Members vimssId="2828420" LocusId="MED92_06063" Name="liuC" Function="Methylglutaconyl-CoA hydratase (EC 4.2.1.18)" />
+          <Members vimssId="2828419" LocusId="MED92_06058" Name="liuD" Function="Methylcrotonyl-CoA carboxylase biotin-containing subunit (EC 6.4.1.4)" />
+          <Members vimssId="2828418" LocusId="MED92_06053" Name="liuE" Function="Hydroxymethylglutaryl-CoA lyase (EC 4.1.3.4)" />
+          <Members vimssId="2828417" LocusId="MED92_06048" Name="ahpD" Function="alkylhydroperoxidase AhpD family core domain protein" />
+          <Members vimssId="2828416" LocusId="MED92_06043" Name="acs" Function="acyl-CoA synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2999</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="MED92_15328" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60542" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="MED92_15328" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2828758&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="MED92_15328 - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6217" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED92_15333" Name="COG0348" Position="-94" Score="9">
+          <Sequence>ATCTGTACCCA-------------TTTTATCCCTG</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2828759" LocusId="MED92_15333" Name="COG0348" Function="Polyferredoxin" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6217</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor (activator)">
+      <Regulator Key="MetR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56640" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="MED92_02289" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2830737&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5786" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED92_04362" Name="metH" Position="-129" Score="4.3">
+          <Sequence>ATGACCAATTTTCAT</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_05643" Name="PF08908" Position="-188" Score="4.4">
+          <Sequence>ATGAATAAATATAAT</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_05643" Name="PF08908" Position="-167" Score="4.7">
+          <Sequence>ATGAAAAGGTATCAT</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2828334" LocusId="MED92_05643" Name="PF08908" Function="Protein of unknown function DUF1852" />
+          <Members vimssId="2828333" LocusId="MED92_05638" Name="metE2" Function="Methionine synthase II, vitamin-B12 independent (EC 2.1.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2829349" LocusId="MED92_04362" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5786</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15517" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="MED92_17878" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2829551&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1666" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED92_15538" Name="nrdA" Position="-190" Score="4.9">
+          <Sequence>TCACTATATTTAGTGT</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_15538" Name="nrdA" Position="-159" Score="4.9">
+          <Sequence>GTACTACATATAGTGT</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2828800" LocusId="MED92_15538" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="2828799" LocusId="MED92_15533" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+          <Members vimssId="2828798" LocusId="MED92_15528" Name="yfaE" Function="Ferredoxin" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1666</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19287" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="MED92_00660" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2830991&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2083" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED92_00650" Name="glnA" Position="-209" Score="5.4">
+          <Sequence>TGCTCTATTTTGGTGCA</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_00650" Name="glnA" Position="-178" Score="5.4">
+          <Sequence>TGCTCTATTTTGGTGCA</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_00655" Name="ntrB" Position="-148" Score="5.3">
+          <Sequence>TGCACTGTTTTGGTGCG</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_06736" Name="glnK" Position="-222" Score="5.5">
+          <Sequence>AGCACCAAATTGGTGCA</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_06736" Name="glnK" Position="-180" Score="4.3">
+          <Sequence>CGCCCCATTTTATTGCA</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2827899" LocusId="MED92_06736" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="2827898" LocusId="MED92_06731" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2830990" LocusId="MED92_00655" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="2830991" LocusId="MED92_00660" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2830989" LocusId="MED92_00650" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2083</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PdhR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16231" />
+      <Effector>Pyruvate</Effector>
+      <Pathway>Pyruvate metabolism</Pathway>
+      <LocusTag Key="MED92_16130" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2830154&amp;disp=0" />
+      <BiologicalProcess>Pyruvate metabolism</BiologicalProcess>
+      <Regulog Key="PdhR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1746" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED92_16130" Name="pdhR" Position="-34" Score="6.4">
+          <Sequence>ATTGGTCTTACCAAT</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_16130" Name="pdhR" Position="-262" Score="6.2">
+          <Sequence>ATTGGTATTACCAAT</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2830154" LocusId="MED92_16130" Name="pdhR" Function="Lactate-responsive regulator LldR in Enterobacteria, GntR family" />
+          <Members vimssId="2830153" LocusId="MED92_16125" Name="aceE" Function="Pyruvate dehydrogenase E1 component (EC 1.2.4.1)" />
+          <Members vimssId="2830152" LocusId="MED92_16120" Name="aceF" Function="Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex (EC 2.3.1.12)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1746</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxW" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61191" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="MED92_15483" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2828789&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxW - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6284" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED92_15488" Name="pdxO" Position="-94" Score="12.1">
+          <Sequence>AACTGGGCCCAT-(12)-TATTGGATCTTT-(0)-TATAGACCTAAT</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2828790" LocusId="MED92_15488" Name="pdxO" Function="Pyridoxamine 5'-phosphate oxidase-related, FMN-binding" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6284</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PrpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17141" />
+      <Effector>2-methylcitrate</Effector>
+      <Pathway>Methylcitrate utilization</Pathway>
+      <LocusTag Key="MED92_04442" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2829365&amp;disp=0" />
+      <BiologicalProcess>Methylcitrate utilization</BiologicalProcess>
+      <Regulog Key="PrpR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1848" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED92_10499" Name="prpE" Position="-71" Score="4.6">
+          <Sequence>ACTGTCTACAAT</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_10499" Name="prpE" Position="-222" Score="5.8">
+          <Sequence>ATTGTCGACAAT</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_04442" Name="prpR" Position="-93" Score="4.1">
+          <Sequence>TGTGTTGACAAT</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_04442" Name="prpR" Position="-21" Score="5.8">
+          <Sequence>ATTGTCGACAAT</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2829365" LocusId="MED92_04442" Name="prpR" Function="Propionate catabolism transcriptional regulator, GntR family" />
+          <Members vimssId="2829366" LocusId="MED92_04447" Name="prpB" Function="Methylisocitrate lyase (EC 4.1.3.30)" />
+          <Members vimssId="2829367" LocusId="MED92_04452" Name="prpC" Function="2-methylcitrate synthase (EC 2.3.3.5)" />
+          <Members vimssId="2829368" LocusId="MED92_04457" Name="acnD" Function="Aconitate hydratase, predicted 2-methylcitrate dehydratase FeS dependent (EC 4.2.1.79)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2828951" LocusId="MED92_10499" Name="prpE" Function="Propionyl-CoA synthetase (EC 6.2.1.17)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1848</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="TauR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59169" />
+      <Effector>Taurine</Effector>
+      <Pathway>Taurine utilization</Pathway>
+      <LocusTag Key="MED92_13211" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2829479&amp;disp=0" />
+      <BiologicalProcess>Taurine utilization</BiologicalProcess>
+      <Regulog Key="TauR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6066" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED92_13206" Name="tauA" Position="-94" Score="9.5">
+          <Sequence>CTGGACCAAT------------CTGGCTCTAT</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2829478" LocusId="MED92_13206" Name="tauA" Function="Taurine-binding periplasmic protein TauA" />
+          <Members vimssId="2829477" LocusId="MED92_13201" Name="tauB" Function="Taurine transport ATP-binding protein TauB" />
+          <Members vimssId="2829476" LocusId="MED92_13196" Name="tauC" Function="Taurine transport system permease protein TauC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6066</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YjiR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61782" />
+      <Effector />
+      <Pathway>Metabolite transport</Pathway>
+      <LocusTag Key="MED92_02813" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2829039&amp;disp=0" />
+      <BiologicalProcess>Metabolite transport</BiologicalProcess>
+      <Regulog Key="YjiR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6346" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED92_02808" Name="" Position="-177" Score="16.3">
+          <Sequence>TACAGAT-(17)-CACAGTC-(13)-ATCTGTA-(24)-ATCTGTA</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_02808" Name="" Position="-182" Score="14.2">
+          <Sequence>AACAGTA-(22)-CACAGTC-(13)-ATCTGTA-(24)-ATCTGTA</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2829038" LocusId="MED92_02808" Name="null" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6346</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="ZntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50732" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc resistance</Pathway>
+      <LocusTag Key="MED92_04874" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2829866&amp;disp=0" />
+      <BiologicalProcess>Zinc resistance</BiologicalProcess>
+      <Regulog Key="ZntR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5139" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED92_02778" Name="zntA" Position="-60" Score="6.1">
+          <Sequence>ACCCTGAAGTTTACTTCAGGGT</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2829032" LocusId="MED92_02778" Name="zntA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5139</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16057" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="MED92_05843" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2828374&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1726" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED92_15318" Name="zbp" Position="-28" Score="5.7">
+          <Sequence>TTGTTGTTATATTATAACTTTTA</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_08311" Name="PF08856" Position="-44" Score="5.7">
+          <Sequence>GTTATGTTATATTGTATCTTTTT</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_05848" Name="znuA" Position="-38" Score="5.7">
+          <Sequence>TTTGTGTTATATTGTAACTTTAA</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_05843" Name="zur" Position="-43" Score="5.6">
+          <Sequence>TTAAAGTTACAATATAACACAAA</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_02998" Name="" Position="-35" Score="5.9">
+          <Sequence>ATATTGTTATGGTATAACATTTA</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_02998" Name="" Position="-138" Score="5.3">
+          <Sequence>GCAATGTTATAATATAGCAATTA</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_08311" Name="PF08856" Position="-49" Score="5.1">
+          <Sequence>TTAAAGTTATGTTATATTGTATC</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_02993" Name="pyrC2" Position="-152" Score="5.7">
+          <Sequence>TAAATGTTATACCATAACAATAT</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="MED92_02993" Name="pyrC2" Position="-49" Score="5.5">
+          <Sequence>TAATTGCTATATTATAACATTGC</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2829075" LocusId="MED92_02993" Name="pyrC2" Function="Dihydroorotase (EC 3.5.2.3)" />
+          <Members vimssId="2829074" LocusId="MED92_02988" Name="can" Function="Carbonic anhydrase (EC 4.2.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2828375" LocusId="MED92_05848" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2828374" LocusId="MED92_05843" Name="zur" Function="Zinc uptake regulation protein ZUR" />
+          <Members vimssId="2828373" LocusId="MED92_05838" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="2828372" LocusId="MED92_05833" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2829076" LocusId="MED92_02998" Name="null" Function="ribosomal protein, L31P family protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2828756" LocusId="MED92_15318" Name="zbp" Function="Predicted zinc-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2828221" LocusId="MED92_08311" Name="PF08856" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1726</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48610" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="MED92_00790" Name="thiD" Position="-145" Score="66.7">
+          <Sequence>CATCTTGGTCGGGGTGCCTCGATTAGTGAGGCTGAGAGTATACCCGTTGAACCTGATCCGGTTTGTTCCGGCGTAGGAAATCGAGATCATCGAATGAC</Sequence>
+          <Bacteria>Oceanospirillum sp. MED92</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2831017" LocusId="MED92_00790" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+          <Members vimssId="2831018" LocusId="MED92_00795" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

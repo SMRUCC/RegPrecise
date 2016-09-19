@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Flavobacteria bacterium BBFL7" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PaaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38928" />
+      <Effector>Phenylacetyl-CoA</Effector>
+      <Pathway>Phenylacetic acid degradation</Pathway>
+      <LocusTag Key="BBFL7_00982" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2858496&amp;disp=0" />
+      <BiologicalProcess>Phenylacetic acid degradation</BiologicalProcess>
+      <Regulog Key="PaaR - Flavobacteria" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3975" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BBFL7_02466" Name="paaE" Position="-47" Score="6.2">
+          <Sequence>CAAACTAACAAGTGTTAG</Sequence>
+          <Bacteria>Flavobacteria bacterium BBFL7</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BBFL7_02452" Name="paaZ" Position="-104" Score="5.8">
+          <Sequence>TTAACTAACAACTGTTAG</Sequence>
+          <Bacteria>Flavobacteria bacterium BBFL7</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2857255" LocusId="BBFL7_02452" Name="paaZ" Function="Aldehyde dehydrogenase (EC 1.2.1.3), PaaZ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2857269" LocusId="BBFL7_02466" Name="paaE" Function="Probable phenylacetic acid degradation NADH oxidoreductase paaE (EC 1.-.-." />
+          <Members vimssId="2857268" LocusId="BBFL7_02465" Name="paaA" Function="Phenylacetate-CoA oxygenase, PaaA subunit" />
+          <Members vimssId="2857267" LocusId="BBFL7_02464" Name="null" Function="hypothetical protein" />
+          <Members vimssId="2857266" LocusId="BBFL7_02463" Name="paaC" Function="Phenylacetate-CoA oxygenase, PaaC subunit" />
+          <Members vimssId="2857265" LocusId="BBFL7_02462" Name="null" Function="hypothetical protein" />
+          <Members vimssId="2857264" LocusId="BBFL7_02461" Name="paaD" Function="Phenylacetate-CoA oxygenase, PaaD subunit" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3975</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

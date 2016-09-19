@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Fervidobacterium nodosum Rt17-B1" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="CelR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=7272" />
+      <Effector>Cellobiose</Effector>
+      <Pathway>Cellobiose utilization</Pathway>
+      <LocusTag Key="Fnod_1559" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3563589&amp;disp=0" />
+      <BiologicalProcess>Cellobiose utilization</BiologicalProcess>
+      <Regulog Key="CelR - Thermotogales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=752" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Fnod_1553" Name="celE" Position="-70" Score="5.9">
+          <Sequence>ATGTAAATATTTTCAT</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3563583" LocusId="Fnod_1553" Name="celE" Function="Predicted cellobiose ABC transport system, sugar-binding protein" />
+          <Members vimssId="3563584" LocusId="Fnod_1554" Name="celF" Function="Predicted cellobiose ABC transport system, permease protein 1" />
+          <Members vimssId="3563585" LocusId="Fnod_1555" Name="celG" Function="Predicted cellobiose ABC transport system, permease protein 2" />
+          <Members vimssId="3563586" LocusId="Fnod_1556" Name="celK" Function="Predicted cellobiose ABC transport system, ATP-binding protein 1" />
+          <Members vimssId="3563587" LocusId="Fnod_1557" Name="celL" Function="Predicted cellobiose ABC transport system, ATP-binding protein 2" />
+          <Members vimssId="3563588" LocusId="Fnod_1558" Name="bglB" Function="beta-galactosidase" />
+          <Members vimssId="3563589" LocusId="Fnod_1559" Name="celR" Function="Predicted regulator of cellobiose and glucan utilization, LacI family" />
+          <Members vimssId="3563590" LocusId="Fnod_1560" Name="celH" Function="Endo-1,4-beta-glucanase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=752</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=7195" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="Fnod_0734" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3562723&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Thermotogales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=745" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Fnod_0260" Name="feoA" Position="-106" Score="5.4">
+          <Sequence>GTTGAGAATAAGTTTCACC</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3562239" LocusId="Fnod_0260" Name="feoA" Function="ferrous iron transport protein A" />
+          <Members vimssId="3562238" LocusId="Fnod_0259" Name="feoB" Function="ferrous iron transport protein B" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=745</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="GalR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=7206" />
+      <Effector>Galactose</Effector>
+      <Pathway>Galactosides utilization</Pathway>
+      <LocusTag Key="Fnod_0418" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3562401&amp;disp=0" />
+      <BiologicalProcess>Galactosides utilization</BiologicalProcess>
+      <Regulog Key="GalR - Thermotogales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=746" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Fnod_0419" Name="lacA" Position="-43" Score="5">
+          <Sequence>CCGGTAACGTTACCAA</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Fnod_0626" Name="galX" Position="-69" Score="4.7">
+          <Sequence>TCGGTTACGTTACCGG</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3562402" LocusId="Fnod_0419" Name="lacA" Function="Beta-galactosidase (EC 3.2.1.23), LacA family" />
+          <Members vimssId="3562401" LocusId="Fnod_0418" Name="galR" Function="Predicted regulator of galactoside utilization, LacI family" />
+          <Members vimssId="3562400" LocusId="Fnod_0417" Name="galA" Function="Alpha-galactosidase (EC 3.2.1.22)" />
+          <Members vimssId="3562399" LocusId="Fnod_0416" Name="galT" Function="Galactose-1-phosphate uridylyltransferase (EC 2.7.7.10)" />
+          <Members vimssId="3562398" LocusId="Fnod_0415" Name="galK" Function="Galactokinase (EC 2.7.1.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3562610" LocusId="Fnod_0626" Name="galX" Function="Predicted galactoside ABC transporter type II, sugar-binding protein" />
+          <Members vimssId="3562611" LocusId="Fnod_0627" Name="galY" Function="Predicted galactoside ABC transporter type II, permease protein 1" />
+          <Members vimssId="3562612" LocusId="Fnod_0628" Name="galZ" Function="Predicted galactoside ABC transporter type II, permease protein 2" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=746</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="HcpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=7228" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="Fnod_1303" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3563330&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="HcpR - Thermotogales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=748" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Fnod_1303" Name="hcpR" Position="-229" Score="6.5">
+          <Sequence>TCCGTAACCTATGTTACGGA</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Fnod_1302" Name="hcp" Position="-92" Score="6.5">
+          <Sequence>TCCGTAACATAGGTTACGGA</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3563329" LocusId="Fnod_1302" Name="hcp" Function="Hydroxylamine reductase (EC 1.7.-.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3563330" LocusId="Fnod_1303" Name="hcpR" Function="Transcriptional regulator HcpR, Crp/Fnr family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=748</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=7239" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Fnod_1242" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3563269&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Thermotogales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=749" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Fnod_1242" Name="hrcA" Position="-103" Score="5.1">
+          <Sequence>TTGGCAGATGGATAATAAGTTTGCTAA</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Fnod_1544" Name="groS" Position="-61" Score="5.8">
+          <Sequence>TTAACAAACGGAATATTAGAGTGATAA</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Fnod_0102" Name="hsp20" Position="-244" Score="5.7">
+          <Sequence>TTATCATTATTAAGTTACAACTGATAA</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Fnod_1362" Name="recF" Position="-93" Score="5.8">
+          <Sequence>TTATCACTCCATCTTGTCAAGTGATAA</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Fnod_1209" Name="dnaK" Position="-82" Score="6.4">
+          <Sequence>TTATCACTCTTGACAAATGATTGCTAA</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Fnod_0310" Name="clpB" Position="-85" Score="6">
+          <Sequence>ATATCACTCTTGACATATAAGTGATAA</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Fnod_0102" Name="hsp20" Position="-141" Score="6.5">
+          <Sequence>TTATCACTCTTGACAATTGAGTGATAA</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3562080" LocusId="Fnod_0102" Name="hsp20" Function="Chaperone Hsp20" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3563389" LocusId="Fnod_1362" Name="recF" Function="DNA replication and repair protein RecF" />
+          <Members vimssId="3563390" LocusId="Fnod_1363" Name="rgyR" Function="Reverse gyrase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3563572" LocusId="Fnod_1544" Name="groS" Function="GroES chaperonin" />
+          <Members vimssId="3563571" LocusId="Fnod_1543" Name="groL" Function="GroEL chaperonin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3563269" LocusId="Fnod_1242" Name="hrcA" Function="Heat shock response regulator, HrcA family" />
+          <Members vimssId="3563270" LocusId="Fnod_1243" Name="grpE" Function="Heat shock protein" />
+          <Members vimssId="3563271" LocusId="Fnod_1244" Name="dnaJ" Function="Chaperone Hsp40" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3562289" LocusId="Fnod_0310" Name="clpB" Function="Chaperone protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3563236" LocusId="Fnod_1209" Name="dnaK" Function="Chaperone Hsp70" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=749</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=7305" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Fnod_1156" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3563178&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Thermotogales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=755" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Fnod_0421" Name="nrdJ" Position="-98" Score="5.1">
+          <Sequence>ATACTATATATGGTAT</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Fnod_0421" Name="nrdJ" Position="-128" Score="4.5">
+          <Sequence>TAACTATAAGTTGTGT</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Fnod_1248" Name="nrdG" Position="-91" Score="5.2">
+          <Sequence>ATACTATATATAGTGT</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Fnod_1248" Name="nrdG" Position="-61" Score="5.2">
+          <Sequence>ATTCAATATATTGTTT</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3563275" LocusId="Fnod_1248" Name="nrdG" Function="Anaerobic ribonucleoside-triphosphate reductase-activating protein" />
+          <Members vimssId="3563276" LocusId="Fnod_1249" Name="nrdD" Function="Anaerobic ribonucleoside-triphosphate reductase (EC 1.17.4.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3562404" LocusId="Fnod_0421" Name="nrdJ" Function="B12-dependent ribonucleotide reductase (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=755</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="OmpR" RegulationMode="activator">
+      <Regulator Key="PhoB" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=12554" />
+      <Effector>Inorganic phosphate</Effector>
+      <Pathway>Phosphate metabolism</Pathway>
+      <LocusTag Key="Fnod_1433" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3563460&amp;disp=0" />
+      <BiologicalProcess>Phosphate metabolism</BiologicalProcess>
+      <Regulog Key="PhoB - Thermotogales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1353" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Fnod_1428" Name="pstS" Position="-89" Score="7.1">
+          <Sequence>CTTAATA---CTTAACG</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3563455" LocusId="Fnod_1428" Name="pstS" Function="Phosphate ABC transport system, substrate-binding protein" />
+          <Members vimssId="3563456" LocusId="Fnod_1429" Name="pstC" Function="Phosphate ABC transport system, permease protein 1" />
+          <Members vimssId="3563457" LocusId="Fnod_1430" Name="pstA" Function="Phosphate ABC transport system, permease protein 2" />
+          <Members vimssId="3563458" LocusId="Fnod_1431" Name="pstB" Function="Phosphate ABC transport system, ATP-binding protein" />
+          <Members vimssId="3563459" LocusId="Fnod_1432" Name="phoU" Function="Regulator of phosphate transport" />
+          <Members vimssId="3563460" LocusId="Fnod_1433" Name="phoB" Function="Phosphate starvation responsive two-component system, responsive regulator" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1353</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="XRE" RegulationMode="">
+      <Regulator Key="PuuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29387" />
+      <Effector>Putrescine</Effector>
+      <Pathway>Spermidine biosynthesis</Pathway>
+      <LocusTag Key="Fnod_1325" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3563352&amp;disp=0" />
+      <BiologicalProcess>Spermidine biosynthesis</BiologicalProcess>
+      <Regulog Key="PuuR - Thermotogales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3074" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Fnod_1327" Name="speD" Position="-134" Score="4.9">
+          <Sequence>TTGTTCACTTAAGTAAACAT</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3563354" LocusId="Fnod_1327" Name="speD" Function="S-adenosylmethionine decarboxylase proenzyme (EC 4.1.1.50), prokaryotic class 1B" />
+          <Members vimssId="3563353" LocusId="Fnod_1326" Name="speE" Function="Spermidine synthase (EC 2.5.1.16)" />
+          <Members vimssId="3563352" LocusId="Fnod_1325" Name="puuR" Function="Predicted transcriptional regulator of spermidine biosynthesis, Xre family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3074</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=7338" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="Fnod_0423" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3562406&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Thermotogales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=758" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Fnod_0319" Name="TM1420" Position="-52" Score="5.3">
+          <Sequence>TcGTGAAAtaaTTaACgA</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Fnod_0587" Name="noxE2" Position="-65" Score="4.5">
+          <Sequence>aaGTGAAAAaaaTaACtt</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Fnod_0241" Name="TM0179" Position="-86" Score="4.6">
+          <Sequence>TAGTGAAAAACTTGACAA</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Fnod_1174" Name="adhA" Position="-78" Score="5">
+          <Sequence>AAGTGATTTTTTTCACAA</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Fnod_0995" Name="hycA" Position="-38" Score="4.8">
+          <Sequence>ATGTTATAATAATCACGA</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Fnod_0740" Name="gap" Position="-77" Score="4.7">
+          <Sequence>TTGTacAAtTTTTCACgA</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Fnod_0227" Name="hydC" Position="-125" Score="5">
+          <Sequence>TTGTGAAAAaaaTaACgt</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Fnod_0227" Name="hydC" Position="-111" Score="4.7">
+          <Sequence>acGTtAtAAaaaTaACAA</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3562298" LocusId="Fnod_0319" Name="TM1420" Function="Fe-hydrogenase, thioredoxin subunit, 2Fe-2S cluster binding protein" />
+          <Members vimssId="3562297" LocusId="Fnod_0318" Name="TM1421" Function="Fe-hydrogenase, 2Fe-2S iron-sulfur cluster binding protein" />
+          <Members vimssId="3562296" LocusId="Fnod_0317" Name="TM1423" Function="predicted protein serine/threonine phosphatase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3562206" LocusId="Fnod_0227" Name="hydC" Function="Fe-hydrogenase, gamma subunit, FeS cluster containing" />
+          <Members vimssId="3562205" LocusId="Fnod_0226" Name="hydB" Function="Fe-hydrogenase, beta subunit, FeS cluster, FMN, NAD(P)H dehydrogenase activity" />
+          <Members vimssId="3562204" LocusId="Fnod_0225" Name="hydA" Function="Fe-hydrogenase, alpha subunit, FeS cluster, hydrogenase activity" />
+          <Members vimssId="3562203" LocusId="Fnod_0224" Name="rex1" Function="Redox sensitive transcriptional regulator paralog, Rex family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3562572" LocusId="Fnod_0587" Name="noxE2" Function="NADH oxidase (EC 1.6.99.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3563196" LocusId="Fnod_1174" Name="adhA" Function="Alcohol dehydrogenase (EC 1.1.1.1), Fe-dependent" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3562730" LocusId="Fnod_0740" Name="gap" Function="NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)" />
+          <Members vimssId="3562729" LocusId="Fnod_0739" Name="pgk" Function="Phosphoglycerate kinase (EC 2.7.2.3)" />
+          <Members vimssId="3562728" LocusId="Fnod_0738" Name="tpi" Function="Triosephosphate isomerase (EC 5.3.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3562220" LocusId="Fnod_0241" Name="TM0179" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3563005" LocusId="Fnod_0995" Name="hycA" Function="NAD-reducing Fe-hydrogenase, subunit HycA (EC 1.12.7.2)" />
+          <Members vimssId="3563004" LocusId="Fnod_0994" Name="hycB" Function="NAD-reducing Fe-hydrogenase, subunit HycB (EC 1.12.7.2)" />
+          <Members vimssId="3563003" LocusId="Fnod_0993" Name="hycC" Function="NAD-reducing Fe-hydrogenase, subunit HycC (EC 1.12.7.2)" />
+          <Members vimssId="3563002" LocusId="Fnod_0992" Name="hycE" Function="NAD-reducing Fe-hydrogenase, subunit HycE (EC 1.12.7.2)" />
+          <Members vimssId="3563001" LocusId="Fnod_0991" Name="hycF" Function="NAD-reducing Fe-hydrogenase, subunit HycF (EC 1.12.7.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=758</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex1" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13156" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="Fnod_0224" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3562203&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex1 - Thermotogales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1413" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Fnod_0319" Name="TM1420" Position="-52" Score="6">
+          <Sequence>TCGTGAAATAATTAACGA</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Fnod_0227" Name="hydC" Position="-125" Score="5.8">
+          <Sequence>TTGTGAAAAAAATAACGT</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3562206" LocusId="Fnod_0227" Name="hydC" Function="Fe-hydrogenase, gamma subunit, FeS cluster containing" />
+          <Members vimssId="3562205" LocusId="Fnod_0226" Name="hydB" Function="Fe-hydrogenase, beta subunit, FeS cluster, FMN, NAD(P)H dehydrogenase activity" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3562298" LocusId="Fnod_0319" Name="TM1420" Function="Fe-hydrogenase, thioredoxin subunit, 2Fe-2S cluster binding protein" />
+          <Members vimssId="3562297" LocusId="Fnod_0318" Name="TM1421" Function="Fe-hydrogenase, 2Fe-2S iron-sulfur cluster binding protein" />
+          <Members vimssId="3562296" LocusId="Fnod_0317" Name="TM1423" Function="predicted protein serine/threonine phosphatase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1413</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="THA_1503" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=52885" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux</Pathway>
+      <LocusTag Key="Fnod_0541" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3562526&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux</BiologicalProcess>
+      <Regulog Key="THA_1503 - Thermotogales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5395" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Fnod_0542" Name="THA_1504" Position="-77" Score="7.5">
+          <Sequence>AGTGTTATATAATTATATAACACT</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3562527" LocusId="Fnod_0542" Name="THA_1504" Function="hypothetical protein" />
+          <Members vimssId="3562526" LocusId="Fnod_0541" Name="THA_1503" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="3562525" LocusId="Fnod_0540" Name="THA_1502" Function="ABC transporter, permease protein" />
+          <Members vimssId="3562524" LocusId="Fnod_0539" Name="THA_1501" Function="ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5395</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="TM0766" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=12763" />
+      <Effector />
+      <Pathway>Hypothetical ABC transporter</Pathway>
+      <LocusTag Key="Fnod_0429" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3562413&amp;disp=0" />
+      <BiologicalProcess>Hypothetical ABC transporter</BiologicalProcess>
+      <Regulog Key="TM0766 - Thermotogales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1373" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Fnod_0429" Name="TM0766" Position="-68" Score="7.3">
+          <Sequence>CTGTAATAGTACAATATTACAG</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3562413" LocusId="Fnod_0429" Name="TM0766" Function="hypothetical regulator TM0766, GntR family" />
+          <Members vimssId="3562412" LocusId="Fnod_0428" Name="TM0765" Function="hypothetical ABC transporter, ATP-binding protein" />
+          <Members vimssId="3562411" LocusId="Fnod_0427" Name="TM0764" Function="Hypothetical ABC transporter, permease protein" />
+          <Members vimssId="3562410" LocusId="Fnod_0426" Name="TM0763" Function="protein of unknown function DUF74" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1373</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ROK" RegulationMode="repressor">
+      <Regulator Key="TreR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=7371" />
+      <Effector>Trehalose</Effector>
+      <Pathway>Trehalose utilization</Pathway>
+      <LocusTag Key="Fnod_0452" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3562436&amp;disp=0" />
+      <BiologicalProcess>Trehalose utilization</BiologicalProcess>
+      <Regulog Key="TreR - Thermotogales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=761" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Fnod_0450" Name="treE" Position="-248" Score="5.9">
+          <Sequence>ATATATTCGAATTTCGAATATAT</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Fnod_0451" Name="treT" Position="-127" Score="5.9">
+          <Sequence>ATATATTCGAAATTCGAATATAT</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3562434" LocusId="Fnod_0450" Name="treE" Function="Trehalose ABC transporter, substrate-binding component" />
+          <Members vimssId="3562433" LocusId="Fnod_0449" Name="treF" Function="Trehalose ABC transporter, permease component 1" />
+          <Members vimssId="3562432" LocusId="Fnod_0448" Name="treG" Function="Trehalose ABC transporter, permease component 2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3562435" LocusId="Fnod_0451" Name="treT" Function="Trehalose synthase, nucleoside diphosphate glucose dependent" />
+          <Members vimssId="3562436" LocusId="Fnod_0452" Name="treR" Function="Regulator of trehalose utilization TreR, ROK family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=761</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=7415" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="" Value="" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Thermotogales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=765" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Fnod_0860" Name="znuA" Position="-460" Score="6.3">
+          <Sequence>ATGAAAATGATTTTCATTTTCAA</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3562861" LocusId="Fnod_0860" Name="znuA" Function="Zinc uptake ABC transport system, zinc-binding protein" />
+          <Members vimssId="3562860" LocusId="Fnod_0859" Name="znuC" Function="Zinc uptake ABC transport system, ATP-binding protein" />
+          <Members vimssId="3562859" LocusId="Fnod_0858" Name="znuB" Function="Zinc uptake ABC transport system, permease protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=765</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14069" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Fnod_0257" Name="btuF" Position="-231" Score="96.8">
+          <Sequence>AATAAACCTCCCTTTGCATGTTGAAAGGGAAGCCCGGTGAAAATCCGGCGCGGGGCCGCCACCGTGAGTGGGGACGAAATTCACAATATACCACTGGCCTAATTTTGGCTGGGAAGGTGTGAAGAGTAGGATGATCCACGAGTCGGGAGACCTAACATGCAAAGGAAGGGAGCC</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Fnod_1365" Name="cobT" Position="-265" Score="99.6">
+          <Sequence>AAAAACAAACCGAATAAGTTTGACTACCTAGTGTGCCGGGAACACCGGTGGAAATCCGGGGCTGCCCAGCAACCGTGAGTGGGGACGAAACCTACATTGATGCCACTGGCTCATTTCGATGAGCTGGGAAGGCGTAGGGAGTAGAATGAACCACGAGCCGGGAGACCGACATTAGGTAGATTTCTTTCCTG</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Fnod_1378" Name="sucC" Position="-261" Score="122.2">
+          <Sequence>ATATTCCAAACTGCGAAGGTGCCGAAAGGCTTAATAGGGAACTCCGGTGAGAATCCGGGACGGTCGGGCCACCGTGAGTGGGGACGAAATGCTCAACTGGCCACTGGCTTTTTTAGCTGGGAAGGCGAGCAGAGTAGGATGAGCCACAAGTCGGGAGACCTGCCTTCGTAGGATGGCATTCCCA</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3563405" LocusId="Fnod_1378" Name="sucC" Function="Succinyl-CoA ligase [ADP-forming] beta chain (EC 6.2.1.5)" />
+          <Members vimssId="3563406" LocusId="Fnod_1379" Name="sucD" Function="Succinyl-CoA ligase [ADP-forming] alpha chain (EC 6.2.1.5)" />
+          <Members vimssId="3563407" LocusId="Fnod_1380" Name="null" Function="Predicted transmembrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3563392" LocusId="Fnod_1365" Name="cobT" Function="Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase (EC 2.4.2.21)" />
+          <Members vimssId="3563393" LocusId="Fnod_1366" Name="cobU" Function="Adenosylcobinamide-phosphate guanylyltransferase (EC 2.7.7.62)" />
+          <Members vimssId="3563394" LocusId="Fnod_1367" Name="null" Function="Putative xylose isomerase domain protein" />
+          <Members vimssId="3563395" LocusId="Fnod_1368" Name="cobS" Function="Cobalamin synthase" />
+          <Members vimssId="3563396" LocusId="Fnod_1369" Name="cbiP" Function="Cobyric acid synthase" />
+          <Members vimssId="3563397" LocusId="Fnod_1370" Name="cbiB" Function="Adenosylcobinamide-phosphate synthase" />
+          <Members vimssId="3563398" LocusId="Fnod_1371" Name="cobD" Function="L-threonine 3-O-phosphate decarboxylase (EC 4.1.1.81)" />
+          <Members vimssId="3563399" LocusId="Fnod_1372" Name="Fnod_1372" Function="Putative ATP binding protein" />
+          <Members vimssId="3563400" LocusId="Fnod_1373" Name="btuR" Function="Cob(I)alamin adenosyltransferase (EC 2.5.1.17)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3562236" LocusId="Fnod_0257" Name="btuF" Function="Vitamin B12 ABC transporter, B12-binding component BtuF" />
+          <Members vimssId="3562235" LocusId="Fnod_0256" Name="btuC" Function="Vitamin B12 ABC transporter, permease component BtuC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13600" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Fnod_1415" Name="ribD" Position="-239" Score="119.8">
+          <Sequence>GGTACTCTCGGGGCAGGGTGAAATTCCCGACCGGCGGTGAAAGCCCGCGAGCCTTCCGAAAGTTTTTAAGTTTTTTGTAGGAAGGTTGATCCGGTGGAATTCCGGAGCCGACGGTGAAAGTCCGGATGGGAGAGAGTACCAAG</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3563442" LocusId="Fnod_1415" Name="ribD" Function="Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26)  / 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)" />
+          <Members vimssId="3563443" LocusId="Fnod_1416" Name="ribE" Function="Riboflavin synthase alpha chain (EC 2.5.1.9)" />
+          <Members vimssId="3563444" LocusId="Fnod_1417" Name="ribBA" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase / GTP cyclohydrolase II (EC 3.5.4.25)" />
+          <Members vimssId="3563445" LocusId="Fnod_1418" Name="ribH" Function="6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00557" RegulationMode="RF00557">
+      <Regulator Key="L10_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=24884" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L10_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Fnod_1784" Name="rplJ" Position="-163" Score="25.1">
+          <Sequence>TGGTATATCTCAATGTTTGCCGAAGAATGCAGGTACAAAAAAGACCCAAGTGGTCGCCTGCAGGAGGCACAAAAGAGAAACCCGCTTTTTAGCTGGAGTTCTCTTTTGTTATGCCTCGGAAAGAGGCATTTTTTGTTTTTATT</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3563818" LocusId="Fnod_1784" Name="rplJ" Function="LSU ribosomal protein L10p (P0)" />
+          <Members vimssId="3563817" LocusId="Fnod_1783" Name="rplL" Function="LSU ribosomal protein L7/L12 (P1/P2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00558" RegulationMode="RF00558">
+      <Regulator Key="L20_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=25235" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L20_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Fnod_0660" Name="infC" Position="-172" Score="44.2">
+          <Sequence>GTAAAAAGTGGAGGCGCCCGGCTTCCCACCCAACGGCAAAATGCTGTTTGGGTATCAGAAAAGTTAAGTTTGAAAGGTAGAACTGTGATAAATCATAATGTGTTATAAAACAACGGGCGCTTTTGCCCGTTTTTATTTTTTGAAAA</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3562647" LocusId="Fnod_0660" Name="infC" Function="Translation initiation factor 3" />
+          <Members vimssId="3562648" LocusId="Fnod_0661" Name="rpmI" Function="LSU ribosomal protein L35p" />
+          <Members vimssId="3562649" LocusId="Fnod_0662" Name="rplT" Function="LSU ribosomal protein L20p" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13872" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Fnod_1422" Name="thi4" Position="-216" Score="79.5">
+          <Sequence>ATATTCTCCCAAGGGGAGCTCCATACTGCGGGGCTGAGAGGAGGGAGGCAATCCCTCGACCCTACGAACCTGATCCGGGTAATACCGGCGGAGGGATTGGGAGTGGTAATTATT</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Fnod_0311" Name="thiB" Position="-189" Score="83.6">
+          <Sequence>AATGCCTGGAGGGGAGCTCCAAAATGCGGGGCTGAGAGGAAGGAGTCAATCCTTCGACCCTTCGAACCTGATCCGGGTAATACCGGCGGAGGGACCAGGTGACTCAAAAATTT</Sequence>
+          <Bacteria>Fervidobacterium nodosum Rt17-B1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3563449" LocusId="Fnod_1422" Name="thi4" Function="Thiazole synthase Thi4" />
+          <Members vimssId="3563448" LocusId="Fnod_1421" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+          <Members vimssId="3563447" LocusId="Fnod_1420" Name="TM0789" Function="Xylose isomerase domain-containing protein" />
+          <Members vimssId="3563446" LocusId="Fnod_1419" Name="thiDN" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7) / Thiamin-phosphate synthase ThiN (EC 2.5.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3562290" LocusId="Fnod_0311" Name="thiB" Function="Thiamin ABC transporter, substrate-binding component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

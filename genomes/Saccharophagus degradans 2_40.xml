@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Saccharophagus degradans 2-40" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14963" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="Sde_0915" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3821275&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1604" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sde_3140" Name="COG1040" Position="-33" Score="9">
+          <Sequence>CTGTCAACC---------------GGTTTACAA</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_3139" Name="bioB" Position="-90" Score="9">
+          <Sequence>TTGTAAACC---------------GGTTGACAG</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3823542" LocusId="Sde_3140" Name="COG1040" Function="Competence protein F homolog, phosphoribosyltransferase domain" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3823541" LocusId="Sde_3139" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="3823540" LocusId="Sde_3138" Name="null" Function="8-amino-7-oxononanoate synthase" />
+          <Members vimssId="3823539" LocusId="Sde_3137" Name="bioHC" Function="Biotin synthesis protein BioH / Biotin synthesis protein BioC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1604</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51294" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="Sde_1961" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3822350&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5200" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sde_1960" Name="czcD" Position="-57" Score="6.3">
+          <Sequence>ACTCTATAGTTACTATAGAGT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3822349" LocusId="Sde_1960" Name="czcD" Function="Co/Zn/Cd efflux protein" />
+          <Members vimssId="3822348" LocusId="Sde_1959" Name="null" Function="hypothetical protein" />
+          <Members vimssId="3822347" LocusId="Sde_1958" Name="czcC" Function="Heavy metal efflux RND outer membrane protein" />
+          <Members vimssId="3822346" LocusId="Sde_1957" Name="null" Function="hypothetical protein" />
+          <Members vimssId="3822345" LocusId="Sde_1956" Name="czcB" Function="Heavy metal efflux RND transporter, membrane fusion protein" />
+          <Members vimssId="3822344" LocusId="Sde_1955" Name="czcA" Function="Heavy metal efflux RND transmembrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5200</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="CueR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50902" />
+      <Effector>Copper ion, (Cu+)</Effector>
+      <Pathway>Copper resistance</Pathway>
+      <LocusTag Key="Sde_1950" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3822339&amp;disp=0" />
+      <BiologicalProcess>Copper resistance</BiologicalProcess>
+      <Regulog Key="CueR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5158" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sde_1951" Name="copZ" Position="-75" Score="4.6">
+          <Sequence>ACCTTACCACAATGGGAGACA</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_1952" Name="copA" Position="-54" Score="5.2">
+          <Sequence>ACTTTCCCACGATGGCAAGGA</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_1950" Name="cueR" Position="-59" Score="5.6">
+          <Sequence>ACCTTCCTATAATGGGAGGGT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3822341" LocusId="Sde_1952" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3822339" LocusId="Sde_1950" Name="cueR" Function="Copper-responsive transcriptional regulator, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3822340" LocusId="Sde_1951" Name="copZ" Function="Copper chaperone" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5158</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17867" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="Sde_1412" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3821788&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1929" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sde_2438" Name="ydhD" Position="-68" Score="5.4">
+          <Sequence>ATACCCGAGTAAATAACTCAGATTT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_1412" Name="iscR" Position="-61" Score="6">
+          <Sequence>ATACTTGATTGAAATGCTAGGTTAT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_0836" Name="erpA" Position="-66" Score="6.1">
+          <Sequence>ATACTTGATTGTTTTAGTCGGTTAA</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_2009" Name="nfuA" Position="-38" Score="5.4">
+          <Sequence>ATAACCGACAAATTTACTAGGTCTT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3822830" LocusId="Sde_2438" Name="ydhD" Function="Probable monothiol glutaredoxin ydhD" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3821195" LocusId="Sde_0836" Name="erpA" Function="ErpA, essential respiratory protein A / probable iron binding protein from the HesB_IscA_SufA family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3822398" LocusId="Sde_2009" Name="nfuA" Function="NfuA Fe-S protein maturation" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3821788" LocusId="Sde_1412" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="3821789" LocusId="Sde_1413" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+          <Members vimssId="3821790" LocusId="Sde_1414" Name="sufB" Function="Iron-sulfur cluster assembly protein SufB" />
+          <Members vimssId="3821791" LocusId="Sde_1415" Name="sufC" Function="Iron-sulfur cluster assembly ATPase protein SufC" />
+          <Members vimssId="3821792" LocusId="Sde_1416" Name="sufD" Function="Iron-sulfur cluster assembly protein SufD" />
+          <Members vimssId="3821793" LocusId="Sde_1417" Name="sufS" Function="Cysteine desulfurase (EC 2.8.1.7), SufS subfamily" />
+          <Members vimssId="3821794" LocusId="Sde_1418" Name="sufA" Function="Iron binding protein SufA for iron-sulfur cluster assembly" />
+          <Members vimssId="3821795" LocusId="Sde_1419" Name="sufT" Function="Iron sulfur cluster assembly protein SufT" />
+          <Members vimssId="3821796" LocusId="Sde_1420" Name="sufE" Function="Sulfur acceptor protein SufE for iron-sulfur cluster assembly" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1929</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28315" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="Sde_1787" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3822171&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2978" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sde_2735" Name="recN" Position="-43" Score="5.2">
+          <Sequence>CACTGTATAAATAACCATAC</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_1288" Name="recA" Position="-163" Score="5.2">
+          <Sequence>TACTGTATAAAAAACTATTA</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_1030" Name="imuA" Position="-38" Score="5.7">
+          <Sequence>TACTGTATAGACATACAGCA</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_1787" Name="lexA" Position="-41" Score="5.3">
+          <Sequence>TACTGTATATTCATCCAATC</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_0674" Name="yebG" Position="-46" Score="5.3">
+          <Sequence>TACTGTATACTCGTACAGCA</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_3764" Name="uvrD" Position="-61" Score="4.9">
+          <Sequence>TGCTGTCTATTTATACATGT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_0425" Name="intIA" Position="-36" Score="5.9">
+          <Sequence>TACTGTATATATAAACATAT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_1542" Name="topB" Position="-30" Score="5.3">
+          <Sequence>AGCTGTATATAACAACAGTA</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3821660" LocusId="Sde_1288" Name="recA" Function="Recombinase A" />
+          <Members vimssId="3821661" LocusId="Sde_1289" Name="recX" Function="Regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3822171" LocusId="Sde_1787" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+          <Members vimssId="3822170" LocusId="Sde_1786" Name="sulA" Function="Cell division inhibitor sulA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3821395" LocusId="Sde_1030" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="3821394" LocusId="Sde_1029" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3823136" LocusId="Sde_2735" Name="recN" Function="DNA repair protein RecN" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3821032" LocusId="Sde_0674" Name="yebG" Function="SOS regulon DNA damage-inducible protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3824168" LocusId="Sde_3764" Name="uvrD" Function="ATP-dependent DNA helicase II" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3820783" LocusId="Sde_0425" Name="intIA" Function="Integron integrase IntI4" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3821919" LocusId="Sde_1542" Name="topB" Function="DNA topoisomerase III (EC 5.99.1.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2978</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor (activator)">
+      <Regulator Key="MetR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56642" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="Sde_0637" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3820995&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5786" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sde_0638" Name="metE" Position="-62" Score="4.2">
+          <Sequence>ATCAATTTTATTCAC</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_0638" Name="metE" Position="-93" Score="5.2">
+          <Sequence>ATGATTAAAATTCAT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_0637" Name="metR" Position="-13" Score="5.2">
+          <Sequence>ATGAATTTTAATCAT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_0637" Name="metR" Position="-44" Score="4.2">
+          <Sequence>GTGAATAAAATTGAT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3820995" LocusId="Sde_0637" Name="metR" Function="Homocysteine-responsive transcriptional regulator of methionine metabolism, LysR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3820996" LocusId="Sde_0638" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5786</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="NagR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14253" />
+      <Effector>N-acetylglucosamine</Effector>
+      <Pathway>N-acetylglucosamine utilization</Pathway>
+      <LocusTag Key="Sde_3042" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3823444&amp;disp=0" />
+      <BiologicalProcess>N-acetylglucosamine utilization</BiologicalProcess>
+      <Regulog Key="NagR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1523" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sde_3605" Name="chiA" Position="-200" Score="5.6">
+          <Sequence>TTTGACAACGTTGTCTTT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_3982" Name="chiD" Position="-257" Score="5.3">
+          <Sequence>AGATACAACGTTGTCATT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_3982" Name="chiD" Position="-288" Score="5.4">
+          <Sequence>TTTGACAACGTTGTCTAT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_3035" Name="omp_nag" Position="-141" Score="5.2">
+          <Sequence>TTTGACAACGTTGTCAAA</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_3035" Name="omp_nag" Position="-106" Score="5.6">
+          <Sequence>CATGACAACGTTGTCCAT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_3041" Name="nagB2" Position="-134" Score="5.7">
+          <Sequence>AATGACAACGTTGTCTCG</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3824009" LocusId="Sde_3605" Name="chiA" Function="Chitinase (EC 3.2.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3824386" LocusId="Sde_3982" Name="chiD" Function="Chitodextrinase (EC 3.2.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3823437" LocusId="Sde_3035" Name="omp_nag" Function="N-acetylglucosamine-regulated TonB-dependent outer membrane receptor" />
+          <Members vimssId="3823438" LocusId="Sde_3036" Name="nagK" Function="N-acetylglucosamine kinase of eukaryotic type (EC 2.7.1.59)" />
+          <Members vimssId="3823439" LocusId="Sde_3037" Name="hex" Function="Beta-N-acetylhexosaminidase" />
+          <Members vimssId="3823440" LocusId="Sde_3038" Name="nagP" Function="N-acetylglucosamine transporter, NagP" />
+          <Members vimssId="3823441" LocusId="Sde_3039" Name="nagX" Function="N-acetylglucosamine related transporter, NagX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3823443" LocusId="Sde_3041" Name="nagB2" Function="Glucosamine-6-phosphate deaminase [isomerizing], alternative (EC 3.5.99.6)" />
+          <Members vimssId="3823442" LocusId="Sde_3040" Name="nagA" Function="N-acetylglucosamine-6-phosphate deacetylase (EC 3.5.1.25)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1523</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15519" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Sde_3459" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3823863&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1666" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sde_2458" Name="nrdA" Position="-188" Score="5.4">
+          <Sequence>CCACTATATATAGTGG</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_3460" Name="nrdB" Position="-63" Score="4.8">
+          <Sequence>CACCTATATATAGTGG</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_3460" Name="nrdB" Position="-32" Score="4.4">
+          <Sequence>CAACCACATATAGTTA</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_2458" Name="nrdA" Position="-451" Score="3.7">
+          <Sequence>CCGCATTATCTTGTAT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_2458" Name="nrdA" Position="-420" Score="5">
+          <Sequence>CCCCCATATATGGTGT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3822850" LocusId="Sde_2458" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="3822851" LocusId="Sde_2459" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3823864" LocusId="Sde_3460" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1666</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="repressor">
+      <Regulator Key="NsrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14595" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="Sde_0101" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3820455&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="NsrR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1562" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sde_0102" Name="nnrS" Position="-82" Score="4.9">
+          <Sequence>AGATGTAATATACATGCATCT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_0102" Name="nnrS" Position="-56" Score="5.3">
+          <Sequence>AGATGCATAATAAATGTATCT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3820456" LocusId="Sde_0102" Name="nnrS" Function="NnrS protein involved in response to NO" />
+          <Members vimssId="3820455" LocusId="Sde_0101" Name="nsrR" Function="Nitrite-sensitive transcriptional repressor NsrR" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1562</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19289" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="Sde_0499" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3820857&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2083" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sde_0502" Name="glnA" Position="-273" Score="5.1">
+          <Sequence>CGCACCACTTCAGTGCA</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_0500" Name="ntrB" Position="-307" Score="4.9">
+          <Sequence>CGCACCATATTGAAGCA</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_0218" Name="ureD" Position="-160" Score="4.5">
+          <Sequence>TGCACAATAATGGTGTT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_0218" Name="ureD" Position="-137" Score="4.4">
+          <Sequence>CGCGCCCACTTGGTGCG</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_0231" Name="PF09694" Position="-193" Score="5.1">
+          <Sequence>TGCACCATATTTGTGCC</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3820573" LocusId="Sde_0218" Name="ureD" Function="Urease accessory protein, UreD" />
+          <Members vimssId="3820574" LocusId="Sde_0219" Name="ureA" Function="Urease, gamma subunit (EC 3.5.1.5)" />
+          <Members vimssId="3820575" LocusId="Sde_0220" Name="ureB" Function="Urease, beta subunit (EC 3.5.1.5)" />
+          <Members vimssId="3820576" LocusId="Sde_0221" Name="ureC" Function="Urease, alpha subunit (EC 3.5.1.5)" />
+          <Members vimssId="3820577" LocusId="Sde_0222" Name="ureE" Function="Urease accessory protein, UreE" />
+          <Members vimssId="3820578" LocusId="Sde_0223" Name="ureF" Function="Urease accessory protein, UreF" />
+          <Members vimssId="3820579" LocusId="Sde_0224" Name="ureG" Function="Urease accessory protein, UreG" />
+          <Members vimssId="3820580" LocusId="Sde_0225" Name="ureJ" Function="Urease accessory protein, UreJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3820586" LocusId="Sde_0231" Name="PF09694" Function="Conserved hypothetical protein, nitrogen assimilation associated" />
+          <Members vimssId="3820587" LocusId="Sde_0232" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="3820588" LocusId="Sde_0233" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3820860" LocusId="Sde_0502" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3820858" LocusId="Sde_0500" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="3820857" LocusId="Sde_0499" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2083</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PsrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29682" />
+      <Effector>Oleate</Effector>
+      <Pathway>Fatty acid degradation</Pathway>
+      <LocusTag Key="Sde_1789" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3822173&amp;disp=0" />
+      <BiologicalProcess>Fatty acid degradation</BiologicalProcess>
+      <Regulog Key="PsrA - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3097" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sde_3132" Name="acdH2" Position="-162" Score="5.7">
+          <Sequence>ATTTAAACGTTTGTTTTAAT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_1605" Name="fadB" Position="-90" Score="6.2">
+          <Sequence>ATTCAAACAAGCGTTTGAAT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3823534" LocusId="Sde_3132" Name="acdH2" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3821985" LocusId="Sde_1605" Name="fadB" Function="Enoyl-CoA hydratase (EC 4.2.1.17) / Delta(3)-cis-delta(2)-trans-enoyl-CoA isomerase (EC 5.3.3.8) / 3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35) / 3-hydroxybutyryl-CoA epimerase (EC 5.1.2.3)" />
+          <Members vimssId="3821986" LocusId="Sde_1606" Name="fadA" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16) @ Acetyl-CoA acetyltransferase (EC 2.3.1.9)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3097</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SahR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15721" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="Sde_0471" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3820829&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SahR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1688" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sde_0471" Name="sahR" Position="-49" Score="6.8">
+          <Sequence>ATATCAATATTTTTTGATAT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_2010" Name="metH" Position="-42" Score="6.1">
+          <Sequence>AAATCGAAATATTTTGATAT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3822399" LocusId="Sde_2010" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3820829" LocusId="Sde_0471" Name="sahR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+          <Members vimssId="3820828" LocusId="Sde_0470" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+          <Members vimssId="3820827" LocusId="Sde_0469" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+          <Members vimssId="3820826" LocusId="Sde_0468" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1688</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="ScrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56335" />
+      <Effector>Sucrose</Effector>
+      <Pathway>Sucrose utilization</Pathway>
+      <LocusTag Key="Sde_3960" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3824364&amp;disp=0" />
+      <BiologicalProcess>Sucrose utilization</BiologicalProcess>
+      <Regulog Key="ScrR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5752" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sde_3964" Name="scrT" Position="-102" Score="6.7">
+          <Sequence>AATTGCAACCGATTGCAATA</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_3964" Name="scrT" Position="-124" Score="6.4">
+          <Sequence>AATTACAAACGATTGCAAAA</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_3963)" Name="omp(Scr" Position="-110" Score="6.4">
+          <Sequence>TTTTGCAATCGTTTGTAATT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_3963)" Name="omp(Scr" Position="-132" Score="6.7">
+          <Sequence>TATTGCAATCGGTTGCAATT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3824368" LocusId="Sde_3964" Name="scrT" Function="Predicted sucrose permease, MFS family, FucP subfamily" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3824367" LocusId="Sde_3963" Name="omp(Scr)" Function="Predicted sucrose-specific TonB-dependent receptor" />
+          <Members vimssId="3824366" LocusId="Sde_3962" Name="scrK" Function="Fructokinase (EC 2.7.1.4)" />
+          <Members vimssId="3824365" LocusId="Sde_3961" Name="Sde_3961" Function="Glycosyl hydrolase family 43, five-bladed beta-propellor domain" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5752</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="Sde_3525" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57325" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux</Pathway>
+      <LocusTag Key="Sde_3525" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3823929&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux</BiologicalProcess>
+      <Regulog Key="Sde_3525 - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5862" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sde_3525" Name="Sde_3525" Position="-69" Score="5">
+          <Sequence>CACTGTATTACTTGACCAACACACTA</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3823929" LocusId="Sde_3525" Name="Sde_3525" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="3823928" LocusId="Sde_3524" Name="XAC1547" Function="ABC transporter, ATP-binding protein" />
+          <Members vimssId="3823927" LocusId="Sde_3523" Name="XAC1546" Function="ABC transporter, permease protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5862</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YjiR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61802" />
+      <Effector />
+      <Pathway>Metabolite transport</Pathway>
+      <LocusTag Key="Sde_3059" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3823461&amp;disp=0" />
+      <BiologicalProcess>Metabolite transport</BiologicalProcess>
+      <Regulog Key="YjiR2 - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6347" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sde_3058" Name="PF02567" Position="-228" Score="16.4">
+          <Sequence>AACAGTT-(18)-TACAGTT-(12)-AACTGTA-(24)-AACTGTA</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3823460" LocusId="Sde_3058" Name="PF02567" Function="Phenazine biosynthesis PhzC/PhzF protein" />
+          <Members vimssId="3823459" LocusId="Sde_3057" Name="PF01063" Function="Aminotransferase, class IV" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6347</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16059" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="Sde_1974" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3822363&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1726" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sde_0060" Name="znuA" Position="-80" Score="6">
+          <Sequence>GTTATGTTATCATATAACACTTT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_0059" Name="zur" Position="-51" Score="6.1">
+          <Sequence>AAAGTGTTATATGATAACATAAC</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_1980" Name="yciC" Position="-184" Score="5.6">
+          <Sequence>ATAATGATATCATATATCATATC</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3820414" LocusId="Sde_0060" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3822369" LocusId="Sde_1980" Name="yciC" Function="Putative metal chaperone, GTPase of COG0523 family" />
+          <Members vimssId="3822368" LocusId="Sde_1979" Name="PF08856" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3820413" LocusId="Sde_0059" Name="zur" Function="Zinc uptake regulation protein ZUR" />
+          <Members vimssId="3820412" LocusId="Sde_0058" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="3820411" LocusId="Sde_0057" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1726</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48612" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sde_1456" Name="thiO" Position="-92" Score="62.6">
+          <Sequence>GCTCACTTTGTCGGGGTGCCCCATACTTCTCTTGGGGCTGAGATTAAACCCGTACGACCTGATCAGGCTAGAACCTGCGTAGGCAACAGCATATGAATACCT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_0368" Name="thiD" Position="-207" Score="64.2">
+          <Sequence>CATTCTTGTCGGGGTGCTAGTTTTTGTGTGCTTTATTTGCGTGCAAAACAGGCTGAGAAAAACCCGTTGACCTGATCCGGCTAGTACCGGCGTAGGGAACGAGAAGAGTTTGGCGCT</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sde_3405" Name="omp_thi" Position="-182" Score="67.2">
+          <Sequence>GCGCTCCTTAGGGGAGGCTGCGAAGCCTGAGACTAGTACTTATGTGCTTATACCCTTCGAACCTGATCCGGTTAGTACCGGCGTAGGAATAGGATAAAAACTATAGGC</Sequence>
+          <Bacteria>Saccharophagus degradans 2-40</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3823809" LocusId="Sde_3405" Name="omp_thi" Function="Predicted thiamin-specific outer membrane transporter, TonB-dependent" />
+          <Members vimssId="3823810" LocusId="Sde_3406" Name="HCH_01843" Function="hypothetical protein" />
+          <Members vimssId="3823811" LocusId="Sde_3407" Name="pnuT" Function="Predicted thiamin transporter PnuT" />
+          <Members vimssId="3823812" LocusId="Sde_3408" Name="thiK" Function="Predicted thiamine kinase, aminoglycoside phosphotransferase family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3820726" LocusId="Sde_0368" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+          <Members vimssId="3820727" LocusId="Sde_0369" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3821832" LocusId="Sde_1456" Name="thiO" Function="Glycine oxidase ThiO (EC 1.4.3.19)" />
+          <Members vimssId="3821831" LocusId="Sde_1455" Name="thiS" Function="Sulfur carrier protein ThiS" />
+          <Members vimssId="3821830" LocusId="Sde_1454" Name="thiG" Function="Thiazole biosynthesis protein ThiG" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

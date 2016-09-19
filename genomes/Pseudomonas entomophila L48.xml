@@ -1,0 +1,2093 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Pseudomonas entomophila L48" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14970" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="PSEEN0471" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2046699&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1605" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN5121" Name="bioB" Position="-127" Score="8.1">
+          <Sequence>TTGTAAGCC---------------GGTTGACAG</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN5122" Name="COG1040" Position="5" Score="8.1">
+          <Sequence>CTGTCAACC---------------GGCTTACAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2050996" LocusId="PSEEN5121" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="2050995" LocusId="PSEEN5120" Name="bioF" Function="8-amino-7-oxononanoate synthase (EC 2.3.1.47)" />
+          <Members vimssId="2050994" LocusId="PSEEN5119" Name="bioH" Function="hypothetical protein" />
+          <Members vimssId="2050993" LocusId="PSEEN5118" Name="bioC" Function="Biotin synthesis protein bioC" />
+          <Members vimssId="2050992" LocusId="PSEEN5117" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2050997" LocusId="PSEEN5122" Name="COG1040" Function="Competence protein F homolog, phosphoribosyltransferase domain; protein YhgH required for utilization of DNA as sole source of carbon and energy" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1605</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51301" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="PSEEN5233" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2051104&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5201" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN4285" Name="czcR" Position="-57" Score="5.1">
+          <Sequence>ACCCTGATACAGCTACAGGGT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN5232" Name="cadA" Position="-163" Score="6.5">
+          <Sequence>ACCCTATAGTGGCTACAGGGT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2051103" LocusId="PSEEN5232" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2050219" LocusId="PSEEN4285" Name="czcR" Function="DNA-binding heavy metal response regulator" />
+          <Members vimssId="2050220" LocusId="PSEEN4286" Name="PF00512" Function="Heavy metal sensor histidine kinase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5201</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="CueR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50909" />
+      <Effector>Copper ion, (Cu+)</Effector>
+      <Pathway>Copper resistance</Pathway>
+      <LocusTag Key="PSEEN0668" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2046882&amp;disp=0" />
+      <BiologicalProcess>Copper resistance</BiologicalProcess>
+      <Regulog Key="CueR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5159" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN0671" Name="copZ" Position="-56" Score="5.9">
+          <Sequence>ACCTTGCCCCGATGGCAAGGT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN0669" Name="copA" Position="-55" Score="5.3">
+          <Sequence>ACCTTGACCGCATGGCAAGGT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2046883" LocusId="PSEEN0669" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="2046882" LocusId="PSEEN0668" Name="cueR" Function="Copper-responsive transcriptional regulator, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2046885" LocusId="PSEEN0671" Name="copZ" Function="Copper chaperone" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5159</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="DesT" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14434" />
+      <Effector>Unsaturated acyl-CoA; Unsaturated acyl-ACP</Effector>
+      <Pathway>Fatty acid biosynthesis</Pathway>
+      <LocusTag Key="PSEEN4908" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2050803&amp;disp=0" />
+      <BiologicalProcess>Fatty acid biosynthesis</BiologicalProcess>
+      <Regulog Key="DesT - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1544" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN3622" Name="fabA" Position="-150" Score="6.2">
+          <Sequence>AGTGCACACCTGTACTCT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1546" Name="plsC" Position="-48" Score="5.6">
+          <Sequence>AGTGCACACCCGTACACT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2049606" LocusId="PSEEN3622" Name="fabA" Function="3-hydroxydecanoyl-[acyl-carrier-protein] dehydratase (EC 4.2.1.60)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047681" LocusId="PSEEN1546" Name="plsC" Function="1-acyl-sn-glycerol-3-phosphate acyltransferase (EC 2.3.1.51)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1544</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="FruR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=20695" />
+      <Effector>Fructose-1-phosphate; Fructose-1,6-diphosphate</Effector>
+      <Pathway>Fructose utilization</Pathway>
+      <LocusTag Key="PSEEN0931" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2047114&amp;disp=0" />
+      <BiologicalProcess>Fructose utilization</BiologicalProcess>
+      <Regulog Key="FruR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2239" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN0931" Name="fruR" Position="-170" Score="5">
+          <Sequence>GCTGAATCGTTTAATC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN0932" Name="fruB" Position="-142" Score="4.5">
+          <Sequence>GATTAAACGATTCAGC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2047115" LocusId="PSEEN0932" Name="fruB" Function="Fructose-specific phosphocarrier protein HPr (EC 2.7.1.69) / PTS system, fructose-specific IIA component (EC 2.7.1.69)" />
+          <Members vimssId="2047116" LocusId="PSEEN0933" Name="fruK" Function="1-phosphofructokinase (EC 2.7.1.56)" />
+          <Members vimssId="2047117" LocusId="PSEEN0934" Name="fruA" Function="PTS system, fructose-specific IIB component (EC 2.7.1.69) / PTS system, fructose-specific IIC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047114" LocusId="PSEEN0931" Name="fruR" Function="Fructose operon transcriptional regulator FruR, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2239</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="GabR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59993" />
+      <Effector>Gamma-aminobutyric acid</Effector>
+      <Pathway>Gamma-aminobutyrate utilization</Pathway>
+      <LocusTag Key="PSEEN2394" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2048468&amp;disp=0" />
+      <BiologicalProcess>Gamma-aminobutyrate utilization</BiologicalProcess>
+      <Regulog Key="GabR2 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6159" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN2395" Name="gabP" Position="-217" Score="6">
+          <Sequence>TGATGTACAGGT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2048469" LocusId="PSEEN2395" Name="gabP" Function="Gamma-aminobutyrate permease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6159</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TyrR" RegulationMode="activator">
+      <Regulator Key="GcvR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60190" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="PSEEN4432" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2050362&amp;disp=0" />
+      <BiologicalProcess>Glycine metabolism</BiologicalProcess>
+      <Regulog Key="GcvR - Pseudomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6180" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN4435" Name="gcvH" Position="-265" Score="5.4">
+          <Sequence>CCGTATCGAATTCAATCCAC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN4435" Name="gcvH" Position="-246" Score="4.6">
+          <Sequence>CCGTAATCAAATCATTCCAC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN4435" Name="gcvH" Position="-165" Score="5.7">
+          <Sequence>GTGTATCGATTTCGTTCCAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2050365" LocusId="PSEEN4435" Name="gcvH" Function="Glycine cleavage system H protein" />
+          <Members vimssId="2050366" LocusId="PSEEN4436" Name="gcvP" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P protein) (EC 1.4.4.2)" />
+          <Members vimssId="2050367" LocusId="PSEEN4437" Name="sdaA" Function="L-serine dehydratase (EC 4.3.1.17)" />
+          <Members vimssId="2050368" LocusId="PSEEN4438" Name="gcvT" Function="Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6180</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="GguR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62993" />
+      <Effector />
+      <Pathway>Glucuronate utilization; Glucarate utilization; Galacturonate utilization; Galactarate utilization</Pathway>
+      <LocusTag Key="PSEEN2654" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2048705&amp;disp=0" />
+      <BiologicalProcess>Glucuronate utilization; Glucarate utilization; Galacturonate utilization; Galactarate utilization</BiologicalProcess>
+      <Regulog Key="GguR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6493" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN2658" Name="kdgD" Position="-71" Score="5.5">
+          <Sequence>ATGTTGTACGATAACTT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN0730" Name="gguT" Position="-105" Score="5.3">
+          <Sequence>GTGTTGTCGTACAACTT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN0729" Name="gguR" Position="-201" Score="5.3">
+          <Sequence>AAGTTGTACGACAACAC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN2654" Name="gguR" Position="-63" Score="4.8">
+          <Sequence>ATGTGATCGTACAACTG</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2046933" LocusId="PSEEN0730" Name="gguT" Function="Predicted hexarate transporter" />
+          <Members vimssId="2046934" LocusId="PSEEN0731" Name="gudD" Function="Glucarate dehydratase (EC 4.2.1.40)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2048709" LocusId="PSEEN2658" Name="kdgD" Function="5-dehydro-4-deoxyglucarate dehydratase (EC 4.2.1.41)" />
+          <Members vimssId="2048708" LocusId="PSEEN2657" Name="garP" Function="D-galactarate permease" />
+          <Members vimssId="2048707" LocusId="PSEEN2656" Name="garD" Function="D-galactarate dehydratase (EC 4.2.1.42)" />
+          <Members vimssId="2048706" LocusId="PSEEN2655" Name="kgsD" Function="Alpha-ketoglutaric semialdehyde dehydrogenase (EC 1.2.1.26)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2048705" LocusId="PSEEN2654" Name="gguR" Function="Predicted D-glucarate or D-galactorate utilization regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2046932" LocusId="PSEEN0729" Name="gguR" Function="Predicted D-glucarate or D-galactorate utilization regulator, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6493</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="GntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49846" />
+      <Effector>Gluconate</Effector>
+      <Pathway>Gluconate utilization</Pathway>
+      <LocusTag Key="PSEEN2422" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2048495&amp;disp=0" />
+      <BiologicalProcess>Gluconate utilization</BiologicalProcess>
+      <Regulog Key="GntR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5049" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN2421" Name="gntK" Position="-166" Score="6">
+          <Sequence>CTAAGGTAGCGCTGTCTCAG</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN2421" Name="gntK" Position="-36" Score="6">
+          <Sequence>CCAAGACAGCGCTATCTCAC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN2422" Name="gntR" Position="-192" Score="6">
+          <Sequence>GTGAGATAGCGCTGTCTTGG</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN2422" Name="gntR" Position="-62" Score="6">
+          <Sequence>CTGAGACAGCGCTACCTTAG</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN2420" Name="gntT" Position="-82" Score="6">
+          <Sequence>CAAAGACAGCGCTGTCTTAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2048493" LocusId="PSEEN2420" Name="gntT" Function="High-affinity H+/gluconate symporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2048495" LocusId="PSEEN2422" Name="gntR" Function="Gluconate utilization transcriptional regulator GntR, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2048494" LocusId="PSEEN2421" Name="gntK" Function="Thermoresistant gluconokinase (EC 2.7.1.12)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5049</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor (activator)">
+      <Regulator Key="HexR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=20493" />
+      <Effector>2-keto-3-deoxy-6-phosphogluconate</Effector>
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="PSEEN4406" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2050337&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="HexR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2219" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN4417" Name="edd" Position="-141" Score="7">
+          <Sequence>ATTTTGT-------ACAACGA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN4405" Name="zwf" Position="-85" Score="7.8">
+          <Sequence>ATGTTGT-------ACTACAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN4417" Name="edd" Position="-204" Score="7.5">
+          <Sequence>TTGTTGT-------ACAAGAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN4406" Name="hexR" Position="-138" Score="7.8">
+          <Sequence>ATGTAGT-------ACAACAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN4418" Name="gapA" Position="-146" Score="7">
+          <Sequence>TCGTTGT-------ACAAAAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN4418" Name="gapA" Position="-83" Score="7.5">
+          <Sequence>ATCTTGT-------ACAACAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2050337" LocusId="PSEEN4406" Name="hexR" Function="Central carbohydrate metabolism transcription regulator HexR, RpiR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2050348" LocusId="PSEEN4417" Name="edd" Function="Phosphogluconate dehydratase (EC 4.2.1.12)" />
+          <Members vimssId="2050347" LocusId="PSEEN4416" Name="glk" Function="Glucokinase (EC 2.7.1.2)" />
+          <Members vimssId="2050346" LocusId="PSEEN4415" Name="gltR" Function="DNA-binding response regulator GltR, controls specific porins for the entry of glucose" />
+          <Members vimssId="2050345" LocusId="PSEEN4414" Name="gltS" Function="Integral membrane sensor signal transduction histidine kinase (EC 2.7.13.3), glucose catabolism cluster" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2050349" LocusId="PSEEN4418" Name="gapA" Function="NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2050336" LocusId="PSEEN4405" Name="zwf" Function="Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)" />
+          <Members vimssId="2050335" LocusId="PSEEN4404" Name="pgl" Function="6-phosphogluconolactonase (EC 3.1.1.31), eukaryotic type" />
+          <Members vimssId="2050334" LocusId="PSEEN4403" Name="eda" Function="4-Hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16) / 2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2219</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor (activator)">
+      <Regulator Key="HexR1" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14806" />
+      <Effector>2-keto-3-deoxy-6-phosphogluconate</Effector>
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="PSEEN5499" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2051355&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="HexR1 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1586" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN5145" Name="aceE" Position="-125" Score="6.2">
+          <Sequence>TTGTAGTAAAACTACAC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN5145" Name="aceE" Position="-177" Score="5.6">
+          <Sequence>GTGTAGTTTTACTACTA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN5500" Name="zwf" Position="-45" Score="6.3">
+          <Sequence>TTGTAGTTATACTACAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN5499" Name="hexR1" Position="-60" Score="6.3">
+          <Sequence>ATGTAGTATAACTACAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2051019" LocusId="PSEEN5145" Name="aceE" Function="Pyruvate dehydrogenase E1 component (EC 1.2.4.1)" />
+          <Members vimssId="2051020" LocusId="PSEEN5146" Name="aceF" Function="Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex (EC 2.3.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2051355" LocusId="PSEEN5499" Name="hexR1" Function="Central carbohydrate metabolism transcription regulator HexR, RpiR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2051356" LocusId="PSEEN5500" Name="zwf" Function="Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1586</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="IclR" RegulationMode="repressor">
+      <Regulator Key="HmgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60206" />
+      <Effector>Homogentisate</Effector>
+      <Pathway>Tyrosine degradation</Pathway>
+      <LocusTag Key="PSEEN4613" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2050533&amp;disp=0" />
+      <BiologicalProcess>Tyrosine degradation</BiologicalProcess>
+      <Regulog Key="HmgR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6182" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN4613" Name="hmgR" Position="-92" Score="6.4">
+          <Sequence>ATCGTAATCAGATTACGAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN4612" Name="hmgA" Position="-116" Score="6.4">
+          <Sequence>TTCGTAATCTGATTACGAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2050533" LocusId="PSEEN4613" Name="hmgR" Function="Tyrosine degradation transcriptional regulator, IclR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2050532" LocusId="PSEEN4612" Name="hmgA" Function="Homogentisate 1,2-dioxygenase (EC 1.13.11.5)" />
+          <Members vimssId="2050531" LocusId="PSEEN4611" Name="hmgC" Function="Fumarylacetoacetase (EC 3.7.1.2)" />
+          <Members vimssId="2050530" LocusId="PSEEN4610" Name="hmgB" Function="Maleylacetoacetate isomerase (EC 5.2.1.2)" />
+          <Members vimssId="2050529" LocusId="PSEEN4609" Name="COG2814" Function="Predicted tyrosine transporter, COG2814 family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6182</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="HutC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17330" />
+      <Effector>cis-Urocanic acid</Effector>
+      <Pathway>Histidine utilization</Pathway>
+      <LocusTag Key="PSEEN5099" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2050976&amp;disp=0" />
+      <BiologicalProcess>Histidine utilization</BiologicalProcess>
+      <Regulog Key="HutC - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1869" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN5097" Name="hutU" Position="-84" Score="6.5">
+          <Sequence>ATGCTTGTACATACAAGTAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3026)" Name="COG1457 (CodB" Position="-101" Score="5.1">
+          <Sequence>AGACTTGTATATACATGCTC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN5100" Name="hutF" Position="-41" Score="5.2">
+          <Sequence>GTATATGTATATACAAGTTG</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN5099" Name="hutC" Position="-88" Score="5.2">
+          <Sequence>CAACTTGTATATACATATAC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2050976" LocusId="PSEEN5099" Name="hutC" Function="Histidine utilization repressor, GntR family" />
+          <Members vimssId="2050975" LocusId="PSEEN5098" Name="hutD" Function="Conserved hypothetical protein related to histidine degradation" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2050977" LocusId="PSEEN5100" Name="hutF" Function="Formiminoglutamic iminohydrolase (EC 3.5.3.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2049050" LocusId="PSEEN3026" Name="COG1457 (CodB)" Function="Permease, cytosine/purines, uracil, thiamine, allantoin family protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2050974" LocusId="PSEEN5097" Name="hutU" Function="Urocanate hydratase (EC 4.2.1.49)" />
+          <Members vimssId="2050973" LocusId="PSEEN5096" Name="hutH" Function="Histidine ammonia-lyase (EC 4.3.1.3)" />
+          <Members vimssId="2050972" LocusId="PSEEN5095" Name="hisT" Function="Histidine transport protein (permease)" />
+          <Members vimssId="2050971" LocusId="PSEEN5094" Name="hutI" Function="Imidazolonepropionase (EC 3.5.2.7)" />
+          <Members vimssId="2050970" LocusId="PSEEN5093" Name="hutG" Function="N-formylglutamate deformylase (EC 3.5.1.68)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1869</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17874" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="PSEEN1009" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2047189&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1930" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN0461" Name="erpA" Position="-79" Score="6.7">
+          <Sequence>ATTCTTGACCGATTTTCTCGGAGAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1009" Name="iscR" Position="-70" Score="7">
+          <Sequence>ATAGTTGACTTAAATGCTCGGGAAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2046695" LocusId="PSEEN0461" Name="erpA" Function="ErpA, essential respiratory protein A / probable iron binding protein from the HesB_IscA_SufA family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047189" LocusId="PSEEN1009" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="2047190" LocusId="PSEEN1010" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+          <Members vimssId="2047191" LocusId="PSEEN1011" Name="iscU" Function="Iron-sulfur cluster assembly scaffold protein IscU" />
+          <Members vimssId="2047192" LocusId="PSEEN1012" Name="iscA" Function="Iron binding protein IscA for iron-sulfur cluster assembly" />
+          <Members vimssId="2047193" LocusId="PSEEN1013" Name="hscB" Function="Chaperone protein HscB" />
+          <Members vimssId="2047194" LocusId="PSEEN1014" Name="hscA" Function="Chaperone protein HscA" />
+          <Members vimssId="2047195" LocusId="PSEEN1015" Name="fdx" Function="ferredoxin, 2Fe-2S type, ISC system" />
+          <Members vimssId="2047196" LocusId="PSEEN1016" Name="yfhJ" Function="putative Fe-S cluster assembly protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1930</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28322" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="PSEEN3721" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2049691&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2979" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN1636" Name="uvrB" Position="-43" Score="5.1">
+          <Sequence>ACTGGCTAAATTTACAGT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN4107" Name="dinB" Position="-32" Score="5.3">
+          <Sequence>TCTGTATGAATTTACAGT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN0776" Name="recN" Position="-41" Score="6">
+          <Sequence>ACTGTATAAATATCCAGA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3721" Name="lexA" Position="-47" Score="5.5">
+          <Sequence>ACTGTATATAATCCCAGT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3721" Name="lexA" Position="-28" Score="5.7">
+          <Sequence>ACTGTATAAAAAGACAGA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN4605" Name="PF07130" Position="-59" Score="5.8">
+          <Sequence>ACTGTATAAAGATACAGT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3760" Name="PA0922" Position="-32" Score="5.7">
+          <Sequence>GCTGTATATAAATACAGT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN4605" Name="yebG" Position="-59" Score="5.8">
+          <Sequence>ACTGTATAAAGATACAGT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1273" Name="dinG" Position="-38" Score="5.4">
+          <Sequence>ACTGAAAATATATCCAGC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN4128" Name="recA" Position="-60" Score="5.2">
+          <Sequence>ACTGGCTACTTATACAGT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN0052" Name="PF04055" Position="-35" Score="5.7">
+          <Sequence>ACTGTATTCATATACAGT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN2356" Name="PSEEN2356" Position="-33" Score="5.4">
+          <Sequence>ACTGTATGAATAATCAGT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN2643" Name="PF08774" Position="-45" Score="5.5">
+          <Sequence>TCTGTATGTATAACCAGT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1950" Name="PF07867" Position="-36" Score="5.6">
+          <Sequence>ACTGTATGCACATACAGC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN2193" Name="topB" Position="-86" Score="5.6">
+          <Sequence>ACTGTACATACATACAGA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2048054" LocusId="PSEEN1950" Name="PF07867" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047439" LocusId="PSEEN1273" Name="dinG" Function="ATP-dependent helicase DinG/Rad3" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2046326" LocusId="PSEEN0052" Name="PF04055" Function="DNA repair photolyase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2048282" LocusId="PSEEN2193" Name="topB" Function="DNA topoisomerase III (EC 5.99.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2050065" LocusId="PSEEN4128" Name="recA" Function="Recombinase A" />
+          <Members vimssId="2050064" LocusId="PSEEN4127" Name="recX" Function="Regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2050526" LocusId="PSEEN4605" Name="yebG" Function="SOS regulon DNA damage-inducible protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2050047" LocusId="PSEEN4107" Name="dinB" Function="DNA polymerase IV (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2049726" LocusId="PSEEN3760" Name="PA0922" Function="Predicted replication protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2049691" LocusId="PSEEN3721" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+          <Members vimssId="2049692" LocusId="PSEEN3722" Name="sulA" Function="Cell division inhibitor sulA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2046971" LocusId="PSEEN0776" Name="recN" Function="DNA repair protein RecN" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047761" LocusId="PSEEN1636" Name="uvrB" Function="Excinuclease ABC subunit B" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2048431" LocusId="PSEEN2356" Name="PSEEN2356" Function="Radical SAM domain protein" />
+          <Members vimssId="2048430" LocusId="PSEEN2355" Name="PSEEN2355" Function="Domain often clustered or fused with uracil-DNA glycosylase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2048695" LocusId="PSEEN2643" Name="PF08774" Function="Hypothetical protein, restriction endonuclease-like VRR-NUC domain" />
+          <Members vimssId="2048696" LocusId="PSEEN2644" Name="COG1199" Function="Rad3-related DNA helicases" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2050526" LocusId="PSEEN4605" Name="PF07130" Function="Conserved hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2979</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28724" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="PSEEN2412" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2048485&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA2 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3022" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN2412" Name="lexA2" Position="-17" Score="6.8">
+          <Sequence>GAGTACAAATGTACTC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2048485" LocusId="PSEEN2412" Name="lexA2" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+          <Members vimssId="2048486" LocusId="PSEEN2413" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="2048487" LocusId="PSEEN2414" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+          <Members vimssId="2048488" LocusId="PSEEN2415" Name="dnaE2" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3022</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="LiuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28518" />
+      <Effector />
+      <Pathway>Branched-chain amino acid degradation</Pathway>
+      <LocusTag Key="PSEEN2982" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2049010&amp;disp=0" />
+      <BiologicalProcess>Branched-chain amino acid degradation</BiologicalProcess>
+      <Regulog Key="LiuR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3000" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN3384" Name="aacS" Position="-81" Score="5.9">
+          <Sequence>CTTTACGTAAACGTAAAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3384" Name="aacS" Position="-131" Score="6.2">
+          <Sequence>GTTGACGTTAACGTAAAC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN2982" Name="liuR" Position="-59" Score="5.9">
+          <Sequence>CTTGACGTATACGTAAAC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3386" Name="liuA" Position="-173" Score="6.2">
+          <Sequence>GTTTACGTTAACGTCAAC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3386" Name="liuA" Position="-217" Score="5.1">
+          <Sequence>GTTTACGTAAAGGTTATG</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3386" Name="liuA" Position="-223" Score="5.9">
+          <Sequence>ATTTACGTTTACGTAAAG</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2049010" LocusId="PSEEN2982" Name="liuR" Function="Predicted transcriptional regulator LiuR of leucine degradation pathway, MerR family" />
+          <Members vimssId="2049011" LocusId="PSEEN2983" Name="liuE" Function="Hydroxymethylglutaryl-CoA lyase (EC 4.1.3.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2049390" LocusId="PSEEN3386" Name="liuA" Function="Isovaleryl-CoA dehydrogenase (EC 1.3.99.10)" />
+          <Members vimssId="2049391" LocusId="PSEEN3387" Name="liuB" Function="Methylcrotonyl-CoA carboxylase carboxyl transferase subunit (EC 6.4.1.4)" />
+          <Members vimssId="2049392" LocusId="PSEEN3388" Name="liuC" Function="Methylglutaconyl-CoA hydratase (EC 4.2.1.18)" />
+          <Members vimssId="2049393" LocusId="PSEEN3389" Name="liuD" Function="Methylcrotonyl-CoA carboxylase biotin-containing subunit (EC 6.4.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2049389" LocusId="PSEEN3384" Name="aacS" Function="Acetoacetyl-CoA synthetase (EC 6.2.1.16)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3000</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="LldR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16594" />
+      <Effector>L-lactate</Effector>
+      <Pathway>Lactate utilization</Pathway>
+      <LocusTag Key="PSEEN0769" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2046965&amp;disp=0" />
+      <BiologicalProcess>Lactate utilization</BiologicalProcess>
+      <Regulog Key="LldR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1787" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN0769" Name="lldR" Position="-291" Score="6.1">
+          <Sequence>AATTGGTAAGACCAATT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN0768" Name="lldP" Position="-63" Score="6.5">
+          <Sequence>AATTGGTCTTACCAATT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2046964" LocusId="PSEEN0768" Name="lldP" Function="L-lactate permease" />
+          <Members vimssId="2046963" LocusId="PSEEN0767" Name="lldD" Function="L-lactate dehydrogenase (EC 1.1.2.3)" />
+          <Members vimssId="2046962" LocusId="PSEEN0766" Name="dld" Function="D-Lactate dehydrogenase (EC 1.1.2.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2046965" LocusId="PSEEN0769" Name="lldR" Function="Lactate-responsive regulator LldR in Enterobacteria, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1787</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor (activator)">
+      <Regulator Key="MetR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56649" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="PSEEN1184" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2047354&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5787" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN4641" Name="metF2" Position="-104" Score="3.8">
+          <Sequence>AACGAAAATGTCTCAAC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN4641" Name="metF2" Position="-236" Score="4.6">
+          <Sequence>GGTGAGACAAACTCATA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN4641" Name="metF2" Position="-216" Score="4.8">
+          <Sequence>TTTGAGATGAACTCAAG</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN2746" Name="PF08908" Position="-215" Score="4.5">
+          <Sequence>CATGAGTAAAACTAAAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN2746" Name="PF08908" Position="-184" Score="5.4">
+          <Sequence>AATGAGTTTGTCTCATT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN4639" Name="metE" Position="-72" Score="4.6">
+          <Sequence>TATGAGTTTGTCTCACC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN4639" Name="metE" Position="-92" Score="4.8">
+          <Sequence>CTTGAGTTCATCTCAAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1184" Name="metR" Position="-57" Score="4.8">
+          <Sequence>CATGAGGGAAACTCAAC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1184" Name="metR" Position="17" Score="3.8">
+          <Sequence>CCTGAAAACCCTTCATG</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3382" Name="metH" Position="-98" Score="4.8">
+          <Sequence>CATGAAGGAAATTCATG</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN4253" Name="dsbC" Position="-158" Score="4.7">
+          <Sequence>GATGAATGATATTCATG</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2050560" LocusId="PSEEN4641" Name="metF2" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2048789" LocusId="PSEEN2746" Name="PF08908" Function="Protein of unknown function DUF1852" />
+          <Members vimssId="2048790" LocusId="PSEEN2747" Name="metE2" Function="Methionine synthase II, vitamin-B12 independent (EC 2.1.1.14)" />
+          <Members vimssId="2048791" LocusId="PSEEN2748" Name="PF01613" Function="Flavin reductase-like, FMN-binding" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2050187" LocusId="PSEEN4253" Name="dsbC" Function="Thiol:disulfide interchange protein DsbC" />
+          <Members vimssId="2050186" LocusId="PSEEN4252" Name="hom" Function="Homoserine dehydrogenase (EC 1.1.1.3)" />
+          <Members vimssId="2050185" LocusId="PSEEN4251" Name="thrC" Function="Threonine synthase (EC 4.2.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2049387" LocusId="PSEEN3382" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase, B12-dependent (EC 2.1.1.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2050559" LocusId="PSEEN4639" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047354" LocusId="PSEEN1184" Name="metR" Function="Homocysteine-responsive transcriptional regulator of methionine metabolism, LysR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5787</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21217" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdenum homeostasis</Pathway>
+      <LocusTag Key="PSEEN5123" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2050998&amp;disp=0" />
+      <BiologicalProcess>Molybdenum homeostasis</BiologicalProcess>
+      <Regulog Key="ModE - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2298" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN2286" Name="modA" Position="-55" Score="6.2">
+          <Sequence>CGCTATATATTCCACGACATAACG</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2048366" LocusId="PSEEN2286" Name="modA" Function="Molybdate ABC transporter, substrate-binding protein" />
+          <Members vimssId="2048365" LocusId="PSEEN2285" Name="modB" Function="Molybdate ABC transporter, permease protein" />
+          <Members vimssId="2048364" LocusId="PSEEN2284" Name="modC" Function="Molybdate ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2298</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NorR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16964" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="PSEEN0951" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2047134&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="NorR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1828" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN0951" Name="norR" Position="-55" Score="4.5">
+          <Sequence>CGGTGTCATAAGGACACAC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN0951" Name="norR" Position="-10" Score="5.2">
+          <Sequence>AGGAGTCCATATGACTGCA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN0951" Name="norR" Position="-29" Score="4.2">
+          <Sequence>TATAGTCATTCCGACCAAC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN0952" Name="hmp" Position="-164" Score="5.2">
+          <Sequence>TGCAGTCATATGGACTCCT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN0952" Name="hmp" Position="-145" Score="4.2">
+          <Sequence>GTTGGTCGGAATGACTATA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN0952" Name="hmp" Position="-119" Score="4.5">
+          <Sequence>GTGTGTCCTTATGACACCG</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3000" Name="nnrS" Position="-140" Score="5.1">
+          <Sequence>GGAAGTCAATATGACAACA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3000" Name="nnrS" Position="-115" Score="5">
+          <Sequence>CAAGGTCATTATGACAACA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2047135" LocusId="PSEEN0952" Name="hmp" Function="Flavohemoprotein (Hemoglobin-like protein) (Flavohemoglobin) (Nitric oxide dioxygenase) (EC 1.14.12.17)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047134" LocusId="PSEEN0951" Name="norR" Function="anaerobic nitric oxide reductase transcription regulator, Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2049025" LocusId="PSEEN3000" Name="nnrS" Function="NnrS protein involved in response to NO" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1828</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15526" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="PSEEN0587" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2046808&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1667" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN1337" Name="nrdA" Position="-432" Score="3.4">
+          <Sequence>CCGCATTATCTTGTAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1337" Name="nrdA" Position="-401" Score="5.4">
+          <Sequence>CCACTAGATGTTGGGT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3725" Name="topA" Position="-73" Score="5.7">
+          <Sequence>CCACTATATATAGCGG</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1335" Name="nrdB" Position="-453" Score="4.3">
+          <Sequence>ACACCATATGCTGTGG</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1335" Name="nrdB" Position="-422" Score="4.8">
+          <Sequence>ACACAACATATAGGAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2047488" LocusId="PSEEN1335" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2049695" LocusId="PSEEN3725" Name="topA" Function="DNA topoisomerase I (EC 5.99.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047489" LocusId="PSEEN1337" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1667</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrtR" RegulationMode="repressor">
+      <Regulator Key="NrtR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15358" />
+      <Effector>Adenosine diphosphate ribose</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="PSEEN2060" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2048158&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NrtR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1648" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN2060" Name="nrtR" Position="-113" Score="5.3">
+          <Sequence>ATAATTCACCTGGTGCATTAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN2059" Name="pncA" Position="-51" Score="5.3">
+          <Sequence>TTAATGCACCAGGTGAATTAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2048157" LocusId="PSEEN2059" Name="pncA" Function="Nicotinamidase (EC 3.5.1.19)" />
+          <Members vimssId="2048156" LocusId="PSEEN2058" Name="pncB" Function="Nicotinate phosphoribosyltransferase (EC 2.4.2.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2048158" LocusId="PSEEN2060" Name="nrtR" Function="Nudix-related transcriptional regulator NrtR" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1648</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19296" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="PSEEN0386" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2046626&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2084" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN0571" Name="alsT" Position="-133" Score="5.5">
+          <Sequence>CGCACCAAAATGGAGCA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3762" Name="amtB2" Position="-69" Score="4.7">
+          <Sequence>GGCACCGATTCGGTGCA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN0390" Name="glnA" Position="-236" Score="5.8">
+          <Sequence>CGCACCAATATGGTGCA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN0387" Name="ntrB" Position="-71" Score="4.4">
+          <Sequence>AGCACGTTATCCGTGCG</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN0387" Name="ntrB" Position="-245" Score="5.5">
+          <Sequence>TGCTCCATATTGGTGCA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN5376" Name="glnK" Position="-310" Score="5.3">
+          <Sequence>CGCACCGATTTTGTGCG</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2049728" LocusId="PSEEN3762" Name="amtB2" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2046627" LocusId="PSEEN0387" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="2046626" LocusId="PSEEN0386" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2051239" LocusId="PSEEN5376" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="2051238" LocusId="PSEEN5375" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2046629" LocusId="PSEEN0390" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2046792" LocusId="PSEEN0571" Name="alsT" Function="Predicted alanin/sodium symporter" />
+          <Members vimssId="2046791" LocusId="PSEEN0570" Name="ansA" Function="L-asparaginase I (EC 3.5.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2084</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PA0268" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59253" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="PSEEN3192" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2049208&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="PA0268 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6080" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN3195" Name="PF02627" Position="-92" Score="11.7">
+          <Sequence>ATTGGCCTC-(15)-ATTGGCTAT-(5)-GGCGGCAGC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2049211" LocusId="PSEEN3195" Name="PF02627" Function="4-carboxymuconolactone decarboxylase domain/alkylhydroperoxidase AhpD family core domain protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6080</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="PA1520" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57456" />
+      <Effector />
+      <Pathway>Xanthine utilization; Allantoin utilization</Pathway>
+      <LocusTag Key="PSEEN1760" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2047873&amp;disp=0" />
+      <BiologicalProcess>Xanthine utilization; Allantoin utilization</BiologicalProcess>
+      <Regulog Key="PA1520 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5879" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN1685" Name="PA1517" Position="-292" Score="4.8">
+          <Sequence>TTGTACACAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1672" Name="gcl" Position="-35" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1672" Name="gcl" Position="-175" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1660" Name="PA0476" Position="-429" Score="4.1">
+          <Sequence>TTGTACACAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1660" Name="PA0476" Position="-167" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN0801" Name="PA2938" Position="-182" Score="4.3">
+          <Sequence>TTGTACACAC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN0801" Name="PA2938" Position="-79" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1759" Name="PA1519" Position="-153" Score="4.8">
+          <Sequence>TTGTACACAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1759" Name="PA1519" Position="-252" Score="4.6">
+          <Sequence>TTGTACACAG</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1760" Name="PA1520" Position="-213" Score="4.8">
+          <Sequence>TTGTGTACAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1760" Name="PA1520" Position="-114" Score="4.6">
+          <Sequence>CTGTGTACAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1674" Name="PA1503" Position="-232" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1674" Name="PA1503" Position="-92" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1685" Name="PA1517" Position="-87" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1679" Name="PSEEN1679" Position="-132" Score="4.1">
+          <Sequence>TTGTGCCCAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1686" Name="PA1518" Position="-323" Score="4.7">
+          <Sequence>TTGTATACAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1686" Name="PA1518" Position="-118" Score="4.8">
+          <Sequence>TTGTGTACAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2046995" LocusId="PSEEN0801" Name="PA2938" Function="Xanthine/uracil permease family protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047792" LocusId="PSEEN1672" Name="gcl" Function="Glyoxylate carboligase (EC 4.1.1.47)" />
+          <Members vimssId="2047791" LocusId="PSEEN1671" Name="hyi" Function="Hydroxypyruvate isomerase (EC 5.3.1.22)" />
+          <Members vimssId="2047790" LocusId="PSEEN1670" Name="garR" Function="2-hydroxy-3-oxopropionate reductase (EC 1.1.1.60)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047873" LocusId="PSEEN1760" Name="PA1520" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047805" LocusId="PSEEN1686" Name="PA1518" Function="5-hydroxyisourate hydrolase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047798" LocusId="PSEEN1679" Name="PSEEN1679" Function="Nucleoside-binding outer membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047804" LocusId="PSEEN1685" Name="PA1517" Function="putative uricase" />
+          <Members vimssId="2047803" LocusId="PSEEN1684" Name="uraO" Function="Urate oxidase (EC 1.7.3.3)" />
+          <Members vimssId="2047802" LocusId="PSEEN1683" Name="allA" Function="Ureidoglycolate hydrolase (EC 3.5.3.19)" />
+          <Members vimssId="2047801" LocusId="PSEEN1682" Name="PA1513" Function="conserved hypothetical membrane protein, paralogue of Y20848" />
+          <Members vimssId="2047800" LocusId="PSEEN1681" Name="PA1507" Function="Xanthine/uracil permease" />
+          <Members vimssId="2047799" LocusId="PSEEN1680" Name="null" Function="Nucleoside-binding outer membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047793" LocusId="PSEEN1674" Name="PA1503" Function="GlcG protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047781" LocusId="PSEEN1660" Name="PA0476" Function="Hydantoin permease" />
+          <Members vimssId="2047780" LocusId="PSEEN1659" Name="PSEEN1659" Function="Hydantoin racemase (EC 5.1.99.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047872" LocusId="PSEEN1759" Name="PA1519" Function="Xanthine/uracil/thiamine/ascorbate permease family protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5879</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="PA2299" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57418" />
+      <Effector />
+      <Pathway>Alkanesulfonates utilization</Pathway>
+      <LocusTag Key="PSEEN0174" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2046428&amp;disp=0" />
+      <BiologicalProcess>Alkanesulfonates utilization</BiologicalProcess>
+      <Regulog Key="PA2299 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5874" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN0174" Name="PA2299" Position="-37" Score="6.4">
+          <Sequence>ACTTGTTATAACAAGT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2046428" LocusId="PSEEN0174" Name="PA2299" Function="Putative alkanesulfonate metabolism utilization regulator, GntR family" />
+          <Members vimssId="2046429" LocusId="PSEEN0175" Name="PA2298" Function="Putative reductase (alkanesulfonate metabolism)" />
+          <Members vimssId="2046430" LocusId="PSEEN0176" Name="PA2297" Function="Probable ferredoxin" />
+          <Members vimssId="2046431" LocusId="PSEEN0177" Name="PA2293" Function="FOG: HEAT repeat protein" />
+          <Members vimssId="2046432" LocusId="PSEEN0178" Name="PA2292" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5874</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PP0486" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63888" />
+      <Effector />
+      <Pathway>Metabolite transport</Pathway>
+      <LocusTag Key="PSEEN3858" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2049823&amp;disp=0" />
+      <BiologicalProcess>Metabolite transport</BiologicalProcess>
+      <Regulog Key="PP0486 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6592" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN3859" Name="benE" Position="-44" Score="4.9">
+          <Sequence>ACTCAATCGAATCAAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3858" Name="" Position="-290" Score="4.9">
+          <Sequence>ATTGATTCGATTGAGT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3858" Name="" Position="-247" Score="5.6">
+          <Sequence>ATTGATTTGTTTCAAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3859" Name="benE" Position="-87" Score="5.6">
+          <Sequence>ATTGAAACAAATCAAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2049824" LocusId="PSEEN3859" Name="benE" Function="Benzoate transport protein" />
+          <Members vimssId="2049825" LocusId="PSEEN3860" Name="COG665 (DadA)" Function="Glycine/D-amino acid oxidases (deaminating)" />
+          <Members vimssId="2049826" LocusId="PSEEN3861" Name="COG251 (TdcF)" Function="Putative translation initiation inhibitor, yjgF family" />
+          <Members vimssId="2049827" LocusId="PSEEN3862" Name="thrC" Function="Threonine synthase (EC 4.2.3.1)" />
+          <Members vimssId="2049828" LocusId="PSEEN3863" Name="glyA" Function="Serine hydroxymethyltransferase (EC 2.1.2.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2049823" LocusId="PSEEN3858" Name="null" Function="Transcriptional regulator, GntR family domain / Aspartate aminotransferase (EC 2.6.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6592</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxW2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66442" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine biosynthesis</Pathway>
+      <LocusTag Key="PSEEN5491" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2051347&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine biosynthesis</BiologicalProcess>
+      <Regulog Key="PdxW2 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6865" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN5492" Name="pdxO2" Position="-87" Score="14.1">
+          <Sequence>ATTGGACCT-(15)-AATGGCTCT-(5)-AGAGCCAAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2051348" LocusId="PSEEN5492" Name="pdxO2" Function="Pyridoxamine 5'-phosphate oxidase-related, FMN-binding" />
+          <Members vimssId="2051349" LocusId="PSEEN5493" Name="COG456 (RimI), PF00583" Function="GCN5-related N-acetyltransferase (GNAT) domain" />
+          <Members vimssId="2051350" LocusId="PSEEN5494" Name="COG1670 (RimL), PF00583" Function="GCN5-related N-acetyltransferase (GNAT) domain" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6865</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TyrR" RegulationMode="activator (repressor)">
+      <Regulator Key="PhhR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=11144" />
+      <Effector>Tyrosine; Phenylalanine</Effector>
+      <Pathway>Aromatic amino acid metabolism</Pathway>
+      <LocusTag Key="PSEEN4432" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2050362&amp;disp=0" />
+      <BiologicalProcess>Aromatic amino acid metabolism</BiologicalProcess>
+      <Regulog Key="PhhR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1210" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN3892" Name="phhA" Position="-210" Score="5.2">
+          <Sequence>TCGTAAAGATAAGCTGACAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3892" Name="phhA" Position="-137" Score="5.4">
+          <Sequence>TTGTAAAATTATCGTTACAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3891" Name="phhR" Position="-138" Score="5.4">
+          <Sequence>TTGTAACGATAATTTTACAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3891" Name="phhR" Position="-65" Score="5.2">
+          <Sequence>TTGTCAGCTTATCTTTACGA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2049848" LocusId="PSEEN3891" Name="phhR" Function="Phenylalanine degradation transcriptional activator, TyrR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2049849" LocusId="PSEEN3892" Name="phhA" Function="Phenylalanine-4-hydroxylase (EC 1.14.16.1)" />
+          <Members vimssId="2049850" LocusId="PSEEN3893" Name="phhB" Function="Pterin-4-alpha-carbinolamine dehydratase (EC 4.2.1.96)" />
+          <Members vimssId="2049851" LocusId="PSEEN3894" Name="phhC" Function="Aromatic-amino-acid aminotransferase (EC 2.6.1.57)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1210</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PhnR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31817" />
+      <Effector />
+      <Pathway>Phosphonate utilization; 2-aminoethylphosphonate utilization</Pathway>
+      <LocusTag Key="PSEEN1439" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2047583&amp;disp=0" />
+      <BiologicalProcess>Phosphonate utilization; 2-aminoethylphosphonate utilization</BiologicalProcess>
+      <Regulog Key="PhnR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3289" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN1439" Name="phnR" Position="-261" Score="4.1">
+          <Sequence>TGGTCTAGGTCA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1439" Name="phnR" Position="-27" Score="5.3">
+          <Sequence>TGGACTAGTCCA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1438" Name="phnS" Position="-310" Score="5.3">
+          <Sequence>TGGACTAGTCCA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1438" Name="phnS" Position="-76" Score="5.3">
+          <Sequence>TGACCTAGACCA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2047583" LocusId="PSEEN1439" Name="phnR" Function="2-aminoethylphosphonate uptake and metabolism regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047582" LocusId="PSEEN1438" Name="phnS" Function="2-aminoethylphosphonate ABC transporter, periplasmic binding component (TC 3.A.1.9.1)" />
+          <Members vimssId="2047581" LocusId="PSEEN1437" Name="PF01663" Function="type I phosphodiesterase" />
+          <Members vimssId="2047580" LocusId="PSEEN1436" Name="phnU" Function="2-aminoethylphosphonate ABC transporter, permease protein I (TC 3.A.1.9.1)" />
+          <Members vimssId="2047579" LocusId="PSEEN1435" Name="phnV" Function="2-aminoethylphosphonate ABC transporter, permease protein II (TC 3.A.1.9.1)" />
+          <Members vimssId="2047578" LocusId="PSEEN1434" Name="phnT" Function="2-aminoethylphosphonate ABC transporter, ATP-binding protein (TC 3.A.1.9.1)" />
+          <Members vimssId="2047577" LocusId="PSEEN1433" Name="COG0560" Function="Phosphoserine phosphatase (EC 3.1.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3289</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="PhrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66401" />
+      <Effector>Blue light; Adenosylcobalamin</Effector>
+      <Pathway>Light-dependent DNA repair</Pathway>
+      <LocusTag Key="PSEEN0882" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2047067&amp;disp=0" />
+      <BiologicalProcess>Light-dependent DNA repair</BiologicalProcess>
+      <Regulog Key="PhrR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6859" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN0885" Name="COG1090" Position="-137" Score="5.5">
+          <Sequence>TGTACAATGCACAATGTTTGTATA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN0884" Name="COG3380" Position="-74" Score="5.9">
+          <Sequence>TATACAAACATTGTGCATTGTACA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN2737" Name="PSEEN2737" Position="-49" Score="6.3">
+          <Sequence>TGTACAAGAACCTAGTCTTGTACA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN0883" Name="COG3272" Position="-43" Score="5">
+          <Sequence>TGTACAAACCAAGCCTTCTGTACA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN0883" Name="COG3272" Position="-93" Score="5.6">
+          <Sequence>TATACAGAAAGTAACACTTGTATA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN2706" Name="PF07366" Position="-94" Score="6.1">
+          <Sequence>TGTACAAGACTATTGACCTGTACA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN2706" Name="PF07366" Position="-43" Score="4.6">
+          <Sequence>TGTACAAAATCACCTCGCTGTACA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2047069" LocusId="PSEEN0884" Name="COG3380" Function="Predicted NAD/FAD-dependent oxidoreductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047070" LocusId="PSEEN0885" Name="COG1090" Function="Predicted nucleoside-diphosphate sugar epimerase" />
+          <Members vimssId="2047071" LocusId="PSEEN0886" Name="hemH" Function="Ferrochelatase, protoheme ferro-lyase (EC 4.99.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2048783" LocusId="PSEEN2737" Name="PSEEN2737" Function="FIG026291: Hypothetical periplasmic protein" />
+          <Members vimssId="2048784" LocusId="PSEEN2738" Name="PF12915" Function="Protein of unknown function (DUF3833)" />
+          <Members vimssId="2048785" LocusId="PSEEN2739" Name="phrB" Function="DNA photolyase PhrB" />
+          <Members vimssId="2048786" LocusId="PSEEN2740" Name="null" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047068" LocusId="PSEEN0883" Name="COG3272" Function="COG1683: Uncharacterized conserved protein / COG3272: Hypothetical protein YbgA" />
+          <Members vimssId="2047067" LocusId="PSEEN0882" Name="phrR" Function="Transcriptional regulator, MerR family, associated with photolyase" />
+          <Members vimssId="2047066" LocusId="PSEEN0881" Name="phr" Function="Deoxyribodipyrimidine photolyase (EC 4.1.99.3)" />
+          <Members vimssId="2047065" LocusId="PSEEN0880" Name="PF00106" Function="Oxidoreductase, short-chain dehydrogenase/reductase family (EC 1.1.1.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2048754" LocusId="PSEEN2706" Name="PF07366" Function="Protein of unknown function DUF1486" />
+          <Members vimssId="2048753" LocusId="PSEEN2705" Name="PF00106" Function="Oxidoreductase, short-chain dehydrogenase/reductase family (EC 1.1.1.-)" />
+          <Members vimssId="2048752" LocusId="PSEEN2704" Name="PF01593" Function="Flavin containing amine oxidoreductase" />
+          <Members vimssId="2048751" LocusId="PSEEN2703" Name="PF07103" Function="Protein of unknown function DUF1365" />
+          <Members vimssId="2048750" LocusId="PSEEN2702" Name="PF02353" Function="S-adenosyl-L-methionine dependent methyltransferase, similar to cyclopropane-fatty-acyl-phospholipid synthase" />
+          <Members vimssId="2048749" LocusId="PSEEN2701" Name="PF11086" Function="Protein of unknown function DUF2878" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6859</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PrpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17150" />
+      <Effector>2-methylcitrate</Effector>
+      <Pathway>Methylcitrate utilization</Pathway>
+      <LocusTag Key="PSEEN1901" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2048007&amp;disp=0" />
+      <BiologicalProcess>Methylcitrate utilization</BiologicalProcess>
+      <Regulog Key="PrpR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1849" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN1901" Name="prpR" Position="-13" Score="4.8">
+          <Sequence>GGTGTCGACAAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1901" Name="prpR" Position="-86" Score="5.8">
+          <Sequence>ATTGTCGACAAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2048007" LocusId="PSEEN1901" Name="prpR" Function="Propionate catabolism transcriptional regulator, GntR family" />
+          <Members vimssId="2048008" LocusId="PSEEN1902" Name="prpB" Function="Methylisocitrate lyase (EC 4.1.3.30)" />
+          <Members vimssId="2048009" LocusId="PSEEN1903" Name="prpC" Function="2-methylcitrate synthase (EC 2.3.3.5)" />
+          <Members vimssId="2048010" LocusId="PSEEN1905" Name="acnD" Function="Aconitate hydratase, predicted 2-methylcitrate dehydratase FeS dependent (EC 4.2.1.79)" />
+          <Members vimssId="2048011" LocusId="PSEEN1906" Name="prpF" Function="Aconitase accessory protein PrpF" />
+          <Members vimssId="2048012" LocusId="PSEEN1907" Name="prpD" Function="2-methylcitrate dehydratase (EC 4.2.1.79)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1849</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PsrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=29689" />
+      <Effector>Oleate</Effector>
+      <Pathway>Fatty acid degradation</Pathway>
+      <LocusTag Key="PSEEN3720" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2049690&amp;disp=0" />
+      <BiologicalProcess>Fatty acid degradation</BiologicalProcess>
+      <Regulog Key="PsrA - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3098" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN2270" Name="" Position="-99" Score="5.2">
+          <Sequence>GTTCAAACGACCTTTTCAAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3720" Name="psrA" Position="-45" Score="4.7">
+          <Sequence>CCTGAAACGTATGTTTCAAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3720" Name="psrA" Position="-32" Score="5.7">
+          <Sequence>TTTCAAACAACTGTTTGTCA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3648" Name="" Position="-72" Score="5.4">
+          <Sequence>TTTCAAACGTATGTTTGAGC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1703" Name="fadH" Position="-102" Score="4.9">
+          <Sequence>GTTCAAACGCCTGTTTAATG</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3658" Name="etfB" Position="-391" Score="5.6">
+          <Sequence>ATACAAACGTTTGTTTGAAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3660" Name="etfD" Position="-153" Score="5.9">
+          <Sequence>ATTCAAACAAACGTTTGTAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN4189" Name="rpoS" Position="-428" Score="5.1">
+          <Sequence>CTTCAAACGGTAGTTTGAAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN0159" Name="algQ" Position="-182" Score="5.1">
+          <Sequence>GATTAAACGCTTGTATGAAC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN5115" Name="acdH1" Position="-87" Score="5.7">
+          <Sequence>TTTCAAACAACTGTTTGACC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN2270" Name="" Position="-86" Score="5.7">
+          <Sequence>TTTCAAACGCTTGTATGTTT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3728" Name="fadB" Position="-162" Score="5.7">
+          <Sequence>AATCAAACGGGCGTATGAAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2047821" LocusId="PSEEN1703" Name="fadH" Function="2,4-dienoyl-CoA reductase [NADPH] (EC 1.3.1.34)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2049629" LocusId="PSEEN3648" Name="null" Function="Proteinase inhibitor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2050990" LocusId="PSEEN5115" Name="acdH1" Function="probable acyl-CoA dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2049638" LocusId="PSEEN3660" Name="etfD" Function="Electron transfer flavoprotein-ubiquinone oxidoreductase (EC 1.5.5.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2048351" LocusId="PSEEN2270" Name="null" Function="Phosphoglycerate mutase family protein" />
+          <Members vimssId="2048350" LocusId="PSEEN2269" Name="scp" Function="Sterol-binding domain protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2046413" LocusId="PSEEN0159" Name="algQ" Function="Regulator of RNA polymerase sigma(70) subunit, Rsd/AlgQ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2049637" LocusId="PSEEN3658" Name="etfB" Function="Electron transfer flavoprotein, beta subunit" />
+          <Members vimssId="2049636" LocusId="PSEEN3657" Name="etfA" Function="Electron transfer flavoprotein, alpha subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2049698" LocusId="PSEEN3728" Name="fadB" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+          <Members vimssId="2049697" LocusId="PSEEN3727" Name="fadA" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2049690" LocusId="PSEEN3720" Name="psrA" Function="Predicted transcriptional regulator for fatty acid degradation PsrA, TetR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2050125" LocusId="PSEEN4189" Name="rpoS" Function="RNA polymerase sigma factor RpoS" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3098</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="RbsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21059" />
+      <Effector>Ribose</Effector>
+      <Pathway>Ribose utilization</Pathway>
+      <LocusTag Key="PSEEN1955" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2048059&amp;disp=0" />
+      <BiologicalProcess>Ribose utilization</BiologicalProcess>
+      <Regulog Key="RbsR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2280" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN1952" Name="rbsB" Position="-52" Score="6.6">
+          <Sequence>CACCGCAAACGTTTGCGATC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2048056" LocusId="PSEEN1952" Name="rbsB" Function="Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)" />
+          <Members vimssId="2048057" LocusId="PSEEN1953" Name="rbsA" Function="Ribose ABC transport system, ATP-binding protein RbsA (TC 3.A.1.2.1)" />
+          <Members vimssId="2048058" LocusId="PSEEN1954" Name="rbsC" Function="Ribose ABC transport system, permease protein RbsC (TC 3.A.1.2.1)" />
+          <Members vimssId="2048059" LocusId="PSEEN1955" Name="rbsR" Function="Transcriptional repressor of ribose utilization, LacI family" />
+          <Members vimssId="2048060" LocusId="PSEEN1956" Name="rbsK" Function="Ribokinase (EC 2.7.1.15)" />
+          <Members vimssId="2048061" LocusId="PSEEN1957" Name="rbsD" Function="D-ribose pyranase (D-ribose mutarotase) (EC 5.5.1.n1)" />
+          <Members vimssId="2048062" LocusId="PSEEN1958" Name="uriH" Function="Inosine-uridine preferring nucleoside hydrolase (EC 3.2.2.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2280</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30849" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="PSEEN0679" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2046892&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3186" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN1759" Name="pbuT3" Position="-121" Score="4.7">
+          <Sequence>TCCTGACCCAGAAGTCAACA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1685" Name="COG0726" Position="-179" Score="6">
+          <Sequence>AACTGACCAATCGGGCAAGT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1679" Name="tsx" Position="-349" Score="5.3">
+          <Sequence>ACCTGACCGAACGCCCAACT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1679" Name="tsx" Position="-71" Score="5.2">
+          <Sequence>AGCTGACCCAAAAGACAAGA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1679" Name="tsx" Position="-229" Score="5.2">
+          <Sequence>TACTGACCGCTCAGTCAATG</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2047804" LocusId="PSEEN1685" Name="COG0726" Function="putative polysaccharide deacetylase family protein" />
+          <Members vimssId="2047803" LocusId="PSEEN1684" Name="pucL" Function="Uricase (EC 1.7.3.3)" />
+          <Members vimssId="2047802" LocusId="PSEEN1683" Name="allA" Function="Ureidoglycolate hydrolase (EC 3.5.3.19)" />
+          <Members vimssId="2047801" LocusId="PSEEN1682" Name="COG3748" Function="hypothetical protein, COG3748" />
+          <Members vimssId="2047800" LocusId="PSEEN1681" Name="pbuT2" Function="Xanthine/uracil permease" />
+          <Members vimssId="2047799" LocusId="PSEEN1680" Name="tsx2" Function="Nucleoside-binding outer membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047872" LocusId="PSEEN1759" Name="pbuT3" Function="Xanthine/uracil permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047798" LocusId="PSEEN1679" Name="tsx" Function="Nucleoside-binding outer membrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3186</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34744" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="PSEEN3246" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2049258&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR2 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3552" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN3253" Name="pydB" Position="-100" Score="6.6">
+          <Sequence>TCTTGTCAGGCCTGACAGGA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3254" Name="pydP" Position="-524" Score="6.8">
+          <Sequence>TCCTGTCAGGCCTGACAAGA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2049266" LocusId="PSEEN3254" Name="pydP" Function="Pyrimidine permease in reductive pathway" />
+          <Members vimssId="2049267" LocusId="PSEEN3255" Name="pydC" Function="Beta-ureidopropionase (EC 3.5.1.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2049265" LocusId="PSEEN3253" Name="pydB" Function="Dihydropyrimidinase (EC 3.5.2.2)" />
+          <Members vimssId="2049264" LocusId="PSEEN3252" Name="pydX" Function="Pyridine nucleotide-disulphide oxidoreductase associated with reductive pyrimidine catabolism" />
+          <Members vimssId="2049263" LocusId="PSEEN3251" Name="pydA" Function="Dihydropyrimidine dehydrogenase [NADP+] (EC 1.3.1.2); Dihydroorotate dehydrogenase (EC 1.3.3.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3552</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=34757" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="PSEEN1675" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2047794&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR3 - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3554" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN1765" Name="xdhA" Position="-95" Score="5.9">
+          <Sequence>TCTTGACCCAAAGGTCAGAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1759" Name="pbuT" Position="-121" Score="4.7">
+          <Sequence>TCCTGACCCAGAAGTCAACA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1679" Name="tsx" Position="-71" Score="4.7">
+          <Sequence>AGCTGACCCAAAAGACAAGA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN2224" Name="pbuT2" Position="-127" Score="5.6">
+          <Sequence>AATTGACCTAAAAGTCAGCT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1765" Name="xdhA" Position="-72" Score="5.3">
+          <Sequence>TATTGACCACAAGGTCAGGC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2047878" LocusId="PSEEN1765" Name="xdhA" Function="Xanthine dehydrogenase, iron-sulfur cluster and FAD-binding subunit A (1.17.1.4)" />
+          <Members vimssId="2047877" LocusId="PSEEN1764" Name="xdhB" Function="Xanthine dehydrogenase, molybdenum binding subunit (EC 1.17.1.4)" />
+          <Members vimssId="2047876" LocusId="PSEEN1763" Name="xdhC" Function="XdhC protein (assists in molybdopterin insertion into xanthine dehydrogenase)" />
+          <Members vimssId="2047875" LocusId="PSEEN1762" Name="guaD" Function="Guanine deaminase (EC 3.5.4.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047872" LocusId="PSEEN1759" Name="pbuT" Function="Xanthine/uracil permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047798" LocusId="PSEEN1679" Name="tsx" Function="Nucleoside-binding outer membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2048310" LocusId="PSEEN2224" Name="pbuT2" Function="Xanthine/uracil permease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3554</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SahR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15728" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="PSEEN5025" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2050905&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SahR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1689" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN5025" Name="sahR" Position="-62" Score="7.2">
+          <Sequence>ATATCAAAACTTTTTGATAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2050905" LocusId="PSEEN5025" Name="sahR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+          <Members vimssId="2050906" LocusId="PSEEN5026" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1689</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="SdaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57514" />
+      <Effector />
+      <Pathway>Glucarate utilization; Galactarate utilization</Pathway>
+      <LocusTag Key="PSEEN1737" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2047852&amp;disp=0" />
+      <BiologicalProcess>Glucarate utilization; Galactarate utilization</BiologicalProcess>
+      <Regulog Key="SdaR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5886" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN1736" Name="COG579" Position="-58" Score="5.2">
+          <Sequence>AATTAGTCTGACAACCT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1737" Name="sdaR" Position="-39" Score="4.8">
+          <Sequence>GCATTGTCTGACAACCT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2047851" LocusId="PSEEN1736" Name="COG579" Function="2-hydroxyglutarate dehydrogenase" />
+          <Members vimssId="2047850" LocusId="PSEEN1735" Name="sdaP" Function="Predicted glucarate/galactarate transporter, MFS superfamily" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047852" LocusId="PSEEN1737" Name="sdaR" Function="Predicted regulator of D-glucarate/D-galactarate utilization, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5886</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="SdaR" RegulationMode="activator">
+      <Regulator Key="SdaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63642" />
+      <Effector>D-glycerate</Effector>
+      <Pathway>Glycerate utilization</Pathway>
+      <LocusTag Key="PSEEN2879" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2048912&amp;disp=0" />
+      <BiologicalProcess>Glycerate utilization</BiologicalProcess>
+      <Regulog Key="SdaR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6567" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN2879" Name="sdaR" Position="-75" Score="5.8">
+          <Sequence>CTTTGTGCTTTCGCACAGCC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN2880" Name="grtT" Position="-107" Score="5.8">
+          <Sequence>GGCTGTGCGAAAGCACAAAG</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2048912" LocusId="PSEEN2879" Name="sdaR" Function="Glycerate utilization transcriptional regulator SdaR, SdaR family" />
+          <Members vimssId="2048911" LocusId="PSEEN2878" Name="garK" Function="Glycerate kinase (EC 2.7.1.31)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2048913" LocusId="PSEEN2880" Name="grtT" Function="Predicted D-glycerate transporter, MFS family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6567</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="SoxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50573" />
+      <Effector>Paraquat</Effector>
+      <Pathway>Superoxide stress response</Pathway>
+      <LocusTag Key="PSEEN3530" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2049519&amp;disp=0" />
+      <BiologicalProcess>Superoxide stress response</BiologicalProcess>
+      <Regulog Key="SoxR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5121" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN3529" Name="PF03992" Position="-71" Score="6.3">
+          <Sequence>ACCTTGAGTTAACTGGAGGT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3530" Name="soxR" Position="-34" Score="6.3">
+          <Sequence>ACCTCCAGTTAACTCAAGGT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN2338" Name="PF01042" Position="-59" Score="6.3">
+          <Sequence>ACCTCGACTTAACCCGAGGT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2048414" LocusId="PSEEN2338" Name="PF01042" Function="Endoribonuclease L-PSP" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2049519" LocusId="PSEEN3530" Name="soxR" Function="Redox-sensitive transcriptional activator, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2049518" LocusId="PSEEN3529" Name="PF03992" Function="Monooxygenase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5121</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="UreR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57209" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="PSEEN1848" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2047956&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="UreR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5850" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN1849" Name="dctA" Position="-84" Score="4.8">
+          <Sequence>ACCGGTAAGACCACA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1849" Name="dctA" Position="-160" Score="5.7">
+          <Sequence>ACTGGTCAGACCGGT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1849" Name="dctA" Position="-151" Score="4">
+          <Sequence>ACCGGTCAGTCCAAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2047957" LocusId="PSEEN1849" Name="dctA" Function="C4-dicarboxylate transport protein" />
+          <Members vimssId="2047956" LocusId="PSEEN1848" Name="ureR" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5850</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YdcR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59700" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="PSEEN2988" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2049014&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="YdcR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6128" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN2987" Name="COG0348" Position="-98" Score="8.5">
+          <Sequence>ATCTGATATGGTTTT---------ACCTGAGTCTGTGCT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2049013" LocusId="PSEEN2987" Name="COG0348" Function="Polyferredoxin" />
+          <Members vimssId="2049014" LocusId="PSEEN2988" Name="ydcR" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6128</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YjiR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61775" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="PSEEN5421" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2051281&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="YjiR - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6345" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN5420" Name="yjiS" Position="-143" Score="16">
+          <Sequence>TACAGAT-(17)-TTCAGCC-(13)-TTCTGTA-(23)-GTCTGTA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2051280" LocusId="PSEEN5420" Name="yjiS" Function="putative cytoplasmic protein of unknown function DUF1127" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6345</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16066" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="PSEEN0072" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2046346&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Pseudomonadaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1727" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN0073" Name="znuA" Position="-45" Score="4.7">
+          <Sequence>GAGACGTTATTATGTTACCTGTT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN0072" Name="zur" Position="-44" Score="4.2">
+          <Sequence>AACAGGTAACATAATAACGTCTC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1173" Name="omr" Position="-51" Score="5.1">
+          <Sequence>GATACGTTATAAAGTAACAACAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN5513" Name="yciC" Position="-70" Score="4.6">
+          <Sequence>AAATTGTATTGTTATAATATAAC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN5513" Name="yciC" Position="-65" Score="5.9">
+          <Sequence>GTATTGTTATAATATAACATTGC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN3120" Name="can" Position="-52" Score="5.4">
+          <Sequence>TAAATGTTATAATATAACAATTG</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN2389" Name="PA4838" Position="-62" Score="5.3">
+          <Sequence>AAAAAGATATAAGATAACATTTC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN5514" Name="PA5537" Position="-67" Score="5.4">
+          <Sequence>GCAATGTTATATTATAACAATAC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1181" Name="rpmE2" Position="-43" Score="5.2">
+          <Sequence>AGTATGTTATAAAGTATCACTTT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN0582" Name="zbp" Position="-50" Score="5.6">
+          <Sequence>AAGTTGTTATAACATTACCAAAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2047351" LocusId="PSEEN1181" Name="rpmE2" Function="LSU ribosomal protein L31p" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047343" LocusId="PSEEN1173" Name="omr" Function="Zinc-regulated outer membrane receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2051368" LocusId="PSEEN5513" Name="yciC" Function="Putative metal chaperone, GTPase of COG0523 family" />
+          <Members vimssId="2051367" LocusId="PSEEN5512" Name="PF08856" Function="hypothetical protein" />
+          <Members vimssId="2051366" LocusId="PSEEN5511" Name="yciC2" Function="Putative metal chaperone, GTPase of COG0523 family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2049141" LocusId="PSEEN3120" Name="can" Function="Carbonic anhydrase (EC 4.2.1.1)" />
+          <Members vimssId="2049140" LocusId="PSEEN3119" Name="pyrC2" Function="Dihydroorotase (EC 3.5.2.3)" />
+          <Members vimssId="2049139" LocusId="PSEEN3118" Name="dksA2" Function="C4-type zinc finger protein, DksA/TraR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2048463" LocusId="PSEEN2389" Name="PA4838" Function="membrane protein-like protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2051369" LocusId="PSEEN5514" Name="PA5537" Function="hypothetical protein" />
+          <Members vimssId="2051370" LocusId="PSEEN5515" Name="folE2" Function="GTP cyclohydrolase I (EC 3.5.4.16) type 2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2046803" LocusId="PSEEN0582" Name="zbp" Function="Predicted zinc-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2046346" LocusId="PSEEN0072" Name="zur" Function="Zinc uptake regulation protein ZUR" />
+          <Members vimssId="2046345" LocusId="PSEEN0071" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="2046344" LocusId="PSEEN0070" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2046347" LocusId="PSEEN0073" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1727</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41283" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN3066" Name="btuD" Position="-314" Score="109">
+          <Sequence>ATGCGCCCCTTGTTTCAGGTGTCCCTGGCCGCCGTGCCAGGGGTTAAACGGGAAGCCGGTGCCTCGCTCCACGCGAGAAGTCCGGCGCTGCCCCCGCAACGGTAAGCGAGCAAGGCATTCGACAGACCACTGTGCCGCCGGCATGGGAAGGTGGATGCCCGCCCCTCTCGCAAGCCCGGAGACCGGCCTGCAACCTCTGTTTGGCAAC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN2012" Name="btuB" Position="-315" Score="117">
+          <Sequence>CAGATGCGCGCCAGTTTCAGGTGTCCTGCGCCGCCGCGCGCAGGGTGAAACGGGAAGCCGGTGAGTCGTGTTCACGACAAGTCCGGCGCTGCCCCCGCAACGGTAAGCGAGCGAACCCTTCGACAGACCACTGTGCACCCGCATGGGAAGGTGAAGGTTTCATGCCCCTCGCAAGCCCGGAGACCGGCCTGAAGCCTTACTTGGCAA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN2431" Name="cbtB" Position="-333" Score="102.9">
+          <Sequence>TGCTAGCGCATTGCGTTCAGGTGCCCCCTTGGGGTGAAACGGGAAACCGGTGCGTCACGCCTCGCTCTACAAGAGGCAGGACAATGCCGGTGCTGCCCCCGCAACGGTAAGCGAGTGAAGCGTCTAGACCACTGTGCCCGTCGACTTGGCATGGGAAGGTGACGCCAACAACGGAGCCCCGCTCCACCTCGCCAGCCCGGAGACCGGCCTGACACCACATGAACACC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN2578" Name="cbiW" Position="-297" Score="104">
+          <Sequence>CATGCCGCCCAGTTTCAGGTGCCCCAAGTCGCCGCGCTTGGGGTGAAACGGGAAACCGGTACGCGCTTAGCGCCAGTCCGGTGCTGCCCCCGCAACGGTATGCGAGTGATGCCCTCAATCAGACCACTGTGGCCAGCCGGCCATGGGAAGGCGAGGGCATCCAGCCTCGCGAGCCCGGAGACCGGCCTGGAATCTTTTGGCGACAAT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN1378" Name="btuR" Position="-330" Score="96.2">
+          <Sequence>CTTCGCGGCGTGTTTCAGGTGCCCTGTGAACCCAGGTTCGGCAGGGTGAAACTGGGAAGCCGGTGGGCGCCAGCAAGGTGCGATTCCGGCGCTGCCCCCGCAACGGTAGATGAGTCGACGGCTGCGCAAGGCCACTGGATTTCGTGATCCGGGAAGGCGCACGGCCCGGGCATGGCCCCACTCATGAGCCCGGAGACCGGCCTGTCACTGCCAACGGCATCA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="PSEEN2432" Name="cobW" Position="-299" Score="97.5">
+          <Sequence>TAGCCTTGCCGCTTCGAGGTTCTCCGGCGTTGGCCGGAGCTAAGACGGGAACGCGGTCGATGCCGCGGCTGCCCCCGCAACTGTAGGCACTGGAACGGATCGGCACAGCCACTGCGCACGCGCGGGAAGGCGCCATCCCGCTGGCAATGCTGCCGGCACAGTGCGAGCCAGGAGACCTGCCTCGTGACGTTTTCGACTTTC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2048503" LocusId="PSEEN2431" Name="cbtB" Function="hypothetical protein" />
+          <Members vimssId="2048502" LocusId="PSEEN2429" Name="cbtA" Function="Predicted cobalt transporter CbtA" />
+          <Members vimssId="2048501" LocusId="PSEEN2428" Name="cobE" Function="Cobalamin biosynthesis protein CobE" />
+          <Members vimssId="2048500" LocusId="PSEEN2427" Name="cbiF" Function="Cobalt-precorrin-4 C11-methyltransferase (EC 2.1.1.133)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2048504" LocusId="PSEEN2432" Name="cobW" Function="CobW GTPase involved in cobalt insertion for B12 biosynthesis" />
+          <Members vimssId="2048505" LocusId="PSEEN2433" Name="null" Function="CobN component of cobalt chelatase involved in B12 biosynthesis" />
+          <Members vimssId="2048506" LocusId="PSEEN2434" Name="chII" Function="ChlI component of cobalt chelatase involved in B12 biosynthesis" />
+          <Members vimssId="2048507" LocusId="PSEEN2435" Name="chlD" Function="ChlD component of cobalt chelatase involved in B12 biosynthesis" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2048112" LocusId="PSEEN2012" Name="btuB" Function="Outer membrane vitamin B12 receptor BtuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2049089" LocusId="PSEEN3066" Name="btuD" Function="Vitamin B12 ABC transporter, ATPase component BtuD" />
+          <Members vimssId="2049090" LocusId="PSEEN3067" Name="btuF" Function="Vitamin B12 ABC transporter, B12-binding  component BtuF" />
+          <Members vimssId="2049091" LocusId="PSEEN3068" Name="btuC" Function="Vitamin B12 ABC transporter, permease component BtuC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2048641" LocusId="PSEEN2578" Name="cbiW" Function="Putative 2Fe-2S ferredoxin CbiW involved in B12 biosynthesis" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2047528" LocusId="PSEEN1378" Name="btuR" Function="Cob(I)alamin adenosyltransferase (EC 2.5.1.17)" />
+          <Members vimssId="2047529" LocusId="PSEEN1379" Name="cbiA" Function="Cobyrinic acid A,C-diamide synthase" />
+          <Members vimssId="2047530" LocusId="PSEEN1380" Name="bluB" Function="Cobalamin biosynthesis protein BluB @ 5,6-dimethylbenzimidazole synthase, flavin destructase family" />
+          <Members vimssId="2047531" LocusId="PSEEN1381" Name="cbiB" Function="Adenosylcobinamide-phosphate synthase" />
+          <Members vimssId="2047532" LocusId="PSEEN1382" Name="cobD" Function="L-threonine 3-O-phosphate decarboxylase (EC 4.1.1.81)" />
+          <Members vimssId="2047533" LocusId="PSEEN1383" Name="cbiP" Function="Cobyric acid synthase" />
+          <Members vimssId="2047534" LocusId="PSEEN1384" Name="cobU" Function="Adenosylcobinamide-phosphate guanylyltransferase (EC 2.7.7.62)" />
+          <Members vimssId="2047535" LocusId="PSEEN1385" Name="cobT" Function="Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase (EC 2.4.2.21)" />
+          <Members vimssId="2047536" LocusId="PSEEN1386" Name="cobC" Function="Alpha-ribazole-5'-phosphate phosphatase (EC 3.1.3.73)" />
+          <Members vimssId="2047537" LocusId="PSEEN1387" Name="cobS" Function="Cobalamin synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41315" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN0609" Name="ribB" Position="-223" Score="113.5">
+          <Sequence>CAAGGGTCTTCAGGGCGGGGTGAAAGTCCCCACCGGCGGTAAATCGAAAGATGAGCCCGCGAGCGCCCCGGCCATGCCGGGGGTCAGCAGATCTGGTGAGATTCCAGGGCCGACGGTCATAGTCCGGATGAAAGAAGGCGTTT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2046829" LocusId="PSEEN0609" Name="ribB" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00114" RegulationMode="RF00114">
+      <Regulator Key="S15" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41259" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="S15" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN0798" Name="rpsO" Position="-40" Score="50.4">
+          <Sequence>TGGACCCCGCTTGCGGGATCCGTTTATCAGGAGAAGCCTCATGGCCCTCAGCGTTGAAGAAAAAGCTCAGATCGTTGCCGAATACCAGCAAGCCGCCGG</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2046992" LocusId="PSEEN0798" Name="rpsO" Function="SSU ribosomal protein S15p (S13e)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01057" RegulationMode="RF01057">
+      <Regulator Key="SAH_riboswitch" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40979" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="SAH_riboswitch" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN5037" Name="ahcY" Position="-112" Score="32.6">
+          <Sequence>CGAGGGGCGCTGCAGCAGGTTCGTCCTGTCAGGCTCGGTC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2050917" LocusId="PSEEN5037" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+          <Members vimssId="2050918" LocusId="PSEEN5038" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40963" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN4977" Name="thiC" Position="-266" Score="83.3">
+          <Sequence>CATGTTCTTGTCGGGGTGCCTTGAAGCAAAGGCTGAGATCGCAAAGTTGCGGATCCCGTTGAACCTGATCAGGTTAGCGCCTGCGTAGGGAACAAGATTGCTCTCATT</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2050863" LocusId="PSEEN4977" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+          <Members vimssId="2050862" LocusId="PSEEN4976" Name="cytX" Function="Predicted hydroxymethylpyrimidine transporter CytX" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01068" RegulationMode="RF01068">
+      <Regulator Key="mini-ykkC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41027" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="mini-ykkC" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN1409" Name="ykkC1" Position="-77" Score="41.2">
+          <Sequence>ACTGTGAGGACGACCTCACGACGCAGTGCGTGATCGCTACGGGGACGGCCCCA</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2047554" LocusId="PSEEN1409" Name="ykkC1" Function="Quaternary ammonium compound-resistance protein sugE" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40923" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="PSEEN0905" Name="COG2119" Position="-208" Score="36.1">
+          <Sequence>CCGCTCCGTCCTAGGGGAGTAGTCTCCCGCGAGCCCCCGCTCGCCCGGTACGCGTCAACACACTTGGCCCACAGGCCATGGCGCGTGCGACCCACGATCTGCGCAGACAGGTCCAGGGTTTGACAAGACCTATGACACGCAC</Sequence>
+          <Bacteria>Pseudomonas entomophila L48</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2047089" LocusId="PSEEN0905" Name="COG2119" Function="Probable transmembrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

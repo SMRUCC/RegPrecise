@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Gardnerella vaginalis 409-05" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="AraQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=65167" />
+      <Effector />
+      <Pathway>Central carbohydrate metabolism; Arabinose utilization; Arabinose oligosaccharide utilization</Pathway>
+      <LocusTag Key="HMPREF0424_0351" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10326375&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism; Arabinose utilization; Arabinose oligosaccharide utilization</BiologicalProcess>
+      <Regulog Key="AraQ - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6731" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HMPREF0424_0607" Name="pyk" Position="-146" Score="6">
+          <Sequence>TTCTGTGAGCGTTCACAAAA</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_0662" Name="eno" Position="-106" Score="5.3">
+          <Sequence>TATTGTGAACGTTCACGGCA</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_0471" Name="gap" Position="-161" Score="4.9">
+          <Sequence>GCATGTTAACGCTCACTGTT</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10326683" LocusId="HMPREF0424_0662" Name="eno" Function="Enolase (EC 4.2.1.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10326494" LocusId="HMPREF0424_0471" Name="gap" Function="NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10326629" LocusId="HMPREF0424_0607" Name="pyk" Function="Pyruvate kinase (EC 2.7.1.40)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6731</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor (activator)">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66220" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="HMPREF0424_0673" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10326694&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6842" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HMPREF0424_1068" Name="artX" Position="-63" Score="5.1">
+          <Sequence>GTGTATAGTTATACAC</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_1068" Name="artX" Position="-53" Score="4">
+          <Sequence>ATACACATTAATGCAA</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_0674" Name="argG" Position="-37" Score="4.7">
+          <Sequence>TTGTTTATTTATTCAA</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_0673" Name="argR" Position="-67" Score="4.3">
+          <Sequence>TAGCATTTTCATGCAT</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_0674" Name="argG" Position="-158" Score="3.9">
+          <Sequence>ATGTATAACTATAATT</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10327084" LocusId="HMPREF0424_1068" Name="artX" Function="Predicted arginine ABC transporter, substrate-binding protein" />
+          <Members vimssId="10327083" LocusId="HMPREF0424_1067" Name="artY" Function="Predicted arginine ABC transporter, permease protein" />
+          <Members vimssId="10327082" LocusId="HMPREF0424_1066" Name="artZ" Function="Predicted arginine ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10326694" LocusId="HMPREF0424_0673" Name="argR" Function="Arginine metabolism transcriptional regulator ArgR, ArgR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10326695" LocusId="HMPREF0424_0674" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+          <Members vimssId="10326696" LocusId="HMPREF0424_0675" Name="argH" Function="Argininosuccinate lyase (EC 4.3.2.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6842</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="">
+      <Regulator Key="Crp" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=65593" />
+      <Effector />
+      <Pathway>Tricarboxylic acid cycle; Energy metabolism</Pathway>
+      <LocusTag Key="HMPREF0424_0303" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10326328&amp;disp=0" />
+      <BiologicalProcess>Tricarboxylic acid cycle; Energy metabolism</BiologicalProcess>
+      <Regulog Key="Crp - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6774" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HMPREF0424_0254" Name="adh" Position="-96" Score="5.8">
+          <Sequence>AATTGTGACTTGTATCACATAT</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_0886" Name="pflB" Position="-119" Score="5.3">
+          <Sequence>AAATGTGATATATTTCACTAGA</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_0179" Name="nrdH" Position="-232" Score="5">
+          <Sequence>TTTTGTGAAATAAATTACATTT</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_0180" Name="gnd" Position="-215" Score="4.8">
+          <Sequence>AAATGTAATTTATTTCACAAAA</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10326205" LocusId="HMPREF0424_0180" Name="gnd" Function="6-phosphogluconate dehydrogenase, decarboxylating (EC 1.1.1.44)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10326204" LocusId="HMPREF0424_0179" Name="nrdH" Function="Glutaredoxin-like protein NrdH, required for reduction of Ribonucleotide reductase class Ib" />
+          <Members vimssId="10326203" LocusId="HMPREF0424_0178" Name="nrdI" Function="Ribonucleotide reduction protein NrdI" />
+          <Members vimssId="10326202" LocusId="HMPREF0424_0177" Name="nrdE" Function="Ribonucleotide reductase of class Ib (aerobic), alpha subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10326905" LocusId="HMPREF0424_0886" Name="pflB" Function="Pyruvate formate-lyase (EC 2.3.1.54)" />
+          <Members vimssId="10326904" LocusId="HMPREF0424_0885" Name="pflA" Function="Pyruvate formate-lyase activating enzyme (EC 1.97.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10326279" LocusId="HMPREF0424_0254" Name="adh" Function="Alcohol dehydrogenase (EC 1.1.1.1); Acetaldehyde dehydrogenase (EC 1.2.1.10)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6774</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66250" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="HMPREF0424_0901" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10326919&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6845" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HMPREF0424_0717" Name="groL" Position="-95" Score="6.8">
+          <Sequence>TTAGCACTCAAGCCTTGAGAGTGATAA</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_0717" Name="groL" Position="-130" Score="7">
+          <Sequence>TTGGCACTCGGGTACATAGAGTGCTAA</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_0234" Name="groS" Position="-140" Score="7.4">
+          <Sequence>TTAGCACTCGAGTTGTTAGAGTGCTAA</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10326738" LocusId="HMPREF0424_0717" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10326259" LocusId="HMPREF0424_0234" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6845</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66260" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="HMPREF0424_0572" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10326594&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6846" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HMPREF0424_0243" Name="dinP2" Position="-107" Score="5.6">
+          <Sequence>TCGAACGTTTGTTCTA</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_1021" Name="recA" Position="-179" Score="5.7">
+          <Sequence>TCGAACAAATGTTCGC</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_0837" Name="ruvA" Position="-79" Score="5.6">
+          <Sequence>TAGAACAGATGTTCTA</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_0816" Name="uvrA" Position="-92" Score="5.6">
+          <Sequence>TCGAACACTTGTTCTA</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_0572" Name="lexA" Position="-114" Score="4.9">
+          <Sequence>TCGAACAGATGTATTA</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_0572" Name="lexA" Position="-94" Score="4.6">
+          <Sequence>TGACACATTTGTTCGA</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_0572" Name="lexA" Position="-62" Score="5.7">
+          <Sequence>TCGAACAGATGTTTGA</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_0826" Name="rarA" Position="-38" Score="5.6">
+          <Sequence>TCGAACGTTTGTTCTA</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_0572" Name="lexA" Position="-130" Score="4.8">
+          <Sequence>CTGAACATTTGTTCTA</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10326268" LocusId="HMPREF0424_0243" Name="dinP2" Function="DNA polymerase IV (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10326594" LocusId="HMPREF0424_0572" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10327037" LocusId="HMPREF0424_1021" Name="recA" Function="Recombinase A" />
+          <Members vimssId="10327036" LocusId="HMPREF0424_1020" Name="recX" Function="Regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10326836" LocusId="HMPREF0424_0816" Name="uvrA" Function="Excinuclease ABC subunit A" />
+          <Members vimssId="10326835" LocusId="HMPREF0424_0815" Name="uvrC" Function="Excinuclease ABC subunit C" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10326856" LocusId="HMPREF0424_0837" Name="ruvA" Function="Holliday junction DNA helicase RuvA" />
+          <Members vimssId="10326855" LocusId="HMPREF0424_0836" Name="ruvB" Function="Holliday junction DNA helicase RuvB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10326845" LocusId="HMPREF0424_0826" Name="rarA" Function="Recombination factor protein RarA" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6846</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="MalR1/MalR2/MalR3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66210" />
+      <Effector>Maltose</Effector>
+      <Pathway>Maltose utilization; Maltodextrin utilization</Pathway>
+      <LocusTag Key="HMPREF0424_1304" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10327317&amp;disp=0" />
+      <BiologicalProcess>Maltose utilization; Maltodextrin utilization</BiologicalProcess>
+      <Regulog Key="MalR1/MalR2/MalR3 - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6841" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HMPREF0424_1303" Name="malF" Position="-219" Score="4.6">
+          <Sequence>AAACAAACGTTTGCAG</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_1305" Name="malE" Position="-112" Score="5">
+          <Sequence>ATGCTATCGTTTGCAA</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_1304" Name="malR1" Position="-99" Score="4.6">
+          <Sequence>CTGCAAACGTTTGTTT</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_1299" Name="malQ" Position="-152" Score="4.9">
+          <Sequence>TTGCAAACGATGTCAG</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10327316" LocusId="HMPREF0424_1303" Name="malF" Function="Maltose/maltodextrin ABC transporter, permease protein 1" />
+          <Members vimssId="10327315" LocusId="HMPREF0424_1302" Name="malG" Function="Maltose/maltodextrin ABC transporter, permease protein 2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10327318" LocusId="HMPREF0424_1305" Name="malE" Function="Maltose/maltodextrin ABC transporter, substrate binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10327312" LocusId="HMPREF0424_1299" Name="malQ" Function="4-alpha-glucanotransferase (amylomaltase) (EC 2.4.1.25)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10327317" LocusId="HMPREF0424_1304" Name="malR1" Function="Transcriptional regulator of maltose/maltodextrin utilization, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6841</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="MalR4" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66310" />
+      <Effector>Maltose</Effector>
+      <Pathway>Maltose utilization; Maltodextrin utilization</Pathway>
+      <LocusTag Key="HMPREF0424_1292" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10327305&amp;disp=0" />
+      <BiologicalProcess>Maltose utilization; Maltodextrin utilization</BiologicalProcess>
+      <Regulog Key="MalR4 - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6851" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HMPREF0424_1291" Name="malE3" Position="-180" Score="5.5">
+          <Sequence>ATGTAAAGGTTTACAT</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_1292" Name="malR4" Position="-200" Score="5.4">
+          <Sequence>ATGTAAAGGTTTTCAT</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_1292" Name="malR4" Position="-120" Score="5.5">
+          <Sequence>ATGTAAACCTTTACAT</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_1291" Name="malE3" Position="-100" Score="5.4">
+          <Sequence>ATGAAAACCTTTACAT</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10327304" LocusId="HMPREF0424_1291" Name="malE3" Function="Maltose/maltodextrin ABC transporter, substrate-binding pro" />
+          <Members vimssId="10327303" LocusId="HMPREF0424_1290" Name="malF3" Function="Maltose/maltodextrin ABC transporter, permease protein 1" />
+          <Members vimssId="10327302" LocusId="HMPREF0424_1289" Name="malG3" Function="Maltose/maltodextrin ABC transporter, permease protein 2" />
+          <Members vimssId="10327301" LocusId="HMPREF0424_1288" Name="aglL" Function="Maltodextrin glucosidase (EC 3.2.1.20)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10327305" LocusId="HMPREF0424_1292" Name="malR4" Function="Transcriptional regulator of maltose/maltodextrin utilization, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6851</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66240" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="HMPREF0424_0575" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10326597&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6844" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HMPREF0424_0179" Name="nrdH" Position="-129" Score="4.1">
+          <Sequence>TAACTATATATAGTGT</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_0179" Name="nrdH" Position="-97" Score="4.5">
+          <Sequence>CCACTATAAATAGTGC</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_1125" Name="nrdD" Position="-116" Score="4.7">
+          <Sequence>GCCCTAGATATTGTGC</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_1125" Name="nrdD" Position="-148" Score="4.1">
+          <Sequence>TCACTATATATAGGTG</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10326204" LocusId="HMPREF0424_0179" Name="nrdH" Function="Glutaredoxin-like protein NrdH, required for reduction of Ribonucleotide reductase class Ib" />
+          <Members vimssId="10326203" LocusId="HMPREF0424_0178" Name="nrdI" Function="Ribonucleotide reduction protein NrdI" />
+          <Members vimssId="10326202" LocusId="HMPREF0424_0177" Name="nrdE" Function="Ribonucleotide reductase of class Ib (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="10326201" LocusId="HMPREF0424_0176" Name="nrdF" Function="Ribonucleotide reductase of class Ib (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10327141" LocusId="HMPREF0424_1125" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+          <Members vimssId="10327140" LocusId="HMPREF0424_1124" Name="nrdG" Function="Ribonucleotide reductase of class III (anaerobic), activating protein (EC 1.97.1.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6844</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="RbsR1" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=65137" />
+      <Effector>Ribose</Effector>
+      <Pathway>Ribose utilization</Pathway>
+      <LocusTag Key="HMPREF0424_1339" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10327352&amp;disp=0" />
+      <BiologicalProcess>Ribose utilization</BiologicalProcess>
+      <Regulog Key="RbsR1 - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6728" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HMPREF0424_1339" Name="rbsR1" Position="-237" Score="5.1">
+          <Sequence>TTGTGGGAACGTTATCTCAA</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_1339" Name="rbsR1" Position="-281" Score="7.1">
+          <Sequence>TTGCGGTAACGTTACCGCAT</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10327352" LocusId="HMPREF0424_1339" Name="rbsR1" Function="Transcriptional repressor of ribose utilization, LacI family" />
+          <Members vimssId="10327351" LocusId="HMPREF0424_1338" Name="rbsA" Function="Ribose ABC transport system, ATP-binding protein RbsA (TC 3.A.1.2.1)" />
+          <Members vimssId="10327350" LocusId="HMPREF0424_1337" Name="rbsC" Function="Ribose ABC transport system, permease protein RbsC (TC 3.A.1.2.1)" />
+          <Members vimssId="10327349" LocusId="HMPREF0424_1336" Name="rbsB" Function="Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)" />
+          <Members vimssId="10327348" LocusId="HMPREF0424_1335" Name="rbsD" Function="D-ribose pyranase (D-ribose mutarotase) (EC 5.5.1.n1)" />
+          <Members vimssId="10327347" LocusId="HMPREF0424_1334" Name="rbsK" Function="Ribokinase (EC 2.7.1.15)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6728</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="SgaR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=65888" />
+      <Effector>Ascorbate-6-phosphate</Effector>
+      <Pathway>Ascorbate utilization</Pathway>
+      <LocusTag Key="HMPREF0424_1270" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10327284&amp;disp=0" />
+      <BiologicalProcess>Ascorbate utilization</BiologicalProcess>
+      <Regulog Key="SgaR2 - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6806" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HMPREF0424_1268" Name="ptsI" Position="-140" Score="6.1">
+          <Sequence>TACAGAAAACGTTTTCACTT</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_1269" Name="hpr" Position="-153" Score="6.1">
+          <Sequence>AAGTGAAAACGTTTTCTGTA</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10327283" LocusId="HMPREF0424_1269" Name="hpr" Function="Phosphotransferase system, phosphocarrier protein HPr" />
+          <Members vimssId="10327284" LocusId="HMPREF0424_1270" Name="sgaR2" Function="Predicted transcriptional regulator of ascorbate utilization, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10327282" LocusId="HMPREF0424_1268" Name="ptsI" Function="Phosphoenolpyruvate-protein phosphotransferase of PTS system (EC 2.7.3.9)" />
+          <Members vimssId="10327281" LocusId="HMPREF0424_1267" Name="sgaA2" Function="Ascorbate-specific PTS system, EIIA component (EC 2.7.1.69)" />
+          <Members vimssId="10327280" LocusId="HMPREF0424_1266" Name="sgaB2" Function="Ascorbate-specific PTS system, EIIB component (EC 2.7.1.69)" />
+          <Members vimssId="10327279" LocusId="HMPREF0424_1265" Name="null" Function="putative lipoprotein" />
+          <Members vimssId="10327278" LocusId="HMPREF0424_1264" Name="sgaT2" Function="Ascorbate-specific PTS, EIIC component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6806</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66290" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="HMPREF0424_1040" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=10327056&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Bifidobacteriaceae" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6849" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HMPREF0424_1241" Name="" Position="-117" Score="5.6">
+          <Sequence>TAATGAGAATCATTATTATTA</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10327255" LocusId="HMPREF0424_1241" Name="null" Function="surface-anchored protein domain protein" />
+          <Members vimssId="10327254" LocusId="HMPREF0424_1240" Name="null" Function="surface-anchored protein domain protein" />
+          <Members vimssId="10327253" LocusId="HMPREF0424_1239" Name="null" Function="putative ABC transporter-associated repeat protein" />
+          <Members vimssId="10327252" LocusId="HMPREF0424_1238" Name="znuA3" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+          <Members vimssId="10327251" LocusId="HMPREF0424_1237" Name="znuC3" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="10327250" LocusId="HMPREF0424_1236" Name="znuB3" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6849</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48859" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HMPREF0424_0823" Name="ribU" Position="-152" Score="97.3">
+          <Sequence>GTTAGTTTCAGGGAAGGTGAAAATCCTTACTGGCGGTAACAAAATACGTATTTCATGCGTTTTTGAAGCCCGCGAGCGGCTTACAAGCTGCTGATTCGGTTAAATTCCGAAGCCAACGGTTACAGTCCGGATGAAAGAAACGGAGACC</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10326842" LocusId="HMPREF0424_0823" Name="ribU" Function="Substrate-specific component RibU of riboflavin ECF transporter" />
+          <Members vimssId="10326843" LocusId="HMPREF0424_0824" Name="ecfAAT" Function="Duplicated ATPase component of energizing module of riboflavin ECF transporter / Transmembrane component of energizing module of riboflavin ECF transporter / Transmembrane component of energizing module of riboflavin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48868" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="HMPREF0424_1286" Name="thiO" Position="-93" Score="46.8">
+          <Sequence>TACGAAACGCGGGAGCTTGTTCTATACAGGCTGAGAGGGCGAAAGCCGACCGTAAACCTGATGCGGGTAATGCCGCCGTAGGGAAGGAGTATTATGCGAAAT</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_0660" Name="thiP" Position="-115" Score="54">
+          <Sequence>GACCTCAGACACGGGGTGCGCAACTACATCGTGCCAAACAACAATACATATAGTGTTGCGCTGAGAATACACTCGTTGAACCTGATATAGCTAAAACTATCGAAGGGATTGTCGCATGACTTACAG</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_1158" Name="thiME" Position="-98" Score="57">
+          <Sequence>AGGATGGTTCGGAGTGCGCATTTGCCGCAAAATCGCGGGCGGCGCTGAGATTACATCCGTAAAACCTGATCTAGATAGTGCTAGCGAAGGGAAACATTATGACAACATGCA</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_0412" Name="ykoE" Position="-288" Score="50.1">
+          <Sequence>TCAATCGACACGGGTGCTCTGTGTTATCTAGCTTATGCAAGCGTGAACATTCAGAGCTGAGAGAAAACCGCTTGAACGTGAATCCGGGTAATACCGGCGCACGGAGGTCTGTTTTTCCCGTGCCT</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="HMPREF0424_0892" Name="thiEC" Position="-102" Score="61.8">
+          <Sequence>ACATTTTGCAGGGGTGCTTTCGAAAGAAGGCTGAGATGGTATTAGTTTGCCTAACCCTTCGAACCTGTTAGTTAATACAACGTAGGGAGCAACGATTTTAGTATGAC</Sequence>
+          <Bacteria>Gardnerella vaginalis 409-05</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="10326435" LocusId="HMPREF0424_0412" Name="ykoE" Function="Substrate-specific component YkoE of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine" />
+          <Members vimssId="10326436" LocusId="HMPREF0424_0414" Name="ykoDC" Function="Duplicated ATPase component YkoD of energizing module of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine / Transmembrane component YkoC of energizing module of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10327300" LocusId="HMPREF0424_1286" Name="thiO" Function="Glycine oxidase ThiO (EC 1.4.3.19)" />
+          <Members vimssId="10327299" LocusId="HMPREF0424_1285" Name="thiS" Function="Sulfur carrier protein ThiS" />
+          <Members vimssId="10327298" LocusId="HMPREF0424_1284" Name="thiG" Function="Thiazole biosynthesis protein ThiG" />
+          <Members vimssId="10327297" LocusId="HMPREF0424_1283" Name="thiF" Function="Sulfur carrier protein adenylyltransferase ThiF" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10327173" LocusId="HMPREF0424_1158" Name="thiME" Function="Hydroxyethylthiazole kinase (EC 2.7.1.50) / Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10326682" LocusId="HMPREF0424_0660" Name="thiP" Function="Thiamin ABC transporter, permease protein" />
+          <Members vimssId="10326681" LocusId="HMPREF0424_0659" Name="thiB" Function="Thiamin ABC transporter, substrate-binding component" />
+          <Members vimssId="10326680" LocusId="HMPREF0424_0658" Name="thiQ" Function="Thiamin ABC transporter, ATPase component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="10326910" LocusId="HMPREF0424_0892" Name="thiEC" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3) / Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

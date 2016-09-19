@@ -1,0 +1,2125 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Ralstonia eutropha JMP134" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51239" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="Reut_A3299" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=893814&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5194" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A3299" Name="cadR" Position="-31" Score="5.7">
+          <Sequence>ACCCCGTAGTCACTACAGAGA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B3972" Name="cadA" Position="-61" Score="6.3">
+          <Sequence>ACTCTGTAGCGGCTACAGGGT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="893814" LocusId="Reut_A3299" Name="cadR" Function="Cadmium resistance transcriptional regulator, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="894497" LocusId="Reut_B3972" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5194</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="CueR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50859" />
+      <Effector>Copper ion, (Cu+)</Effector>
+      <Pathway>Copper resistance</Pathway>
+      <LocusTag Key="Reut_A3375" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=893891&amp;disp=0" />
+      <BiologicalProcess>Copper resistance</BiologicalProcess>
+      <Regulog Key="CueR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5153" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A3377" Name="copZ" Position="-82" Score="5.5">
+          <Sequence>CGCTTCCCACCATGGGAAGGT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A3376" Name="copA" Position="-59" Score="5.6">
+          <Sequence>ACCTTCCTATGATGGTAAGGT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="893892" LocusId="Reut_A3376" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="893891" LocusId="Reut_A3375" Name="cueR" Function="Copper-responsive transcriptional regulator, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="893893" LocusId="Reut_A3377" Name="copZ" Function="Copper chaperone" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5153</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="Dnr" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9895" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Denitrification</Pathway>
+      <LocusTag Key="Reut_B5062" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=895590&amp;disp=0" />
+      <BiologicalProcess>Denitrification</BiologicalProcess>
+      <Regulog Key="Dnr - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1086" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_B5010" Name="" Position="-91" Score="5.2">
+          <Sequence>CGTTGACAACAGTCAACC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="895538" LocusId="Reut_B5010" Name="null" Function="Nitrite reductase NirS (Cytochrome cd1)" />
+          <Members vimssId="895539" LocusId="Reut_B5011" Name="null" Function="cytochrome c, class I" />
+          <Members vimssId="895540" LocusId="Reut_B5012" Name="null" Function="cytochrome c, nitrite reductase associated (NirC)" />
+          <Members vimssId="895541" LocusId="Reut_B5013" Name="null" Function="heme d1 biosynthesis protein (NirF)" />
+          <Members vimssId="895542" LocusId="Reut_B5014" Name="null" Function="heme d1 biosynthesis protein (NirD)" />
+          <Members vimssId="895543" LocusId="Reut_B5015" Name="null" Function="heme d1 biosynthesis protein (NirG)" />
+          <Members vimssId="895544" LocusId="Reut_B5016" Name="null" Function="heme d1 biosynthesis protein (NirH)" />
+          <Members vimssId="895545" LocusId="Reut_B5017" Name="null" Function="heme d1 biosynthesis protein (NirJ)" />
+          <Members vimssId="895546" LocusId="Reut_B5018" Name="null" Function="C-type cytochrome (NirN)" />
+          <Members vimssId="895547" LocusId="Reut_B5019" Name="null" Function="Uroporphyrin-III C-methyltransferase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1086</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="">
+      <Regulator Key="FadP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9998" />
+      <Effector />
+      <Pathway>Fatty acid degradation</Pathway>
+      <LocusTag Key="Reut_A0445" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=890898&amp;disp=0" />
+      <BiologicalProcess>Fatty acid degradation</BiologicalProcess>
+      <Regulog Key="FadP - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1100" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A0445" Name="fadP" Position="-140" Score="4.9">
+          <Sequence>CTGAACGACCGTTCTT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A2550" Name="etfB" Position="-97" Score="5.5">
+          <Sequence>TAGTACGATCGTTCGA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A1262" Name="etfD" Position="-211" Score="5.1">
+          <Sequence>AAGAACGACCGTTCCA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A0823" Name="fadD2" Position="-73" Score="5.4">
+          <Sequence>TAGAACGATCGTTCGG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A1419" Name="RSc1772" Position="12" Score="5.2">
+          <Sequence>TCGAACGACCGTTCAC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A1405" Name="fadB" Position="-203" Score="5.5">
+          <Sequence>TTGAACGACCGTGCTA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A1097" Name="acsA" Position="-49" Score="5.4">
+          <Sequence>TAGAACGACCGTTCGC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A0268" Name="nppD" Position="-58" Score="5.2">
+          <Sequence>TCGAACGACCGTTCAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A0133" Name="liuR" Position="-32" Score="4.9">
+          <Sequence>ACGAACGACCGTTCAC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A0190" Name="Rmet_0145" Position="-10" Score="5.6">
+          <Sequence>TCGAACGACCGTGCTA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A1010" Name="paaH1" Position="-43" Score="4.9">
+          <Sequence>ACGTACGATCGTGCTA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A2994" Name="fadD1" Position="-34" Score="4.7">
+          <Sequence>TCGAACGACCATTCAG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A0977" Name="RSc2046" Position="-64" Score="5.2">
+          <Sequence>TAGCACGACCGTTCAC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A1353" Name="bktB" Position="-71" Score="5.1">
+          <Sequence>AAGTACGATCGTTCGA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A1398" Name="alkK" Position="-54" Score="4.7">
+          <Sequence>TAGAACGGTTGTTCGT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="891722" LocusId="Reut_A1262" Name="etfD" Function="Electron transfer flavoprotein-ubiquinone oxidoreductase (EC 1.5.5.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="893045" LocusId="Reut_A2550" Name="etfB" Function="Electron transfer flavoprotein, beta subunit" />
+          <Members vimssId="893044" LocusId="Reut_A2549" Name="etfA" Function="Electron transfer flavoprotein alpha subunit" />
+          <Members vimssId="893043" LocusId="Reut_A2548" Name="acdH2" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="890898" LocusId="Reut_A0445" Name="fadP" Function="Predicted transcriptional regulator for fatty acid degradation FadP, TetR family" />
+          <Members vimssId="890899" LocusId="Reut_A0446" Name="acdH" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+          <Members vimssId="890900" LocusId="Reut_A0447" Name="acdB" Function="Enoyl-CoA hydratase (EC 4.2.1.17) / 3,2-trans-enoyl-CoA isomerase (EC 5.3.3.8) / 3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35)" />
+          <Members vimssId="890901" LocusId="Reut_A0448" Name="acdA" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16) @ Acetyl-CoA acetyltransferase (EC 2.3.1.9)" />
+          <Members vimssId="890902" LocusId="Reut_A0449" Name="degV" Function="conserved hypothetical protein, DegV family" />
+          <Members vimssId="890903" LocusId="Reut_A0450" Name="echH" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="891280" LocusId="Reut_A0823" Name="fadD2" Function="Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="891887" LocusId="Reut_A1419" Name="RSc1772" Function="Alpha/beta hydrolase fold-3 domain protein" />
+          <Members vimssId="891888" LocusId="Reut_A1420" Name="h16_A1555" Function="conserved hypothetical protein, UPF0065" />
+          <Members vimssId="891889" LocusId="Reut_A1421" Name="Rsc1773" Function="putative 4-hydroxybenzoyl-CoA thioesterase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="891873" LocusId="Reut_A1405" Name="fadB" Function="Enoyl-CoA hydratase (EC 4.2.1.17) / Delta(3)-cis-delta(2)-trans-enoyl-CoA isomerase (EC 5.3.3.8) / 3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35) / 3-hydroxybutyryl-CoA epimerase (EC 5.1.2.3)" />
+          <Members vimssId="891874" LocusId="Reut_A1406" Name="pncA" Function="Nicotinamidase (EC 3.5.1.19)" />
+          <Members vimssId="891875" LocusId="Reut_A1407" Name="fadA" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16)" />
+          <Members vimssId="891876" LocusId="Reut_A1408" Name="acdH3" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="891556" LocusId="Reut_A1097" Name="acsA" Function="Acetyl-coenzyme A synthetase (EC 6.2.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="890720" LocusId="Reut_A0268" Name="nppD" Function="2-nitropropane dioxygenase NPD" />
+        </Operon>
+        <Operon>
+          <Members vimssId="890584" LocusId="Reut_A0133" Name="liuR" Function="Predicted transcriptional regulator LiuR of leucine degradation pathway, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="890641" LocusId="Reut_A0190" Name="Rmet_0145" Function="TesB-like acyl-CoA thioesterase 2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="891469" LocusId="Reut_A1010" Name="paaH1" Function="3-hydroxybutyryl-CoA dehydrogenase, phenylacetic acid degradation" />
+          <Members vimssId="891468" LocusId="Reut_A1009" Name="paaG4" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+          <Members vimssId="891467" LocusId="Reut_A1008" Name="BPSL1236" Function="Putative phosphoglycerate mutase" />
+          <Members vimssId="891466" LocusId="Reut_A1007" Name="BPSL1235" Function="Phosphotransferase enzyme family protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="893493" LocusId="Reut_A2994" Name="fadD1" Function="Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="891436" LocusId="Reut_A0977" Name="RSc2046" Function="conserved hypothetical protein, DUF1178" />
+          <Members vimssId="891437" LocusId="Reut_A0978" Name="acdQ" Function="Acyl-CoA dehydrogenase (EC 1.3.99.-)" />
+          <Members vimssId="891438" LocusId="Reut_A0979" Name="acdP" Function="acyl-CoA dehydrogenase domain protein" />
+          <Members vimssId="891439" LocusId="Reut_A0980" Name="maoC" Function="Putative (R)-specific enoyl-CoA hydratase, MaoC- like" />
+          <Members vimssId="891440" LocusId="Reut_A0981" Name="echI" Function="MaoC domain protein dehydratase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="891818" LocusId="Reut_A1353" Name="bktB" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16)" />
+          <Members vimssId="891819" LocusId="Reut_A1354" Name="RSc1638" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="891866" LocusId="Reut_A1398" Name="alkK" Function="Medium-chain-fatty-acid-CoA ligase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1100</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="FdsR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58473" />
+      <Effector>Formate</Effector>
+      <Pathway>Formate oxydation</Pathway>
+      <LocusTag Key="Reut_A0616" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=891071&amp;disp=0" />
+      <BiologicalProcess>Formate oxydation</BiologicalProcess>
+      <Regulog Key="FdsR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5983" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A0616" Name="fdsR" Position="-18" Score="5.5">
+          <Sequence>ATAAGCTATTTTGTTCATAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A0616" Name="fdsR" Position="-105" Score="5.7">
+          <Sequence>ATATGCTATTTTTTTCCTAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A0617" Name="fdsG" Position="-149" Score="5.5">
+          <Sequence>ATATGAACAAAATAGCTTAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A0617" Name="fdsG" Position="-62" Score="5.7">
+          <Sequence>ATAGGAAAAAAATAGCATAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="891072" LocusId="Reut_A0617" Name="fdsG" Function="NAD-dependent formate dehydrogenase (EC  1.2.1.2), gamma subunit" />
+          <Members vimssId="891073" LocusId="Reut_A0618" Name="fdsB" Function="NAD-dependent formate dehydrogenase (EC  1.2.1.2), beta subunit" />
+          <Members vimssId="891074" LocusId="Reut_A0619" Name="fdsA" Function="NAD-dependent formate dehydrogenase (EC  1.2.1.2), alpha subunit" />
+          <Members vimssId="891075" LocusId="Reut_A0620" Name="fdsC" Function="NAD-dependent formate dehydrogenase (EC  1.2.1.2), accessory protein" />
+          <Members vimssId="891076" LocusId="Reut_A0621" Name="fdsD" Function="NAD-dependent formate dehydrogenase (EC  1.2.1.2), delta subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="891071" LocusId="Reut_A0616" Name="fdsR" Function="Formate dehydrogenase transcriptional regulator FdsR, ModE family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5983</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor (activator)">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9936" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="Reut_B5530" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=896058&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1092" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_B5430" Name="" Position="-80" Score="5.2">
+          <Sequence>AATGAAAACGATTTTCATT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A2235" Name="" Position="-187" Score="5.3">
+          <Sequence>AATAAGAATCATTATCGTT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B4660" Name="" Position="-81" Score="4.3">
+          <Sequence>ACTGATAATGATTCCTGTT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B4659" Name="" Position="-180" Score="4.7">
+          <Sequence>ATTACGAATGATTCGTATT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A0298" Name="" Position="-1" Score="5.2">
+          <Sequence>AAtGggAATTgTTATCaTT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A2878" Name="" Position="-51" Score="5">
+          <Sequence>AATGATAATGCTTCGCATT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A2571" Name="" Position="-90" Score="5.2">
+          <Sequence>ATTGCGAATCATTATCATT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A2238" Name="" Position="-107" Score="5.1">
+          <Sequence>AATGGTAATGGTTCTCATT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B3686" Name="" Position="-108" Score="4.6">
+          <Sequence>CTTGATAATGATTCGCATT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A2876" Name="" Position="-136" Score="4.4">
+          <Sequence>AACGCAAATCATTCGCATT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B4646" Name="" Position="-72" Score="4.8">
+          <Sequence>AACAATAACCGTTATCATT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="895187" LocusId="Reut_B4660" Name="null" Function="2OG-Fe(II) oxygenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="895186" LocusId="Reut_B4659" Name="null" Function="TonB-dependent siderophore transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="893374" LocusId="Reut_A2876" Name="null" Function="putative TonB-dependent siderophore transporter" />
+          <Members vimssId="893375" LocusId="Reut_A2877" Name="null" Function="2OG-Fe(II) oxygenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="895173" LocusId="Reut_B4646" Name="null" Function="TonB-dependent siderophore transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="890750" LocusId="Reut_A0298" Name="null" Function="Bacterioferritin-associated ferredoxin" />
+          <Members vimssId="890751" LocusId="Reut_A0299" Name="null" Function="Bacterioferritin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="894211" LocusId="Reut_B3686" Name="null" Function="putative iron-regulated TonB-dependent siderophore transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="893376" LocusId="Reut_A2878" Name="null" Function="putative iron-regulated TonB-dependent transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="893066" LocusId="Reut_A2571" Name="null" Function="putative exported protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="892723" LocusId="Reut_A2238" Name="null" Function="hemin uptake protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="892720" LocusId="Reut_A2235" Name="null" Function="Component of outer membrane metal uptake system, TonB family" />
+          <Members vimssId="892721" LocusId="Reut_A2236" Name="null" Function="Component of outer membrane metal uptake system, ExbB family" />
+          <Members vimssId="892722" LocusId="Reut_A2237" Name="null" Function="Component of outer membrane metal uptake system, ExbD family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="895958" LocusId="Reut_B5430" Name="null" Function="Ferrous iron transport protein A" />
+          <Members vimssId="895957" LocusId="Reut_B5429" Name="null" Function="Ferrous iron transport protein B" />
+          <Members vimssId="895956" LocusId="Reut_B5428" Name="null" Function="putative transmembrane protein involved in ferrous iron transport" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1092</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="GguR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62540" />
+      <Effector />
+      <Pathway>Glucarate utilization; Galactarate utilization</Pathway>
+      <LocusTag Key="Reut_B3714" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=894239&amp;disp=0" />
+      <BiologicalProcess>Glucarate utilization; Galactarate utilization</BiologicalProcess>
+      <Regulog Key="GguR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6434" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_B3715" Name="gudD" Position="-87" Score="5.1">
+          <Sequence>AAGTCATACGACGACTG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A1006" Name="tctC1" Position="-45" Score="5">
+          <Sequence>ATGTTGTATGACGACTG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A1006" Name="tctC1" Position="-180" Score="5">
+          <Sequence>ATGTCATCAGACAACAG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B3689" Name="gudP1" Position="-67" Score="5.1">
+          <Sequence>CAGTCATACGACGACAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B3689" Name="gudP1" Position="-283" Score="4.8">
+          <Sequence>ACGTCATCGTACAACTA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B3714" Name="gguR" Position="-80" Score="5.1">
+          <Sequence>CAGTCGTCGTATGACTT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B3688" Name="kdgD" Position="-102" Score="4.8">
+          <Sequence>TAGTTGTACGATGACGT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B3713" Name="kgsD" Position="-97" Score="4.3">
+          <Sequence>ATGTCATATGATGTCCT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="894213" LocusId="Reut_B3688" Name="kdgD" Function="5-dehydro-4-deoxyglucarate dehydratase (EC 4.2.1.41)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="894239" LocusId="Reut_B3714" Name="gguR" Function="Predicted D-glucarate or D-galactorate utilization regulator, GntR family" />
+          <Members vimssId="894238" LocusId="Reut_B3713" Name="kgsD" Function="Alpha-ketoglutaric semialdehyde dehydrogenase (EC 1.2.1.26)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="894214" LocusId="Reut_B3689" Name="gudP1" Function="D-glucarate permease" />
+          <Members vimssId="894215" LocusId="Reut_B3690" Name="garD" Function="D-galactarate dehydratase (EC 4.2.1.42)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="894240" LocusId="Reut_B3715" Name="gudD" Function="Glucarate dehydratase (EC 4.2.1.40)" />
+          <Members vimssId="894241" LocusId="Reut_B3716" Name="tctC2" Function="Tripartite tricarboxylate transporter family receptor, putative transporter for uronates" />
+        </Operon>
+        <Operon>
+          <Members vimssId="891465" LocusId="Reut_A1006" Name="tctC1" Function="Tripartite tricarboxylate transporter family receptor, putative transporter for uronates" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6434</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="H16_A0963" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59261" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Reut_A1805" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=892276&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="H16_A0963 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6081" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A1806" Name="PF02627" Position="-125" Score="10.4">
+          <Sequence>ACCGGTTAC-(15)-ATCGGCCAT-(5)-ATAACCAGT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="892277" LocusId="Reut_A1806" Name="PF02627" Function="4-carboxymuconolactone decarboxylase domain/alkylhydroperoxidase AhpD family core domain protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6081</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="H16_A0970" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60959" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Reut_A2460" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=892952&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="H16_A0970 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6260" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A2460" Name="H16_A0970" Position="-118" Score="15.6">
+          <Sequence>ACAGCCACAACAGA-(11)-ACCGGAACAGTGCA-(8)-CTGTCTGTTACGAT-(11)-CCGTCTGTATCTGT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A2459" Name="h16_A0972" Position="-631" Score="20.5">
+          <Sequence>ACAGATACAGACGG-(11)-ATCGTAACAGACAG-(8)-TGCACTGTTCCGGT-(11)-TCTGTTGTGGCTGT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="892952" LocusId="Reut_A2460" Name="H16_A0970" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="892951" LocusId="Reut_A2459" Name="h16_A0972" Function="putative FAD dependent oxidoreductase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6260</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="H16_A2655" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59596" />
+      <Effector />
+      <Pathway>Metabolite transport</Pathway>
+      <LocusTag Key="Reut_A2343" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=892833&amp;disp=0" />
+      <BiologicalProcess>Metabolite transport</BiologicalProcess>
+      <Regulog Key="H16_A2655 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6116" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A2949" Name="PF01810" Position="-97" Score="12.9">
+          <Sequence>CTGCCGTCACG-(13)-AAACTGTACCG-(0)-GTACTGTACTG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A2344" Name="h16_A2656" Position="-72" Score="15.1">
+          <Sequence>CAACTGTACTG-(13)-TAACTGTACCG-(0)-GTACTGTACCG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="893447" LocusId="Reut_A2949" Name="PF01810" Function="Transporter, LysE family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="892834" LocusId="Reut_A2344" Name="h16_A2656" Function="Riboflavin-specific deaminase" />
+          <Members vimssId="892835" LocusId="Reut_A2345" Name="h16_A2657" Function="Threonyl/alanyl tRNA synthetase, SAD" />
+          <Members vimssId="892836" LocusId="Reut_A2346" Name="PF01810" Function="Transporter, LysE family" />
+          <Members vimssId="892837" LocusId="Reut_A2347" Name="PF00892" Function="Permease of the drug/metabolite transporter (DMT) superfamily" />
+          <Members vimssId="892838" LocusId="Reut_A2348" Name="h16_A1735" Function="putative endoribonuclease; L-PSP family" />
+          <Members vimssId="892839" LocusId="Reut_A2349" Name="h16_A2661" Function="hypothetical protein" />
+          <Members vimssId="892840" LocusId="Reut_A2350" Name="aspB" Function="Aspartate aminotransferase (AspB-4) (EC 2.6.1.1)" />
+          <Members vimssId="892841" LocusId="Reut_A2351" Name="h16_A2663" Function="Glutathione S-transferase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6116</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="H16_B0275" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58880" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Reut_C6135" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=890056&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="H16_B0275 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6034" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_C6136" Name="PF01966" Position="-176" Score="6.9">
+          <Sequence>CAATAGTACA--------------TCTTGGGTCT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_C6134" Name="COG1917" Position="-89" Score="10.3">
+          <Sequence>TCTTGGTACA--------------TCCTGGTGCT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="890057" LocusId="Reut_C6136" Name="PF01966" Function="Metal-dependent phosphohydrolase, HD subdomain" />
+          <Members vimssId="890058" LocusId="Reut_C6137" Name="COG1028" Function="Dehydrogenases with different specificities (related to short-chain alcohol dehydrogenases)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="890055" LocusId="Reut_C6134" Name="COG1917" Function="Uncharacterized conserved protein, contains double-stranded beta-helix domain" />
+          <Members vimssId="890054" LocusId="Reut_C6133" Name="COG2128" Function="Uncharacterized conserved protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6034</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="H16_B1411" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59051" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Reut_A1580" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=892048&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="H16_B1411 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6055" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A1579" Name="PF05368" Position="-157" Score="11.1">
+          <Sequence>ACTTGGCCTAGT-(12)-TCTTGGCCCTTA-(2)-CATAGGGCATGA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="892047" LocusId="Reut_A1579" Name="PF05368" Function="NmrA-like domain" />
+          <Members vimssId="892046" LocusId="Reut_A1578" Name="PF07883" Function="Cupin 2, conserved barrel" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6055</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="H16_B1468" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60820" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Reut_B4094" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=894621&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="H16_B1468 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6246" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_B4101" Name="cydA" Position="-123" Score="6.8">
+          <Sequence>AACTGAGCTTGCGCA----------AACTGTACCCCTCCC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B4091" Name="fdhA2" Position="-132" Score="7.8">
+          <Sequence>AACTGTGCTCTTGAA----------GTCTGTACGCACCGC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="894618" LocusId="Reut_B4091" Name="fdhA2" Function="Putative formate dehydrogenase oxidoreductase protein" />
+          <Members vimssId="894619" LocusId="Reut_B4092" Name="fdhD2" Function="formate dehydrogenase family accessory protein FdhD" />
+          <Members vimssId="894620" LocusId="Reut_B4093" Name="moeA3" Function="Molybdopterin biosynthesis protein MoeA" />
+          <Members vimssId="894621" LocusId="Reut_B4094" Name="h16_B1468" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="894628" LocusId="Reut_B4101" Name="cydA" Function="Cytochrome bd ubiquinol oxidase, subunit I" />
+          <Members vimssId="894627" LocusId="Reut_B4100" Name="cydB" Function="Cytochrome bd ubiquinol oxidase, subunit II" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6246</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="H16_B1761" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56875" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="H16_B1761 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5815" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A2448" Name="COG2814" Position="-198" Score="5.2">
+          <Sequence>GATTGTTCAACAATA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A2447" Name="SCO1410" Position="-189" Score="5.2">
+          <Sequence>TATTGTTGAACAATC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="892939" LocusId="Reut_A2447" Name="SCO1410" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="892940" LocusId="Reut_A2448" Name="COG2814" Function="Major facilitator family transporter" />
+          <Members vimssId="892941" LocusId="Reut_A2449" Name="COG4336" Function="hypothetical protein possibly connected to lactam utilization and allophanate hydrolase" />
+          <Members vimssId="892942" LocusId="Reut_A2450" Name="alhAB" Function="Putative allophanate hydrolase 2, subunits 1 and 2 fusion (EC 3.5.1.54)" />
+          <Members vimssId="892943" LocusId="Reut_A2451" Name="alhC" Function="Urea carboxylase (EC 6.3.4.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5815</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor (activator)">
+      <Regulator Key="HexR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9871" />
+      <Effector>2-keto-3-deoxy-6-phosphogluconate</Effector>
+      <Pathway>Central carbohydrate metabolism</Pathway>
+      <LocusTag Key="Reut_A1080" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=891539&amp;disp=0" />
+      <BiologicalProcess>Central carbohydrate metabolism</BiologicalProcess>
+      <Regulog Key="HexR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1082" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A1081" Name="edd" Position="-203" Score="5.8">
+          <Sequence>ATGTAGATATTCTACAA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A1081" Name="edd" Position="-62" Score="5.7">
+          <Sequence>ATGTAGAAAATCTACAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A1080" Name="hexR" Position="-166" Score="5.7">
+          <Sequence>ATGTAGATTTTCTACAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A1080" Name="hexR" Position="-25" Score="5.8">
+          <Sequence>TTGTAGAATATCTACAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="891540" LocusId="Reut_A1081" Name="edd" Function="Phosphogluconate dehydratase (EC 4.2.1.12)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="891539" LocusId="Reut_A1080" Name="hexR" Function="Central carbohydrate metabolism transcription regulator HexR, RpiR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1082</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="HpxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51827" />
+      <Effector>Xanthine</Effector>
+      <Pathway>Xanthine utilization</Pathway>
+      <LocusTag Key="Reut_B4528" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=895055&amp;disp=0" />
+      <BiologicalProcess>Xanthine utilization</BiologicalProcess>
+      <Regulog Key="HpxR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5262" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_B4531" Name="uraA" Position="-119" Score="6.9">
+          <Sequence>TAACCAAAACGTTTTGGCTA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="895058" LocusId="Reut_B4531" Name="uraA" Function="Xanthine/uracil permease" />
+          <Members vimssId="895057" LocusId="Reut_B4530" Name="COG0402" Function="Cytosine deaminase and related metal-dependent hydrolases" />
+          <Members vimssId="895056" LocusId="Reut_B4529" Name="PF01925" Function="Protein of unknown function DUF81" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5262</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49616" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Reut_A1036" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=891495&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5023" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A2657" Name="groS" Position="-130" Score="7.8">
+          <Sequence>TTAGCACTCGCTGGGGGTGAGTGCTAA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A0325" Name="rpoH" Position="-104" Score="7.9">
+          <Sequence>TTAGCACTCACCCGGCTTGAGTGCTAA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="890777" LocusId="Reut_A0325" Name="rpoH" Function="Heat shock response RNA polymerase sigma factor RpoH (Sigma 32)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="893154" LocusId="Reut_A2657" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="893153" LocusId="Reut_A2656" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5023</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="HutC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66552" />
+      <Effector>cis-Urocanic acid</Effector>
+      <Pathway>Histidine utilization</Pathway>
+      <LocusTag Key="Reut_A0895" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=891353&amp;disp=0" />
+      <BiologicalProcess>Histidine utilization</BiologicalProcess>
+      <Regulog Key="HutC - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6875" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A0896" Name="hutU" Position="-94" Score="5.6">
+          <Sequence>ATGCTTGTATATACAACACT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A2720" Name="hisX" Position="-94" Score="5.7">
+          <Sequence>TGACTTGTATATACAGGATT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A2716" Name="hutH" Position="-40" Score="5.6">
+          <Sequence>TAAGCTGTATAGACAGGAAC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A2720" Name="hisX" Position="-249" Score="5.4">
+          <Sequence>ACTCCTGTCTATACAGCAAC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B5636" Name="hutU" Position="-94" Score="5.6">
+          <Sequence>ATGCTTGTATATACAACACT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="893218" LocusId="Reut_A2720" Name="hisX" Function="Putative histidine ABC transporter, substrate binding protein" />
+          <Members vimssId="893217" LocusId="Reut_A2719" Name="hisY" Function="Putative histidine ABC transporter, permease protein" />
+          <Members vimssId="893216" LocusId="Reut_A2718" Name="hisZ" Function="Putative histidine ABC transporter, ATPase protein" />
+          <Members vimssId="893215" LocusId="Reut_A2717" Name="hutC" Function="Histidine utilization repressor, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="896172" LocusId="Reut_B5636" Name="hutU" Function="Urocanate hydratase (EC 4.2.1.49)" />
+          <Members vimssId="896173" LocusId="Reut_B5637" Name="hutH" Function="Histidine ammonia-lyase (EC 4.3.1.3)" />
+          <Members vimssId="896174" LocusId="Reut_B5638" Name="hisT" Function="Histidine transport protein (permease)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="893214" LocusId="Reut_A2716" Name="hutH" Function="Histidine ammonia-lyase (EC 4.3.1.3)" />
+          <Members vimssId="893213" LocusId="Reut_A2715" Name="hutU" Function="Urocanate hydratase (EC 4.2.1.49)" />
+          <Members vimssId="893212" LocusId="Reut_A2714" Name="hutD" Function="Conserved hypothetical protein related to histidine degradation" />
+          <Members vimssId="893211" LocusId="Reut_A2713" Name="hutI" Function="Imidazolonepropionase (EC 3.5.2.7)" />
+          <Members vimssId="893210" LocusId="Reut_A2712" Name="hutF" Function="Formiminoglutamic iminohydrolase (EC 3.5.3.13)" />
+          <Members vimssId="893209" LocusId="Reut_A2711" Name="hutG" Function="N-formylglutamate deformylase (EC 3.5.1.68)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="891354" LocusId="Reut_A0896" Name="hutU" Function="Urocanate hydratase (EC 4.2.1.49)" />
+          <Members vimssId="891355" LocusId="Reut_A0897" Name="COG2814 (AraJ)" Function="Putative histidine permease, major facilitator superfamily" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6875</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="repressor">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9877" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="Reut_A1057" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=891516&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1083" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A1057" Name="iscR" Position="-37" Score="6.8">
+          <Sequence>ATACTTGACGGAAACGATCAAGTAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A1057" Name="iscR" Position="-66" Score="6.9">
+          <Sequence>GTAGTTGACTGAAATAGTCGGGTAC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="891516" LocusId="Reut_A1057" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="891517" LocusId="Reut_A1058" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+          <Members vimssId="891518" LocusId="Reut_A1059" Name="iscU" Function="Iron-sulfur cluster assembly scaffold protein IscU" />
+          <Members vimssId="891519" LocusId="Reut_A1060" Name="iscA" Function="Iron binding protein IscA for iron-sulfur cluster assembly" />
+          <Members vimssId="891520" LocusId="Reut_A1061" Name="RSc1022" Function="hypothetical protein" />
+          <Members vimssId="891521" LocusId="Reut_A1062" Name="hscB" Function="Chaperone protein HscB" />
+          <Members vimssId="891522" LocusId="Reut_A1063" Name="hscA" Function="Chaperone protein HscA" />
+          <Members vimssId="891523" LocusId="Reut_A1064" Name="fdx" Function="ferredoxin, 2Fe-2S type, ISC system" />
+          <Members vimssId="891524" LocusId="Reut_A1065" Name="yhfJ" Function="putative Fe-S cluster assembly protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1083</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9992" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="Reut_A2008" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=892480&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1099" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_B4525" Name="imuA" Position="91" Score="6.3">
+          <Sequence>TACTGTATAAATATACAGTT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A0527" Name="recA" Position="-194" Score="6.1">
+          <Sequence>TACTGTTTTTTTATACAGTA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A2008" Name="lexA" Position="-74" Score="6">
+          <Sequence>TACTGTTTAAACATACAGTG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A2008" Name="lexA" Position="-95" Score="5">
+          <Sequence>TACTGTATAAAATCACAGGC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A0283" Name="uvrD" Position="-6" Score="5.7">
+          <Sequence>GCCTGTATGGATATACAGTT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A1285" Name="H16_A1352" Position="125" Score="5.9">
+          <Sequence>TACTGTACATCCATACAGTA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B5827" Name="PF06733" Position="-44" Score="6.1">
+          <Sequence>GACTGTATATTCATACAGTT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B3817" Name="BPSS1334" Position="-31" Score="5.3">
+          <Sequence>ACCTGTATGGATAAACAGTG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B3817" Name="BPSS1334" Position="-50" Score="6.4">
+          <Sequence>TACTGTATATATTTACAGTA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B4240" Name="uvrA" Position="-160" Score="5.6">
+          <Sequence>CACTGTACGGATATACAGTC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B5317" Name="H16_B2553" Position="-51" Score="6">
+          <Sequence>GACTGTATATTCGTACAGTA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="890735" LocusId="Reut_A0283" Name="uvrD" Function="ATP-dependent DNA helicase II" />
+        </Operon>
+        <Operon>
+          <Members vimssId="892480" LocusId="Reut_A2008" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="896364" LocusId="Reut_B5827" Name="PF06733" Function="DinG family ATP-dependent helicase CPE1197" />
+        </Operon>
+        <Operon>
+          <Members vimssId="894342" LocusId="Reut_B3817" Name="BPSS1334" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="895052" LocusId="Reut_B4525" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="895051" LocusId="Reut_B4524" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+          <Members vimssId="895050" LocusId="Reut_B4523" Name="dnaE2" Function="macromolecule metabolism; macromolecule synthesis, modification; dna - replication, repair, restr./modif." />
+        </Operon>
+        <Operon>
+          <Members vimssId="890982" LocusId="Reut_A0527" Name="recA" Function="Recombinase A" />
+          <Members vimssId="890983" LocusId="Reut_A0528" Name="recX" Function="Regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="894767" LocusId="Reut_B4240" Name="uvrA" Function="Excinuclease ABC subunit A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="895845" LocusId="Reut_B5317" Name="H16_B2553" Function="Conserved hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="891747" LocusId="Reut_A1285" Name="H16_A1352" Function="Conserved hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1099</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="LiuQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9930" />
+      <Effector />
+      <Pathway>Branched-chain amino acid degradation</Pathway>
+      <LocusTag Key="Reut_A1468" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=891936&amp;disp=0" />
+      <BiologicalProcess>Branched-chain amino acid degradation</BiologicalProcess>
+      <Regulog Key="LiuQ - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1091" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A1467" Name="" Position="-167" Score="5">
+          <Sequence>TTGACCAACACTCAA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A1468" Name="" Position="-154" Score="5.3">
+          <Sequence>TTGAGCGTAGCTCAA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A1467" Name="" Position="-59" Score="5.3">
+          <Sequence>TTGAGCTACGCTCAA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A1468" Name="" Position="-46" Score="5">
+          <Sequence>TTGAGTGTTGGTCAA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="891935" LocusId="Reut_A1467" Name="null" Function="AMP-dependent synthetase and ligase" />
+          <Members vimssId="891934" LocusId="Reut_A1466" Name="null" Function="Isovaleryl-CoA dehydrogenase (EC 1.3.99.10)" />
+          <Members vimssId="891933" LocusId="Reut_A1465" Name="null" Function="Methylcrotonyl-CoA carboxylase biotin-containing subunit (EC 6.4.1.4)" />
+          <Members vimssId="891932" LocusId="Reut_A1464" Name="null" Function="Methylglutaconyl-CoA hydratase (EC 4.2.1.18)" />
+          <Members vimssId="891931" LocusId="Reut_A1463" Name="null" Function="Methylcrotonyl-CoA carboxylase carboxyl transferase subunit (EC 6.4.1.4)" />
+          <Members vimssId="891930" LocusId="Reut_A1462" Name="null" Function="Hydroxymethylglutaryl-CoA lyase (EC 4.1.3.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="891936" LocusId="Reut_A1468" Name="null" Function="Predicted branched-chain amino acid degradation regulator LiuQ, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1091</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="">
+      <Regulator Key="LiuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9953" />
+      <Effector />
+      <Pathway>Branched-chain amino acid degradation</Pathway>
+      <LocusTag Key="Reut_A0133" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=890584&amp;disp=0" />
+      <BiologicalProcess>Branched-chain amino acid degradation</BiologicalProcess>
+      <Regulog Key="LiuR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1094" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A0589" Name="paaH" Position="-56" Score="6.6">
+          <Sequence>GTTGACGTTTACGTAAAC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A0589" Name="paaH" Position="-50" Score="4.5">
+          <Sequence>GTTTACGTAAACGGCAGT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A0132" Name="" Position="-149" Score="5.5">
+          <Sequence>GTTTACGTTAGCGTCAAC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A0132" Name="" Position="-155" Score="6.2">
+          <Sequence>GTTGACGTTTACGTTAGC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A0133" Name="liuR" Position="-99" Score="6.4">
+          <Sequence>GTTGACGCTAACGTAAAC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A0133" Name="liuR" Position="-93" Score="5.1">
+          <Sequence>GCTAACGTAAACGTCAAC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A0134" Name="paaI" Position="-52" Score="5.3">
+          <Sequence>GTTTACGTAAACGTCAAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A0134" Name="paaI" Position="-58" Score="6.6">
+          <Sequence>ATTGACGTTTACGTAAAC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="891044" LocusId="Reut_A0589" Name="paaH" Function="3-hydroxyacyl-CoA dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="890583" LocusId="Reut_A0132" Name="null" Function="Metallo-beta-lactamase family protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="890585" LocusId="Reut_A0134" Name="paaI" Function="Phenylacetic acid degradation-related protein" />
+          <Members vimssId="890586" LocusId="Reut_A0135" Name="liuA" Function="Isovaleryl-CoA dehydrogenase (EC 1.3.99.10); Butyryl-CoA dehydrogenase (EC 1.3.99.2)" />
+          <Members vimssId="890587" LocusId="Reut_A0136" Name="aceK" Function="Isocitrate dehydrogenase phosphatase (EC 2.7.11.5)/kinase (EC 3.1.3.-)" />
+          <Members vimssId="890588" LocusId="Reut_A0137" Name="cah" Function="Carbonic anhydrase (EC 4.2.1.1)" />
+          <Members vimssId="890589" LocusId="Reut_A0138" Name="ivdA" Function="Acetyl-CoA C-acyltransferase (EC 2.3.1.16)" />
+          <Members vimssId="890590" LocusId="Reut_A0139" Name="null" Function="Dehydrogenases with different specificities (related to short-chain alcohol dehydrogenases)" />
+          <Members vimssId="890591" LocusId="Reut_A0140" Name="ivdC" Function="Isovaleryl-CoA dehydrogenase (EC 1.3.99.10); Butyryl-CoA dehydrogenase (EC 1.3.99.2)" />
+          <Members vimssId="890592" LocusId="Reut_A0141" Name="null" Function="2-Hydroxychromene-2-carboxylate isomerase" />
+          <Members vimssId="890593" LocusId="Reut_A0142" Name="null" Function="Putative phosphatase YieH" />
+          <Members vimssId="890594" LocusId="Reut_A0143" Name="null" Function="hypothetical protein" />
+          <Members vimssId="890595" LocusId="Reut_A0144" Name="null" Function="Maleylacetoacetate isomerase (EC 5.2.1.2) / Glutathione S-transferase" />
+          <Members vimssId="890596" LocusId="Reut_A0145" Name="liuB" Function="Methylcrotonyl-CoA carboxylase carboxyl transferase subunit (EC 6.4.1.4)" />
+          <Members vimssId="890597" LocusId="Reut_A0146" Name="null" Function="Dienelactone hydrolase or related enzyme" />
+        </Operon>
+        <Operon>
+          <Members vimssId="890584" LocusId="Reut_A0133" Name="liuR" Function="Transcriptional regulator, MerR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1094</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="LldR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16544" />
+      <Effector>L-lactate</Effector>
+      <Pathway>Lactate utilization</Pathway>
+      <LocusTag Key="Reut_B5449" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=895977&amp;disp=0" />
+      <BiologicalProcess>Lactate utilization</BiologicalProcess>
+      <Regulog Key="LldR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1781" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_B5449" Name="lldR" Position="-64" Score="5.9">
+          <Sequence>AATTGGTTGGACCAATT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B5448" Name="lldE" Position="-85" Score="6.3">
+          <Sequence>AATTGGTCCAACCAATT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="895977" LocusId="Reut_B5449" Name="lldR" Function="Lactate-responsive regulator LldR, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="895976" LocusId="Reut_B5448" Name="lldE" Function="L-lactate dehydrogenase, Fe-S oxidoreductase subunit" />
+          <Members vimssId="895975" LocusId="Reut_B5447" Name="lldG" Function="L-lactate dehydrogenase, subunit LldG" />
+          <Members vimssId="895974" LocusId="Reut_B5446" Name="lldF" Function="L-lactate dehydrogenase, iron-sulfur cluster-binding subunit" />
+          <Members vimssId="895973" LocusId="Reut_B5445" Name="lldP" Function="L-lactate permease" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1781</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="MerR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51043" />
+      <Effector>Mercury ion, (Hg2+)</Effector>
+      <Pathway>Mercury resistance</Pathway>
+      <LocusTag Key="pJP4_53" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1762242&amp;disp=0" />
+      <BiologicalProcess>Mercury resistance</BiologicalProcess>
+      <Regulog Key="MerR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5173" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_D6497" Name="merT" Position="-63" Score="6.3">
+          <Sequence>ACTCCGTACATGAGTACGGAAG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="pJP4_52" Name="merT" Position="-63" Score="6.3">
+          <Sequence>ACTCCGTACATGAGTACGGAAG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="890418" LocusId="Reut_D6497" Name="merT" Function="Mercury uptake inner membane protein" />
+          <Members vimssId="890417" LocusId="Reut_D6496" Name="merP" Function="Periplasmic mercury (+2) binding protein" />
+          <Members vimssId="890416" LocusId="Reut_D6495" Name="merA" Function="Mercuric ion reductase (EC 1.16.1.1)" />
+          <Members vimssId="890415" LocusId="Reut_D6494" Name="merD" Function="Mercuric resistance operon coregulator" />
+          <Members vimssId="890414" LocusId="Reut_D6493" Name="merE" Function="Putative mercury resistance protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1762241" LocusId="pJP4_52" Name="merT" Function="Mercury uptake inner membane protein" />
+          <Members vimssId="1762240" LocusId="pJP4_51" Name="merP" Function="Periplasmic mercury (+2) binding protein" />
+          <Members vimssId="1762239" LocusId="pJP4_50" Name="merA" Function="Mercuric ion reductase (EC 1.16.1.1)" />
+          <Members vimssId="1762238" LocusId="pJP4_49" Name="merD" Function="Mercuric resistance operon coregulator" />
+          <Members vimssId="1762237" LocusId="pJP4_48" Name="merE" Function="Putative mercury resistance protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5173</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="">
+      <Regulator Key="MetR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56599" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="Reut_B4244" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=894771&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5781" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_B4244" Name="metR" Position="-54" Score="5.9">
+          <Sequence>TATGAATGAATTTCATA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B4245" Name="metE" Position="-66" Score="5.9">
+          <Sequence>TATGAAATTCATTCATA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="894772" LocusId="Reut_B4245" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="894771" LocusId="Reut_B4244" Name="metR" Function="Homocysteine-responsive transcriptional regulator of methionine metabolism, LysR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5781</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="MlnR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61662" />
+      <Effector />
+      <Pathway>Malonate metabolism</Pathway>
+      <LocusTag Key="Reut_A0644" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=891099&amp;disp=0" />
+      <BiologicalProcess>Malonate metabolism</BiologicalProcess>
+      <Regulog Key="MlnR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6334" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A0644" Name="mlnR" Position="-77" Score="6.5">
+          <Sequence>TCATCCATAATTATGAATTA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="891099" LocusId="Reut_A0644" Name="mlnR" Function="Transcriptional regulator of malonate metabolism, GntR family" />
+          <Members vimssId="891100" LocusId="Reut_A0645" Name="matA" Function="Malonyl-CoA decarboxylase" />
+          <Members vimssId="891101" LocusId="Reut_A0646" Name="h16_A2980" Function="putative exported protein" />
+          <Members vimssId="891102" LocusId="Reut_A0647" Name="h16_A2979" Function="methylmalonyl CoA decarboxylase/enoyl-CoA hydratase/isomerase" />
+          <Members vimssId="891103" LocusId="Reut_A0648" Name="matB" Function="Malonyl-CoA ligase (EC 6.2.1.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6334</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor">
+      <Regulator Key="ModE" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9917" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdenum homeostasis</Pathway>
+      <LocusTag Key="Reut_A0630" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=891085&amp;disp=0" />
+      <BiologicalProcess>Molybdenum homeostasis</BiologicalProcess>
+      <Regulog Key="ModE - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1089" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A0634" Name="modA" Position="-82" Score="4.8">
+          <Sequence>CTCGCTATATACAGCCTTATATTGCGCC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="891089" LocusId="Reut_A0634" Name="modA" Function="Molybdenum ABC transporter, periplasmic molybdenum-binding protein ModA (TC 3.A.1.8.1)" />
+          <Members vimssId="891088" LocusId="Reut_A0633" Name="modB" Function="Molybdenum transport system permease protein ModB (TC 3.A.1.8.1)" />
+          <Members vimssId="891087" LocusId="Reut_A0632" Name="modC" Function="Molybdenum transport ATP-binding protein ModC (TC 3.A.1.8.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1089</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58479" />
+      <Effector>Tungsten</Effector>
+      <Pathway>Tungsten homeostasis</Pathway>
+      <LocusTag Key="Reut_A0932" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=891390&amp;disp=0" />
+      <BiologicalProcess>Tungsten homeostasis</BiologicalProcess>
+      <Regulog Key="ModE3 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5984" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A0931" Name="tupB" Position="-35" Score="5.8">
+          <Sequence>TTATGTTTATCGAAACATAA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A0932" Name="modE3" Position="-128" Score="5.8">
+          <Sequence>TTATGTTTCGATAAACATAA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="891389" LocusId="Reut_A0931" Name="tupB" Function="Tungstate ABC-type transporter, substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="891390" LocusId="Reut_A0932" Name="modE3" Function="Molybdate-responsive transcriptional regulator ModE2" />
+          <Members vimssId="891391" LocusId="Reut_A0933" Name="H16_A1021" Function="Putative transmembrane protein" />
+          <Members vimssId="891392" LocusId="Reut_A0934" Name="H16_A1022" Function="Putative ABC-type transporter, permease protein" />
+          <Members vimssId="891393" LocusId="Reut_A0935" Name="H16_A1023" Function="Putative heme-binding protein" />
+          <Members vimssId="891394" LocusId="Reut_A0936" Name="H16_A1024" Function="Conserved hypothetical protein, DUF924" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5984</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NorR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9889" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="Reut_B5057" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=895585&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="NorR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1085" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_B5057" Name="norR" Position="-29" Score="4.8">
+          <Sequence>CGCGGTGTAATTTACCCGT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B5057" Name="norR" Position="-55" Score="4.6">
+          <Sequence>AACGGTATAATTCACCCAC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B5056" Name="norA" Position="-106" Score="4.6">
+          <Sequence>GTGGGTGAATTATACCGTT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B5056" Name="norA" Position="-132" Score="4.8">
+          <Sequence>ACGGGTAAATTACACCGCG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B5056" Name="norA" Position="-151" Score="5.1">
+          <Sequence>TAGGGTCATAAATACCTTA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="895584" LocusId="Reut_B5056" Name="norA" Function="Nitric oxide-dependent regulator DnrN or NorA" />
+          <Members vimssId="895583" LocusId="Reut_B5055" Name="norB" Function="Nitric-oxide reductase (EC 1.7.99.7), quinol-dependent" />
+        </Operon>
+        <Operon>
+          <Members vimssId="895585" LocusId="Reut_B5057" Name="norR" Function="anaerobic nitric oxide reductase transcription regulator, Fis family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1085</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9847" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Reut_A0789" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=891245&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1078" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A2941" Name="nrdA" Position="-239" Score="4.9">
+          <Sequence>CCACTATATCTAGTAG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="893439" LocusId="Reut_A2941" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="893438" LocusId="Reut_A2940" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1078</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="repressor">
+      <Regulator Key="NsrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14620" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="Reut_A3220" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=893734&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="NsrR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1566" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A3220" Name="nsrR" Position="-39" Score="4.6">
+          <Sequence>CTTGCATTTGAAATGCCGC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A3219" Name="hmp" Position="-41" Score="5.5">
+          <Sequence>CATGCATTTTGTTTGCATG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="893734" LocusId="Reut_A3220" Name="nsrR" Function="Nitrite-sensitive transcriptional repressor NsrR" />
+        </Operon>
+        <Operon>
+          <Members vimssId="893733" LocusId="Reut_A3219" Name="hmp" Function="Flavohemoprotein (Hemoglobin-like protein) (Flavohemoglobin) (Nitric oxide dioxygenase) (EC 1.14.12.17)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1566</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19246" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="Reut_A2054" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=892527&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2078" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_B4859" Name="narK" Position="-271" Score="4.2">
+          <Sequence>CGCACCATGACTGTGCC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A3006" Name="dppA" Position="-93" Score="4.9">
+          <Sequence>CGCACCAAAATGCAGCG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B4038" Name="amtB" Position="-91" Score="4.6">
+          <Sequence>TCCACCATGAAGGTGCA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A2057" Name="glnA" Position="-319" Score="4.9">
+          <Sequence>CGCACCGTTATGGTGTT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A2056" Name="ntrZ" Position="-80" Score="4.6">
+          <Sequence>AGCACCATCAAGGGGCG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B4038" Name="amtB" Position="-232" Score="4.7">
+          <Sequence>TGCACCACTAAGGTTCA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="894565" LocusId="Reut_B4038" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="892529" LocusId="Reut_A2056" Name="ntrZ" Function="Conserved hypothetical signal peptide protein" />
+          <Members vimssId="892528" LocusId="Reut_A2055" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="892527" LocusId="Reut_A2054" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="892530" LocusId="Reut_A2057" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="895386" LocusId="Reut_B4859" Name="narK" Function="Nitrate/nitrite antiporter" />
+          <Members vimssId="895387" LocusId="Reut_B4860" Name="nasD" Function="Nitrite reductase, large subunit (EC 1.7.1.4)" />
+          <Members vimssId="895388" LocusId="Reut_B4861" Name="nasE" Function="Nitrite reductase, small subunit (EC 1.7.1.4)" />
+          <Members vimssId="895389" LocusId="Reut_B4862" Name="nasB" Function="Assimilatory nitrate reductase, small subunit (EC:1.7.99.4)" />
+          <Members vimssId="895390" LocusId="Reut_B4863" Name="nasA" Function="Assimilatory nitrate reductase, large subunit (EC:1.7.99.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="893505" LocusId="Reut_A3006" Name="dppA" Function="Dipeptide ABC transporter, substrate-binding component" />
+          <Members vimssId="893504" LocusId="Reut_A3005" Name="dppB" Function="Dipeptide ABC transporter, permease component 1" />
+          <Members vimssId="893503" LocusId="Reut_A3004" Name="dppC" Function="Dipeptide ABC transporter, permease component 2" />
+          <Members vimssId="893502" LocusId="Reut_A3003" Name="dppD" Function="Dipeptide ABC transporter, ATP-binding component 1" />
+          <Members vimssId="893501" LocusId="Reut_A3002" Name="dppF" Function="Dipeptide ABC transporter, ATP-binding component 2" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2078</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="OapR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60768" />
+      <Effector />
+      <Pathway>Gamma-aminobutyrate utilization</Pathway>
+      <LocusTag Key="Reut_A0247" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=890699&amp;disp=0" />
+      <BiologicalProcess>Gamma-aminobutyrate utilization</BiologicalProcess>
+      <Regulog Key="OapR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6239" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A0248" Name="oapT" Position="-171" Score="14.6">
+          <Sequence>TCCTGTACGGTT-(11)-AACTGTACGGTA-(15)-GACTGTATATTT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="890700" LocusId="Reut_A0248" Name="oapT" Function="Omega-amino acid--pyruvate aminotransferase (EC 2.6.1.18), PLP dependent" />
+          <Members vimssId="890701" LocusId="Reut_A0249" Name="oapD" Function="Predicted NAD-dependent succinate-semialdehyde dehydrogenase  (EC 1.2.1.16)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6239</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PaaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=38871" />
+      <Effector>Phenylacetyl-CoA</Effector>
+      <Pathway>Phenylacetic acid degradation</Pathway>
+      <LocusTag Key="Reut_A3212" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=893726&amp;disp=0" />
+      <BiologicalProcess>Phenylacetic acid degradation</BiologicalProcess>
+      <Regulog Key="PaaR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3970" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A3015" Name="paaF" Position="-61" Score="6.2">
+          <Sequence>ACCGACCGATCGGTCGGTTAAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A3206" Name="paaA" Position="-95" Score="6.2">
+          <Sequence>ATTGACCGACCGGTCGGCTTAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A0110" Name="paaG" Position="-73" Score="6.4">
+          <Sequence>ATTTACCGACCGGCCGGTTGGT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="890561" LocusId="Reut_A0110" Name="paaG" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="893519" LocusId="Reut_A3015" Name="paaF" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+          <Members vimssId="893520" LocusId="Reut_A3016" Name="paaY" Function="thioesterase superfamily protein" />
+          <Members vimssId="893521" LocusId="Reut_A3017" Name="paaK" Function="Phenylacetate-coenzyme A ligase (EC 6.2.1.30)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="893720" LocusId="Reut_A3206" Name="paaA" Function="Phenylacetate-CoA oxygenase, PaaA subunit" />
+          <Members vimssId="893721" LocusId="Reut_A3207" Name="paaB" Function="Phenylacetate-CoA oxygenase, PaaB subunit" />
+          <Members vimssId="893722" LocusId="Reut_A3208" Name="paaC" Function="Phenylacetate-CoA oxygenase, PaaC subunit" />
+          <Members vimssId="893723" LocusId="Reut_A3209" Name="paaD" Function="Phenylacetate-CoA oxygenase, PaaD subunit" />
+          <Members vimssId="893724" LocusId="Reut_A3210" Name="paaE" Function="Probable phenylacetic acid degradation NADH oxidoreductase paaE (EC 1.-.-.-)" />
+          <Members vimssId="893725" LocusId="Reut_A3211" Name="paaW" Function="Protein of unknown function DUF3658/DUF1835" />
+          <Members vimssId="893726" LocusId="Reut_A3212" Name="paaR" Function="Transcriptional regulator of phenylacetic acid degradation, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3970</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="PhnF" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=31559" />
+      <Effector />
+      <Pathway>Phosphonate utilization</Pathway>
+      <LocusTag Key="Reut_B4185" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=894712&amp;disp=0" />
+      <BiologicalProcess>Phosphonate utilization</BiologicalProcess>
+      <Regulog Key="PhnF - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3261" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_B4185" Name="phnF" Position="-243" Score="6.7">
+          <Sequence>CCTATACGTCTATACGTGTAGA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B4186" Name="phnG" Position="-29" Score="6.7">
+          <Sequence>TCTACACGTATAGACGTATAGG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="894712" LocusId="Reut_B4185" Name="phnF" Function="Transcriptional regulator for phosphonate utilization, GntR family" />
+          <Members vimssId="894711" LocusId="Reut_B4184" Name="phnM" Function="Alpha-D-ribose-1-methylphosphonate-5-triphosphate hydrolase" />
+          <Members vimssId="894710" LocusId="Reut_B4183" Name="rcsF" Function="Protein RcsF involved in phosphonates utilization" />
+          <Members vimssId="894709" LocusId="Reut_B4182" Name="phnN" Function="Ribose 1,5-bisphosphokinase activity (phosphoribosyl diphosphate forming)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="894713" LocusId="Reut_B4186" Name="phnG" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnG" />
+          <Members vimssId="894714" LocusId="Reut_B4187" Name="phnH" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnH" />
+          <Members vimssId="894715" LocusId="Reut_B4188" Name="phnI" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnI" />
+          <Members vimssId="894716" LocusId="Reut_B4189" Name="phnJ" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnJ" />
+          <Members vimssId="894717" LocusId="Reut_B4190" Name="phnK" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnK" />
+          <Members vimssId="894718" LocusId="Reut_B4191" Name="phnL" Function="Methylphosphonate degradation complex, carbon-phosphorus lyase subunit PhnL" />
+          <Members vimssId="894719" LocusId="Reut_B4192" Name="phnM" Function="Alpha-D-ribose-1-methylphosphonate-5-triphosphate hydrolase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3261</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="PhnR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57536" />
+      <Effector>2-aminoethylphosphonate</Effector>
+      <Pathway>2-aminoethylphosphonate utilization</Pathway>
+      <LocusTag Key="Reut_B3719" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=894244&amp;disp=0" />
+      <BiologicalProcess>2-aminoethylphosphonate utilization</BiologicalProcess>
+      <Regulog Key="PhnR2 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5889" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_B5874" Name="phnS" Position="-139" Score="5">
+          <Sequence>ATTGTCAACAGT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B3719" Name="phnR2" Position="-81" Score="5.2">
+          <Sequence>ATTGTTGACAAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B3718" Name="phnW" Position="-273" Score="5.2">
+          <Sequence>ATTGTCAACAAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B5875" Name="" Position="-45" Score="5">
+          <Sequence>ACTGTTGACAAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="894243" LocusId="Reut_B3718" Name="phnW" Function="2-aminoethylphosphonate:pyruvate aminotransferase (EC 2.6.1.37)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="896411" LocusId="Reut_B5874" Name="phnS" Function="2-aminoethylphosphonate ABC transporter, periplasmic binding component (TC 3.A.1.9.1)" />
+          <Members vimssId="896410" LocusId="Reut_B5873" Name="phnT" Function="2-aminoethylphosphonate ABC transporter, ATP-binding protein (TC 3.A.1.9.1)" />
+          <Members vimssId="896409" LocusId="Reut_B5872" Name="phnUV" Function="A2-aminoethylphosphonate ABC transporter, permease protein (TC 3.A.1.9.1)" />
+          <Members vimssId="896408" LocusId="Reut_B5871" Name="phnW" Function="2-aminoethylphosphonate:pyruvate aminotransferase (EC 2.6.1.37)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="894244" LocusId="Reut_B3719" Name="phnR2" Function="2-aminoethylphosphonate uptake and metabolism regulator, GntR family" />
+          <Members vimssId="894245" LocusId="Reut_B3720" Name="h16_B1948" Function="Phosphonoacetate hydrolase (EC 3.11.1.2)" />
+          <Members vimssId="894246" LocusId="Reut_B3721" Name="h16_B1947" Function="Aldehyde dehydrogenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="896412" LocusId="Reut_B5875" Name="null" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="896413" LocusId="Reut_B5876" Name="null" Function="Phosphonoacetate hydrolase (EC 3.11.1.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5889</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="PsrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=10004" />
+      <Effector>Oleate</Effector>
+      <Pathway>Fatty acid degradation</Pathway>
+      <LocusTag Key="Reut_A3446" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=893963&amp;disp=0" />
+      <BiologicalProcess>Fatty acid degradation</BiologicalProcess>
+      <Regulog Key="PsrA - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1102" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A2265" Name="fabH" Position="-198" Score="2.5">
+          <Sequence>GATCAAACGCGGGTATGATG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A3446" Name="psrA" Position="-120" Score="3.6">
+          <Sequence>ATTAGAGCAGGCATTCGAAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="892754" LocusId="Reut_A2265" Name="fabH" Function="3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)" />
+          <Members vimssId="892753" LocusId="Reut_A2264" Name="fabD" Function="Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)" />
+          <Members vimssId="892752" LocusId="Reut_A2263" Name="fabG" Function="3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)" />
+          <Members vimssId="892751" LocusId="Reut_A2262" Name="acpP" Function="Acyl carrier protein" />
+          <Members vimssId="892750" LocusId="Reut_A2261" Name="fabF" Function="3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="893963" LocusId="Reut_A3446" Name="psrA" Function="Transcriptional regulator for fatty acid degradation PsrA, TetR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1102</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="RALTA_A0216" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61061" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Reut_A0251" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=890703&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="RALTA_A0216 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6272" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A0252" Name="PF11142" Position="-130" Score="20.5">
+          <Sequence>AACTGTCAGG-(8)-CTGAACAGTT-(7)-AACTGTTCAC-(0)-AACTGTACAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="890704" LocusId="Reut_A0252" Name="PF11142" Function="Protein of unknown function DUF2917" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6272</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="Reut_C5892" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56293" />
+      <Effector />
+      <Pathway>Sugar utilization</Pathway>
+      <LocusTag Key="Reut_C5892" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=889812&amp;disp=0" />
+      <BiologicalProcess>Sugar utilization</BiologicalProcess>
+      <Regulog Key="Reut_C5892 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5746" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_C5893" Name="Reut_C5893" Position="-81" Score="5.6">
+          <Sequence>TAATGACTACGTAACCAAAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="889813" LocusId="Reut_C5893" Name="Reut_C5893" Function="Putative membrane protein" />
+          <Members vimssId="889814" LocusId="Reut_C5894" Name="Reut_C5894" Function="Putative dehydratase" />
+          <Members vimssId="889815" LocusId="Reut_C5895" Name="Reut_C5895" Function="Putative exported protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5746</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="Rmet_4647" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51871" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Reut_A1198" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=891658&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="Rmet_4647 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5268" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A1198" Name="Rmet_4647" Position="-108" Score="6.4">
+          <Sequence>TTCGGAAAACGTTTTCAGAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A1197" Name="Rmet_4645" Position="-66" Score="6.4">
+          <Sequence>ATCTGAAAACGTTTTCCGAA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="891657" LocusId="Reut_A1197" Name="Rmet_4645" Function="Putative extra-cytoplasmic solute receptor" />
+          <Members vimssId="891656" LocusId="Reut_A1196" Name="PF00501" Function="AMP-dependent synthetase and ligase" />
+          <Members vimssId="891655" LocusId="Reut_A1195" Name="Rmet_4646" Function="Probable short-chain dehydrogenase" />
+          <Members vimssId="891654" LocusId="Reut_A1194" Name="COG0372" Function="Predicted citrate synthase" />
+          <Members vimssId="891653" LocusId="Reut_A1193" Name="PF02627" Function="Putative decarboxylase" />
+          <Members vimssId="891652" LocusId="Reut_A1192" Name="Rmet_4646" Function="Probable short-chain dehydrogenase" />
+          <Members vimssId="891651" LocusId="Reut_A1191" Name="Rmet_4645" Function="Putative extra-cytoplasmic solute receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="891658" LocusId="Reut_A1198" Name="Rmet_4647" Function="Predicted transcriptional regulator, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5268</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="Rmet_5631" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59900" />
+      <Effector />
+      <Pathway>Glycolate utilization; Lactate utilization</Pathway>
+      <LocusTag Key="Reut_B5139" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=895667&amp;disp=0" />
+      <BiologicalProcess>Glycolate utilization; Lactate utilization</BiologicalProcess>
+      <Regulog Key="Rmet_5631 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6150" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_B5140" Name="sgaA" Position="-188" Score="5.2">
+          <Sequence>ATCTTGCATGCAAAGT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B5140" Name="sgaA" Position="-32" Score="5.9">
+          <Sequence>ATTTTGAATGCAAAAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B5139" Name="Rmet_5631" Position="-163" Score="5.9">
+          <Sequence>ATTTTGCATTCAAAAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B5139" Name="Rmet_5631" Position="-7" Score="5.2">
+          <Sequence>ACTTTGCATGCAAGAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="895668" LocusId="Reut_B5140" Name="sgaA" Function="Serine--glyoxylate aminotransferase (EC 2.6.1.45)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="895667" LocusId="Reut_B5139" Name="Rmet_5631" Function="Transcriptional regulator associated with tricarboxylic transport, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6150</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor (activator)">
+      <Regulator Key="RutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30799" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="Reut_B3988" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=894513&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3180" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_B3985" Name="ribA2" Position="-45" Score="7.1">
+          <Sequence>ACTTGACCATTTGGTCAGGA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="894510" LocusId="Reut_B3985" Name="ribA2" Function="GTP cyclohydrolase II (EC 3.5.4.25  ) homolog" />
+          <Members vimssId="894511" LocusId="Reut_B3986" Name="PF07958" Function="Conserved hypothetical protein" />
+          <Members vimssId="894512" LocusId="Reut_B3987" Name="upp" Function="Uracil phosphoribosyltransferase (EC 2.4.2.9)" />
+          <Members vimssId="894513" LocusId="Reut_B3988" Name="rutR" Function="Transcriptional regulator, TetR family" />
+          <Members vimssId="894514" LocusId="Reut_B3989" Name="ppuB" Function="Predicted ABC transporter, substrate-binding protein precursor" />
+          <Members vimssId="894515" LocusId="Reut_B3990" Name="ppuA" Function="Predicted ABC transporter, ATP-binding protein" />
+          <Members vimssId="894516" LocusId="Reut_B3991" Name="ppuC" Function="Predicted ABC transporter, permease protein" />
+          <Members vimssId="894517" LocusId="Reut_B3992" Name="ppuD" Function="Predicted ABC transporter, inner membrane protein precursor" />
+          <Members vimssId="894518" LocusId="Reut_B3993" Name="codA" Function="Cytosine deaminase (EC 3.5.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3180</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="SdaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57508" />
+      <Effector />
+      <Pathway>Glucuronate utilization; Glucarate utilization; Galactarate utilization</Pathway>
+      <LocusTag Key="Reut_A1260" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=891720&amp;disp=0" />
+      <BiologicalProcess>Glucuronate utilization; Glucarate utilization; Galactarate utilization</BiologicalProcess>
+      <Regulog Key="SdaR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5885" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A1260" Name="sdaR" Position="-34" Score="5.7">
+          <Sequence>AATCTGTCTGACAGCCT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="891720" LocusId="Reut_A1260" Name="sdaR" Function="Predicted regulator of D-glucarate/D-galactarate utilization, GntR family" />
+          <Members vimssId="891719" LocusId="Reut_A1259" Name="COG579" Function="2-hydroxyglutarate dehydrogenase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5885</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="SdhR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62143" />
+      <Effector />
+      <Pathway>Tricarboxylic acid cycle</Pathway>
+      <LocusTag Key="Reut_A2326" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=892816&amp;disp=0" />
+      <BiologicalProcess>Tricarboxylic acid cycle</BiologicalProcess>
+      <Regulog Key="SdhR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6385" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A2756" Name="icd" Position="-158" Score="5.8">
+          <Sequence>TCTTGTGTCTTATATAAGACTGAAAG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A2326" Name="sdhR" Position="-77" Score="7.9">
+          <Sequence>TCATATGTCTTATATAAGACATAAGA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A1961" Name="aceA" Position="-124" Score="5.4">
+          <Sequence>CCTACACTCTTATATAAGACAAATGA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A0384" Name="aceA2" Position="-134" Score="6.5">
+          <Sequence>TCTTATGTCTTATATAAGACTGACGC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A2327" Name="mdh" Position="-327" Score="7.9">
+          <Sequence>TCTTATGTCTTATATAAGACATATGA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="892816" LocusId="Reut_A2326" Name="sdhR" Function="Transcriptional regulator of TCA cycle, GntR family" />
+          <Members vimssId="892815" LocusId="Reut_A2325" Name="sdhC" Function="Succinate dehydrogenase cytochrome b-556 subunit" />
+          <Members vimssId="892814" LocusId="Reut_A2324" Name="sdhD" Function="Succinate dehydrogenase hydrophobic membrane anchor protein" />
+          <Members vimssId="892813" LocusId="Reut_A2323" Name="sdhA" Function="Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1)" />
+          <Members vimssId="892812" LocusId="Reut_A2322" Name="sdhB" Function="Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1)" />
+          <Members vimssId="892811" LocusId="Reut_A2321" Name="COG2938" Function="succinate dehydrogenase iron-sulfur subunit" />
+          <Members vimssId="892810" LocusId="Reut_A2320" Name="gltA" Function="Citrate synthase (si) (EC 2.3.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="892817" LocusId="Reut_A2327" Name="mdh" Function="Malate dehydrogenase (EC 1.1.1.37)" />
+          <Members vimssId="892818" LocusId="Reut_A2328" Name="citE" Function="Citrate lyase beta chain (EC 4.1.3.6)" />
+          <Members vimssId="892819" LocusId="Reut_A2329" Name="prpC2" Function="2-methylcitrate synthase (EC 2.3.3.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="890837" LocusId="Reut_A0384" Name="aceA2" Function="Isocitrate lyase (EC 4.1.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="892433" LocusId="Reut_A1961" Name="aceA" Function="Isocitrate lyase (EC 4.1.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="893254" LocusId="Reut_A2756" Name="icd" Function="Isocitrate dehydrogenase [NADP] (EC 1.1.1.42)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6385</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="TalR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=65758" />
+      <Effector>L-talarate</Effector>
+      <Pathway>L-talarate utilization</Pathway>
+      <LocusTag Key="Reut_B4642" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=895169&amp;disp=0" />
+      <BiologicalProcess>L-talarate utilization</BiologicalProcess>
+      <Regulog Key="TalR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6792" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_B4643" Name="talD" Position="-85" Score="6.3">
+          <Sequence>GAATGACAACGTTAGCATTT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B4643" Name="talD" Position="35" Score="6.7">
+          <Sequence>AAATGATAACGTTATCATTA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B4642" Name="talR" Position="-201" Score="6.7">
+          <Sequence>TAATGATAACGTTATCATTT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B4642" Name="talR" Position="-81" Score="6.3">
+          <Sequence>AAATGCTAACGTTGTCATTC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="895170" LocusId="Reut_B4643" Name="talD" Function="L-talarate dehydratase (EC 4.2.1.-)" />
+          <Members vimssId="895171" LocusId="Reut_B4644" Name="tctC" Function="Tripartite tricarboxylate transporter family receptor, putative transporter for L-talarate" />
+        </Operon>
+        <Operon>
+          <Members vimssId="895169" LocusId="Reut_B4642" Name="talR" Function="Predicted L-talarate-specific transcriptional regulator, LacI family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6792</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="TauR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59154" />
+      <Effector>Taurine</Effector>
+      <Pathway>Taurine utilization</Pathway>
+      <LocusTag Key="Reut_B3752" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=894277&amp;disp=0" />
+      <BiologicalProcess>Taurine utilization</BiologicalProcess>
+      <Regulog Key="TauR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6064" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_B3751" Name="tauX" Position="-148" Score="9.5">
+          <Sequence>CTGGCCCAAG-------------CTGGTCCTAC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A1472" Name="tauA" Position="-289" Score="8.9">
+          <Sequence>CTGGACCCAA-------------CTGGCACTAA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="891940" LocusId="Reut_A1472" Name="tauA" Function="Taurine-binding periplasmic protein TauA" />
+          <Members vimssId="891939" LocusId="Reut_A1471" Name="tauB" Function="Taurine transport ATP-binding protein TauB" />
+          <Members vimssId="891938" LocusId="Reut_A1470" Name="tauC" Function="Taurine transport system permease protein TauC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="894276" LocusId="Reut_B3751" Name="tauX" Function="Putative small subunit of taurine dehydrogenase" />
+          <Members vimssId="894275" LocusId="Reut_B3750" Name="tauY" Function="Taurine dehydrogenase, large subunit" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6064</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="UraR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57239" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="Reut_A2435" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=892926&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="UraR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5854" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A1294" Name="atzB" Position="-1" Score="3.4">
+          <Sequence>TTTGTGGACATC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A2435" Name="uraR" Position="-114" Score="5.2">
+          <Sequence>ATTGTCAACAAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A2435" Name="uraR" Position="-146" Score="5.2">
+          <Sequence>TTTGTTGACAAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A2434" Name="pucM" Position="-204" Score="5.2">
+          <Sequence>ATTGTCAACAAA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A2434" Name="pucM" Position="-236" Score="5.2">
+          <Sequence>ATTGTTGACAAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="892925" LocusId="Reut_A2434" Name="pucM" Function="5-hydroxyisourate hydrolase (HIUHase)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="891757" LocusId="Reut_A1294" Name="atzB" Function="Guanine deaminase (EC 3.5.4.3); Hydroxydechloroatrazine ethylaminohydrolase (EC 3.5.99.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="892926" LocusId="Reut_A2435" Name="uraR" Function="Predicted transcriptional regulator for pyrimidine utilization, GntR family" />
+          <Members vimssId="892927" LocusId="Reut_A2436" Name="pbuT" Function="Xanthine/uracil permease" />
+          <Members vimssId="892928" LocusId="Reut_A2437" Name="COG0726" Function="putative polysaccharide deacetylase family protein" />
+          <Members vimssId="892929" LocusId="Reut_A2438" Name="uraO" Function="Urate oxidase (EC 1.7.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5854</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YdcR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59734" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Reut_B3939" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=894464&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="YdcR - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6131" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A1452" Name="h16_A1590" Position="-119" Score="8.4">
+          <Sequence>ATCTGATATGCAAGA---------ATCTGCTGCTGTCAT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B4284" Name="PF01654" Position="-290" Score="8.5">
+          <Sequence>CTCTGATACGGTCTT---------TTTTGCTTCTGTTCT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="894811" LocusId="Reut_B4284" Name="PF01654" Function="Cytochrome d ubiquinol oxidase subunit I (EC 1.10.3.-)" />
+          <Members vimssId="894812" LocusId="Reut_B4285" Name="PF02322" Function="Cytochrome d ubiquinol oxidase subunit II (EC 1.10.3.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="891920" LocusId="Reut_A1452" Name="h16_A1590" Function="putative three-component membrane-bound alcohol deshydrogenase, subunit III (AdhS)" />
+          <Members vimssId="891921" LocusId="Reut_A1453" Name="COG3258" Function="Putative diheme cytochrome c-553" />
+          <Members vimssId="891922" LocusId="Reut_A1454" Name="h16_A1592" Function="putative three-component membrane-bound alcohol deshydrogenase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6131</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="YrdX3" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61841" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="Reut_B4580" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=895107&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="YrdX3 - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6351" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_B4579" Name="cyoA2" Position="-101" Score="15">
+          <Sequence>CTTGTAGGTGG-(20)-CTTGTATGGAT-(36)-ATCCATACAAA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B4580" Name="yrdX3" Position="-100" Score="9.2">
+          <Sequence>TTTGTATGGAT-(18)-ATGGTAAGGTA-(36)-ATCCACCTACA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="895106" LocusId="Reut_B4579" Name="cyoA2" Function="Cytochrome O ubiquinol oxidase subunit II (EC 1.10.3.-)" />
+          <Members vimssId="895105" LocusId="Reut_B4578" Name="cyoB2" Function="Cytochrome O ubiquinol oxidase subunit I (EC 1.10.3.-)" />
+          <Members vimssId="895104" LocusId="Reut_B4577" Name="cyoC2" Function="Cytochrome O ubiquinol oxidase subunit III (EC 1.10.3.-)" />
+          <Members vimssId="895103" LocusId="Reut_B4576" Name="cyoD2" Function="Cytochrome O ubiquinol oxidase subunit IV (EC 1.10.3.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="895107" LocusId="Reut_B4580" Name="yrdX3" Function="Transcriptional regulator, GntR/MocR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6351</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=9924" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="Reut_A0164" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=890615&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Ralstonia" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1090" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A0161" Name="yciC" Position="-66" Score="6.3">
+          <Sequence>CAGTCGCAACTTTGTTGCAATAA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A0876" Name="zip" Position="-3" Score="6.3">
+          <Sequence>TTGTTGCAACATTGTTGCGTTTG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="890612" LocusId="Reut_A0161" Name="yciC" Function="Putative zinc chaperone, COG0523 family" />
+          <Members vimssId="890611" LocusId="Reut_A0160" Name="null" Function="hypothetical transmembrane protein" />
+          <Members vimssId="890610" LocusId="Reut_A0159" Name="omr" Function="predicted zinc-related TonB-dependent outer membrane transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="891333" LocusId="Reut_A0876" Name="zip" Function="Zinc transporter, ZIP family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1090</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00174" RegulationMode="RF00174">
+      <Regulator Key="Cobalamin" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14096" />
+      <Effector>Adenosylcobalamin</Effector>
+      <Pathway>Cobalamin biosynthesis</Pathway>
+      <LocusTag Key="Cobalamin" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A0654" Name="btuB" Position="-322" Score="47.7">
+          <Sequence>CACTCGCGCACGTTCCAGGTGCTCGCCATCCGCCCAAGGCAGATTGGCAGTTCAACGGGAAACAGGGAGCCGCGGCCGACGAACAGCTCGGCCAGGCCAACCTGTGCTGCCCCCGCAACGGTAAGCGGCCGCGATGCCTGCCCACACGGCGTCGCAGGGCTGGCCAATCGCCACTGAACCTCACGCGTTCGGGAAGGCGGCCAGTCCCGAGCCGCCAGCCCGGATACCGGCCTGAACGCGGGCTGCCGCCCC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="891109" LocusId="Reut_A0654" Name="btuB" Function="Outer membrane vitamin B12 receptor BtuB" />
+          <Members vimssId="891110" LocusId="Reut_A0655" Name="btuC" Function="Vitamin B12 ABC transporter, permease component BtuC" />
+          <Members vimssId="891111" LocusId="Reut_A0656" Name="btuD" Function="Vitamin B12 ABC transporter, ATPase component BtuD" />
+          <Members vimssId="891112" LocusId="Reut_A0657" Name="btuR" Function="Cob(I)alamin adenosyltransferase (EC 2.5.1.17)" />
+          <Members vimssId="891113" LocusId="Reut_A0658" Name="cobT" Function="Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase (EC 2.4.2.21)" />
+          <Members vimssId="891114" LocusId="Reut_A0659" Name="cobS" Function="Cobalamin synthase" />
+          <Members vimssId="891115" LocusId="Reut_A0660" Name="cobC" Function="Alpha-ribazole-5'-phosphate phosphatase (EC 3.1.3.73)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13613" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_B4029" Name="ribB" Position="-336" Score="100.1">
+          <Sequence>TACGTCTTCAGGGCGGGGTGAAACTCCCCACCGGCGGTATGCCGCAGCGTGCGTTTCCGTACGATGCAGCGAGCCCGCGAGCGCCTGCACATGCCGTGCAGGGTCAGCAGACCTGGTGCGATGCCAGGGCCGACGGTCATAGTCCGGATGAAAGAAGATGGGCGG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="894556" LocusId="Reut_B4029" Name="ribB" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00504" RegulationMode="RF00504">
+      <Regulator Key="Glycine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21394" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="Glycine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A3329" Name="gcvT" Position="-329" Score="47">
+          <Sequence>GCATCCGACCGGGAGAGCGCGCACAGTCTTGCGCCGCCGAAGGGGTATCACCCGAAAACTCTCAGGCACCACGGACCGTTCGGATCGGCA</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_A3329" Name="gcvT" Position="-219" Score="39.2">
+          <Sequence>TGCCGCACTCTGGAGAGCGGCACCCGCCATCAATGGCGAGCGTGCCCACCGAAGGGGCGCGCGAGGATCGGATCCAACGGATCGGCCTCGTAATCTCTCAGGTATCGAGGACAGAGGGGTCATCCG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B3726" Name="dadA" Position="-241" Score="40.3">
+          <Sequence>GCGACCTCGCAGGAGAGACCGGAACGCCGCCAGGCGCGTCCGGCGCCGACGGAGCAACCGCCCCGGAAACTCTCAGGCACACAGGACTGTGGCGTCG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B3726" Name="dadA" Position="-142" Score="46.8">
+          <Sequence>AGTACAGATCTGGAGAGAGGCGCTTTGCGCCCACCGAAGGGGACGGCATGGCCTGGCCATGTCCAAGCTCTCAGGTACCGCGGACAGATGGGGCAGGGG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="893845" LocusId="Reut_A3329" Name="gcvT" Function="Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10)" />
+          <Members vimssId="893846" LocusId="Reut_A3330" Name="gcvH" Function="Glycine cleavage system H protein" />
+          <Members vimssId="893847" LocusId="Reut_A3331" Name="gcvP" Function="Glycine dehydrogenase [decarboxylating] (glycine cleavage system P protein) (EC 1.4.4.2)" />
+          <Members vimssId="893848" LocusId="Reut_A3332" Name="yrbG" Function="Hypothetical protein" />
+          <Members vimssId="893849" LocusId="Reut_A3333" Name="sdaA" Function="L-serine dehydratase (EC 4.3.1.17)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="894251" LocusId="Reut_B3726" Name="dadA" Function="D-amino acid dehydrogenase small subunit (EC 1.4.99.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01057" RegulationMode="RF01057">
+      <Regulator Key="SAH_riboswitch" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=22444" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="SAH_riboswitch" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A0213" Name="ahcY" Position="-202" Score="61.1">
+          <Sequence>ACTCCGAGGAGCGTTGCAACGGATCGTGGCGTAACATGCCCTCCGCCAGGCTCGGACTGTCTTCAACGGCGCTCGCTGATCCG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="890664" LocusId="Reut_A0213" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+          <Members vimssId="890665" LocusId="Reut_A0214" Name="PF04020" Function="Predicted membrane protein" />
+          <Members vimssId="890666" LocusId="Reut_A0215" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13909" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A0205" Name="thiC" Position="-202" Score="59.5">
+          <Sequence>GGATGAAACAGGGGTGCCGTACGGATGGGCCGTGCGAGCTGAGAGAGTCCCTTCGAACCCGATCCGGTTAGTACCGGCGTGGGAAGTTTCTAGCAAGACCAAGT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="890656" LocusId="Reut_A0205" Name="thiC" Function="Phosphomethylpyrimidine synthase" />
+          <Members vimssId="890657" LocusId="Reut_A0206" Name="thiO" Function="Glycine oxidase ThiO (EC 1.4.3.19)" />
+          <Members vimssId="890658" LocusId="Reut_A0207" Name="thiS" Function="Sulfur carrier protein ThiS" />
+          <Members vimssId="890659" LocusId="Reut_A0208" Name="thiG" Function="Thiazole synthase" />
+          <Members vimssId="890660" LocusId="Reut_A0209" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01068" RegulationMode="RF01068">
+      <Regulator Key="mini-ykkC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=24092" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="mini-ykkC" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_B4883" Name="ucaA" Position="-72" Score="37.8">
+          <Sequence>CGCCGCGGGACGACCCGTGGCCGATACGCAACCGGCAGGACGACCTGC</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="895410" LocusId="Reut_B4883" Name="ucaA" Function="Urea carboxylase (EC 6.3.4.6)" />
+          <Members vimssId="895409" LocusId="Reut_B4882" Name="ucaB" Function="Allophanate hydrolase (EC 3.5.1.54)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01070" RegulationMode="RF01070">
+      <Regulator Key="sucA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=24560" />
+      <Effector />
+      <Pathway>Tricarboxylic acid cycle</Pathway>
+      <LocusTag Key="sucA" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A2047" Name="sucA" Position="-88" Score="80">
+          <Sequence>TTTGCGATCCGCTAACCGGTCAAGCCGTGTCGCGGAAGGTTGAATAACCCGCTGAACTCCGGCATACCCGGAGAAAAGTGAGCG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="892520" LocusId="Reut_A2047" Name="sucA" Function="2-oxoglutarate dehydrogenase E1 component (EC 1.2.4.2)" />
+          <Members vimssId="892519" LocusId="Reut_A2046" Name="sucB" Function="Dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase complex (EC 2.3.1.61)" />
+          <Members vimssId="892518" LocusId="Reut_A2045" Name="lpdA" Function="Dihydrolipoamide dehydrogenase of 2-oxoglutarate dehydrogenase (EC 1.8.1.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00442" RegulationMode="RF00442">
+      <Regulator Key="ykkC-yxkD" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=23848" />
+      <Effector />
+      <Pathway>Multidrug resistance</Pathway>
+      <LocusTag Key="ykkC-yxkD" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_B3481" Name="" Position="-170" Score="74">
+          <Sequence>ACCGAAGGGTAGCTAGGGTTCCGGTCGTGCCATGCGCGCGATGGCTGGTCCGAGAGCGACCGGCCACCGGCACCTGATCCGCCGGCGGCTCCACGGCGGGACAAAAGCCCGGGAGGT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Reut_B4888" Name="uctB" Position="-175" Score="76.2">
+          <Sequence>ACCGAAGGGTCGCTAGGGTTCCGGTCGCGCTGCGCGCGATGTCTGGTCCAAGAGCAACCGGCCTCAGGCGCGCTCGACCGCGTCCAGGCTCCACGGCGGGACAAAAGCCCGGGAGGT</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="893998" LocusId="Reut_B3481" Name="null" Function="Hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="895415" LocusId="Reut_B4888" Name="uctB" Function="Urea carboxylase-related ABC transporter, periplasmic substrate-binding protein" />
+          <Members vimssId="895414" LocusId="Reut_B4887" Name="uctP" Function="Urea carboxylase-related ABC transporter, permease protein" />
+          <Members vimssId="895413" LocusId="Reut_B4886" Name="uctA" Function="Urea carboxylase-related ABC transporter, ATPase protein" />
+          <Members vimssId="895412" LocusId="Reut_B4885" Name="amt1" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="895411" LocusId="Reut_B4884" Name="amt2" Function="Urea carboxylase-related aminomethyltransferase (EC 2.1.2.10)" />
+          <Members vimssId="895410" LocusId="Reut_B4883" Name="ucaA" Function="Urea carboxylase (EC 6.3.4.6)" />
+          <Members vimssId="895409" LocusId="Reut_B4882" Name="ucaB" Function="Allophanate hydrolase (EC 3.5.1.54)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00080" RegulationMode="RF00080">
+      <Regulator Key="yybP-ykoY" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=23614" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="yybP-ykoY" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Reut_A0916" Name="ykoY" Position="-231" Score="68.8">
+          <Sequence>GCGTCCCTTCAAAGGGGAGTAGCTCCGGGGCCATGCCCTTAGCACAATCGTCATTCCGAGACTGACGTCTCCGGTTGTGCTGACACTGGTGCGCAGACCGCGCCAGACGTCGAGCAAGACCTTTGCAACCTGG</Sequence>
+          <Bacteria>Ralstonia eutropha JMP134</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="891374" LocusId="Reut_A0916" Name="ykoY" Function="Membrane protein TerC, possibly involved in tellurium resistance" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

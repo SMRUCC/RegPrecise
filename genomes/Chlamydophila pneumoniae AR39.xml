@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Chlamydophila pneumoniae AR39" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=59480" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="CP0574" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=48149&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Chlamydiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6105" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CP0575" Name="glnP" Position="-49" Score="5.2">
+          <Sequence>ATTGCATAAATATGATTT</Sequence>
+          <Bacteria>Chlamydophila pneumoniae AR39</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CP0575" Name="glnP" Position="-28" Score="5.2">
+          <Sequence>TATAAATAAATATGCATA</Sequence>
+          <Bacteria>Chlamydophila pneumoniae AR39</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="48150" LocusId="CP0575" Name="glnP" Function="amino acid ABC transporter, permease protein" />
+          <Members vimssId="48151" LocusId="CP0576" Name="glnQ" Function="amino acid ABC transporter, ATP-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6105</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=58720" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="CP0253" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=47836&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Chlamydiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6013" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CP0253" Name="hcrA" Position="-33" Score="6.6">
+          <Sequence>TTAGCATTCATTCAATTCGAGTGCTAA</Sequence>
+          <Bacteria>Chlamydophila pneumoniae AR39</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CP0637" Name="groS" Position="-113" Score="7.2">
+          <Sequence>TTAGCACTTAAAATTATTGAGTGCTAA</Sequence>
+          <Bacteria>Chlamydophila pneumoniae AR39</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="47836" LocusId="CP0253" Name="hcrA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="47835" LocusId="CP0252" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="47834" LocusId="CP0251" Name="dnaK" Function="Chaperone protein DnaK" />
+        </Operon>
+        <Operon>
+          <Members vimssId="48211" LocusId="CP0637" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="48212" LocusId="CP0638" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6013</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41966" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="CP0219" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=47802&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Chlamydiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4333" />
+      <RegulatorySites>
+        <FastaObject LocusTag="CP0872" Name="nrdA" Position="-180" Score="5.4">
+          <Sequence>TCACTACATATTGGGT</Sequence>
+          <Bacteria>Chlamydophila pneumoniae AR39</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="CP0872" Name="nrdA" Position="-212" Score="5.3">
+          <Sequence>TTCCTATATATGGTAG</Sequence>
+          <Bacteria>Chlamydophila pneumoniae AR39</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="48442" LocusId="CP0872" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="48441" LocusId="CP0871" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4333</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

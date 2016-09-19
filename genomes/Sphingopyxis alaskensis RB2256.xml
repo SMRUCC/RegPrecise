@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Sphingopyxis alaskensis RB2256" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="BglR " Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=54657" />
+      <Effector>Beta-glucoside; Glucose</Effector>
+      <Pathway>Beta-glucosides utilization</Pathway>
+      <LocusTag Key="Sala_0920" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1835711&amp;disp=0" />
+      <BiologicalProcess>Beta-glucosides utilization</BiologicalProcess>
+      <Regulog Key="BglR - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5575" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sala_0914)" Name="omp(Bgl" Position="-84" Score="5.3">
+          <Sequence>CGAAGTGAACGTTATCATTT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0914)" Name="omp(Bgl" Position="-66" Score="6">
+          <Sequence>TTACGTGAACGTTCACAATC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1511" Name="bglX" Position="-35" Score="6">
+          <Sequence>AAATGAGAACGTTCACAAGA</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1836297" LocusId="Sala_1511" Name="bglX" Function="Beta-glucosidase (EC 3.2.1.21)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1835705" LocusId="Sala_0914" Name="omp(Bgl)" Function="TonB-dependent outer membrane transporter for beta-glucosides" />
+          <Members vimssId="1835706" LocusId="Sala_0915" Name="thl1" Function="tryptophan halogenase, putative" />
+          <Members vimssId="1835707" LocusId="Sala_0916" Name="sapC" Function="Peptide transport system permease protein sapC (TC 3.A.1.5.5)" />
+          <Members vimssId="1835708" LocusId="Sala_0917" Name="Sala_0917" Function="Pass1-related protein" />
+          <Members vimssId="1835709" LocusId="Sala_0918" Name="thl2" Function="tryptophan halogenase, putative" />
+          <Members vimssId="1835710" LocusId="Sala_0919" Name="bglA" Function="Glucan endo-1,3-beta-D-glucosidase" />
+          <Members vimssId="1835711" LocusId="Sala_0920" Name="bglR" Function="Transcriptional regulator of beta-glucoside utilization, LacI family" />
+          <Members vimssId="1835712" LocusId="Sala_0921" Name="bglT" Function="Putative beta-glucoside permease, MFS superfamily" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5575</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="CadR-PbrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51389" />
+      <Effector>Lead ion, (Pb2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Lead resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="Sala_2558" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1837337&amp;disp=0" />
+      <BiologicalProcess>Lead resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CadR-PbrR - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5210" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sala_2444" Name="czcD" Position="-19" Score="6.2">
+          <Sequence>ATCCTCCAGTGACTGGAGGAT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_2560" Name="czcD" Position="-34" Score="5.4">
+          <Sequence>CTTCTACAGTTACTGGAGGTT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1837339" LocusId="Sala_2560" Name="czcD" Function="Co/Zn/Cd efflux protein" />
+          <Members vimssId="1837340" LocusId="Sala_2561" Name="pbrT" Function="Pb(II) uptake protein, ILT family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1837224" LocusId="Sala_2444" Name="czcD" Function="Co/Zn/Cd efflux protein" />
+          <Members vimssId="1837225" LocusId="Sala_2445" Name="null" Function="hypothetical protein" />
+          <Members vimssId="1837226" LocusId="Sala_2446" Name="null" Function="hypothetical protein" />
+          <Members vimssId="1837227" LocusId="Sala_2447" Name="czcC" Function="Heavy metal efflux RND outer membrane protein" />
+          <Members vimssId="1837228" LocusId="Sala_2448" Name="czcB" Function="Heavy metal efflux RND transporter, membrane fusion protein" />
+          <Members vimssId="1837229" LocusId="Sala_2449" Name="czcA" Function="Heavy metal efflux RND transmembrane protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5210</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="ELI_12480" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57347" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux</Pathway>
+      <LocusTag Key="Sala_0952" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1835743&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux</BiologicalProcess>
+      <Regulog Key="ELI_12480 - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5865" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sala_2308" Name="ELI_11155" Position="-85" Score="4.7">
+          <Sequence>CAGTGTAATGCTTGTATAATACAGTG</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1453" Name="pbp" Position="1" Score="3.8">
+          <Sequence>TGCTGTGTTGGGGTTGTAATACGGCC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0471" Name="rndA" Position="-100" Score="4.9">
+          <Sequence>CGGTGATTTAATTAGGTAATACACCT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0952" Name="ELI_12480" Position="-25" Score="4.7">
+          <Sequence>TGCTGTCTTATGGCATTAAGTCGCCA</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1835265" LocusId="Sala_0471" Name="rndA" Function="RND family efflux transporter MFP subunit" />
+          <Members vimssId="1835266" LocusId="Sala_0472" Name="rndB" Function="RND multidrug efflux transporter transmembrane subunit" />
+          <Members vimssId="1835267" LocusId="Sala_0473" Name="COG2733" Function="Predicted membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1837090" LocusId="Sala_2308" Name="ELI_11155" Function="Uncharacterized protein involved in tellurite resistance" />
+          <Members vimssId="1837091" LocusId="Sala_2309" Name="ELI_11160" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1835743" LocusId="Sala_0952" Name="ELI_12480" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1836239" LocusId="Sala_1453" Name="pbp" Function="penicillin-binding protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5865</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator (repressor)">
+      <Regulator Key="FnrN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63362" />
+      <Effector>Oxygen</Effector>
+      <Pathway>Oxidative stress response; Nitrogen fixation</Pathway>
+      <LocusTag Key="Sala_1678" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1836464&amp;disp=0" />
+      <BiologicalProcess>Oxidative stress response; Nitrogen fixation</BiologicalProcess>
+      <Regulog Key="FnrN - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6529" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sala_1676" Name="ccoN" Position="-112" Score="4.6">
+          <Sequence>GCATTGATGGAGCGCAAGCA</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1676" Name="ccoN" Position="-90" Score="5.3">
+          <Sequence>TCGTTGATCCCGGTCAATGT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1677" Name="ompW" Position="-97" Score="5.3">
+          <Sequence>ACATTGACCGGGATCAACGA</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1677" Name="ompW" Position="-75" Score="4.6">
+          <Sequence>TGCTTGCGCTCCATCAATGC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1679" Name="uspA" Position="-69" Score="4.8">
+          <Sequence>GATTTGATGCGAATCAATGA</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1668" Name="hemN" Position="-51" Score="4.8">
+          <Sequence>CCGTTGATGCCGATCAATGC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1836463" LocusId="Sala_1677" Name="ompW" Function="Outer membrane protein W precursor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1836454" LocusId="Sala_1668" Name="hemN" Function="Coproporphyrinogen III oxidase, oxygen-independent (EC 1.3.99.22)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1836465" LocusId="Sala_1679" Name="uspA" Function="Predicted universal stress protein UspA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1836462" LocusId="Sala_1676" Name="ccoN" Function="Cytochrome c oxidase subunit CcoN (EC 1.9.3.1)" />
+          <Members vimssId="1836461" LocusId="Sala_1675" Name="ccoO" Function="Cytochrome c oxidase subunit CcoO (EC 1.9.3.1)" />
+          <Members vimssId="1836460" LocusId="Sala_1674" Name="ccoQ" Function="Cytochrome c oxidase subunit CcoQ (EC 1.9.3.1)" />
+          <Members vimssId="1836459" LocusId="Sala_1673" Name="ccoP" Function="Cytochrome c oxidase subunit CcoP (EC 1.9.3.1)" />
+          <Members vimssId="1836458" LocusId="Sala_1672" Name="ccoG" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoG, involved in Cu oxidation" />
+          <Members vimssId="1836457" LocusId="Sala_1671" Name="ccoH" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoH" />
+          <Members vimssId="1836456" LocusId="Sala_1670" Name="ccoI" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoI; Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="1836455" LocusId="Sala_1669" Name="ccoS" Function="Type cbb3 cytochrome oxidase biogenesis protein CcoS, involved in heme b insertion" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6529</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor (activator)">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19548" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="Sala_2066" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1836848&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2112" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sala_2091" Name="omp1" Position="52" Score="5">
+          <Sequence>GTTGCAATTCGCTCGCATT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0947" Name="omp2" Position="-62" Score="5.2">
+          <Sequence>AATGCAACTAATTCGCATT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0794" Name="sufS" Position="-36" Score="5.8">
+          <Sequence>TTTGCGAATTGTTCGCAAT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0675" Name="iscR" Position="-34" Score="5.2">
+          <Sequence>GTTAAGAATCGTTCGCAAC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0588" Name="bfr" Position="-353" Score="5.2">
+          <Sequence>ACTGCGAACCAGTCGCATC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0587" Name="" Position="-144" Score="5.5">
+          <Sequence>ATTGCGATTAATTCTCAAT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_2230" Name="mdh" Position="-173" Score="5.1">
+          <Sequence>ATTGCGAACTAATAGCAAA</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1032" Name="fpr" Position="-190" Score="5">
+          <Sequence>ATTGCAAATGAGTTGCACT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1206" Name="hemA" Position="-117" Score="5.5">
+          <Sequence>ACTGCGAATCGTTCGCACT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0588" Name="bfr" Position="-292" Score="4.7">
+          <Sequence>GTTGAGAAGGATTCGCACA</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_2986" Name="feoA" Position="-27" Score="5">
+          <Sequence>ATTGATAATCGCTCGCAAA</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0588" Name="bfr" Position="-328" Score="4.9">
+          <Sequence>GTTGCGAATCTGTCGCACT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1836873" LocusId="Sala_2091" Name="omp1" Function="TonB-dependent siderophore receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1835382" LocusId="Sala_0588" Name="bfr" Function="Bacterioferritin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1835738" LocusId="Sala_0947" Name="omp2" Function="TonB-dependent siderophore receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1835381" LocusId="Sala_0587" Name="null" Function="Hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1835995" LocusId="Sala_1206" Name="hemA" Function="5-aminolevulinate synthase (EC 2.3.1.37)" />
+          <Members vimssId="1835994" LocusId="Sala_1205" Name="null" Function="Putative nitroreductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1835587" LocusId="Sala_0794" Name="sufS" Function="Cysteine desulfurase (EC 2.8.1.7)" />
+          <Members vimssId="1835588" LocusId="Sala_0795" Name="fdx" Function="Ferredoxin, 2Fe-2S" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1835469" LocusId="Sala_0675" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="1835468" LocusId="Sala_0674" Name="sufB" Function="Iron-sulfur cluster assembly protein SufB" />
+          <Members vimssId="1835467" LocusId="Sala_0673" Name="null" Function="DNA methylase, putative" />
+          <Members vimssId="1835466" LocusId="Sala_0672" Name="null" Function="Acetyltransferase, GNAT family" />
+          <Members vimssId="1835465" LocusId="Sala_0671" Name="sufC" Function="Iron-sulfur cluster assembly ATPase protein SufC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1837764" LocusId="Sala_2986" Name="feoA" Function="Ferrous iron transport protein A" />
+          <Members vimssId="1837765" LocusId="Sala_2987" Name="feoB" Function="Ferrous iron transport protein B" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1837012" LocusId="Sala_2230" Name="mdh" Function="Malate dehydrogenase (EC 1.1.1.37)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1835822" LocusId="Sala_1032" Name="fpr" Function="Ferredoxin-NADP reductase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2112</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49766" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Sala_0253" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1835049&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5039" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sala_0453" Name="groS" Position="-59" Score="7">
+          <Sequence>TTAGCACTCTCCTGTGGCGAGTGCTAA</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1835247" LocusId="Sala_0453" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="1835246" LocusId="Sala_0452" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5039</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="HutC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17424" />
+      <Effector>cis-Urocanic acid</Effector>
+      <Pathway>Histidine utilization</Pathway>
+      <LocusTag Key="Sala_2408" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1837189&amp;disp=0" />
+      <BiologicalProcess>Histidine utilization</BiologicalProcess>
+      <Regulog Key="HutC - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1879" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sala_1687" Name="hutF" Position="-31" Score="6.1">
+          <Sequence>ATTATGTCTAGACATAAT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_2411" Name="omp" Position="-61" Score="4.1">
+          <Sequence>GACCTGTATATACATTTG</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1688" Name="hutI" Position="-16" Score="6.1">
+          <Sequence>ATTATGTCTAGACATAAT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1836474" LocusId="Sala_1688" Name="hutI" Function="Imidazolonepropionase (EC 3.5.2.7)" />
+          <Members vimssId="1836475" LocusId="Sala_1689" Name="hutH" Function="Histidine ammonia-lyase (EC 4.3.1.3)" />
+          <Members vimssId="1836476" LocusId="Sala_1690" Name="hutG" Function="N-formylglutamate deformylase (EC 3.5.1.68)" />
+          <Members vimssId="1836477" LocusId="Sala_1691" Name="hutU" Function="Urocanate hydratase (EC 4.2.1.49)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1837192" LocusId="Sala_2411" Name="omp" Function="TonB-dependent receptor" />
+          <Members vimssId="1837191" LocusId="Sala_2410" Name="Caul_2357" Function="Optional hypothetical component of omp transporter" />
+          <Members vimssId="1837190" LocusId="Sala_2409" Name="Caul_2357" Function="Optional hypothetical component of omp transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1836473" LocusId="Sala_1687" Name="hutF" Function="Formiminoglutamic iminohydrolase (EC 3.5.3.13)" />
+          <Members vimssId="1836472" LocusId="Sala_1686" Name="hutC" Function="Histidine utilization repressor, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1879</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17968" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="Sala_0675" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1835469&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1940" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sala_0675" Name="iscR" Position="-55" Score="5.6">
+          <Sequence>TAAGTGGAGTAATTTACTCTAGTTA</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1835469" LocusId="Sala_0675" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="1835468" LocusId="Sala_0674" Name="sufB" Function="Iron-sulfur cluster assembly protein SufB" />
+          <Members vimssId="1835467" LocusId="Sala_0673" Name="ycjD" Function="Conserved hypothetical protein" />
+          <Members vimssId="1835466" LocusId="Sala_0672" Name="ycjD" Function="Conserved hypothetical protein" />
+          <Members vimssId="1835465" LocusId="Sala_0671" Name="sufC" Function="Iron-sulfur cluster assembly ATPase protein SufC" />
+          <Members vimssId="1835464" LocusId="Sala_0670" Name="sufD" Function="Iron-sulfur cluster assembly protein SufD" />
+          <Members vimssId="1835463" LocusId="Sala_0669" Name="sufS" Function="Cysteine desulfurases, SufS subfamily" />
+          <Members vimssId="1835462" LocusId="Sala_0668" Name="sufT" Function="Iron sulfur cluster assembly protein SufT" />
+          <Members vimssId="1835461" LocusId="Sala_0667" Name="sufA" Function="Iron binding protein SufA for iron-sulfur cluster assembly" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1940</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28410" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="Sala_0832" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1835623&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2988" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sala_1181" Name="PF04055" Position="-39" Score="5.2">
+          <Sequence>GTTCTTTATTTGTTC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1725" Name="recA" Position="-91" Score="5.3">
+          <Sequence>GTTCCCCTCTTGTTC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0832" Name="lexA" Position="-61" Score="5">
+          <Sequence>GTTCCACTATCGTTC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1414" Name="yoaA" Position="-28" Score="4.6">
+          <Sequence>GTTCGCCTTTTGTCC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1806" Name="radA" Position="-32" Score="5.3">
+          <Sequence>GTTCCATTTTTGTTC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_2055" Name="rmuC" Position="-20" Score="4.6">
+          <Sequence>GTTCGTCCTATGTTC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_3012" Name="uvrD" Position="-19" Score="5.3">
+          <Sequence>GTTCCCTAATCGTTC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0926" Name="uvrA" Position="-26" Score="0.8">
+          <Sequence>GAACAAATCTGGAAC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1836201" LocusId="Sala_1414" Name="yoaA" Function="DinG family ATP-dependent helicase YoaA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1835970" LocusId="Sala_1181" Name="PF04055" Function="Radical SAM domain protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1835623" LocusId="Sala_0832" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1836511" LocusId="Sala_1725" Name="recA" Function="Recombinase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1836837" LocusId="Sala_2055" Name="rmuC" Function="DNA recombination protein RmuC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1836591" LocusId="Sala_1806" Name="radA" Function="DNA repair protein RadA" />
+          <Members vimssId="1836590" LocusId="Sala_1805" Name="cvpA" Function="Colicin V production protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1837790" LocusId="Sala_3012" Name="uvrD" Function="ATP-dependent DNA helicase II" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1835717" LocusId="Sala_0926" Name="uvrA" Function="Excinuclease ABC subunit A" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2988</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="repressor">
+      <Regulator Key="LiuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28606" />
+      <Effector />
+      <Pathway>Branched-chain amino acid degradation</Pathway>
+      <LocusTag Key="Sala_1538" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1836324&amp;disp=0" />
+      <BiologicalProcess>Branched-chain amino acid degradation</BiologicalProcess>
+      <Regulog Key="LiuR - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3009" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sala_1854" Name="" Position="-36" Score="4.9">
+          <Sequence>CATGACGTTTCCGTCAAC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0922" Name="" Position="-44" Score="5.1">
+          <Sequence>GCTTACGTTAAGGTCAAT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1185" Name="etfD" Position="-99" Score="4.7">
+          <Sequence>GTTGACGGGCGCGTCAAT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1487" Name="acdB3" Position="-41" Score="4.8">
+          <Sequence>GTGAACGTAAAGGTAAAG</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0922" Name="" Position="-50" Score="4.4">
+          <Sequence>CTTTCCGCTTACGTTAAG</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1487" Name="acdB3" Position="-47" Score="5.9">
+          <Sequence>CTTTACGTGAACGTAAAG</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1639" Name="" Position="-35" Score="5.2">
+          <Sequence>CTTGACGTTCACGTTAAG</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1639" Name="" Position="-29" Score="5">
+          <Sequence>GTTCACGTTAAGGGAAAG</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_2313" Name="acdH5" Position="-36" Score="5.9">
+          <Sequence>CTTGACGTTTACGTCAAC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0761" Name="" Position="-23" Score="4.8">
+          <Sequence>GTTTACGTAAAGGGAGAG</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0761" Name="" Position="-29" Score="6">
+          <Sequence>CTTGACGTTTACGTAAAG</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1247" Name="acdH" Position="-64" Score="5.9">
+          <Sequence>CTTGACGTTTACGTCAAC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1247" Name="acdH" Position="-58" Score="5.1">
+          <Sequence>GTTTACGTCAACGTCGGG</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1104" Name="acdL2" Position="-64" Score="5.4">
+          <Sequence>CTTGCCGTTTACGTAAAG</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1104" Name="acdL2" Position="-58" Score="5.1">
+          <Sequence>GTTTACGTAAAGGTGAGC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_3077" Name="acdQ" Position="-63" Score="5.5">
+          <Sequence>GTTGACGCTTGCGTAAAG</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0583" Name="acdB4" Position="-75" Score="5.6">
+          <Sequence>CCTTACGTTTACGTAAAG</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_3159" Name="acdH3" Position="-87" Score="5.5">
+          <Sequence>GTGGACGTAAACGTAAGG</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_3159" Name="acdH3" Position="-93" Score="5.4">
+          <Sequence>CTTGACGTGGACGTAAAC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0178" Name="etfB" Position="-60" Score="5.4">
+          <Sequence>GTTTACGTAAGCGCAAAT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0178" Name="etfB" Position="-66" Score="5.9">
+          <Sequence>GTTGACGTTTACGTAAGC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_3074" Name="acdH4" Position="-34" Score="6">
+          <Sequence>GTTTACGTGAACGTAAAG</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_3074" Name="acdH4" Position="-28" Score="4.4">
+          <Sequence>GTGAACGTAAAGGGAAAG</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1538" Name="liuR" Position="-1" Score="5.3">
+          <Sequence>ATTGACGTTCACGTCAAC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1538" Name="liuR" Position="5" Score="5.3">
+          <Sequence>GTTCACGTCAACGGAAAC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0297" Name="" Position="-56" Score="5.9">
+          <Sequence>GTTGACGTAAACGTCAAT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1808" Name="acdB2" Position="-54" Score="6.2">
+          <Sequence>GTTGACGTAAACGTCAAC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0379" Name="" Position="-41" Score="6">
+          <Sequence>CTTGACGTTAACGTCAAC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1854" Name="" Position="-30" Score="5.2">
+          <Sequence>GTTTCCGTCAACGTAAGC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1835894" LocusId="Sala_1104" Name="acdL2" Function="Acyl-CoA dehydrogenase, long-chain specific, mitochondrial precursor (EC 1.3.99.13)" />
+          <Members vimssId="1835895" LocusId="Sala_1105" Name="acdH2" Function="Acyl-CoA dehydrogenase family protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1835554" LocusId="Sala_0761" Name="null" Function="Bll4978 protein" />
+          <Members vimssId="1835553" LocusId="Sala_0760" Name="null" Function="TesB-like acyl-CoA thioesterase 1" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1837095" LocusId="Sala_2313" Name="acdH5" Function="Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.99.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1835093" LocusId="Sala_0297" Name="null" Function="Gluconate 5-dehydrogenase (EC 1.1.1.69)" />
+          <Members vimssId="1835094" LocusId="Sala_0298" Name="acdB5" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1835175" LocusId="Sala_0379" Name="null" Function="Quino(hemo)protein alcohol dehydrogenase, PQQ-dependent (EC 1.1.99.8)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1836593" LocusId="Sala_1808" Name="acdB2" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+          <Members vimssId="1836594" LocusId="Sala_1809" Name="acdA2" Function="Acetyl-CoA acetyltransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1837854" LocusId="Sala_3077" Name="acdQ" Function="Acyl-CoA dehydrogenases" />
+          <Members vimssId="1837855" LocusId="Sala_3078" Name="acdP" Function="Acyl-CoA dehydrogenase family protein" />
+          <Members vimssId="1837856" LocusId="Sala_3079" Name="null" Function="short-chain dehydrogenase/reductase SDR" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1836324" LocusId="Sala_1538" Name="liuR" Function="Predicted transcriptional regulator LiuR of leucine degradation pathway, MerR family" />
+          <Members vimssId="1836323" LocusId="Sala_1537" Name="acdH" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1835974" LocusId="Sala_1185" Name="etfD" Function="Electron transfer flavoprotein-ubiquinone oxidoreductase (EC 1.5.5.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1835713" LocusId="Sala_0922" Name="null" Function="2-nitropropane dioxygenase family protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1836639" LocusId="Sala_1854" Name="null" Function="Propionyl-CoA carboxylase beta chain (EC 6.4.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1836035" LocusId="Sala_1247" Name="acdH" Function="Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.99.2)" />
+          <Members vimssId="1836034" LocusId="Sala_1246" Name="acdL" Function="Acyl-CoA dehydrogenase, long-chain specific, mitochondrial precursor (EC 1.3.99.13)" />
+          <Members vimssId="1836033" LocusId="Sala_1245" Name="acdA" Function="3-hydroxyacyl-CoA dehydrogenase" />
+          <Members vimssId="1836032" LocusId="Sala_1244" Name="acdB" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16) @ Acetyl-CoA acetyltransferase (EC 2.3.1.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1836273" LocusId="Sala_1487" Name="acdB3" Function="Enoyl-CoA hydratase (EC 4.2.1.17)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1836425" LocusId="Sala_1639" Name="null" Function="MoxR-like ATPases" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1837935" LocusId="Sala_3159" Name="acdH3" Function="Acyl-CoA dehydrogenase, short-chain specific (EC 1.3.99.2)" />
+          <Members vimssId="1837934" LocusId="Sala_3158" Name="acdA3" Function="3-ketoacyl-CoA thiolase (EC 2.3.1.16) @ Acetyl-CoA acetyltransferase (EC 2.3.1.9)" />
+          <Members vimssId="1837933" LocusId="Sala_3157" Name="null" Function="3-hydroxyacyl-CoA dehydrogenase [isoleucine degradation] (EC 1.1.1.35)" />
+          <Members vimssId="1837932" LocusId="Sala_3156" Name="null" Function="putative 4-hydroxybenzoyl-CoA thioesterase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1835377" LocusId="Sala_0583" Name="acdB4" Function="Enoyl-CoA hydratase [valine degradation] (EC 4.2.1.17)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1837851" LocusId="Sala_3074" Name="acdH4" Function="Acyl-CoA dehydrogenase (EC 1.3.99.3)" />
+          <Members vimssId="1837850" LocusId="Sala_3073" Name="null" Function="Alcohol dehydrogenase (EC 1.1.1.1)" />
+          <Members vimssId="1837849" LocusId="Sala_3072" Name="null" Function="Predicted aminoglycoside phosphotransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1834975" LocusId="Sala_0178" Name="etfB" Function="Electron transfer flavoprotein, beta subunit" />
+          <Members vimssId="1834976" LocusId="Sala_0179" Name="etfA" Function="Electron transfer flavoprotein, alpha subunit" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3009</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="MalR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=54650" />
+      <Effector>Maltose</Effector>
+      <Pathway>Maltose utilization</Pathway>
+      <LocusTag Key="Sala_0597" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1835391&amp;disp=0" />
+      <BiologicalProcess>Maltose utilization</BiologicalProcess>
+      <Regulog Key="MalR - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5574" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sala_0181)" Name="omp(Mal" Position="-249" Score="4.2">
+          <Sequence>GATTCGATGCGTATACGTAT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0596" Name="malT" Position="-106" Score="5.5">
+          <Sequence>CCACGTATTCGTATACGCAA</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1835390" LocusId="Sala_0596" Name="malT" Function="Predicted maltose transporter MalT" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1834978" LocusId="Sala_0181" Name="omp(Mal)" Function="Predicted maltose-specific TonB-dependent receptor" />
+          <Members vimssId="1834979" LocusId="Sala_0182" Name="thl" Function="tryptophan halogenase, putative" />
+          <Members vimssId="1834980" LocusId="Sala_0183" Name="malY" Function="Maltodextrin glucosidase (EC 3.2.1.20)" />
+          <Members vimssId="1834981" LocusId="Sala_0184" Name="malZ" Function="Maltodextrin glucosidase (EC 3.2.1.20)" />
+          <Members vimssId="1834982" LocusId="Sala_0185" Name="malX" Function="Maltodextrin glucosidase (EC 3.2.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5574</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="MerR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51193" />
+      <Effector>Mercury ion, (Hg2+)</Effector>
+      <Pathway>Mercury resistance</Pathway>
+      <LocusTag Key="Sala_2435" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1837215&amp;disp=0" />
+      <BiologicalProcess>Mercury resistance</BiologicalProcess>
+      <Regulog Key="MerR - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5189" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sala_2436" Name="grxC" Position="-10" Score="6.5">
+          <Sequence>ACTCCGTACTATGGTACGGAGC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1624" Name="grxC" Position="-35" Score="6">
+          <Sequence>ACTCCGTACCATGGTACGGATG</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1836410" LocusId="Sala_1624" Name="grxC" Function="Glutaredoxin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1837216" LocusId="Sala_2436" Name="grxC" Function="Glutaredoxin" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5189</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15620" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Sala_0789" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1835582&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1677" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sala_1773" Name="nrdA" Position="-111" Score="4.4">
+          <Sequence>CCCCAATAAATAGTGT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1773" Name="nrdA" Position="-143" Score="4.6">
+          <Sequence>GCACTATGGGTGGTGG</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1836559" LocusId="Sala_1773" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="1836560" LocusId="Sala_1774" Name="Sala_1774" Function="protein of unknown function DUF559" />
+          <Members vimssId="1836561" LocusId="Sala_1775" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1677</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="repressor">
+      <Regulator Key="NsrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14696" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="Sala_0536" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1835330&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="NsrR - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1573" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sala_0536" Name="nsrR" Position="-66" Score="5.8">
+          <Sequence>ATGGTATATAAGATACCTC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0535" Name="PF01152" Position="-77" Score="4.1">
+          <Sequence>TAAGTATATTATATATTGC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0535" Name="PF01152" Position="-34" Score="5.8">
+          <Sequence>GAGGTATCTTATATACCAT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1835329" LocusId="Sala_0535" Name="PF01152" Function="Truncated hemoglobin" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1835330" LocusId="Sala_0536" Name="nsrR" Function="Nitrite-sensitive transcriptional repressor NsrR" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1573</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19390" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="Sala_1275" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1836062&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2094" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sala_0148" Name="glnB" Position="-229" Score="4.6">
+          <Sequence>TGCTGCTTTTTTAGGCA</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_2326" Name="glnK" Position="-163" Score="5.8">
+          <Sequence>TGCCCAAAAATTAGGCA</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_1277" Name="nifR3" Position="-38" Score="5.7">
+          <Sequence>TGCTCAAAATTTAGGCA</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1837108" LocusId="Sala_2326" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="1837109" LocusId="Sala_2327" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1836064" LocusId="Sala_1277" Name="nifR3" Function="Nitrogen assimilation transcriptional regulator NtrX, Fis family" />
+          <Members vimssId="1836063" LocusId="Sala_1276" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="1836062" LocusId="Sala_1275" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+          <Members vimssId="1836061" LocusId="Sala_1274" Name="ntrY" Function="Nitrogen regulation protein NtrY, sensor kinase (EC 2.7.3.-)" />
+          <Members vimssId="1836060" LocusId="Sala_1273" Name="ntrXY" Function="Nitrogen assimilation transcriptional regulator NtrX, Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1834945" LocusId="Sala_0148" Name="glnB" Function="Glutamate synthase, large chain (EC 1.4.1.13)" />
+          <Members vimssId="1834946" LocusId="Sala_0149" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2094</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SahR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15822" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="Sala_0034" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1834833&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SahR - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1699" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sala_3139" Name="metK" Position="-39" Score="5.6">
+          <Sequence>ACATAAAGCTTCCTTTATAT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0163" Name="ahcY" Position="-118" Score="6.1">
+          <Sequence>ATATAAAGAAAAGTTTATAT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0034" Name="sahR" Position="-28" Score="6.3">
+          <Sequence>ATATAAAGAAAGCTTTATAT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1837915" LocusId="Sala_3139" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1834960" LocusId="Sala_0163" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1834833" LocusId="Sala_0034" Name="sahR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+          <Members vimssId="1834834" LocusId="Sala_0035" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+          <Members vimssId="1834835" LocusId="Sala_0036" Name="metH2" Function="5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)" />
+          <Members vimssId="1834836" LocusId="Sala_0037" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1699</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="SoxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50661" />
+      <Effector>Paraquat</Effector>
+      <Pathway>Superoxide stress response</Pathway>
+      <LocusTag Key="Sala_2165" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1836947&amp;disp=0" />
+      <BiologicalProcess>Superoxide stress response</BiologicalProcess>
+      <Regulog Key="SoxR - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5130" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sala_2166" Name="PF00903" Position="-61" Score="4.4">
+          <Sequence>ATCTGAACCTCACTTCAGCT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_2373" Name="nhoA" Position="-60" Score="5.3">
+          <Sequence>ACCTCCACTGCACTTGAGCT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1836948" LocusId="Sala_2166" Name="PF00903" Function="Glyoxalase/bleomycin resistance protein/dioxygenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1837155" LocusId="Sala_2373" Name="nhoA" Function="N-hydroxyarylamine O-acetyltransferase (EC 2.3.1.118)" />
+          <Members vimssId="1837154" LocusId="Sala_2372" Name="null" Function="Sulfotransferase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5130</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="ZntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50829" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc resistance</Pathway>
+      <LocusTag Key="Sala_2470" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1837250&amp;disp=0" />
+      <BiologicalProcess>Zinc resistance</BiologicalProcess>
+      <Regulog Key="ZntR - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5149" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sala_2470" Name="zntR" Position="-41" Score="4.7">
+          <Sequence>ACCTTGGACCATGGTCCAACCT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1837250" LocusId="Sala_2470" Name="zntR" Function="Zinc resistance ranscriptional regulator, MerR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5149</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16160" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="Sala_0376" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=1835172&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Sphingomonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1737" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sala_1894" Name="omr" Position="-67" Score="5.3">
+          <Sequence>TCATTGTGACAGTATATCATTAC</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_2946" Name="tonB1" Position="-91" Score="5.6">
+          <Sequence>ATGACGTGATGTTATAACATCAT</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Sala_0375" Name="PF03203" Position="-71" Score="5.6">
+          <Sequence>ACAATGTGATGTTGTAACCTTGG</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1836679" LocusId="Sala_1894" Name="omr" Function="Predicted zinc-regulated TonB-dependent outer membrane transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1835171" LocusId="Sala_0375" Name="PF03203" Function="MerC-like membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="1837724" LocusId="Sala_2946" Name="tonB1" Function="Ferric siderophore transport system, periplasmic binding protein TonB" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1737</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48800" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Sala_2370" Name="thiC" Position="-167" Score="70.6">
+          <Sequence>CTCCATCCCCGGGGAGCCTGTCGCGCAAAAGCAGGTTGAGAGCGGAATAAACCGCGACCCGTTGAACCTGATCCGGGTAATACCGGCGGAGGGAGGGTTGGCTTTCACCCCAA</Sequence>
+          <Bacteria>Sphingopyxis alaskensis RB2256</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="1837152" LocusId="Sala_2370" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

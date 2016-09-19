@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Geobacter lovleyi SZ" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15077" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="Glov_1317" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7163749&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1617" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Glov_1662" Name="bioF" Position="-32" Score="7.9">
+          <Sequence>TTGTCAACT---------------GGTTAACAA</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_2370" Name="bioB" Position="-63" Score="9">
+          <Sequence>TTGTCAACC---------------GGTTGACAA</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7164828" LocusId="Glov_2370" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="7164827" LocusId="Glov_2369" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7164106" LocusId="Glov_1662" Name="bioF" Function="8-amino-7-oxononanoate synthase (EC 2.3.1.47)" />
+          <Members vimssId="7164107" LocusId="Glov_1663" Name="bioH" Function="Biotin synthesis protein bioH" />
+          <Members vimssId="7164108" LocusId="Glov_1664" Name="bioC" Function="Biotin synthesis protein bioC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1617</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor (activator)">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19561" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="Glov_2468" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7164926&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2114" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Glov_1790" Name="PF10087" Position="-37" Score="5.2">
+          <Sequence>ATGATATCGATTTTCAT</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_2467" Name="feoB1" Position="-33" Score="5.6">
+          <Sequence>GTGAAAATGGTTTTCAA</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_2468" Name="fur" Position="-79" Score="5.3">
+          <Sequence>CTGAAAATCGTTTTCAG</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7164925" LocusId="Glov_2467" Name="feoB1" Function="Ferrous iron transport protein B" />
+          <Members vimssId="7164924" LocusId="Glov_2466" Name="Gura_3000" Function="hypothetical protein" />
+          <Members vimssId="7164923" LocusId="Glov_2465" Name="ideR" Function="iron (metal) dependent repressor, DtxR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7164926" LocusId="Glov_2468" Name="fur" Function="Ferric uptake regulation protein FUR" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7164235" LocusId="Glov_1790" Name="PF10087" Function="hypothetical protein" />
+          <Members vimssId="7164234" LocusId="Glov_1789" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7164233" LocusId="Glov_1788" Name="Glov_1782" Function="hypothetical protein" />
+          <Members vimssId="7164232" LocusId="Glov_1787" Name="feoA1" Function="Ferrous iron transport protein A" />
+          <Members vimssId="7164231" LocusId="Glov_1786" Name="feoA2" Function="Ferrous iron transport protein A" />
+          <Members vimssId="7164230" LocusId="Glov_1785" Name="feoB2" Function="Ferrous iron transport protein B" />
+          <Members vimssId="7164229" LocusId="Glov_1784" Name="Ppro_0794" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2114</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="HcpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62680" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="Glov_2803" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7165264&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="HcpR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6450" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Glov_3448" Name="ygbA" Position="-51" Score="4.5">
+          <Sequence>TTTTGACCGTTGTCATGC</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_3209" Name="COG2006" Position="-288" Score="4.6">
+          <Sequence>TCATGACCGGCATCATGA</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_0219" Name="SSF140683" Position="-120" Score="4.5">
+          <Sequence>GCATGACGTATGTCAATT</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_0219" Name="SSF140683" Position="-74" Score="4.6">
+          <Sequence>TATTGATTCAGATCAAAC</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_2648" Name="SSF140683" Position="-187" Score="4.7">
+          <Sequence>GCATGACTGCGGTCAAAA</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_2960" Name="COG1917" Position="-83" Score="4.9">
+          <Sequence>GTTTGACCTGTATCAAGG</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7165677" LocusId="Glov_3209" Name="COG2006" Function="Iron-sulfur cluster-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7165423" LocusId="Glov_2960" Name="COG1917" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7165106" LocusId="Glov_2648" Name="SSF140683" Function="SP0561-like superfamily hypothetical protein" />
+          <Members vimssId="7165107" LocusId="Glov_2649" Name="frdX2" Function="Ferredoxin fused to uncharacterized domain" />
+          <Members vimssId="7165108" LocusId="Glov_2650" Name="COG3945" Function="Hemerythrin HHE cation binding domain hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7162637" LocusId="Glov_0219" Name="SSF140683" Function="SP0561-like superfamily hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7165919" LocusId="Glov_3448" Name="ygbA" Function="hypothetical protein involved in nitrosative stress" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6450</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49779" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Glov_2831" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7165293&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5041" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Glov_0181" Name="rpoH" Position="-56" Score="7.1">
+          <Sequence>TTAGCAGTCAGCACCATAGAGTGCTAA</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_1330" Name="rpoH" Position="-51" Score="6.9">
+          <Sequence>TTAGCAGTCTTGTGTGTCGAGTGCTAA</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_2928" Name="groS" Position="-79" Score="6.9">
+          <Sequence>TTAGCACTCACCGCTTTAGAGTGCTAG</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_2831" Name="hrcA" Position="-79" Score="7.4">
+          <Sequence>TTAGCACTCAAGTTTATAGAGTGCTAA</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7165391" LocusId="Glov_2928" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="7165392" LocusId="Glov_2929" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7165293" LocusId="Glov_2831" Name="hrcA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="7165292" LocusId="Glov_2830" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="7165291" LocusId="Glov_2829" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="7165290" LocusId="Glov_2828" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7162599" LocusId="Glov_0181" Name="rpoH" Function="Heat shock response RNA polymerase sigma factor RpoH (Sigma 32)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7163762" LocusId="Glov_1330" Name="rpoH" Function="Heat shock response RNA polymerase sigma factor RpoH (Sigma 32)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5041</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28423" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="Glov_1232" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7163663&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2990" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Glov_1232" Name="lexA" Position="-9" Score="5.6">
+          <Sequence>GGTAGTCATATGAATACC</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_1070" Name="dinB" Position="-26" Score="5.7">
+          <Sequence>GGTAGTCATTTGGTAACC</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7163498" LocusId="Glov_1070" Name="dinB" Function="DNA polymerase IV (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7163663" LocusId="Glov_1232" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2990</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21324" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdenum homeostasis</Pathway>
+      <LocusTag Key="Glov_0447" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7162866&amp;disp=0" />
+      <BiologicalProcess>Molybdenum homeostasis</BiologicalProcess>
+      <Regulog Key="ModE - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2310" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Glov_0447" Name="modE" Position="-97" Score="5.7">
+          <Sequence>AAGCGTTATTTAGATCTATACATAACGTCA</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7162866" LocusId="Glov_0447" Name="modE" Function="Molybdate-responsive transcriptional regulator ModE" />
+          <Members vimssId="7162867" LocusId="Glov_0448" Name="modD" Function="Molybdenum transport system protein ModD" />
+          <Members vimssId="7162868" LocusId="Glov_0449" Name="modA" Function="Molybdenum ABC transporter, periplasmic molybdenum-binding protein ModA (TC 3.A.1.8.1)" />
+          <Members vimssId="7162869" LocusId="Glov_0450" Name="modA" Function="Molybdenum ABC transporter, periplasmic molybdenum-binding protein ModA (TC 3.A.1.8.1)" />
+          <Members vimssId="7162870" LocusId="Glov_0451" Name="modB" Function="Molybdenum transport system permease protein ModB (TC 3.A.1.8.1)" />
+          <Members vimssId="7162871" LocusId="Glov_0452" Name="modC" Function="Molybdenum transport ATP-binding protein ModC (TC 3.A.1.8.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2310</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NikR" RegulationMode="repressor">
+      <Regulator Key="NikR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15999" />
+      <Effector>Nickel ion, (Ni2+)</Effector>
+      <Pathway>Nickel homeostasis</Pathway>
+      <LocusTag Key="Glov_2765" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7165224&amp;disp=0" />
+      <BiologicalProcess>Nickel homeostasis</BiologicalProcess>
+      <Regulog Key="NikR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1720" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Glov_2769" Name="nikMN" Position="-38" Score="6.4">
+          <Sequence>GTGCTAC-------------GTGGCAC</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7165228" LocusId="Glov_2769" Name="nikMN" Function="Substrate-specific component NikM of nickel ECF transporter / Additional substrate-specific component NikN of nickel ECF transporter" />
+          <Members vimssId="7165227" LocusId="Glov_2768" Name="nikQ" Function="Transmembrane component NikQ of energizing module of nickel ECF transporter" />
+          <Members vimssId="7165226" LocusId="Glov_2767" Name="nikO" Function="ATPase component NikO of energizing module of nickel ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1720</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15633" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Glov_1748" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7164193&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1679" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Glov_1779" Name="nrdD" Position="-355" Score="4.6">
+          <Sequence>CCACAACATATTCTGC</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_1779" Name="nrdD" Position="-387" Score="4.7">
+          <Sequence>ACTCTATATCTTGTGT</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_2318" Name="nrdJ" Position="-108" Score="4.8">
+          <Sequence>GCACAAAATGTTGTGA</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_2318" Name="nrdJ" Position="-140" Score="4.9">
+          <Sequence>CACATATATGTTGTGG</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7164775" LocusId="Glov_2318" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7164224" LocusId="Glov_1779" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+          <Members vimssId="7164225" LocusId="Glov_1780" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7164226" LocusId="Glov_1781" Name="nrdG" Function="Ribonucleotide reductase of class III (anaerobic), activating protein (EC 1.97.1.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1679</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19403" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="Glov_2786" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7165246&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2096" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Glov_0573" Name="gdhA" Position="-136" Score="4.3">
+          <Sequence>TGTCTGCTTTTTGTGCA</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_0573" Name="gdhA" Position="-103" Score="4.7">
+          <Sequence>TGTATATTTAATATGCA</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_0573" Name="gdhA" Position="-84" Score="4.2">
+          <Sequence>TGACTTAATATTAGGCA</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_3332" Name="Gmet_0693" Position="-268" Score="4.1">
+          <Sequence>TGCAAGATAGTTGGGCA</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_3332" Name="Gmet_0693" Position="-213" Score="4.1">
+          <Sequence>TGCTGAATAAATGGTCA</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_1879" Name="glnB" Position="-154" Score="4.3">
+          <Sequence>TGCCTAATTTGTGTGCT</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7164325" LocusId="Glov_1879" Name="glnB" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="7164326" LocusId="Glov_1880" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7162993" LocusId="Glov_0573" Name="gdhA" Function="NADP-specific glutamate dehydrogenase (EC 1.4.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7165803" LocusId="Glov_3332" Name="Gmet_0693" Function="Conserved hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2096</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SahR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15835" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="Glov_0357" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7162775&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SahR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1701" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Glov_0357" Name="sahR" Position="-43" Score="6.1">
+          <Sequence>ATATCAAGAAAAGTTGATAT</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7162775" LocusId="Glov_0357" Name="sahR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+          <Members vimssId="7162774" LocusId="Glov_0356" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1701</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="SdhR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62178" />
+      <Effector />
+      <Pathway>Tricarboxylic acid cycle</Pathway>
+      <LocusTag Key="Glov_0874" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7163302&amp;disp=0" />
+      <BiologicalProcess>Tricarboxylic acid cycle</BiologicalProcess>
+      <Regulog Key="SdhR2 - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6389" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Glov_2214" Name="sdhC" Position="-243" Score="5.7">
+          <Sequence>TTGTATGCTGTATACAT</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_0660" Name="sfrB" Position="-98" Score="5.3">
+          <Sequence>AGGCATACTGTATACAA</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_0875" Name="Gura_4160" Position="-160" Score="6.2">
+          <Sequence>TTGTATACAGTATGCAC</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_1379" Name="gltA" Position="-80" Score="5.3">
+          <Sequence>TTGTATACAGTATATTC</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_1624" Name="icd" Position="-105" Score="6.2">
+          <Sequence>TTGCATACTGTATACAC</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_3139" Name="hemL" Position="-265" Score="5.7">
+          <Sequence>AGGTATACTGTATACAA</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_3138" Name="nuoA-1" Position="-53" Score="5.7">
+          <Sequence>TTGTATACAGTATACCT</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_1887" Name="acnB" Position="-72" Score="5.9">
+          <Sequence>TTGTATACACTATACAC</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_0874" Name="sdhR2" Position="-52" Score="6.2">
+          <Sequence>GTGCATACTGTATACAA</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7165607" LocusId="Glov_3139" Name="hemL" Function="Glutamate-1-semialdehyde aminotransferase (EC 5.4.3.8)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7164333" LocusId="Glov_1887" Name="acnB" Function="Aconitate hydratase 2 (EC 4.2.1.3) / 2-methylisocitrate dehydratase (EC 4.2.1.99)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7163816" LocusId="Glov_1379" Name="gltA" Function="Citrate synthase (si) (EC 2.3.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7164668" LocusId="Glov_2214" Name="sdhC" Function="Succinate dehydrogenase cytochrome b558 subunit" />
+          <Members vimssId="7164667" LocusId="Glov_2213" Name="sdhA" Function="Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1)" />
+          <Members vimssId="7164666" LocusId="Glov_2212" Name="frdB" Function="Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7163080" LocusId="Glov_0660" Name="sfrB" Function="Fe(III) reductase, beta subunit" />
+          <Members vimssId="7163081" LocusId="Glov_0661" Name="sfrA" Function="Fe(III) reductase, alpha subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7163303" LocusId="Glov_0875" Name="Gura_4160" Function="K+ transport systems, NAD-binding component" />
+          <Members vimssId="7163304" LocusId="Glov_0876" Name="Gura_4159" Function="Sugar phosphate isomerases/epimerases" />
+          <Members vimssId="7163305" LocusId="Glov_0877" Name="galE" Function="UDP-glucose 4-epimerase (EC 5.1.3.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7165606" LocusId="Glov_3138" Name="nuoA-1" Function="NADH ubiquinone oxidoreductase chain A (EC 1.6.5.3)" />
+          <Members vimssId="7165605" LocusId="Glov_3137" Name="nuoB" Function="NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)" />
+          <Members vimssId="7165604" LocusId="Glov_3136" Name="nuoC" Function="NADH-ubiquinone oxidoreductase chain C (EC 1.6.5.3)" />
+          <Members vimssId="7165603" LocusId="Glov_3135" Name="nouD" Function="NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)" />
+          <Members vimssId="7165602" LocusId="Glov_3134" Name="nuoE-1" Function="NADH-ubiquinone oxidoreductase chain E (EC 1.6.5.3)" />
+          <Members vimssId="7165601" LocusId="Glov_3133" Name="nouF" Function="NADH-ubiquinone oxidoreductase chain F (EC 1.6.5.3)" />
+          <Members vimssId="7165600" LocusId="Glov_3132" Name="Gura_4238" Function="NADH-ubiquinone oxidoreductase chain G (EC 1.6.5.3)" />
+          <Members vimssId="7165599" LocusId="Glov_3131" Name="nuoH-1" Function="NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)" />
+          <Members vimssId="7165598" LocusId="Glov_3130" Name="nuoI-1" Function="NADH-ubiquinone oxidoreductase chain I (EC 1.6.5.3)" />
+          <Members vimssId="7165597" LocusId="Glov_3129" Name="nuoJ" Function="NADH-ubiquinone oxidoreductase chain J (EC 1.6.5.3)" />
+          <Members vimssId="7165596" LocusId="Glov_3128" Name="nuoK" Function="NADH-ubiquinone oxidoreductase chain K (EC 1.6.5.3)" />
+          <Members vimssId="7165595" LocusId="Glov_3127" Name="nuoL-1" Function="NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)" />
+          <Members vimssId="7165594" LocusId="Glov_3126" Name="nuoM-1" Function="NADH-ubiquinone oxidoreductase chain M (EC 1.6.5.3)" />
+          <Members vimssId="7165593" LocusId="Glov_3125" Name="nuoN-2" Function="NADH-ubiquinone oxidoreductase chain N (EC 1.6.5.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7163302" LocusId="Glov_0874" Name="sdhR2" Function="Transcriptional regulator of central carbohydrate metabolism, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7164068" LocusId="Glov_1624" Name="icd" Function="Isocitrate dehydrogenase [NADP] (EC 1.1.1.42); Monomeric isocitrate dehydrogenase [NADP] (EC 1.1.1.42)" />
+          <Members vimssId="7164069" LocusId="Glov_1625" Name="mdh" Function="Malate dehydrogenase (EC 1.1.1.37)" />
+          <Members vimssId="7164070" LocusId="Glov_1626" Name="Gura_2192" Function="2-oxoglutarate oxidoreductase, delta subunit, putative (EC 1.2.7.3)" />
+          <Members vimssId="7164071" LocusId="Glov_1627" Name="Gura_2191" Function="2-oxoglutarate oxidoreductase, alpha subunit (EC 1.2.7.3)" />
+          <Members vimssId="7164072" LocusId="Glov_1628" Name="Gura_2190" Function="2-oxoglutarate oxidoreductase, beta subunit (EC 1.2.7.3)" />
+          <Members vimssId="7164073" LocusId="Glov_1629" Name="Gura_2189" Function="2-oxoglutarate oxidoreductase, gamma subunit (EC 1.2.7.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6389</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48818" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Glov_2763" Name="thiED" Position="-167" Score="65.2">
+          <Sequence>CGTCGCCCTGGGGGAGCCTTGCATAGGCTGAGACGGCTCTGCCGGACCCCTTGAACCTGAACCGGGTAATGCCGGCGGAGGAAAGCGGCCTCGTTCCCAGCA</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Glov_0035" Name="thiS" Position="-154" Score="78.6">
+          <Sequence>TAAACCGCTAGGGGAGTTTCGACTGAGAGCAGCAACCGGCTGCGACCCTTGGAACCTGATCCGGGTAATTCCGGCGTAGGGAAGCGGACGATTTCGAATAC</Sequence>
+          <Bacteria>Geobacter lovleyi SZ</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7165222" LocusId="Glov_2763" Name="thiED" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3) / Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+          <Members vimssId="7165223" LocusId="Glov_2764" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7162453" LocusId="Glov_0035" Name="thiS" Function="Thiamine biosynthesis protein ThiS" />
+          <Members vimssId="7162454" LocusId="Glov_0036" Name="thiG" Function="Thiazole synthase" />
+          <Members vimssId="7162455" LocusId="Glov_0037" Name="thiE" Function="Thiamine monophosphate synthase" />
+          <Members vimssId="7162456" LocusId="Glov_0038" Name="COG1242" Function="Predicted Fe-S oxidoreductase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

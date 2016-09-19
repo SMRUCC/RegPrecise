@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Bacteroides pectinophilus ATCC 43243" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor (activator)">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47474" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="" Value="" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4785" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BACPEC_00819" Name="argG" Position="-115" Score="5.1">
+          <Sequence>TTTTATATTTATTCAT</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_00818" Name="argC" Position="0" Score="5.1">
+          <Sequence>ATGAATAAATATAAAA</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_01099" Name="carA" Position="-64" Score="5.3">
+          <Sequence>ATGTATTTTTATGCAT</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6259993" LocusId="BACPEC_01099" Name="carA" Function="Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)" />
+          <Members vimssId="6259992" LocusId="BACPEC_01098" Name="carB" Function="Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6259713" LocusId="BACPEC_00819" Name="argG" Function="Argininosuccinate synthase (EC 6.3.4.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6259712" LocusId="BACPEC_00818" Name="argC" Function="N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)" />
+          <Members vimssId="6259711" LocusId="BACPEC_00817" Name="argJ" Function="Glutamate N-acetyltransferase (EC 2.3.1.35) / N-acetylglutamate synthase (EC 2.3.1.1)" />
+          <Members vimssId="6259710" LocusId="BACPEC_00816" Name="argB" Function="Acetylglutamate kinase (EC 2.7.2.8)" />
+          <Members vimssId="6259709" LocusId="BACPEC_00815" Name="argD" Function="Acetylornithine aminotransferase (EC 2.6.1.11)" />
+          <Members vimssId="6259708" LocusId="BACPEC_00814" Name="COG2182" Function="Periplasmic binding protein-like II" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4785</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57893" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="BACPEC_03030" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6261924&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5929" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BACPEC_02754" Name="bioB" Position="-154" Score="8.7">
+          <Sequence>TTGTCAAC---------------GTTAACAT</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_02755" Name="bioY2" Position="-142" Score="8.7">
+          <Sequence>ATGTTAAC---------------GTTGACAA</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6261649" LocusId="BACPEC_02755" Name="bioY2" Function="Substrate-specific component BioY of biotin ECF transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6261648" LocusId="BACPEC_02754" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5929</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="CzrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62643" />
+      <Effector>Zinc ion, (Zn2+); Silver ion, (Ag+); Nickel ion, (Ni2+); Copper ion, (Cu2+); Cobalt ion, (Co2+); Cadmium, ion (Cd2+)</Effector>
+      <Pathway>Zinc resistance; Nickel resistance; Copper resistance; Cobalt resistance; Cadmium resistance</Pathway>
+      <LocusTag Key="BACPEC_01959" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6260853&amp;disp=0" />
+      <BiologicalProcess>Zinc resistance; Nickel resistance; Copper resistance; Cobalt resistance; Cadmium resistance</BiologicalProcess>
+      <Regulog Key="CzrA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6446" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BACPEC_01957" Name="PF00403" Position="-87" Score="6.9">
+          <Sequence>CATATGAATGATTGTTCATATG</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6260851" LocusId="BACPEC_01957" Name="PF00403" Function="Heavy-metal-associated domain" />
+          <Members vimssId="6260852" LocusId="BACPEC_01958" Name="cadA" Function="Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5); Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+          <Members vimssId="6260853" LocusId="BACPEC_01959" Name="czrA" Function="Cadmium-dependent transcriptuin regulator, ArsR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6446</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62751" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="BACPEC_02639" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6261533&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6458" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BACPEC_00869" Name="feoB2" Position="-82" Score="5.9">
+          <Sequence>ATTGATAATGATAATCAAT</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_02635" Name="BACPEC_02635" Position="-38" Score="5.3">
+          <Sequence>AATGATAATCATTTACAAT</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_03058" Name="BACPEC_03058" Position="-100" Score="5.7">
+          <Sequence>AATGATAAAATTTATCATC</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6259763" LocusId="BACPEC_00869" Name="feoB2" Function="Ferrous iron transport protein B" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6261952" LocusId="BACPEC_03058" Name="BACPEC_03058" Function="hypothetical protein" />
+          <Members vimssId="6261953" LocusId="BACPEC_03059" Name="COG2217" Function="Cation transporting ATPase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6261529" LocusId="BACPEC_02635" Name="BACPEC_02635" Function="hypothetical protein" />
+          <Members vimssId="6261530" LocusId="BACPEC_02636" Name="feoA" Function="Ferrous iron transport protein A" />
+          <Members vimssId="6261531" LocusId="BACPEC_02637" Name="feoB" Function="Ferrous iron transport protein B" />
+          <Members vimssId="6261532" LocusId="BACPEC_02638" Name="null" Function="hypothetical protein" />
+          <Members vimssId="6261533" LocusId="BACPEC_02639" Name="fur" Function="Transcriptional regulator for iron transport and metabolism, Fur family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6458</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TrpR" RegulationMode="repressor">
+      <Regulator Key="HisR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=54583" />
+      <Effector>Histidine</Effector>
+      <Pathway>Histidine biosynthesis</Pathway>
+      <LocusTag Key="BACPEC_00270" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6259164&amp;disp=0" />
+      <BiologicalProcess>Histidine biosynthesis</BiologicalProcess>
+      <Regulog Key="HisR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5569" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BACPEC_00055" Name="hisZ" Position="-41" Score="5.5">
+          <Sequence>CACGTTACCACGCTAAAGTG</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6258949" LocusId="BACPEC_00055" Name="hisZ" Function="ATP phosphoribosyltransferase regulatory subunit (EC 2.4.2.17)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5569</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47488" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="BACPEC_00937" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6259831&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4786" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BACPEC_01132" Name="groES" Position="-56" Score="7.2">
+          <Sequence>TTAGCACTCGAGATAAATGAGTGCTAA</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_00901" Name="htpG" Position="-98" Score="7.1">
+          <Sequence>TTAGCACTCTTTTATAATGAGTGCTGA</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_00937" Name="hrcA" Position="-20" Score="7.1">
+          <Sequence>TTAGCACTCCACAACAATGAGTGCTAA</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_02725" Name="hsp20" Position="-188" Score="7.2">
+          <Sequence>TTAGCACTCACCTCTTGACAGTGCTAA</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6259831" LocusId="BACPEC_00937" Name="hrcA" Function="heat-inducible transcription repressor HrcA" />
+          <Members vimssId="6259830" LocusId="BACPEC_00936" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="6259829" LocusId="BACPEC_00935" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="6259828" LocusId="BACPEC_00934" Name="dnaJ" Function="Chaperone protein DnaJ" />
+          <Members vimssId="6259827" LocusId="BACPEC_00933" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6260026" LocusId="BACPEC_01132" Name="groES" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="6260025" LocusId="BACPEC_01131" Name="groEL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6259795" LocusId="BACPEC_00901" Name="htpG" Function="Heat shock chaperone protein 90" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6261619" LocusId="BACPEC_02725" Name="hsp20" Function="Heat shock protein Hsp20" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4786</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="DtxR" RegulationMode="repressor">
+      <Regulator Key="IdeR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63057" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="BACPEC_02631" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6261525&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="IdeR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6500" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BACPEC_02631" Name="ideR" Position="-135" Score="4.5">
+          <Sequence>ATGATTAAATTATGCTAAACAA</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_02635" Name="" Position="-72" Score="5.9">
+          <Sequence>GTAATTAGAATAAACTAACAAT</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_02120" Name="" Position="-44" Score="4.8">
+          <Sequence>AAGGTTAGTTATAACTAACTAA</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6261529" LocusId="BACPEC_02635" Name="null" Function="hypothetical protein" />
+          <Members vimssId="6261530" LocusId="BACPEC_02636" Name="feoA" Function="Ferrous iron transport protein A" />
+          <Members vimssId="6261531" LocusId="BACPEC_02637" Name="feoB" Function="Ferrous iron transport protein B" />
+          <Members vimssId="6261532" LocusId="BACPEC_02638" Name="null" Function="hypothetical protein" />
+          <Members vimssId="6261533" LocusId="BACPEC_02639" Name="fur" Function="Transcriptional regulator for iron transport and metabolism, Fur family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6261014" LocusId="BACPEC_02120" Name="null" Function="hypothetical protein" />
+          <Members vimssId="6261015" LocusId="BACPEC_02121" Name="COG0716" Function="Flavodoxins" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6261525" LocusId="BACPEC_02631" Name="ideR" Function="Predicted iron-dependent repressor, DtxR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6500</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47446" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="BACPEC_00341" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6259235&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4783" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BACPEC_00341" Name="lexA" Position="-171" Score="4.9">
+          <Sequence>TCAAACATTCGTTTGT</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_00341" Name="lexA" Position="-133" Score="4.7">
+          <Sequence>CCGAACAAATTTTCTG</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_02977" Name="umuC" Position="-111" Score="4.8">
+          <Sequence>GCAAACTTTTGTTCGA</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_00340" Name="PF01476" Position="-115" Score="4.7">
+          <Sequence>CAGAAAATTTGTTCGG</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_00340" Name="PF01476" Position="-77" Score="4.9">
+          <Sequence>ACAAACGAATGTTTGA</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6261871" LocusId="BACPEC_02977" Name="umuC" Function="DNA polymerase V involved in DNA-repair" />
+          <Members vimssId="6261872" LocusId="BACPEC_02978" Name="BACPEC_01776" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6259235" LocusId="BACPEC_00341" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6259234" LocusId="BACPEC_00340" Name="PF01476" Function="Peptidoglycan-binding lysin domain" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4783</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NiaR" RegulationMode="repressor">
+      <Regulator Key="NiaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47432" />
+      <Effector>Niacin</Effector>
+      <Pathway>NAD biosynthesis</Pathway>
+      <LocusTag Key="BACPEC_00422" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6259316&amp;disp=0" />
+      <BiologicalProcess>NAD biosynthesis</BiologicalProcess>
+      <Regulog Key="NiaR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4782" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BACPEC_00421" Name="niaY" Position="-45" Score="5.4">
+          <Sequence>ATCATCTGACAAGACAGTTGAC</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_00421" Name="niaY" Position="-33" Score="5.3">
+          <Sequence>GACAGTTGACATTACAGCTGTA</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6259315" LocusId="BACPEC_00421" Name="niaY" Function="Predicted nicotinate-regulated transporter NiaY" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4782</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=64312" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="BACPEC_00737" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6259631&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6635" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BACPEC_00926" Name="nrdD" Position="-147" Score="5.1">
+          <Sequence>GCACAATATATTGTTT</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_00926" Name="nrdD" Position="-116" Score="3.9">
+          <Sequence>TTTCTATATTTGGTAG</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_00140" Name="nrdD" Position="-159" Score="4.1">
+          <Sequence>ACGCAATATTTGGTAA</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_00140" Name="nrdD" Position="-128" Score="4.5">
+          <Sequence>TATCTATATATTGTGG</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6259820" LocusId="BACPEC_00926" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+          <Members vimssId="6259821" LocusId="BACPEC_00927" Name="nrdG" Function="anaerobic ribonucleoside-triphosphate reductase activating protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6259034" LocusId="BACPEC_00140" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6635</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61473" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine biosynthesis</Pathway>
+      <LocusTag Key="BACPEC_02643" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6261537&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine biosynthesis</BiologicalProcess>
+      <Regulog Key="PdxR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6312" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BACPEC_01644" Name="pdxU" Position="-60" Score="9.3">
+          <Sequence>ATCTGGTAT-(15)-AACTGGCAT-(8)-TTGCCACAT</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6260538" LocusId="BACPEC_01644" Name="pdxU" Function="Substrate-specific component PdxU of predicted pyridoxin-related ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6312</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="RUMGNA_00848" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57028" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux</Pathway>
+      <LocusTag Key="BACPEC_02167" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6261061&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux</BiologicalProcess>
+      <Regulog Key="RUMGNA_00848 - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5831" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BACPEC_02167" Name="RUMGNA_00848" Position="-109" Score="6.3">
+          <Sequence>CGTACATACTGTATATAGTGTGTATATACGGATGATGCG</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6261061" LocusId="BACPEC_02167" Name="RUMGNA_00848" Function="Transcriptional regulator, GntR family" />
+          <Members vimssId="6261062" LocusId="BACPEC_02168" Name="BH0652" Function="ABC-type multidrug transport system, ATPase component" />
+          <Members vimssId="6261063" LocusId="BACPEC_02169" Name="BH0653" Function="ABC-type multidrug transport system, permease component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5831</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rex" RegulationMode="repressor">
+      <Regulator Key="Rex" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=47460" />
+      <Effector>NADH</Effector>
+      <Pathway>Energy metabolism</Pathway>
+      <LocusTag Key="BACPEC_01011" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6259905&amp;disp=0" />
+      <BiologicalProcess>Energy metabolism</BiologicalProcess>
+      <Regulog Key="Rex - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4784" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BACPEC_02251" Name="adhE" Position="-48" Score="5.5">
+          <Sequence>TTGTTAAAATATTAACGA</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_03060" Name="bdh" Position="-43" Score="5.1">
+          <Sequence>ATGATAAAAAATTAACGA</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_00707" Name="ladH" Position="-55" Score="4.9">
+          <Sequence>GTGTTATAATTTTAACAG</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_01917" Name="pckA" Position="-135" Score="5.2">
+          <Sequence>TCGTTAAAATTTTATCAT</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_01128" Name="phf1" Position="-57" Score="4.8">
+          <Sequence>GTGTGAAAATATTAACAT</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_03240" Name="pflB" Position="-128" Score="5.2">
+          <Sequence>TTGTTGATTTTTTAACAA</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_01011" Name="rex" Position="-69" Score="4.4">
+          <Sequence>TTGACATGATTTTAACGA</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_01494" Name="por" Position="-158" Score="4.4">
+          <Sequence>TTGACAAAGGTTTAACAA</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_01011" Name="rex" Position="7" Score="4.4">
+          <Sequence>GCGATAAAAAAATATCAT</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6261145" LocusId="BACPEC_02251" Name="adhE" Function="Alcohol dehydrogenase (EC 1.1.1.1), Fe-dependent; Acetaldehyde dehydrogenase (EC 1.2.1.10)" />
+          <Members vimssId="6261146" LocusId="BACPEC_02252" Name="stpK" Function="Mn2+-dependent serine/threonine protein kinase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6260388" LocusId="BACPEC_01494" Name="por" Function="Pyruvate-flavodoxin oxidoreductase (EC 1.2.7.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6259905" LocusId="BACPEC_01011" Name="rex" Function="Redox-sensitive transcriptional regulator (AT-rich DNA-binding protein)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6262134" LocusId="BACPEC_03240" Name="pflB" Function="Pyruvate formate-lyase (EC 2.3.1.54)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6260022" LocusId="BACPEC_01128" Name="phf1" Function="[Fe] hydrogenase (EC 1.12.7.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6260811" LocusId="BACPEC_01917" Name="pckA" Function="Phosphoenolpyruvate carboxykinase [ATP] (EC 4.1.1.49)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6259601" LocusId="BACPEC_00707" Name="ladH" Function="Lactaldehyde reductase (EC 1.1.1.77)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6261954" LocusId="BACPEC_03060" Name="bdh" Function="Butanol dehydrogenase; Butyraldehyde dehydrogenase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4784</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="">
+      <Regulator Key="UxuR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63042" />
+      <Effector />
+      <Pathway>Glucuronate utilization</Pathway>
+      <LocusTag Key="BACPEC_00410" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6259304&amp;disp=0" />
+      <BiologicalProcess>Glucuronate utilization</BiologicalProcess>
+      <Regulog Key="UxuR - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6499" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BACPEC_00407" Name="uxaB" Position="-103" Score="6.4">
+          <Sequence>CAATGTAAGCGCTTACATTA</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="BACPEC_00410" Name="uxuR" Position="-38" Score="6.5">
+          <Sequence>AAATGTAAGCACTTACATTT</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6259301" LocusId="BACPEC_00407" Name="uxaB" Function="Altronate oxidoreductase (EC 1.1.1.58)" />
+          <Members vimssId="6259300" LocusId="BACPEC_00406" Name="uxaA" Function="Altronate hydrolase (EC 4.2.1.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="6259304" LocusId="BACPEC_00410" Name="uxuR" Function="Predicted transcription regulator for glucuronate utilization, LacI family" />
+          <Members vimssId="6259305" LocusId="BACPEC_00411" Name="uxaC" Function="Uronate isomerase (EC 5.3.1.12)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6499</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="YtrA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=57193" />
+      <Effector />
+      <Pathway>Multidrug resistance; Multidrug efflux; Antibiotic resistance</Pathway>
+      <LocusTag Key="BACPEC_03005" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=6261899&amp;disp=0" />
+      <BiologicalProcess>Multidrug resistance; Multidrug efflux; Antibiotic resistance</BiologicalProcess>
+      <Regulog Key="YtrA - Clostridia-3" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5849" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BACPEC_03005" Name="ytrA" Position="-50" Score="6.4">
+          <Sequence>AACTGTATTAATCGTACTAATACAGTT</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6261899" LocusId="BACPEC_03005" Name="ytrA" Function="Transcriptional regulator, GntR family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5849</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48822" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BACPEC_00730" Name="ribU" Position="-213" Score="64.1">
+          <Sequence>GAATGAACGGCAGATTCAATTCTTGACCGGCGGTATAGTCCGCGAACCTCGTATAAGAGGCCGATTGGGTTTGACTCCCAAACCGACAGTATAGTCTGGATGAAAGAAGTGTAGG</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6259624" LocusId="BACPEC_00730" Name="ribU" Function="Substrate-specific component RibU of riboflavin ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48836" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="BACPEC_01112" Name="thiC" Position="-226" Score="65.8">
+          <Sequence>TATACAGAATTTGGGGAGCTTGTATTACAGGCTGAGAGGAAGATGTGAGCTTCGACCCACGAACCTGATACGGATAATGCCGATGTAGGAAAATTTTAAGACATATCG</Sequence>
+          <Bacteria>Bacteroides pectinophilus ATCC 43243</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="6260006" LocusId="BACPEC_01112" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+          <Members vimssId="6260005" LocusId="BACPEC_01111" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

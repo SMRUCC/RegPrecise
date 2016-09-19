@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Teredinibacter turnerae T7901" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14964" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="TERTU_0866" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7053670&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1604" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TERTU_0490" Name="bioB" Position="-110" Score="8.7">
+          <Sequence>TTGTAAACT---------------GGTTGACAA</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_0489" Name="COG1040" Position="-49" Score="8.7">
+          <Sequence>TTGTCAACC---------------AGTTTACAA</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7053329" LocusId="TERTU_0490" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="7053330" LocusId="TERTU_0491" Name="bioF" Function="8-amino-7-oxononanoate synthase" />
+          <Members vimssId="7053331" LocusId="TERTU_0492" Name="bioHC" Function="Biotin synthesis protein BioH / Biotin synthesis protein BioC" />
+          <Members vimssId="7053332" LocusId="TERTU_0493" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7053328" LocusId="TERTU_0489" Name="COG1040" Function="Competence protein F homolog, phosphoribosyltransferase domain" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1604</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17868" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="TERTU_2649" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7055282&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1929" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TERTU_2649" Name="iscR" Position="-64" Score="6.1">
+          <Sequence>ATAGTTGACCGCATTACTCGGTTAT</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_3061" Name="erpA" Position="-86" Score="5.8">
+          <Sequence>ATACTTGACTGAAACACTCGGGTAC</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_2127" Name="nfuA" Position="-69" Score="5.8">
+          <Sequence>ATACCCAACTAAATTAGTAGGGTAT</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7055668" LocusId="TERTU_3061" Name="erpA" Function="ErpA, essential respiratory protein A / probable iron binding protein from the HesB_IscA_SufA family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7054811" LocusId="TERTU_2127" Name="nfuA" Function="NfuA Fe-S protein maturation" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7055282" LocusId="TERTU_2649" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="7055281" LocusId="TERTU_2648" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+          <Members vimssId="7055280" LocusId="TERTU_2647" Name="sufB" Function="Iron-sulfur cluster assembly protein SufB" />
+          <Members vimssId="7055279" LocusId="TERTU_2646" Name="sufC" Function="Iron-sulfur cluster assembly ATPase protein SufC" />
+          <Members vimssId="7055278" LocusId="TERTU_2645" Name="sufD" Function="Iron-sulfur cluster assembly protein SufD" />
+          <Members vimssId="7055277" LocusId="TERTU_2644" Name="sufS" Function="Cysteine desulfurase (EC 2.8.1.7), SufS subfamily" />
+          <Members vimssId="7055276" LocusId="TERTU_2643" Name="sufA" Function="Iron binding protein SufA for iron-sulfur cluster assembly" />
+          <Members vimssId="7055275" LocusId="TERTU_2641" Name="sufT" Function="Iron sulfur cluster assembly protein SufT" />
+          <Members vimssId="7055274" LocusId="TERTU_2640" Name="sufE" Function="Sulfur acceptor protein SufE for iron-sulfur cluster assembly" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1929</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28316" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="TERTU_1938" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7054645&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2978" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TERTU_3298" Name="recN" Position="-65" Score="5.6">
+          <Sequence>TACTGTATAAATAGCCAATA</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_2823" Name="recA" Position="-242" Score="5.3">
+          <Sequence>CACTGTTTACACGTACAGTA</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_2925" Name="imuA" Position="-37" Score="6.2">
+          <Sequence>TACTGTATATTAATACAGTT</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_2929" Name="dnaE2" Position="-30" Score="5.9">
+          <Sequence>AACTGTATATTTAAACAGCA</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_1938" Name="lexA" Position="-75" Score="6.1">
+          <Sequence>TACTGTATAAACAAACAGAT</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_0718" Name="dinB" Position="-68" Score="6">
+          <Sequence>AACTGTATAATAATACAGTA</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_0430" Name="yebG" Position="-88" Score="6">
+          <Sequence>TACTGTACAAACAAACAGTA</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_1758" Name="intIA" Position="-32" Score="5.9">
+          <Sequence>TACTGTATGTACAAACAGTT</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7055443" LocusId="TERTU_2823" Name="recA" Function="Recombinase A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7054645" LocusId="TERTU_1938" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+          <Members vimssId="7054644" LocusId="TERTU_1937" Name="sulA" Function="Cell division inhibitor sulA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7053535" LocusId="TERTU_0718" Name="dinB" Function="DNA polymerase IV (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7055541" LocusId="TERTU_2929" Name="dnaE2" Function="DNA polymerase III alpha subunit (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7055537" LocusId="TERTU_2925" Name="imuA" Function="Predicted RecA/RadA recombinase" />
+          <Members vimssId="7055538" LocusId="TERTU_2926" Name="imuB" Function="DNA polymerase-like protein PA0670" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7055887" LocusId="TERTU_3298" Name="recN" Function="DNA repair protein RecN" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7053275" LocusId="TERTU_0430" Name="yebG" Function="SOS regulon DNA damage-inducible protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7054487" LocusId="TERTU_1758" Name="intIA" Function="Integron integrase IntI4" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2978</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor (activator)">
+      <Regulator Key="MetR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56643" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="TERTU_4689" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7057153&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5786" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TERTU_4688" Name="metE" Position="-81" Score="4.5">
+          <Sequence>ATGAAATAATACCAT</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_4688" Name="metE" Position="-102" Score="5.4">
+          <Sequence>ATGAATTGTATTCAT</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_4689" Name="metR" Position="0" Score="4.5">
+          <Sequence>ATGGTATTATTTCAT</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_4689" Name="metR" Position="21" Score="5.4">
+          <Sequence>ATGAATACAATTCAT</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7057153" LocusId="TERTU_4689" Name="metR" Function="Homocysteine-responsive transcriptional regulator of methionine metabolism, LysR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7057152" LocusId="TERTU_4688" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5786</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="NagR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14254" />
+      <Effector>N-acetylglucosamine</Effector>
+      <Pathway>N-acetylglucosamine utilization</Pathway>
+      <LocusTag Key="TERTU_0816" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7053623&amp;disp=0" />
+      <BiologicalProcess>N-acetylglucosamine utilization</BiologicalProcess>
+      <Regulog Key="NagR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1523" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TERTU_0808" Name="omp_nag" Position="-164" Score="6">
+          <Sequence>GTTGACAACGTTGTCTTT</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_0808" Name="omp_nag" Position="-96" Score="5.9">
+          <Sequence>CATGACAACGTTGTCATA</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_0285" Name="chiA" Position="-184" Score="5.4">
+          <Sequence>TCTGACAACGTTGTCTTT</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_0285" Name="chiA" Position="-213" Score="6">
+          <Sequence>ATTGACAACGTTGTCTTC</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_0815" Name="nagB2" Position="-59" Score="6.6">
+          <Sequence>AATGACAACGTTGTCATT</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7053616" LocusId="TERTU_0808" Name="omp_nag" Function="N-acetylglucosamine-regulated TonB-dependent outer membrane receptor" />
+          <Members vimssId="7053617" LocusId="TERTU_0810" Name="nagK" Function="N-acetylglucosamine kinase of eukaryotic type (EC 2.7.1.59)" />
+          <Members vimssId="7053618" LocusId="TERTU_0811" Name="hex" Function="Beta-N-acetylhexosaminidase" />
+          <Members vimssId="7053619" LocusId="TERTU_0812" Name="nagP" Function="N-acetylglucosamine transporter, NagP" />
+          <Members vimssId="7053620" LocusId="TERTU_0813" Name="nagX" Function="N-acetylglucosamine related transporter, NagX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7053146" LocusId="TERTU_0285" Name="chiA" Function="Chitinase (EC 3.2.1.14)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7053622" LocusId="TERTU_0815" Name="nagB2" Function="Glucosamine-6-phosphate deaminase [isomerizing], alternative (EC 3.5.99.6)" />
+          <Members vimssId="7053621" LocusId="TERTU_0814" Name="nagA" Function="N-acetylglucosamine-6-phosphate deacetylase (EC 3.5.1.25)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1523</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NorR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16958" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="TERTU_0470" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7053312&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="NorR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1827" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TERTU_0470" Name="norR" Position="-65" Score="5">
+          <Sequence>TGATGTCTTTATGACACAG</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_0471" Name="hmp" Position="-207" Score="5">
+          <Sequence>CTGTGTCATAAAGACATCA</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7053313" LocusId="TERTU_0471" Name="hmp" Function="Flavohemoprotein, nitric oxide dioxygenase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7053312" LocusId="TERTU_0470" Name="norR" Function="anaerobic nitric oxide reductase transcription regulator, Fis family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1827</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15520" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="TERTU_3705" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7056250&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1666" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TERTU_0730" Name="nrdA" Position="-292" Score="3.7">
+          <Sequence>CCGCATTATCTTGTAT</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_1637" Name="nrdJa" Position="-22" Score="5.2">
+          <Sequence>ACACCATATATTGGGG</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_0730" Name="nrdA" Position="-261" Score="4.9">
+          <Sequence>CCCCAATATATGGTGT</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7053547" LocusId="TERTU_0730" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="7053546" LocusId="TERTU_0729" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7054377" LocusId="TERTU_1637" Name="nrdJa" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+          <Members vimssId="7054376" LocusId="TERTU_1636" Name="nrdJa" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent), alpha subunit (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1666</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19290" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="TERTU_4424" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7056914&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2083" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TERTU_4421" Name="glnA" Position="-263" Score="4.3">
+          <Sequence>GGCGCCACACTGGTGCA</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_4421" Name="glnA" Position="-234" Score="5.1">
+          <Sequence>CGCACCACTATGGCGCG</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_4423" Name="ntrB" Position="-344" Score="4.8">
+          <Sequence>AGCACCATTACAGCGCA</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_4209" Name="ureD" Position="-29" Score="4.9">
+          <Sequence>TGCGTTAATATGGTGCA</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_4200" Name="urtA" Position="-215" Score="4.6">
+          <Sequence>GGCACCTTAATGGTGCC</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_4186" Name="PF09694" Position="-186" Score="4.6">
+          <Sequence>TGCACTCATATTGTGCT</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7056687" LocusId="TERTU_4186" Name="PF09694" Function="Conserved hypothetical protein, nitrogen assimilation associated" />
+          <Members vimssId="7056686" LocusId="TERTU_4185" Name="glnK" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="7056685" LocusId="TERTU_4184" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7056911" LocusId="TERTU_4421" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7056913" LocusId="TERTU_4423" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="7056914" LocusId="TERTU_4424" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7056701" LocusId="TERTU_4200" Name="urtA" Function="Urea ABC transporter, substrate-binding component" />
+          <Members vimssId="7056700" LocusId="TERTU_4199" Name="urtB" Function="Urea ABC transporter, permease component 1" />
+          <Members vimssId="7056699" LocusId="TERTU_4198" Name="urtC" Function="Urea ABC transporter, permease component 2" />
+          <Members vimssId="7056698" LocusId="TERTU_4197" Name="urtD" Function="Urea ABC transporter, ATP-binding component 1" />
+          <Members vimssId="7056697" LocusId="TERTU_4196" Name="urtE" Function="Urea ABC transporter, ATP-binding component 2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7056710" LocusId="TERTU_4209" Name="ureD" Function="Urease accessory protein, UreD" />
+          <Members vimssId="7056709" LocusId="TERTU_4208" Name="ureA" Function="Urease, gamma subunit (EC 3.5.1.5)" />
+          <Members vimssId="7056708" LocusId="TERTU_4207" Name="ureB" Function="Urease, beta subunit (EC 3.5.1.5)" />
+          <Members vimssId="7056707" LocusId="TERTU_4206" Name="ureC" Function="Urease, alpha subunit (EC 3.5.1.5)" />
+          <Members vimssId="7056706" LocusId="TERTU_4205" Name="ureE" Function="Urease accessory protein, UreE" />
+          <Members vimssId="7056705" LocusId="TERTU_4204" Name="ureF" Function="Urease accessory protein, UreF" />
+          <Members vimssId="7056704" LocusId="TERTU_4203" Name="ureG" Function="Urease accessory protein, UreG" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2083</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="RutR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=30843" />
+      <Effector>Uracil</Effector>
+      <Pathway>Pyrimidine utilization</Pathway>
+      <LocusTag Key="TERTU_2069" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7054758&amp;disp=0" />
+      <BiologicalProcess>Pyrimidine utilization</BiologicalProcess>
+      <Regulog Key="RutR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=3185" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TERTU_2072" Name="hpt" Position="-96" Score="5.8">
+          <Sequence>TTCTGACCAAATGGTCAGCT</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_2067" Name="xdhA" Position="-252" Score="4.7">
+          <Sequence>ATTTGACCACTAGGACAAAT</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_2067" Name="xdhA" Position="-89" Score="5.6">
+          <Sequence>ACCTGACCGAATGGCCAGCT</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_2069" Name="rutR" Position="-72" Score="4.6">
+          <Sequence>ATTTGTCCTAGTGGTCAAAT</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_2069" Name="rutR" Position="-235" Score="5.3">
+          <Sequence>AGCTGGCCATTCGGTCAGGT</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7054756" LocusId="TERTU_2067" Name="xdhA" Function="Xanthine dehydrogenase, iron-sulfur cluster and FAD-binding subunit A (1.17.1.4)" />
+          <Members vimssId="7054755" LocusId="TERTU_2066" Name="xdhB" Function="Xanthine dehydrogenase, molybdenum binding subunit (EC 1.17.1.4)" />
+          <Members vimssId="7054754" LocusId="TERTU_2065" Name="xdhC" Function="XdhC protein (assists in molybdopterin insertion into xanthine dehydrogenase)" />
+          <Members vimssId="7054753" LocusId="TERTU_2064" Name="pucL" Function="Uricase (EC 1.7.3.3)" />
+          <Members vimssId="7054752" LocusId="TERTU_2063" Name="pucM" Function="Hydroxyisourate hydrolase (EC 3.5.2.17)" />
+          <Members vimssId="7054751" LocusId="TERTU_2062" Name="guaD" Function="Guanine deaminase (EC 3.5.4.3)" />
+          <Members vimssId="7054750" LocusId="TERTU_2061" Name="COG3748" Function="Predicted inner membrane protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7054761" LocusId="TERTU_2072" Name="hpt" Function="Hypoxanthine-guanine phosphoribosyltransferase (EC 2.4.2.8)" />
+          <Members vimssId="7054760" LocusId="TERTU_2071" Name="nupP" Function="Predicted purine nucleoside permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7054758" LocusId="TERTU_2069" Name="rutR" Function="Transcriptional regulator RutR of pyrimidine catabolism, TetR family" />
+          <Members vimssId="7054759" LocusId="TERTU_2070" Name="ssnA" Function="Predicted chlorohydrolase/aminohydrolase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=3185</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="SahR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15722" />
+      <Effector>S-adenosylhomocysteine</Effector>
+      <Pathway>Methionine metabolism</Pathway>
+      <LocusTag Key="TERTU_3975" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7056499&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism</BiologicalProcess>
+      <Regulog Key="SahR - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1688" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TERTU_3975" Name="sahR" Position="-49" Score="7.2">
+          <Sequence>ATATCAAAACTTTTTGATAT</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_2126" Name="metH" Position="-52" Score="6.5">
+          <Sequence>ATATCAAAGTATTTTGATAT</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7054810" LocusId="TERTU_2126" Name="metH" Function="5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7056499" LocusId="TERTU_3975" Name="sahR" Function="Transcriptional regulator of methionine metabolism, ArsR family" />
+          <Members vimssId="7056500" LocusId="TERTU_3976" Name="metK" Function="S-adenosylmethionine synthetase (EC 2.5.1.6)" />
+          <Members vimssId="7056501" LocusId="TERTU_3977" Name="ahcY" Function="Adenosylhomocysteinase (EC 3.3.1.1)" />
+          <Members vimssId="7056502" LocusId="TERTU_3978" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1688</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="TERTU_3902" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=63909" />
+      <Effector />
+      <Pathway>Multidrug efflux</Pathway>
+      <LocusTag Key="TERTU_3902" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7056431&amp;disp=0" />
+      <BiologicalProcess>Multidrug efflux</BiologicalProcess>
+      <Regulog Key="TERTU_3902 - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6594" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TERTU_3903)" Name="COG697 (RhaT" Position="-105" Score="12.8">
+          <Sequence>ATTGACAC-(1)-GTGTCATT-(6)-GTTGACCC</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7056432" LocusId="TERTU_3903" Name="COG697 (RhaT)" Function="Permeases of the drug/metabolite transporter (DMT) superfamily" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6594</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16060" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="TERTU_3389" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7055964&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Oceanospirillales/Alteromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1726" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TERTU_2263" Name="yciC" Position="-119" Score="5.5">
+          <Sequence>ATAATGATATGGTATATCATAAC</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_0054" Name="znuA" Position="-67" Score="6.1">
+          <Sequence>GTTATGTTATCATATAACGTTTA</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_0053" Name="zur" Position="-51" Score="6">
+          <Sequence>TAAACGTTATATGATAACATAAC</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_2263" Name="yciC" Position="-114" Score="6">
+          <Sequence>GATATGGTATATCATAACGTTAC</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7052938" LocusId="TERTU_0054" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7052937" LocusId="TERTU_0053" Name="zur" Function="Zinc uptake regulation protein ZUR" />
+          <Members vimssId="7052936" LocusId="TERTU_0052" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="7052935" LocusId="TERTU_0051" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7054932" LocusId="TERTU_2263" Name="yciC" Function="Putative metal chaperone, GTPase of COG0523 family" />
+          <Members vimssId="7054933" LocusId="TERTU_2264" Name="PF08856" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1726</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01055" RegulationMode="RF01055">
+      <Regulator Key="MOCO_RNA_motif" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=55387" />
+      <Effector>Molybdenum</Effector>
+      <Pathway>Molybdopterin biosynthesis; Molybdenum homeostasis</Pathway>
+      <LocusTag Key="MOCO_RNA_motif" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TERTU_3185" Name="moaA" Position="-127" Score="65.6">
+          <Sequence>AACTTTAATTTCGCCGAAGCCAGTTTAGCCTACAGCCGCCACACGGCCATGGACAACTGGCCGCAGCGCCAGCCGCTGCCGGGTTACAAGGGAAACTTTGTGGCCTCCCACACTTGGAAAGGCATACATGCACACTATACCA</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7055778" LocusId="TERTU_3185" Name="moaA" Function="Molybdenum cofactor biosynthesis protein MoaA" />
+          <Members vimssId="7055779" LocusId="TERTU_3186" Name="moaB" Function="Molybdenum cofactor biosynthesis protein MoaB" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48613" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="TERTU_3925" Name="thiD" Position="-126" Score="69.8">
+          <Sequence>TTAACACTTGTCGGGGTGCCGTTTTACGGCTGAGAAATACCCGCTGACCTGATCTGGATAGTACCAGCGTAGGGAACAAGTTGCCCGCCTTG</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_2621" Name="thiO" Position="-88" Score="52.5">
+          <Sequence>AATGACTGTCGGGGTGCCAACATGACGTTGTCGGCTGAGAATATACCCGTACGACCTGATCAGGTTCGAACCTGCGTAGGCAACAATTATGACTGCTCCAA</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="TERTU_1246" Name="omp_thi" Position="-176" Score="72">
+          <Sequence>GCTGTCCTTAGGGGTGATTGGCCGTCGCACGGTGCAATCTGAGACGGGATTACCCGAACCCTTTGAACCTGATCCGGCTAGTACCGGCGTAGGAATAGGATTTGCCTCTGTGTA</Sequence>
+          <Bacteria>Teredinibacter turnerae T7901</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7054025" LocusId="TERTU_1246" Name="omp_thi" Function="Predicted thiamin-specific outer membrane transporter, TonB-dependent" />
+          <Members vimssId="7054026" LocusId="TERTU_1247" Name="HCH_01843" Function="hypothetical protein" />
+          <Members vimssId="7054027" LocusId="TERTU_1248" Name="pnuT" Function="Predicted thiamin transporter PnuT" />
+          <Members vimssId="7054028" LocusId="TERTU_1249" Name="thiK" Function="Predicted thiamine kinase, aminoglycoside phosphotransferase family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7055257" LocusId="TERTU_2621" Name="thiO" Function="Glycine oxidase ThiO (EC 1.4.3.19)" />
+          <Members vimssId="7055258" LocusId="TERTU_2622" Name="thiS" Function="Sulfur carrier protein ThiS" />
+          <Members vimssId="7055259" LocusId="TERTU_2623" Name="thiG" Function="Thiazole biosynthesis protein ThiG" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7056454" LocusId="TERTU_3925" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+          <Members vimssId="7056453" LocusId="TERTU_3924" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

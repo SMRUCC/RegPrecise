@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Aggregatibacter aphrophilus NJ8700" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArgR" RegulationMode="repressor (activator)">
+      <Regulator Key="ArgR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21717" />
+      <Effector>Arginine</Effector>
+      <Pathway>Arginine biosynthesis</Pathway>
+      <LocusTag Key="NT05HA_1110" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7726152&amp;disp=0" />
+      <BiologicalProcess>Arginine biosynthesis</BiologicalProcess>
+      <Regulog Key="ArgR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2348" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_0201" Name="artP" Position="-73" Score="5.2">
+          <Sequence>GTTGCATAATTATTCATA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1110" Name="argR" Position="-80" Score="4">
+          <Sequence>AAAGCCTAAATAATAATT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7725273" LocusId="NT05HA_0201" Name="artP" Function="Arginine ABC transporter, ATP-binding protein" />
+          <Members vimssId="7725274" LocusId="NT05HA_0202" Name="artI" Function="Arginine ABC transporter, substrate-binding protein ArtI" />
+          <Members vimssId="7725275" LocusId="NT05HA_0203" Name="artQ" Function="Arginine ABC transporter, permease protein 1" />
+          <Members vimssId="7725276" LocusId="NT05HA_0204" Name="artM" Function="Arginine ABC transporter, permease protein 2" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726152" LocusId="NT05HA_1110" Name="argR" Function="Arginine metabolism transcriptional regulator ArgR" />
+          <Members vimssId="7726153" LocusId="NT05HA_1111" Name="yfcH" Function="Conserved hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2348</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator (repressor)">
+      <Regulator Key="CueR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=50873" />
+      <Effector>Copper ion, (Cu+)</Effector>
+      <Pathway>Copper resistance</Pathway>
+      <LocusTag Key="NT05HA_0167" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7725239&amp;disp=0" />
+      <BiologicalProcess>Copper resistance</BiologicalProcess>
+      <Regulog Key="CueR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5155" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_0168" Name="copA0" Position="-82" Score="5.2">
+          <Sequence>ACCTTAACCTAACGTTAAGGT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0167" Name="cueR" Position="-33" Score="5.2">
+          <Sequence>ACCTTAACGTTAGGTTAAGGT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7725239" LocusId="NT05HA_0167" Name="cueR" Function="Copper-responsive transcriptional regulator, MerR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725240" LocusId="NT05HA_0168" Name="copA0" Function="truncated copper-transporting P-type ATPase" />
+          <Members vimssId="7725241" LocusId="NT05HA_0169" Name="null" Function="hypothetical protein" />
+          <Members vimssId="7725242" LocusId="NT05HA_0170" Name="copA" Function="Copper-translocating P-type ATPase (EC 3.6.3.4)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5155</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TetR" RegulationMode="repressor">
+      <Regulator Key="FabR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=14398" />
+      <Effector>Unsaturated acyl-ACP; Unsaturated acyl-CoA</Effector>
+      <Pathway>Fatty acid biosynthesis</Pathway>
+      <LocusTag Key="NT05HA_2007" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7727044&amp;disp=0" />
+      <BiologicalProcess>Fatty acid biosynthesis</BiologicalProcess>
+      <Regulog Key="FabR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1540" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_1266" Name="fabB" Position="-51" Score="4.3">
+          <Sequence>AGCTAACAAATGTAAGTC</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0871" Name="fabA" Position="-101" Score="6.2">
+          <Sequence>GGCGTACAAGTGTTAGCT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0066" Name="lcfH" Position="-36" Score="5.7">
+          <Sequence>AGCGCACAACTGTTAGCT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7725923" LocusId="NT05HA_0871" Name="fabA" Function="3-hydroxydecanoyl-[acyl-carrier-protein] dehydratase (EC 4.2.1.60)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726305" LocusId="NT05HA_1266" Name="fabB" Function="3-oxoacyl-[acyl-carrier-protein] synthase, KASI (EC 2.3.1.41)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725140" LocusId="NT05HA_0066" Name="lcfH" Function="putative long-chain-fatty-acid--CoA ligase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1540</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor (activator)">
+      <Regulator Key="FadR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16378" />
+      <Effector>Palmitoyl-CoA; Oleoyl-CoA</Effector>
+      <Pathway>Fatty acid degradation</Pathway>
+      <LocusTag Key="NT05HA_2364" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7727398&amp;disp=0" />
+      <BiologicalProcess>Fatty acid degradation</BiologicalProcess>
+      <Regulog Key="FadR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1763" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_0160" Name="fadL" Position="-64" Score="5.6">
+          <Sequence>TACTGGTCCGAACACTT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0871" Name="fabA" Position="-119" Score="5">
+          <Sequence>AACTGATCGGACAAGTT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7725923" LocusId="NT05HA_0871" Name="fabA" Function="3-hydroxydecanoyl-[acyl-carrier-protein] dehydratase (EC 4.2.1.60)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725232" LocusId="NT05HA_0160" Name="fadL" Function="Long-chain fatty acid transport protein" />
+          <Members vimssId="7725231" LocusId="NT05HA_0159" Name="fadL" Function="Long-chain fatty acid transport protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1763</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="FruR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=20659" />
+      <Effector>Fructose-1-phosphate; Fructose-1,6-diphosphate</Effector>
+      <Pathway>Fructose utilization</Pathway>
+      <LocusTag Key="NT05HA_0897" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7725942&amp;disp=0" />
+      <BiologicalProcess>Fructose utilization</BiologicalProcess>
+      <Regulog Key="FruR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2235" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_1667" Name="manX" Position="-50" Score="4.8">
+          <Sequence>GCTGAAACGTTTCAAA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7726701" LocusId="NT05HA_1667" Name="manX" Function="PTS system, mannose-specific IIA component (EC 2.7.1.69) / PTS system, mannose-specific IIB component (EC 2.7.1.69)" />
+          <Members vimssId="7726702" LocusId="NT05HA_1668" Name="manY" Function="PTS system, mannose-specific IIC component (EC 2.7.1.69)" />
+          <Members vimssId="7726703" LocusId="NT05HA_1669" Name="manZ" Function="PTS system, mannose-specific IID component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2235</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor (activator)">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19418" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="NT05HA_0360" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7725427&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2098" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_1294" Name="fecB" Position="-74" Score="4.1">
+          <Sequence>AAGAACTATTCTCAATATT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1575" Name="exbB" Position="-89" Score="4.4">
+          <Sequence>CAAAATGAGATTGATTATC</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1575" Name="exbB" Position="-83" Score="4.2">
+          <Sequence>GAGATTGATTATCAGTTGT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1311" Name="hasR" Position="-31" Score="4.3">
+          <Sequence>TAAAATTATAATTATATTT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1365" Name="cirA" Position="-95" Score="4.2">
+          <Sequence>AAGCATAGTAATAATTATC</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1365" Name="cirA" Position="-89" Score="5.1">
+          <Sequence>AGTAATAATTATCATTTGC</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1269" Name="hgpA" Position="-74" Score="5">
+          <Sequence>GAAAATAAATTTCATTATC</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1269" Name="hgpA" Position="-50" Score="4.3">
+          <Sequence>GCGAATTATTTTCATTTAT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0976" Name="tyrS" Position="-192" Score="4.3">
+          <Sequence>AAATTTGAGAACCATTATC</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0976" Name="tyrS" Position="-186" Score="5">
+          <Sequence>GAGAACCATTATCATTTTC</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0976" Name="tyrS" Position="-224" Score="4.5">
+          <Sequence>GAGAATAATTTTTATTAAA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1447" Name="hpt" Position="-272" Score="4.5">
+          <Sequence>TCAAATGATAATAATTCTT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1447" Name="hpt" Position="-266" Score="4.6">
+          <Sequence>GATAATAATTCTTATTGAC</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_2308" Name="cjrC" Position="-56" Score="4.8">
+          <Sequence>GATAATAAGAATAATTCTT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_2308" Name="cjrC" Position="-50" Score="4.2">
+          <Sequence>AAGAATAATTCTTATTTAA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0572" Name="ftr1" Position="-52" Score="4.7">
+          <Sequence>GATAATTGTTATCAATTAC</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0397" Name="sitA" Position="-97" Score="4.3">
+          <Sequence>TTATTTGATAATCATTTGC</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0397" Name="sitA" Position="-91" Score="4.3">
+          <Sequence>GATAATCATTTGCATTTAA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0827" Name="nrdA" Position="-48" Score="4.8">
+          <Sequence>AGGATTTATTATCATTATC</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0827" Name="nrdA" Position="-42" Score="4.3">
+          <Sequence>TATTATCATTATCGATAAC</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1146" Name="ceuA" Position="-40" Score="4.2">
+          <Sequence>ATACATGAGAATTATTTTC</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1146" Name="ceuA" Position="-34" Score="4.3">
+          <Sequence>GAGAATTATTTTCAATTAT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7726186" LocusId="NT05HA_1146" Name="ceuA" Function="ABC-type enterochelin transport system, periplasmic component" />
+          <Members vimssId="7726187" LocusId="NT05HA_1147" Name="ceuB" Function="ABC-type enterochelin transport system, permease component" />
+          <Members vimssId="7726188" LocusId="NT05HA_1148" Name="ceuC" Function="ABC-type enterochelin transport system, permease component" />
+          <Members vimssId="7726189" LocusId="NT05HA_1149" Name="ceuD" Function="ABC-type enterochelin transport system, ATPase component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726308" LocusId="NT05HA_1269" Name="hgpA" Function="Probable hemoglobin and hemoglobin-haptoglobin-binding protein, TonB-dependent receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726610" LocusId="NT05HA_1575" Name="exbB" Function="Ferric siderophore transport system, biopolymer transport protein ExbB" />
+          <Members vimssId="7726609" LocusId="NT05HA_1574" Name="exbD" Function="TonB system transport protein ExbD type-2/biopolymer transport protein" />
+          <Members vimssId="7726608" LocusId="NT05HA_1573" Name="tonB" Function="Ferric siderophore transport system, periplasmic binding protein TonB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726350" LocusId="NT05HA_1311" Name="hasR" Function="Iron siderophore receptor protein, TonB-dependent receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726403" LocusId="NT05HA_1365" Name="cirA" Function="Outer membrane receptor proteins, mostly Fe transport, TonB-dependent" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726333" LocusId="NT05HA_1294" Name="fecB" Function="Iron(III) dicitrate transport system, periplasmic iron-binding protein FecB (TC 3.A.1.14.1)" />
+          <Members vimssId="7726334" LocusId="NT05HA_1295" Name="fecC" Function="Iron(III) dicitrate transport system permease protein FecC (TC 3.A.1.14.1)" />
+          <Members vimssId="7726335" LocusId="NT05HA_1296" Name="fecD" Function="ABC transporter, iron chelate uptake transporter (FeCT) family, permease protein" />
+          <Members vimssId="7726336" LocusId="NT05HA_1297" Name="fecE" Function="Iron(III) dicitrate transport ATP-binding protein FecE (TC 3.A.1.14.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725463" LocusId="NT05HA_0397" Name="sitA" Function="Manganese ABC transporter, periplasmic-binding protein SitA" />
+          <Members vimssId="7725462" LocusId="NT05HA_0396" Name="sitB" Function="Manganese ABC transporter, ATP-binding protein SitB" />
+          <Members vimssId="7725461" LocusId="NT05HA_0395" Name="sitC" Function="Manganese ABC transporter, inner membrane permease protein SitC" />
+          <Members vimssId="7725460" LocusId="NT05HA_0394" Name="sitD" Function="Manganese ABC transporter, inner membrane permease protein SitD" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725633" LocusId="NT05HA_0572" Name="ftr1" Function="High-affinity Fe2+/Pb2+ permease" />
+          <Members vimssId="7725632" LocusId="NT05HA_0571" Name="tpd" Function="Uncharacterized protein probably involved in high-affinity Fe2+ transport" />
+          <Members vimssId="7725631" LocusId="NT05HA_0570" Name="COG4393" Function="integral membrane protein" />
+          <Members vimssId="7725630" LocusId="NT05HA_0569" Name="salY" Function="ABC-type antimicrobial peptide transport system, permease component" />
+          <Members vimssId="7725629" LocusId="NT05HA_0568" Name="lolE" Function="ABC-type transport system, involved in lipoprotein release, permease component" />
+          <Members vimssId="7725628" LocusId="NT05HA_0567" Name="salX" Function="ABC-type antimicrobial peptide transport system, ATPase component" />
+          <Members vimssId="7725627" LocusId="NT05HA_0566" Name="tpx" Function="Putative thioredoxin precursor" />
+          <Members vimssId="7725626" LocusId="NT05HA_0565" Name="PF00034" Function="Cytochrome C553 (soluble cytochrome f)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7727342" LocusId="NT05HA_2308" Name="cjrC" Function="TonB-dependent receptor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726486" LocusId="NT05HA_1447" Name="hpt" Function="Hypoxanthine-guanine phosphoribosyltransferase (EC 2.4.2.8)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725881" LocusId="NT05HA_0827" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+          <Members vimssId="7725882" LocusId="NT05HA_0828" Name="nrdB" Function="Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726021" LocusId="NT05HA_0976" Name="tyrS" Function="Tyrosyl-tRNA synthetase (EC 6.1.1.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2098</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="GalR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=51833" />
+      <Effector>Galactose</Effector>
+      <Pathway>Galactose utilization</Pathway>
+      <LocusTag Key="NT05HA_1260" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7726299&amp;disp=0" />
+      <BiologicalProcess>Galactose utilization</BiologicalProcess>
+      <Regulog Key="GalR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5263" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_1259" Name="galT" Position="-49" Score="6.3">
+          <Sequence>TTTTGTAATCGTTTTCATAA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1260" Name="galR" Position="-224" Score="5.7">
+          <Sequence>TTATGAAAACGATTACAAAA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1260" Name="galR" Position="-76" Score="5.2">
+          <Sequence>AAAAGTAAGCGTTTTCAAAT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1261" Name="mglB" Position="-187" Score="6.2">
+          <Sequence>AGATGTAATCGTTTTCATAA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7726299" LocusId="NT05HA_1260" Name="galR" Function="Transcriptional regulator for galactose utilization, LacI family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726298" LocusId="NT05HA_1259" Name="galT" Function="Galactose-1-phosphate uridylyltransferase (EC 2.7.7.10)" />
+          <Members vimssId="7726297" LocusId="NT05HA_1258" Name="galK" Function="Galactokinase (EC 2.7.1.6)" />
+          <Members vimssId="7726296" LocusId="NT05HA_1257" Name="galM" Function="Aldose 1-epimerase (EC 5.1.3.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726300" LocusId="NT05HA_1261" Name="mglB" Function="Galactose/methyl galactoside ABC transport system, D-galactose-binding periplasmic protein MglB (TC 3.A.1.2.3)" />
+          <Members vimssId="7726301" LocusId="NT05HA_1262" Name="mglA" Function="Galactose/methyl galactoside ABC transport system, ATP-binding protein MglA (EC 3.6.3.17)" />
+          <Members vimssId="7726302" LocusId="NT05HA_1263" Name="mglC" Function="Galactose/methyl galactoside ABC transporter, permease protein mglC (TC 3.A.1.2.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5263</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="GntR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49810" />
+      <Effector>Gluconate</Effector>
+      <Pathway>Gluconate utilization</Pathway>
+      <LocusTag Key="NT05HA_1090" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7726132&amp;disp=0" />
+      <BiologicalProcess>Gluconate utilization</BiologicalProcess>
+      <Regulog Key="GntR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5045" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_1087" Name="gntU" Position="-171" Score="5.9">
+          <Sequence>AAATGTTATCGGTAACAATC</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1087" Name="gntU" Position="-40" Score="6.2">
+          <Sequence>GTATGTTACCAGTAACATTT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1088" Name="gntK" Position="-195" Score="6.2">
+          <Sequence>AAATGTTACTGGTAACATAC</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1088" Name="gntK" Position="-64" Score="5.9">
+          <Sequence>GATTGTTACCGATAACATTT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7726129" LocusId="NT05HA_1087" Name="gntU" Function="Low-affinity gluconate transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726130" LocusId="NT05HA_1088" Name="gntK" Function="Thermoresistant gluconokinase (EC 2.7.1.12)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5045</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17838" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="NT05HA_1200" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7726240&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1926" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_0581" Name="erpA" Position="-67" Score="4.9">
+          <Sequence>ATTCTTGAATGCCTTAGAGGGTTAT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1766" Name="nfuA" Position="-43" Score="5.3">
+          <Sequence>ATGCCCGACAAAATCAATCAAGTTT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1200" Name="iscR" Position="-68" Score="5.2">
+          <Sequence>ATAGTTGACTAAACAAGTCAACAAT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7726803" LocusId="NT05HA_1766" Name="nfuA" Function="NfuA Fe-S protein maturation" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726240" LocusId="NT05HA_1200" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="7726241" LocusId="NT05HA_1201" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+          <Members vimssId="7726242" LocusId="NT05HA_1202" Name="iscU" Function="Iron-sulfur cluster assembly scaffold protein IscU" />
+          <Members vimssId="7726243" LocusId="NT05HA_1203" Name="iscA" Function="Iron binding protein IscA for iron-sulfur cluster assembly" />
+          <Members vimssId="7726244" LocusId="NT05HA_1204" Name="hscB" Function="Chaperone protein HscB" />
+          <Members vimssId="7726245" LocusId="NT05HA_1205" Name="hscA" Function="Chaperone protein HscA" />
+          <Members vimssId="7726246" LocusId="NT05HA_1206" Name="fdx" Function="ferredoxin, 2Fe-2S type, ISC system" />
+          <Members vimssId="7726247" LocusId="NT05HA_1207" Name="yfhJ" Function="putative Fe-S cluster assembly protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725641" LocusId="NT05HA_0581" Name="erpA" Function="ErpA, essential respiratory protein A / probable iron binding protein from the HesB_IscA_SufA family" />
+          <Members vimssId="7725640" LocusId="NT05HA_0580" Name="yacL" Function="Conserved hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1926</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28286" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="NT05HA_1581" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7726616&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2975" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_0999" Name="impA" Position="-37" Score="5.6">
+          <Sequence>CACTGTACAAAAACACAGTT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0999" Name="impA" Position="-63" Score="5.7">
+          <Sequence>TACTGTATATAACAACAGTA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1941" Name="recA" Position="-67" Score="6.1">
+          <Sequence>TACTGTATATTAATACAGTT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1581" Name="lexA" Position="-28" Score="4.9">
+          <Sequence>TCATGTATATATTAACAGGA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1581" Name="lexA" Position="-50" Score="5.2">
+          <Sequence>TTCTGTATATAATACCAGTC</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_2208" Name="uvrA" Position="-79" Score="5.4">
+          <Sequence>AACTGGATATTTGCACAGTT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_2209" Name="ssb" Position="-110" Score="5.4">
+          <Sequence>AACTGTGCAAATATCCAGTT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0196" Name="mfd" Position="-86" Score="4.8">
+          <Sequence>CACTGTTTTTTTATACAGAC</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1086" Name="uvrD" Position="-36" Score="5.3">
+          <Sequence>GCCTGTACAAAAAAACAGTA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1353" Name="ruvA" Position="-66" Score="5.6">
+          <Sequence>AACTGGATATTTATCCAGTT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1273" Name="recN" Position="-55" Score="6.1">
+          <Sequence>TACTGTATATTAAAACAGTA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7726044" LocusId="NT05HA_0999" Name="impA" Function="SOS-response transcriptional repressors (RecA-mediated autopeptidases)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726391" LocusId="NT05HA_1353" Name="ruvA" Function="Holliday junction DNA helicase RuvA" />
+          <Members vimssId="7726390" LocusId="NT05HA_1352" Name="ruvB" Function="Holliday junction DNA helicase RuvB" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726312" LocusId="NT05HA_1273" Name="recN" Function="DNA repair protein RecN" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7727245" LocusId="NT05HA_2209" Name="ssb" Function="Single-stranded DNA-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725268" LocusId="NT05HA_0196" Name="mfd" Function="Transcription-repair coupling factor (superfamily II helicase)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726978" LocusId="NT05HA_1941" Name="recA" Function="Recombinase A" />
+          <Members vimssId="7726977" LocusId="NT05HA_1940" Name="recX" Function="Regulatory protein RecX" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7727244" LocusId="NT05HA_2208" Name="uvrA" Function="Excinuclease ABC subunit A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726616" LocusId="NT05HA_1581" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726128" LocusId="NT05HA_1086" Name="uvrD" Function="ATP-dependent DNA helicase II" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2975</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MetJ" RegulationMode="repressor">
+      <Regulator Key="MetJ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56445" />
+      <Effector>S-adenosylmethionine</Effector>
+      <Pathway>Methionine metabolism; Methionine biosynthesis</Pathway>
+      <LocusTag Key="NT05HA_1785" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7726822&amp;disp=0" />
+      <BiologicalProcess>Methionine metabolism; Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetJ - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5764" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_1785" Name="metJ" Position="-85" Score="5.7">
+          <Sequence>AGCAGTCTTCACGGCT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1785" Name="metJ" Position="-93" Score="6.8">
+          <Sequence>AGAAATCTAGCAGTCT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0341" Name="metE" Position="-46" Score="7.9">
+          <Sequence>AGACGTTTAGCCGTCT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0899" Name="metX" Position="-163" Score="7.9">
+          <Sequence>AGATGTTTAGACGTCT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_2130" Name="metN" Position="-65" Score="6.8">
+          <Sequence>GGCATTCTAGACGTCT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7727166" LocusId="NT05HA_2130" Name="metN" Function="Methionine ABC transporter ATP-binding protein" />
+          <Members vimssId="7727165" LocusId="NT05HA_2129" Name="metI" Function="Methionine ABC transporter permease protein" />
+          <Members vimssId="7727164" LocusId="NT05HA_2128" Name="metQ" Function="Methionine ABC transporter substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725409" LocusId="NT05HA_0341" Name="metE" Function="5-methyltetrahydropteroyltriglutamate-- homocysteine S-methyltransferase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725944" LocusId="NT05HA_0899" Name="metX" Function="Homoserine O-acetyltransferase (EC 2.3.1.31)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726822" LocusId="NT05HA_1785" Name="metJ" Function="S-adenosylmethionine-responsive transcriptional repressor MetJ" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5764</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LysR" RegulationMode="repressor (activator)">
+      <Regulator Key="MetR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=56613" />
+      <Effector>Homocysteine</Effector>
+      <Pathway>Methionine biosynthesis</Pathway>
+      <LocusTag Key="NT05HA_0342" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7725411&amp;disp=0" />
+      <BiologicalProcess>Methionine biosynthesis</BiologicalProcess>
+      <Regulog Key="MetR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5783" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_0341" Name="metE" Position="-122" Score="5.2">
+          <Sequence>ATTAAAATTATTCAT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0342" Name="metR" Position="-157" Score="5.2">
+          <Sequence>ATGAATAATTTTAAT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1325" Name="glyA" Position="-114" Score="4.9">
+          <Sequence>GTGAAAATTTTTCAT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0300" Name="metF" Position="-106" Score="5">
+          <Sequence>ATTAATCTTATTCAT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7725371" LocusId="NT05HA_0300" Name="metF" Function="5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725411" LocusId="NT05HA_0342" Name="metR" Function="Homocysteine-responsive transcriptional regulator of methionine metabolism, LysR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726364" LocusId="NT05HA_1325" Name="glyA" Function="Serine hydroxymethyltransferase (EC 2.1.2.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725409" LocusId="NT05HA_0341" Name="metE" Function="5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5783</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21181" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdenum homeostasis</Pathway>
+      <LocusTag Key="NT05HA_1099" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7726141&amp;disp=0" />
+      <BiologicalProcess>Molybdenum homeostasis</BiologicalProcess>
+      <Regulog Key="ModE - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2294" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_0380" Name="ybgI" Position="-191" Score="6.4">
+          <Sequence>ATCGTTATATATTAAATTGTATAATGAA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1098" Name="modA" Position="-58" Score="6">
+          <Sequence>TTCGTTGTATAATTTGTGCTATATATAA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0272" Name="momA" Position="-68" Score="6.5">
+          <Sequence>TTCATTATATTTATTTTTATATAACCAA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0848" Name="moaA" Position="-252" Score="6.9">
+          <Sequence>ATCGCTATATAAATTTATATATAATTGA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7725447" LocusId="NT05HA_0380" Name="ybgI" Function="Conserved metal-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726140" LocusId="NT05HA_1098" Name="modA" Function="Molybdate ABC transporter, substrate-binding protein" />
+          <Members vimssId="7726139" LocusId="NT05HA_1097" Name="modB" Function="Molybdate ABC transporter, permease protein" />
+          <Members vimssId="7726138" LocusId="NT05HA_1096" Name="modC" Function="Molybdate ABC transporter, ATP-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725900" LocusId="NT05HA_0848" Name="moaA" Function="Molybdenum cofactor biosynthesis protein A" />
+          <Members vimssId="7725899" LocusId="NT05HA_0847" Name="moaC" Function="Molybdenum cofactor biosynthesis protein C" />
+          <Members vimssId="7725898" LocusId="NT05HA_0846" Name="moaD" Function="Molybdopterin synthase sulfur carrier subunit" />
+          <Members vimssId="7725897" LocusId="NT05HA_0845" Name="moaE" Function="Molybdopterin synthase catalytic subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725344" LocusId="NT05HA_0272" Name="momA" Function="Predicted ABC transporter, substrate-binding protein" />
+          <Members vimssId="7725345" LocusId="NT05HA_0273" Name="momB" Function="Predicted ABC transporter, permease protein" />
+          <Members vimssId="7725346" LocusId="NT05HA_0274" Name="momC" Function="Predicted ABC transporter, ATP-binding protein" />
+          <Members vimssId="7725347" LocusId="NT05HA_0275" Name="momD" Function="Predicted pyrophosphorylase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2294</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ROK" RegulationMode="repressor">
+      <Regulator Key="NagC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=18432" />
+      <Effector>N-acetylglucosamine-6-phosphate</Effector>
+      <Pathway>N-acetylglucosamine utilization</Pathway>
+      <LocusTag Key="NT05HA_0409" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7725475&amp;disp=0" />
+      <BiologicalProcess>N-acetylglucosamine utilization</BiologicalProcess>
+      <Regulog Key="NagC - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1991" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_0617" Name="ptsH" Position="-84" Score="5.6">
+          <Sequence>TTATTTTAGTGTTTTAAATAA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1390" Name="rpmE1" Position="-96" Score="5.8">
+          <Sequence>TTATTTTTCTATTGAAAATAA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1390" Name="rpmE1" Position="-33" Score="6.6">
+          <Sequence>TTATTTTTCACTAAAAAATAA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0540" Name="nagE" Position="-36" Score="5.6">
+          <Sequence>TTATTTTATGGAATCAAAAAA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1414" Name="znuA" Position="-103" Score="6.4">
+          <Sequence>TTATTTTTCAAAATAAAAAAA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_2308" Name="omp" Position="-214" Score="6.5">
+          <Sequence>TTATTTTTTATCATAAAATAA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7727342" LocusId="NT05HA_2308" Name="omp" Function="Outer membrane receptor protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726451" LocusId="NT05HA_1414" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725601" LocusId="NT05HA_0540" Name="nagE" Function="PTS system, N-acetylglucosamine-specific IIA component (EC 2.7.1.69) / PTS system, N-acetylglucosamine-specific IIB component (EC 2.7.1.69) / PTS system, N-acetylglucosamine-specific IIC component (EC 2.7.1.69)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726428" LocusId="NT05HA_1390" Name="rpmE1" Function="50S ribosomal protein L31" />
+          <Members vimssId="7726427" LocusId="NT05HA_1389" Name="rpmJ1" Function="ribosomal protein L36" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725678" LocusId="NT05HA_0617" Name="ptsH" Function="Phosphocarrier protein of PTS system" />
+          <Members vimssId="7725679" LocusId="NT05HA_0618" Name="ptsI" Function="Phosphoenolpyruvate-protein phosphotransferase of PTS system (EC 2.7.3.9)" />
+          <Members vimssId="7725680" LocusId="NT05HA_0619" Name="crr" Function="PTS system, glucose-specific IIA component (EC 2.7.1.69)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1991</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LuxR" RegulationMode="activator (repressor)">
+      <Regulator Key="NarP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=41735" />
+      <Effector>Nitrite; Nitrate</Effector>
+      <Pathway>Nitrate and nitrite respiration</Pathway>
+      <LocusTag Key="NT05HA_1602" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7726637&amp;disp=0" />
+      <BiologicalProcess>Nitrate and nitrite respiration</BiologicalProcess>
+      <Regulog Key="NarP - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=4311" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_0812" Name="hybO" Position="-190" Score="4.6">
+          <Sequence>TACCTATTTCTAATTA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1299" Name="frdA" Position="-153" Score="5">
+          <Sequence>TAACTTTTTTGAGGTA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1781" Name="eno" Position="-35" Score="4.1">
+          <Sequence>TAACCCGTTTTGATTA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1606" Name="pckA" Position="-70" Score="4.1">
+          <Sequence>TAACAGTTTTTAGGTA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1606" Name="pckA" Position="-20" Score="4">
+          <Sequence>TAACACTAAAGAGGTG</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1350" Name="cydA" Position="-258" Score="4.6">
+          <Sequence>TACTTATTTGGGGTTA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0112" Name="focA" Position="-202" Score="4.1">
+          <Sequence>TACTCCTATCTAATTA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0026" Name="ccmA" Position="-101" Score="4.1">
+          <Sequence>TACTGCTAAAGAGTTA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0856" Name="torY" Position="-68" Score="4.4">
+          <Sequence>TAACCAATTATGGTTA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1312" Name="adhE" Position="-49" Score="3.7">
+          <Sequence>TAATTCTAACCAGTTA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_2016" Name="napD" Position="-155" Score="4.2">
+          <Sequence>TACCCTGTTATAGTGA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1109" Name="mdh" Position="-31" Score="4.6">
+          <Sequence>TACCCATTTTTAATTA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1388" Name="arcA" Position="-117" Score="3.7">
+          <Sequence>TACCTATAATGTTGTA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0037" Name="nrfA" Position="-250" Score="4.1">
+          <Sequence>TACCTAAAAATTGTTA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0037" Name="nrfA" Position="-190" Score="4.3">
+          <Sequence>TACTTATAAATGGGTA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1617" Name="nqrA" Position="-371" Score="4.6">
+          <Sequence>TACCTCTTTGTGATTA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7726338" LocusId="NT05HA_1299" Name="frdA" Function="Fumarate reductase subunit A (EC 1.3.5.4)" />
+          <Members vimssId="7726339" LocusId="NT05HA_1300" Name="frdB" Function="Fumarate reductase subunit B (EC 1.3.5.4)" />
+          <Members vimssId="7726340" LocusId="NT05HA_1301" Name="frdC" Function="Fumarate reductase subunit C (EC 1.3.5.4)" />
+          <Members vimssId="7726341" LocusId="NT05HA_1302" Name="frdD" Function="Fumarate reductase subunit D (EC 1.3.5.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726426" LocusId="NT05HA_1388" Name="arcA" Function="Anaerobic metabolism transcriptional regulator arcA, OmpR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726151" LocusId="NT05HA_1109" Name="mdh" Function="Malate dehydrogenase (EC 1.1.1.37)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725908" LocusId="NT05HA_0856" Name="torY" Function="Biotin sulfoxide reductase, cytochrome c-type" />
+          <Members vimssId="7725909" LocusId="NT05HA_0857" Name="torZ" Function="Biotin sulfoxide reductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726351" LocusId="NT05HA_1312" Name="adhE" Function="Alcohol dehydrogenase (EC 1.1.1.1); Acetaldehyde dehydrogenase (EC 1.2.1.10)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725101" LocusId="NT05HA_0026" Name="ccmA" Function="ABC transporter involved in cytochrome c biogenesis, ATPase component CcmA" />
+          <Members vimssId="7725102" LocusId="NT05HA_0027" Name="ccmB" Function="ABC transporter involved in cytochrome c biogenesis, CcmB subunit" />
+          <Members vimssId="7725103" LocusId="NT05HA_0028" Name="ccmC" Function="Cytochrome c-type biogenesis protein CcmC, putative heme lyase for CcmE" />
+          <Members vimssId="7725104" LocusId="NT05HA_0029" Name="ccmD" Function="Cytochrome c-type biogenesis protein CcmD, interacts with CcmCE" />
+          <Members vimssId="7725105" LocusId="NT05HA_0030" Name="ccmE" Function="Cytochrome c-type biogenesis protein CcmE, heme chaperone" />
+          <Members vimssId="7725106" LocusId="NT05HA_0031" Name="ccmF" Function="Cytochrome c heme lyase, subunit CcmF" />
+          <Members vimssId="7725107" LocusId="NT05HA_0032" Name="ccmG" Function="Cytochrome c-type biogenesis protein CcmG/DsbE, thiol:disulfide oxidoreductase" />
+          <Members vimssId="7725108" LocusId="NT05HA_0033" Name="ccmH" Function="Cytochrome c heme lyase, subunit CcmH" />
+          <Members vimssId="7725109" LocusId="NT05HA_0034" Name="ccmH" Function="Cytochrome c heme lyase, subunit CcmH" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7727053" LocusId="NT05HA_2016" Name="napD" Function="Periplasmic nitrate reductase component NapD" />
+          <Members vimssId="7727052" LocusId="NT05HA_2015" Name="napA" Function="Periplasmic nitrate reductase precursor (EC 1.7.99.4)" />
+          <Members vimssId="7727051" LocusId="NT05HA_2014" Name="napG" Function="Periplasmic nitrate reductase, ferredoxin-type protein NapG" />
+          <Members vimssId="7727050" LocusId="NT05HA_2013" Name="napH" Function="Periplasmic nitrate reductase, polyferredoxin NapH" />
+          <Members vimssId="7727049" LocusId="NT05HA_2012" Name="napB" Function="Nitrate reductase cytochrome c550-type subunit" />
+          <Members vimssId="7727048" LocusId="NT05HA_2011" Name="napC" Function="Cytochrome c-type protein NapC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725112" LocusId="NT05HA_0037" Name="nrfA" Function="Nitrite reductase, cytochrome c(552)" />
+          <Members vimssId="7725113" LocusId="NT05HA_0038" Name="nrfB" Function="Cytochrome c-type protein NrfB precursor" />
+          <Members vimssId="7725114" LocusId="NT05HA_0039" Name="nrfC" Function="Nitrite reductase, Fe-S center subunit" />
+          <Members vimssId="7725115" LocusId="NT05HA_0040" Name="nrfD" Function="Nitrite reductase, NrfD component" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725186" LocusId="NT05HA_0112" Name="focA" Function="Formate transporter, FNT family" />
+          <Members vimssId="7725187" LocusId="NT05HA_0113" Name="pflB" Function="Pyruvate formate-lyase (EC 2.3.1.54)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726388" LocusId="NT05HA_1350" Name="cydA" Function="Cytochrome d ubiquinol oxidase subunit I (EC 1.10.3.-)" />
+          <Members vimssId="7726387" LocusId="NT05HA_1349" Name="cydB" Function="Cytochrome d ubiquinol oxidase subunit II (EC 1.10.3.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726652" LocusId="NT05HA_1617" Name="nqrA" Function="Na(+)-translocating NADH-quinone reductase, subunit A (EC 1.6.5.-)" />
+          <Members vimssId="7726651" LocusId="NT05HA_1616" Name="nqrB" Function="Na(+)-translocating NADH-quinone reductase, subunit B (EC 1.6.5.-)" />
+          <Members vimssId="7726650" LocusId="NT05HA_1615" Name="nqrC" Function="Na(+)-translocating NADH-quinone reductase, subunit C (EC 1.6.5.-)" />
+          <Members vimssId="7726649" LocusId="NT05HA_1614" Name="nqrD" Function="Na(+)-translocating NADH-quinone reductase, subunit D (EC 1.6.5.-)" />
+          <Members vimssId="7726648" LocusId="NT05HA_1613" Name="nqrE" Function="Na(+)-translocating NADH-quinone reductase, subunit E (EC 1.6.5.-)" />
+          <Members vimssId="7726647" LocusId="NT05HA_1612" Name="nqrF" Function="Na(+)-translocating NADH-quinone reductase, subunit F (EC 1.6.5.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725866" LocusId="NT05HA_0812" Name="hybO" Function="Hydrogenase II, small subunit (EC 1.12.99.6)" />
+          <Members vimssId="7725867" LocusId="NT05HA_0813" Name="hybA" Function="Hydrogenase II, FeS ferredoxin-type component (EC 1.12.99.6)" />
+          <Members vimssId="7725868" LocusId="NT05HA_0814" Name="hybB" Function="Hydrogenase II, cytochrome b type component (EC 1.12.99.6)" />
+          <Members vimssId="7725869" LocusId="NT05HA_0815" Name="hybC" Function="Hydrogenase II, large subunit (EC 1.12.99.6)" />
+          <Members vimssId="7725870" LocusId="NT05HA_0816" Name="hybD" Function="Hydrogenase II, predicted maturation peptidase (EC 1.12.99.6)" />
+          <Members vimssId="7725871" LocusId="NT05HA_0817" Name="hybE" Function="Hydrogenase II, maturation chaperone (EC 1.12.99.6)" />
+          <Members vimssId="7725872" LocusId="NT05HA_0818" Name="hybG" Function="Hydrogenase II, accessory protein (EC 1.12.99.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726818" LocusId="NT05HA_1781" Name="eno" Function="Enolase (EC 4.2.1.11)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726641" LocusId="NT05HA_1606" Name="pckA" Function="Phosphoenolpyruvate carboxykinase (EC 4.1.1.49)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=4311</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="MerR" RegulationMode="activator">
+      <Regulator Key="NimR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49590" />
+      <Effector>Nickel ion, (Ni2+)</Effector>
+      <Pathway>Nickel homeostasis</Pathway>
+      <LocusTag Key="NT05HA_2207" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7727243&amp;disp=0" />
+      <BiologicalProcess>Nickel homeostasis</BiologicalProcess>
+      <Regulog Key="NimR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5021" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_1176" Name="nikK" Position="-61" Score="6">
+          <Sequence>ACTCTAAAGTCGCTTCAGATT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7726216" LocusId="NT05HA_1176" Name="nikK" Function="Additional periplasmic component NikK of nickel ECF transporter" />
+          <Members vimssId="7726215" LocusId="NT05HA_1175" Name="nikL" Function="Additional component NikL of nickel ECF transporter" />
+          <Members vimssId="7726214" LocusId="NT05HA_1174" Name="nikM" Function="Substrate-specific component NikM of nickel ECF transporter" />
+          <Members vimssId="7726213" LocusId="NT05HA_1173" Name="nikQ" Function="Transmembrane component NikQ of energizing module of nickel ECF transporter" />
+          <Members vimssId="7726212" LocusId="NT05HA_1172" Name="nikO" Function="ATPase component NikO of energizing module of nickel ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5021</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15490" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="NT05HA_1103" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7726145&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1663" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_0064" Name="nrdD" Position="-54" Score="4.9">
+          <Sequence>TATCTATATATAGTAT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0064" Name="nrdD" Position="-86" Score="5.3">
+          <Sequence>ACACTATATGTTGTGT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0693" Name="nrdA" Position="-50" Score="5">
+          <Sequence>CAACTATATGTTGTGT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0693" Name="nrdA" Position="-81" Score="4.8">
+          <Sequence>ACACATTATCTTGTGC</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7725752" LocusId="NT05HA_0693" Name="nrdA" Function="Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725138" LocusId="NT05HA_0064" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1663</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LacI" RegulationMode="repressor">
+      <Regulator Key="PurR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=20849" />
+      <Effector>Hypoxanthine; Guanine</Effector>
+      <Pathway>Purine metabolism</Pathway>
+      <LocusTag Key="NT05HA_0901" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7725946&amp;disp=0" />
+      <BiologicalProcess>Purine metabolism</BiologicalProcess>
+      <Regulog Key="PurR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2256" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_0946" Name="cvpA" Position="-79" Score="6.2">
+          <Sequence>ACGCAAACGTTTTCGT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0780" Name="purE" Position="-64" Score="5.5">
+          <Sequence>TCGCAAACGATTGCGC</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1329" Name="purH" Position="-64" Score="6.2">
+          <Sequence>AAGCAAACGTTTGCGT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1480" Name="purL" Position="-81" Score="5.8">
+          <Sequence>GCGCAAACGTTTTCGT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0418" Name="purC" Position="-71" Score="6.1">
+          <Sequence>ATGCAAACGTTTGCGT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1762" Name="" Position="-20" Score="5.9">
+          <Sequence>TCGCAAACGATTGCGT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0456" Name="yjcD" Position="-78" Score="5.6">
+          <Sequence>GCGCAAACGTTTACTT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1689" Name="folD" Position="-37" Score="5">
+          <Sequence>TAGCAAACGTTTGTAT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_2354" Name="rpiA" Position="-57" Score="5.2">
+          <Sequence>GCGCAAACGTTTACAT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7727388" LocusId="NT05HA_2354" Name="rpiA" Function="Ribose 5-phosphate isomerase A (EC 5.3.1.6)" />
+          <Members vimssId="7727389" LocusId="NT05HA_2355" Name="serA" Function="D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725484" LocusId="NT05HA_0418" Name="purC" Function="Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726723" LocusId="NT05HA_1689" Name="folD" Function="Methylenetetrahydrofolate dehydrogenase (NADP+) (EC 1.5.1.5) / Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725522" LocusId="NT05HA_0456" Name="yjcD" Function="Prediceted xanthine/uracil permease" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726517" LocusId="NT05HA_1480" Name="purL" Function="Phosphoribosylformylglycinamidine synthase, synthetase subunit (EC 6.3.5.3) / Phosphoribosylformylglycinamidine synthase, glutamine amidotransferase subunit (EC 6.3.5.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726799" LocusId="NT05HA_1762" Name="null" Function="phosphoribosylformylglycinamidine cyclo-ligase" />
+          <Members vimssId="7726800" LocusId="NT05HA_1763" Name="purN" Function="Phosphoribosylglycinamide formyltransferase (EC 2.1.2.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725835" LocusId="NT05HA_0780" Name="purE" Function="Phosphoribosylaminoimidazole carboxylase catalytic subunit (EC 4.1.1.21)" />
+          <Members vimssId="7725836" LocusId="NT05HA_0781" Name="purK" Function="Phosphoribosylaminoimidazole carboxylase ATPase subunit (EC 4.1.1.21)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726368" LocusId="NT05HA_1329" Name="purH" Function="IMP cyclohydrolase (EC 3.5.4.10) / Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725991" LocusId="NT05HA_0946" Name="cvpA" Function="Colicin V production protein" />
+          <Members vimssId="7725990" LocusId="NT05HA_0945" Name="purF" Function="Amidophosphoribosyltransferase (EC 2.4.2.14)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2256</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="RpiR" RegulationMode="repressor (activator)">
+      <Regulator Key="SiaR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=18836" />
+      <Effector>Glucosamine-6-phosphate</Effector>
+      <Pathway>Sialic acid utilization</Pathway>
+      <LocusTag Key="NT05HA_0547" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7725608&amp;disp=0" />
+      <BiologicalProcess>Sialic acid utilization</BiologicalProcess>
+      <Regulog Key="SiaR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2035" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_0544" Name="siaP" Position="-117" Score="5.3">
+          <Sequence>TTTGAAATAAAACTTCATT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0544" Name="siaP" Position="-156" Score="4.8">
+          <Sequence>TTTGAAGTGATATTTCAAA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0545" Name="nanE" Position="-117" Score="4.8">
+          <Sequence>TTTGAAATATCACTTCAAA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0545" Name="nanE" Position="-156" Score="5.3">
+          <Sequence>AATGAAGTTTTATTTCAAA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7725605" LocusId="NT05HA_0544" Name="siaP" Function="Sialic acid-binding periplasmic protein SiaP (N-acetylneuraminic-binding protein) (Neu5Ac-binding protein)(Extracytoplasmic solute receptor protein siaP)" />
+          <Members vimssId="7725604" LocusId="NT05HA_0543" Name="siaT" Function="TRAP-type transport system, large permease component, N-acetylneuraminate transporter / TRAP-type transport system, small permease component, N-acetylneuraminate transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725606" LocusId="NT05HA_0545" Name="nanE" Function="N-acetylmannosamine-6-phosphate 2-epimerase (EC 5.1.3.9)" />
+          <Members vimssId="7725607" LocusId="NT05HA_0546" Name="nanK" Function="N-acetylmannosamine kinase (EC 2.7.1.60)" />
+          <Members vimssId="7725608" LocusId="NT05HA_0547" Name="siaR" Function="Sialic acid utilization regulator, RpiR family" />
+          <Members vimssId="7725609" LocusId="NT05HA_0548" Name="nanA" Function="N-acetylneuraminate lyase (EC 4.1.3.3)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2035</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TrpR" RegulationMode="repressor">
+      <Regulator Key="TrpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19584" />
+      <Effector>Tryptophan</Effector>
+      <Pathway>Tryptophan biosynthesis</Pathway>
+      <LocusTag Key="NT05HA_1280" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7726319&amp;disp=0" />
+      <BiologicalProcess>Tryptophan biosynthesis</BiologicalProcess>
+      <Regulog Key="TrpR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2118" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_1280" Name="trpR" Position="-31" Score="6.2">
+          <Sequence>CGCACTAGTTTAATAGTATA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0824" Name="COG4221" Position="-102" Score="5.3">
+          <Sequence>TGTACTAGTGTAGTAGTATG</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0807" Name="trpE" Position="-51" Score="6.9">
+          <Sequence>TGTACTAGTTTAATAGTGCA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1570" Name="mtr" Position="-44" Score="6.2">
+          <Sequence>TGTACTATTATAATAGTCCA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7726319" LocusId="NT05HA_1280" Name="trpR" Function="trp operon repressor" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725878" LocusId="NT05HA_0824" Name="COG4221" Function="Short-chain alcohol dehydrogenase of unknown specificity" />
+          <Members vimssId="7725879" LocusId="NT05HA_0825" Name="trpB" Function="Tryptophan synthase beta chain (EC 4.2.1.20)" />
+          <Members vimssId="7725880" LocusId="NT05HA_0826" Name="trpA" Function="Tryptophan synthase alpha chain (EC 4.2.1.20)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725861" LocusId="NT05HA_0807" Name="trpE" Function="Anthranilate synthase, aminase component (EC 4.1.3.27)" />
+          <Members vimssId="7725862" LocusId="NT05HA_0808" Name="trpG" Function="Anthranilate synthase, amidotransferase component (EC 4.1.3.27)" />
+          <Members vimssId="7725863" LocusId="NT05HA_0809" Name="HI1388.1" Function="hypothetical protein" />
+          <Members vimssId="7725864" LocusId="NT05HA_0810" Name="trpD" Function="Anthranilate phosphoribosyltransferase (EC 2.4.2.18)" />
+          <Members vimssId="7725865" LocusId="NT05HA_0811" Name="trpC" Function="Indole-3-glycerol phosphate synthase (EC 4.1.1.48) / Phosphoribosylanthranilate isomerase (EC 5.3.1.24)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726605" LocusId="NT05HA_1570" Name="mtr" Function="Tryptophan-specific transport protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2118</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="TyrR" RegulationMode="activator (repressor)">
+      <Regulator Key="TyrR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=13471" />
+      <Effector>Tyrosine; Phenylalanine</Effector>
+      <Pathway>Aromatic amino acid metabolism</Pathway>
+      <LocusTag Key="NT05HA_0604" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=7725665&amp;disp=0" />
+      <BiologicalProcess>Aromatic amino acid metabolism</BiologicalProcess>
+      <Regulog Key="TyrR - Pasteurellales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1446" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_0604" Name="tyrR" Position="-83" Score="5.8">
+          <Sequence>CTGTAAATAAAAGTTGCCAA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0124" Name="tpl" Position="-170" Score="4.5">
+          <Sequence>ATTTAAATTAAATTTAACAA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7725198" LocusId="NT05HA_0124" Name="tpl" Function="Tyrosine phenol-lyase (EC 4.1.99.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725665" LocusId="NT05HA_0604" Name="tyrR" Function="Transcriptional regulator of aromatic amino acid biosynthesis" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1446</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40551" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_1865" Name="ribB" Position="-266" Score="112.1">
+          <Sequence>CGCGCATTCTCAGGGCAGGGTGAAAGTCCCTACCGGTGGTGAGCGTGTTAACGTAAGCCCACGAGCGTTTGAGACAAAAGTGCGGGTGATTTTTCCCGTGTTTTTCTCAAAGTCAGCAGATTTGGTGTGAATCCAAAGCCGACAGTGATAGTCTGGATGAAAGAGAATAAAA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7726902" LocusId="NT05HA_1865" Name="ribB" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00504" RegulationMode="RF00504">
+      <Regulator Key="Glycine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40722" />
+      <Effector>Glycine</Effector>
+      <Pathway>Glycine metabolism</Pathway>
+      <LocusTag Key="Glycine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_1471" Name="glyP" Position="-218" Score="59.5">
+          <Sequence>GACGAACCCTTGGAGAGATCCGTGTGCAACATTTAGCACTCACGGACGCCGAAGGCGCAAAGAAGCCATAAAAAAGGCTTTTCAAACGCTCAGGCAAAAGGACAGGGGCAGGAGATT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1471" Name="glyP" Position="-299" Score="36">
+          <Sequence>TGAAGGTAGCTGGAGAGCGGGGAATTGACCCCACGCCGACGAGGTAAAATCTTTCAGGCGCGATGGCAGGGACTGTTACTG</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7726509" LocusId="NT05HA_1471" Name="glyP" Function="Sodium/glycine symporter GlyP" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00514" RegulationMode="RF00514">
+      <Regulator Key="His_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40443" />
+      <Effector />
+      <Pathway>Histidine biosynthesis</Pathway>
+      <LocusTag Key="His_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_1777" Name="hisG" Position="-173" Score="61.1">
+          <Sequence>ACCATCATCACCGTTTACCTGAATAATCTTTCGGGCATTCGGCGTGTTCGGGAGATAACTTCCGAGTACGAGTGAAATGCAGACATAATCAATCACCGTTTAAACAACCCCTCGGAAGGCAACTTTCGAGGGGTTTTGCTT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1368" Name="yuiF" Position="-230" Score="61.1">
+          <Sequence>CATCACCACCATGTAACTGAATGATCTTTCAGGTATTTGGTGTGCTTGGAAGATAACTTCCGAGCAGGTACGAATAAATCATTGCATATCGCCCCCTCGGAAGTCCGCTTTCGAGGGGGTTTCTTTTT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7726406" LocusId="NT05HA_1368" Name="yuiF" Function="Histidine permease YuiF" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726814" LocusId="NT05HA_1777" Name="hisG" Function="ATP phosphoribosyltransferase (EC 2.4.2.17)" />
+          <Members vimssId="7726813" LocusId="NT05HA_1776" Name="hisD" Function="Histidinol dehydrogenase (EC 1.1.1.23)" />
+          <Members vimssId="7726812" LocusId="NT05HA_1775" Name="hisC" Function="Histidinol-phosphate aminotransferase (EC 2.6.1.9)" />
+          <Members vimssId="7726811" LocusId="NT05HA_1774" Name="hisB" Function="Histidinol-phosphatase (EC 3.1.3.15) / Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00557" RegulationMode="RF00557">
+      <Regulator Key="L10_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40398" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="L10_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_1815" Name="rplJ" Position="-173" Score="20.9">
+          <Sequence>TGACCTCATTCAAGCCCCGTCCAAGACCGTAGGGGAGCAATCTTAATTATCCTACGTAGATGGTGAACAGAATAAGAATTTTCTTGCTTCTGTGCACCGAGTTCGTCCTAATAGCAGTTTTATTAGGTATCT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7726852" LocusId="NT05HA_1815" Name="rplJ" Function="LSU ribosomal protein L10p (P0)" />
+          <Members vimssId="7726851" LocusId="NT05HA_1814" Name="rplL" Function="LSU ribosomal protein L7/L12 (P1/P2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00512" RegulationMode="RF00512">
+      <Regulator Key="Leu_leader" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40434" />
+      <Effector />
+      <Pathway>Branched-chain amino acid biosynthesis</Pathway>
+      <LocusTag Key="Leu_leader" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_1565" Name="leuB" Position="-98" Score="18.9">
+          <Sequence>CTTCGTAGGGACAGGCTTTATGCCTGTCCAATATTAACGAGTAATCGGACAGGCATAAAGCCTGTCCCTACTAAATAACAAATAAAGGATAATTCAATAT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1564" Name="leuA" Position="-201" Score="15.7">
+          <Sequence>AGGATTTTTTTATGTTTCACTCTGTTTCTTTATCCCTCAACCTGCTGCTCTTACATTCTTTGTGCGACTAAGTTGTGGATGAAAAACAGTCAAATGTAAAACCCTCAAGATTTAAACCCGCACTCTAATTTGCGGGTTTTTTCGT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7726600" LocusId="NT05HA_1565" Name="leuB" Function="3-isopropylmalate dehydrogenase (EC 1.1.1.85)" />
+          <Members vimssId="7726601" LocusId="NT05HA_1566" Name="leuC" Function="3-isopropylmalate dehydratase large subunit (EC 4.2.1.33)" />
+          <Members vimssId="7726602" LocusId="NT05HA_1567" Name="leuD" Function="3-isopropylmalate dehydratase small subunit (EC 4.2.1.33)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726599" LocusId="NT05HA_1564" Name="leuA" Function="2-isopropylmalate synthase (EC 2.3.3.13)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00168" RegulationMode="RF00168">
+      <Regulator Key="Lysine" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40461" />
+      <Effector>Lysine</Effector>
+      <Pathway>Lysine biosynthesis</Pathway>
+      <LocusTag Key="Lysine" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_0885" Name="lysW" Position="-272" Score="136.8">
+          <Sequence>ACGTATGTAGAGGTGCAAATGTTATAAGTATATTTTCCGAGTGGATAACGGTGAAGAAAATGGAAAGGAACATTTGCCGAAATCGATTAAAAGTCATTTTAATCGGTTGGTGGCGTCTTCGAAAGAACCGTCACTGTCATAGTATATTTACAACTATGGAGCGCTACTGGTTAGGT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7725937" LocusId="NT05HA_0885" Name="lysW" Function="Predicted lysine transporter, NhaC family" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01055" RegulationMode="RF01055">
+      <Regulator Key="MOCO_RNA_motif" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40641" />
+      <Effector>Molybdenum</Effector>
+      <Pathway>Molybdopterin biosynthesis; Molybdenum homeostasis</Pathway>
+      <LocusTag Key="MOCO_RNA_motif" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_0848" Name="moaA" Position="-136" Score="73.1">
+          <Sequence>TTAATCGCATAAACTCCGAGCTTACTTAACCTACGTTTTGTAAAAATATGGTGGTAATGCCAATAGTACGCAGTTTGTATTATTCAGGGATACGTTGGAAACGGCTTATCCTCTCCGTTGTTTAGAAAGGTGTCAAATGCAACCCATT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7725900" LocusId="NT05HA_0848" Name="moaA" Function="Molybdenum cofactor biosynthesis protein MoaA" />
+          <Members vimssId="7725899" LocusId="NT05HA_0847" Name="moaC" Function="Molybdenum cofactor biosynthesis protein MoaC" />
+          <Members vimssId="7725898" LocusId="NT05HA_0846" Name="moaD" Function="Molybdenum cofactor biosynthesis protein MoaD" />
+          <Members vimssId="7725897" LocusId="NT05HA_0845" Name="moaE" Function="Molybdenum cofactor biosynthesis protein MoaE" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00522" RegulationMode="RF00522">
+      <Regulator Key="PreQ1" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40533" />
+      <Effector>Pre-queuosine1</Effector>
+      <Pathway>Queuosine biosynthesis</Pathway>
+      <LocusTag Key="PreQ1" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_0382" Name="queD" Position="-149" Score="40.3">
+          <Sequence>TCAATTTGTAGTTCGCAAACCTCCTACATAAAAAAACTAGGTATCA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0238" Name="queC" Position="-47" Score="48.8">
+          <Sequence>CATCTGTGGTTCGCAACCCTCCCACATAAAAAAACTAAGGATACAT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7725449" LocusId="NT05HA_0382" Name="queD" Function="Queuosine biosynthesis QueD, PTPS-I" />
+          <Members vimssId="7725448" LocusId="NT05HA_0381" Name="queE" Function="Queuosine Biosynthesis QueE Radical SAM" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725310" LocusId="NT05HA_0238" Name="queC" Function="Queuosine Biosynthesis QueC ATPase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00114" RegulationMode="RF00114">
+      <Regulator Key="S15" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40569" />
+      <Effector />
+      <Pathway>Ribosome biogenesis</Pathway>
+      <LocusTag Key="S15" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_2369" Name="rpsO" Position="-63" Score="94.7">
+          <Sequence>GTCGTCGCTGAATTAGAGATCGGCTAACGATGTATCATTAACCACTTCATATTAGGAGTTATTATGTCTCTAAGTACTGAACAAAAAGCAAAAATTGTTGCTGAATATGGTCGTGATGGTAA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7727403" LocusId="NT05HA_2369" Name="rpsO" Function="SSU ribosomal protein S15p (S13e)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=40857" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="NT05HA_1780" Name="thiE" Position="-167" Score="57.2">
+          <Sequence>TTCGCTTGTCGGAGTGCCGGAAGGCTGAGATCGCAACATTGCGGGATCCGTGAACCTGTTGGGGTAATCCCTGCGTAGGAAACAAGTTTTCCTTTTCTTA</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_0532" Name="thiD" Position="-210" Score="58.5">
+          <Sequence>GTTATTAGTCGGGGTGCTTCGTGCTGAGATAATACCCGTGAACCTGATACAGTTAATACTGACGTAGGAAACTAATCGGAGAATCAAAT</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="NT05HA_1226" Name="afuA" Position="-188" Score="56.5">
+          <Sequence>CCCGTTAGTCGGGGTGCTCCGTTATTCAAATAGCGGAGCTGAGAAATACCCGTGAACCTGATACAGTTAGCACTGACGTAGGAAACTAATGCACTTCACTCTG</Sequence>
+          <Bacteria>Aggregatibacter aphrophilus NJ8700</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="7726817" LocusId="NT05HA_1780" Name="thiE" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7726266" LocusId="NT05HA_1226" Name="afuA" Function="ABC transporter substrate-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="7725593" LocusId="NT05HA_0532" Name="thiD" Function="Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+          <Members vimssId="7725594" LocusId="NT05HA_0533" Name="thiB" Function="Thiamin ABC transporter, substrate-binding component" />
+          <Members vimssId="7725595" LocusId="NT05HA_0534" Name="thiP" Function="Thiamin ABC transporter, transmembrane component" />
+          <Members vimssId="7725596" LocusId="NT05HA_0535" Name="thiQ" Function="Thiamin ABC transporter, ATPase component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

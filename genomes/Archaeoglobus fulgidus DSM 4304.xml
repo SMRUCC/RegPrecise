@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Archaeoglobus fulgidus DSM 4304" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="Phr" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53167" />
+      <Effector />
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="AF1298" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=23160&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="Phr - Archaeoglobales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5425" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AF1971" Name="hsp20-2" Position="-56" Score="6">
+          <Sequence>CTACCTAACATAAAGTTAGGTTA</Sequence>
+          <Bacteria>Archaeoglobus fulgidus DSM 4304</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="AF1298" Name="phr" Position="-34" Score="6.3">
+          <Sequence>AAACCTAACATAAAGTTAGTAAC</Sequence>
+          <Bacteria>Archaeoglobus fulgidus DSM 4304</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="23160" LocusId="AF1298" Name="phr" Function="Heat shock response regulator Phr, ArsR family" />
+          <Members vimssId="23159" LocusId="AF1297" Name="vat" Function="ATPase, AAA+ family" />
+          <Members vimssId="23158" LocusId="AF1296" Name="hsp20-1" Function="Small heat shock protein 20" />
+        </Operon>
+        <Operon>
+          <Members vimssId="23829" LocusId="AF1971" Name="hsp20-2" Function="Small heat shock protein 20" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5425</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="[Other]" RegulationMode="">
+      <Regulator Key="RbkR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66571" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="AF2106" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=23965&amp;disp=0" />
+      <BiologicalProcess>Riboflavin biosynthesis</BiologicalProcess>
+      <Regulog Key="RbkR - Archaeoglobales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6879" />
+      <RegulatorySites>
+        <FastaObject LocusTag="AF2106" Name="rbkR" Position="30" Score="5.7">
+          <Sequence>TTTGAGGTGCTTCTCATA</Sequence>
+          <Bacteria>Archaeoglobus fulgidus DSM 4304</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="23965" LocusId="AF2106" Name="rbkR" Function="DNA-binding HTH domain in riboflavin kinase / CTP-dependent archaeal riboflavin kinase" />
+          <Members vimssId="23966" LocusId="AF2107" Name="ribB" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6879</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

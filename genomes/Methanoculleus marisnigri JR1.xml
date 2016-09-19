@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Methanoculleus marisnigri JR1" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="ArsR" RegulationMode="repressor">
+      <Regulator Key="Phr" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=53196" />
+      <Effector />
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Memar_1567" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2005960&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="Phr - Methanomicrobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5429" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Memar_1567" Name="phr" Position="-20" Score="5.5">
+          <Sequence>ATCACTAACATTTAGTAAATATG</Sequence>
+          <Bacteria>Methanoculleus marisnigri JR1</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Memar_1986" Name="hsp20-1" Position="-71" Score="5">
+          <Sequence>GACACTACCTTAAGGTTAGCCTC</Sequence>
+          <Bacteria>Methanoculleus marisnigri JR1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2006398" LocusId="Memar_1986" Name="hsp20-1" Function="Small heat shock protein 20" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2005960" LocusId="Memar_1567" Name="phr" Function="Heat shock response regulator Phr, ArsR family" />
+          <Members vimssId="2005959" LocusId="Memar_1566" Name="hsp20-2" Function="Small heat shock protein 20" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5429</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="[Other]" RegulationMode="">
+      <Regulator Key="RbkR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66604" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="Memar_2359" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2006778&amp;disp=0" />
+      <BiologicalProcess>Riboflavin biosynthesis</BiologicalProcess>
+      <Regulog Key="RbkR - Methanomicrobiales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6884" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Memar_2359" Name="rbkR" Position="-18" Score="5.4">
+          <Sequence>CATCTCAATTATGGTATA</Sequence>
+          <Bacteria>Methanoculleus marisnigri JR1</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2006778" LocusId="Memar_2359" Name="rbkR" Function="DNA-binding HTH domain in riboflavin kinase / CTP-dependent archaeal riboflavin kinase" />
+          <Members vimssId="2006777" LocusId="Memar_2358" Name="ribB" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6884</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Geobacter sulfurreducens PCA" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="BirA" RegulationMode="repressor">
+      <Regulator Key="BirA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15073" />
+      <Effector>Biotin</Effector>
+      <Pathway>Biotin biosynthesis</Pathway>
+      <LocusTag Key="GSU1935" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=382234&amp;disp=0" />
+      <BiologicalProcess>Biotin biosynthesis</BiologicalProcess>
+      <Regulog Key="BirA - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1617" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GSU2629" Name="bioF" Position="-87" Score="8.4">
+          <Sequence>TTGTCAACC--------------GGTTGACGA</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU1584" Name="bioB" Position="-79" Score="8.6">
+          <Sequence>TTGTCAACC--------------AGTTGACAA</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="382941" LocusId="GSU2629" Name="bioF" Function="8-amino-7-oxononanoate synthase (EC 2.3.1.47)" />
+          <Members vimssId="382940" LocusId="GSU2628" Name="bioH" Function="Biotin synthesis protein bioH" />
+          <Members vimssId="382939" LocusId="GSU2627" Name="bioC" Function="Biotin synthesis protein bioC" />
+        </Operon>
+        <Operon>
+          <Members vimssId="381880" LocusId="GSU1584" Name="bioB" Function="Biotin synthase (EC 2.8.1.6)" />
+          <Members vimssId="381879" LocusId="GSU1583" Name="bioD" Function="Dethiobiotin synthetase (EC 6.3.3.3)" />
+          <Members vimssId="381878" LocusId="GSU1582" Name="bioA" Function="Adenosylmethionine-8-amino-7-oxononanoate aminotransferase (EC 2.6.1.62)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1617</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor (activator)">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19557" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="GSU1379" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=381665&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2114" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GSU3271" Name="PF04966" Position="-83" Score="5.2">
+          <Sequence>TTGAAAATGGAATTCAT</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU3274" Name="" Position="-66" Score="5.5">
+          <Sequence>GTGAAAAACATTTTCAA</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU1379" Name="fur" Position="-30" Score="5.3">
+          <Sequence>ATGATATTCACTTTCAG</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU1380" Name="feoB1" Position="-191" Score="5.2">
+          <Sequence>CTGAAAGTGATTTTCAC</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="381665" LocusId="GSU1379" Name="fur" Function="Ferric uptake regulation protein FUR" />
+        </Operon>
+        <Operon>
+          <Members vimssId="381666" LocusId="GSU1380" Name="feoB1" Function="Ferrous iron transport protein B" />
+          <Members vimssId="381667" LocusId="GSU1381" Name="Gura_3000" Function="hypothetical protein" />
+          <Members vimssId="381668" LocusId="GSU1382" Name="ideR" Function="iron (metal) dependent repressor, DtxR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="383590" LocusId="GSU3271" Name="PF04966" Function="Iron-regulated porin, similar to carbohydrate-selective porin OprB" />
+          <Members vimssId="383588" LocusId="GSU3270" Name="feoA1" Function="Ferrous iron transport protein A" />
+        </Operon>
+        <Operon>
+          <Members vimssId="383594" LocusId="GSU3274" Name="null" Function="cytochrome c family protein, putative" />
+          <Members vimssId="383592" LocusId="GSU3273" Name="Gmet_2833" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2114</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="Gbem_0803" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=60944" />
+      <Effector />
+      <Pathway />
+      <LocusTag Key="GSU0018" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=380304&amp;disp=0" />
+      <BiologicalProcess />
+      <Regulog Key="Gbem_0803 - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6258" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GSU0019" Name="" Position="-151" Score="11.8">
+          <Sequence>TACAGTCG-(17)-AACAGTTG-(3)-AAATGCCA</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="380305" LocusId="GSU0019" Name="null" Function="Pentapeptide repeat family protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6258</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="HcpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62684" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="GSU3421" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=383747&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="HcpR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6450" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GSU0674" Name="hcp" Position="-143" Score="5.5">
+          <Sequence>CCTTGACCCACGTCAAGG</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU0105" Name="PF02085" Position="-39" Score="5.2">
+          <Sequence>CTTTGACTTACGTCAAAC</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU3248" Name="ygbA" Position="-51" Score="5.3">
+          <Sequence>TTTTGACCTGCGTCATGA</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU3155" Name="nrfH" Position="-165" Score="4.7">
+          <Sequence>TGTTGACTTGAGTCAAAC</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU0493" Name="ndh" Position="-75" Score="5.2">
+          <Sequence>GCTTGACCTGTGTCAAGG</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU2659" Name="SSF140683" Position="-77" Score="5">
+          <Sequence>TCTTGACCCACATCATAA</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU0224" Name="COG1917" Position="-295" Score="5.3">
+          <Sequence>CCTTGACCTGCATCAAGG</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU0224" Name="COG1917" Position="-78" Score="4.9">
+          <Sequence>CCTTGACTCCCGTCAATG</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="380964" LocusId="GSU0674" Name="hcp" Function="Hydroxylamine reductase (EC 1.7.-.-)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="382972" LocusId="GSU2659" Name="SSF140683" Function="SP0561-like superfamily hypothetical protein" />
+          <Members vimssId="382974" LocusId="GSU2660" Name="frdX2" Function="Ferredoxin fused to uncharacterized domain" />
+          <Members vimssId="382975" LocusId="GSU2661" Name="COG3945" Function="Hemerythrin HHE cation binding domain hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="383566" LocusId="GSU3248" Name="ygbA" Function="hypothetical protein involved in nitrosative stress" />
+          <Members vimssId="383565" LocusId="GSU3247" Name="frdX1" Function="Ferredoxin fused to uncharacterized domain" />
+        </Operon>
+        <Operon>
+          <Members vimssId="380783" LocusId="GSU0493" Name="ndh" Function="NADH dehydrogenase (EC 1.6.99.3)" />
+          <Members vimssId="380784" LocusId="GSU0494" Name="COG2006" Function="Iron-sulfur cluster-binding protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="380514" LocusId="GSU0224" Name="COG1917" Function="hypothetical protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="380397" LocusId="GSU0105" Name="PF02085" Function="cytochrome c family protein, putative" />
+        </Operon>
+        <Operon>
+          <Members vimssId="383471" LocusId="GSU3155" Name="nrfH" Function="Cytochrome c nitrite reductase, small subunit NrfH" />
+          <Members vimssId="383470" LocusId="GSU3154" Name="nrfA" Function="Cytochrome c552 precursor (EC 1.7.2.2)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6450</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49775" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="GSU0031" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=380317&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5041" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GSU0655" Name="rpoH" Position="-52" Score="7.4">
+          <Sequence>TTAGCACTCAGACGTACCGAGTGCTAA</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU3339" Name="groS" Position="-80" Score="7.4">
+          <Sequence>TTAGCACTCAGTCGTATCGAGTGCTAA</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU0031" Name="hrcA" Position="-48" Score="7.4">
+          <Sequence>TTAGCACTCACGTCCCTTGAGTGCTAA</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="380317" LocusId="GSU0031" Name="hrcA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="380318" LocusId="GSU0032" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="380319" LocusId="GSU0033" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="380320" LocusId="GSU0034" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="380945" LocusId="GSU0655" Name="rpoH" Function="Heat shock response RNA polymerase sigma factor RpoH (Sigma 32)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="383663" LocusId="GSU3339" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="383664" LocusId="GSU3340" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5041</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17977" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="GSU2571" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=382882&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1942" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GSU2012" Name="iscU" Position="-59" Score="6.4">
+          <Sequence>ATACCTGACAATTTTGCTATAGTAT</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU2572" Name="cysE" Position="-130" Score="6.5">
+          <Sequence>GAAGTTGACAAAAATTGTAGGGTAT</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="382313" LocusId="GSU2012" Name="iscU" Function="Iron-sulfur cluster assembly scaffold protein IscU" />
+          <Members vimssId="382312" LocusId="GSU2011" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+        </Operon>
+        <Operon>
+          <Members vimssId="382883" LocusId="GSU2572" Name="cysE" Function="Serine acetyltransferase (EC 2.3.1.30)" />
+          <Members vimssId="382882" LocusId="GSU2571" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="382881" LocusId="GSU2570" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1942</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="LexA" RegulationMode="repressor">
+      <Regulator Key="LexA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=28419" />
+      <Effector>DNA damage</Effector>
+      <Pathway>SOS response</Pathway>
+      <LocusTag Key="GSU0041" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=380327&amp;disp=0" />
+      <BiologicalProcess>SOS response</BiologicalProcess>
+      <Regulog Key="LexA - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2990" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GSU0041" Name="lexA" Position="-44" Score="5.5">
+          <Sequence>GGTTGTCACATGTATACC</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU1617" Name="lexA" Position="-36" Score="5.7">
+          <Sequence>GGTTGACATATGTCAACC</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="380327" LocusId="GSU0041" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+          <Members vimssId="380328" LocusId="GSU0042" Name="Gmet_1440" Function="Conserved hypothetical protein" />
+          <Members vimssId="380329" LocusId="GSU0043" Name="dinB" Function="DNA polymerase IV (EC 2.7.7.7)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="381913" LocusId="GSU1617" Name="lexA" Function="SOS-response repressor and protease LexA (EC 3.4.21.88)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2990</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="repressor">
+      <Regulator Key="LldR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16697" />
+      <Effector>L-lactate</Effector>
+      <Pathway>Lactate utilization</Pathway>
+      <LocusTag Key="GSU1626" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=381922&amp;disp=0" />
+      <BiologicalProcess>Lactate utilization</BiologicalProcess>
+      <Regulog Key="LldR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1799" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GSU1622" Name="lldP" Position="-126" Score="5.1">
+          <Sequence>AGTTGGTATGACAACTA</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU1622" Name="lldP" Position="-235" Score="5.4">
+          <Sequence>AAGTTGTAATACCAACT</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU1621" Name="lldG" Position="-3" Score="5.1">
+          <Sequence>TAGTTGTCATACCAACT</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU1621" Name="lldG" Position="106" Score="5.4">
+          <Sequence>AGTTGGTATTACAACTT</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="381917" LocusId="GSU1621" Name="lldG" Function="L-lactate dehydrogenase, hypothetical protein subunit LldG" />
+          <Members vimssId="381916" LocusId="GSU1620" Name="lldEF" Function="L-lactate dehydrogenase, Fe-S oxidoreductase subunit LldE / L-lactate dehydrogenase, Iron-sulfur cluster-binding subunit LldF" />
+        </Operon>
+        <Operon>
+          <Members vimssId="381918" LocusId="GSU1622" Name="lldP" Function="L-lactate permease" />
+          <Members vimssId="381919" LocusId="GSU1623" Name="glcD" Function="Predicted glycolate dehydrogenase, 2-subunit type (EC 1.1.99.14), iron-sulfur subunit GlcD" />
+          <Members vimssId="381920" LocusId="GSU1624" Name="glcF" Function="Predicted glycolate dehydrogenase, 2-subunit type (EC 1.1.99.14), iron-sulfur subunit GlcF" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1799</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21320" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdenum homeostasis</Pathway>
+      <LocusTag Key="GSU2964" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=383280&amp;disp=0" />
+      <BiologicalProcess>Molybdenum homeostasis</BiologicalProcess>
+      <Regulog Key="ModE - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2310" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GSU2963" Name="modD" Position="-160" Score="5.8">
+          <Sequence>TATCGTTATGTCATGAAGGTTATAGCGTTT</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="383279" LocusId="GSU2963" Name="modD" Function="Molybdenum transport system protein ModD" />
+          <Members vimssId="383278" LocusId="GSU2962" Name="modA" Function="Molybdenum ABC transporter, periplasmic molybdenum-binding protein ModA (TC 3.A.1.8.1)" />
+          <Members vimssId="383277" LocusId="GSU2961" Name="modB" Function="Molybdenum transport system permease protein ModB (TC 3.A.1.8.1)" />
+          <Members vimssId="383276" LocusId="GSU2960" Name="modC" Function="Molybdenum transport ATP-binding protein ModC (TC 3.A.1.8.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2310</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NikR" RegulationMode="repressor">
+      <Regulator Key="NikR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15995" />
+      <Effector>Nickel ion, (Ni2+)</Effector>
+      <Pathway>Nickel homeostasis</Pathway>
+      <LocusTag Key="GSU2980" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=383296&amp;disp=0" />
+      <BiologicalProcess>Nickel homeostasis</BiologicalProcess>
+      <Regulog Key="NikR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1720" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GSU1279" Name="nikMN" Position="-56" Score="7.6">
+          <Sequence>GTGTTAC--------------GTGACAC</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="381565" LocusId="GSU1279" Name="nikMN" Function="Substrate-specific component NikM of nickel ECF transporter / Additional substrate-specific component NikN of nickel ECF transporter" />
+          <Members vimssId="381566" LocusId="GSU1280" Name="nikQ" Function="Transmembrane component NikQ of energizing module of nickel ECF transporter" />
+          <Members vimssId="381567" LocusId="GSU1281" Name="nikO" Function="ATPase component NikO of energizing module of nickel ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1720</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15629" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="GSU1687" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=381983&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1679" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GSU1871" Name="nrdJ" Position="-93" Score="4.2">
+          <Sequence>ACACCATATATATTGT</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU1871" Name="nrdJ" Position="-91" Score="5.2">
+          <Sequence>ACCATATATATTGTGG</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="382170" LocusId="GSU1871" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1679</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19399" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="GSU1003" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=381292&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2096" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GSU1005" Name="nifR" Position="-41" Score="5.2">
+          <Sequence>TGCCTAAATTTTAAGCA</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU1305" Name="gdhA" Position="-151" Score="4.8">
+          <Sequence>TGCCGATAAATCAGGCA</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU1305" Name="gdhA" Position="-110" Score="4.5">
+          <Sequence>TGCACAGTTTTGGTGCA</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU1305" Name="gdhA" Position="-88" Score="4.8">
+          <Sequence>TGCATAAAATGCAGGCA</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU2806" Name="nifEN" Position="-215" Score="5.1">
+          <Sequence>TGCATAAAAAATGAGCA</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU0938" Name="Gmet_0693" Position="-329" Score="5.3">
+          <Sequence>TGCATAAATAATGGGCA</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU1836" Name="glnB" Position="-266" Score="4.4">
+          <Sequence>TGCCTGATAATTGTGCT</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU1836" Name="glnB" Position="-253" Score="4.1">
+          <Sequence>TGCTCATTTGGTATGCA</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="382134" LocusId="GSU1836" Name="glnB" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="382133" LocusId="GSU1835" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="383120" LocusId="GSU2806" Name="nifEN" Function="Nitrogenase FeMo-cofactor scaffold and assembly protein" />
+        </Operon>
+        <Operon>
+          <Members vimssId="381294" LocusId="GSU1005" Name="nifR" Function="Predicted oxidoreductase, FAD binding" />
+          <Members vimssId="381293" LocusId="GSU1004" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="381292" LocusId="GSU1003" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="381591" LocusId="GSU1305" Name="gdhA" Function="NADP-specific glutamate dehydrogenase (EC 1.4.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="381227" LocusId="GSU0938" Name="Gmet_0693" Function="Conserved hypothetical protein" />
+          <Members vimssId="381228" LocusId="GSU0939" Name="glnK1" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="381229" LocusId="GSU0940" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2096</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="SdhR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62174" />
+      <Effector />
+      <Pathway>Tricarboxylic acid cycle</Pathway>
+      <LocusTag Key="GSU3370" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=383694&amp;disp=0" />
+      <BiologicalProcess>Tricarboxylic acid cycle</BiologicalProcess>
+      <Regulog Key="SdhR2 - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6389" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GSU3371" Name="Gura_4159" Position="-247" Score="6.5">
+          <Sequence>TTGTATACAGTATACAG</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU1106" Name="gltA" Position="-213" Score="6.2">
+          <Sequence>TTGTATACAGTATACTA</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU1176" Name="sdhC" Position="-236" Score="5.9">
+          <Sequence>TAGTATACAGTATACAG</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU0510" Name="sfrB" Position="-99" Score="5.9">
+          <Sequence>GTGCATACTGTATACAC</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU0337" Name="hemL" Position="-221" Score="5.9">
+          <Sequence>GCGTATACTGTATACAA</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU1465" Name="icd" Position="-192" Score="6.8">
+          <Sequence>TTGTATACTGTATACAA</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU3370" Name="sdhR2" Position="-44" Score="6.5">
+          <Sequence>CTGTATACTGTATACAA</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU0338" Name="nuoA-1" Position="-102" Score="5.9">
+          <Sequence>TTGTATACAGTATACGC</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU1660" Name="acnB" Position="-96" Score="5.7">
+          <Sequence>TTGTATACAGTATCCAT</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="381956" LocusId="GSU1660" Name="acnB" Function="Aconitate hydratase 2 (EC 4.2.1.3) / 2-methylisocitrate dehydratase (EC 4.2.1.99)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="623809" LocusId="GSU1106" Name="gltA" Function="Citrate synthase (si) (EC 2.3.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="381463" LocusId="GSU1176" Name="sdhC" Function="Succinate dehydrogenase cytochrome b558 subunit" />
+          <Members vimssId="381464" LocusId="GSU1177" Name="sdhA" Function="Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1)" />
+          <Members vimssId="381465" LocusId="GSU1178" Name="frdB" Function="Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="380799" LocusId="GSU0510" Name="sfrB" Function="Fe(III) reductase, beta subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="381761" LocusId="GSU1465" Name="icd" Function="Isocitrate dehydrogenase [NADP] (EC 1.1.1.42); Monomeric isocitrate dehydrogenase [NADP] (EC 1.1.1.42)" />
+          <Members vimssId="381762" LocusId="GSU1466" Name="mdh" Function="Malate dehydrogenase (EC 1.1.1.37)" />
+          <Members vimssId="381763" LocusId="GSU1467" Name="Gura_2192" Function="2-oxoglutarate oxidoreductase, delta subunit, putative (EC 1.2.7.3)" />
+          <Members vimssId="381764" LocusId="GSU1468" Name="Gura_2191" Function="2-oxoglutarate oxidoreductase, alpha subunit (EC 1.2.7.3)" />
+          <Members vimssId="381765" LocusId="GSU1469" Name="Gura_2190" Function="2-oxoglutarate oxidoreductase, beta subunit (EC 1.2.7.3)" />
+          <Members vimssId="381766" LocusId="GSU1470" Name="Gura_2189" Function="2-oxoglutarate oxidoreductase, gamma subunit (EC 1.2.7.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="380627" LocusId="GSU0338" Name="nuoA-1" Function="NADH ubiquinone oxidoreductase chain A (EC 1.6.5.3)" />
+          <Members vimssId="380628" LocusId="GSU0339" Name="nuoB" Function="NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)" />
+          <Members vimssId="380629" LocusId="GSU0340" Name="nuoC" Function="NADH-ubiquinone oxidoreductase chain C (EC 1.6.5.3)" />
+          <Members vimssId="380630" LocusId="GSU0341" Name="nouD" Function="NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)" />
+          <Members vimssId="380631" LocusId="GSU0342" Name="nuoE-1" Function="NADH-ubiquinone oxidoreductase chain E (EC 1.6.5.3)" />
+          <Members vimssId="380632" LocusId="GSU0343" Name="nouF" Function="NADH-ubiquinone oxidoreductase chain F (EC 1.6.5.3)" />
+          <Members vimssId="380633" LocusId="GSU0344" Name="Gura_4238" Function="NADH-ubiquinone oxidoreductase chain G (EC 1.6.5.3)" />
+          <Members vimssId="380634" LocusId="GSU0345" Name="nuoH-1" Function="NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)" />
+          <Members vimssId="380635" LocusId="GSU0346" Name="nuoI-1" Function="NADH-ubiquinone oxidoreductase chain I (EC 1.6.5.3)" />
+          <Members vimssId="380636" LocusId="GSU0347" Name="nuoJ" Function="NADH-ubiquinone oxidoreductase chain J (EC 1.6.5.3)" />
+          <Members vimssId="380637" LocusId="GSU0348" Name="nuoK" Function="NADH-ubiquinone oxidoreductase chain K (EC 1.6.5.3)" />
+          <Members vimssId="380638" LocusId="GSU0349" Name="nuoL-1" Function="NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)" />
+          <Members vimssId="380639" LocusId="GSU0350" Name="nuoM-1" Function="NADH-ubiquinone oxidoreductase chain M (EC 1.6.5.3)" />
+          <Members vimssId="380640" LocusId="GSU0351" Name="nuoN-2" Function="NADH-ubiquinone oxidoreductase chain N (EC 1.6.5.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="383694" LocusId="GSU3370" Name="sdhR2" Function="Transcriptional regulator of central carbohydrate metabolism, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="383695" LocusId="GSU3371" Name="Gura_4159" Function="Sugar phosphate isomerases/epimerases" />
+        </Operon>
+        <Operon>
+          <Members vimssId="380626" LocusId="GSU0337" Name="hemL" Function="Glutamate-1-semialdehyde aminotransferase (EC 5.4.3.8)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6389</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor">
+      <Regulator Key="Zur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=16169" />
+      <Effector>Zinc ion, (Zn2+)</Effector>
+      <Pathway>Zinc homeostasis</Pathway>
+      <LocusTag Key="GSU2987" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=383303&amp;disp=0" />
+      <BiologicalProcess>Zinc homeostasis</BiologicalProcess>
+      <Regulog Key="Zur - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1739" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GSU2987" Name="zur" Position="-41" Score="7.5">
+          <Sequence>TAAATGGAAATGATTTCTGTTTA</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="383303" LocusId="GSU2987" Name="zur" Function="Zinc uptake regulation protein Zur" />
+          <Members vimssId="383302" LocusId="GSU2986" Name="znuA" Function="Zinc ABC transporter, periplasmic-binding protein ZnuA" />
+          <Members vimssId="383301" LocusId="GSU2985" Name="znuC" Function="Zinc ABC transporter, ATP-binding protein ZnuC" />
+          <Members vimssId="383300" LocusId="GSU2984" Name="znuB" Function="Zinc ABC transporter, inner membrane permease protein ZnuB" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1739</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01055" RegulationMode="RF01055">
+      <Regulator Key="MOCO_RNA_motif" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=55441" />
+      <Effector>Molybdenum</Effector>
+      <Pathway>Molybdopterin biosynthesis; Tungsten homeostasis; Molybdenum homeostasis</Pathway>
+      <LocusTag Key="MOCO_RNA_motif" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GSU2699" Name="moaE" Position="-190" Score="71.3">
+          <Sequence>TATTTTGTTATCTCCGAGCCCATCCGCCTACCAGGAACATTCCCACGGCGGCCGGCCGACGGGTGTTGCTGGAAACGGCAGCGCCTCCCCTCTGGAAAGGAGATTCCGGGCCACGTGCGC</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="383013" LocusId="GSU2699" Name="moaE" Function="Molybdenum cofactor biosynthesis protein MoaE" />
+          <Members vimssId="383014" LocusId="GSU2700" Name="tupB" Function="ABC-type tungstate transport system, periplasmic binding protein" />
+          <Members vimssId="383015" LocusId="GSU2701" Name="tupA" Function="ABC-type tungstate transport system, permease protein" />
+          <Members vimssId="383016" LocusId="GSU2702" Name="tupC" Function="ABC-type tungstate transport system, ATP-binding protein" />
+          <Members vimssId="383017" LocusId="GSU2703" Name="moeA" Function="Molybdopterin biosynthesis protein MoeA" />
+          <Members vimssId="383018" LocusId="GSU2704" Name="moaC" Function="Molybdenum cofactor biosynthesis protein MoaC" />
+          <Members vimssId="383019" LocusId="GSU2705" Name="moaB" Function="Molybdenum cofactor biosynthesis protein MoaB" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48814" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="GSU0605" Name="thiED" Position="-169" Score="86.3">
+          <Sequence>CATAGTCTGCTGGGGGAGTTCTTGGGAACTGAGACGGGCAACGCCCGAACCCTTTGAACCTGATCCGGTTTATACCGGCGTAGGGAAGCGGCCAGAAACAATC</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="GSU0589" Name="thiS" Position="-227" Score="60">
+          <Sequence>ATCGAACCGCTAGGGGAGTTTCGGCTGAGAGCCCGTCTGTGATGCCGTTCGGACCGCGCCCGGATAACAGGGAATAACGCGGCACGGAGCGGCAGGGCGACCCTTCGAACCTGATCCGGGTAATACCGGCGTAGGGAAGCGATAGAACATGGAT</Sequence>
+          <Bacteria>Geobacter sulfurreducens PCA</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="380880" LocusId="GSU0589" Name="thiS" Function="Thiamine biosynthesis protein ThiS" />
+          <Members vimssId="380879" LocusId="GSU0588" Name="thiG" Function="Thiazole synthase" />
+          <Members vimssId="380878" LocusId="GSU0587" Name="thiE" Function="Thiamine monophosphate synthase" />
+          <Members vimssId="380877" LocusId="GSU0586" Name="COG1242" Function="Predicted Fe-S oxidoreductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="380896" LocusId="GSU0605" Name="thiED" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3) / Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+          <Members vimssId="380895" LocusId="GSU0604" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

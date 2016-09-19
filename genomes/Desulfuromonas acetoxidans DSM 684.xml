@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Desulfuromonas acetoxidans DSM 684" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="FUR" RegulationMode="repressor (activator)">
+      <Regulator Key="Fur" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19564" />
+      <Effector>Iron ion, (Fe2+)</Effector>
+      <Pathway>Iron homeostasis</Pathway>
+      <LocusTag Key="Dace_1982" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2318728&amp;disp=0" />
+      <BiologicalProcess>Iron homeostasis</BiologicalProcess>
+      <Regulog Key="Fur - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2114" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dace_1982" Name="fur" Position="-38" Score="5.4">
+          <Sequence>TTGAACATCATTTTCAT</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dace_0095" Name="PF10087" Position="-78" Score="6">
+          <Sequence>TTGAAAATGACTTTCAA</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dace_2814" Name="feoA" Position="-55" Score="5.4">
+          <Sequence>ATGAAATACACTTTCAA</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2318728" LocusId="Dace_1982" Name="fur" Function="Ferric uptake regulation protein FUR" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2318499" LocusId="Dace_2814" Name="feoA" Function="Ferrous iron transport protein A" />
+          <Members vimssId="2318500" LocusId="Dace_2815" Name="feoB" Function="Ferrous iron transport protein B" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2321399" LocusId="Dace_0095" Name="PF10087" Function="hypothetical protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2114</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="CRP" RegulationMode="activator">
+      <Regulator Key="HcpR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62679" />
+      <Effector>Nitric oxide</Effector>
+      <Pathway>Nitrosative stress response</Pathway>
+      <LocusTag Key="Dace_0485" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2320431&amp;disp=0" />
+      <BiologicalProcess>Nitrosative stress response</BiologicalProcess>
+      <Regulog Key="HcpR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6450" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dace_0679" Name="hcp" Position="-86" Score="5.2">
+          <Sequence>TCTTGATCTGGATCAAAT</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2320951" LocusId="Dace_0679" Name="hcp" Function="Hydroxylamine reductase (EC 1.7.-.-)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6450</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="HrcA" RegulationMode="repressor">
+      <Regulator Key="HrcA" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=49782" />
+      <Effector>Heat shock</Effector>
+      <Pathway>Heat shock response</Pathway>
+      <LocusTag Key="Dace_0267" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2321233&amp;disp=0" />
+      <BiologicalProcess>Heat shock response</BiologicalProcess>
+      <Regulog Key="HrcA - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=5041" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dace_0267" Name="hrcA" Position="-86" Score="7.2">
+          <Sequence>TTAGCACTCCGGATGTTTGAGTGCTAA</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dace_1569" Name="rpoH" Position="-63" Score="7.3">
+          <Sequence>TTAGCACTCAAGGCAAGAGAGTGCTAA</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dace_1149" Name="groS" Position="-105" Score="7.2">
+          <Sequence>TTAGCACTCCCTTTTGCTGAGTGCTAA</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2321233" LocusId="Dace_0267" Name="hrcA" Function="Heat shock response transcriptional regulator HrcA, HrcA family" />
+          <Members vimssId="2321232" LocusId="Dace_0266" Name="grpE" Function="Heat shock protein GrpE" />
+          <Members vimssId="2321231" LocusId="Dace_0265" Name="dnaK" Function="Chaperone protein DnaK" />
+          <Members vimssId="2321230" LocusId="Dace_0264" Name="dnaJ" Function="Chaperone protein DnaJ" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2320594" LocusId="Dace_1149" Name="groS" Function="Heat shock protein 60 family co-chaperone GroES" />
+          <Members vimssId="2320593" LocusId="Dace_1148" Name="groL" Function="Heat shock protein 60 family chaperone GroEL" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2319333" LocusId="Dace_1569" Name="rpoH" Function="Heat shock response RNA polymerase sigma factor RpoH (Sigma 32)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=5041</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Rrf2" RegulationMode="activator (repressor)">
+      <Regulator Key="IscR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=17984" />
+      <Effector>Iron-sulfur cluster redox state</Effector>
+      <Pathway>Iron-sulfur cluster biogenesis</Pathway>
+      <LocusTag Key="Dace_1030" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2320255&amp;disp=0" />
+      <BiologicalProcess>Iron-sulfur cluster biogenesis</BiologicalProcess>
+      <Regulog Key="IscR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1942" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dace_1031" Name="cysE" Position="-47" Score="6">
+          <Sequence>ATAGTTGACAGTTATGCTCAGGAAT</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2320256" LocusId="Dace_1031" Name="cysE" Function="Serine acetyltransferase (EC 2.3.1.30)" />
+          <Members vimssId="2320255" LocusId="Dace_1030" Name="iscR" Function="Iron-sulfur cluster regulator IscR" />
+          <Members vimssId="2320254" LocusId="Dace_1029" Name="iscS" Function="Cysteine desulfurase (EC 2.8.1.7), IscS subfamily" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1942</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="ModE" RegulationMode="repressor (activator)">
+      <Regulator Key="ModE" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=21327" />
+      <Effector>Molybdate</Effector>
+      <Pathway>Molybdenum homeostasis</Pathway>
+      <LocusTag Key="Dace_1432" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2319950&amp;disp=0" />
+      <BiologicalProcess>Molybdenum homeostasis</BiologicalProcess>
+      <Regulog Key="ModE - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2310" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dace_2070" Name="omp_mod" Position="-86" Score="5.7">
+          <Sequence>TTGCGTTGTATAGCGTGGCATATAGCGTAA</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2318817" LocusId="Dace_2070" Name="omp_mod" Function="predicted TonB-dependent outer memberane transporter for molybdate" />
+          <Members vimssId="2318816" LocusId="Dace_2069" Name="Dace2069" Function="Duplicated ATPase component Dace2069 of energizing module of predicted ECF transporter" />
+          <Members vimssId="2318815" LocusId="Dace_2068" Name="Dace_2068" Function="Transmembrane component Dace_2068 of energizing module of predicted ECF transporter" />
+          <Members vimssId="2318814" LocusId="Dace_2067" Name="Dace_2067" Function="Core component Dace_2067 of predicted ECF transporter" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2310</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="NrdR" RegulationMode="repressor">
+      <Regulator Key="NrdR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=15636" />
+      <Effector>Deoxyribonucleotides</Effector>
+      <Pathway>Deoxyribonucleotide biosynthesis</Pathway>
+      <LocusTag Key="Dace_2222" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2319568&amp;disp=0" />
+      <BiologicalProcess>Deoxyribonucleotide biosynthesis</BiologicalProcess>
+      <Regulog Key="NrdR - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=1679" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dace_0338" Name="nrdD" Position="-122" Score="4.6">
+          <Sequence>GAACAACATGTTGTAG</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dace_0338" Name="nrdD" Position="-90" Score="4">
+          <Sequence>TCTCTACATCTAGTGT</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dace_1005" Name="nrdJ" Position="-47" Score="4.1">
+          <Sequence>ACACTCCATGTGGTAC</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dace_1005" Name="nrdJ" Position="-78" Score="5">
+          <Sequence>ACACGATATATTGTGT</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dace_0674" Name="nrdD" Position="-422" Score="5">
+          <Sequence>CCACAATATGTTGTGA</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2321090" LocusId="Dace_0338" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+          <Members vimssId="2321089" LocusId="Dace_0337" Name="nrdD fragment" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+          <Members vimssId="2321088" LocusId="Dace_0336" Name="nrdG" Function="Ribonucleotide reductase of class III (anaerobic), activating protein (EC 1.97.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2320945" LocusId="Dace_0674" Name="nrdD" Function="Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)" />
+          <Members vimssId="2320946" LocusId="Dace_0675" Name="null" Function="hypothetical protein" />
+          <Members vimssId="2320947" LocusId="Dace_0676" Name="nrdG" Function="Ribonucleotide reductase of class III (anaerobic), activating protein (EC 1.97.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2320230" LocusId="Dace_1005" Name="nrdJ" Function="Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=1679</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="Fis" RegulationMode="activator (repressor)">
+      <Regulator Key="NtrC" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=19406" />
+      <Effector>Phosphorylated NtrB, signal histidine kinase</Effector>
+      <Pathway>Nitrogen assimilation</Pathway>
+      <LocusTag Key="Dace_0520" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2320466&amp;disp=0" />
+      <BiologicalProcess>Nitrogen assimilation</BiologicalProcess>
+      <Regulog Key="NtrC - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=2096" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dace_0518" Name="nifR" Position="-10" Score="5.1">
+          <Sequence>TGCCTAAATAATGAGCA</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dace_2426" Name="gdhA" Position="-126" Score="4.6">
+          <Sequence>TGTTTATAAAATGTGCA</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dace_0726" Name="nifEN" Position="-310" Score="4.5">
+          <Sequence>TGCTTAAACTTTGAGCA</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dace_1145" Name="amtB" Position="-219" Score="4.9">
+          <Sequence>TGCCCGTTTTTCAGGCA</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dace_1046" Name="glnB" Position="-254" Score="4.3">
+          <Sequence>TGCTTAAAATGTCAGCA</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dace_1046" Name="glnB" Position="-222" Score="4.1">
+          <Sequence>TGAGTAAATAATGTGCA</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2320590" LocusId="Dace_1145" Name="amtB" Function="Ammonium transporter" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2319774" LocusId="Dace_2426" Name="gdhA" Function="NADP-specific glutamate dehydrogenase (EC 1.4.1.4)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2320464" LocusId="Dace_0518" Name="nifR" Function="Predicted oxidoreductase, FAD binding" />
+          <Members vimssId="2320465" LocusId="Dace_0519" Name="ntrB" Function="Nitrogen regulation protein NR(II) (EC 2.7.3.-)" />
+          <Members vimssId="2320466" LocusId="Dace_0520" Name="ntrC" Function="Nitrogen regulation protein NR(I), Fis family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2320271" LocusId="Dace_1046" Name="glnB" Function="Nitrogen regulatory protein P-II" />
+          <Members vimssId="2320270" LocusId="Dace_1045" Name="glnA" Function="Glutamine synthetase type I (EC 6.3.1.2)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2320652" LocusId="Dace_0726" Name="nifEN" Function="Nitrogenase FeMo-cofactor scaffold and assembly protein" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=2096</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/MocR" RegulationMode="">
+      <Regulator Key="PdxQ" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=61298" />
+      <Effector>Pyridoxal-5-phosphate</Effector>
+      <Pathway>Pyridoxine/pyridoxal homeostasis</Pathway>
+      <LocusTag Key="Dace_1191" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2320323&amp;disp=0" />
+      <BiologicalProcess>Pyridoxine/pyridoxal homeostasis</BiologicalProcess>
+      <Regulog Key="PdxQ - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6295" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dace_1192" Name="pdxO" Position="-123" Score="8.3">
+          <Sequence>TTGTCC-(18)-CTGGCA-(10)-TGATAA</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2320324" LocusId="Dace_1192" Name="pdxO" Function="Pyridoxamine 5'-phosphate oxidase-related, FMN-binding" />
+          <Members vimssId="2320325" LocusId="Dace_1193" Name="PF01810" Function="transporter, LysE family" />
+          <Members vimssId="2320326" LocusId="Dace_1194" Name="PF00583" Function="GCN5-related N-acetyltransferase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6295</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="GntR/Others" RegulationMode="">
+      <Regulator Key="SdhR2" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=62181" />
+      <Effector />
+      <Pathway>Tricarboxylic acid cycle</Pathway>
+      <LocusTag Key="Dace_1458" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=2319978&amp;disp=0" />
+      <BiologicalProcess>Tricarboxylic acid cycle</BiologicalProcess>
+      <Regulog Key="SdhR2 - Desulfuromonadales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6389" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dace_2865" Name="sfrB" Position="-121" Score="6.2">
+          <Sequence>CTGCATACTGTATACAA</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dace_1458" Name="sdhR2" Position="-121" Score="6">
+          <Sequence>CTGTATACAGTATACAT</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dace_1172" Name="sdhC" Position="-279" Score="5.3">
+          <Sequence>ATGCACACTGTATACAA</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dace_3258" Name="nuoA" Position="-264" Score="5.9">
+          <Sequence>TTGTATACAGTATTCAG</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dace_3231" Name="nuoA-1" Position="-131" Score="5.6">
+          <Sequence>TTGCATACAGTATACTC</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dace_1459" Name="Gura_4160" Position="-108" Score="6">
+          <Sequence>ATGTATACTGTATACAG</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dace_0149" Name="Glov_3720" Position="-113" Score="5.9">
+          <Sequence>TTGCATATTGTATACAA</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dace_0517" Name="gltA" Position="-205" Score="5.6">
+          <Sequence>TAGAATACTGTATACAA</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dace_0315" Name="acnB" Position="-130" Score="5.3">
+          <Sequence>TCGTATACAGTACACAG</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2321173" LocusId="Dace_0315" Name="acnB" Function="Aconitate hydratase 2 (EC 4.2.1.3) / 2-methylisocitrate dehydratase (EC 4.2.1.99)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2321361" LocusId="Dace_0149" Name="Glov_3720" Function="2-oxoglutarate oxidoreductase, alpha subunit (EC 1.2.7.3)" />
+          <Members vimssId="2321362" LocusId="Dace_0150" Name="null" Function="2-oxoglutarate oxidoreductase, beta subunit (EC 1.2.7.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2320463" LocusId="Dace_0517" Name="gltA" Function="Citrate synthase (si) (EC 2.3.3.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2318462" LocusId="Dace_3258" Name="nuoA" Function="NADH-ubiquinone oxidoreductase chain A (EC 1.6.5.3)" />
+          <Members vimssId="2318461" LocusId="Dace_3257" Name="nuoB" Function="NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)" />
+          <Members vimssId="2318460" LocusId="Dace_3256" Name="nuoC" Function="NADH-ubiquinone oxidoreductase chain C (EC 1.6.5.3)" />
+          <Members vimssId="2318459" LocusId="Dace_3255" Name="nuoD" Function="NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)" />
+          <Members vimssId="2318458" LocusId="Dace_3254" Name="nuoH" Function="NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)" />
+          <Members vimssId="2318457" LocusId="Dace_3253" Name="nuoI" Function="NADH-ubiquinone oxidoreductase chain I (EC 1.6.5.3)" />
+          <Members vimssId="2318456" LocusId="Dace_3252" Name="nuoJ" Function="NADH-ubiquinone oxidoreductase chain J (EC 1.6.5.3)" />
+          <Members vimssId="2318455" LocusId="Dace_3251" Name="nuoK" Function="NADH-ubiquinone oxidoreductase chain K (EC 1.6.5.3)" />
+          <Members vimssId="2318454" LocusId="Dace_3250" Name="nuoL" Function="NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2320617" LocusId="Dace_1172" Name="sdhC" Function="Succinate dehydrogenase cytochrome b558 subunit" />
+          <Members vimssId="2320616" LocusId="Dace_1171" Name="sdhA" Function="Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1)" />
+          <Members vimssId="2320615" LocusId="Dace_1170" Name="frdB" Function="Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2318553" LocusId="Dace_2865" Name="sfrB" Function="Fe(III) reductase, beta subunit" />
+          <Members vimssId="2318552" LocusId="Dace_2864" Name="sfrA" Function="Fe(III) reductase, alpha subunit" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2318435" LocusId="Dace_3231" Name="nuoA-1" Function="NADH ubiquinone oxidoreductase chain A (EC 1.6.5.3)" />
+          <Members vimssId="2318434" LocusId="Dace_3230" Name="nuoB" Function="NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)" />
+          <Members vimssId="2318433" LocusId="Dace_3229" Name="nuoC" Function="NADH-ubiquinone oxidoreductase chain C (EC 1.6.5.3)" />
+          <Members vimssId="2318432" LocusId="Dace_3228" Name="nouD" Function="NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)" />
+          <Members vimssId="2318431" LocusId="Dace_3227" Name="nuoH-1" Function="NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)" />
+          <Members vimssId="2318430" LocusId="Dace_3226" Name="Geob_0470" Function="NADH-quinone oxidoreductase, chain I" />
+          <Members vimssId="2318429" LocusId="Dace_3225" Name="nuoJ" Function="NADH-ubiquinone oxidoreductase chain J (EC 1.6.5.3)" />
+          <Members vimssId="2318428" LocusId="Dace_3224" Name="nuoK" Function="NADH-ubiquinone oxidoreductase chain K (EC 1.6.5.3)" />
+          <Members vimssId="2318427" LocusId="Dace_3223" Name="nuoL-1" Function="NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)" />
+          <Members vimssId="2318426" LocusId="Dace_3222" Name="nuoM-1" Function="NADH-ubiquinone oxidoreductase chain M (EC 1.6.5.3)" />
+          <Members vimssId="2318425" LocusId="Dace_3221" Name="nuoN-2" Function="NADH-ubiquinone oxidoreductase chain N (EC 1.6.5.3)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2319978" LocusId="Dace_1458" Name="sdhR2" Function="Transcriptional regulator of central carbohydrate metabolism, GntR family" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2319979" LocusId="Dace_1459" Name="Gura_4160" Function="K+ transport systems, NAD-binding component" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6389</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00050" RegulationMode="RF00050">
+      <Regulator Key="FMN" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48812" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="FMN" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dace_1777" Name="" Position="-228" Score="124.6">
+          <Sequence>CCTATTCTCAGGGCGGGGTGAAATTCCCCACCGGCGGTGACTCCTTGTGAGAAGCCCGCGAGCGCCTTTATTATTGGGATAAAGGGTCAGCAGATCTGGTGAGATTCCAGAGCCGACGGTTATAGTCCGGATGAAAGAGGATATTCAG</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2319160" LocusId="Dace_1777" Name="null" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF01055" RegulationMode="RF01055">
+      <Regulator Key="MOCO_RNA_motif" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=55436" />
+      <Effector>Molybdenum</Effector>
+      <Pathway>Molybdopterin biosynthesis; Tungsten homeostasis; Molybdenum homeostasis</Pathway>
+      <LocusTag Key="MOCO_RNA_motif" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dace_0663" Name="aor" Position="-154" Score="62.5">
+          <Sequence>CCAGCCCTTAAATCTCCGAGCCGCTACCACCTACGAGCGTGATCATGGTGGTCCGGCCGCCAGGTGGTCCCGGAAACGGTATCGCCCCCCATGTTTGGAAAGGAGATTTCCGCCATGAGCG</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dace_1415" Name="aor" Position="-157" Score="77.7">
+          <Sequence>GTACTATCAAGATCTCCGAGCCTGCCCCCCCTACGGAGGTTGCCTTTAAGGGGACAGGCCTCAGGGTTGCATTGGAAACGGTGTGGCCTCCCAGTCTTGGAAAGGAGATTCTTACCATGCGCT</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dace_1417" Name="tupB" Position="-204" Score="66.2">
+          <Sequence>AATAGTTACAACTCCGAGTCTGTTCACCTACCGGCACATCCCAAGGTGGCAGGCCTATGGGTTCTTCGGGAAACTGGCGAGCCTCCCACTCTTGGAAAGGAGCTGACGGACATTAATCAT</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2319935" LocusId="Dace_1417" Name="tupB" Function="ABC-type tungstate transport system, periplasmic binding protein" />
+          <Members vimssId="2319936" LocusId="Dace_1418" Name="tupA" Function="ABC-type tungstate transport system, permease protein" />
+          <Members vimssId="2319937" LocusId="Dace_1419" Name="tupC" Function="ABC-type tungstate transport system, ATP-binding protein" />
+          <Members vimssId="2319938" LocusId="Dace_1420" Name="moeA" Function="Molybdopterin biosynthesis protein MoeA" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2319933" LocusId="Dace_1415" Name="aor" Function="Tungsten-containing aldehyde ferredoxin oxidoreductase (EC 1.2.7.5)" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2320933" LocusId="Dace_0663" Name="aor" Function="Tungsten-containing aldehyde ferredoxin oxidoreductase (EC 1.2.7.5)" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+    <Regulators Type="RNA" Family="RF00059" RegulationMode="RF00059">
+      <Regulator Key="TPP" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=48821" />
+      <Effector>Thiamine pyrophosphate</Effector>
+      <Pathway>Thiamine biosynthesis</Pathway>
+      <LocusTag Key="TPP" Value="" />
+      <BiologicalProcess />
+      <Regulog Key="" Value="http://regprecise.lbl.gov/RegPrecise/" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Dace_0922" Name="thiED" Position="-105" Score="68.3">
+          <Sequence>ATGGCTGCTGGGGGAGTGATTCACTGAGAGCTCTGTTAGATTGGAGCGACCCTTGGAACCTGATCCGGATTATACCGGCGTAGGGAAGCGACCTGACAACACCGT</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Dace_1222" Name="thiF" Position="-180" Score="69">
+          <Sequence>TGAAAAGCCCTGGGGGAGTTTATTACTGAGAGTCCTGTTGCGGGACGACCCTTAGAACCTGATCCGGGTTATACCGGCGTAGGGAAGCGGCACTTTATACGG</Sequence>
+          <Bacteria>Desulfuromonas acetoxidans DSM 684</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="2320354" LocusId="Dace_1222" Name="thiF" Function="Sulfur carrier protein adenylyltransferase ThiF" />
+          <Members vimssId="2320353" LocusId="Dace_1221" Name="thiS" Function="Thiamine biosynthesis protein ThiS" />
+          <Members vimssId="2320352" LocusId="Dace_1220" Name="thiG" Function="Thiazole synthase" />
+          <Members vimssId="2320351" LocusId="Dace_1219" Name="thiH" Function="Thiazole biosynthesis ThiH" />
+          <Members vimssId="2320350" LocusId="Dace_1218" Name="thiE" Function="Thiamine monophosphate synthase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="2320796" LocusId="Dace_0922" Name="thiED" Function="Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3) / Phosphomethylpyrimidine kinase (EC 2.7.4.7)" />
+          <Members vimssId="2320797" LocusId="Dace_0923" Name="thiC" Function="Thiamin biosynthesis protein ThiC" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>

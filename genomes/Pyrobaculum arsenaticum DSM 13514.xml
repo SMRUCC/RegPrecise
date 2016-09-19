@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BacteriaGenome xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BacteriaGenome genomeId="0" name="Pyrobaculum arsenaticum DSM 13514" taxonomyId="0" />
+  <Regulons>
+    <Regulators Type="TF" Family="[Other]" RegulationMode="">
+      <Regulator Key="RbkR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=66575" />
+      <Effector>Flavin mononucleotide</Effector>
+      <Pathway>Riboflavin biosynthesis</Pathway>
+      <LocusTag Key="Pars_0815" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3494958&amp;disp=0" />
+      <BiologicalProcess>Riboflavin biosynthesis</BiologicalProcess>
+      <Regulog Key="RbkR - Thermoproteales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6880" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pars_1353" Name="ribB" Position="-36" Score="3.7">
+          <Sequence>AGAAAAAAAGAGTTAACC</Sequence>
+          <Bacteria>Pyrobaculum arsenaticum DSM 13514</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pars_1353" Name="ribB" Position="-68" Score="5.5">
+          <Sequence>TGTAAAAATCAGTTGACA</Sequence>
+          <Bacteria>Pyrobaculum arsenaticum DSM 13514</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pars_1350" Name="arfB" Position="-81" Score="5.6">
+          <Sequence>TGTAAACAAAAGTTACCA</Sequence>
+          <Bacteria>Pyrobaculum arsenaticum DSM 13514</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pars_1351" Name="arfA" Position="-56" Score="5.6">
+          <Sequence>TGGTAACTTTTGTTTACA</Sequence>
+          <Bacteria>Pyrobaculum arsenaticum DSM 13514</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pars_1351" Name="arfA" Position="-23" Score="3.7">
+          <Sequence>TATAGCGAGTTGTTTACA</Sequence>
+          <Bacteria>Pyrobaculum arsenaticum DSM 13514</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3495499" LocusId="Pars_1350" Name="arfB" Function="Formamide hydrolase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3495500" LocusId="Pars_1351" Name="arfA" Function="GTP cyclohydrolase III (EC 3.5.4.29)" />
+          <Members vimssId="3495501" LocusId="Pars_1352" Name="arfC" Function="2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 5'-phosphate reductase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3495502" LocusId="Pars_1353" Name="ribB" Function="3,4-dihydroxy-2-butanone 4-phosphate synthase" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6880</SiteMore>
+    </Regulators>
+    <Regulators Type="TF" Family="[Other]" RegulationMode="repressor">
+      <Regulator Key="ThiR" Value="http://regprecise.lbl.gov/RegPrecise/regulon.jsp?regulon_id=65998" />
+      <Effector>Thiamine phosphate</Effector>
+      <Pathway>Thiamine transport; Thiamine biosynthesis</Pathway>
+      <LocusTag Key="Pars_1934" Value="http://www.microbesonline.org/cgi-bin/fetchLocus.cgi?locus=3496095&amp;disp=0" />
+      <BiologicalProcess>Thiamine transport; Thiamine biosynthesis</BiologicalProcess>
+      <Regulog Key="ThiR - Thermoproteales" Value="http://regprecise.lbl.gov/RegPrecise/regulog.jsp?regulog_id=6820" />
+      <RegulatorySites>
+        <FastaObject LocusTag="Pars_2195" Name="thiT" Position="-33" Score="4.4">
+          <Sequence>ATAAAATATTAAT</Sequence>
+          <Bacteria>Pyrobaculum arsenaticum DSM 13514</Bacteria>
+        </FastaObject>
+        <FastaObject LocusTag="Pars_2186" Name="tenA1" Position="-33" Score="5.1">
+          <Sequence>ATAAAGTTTTTAT</Sequence>
+          <Bacteria>Pyrobaculum arsenaticum DSM 13514</Bacteria>
+        </FastaObject>
+      </RegulatorySites>
+      <lstOperon>
+        <Operon>
+          <Members vimssId="3496354" LocusId="Pars_2186" Name="tenA1" Function="Thiaminase II (EC 3.5.99.2)" />
+          <Members vimssId="3496355" LocusId="Pars_2187" Name="tenA2" Function="Thiaminase" />
+        </Operon>
+        <Operon>
+          <Members vimssId="3496363" LocusId="Pars_2195" Name="thiT" Function="Predicted thiamin transporter ThiT" />
+        </Operon>
+      </lstOperon>
+      <SiteMore>http://regprecise.lbl.gov/RegPrecise/sites.jsp?regulog_id=6820</SiteMore>
+    </Regulators>
+  </Regulons>
+</BacteriaGenome>
